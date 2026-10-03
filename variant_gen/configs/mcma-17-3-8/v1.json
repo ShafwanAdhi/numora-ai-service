@@ -1,0 +1,90 @@
+{
+  "question_id": "mcma-17-3-8",
+  "config_version": 1,
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "x": -2,
+    "y": 5
+  },
+  "constraints": [
+    "abs(x) != abs(y)"
+  ],
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "a1x": {
+      "gen": "derived",
+      "expr": "y"
+    },
+    "a1y": {
+      "gen": "derived",
+      "expr": "x"
+    },
+    "b1x": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "b1y": {
+      "gen": "derived",
+      "expr": "-x"
+    },
+    "c1x": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "c1y": {
+      "gen": "derived",
+      "expr": "x"
+    },
+    "d1x": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "d1y": {
+      "gen": "derived",
+      "expr": "x"
+    }
+  },
+  "stem": "Titik B({x}, {y}) ditransformasikan. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bayangan B oleh refleksi terhadap garis y = x adalah ({a1x}, {a1y}).",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Bayangan B oleh refleksi terhadap garis y = -x adalah ({b1x}, {b1y}).",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Bayangan B oleh rotasi 90° searah jarum jam terhadap pusat (0,0) adalah ({c1x}, {c1y}).",
+      "correct": "c1x == y and c1y == -x"
+    },
+    {
+      "id": "D",
+      "text": "Bayangan B oleh rotasi 90° berlawanan arah jarum jam terhadap pusat (0,0) adalah ({d1x}, {d1y}).",
+      "correct": true
+    }
+  ]
+}

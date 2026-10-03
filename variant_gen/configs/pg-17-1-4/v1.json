@@ -1,83 +1,77 @@
 {
-  "question_id": "pg-17-1-1",
+  "question_id": "pg-17-1-4",
   "config_version": 1,
   "max_draws": 200,
   "shuffle": true,
   "original_values": {
-    "a": 2,
-    "b": 3,
-    "c": 4,
-    "d": -1
+    "x": 2,
+    "y": -4,
+    "k": 3
   },
   "variables": {
-    "a": {
+    "x": {
       "gen": "range",
       "range": [
-        -8,
-        8
-      ]
-    },
-    "b": {
-      "gen": "range",
-      "range": [
-        -8,
-        8
-      ]
-    },
-    "c": {
-      "gen": "range",
-      "range": [
-        -8,
-        8
+        -9,
+        9
       ],
       "filters": [
         "nozero"
       ]
     },
-    "d": {
+    "y": {
       "gen": "range",
       "range": [
-        -8,
-        8
+        -9,
+        9
       ],
       "filters": [
         "nozero"
+      ]
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4,
+        5
       ]
     },
     "o1x": {
       "gen": "derived",
-      "expr": "a + c"
+      "expr": "x + k"
     },
     "o1y": {
       "gen": "derived",
-      "expr": "b - d"
+      "expr": "y + k"
     },
     "o2x": {
       "gen": "derived",
-      "expr": "a + c"
+      "expr": "k*x"
     },
     "o2y": {
       "gen": "derived",
-      "expr": "b + d"
+      "expr": "k*y"
     },
     "o3x": {
       "gen": "derived",
-      "expr": "a - c"
+      "expr": "k*x"
     },
     "o3y": {
       "gen": "derived",
-      "expr": "b - d"
+      "expr": "y"
     },
     "o4x": {
       "gen": "derived",
-      "expr": "a - c"
+      "expr": "-k*x"
     },
     "o4y": {
       "gen": "derived",
-      "expr": "b + d"
+      "expr": "-k*y"
     }
   },
-  "stem": "Titik A({a}, {b}) ditranslasikan oleh T({c}, {d}). Koordinat bayangan titik A adalah...",
+  "stem": "Titik D({x}, {y}) didilatasi dengan faktor skala {k} terhadap titik pusat (0,0). Koordinat bayangan titik D adalah...",
   "options": [
     {
       "id": "A",

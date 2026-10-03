@@ -1,23 +1,28 @@
 {
-  "question_id": "pg-17-1-1",
+  "question_id": "pg-17-3-1",
   "config_version": 1,
   "max_draws": 200,
   "shuffle": true,
   "original_values": {
-    "a": 2,
-    "b": 3,
-    "c": 4,
-    "d": -1
+    "x": 2,
+    "y": 3,
+    "c": 3,
+    "d": -1,
+    "k": 2
   },
+  "constraints": [
+    "tx != 0",
+    "ty != 0"
+  ],
   "variables": {
-    "a": {
+    "x": {
       "gen": "range",
       "range": [
         -8,
         8
       ]
     },
-    "b": {
+    "y": {
       "gen": "range",
       "range": [
         -8,
@@ -44,40 +49,56 @@
         "nozero"
       ]
     },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "tx": {
+      "gen": "derived",
+      "expr": "x + c"
+    },
+    "ty": {
+      "gen": "derived",
+      "expr": "y + d"
+    },
     "o1x": {
       "gen": "derived",
-      "expr": "a + c"
+      "expr": "tx"
     },
     "o1y": {
       "gen": "derived",
-      "expr": "b - d"
+      "expr": "ty"
     },
     "o2x": {
       "gen": "derived",
-      "expr": "a + c"
+      "expr": "k*tx"
     },
     "o2y": {
       "gen": "derived",
-      "expr": "b + d"
+      "expr": "ty"
     },
     "o3x": {
       "gen": "derived",
-      "expr": "a - c"
+      "expr": "k*tx"
     },
     "o3y": {
       "gen": "derived",
-      "expr": "b - d"
+      "expr": "k*ty"
     },
     "o4x": {
       "gen": "derived",
-      "expr": "a - c"
+      "expr": "tx"
     },
     "o4y": {
       "gen": "derived",
-      "expr": "b + d"
+      "expr": "k*ty"
     }
   },
-  "stem": "Titik A({a}, {b}) ditranslasikan oleh T({c}, {d}). Koordinat bayangan titik A adalah...",
+  "stem": "Titik A({x}, {y}) ditranslasikan oleh T({c}, {d}), kemudian dilanjutkan dengan dilatasi terhadap titik pusat (0,0) dengan faktor skala {k}. Koordinat bayangan akhir titik A adalah...",
   "options": [
     {
       "id": "A",
@@ -87,12 +108,12 @@
     {
       "id": "B",
       "text": "({o2x}, {o2y})",
-      "correct": true
+      "correct": false
     },
     {
       "id": "C",
       "text": "({o3x}, {o3y})",
-      "correct": false
+      "correct": true
     },
     {
       "id": "D",

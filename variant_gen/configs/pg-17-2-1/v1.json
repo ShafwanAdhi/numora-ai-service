@@ -1,23 +1,23 @@
 {
-  "question_id": "pg-17-1-1",
+  "question_id": "pg-17-2-1",
   "config_version": 1,
   "max_draws": 200,
   "shuffle": true,
   "original_values": {
-    "a": 2,
-    "b": 3,
-    "c": 4,
-    "d": -1
+    "x": 4,
+    "y": -2,
+    "c": -3,
+    "d": 5
   },
   "variables": {
-    "a": {
+    "x": {
       "gen": "range",
       "range": [
         -8,
         8
       ]
     },
-    "b": {
+    "y": {
       "gen": "range",
       "range": [
         -8,
@@ -46,48 +46,48 @@
     },
     "o1x": {
       "gen": "derived",
-      "expr": "a + c"
+      "expr": "x + c"
     },
     "o1y": {
       "gen": "derived",
-      "expr": "b - d"
+      "expr": "y + d"
     },
     "o2x": {
       "gen": "derived",
-      "expr": "a + c"
+      "expr": "x + c"
     },
     "o2y": {
       "gen": "derived",
-      "expr": "b + d"
+      "expr": "y - d"
     },
     "o3x": {
       "gen": "derived",
-      "expr": "a - c"
+      "expr": "x - c"
     },
     "o3y": {
       "gen": "derived",
-      "expr": "b - d"
+      "expr": "y + d"
     },
     "o4x": {
       "gen": "derived",
-      "expr": "a - c"
+      "expr": "-(x + c)"
     },
     "o4y": {
       "gen": "derived",
-      "expr": "b + d"
+      "expr": "-(y + d)"
     }
   },
-  "stem": "Titik A({a}, {b}) ditranslasikan oleh T({c}, {d}). Koordinat bayangan titik A adalah...",
+  "stem": "Titik A({x}, {y}) ditranslasikan oleh T({c}, {d}). Koordinat bayangan titik A adalah...",
   "options": [
     {
       "id": "A",
       "text": "({o1x}, {o1y})",
-      "correct": false
+      "correct": true
     },
     {
       "id": "B",
       "text": "({o2x}, {o2y})",
-      "correct": true
+      "correct": false
     },
     {
       "id": "C",

@@ -1,0 +1,96 @@
+{
+  "question_id": "mcma-17-1-7",
+  "config_version": 1,
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "x": -2,
+    "y": 4,
+    "k": 2
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "a1x": {
+      "gen": "derived",
+      "expr": "k*x"
+    },
+    "a1y": {
+      "gen": "derived",
+      "expr": "k*y"
+    },
+    "b1x": {
+      "gen": "derived",
+      "expr": "y"
+    },
+    "b1y": {
+      "gen": "derived",
+      "expr": "-x"
+    },
+    "c1x": {
+      "gen": "derived",
+      "expr": "-x"
+    },
+    "c1y": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "d1x": {
+      "gen": "derived",
+      "expr": "-x"
+    },
+    "d1y": {
+      "gen": "derived",
+      "expr": "y"
+    }
+  },
+  "stem": "Titik Q({x}, {y}). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bayangan Q oleh dilatasi dengan faktor skala {k} terhadap pusat (0,0) adalah ({a1x}, {a1y}).",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Bayangan Q oleh rotasi 90° searah jarum jam terhadap pusat (0,0) adalah ({b1x}, {b1y}).",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Bayangan Q oleh rotasi 180° terhadap pusat (0,0) adalah ({c1x}, {c1y}).",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Bayangan Q oleh dilatasi dengan faktor skala -1 terhadap pusat (0,0) adalah ({d1x}, {d1y}).",
+      "correct": "d1x == -x and d1y == -y"
+    }
+  ]
+}

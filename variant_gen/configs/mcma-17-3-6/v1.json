@@ -1,0 +1,122 @@
+{
+  "question_id": "mcma-17-3-6",
+  "config_version": 1,
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "x": 3,
+    "y": -4,
+    "c": 2,
+    "d": 5,
+    "n": 2
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        -6,
+        6
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        -6,
+        6
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "n": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "k": {
+      "gen": "derived",
+      "expr": "-n"
+    },
+    "a1x": {
+      "gen": "derived",
+      "expr": "-x"
+    },
+    "a1y": {
+      "gen": "derived",
+      "expr": "y"
+    },
+    "b1x": {
+      "gen": "derived",
+      "expr": "x"
+    },
+    "b1y": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "c1x": {
+      "gen": "derived",
+      "expr": "x + c"
+    },
+    "c1y": {
+      "gen": "derived",
+      "expr": "y + d"
+    },
+    "d1x": {
+      "gen": "derived",
+      "expr": "k*x"
+    },
+    "d1y": {
+      "gen": "derived",
+      "expr": "k*y"
+    }
+  },
+  "stem": "Diketahui titik A({x}, {y}). Pilihlah semua pernyataan yang benar terkait analisis koordinat bayangan titik A!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bayangan A oleh refleksi terhadap sumbu Y adalah ({a1x}, {a1y}).",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Bayangan A oleh rotasi 180° terhadap titik pusat (0,0) adalah ({b1x}, {b1y}).",
+      "correct": "b1x == -x and b1y == -y"
+    },
+    {
+      "id": "C",
+      "text": "Bayangan A oleh translasi T({c}, {d}) adalah ({c1x}, {c1y}).",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Bayangan A oleh dilatasi dengan faktor skala {k} terhadap titik pusat (0,0) adalah ({d1x}, {d1y}).",
+      "correct": true
+    }
+  ]
+}

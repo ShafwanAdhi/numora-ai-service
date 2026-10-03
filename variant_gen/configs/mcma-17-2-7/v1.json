@@ -1,0 +1,55 @@
+{
+  "question_id": "mcma-17-2-7",
+  "config_version": 1,
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "L": 20,
+    "k": 3
+  },
+  "variables": {
+    "L": {
+      "gen": "range",
+      "range": [
+        10,
+        60
+      ]
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "cl": {
+      "gen": "derived",
+      "expr": "L*k"
+    }
+  },
+  "stem": "Diketahui segitiga ABC memiliki luas {L} cm². Pilihlah semua pernyataan yang benar jika segitiga tersebut ditransformasikan!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jika ditranslasi, luas segitiga tetap {L} cm².",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jika direfleksi, luas segitiga tetap {L} cm².",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika didilatasi dengan faktor skala {k}, luas segitiga menjadi {cl} cm².",
+      "correct": "cl == L*k*k"
+    },
+    {
+      "id": "D",
+      "text": "Jika dirotasi 90°, luas segitiga tetap {L} cm².",
+      "correct": true
+    }
+  ]
+}

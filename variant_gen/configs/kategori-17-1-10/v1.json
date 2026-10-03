@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-17-1-10",
+  "config_version": 1,
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "x": -4,
+    "y": 6
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        -10,
+        10
+      ],
+      "step": 2,
+      "filters": [
+        "nozero"
+      ]
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        -10,
+        10
+      ],
+      "step": 2,
+      "filters": [
+        "nozero"
+      ]
+    },
+    "s1x": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "s1y": {
+      "gen": "derived",
+      "expr": "x"
+    },
+    "s2x": {
+      "gen": "derived",
+      "expr": "x/2"
+    },
+    "s2y": {
+      "gen": "derived",
+      "expr": "y/2"
+    },
+    "s3x": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "s3y": {
+      "gen": "derived",
+      "expr": "-x"
+    }
+  },
+  "stem": "Titik B({x}, {y}). Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Bayangan B oleh rotasi 90° berlawanan arah jarum jam terhadap pusat (0,0) adalah ({s1x}, {s1y}).",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Bayangan B oleh dilatasi dengan faktor skala 1/2 terhadap pusat (0,0) adalah ({s2x}, {s2y}).",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Bayangan B oleh rotasi 90° searah jarum jam terhadap pusat (0,0) adalah ({s3x}, {s3y}).",
+      "correct": "s3x == y and s3y == -x"
+    }
+  ]
+}

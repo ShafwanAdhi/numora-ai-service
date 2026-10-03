@@ -5,3 +5,8 @@ mcma-16-1-6
 kategori-16-1-9
 kategori-16-2-9
 mcma-16-3-6
+pg-17-3-2
+pg-17-3-3
+mcma-17-1-8
+kategori-17-2-10
+kategori-17-3-10

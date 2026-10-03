@@ -1,0 +1,66 @@
+{
+  "question_id": "mcma-17-3-7",
+  "config_version": 1,
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "L": 24,
+    "k": 0.5
+  },
+  "variables": {
+    "L": {
+      "gen": "range",
+      "range": [
+        8,
+        60
+      ],
+      "step": 4
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        0.5,
+        2,
+        3,
+        4
+      ]
+    },
+    "a2": {
+      "gen": "derived",
+      "expr": "L*k*k",
+      "filters": [
+        "nodec"
+      ]
+    },
+    "dc": {
+      "gen": "derived",
+      "expr": "L/2",
+      "filters": [
+        "nodec"
+      ]
+    }
+  },
+  "stem": "Sebuah segitiga ABC dengan luas {L} cm² ditransformasikan. Pilihlah semua pernyataan yang benar terkait analisis sifat bayangan segitiga tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jika ditranslasi, luas segitiga tetap {L} cm² dan bangunnya kongruen.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jika direfleksi terhadap sumbu X, luas segitiga tetap {L} cm² dan bangunnya kongruen.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika didilatasi dengan faktor skala {k}, luas segitiga menjadi {a2} cm² dan bangunnya sebangun.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika dirotasi 90°, luas segitiga menjadi {dc} cm².",
+      "correct": "dc == L"
+    }
+  ]
+}

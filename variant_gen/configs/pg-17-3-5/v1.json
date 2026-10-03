@@ -1,27 +1,36 @@
 {
-  "question_id": "pg-17-1-1",
+  "question_id": "pg-17-3-5",
   "config_version": 1,
   "max_draws": 200,
   "shuffle": true,
   "original_values": {
-    "a": 2,
-    "b": 3,
-    "c": 4,
-    "d": -1
+    "x": 4,
+    "y": -2,
+    "c": -1,
+    "d": 3
   },
+  "constraints": [
+    "fy != 0"
+  ],
   "variables": {
-    "a": {
+    "x": {
       "gen": "range",
       "range": [
-        -8,
-        8
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
       ]
     },
-    "b": {
+    "y": {
       "gen": "range",
       "range": [
-        -8,
-        8
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
       ]
     },
     "c": {
@@ -44,40 +53,64 @@
         "nozero"
       ]
     },
+    "u": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "v": {
+      "gen": "derived",
+      "expr": "-x"
+    },
+    "fx": {
+      "gen": "derived",
+      "expr": "u + c"
+    },
+    "fy": {
+      "gen": "derived",
+      "expr": "v + d"
+    },
+    "nfy": {
+      "gen": "derived",
+      "expr": "-fy"
+    },
+    "gx": {
+      "gen": "derived",
+      "expr": "u - c"
+    },
     "o1x": {
       "gen": "derived",
-      "expr": "a + c"
+      "expr": "fx"
     },
     "o1y": {
       "gen": "derived",
-      "expr": "b - d"
+      "expr": "nfy"
     },
     "o2x": {
       "gen": "derived",
-      "expr": "a + c"
+      "expr": "fx"
     },
     "o2y": {
       "gen": "derived",
-      "expr": "b + d"
+      "expr": "fy"
     },
     "o3x": {
       "gen": "derived",
-      "expr": "a - c"
+      "expr": "gx"
     },
     "o3y": {
       "gen": "derived",
-      "expr": "b - d"
+      "expr": "fy"
     },
     "o4x": {
       "gen": "derived",
-      "expr": "a - c"
+      "expr": "gx"
     },
     "o4y": {
       "gen": "derived",
-      "expr": "b + d"
+      "expr": "nfy"
     }
   },
-  "stem": "Titik A({a}, {b}) ditranslasikan oleh T({c}, {d}). Koordinat bayangan titik A adalah...",
+  "stem": "Titik P({x}, {y}) dicerminkan terhadap garis y = -x, kemudian ditranslasikan oleh T({c}, {d}). Koordinat bayangan akhir titik P adalah...",
   "options": [
     {
       "id": "A",

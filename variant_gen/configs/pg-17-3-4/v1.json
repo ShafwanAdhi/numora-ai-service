@@ -1,0 +1,66 @@
+{
+  "question_id": "pg-17-3-4",
+  "config_version": 1,
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "A0": 15,
+    "k": 3
+  },
+  "variables": {
+    "A0": {
+      "gen": "range",
+      "range": [
+        6,
+        40
+      ]
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        3,
+        4,
+        5
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "A0*k"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "A0*(k+1)"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "A0*2*k"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "A0*k*k"
+    }
+  },
+  "stem": "Sebuah segitiga memiliki luas {A0} cm². Segitiga tersebut didilatasi terhadap titik pusat (0,0) dengan faktor skala {k}. Analisis luas bayangan segitiga tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "question_id": "kategori-17-1-9",
+  "config_version": 1,
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "x": 5,
+    "y": -3,
+    "c": -2,
+    "d": 1
+  },
+  "constraints": [
+    "abs(x) != abs(y)"
+  ],
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        -6,
+        6
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        -6,
+        6
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "s1x": {
+      "gen": "derived",
+      "expr": "x + c"
+    },
+    "s1y": {
+      "gen": "derived",
+      "expr": "y + d"
+    },
+    "s2x": {
+      "gen": "derived",
+      "expr": "x"
+    },
+    "s2y": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "s3x": {
+      "gen": "derived",
+      "expr": "-y"
+    },
+    "s3y": {
+      "gen": "derived",
+      "expr": "x"
+    }
+  },
+  "stem": "Titik A({x}, {y}). Tentukan Benar atau Salah untuk setiap pernyataan berikut terkait koordinat bayangannya!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Bayangan A oleh translasi T({c}, {d}) adalah ({s1x}, {s1y}).",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Bayangan A oleh refleksi terhadap sumbu X adalah ({s2x}, {s2y}).",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Bayangan A oleh refleksi terhadap garis y = -x adalah ({s3x}, {s3y}).",
+      "correct": "s3x == -y and s3y == -x"
+    }
+  ]
+}
