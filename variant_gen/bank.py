@@ -5,7 +5,7 @@ import hashlib
 import json
 from copy import deepcopy
 
-FORMATS = ("PG", "PGK_MCMA", "PGK_KATEGORI")
+FORMATS = ("PG", "MCMA", "KATEGORI")
 
 
 class BankError(Exception):
@@ -13,8 +13,8 @@ class BankError(Exception):
 
 
 def option_ids(fmt, n):
-    """PG / MCMA options are A, B, C...; Kategori statements are 1, 2, 3..."""
-    return [str(i + 1) for i in range(n)] if fmt == "PGK_KATEGORI" else [chr(65 + i) for i in range(n)]
+    """PG / MCMA options are A, B, C...; KATEGORI statements are 1, 2, 3..."""
+    return [str(i + 1) for i in range(n)] if fmt == "KATEGORI" else [chr(65 + i) for i in range(n)]
 
 
 def original_hash(o):

@@ -88,9 +88,9 @@ def validate_candidate(cand, orig, others):
     n_orig = sum(1 for o in orig["options"] if o["correct"])
     if fmt == "PG" and n_ok != 1:
         p.append("pg_needs_exactly_one_correct")
-    elif fmt == "PGK_MCMA" and (n_ok < 1 or n_ok != n_orig):
+    elif fmt == "MCMA" and (n_ok < 1 or n_ok != n_orig):
         p.append("mcma_correct_count_differs_from_original")
-    elif fmt == "PGK_KATEGORI" and n_ok != n_orig:   # 0..all is legal, but keep the original's count
+    elif fmt == "KATEGORI" and n_ok != n_orig:   # 0..all is legal, but keep the original's count
         p.append("kategori_correct_count_differs_from_original")
 
     sig = signature(cand["stem"], opts)

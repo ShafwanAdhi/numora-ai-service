@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Question variant generator.
 
-  python cli.py gen   PG-18-3-1 s5          generate seed 5 (s1-20 = a range). Never overwrites.
-  python cli.py regen PG-18-3-1 s5          new version of seed 5 (needs a newer config, or --reason)
-  python cli.py view  PG-18-3-1 s5 [v2]     show a stored variant (latest if v omitted); s0 = original
-  python cli.py lint  PG-18-3-1 [--n 100]   check a config before using it
-  python cli.py hash  PG-18-3-1             print the original's hash (for writing a new config)
+  python cli.py gen   pg-18-3-1 s5          generate seed 5 (s1-20 = a range). Never overwrites.
+  python cli.py regen pg-18-3-1 s5          new version of seed 5 (needs a newer config, or --reason)
+  python cli.py view  pg-18-3-1 s5 [v2]     show a stored variant (latest if v omitted); s0 = original
+  python cli.py lint  pg-18-3-1 [--n 100]   check a config before using it
+  python cli.py hash  pg-18-3-1             print the original's hash (for writing a new config)
 """
 import argparse
 import json
@@ -157,7 +157,7 @@ def cmd_hash(a, bank, configs, store):
 
 def main(argv=None):
     common = argparse.ArgumentParser(add_help=False)
-    common.add_argument("--bank", default=HERE / "data" / "q0_bank_fixed.csv")
+    common.add_argument("--bank", default=HERE / "data" / "q0_bank.csv")
     common.add_argument("--configs", default=HERE / "configs")
     common.add_argument("--store", default=HERE / "store" / "variants.jsonl")
     common.add_argument("--json", action="store_true", help="print JSON instead of text")

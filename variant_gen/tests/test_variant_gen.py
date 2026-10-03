@@ -20,7 +20,7 @@ from expr import ExprError, RejectDraw, evaluate, format_number, render
 from lint import run_lint
 from store import VariantStore
 
-BANK = ROOT / "data" / "q0_bank_fixed.csv"
+BANK = ROOT / "data" / "q0_bank.csv"
 CONFIG_QIDS = sorted(p.name for p in (ROOT / "configs").iterdir() if p.is_dir())
 
 
@@ -80,9 +80,9 @@ class Configs(unittest.TestCase):
             self.assertNotEqual(a.cand["stem"], orig["stem"], qid)
 
     def test_original_is_untouchable(self):
-        orig = self.bank.get("PG-18-3-1")
+        orig = self.bank.get("pg-18-3-1")
         orig["stem"] = "tampered"
-        self.assertNotEqual(self.bank.get("PG-18-3-1")["stem"], "tampered")
+        self.assertNotEqual(self.bank.get("pg-18-3-1")["stem"], "tampered")
 
 
 class Cli(unittest.TestCase):
@@ -101,7 +101,7 @@ class Cli(unittest.TestCase):
             return cli.main(list(a) + self.args)
 
     def test_gen_is_idempotent_and_regen_versions(self):
-        q = "PG-18-3-1"
+        q = "pg-18-3-1"
         self.assertEqual(self.run_cli("gen", q, "s4"), 0)
         first = self.store.get(q, 4)
         self.assertEqual(self.run_cli("gen", q, "s4"), 0)
@@ -114,12 +114,12 @@ class Cli(unittest.TestCase):
         self.assertNotEqual(vs[1]["stem"] + vs[1]["key"], vs[0]["stem"] + vs[0]["key"])
 
     def test_seed_zero_rules(self):
-        self.assertEqual(self.run_cli("regen", "PG-18-3-1", "s0"), 1)
-        self.assertEqual(self.run_cli("view", "PG-18-3-1", "s0"), 0)
-        self.assertEqual(self.store.for_question("PG-18-3-1"), [])
+        self.assertEqual(self.run_cli("regen", "pg-18-3-1", "s0"), 1)
+        self.assertEqual(self.run_cli("view", "pg-18-3-1", "s0"), 0)
+        self.assertEqual(self.store.for_question("pg-18-3-1"), [])
 
     def test_new_config_version_allows_regen_and_edit_after_use_is_blocked(self):
-        q = "PG-18-3-1"
+        q = "pg-18-3-1"
         self.run_cli("gen", q, "s2")
         v1 = self.cfg_dir / q / "v1.json"
         cfg = json.loads(v1.read_text(encoding="utf-8"))
@@ -135,7 +135,7 @@ class Cli(unittest.TestCase):
         self.assertEqual(self.store.get(q, 2)["config_ver"], 2)
 
     def test_exhausted_config_fails_loudly_and_stores_nothing(self):
-        q = "PG-18-1-5"                                                      # only 6 distinct variants exist
+        q = "pg-18-1-5"                                                      # only 6 distinct variants exist
         codes = [self.run_cli("gen", q, f"s{i}") for i in range(1, 12)]
         self.assertIn(1, codes)
         self.assertEqual(len(self.store.for_question(q)), codes.count(0))

@@ -5,12 +5,12 @@ IRT is not part of this; record fields leave room for it later.
 
 ## Commands
 ```
-python cli.py gen   PG-18-3-1 s5         # generate seed 5 (s1-20 = a range). Never overwrites an existing seed.
-python cli.py regen PG-18-3-1 s5         # new version of seed 5 with the NEWEST config
-python cli.py regen PG-18-3-1 s5 --reason "bad numbers"   # re-roll with the same config
-python cli.py view  PG-18-3-1 s5 v2      # stored variant (latest if v omitted). s0 = the original
-python cli.py lint  PG-18-3-1 --n 100    # check a config before using it
-python cli.py hash  PG-18-3-1            # original's hash, to paste into a new config
+python cli.py gen   pg-18-3-1 s5         # generate seed 5 (s1-20 = a range). Never overwrites an existing seed.
+python cli.py regen pg-18-3-1 s5         # new version of seed 5 with the NEWEST config
+python cli.py regen pg-18-3-1 s5 --reason "bad numbers"   # re-roll with the same config
+python cli.py view  pg-18-3-1 s5 v2      # stored variant (latest if v omitted). s0 = the original
+python cli.py lint  pg-18-3-1 --n 100    # check a config before using it
+python cli.py hash  pg-18-3-1            # original's hash, to paste into a new config
 ```
 Add `--json` for JSON output. `s5`, `seed5` and `5` are all accepted. Tests: `python -m unittest discover -s tests`.
 
@@ -53,7 +53,7 @@ Formulas allow `+ - * / // % **`, comparisons, `and/or/not`, `if/else`, and `abs
 Arithmetic is exact (fractions), `round` is half-up. Nothing else is evaluated (no `eval`).
 
 Global validators (always on, `filters.py`): same option count as the original; options distinct; no unresolved
-`{placeholder}`; PG exactly one correct; MCMA at least one and same count as the original; Kategori same count
+`{placeholder}`; PG exactly one correct; MCMA at least one and same count as the original; KATEGORI same count
 as the original (0..all is legal); not same as original; not same correct answer as original; not a duplicate.
 
 ## Output record
