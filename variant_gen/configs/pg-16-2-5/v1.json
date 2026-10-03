@@ -1,0 +1,58 @@
+{
+  "question_id": "pg-16-2-5",
+  "config_version": 1,
+  "original_hash": "369ef399cc81cc49",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "s": 6
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        3,
+        60
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "6*s*s"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "4*s*s"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "3*s*s"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "s*s"
+    }
+  },
+  "stem": "Sebuah kubus memiliki jaring-jaring yang terdiri dari 6 buah persegi yang kongruen. Jika panjang rusuk kubus tersebut adalah {s} cm, maka luas total jaring-jaring kubus adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": false
+    }
+  ]
+}

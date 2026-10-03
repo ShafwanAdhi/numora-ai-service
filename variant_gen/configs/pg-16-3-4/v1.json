@@ -1,0 +1,79 @@
+{
+  "question_id": "pg-16-3-4",
+  "config_version": 1,
+  "original_hash": "7c4c66aa6c057e90",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "r": 7,
+    "t": 10
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        28
+      ],
+      "step": 7
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        5,
+        35
+      ]
+    },
+    "La": {
+      "gen": "derived",
+      "expr": "22/7*r*r"
+    },
+    "La2": {
+      "gen": "derived",
+      "expr": "2*La"
+    },
+    "sel": {
+      "gen": "derived",
+      "expr": "2*22/7*r*t"
+    },
+    "sel2": {
+      "gen": "derived",
+      "expr": "2*22/7*r*r"
+    },
+    "p2": {
+      "gen": "derived",
+      "expr": "sel2 + La"
+    },
+    "p3": {
+      "gen": "derived",
+      "expr": "sel + La"
+    },
+    "p4": {
+      "gen": "derived",
+      "expr": "sel + La2"
+    }
+  },
+  "stem": "Sebuah tabung memiliki jari-jari {r} cm dan tinggi {t} cm. Jaring-jaring tabung tersebut terdiri dari dua lingkaran dan satu persegi panjang (gunakan π = 22/7). Analisis yang tepat mengenai luas selimut dan luas permukaan tabung tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Luas selimut = {La} cm² dan Luas permukaan = {La2} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Luas selimut = {sel2} cm² dan Luas permukaan = {p2} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Luas selimut = {sel} cm² dan Luas permukaan = {p3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Luas selimut = {sel} cm² dan Luas permukaan = {p4} cm²",
+      "correct": true
+    }
+  ]
+}

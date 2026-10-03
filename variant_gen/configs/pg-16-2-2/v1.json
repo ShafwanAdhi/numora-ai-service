@@ -1,0 +1,70 @@
+{
+  "question_id": "pg-16-2-2",
+  "config_version": 1,
+  "original_hash": "892ec8372dd947ce",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "s": 12,
+    "t": 10
+  },
+  "constraints": [
+    "2*t > s"
+  ],
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        6,
+        20
+      ],
+      "step": 2
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        5,
+        25
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "2*s*t"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "s*s + 2*s*t"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "4*s*t"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "s*s + 4*s*t"
+    }
+  },
+  "stem": "Sebuah limas segi empat memiliki alas berbentuk persegi dengan panjang sisi {s} cm. Jika tinggi sisi tegak (segitiga) pada jaring-jaringnya adalah {t} cm, maka luas permukaan limas tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": false
+    }
+  ]
+}

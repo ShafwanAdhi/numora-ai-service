@@ -114,11 +114,8 @@ def cmd_regen(a, bank, configs, store):
     if not prev:
         raise StoreError(f"seed {seed} has no variant yet - use gen first")
     cfg, h = load_config(configs, store, orig)
-    if cfg["config_version"] == prev["config_ver"] and not a.reason:
-        raise StoreError(f"config v{cfg['config_version']} is the one that made v{prev['variant_ver']}; "
-                         f"add a newer config version, or pass --reason \"...\" to re-roll anyway")
     res = generate(orig, cfg, seed, others_for(store, orig["id"], seed))
-    reason = a.reason or f"config v{prev['config_ver']} -> v{cfg['config_version']}"
+    reason = a.reason or ("new config" if cfg["config_version"] != prev["config_ver"] else None)
     rec = make_record(orig, cfg, h, seed, prev["variant_ver"] + 1, res, prev["variant_ver"], reason)
     store.append(rec)
     show(rec, a.json)

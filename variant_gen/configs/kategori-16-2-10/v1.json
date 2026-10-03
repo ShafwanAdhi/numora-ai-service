@@ -1,0 +1,55 @@
+{
+  "question_id": "kategori-16-2-10",
+  "config_version": 1,
+  "original_hash": "49d70f8e9060d046",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 4,
+    "k": 2
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        2,
+        30
+      ]
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "x1": {
+      "gen": "derived",
+      "expr": "s*s"
+    },
+    "s2": {
+      "gen": "derived",
+      "expr": "s*k"
+    }
+  },
+  "stem": "Sebuah kubus memiliki panjang rusuk {s} cm. Jaring-jaring kubus tersebut terdiri dari 6 buah persegi. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas satu buah persegi pada jaring-jaring adalah {x1} cm².",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas permukaan kubus dapat dihitung dengan rumus 6 × {s} × {s}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika panjang rusuk kubus diperbesar menjadi {s2} cm, maka luas permukaannya menjadi {k} kali lipat.",
+      "correct": false
+    }
+  ]
+}

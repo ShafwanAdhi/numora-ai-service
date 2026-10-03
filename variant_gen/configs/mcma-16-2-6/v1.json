@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-16-2-6",
+  "config_version": 1,
+  "original_hash": "d7326727a93d4ed3",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 6,
+    "t": 10
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        4,
+        16
+      ],
+      "step": 2
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        5,
+        30
+      ]
+    },
+    "x2": {
+      "gen": "derived",
+      "expr": "s*t"
+    },
+    "x3": {
+      "gen": "derived",
+      "expr": "s*s"
+    },
+    "a4": {
+      "gen": "derived",
+      "expr": "3*s*t",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "b4": {
+      "gen": "derived",
+      "expr": "s*s/2",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    }
+  },
+  "stem": "Sebuah prisma segitiga memiliki alas berbentuk segitiga sama sisi dengan panjang sisi {s} cm. Tinggi prisma tersebut adalah {t} cm. Pilihlah semua pernyataan yang benar terkait jaring-jaring dan luas permukaan prisma tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jaring-jaring prisma terdiri dari 2 segitiga sama sisi dan 3 persegi panjang.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas satu persegi panjang pada jaring-jaring adalah {x2} cm².",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas total kedua segitiga adalah {x3} cm².",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Luas permukaan total prisma adalah {a4} + {b4}√3 cm².",
+      "correct": true
+    }
+  ]
+}

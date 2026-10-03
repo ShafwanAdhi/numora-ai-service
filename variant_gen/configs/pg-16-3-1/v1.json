@@ -1,0 +1,73 @@
+{
+  "question_id": "pg-16-3-1",
+  "config_version": 1,
+  "original_hash": "e8c1c72c228fb377",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r1": 2,
+    "k": 3
+  },
+  "variables": {
+    "r1": {
+      "gen": "range",
+      "range": [
+        2,
+        15
+      ]
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "r2": {
+      "gen": "derived",
+      "expr": "r1*k"
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "k"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "2*k"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "k*k"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "k*k*k"
+    }
+  },
+  "stem": "Sebuah kubus memiliki panjang rusuk {r1} cm. Jika panjang rusuk kubus tersebut diperbesar menjadi {r2} cm, maka analisis yang tepat mengenai perubahan luas permukaan kubus (dilihat dari jaring-jaringnya) adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Luas permukaan menjadi {o1} kali lipat",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Luas permukaan menjadi {o2} kali lipat",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Luas permukaan menjadi {o3} kali lipat",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Luas permukaan menjadi {o4} kali lipat",
+      "correct": false
+    }
+  ]
+}

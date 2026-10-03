@@ -1,0 +1,54 @@
+{
+  "question_id": "kategori-16-3-9",
+  "config_version": 1,
+  "original_hash": "5ef50158f73a57d4",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 8,
+    "t": 12
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        4,
+        20
+      ],
+      "step": 2
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ]
+    },
+    "x1": {
+      "gen": "derived",
+      "expr": "s*t"
+    },
+    "x2": {
+      "gen": "derived",
+      "expr": "s*s"
+    }
+  },
+  "stem": "Sebuah prisma segitiga memiliki jaring-jaring yang terdiri dari 2 buah segitiga sama sisi dan 3 buah persegi panjang. Panjang sisi segitiga adalah {s} cm dan tinggi prisma adalah {t} cm. Tentukan Benar atau Salah untuk setiap pernyataan berikut terkait analisis jaring-jaring prisma tersebut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas satu persegi panjang pada jaring-jaring adalah {x1} cm².",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas total kedua segitiga penyusun jaring-jaring adalah {x2} cm².",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Luas permukaan total prisma dapat dihitung dengan menjumlahkan luas 2 segitiga dan 3 persegi panjang.",
+      "correct": true
+    }
+  ]
+}

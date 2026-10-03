@@ -1,0 +1,67 @@
+{
+  "question_id": "mcma-16-3-7",
+  "config_version": 1,
+  "original_hash": "132686dc1b9fda18",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 10,
+    "t": 20
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        5,
+        20
+      ]
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        10,
+        40
+      ],
+      "step": 5
+    },
+    "Ks": {
+      "gen": "derived",
+      "expr": "2*3.14*r"
+    },
+    "La": {
+      "gen": "derived",
+      "expr": "3.14*r*r"
+    },
+    "x3": {
+      "gen": "derived",
+      "expr": "Ks*r - r"
+    },
+    "x4": {
+      "gen": "derived",
+      "expr": "Ks*(r + t)"
+    }
+  },
+  "stem": "Sebuah tabung memiliki jari-jari {r} cm dan tinggi {t} cm. Jaring-jaring tabung terdiri dari dua lingkaran dan satu persegi panjang (gunakan π = 3,14). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Panjang persegi panjang pada jaring-jaring adalah {Ks} cm.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas satu lingkaran alas adalah {La} cm².",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas persegi panjang pada jaring-jaring adalah {x3} cm².",
+      "correct": "x3 == Ks*t"
+    },
+    {
+      "id": "D",
+      "text": "Luas permukaan total tabung adalah {x4} cm².",
+      "correct": true
+    }
+  ]
+}

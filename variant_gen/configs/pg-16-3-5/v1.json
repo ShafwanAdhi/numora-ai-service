@@ -1,0 +1,76 @@
+{
+  "question_id": "pg-16-3-5",
+  "config_version": 1,
+  "original_hash": "95acac8e5aa3afd8",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "T": 24,
+    "K": 12,
+    "t": 10
+  },
+  "variables": {
+    "T": {
+      "gen": "range",
+      "range": [
+        12,
+        48
+      ],
+      "step": 6
+    },
+    "K": {
+      "gen": "range",
+      "range": [
+        8,
+        20
+      ],
+      "step": 2
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        5,
+        20
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "K*t"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "T + K*t"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "K*t + 2*T"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "2*K*t"
+    }
+  },
+  "stem": "Sebuah prisma segitiga memiliki jaring-jaring yang terdiri dari 2 segitiga siku-siku dan 3 persegi panjang. Diketahui luas total kedua segitiga adalah {T} cm². Jika keliling alas segitiga adalah {K} cm dan tinggi prisma adalah {t} cm, maka analisis luas permukaan prisma tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": false
+    }
+  ]
+}

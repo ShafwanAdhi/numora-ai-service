@@ -1,0 +1,83 @@
+{
+  "question_id": "pg-16-2-1",
+  "config_version": 1,
+  "original_hash": "005899340ada1dd6",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "r": 7,
+    "t": 10
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        28
+      ],
+      "step": 7
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        5,
+        35
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "2*22/7*r*t",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "4*22/7*r*r",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "2*22/7*r*(r + t)",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "4*22/7*r*t",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    }
+  },
+  "stem": "Sebuah tabung memiliki jaring-jaring yang terdiri dari dua buah lingkaran dan satu buah persegi panjang. Jika jari-jari lingkaran adalah {r} cm dan tinggi tabung adalah {t} cm (gunakan π = 22/7), maka luas permukaan tabung tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": false
+    }
+  ]
+}

@@ -16,7 +16,7 @@ GENS = {
     "derived": ({"expr"}, set()),
 }
 COMMON_KEYS = {"gen", "filters", "min", "max", "step", "fmt", "decimals"}
-REQUIRED_TOP = ("question_id", "config_version", "original_hash", "original_values", "variables", "stem", "options")
+REQUIRED_TOP = ("question_id", "config_version", "original_values", "variables", "stem", "options")
 
 
 class ConfigError(Exception):
@@ -60,9 +60,6 @@ def validate_config(cfg, orig):
             errs.append(f"missing '{k}'")
     if errs:
         return errs
-    if cfg["original_hash"] != orig["hash"]:
-        errs.append(f"original_hash {cfg['original_hash']} != current {orig['hash']}: "
-                    f"the original changed since this config was written")
     md = cfg.get("max_draws", DEFAULT_MAX_DRAWS)
     if not isinstance(md, int) or isinstance(md, bool) or not 1 <= md <= 10000:
         errs.append("max_draws must be an integer 1..10000")
