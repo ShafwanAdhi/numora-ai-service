@@ -1,0 +1,104 @@
+{
+  "question_id": "PG-17-1-1",
+  "config_version": 1,
+  "original_hash": "f61fa7a260d619dd",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "a": 2,
+    "b": 3,
+    "c": 4,
+    "d": -1
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        -8,
+        8
+      ]
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        -8,
+        8
+      ]
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        -8,
+        8
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        -8,
+        8
+      ],
+      "filters": [
+        "nozero"
+      ]
+    },
+    "o1x": {
+      "gen": "derived",
+      "expr": "a + c"
+    },
+    "o1y": {
+      "gen": "derived",
+      "expr": "b - d"
+    },
+    "o2x": {
+      "gen": "derived",
+      "expr": "a + c"
+    },
+    "o2y": {
+      "gen": "derived",
+      "expr": "b + d"
+    },
+    "o3x": {
+      "gen": "derived",
+      "expr": "a - c"
+    },
+    "o3y": {
+      "gen": "derived",
+      "expr": "b - d"
+    },
+    "o4x": {
+      "gen": "derived",
+      "expr": "a - c"
+    },
+    "o4y": {
+      "gen": "derived",
+      "expr": "b + d"
+    }
+  },
+  "stem": "Titik A({a}, {b}) ditranslasikan oleh T({c}, {d}). Koordinat bayangan titik A adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "({o1x}, {o1y})",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "({o2x}, {o2y})",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "({o3x}, {o3y})",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "({o4x}, {o4y})",
+      "correct": false
+    }
+  ]
+}

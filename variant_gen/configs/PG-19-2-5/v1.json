@@ -1,0 +1,85 @@
+{
+  "question_id": "PG-19-2-5",
+  "config_version": 1,
+  "original_hash": "8e53e1055e20c38a",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "r": 50,
+    "h": 1,
+    "q": 5
+  },
+  "constraints": [
+    "abs(t_exact - floor(t_exact) - 1/2) > 1/10"
+  ],
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        20,
+        80
+      ],
+      "step": 10
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        1,
+        2.5
+      ],
+      "step": 0.5
+    },
+    "q": {
+      "gen": "choice",
+      "values": [
+        4,
+        5,
+        8,
+        10
+      ]
+    },
+    "t_exact": {
+      "gen": "derived",
+      "expr": "3.14 * r*r * (h*100) / 1000 / q"
+    },
+    "t": {
+      "gen": "derived",
+      "expr": "round(t_exact)"
+    },
+    "o_half": {
+      "gen": "derived",
+      "expr": "round(3.14 * (r/2)**2 * (h*100) / 1000 / q)"
+    },
+    "o_cone": {
+      "gen": "derived",
+      "expr": "round(t_exact / 3)"
+    },
+    "o_unit": {
+      "gen": "derived",
+      "expr": "t * 10"
+    }
+  },
+  "stem": "Sebuah bak mandi berbentuk tabung dengan jari-jari {r} cm dan tinggi {h} meter. Bak tersebut akan diisi air menggunakan keran dengan debit {q} liter/menit. Dengan π = 3,14, waktu yang dibutuhkan untuk mengisi bak mandi hingga penuh (dibulatkan ke menit terdekat) adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o_half} menit",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o_cone} menit",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{t} menit",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{o_unit} menit",
+      "correct": false
+    }
+  ]
+}

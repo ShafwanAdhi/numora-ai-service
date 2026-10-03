@@ -1,0 +1,75 @@
+{
+  "question_id": "PGK_MCMA-18-1-7",
+  "config_version": 1,
+  "original_hash": "8dec4a10505b59c1",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 14
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        14,
+        98
+      ],
+      "step": 14
+    },
+    "x1": {
+      "gen": "derived",
+      "expr": "s/2",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "x2": {
+      "gen": "derived",
+      "expr": "s*s",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "x3": {
+      "gen": "derived",
+      "expr": "22/7*(s/2)**2",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "x4": {
+      "gen": "derived",
+      "expr": "s*s - x3/2",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    }
+  },
+  "stem": "Sebuah persegi dengan panjang sisi {s} cm memiliki sebuah lingkaran di dalamnya yang menyinggung keempat sisinya (gunakan π = 22/7). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jari-jari lingkaran tersebut adalah {x1} cm.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas persegi adalah {x2} cm².",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas lingkaran adalah {x3} cm².",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Luas daerah di dalam persegi yang berada di luar lingkaran adalah {x4} cm².",
+      "correct": "x4 == s*s - x3"
+    }
+  ]
+}
