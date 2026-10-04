@@ -3,6 +3,25 @@
 Generates question variants from an original (CSV) plus a per-question JSON config.
 IRT is not part of this; record fields leave room for it later.
 
+## Local interface
+
+From this folder, run `python -B webui.py`, then open `http://127.0.0.1:8765`.
+No extra dependencies. Select a question and positive seed to compare the original
+with a stored variant, including keys, explanations, variable values and history.
+Generate reuses existing seeds; Regen appends a new version and requires a reason
+when using the same config. Seed 0 remains the original in the left panel.
+
+Expand **Atur config** to edit JSON (ranges, steps, constraints, formulas and
+templates). **Validasi** checks the draft without writing. **Simpan versi baru**
+validates original reconstruction and generation, then creates a new config file;
+previous versions stay intact. An outdated editor is rejected; reload before retrying.
+Unsaved edits must be saved or discarded before generating.
+
+The interface binds only to localhost. `--port`, `--bank`, `--configs` and `--store`
+can override local paths/port, e.g. `python -B webui.py --store scratch.jsonl`.
+The default writes to the same configs and append-only store as the CLI. Run one
+writer at a time; this local tool does not coordinate concurrent CLI/server writes.
+
 ## Commands
 ```
 python cli.py gen   pg-18-3-1 s5         # generate seed 5 (s1-20 = a range). Never overwrites an existing seed.

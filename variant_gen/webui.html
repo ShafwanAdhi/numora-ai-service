@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="id">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Numora · Soal varian</title>
+<link rel="icon" href="data:,">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f5f7f8; color: #182b34; font: 15px/1.6 system-ui, sans-serif; }
+  main { max-width: 1280px; margin: auto; padding: 28px; }
+  h1 { margin: 0; font-size: 25px; } h2 { margin: 0 0 12px; font-size: 18px; }
+  p { margin: 0 0 16px; } .muted { color: #536771; font-size: 13px; }
+  fieldset { min-width: 0; margin: 0; padding: 0; border: 0; }
+  .controls { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; padding: 20px 0; }
+  label { display: block; font-size: 13px; font-weight: 600; }
+  input, select, textarea, button { font: inherit; border: 1px solid #acbbc2; border-radius: 5px; }
+  input, select { display: block; padding: 8px; background: white; color: inherit; max-width: 100%; }
+  .question { flex: 1 1 420px; } .question select { width: 100%; } #seed { width: 105px; }
+  .reason { flex: 1 1 200px; } .reason input { width: 100%; }
+  button { padding: 8px 14px; background: white; color: inherit; cursor: pointer; font-weight: 600; }
+  button.primary { background: #126a66; border-color: #126a66; color: white; }
+  button:disabled { opacity: .5; cursor: default; }
+  :focus-visible { outline: 3px solid #168e91; outline-offset: 3px; }
+  #status { min-height: 28px; margin: 0 0 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  #status.error { color: #a32121; }
+  .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  article, .config { background: white; border: 1px solid #d2dde1; border-radius: 6px; padding: 22px; min-width: 0; }
+  .stem, .explanation { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .option { display: flex; gap: 10px; align-items: baseline; padding: 8px 0; border-bottom: 1px solid #e5ecef; }
+  .option span { flex: 1; overflow-wrap: anywhere; } .option small { font-size: 12px; color: #536771; }
+  .option.correct small { color: #126a66; font-weight: 700; }
+  .key { margin-top: 14px; font-weight: 600; } .explanation { margin-top: 8px; }
+  summary { cursor: pointer; font-weight: 600; } details { margin-top: 18px; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 13px; }
+  .config { margin-top: 20px; } .config > summary { font-size: 17px; }
+  textarea { display: block; width: 100%; padding: 12px; margin: 8px 0 14px; font: 13px/1.65 ui-monospace, monospace; tab-size: 2; }
+  .config .controls { padding: 12px 0; } #lint-output { margin-bottom: 0; }
+  @media (max-width: 760px) { main { padding: 16px; } .comparison { grid-template-columns: 1fr; } article, .config { padding: 16px; } }
+</style>
+<main>
+  <h1>Soal original &amp; varian</h1>
+  <p class="muted">Numora · Generator lokal</p>
+  <fieldset id="workspace" disabled>
+    <form id="controls" class="controls">
+      <label class="question">Soal<select id="question" required aria-label="Pilih soal"></select></label>
+      <label>Seed<input id="seed" type="number" min="1" max="1000000000" step="1" value="1" list="saved-seeds" required></label>
+      <datalist id="saved-seeds"></datalist>
+      <label>Versi varian<select id="version"><option value="">Terbaru</option></select></label>
+      <button type="submit">Lihat</button>
+      <button type="button" id="generate" class="primary">Generate</button>
+      <label class="reason">Alasan regen<input id="reason" placeholder="Wajib jika config masih sama"></label>
+      <button type="button" id="regen">Regen</button>
+    </form>
+    <p id="status" role="status" aria-live="polite">Memuat soal…</p>
+    <div class="comparison">
+      <article aria-labelledby="original-title">
+        <h2 id="original-title">Original · seed 0</h2>
+        <div id="original"></div>
+      </article>
+      <article aria-labelledby="variant-title">
+        <h2 id="variant-title">Varian</h2>
+        <div id="variant">Pilih soal untuk melihat hasil.</div>
+      </article>
+    </div>
+    <details class="config" id="config-section">
+      <summary>Atur config</summary>
+      <div class="controls">
+        <label>Versi config<select id="config-version"><option value="">Terbaru</option></select></label>
+        <span class="muted" id="config-note"></span>
+      </div>
+      <p class="muted">Edit range, step, filters, constraints, rumus, atau template. Config harus tetap mereproduksi original. Simpan membuat versi baru.</p>
+      <label for="config-editor">Config JSON</label>
+      <textarea id="config-editor" rows="18" spellcheck="false" placeholder="Tempel config JSON untuk soal ini."></textarea>
+      <button type="button" id="lint">Validasi</button>
+      <button type="button" id="save" class="primary">Simpan versi baru</button>
+      <pre id="lint-output" role="status" aria-live="polite"></pre>
+    </details>
+  </fieldset>
+</main>
+<script>
+  const $ = id => document.getElementById(id);
+  let data, busy = false, dirty = false, loadedVersion = '', loadedConfigVersion = '';
+  function message(text, error = false) {
+    $('status').textContent = text;
+    $('status').classList.toggle('error', error);
+  }
+  function updateButtons() {
+    $('workspace').disabled = busy;
+    $('generate').disabled = !data?.config || dirty;
+    $('regen').disabled = !data?.config || !data?.history.length || dirty;
+  }
+  async function api(path, payload) {
+    const response = await fetch(path, payload === undefined ? {} : {
+      method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(payload)
+    });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+    return result;
+  }
+  async function perform(work) {
+    busy = true; updateButtons(); message('Memproses…');
+    try { await work(); } catch (error) { message(error.message, true); }
+    finally { busy = false; updateButtons(); }
+  }
+  function add(parent, tag, text, className = '') {
+    const node = document.createElement(tag);
+    node.textContent = text; node.className = className; parent.append(node); return node;
+  }
+  function renderQuestion(id, record) {
+    const panel = $(id); panel.replaceChildren();
+    if (!record) { add(panel, 'p', 'Belum ada hasil untuk seed ini. Klik Generate.', 'muted'); return; }
+    const meta = [`${record.question_id} · ${record.format} ${record.cognitive_level}`, `Original v${record.original_version}`];
+    if (record.seed) meta.push(`Seed ${record.seed} · varian v${record.variant_ver} · config v${record.config_ver}`);
+    add(panel, 'p', meta.join(' | '), 'muted');
+    if (record.original_hash !== data.original.original_hash) add(panel, 'p', 'Hasil historis ini dibuat dari original versi sebelumnya.', 'muted');
+    add(panel, 'p', record.stem, 'stem');
+    const keys = new Set(record.key.split(','));
+    record.options.forEach(option => {
+      const correct = keys.has(option.id), row = add(panel, 'div', '', `option${correct ? ' correct' : ''}`);
+      add(row, 'strong', `${option.id}.`); add(row, 'span', option.text);
+      add(row, 'small', record.format === 'PG' ? (correct ? 'Kunci' : '') : (correct ? 'Benar' : 'Salah'));
+    });
+    add(panel, 'p', `Kunci: ${record.key}`, 'key');
+    add(panel, 'strong', 'Pembahasan');
+    add(panel, 'p', record.explanation || (record.seed ? 'Belum tersedia pada hasil lama. Regen untuk pembahasan terbaru.' : 'Belum tersedia di bank original.'), 'explanation');
+    if (record.seed) {
+      const details = add(panel, 'details', ''); add(details, 'summary', `Nilai variabel · ${record.draws_used} draw`);
+      add(details, 'pre', JSON.stringify(record.values_used, null, 2));
+    }
+  }
+  function setVersions(id, versions, value) {
+    $(id).replaceChildren(new Option('Terbaru', ''));
+    versions.forEach(version => $(id).add(new Option(`v${version}`, version)));
+    $(id).value = value;
+  }
+  function restoreSelection() {
+    if (!data) return;
+    $('question').value = data.original.question_id; $('seed').value = data.seed;
+    $('version').value = loadedVersion; $('config-version').value = loadedConfigVersion;
+  }
+  async function loadQuestion() {
+    if (!$('controls').reportValidity()) return;
+    const params = new URLSearchParams({id: $('question').value, seed: $('seed').value,
+      version: $('version').value, config_version: $('config-version').value});
+    let next;
+    try { next = await api(`/api/question?${params}`); }
+    catch (error) { restoreSelection(); throw error; }
+    data = next; dirty = false; loadedVersion = $('version').value; loadedConfigVersion = $('config-version').value;
+    renderQuestion('original', data.original); renderQuestion('variant', data.variant);
+    setVersions('version', data.history.map(record => record.variant_ver), loadedVersion);
+    setVersions('config-version', data.config_versions, $('config-version').value);
+    $('saved-seeds').replaceChildren(...data.seeds.map(seed => new Option(`Tersimpan: seed ${seed}`, seed)));
+    $('config-editor').value = data.config ? JSON.stringify(data.config, null, 2) : '';
+    $('config-note').textContent = data.config ? `Simpan akan membuat v${data.latest_config_version + 1}.` : 'Belum ada config. Original tetap bisa dilihat.';
+    $('lint-output').textContent = '';
+    message(data.variant ? 'Hasil tersimpan ditampilkan. Generate pada seed yang sama memakai hasil ini.' : 'Original siap. Belum ada varian tersimpan untuk seed ini.');
+  }
+  function discardChanges() {
+    if (!dirty || confirm('Perubahan config belum disimpan. Buang perubahan?')) return true;
+    restoreSelection();
+    return false;
+  }
+  $('controls').addEventListener('submit', event => { event.preventDefault(); if (discardChanges()) perform(loadQuestion); });
+  $('question').addEventListener('change', () => {
+    if (!discardChanges()) return;
+    $('version').value = ''; $('config-version').value = ''; perform(loadQuestion);
+  });
+  $('seed').addEventListener('change', () => {
+    if (!discardChanges()) return;
+    $('version').value = ''; perform(loadQuestion);
+  });
+  ['version', 'config-version'].forEach(id => $(id).addEventListener('change', () => { if (discardChanges()) perform(loadQuestion); }));
+  $('config-editor').addEventListener('input', () => {
+    dirty = true; updateButtons(); message('Config belum disimpan. Validasi lalu simpan sebelum generate/regen.');
+  });
+  ['generate', 'regen'].forEach(action => $(action).addEventListener('click', () => {
+    if (!$('controls').reportValidity()) return;
+    perform(async () => {
+      const result = await api(`/api/${action}`, {question_id: $('question').value,
+        seed: Number($('seed').value), reason: $('reason').value});
+      $('version').value = ''; await loadQuestion();
+      message(`Varian v${result.variant_ver} tersedia · seed ${result.seed} · config v${result.config_ver}.`);
+    });
+  }));
+  ['lint', 'save'].forEach(action => $(action).addEventListener('click', () => perform(async () => {
+    const result = await api(action === 'lint' ? '/api/lint' : '/api/config', {
+      question_id: data.original.question_id, config: JSON.parse($('config-editor').value),
+      base_version: data.latest_config_version, base_hash: data.config_hash
+    });
+    if (action === 'save') { $('config-version').value = ''; await loadQuestion(); }
+    $('lint-output').textContent = result.lines.join('\n');
+    message(action === 'save' ? `Config v${result.config_version} tersimpan. Generate/regen memakai versi terbaru.` : (result.ok ? 'Validasi lulus. Belum ada file yang diubah.' : 'Validasi gagal; perbaiki config.'), result.ok === false);
+  })));
+  window.addEventListener('beforeunload', event => { if (dirty) { event.preventDefault(); event.returnValue = ''; } });
+  perform(async () => {
+    const questions = await api('/api/questions');
+    ['PG', 'MCMA', 'KATEGORI'].forEach(format => {
+      const group = document.createElement('optgroup'); group.label = format;
+      questions.filter(question => question.format === format).forEach(question => group.append(
+        new Option(`${question.id}${question.has_config ? '' : ' [tanpa config]'} — ${question.stem.slice(0, 65)}`, question.id)));
+      $('question').append(group);
+    });
+    $('question').value = questions.find(question => question.has_config)?.id || questions[0]?.id;
+    await loadQuestion();
+  });
+</script>
+</html>
