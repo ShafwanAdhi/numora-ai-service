@@ -1,4 +1,4 @@
-"""Local variant workbench: python -B webui.py (Python standard library only)."""
+"""Local variant workbench: python -B webui.py."""
 import argparse
 import contextlib
 import io
@@ -7,7 +7,12 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
-from bank import OriginalBank
+from dotenv import load_dotenv
+import database
+
+from bank import OriginalBank, load_workspace_bank
+from tryout import generate_package
+import re
 from cli import KNOWN_ERRORS, cmd_gen, cmd_regen
 from config_store import ConfigError, ConfigStore, validate_config
 from engine import original_record
@@ -16,6 +21,7 @@ from lint import run_lint
 from store import VariantStore
 
 HERE = Path(__file__).resolve().parent
+load_dotenv(HERE.parent / '.env', override=False)
 
 
 def positive_integer(value):
@@ -73,10 +79,35 @@ class Handler(BaseHTTPRequestHandler):
             bank, configs, store = self.server.bank, self.server.configs, self.server.store
             if url.path == "/":
                 self.reply(200, (HERE / "webui.html").read_text(encoding="utf-8"), "text/html")
+            elif url.path.startswith('/api/database/'):
+                query = parse_qs(url.query, keep_blank_values=True, max_num_fields=10)
+                if any(len(values) != 1 for values in query.values()):
+                    raise ValueError('Parameter database tidak boleh berulang.')
+                route = url.path.rsplit('/', 1)[-1]
+                allowed = {'status': set(), 'packages': {'type', 'limit', 'offset'},
+                           'package': {'id', 'limit', 'offset'}, 'family': {'id', 'limit', 'offset'}}
+                if route not in allowed:
+                    self.reply(404, {'error': 'Halaman tidak ditemukan.'})
+                    return
+                if query.keys() - allowed[route]:
+                    raise ValueError('Parameter database tidak dikenal.')
+                get = lambda key, default: query.get(key, [default])[0]
+                if route == 'status':
+                    result = database.status()
+                else:
+                    limit = int(get('limit', '50' if route == 'packages' else '100'))
+                    offset = int(get('offset', '0'))
+                    result = (database.packages(get('type', '') or None, limit, offset) if route == 'packages'
+                              else getattr(database, route)(get('id', ''), limit, offset))
+                self.reply(200, result)
             elif url.path == "/api/questions":
                 self.reply(200, [{"id": qid, "format": bank.get(qid)["format"],
-                                  "stem": bank.get(qid)["stem"], "has_config": bool(configs.versions(qid))}
+                                  "stem": bank.get(qid)["stem"], "has_config": bool(configs.versions(qid)),
+                                  "classification": bank.get(qid).get("classification"),
+                                  "metadata": bank.get(qid).get("metadata")}
                                  for qid in bank.ids()])
+            elif url.path == "/api/catalog":
+                self.reply(200, bank.catalog())
             elif url.path == "/api/question":
                 query = parse_qs(url.query, max_num_fields=10)
                 qid = query.get("id", [""])[0]
@@ -99,6 +130,8 @@ class Handler(BaseHTTPRequestHandler):
                                  "config_hash": latest_hash})
             else:
                 self.reply(404, {"error": "Halaman tidak ditemukan."})
+        except database.DatabaseError as error:
+            self.reply(error.status, {'error': str(error)})
         except (ValueError, *KNOWN_ERRORS) as error:
             self.reply(400, {"error": str(error)})
         except OSError as error:
@@ -113,6 +146,9 @@ class Handler(BaseHTTPRequestHandler):
             body = self.rfile.read(size)  # Consume bounded bodies before rejecting/closing on Windows.
             if not self.local_request():
                 return
+            if urlsplit(self.path).path.startswith('/api/database/'):
+                self.reply(405, {'error': 'Database saat ini hanya mendukung pembacaan GET.'})
+                return
             if self.headers.get_content_type() != "application/json":
                 self.reply(415, {"error": "Content-Type harus application/json."})
                 return
@@ -120,10 +156,21 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(data, dict):
                 raise ValueError("Body harus berupa objek JSON.")
             json.dumps(data, allow_nan=False)
+            if urlsplit(self.path).path == '/api/tryout/generate-package':
+                package_id=data.get('package_id')
+                if not isinstance(package_id,str) or not re.fullmatch(r'[a-z0-9-]+',package_id):
+                    raise ValueError('ID paket tidak valid.')
+                seed=positive_integer(data.get('seed'))
+                target=self.server.store.path.parent/'packages'/f'{package_id}-s{seed}.json'
+                result=generate_package(self.server.bank,self.server.configs,self.server.store,package_id,seed,target)
+                self.reply(200,result)
+                return
             qid = data.get("question_id")
             if not isinstance(qid, str):
                 raise ValueError("question_id harus berupa teks.")
             original = self.server.bank.get(qid)
+            if original.get('metadata',{}).get('generation_status')=='DEFERRED_CONCEPTUAL':
+                raise ConfigError(original['metadata']['reason'])
             configs, store = self.server.configs, self.server.store
             path = urlsplit(self.path).path
             if path in ("/api/generate", "/api/regen"):
@@ -182,7 +229,7 @@ class Handler(BaseHTTPRequestHandler):
 
 def make_server(port=8765, bank=HERE / "data" / "q0_bank.csv",
                 configs=HERE / "configs", store=HERE / "store" / "variants.jsonl"):
-    originals = OriginalBank(bank)
+    originals = load_workspace_bank(bank)
     server = HTTPServer(("127.0.0.1", port), Handler)
     server.bank, server.configs, server.store = originals, ConfigStore(configs), VariantStore(store)
     return server

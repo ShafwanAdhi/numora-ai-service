@@ -13,7 +13,7 @@ import re
 import sys
 from pathlib import Path
 
-from bank import BankError, OriginalBank
+from bank import BankError, OriginalBank, load_workspace_bank
 from config_store import ConfigError, ConfigStore, validate_config
 from engine import GenerationError, cand_from_record, generate, make_record, original_record
 from expr import ExprError
@@ -173,6 +173,24 @@ def cmd_export(a, bank, configs, store):
     return 0
 
 
+def cmd_package_gen(a, bank, configs, store):
+    from tryout import generate_package
+    (seed,) = parse_seeds(a.seed)
+    result=generate_package(bank,configs,store,a.package_id,seed,a.output)
+    print(json.dumps(result,ensure_ascii=False,indent=2))
+    return 0
+
+
+def cmd_package_export(a, bank, configs, store):
+    from tryout import export_package
+    result=export_package(json.loads(Path(a.manifest).read_text(encoding='utf-8')),bank)
+    body=(json.dumps(result,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
+    with Path(a.output).open('xb') as f:
+        f.write(body)
+    print(f'LOCAL_PREVIEW: {a.output}')
+    return 0
+
+
 def main(argv=None):
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--bank", default=HERE / "data" / "q0_bank.csv")
@@ -191,10 +209,14 @@ def main(argv=None):
     p = sub.add_parser("hash", parents=[common]); p.add_argument("question_id"); p.set_defaults(fn=cmd_hash)
     p = sub.add_parser("export", parents=[common]); p.add_argument("question_id"); p.add_argument("seed")
     p.add_argument("ver", nargs="?"); p.add_argument("--mapping", required=True); p.set_defaults(fn=cmd_export)
+    p=sub.add_parser('package-gen',parents=[common]);p.add_argument('package_id');p.add_argument('seed')
+    p.add_argument('--output',required=True);p.set_defaults(fn=cmd_package_gen)
+    p=sub.add_parser('package-export',parents=[common]);p.add_argument('manifest');p.add_argument('--output',required=True)
+    p.set_defaults(fn=cmd_package_export)
     a = ap.parse_args(argv)
     try:
-        return a.fn(a, OriginalBank(a.bank), ConfigStore(a.configs), VariantStore(a.store))
-    except (ValueError, *KNOWN_ERRORS) as e:
+        return a.fn(a, load_workspace_bank(a.bank), ConfigStore(a.configs), VariantStore(a.store))
+    except (OSError, ValueError, *KNOWN_ERRORS) as e:
         print(f"error: {e}", file=sys.stderr)
         return 1
 

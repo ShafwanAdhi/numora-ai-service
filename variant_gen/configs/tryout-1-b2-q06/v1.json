@@ -1,0 +1,72 @@
+{
+  "question_id": "tryout-1-b2-q06",
+  "config_version": 1,
+  "original_hash": "a38c5ad1a247dc39",
+  "original_values": {
+    "a": 60000,
+    "b": 30000
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        40000,
+        120000
+      ],
+      "step": 5000
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        10000,
+        60000
+      ],
+      "step": 5000
+    },
+    "t1": {
+      "gen": "derived",
+      "expr": "2*a+3*b"
+    },
+    "t2": {
+      "gen": "derived",
+      "expr": "4*a+b"
+    },
+    "diff": {
+      "gen": "derived",
+      "expr": "a-b"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "2*a+2*b"
+    }
+  },
+  "stem": "Harga sewa 2 stel Busana A dan 3 stel Busana B adalah Rp{t1},00. Harga 4 stel Busana A dan 1 stel Busana B adalah Rp{t2},00. Pilih semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Harga 1 stel Busana A adalah Rp{a},00.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Harga 1 stel Busana B adalah Rp{b},00.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Selisih harga kedua busana adalah Rp{diff},00.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Total biaya 2 Busana A dan 2 Busana B adalah Rp{total},00.",
+      "correct": true
+    }
+  ],
+  "explanation": "SPLDV 2A+3B={t1}, 4A+B={t2} memiliki solusi A={a}, B={b}. Selisih {diff}; biaya 2A+2B={total}. Keempat pernyataan benar.",
+  "constraints": [
+    "a>b"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

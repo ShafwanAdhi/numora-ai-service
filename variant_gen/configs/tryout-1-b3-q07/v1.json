@@ -1,0 +1,107 @@
+{
+  "question_id": "tryout-1-b3-q07",
+  "config_version": 1,
+  "original_hash": "959a2ea1136045e2",
+  "original_values": {
+    "x": 2,
+    "y": 1,
+    "scale": 1,
+    "k": -2
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        -8,
+        8
+      ],
+      "step": 1
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        -8,
+        8
+      ],
+      "step": 1
+    },
+    "scale": {
+      "gen": "range",
+      "range": [
+        1,
+        5
+      ],
+      "step": 1
+    },
+    "k": {
+      "gen": "range",
+      "range": [
+        -6,
+        -2
+      ],
+      "step": 1
+    },
+    "legx": {
+      "gen": "derived",
+      "expr": "4*scale"
+    },
+    "legy": {
+      "gen": "derived",
+      "expr": "3*scale"
+    },
+    "qx": {
+      "gen": "derived",
+      "expr": "x+legx"
+    },
+    "ry": {
+      "gen": "derived",
+      "expr": "y+legy"
+    },
+    "rx2": {
+      "gen": "derived",
+      "expr": "k*x"
+    },
+    "ry2": {
+      "gen": "derived",
+      "expr": "k*ry"
+    },
+    "factor": {
+      "gen": "derived",
+      "expr": "abs(k)"
+    },
+    "area": {
+      "gen": "derived",
+      "expr": "legx*legy/2"
+    },
+    "area2": {
+      "gen": "derived",
+      "expr": "area*k*k"
+    },
+    "hyp": {
+      "gen": "derived",
+      "expr": "5*scale*abs(k)"
+    }
+  },
+  "stem": "Segitiga PQR memiliki P({x}, {y}), Q({qx}, {y}), R({x}, {ry}). Dilatasi terhadap O(0,0) dengan skala k={k} menghasilkan P′Q′R′. Tentukan Benar atau Salah setiap pernyataan!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Bayangan R adalah R′({rx2}, {ry2}).",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas bayangan adalah {factor} kali luas awal.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Panjang Q′R′ adalah {hyp} satuan.",
+      "correct": true
+    }
+  ],
+  "explanation": "R′=kR=({rx2}, {ry2}). Luas awal {area}, bayangan {area2} (faktor k²), bukan {factor}. Kaki {legx}/{legy} memiliki sisi miring 5×{scale}; bayangannya {hyp}.",
+  "constraints": [],
+  "shuffle": false,
+  "max_draws": 400
+}

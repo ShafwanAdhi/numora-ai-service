@@ -1,0 +1,86 @@
+{
+  "question_id": "tryout-1-b1-q03",
+  "config_version": 1,
+  "original_hash": "b0a3657cd2324caf",
+  "original_values": {
+    "a": -12,
+    "b": 8,
+    "c": -4
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        -30,
+        -5
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        2,
+        15
+      ],
+      "step": 1
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        -9,
+        -2
+      ],
+      "step": 1
+    },
+    "first": {
+      "gen": "derived",
+      "expr": "a+b*c"
+    },
+    "second": {
+      "gen": "derived",
+      "expr": "(a+b)*c"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "(b-a)*(-c)"
+    },
+    "neg": {
+      "gen": "derived",
+      "expr": "-second"
+    },
+    "wrong2": {
+      "gen": "derived",
+      "expr": "a+c"
+    }
+  },
+  "stem": "Perhatikan dua cara perhitungan berikut.\nBudi: {a} + {b} × ({c})\nAndi: ({a} + {b}) × ({c})\nPernyataan yang tepat mengenai hasil perhitungan Budi dan Andi adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Hasil Budi dan Andi sama, yaitu {second}.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Hasil Budi adalah {wrong} dan hasil Andi adalah {neg}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Hasil Budi adalah {wrong2} dan hasil Andi adalah {second}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Hasil Budi adalah {first} dan hasil Andi adalah {second}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Perkalian dikerjakan dahulu pada bentuk Budi: {a} + {b} × ({c}) = {first}. Pada bentuk Andi, kurung didahulukan: ({a} + {b}) × ({c}) = {second}.",
+  "constraints": [
+    "a+b<0",
+    "first != wrong2"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

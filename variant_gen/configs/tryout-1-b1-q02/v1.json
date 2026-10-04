@@ -1,0 +1,81 @@
+{
+  "question_id": "tryout-1-b1-q02",
+  "config_version": 1,
+  "original_hash": "37dd1d47397e402a",
+  "original_values": {
+    "money": 50000,
+    "book": 18000,
+    "tools": 12000
+  },
+  "variables": {
+    "money": {
+      "gen": "range",
+      "range": [
+        40000,
+        150000
+      ],
+      "step": 5000
+    },
+    "book": {
+      "gen": "range",
+      "range": [
+        10000,
+        40000
+      ],
+      "step": 1000
+    },
+    "tools": {
+      "gen": "range",
+      "range": [
+        5000,
+        25000
+      ],
+      "step": 1000
+    },
+    "spent": {
+      "gen": "derived",
+      "expr": "book+tools"
+    },
+    "ans": {
+      "gen": "derived",
+      "expr": "money-spent"
+    },
+    "half": {
+      "gen": "derived",
+      "expr": "money/2"
+    },
+    "remain": {
+      "gen": "derived",
+      "expr": "money-book"
+    }
+  },
+  "stem": "Rina memiliki uang Rp{money},00. Ia membeli buku seharga Rp{book},00 dan alat tulis seharga Rp{tools},00. Sisa uang Rina adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{ans},00",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Rp{half},00",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Rp{spent},00",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rp{remain},00",
+      "correct": false
+    }
+  ],
+  "explanation": "Belanja = Rp{book} + Rp{tools} = Rp{spent}. Sisa = Rp{money} − Rp{spent} = Rp{ans}.",
+  "constraints": [
+    "money > book+tools"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

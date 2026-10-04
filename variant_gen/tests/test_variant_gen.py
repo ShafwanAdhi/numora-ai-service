@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 import cli
-from bank import OriginalBank, _parse_row
+from bank import OriginalBank, _parse_row, load_workspace_bank
 from config_store import ConfigStore, validate_config
 from engine import generate
 from filters import correct_set, signature
@@ -65,7 +65,7 @@ class ExprSafety(unittest.TestCase):
 class Configs(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.bank, cls.configs = OriginalBank(BANK), ConfigStore(ROOT / "configs")
+        cls.bank, cls.configs = load_workspace_bank(BANK), ConfigStore(ROOT / "configs")
 
     def test_every_config_lints_clean(self):
         for qid in CONFIG_QIDS:
@@ -178,7 +178,7 @@ class Regressions(CliHarness):
             self.assertTrue(validate_config(changed, original), bad_hash)
 
     def test_all_config_paths_match_bank_ids_exactly(self):
-        bank = OriginalBank(self.tmp / "bank.csv")
+        bank = load_workspace_bank(BANK)
         for path in (ROOT / "configs").glob("*/v*.json"):
             config = json.loads(path.read_text(encoding="utf-8"))
             self.assertEqual(path.parent.name, config["question_id"])

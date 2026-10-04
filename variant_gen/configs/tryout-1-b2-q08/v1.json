@@ -1,0 +1,98 @@
+{
+  "question_id": "tryout-1-b2-q08",
+  "config_version": 1,
+  "original_hash": "1deb00c317c5b12d",
+  "original_values": {
+    "a": 4,
+    "b": 3,
+    "c": 2,
+    "d": 5,
+    "x": 3
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        3,
+        9
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        1,
+        5
+      ],
+      "step": 1
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "x": {
+      "gen": "range",
+      "range": [
+        1,
+        12
+      ],
+      "step": 1
+    },
+    "ab": {
+      "gen": "derived",
+      "expr": "a*b"
+    },
+    "cd": {
+      "gen": "derived",
+      "expr": "c*d"
+    },
+    "coef": {
+      "gen": "derived",
+      "expr": "a-c"
+    },
+    "const": {
+      "gen": "derived",
+      "expr": "ab+cd"
+    },
+    "value": {
+      "gen": "derived",
+      "expr": "coef*x+const"
+    }
+  },
+  "stem": "Diberikan P={a}(x+{b})−{c}(x−{d}) dan Q={coef}x+{const}. Tentukan Benar atau Salah untuk setiap pernyataan analisis!",
+  "options": [
+    {
+      "id": "1",
+      "text": "P ekuivalen dengan Q untuk semua nilai x.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Distributif pada P menghasilkan {a}x+{ab}−{c}x−{cd}.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Jika x={x}, maka P={value}.",
+      "correct": true
+    }
+  ],
+  "explanation": "−{c}(x−{d})=−{c}x+{cd}, bukan −{c}x−{cd}. P=({a}−{c})x+{ab}+{cd}={coef}x+{const}=Q. Substitusi x={x} memberi {value}.",
+  "constraints": [
+    "a>c"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

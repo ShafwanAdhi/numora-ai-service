@@ -1,0 +1,280 @@
+{
+  "tryout-1-b1-q01": {
+    "source_number": 1,
+    "difficulty": "Mudah",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 1 (Bentuk Soal: PG)\nLevel Kesulitan: Mudah   Level Kognitif: C3   Kunci Jawaban: C\nSuhu di dalam sebuah lemari pendingin adalah -8°C. Setelah dinyalakan, suhu meningkat sebesar 13°C. Suhu lemari pendingin sekarang adalah ....\nOpsi Jawaban:\nA. -21°C  B. -5°C  C. 5°C  D. 21°C\nPembahasan:\nSuhu awal = -8°C  Kenaikan suhu = 13°C\n-8 + 13 = 5\nJadi, suhu lemari pendingin sekarang adalah  5°C .",
+    "original_explanation": "Suhu akhir = -8 + 13 = 5°C.",
+    "notes": [
+      "Narasi dinyalakan di source dinormalisasi menjadi suhu kemudian meningkat; konsep penjumlahan tetap."
+    ]
+  },
+  "tryout-1-b1-q02": {
+    "source_number": 2,
+    "difficulty": "Mudah",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 2 (Bentuk Soal: PG)\nLevel Kesulitan: Mudah   Level Kognitif: C3   Kunci Jawaban: A\nRina memiliki uang Rp50.000,00. Ia membeli buku seharga Rp18.000,00 dan alat tulis seharga Rp12.000,00. Sisa uang Rina adalah ....\nOpsi Jawaban:\nA. Rp20.000,00  B. Rp25.000,00  C. Rp30.000,00  D. Rp32.000,00\nPembahasan:\nJumlah uang yang digunakan:\nRp18.000 + Rp12.000 = Rp30.000\nSisa uang:\nRp50.000 - Rp30.000 = Rp20.000\nJadi, sisa uang Rina adalah  Rp20.000,00 .",
+    "original_explanation": "Belanja = Rp18.000 + Rp12.000 = Rp30.000. Sisa = Rp50.000 − Rp30.000 = Rp20.000.",
+    "notes": []
+  },
+  "tryout-1-b1-q03": {
+    "source_number": 3,
+    "difficulty": "Sedang",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 3 (Bentuk Soal: PG)\nLevel Kesulitan: Sedang   Level Kognitif: C4   Kunci Jawaban: D\nPerhatikan dua cara perhitungan berikut.\nBudi: -12 + 8 × (-4)\nAndi: (-12 + 8) × (-4)\nPernyataan yang tepat mengenai hasil perhitungan Budi dan Andi adalah ....\nOpsi Jawaban:\nA. Hasil Budi dan Andi sama, yaitu 16.  B. Hasil Budi adalah 80 dan hasil Andi adalah -16.  C. Hasil Budi adalah -16 dan hasil Andi adalah 16.  D. Hasil Budi adalah -44 dan hasil Andi adalah 16.\nPembahasan:\nPerhitungan Budi:\n-12 + 8 × (-4)  = -12 + (-32)  = -44\nPerhitungan Andi:\n(-12 + 8) × (-4)  = (-4) × (-4)  = 16\nJadi, jawaban yang tepat adalah  D .",
+    "original_explanation": "Perkalian dikerjakan dahulu pada bentuk Budi: -12 + 8 × (-4) = -44. Pada bentuk Andi, kurung didahulukan: (-12 + 8) × (-4) = 16.",
+    "notes": []
+  },
+  "tryout-1-b1-q04": {
+    "source_number": 4,
+    "difficulty": "Sedang",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 4 (Bentuk Soal: PG)\nLevel Kesulitan: Sedang   Level Kognitif: C4   Kunci Jawaban: B\nEmpat siswa menghitung hasil dari:\n24 ÷ (-6) - (-5)\nHasil perhitungan mereka adalah:\nAndi: -9  Budi: 1  Citra: -1  Deni: 9\nSiswa yang memperoleh hasil benar adalah ....\nOpsi Jawaban:\nA. Andi  B. Budi  C. Citra  D. Deni\nPembahasan:\n24 ÷ (-6) - -4\nKemudian:\n-4 - (-5) - -4 + 5 - 1\nJadi, siswa yang memperoleh hasil benar adalah  Budi .",
+    "original_explanation": "Pembagian menghasilkan -4; -4 − (-5) = 1. Hasil benar diperoleh Budi.",
+    "notes": []
+  },
+  "tryout-1-b1-q05": {
+    "source_number": 5,
+    "difficulty": "Sedang",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 5 (Bentuk Soal: PG)\nLevel Kesulitan: Sedang   Level Kognitif: C4   Kunci Jawaban: C\nSebuah bilangan dikalikan 3, kemudian hasilnya dikurangi 7. Hasil akhirnya adalah 20.\nPernyataan yang tepat untuk menentukan bilangan tersebut adalah ....\nOpsi Jawaban:\nA. Bilangan tersebut diperoleh dari 20 - 7, sehingga hasilnya 13.  B. Bilangan tersebut diperoleh dari 20 + 7, sehingga hasilnya 27.  C. Bilangan tersebut diperoleh dari (20 + 7) ÷ 3, sehingga hasilnya 9.  D. Bilangan tersebut diperoleh dari (20 - 7) ÷ 3, sehingga hasilnya 4 1/3.\nPembahasan:\nMisalkan bilangan tersebut adalah x.\n3 × x - 7 = 20\n3 × x = 20 + 7\n3 × x = 27\nx = 27 ÷ 3\nx = 9\nJadi, bilangan tersebut adalah  9  dan jawaban yang benar adalah  C .",
+    "original_explanation": "3x − 7 = 20; 3x = 20 + 7 = 27; x = 27 ÷ 3 = 9.",
+    "notes": []
+  },
+  "tryout-1-b1-q06": {
+    "source_number": 6,
+    "difficulty": "Sedang",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 6 (Bentuk Soal: MCMA)\nLevel Kesulitan: Sedang   Level Kognitif: C4   Kunci Jawaban: A dan C\nPerhatikan operasi bilangan berikut.  Pilih semua jawaban yang benar!\nOpsi Jawaban:\nA. (-15) + 8 = -7  B. 24 ÷ (-6) = 6  C. (-7) × (-5) = 35  D. 18 - (-4) = 14\nPembahasan:\nA. (-15) + 8 = -7 →  Benar\nB. 24 ÷ (-6) = -4, bukan 6 →  Salah\nC. (-7) × (-5) = 35 →  Benar\nD. 18 - (-4) = 22, bukan 14 →  Salah\nJadi, jawaban yang benar adalah  A dan C .",
+    "original_explanation": "Penjumlahan = -7; pembagian = -4, bukan 6; perkalian dua negatif = 35; pengurangan bilangan negatif = 22, bukan 14.",
+    "notes": []
+  },
+  "tryout-1-b1-q08": {
+    "source_number": 8,
+    "difficulty": "Sulit",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 8 (Bentuk Soal: PGK)\nLevel Kesulitan: Sulit   Level Kognitif: C5   Kunci Jawaban: A dan C\nSebuah toko memberikan potongan harga 20% untuk sebuah sepatu yang harga awalnya Rp300.000,00. Setelah mendapat diskon, pembeli dikenakan biaya tambahan Rp20.000,00.\nTentukan pernyataan yang benar!\nOpsi Jawaban:\nA. Besar diskon sepatu adalah Rp60.000,00.\nB. Harga sepatu setelah diskon adalah Rp260.000,00.\nC. Harga sepatu setelah diskon dan ditambah biaya tambahan adalah Rp260.000,00.\nD. Pembeli harus membayar Rp280.000,00.\nPembahasan:\nBesar diskon:\n20% × Rp300.000 = Rp60.000\nHarga setelah diskon:\nRp300.000 - Rp60.000 = Rp240.000\nHarga setelah ditambah biaya:\nRp240.000 + Rp20.000 = Rp260.000\nJadi:\nA →  Benar  B →  Salah  C →  Benar  D →  Salah\nJadi, pernyataan yang benar adalah  A dan C .\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n",
+    "original_explanation": "Diskon = 20% × Rp300.000 = Rp60.000; harga setelah diskon Rp240.000; total pembayaran Rp260.000.",
+    "notes": []
+  },
+  "tryout-1-b2-q01": {
+    "source_number": 1,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: A\nSeorang kontraktor memiliki dua area pekerjaan pengubinan lapangan sekolah. Area A memerlukan  3(2x+5)  buah ubin, sedangkan Area B memerlukan  4(3x-2)  buah ubin. Jika total seluruh ubin yang dibutuhkan disederhanakan ke dalam bentuk aljabar paling sederhana, bentuk aljabar tersebut adalah...\nOpsi Jawaban:\nA.  18x+7\nB.  18x+23\nC.  15x+7\nD.  15x+23\nPembahasan:\n\nGunakan sifat distributif untuk membuka tanda kurung pada masing-masing area:\n\nArea A:  3(2x+5)=6x+15\n\nArea B:  4(3x-2)=12x-8\n\nJumlahkan kedua bentuk aljabar dengan mengelompokkan suku-suku yang sejenis:\n\nTotal ubin=(6x+15)+(12x-8)=(6x+12x)+(15-8)=18x+7\n\nKesalahan umum yang diantisipasi: Siswa sering keliru saat melakukan perkalian distributif pada suku kedua Area B, yaitu mengalikan  4 × (-2)  menjadi  +8  bukannya  -8 , sehingga menghasilkan  18x+23  (Opsi B).\n",
+    "original_explanation": "Distributif menghasilkan koefisien x sebesar 3 × 2 + 4 × 3 = 18 dan konstanta 3 × 5 − 4 × 2 = 7. Total = 18x+7.",
+    "notes": []
+  },
+  "tryout-1-b2-q02": {
+    "source_number": 2,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: A\nPanitia pentas seni sekolah menyusun deretan kursi di panggung terbuka. Banyak kursi pada setiap baris mengikuti pola barisan aritmetika berhingga. Baris pertama berisi 15 kursi, baris kedua berisi 19 kursi, dan baris ketiga berisi 23 kursi. Jika susunan kursi tersebut hanya dibuat sampai baris ke-10, banyak kursi pada baris terakhir (baris ke-10) adalah...\nOpsi Jawaban:\nA. 51 kursi\nB. 55 kursi\nC. 59 kursi\nD. 63 kursi\nPembahasan:\n\nTentukan suku pertama ( a ) dan beda ( b ) dari barisan aritmetika:\n\na=15\n\nb=19-15=4\nGunakan rumus suku ke- n  barisan aritmetika ( U n =a+(n-1)b ) untuk  n=10 :\n\n\nU 10 =15+(10-1)4=15+(9 × 4)=15+36=51 kursi\n\nKesalahan umum yang diantisipasi: Siswa sering menggunakan rumus  a+nb  tanpa mengurangi 1 dari nilai  n , sehingga menghitung  15+(10 × 4)=55  kursi (Opsi B).\n",
+    "original_explanation": "Suku pertama 15, beda 4. U_10 = 15 + (10−1) × 4 = 51 kursi.",
+    "notes": []
+  },
+  "tryout-1-b2-q03": {
+    "source_number": 3,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: B\nRian mendapat kupon belanja perlengkapan sekolah sebesar Rp200.000,00. Ia sudah membeli satu buah tas sekolah seharga Rp80.000,00. Sisa nilai kupon tersebut akan digunakan untuk membeli beberapa buku tulis bergaris dengan harga Rp15.000,00 per buku. Banyak buku tulis maksimum yang dapat dibeli Rian agar total belanjaannya tidak melebihi nilai kupon adalah...\nOpsi Jawaban:\nA. 7 buah\nB. 8 buah\nC. 9 buah\nD. 10 buah\nPembahasan:\n\nMisalkan  x  adalah banyak buku tulis yang dibeli.\n\nSusun model pertidaksamaan linear satu variabel:\n\n15.000x+80.000 ≤ 200.000\nSelesaikan pertidaksamaan tersebut:\n\n\n15.000x ≤ 200.000-80.000\n\n15.000x ≤ 120.000\n\nx ≤ 8\nJadi, banyak buku tulis maksimum yang dapat dibeli adalah 8 buah.\n\nKesalahan umum yang diantisipasi: Siswa terkadang tidak mengurangkan harga tas dari total uang terlebih dahulu, melainkan langsung membagi Rp200.000,00 dengan Rp15.000,00 ( 13,33 ), atau membulatkan hasil pembagian  120.000/15.000  ke atas secara tidak tepat.\n",
+    "original_explanation": "Batas belanja: 15.000x + 80.000 ≤ 200.000; x ≤ 120.000/15.000. Banyak buku integer maksimum adalah 8.",
+    "notes": []
+  },
+  "tryout-1-b2-q04": {
+    "source_number": 4,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: B\nIbu Maya membeli 3 bungkus paket spidol dan 2 buah penggaris di toko alat tulis sekolah dengan harga Rp43.000,00. Di toko yang sama, Pak Hari membeli 2 bungkus paket spidol dan 4 buah penggaris seharga Rp42.000,00. Harga untuk 1 bungkus paket spidol dan 1 buah penggaris adalah...\nOpsi Jawaban:\nA. Rp14.000,00\nB. Rp15.000,00\nC. Rp16.000,00\nD. Rp17.000,00\nPembahasan:\n\nMisalkan  x  = harga 1 bungkus paket spidol dan  y  = harga 1 buah penggaris. Susun persamaan SPLDV:\n(1)  3x+2y=43.000\n(2) $2x + 4y = 42.000 \\implies x + 2y = 21.000 \\implies 2y = 21.000 - x$\n\nSubstitusikan nilai  2y  dari persamaan (2) ke persamaan (1):\n\n\n3x+(21.000-x)=43.000\n\n2x+21.000=43.000\n$$2x = 22.000 \\implies x = 11.000$$\nCari nilai  y  dengan membagi $2y = 21.000 - 11.000 = 10.000 \\implies y = 5.000$.\n\nHitung harga 1 paket spidol + 1 penggaris ( x+y ):\n\n\nHarga=11.000+5.000=Rp15.000,00\n\nKesalahan umum yang diantisipasi: Siswa salah mengeliminasi variabel karena keliru dalam mengalikan koefisien, atau hanya berhenti setelah menemukan nilai salah satu variabel saja ( x  saja atau  y  saja) tanpa menjumlahkan keduanya.\n",
+    "original_explanation": "Persamaan 3x+2y=43.000 dan 2x+4y=42.000 menghasilkan x=Rp11.000, y=Rp5.000. Jumlahnya Rp16.000, bukan penjumlahan yang salah pada source.",
+    "notes": [
+      "Source total 15.000 dikoreksi menjadi 16.000 pada revision v2."
+    ]
+  },
+  "tryout-1-b2-q05": {
+    "source_number": 5,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C5\nKunci Jawaban: B\nTarif sewa sepeda listrik di taman kota dirumuskan dengan  f(x)=10.000+3.000x , dengan  x  menyatakan lama pemakaian dalam jam. Pengelola menetapkan batas waktu pemakaian harian dengan domain fungsi  x ∈ {1,2,3,4} .\nPerhatikan dua klaim berikut:\n• Klaim I: Daerah hasil (range) dari fungsi tersebut adalah  {13.000,16.000,19.000,22.000} .\n• Klaim II: Jika seorang penyewa membayar Rp28.000,00, maka penyewa tersebut telah menggunakan sepeda selama 6 jam dan masih berada dalam rentang domain harian.\nPernyataan berikut yang paling tepat adalah...\nOpsi Jawaban:\nA. Klaim I benar dan Klaim II benar\nB. Klaim I benar dan Klaim II salah\nC. Klaim I salah dan Klaim II benar\nD. Kedua klaim salah\nPembahasan:\n\nEvaluasi Klaim I dengan memasukkan setiap nilai domain  x ∈ {1,2,3,4} :\nf(1)=10.000+3.000(1)=13.000\n\nf(2)=10.000+3.000(2)=16.000\n\nf(3)=10.000+3.000(3)=19.000\n\nf(4)=10.000+3.000(4)=22.000\nDiperoleh Range  ={13.000,16.000,19.000,22.000} . Maka,  Klaim I BENAR .\n\nEvaluasi Klaim II jika  f(x)=28.000 :\n\n$$10.000 + 3.000x = 28.000 \\implies 3.000x = 18.000 \\implies x = 6\\text{ jam}$$\nLama pemakaian memang 6 jam, namun angka  x=6   di luar  domain harian yang ditentukan ( x ∈ {1,2,3,4} ). Maka,  Klaim II SALAH .\n\nKesalahan umum yang diantisipasi: Siswa menyimpulkan Klaim II benar hanya berdasarkan perhitungan matematis  x=6  tanpa memverifikasi batasan domain harian yang diberikan pada soal.\n",
+    "original_explanation": "Hitung f(1)..f(4); range klaim benar bila tanpa kesalahan pada f(1). Klaim I: True. Pembayaran setara 6 jam; domain 1..4, sehingga Klaim II: False.",
+    "notes": []
+  },
+  "tryout-1-b2-q06": {
+    "source_number": 6,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: A, B, C, D\nSebuah sanggar tari menyewa dua jenis busana tradisional untuk pementasan. Harga sewa 2 stel Busana A dan 3 stel Busana B adalah Rp210.000,00. Sedangkan harga sewa 4 stel Busana A dan 1 stel Busana B adalah Rp270.000,00. Manakah pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\nA. Harga sewa 1 stel Busana A adalah Rp60.000,00\nB. Harga sewa 1 stel Busana B adalah Rp30.000,00\nC. Selisih harga sewa 1 stel Busana A dan 1 stel Busana B adalah Rp30.000,00\nD. Total biaya untuk menyewa 2 stel Busana A dan 2 stel Busana B adalah Rp180.000,00\nPembahasan:\n\nMisalkan  A  = Busana A dan  B  = Busana B:\n(1)  2A+3B=210.000\n(2) $4A + B = 270.000 \\implies B = 270.000 - 4A$\n\nSubstitusikan  B  ke persamaan (1):\n2A+3(270.000-4A)=210.000\n\n2A+810.000-12A=210.000\n$$-10A = -600.000 \\implies A = 60.000\\text{ (Opsi A BENAR)}$$\nCari nilai  B :\n\nB=270.000-4(60.000)=30.000(Opsi B BENAR)\nUji Opsi C: Selisih  =60.000-30.000=30.000(Opsi C BENAR) .\n\nUji Opsi D:  2A+2B=2(60.000)+2(30.000)=120.000+60.000=180.000(Opsi D BENAR) .\nKesalahan umum yang diantisipasi: Siswa sering kali hanya memilih satu opsi yang pertama kali ditemukan benar tanpa memeriksa seluruh opsi pilihan pada tipe soal PGK Multiple Choice Multiple Answer.\n",
+    "original_explanation": "SPLDV 2A+3B=210.000, 4A+B=270.000 memiliki solusi A=60.000, B=30.000. Selisih 30.000; biaya 2A+2B=180.000. Keempat pernyataan benar.",
+    "notes": []
+  },
+  "tryout-1-b2-q07": {
+    "source_number": 7,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 7 (Bentuk Soal: PGK Kategori)\nLevel Kognitif: C4\nKunci Jawaban: (a) BENAR; (b) BENAR; (c) BENAR\nSebuah tabungan siswa diawali dengan setoran pertama sebesar Rp20.000,00 pada minggu ke-1. Pada minggu-minggu berikutnya, besarnya setoran bertambah secara tetap sebesar Rp5.000,00 tiap minggunya, hingga minggu ke-5. Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut!\nOpsi Jawaban:\n(a) Setoran tabungan pada minggu ke-5 adalah Rp40.000,00.\n(b) Jumlah total seluruh tabungan siswa selama 5 minggu pertama adalah Rp150.000,00.\n(c) Rata-rata tabungan per minggu selama 5 minggu tersebut adalah Rp30.000,00.\nPembahasan:\n\nSetoran minggu ke-1 ( a ) =  20.000 , beda ( b ) =  5.000 .\nBarisan setoran tiap minggu:  20.000,25.000,30.000,35.000,40.000 .\n\nPernyataan (a): Setoran minggu ke-5 ( U 5 )  =20.000+(5-1)5.000=20.000+20.000=40.000 . (Status:  BENAR )\n\nPernyataan (b): Jumlah total tabungan 5 minggu ( S 5 ):\n\n\nS 5 = 5 2 (a+ U 5 )= 5 2 (20.000+40.000)= 5 2 (60.000)=150.000\n(Status:  BENAR )\n\nPernyataan (c): Rata-rata tabungan per minggu:\n\nRata-rata= S 5 5 = 150.000 5 =30.000\n(Status:  BENAR )\n\nKesalahan umum yang diantisipasi: Siswa sering tertukar antara suku ke- n  ( U n , besarnya setoran pada minggu tertentu) dengan jumlah  n  suku pertama ( S n , akumulasi total seluruh setoran).\n",
+    "original_explanation": "U_n=a+(n−1)d=40.000. S_n=n(a+U_n)/2=150.000. Rata-rata S_n/n=30.000. Ketiganya benar.",
+    "notes": []
+  },
+  "tryout-1-b2-q08": {
+    "source_number": 8,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 8 (Bentuk Soal: PGK Kategori)\nLevel Kognitif: C5\nKunci Jawaban: (a) BENAR; (b) SALAH; (c) BENAR\nDiberikan bentuk aljabar  P=4(x+3)-2(x-5)  dan  Q=2x+22 . Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nOpsi Jawaban:\n(a) Bentuk aljabar  P  ekivalen (bernilai sama) dengan  Q  untuk semua nilai  x .\n(b) Sifat distributif yang diterapkan pada  P  menghasilkan  4x+12-2x-10 .\n(c) Jika  x=3 , maka nilai dari  P  adalah 28.\nPembahasan:\n\nPenjabaran bentuk aljabar  P :\n\nP=4(x+3)-2(x-5)=4x+12-2x+10=2x+22\nPernyataan (a): Karena bentuk sederhana  P=2x+22  sama dengan  Q=2x+22 , maka kedua bentuk aljabar ekuivalen. (Status:  BENAR )\n\nPernyataan (b): Penerapan distributif pada  -2(x-5)  seharusnya menghasilkan  -2x+10 , bukan  -2x-10 . (Status:  SALAH )\n\nPernyataan (c): Substitusikan  x=3  ke bentuk  P :\n\nP=2(3)+22=6+22=28\n(Status:  BENAR )\n\nKesalahan umum yang diantisipasi: Siswa sering membuat kesalahan tanda (sign error) saat mengalikan bilangan negatif secara distributif, yaitu  -2 × (-5)=-10  bukan  +10 .\n",
+    "original_explanation": "−2(x−5)=−2x+10, bukan −2x−10. P=(4−2)x+12+10=2x+22=Q. Substitusi x=3 memberi 28.",
+    "notes": []
+  },
+  "tryout-1-b3-q01": {
+    "source_number": 1,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 1 (Bentuk Soal: PG)\nLevel Kognitif: C3\nKunci Jawaban: A\nTitik  A(2,-3)  dicerminkan terhadap garis  y=x , kemudian hasilnya ditranslasikan oleh $T = \\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix}$. Koordinat bayangan akhir dari titik  A  adalah...\nOpsi Jawaban:\nA.  (1,0)\nB.  (-1,0)\nC.  (1,-5)\nD.  (5,-1)\nPembahasan:\n1.  Refleksi titik  A(x,y)  terhadap garis  y=x  menghasilkan  A'(y,x) :\n$$A(2, -3) \\xrightarrow{\\text{Refleksi } y=x} A'(-3, 2)$$\n2.  Translasi titik  A'(x',y')  oleh $T = \\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix}$ menghasilkan:\nA''=(-3+4,2+(-2))=(1,0)\nKesalahan umum yang diantisipasi: Siswa sering tertukar dengan aturan refleksi terhadap sumbu- X  atau sumbu- Y , atau salah menerapkan tanda negatif saat melakukan penjumlahan translasi ( -3+4=-1 ).",
+    "original_explanation": "Refleksi y=x menukar koordinat menjadi (-3, 2). Translasi memberi (-3+4, 2+-2)=(1, 0).",
+    "notes": []
+  },
+  "tryout-1-b3-q02": {
+    "source_number": 2,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  2  (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: A\nSebuah taman desa dirancang gabungan dari daerah berbentuk persegi panjang berukuran  20m × 14m  dan daerah setengah lingkaran yang menempel rapat pada salah satu sisi lebarnya ( 14m ). Luas total taman tersebut adalah... ( π = 22 7 )\nOpsi Jawaban:\nA.  357  m 2\nB.  434  m 2\nC.  318,5  m 2\nD.  280  m 2\nPembahasan:\n1.  Luas daerah persegi panjang ( L 1 ):\nL 1 =p × l=20 × 14=280  m 2\n2.  Luas daerah setengah lingkaran ( L 2 ) dengan diameter $d = 14\\text{ m} \\implies r = 7\\text{ m}$:\nL 2 = 1 2 × π × r 2 = 1 2 × 22 7 × 7 2 =77  m 2\n3.  Luas total taman:\nL total = L 1 + L 2 =280+77=357  m 2\nKesalahan umum yang diantisipasi: Siswa sering lupa membagi  2  luas lingkaran (menghitung lingkaran utuh) atau keliru menggunakan angka  14m  sebagai jari-jari, bukan diameter.",
+    "original_explanation": "Diameter setengah lingkaran 14, radius 7. Luas persegi panjang 280; setengah lingkaran 77; total 357 m².",
+    "notes": []
+  },
+  "tryout-1-b3-q03": {
+    "source_number": 3,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  3  (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: A\nDua garis sejajar  g  dan  h  dipotong oleh garis transversal  t . Pasangan sudut berseberangan dalam yang terbentuk masing-masing besarnya  (3x+15 ) ∘  dan  (5x-25 ) ∘ . Jika salah satu dari sudut tersebut sehadap dengan sebuah sudut dalam pada segitiga  ABC , dan sudut dalam kedua pada segitiga  ABC  besarnya  5 0 ∘ , maka besar sudut dalam ketiga pada segitiga  ABC  tersebut adalah...\nOpsi Jawaban:\nA.  5 5 ∘\nB.  6 5 ∘\nC.  7 5 ∘\nD.  10 5 ∘\nPembahasan:\n1.  Dua sudut berseberangan dalam dari dua garis sejajar memiliki besar yang sama:\n$$3x + 15 = 5x - 25 \\implies 2x = 40 \\implies x = 20^\\circ$$\n2.  Hitung besar sudut tersebut:\nBesar Sudut=3(20)+15=7 5 ∘\n3.  Karena sudut ini sehadap dengan salah satu sudut dalam segitiga  ABC , maka sudut dalam pertama segitiga  ∠ A=7 5 ∘ .\n4.  Diketahui sudut kedua  ∠ B=5 0 ∘ . Jumlah sudut dalam segitiga adalah  18 0 ∘ :\n∠ C=18 0 ∘ -(7 5 ∘ +5 0 ∘ )=18 0 ∘ -12 5 ∘ =5 5 ∘\nKesalahan umum yang diantisipasi: Siswa menganggap sudut berseberangan dalam berjumlah  18 0 ∘  (tertukar dengan sudut dalam sepihak), sehingga salah menentukan nilai  x .",
+    "original_explanation": "Sudut berseberangan dalam sama: 3x+15=5x−25, sehingga x=20, sudut=75°. Sudut ketiga=180−75−50=55°.",
+    "notes": []
+  },
+  "tryout-1-b3-q04": {
+    "source_number": 4,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  4  (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: A\nSebuah wadah penampung air berbentuk limas segi empat beraturan terbalik (puncak limas berada di bawah) memiliki panjang rusuk alas  12 cm  dan tinggi  18 cm . Wadah tersebut diisi air hingga ketinggian air mencapai  2 3  dari tinggi total wadah. Volume air yang berada di dalam wadah tersebut adalah...\nOpsi Jawaban:\nA.  256 c m 3\nB.  384 c m 3\nC.  576 c m 3\nD.  864 c m 3\nPembahasan:\n1.  Air yang mengisi wadah limas terbalik akan membentuk limas kecil yang sebangun dengan limas wadah.\n2.  Rasio kesebangunan tinggi air terhadap tinggi wadah adalah  k= 2 3 .\n3.  Panjang rusuk alas air ( s air ) dan tinggi air ( t air ):\ns air = 2 3 × 12=8 cm\nt air = 2 3 × 18=12 cm\n4.  Volume air dalam limas:\nV air = 1 3 × Luasalasair × t air = 1 3 × (8 × 8) × 12=256 c m 3\nKesalahan umum yang diantisipasi: Siswa langsung mengalikan volume total limas dengan  2 3 . Padahal perubahan volume pada bangun ruang tiga dimensi berbanding lurus dengan pangkat tiga skala ( k 3 = 8 27  dari volume total), bukan linear.",
+    "original_explanation": "Limas air sebangun dengan skala 2/3. Rusuk air 8 cm, tinggi air 12 cm. Volume total 864; volume air=(2/3)³×864=256 cm³.",
+    "notes": []
+  },
+  "tryout-1-b3-q05": {
+    "source_number": 5,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  5  (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: A, B, dan C\nSebuah foto ditempelkan pada selembar karton berukuran  40cm × 60cm . Di sebelah kiri, kanan, dan atas foto masih tersisa karton masing-masing selebar  4cm . Jika foto dan karton tersebut sebangun, pilih semua pernyataan yang benar!\nOpsi Jawaban:\nA. Tinggi foto tersebut adalah  48cm .\nB. Lebar sisa karton di bagian bawah foto adalah  8cm .\nC. Perbandingan luas foto dan luas karton adalah  16:25 .\nD. Luas sisa karton yang tidak tertutup foto adalah  960c m 2 .\nPembahasan:\n1.  Ukuran karton:  K L =40cm ,  K T =60cm .\n2.  Lebar foto ( F L ) karena sisa kiri dan kanan masing-masing  4cm :\nF L =40-4-4=32cm\n3.  Karena foto dan karton sebangun:\n$$\\frac{F_L}{K_L} = \\frac{F_T}{K_T} \\implies \\frac{32}{40} = \\frac{F_T}{60} \\implies F_T = \\frac{4}{5} \\times 60 = 48\\text{ cm} \\quad \\text{(Pernyataan A BENAR)}$$\n4.  Sisa karton bagian bawah ( S bawah ):\nS bawah = K T - F T - S atas =60-48-4=8cm(Pernyataan B BENAR)\n5.  Perbandingan luas foto dan luas karton:\nLuas Foto Luas Karton = F L K L 2 = 4 5 2 = 16 25 (Pernyataan C BENAR)\n6.  Luas sisa karton tidak tertutup foto:\nLuas Sisa=(40 × 60)-(32 × 48)=2400-1536=864c m 2 (Pernyataan D SALAH)\nKesalahan umum yang diantisipasi: Siswa menganggap sisa karton bagian bawah sama dengan sisa bagian atas/samping ( 4cm ), tanpa memperhitungkan syarat kesebangunan rasio panjang dan lebar.",
+    "original_explanation": "Lebar foto 32; tinggi=60×32/40=48. Bawah=60−48−4=8. Rasio luas 16:25. Sisa luas sebenarnya 864, bukan 960.",
+    "notes": []
+  },
+  "tryout-1-b3-q06": {
+    "source_number": 6,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  6  (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C5\nKunci Jawaban: A, B, dan D\nSebuah tim teknik merancang dua model penampung air berskala menengah:\n1.   Rancangan A:  Kombinasi tabung dengan jari-jari  7 dm  dan tinggi  10 dm , ditutup kubah setengah bola di bagian atasnya dengan jari-jari sama ( 7 dm ).\n2.   Rancangan B:  Prisma segi empat (balok) dengan panjang  15 dm , lebar  12 dm , dan tinggi  12 dm .\nGunakan  π = 22 7 . Berdasarkan evaluasi kapasitas volume kedua rancangan tersebut, pilih semua pernyataan yang benar!\nOpsi Jawaban:\nA. Total kapasitas penampungan air pada Rancangan A lebih besar daripada Rancangan B.\nB. Selisih kapasitas total air antara Rancangan A dan Rancangan B adalah  98,67liter .\nC. Bagian kubah setengah bola pada Rancangan A menampung air lebih dari  750liter .\nD. Jika air diisikan hanya pada bagian tabung Rancangan A saja, volumenya lebih kecil daripada volume Rancangan B.\nPembahasan:\n1.   Rancangan A:\nV tabung = π r 2 t= 22 7 × 7 2 × 10=1540 d m 3\nV setengah bola = 2 3 π r 3 = 2 3 × 22 7 × 7 3 =718,67 d m 3\nV total A =1540+718,67=2258,67 d m 3 (liter) 2.   Rancangan B:\nV total B =p × l × t=15 × 12 × 12=2160 d m 3 (liter) 3.   Evaluasi Pernyataan:\n$2258{,}67 > 2160 \\implies$ Rancangan A lebih besar dari B.  (Pernyataan A BENAR)\nSelisih volume  =2258,67-2160=98,67 liter .  (Pernyataan B BENAR)\nVolume kubah  =718,67 liter<750 liter .  (Pernyataan C SALAH)\nV tabung A (1540 liter)< V total B (2160 liter) .  (Pernyataan D BENAR)\nKesalahan umum yang diantisipasi: Siswa sering menggunakan rumus volume bola utuh ( 4 3 π r 3 ) alih-alih setengah bola, sehingga hasil perhitungan kubah menjadi berlipat ganda.",
+    "original_explanation": "V_tabung=1.540; V_kubah=2πr³/3≈718,67; total A≈2.258,67; balok B=2.160. Tabung<B<total A; selisih dibulatkan=98,67. Kubah<750.",
+    "notes": []
+  },
+  "tryout-1-b3-q07": {
+    "source_number": 7,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  7  (Bentuk Soal: PGK Kategori)\nLevel Kognitif: C5\nKunci Jawaban:\nA. Benar\nB. Salah\nC. Benar\nDiketahui sebuah segitiga  PQR  pada bidang kartesius dengan titik-titik sudut  P(2,1) ,  Q(6,1) , dan  R(2,4) . Segitiga tersebut didilatasi terhadap titik pusat  O(0,0)  dengan faktor skala  k=-2  sehingga menghasilkan bayangan segitiga  P'Q'R' .\nTentukan apakah setiap pernyataan berikut bernilai Benar atau Salah!\nOpsi Jawaban:\nA. Koordinat bayangan titik  R  setelah dilatasi adalah  R'(-4,-8) .\nB. Luas bayangan segitiga  P'Q'R'  adalah  2  kali lipat dari luas segitiga awal  PQR .\nC. Panjang sisi miring  Q'R'  pada segitiga bayangan adalah  10 satuan panjang .\nPembahasan:\n1.   Evaluasi Pernyataan A:  Dilatasi  R(2,4)  terhadap  O(0,0)  dengan  k=-2 :\n$$R' = (-2 \\times 2, -2 \\times 4) = (-4, -8) \\quad \\text{\\textbf{(BENAR)}}$$\n2.   Evaluasi Pernyataan B:\nSegitiga  PQR  siku-siku di  P(2,1) , alas  PQ=6-2=4 , tinggi  PR=4-1=3 .\nLuas  PQR= 1 2 × 4 × 3=6 satuan luas .\nLuas bayangan akibat dilatasi faktor skala  k  adalah  k 2 × Luasawal :\nLuas P'Q'R'=(-2 ) 2 × 6=4 × 6=24 satuan luas\nPerbesaran luas adalah  k 2 =4  kali lipat, bukan  2  kali lipat.  (SALAH) 3.   Evaluasi Pernyataan C:\nDengan Teorema Pythagoras, panjang  QR= 4 2 + 3 2 =5 satuan .\nSisi miring bayangan $Q'R' = \\vert{}k\\vert{} \\times QR = \\vert{}-2\\vert{} \\times 5 = 10\\text{ satuan}$.  (BENAR)\nKesalahan umum yang diantisipasi: Siswa menyimpulkan bahwa jika panjang sisi membesar $\\vert{}k\\vert{} = 2$ kali lipat, maka luasnya juga membesar  2  kali lipat. Padahal perubahan luas bangun datar berbanding lurus dengan kuadrat faktor skala ( k 2 ).\n\n",
+    "original_explanation": "R′=kR=(-4, -8). Luas awal 6, bayangan 24 (faktor k²), bukan 2. Kaki 4/3 memiliki sisi miring 5×1; bayangannya 10.",
+    "notes": []
+  },
+  "tryout-1-b4-q01": {
+    "source_number": 1,
+    "difficulty": "Mudah",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal 1 (Bentuk Soal: PG)\nLevel Kesulitan: Mudah  Level Kognitif: C3  Kunci Jawaban: C\nPerhatikan data nilai ulangan Matematika berikut:\n70, 80, 75, 80, 85\nNilai yang paling sering muncul dari data tersebut adalah ....\nOpsi Jawaban:  A. 70  B. 75  C. 80  D. 85\nPembahasan:   Nilai 80 muncul sebanyak 2 kali, sedangkan nilai lainnya hanya muncul 1 kali. Jadi, nilai yang paling sering muncul adalah 80.",
+    "original_explanation": "Nilai 80 muncul dua kali, sedangkan 70, 75, 85 masing-masing sekali. Modus tunggal adalah 80.",
+    "notes": []
+  },
+  "tryout-1-b4-q03": {
+    "source_number": 3,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  3  (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: C\nData hasil survei waktu belajar harian ( x  dalam jam) dari sekelompok siswa disajikan dalam tabel frekuensi berikut:\nWaktu belajar  1 jam :  3 siswa\nWaktu belajar  2 jam :  5 siswa\nWaktu belajar  3 jam :  8 siswa\nWaktu belajar  4 jam :  3 siswa\nWaktu belajar  5 jam :  1 siswa\nJika sekolah menetapkan kriteria \"belajar mandiri efektif\" bagi siswa yang memiliki waktu belajar lebih dari atau sama dengan rata-rata kelompok data tersebut, maka persentase siswa yang memenuhi kriteria belajar mandiri efektif adalah...\nOpsi Jawaban:\nA. $40\\%$\nB. $50\\%$\nC. $60\\%$\nD. $70\\%$\nPembahasan:\n1.  Hitung jumlah siswa ( N ) dan total jam belajar seluruh siswa:\nN=3+5+8+3+1=20 siswa\n\nTotal Jam=(1 × 3)+(2 × 5)+(3 × 8)+(4 × 3)+(5 × 1)\n\nTotal Jam=3+10+24+12+5=54 jam\n2.  Hitung rata-rata ( x ) waktu belajar:\nx = 54 20 =2,7jam\n3.  Tentukan siswa yang memenuhi kriteria  ≥ 2,7jam , yaitu siswa dengan waktu belajar  3 jam ,  4 jam , dan  5 jam :\nBanyak Siswa Aktif=8+3+1=12 siswa\n4.  Hitung persentase siswa efektif:\n$$\\text{Persentase} = \\frac{12}{20} \\times 100\\% = 60\\%$$\nKesalahan umum yang diantisipasi: Siswa membulatkan rata-rata  2,7  menjadi  3 , lalu hanya mengambil siswa yang belajar  4  dan  5 jam  ($4\\text{ siswa} \\implies 20\\%$), atau mengira nilai rata-rata didapat dari merata-ratakan nilai  1,2,3,4,5  tanpa memperhitungkan frekuensinya.",
+    "original_explanation": "Jumlah siswa 20, jumlah jam tertimbang 54. Rata-rata exact=54/20 (nilai tampilan≈2,7); klasifikasi memakai pecahan exact. Siswa efektif 12; persentase=12/20×100%=60%.",
+    "notes": []
+  },
+  "tryout-1-b4-q04": {
+    "source_number": 4,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  4  (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: B\nHasil tes asesmen kemampuan matematika dua kelas disajikan dalam ringkasan ukuran pemusatan dan penyebaran data berikut:\nKelas X:  Rata-rata  =78 , Jangkauan ( Range )  =12 , Nilai tertinggi  =84 , Median  =78 .\nKelas Y:  Rata-rata  =78 , Jangkauan ( Range )  =25 , Nilai tertinggi  =90 , Median  =75 .\nBerdasarkan analisis ukuran pemusatan dan penyebaran data kedua kelas tersebut, kesimpulan yang paling tepat adalah...\nOpsi Jawaban:\nA. Nilai siswa Kelas Y lebih merata daripada Kelas X karena nilai tertingginya lebih tinggi.\nB. Performa nilai siswa Kelas X lebih konsisten (heterogenitas rendah) daripada Kelas Y karena memiliki jangkauan yang lebih kecil.\nC. Separuh siswa Kelas Y memperoleh nilai di atas  78 , sedangkan separuh siswa Kelas X berada di bawah  75 .\nD. Rata-rata kedua kelas sama, sehingga sebaran nilai individual tiap siswa pada kedua kelas dipastikan identik.\nPembahasan:\n1.  Analisis Rata-rata: Kedua kelas memiliki rata-rata sama ( 78 ), yang menunjukkan tingkat pemusatan nilai keseluruhan seimbang.\n2.  Analisis Jangkauan ( Range ): Jangkauan Kelas X ( 12 ) jauh lebih kecil daripada Kelas Y ( 25 ). Jangkauan yang kecil menunjukkan bahwa selisih nilai tertinggi dan terendah tidak terlalu jauh, sehingga sebaran nilai siswa di Kelas X lebih rapat, seragam, dan konsisten.\n3.  Sebaliknya, Kelas Y memiliki jangkauan besar ( 25 ), yang berarti tingkat variasi/heterogenitas nilai siswanya sangat tinggi (ada yang sangat tinggi dan ada yang sangat rendah).\nKesalahan umum yang diantisipasi: Siswa sering beranggapan bahwa kelas dengan nilai tertinggi lebih besar (Kelas Y dengan nilai  90 ) pasti secara keseluruhan memiliki performa yang lebih baik atau lebih merata, padahal jangkauan yang lebar mengindikasikan ketimpangan nilai yang lebih besar.",
+    "original_explanation": "Jangkauan adalah maksimum−minimum. Kelas X memiliki jangkauan 12, Y 25; rentang kelas X lebih sempit. Range saja tidak membuktikan variance lebih kecil.",
+    "notes": [
+      "Revision v2 membandingkan range saja, bukan mengklaim variance dari range."
+    ]
+  },
+  "tryout-1-b4-q05": {
+    "source_number": 5,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  5  (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: A, C, dan D\nDua buah dadu bermuka enam dilempar undi bersama-sama sebanyak  180 kali . Pilih semua pernyataan yang benar berdasarkan analisis peluang dan frekuensi harapan kejadian tersebut!\nOpsi Jawaban:\nA. Peluang munculnya mata dadu berjumlah  7  adalah  1 6 .\nB. Peluang munculnya kedua mata dadu kembar (berangka sama) adalah  1 12 .\nC. Frekuensi harapan munculnya mata dadu berjumlah  10  atau lebih adalah  30kali .\nD. Frekuensi harapan munculnya mata dadu berjumlah bilangan prima adalah  75 kali .\nPembahasan:\n1.  Total anggota ruang sampel pelemparan dua dadu  n(S)=6 × 6=36 .\n2.   Evaluasi Opsi A:  Kejadian jumlah  7={(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)}  Ada  6  anggota.\n\nP(jumlah 7)= 6 36 = 1 6 (Pernyataan A BENAR)\n3.   Evaluasi Opsi B:  Kejadian dadu kembar  ={(1,1),(2,2),(3,3),(4,4),(5,5),(6,6)}  Ada  6  anggota.\n\nP(kembar)= 6 36 = 1 6 (Pernyataan B SALAH)\n4.   Evaluasi Opsi C:  Kejadian jumlah  ≥ 10  adalah jumlah  10,11,12 :\nJumlah $10: \\{(4,6), (5,5), (6,4)\\} \\implies 3$\nJumlah $11: \\{(5,6), (6,5)\\} \\implies 2$\nJumlah $12: \\{(6,6)\\} \\implies 1$\nTotal  =3+2+1=6  pasangan.\nF h = 6 36 × 180=30 kali(Pernyataan C BENAR) 5.   Evaluasi Opsi D:  Kejadian jumlah bilangan prima ( 2,3,5,7,11 ):\nJumlah  2:1 , Jumlah  3:2 , Jumlah  5:4 , Jumlah  7:6 , Jumlah  11:2 .\nTotal  =1+2+4+6+2=15  pasangan.\nF h = 15 36 × 180=15 × 5=75 kali(Pernyataan D BENAR)\nKesalahan umum yang diantisipasi: Siswa sering salah menghitung anggota ruang sampel dadu kembar menjadi  3  pasang saja atau salah mendaftar pasangan bilangan prima pada pelemparan dua dadu.",
+    "original_explanation": "Ada 36 pasangan. Jumlah7:6 pasangan (1/6); kembar:6 pasangan (1/6, bukan1/12). Jumlah≥10: 6 pasangan, harapan 30. Jumlah prima2,3,5,7,11:15 pasangan, harapan 75.",
+    "notes": []
+  },
+  "tryout-1-b4-q07": {
+    "source_number": 7,
+    "difficulty": null,
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "source_text": "Soal  7  (Bentuk Soal: PGK Kategori)\nLevel Kognitif: C5\nKunci Jawaban:\nA. Benar\nB. Salah\nC. Salah\nSuatu kelompok data terdiri dari  7  bilangan bulat positif yang telah diurutkan dari yang terkecil:  a,4,5,6,8,b,12 . Diketahui jangkauan ( range ) data tersebut adalah  9 , median bernilai  6 , dan rata-rata ( mean ) data tersebut adalah  7 .\nSeorang siswa melakukan evaluasi terhadap nilai  a  dan  b  serta sifat-sifat statistik data tersebut dan membuat beberapa kesimpulan. Tentukan apakah setiap pernyataan berikut bernilai Benar atau Salah!\nOpsi Jawaban:\nA. Nilai  a=3  dan nilai  b=11 .\nB. Kelompok data tersebut memiliki modus tunggal, yaitu berharga  6 .\nC. Jika nilai terbesar ( 12 ) diganti menjadi  19 , maka nilai median data akan mengalami kenaikan sebesar  1 .\nPembahasan:\n1.   Evaluasi Pernyataan A:\nJangkauan $= \\text{Nilai Maksimum} - \\text{Nilai Minimum} = 12 - a = 9 \\implies a = 3$.\nRata-rata $= 7 \\implies \\frac{3 + 4 + 5 + 6 + 8 + b + 12}{7} = 7 \\implies \\frac{38 + b}{7} = 7 \\implies 38 + b = 49 \\implies b = 11$.\nUrutan data menjadi:  3,4,5,6,8,11,12  (urut naik valid).  (BENAR) 2.   Evaluasi Pernyataan B:\nSusunan data:  3,4,5,6,8,11,12 . Semua angka hanya muncul tepat  1kali .\nMaka kelompok data ini  tidak memiliki modus  (bukan modusnya  6 ).  (SALAH) 3.   Evaluasi Pernyataan C:\nJika  12  diganti  19 , data menjadi:  3,4,5,6,8,11,19 .\nMedian tetap merupakan data ke- 4 , yaitu bernilai  6  (tidak berubah sama sekali / perubahan  =0 ).  (SALAH)\nKesalahan umum yang diantisipasi: Siswa sering mengira bahwa nilai tengah pada data tunggal otomatis merupakan modus, atau menganggap jika nilai terbesar ditambah, nilai median pasti ikut bergeser naik.\n",
+    "original_explanation": "a=12−9=3; jumlah data=7×7 sehingga b=11. Semua nilai berbeda: tidak memiliki modus tunggal. Mengganti maksimum menjadi 19 tidak mengubah data keempat/median 6.",
+    "notes": []
+  },
+  "tryout-1-b1-q07": {
+    "source_number": 7,
+    "difficulty": null,
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Ditunda: inti pertanyaan adalah alasan/sifat tanda kurung; variasi konseptual belum dirancang.",
+    "source_text": "Soal 7 (Bentuk Soal: MCMA)\nLevel Kesulitan: Sulit   Level Kognitif: C5   Kunci Jawaban: B dan D\nPerhatikan dua cara penyelesaian berikut.\nPenyelesaian 1:\n-5 × (8 - 12)  = -5 × (-4)  = 20\nPenyelesaian 2:\n(-5 × 8) - 12  = -40 - 12  = -52\nBerdasarkan kedua penyelesaian tersebut, pilih semua pernyataan yang benar.\nOpsi Jawaban:\nA. Kedua penyelesaian menghasilkan nilai yang sama.\nB. Penyelesaian 1 benar karena operasi dalam kurung dikerjakan terlebih dahulu.\nC. Penyelesaian 2 merupakan hasil dari operasi yang sama dengan penyelesaian 1.\nD. Penyelesaian 1 dan penyelesaian 2 merupakan bentuk operasi yang berbeda.\nPembahasan:\nPenyelesaian 1:\n8 - 12 = -4\n-5 × (-4) = 20\nJadi, penyelesaian 1 benar.\nPenyelesaian 2:\n(-5 × 8) - 12 = -40 - 12 = -52\nKedua bentuk operasi tersebut berbeda karena pada penyelesaian 1 terdapat tanda kurung yang mengubah urutan pengerjaan.\nJadi:\nA → Salah  B → Benar  C → Salah  D → Benar\nJawaban yang benar adalah  B dan D .",
+    "original_explanation": "\nPenyelesaian 1:\n8 - 12 = -4\n-5 × (-4) = 20\nJadi, penyelesaian 1 benar.\nPenyelesaian 2:\n(-5 × 8) - 12 = -40 - 12 = -52\nKedua bentuk operasi tersebut berbeda karena pada penyelesaian 1 terdapat tanda kurung yang mengubah urutan pengerjaan.\nJadi:\nA → Salah  B → Benar  C → Salah  D → Benar\nJawaban yang benar adalah  B dan D .",
+    "notes": []
+  },
+  "tryout-1-b4-q02": {
+    "source_number": 2,
+    "difficulty": null,
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Ditunda: setiap satu mata pada dadu fair enam sisi selalu berpeluang 1/6.",
+    "source_text": "Soal 2 (Bentuk Soal: PG)\nLevel Kesulitan: Mudah  Level Kognitif: C3  Kunci Jawaban: B\nSebuah dadu bersisi enam dilempar satu kali. Peluang munculnya mata dadu 3 adalah ....\nOpsi Jawaban:  A. 1 dari 2  B. 1 dari 6  C. 2 dari 6  D. 3 dari 6\nPembahasan:  Sebuah dadu memiliki 6 kemungkinan hasil, yaitu 1, 2, 3, 4, 5, dan 6. Hanya ada 1 hasil yang berupa angka 3.\nJadi, peluang muncul angka 3 adalah 1 dari 6.",
+    "original_explanation": "  Sebuah dadu memiliki 6 kemungkinan hasil, yaitu 1, 2, 3, 4, 5, dan 6. Hanya ada 1 hasil yang berupa angka 3.\nJadi, peluang muncul angka 3 adalah 1 dari 6.",
+    "notes": []
+  },
+  "tryout-1-b4-q06": {
+    "source_number": 6,
+    "difficulty": null,
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Ditunda: evaluasi bias, sampling, dan tipe data; klaim proporsional pada pembahasan source perlu review.",
+    "source_text": "Soal  6  (Bentuk Soal: PGK Kategori)\nLevel Kognitif: C4\nKunci Jawaban:\nA. Benar\nB. Benar\nC. Salah\nSeorang pengurus OSIS ingin melakukan survei untuk mengetahui tingkat kepuasan siswa terhadap menu makanan di kantin sekolah yang beranggotakan  600 siswa . Ia merancang strategi pengumpulan data sebagai berikut:\n1.   Strategi 1:  Menanyakan pertanyaan  \"Apakah Anda setuju bahwa makanan di kantin sangat lezat dan murah?\"  kepada  30 siswa  yang sedang makan di kantin pada jam istirahat.\n2.   Strategi 2:  Memilih secara acak  10 siswa  dari setiap kelas dari total  18 kelas  yang ada di sekolah tanpa memandang apakah mereka sedang di kantin atau tidak.\n3.   Strategi 3:  Mengelompokkan data jawaban \"jenis makanan favorit\" siswa ke dalam jenis data kuantitatif kontinu.\nTentukan apakah setiap pernyataan berikut bernilai Benar atau Salah berdasarkan kaidah pengumpulan dan penyajian data yang valid!\nOpsi Jawaban:\nA. Strategi  1  berpotensi menghasilkan data yang bias karena pertanyaan bersifat mengarahkan ( leading question ) dan sampelnya tidak mewakili populasi siswa yang membawa bekal sendiri.\nB. Strategi  2  menerapkan teknik pengambilan sampel acak terstrata ( stratified random sampling ) sehingga sampel yang diperoleh lebih representatif mewakili populasi sekolah.\nC. Strategi  3  tepat karena variabel \"jenis makanan favorit\" merupakan contoh data kuantitatif kontinu.\nPembahasan:\n1.   Evaluasi Pernyataan A:  Pertanyaan pada Strategi  1  bersifat mengarahkan responden untuk setuju ( bias ), serta mengambil sampel hanya dari siswa yang ada di kantin (mengabaikan siswa yang tidak suka ke kantin).  (BENAR)\n2.   Evaluasi Pernyataan B:  Strategi  2  mengambil perwakilan proporsional dari setiap tingkatan kelas secara acak, sehingga seluruh kelompok populasi terwakili dengan baik.  (BENAR)\n3.   Evaluasi Pernyataan C:  \"Jenis makanan favorit\" (seperti bakso, soto, nasi goreng) berbentuk kata/kategori, sehingga tergolong data kualitatif (kategori), bukan data kuantitatif kontinu.  (SALAH)\nKesalahan umum yang diantisipasi: Siswa menganggap semua data berbentuk angka atau pilihan dalam kuesioner otomatis merupakan data kuantitatif kontinu.",
+    "original_explanation": "\n1.   Evaluasi Pernyataan A:  Pertanyaan pada Strategi  1  bersifat mengarahkan responden untuk setuju ( bias ), serta mengambil sampel hanya dari siswa yang ada di kantin (mengabaikan siswa yang tidak suka ke kantin).  (BENAR)\n2.   Evaluasi Pernyataan B:  Strategi  2  mengambil perwakilan proporsional dari setiap tingkatan kelas secara acak, sehingga seluruh kelompok populasi terwakili dengan baik.  (BENAR)\n3.   Evaluasi Pernyataan C:  \"Jenis makanan favorit\" (seperti bakso, soto, nasi goreng) berbentuk kata/kategori, sehingga tergolong data kualitatif (kategori), bukan data kuantitatif kontinu.  (SALAH)\nKesalahan umum yang diantisipasi: Siswa menganggap semua data berbentuk angka atau pilihan dalam kuesioner otomatis merupakan data kuantitatif kontinu.",
+    "notes": [
+      "Jumlah sama per kelas tidak otomatis proporsional; ukuran kelas tidak diberikan."
+    ]
+  }
+}

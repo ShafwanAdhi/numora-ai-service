@@ -1,0 +1,114 @@
+{
+  "question_id": "tryout-1-b3-q06",
+  "config_version": 1,
+  "original_hash": "d6769944ee97d56c",
+  "original_values": {
+    "r": 7,
+    "h": 10,
+    "p": 15,
+    "l": 12,
+    "t": 12,
+    "threshold": 750
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        21
+      ],
+      "step": 7
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        8,
+        25
+      ],
+      "step": 1
+    },
+    "p": {
+      "gen": "range",
+      "range": [
+        10,
+        35
+      ],
+      "step": 1
+    },
+    "l": {
+      "gen": "range",
+      "range": [
+        10,
+        30
+      ],
+      "step": 1
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        8,
+        30
+      ],
+      "step": 1
+    },
+    "threshold": {
+      "gen": "range",
+      "range": [
+        500,
+        12000
+      ],
+      "step": 50
+    },
+    "cyl": {
+      "gen": "derived",
+      "expr": "22*r*r*h/7"
+    },
+    "hem": {
+      "gen": "derived",
+      "expr": "2*22*r**3/21"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "cyl+hem"
+    },
+    "box": {
+      "gen": "derived",
+      "expr": "p*l*t"
+    },
+    "diff": {
+      "gen": "derived",
+      "expr": "round(total-box,2)"
+    }
+  },
+  "stem": "Rancangan A: tabung radius {r} dm, tinggi {h} dm ditutup kubah setengah bola radius {r} dm. Rancangan B: balok {p} dm × {l} dm × {t} dm. Gunakan π=22/7; 1 dm³=1 liter. Pilih semua pernyataan yang benar! Nilai desimal dibulatkan dua angka di belakang koma.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Total kapasitas A lebih besar daripada B.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Selisih kapasitas A dan B adalah {diff} liter.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kubah setengah bola A menampung lebih dari {threshold} liter.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Volume bagian tabung A lebih kecil daripada kapasitas B.",
+      "correct": true
+    }
+  ],
+  "explanation": "V_tabung={cyl}; V_kubah=2πr³/3≈{hem}; total A≈{total}; balok B={box}. Tabung<B<total A; selisih dibulatkan={diff}. Kubah<{threshold}.",
+  "constraints": [
+    "cyl<box",
+    "box<total",
+    "hem<threshold"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

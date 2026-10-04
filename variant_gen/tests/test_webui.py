@@ -7,6 +7,7 @@ import sys
 import tempfile
 import threading
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -46,10 +47,37 @@ class WebUI(unittest.TestCase):
         self.assertEqual(status, 200)
         return data
 
+    def test_database_routes_validate_and_keep_local_bank_available(self):
+        with patch.dict('os.environ', {'DATABASE_URL': ''}):
+            status, result = self.request('GET', '/api/database/status')
+            self.assertEqual(status, 503)
+            self.assertIn('DATABASE_URL', result['error'])
+            for path in ('package?id=bad', 'family?id=bad', 'packages?limit=0',
+                         'packages?offset=-1', 'packages?type=INVALID', 'packages?limit=1&limit=2'):
+                status, _ = self.request('GET', '/api/database/' + path)
+                self.assertEqual(status, 400)
+            status, _ = self.request('POST', '/api/database/package', {'id': 'anything'})
+            self.assertEqual(status, 405)
+            self.assertEqual(self.request('GET', '/api/questions')[0], 200)
+
+    def test_database_http_returns_package_envelope(self):
+        import database
+        with patch('database.package', return_value={'package': {'name': 'Kosong'}, 'items': [],
+                                                    'total': 0, 'limit': 100, 'offset': 0}) as read:
+            status, result = self.request('GET', '/api/database/package?id=00000000-0000-0000-0000-000000000001')
+            self.assertEqual(status, 200)
+            self.assertEqual(result['items'], [])
+            read.assert_called_once_with('00000000-0000-0000-0000-000000000001', 100, 0)
+
     def test_original_and_missing_config_are_readable_without_generating(self):
         status, questions = self.request("GET", "/api/questions")
         self.assertEqual(status, 200)
-        self.assertEqual(len(questions), 120)
+        self.assertEqual(len(questions), 150)
+        self.assertEqual({q['classification']['activity'] for q in questions}, {'DRILL','TRYOUT'})
+        self.assertEqual({q['classification']['package_id'] for q in questions}, {'drill-1','tryout-1'})
+        status, catalog = self.request('GET', '/api/catalog')
+        self.assertEqual(status, 200)
+        self.assertEqual(len(catalog), 24)
         status, data = self.request("GET", "/api/question?id=pg-16-1-1&seed=1")
         self.assertEqual(status, 200)
         self.assertEqual(data["original"]["seed"], 0)
@@ -62,6 +90,8 @@ class WebUI(unittest.TestCase):
         status, first = self.request("POST", "/api/generate", payload)
         self.assertEqual(status, 200)
         self.assertEqual(first["variant_ver"], 1)
+        self.assertEqual(first['classification'], dict(activity='DRILL', indicator=18,
+                         source_level=3, package_id='drill-1'))
         saved = self.store.read_bytes()
         status, same = self.request("POST", "/api/generate", payload)
         self.assertEqual(status, 200)
@@ -135,7 +165,27 @@ class WebUI(unittest.TestCase):
         connection.request("GET", "/api/questions")
         response = connection.getresponse()
         self.assertEqual(response.status, 200)
-        self.assertEqual(len(json.loads(response.read())), 120)
+        self.assertEqual(len(json.loads(response.read())), 150)
+
+    def test_tryout_end_to_end_never_queries_database(self):
+        with patch('database.connection',side_effect=AssertionError('Database must not be touched')):
+            status, data=self.request('GET','/api/question?id=tryout-1-b2-q04&seed=5')
+            self.assertEqual(status,200)
+            self.assertEqual(data['original']['classification']['chapter'],2)
+            self.assertEqual(data['original']['key'],'C')
+            status, result=self.request('POST','/api/tryout/generate-package',dict(package_id='tryout-1',seed=5))
+            self.assertEqual(status,200)
+            self.assertEqual(len(result['items']),30)
+            saved=self.store.read_bytes()
+            status, same=self.request('POST','/api/tryout/generate-package',dict(package_id='tryout-1',seed=5))
+            self.assertEqual(result,same);self.assertEqual(self.store.read_bytes(),saved)
+            for route in ['generate','regen','config','lint']:
+                status,_=self.request('POST','/api/'+route,dict(question_id='tryout-1-b4-q02',seed=5,config={}))
+                self.assertEqual(status,400)
+            self.assertEqual(self.store.read_bytes(),saved)
+            for payload in [dict(package_id='../outside',seed=1),dict(package_id='tryout-1',seed=0),dict(package_id='tryout-1',seed=True)]:
+                status,_=self.request('POST','/api/tryout/generate-package',payload)
+                self.assertEqual(status,400)
 
     def test_invalid_inputs_and_cross_origin_writes_are_rejected(self):
         cases = (

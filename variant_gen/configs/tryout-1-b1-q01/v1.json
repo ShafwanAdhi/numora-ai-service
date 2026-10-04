@@ -1,0 +1,72 @@
+{
+  "question_id": "tryout-1-b1-q01",
+  "config_version": 1,
+  "original_hash": "8112533e0c139269",
+  "original_values": {
+    "a": -8,
+    "b": 13
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        -25,
+        -2
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        3,
+        35
+      ],
+      "step": 1
+    },
+    "o0": {
+      "gen": "derived",
+      "expr": "a-b"
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "-(a+b)"
+    },
+    "ans": {
+      "gen": "derived",
+      "expr": "a+b"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "-a+b"
+    }
+  },
+  "stem": "Suhu di dalam sebuah lemari pendingin adalah {a}°C. Suhu kemudian meningkat sebesar {b}°C. Suhu lemari pendingin sekarang adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o0}°C",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o1}°C",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{ans}°C",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{o3}°C",
+      "correct": false
+    }
+  ],
+  "explanation": "Suhu akhir = {a} + {b} = {ans}°C.",
+  "constraints": [
+    "a+b != 0"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

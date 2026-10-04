@@ -1,0 +1,87 @@
+{
+  "question_id": "tryout-1-b2-q02",
+  "config_version": 1,
+  "original_hash": "14382f669963f1e2",
+  "original_values": {
+    "a": 15,
+    "d": 4,
+    "n": 10
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        8,
+        30
+      ],
+      "step": 1
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "n": {
+      "gen": "range",
+      "range": [
+        5,
+        20
+      ],
+      "step": 1
+    },
+    "second": {
+      "gen": "derived",
+      "expr": "a+d"
+    },
+    "third": {
+      "gen": "derived",
+      "expr": "a+2*d"
+    },
+    "ans": {
+      "gen": "derived",
+      "expr": "a+(n-1)*d"
+    },
+    "w1": {
+      "gen": "derived",
+      "expr": "a+n*d"
+    },
+    "w2": {
+      "gen": "derived",
+      "expr": "a+(n+1)*d"
+    },
+    "w3": {
+      "gen": "derived",
+      "expr": "a+(n+2)*d"
+    }
+  },
+  "stem": "Baris pertama berisi {a} kursi, baris kedua {second} kursi, dan baris ketiga {third} kursi. Banyak kursi mengikuti barisan aritmetika sampai baris ke-{n}. Banyak kursi pada baris terakhir adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{ans} kursi",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{w1} kursi",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{w2} kursi",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{w3} kursi",
+      "correct": false
+    }
+  ],
+  "explanation": "Suku pertama {a}, beda {d}. U_{n} = {a} + ({n}−1) × {d} = {ans} kursi.",
+  "constraints": [],
+  "shuffle": false,
+  "max_draws": 400
+}

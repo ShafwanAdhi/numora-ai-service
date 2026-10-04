@@ -12,6 +12,12 @@
   p { margin: 0 0 16px; } .muted { color: #536771; font-size: 13px; }
   fieldset { min-width: 0; margin: 0; padding: 0; border: 0; }
   .controls { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; padding: 20px 0; }
+  .catalog-controls label { flex: 0 1 170px; min-width: 0; }
+  .catalog-controls .package-control { flex: 1 1 230px; }
+  .catalog-controls select { width: 100%; }
+  .selection-controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
+  .version-controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
+  .actions { padding-top: 0; }
   label { display: block; font-size: 13px; font-weight: 600; }
   input, select, textarea, button { font: inherit; border: 1px solid #acbbc2; border-radius: 5px; }
   input, select { display: block; padding: 8px; background: white; color: inherit; max-width: 100%; }
@@ -20,9 +26,14 @@
   button { padding: 8px 14px; background: white; color: inherit; cursor: pointer; font-weight: 600; }
   button.primary { background: #126a66; border-color: #126a66; color: white; }
   button:disabled { opacity: .5; cursor: default; }
+  [hidden] { display: none !important; }
+  .tabs { display: flex; gap: 8px; border-bottom: 1px solid #d2dde1; padding-bottom: 12px; margin: 20px 0; }
+  .tabs [aria-selected="true"] { background: #126a66; color: white; border-color: #126a66; }
+  .pager { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+  #db-package, #db-item, #db-member { width: 100%; }
   :focus-visible { outline: 3px solid #168e91; outline-offset: 3px; }
-  #status { min-height: 28px; margin: 0 0 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
-  #status.error { color: #a32121; }
+  #status, #db-status { min-height: 28px; margin: 0 0 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  #status.error, #db-status.error { color: #a32121; }
   .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
   article, .config { background: white; border: 1px solid #d2dde1; border-radius: 6px; padding: 22px; min-width: 0; }
   .stem, .explanation { white-space: pre-wrap; overflow-wrap: anywhere; }
@@ -35,23 +46,49 @@
   .config { margin-top: 20px; } .config > summary { font-size: 17px; }
   textarea { display: block; width: 100%; padding: 12px; margin: 8px 0 14px; font: 13px/1.65 ui-monospace, monospace; tab-size: 2; }
   .config .controls { padding: 12px 0; } #lint-output { margin-bottom: 0; }
-  @media (max-width: 760px) { main { padding: 16px; } .comparison { grid-template-columns: 1fr; } article, .config { padding: 16px; } }
+  @media (max-width: 760px) { main { padding: 16px; } .comparison, .selection-controls { grid-template-columns: 1fr; } article, .config { padding: 16px; } }
 </style>
 <main>
-  <h1>Soal original &amp; varian</h1>
-  <p class="muted">Numora · Generator lokal</p>
+  <h1>Numora Workbench</h1>
+  <p class="muted">Service AI dan database utama</p>
+  <div class="tabs" role="tablist" aria-label="Mode utama">
+    <button id="tab-ai" role="tab" aria-selected="true" aria-controls="panel-ai" type="button">Service AI</button>
+    <button id="tab-db" role="tab" aria-selected="false" aria-controls="panel-db" tabindex="-1" type="button">DB Utama</button>
+  </div>
+  <section id="panel-ai" role="tabpanel" aria-labelledby="tab-ai">
+  <p class="muted">Bank lokal · Buat dan atur varian melalui config service AI.</p>
+  <fieldset id="catalog-controls" class="controls catalog-controls" disabled>
+    <label>Aktivitas<select id="activity"><option value="DRILL">Drill &amp; Practice</option><option value="TRYOUT">Tryout</option><option value="PRETEST">Pretest</option></select></label>
+    <label class="package-control">Paket<select id="package"><option value="">Semua paket</option></select></label>
+    <label><span id="group-label">Indikator</span><select id="indicator"><option value="">Semua indikator</option></select></label>
+    <label id="level-filter">Level sumber<select id="source-level"><option value="">Semua level</option></select></label>
+    <label>Jenis soal<select id="format"><option value="">Semua jenis</option><option>PG</option><option>MCMA</option><option>KATEGORI</option></select></label>
+  </fieldset>
+  <p id="catalog-note" class="muted">Paket > indikator > level > soal. Katalog bank lokal.</p>
+  <p id="status" role="status" aria-live="polite">Memuat soal…</p>
+  <div id="tryout-tools" class="controls" hidden>
+    <button id="generate-package" type="button" class="primary">Generate paket Tryout</button>
+    <button id="export-package" type="button" disabled>Unduh preview JSON</button>
+    <span class="muted">Pilih paket. Seed memakai kolom di bawah. Preview lokal: 27 varian + 3 original ditunda.</span>
+  </div>
+  <details id="package-preview" class="config" hidden><summary>Preview paket Tryout</summary><div id="package-items"></div></details>
   <fieldset id="workspace" disabled>
-    <form id="controls" class="controls">
+    <form id="controls">
+      <div class="controls selection-controls">
       <label class="question">Soal<select id="question" required aria-label="Pilih soal"></select></label>
+      <div class="version-controls">
       <label>Seed<input id="seed" type="number" min="1" max="1000000000" step="1" value="1" list="saved-seeds" required></label>
       <datalist id="saved-seeds"></datalist>
       <label>Versi varian<select id="version"><option value="">Terbaru</option></select></label>
+      </div>
+      </div>
+      <div class="controls actions">
       <button type="submit">Lihat</button>
       <button type="button" id="generate" class="primary">Generate</button>
       <label class="reason">Alasan regen<input id="reason" placeholder="Wajib jika config masih sama"></label>
       <button type="button" id="regen">Regen</button>
+      </div>
     </form>
-    <p id="status" role="status" aria-live="polite">Memuat soal…</p>
     <div class="comparison">
       <article aria-labelledby="original-title">
         <h2 id="original-title">Original · seed 0</h2>
@@ -76,18 +113,170 @@
       <pre id="lint-output" role="status" aria-live="polite"></pre>
     </details>
   </fieldset>
+  </section>
+  <section id="panel-db" role="tabpanel" aria-labelledby="tab-db" hidden>
+    <p class="muted">Database Numora · Paket, versi soal, dan varian yang sudah diunggah. Saat ini hanya membaca data.</p>
+    <fieldset id="db-controls">
+      <div class="controls catalog-controls">
+        <label>Aktivitas<select id="db-activity"><option value="">Semua aktivitas</option><option value="DRILL">Drill &amp; Practice</option><option value="TRYOUT">Tryout</option><option value="PRETEST">Pretest</option><option value="PVP">PVP</option></select></label>
+        <label class="package-control">Paket<select id="db-package" disabled></select></label>
+        <button id="db-refresh" type="button">Muat ulang</button>
+      </div>
+      <div class="pager"><button id="db-packages-prev" type="button" disabled>Paket sebelumnya</button><span id="db-packages-page" class="muted"></span><button id="db-packages-next" type="button" disabled>Paket berikutnya</button></div>
+      <p id="db-package-meta" class="muted"></p>
+      <p id="db-status" role="status" aria-live="polite">Database dimuat saat tab ini dibuka.</p>
+      <div class="controls selection-controls">
+        <label class="question">Soal dalam paket<select id="db-item" disabled></select></label>
+        <label>Anggota keluarga dan versi<select id="db-member" disabled></select></label>
+      </div>
+      <div class="comparison">
+      <div class="pager"><button id="db-items-prev" type="button" disabled>Soal sebelumnya</button><span id="db-items-page" class="muted"></span><button id="db-items-next" type="button" disabled>Soal berikutnya</button></div>
+      <div class="pager"><button id="db-family-prev" type="button" disabled>Versi sebelumnya</button><span id="db-family-page" class="muted"></span><button id="db-family-next" type="button" disabled>Versi berikutnya</button></div>
+      </div>
+      <div class="comparison">
+        <article aria-labelledby="db-pinned-title"><h2 id="db-pinned-title">Versi soal dalam paket</h2><div id="db-pinned">Pilih paket untuk melihat soal.</div></article>
+        <article aria-labelledby="db-family-title">
+          <h2 id="db-family-title">Original &amp; varian keluarga</h2>
+          <div id="db-family">Pilih soal untuk melihat keluarganya.</div>
+        </article>
+      </div>
+    </fieldset>
+  </section>
 </main>
 <script>
   const $ = id => document.getElementById(id);
-  let data, busy = false, dirty = false, loadedVersion = '', loadedConfigVersion = '';
+  const dbPages = {packages: null, items: null, family: null};
+  let dbBusy = false, dbLoaded = false;
+  function dbMessage(text, error = false) {
+    $('db-status').textContent = text; $('db-status').classList.toggle('error', error);
+  }
+  async function dbPerform(work) {
+    if (dbBusy) return;
+    dbBusy = true; $('db-controls').disabled = true; dbMessage('Memuat database…');
+    try { await work(); dbLoaded = true; dbMessage('Data database ditampilkan · hanya baca.'); }
+    catch (error) { dbMessage(error.message, true); }
+    finally { dbBusy = false; $('db-controls').disabled = false; }
+  }
+  function dbPager(name, page) {
+    dbPages[name] = page;
+    $(`db-${name}-prev`).disabled = !page || page.offset === 0;
+    $(`db-${name}-next`).disabled = !page || page.offset + page.limit >= page.total;
+    $(`db-${name}-page`).textContent = page ? (page.total ? `${page.offset + 1}–${page.offset + page.items.length} dari ${page.total}` : '0 hasil') : '';
+  }
+  function clearFamily() {
+    $('db-member').replaceChildren(); $('db-member').disabled = true;
+    $('db-family').textContent = 'Belum ada anggota keluarga ditampilkan.'; dbPager('family', null);
+  }
+  function clearItems() {
+    $('db-item').replaceChildren(); $('db-item').disabled = true;
+    $('db-package-meta').textContent = ''; $('db-pinned').textContent = 'Belum ada soal ditampilkan.';
+    dbPager('items', null); clearFamily();
+  }
+  const dbText = value => value == null ? 'Belum tersedia' : (typeof value === 'string' ? value :
+    typeof value.text === 'string' ? value.text : JSON.stringify(value, null, 2));
+  function renderDatabase(id, record) {
+    const panel = $(id); panel.replaceChildren();
+    if (!record?.versionId) { add(panel, 'p', 'Konten versi soal tidak tersedia untuk akun ini.', 'muted'); return; }
+    add(panel, 'p', `${record.kind} · ${record.variantCode} · v${record.versionNumber} · ${record.questionType} · ${record.contentStatus} / ${record.validationState}`, 'muted');
+    add(panel, 'p', dbText(record.stem), 'stem');
+    const options = record.optionsOrStatements;
+    if (Array.isArray(options)) options.forEach(option => {
+      const row = add(panel, 'div', '', 'option');
+      add(row, 'strong', dbText(option?.id)); add(row, 'span', dbText(option?.content ?? option));
+    });
+    else add(panel, 'pre', dbText(options));
+    add(panel, 'p', `Kunci: ${dbText(record.answerKey)}`, 'key');
+    add(panel, 'strong', 'Pembahasan'); add(panel, 'p', dbText(record.explanation), 'explanation');
+    add(panel, 'p', `Versi original induk: ${record.parentOriginalQuestionVersionId || 'Belum tersimpan'}`, 'muted');
+    const details = add(panel, 'details', ''); add(details, 'summary', 'Metadata lengkap dan media');
+    add(details, 'pre', JSON.stringify(record, null, 2));
+  }
+  async function loadFamily(offset = 0) {
+    const item = dbPages.items?.items.find(record => record.itemId === $('db-item').value);
+    clearFamily();
+    if (!item?.familyId) return;
+    const page = await api(`/api/database/family?${new URLSearchParams({id: item.familyId, limit: 100, offset})}`);
+    dbPager('family', page);
+    $('db-member').replaceChildren(...page.items.map(record => new Option(`${record.kind} · ${record.variantCode} · v${record.versionNumber} · ${record.versionId}`, record.versionId)));
+    $('db-member').disabled = !page.items.length;
+    if (!page.items.length) { $('db-family').textContent = 'Belum ada versi original atau varian yang terlihat untuk akun ini.'; return; }
+    $('db-member').value = page.items.some(record => record.versionId === item.versionId) ? item.versionId : page.items[0].versionId;
+    renderDatabase('db-family', page.items.find(record => record.versionId === $('db-member').value));
+  }
+  async function selectItem() {
+    renderDatabase('db-pinned', dbPages.items?.items.find(record => record.itemId === $('db-item').value));
+    await loadFamily();
+  }
+  async function loadPackage(offset = 0) {
+    clearItems();
+    if (!$('db-package').value) return;
+    const page = await api(`/api/database/package?${new URLSearchParams({id: $('db-package').value, limit: 100, offset})}`);
+    dbPager('items', page);
+    $('db-package-meta').textContent = `${page.package.name} · v${page.package.packageVersion} · ${page.package.status} · ${page.package.isDemo ? 'Demo' : 'Non-demo'} · ${page.total} soal`;
+    $('db-item').replaceChildren(...page.items.map(record => new Option(`${record.displayOrder}. ${record.kind || 'Konten tidak tersedia'} · ${record.questionType || '—'} · v${record.versionNumber ?? '—'} · ${dbText(record.stem).slice(0, 80)}`, record.itemId)));
+    $('db-item').disabled = !page.items.length;
+    if (!page.items.length) { $('db-pinned').textContent = 'Paket ini belum berisi soal yang terlihat untuk akun ini.'; return; }
+    await selectItem();
+  }
+  async function loadPackages(offset = 0) {
+    const previous = $('db-package').value;
+    $('db-package').replaceChildren(); $('db-package').disabled = true;
+    dbPager('packages', null); clearItems();
+    const page = await api(`/api/database/packages?${new URLSearchParams({type: $('db-activity').value, limit: 50, offset})}`);
+    dbPager('packages', page);
+    $('db-package').replaceChildren(...page.items.map(record => new Option(`${record.name} · v${record.packageVersion} · ${record.status}${record.isDemo ? ' · Demo' : ''} · ${record.itemCount} soal`, record.id)));
+    $('db-package').disabled = !page.items.length;
+    if (!page.items.length) { $('db-pinned').textContent = 'Belum ada paket untuk aktivitas ini yang terlihat oleh akun ini.'; return; }
+    if (page.items.some(record => record.id === previous)) $('db-package').value = previous;
+    await loadPackage();
+  }
+  const tabs = [$('tab-ai'), $('tab-db')];
+  function activateTab(tab) {
+    tabs.forEach(button => {
+      const active = button === tab;
+      button.setAttribute('aria-selected', String(active)); button.tabIndex = active ? 0 : -1;
+      $(button.getAttribute('aria-controls')).hidden = !active;
+    });
+    if (tab.id === 'tab-db' && !dbLoaded) dbPerform(() => loadPackages());
+  }
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => activateTab(tab));
+    tab.addEventListener('keydown', event => {
+      const next = event.key === 'Home' ? tabs[0] : event.key === 'End' ? tabs[1] :
+        ['ArrowLeft', 'ArrowRight'].includes(event.key) ? tabs[1 - index] : null;
+      if (next) { event.preventDefault(); next.focus(); activateTab(next); }
+    });
+  });
+  $('db-refresh').addEventListener('click', () => dbPerform(() => loadPackages(dbPages.packages?.offset || 0)));
+  $('db-activity').addEventListener('change', () => dbPerform(() => loadPackages()));
+  $('db-package').addEventListener('change', () => dbPerform(() => loadPackage()));
+  $('db-item').addEventListener('change', () => dbPerform(selectItem));
+  $('db-member').addEventListener('change', () => renderDatabase('db-family', dbPages.family.items.find(record => record.versionId === $('db-member').value)));
+  for (const [name, load] of [['packages', loadPackages], ['items', loadPackage], ['family', loadFamily]]) {
+    for (const [direction, step] of [['prev', -1], ['next', 1]]) {
+      $(`db-${name}-${direction}`).addEventListener('click', () => {
+        const page = dbPages[name]; if (page) dbPerform(() => load(Math.max(0, page.offset + step * page.limit)));
+      });
+    }
+  }
+  let data, questions = [], catalog = [], busy = false, dirty = false, loadedVersion = '', loadedConfigVersion = '', loadedFilters;
+  const filterIds = ['activity', 'package', 'indicator', 'source-level', 'format'];
+  const filters = () => Object.fromEntries(filterIds.map(id => [id, $(id).value]));
+  let packageManifest;
   function message(text, error = false) {
     $('status').textContent = text;
     $('status').classList.toggle('error', error);
   }
   function updateButtons() {
-    $('workspace').disabled = busy;
+    $('catalog-controls').disabled = busy;
+    $('workspace').disabled = busy || !data;
     $('generate').disabled = !data?.config || dirty;
     $('regen').disabled = !data?.config || !data?.history.length || dirty;
+    const deferred = data?.original.metadata?.generation_status === 'DEFERRED_CONCEPTUAL';
+    ['lint','save','config-editor','config-version'].forEach(id => $(id).disabled = !!deferred);
+    $('tryout-tools').hidden = $('activity').value !== 'TRYOUT';
+    $('generate-package').disabled = busy || dirty || !$('package').value || !data;
+    $('export-package').disabled = busy || !packageManifest;
   }
   async function api(path, payload) {
     const response = await fetch(path, payload === undefined ? {} : {
@@ -110,8 +299,14 @@
     const panel = $(id); panel.replaceChildren();
     if (!record) { add(panel, 'p', 'Belum ada hasil untuk seed ini. Klik Generate.', 'muted'); return; }
     const meta = [`${record.question_id} · ${record.format} ${record.cognitive_level}`, `Original v${record.original_version}`];
+    const classification = data.original.classification;
+    if (classification) meta.push(classification.activity === 'TRYOUT'
+      ? `TRYOUT · bab ${classification.chapter} · ${classification.package_id}`
+      : `${classification.activity} · indikator ${classification.indicator} · level ${classification.source_level} · ${classification.package_id}`);
     if (record.seed) meta.push(`Seed ${record.seed} · varian v${record.variant_ver} · config v${record.config_ver}`);
     add(panel, 'p', meta.join(' | '), 'muted');
+    if (record.metadata?.reason) add(panel,'p',record.metadata.reason,'muted');
+    (record.metadata?.notes || []).forEach(note => add(panel,'p',note,'muted'));
     if (record.original_hash !== data.original.original_hash) add(panel, 'p', 'Hasil historis ini dibuat dari original versi sebelumnya.', 'muted');
     add(panel, 'p', record.stem, 'stem');
     const keys = new Set(record.key.split(','));
@@ -135,6 +330,8 @@
   }
   function restoreSelection() {
     if (!data) return;
+    filterIds.forEach(id => { if (loadedFilters) $(id).value = loadedFilters[id]; });
+    rebuildQuestions(loadedFilters);
     $('question').value = data.original.question_id; $('seed').value = data.seed;
     $('version').value = loadedVersion; $('config-version').value = loadedConfigVersion;
   }
@@ -145,7 +342,8 @@
     let next;
     try { next = await api(`/api/question?${params}`); }
     catch (error) { restoreSelection(); throw error; }
-    data = next; dirty = false; loadedVersion = $('version').value; loadedConfigVersion = $('config-version').value;
+    data = next; dirty = false; loadedFilters = filters(); loadedVersion = $('version').value; loadedConfigVersion = $('config-version').value;
+    $('workspace').hidden = false;
     renderQuestion('original', data.original); renderQuestion('variant', data.variant);
     setVersions('version', data.history.map(record => record.variant_ver), loadedVersion);
     setVersions('config-version', data.config_versions, $('config-version').value);
@@ -153,13 +351,71 @@
     $('config-editor').value = data.config ? JSON.stringify(data.config, null, 2) : '';
     $('config-note').textContent = data.config ? `Simpan akan membuat v${data.latest_config_version + 1}.` : 'Belum ada config. Original tetap bisa dilihat.';
     $('lint-output').textContent = '';
-    message(data.variant ? 'Hasil tersimpan ditampilkan. Generate pada seed yang sama memakai hasil ini.' : 'Original siap. Belum ada varian tersimpan untuk seed ini.');
+    message(data.original.metadata?.generation_status === 'DEFERRED_CONCEPTUAL' ? data.original.metadata.reason
+      : (data.variant ? 'Hasil tersimpan ditampilkan. Generate pada seed yang sama memakai hasil ini.' : 'Original siap. Belum ada varian tersimpan untuk seed ini.'));
   }
   function discardChanges() {
     if (!dirty || confirm('Perubahan config belum disimpan. Buang perubahan?')) return true;
     restoreSelection();
     return false;
   }
+  function choices(id, label, values, value) {
+    $(id).replaceChildren(new Option(label, ''), ...values.map(([key, text]) => new Option(text, key)));
+    $(id).value = values.some(([key]) => String(key) === value) ? value : '';
+  }
+  function rebuildQuestions(selected = filters()) {
+    const activity = questions.filter(q => (q.classification?.activity || 'UNCLASSIFIED') === selected.activity);
+    let groups = catalog.filter(g => g.activity === selected.activity);
+    const tryout = selected.activity === 'TRYOUT';
+    const groupKey = tryout ? 'chapter' : 'indicator';
+    $('group-label').textContent = tryout ? 'Bab' : 'Indikator';
+    $('level-filter').hidden = tryout;
+    const packages = [...new Map(groups.map(g => [g.package_id, g])).values()];
+    choices('package', 'Semua paket', packages.map(p => [p.package_id, p.package_name || p.package_id]), selected.package);
+    groups = groups.filter(g => !$('package').value || g.package_id === $('package').value);
+    const indicators = [...new Set(groups.map(g => g[groupKey]).filter(v => v !== undefined))].sort((a,b) => a-b);
+    choices('indicator', tryout ? 'Semua bab' : 'Semua indikator', indicators.map(i => [i, `${tryout ? 'Bab' : 'Indikator'} ${i}`]), selected.indicator);
+    groups = groups.filter(g => !$('indicator').value || String(g[groupKey]) === $('indicator').value);
+    const levels = [...new Set(groups.map(g => g.source_level).filter(v => v !== undefined))].sort((a,b) => a-b);
+    choices('source-level', 'Semua level', levels.map(l => [l, `Level ${l}${groups.some(g => g.source_level === l && g.question_ids.length) ? '' : ' [belum tersedia]'}`]), selected['source-level']);
+    let pool = activity.filter(q => (!$('package').value || q.classification?.package_id === $('package').value)
+      && (!$('indicator').value || String(q.classification?.[groupKey]) === $('indicator').value)
+      && (!$('source-level').value || String(q.classification?.source_level) === $('source-level').value)
+      && (!$('format').value || q.format === $('format').value));
+    const previous = $('question').value;
+    $('question').replaceChildren();
+    ['PG', 'MCMA', 'KATEGORI'].forEach(format => {
+      const items = pool.filter(q => q.format === format);
+      if (!items.length) return;
+      const group = document.createElement('optgroup'); group.label = format;
+      items.forEach(q => group.append(new Option(`${q.id}${q.metadata?.generation_status === 'DEFERRED_CONCEPTUAL' ? ' [ditunda]' : (q.has_config ? '' : ' [tanpa config]')} — ${q.stem.slice(0,65)}`, q.id)));
+      $('question').append(group);
+    });
+    $('question').value = pool.some(q => q.id === previous) ? previous : (pool.find(q => q.has_config)?.id || pool[0]?.id || '');
+    $('catalog-note').textContent = `${pool.length} soal · ${pool.filter(q => q.has_config).length} memiliki config. ` + (tryout
+      ? 'Paket > bab > soal. Soal konseptual ditandai ditunda; database Numora tidak digunakan.'
+      : 'Paket > indikator > level > soal. Setiap indikator: 5 level × 10 soal; level 4–5 Paket 1 belum tersedia.');
+    return pool.length;
+  }
+  async function filterQuestions() {
+    if (!rebuildQuestions()) {
+      data = undefined; dirty = false; $('workspace').hidden = true;
+      $('config-editor').value = ''; loadedFilters = filters();
+      message(questions.some(q => q.classification?.activity === $('activity').value)
+        ? 'Belum ada soal untuk pilihan paket, indikator, level, dan jenis ini.' : 'Belum ada soal untuk aktivitas ini di bank lokal.');
+      return;
+    }
+    $('version').value = ''; $('config-version').value = '';
+    await loadQuestion();
+  }
+  filterIds.forEach(id => $(id).addEventListener('change', () => {
+    if (!discardChanges()) return;
+    if (id === 'activity') { ['indicator', 'source-level', 'package', 'format'].forEach(key => $(key).value = ''); }
+    if (id === 'package') { $('indicator').value = ''; $('source-level').value = ''; }
+    if (id === 'indicator') $('source-level').value = '';
+    if (id === 'activity' || id === 'package') { packageManifest = undefined; $('package-preview').hidden = true; }
+    perform(filterQuestions);
+  }));
   $('controls').addEventListener('submit', event => { event.preventDefault(); if (discardChanges()) perform(loadQuestion); });
   $('question').addEventListener('change', () => {
     if (!discardChanges()) return;
@@ -191,17 +447,41 @@
     $('lint-output').textContent = result.lines.join('\n');
     message(action === 'save' ? `Config v${result.config_version} tersimpan. Generate/regen memakai versi terbaru.` : (result.ok ? 'Validasi lulus. Belum ada file yang diubah.' : 'Validasi gagal; perbaiki config.'), result.ok === false);
   })));
+  $('generate-package').addEventListener('click', () => {
+    if (!$('controls').reportValidity() || dirty) return;
+    perform(async () => {
+      const manifest = await api('/api/tryout/generate-package', {package_id:$('package').value, seed:Number($('seed').value)});
+      packageManifest = manifest;
+      const parent=$('package-items'); parent.replaceChildren();
+      const count=manifest.items.filter(item => item.status === 'VARIANT').length;
+      add(parent,'p',`${manifest.package_id} · seed ${manifest.seed} · ${count} varian + ${manifest.items.length-count} original ditunda · LOCAL_PREVIEW`,'muted');
+      manifest.items.forEach((item,index) => {
+        const details=add(parent,'details',''); const record=item.record;
+        add(details,'summary',`${index+1}. ${item.question_id} · ${item.status === 'VARIANT' ? `varian v${record.variant_ver}` : 'original ditunda'}`);
+        if (item.reason) add(details,'p',item.reason,'muted');
+        add(details,'p',record.stem,'stem');
+        record.options.forEach(option => add(details,'p',`${option.id}. ${option.text}`));
+        add(details,'p',`Kunci: ${record.key}`,'key'); add(details,'p',record.explanation || 'Belum tersedia.','explanation');
+      });
+      $('package-preview').hidden = false; $('package-preview').open = true;
+      $('version').value=''; await loadQuestion();
+      message(`Preview paket siap: ${count} varian, ${manifest.items.length-count} original ditunda. Seed ${manifest.seed}; snapshot paket dipertahankan.`);
+    });
+  });
+  $('export-package').addEventListener('click', () => {
+    if (!packageManifest) return;
+    const url=URL.createObjectURL(new Blob([JSON.stringify(packageManifest,null,2)+'\n'],{type:'application/json'}));
+    const link=document.createElement('a');link.href=url;link.download=`${packageManifest.package_id}-s${packageManifest.seed}-preview.json`;
+    link.click();setTimeout(() => URL.revokeObjectURL(url),1000);
+  });
   window.addEventListener('beforeunload', event => { if (dirty) { event.preventDefault(); event.returnValue = ''; } });
   perform(async () => {
-    const questions = await api('/api/questions');
-    ['PG', 'MCMA', 'KATEGORI'].forEach(format => {
-      const group = document.createElement('optgroup'); group.label = format;
-      questions.filter(question => question.format === format).forEach(question => group.append(
-        new Option(`${question.id}${question.has_config ? '' : ' [tanpa config]'} — ${question.stem.slice(0, 65)}`, question.id)));
-      $('question').append(group);
-    });
-    $('question').value = questions.find(question => question.has_config)?.id || questions[0]?.id;
-    await loadQuestion();
+    [questions, catalog] = await Promise.all([api('/api/questions'), api('/api/catalog')]);
+    if (questions.some(q => !q.classification)) {
+      $('activity').add(new Option('Belum dikategorikan', 'UNCLASSIFIED'));
+      if (!questions.some(q => q.classification?.activity === 'DRILL')) $('activity').value = 'UNCLASSIFIED';
+    }
+    await filterQuestions();
   });
 </script>
 </html>

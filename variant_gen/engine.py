@@ -76,6 +76,8 @@ def cand_from_record(rec):
 def generate(orig, cfg, seed, others):
     """others = candidates this one must not duplicate (other seeds' latest variants, and earlier
     versions of the same seed when regenerating)."""
+    if orig.get("metadata", {}).get("generation_status") == "DEFERRED_CONCEPTUAL":
+        raise ConfigError(orig["metadata"]["reason"])
     qid, limit = orig["id"], cfg.get("max_draws", DEFAULT_MAX_DRAWS)
     problems = validate_config(cfg, orig)
     if problems:
@@ -111,6 +113,8 @@ def make_record(orig, cfg, cfg_hash, seed, ver, result, replacement_of=None, rea
     return {
         "record_id": f"{orig['id']}:s{seed}:v{ver}",
         "question_id": orig["id"], "seed": seed, "variant_ver": ver,
+        **({"classification": orig["classification"]} if "classification" in orig else {}),
+        **({"metadata": {k:v for k,v in orig["metadata"].items() if k not in ("source_text", "original_explanation")}} if "metadata" in orig else {}),
         "config_ver": cfg["config_version"], "config_hash": cfg_hash, "draws_used": result.draws_used,
         "format": orig["format"], "cognitive_level": orig["cognitive_level"],
         "values_used": {k: (json_number(v) if is_num(v) else v) for k, v in result.values.items()},
@@ -127,8 +131,11 @@ def original_record(orig):
     """Seed 0 = the original, shown in the same shape as a variant (never stored, never changed)."""
     return {
         "record_id": f"{orig['id']}:s0", "question_id": orig["id"], "seed": 0, "variant_ver": None,
+        **({"classification": orig["classification"]} if "classification" in orig else {}),
+        **({"metadata": orig["metadata"]} if "metadata" in orig else {}),
         "config_ver": None, "draws_used": None, "format": orig["format"], "cognitive_level": orig["cognitive_level"],
         "values_used": {}, "stem": orig["stem"],
         "options": [{"id": o["id"], "text": o["text"]} for o in orig["options"]],
         "key": key_of(orig), "original_hash": orig["hash"], "original_version": orig["version"],
+        **({"explanation": orig["metadata"]["original_explanation"]} if orig.get("metadata", {}).get("original_explanation") else {}),
     }

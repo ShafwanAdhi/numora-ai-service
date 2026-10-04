@@ -1,0 +1,132 @@
+{
+  "question_id": "tryout-1-b1-q06",
+  "config_version": 1,
+  "original_hash": "4a3488a2011898aa",
+  "original_values": {
+    "a": -15,
+    "b": 8,
+    "q": -4,
+    "d": -6,
+    "c": -7,
+    "e": -5,
+    "f": 18,
+    "g": -4
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        -30,
+        -5
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        2,
+        20
+      ],
+      "step": 1
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        -10,
+        -2
+      ],
+      "step": 1
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        -10,
+        -2
+      ],
+      "step": 1
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        -15,
+        -2
+      ],
+      "step": 1
+    },
+    "e": {
+      "gen": "range",
+      "range": [
+        -15,
+        -2
+      ],
+      "step": 1
+    },
+    "f": {
+      "gen": "range",
+      "range": [
+        5,
+        35
+      ],
+      "step": 1
+    },
+    "g": {
+      "gen": "range",
+      "range": [
+        -15,
+        -2
+      ],
+      "step": 1
+    },
+    "sum": {
+      "gen": "derived",
+      "expr": "a+b"
+    },
+    "dividend": {
+      "gen": "derived",
+      "expr": "q*d"
+    },
+    "baddiv": {
+      "gen": "derived",
+      "expr": "abs(d)"
+    },
+    "product": {
+      "gen": "derived",
+      "expr": "c*e"
+    },
+    "badsub": {
+      "gen": "derived",
+      "expr": "f+g"
+    },
+    "difference": {
+      "gen": "derived",
+      "expr": "f-g"
+    }
+  },
+  "stem": "Perhatikan operasi bilangan berikut. Pilih semua jawaban yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "({a}) + {b} = {sum}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{dividend} ÷ ({d}) = {baddiv}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "({c}) × ({e}) = {product}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{f} − ({g}) = {badsub}",
+      "correct": false
+    }
+  ],
+  "explanation": "Penjumlahan = {sum}; pembagian = {q}, bukan {baddiv}; perkalian dua negatif = {product}; pengurangan bilangan negatif = {difference}, bukan {badsub}.",
+  "constraints": [],
+  "shuffle": false,
+  "max_draws": 400
+}

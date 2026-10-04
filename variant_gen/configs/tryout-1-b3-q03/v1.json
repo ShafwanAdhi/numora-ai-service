@@ -1,0 +1,109 @@
+{
+  "question_id": "tryout-1-b3-q03",
+  "config_version": 1,
+  "original_hash": "4f3b20419ba070e3",
+  "original_values": {
+    "x": 20,
+    "a": 3,
+    "b": 15,
+    "c": 5,
+    "other": 50
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        5,
+        25
+      ],
+      "step": 1
+    },
+    "a": {
+      "gen": "range",
+      "range": [
+        2,
+        5
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        5,
+        20
+      ],
+      "step": 1
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        6,
+        9
+      ],
+      "step": 1
+    },
+    "other": {
+      "gen": "range",
+      "range": [
+        30,
+        75
+      ],
+      "step": 5
+    },
+    "offset": {
+      "gen": "derived",
+      "expr": "c*x-(a*x+b)"
+    },
+    "angle": {
+      "gen": "derived",
+      "expr": "a*x+b"
+    },
+    "ans": {
+      "gen": "derived",
+      "expr": "180-angle-other"
+    },
+    "w1": {
+      "gen": "derived",
+      "expr": "ans+10"
+    },
+    "w2": {
+      "gen": "derived",
+      "expr": "angle"
+    },
+    "w3": {
+      "gen": "derived",
+      "expr": "180-angle"
+    }
+  },
+  "stem": "Dua garis sejajar dipotong transversal. Sudut berseberangan dalam adalah ({a}x+{b})° dan ({c}x−{offset})°. Sudut ini sehadap dengan sudut pertama segitiga; sudut kedua {other}°. Besar sudut ketiga adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{ans}°",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{w1}°",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{w2}°",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{w3}°",
+      "correct": false
+    }
+  ],
+  "explanation": "Sudut berseberangan dalam sama: {a}x+{b}={c}x−{offset}, sehingga x={x}, sudut={angle}°. Sudut ketiga=180−{angle}−{other}={ans}°.",
+  "constraints": [
+    "offset>0",
+    "angle+other<170",
+    "ans>0"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

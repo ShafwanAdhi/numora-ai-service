@@ -1,0 +1,85 @@
+{
+  "question_id": "tryout-1-b2-q03",
+  "config_version": 1,
+  "original_hash": "943c3b1e74d1b04f",
+  "original_values": {
+    "budget": 200000,
+    "fixed": 80000,
+    "unit": 15000
+  },
+  "variables": {
+    "budget": {
+      "gen": "range",
+      "range": [
+        150000,
+        400000
+      ],
+      "step": 5000
+    },
+    "fixed": {
+      "gen": "range",
+      "range": [
+        30000,
+        100000
+      ],
+      "step": 5000
+    },
+    "unit": {
+      "gen": "range",
+      "range": [
+        10000,
+        25000
+      ],
+      "step": 1000
+    },
+    "ans": {
+      "gen": "derived",
+      "expr": "floor((budget-fixed)/unit)"
+    },
+    "low": {
+      "gen": "derived",
+      "expr": "ans-1"
+    },
+    "high": {
+      "gen": "derived",
+      "expr": "ans+1"
+    },
+    "high2": {
+      "gen": "derived",
+      "expr": "ans+2"
+    },
+    "remain": {
+      "gen": "derived",
+      "expr": "budget-fixed"
+    }
+  },
+  "stem": "Rian memiliki kupon Rp{budget},00. Ia membeli tas Rp{fixed},00. Sisa kupon dipakai membeli buku seharga Rp{unit},00 per buku. Banyak buku maksimum agar belanja tidak melebihi kupon adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{low} buah",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{ans} buah",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{high} buah",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{high2} buah",
+      "correct": false
+    }
+  ],
+  "explanation": "Batas belanja: {unit}x + {fixed} ≤ {budget}; x ≤ {remain}/{unit}. Banyak buku integer maksimum adalah {ans}.",
+  "constraints": [
+    "ans>1"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

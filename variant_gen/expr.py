@@ -272,6 +272,13 @@ def format_number(x, group=True, decimals=2):
     return ("-" if neg else "") + s
 
 
+def format_fraction(value):
+    value = Fraction(value)
+    whole, remainder = divmod(abs(value.numerator), value.denominator)
+    text = str(whole) if not remainder else (f"{whole} " if whole else "") + f"{remainder}/{value.denominator}"
+    return ("-" if value < 0 else "") + text
+
+
 def render(template, values, fmts=None):
     """Substitute {name} placeholders. Unknown names raise ExprError (nothing is silently left)."""
     fmts = fmts or {}
@@ -281,8 +288,12 @@ def render(template, values, fmts=None):
         if name not in values:
             raise ExprError(f"template uses undeclared placeholder '{{{name}}}'")
         v = values[name]
+        if fmts.get(name, {}).get("fmt") == "mixed" and not is_num(v):
+            raise ExprError(f"mixed format requires a number: {name}")
         if is_num(v):
             f = fmts.get(name, {})
+            if f.get("fmt") == "mixed":
+                return format_fraction(v)
             return format_number(v, group=f.get("fmt", "id") != "raw", decimals=f.get("decimals", 2))
         return str(v)
 

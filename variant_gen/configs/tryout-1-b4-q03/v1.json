@@ -1,0 +1,117 @@
+{
+  "question_id": "tryout-1-b4-q03",
+  "config_version": 1,
+  "original_hash": "17ebe61afed30e3e",
+  "original_values": {
+    "f1": 3,
+    "f2": 5,
+    "f3": 8,
+    "f4": 3,
+    "f5": 1
+  },
+  "variables": {
+    "f1": {
+      "gen": "range",
+      "range": [
+        1,
+        12
+      ],
+      "step": 1
+    },
+    "f2": {
+      "gen": "range",
+      "range": [
+        1,
+        12
+      ],
+      "step": 1
+    },
+    "f3": {
+      "gen": "range",
+      "range": [
+        1,
+        15
+      ],
+      "step": 1
+    },
+    "f4": {
+      "gen": "range",
+      "range": [
+        1,
+        12
+      ],
+      "step": 1
+    },
+    "f5": {
+      "gen": "range",
+      "range": [
+        1,
+        10
+      ],
+      "step": 1
+    },
+    "n": {
+      "gen": "derived",
+      "expr": "f1+f2+f3+f4+f5"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "f1+2*f2+3*f3+4*f4+5*f5"
+    },
+    "mean": {
+      "gen": "derived",
+      "expr": "total/n"
+    },
+    "count": {
+      "gen": "derived",
+      "expr": "(f1 if 1>=mean else 0)+(f2 if 2>=mean else 0)+(f3 if 3>=mean else 0)+(f4 if 4>=mean else 0)+(f5 if 5>=mean else 0)"
+    },
+    "pct": {
+      "gen": "derived",
+      "expr": "100*count/n"
+    },
+    "w0": {
+      "gen": "derived",
+      "expr": "pct-20"
+    },
+    "w1": {
+      "gen": "derived",
+      "expr": "pct-10"
+    },
+    "w3": {
+      "gen": "derived",
+      "expr": "pct+10"
+    }
+  },
+  "stem": "Frekuensi waktu belajar harian: 1 jam={f1} siswa; 2 jam={f2}; 3 jam={f3}; 4 jam={f4}; 5 jam={f5}. Efektif berarti waktu belajar ≥ rata-rata kelompok. Persentase siswa efektif adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{w0}%",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{w1}%",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{pct}%",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{w3}%",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah siswa {n}, jumlah jam tertimbang {total}. Rata-rata exact={total}/{n} (nilai tampilan≈{mean}); klasifikasi memakai pecahan exact. Siswa efektif {count}; persentase={count}/{n}×100%={pct}%.",
+  "constraints": [
+    "pct%1==0",
+    "pct>20",
+    "pct<=90"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

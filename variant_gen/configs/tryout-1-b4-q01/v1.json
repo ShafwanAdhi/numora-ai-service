@@ -1,0 +1,76 @@
+{
+  "question_id": "tryout-1-b4-q01",
+  "config_version": 1,
+  "original_hash": "773baead212c678f",
+  "original_values": {
+    "a": 70,
+    "b": 75,
+    "mode": 80,
+    "d": 85
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        40,
+        70
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        50,
+        80
+      ],
+      "step": 1
+    },
+    "mode": {
+      "gen": "range",
+      "range": [
+        60,
+        95
+      ],
+      "step": 1
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        70,
+        100
+      ],
+      "step": 1
+    }
+  },
+  "stem": "Perhatikan data nilai: {a}, {mode}, {b}, {mode}, {d}. Nilai yang paling sering muncul adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{a}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{b}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{mode}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{d}",
+      "correct": false
+    }
+  ],
+  "explanation": "Nilai {mode} muncul dua kali, sedangkan {a}, {b}, {d} masing-masing sekali. Modus tunggal adalah {mode}.",
+  "constraints": [
+    "a<b",
+    "b<mode",
+    "mode<d"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

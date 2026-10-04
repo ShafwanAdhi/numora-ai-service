@@ -1,0 +1,80 @@
+{
+  "question_id": "tryout-1-b3-q02",
+  "config_version": 1,
+  "original_hash": "fc70801e51373a71",
+  "original_values": {
+    "p": 20,
+    "r": 7
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        15,
+        80
+      ],
+      "step": 1
+    },
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        28
+      ],
+      "step": 7
+    },
+    "width": {
+      "gen": "derived",
+      "expr": "2*r"
+    },
+    "rect": {
+      "gen": "derived",
+      "expr": "p*width"
+    },
+    "semi": {
+      "gen": "derived",
+      "expr": "22*r*r/14"
+    },
+    "ans": {
+      "gen": "derived",
+      "expr": "rect+semi"
+    },
+    "whole": {
+      "gen": "derived",
+      "expr": "rect+2*semi"
+    },
+    "quarter": {
+      "gen": "derived",
+      "expr": "rect+semi/2"
+    }
+  },
+  "stem": "Taman merupakan gabungan persegi panjang berukuran {p} m × {width} m dan setengah lingkaran pada sisi lebarnya ({width} m). Luas total taman adalah .... (π=22/7)",
+  "options": [
+    {
+      "id": "A",
+      "text": "{ans} m²",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{whole} m²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{quarter} m²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{rect} m²",
+      "correct": false
+    }
+  ],
+  "explanation": "Diameter setengah lingkaran {width}, radius {r}. Luas persegi panjang {rect}; setengah lingkaran {semi}; total {ans} m².",
+  "constraints": [
+    "p>width"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

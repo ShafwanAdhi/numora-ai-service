@@ -1,0 +1,99 @@
+{
+  "question_id": "tryout-1-b3-q01",
+  "config_version": 1,
+  "original_hash": "c478b73cb73f8bf4",
+  "original_values": {
+    "x": 2,
+    "y": -3,
+    "dx": 4,
+    "dy": -2
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        -10,
+        10
+      ],
+      "step": 1
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        -10,
+        10
+      ],
+      "step": 1
+    },
+    "dx": {
+      "gen": "range",
+      "range": [
+        -8,
+        8
+      ],
+      "step": 1
+    },
+    "dy": {
+      "gen": "range",
+      "range": [
+        -8,
+        8
+      ],
+      "step": 1
+    },
+    "ox": {
+      "gen": "derived",
+      "expr": "y+dx"
+    },
+    "oy": {
+      "gen": "derived",
+      "expr": "x+dy"
+    },
+    "w0": {
+      "gen": "derived",
+      "expr": "y+dx-2"
+    },
+    "w1": {
+      "gen": "derived",
+      "expr": "y+dy"
+    },
+    "w2": {
+      "gen": "derived",
+      "expr": "-y+x"
+    },
+    "w3": {
+      "gen": "derived",
+      "expr": "y+x"
+    }
+  },
+  "stem": "Titik A({x}, {y}) dicerminkan terhadap y=x, kemudian ditranslasikan oleh T=({dx}, {dy}). Koordinat bayangan akhir adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "({ox}, {oy})",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "({w0}, {oy})",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "({ox}, {w1})",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "({w2}, {w3})",
+      "correct": false
+    }
+  ],
+  "explanation": "Refleksi y=x menukar koordinat menjadi ({y}, {x}). Translasi memberi ({y}+{dx}, {x}+{dy})=({ox}, {oy}).",
+  "constraints": [
+    "x!=y",
+    "x+dy != y+dy"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

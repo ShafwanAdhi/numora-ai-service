@@ -1,0 +1,100 @@
+{
+  "question_id": "tryout-1-b3-q04",
+  "config_version": 1,
+  "original_hash": "76fa77db7daa30c3",
+  "original_values": {
+    "s": 12,
+    "h": 18,
+    "p": 2,
+    "q": 3
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ],
+      "step": 3
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        9,
+        45
+      ],
+      "step": 3
+    },
+    "p": {
+      "gen": "choice",
+      "values": [
+        1,
+        2
+      ]
+    },
+    "q": {
+      "gen": "choice",
+      "values": [
+        3
+      ]
+    },
+    "ratio": {
+      "gen": "derived",
+      "expr": "p/q",
+      "fmt": "mixed"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "s*s*h/3"
+    },
+    "water": {
+      "gen": "derived",
+      "expr": "total*(p/q)**3"
+    },
+    "w1": {
+      "gen": "derived",
+      "expr": "total*(p/q)**2"
+    },
+    "w2": {
+      "gen": "derived",
+      "expr": "total*(p/q)"
+    },
+    "sw": {
+      "gen": "derived",
+      "expr": "s*p/q"
+    },
+    "hw": {
+      "gen": "derived",
+      "expr": "h*p/q"
+    }
+  },
+  "stem": "Limas segi empat beraturan terbalik memiliki rusuk alas {s} cm dan tinggi {h} cm. Air mencapai {ratio} dari tinggi wadah, diukur dari puncak bawah. Volume air adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{water} cm³",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{w1} cm³",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{w2} cm³",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{total} cm³",
+      "correct": false
+    }
+  ],
+  "explanation": "Limas air sebangun dengan skala {ratio}. Rusuk air {sw} cm, tinggi air {hw} cm. Volume total {total}; volume air=({ratio})³×{total}={water} cm³.",
+  "constraints": [
+    "water % 1 == 0"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

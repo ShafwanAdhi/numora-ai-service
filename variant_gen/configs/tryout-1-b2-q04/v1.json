@@ -1,0 +1,78 @@
+{
+  "question_id": "tryout-1-b2-q04",
+  "config_version": 1,
+  "original_hash": "c988e0cba2b2e0fc",
+  "original_values": {
+    "x": 11000,
+    "y": 5000
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        8000,
+        25000
+      ],
+      "step": 1000
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        2000,
+        9000
+      ],
+      "step": 1000
+    },
+    "t1": {
+      "gen": "derived",
+      "expr": "3*x+2*y"
+    },
+    "t2": {
+      "gen": "derived",
+      "expr": "2*x+4*y"
+    },
+    "ans": {
+      "gen": "derived",
+      "expr": "x+y"
+    },
+    "low2": {
+      "gen": "derived",
+      "expr": "ans-2000"
+    },
+    "low1": {
+      "gen": "derived",
+      "expr": "ans-1000"
+    },
+    "high": {
+      "gen": "derived",
+      "expr": "ans+1000"
+    }
+  },
+  "stem": "Ibu Maya membeli 3 paket spidol dan 2 penggaris seharga Rp{t1},00. Pak Hari membeli 2 paket spidol dan 4 penggaris seharga Rp{t2},00. Harga 1 paket spidol dan 1 penggaris adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{low2},00",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{low1},00",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Rp{ans},00",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rp{high},00",
+      "correct": false
+    }
+  ],
+  "explanation": "Persamaan 3x+2y={t1} dan 2x+4y={t2} menghasilkan x=Rp{x}, y=Rp{y}. Jumlahnya Rp{ans}, bukan penjumlahan yang salah pada source.",
+  "constraints": [],
+  "shuffle": false,
+  "max_draws": 400
+}

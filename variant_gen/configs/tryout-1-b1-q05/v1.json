@@ -1,0 +1,82 @@
+{
+  "question_id": "tryout-1-b1-q05",
+  "config_version": 1,
+  "original_hash": "897df49227d86f6d",
+  "original_values": {
+    "x": 9,
+    "m": 3,
+    "b": 7
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        4,
+        30
+      ],
+      "step": 1
+    },
+    "m": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        2,
+        15
+      ],
+      "step": 1
+    },
+    "out": {
+      "gen": "derived",
+      "expr": "m*x-b"
+    },
+    "o0": {
+      "gen": "derived",
+      "expr": "out-b"
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "out+b"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "(out-b)/m",
+      "fmt": "mixed"
+    }
+  },
+  "stem": "Sebuah bilangan dikalikan {m}, kemudian hasilnya dikurangi {b}. Hasil akhirnya adalah {out}. Pernyataan yang tepat untuk menentukan bilangan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bilangan tersebut diperoleh dari {out} − {b}, sehingga hasilnya {o0}.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Bilangan tersebut diperoleh dari {out} + {b}, sehingga hasilnya {o1}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Bilangan tersebut diperoleh dari ({out} + {b}) ÷ {m}, sehingga hasilnya {x}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Bilangan tersebut diperoleh dari ({out} − {b}) ÷ {m}, sehingga hasilnya {o3}.",
+      "correct": false
+    }
+  ],
+  "explanation": "{m}x − {b} = {out}; {m}x = {out} + {b} = {o1}; x = {o1} ÷ {m} = {x}.",
+  "constraints": [
+    "out>b"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

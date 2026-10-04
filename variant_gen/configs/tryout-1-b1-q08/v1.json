@@ -1,0 +1,81 @@
+{
+  "question_id": "tryout-1-b1-q08",
+  "config_version": 1,
+  "original_hash": "8f520ae37cfe8c77",
+  "original_values": {
+    "price": 300000,
+    "pct": 20,
+    "fee": 20000
+  },
+  "variables": {
+    "price": {
+      "gen": "range",
+      "range": [
+        100000,
+        1000000
+      ],
+      "step": 10000
+    },
+    "pct": {
+      "gen": "choice",
+      "values": [
+        10,
+        15,
+        20,
+        25,
+        30
+      ]
+    },
+    "fee": {
+      "gen": "range",
+      "range": [
+        10000,
+        60000
+      ],
+      "step": 5000
+    },
+    "discount": {
+      "gen": "derived",
+      "expr": "price*pct/100"
+    },
+    "net": {
+      "gen": "derived",
+      "expr": "price-discount"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "net+fee"
+    },
+    "wrongtotal": {
+      "gen": "derived",
+      "expr": "total+fee"
+    }
+  },
+  "stem": "Sebuah toko memberikan potongan harga {pct}% untuk sepatu berharga Rp{price},00. Setelah diskon, pembeli dikenakan biaya tambahan Rp{fee},00. Tentukan Benar atau Salah untuk setiap pernyataan!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Besar diskon sepatu adalah Rp{discount},00.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Harga sepatu setelah diskon adalah Rp{total},00.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Harga sepatu setelah diskon dan biaya tambahan adalah Rp{total},00.",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Pembeli harus membayar Rp{wrongtotal},00.",
+      "correct": false
+    }
+  ],
+  "explanation": "Diskon = {pct}% × Rp{price} = Rp{discount}; harga setelah diskon Rp{net}; total pembayaran Rp{total}.",
+  "constraints": [],
+  "shuffle": false,
+  "max_draws": 400
+}

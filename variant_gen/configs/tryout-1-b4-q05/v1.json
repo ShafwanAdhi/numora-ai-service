@@ -1,0 +1,66 @@
+{
+  "question_id": "tryout-1-b4-q05",
+  "config_version": 1,
+  "original_hash": "c566f2ba613cfb43",
+  "original_values": {
+    "times": 180,
+    "threshold": 10
+  },
+  "variables": {
+    "times": {
+      "gen": "range",
+      "range": [
+        72,
+        720
+      ],
+      "step": 36
+    },
+    "threshold": {
+      "gen": "range",
+      "range": [
+        8,
+        12
+      ],
+      "step": 1
+    },
+    "ways": {
+      "gen": "derived",
+      "expr": "(13-threshold)*(14-threshold)/2"
+    },
+    "expected": {
+      "gen": "derived",
+      "expr": "ways*times/36"
+    },
+    "prime": {
+      "gen": "derived",
+      "expr": "15*times/36"
+    }
+  },
+  "stem": "Dua dadu fair bermuka enam dilempar bersama sebanyak {times} kali. Pilih semua pernyataan yang benar berdasarkan peluang dan frekuensi harapan!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Peluang jumlah 7 adalah 1/6.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Peluang kedua dadu kembar adalah 1/12.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Frekuensi harapan jumlah {threshold} atau lebih adalah {expected} kali.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Frekuensi harapan jumlah bilangan prima adalah {prime} kali.",
+      "correct": true
+    }
+  ],
+  "explanation": "Ada 36 pasangan. Jumlah7:6 pasangan (1/6); kembar:6 pasangan (1/6, bukan1/12). Jumlah≥{threshold}: {ways} pasangan, harapan {expected}. Jumlah prima2,3,5,7,11:15 pasangan, harapan {prime}.",
+  "constraints": [],
+  "shuffle": false,
+  "max_draws": 400
+}

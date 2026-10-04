@@ -1,0 +1,109 @@
+{
+  "question_id": "tryout-1-b3-q05",
+  "config_version": 1,
+  "original_hash": "65e93ff7bdfe915d",
+  "original_values": {
+    "w": 40,
+    "h": 60,
+    "m": 4
+  },
+  "variables": {
+    "w": {
+      "gen": "range",
+      "range": [
+        30,
+        80
+      ],
+      "step": 5
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        45,
+        120
+      ],
+      "step": 5
+    },
+    "m": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "fw": {
+      "gen": "derived",
+      "expr": "w-2*m"
+    },
+    "fh": {
+      "gen": "derived",
+      "expr": "h*fw/w"
+    },
+    "bottom": {
+      "gen": "derived",
+      "expr": "h-fh-m"
+    },
+    "pn": {
+      "gen": "derived",
+      "expr": "fw*fw"
+    },
+    "pd": {
+      "gen": "derived",
+      "expr": "w*w"
+    },
+    "g": {
+      "gen": "derived",
+      "expr": "gcd(pn,pd)"
+    },
+    "rn": {
+      "gen": "derived",
+      "expr": "pn/g"
+    },
+    "rd": {
+      "gen": "derived",
+      "expr": "pd/g"
+    },
+    "remainder": {
+      "gen": "derived",
+      "expr": "w*h-fw*fh"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "w*h*(1-fw/w) * 2"
+    }
+  },
+  "stem": "Foto ditempel pada karton berukuran {w} cm × {h} cm (lebar × tinggi). Sisa kiri, kanan dan atas masing-masing {m} cm. Foto dan karton sebangun. Pilih semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tinggi foto adalah {fh} cm.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Sisa karton bagian bawah adalah {bottom} cm.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Perbandingan luas foto dan karton adalah {rn}:{rd}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Luas sisa karton adalah {wrong} cm².",
+      "correct": false
+    }
+  ],
+  "explanation": "Lebar foto {fw}; tinggi={h}×{fw}/{w}={fh}. Bawah={h}−{fh}−{m}={bottom}. Rasio luas {rn}:{rd}. Sisa luas sebenarnya {remainder}, bukan {wrong}.",
+  "constraints": [
+    "h>w",
+    "fw>0",
+    "bottom>0",
+    "fh%1==0",
+    "bottom%1==0"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}

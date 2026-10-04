@@ -1,0 +1,70 @@
+{
+  "question_id": "tryout-1-b2-q07",
+  "config_version": 1,
+  "original_hash": "f47d17b1fd0aab30",
+  "original_values": {
+    "a": 20000,
+    "d": 5000,
+    "n": 5
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        10000,
+        40000
+      ],
+      "step": 1000
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        2000,
+        10000
+      ],
+      "step": 1000
+    },
+    "n": {
+      "gen": "range",
+      "range": [
+        4,
+        12
+      ],
+      "step": 1
+    },
+    "last": {
+      "gen": "derived",
+      "expr": "a+(n-1)*d"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "n*(a+last)/2"
+    },
+    "mean": {
+      "gen": "derived",
+      "expr": "(a+last)/2"
+    }
+  },
+  "stem": "Setoran pertama minggu ke-1 sebesar Rp{a},00. Setoran bertambah Rp{d},00 setiap minggu hingga minggu ke-{n}. Tentukan Benar atau Salah untuk setiap pernyataan!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Setoran minggu ke-{n} adalah Rp{last},00.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Total tabungan selama {n} minggu adalah Rp{total},00.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Rata-rata setoran per minggu adalah Rp{mean},00.",
+      "correct": true
+    }
+  ],
+  "explanation": "U_n=a+(n−1)d={last}. S_n=n(a+U_n)/2={total}. Rata-rata S_n/n={mean}. Ketiganya benar.",
+  "constraints": [],
+  "shuffle": false,
+  "max_draws": 400
+}

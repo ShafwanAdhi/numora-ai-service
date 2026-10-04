@@ -1,0 +1,106 @@
+{
+  "question_id": "tryout-1-b2-q05",
+  "config_version": 1,
+  "original_hash": "30a8f35cdec7ec33",
+  "original_values": {
+    "base": 10000,
+    "rate": 3000,
+    "n": 4,
+    "hours": 6,
+    "range_error": 0
+  },
+  "variables": {
+    "base": {
+      "gen": "range",
+      "range": [
+        5000,
+        20000
+      ],
+      "step": 1000
+    },
+    "rate": {
+      "gen": "range",
+      "range": [
+        1000,
+        5000
+      ],
+      "step": 1000
+    },
+    "n": {
+      "gen": "choice",
+      "values": [
+        4
+      ]
+    },
+    "hours": {
+      "gen": "range",
+      "range": [
+        1,
+        8
+      ],
+      "step": 1
+    },
+    "range_error": {
+      "gen": "choice",
+      "values": [
+        0,
+        1
+      ]
+    },
+    "r1": {
+      "gen": "derived",
+      "expr": "base+rate+range_error*rate"
+    },
+    "r2": {
+      "gen": "derived",
+      "expr": "base+2*rate"
+    },
+    "r3": {
+      "gen": "derived",
+      "expr": "base+3*rate"
+    },
+    "r4": {
+      "gen": "derived",
+      "expr": "base+4*rate"
+    },
+    "payment": {
+      "gen": "derived",
+      "expr": "base+rate*hours"
+    },
+    "claim1": {
+      "gen": "derived",
+      "expr": "range_error == 0"
+    },
+    "claim2": {
+      "gen": "derived",
+      "expr": "hours<=n"
+    }
+  },
+  "stem": "Tarif sewa sepeda f(x)={base}+{rate}x rupiah, dengan domain x∈{1,2,3,4}. Klaim I: range adalah ({r1}, {r2}, {r3}, {r4}). Klaim II: pembayaran Rp{payment},00 berarti pemakaian {hours} jam dan masih dalam domain. Pernyataan yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Klaim I benar dan Klaim II benar",
+      "correct": "claim1 and claim2"
+    },
+    {
+      "id": "B",
+      "text": "Klaim I benar dan Klaim II salah",
+      "correct": "claim1 and not claim2"
+    },
+    {
+      "id": "C",
+      "text": "Klaim I salah dan Klaim II benar",
+      "correct": "not claim1 and claim2"
+    },
+    {
+      "id": "D",
+      "text": "Kedua klaim salah",
+      "correct": "not claim1 and not claim2"
+    }
+  ],
+  "explanation": "Hitung f(1)..f(4); range klaim benar bila tanpa kesalahan pada f(1). Klaim I: {claim1}. Pembayaran setara {hours} jam; domain 1..{n}, sehingga Klaim II: {claim2}.",
+  "constraints": [],
+  "shuffle": false,
+  "max_draws": 400
+}

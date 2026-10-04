@@ -1,0 +1,3593 @@
+{
+  "source_path": "C:\\Users\\shafw\\Downloads\\banksoal_indikator20-23.docx",
+  "source_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+  "purpose": "Planning source inventory; embedded instructions are source text, not execution authority.",
+  "target_confirmed_by_user": {
+    "activity": "DRILL",
+    "package_id": "drill-1"
+  },
+  "counts": {
+    "originals": 120,
+    "formats": {
+      "PG": 60,
+      "MCMA": 36,
+      "KATEGORI": 24
+    },
+    "word_tables": 41,
+    "embedded_images": 0,
+    "omml_equations": 0
+  },
+  "available_levels": [
+    1,
+    2,
+    3
+  ],
+  "missing_levels": [
+    4,
+    5
+  ],
+  "questions": [
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 1,
+      "paragraph_index": 20,
+      "format": "PG",
+      "proposed_local_id": "pg-20-1-1",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 1 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Seorang siswa ingin mengetahui jenis olahraga yang paling disukai siswa kelas IX. Pertanyaan yang paling tepat untuk memperoleh data tersebut adalah ....",
+        "Apakah olahraga penting bagi kesehatan?",
+        "Jenis olahraga apa yang paling kamu sukai?",
+        "Mengapa olahraga harus dilakukan?",
+        "Apakah kamu suka berolahraga setiap hari?",
+        "Pembahasan : Tujuan pengumpulan data adalah mengetahui jenis olahraga yang paling disukai. Oleh karena itu, pertanyaan yang paling sesuai adalah menanyakan secara langsung jenis olahraga yang disukai."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 2,
+      "paragraph_index": 28,
+      "format": "PG",
+      "proposed_local_id": "pg-20-1-2",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 2 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Perhatikan data jumlah buku yang dibaca lima siswa dalam satu bulan berikut.",
+        "Siswa",
+        "Jumlah Buku",
+        "Andi",
+        "4",
+        "Budi",
+        "6",
+        "Citra",
+        "3",
+        "Deni",
+        "7",
+        "Eka",
+        "5",
+        "Jumlah seluruh buku yang dibaca kelima siswa tersebut adalah ....",
+        "20 buku",
+        "23 buku",
+        "25 buku",
+        "27 buku",
+        "Pembahasan : Jumlah seluruh buku:",
+        "4 + 6 + 3 + 7 + 5 = 25 buku."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 3,
+      "paragraph_index": 50,
+      "format": "PG",
+      "proposed_local_id": "pg-20-1-3",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 3 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Perhatikan data jumlah pengunjung perpustakaan berikut.",
+        "Hari",
+        "Jumlah Pengunjung",
+        "Senin",
+        "20",
+        "Selasa",
+        "25",
+        "Rabu",
+        "30",
+        "Kamis",
+        "25",
+        "Jumat",
+        "40",
+        "Berdasarkan data tersebut, hari dengan jumlah pengunjung terbanyak adalah ....",
+        "Senin",
+        "Selasa",
+        "Rabu",
+        "Jumat",
+        "Pembahasan : Jumlah pengunjung terbesar adalah 40 orang, yaitu pada hari Jumat."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 4,
+      "paragraph_index": 71,
+      "format": "PG",
+      "proposed_local_id": "pg-20-1-4",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 4 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Nilai ulangan Matematika lima siswa adalah 70, 80, 75, 85, dan 90. Rata-rata nilai tersebut adalah ....",
+        "75",
+        "80",
+        "85",
+        "90",
+        "Pembahasan :",
+        "Jumlah nilai:",
+        "70 + 80 + 75 + 85 + 90 = 400.",
+        "Rata-rata:",
+        "400 ÷ 5 = 80."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 5,
+      "paragraph_index": 83,
+      "format": "PG",
+      "proposed_local_id": "pg-20-1-5",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 5 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Perhatikan data jumlah saudara kandung siswa berikut.",
+        "1, 2, 2, 3, 1, 2, 4, 3, 2, 1",
+        "Modus dari data tersebut adalah ....",
+        "2",
+        "3",
+        "4",
+        "1",
+        "Pembahasan : Modus adalah nilai yang paling sering muncul. Angka 2 muncul sebanyak empat kali, sehingga modusnya adalah 2."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 6,
+      "paragraph_index": 93,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-1-6",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 6 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Seorang guru ingin mengetahui kebiasaan siswa menggunakan internet untuk belajar. Pilihlah semua pertanyaan yang sesuai dengan tujuan tersebut!",
+        "[ ] Pernyataan 1: Berapa lama kamu menggunakan internet untuk belajar setiap hari? [ ] Pernyataan 2: Apakah kamu menggunakan internet untuk belajar? [ ] Pernyataan 3: Siapa penemu internet? [ ] Pernyataan 4: Aplikasi apa yang sering kamu gunakan untuk belajar?",
+        "Pembahasan : Pernyataan 1, 2, dan 4 secara langsung menghasilkan data mengenai kebiasaan penggunaan internet untuk belajar. Pernyataan 3 tidak berkaitan dengan kebiasaan siswa."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 7,
+      "paragraph_index": 98,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-1-7",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 7 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3",
+        "Perhatikan data pilihan ekstrakurikuler 50 siswa berikut.",
+        "Ekstrakurikuler",
+        "Jumlah Siswa",
+        "Basket",
+        "15",
+        "Futsal",
+        "20",
+        "Pramuka",
+        "10",
+        "PMR",
+        "5",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Futsal memiliki jumlah peminat terbanyak. [ ] Pernyataan 2: Jumlah peminat basket dan PMR adalah 20 siswa. [ ] Pernyataan 3: Peminat Pramuka dua kali peminat PMR. [ ] Pernyataan 4: Peminat PMR sama dengan peminat Basket.",
+        "Pembahasan :",
+        "Futsal = 20 → terbanyak.",
+        "Basket + PMR = 15 + 5 = 20.",
+        "Pramuka = 10, PMR = 5 → dua kali.",
+        "PMR ≠ Basket.",
+        "Jadi pernyataan benar adalah 1, 2, dan 3."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 8,
+      "paragraph_index": 119,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-1-8",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 8 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Perhatikan data penjualan minuman selama lima hari.",
+        "Hari",
+        "Penjualan",
+        "Senin",
+        "30",
+        "Selasa",
+        "25",
+        "Rabu",
+        "40",
+        "Kamis",
+        "35",
+        "Jumat",
+        "50",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Penjualan tertinggi terjadi pada Jumat. [ ] Pernyataan 2: Penjualan Rabu lebih banyak daripada Selasa. [ ] Pernyataan 3: Penjualan Kamis lebih sedikit daripada Senin. [ ] Pernyataan 4: Selisih penjualan Jumat dan Selasa adalah 25.",
+        "Pembahasan :",
+        "Jumat = 50 → tertinggi.",
+        "Rabu = 40 > Selasa = 25.",
+        "Kamis = 35 > Senin = 30, sehingga pernyataan 3 salah.",
+        "50 − 25 = 25.",
+        "Jadi jawaban benar adalah 1, 2, dan 4."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 9,
+      "paragraph_index": 142,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-20-1-9",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 9 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Kuantitatif, B. Kualitatif, C. Kuantitatif",
+        "Tentukan kategori data yang diperoleh dari pertanyaan berikut!",
+        "Pernyataan",
+        "Kuantitatif",
+        "Kualitatif",
+        "A. Berapa jam kamu belajar setiap hari?",
+        "[ ]",
+        "[ ]",
+        "B. Apa mata pelajaran yang paling kamu sukai?",
+        "[ ]",
+        "[ ]",
+        "C. Berapa jumlah saudara kandungmu?",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "A menghasilkan data berupa jumlah waktu → kuantitatif. B menghasilkan kategori mata pelajaran → kualitatif. C menghasilkan jumlah saudara → kuantitatif."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Kuantitatif, B. Kualitatif, C. Kuantitatif"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 1,
+      "source_number": 10,
+      "paragraph_index": 159,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-20-1-10",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 10 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar",
+        "Perhatikan pernyataan mengenai penyajian data berikut!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Diagram batang dapat digunakan untuk membandingkan jumlah beberapa kategori.",
+        "[ ]",
+        "[ ]",
+        "B. Tabel tidak dapat digunakan untuk menyajikan data.",
+        "[ ]",
+        "[ ]",
+        "C. Diagram lingkaran dapat digunakan untuk menunjukkan bagian dari keseluruhan data.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan : A benar karena diagram batang cocok untuk membandingkan kategori. B salah karena tabel merupakan salah satu bentuk penyajian data. C benar karena diagram lingkaran menunjukkan proporsi bagian terhadap keseluruhan."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 11,
+      "paragraph_index": 177,
+      "format": "PG",
+      "proposed_local_id": "pg-20-2-1",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 11 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Seorang peneliti ingin mengetahui alasan siswa menggunakan sepeda motor untuk pergi ke sekolah. Pertanyaan yang paling tepat adalah ....",
+        "Apakah kamu memiliki sepeda motor?",
+        "Mengapa kamu memilih menggunakan sepeda motor ke sekolah?",
+        "Apa merek sepeda motor yang kamu gunakan?",
+        "Berapa harga sepeda motor yang digunakan?",
+        "Pembahasan : Tujuan penelitian adalah mengetahui alasan, sehingga pertanyaan harus secara langsung meminta alasan siswa."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 12,
+      "paragraph_index": 185,
+      "format": "PG",
+      "proposed_local_id": "pg-20-2-2",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 12 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Nilai ulangan delapan siswa adalah:",
+        "60, 70, 75, 80, 80, 85, 90, 100",
+        "Median data tersebut adalah ....",
+        "75",
+        "77,5",
+        "80",
+        "85",
+        "Pembahasan : Data sudah berurutan. Karena terdapat 8 data, median diperoleh dari data ke-4 dan ke-5.",
+        "(80 + 80) ÷ 2 = 80."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 13,
+      "paragraph_index": 196,
+      "format": "PG",
+      "proposed_local_id": "pg-20-2-3",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 13 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Jumlah siswa yang mengikuti kegiatan olahraga selama tiga bulan adalah:",
+        "Bulan",
+        "Jumlah Siswa",
+        "Januari",
+        "40",
+        "Februari",
+        "50",
+        "Maret",
+        "60",
+        "Persentase kenaikan jumlah siswa dari Januari ke Maret adalah ....",
+        "20%",
+        "25%",
+        "40%",
+        "50%",
+        "Pembahasan :",
+        "Kenaikan = 60 − 40 = 20.",
+        "Persentase kenaikan:",
+        "20/40 × 100% = 50%."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 14,
+      "paragraph_index": 216,
+      "format": "PG",
+      "proposed_local_id": "pg-20-2-4",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 14 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Hasil survei terhadap 200 siswa mengenai transportasi ke sekolah ditampilkan sebagai berikut.",
+        "Transportasi",
+        "Persentase",
+        "Sepeda",
+        "20%",
+        "Bus",
+        "30%",
+        "Motor",
+        "40%",
+        "Jalan kaki",
+        "10%",
+        "Banyak siswa yang menggunakan motor adalah ....",
+        "60 siswa",
+        "70 siswa",
+        "80 siswa",
+        "90 siswa",
+        "Pembahasan :",
+        "40% × 200 = 80 siswa."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 15,
+      "paragraph_index": 236,
+      "format": "PG",
+      "proposed_local_id": "pg-20-2-5",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 15 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Rata-rata nilai lima siswa adalah 78. Empat nilai yang diketahui adalah 70, 75, 80, dan 85. Nilai siswa kelima adalah ....",
+        "75",
+        "78",
+        "79",
+        "80",
+        "Pembahasan :",
+        "Jumlah seluruh nilai:",
+        "5 × 78 = 390.",
+        "Jumlah empat nilai:",
+        "70 + 75 + 80 + 85 = 310.",
+        "Nilai kelima:",
+        "390 − 310 = 80."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 16,
+      "paragraph_index": 250,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-2-6",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 16 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Perhatikan data waktu belajar lima siswa berikut.",
+        "Siswa",
+        "Waktu Belajar",
+        "A",
+        "1 jam",
+        "B",
+        "2 jam",
+        "C",
+        "3 jam",
+        "D",
+        "2 jam",
+        "E",
+        "4 jam",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Rata-rata waktu belajar adalah 2,4 jam. [ ] Pernyataan 2: Modus data adalah 2 jam. [ ] Pernyataan 3: Median data adalah 3 jam. [ ] Pernyataan 4: Selisih waktu belajar terlama dan tersingkat adalah 3 jam.",
+        "Pembahasan :",
+        "Jumlah data = 1 + 2 + 3 + 2 + 4 = 12.",
+        "Rata-rata = 12 ÷ 5 = 2,4 jam.",
+        "Data terurut: 1, 2, 2, 3, 4. Median = 2 jam. Modus = 2 jam. Selisih = 4 − 1 = 3 jam.",
+        "Jadi yang benar adalah 1, 2, dan 4."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 17,
+      "paragraph_index": 272,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-2-7",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 17 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3",
+        "Seorang siswa ingin membandingkan jumlah siswa yang memilih lima jenis ekstrakurikuler. Pilih semua bentuk penyajian data yang tepat!",
+        "[ ] Pernyataan 1: Diagram batang. [ ] Pernyataan 2: Diagram lingkaran. [ ] Pernyataan 3: Tabel. [ ] Pernyataan 4: Paragraf tanpa angka.",
+        "Pembahasan : Diagram batang, diagram lingkaran, dan tabel dapat digunakan untuk menyajikan data. Paragraf tanpa angka tidak memberikan informasi kuantitatif yang diperlukan untuk membandingkan jumlah."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 18,
+      "paragraph_index": 277,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-2-8",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 18 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3",
+        "Perhatikan data penggunaan internet untuk belajar berikut.",
+        "Durasi",
+        "Banyak Siswa",
+        "Kurang dari 1 jam",
+        "5",
+        "1–2 jam",
+        "15",
+        "2–3 jam",
+        "20",
+        "Lebih dari 3 jam",
+        "10",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Kelompok 2–3 jam memiliki jumlah siswa terbanyak. [ ] Pernyataan 2: Jumlah seluruh siswa adalah 50. [ ] Pernyataan 3: Siswa yang belajar menggunakan internet lebih dari 3 jam berjumlah 20%. [ ] Pernyataan 4: Kelompok kurang dari 1 jam merupakan kelompok terbesar.",
+        "Pembahasan :",
+        "Total siswa:",
+        "5 + 15 + 20 + 10 = 50.",
+        "Persentase lebih dari 3 jam:",
+        "10/50 × 100% = 20%.",
+        "Kelompok terbesar adalah 2–3 jam dengan 20 siswa."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 19,
+      "paragraph_index": 298,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-20-2-9",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 19 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Benar, D. Benar",
+        "Perhatikan data pengunjung perpustakaan berikut.",
+        "Hari",
+        "Pengunjung",
+        "Senin",
+        "30",
+        "Selasa",
+        "45",
+        "Rabu",
+        "40",
+        "Kamis",
+        "55",
+        "Jumat",
+        "30",
+        "Tentukan Benar atau Salah untuk setiap pernyataan!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Pengunjung terbanyak terjadi pada Kamis.",
+        "[ ]",
+        "[ ]",
+        "B. Selasa memiliki pengunjung lebih banyak daripada Rabu.",
+        "[ ]",
+        "[ ]",
+        "C. Selisih pengunjung Kamis dan Jumat adalah 25.",
+        "[ ]",
+        "[ ]",
+        "D. Rata-rata pengunjung per hari adalah 40.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "Total pengunjung:",
+        "30 + 45 + 40 + 55 + 30 = 200.",
+        "Rata-rata:",
+        "200 ÷ 5 = 40.",
+        "Semua pernyataan benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Benar, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 2,
+      "source_number": 20,
+      "paragraph_index": 335,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-20-2-10",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 20 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Sesuai, B. Tidak Sesuai, C. Sesuai, D. Tidak Sesuai",
+        "Tujuan penelitian adalah mengetahui kebiasaan siswa membawa bekal ke sekolah.",
+        "Tentukan apakah setiap pertanyaan sesuai dengan tujuan penelitian!",
+        "Pertanyaan",
+        "Sesuai",
+        "Tidak Sesuai",
+        "A. Berapa kali dalam seminggu kamu membawa bekal?",
+        "[ ]",
+        "[ ]",
+        "B. Apa makanan favoritmu?",
+        "[ ]",
+        "[ ]",
+        "C. Apakah kamu biasanya membawa bekal ke sekolah?",
+        "[ ]",
+        "[ ]",
+        "D. Berapa uang saku yang kamu terima setiap hari?",
+        "[ ]",
+        "[ ]",
+        "Pembahasan : Pertanyaan A dan C secara langsung mengukur kebiasaan membawa bekal. B dan D tidak secara langsung berkaitan dengan tujuan penelitian."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Sesuai, B. Tidak Sesuai, C. Sesuai, D. Tidak Sesuai"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 21,
+      "paragraph_index": 357,
+      "format": "PG",
+      "proposed_local_id": "pg-20-3-1",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 21 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Sebuah kelas melakukan survei terhadap 40 siswa mengenai waktu belajar di rumah.",
+        "Waktu Belajar",
+        "Jumlah Siswa",
+        "Kurang dari 1 jam",
+        "8",
+        "1–2 jam",
+        "18",
+        "2–3 jam",
+        "10",
+        "Lebih dari 3 jam",
+        "4",
+        "Kesimpulan yang paling tepat berdasarkan data tersebut adalah ....",
+        "Sebagian besar siswa belajar lebih dari 3 jam.",
+        "Kelompok siswa dengan waktu belajar 1–2 jam merupakan kelompok terbesar.",
+        "Semua siswa belajar minimal 2 jam.",
+        "Jumlah siswa yang belajar kurang dari 1 jam sama dengan yang belajar 2–3 jam.",
+        "Pembahasan : Kelompok 1–2 jam memiliki jumlah paling besar, yaitu 18 siswa. Oleh karena itu, kesimpulan yang tepat adalah pilihan 2."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 22,
+      "paragraph_index": 376,
+      "format": "PG",
+      "proposed_local_id": "pg-20-3-2",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 22 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Jumlah siswa yang mengikuti program membaca selama empat bulan ditunjukkan dalam tabel berikut.",
+        "Bulan",
+        "Jumlah Siswa",
+        "Januari",
+        "20",
+        "Februari",
+        "30",
+        "Maret",
+        "45",
+        "April",
+        "40",
+        "Kesimpulan yang paling tepat berdasarkan data tersebut adalah ....",
+        "Jumlah peserta selalu meningkat setiap bulan.",
+        "Jumlah peserta selalu menurun setiap bulan.",
+        "Jumlah peserta meningkat sampai Maret kemudian menurun pada April.",
+        "Jumlah peserta tidak mengalami perubahan.",
+        "Pembahasan : Data menunjukkan:",
+        "20 → 30 → 45 → 40.",
+        "Jumlah peserta meningkat dari Januari sampai Maret, kemudian turun pada April."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 23,
+      "paragraph_index": 397,
+      "format": "PG",
+      "proposed_local_id": "pg-20-3-3",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 23 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Nilai lima siswa adalah 60, 70, 80, 90, dan 100. Guru menambahkan satu nilai baru sehingga rata-rata keenam siswa menjadi 85. Nilai baru tersebut adalah ....",
+        "100",
+        "105",
+        "110",
+        "110",
+        "Pembahasan :",
+        "Jumlah lima nilai:",
+        "60 + 70 + 80 + 90 + 100 = 400.",
+        "Jumlah enam nilai agar rata-rata 85:",
+        "6 × 85 = 510.",
+        "Nilai baru:",
+        "510 − 400 = 110.",
+        "Catatan: Pada soal ini pilihan 3 dan 4 akan memiliki jawaban sama, sehingga tidak layak digunakan dalam tes. Untuk menjaga kualitas butir, soal seharusnya diperbaiki menjadi:",
+        "100",
+        "105",
+        "110",
+        "115",
+        "Dengan perbaikan tersebut, kunci = C."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [
+        "duplicate_options_and_score_domain_review"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 24,
+      "paragraph_index": 417,
+      "format": "PG",
+      "proposed_local_id": "pg-20-3-4",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 24 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Dalam survei terhadap 360 siswa mengenai kegiatan setelah sekolah diperoleh data berikut.",
+        "Kegiatan",
+        "Persentase",
+        "Olahraga",
+        "40%",
+        "Belajar",
+        "25%",
+        "Bermain",
+        "20%",
+        "Lainnya",
+        "15%",
+        "Jumlah siswa yang memilih belajar atau bermain adalah ....",
+        "144 siswa",
+        "154 siswa",
+        "162 siswa",
+        "180 siswa",
+        "Pembahasan :",
+        "Persentase belajar atau bermain:",
+        "25% + 20% = 45%.",
+        "Jumlah siswa:",
+        "45% × 360 = 162 siswa."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 25,
+      "paragraph_index": 440,
+      "format": "PG",
+      "proposed_local_id": "pg-20-3-5",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 25 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Seorang peneliti ingin mengetahui hubungan antara lama penggunaan media sosial dan waktu belajar siswa. Pertanyaan yang paling tepat digunakan adalah ....",
+        "Apakah media sosial menarik bagi siswa?",
+        "Apa aplikasi media sosial favorit siswa?",
+        "Berapa lama kamu menggunakan media sosial dan berapa lama kamu belajar setiap hari?",
+        "Mengapa media sosial banyak digunakan?",
+        "Pembahasan : Penelitian membutuhkan dua data yang dapat dibandingkan, yaitu lama penggunaan media sosial dan lama belajar. Oleh karena itu, pertanyaan pada pilihan 3 paling sesuai."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 26,
+      "paragraph_index": 448,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-3-6",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 26 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 2, Pernyataan 3, Pernyataan 4",
+        "Perhatikan dua kelompok nilai berikut.",
+        "Kelompok A: 70, 70, 80, 80, 90 Kelompok B: 60, 75, 80, 85, 100",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Rata-rata kedua kelompok sama. [ ] Pernyataan 2: Median kedua kelompok sama. [ ] Pernyataan 3: Jangkauan Kelompok B lebih besar daripada Kelompok A. [ ] Pernyataan 4: Nilai tertinggi Kelompok B lebih besar daripada Kelompok A.",
+        "Pembahasan :",
+        "Kelompok A:",
+        "70 + 70 + 80 + 80 + 90 = 390.",
+        "Rata-rata = 390 ÷ 5 = 78.",
+        "Kelompok B:",
+        "60 + 75 + 80 + 85 + 100 = 400.",
+        "Rata-rata = 80.",
+        "Jadi rata-ratanya tidak sama.",
+        "Median kedua kelompok = 80.",
+        "Jangkauan A:",
+        "90 − 70 = 20.",
+        "Jangkauan B:",
+        "100 − 60 = 40.",
+        "Nilai tertinggi B = 100, sedangkan A = 90.",
+        "Jadi yang benar adalah 2, 3, dan 4."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 2, Pernyataan 3, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 27,
+      "paragraph_index": 469,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-3-7",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 27 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3",
+        "Hasil survei terhadap 100 siswa mengenai transportasi ke sekolah adalah:",
+        "Transportasi",
+        "Jumlah",
+        "Jalan kaki",
+        "10",
+        "Sepeda",
+        "20",
+        "Motor",
+        "50",
+        "Angkutan umum",
+        "20",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Setengah siswa menggunakan motor. [ ] Pernyataan 2: Sepeda dan angkutan umum digunakan oleh jumlah siswa yang sama. [ ] Pernyataan 3: Siswa yang tidak menggunakan motor berjumlah 50 orang. [ ] Pernyataan 4: Jalan kaki merupakan pilihan kedua terbanyak.",
+        "Pembahasan :",
+        "Motor = 50 dari 100 = 50%.",
+        "Jumlah yang tidak menggunakan motor:",
+        "100 − 50 = 50 siswa.",
+        "Sepeda = angkutan umum = 20 siswa.",
+        "Jalan kaki hanya 10 siswa sehingga bukan pilihan kedua terbanyak.",
+        "Jadi jawaban benar adalah 1, 2, dan 3."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 28,
+      "paragraph_index": 491,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-20-3-8",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 28 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Sebuah penelitian bertujuan mengetahui kepuasan siswa terhadap fasilitas perpustakaan. Pilihlah semua pertanyaan yang sesuai dengan tujuan tersebut!",
+        "[ ] Pernyataan 1: Seberapa puas kamu terhadap kebersihan perpustakaan? [ ] Pernyataan 2: Seberapa puas kamu terhadap jumlah buku yang tersedia? [ ] Pernyataan 3: Apa warna yang paling kamu sukai? [ ] Pernyataan 4: Seberapa puas kamu terhadap kenyamanan tempat membaca?",
+        "Pembahasan : Pertanyaan 1, 2, dan 4 secara langsung mengukur aspek fasilitas dan kepuasan siswa terhadap perpustakaan. Pertanyaan 3 tidak berkaitan dengan tujuan penelitian."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 29,
+      "paragraph_index": 496,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-20-3-9",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 29 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Benar, D. Benar, E. Benar",
+        "Perhatikan data jenis bacaan yang dipilih oleh 100 siswa.",
+        "Jenis Bacaan",
+        "Jumlah Siswa",
+        "Novel",
+        "24",
+        "Komik",
+        "36",
+        "Buku Pelajaran",
+        "20",
+        "Majalah",
+        "10",
+        "Cerita Pendek",
+        "10",
+        "Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Komik merupakan bacaan yang paling banyak dipilih.",
+        "[ ]",
+        "[ ]",
+        "B. Novel dipilih oleh 24% siswa.",
+        "[ ]",
+        "[ ]",
+        "C. Buku pelajaran dan novel memiliki selisih 4 siswa.",
+        "[ ]",
+        "[ ]",
+        "D. Majalah dan cerita pendek memiliki jumlah pemilih yang sama.",
+        "[ ]",
+        "[ ]",
+        "E. Jumlah seluruh responden adalah 100 siswa.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "Komik = 36 siswa → jumlah terbanyak. Novel = 24 dari 100 → 24%. Selisih novel dan buku pelajaran = 24 − 20 = 4. Majalah = cerita pendek = 10 siswa. Total = 24 + 36 + 20 + 10 + 10 = 100 siswa.",
+        "Semua pernyataan benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Benar, D. Benar, E. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 20,
+      "source_level": 3,
+      "source_number": 30,
+      "paragraph_index": 533,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-20-3-10",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 30 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Benar, D. Benar, E. Benar",
+        "Perhatikan data penggunaan lima aplikasi belajar oleh 200 siswa.",
+        "Aplikasi",
+        "Persentase",
+        "A",
+        "35%",
+        "B",
+        "25%",
+        "C",
+        "20%",
+        "D",
+        "15%",
+        "E",
+        "5%",
+        "Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Aplikasi A digunakan oleh 70 siswa.",
+        "[ ]",
+        "[ ]",
+        "B. Aplikasi B dan C digunakan oleh 90 siswa secara keseluruhan.",
+        "[ ]",
+        "[ ]",
+        "C. Aplikasi D digunakan oleh 30 siswa.",
+        "[ ]",
+        "[ ]",
+        "D. Aplikasi A digunakan tujuh kali lebih banyak daripada aplikasi E.",
+        "[ ]",
+        "[ ]",
+        "E. Aplikasi A, B, dan C secara keseluruhan digunakan oleh 80% siswa.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "A:",
+        "35% × 200 = 70 siswa.",
+        "B + C:",
+        "25% + 20% = 45%.",
+        "45% × 200 = 90 siswa.",
+        "D:",
+        "15% × 200 = 30 siswa.",
+        "A dibandingkan E:",
+        "35% ÷ 5% = 7 kali.",
+        "A + B + C:",
+        "35% + 25% + 20% = 80%.",
+        "Jadi seluruh pernyataan benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Benar, D. Benar, E. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 1,
+      "paragraph_index": 582,
+      "format": "PG",
+      "proposed_local_id": "pg-21-1-1",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 1 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Perhatikan data berikut.",
+        "70, 75, 80, 85, 90",
+        "Rata-rata dari data tersebut adalah ....",
+        "75",
+        "78",
+        "80",
+        "85",
+        "Pembahasan :",
+        "Jumlah data:",
+        "70 + 75 + 80 + 85 + 90 = 400",
+        "Banyak data = 5.",
+        "Mean:",
+        "400 ÷ 5 = 80."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 2,
+      "paragraph_index": 597,
+      "format": "PG",
+      "proposed_local_id": "pg-21-1-2",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 2 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Perhatikan data berikut.",
+        "6, 8, 7, 9, 10, 8, 5",
+        "Median dari data tersebut adalah ....",
+        "7",
+        "8",
+        "9",
+        "10",
+        "Pembahasan :",
+        "Urutkan data:",
+        "5, 6, 7, 8, 8, 9, 10",
+        "Karena terdapat 7 data, median adalah data yang berada di tengah, yaitu 8."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 3,
+      "paragraph_index": 610,
+      "format": "PG",
+      "proposed_local_id": "pg-21-1-3",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 3 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Data jumlah buku yang dibaca siswa dalam satu bulan adalah:",
+        "2, 3, 4, 3, 5, 3, 6",
+        "Modus data tersebut adalah ....",
+        "2",
+        "4",
+        "5",
+        "3",
+        "Pembahasan :",
+        "Angka 3 muncul sebanyak 3 kali, sedangkan angka lainnya hanya satu kali.",
+        "Jadi modus = 3."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 4,
+      "paragraph_index": 622,
+      "format": "PG",
+      "proposed_local_id": "pg-21-1-4",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 4 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Perhatikan data berikut.",
+        "12, 15, 18, 20, 25",
+        "Jangkauan data tersebut adalah ....",
+        "13",
+        "15",
+        "18",
+        "25",
+        "Pembahasan :",
+        "Jangkauan = nilai terbesar − nilai terkecil.",
+        "25 − 12 = 13."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 5,
+      "paragraph_index": 634,
+      "format": "PG",
+      "proposed_local_id": "pg-21-1-5",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 5 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Nilai ulangan seorang siswa selama lima kali adalah:",
+        "70, 80, 75, 85, 90",
+        "Rata-rata nilai tersebut adalah ....",
+        "75",
+        "78",
+        "80",
+        "85",
+        "Pembahasan :",
+        "Jumlah nilai:",
+        "70 + 80 + 75 + 85 + 90 = 400.",
+        "Mean:",
+        "400 ÷ 5 = 80."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 6,
+      "paragraph_index": 648,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-1-6",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 6 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Perhatikan data berikut.",
+        "5, 7, 7, 8, 9, 10",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Modus data adalah 7. [ ] Pernyataan 2: Nilai terbesar adalah 10. [ ] Pernyataan 3: Jangkauan data adalah 4. [ ] Pernyataan 4: Jangkauan data adalah 5.",
+        "Pembahasan :",
+        "Modus = 7.",
+        "Nilai terbesar = 10.",
+        "Nilai terkecil = 5.",
+        "Jangkauan = 10 − 5 = 5.",
+        "Jadi pernyataan benar adalah 1, 2, dan 4."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 7,
+      "paragraph_index": 660,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-1-7",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 7 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "Perhatikan data:",
+        "60, 70, 70, 80, 90",
+        "Pilih semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Median data adalah 70. [ ] Pernyataan 2: Modus data adalah 80. [ ] Pernyataan 3: Rata-rata data adalah 74. [ ] Pernyataan 4: Jangkauan data adalah 20.",
+        "Pembahasan :",
+        "Median = 70.",
+        "Modus = 70, sehingga pernyataan 2 salah.",
+        "Mean:",
+        "(60 + 70 + 70 + 80 + 90) ÷ 5 = 370 ÷ 5 = 74.",
+        "Range:",
+        "90 − 60 = 30, sehingga pernyataan 4 salah."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 8,
+      "paragraph_index": 673,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-1-8",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 8 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3",
+        "Perhatikan data berikut.",
+        "4, 5, 5, 6, 7, 8",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Modus data adalah 5. [ ] Pernyataan 2: Nilai terkecil adalah 4. [ ] Pernyataan 3: Jangkauan data adalah 4. [ ] Pernyataan 4: Median data adalah 7.",
+        "Pembahasan :",
+        "Modus = 5.",
+        "Nilai terkecil = 4.",
+        "Range = 8 − 4 = 4.",
+        "Median = (5 + 6) ÷ 2 = 5,5, bukan 7."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 9,
+      "paragraph_index": 684,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-21-1-9",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 9 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "Perhatikan data:",
+        "10, 12, 12, 14, 17",
+        "Tentukan Benar atau Salah!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Modus data adalah 12.",
+        "[ ]",
+        "[ ]",
+        "B. Median data adalah 12.",
+        "[ ]",
+        "[ ]",
+        "C. Jangkauan data adalah 5.",
+        "[ ]",
+        "[ ]",
+        "D. Nilai terbesar adalah 17.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "Modus = 12. Median = 12. Range = 17 − 10 = 7. Nilai terbesar = 17."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 1,
+      "source_number": 10,
+      "paragraph_index": 706,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-21-1-10",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 10 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah",
+        "Perhatikan data:",
+        "5, 6, 7, 7, 10",
+        "Tentukan Benar atau Salah!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Modusnya adalah 7.",
+        "[ ]",
+        "[ ]",
+        "B. Mediannya adalah 8.",
+        "[ ]",
+        "[ ]",
+        "C. Jangkauannya adalah 5.",
+        "[ ]",
+        "[ ]",
+        "D. Rata-ratanya adalah 8.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "Modus = 7.",
+        "Median = 7.",
+        "Range = 10 − 5 = 5.",
+        "Mean:",
+        "(5 + 6 + 7 + 7 + 10) ÷ 5 = 35 ÷ 5 = 7."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 11,
+      "paragraph_index": 733,
+      "format": "PG",
+      "proposed_local_id": "pg-21-2-1",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 11 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Data nilai:",
+        "65, 70, 75, 80, 85, 90",
+        "Median data tersebut adalah ....",
+        "75",
+        "77",
+        "77,5",
+        "80",
+        "Pembahasan :",
+        "Karena terdapat 6 data, median merupakan rata-rata data ke-3 dan ke-4.",
+        "(75 + 80) ÷ 2 = 77,5."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 12,
+      "paragraph_index": 745,
+      "format": "PG",
+      "proposed_local_id": "pg-21-2-2",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 12 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Rata-rata dari lima bilangan adalah 72. Jika empat bilangan tersebut adalah 65, 70, 75, dan 80, bilangan kelima adalah ....",
+        "65",
+        "68",
+        "70",
+        "70",
+        "Pembahasan :",
+        "Jumlah seluruh data:",
+        "5 × 72 = 360.",
+        "Jumlah empat data:",
+        "65 + 70 + 75 + 80 = 290.",
+        "Data kelima:",
+        "360 − 290 = 70.",
+        "Catatan: pilihan harus dibuat unik. Gunakan opsi final:",
+        "65",
+        "68",
+        "70",
+        "75",
+        "Dengan demikian kunci = C."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [
+        "duplicate_options"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 13,
+      "paragraph_index": 765,
+      "format": "PG",
+      "proposed_local_id": "pg-21-2-3",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 13 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Data berikut memiliki rata-rata 80:",
+        "70, 75, 80, 85, x",
+        "Nilai x adalah ....",
+        "85",
+        "90",
+        "95",
+        "100",
+        "Pembahasan :",
+        "Jumlah seluruh data yang diperlukan:",
+        "5 × 80 = 400.",
+        "Jumlah empat data:",
+        "70 + 75 + 80 + 85 = 310.",
+        "x = 400 − 310 = 90."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 14,
+      "paragraph_index": 780,
+      "format": "PG",
+      "proposed_local_id": "pg-21-2-4",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 14 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Perhatikan data berikut.",
+        "12, 15, 18, 20, 25, 30",
+        "Jangkauan data tersebut adalah ....",
+        "18",
+        "20",
+        "22",
+        "25",
+        "Pembahasan :",
+        "Range = nilai terbesar − nilai terkecil.",
+        "30 − 12 = 18."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 15,
+      "paragraph_index": 792,
+      "format": "PG",
+      "proposed_local_id": "pg-21-2-5",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 15 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Data waktu belajar lima siswa adalah:",
+        "1, 2, 2, 3, 7 jam",
+        "Ukuran data yang paling dipengaruhi oleh nilai 7 adalah ....",
+        "Modus",
+        "Median",
+        "Mean",
+        "Banyak data",
+        "Pembahasan :",
+        "Nilai 7 merupakan nilai yang jauh lebih besar daripada sebagian besar data sehingga paling memengaruhi mean atau rata-rata."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 16,
+      "paragraph_index": 803,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-2-6",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 16 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Data:",
+        "10, 12, 12, 14, 17",
+        "Pilih semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Mean data adalah 13. [ ] Pernyataan 2: Median data adalah 12. [ ] Pernyataan 3: Modus data adalah 14. [ ] Pernyataan 4: Range data adalah 7.",
+        "Pembahasan :",
+        "Mean:",
+        "(10 + 12 + 12 + 14 + 17) ÷ 5 = 65 ÷ 5 = 13.",
+        "Median = 12.",
+        "Modus = 12, bukan 14.",
+        "Range = 17 − 10 = 7."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 17,
+      "paragraph_index": 815,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-2-7",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 17 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4",
+        "Perhatikan data:",
+        "4, 6, 6, 8, 10, 14",
+        "Pilih semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Modus data adalah 6. [ ] Pernyataan 2: Median data adalah 6. [ ] Pernyataan 3: Jangkauan data adalah 10. [ ] Pernyataan 4: Nilai terbesar adalah 14.",
+        "Pembahasan :",
+        "Modus = 6.",
+        "Median:",
+        "(6 + 8) ÷ 2 = 7, sehingga pernyataan 2 salah.",
+        "Range:",
+        "14 − 4 = 10.",
+        "Nilai terbesar = 14."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 18,
+      "paragraph_index": 828,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-2-8",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 18 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "Diketahui data:",
+        "20, 25, 25, 30, 35",
+        "Pilih semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Mean data adalah 27. [ ] Pernyataan 2: Median data adalah 27. [ ] Pernyataan 3: Modus data adalah 25. [ ] Pernyataan 4: Range data adalah 20.",
+        "Pembahasan :",
+        "Mean:",
+        "(20 + 25 + 25 + 30 + 35) ÷ 5 = 135 ÷ 5 = 27.",
+        "Median = 25.",
+        "Modus = 25.",
+        "Range = 35 − 20 = 15."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 19,
+      "paragraph_index": 840,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-21-2-9",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 19 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "Data nilai:",
+        "60, 70, 70, 80, 90, 90",
+        "Tentukan Benar atau Salah!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Mean data adalah 76,67.",
+        "[ ]",
+        "[ ]",
+        "B. Data memiliki dua modus.",
+        "[ ]",
+        "[ ]",
+        "C. Median data adalah 80.",
+        "[ ]",
+        "[ ]",
+        "D. Range data adalah 30.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "Mean:",
+        "460 ÷ 6 = 76,67.",
+        "Modus = 70 dan 90, sehingga data memiliki dua modus.",
+        "Median:",
+        "(70 + 80) ÷ 2 = 75, bukan 80.",
+        "Range:",
+        "90 − 60 = 30."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 2,
+      "source_number": 20,
+      "paragraph_index": 868,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-21-2-10",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 20 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Benar",
+        "Data waktu tempuh siswa menuju sekolah:",
+        "15, 20, 20, 25, 30",
+        "Tentukan Benar atau Salah!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Mean data adalah 22 menit.",
+        "[ ]",
+        "[ ]",
+        "B. Median data adalah 22 menit.",
+        "[ ]",
+        "[ ]",
+        "C. Modus data adalah 20 menit.",
+        "[ ]",
+        "[ ]",
+        "D. Range data adalah 15 menit.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "Mean:",
+        "(15 + 20 + 20 + 25 + 30) ÷ 5 = 110 ÷ 5 = 22.",
+        "Median = 20.",
+        "Modus = 20.",
+        "Range = 30 − 15 = 15."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 21,
+      "paragraph_index": 895,
+      "format": "PG",
+      "proposed_local_id": "pg-21-3-1",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 21 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Rata-rata nilai 6 siswa adalah 75. Setelah satu siswa yang memperoleh nilai 90 bergabung dalam kelompok tersebut, rata-rata menjadi 77.",
+        "Nilai siswa yang bergabung adalah ....",
+        "85",
+        "90",
+        "89",
+        "95",
+        "Pembahasan :",
+        "Jumlah nilai awal:",
+        "6 × 75 = 450.",
+        "Jumlah nilai setelah menjadi 7 siswa:",
+        "7 × 77 = 539.",
+        "Nilai siswa:",
+        "539 − 450 = 89."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [
+        "stem_value90_conflicts_with_implied89"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 22,
+      "paragraph_index": 910,
+      "format": "PG",
+      "proposed_local_id": "pg-21-3-2",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 22 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Data nilai:",
+        "60, 65, 70, 75, 80",
+        "Jika setiap nilai ditambah 5, pernyataan yang benar adalah ....",
+        "Mean dan median tetap.",
+        "Mean dan median masing-masing bertambah 5.",
+        "Range bertambah 5.",
+        "Modus bertambah 10.",
+        "Pembahasan :",
+        "Penambahan bilangan yang sama kepada seluruh data akan membuat mean dan median bertambah sebesar bilangan tersebut.",
+        "Mean dan median masing-masing bertambah 5.",
+        "Range tetap, karena:",
+        "85 − 65 = 20."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 23,
+      "paragraph_index": 924,
+      "format": "PG",
+      "proposed_local_id": "pg-21-3-3",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 23 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Perhatikan dua kelompok data berikut.",
+        "Kelompok A: 70, 70, 75, 80, 80 Kelompok B: 60, 70, 75, 80, 90",
+        "Pernyataan yang tepat adalah ....",
+        "Kelompok A memiliki range lebih besar.",
+        "Kelompok A dan B memiliki range yang sama.",
+        "Kelompok A memiliki median lebih besar.",
+        "Kelompok B memiliki range lebih besar.",
+        "Pembahasan :",
+        "Range A:",
+        "80 − 70 = 10.",
+        "Range B:",
+        "90 − 60 = 30.",
+        "Median keduanya = 75.",
+        "Jadi Kelompok B memiliki range lebih besar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 24,
+      "paragraph_index": 940,
+      "format": "PG",
+      "proposed_local_id": "pg-21-3-4",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 24 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Data berikut memiliki rata-rata 70:",
+        "60, 65, 70, 75, x",
+        "Jika nilai x diubah menjadi 90, rata-rata baru data tersebut adalah ....",
+        "74",
+        "75",
+        "76",
+        "78",
+        "Pembahasan :",
+        "Karena rata-rata awal 70:",
+        "Jumlah data = 5 × 70 = 350.",
+        "Jumlah empat data:",
+        "60 + 65 + 70 + 75 = 270.",
+        "x = 350 − 270 = 80.",
+        "Jika x menjadi 90, jumlah baru:",
+        "350 − 80 + 90 = 360.",
+        "Mean baru:",
+        "360 ÷ 5 = 72.",
+        "Jadi opsi harus diperbaiki agar kunci sesuai. Jawaban sebenarnya adalah 72.",
+        "Untuk versi final yang layak digunakan:",
+        "72",
+        "74",
+        "76",
+        "78",
+        "Kunci final: A."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [
+        "correct72_absent_from_original_options"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 25,
+      "paragraph_index": 966,
+      "format": "PG",
+      "proposed_local_id": "pg-21-3-5",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 25 (Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Dua kelompok memiliki data berikut.",
+        "Kelompok A: 70, 75, 75, 80, 80 Kelompok B: 60, 70, 80, 80, 90",
+        "Pernyataan yang paling tepat adalah ....",
+        "Mean A lebih kecil daripada mean B.",
+        "Median A lebih kecil daripada median B.",
+        "Range B lebih besar daripada range A.",
+        "Modus A dan B berbeda.",
+        "Pembahasan :",
+        "Range A:",
+        "80 − 70 = 10.",
+        "Range B:",
+        "90 − 60 = 30.",
+        "Jadi range B lebih besar.",
+        "Mean A = 76. Mean B = 76.",
+        "Median A = 75. Median B = 80.",
+        "Modus A = 75 dan 80, sedangkan B = 80."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [
+        "multiple_true_options_in_PG"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 26,
+      "paragraph_index": 984,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-3-6",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 26 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4",
+        "Perhatikan data berikut.",
+        "10, 15, 15, 20, 25",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Mean data adalah 17. [ ] Pernyataan 2: Median data adalah 17. [ ] Pernyataan 3: Modus data adalah 15. [ ] Pernyataan 4: Range data adalah 15.",
+        "Pembahasan :",
+        "Mean:",
+        "(10 + 15 + 15 + 20 + 25) ÷ 5 = 85 ÷ 5 = 17.",
+        "Median = 15.",
+        "Modus = 15.",
+        "Range = 25 − 10 = 15.",
+        "Jadi yang benar adalah 1, 3, dan 4."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 27,
+      "paragraph_index": 997,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-3-7",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 27 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Data waktu belajar:",
+        "1, 2, 2, 2, 3, 4",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Modus data adalah 2 jam. [ ] Pernyataan 2: Median data adalah 2 jam. [ ] Pernyataan 3: Mean data adalah 2 jam. [ ] Pernyataan 4: Range data adalah 3 jam.",
+        "Pembahasan :",
+        "Modus = 2.",
+        "Median:",
+        "(2 + 2) ÷ 2 = 2.",
+        "Mean:",
+        "(1 + 2 + 2 + 2 + 3 + 4) ÷ 6 = 14 ÷ 6 = 2,33, sehingga pernyataan 3 salah.",
+        "Range:",
+        "4 − 1 = 3."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 28,
+      "paragraph_index": 1011,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-21-3-8",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 28 (Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "Perhatikan data berikut.",
+        "50, 60, 60, 70, 80",
+        "Kemudian nilai 50 diganti menjadi 90.",
+        "Pilihlah semua pernyataan yang benar!",
+        "[ ] Pernyataan 1: Median data tetap 60. [ ] Pernyataan 2: Modus data berubah. [ ] Pernyataan 3: Range data bertambah. [ ] Pernyataan 4: Jumlah data bertambah.",
+        "Pembahasan :",
+        "Data awal:",
+        "50, 60, 60, 70, 80.",
+        "Data baru:",
+        "60, 60, 70, 80, 90.",
+        "Median awal = 60. Median baru = 70.",
+        "Jadi pernyataan 1 sebenarnya salah.",
+        "Modus awal = 60 dan modus baru = 60, sehingga pernyataan 2 salah.",
+        "Range awal = 80 − 50 = 30. Range baru = 90 − 60 = 30.",
+        "Range tidak bertambah.",
+        "Jumlah data tetap 5.",
+        "Dengan demikian, tidak ada pernyataan yang benar pada versi awal soal ini. Agar menjadi butir MCMA yang layak, pernyataannya perlu diperbaiki menjadi:",
+        "[✓] Pernyataan 1: Modus data tetap 60. [ ] Pernyataan 2: Median data tetap 60. [✓] Pernyataan 3: Nilai terbesar bertambah dari 80 menjadi 90. [ ] Pernyataan 4: Banyak data bertambah.",
+        "Kunci final: Pernyataan 1 dan 3."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3"
+      ],
+      "review_flags": [
+        "no_true_statement_in_initial_MCMA"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 29,
+      "paragraph_index": 1032,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-21-3-9",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 29 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "Perhatikan data nilai berikut.",
+        "65, 70, 70, 75, 80, 80, 80",
+        "Tentukan Benar atau Salah!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Modus data adalah 80.",
+        "[ ]",
+        "[ ]",
+        "B. Median data adalah 75.",
+        "[ ]",
+        "[ ]",
+        "C. Jangkauan data adalah 20.",
+        "[ ]",
+        "[ ]",
+        "D. Mean data adalah 75,71.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "Modus = 80.",
+        "Median adalah data ke-4 = 75.",
+        "Range:",
+        "80 − 65 = 15, sehingga C salah.",
+        "Mean:",
+        "(65 + 70 + 70 + 75 + 80 + 80 + 80) ÷ 7",
+        "= 520 ÷ 7 ≈ 74,29.",
+        "Jadi D juga salah.",
+        "Koreksi kunci final: A dan B benar, C dan D salah."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [
+        "mean_claim_and_key_conflict"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 21,
+      "source_level": 3,
+      "source_number": 30,
+      "paragraph_index": 1062,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-21-3-10",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 30 (Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah",
+        "Dua kelompok siswa memperoleh data nilai sebagai berikut.",
+        "Kelompok A: 60, 70, 70, 80, 90 Kelompok B: 50, 70, 80, 80, 100",
+        "Tentukan Benar atau Salah berdasarkan data tersebut!",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Mean Kelompok A adalah 74.",
+        "[ ]",
+        "[ ]",
+        "B. Mean Kelompok B adalah 74.",
+        "[ ]",
+        "[ ]",
+        "C. Median Kelompok B adalah 80.",
+        "[ ]",
+        "[ ]",
+        "D. Range Kelompok A lebih besar daripada Kelompok B.",
+        "[ ]",
+        "[ ]",
+        "Pembahasan :",
+        "Kelompok A:",
+        "60 + 70 + 70 + 80 + 90 = 370.",
+        "Mean = 370 ÷ 5 = 74.",
+        "Kelompok B:",
+        "50 + 70 + 80 + 80 + 100 = 380.",
+        "Mean = 380 ÷ 5 = 76, bukan 74.",
+        "Median B = 80.",
+        "Range A = 90 − 60 = 30.",
+        "Range B = 100 − 50 = 50.",
+        "Jadi range A tidak lebih besar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 1,
+      "paragraph_index": 1095,
+      "format": "PG",
+      "proposed_local_id": "pg-22-1-1",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 1",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Data nilai kelompok A: 70, 75, 80, 85, 90. Data nilai kelompok B: 65, 75, 80, 85, 95.",
+        "Perbandingan mean kedua kelompok tersebut adalah ....",
+        "Mean A lebih besar",
+        "Mean B lebih besar",
+        "Mean A dan B sama",
+        "Tidak dapat ditentukan",
+        "Pembahasan : Mean A = (70 + 75 + 80 + 85 + 90) ÷ 5 = 80. Mean B = (65 + 75 + 80 + 85 + 95) ÷ 5 = 80. Jadi, mean kedua kelompok sama."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 2,
+      "paragraph_index": 1105,
+      "format": "PG",
+      "proposed_local_id": "pg-22-1-2",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 2",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Perhatikan data berikut.",
+        "Kelompok A: 5, 6, 7, 8, 9",
+        "Kelompok B: 3, 6, 7, 8, 11",
+        "Kelompok yang memiliki jangkauan lebih besar adalah ....",
+        "A. Kelompok A B. Keduanya sama C. Kelompok B D. Tidak dapat ditentukan",
+        "Pembahasan : Jangkauan A = 9 − 5 = 4. Jangkauan B = 11 − 3 = 8. Jadi, jangkauan kelompok B lebih besar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 3,
+      "paragraph_index": 1114,
+      "format": "PG",
+      "proposed_local_id": "pg-22-1-3",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 3",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Data nilai:",
+        "Kelompok A: 70, 70, 75, 80, 80",
+        "Kelompok B: 60, 70, 75, 80, 90",
+        "Pernyataan yang tepat adalah ....",
+        "A. Median kedua kelompok sama B. Median A lebih besar C. Median B lebih besar D. Mean A lebih besar daripada mean B",
+        "Pembahasan : Median A = 75 dan median B = 75. Jadi, median kedua kelompok sama."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 4,
+      "paragraph_index": 1123,
+      "format": "PG",
+      "proposed_local_id": "pg-22-1-4",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 4",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Kelompok A memiliki data 10, 12, 14, 16, 18. Kelompok B memiliki data 8, 12, 14, 16, 20.",
+        "Ukuran penyebaran yang dapat langsung dibandingkan untuk melihat kelompok yang datanya lebih menyebar adalah ....",
+        "A. Mean B. Median C. Modus D. Jangkauan",
+        "Pembahasan : Jangkauan menunjukkan selisih nilai terbesar dan terkecil sehingga dapat digunakan untuk membandingkan penyebaran data."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 5,
+      "paragraph_index": 1130,
+      "format": "PG",
+      "proposed_local_id": "pg-22-1-5",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 5",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Perhatikan data berikut.",
+        "Kelas A: 60, 70, 70, 80, 80",
+        "Kelas B: 60, 70, 75, 80, 85",
+        "Pernyataan yang benar adalah ....",
+        "A. Mean A lebih besar B. Mean B lebih besar C. Mean keduanya sama D. Median A lebih besar",
+        "Pembahasan : Mean A = 360 ÷ 5 = 72. Mean B = 370 ÷ 5 = 74. Jadi, mean kelompok B lebih besar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 6,
+      "paragraph_index": 1139,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-1-6",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 6",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Perhatikan data:",
+        "Kelompok A: 4, 5, 5, 6, 10",
+        "Kelompok B: 4, 5, 6, 7, 8",
+        "Pilih semua pernyataan yang benar.",
+        "☐ Pernyataan 1. Mean A lebih besar daripada mean B. ☐ Pernyataan 2. Median A lebih kecil daripada median B. ☐ Pernyataan 3. Jangkauan A lebih kecil daripada jangkauan B. ☐ Pernyataan 4. Jangkauan A lebih besar daripada jangkauan B.",
+        "Pembahasan : Mean A = 30 ÷ 5 = 6. Mean B = 30 ÷ 5 = 6, sehingga pernyataan 1 salah. Median A = 5, median B = 6, sehingga pernyataan 2 benar. Jangkauan A = 10 − 4 = 6. Jangkauan B = 8 − 4 = 4. Jadi pernyataan 4 benar.",
+        "Kunci yang tepat: Pernyataan 2 dan Pernyataan 4.",
+        "Koreksi kunci: Pernyataan 1 tidak benar karena mean kedua kelompok sama."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [
+        "wrong_mean_comparison_key"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 7,
+      "paragraph_index": 1150,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-1-7",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 7",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "Data:",
+        "Kelompok A: 60, 70, 70, 80, 90",
+        "Kelompok B: 60, 70, 80, 80, 90",
+        "Pilih semua pernyataan yang benar.",
+        "☐ Pernyataan 1. Mean A dan B sama. ☐ Pernyataan 2. Median A lebih besar daripada median B. ☐ Pernyataan 3. Jangkauan A dan B sama. ☐ Pernyataan 4. Modus A lebih besar daripada modus B.",
+        "Pembahasan : Jumlah kedua kelompok = 370, sehingga mean keduanya = 74. Median A = 70 dan median B = 80. Jangkauan keduanya = 90 − 60 = 30. Jadi pernyataan 1 dan 3 benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 8,
+      "paragraph_index": 1159,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-1-8",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 8",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Data:",
+        "Kelompok A: 5, 5, 6, 7, 7",
+        "Kelompok B: 4, 5, 6, 7, 8",
+        "Pilih semua pernyataan yang benar.",
+        "☐ Pernyataan 1. Median kedua kelompok sama. ☐ Pernyataan 2. Jangkauan B lebih besar daripada A. ☐ Pernyataan 3. Modus A tidak ada. ☐ Pernyataan 4. Mean A dan B sama.",
+        "Pembahasan : Median A dan B = 6. Jangkauan A = 2, sedangkan B = 4. Modus A adalah 5 dan 7. Mean keduanya = 6. Jadi pernyataan 1, 2, dan 4 benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 9,
+      "paragraph_index": 1168,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-22-1-9",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 9",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "Perhatikan data:",
+        "Kelompok A: 10, 12, 14, 16, 18",
+        "Kelompok B: 8, 12, 14, 16, 20",
+        "Tentukan benar atau salah.",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Mean kedua kelompok sama.",
+        "✓",
+        "B. Median kedua kelompok sama.",
+        "✓",
+        "C. Jangkauan kelompok A lebih besar.",
+        "✓",
+        "D. Jangkauan kelompok B adalah 12.",
+        "✓",
+        "Pembahasan : Mean keduanya = 14 dan median keduanya = 14. Jangkauan A = 8, sedangkan B = 12. Jadi B memiliki penyebaran lebih besar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 1,
+      "source_number": 10,
+      "paragraph_index": 1187,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-22-1-10",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 10",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah",
+        "Data:",
+        "Kelompok A: 20, 25, 30, 35, 40",
+        "Kelompok B: 15, 25, 30, 35, 45",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Mean A dan B sama.",
+        "✓",
+        "B. Median A lebih besar daripada B.",
+        "✓",
+        "C. Jangkauan B lebih besar daripada A.",
+        "✓",
+        "D. Jangkauan A adalah 30.",
+        "✓",
+        "Pembahasan : Mean A = 30 dan B = 30. Median keduanya = 30. Jangkauan A = 20, sedangkan B = 30."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 11,
+      "paragraph_index": 1206,
+      "format": "PG",
+      "proposed_local_id": "pg-22-2-1",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 11",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Data:",
+        "Kelompok A: 65, 70, 75, 80, 85",
+        "Kelompok B: 60, 70, 75, 80, 90",
+        "Kesimpulan yang tepat adalah ....",
+        "A. Mean A lebih besar dan jangkauan A lebih besar B. Mean B lebih besar dan jangkauan B lebih kecil C. Mean kedua kelompok sama, tetapi jangkauan B lebih besar D. Mean dan jangkauan kedua kelompok sama",
+        "Pembahasan : Mean A = mean B = 75. Jangkauan A = 20, sedangkan B = 30. Jadi mean sama, tetapi jangkauan B lebih besar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 12,
+      "paragraph_index": 1215,
+      "format": "PG",
+      "proposed_local_id": "pg-22-2-2",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 12",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Kelompok A memiliki data 70, 75, 80, 85, 90. Kelompok B memiliki data 60, 70, 80, 90, 100.",
+        "Jika dibandingkan berdasarkan mean dan jangkauan, maka ....",
+        "A. Mean kedua kelompok sama, tetapi jangkauan B lebih besar B. Mean A lebih besar dan jangkauan B lebih kecil C. Mean B lebih besar dan jangkauan A lebih besar D. Mean dan jangkauan keduanya sama",
+        "Pembahasan : Mean A = 80 dan mean B = 80. Jangkauan A = 20, B = 40. Jadi B memiliki penyebaran lebih besar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 13,
+      "paragraph_index": 1222,
+      "format": "PG",
+      "proposed_local_id": "pg-22-2-3",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 13",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Perhatikan data:",
+        "Kelompok A: 10, 10, 10, 20, 50",
+        "Kelompok B: 18, 19, 20, 21, 22",
+        "Ukuran pemusatan yang paling tepat untuk menunjukkan nilai tengah kedua kelompok adalah ....",
+        "A. Mean B. Modus C. Jangkauan D. Median",
+        "Pembahasan : Kelompok A memiliki nilai ekstrem 50 yang dapat memengaruhi mean. Median lebih stabil untuk menggambarkan nilai tengah ketika terdapat pencilan."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 14,
+      "paragraph_index": 1231,
+      "format": "PG",
+      "proposed_local_id": "pg-22-2-4",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 14",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Data nilai dua kelompok:",
+        "A: 72, 74, 76, 78, 80",
+        "B: 60, 70, 76, 82, 92",
+        "Pernyataan yang benar adalah ....",
+        "A. Mean A lebih besar B. Mean kedua kelompok sama, tetapi B lebih menyebar C. Mean B lebih kecil D. Kedua kelompok memiliki jangkauan yang sama",
+        "Pembahasan : Mean A = 76 dan mean B = 76. Jangkauan A = 8, sedangkan B = 32. Jadi B lebih menyebar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 15,
+      "paragraph_index": 1240,
+      "format": "PG",
+      "proposed_local_id": "pg-22-2-5",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 15",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Kelompok A memiliki nilai: 70, 72, 74, 76, 78. Kelompok B memiliki nilai: 60, 68, 74, 80, 88.",
+        "Jika guru ingin memilih kelompok yang memiliki nilai lebih konsisten, kelompok yang dipilih adalah ....",
+        "A. Kelompok B karena mean lebih besar B. Kelompok B karena nilai maksimum lebih tinggi C. Kelompok A karena jangkauannya lebih kecil D. Kelompok A karena nilai maksimumnya lebih besar",
+        "Pembahasan : Jangkauan A = 8, sedangkan B = 28. Jangkauan lebih kecil menunjukkan data lebih terkumpul sehingga lebih konsisten."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 16,
+      "paragraph_index": 1247,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-2-6",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 16",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Data:",
+        "A: 50, 60, 70, 80, 90",
+        "B: 60, 65, 70, 75, 80",
+        "☐ Pernyataan 1. Mean A dan B sama. ☐ Pernyataan 2. Median A dan B sama. ☐ Pernyataan 3. Jangkauan A lebih kecil daripada B. ☐ Pernyataan 4. Kelompok B memiliki data yang lebih rapat.",
+        "Pembahasan : Mean keduanya = 70 dan median keduanya = 70. Jangkauan A = 40, B = 20. Jadi B lebih rapat karena jangkauannya lebih kecil."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 17,
+      "paragraph_index": 1255,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-2-7",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 17",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "Data:",
+        "A: 70, 70, 80, 80, 80",
+        "B: 60, 75, 80, 85, 100",
+        "☐ Pernyataan 1. Median kedua kelompok sama. ☐ Pernyataan 2. Mean A lebih besar daripada B. ☐ Pernyataan 3. Jangkauan B lebih besar daripada A. ☐ Pernyataan 4. Modus B lebih besar daripada modus A.",
+        "Pembahasan : Median A = 80 dan B = 80. Mean A = 76, sedangkan B = 80. Jangkauan A = 10, B = 40. B tidak memiliki modus. Jadi pernyataan 1 dan 3 benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 18,
+      "paragraph_index": 1263,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-2-8",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 18",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3",
+        "Data:",
+        "A: 12, 14, 16, 18, 20",
+        "B: 8, 12, 16, 20, 24",
+        "☐ Pernyataan 1. Mean A dan B sama. ☐ Pernyataan 2. Median A dan B sama. ☐ Pernyataan 3. Jangkauan B lebih besar. ☐ Pernyataan 4. Mean B lebih besar daripada A.",
+        "Pembahasan : Mean keduanya = 16. Median keduanya = 16. Jangkauan A = 8, B = 16. Jadi pernyataan 1, 2, dan 3 benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 19,
+      "paragraph_index": 1271,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-22-2-9",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 19",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "A: 65, 70, 75, 80, 85",
+        "B: 55, 65, 75, 85, 95",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Mean kedua kelompok sama.",
+        "✓",
+        "B. Median kedua kelompok sama.",
+        "✓",
+        "C. Jangkauan A lebih besar.",
+        "✓",
+        "D. Kelompok B memiliki penyebaran lebih besar.",
+        "✓",
+        "Pembahasan : Mean dan median kedua kelompok adalah 75. Jangkauan A = 20, sedangkan B = 40. Jadi B lebih menyebar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 2,
+      "source_number": 20,
+      "paragraph_index": 1288,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-22-2-10",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 20",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah",
+        "A: 70, 72, 74, 76, 78",
+        "B: 60, 70, 74, 78, 88",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Median kedua kelompok sama.",
+        "✓",
+        "B. Mean A lebih besar daripada B.",
+        "✓",
+        "C. Jangkauan B lebih besar.",
+        "✓",
+        "D. Kelompok A lebih menyebar daripada B.",
+        "✓",
+        "Pembahasan : Median keduanya = 74. Mean A = 74, sedangkan B = 74. Jangkauan A = 8 dan B = 28. Jadi B lebih menyebar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 21,
+      "paragraph_index": 1306,
+      "format": "PG",
+      "proposed_local_id": "pg-22-3-1",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 21",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Dua kelas memiliki data nilai berikut:",
+        "Kelas A: 70, 75, 75, 80, 80",
+        "Kelas B: 60, 70, 75, 85, 90",
+        "Kesimpulan yang tepat adalah ....",
+        "A. Mean A lebih besar dan data A lebih menyebar B. Mean B lebih besar dan data B lebih rapat C. Mean kedua kelas sama, tetapi data B lebih menyebar D. Mean dan penyebaran kedua kelas sama",
+        "Pembahasan : Mean A = 76, sedangkan B = 76. Jangkauan A = 10 dan B = 30. Jadi mean sama, tetapi B lebih menyebar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 22,
+      "paragraph_index": 1315,
+      "format": "PG",
+      "proposed_local_id": "pg-22-3-2",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 22",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Kelompok A memiliki mean 75 dan jangkauan 10. Kelompok B memiliki mean 75 dan jangkauan 30.",
+        "Pernyataan yang paling tepat adalah ....",
+        "A. Kelompok A memiliki nilai rata-rata lebih tinggi B. Kedua kelompok memiliki pusat data yang sama, tetapi B lebih menyebar C. Kelompok B memiliki pusat data lebih rendah D. Kedua kelompok memiliki penyebaran yang sama",
+        "Pembahasan : Mean kedua kelompok sama, yaitu 75. Namun, jangkauan B tiga kali jangkauan A sehingga data B lebih menyebar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 23,
+      "paragraph_index": 1322,
+      "format": "PG",
+      "proposed_local_id": "pg-22-3-3",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 23",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Perhatikan dua kelompok berikut.",
+        "Kelompok A: 80, 80, 80, 80, 80",
+        "Kelompok B: 60, 70, 80, 90, 100",
+        "Kesimpulan yang benar adalah ....",
+        "A. Mean dan median sama, tetapi penyebaran B lebih besar B. Mean B lebih besar daripada A C. Median B lebih besar daripada A D. Penyebaran A lebih besar daripada B",
+        "Pembahasan : Mean A = 80 dan B = 80. Median keduanya = 80. Jangkauan A = 0, sedangkan B = 40. Jadi B jauh lebih menyebar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 24,
+      "paragraph_index": 1331,
+      "format": "PG",
+      "proposed_local_id": "pg-22-3-4",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 24",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Data kelompok A adalah 70, 75, 80, 85, 90. Data kelompok B adalah 60, 75, 80, 85, 100.",
+        "Jika kedua kelompok dibandingkan, pernyataan yang tepat adalah ....",
+        "A. Mean A lebih besar B. Median A lebih besar C. Jangkauan A lebih besar D. Mean dan median keduanya sama, tetapi B lebih menyebar",
+        "Pembahasan : Mean A = 80 dan B = 80. Median keduanya = 80. Jangkauan A = 20, sedangkan B = 40."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 25,
+      "paragraph_index": 1338,
+      "format": "PG",
+      "proposed_local_id": "pg-22-3-5",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 25",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Dua kelompok memiliki data:",
+        "A: 68, 70, 72, 74, 76",
+        "B: 50, 65, 72, 79, 94",
+        "Guru ingin mengetahui kelompok yang memiliki nilai paling konsisten. Berdasarkan jangkauan, kelompok yang lebih konsisten adalah ....",
+        "A. B karena memiliki nilai maksimum lebih tinggi B. A karena memiliki jangkauan lebih kecil C. B karena memiliki mean lebih tinggi D. Keduanya sama karena memiliki median yang sama",
+        "Pembahasan : Jangkauan A = 8. Jangkauan B = 44. Jadi kelompok A lebih konsisten berdasarkan jangkauan."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 26,
+      "paragraph_index": 1347,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-3-6",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 26",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4",
+        "Data:",
+        "A: 10, 15, 20, 25, 30",
+        "B: 10, 20, 20, 20, 30",
+        "☐ Pernyataan 1. Mean kedua kelompok sama. ☐ Pernyataan 2. Median A lebih besar daripada B. ☐ Pernyataan 3. Modus kelompok B adalah 20. ☐ Pernyataan 4. Jangkauan kedua kelompok sama.",
+        "Pembahasan : Mean A = 20 dan B = 20. Median A = 20 dan B = 20. Modus B = 20. Jangkauan keduanya = 20. Jadi pernyataan 1, 3, dan 4 benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 27,
+      "paragraph_index": 1355,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-3-7",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 27",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2",
+        "Perhatikan data:",
+        "Kelompok A: 60, 70, 80, 90, 100",
+        "Kelompok B: 70, 75, 80, 85, 90",
+        "☐ Pernyataan 1. Mean kedua kelompok sama. ☐ Pernyataan 2. Median kedua kelompok sama. ☐ Pernyataan 3. Jangkauan B lebih besar daripada A. ☐ Pernyataan 4. Kelompok B memiliki penyebaran lebih besar.",
+        "Pembahasan : Mean dan median kedua kelompok = 80. Jangkauan A = 40, sedangkan B = 20. Jadi B justru lebih rapat."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 28,
+      "paragraph_index": 1363,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-22-3-8",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 28",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4",
+        "Data:",
+        "A: 40, 50, 60, 70, 80",
+        "B: 50, 55, 60, 65, 70",
+        "Pilih pernyataan yang benar.",
+        "☐ Pernyataan 1. Mean A lebih besar daripada mean B. ☐ Pernyataan 2. Median A lebih kecil daripada median B. ☐ Pernyataan 3. Jangkauan A lebih besar daripada B. ☐ Pernyataan 4. Kelompok B memiliki data yang lebih homogen berdasarkan jangkauan.",
+        "Pembahasan : Mean A = 60 dan B = 60. Jadi pernyataan 1 salah. Median keduanya = 60. Jangkauan A = 40 dan B = 20. Jadi pernyataan 3 dan 4 benar.",
+        "Kunci yang tepat: Pernyataan 3 dan Pernyataan 4."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4"
+      ],
+      "review_flags": [
+        "wrong_mean_comparison_key"
+      ],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 29,
+      "paragraph_index": 1373,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-22-3-9",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 29",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "Diketahui:",
+        "Kelompok A: 70, 70, 75, 80, 80",
+        "Kelompok B: 60, 70, 75, 80, 90",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Median kedua kelompok sama.",
+        "✓",
+        "B. Mean kedua kelompok sama.",
+        "✓",
+        "C. Jangkauan A lebih besar daripada B.",
+        "✓",
+        "D. Kelompok B memiliki penyebaran lebih besar.",
+        "✓",
+        "Pembahasan : Mean kedua kelompok = 75 dan median = 75. Jangkauan A = 10, sedangkan B = 30. Jadi B lebih menyebar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 22,
+      "source_level": 3,
+      "source_number": 30,
+      "paragraph_index": 1391,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-22-3-10",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 30",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah",
+        "Perhatikan data:",
+        "Kelompok A: 65, 70, 75, 80, 85",
+        "Kelompok B: 55, 65, 75, 85, 95",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Mean kedua kelompok sama.",
+        "✓",
+        "B. Median A lebih besar daripada B.",
+        "✓",
+        "C. Jangkauan B lebih besar daripada A.",
+        "✓",
+        "D. Kelompok A memiliki penyebaran lebih besar.",
+        "✓",
+        "Pembahasan : Mean A = 75 dan B = 75. Median keduanya = 75. Jangkauan A = 20, sedangkan B = 40. Jadi B memiliki penyebaran lebih besar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 1,
+      "paragraph_index": 1411,
+      "format": "PG",
+      "proposed_local_id": "pg-23-1-1",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 1",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Sebuah dadu bersisi enam dilempar satu kali. Peluang munculnya mata dadu 4 adalah ....",
+        "A. 1/2 B. 1/6 C. 1/4 D. 2/3",
+        "Pembahasan : Dadu memiliki 6 kemungkinan hasil dan hanya satu hasil yang berupa angka 4. Jadi peluangnya 1/6."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 2,
+      "paragraph_index": 1417,
+      "format": "PG",
+      "proposed_local_id": "pg-23-1-2",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 2",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Sebuah koin dilempar satu kali. Peluang muncul sisi gambar adalah ....",
+        "A. 0 B. 1/4 C. 1/2 D. 1",
+        "Pembahasan : Ada 2 kemungkinan hasil, yaitu angka dan gambar. Hanya 1 yang sesuai, sehingga peluangnya 1/2."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 3,
+      "paragraph_index": 1423,
+      "format": "PG",
+      "proposed_local_id": "pg-23-1-3",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 3",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Sebuah kantong berisi 3 bola merah dan 2 bola biru. Satu bola diambil secara acak. Peluang terambil bola merah adalah ....",
+        "A. 3/5 B. 2/5 C. 1/3 D. 1/2",
+        "Pembahasan : Jumlah bola = 3 + 2 = 5. Bola merah = 3. Peluang = 3/5."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 4,
+      "paragraph_index": 1429,
+      "format": "PG",
+      "proposed_local_id": "pg-23-1-4",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 4",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Sebuah dadu dilempar sebanyak 20 kali dan muncul angka 6 sebanyak 4 kali. Frekuensi relatif muncul angka 6 adalah ....",
+        "A. 0,1 B. 0,15 C. 0,25 D. 0,2",
+        "Pembahasan : Frekuensi relatif = 4/20 = 0,2."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 5,
+      "paragraph_index": 1435,
+      "format": "PG",
+      "proposed_local_id": "pg-23-1-5",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 5",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Sebuah koin dilempar 50 kali. Sisi gambar muncul sebanyak 28 kali. Frekuensi relatif muncul gambar adalah ....",
+        "A. 0,44 B. 0,50 C. 0,56 D. 0,60",
+        "Pembahasan : Frekuensi relatif = 28/50 = 0,56."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 6,
+      "paragraph_index": 1441,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-1-6",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 6",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Sebuah dadu dilempar satu kali.",
+        "☐ Pernyataan 1. Peluang muncul angka genap adalah 1/2. ☐ Pernyataan 2. Peluang muncul angka 5 adalah 1/6. ☐ Pernyataan 3. Peluang muncul angka lebih dari 6 adalah 1/6. ☐ Pernyataan 4. Peluang muncul angka kurang dari 7 adalah 1.",
+        "Pembahasan : Angka genap = 2, 4, 6 sehingga peluangnya 3/6 = 1/2. Angka 5 memiliki peluang 1/6. Angka lebih dari 6 tidak mungkin, sehingga peluangnya 0. Semua angka dadu kurang dari 7, sehingga peluangnya 1.",
+        "Kunci yang tepat: Pernyataan 1, 2, dan 4."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 7,
+      "paragraph_index": 1448,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-1-7",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 7",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "Sebuah kotak berisi 5 bola merah dan 5 bola putih.",
+        "☐ Pernyataan 1. Peluang mengambil bola merah adalah 1/2. ☐ Pernyataan 2. Peluang mengambil bola putih adalah 1/3. ☐ Pernyataan 3. Peluang mengambil bola bukan merah adalah 1/2. ☐ Pernyataan 4. Peluang mengambil bola merah adalah 5/11.",
+        "Pembahasan : Jumlah bola = 10. Peluang merah = 5/10 = 1/2. Peluang bukan merah = peluang putih = 1/2."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 8,
+      "paragraph_index": 1454,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-1-8",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 8",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Sebuah dadu dilempar sebanyak 30 kali.",
+        "☐ Pernyataan 1. Jika angka 2 muncul 6 kali, frekuensi relatifnya 0,2. ☐ Pernyataan 2. Jika angka 4 muncul 10 kali, frekuensi relatifnya 1/3. ☐ Pernyataan 3. Jika angka 6 muncul 15 kali, frekuensi relatifnya 0,4. ☐ Pernyataan 4. Jika angka 1 muncul 3 kali, frekuensi relatifnya 0,1.",
+        "Pembahasan : 6/30 = 0,2. 10/30 = 1/3. 15/30 = 0,5, bukan 0,4. 3/30 = 0,1."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 9,
+      "paragraph_index": 1460,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-23-1-9",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 9",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "Sebuah dadu dilempar satu kali.",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Peluang muncul angka 1 adalah 1/6.",
+        "✓",
+        "B. Peluang muncul angka genap adalah 1/2.",
+        "✓",
+        "C. Peluang muncul angka 7 adalah 1/6.",
+        "✓",
+        "D. Peluang muncul angka kurang dari 4 adalah 1/2.",
+        "✓",
+        "Pembahasan : Angka kurang dari 4 adalah 1, 2, dan 3 sehingga peluangnya 3/6 = 1/2."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 1,
+      "source_number": 10,
+      "paragraph_index": 1476,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-23-1-10",
+      "cognitive_label_source": "C3",
+      "raw_paragraphs": [
+        "SOAL 10",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah",
+        "Sebuah koin dilempar 40 kali. Sisi gambar muncul 18 kali.",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Frekuensi relatif gambar adalah 0,45.",
+        "✓",
+        "B. Frekuensi relatif gambar adalah 0,55.",
+        "✓",
+        "C. Frekuensi relatif tidak selalu sama dengan peluang teoretis.",
+        "✓",
+        "D. Sisi gambar pasti muncul tepat 20 kali.",
+        "✓",
+        "Pembahasan : Frekuensi relatif = 18/40 = 0,45. Hasil percobaan dapat berbeda dari peluang teoretis."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 11,
+      "paragraph_index": 1493,
+      "format": "PG",
+      "proposed_local_id": "pg-23-2-1",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 11",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Sebuah kotak berisi 4 bola merah, 3 bola biru, dan 3 bola hijau. Satu bola diambil secara acak.",
+        "Peluang terambil bola biru adalah ....",
+        "A. 1/4 B. 3/10 C. 3/7 D. 1/2",
+        "Pembahasan : Jumlah bola = 10. Bola biru = 3. Peluang = 3/10."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 12,
+      "paragraph_index": 1500,
+      "format": "PG",
+      "proposed_local_id": "pg-23-2-2",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 12",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Sebuah spinner memiliki 8 bagian sama besar yang terdiri atas 3 bagian merah, 2 bagian biru, dan 3 bagian kuning.",
+        "Peluang jarum berhenti pada warna kuning adalah ....",
+        "A. 1/4 B. 3/5 C. 5/8 D. 3/8",
+        "Pembahasan : Bagian kuning = 3 dari 8 bagian. Peluangnya = 3/8."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 13,
+      "paragraph_index": 1507,
+      "format": "PG",
+      "proposed_local_id": "pg-23-2-3",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 13",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Sebuah dadu dilempar 60 kali. Berdasarkan peluang teoretis, perkiraan banyak kemunculan angka 3 adalah ....",
+        "A. 10 kali B. 12 kali C. 15 kali D. 20 kali",
+        "Pembahasan : Peluang angka 3 = 1/6. Perkiraan kemunculan = 60 × 1/6 = 10 kali."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 14,
+      "paragraph_index": 1513,
+      "format": "PG",
+      "proposed_local_id": "pg-23-2-4",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 14",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Sebuah koin dilempar sebanyak 80 kali. Secara teoretis, perkiraan muncul sisi angka adalah ....",
+        "A. 20 kali B. 30 kali C. 40 kali D. 60 kali",
+        "Pembahasan : Peluang muncul angka = 1/2. 80 × 1/2 = 40 kali."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 15,
+      "paragraph_index": 1519,
+      "format": "PG",
+      "proposed_local_id": "pg-23-2-5",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 15",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Dalam suatu percobaan, sebuah dadu dilempar 50 kali dan angka genap muncul 28 kali. Frekuensi relatif muncul angka genap adalah ....",
+        "A. 0,48 B. 0,56 C. 0,60 D. 0,72",
+        "Pembahasan : Frekuensi relatif = 28/50 = 0,56."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 16,
+      "paragraph_index": 1525,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-2-6",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 16",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Sebuah dadu dilempar sebanyak 100 kali.",
+        "☐ Pernyataan 1. Jika angka 1 muncul 17 kali, frekuensi relatifnya 0,17. ☐ Pernyataan 2. Jika angka genap muncul 52 kali, frekuensi relatifnya 0,52. ☐ Pernyataan 3. Jika angka 6 muncul 25 kali, frekuensi relatifnya 0,20. ☐ Pernyataan 4. Jika angka 3 muncul 16 kali, frekuensi relatifnya 0,16.",
+        "Pembahasan : 17/100 = 0,17. 52/100 = 0,52. 25/100 = 0,25, bukan 0,20. 16/100 = 0,16."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 17,
+      "paragraph_index": 1531,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-2-7",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 17",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "Sebuah kantong berisi 2 bola merah, 3 bola biru, dan 5 bola hijau.",
+        "☐ Pernyataan 1. Peluang mengambil bola merah adalah 1/5. ☐ Pernyataan 2. Peluang mengambil bola biru adalah 1/2. ☐ Pernyataan 3. Peluang mengambil bola hijau adalah 1/2. ☐ Pernyataan 4. Peluang mengambil bola bukan hijau adalah 1/5.",
+        "Pembahasan : Total bola = 10. Merah = 2/10 = 1/5. Biru = 3/10. Hijau = 5/10 = 1/2. Bukan hijau = 5/10 = 1/2."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 18,
+      "paragraph_index": 1537,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-2-8",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 18",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4",
+        "Sebuah dadu dilempar 120 kali.",
+        "☐ Pernyataan 1. Perkiraan muncul angka 1 adalah 20 kali. ☐ Pernyataan 2. Perkiraan muncul angka 2 adalah 30 kali. ☐ Pernyataan 3. Perkiraan muncul angka genap adalah 60 kali. ☐ Pernyataan 4. Perkiraan muncul angka lebih dari 4 adalah 40 kali.",
+        "Pembahasan : Angka tertentu: 120 × 1/6 = 20. Angka genap: 120 × 3/6 = 60. Angka lebih dari 4 adalah 5 dan 6, sehingga 120 × 2/6 = 40."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 19,
+      "paragraph_index": 1543,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-23-2-9",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 19",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah",
+        "Sebuah koin dilempar 200 kali. Sisi gambar muncul 108 kali.",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Frekuensi relatif gambar adalah 0,54.",
+        "✓",
+        "B. Frekuensi relatif gambar adalah 0,46.",
+        "✓",
+        "C. Frekuensi relatif dapat digunakan untuk menggambarkan hasil percobaan.",
+        "✓",
+        "D. Peluang teoretis gambar adalah 0,54.",
+        "✓",
+        "Pembahasan : Frekuensi relatif = 108/200 = 0,54. Peluang teoretis muncul gambar pada koin seimbang adalah 0,5."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 2,
+      "source_number": 20,
+      "paragraph_index": 1559,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-23-2-10",
+      "cognitive_label_source": "C3 & C4",
+      "raw_paragraphs": [
+        "SOAL 20",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "Sebuah dadu dilempar sebanyak 60 kali dan angka genap muncul 31 kali.",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Frekuensi relatif angka genap adalah 31/60.",
+        "✓",
+        "B. Nilai frekuensi relatifnya sekitar 0,52.",
+        "✓",
+        "C. Peluang teoretis angka genap adalah 31/60.",
+        "✓",
+        "D. Hasil percobaan dapat berbeda dari peluang teoretis.",
+        "✓",
+        "Pembahasan : Frekuensi relatif = 31/60 ≈ 0,52. Peluang teoretis angka genap = 3/6 = 1/2."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 21,
+      "paragraph_index": 1576,
+      "format": "PG",
+      "proposed_local_id": "pg-23-3-1",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 21",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Sebuah dadu dilempar sebanyak 120 kali. Angka 6 muncul sebanyak 15 kali.",
+        "Pernyataan yang tepat adalah ....",
+        "A. Frekuensi relatif lebih besar daripada peluang teoretis B. Frekuensi relatif sama dengan peluang teoretis C. Frekuensi relatif lebih kecil daripada peluang teoretis D. Tidak dapat dibandingkan",
+        "Pembahasan : Frekuensi relatif = 15/120 = 0,125. Peluang teoretis = 1/6 ≈ 0,167. Jadi frekuensi relatif lebih kecil."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 22,
+      "paragraph_index": 1583,
+      "format": "PG",
+      "proposed_local_id": "pg-23-3-2",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 22",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : A",
+        "Sebuah koin dilempar sebanyak 200 kali. Sisi gambar muncul 106 kali.",
+        "Kesimpulan yang tepat adalah ....",
+        "A. Frekuensi relatif gambar mendekati peluang teoretis B. Frekuensi relatif gambar sama dengan 1 C. Peluang teoretis gambar adalah 106/200 D. Percobaan tersebut membuktikan gambar pasti muncul 106 kali",
+        "Pembahasan : Frekuensi relatif = 106/200 = 0,53. Nilai ini cukup dekat dengan peluang teoretis 0,5."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 23,
+      "paragraph_index": 1590,
+      "format": "PG",
+      "proposed_local_id": "pg-23-3-3",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 23",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : D",
+        "Dalam suatu percobaan, sebuah dadu dilempar 300 kali. Angka ganjil muncul 156 kali.",
+        "Frekuensi relatif angka ganjil adalah ....",
+        "A. 0,48 B. 0,50 C. 0,54 D. 0,52",
+        "Pembahasan : 156/300 = 0,52."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : D"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 24,
+      "paragraph_index": 1597,
+      "format": "PG",
+      "proposed_local_id": "pg-23-3-4",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 24",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : B",
+        "Sebuah kotak berisi 4 bola merah dan 6 bola biru. Jika satu bola diambil secara acak sebanyak 100 kali dengan pengembalian, perkiraan banyak bola merah yang terambil adalah ....",
+        "A. 20 kali B. 40 kali C. 50 kali D. 60 kali",
+        "Pembahasan : Peluang merah = 4/10 = 0,4. Perkiraan = 100 × 0,4 = 40 kali."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : B"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 25,
+      "paragraph_index": 1603,
+      "format": "PG",
+      "proposed_local_id": "pg-23-3-5",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 25",
+        "(Bentuk Soal: PG)",
+        "KUNCI JAWABAN : C",
+        "Dalam percobaan melempar sebuah dadu 240 kali, angka 4 muncul 35 kali.",
+        "Jika dibandingkan dengan peluang teoretis, frekuensi relatif angka 4 ....",
+        "A. jauh lebih besar daripada peluang teoretis B. sama dengan peluang teoretis C. lebih kecil daripada peluang teoretis D. tidak dapat dihitung",
+        "Pembahasan : Frekuensi relatif = 35/240 ≈ 0,146. Peluang teoretis = 1/6 ≈ 0,167. Jadi frekuensi relatif lebih kecil."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : C"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 26,
+      "paragraph_index": 1610,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-3-6",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 26",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "Sebuah dadu dilempar 600 kali.",
+        "☐ Pernyataan 1. Perkiraan muncul angka 1 adalah 100 kali. ☐ Pernyataan 2. Perkiraan muncul angka genap adalah 300 kali. ☐ Pernyataan 3. Perkiraan muncul angka 6 adalah 150 kali. ☐ Pernyataan 4. Perkiraan muncul angka lebih dari 4 adalah 200 kali.",
+        "Pembahasan : Angka tertentu: 600 × 1/6 = 100. Angka genap: 600 × 1/2 = 300. Angka lebih dari 4: 600 × 2/6 = 200. Jadi pernyataan 1, 2, dan 4 benar."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 27,
+      "paragraph_index": 1616,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-3-7",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 27",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "Dalam percobaan koin 400 kali, diperoleh 212 kali gambar.",
+        "☐ Pernyataan 1. Frekuensi relatif gambar adalah 0,53. ☐ Pernyataan 2. Frekuensi relatif gambar adalah 0,47. ☐ Pernyataan 3. Hasil percobaan tersebut mendekati peluang teoretis 0,5. ☐ Pernyataan 4. Karena gambar muncul 212 kali, peluang teoretis gambar adalah 0,53.",
+        "Pembahasan : Frekuensi relatif = 212/400 = 0,53. Nilai tersebut mendekati 0,5. Peluang teoretis tetap 0,5 untuk koin seimbang."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 28,
+      "paragraph_index": 1622,
+      "format": "MCMA",
+      "proposed_local_id": "mcma-23-3-8",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 28",
+        "(Bentuk Soal: PG MCMA)",
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4",
+        "Sebuah dadu dilempar 500 kali. Hasil percobaan menunjukkan angka genap muncul 247 kali.",
+        "☐ Pernyataan 1. Frekuensi relatif angka genap adalah 0,494. ☐ Pernyataan 2. Frekuensi relatif angka genap adalah 0,506. ☐ Pernyataan 3. Hasil percobaan mendekati peluang teoretis 0,5. ☐ Pernyataan 4. Frekuensi relatif diperoleh dari banyak kejadian dibagi banyak percobaan.",
+        "Pembahasan : 247/500 = 0,494. Nilai tersebut dekat dengan 0,5. Rumus frekuensi relatif adalah banyak kejadian dibagi banyak percobaan."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 29,
+      "paragraph_index": 1628,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-23-3-9",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 29",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar",
+        "Sebuah dadu dilempar 300 kali. Angka ganjil muncul 147 kali.",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Frekuensi relatifnya adalah 0,49.",
+        "✓",
+        "B. Frekuensi relatif tersebut mendekati peluang teoretis 0,5.",
+        "✓",
+        "C. Peluang teoretis angka ganjil adalah 0,49.",
+        "✓",
+        "D. Hasil percobaan tidak harus sama persis dengan peluang teoretis.",
+        "✓",
+        "Pembahasan : 147/300 = 0,49. Peluang teoretis angka ganjil = 3/6 = 0,5."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    },
+    {
+      "indicator": 23,
+      "source_level": 3,
+      "source_number": 30,
+      "paragraph_index": 1644,
+      "format": "KATEGORI",
+      "proposed_local_id": "kategori-23-3-10",
+      "cognitive_label_source": "C4",
+      "raw_paragraphs": [
+        "SOAL 30",
+        "(Bentuk Soal: PG Kategori)",
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah",
+        "Sebuah kantong berisi 3 bola merah dan 7 bola putih. Bola diambil satu per satu dengan pengembalian sebanyak 200 kali. Bola merah muncul 58 kali.",
+        "Pernyataan",
+        "Benar",
+        "Salah",
+        "A. Peluang teoretis bola merah adalah 0,3.",
+        "✓",
+        "B. Frekuensi relatif bola merah adalah 0,3.",
+        "✓",
+        "C. Frekuensi relatif bola merah adalah 0,29.",
+        "✓",
+        "D. Hasil percobaan harus selalu sama dengan peluang teoretis.",
+        "✓",
+        "Pembahasan : Peluang teoretis merah = 3/10 = 0,3. Frekuensi relatif = 58/200 = 0,29. Hasil percobaan tidak harus sama persis dengan peluang teoretis."
+      ],
+      "declared_keys": [
+        "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar, D. Salah"
+      ],
+      "review_flags": [],
+      "audit_status": "PENDING_FULL_CONTENT_AUDIT"
+    }
+  ]
+}

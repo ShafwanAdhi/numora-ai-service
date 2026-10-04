@@ -1,6 +1,6 @@
 # Interface AI: paket dan varian dari database Numora
 
-Status: PROPOSED — spesifikasi untuk review sebelum implementasi.
+Status: IMPLEMENTED — dua tab sesuai permintaan pengguna; verifikasi DB live menunggu kredensial.
 
 ## Tujuan dan izin
 
@@ -9,44 +9,40 @@ sudah diunggah ke database bersama. Pengguna mengizinkan perubahan repo Numora
 yang diperlukan untuk integrasi ini; perubahan harus minimal dan dapat ditinjau.
 Isi bank lokal tidak dicocokkan dengan soal demo database.
 
-Keberhasilan: pilih sumber Database Numora, pilih paket berdasarkan nama,
+USER CLARIFICATION — 4 Oktober 2026: backend service AI boleh mengakses
+PostgreSQL langsung. Pengguna akan mengisi kredensial sendiri; sediakan `.env`
+kosong yang di-ignore dan `.env.example` tanpa secret. Tidak ada koneksi live
+atau penyalinan kredensial Numora yang diperlukan dalam tahap persiapan.
+
+USER CLARIFICATION — akses tidak dibatasi aplikasi ke role atau view compute.
+Backend boleh membaca tabel database langsung memakai kredensial yang diisi
+pengguna. Privilege PostgreSQL/RLS yang sudah berlaku tetap mengikuti akun itu;
+aplikasi tidak mengubah grants, roles, atau RLS. Tahap ini hanya SELECT, tanpa
+program create/update/delete maupun perubahan schema.
+
+Keberhasilan: buka tab DB Utama, pilih paket berdasarkan nama,
 baca item versi yang benar-benar ada dalam paket, lalu lihat original dan varian
 dalam keluarga item tersebut. Muat ulang menampilkan upload terbaru.
 
 ## Pendekatan terpilih
 
-Perluas antarmuka baca database sesuai ADR-011, lalu konsumsi melalui backend
-Python existing. Browser tidak mengakses Supabase Data API atau PostgreSQL.
-
-Alternatif yang dipertimbangkan:
-
-- Views existing saja: perubahan lebih sedikit, tetapi nama/status paket dan
-  paket kosong tidak tersedia pada view item saat ini.
-- Akses tabel public langsung: membutuhkan privilege lebih luas dan melanggar
-  batas compute yang sudah ditetapkan; tidak dipilih.
-- View katalog tambahan: metadata lengkap, privilege terbatas, perubahan Numora
-  hanya migrasi dan dokumentasi/tes terkait. Ini pendekatan terpilih.
+Baca PostgreSQL langsung dari backend Python existing, tanpa perantara API
+Numora. Sesuai instruksi terbaru pengguna, gunakan tabel yang diperlukan,
+bukan membatasi akses ke views/role compute pada ADR-011. Browser hanya
+menghubungi backend Python, bukan Supabase Data API atau PostgreSQL.
 
 ## Perubahan Numora
 
-Tambahkan migrasi maju melalui migration stream Numora. Jangan mengubah
-migrasi historis atau data existing.
+Tidak diperlukan perubahan repo utama atau migrasi untuk tahap baca ini.
+Metadata berasal dari `public.assessment_packages`; item dari
+`public.package_items`; konten dan keluarga dari `public.question_versions`
+dan `public.question_variants`. Gunakan LEFT JOIN untuk menampilkan paket kosong
+dan membaca `version_number` langsung dari tabel versi.
 
-1. Buat `public.irt_input_package_catalog_v3`: satu baris per paket, termasuk
-   paket yang belum mempunyai item. Kolom: `id`, `family_code`,
-   `package_version`, `name`, `assessment_type`, `purpose`, `status`,
-   `is_demo`, `chapter_id`, `level_id`, `variant_index`, `item_count`.
-   `item_count` dihitung dari `package_items`; tidak menambahkan counter durable.
-2. Tambahkan `version_number` pada akhir kolom view
-   `public.irt_input_content_v3`. Urutan/nama kolom existing tetap kompatibel.
-3. Grant SELECT view katalog kepada `numora_irt_runtime` dan
-   `numora_main_runtime`; cabut privilege PUBLIC dan role Data API yang ada.
-   Tidak memberi compute akses langsung ke tabel public.
-4. Dokumentasikan tambahan kontrak view dan pemeriksaan privilege.
-
-Migrasi tersebut tidak mengubah lifecycle assessment, scoring, XP, distribusi,
-validasi konten, atau gate publikasi. Metadata nama/status paket tidak dianggap
-izin distribusi. Paket DRAFT dan demo boleh dibaca oleh workbench internal.
+Metadata paket mencakup `id`, `family_code`, `package_version`, `name`,
+`assessment_type`, `purpose`, `status`, `is_demo`, `chapter_id`, `level_id`,
+`variant_index`, dan jumlah item yang dihitung saat query. Metadata nama/status
+tidak dianggap izin distribusi; DRAFT dan demo tetap terlihat oleh workbench.
 
 ## Backend service AI
 
@@ -55,9 +51,9 @@ cantumkan dependency untuk setup mesin/VPS berikutnya. Hindari ORM tambahan.
 
 Konfigurasi `DATABASE_URL` berasal dari environment service AI atau `.env`
 repo AI yang di-ignore. Tidak otomatis menyalin kredensial repo Numora.
-Koneksi cloud wajib TLS. Runtime memakai LOGIN terpisah dengan role
-`numora_irt_runtime`, bukan akun migration owner. Akun runtime harus disediakan
-operator bila belum ada; koneksi live tidak diklaim selesai tanpa akun tersebut.
+Koneksi cloud wajib TLS. Gunakan akun pada DATABASE_URL tanpa memaksakan nama
+role atau whitelist view. Jangan membuat akun atau mengubah privilege secara
+otomatis. Pengguna mengisi kredensial sendiri; verifikasi live menunggu isian itu.
 
 Gunakan koneksi pendek per request, transaksi read-only, connect timeout dan
 statement timeout. Query SQL tetap dan parameterized; UUID, jenis aktivitas,
@@ -75,20 +71,22 @@ Endpoint internal workbench:
 - `GET /api/database/family?id=<uuid>&limit=100&offset=0`: seluruh versi
   original/varian keluarga tersebut, dengan lineage yang benar-benar tersimpan.
 
-Semua endpoint hanya membaca views. Daftar menggunakan pagination, batas
-maksimum 100 baris per request, dan jumlah total untuk navigasi. Detail paket
+Semua endpoint hanya membaca tabel yang diperlukan. Pagination adalah cara
+penyajian data, bukan pembatasan hak akses: seluruh hasil dapat ditelusuri, tanpa
+batas maksimum page size tambahan yang dibuat aplikasi. Detail paket
 membaca metadata dan item dalam satu transaksi dengan snapshot konsisten.
 Item yang referensi kontennya tidak tersedia tidak dihilangkan diam-diam:
 tampilkan indikator konten tidak tersedia pada posisi item tersebut.
 
-Jika konfigurasi belum ada, view/migrasi belum tersedia, privilege kurang,
+Jika konfigurasi belum ada, tabel/schema tidak sesuai, privilege akun kurang,
 atau DB tidak dapat dihubungi, tampilkan pesan Indonesia yang aman dan langkah
 setup yang relevan. Generator lokal tetap dapat digunakan.
 
 ## Interface existing
 
-Tambahkan pemilih sumber `Bank lokal` / `Database Numora` dengan Bank lokal
-sebagai default. Pertahankan katalog lokal, edit config, Generate, Regen.
+Tambahkan dua tab utama `Service AI` / `DB Utama`, dengan Service AI
+sebagai default. Pergantian tab menyembunyikan panel tanpa membuang draft config;
+keyboard ArrowLeft/ArrowRight/Home/End dan atribut ARIA didukung. Pertahankan katalog lokal, edit config, Generate, Regen.
 
 Mode database menampilkan:
 
@@ -121,17 +119,16 @@ tunnel; publikasi UI ke internet memerlukan autentikasi terpisah di luar scope.
 7. Transaksi baca dan privilege runtime diverifikasi; tidak ada mutasi data.
 8. Tidak ada kredensial atau error DB mentah di respons, HTML, atau log.
 9. Empty/error/timeout/permission denied ditangani tanpa merusak mode lokal.
-10. Regresi Python dan tes terarah endpoint/UI lulus; migrasi/privilege diuji
-    pada PostgreSQL lokal terisolasi. Verifikasi live hanya setelah migrasi
-    tersedia dan runtime credentials valid, dengan query read-only.
+10. Regresi Python dan tes terarah endpoint/UI lulus; query diuji pada fixture
+    PostgreSQL lokal terisolasi. Verifikasi live hanya setelah pengguna mengisi
+    kredensial, dengan query read-only; tidak melakukan migrasi/provisioning.
 
 ## Pengiriman dan batas operasional
 
 Pertahankan perubahan pengguna yang sudah ada pada kedua repo. Hasil kode,
-migrasi, dependency manifest, contoh environment tanpa secret, tes, dan panduan
-setup disiapkan dahulu. Pemeriksaan DB live memakai input runtime yang diberikan
-operator. Eksekusi migrasi shared/cloud dan provisioning credential adalah
-operasi tersendiri; izin mengubah repo Numora tidak otomatis mengizinkan DDL live.
+dependency manifest, contoh environment tanpa secret, tes, dan panduan setup
+disiapkan dahulu. Pemeriksaan DB live memakai kredensial yang pengguna isi.
+Tidak ada DDL, perubahan grant, atau provisioning credential dalam tahap ini.
 
 Tidak membuat IRT engine, compute consumer, upload/import soal, auto-adjust,
 atau endpoint siswa baru dalam pekerjaan ini.

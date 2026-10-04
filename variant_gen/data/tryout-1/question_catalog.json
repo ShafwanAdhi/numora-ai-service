@@ -1,0 +1,64 @@
+[
+  {
+    "activity": "TRYOUT",
+    "package_id": "tryout-1",
+    "package_name": "Tryout 1",
+    "chapter": 1,
+    "question_ids": [
+      "tryout-1-b1-q01",
+      "tryout-1-b1-q02",
+      "tryout-1-b1-q03",
+      "tryout-1-b1-q04",
+      "tryout-1-b1-q05",
+      "tryout-1-b1-q06",
+      "tryout-1-b1-q07",
+      "tryout-1-b1-q08"
+    ]
+  },
+  {
+    "activity": "TRYOUT",
+    "package_id": "tryout-1",
+    "package_name": "Tryout 1",
+    "chapter": 2,
+    "question_ids": [
+      "tryout-1-b2-q01",
+      "tryout-1-b2-q02",
+      "tryout-1-b2-q03",
+      "tryout-1-b2-q04",
+      "tryout-1-b2-q05",
+      "tryout-1-b2-q06",
+      "tryout-1-b2-q07",
+      "tryout-1-b2-q08"
+    ]
+  },
+  {
+    "activity": "TRYOUT",
+    "package_id": "tryout-1",
+    "package_name": "Tryout 1",
+    "chapter": 3,
+    "question_ids": [
+      "tryout-1-b3-q01",
+      "tryout-1-b3-q02",
+      "tryout-1-b3-q03",
+      "tryout-1-b3-q04",
+      "tryout-1-b3-q05",
+      "tryout-1-b3-q06",
+      "tryout-1-b3-q07"
+    ]
+  },
+  {
+    "activity": "TRYOUT",
+    "package_id": "tryout-1",
+    "package_name": "Tryout 1",
+    "chapter": 4,
+    "question_ids": [
+      "tryout-1-b4-q01",
+      "tryout-1-b4-q02",
+      "tryout-1-b4-q03",
+      "tryout-1-b4-q04",
+      "tryout-1-b4-q05",
+      "tryout-1-b4-q06",
+      "tryout-1-b4-q07"
+    ]
+  }
+]

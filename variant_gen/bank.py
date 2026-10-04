@@ -57,6 +57,7 @@ def _parse_row(row, line):
 class OriginalBank:
     def __init__(self, path):
         self._rows = {}
+        self._catalog = []
         try:
             f = open(path, newline="", encoding="utf-8-sig")
         except OSError as e:
@@ -89,10 +90,74 @@ class OriginalBank:
             except (OSError, ValueError, KeyError, TypeError, AttributeError) as error:
                 raise BankError(f"cannot load original revisions: {error}") from error
 
+        catalog = Path(path).with_name("question_catalog.json")
+        if catalog.exists():
+            try:
+                groups = json.loads(catalog.read_text(encoding="utf-8"))
+                if not isinstance(groups, list):
+                    raise ValueError("catalog must be a list")
+                memberships = set()
+                for group in groups:
+                    keys = (("activity", "chapter", "package_id") if group.get("activity") == "TRYOUT"
+                            else ("activity", "indicator", "source_level", "package_id"))
+                    meta = {key: group[key] for key in keys}
+                    if (meta["activity"] not in ("DRILL", "TRYOUT", "PRETEST")
+                            or any(type(meta[k]) is not int or meta[k] <= 0 for k in keys if k not in ("activity", "package_id"))
+                            or not isinstance(meta["package_id"], str) or not meta["package_id"].strip()
+                            or not isinstance(group["question_ids"], list)):
+                        raise ValueError("invalid/duplicate package classification")
+                    membership = tuple(meta.values())
+                    if membership in memberships:
+                        raise ValueError("duplicate package/indicator/level")
+                    memberships.add(membership)
+                    for qid in group["question_ids"]:
+                        original = self._rows[qid]
+                        if "classification" in original:
+                            raise ValueError(f"duplicate classification: {qid}")
+                        original["classification"] = deepcopy(meta)
+                self._catalog = groups
+            except (OSError, ValueError, KeyError, TypeError) as error:
+                raise BankError(f"cannot load question catalog: {error}") from error
+        metadata = Path(path).with_name("question_metadata.json")
+        if metadata.exists():
+            try:
+                items = json.loads(metadata.read_text(encoding="utf-8"))
+                if not isinstance(items, dict):
+                    raise ValueError("question metadata must be an object")
+                for qid, item in items.items():
+                    if not isinstance(item, dict) or item.get("generation_status") not in ("ACTIVE", "DEFERRED_CONCEPTUAL"):
+                        raise ValueError(f"invalid generation status: {qid}")
+                    if ("notes" in item and (not isinstance(item["notes"],list) or any(not isinstance(note,str) for note in item["notes"]))):
+                        raise ValueError(f"notes must be a list of strings: {qid}")
+                    if item["generation_status"] == "DEFERRED_CONCEPTUAL" and (not isinstance(item.get("reason"),str) or not item["reason"].strip()):
+                        raise ValueError(f"deferred question requires reason: {qid}")
+                    self._rows[qid]["metadata"] = item
+            except (OSError, ValueError, KeyError, TypeError) as error:
+                raise BankError(f"cannot load question metadata: {error}") from error
+
     def ids(self):
         return list(self._rows)
+
+    def catalog(self):
+        return deepcopy(self._catalog)
 
     def get(self, qid):
         if qid not in self._rows:
             raise BankError(f"unknown question id '{qid}'")
         return deepcopy(self._rows[qid])
+
+
+def load_workspace_bank(path, additional_paths=None):
+    bank = OriginalBank(path)
+    default = Path(__file__).resolve().parent / "data/q0_bank.csv"
+    if additional_paths is None:
+        extra = default.parent / "tryout-1/q0_bank.csv"
+        additional_paths = [extra] if Path(path).resolve() == default and extra.exists() else []
+    for extra in additional_paths:
+        other = OriginalBank(extra)
+        duplicates = bank._rows.keys() & other._rows.keys()
+        if duplicates:
+            raise BankError(f"duplicate question ids across banks: {sorted(duplicates)}")
+        bank._rows.update(other._rows)
+        bank._catalog.extend(other._catalog)
+    return bank

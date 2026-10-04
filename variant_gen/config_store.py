@@ -74,6 +74,8 @@ def validate_config(cfg, orig):
 
     defined = []
     for name, spec in cfg["variables"].items():
+        if spec.get("fmt", "id") not in ("id", "raw", "mixed"):
+            errs.append(f"variable '{name}': unknown format")
         gen = spec.get("gen")
         if gen not in GENS:
             errs.append(f"variable '{name}': gen must be one of {sorted(GENS)}")
