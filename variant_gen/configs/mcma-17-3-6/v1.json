@@ -118,5 +118,7 @@
       "text": "Bayangan A oleh dilatasi dengan faktor skala {k} terhadap titik pusat (0,0) adalah ({d1x}, {d1y}).",
       "correct": true
     }
-  ]
+  ],
+  "original_hash": "baebd898fc77d54e",
+  "explanation": "Refleksi sumbu Y menghasilkan ({a1x}, {a1y}); rotasi 180° harus memakai (-x,-y). Translasi menghasilkan ({c1x}, {c1y}), dan dilatasi faktor {k} menghasilkan ({d1x}, {d1y})."
 }

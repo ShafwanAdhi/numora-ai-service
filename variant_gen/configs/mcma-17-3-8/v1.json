@@ -86,5 +86,7 @@
       "text": "Bayangan B oleh rotasi 90° berlawanan arah jarum jam terhadap pusat (0,0) adalah ({d1x}, {d1y}).",
       "correct": true
     }
-  ]
+  ],
+  "original_hash": "e5305293f6fb6582",
+  "explanation": "Refleksi y = x memakai (y,x), menghasilkan ({a1x}, {a1y}). Refleksi y = -x memakai (-y,-x), menghasilkan ({b1x}, {b1y}). Rotasi 90° searah jarum jam memakai (y,-x); berlawanan arah memakai (-y,x)."
 }

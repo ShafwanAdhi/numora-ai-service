@@ -16,7 +16,7 @@ GENS = {
     "derived": ({"expr"}, set()),
 }
 COMMON_KEYS = {"gen", "filters", "min", "max", "step", "fmt", "decimals"}
-REQUIRED_TOP = ("question_id", "config_version", "original_values", "variables", "stem", "options")
+REQUIRED_TOP = ("question_id", "config_version", "original_hash", "original_values", "variables", "stem", "options", "explanation")
 
 
 class ConfigError(Exception):
@@ -60,6 +60,12 @@ def validate_config(cfg, orig):
             errs.append(f"missing '{k}'")
     if errs:
         return errs
+    if cfg["question_id"] != orig["id"]:
+        errs.append("question_id does not match the original")
+    if cfg["original_hash"] != orig["hash"]:
+        errs.append("original_hash does not match the original; review and version the config")
+    if not isinstance(cfg["explanation"], str) or not cfg["explanation"].strip():
+        errs.append("explanation must be a non-empty template string")
     md = cfg.get("max_draws", DEFAULT_MAX_DRAWS)
     if not isinstance(md, int) or isinstance(md, bool) or not 1 <= md <= 10000:
         errs.append("max_draws must be an integer 1..10000")
@@ -113,6 +119,8 @@ def validate_config(cfg, orig):
             errs.append(f"{label}: undeclared placeholders {sorted(bad)}")
 
     check_tpl("stem", cfg["stem"])
+    if isinstance(cfg["explanation"], str):
+        check_tpl("explanation", cfg["explanation"])
     opts = cfg["options"]
     if len(opts) != len(orig["options"]):
         errs.append(f"config has {len(opts)} options, the original has {len(orig['options'])}")

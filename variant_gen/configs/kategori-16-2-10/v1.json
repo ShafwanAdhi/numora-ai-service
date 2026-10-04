@@ -51,5 +51,6 @@
       "text": "Jika panjang rusuk kubus diperbesar menjadi {s2} cm, maka luas permukaannya menjadi {k} kali lipat.",
       "correct": false
     }
-  ]
+  ],
+  "explanation": "Luas satu sisi kubus = {s}² = {x1} cm²; luas permukaan = 6s². Jika sisi menjadi {s2}, faktor luas adalah {k}²."
 }

@@ -93,5 +93,7 @@
       "text": "({o4x}, {o4y})",
       "correct": false
     }
-  ]
+  ],
+  "original_hash": "678951faa3408cdb",
+  "explanation": "Dilatasi berpusat di (0,0) dengan faktor {k} mengalikan kedua koordinat: ({k} × {x}, {k} × {y}) = ({o2x}, {o2y})."
 }

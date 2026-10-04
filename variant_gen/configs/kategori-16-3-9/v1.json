@@ -50,5 +50,6 @@
       "text": "Luas permukaan total prisma dapat dihitung dengan menjumlahkan luas 2 segitiga dan 3 persegi panjang.",
       "correct": true
     }
-  ]
+  ],
+  "explanation": "Prisma segitiga mempunyai 2 alas segitiga dan 3 sisi tegak persegi panjang. Luas satu sisi tegak = {s} × {t} = {x1} cm²; luas total menjumlahkan kelima sisi sesuai bentuknya."
 }

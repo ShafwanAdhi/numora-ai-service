@@ -1,0 +1,65 @@
+{
+  "question_id": "pg-18-2-1",
+  "config_version": 1,
+  "original_hash": "3038771cd549df2e",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "d": 14
+  },
+  "variables": {
+    "d": {
+      "gen": "range",
+      "range": [
+        14,
+        140
+      ],
+      "step": 14
+    },
+    "r": {
+      "gen": "derived",
+      "expr": "d/2"
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "22/7*d"
+    },
+    "twiceK": {
+      "gen": "derived",
+      "expr": "2*K"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "22/7*r*r"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "22/7*d*d"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah lingkaran memiliki diameter {d} cm (gunakan π = 22/7). Luas lingkaran tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{K} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{twiceK} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{A} cm²",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{wrong} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Jari-jari = {r} cm. Luas = πr² = 22/7 × {r}² = {A} cm²."
+}

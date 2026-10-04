@@ -86,5 +86,7 @@
       "text": "({o4x}, {o4y})",
       "correct": false
     }
-  ]
+  ],
+  "original_hash": "4b08bdc179f61f0e",
+  "explanation": "Rotasi 90° searah jarum jam terhadap pusat (0,0) memakai (x,y) → (y,-x), menghasilkan ({o2x}, {o2y})."
 }

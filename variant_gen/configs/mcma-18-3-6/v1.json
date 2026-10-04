@@ -1,0 +1,80 @@
+{
+  "question_id": "mcma-18-3-6",
+  "config_version": 1,
+  "original_hash": "3883e0506de4aea2",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "p": 16,
+    "l": 10
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        12,
+        40
+      ],
+      "step": 2
+    },
+    "l": {
+      "gen": "range",
+      "range": [
+        4,
+        20
+      ],
+      "step": 2
+    },
+    "r": {
+      "gen": "derived",
+      "expr": "l/2"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "p*l"
+    },
+    "half": {
+      "gen": "derived",
+      "expr": "3.14*r*r/2"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "A+half"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "total+3/4"
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "2*p+l+3.14*r"
+    }
+  },
+  "constraints": [
+    "p > l"
+  ],
+  "stem": "Sebuah bangun datar gabungan terdiri dari sebuah persegi panjang berukuran {p} cm × {l} cm dan sebuah setengah lingkaran yang menempel pada sisi lebarnya (diameter {l} cm) (gunakan π = 3,14). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Luas persegi panjang tersebut adalah {A} cm².",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas setengah lingkaran tersebut adalah {half} cm².",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas total bangun gabungan tersebut adalah {wrong} cm².",
+      "correct": "wrong == total"
+    },
+    {
+      "id": "D",
+      "text": "Keliling bangun gabungan tersebut adalah {K} cm.",
+      "correct": true
+    }
+  ],
+  "explanation": "Luas persegi panjang = {A} cm²; setengah lingkaran = {half} cm²; total = {total} cm². Sisi sambungan tidak masuk keliling: 2p+l+πr = {K} cm."
+}

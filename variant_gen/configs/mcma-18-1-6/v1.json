@@ -1,0 +1,65 @@
+{
+  "question_id": "mcma-18-1-6",
+  "config_version": 1,
+  "original_hash": "e6abbf0d43ef6a10",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 10
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        4,
+        30
+      ],
+      "step": 2
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "2*3.14*r"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "3.14*r*r"
+    },
+    "arc": {
+      "gen": "derived",
+      "expr": "K/4"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "K/2"
+    },
+    "sector": {
+      "gen": "derived",
+      "expr": "A/4"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah lingkaran memiliki jari-jari {r} cm (gunakan π = 3,14). Pilihlah semua pernyataan yang benar terkait lingkaran tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Keliling lingkaran adalah {K} cm.",
+      "correct": "K == 2*3.14*r"
+    },
+    {
+      "id": "B",
+      "text": "Luas lingkaran adalah {A} cm².",
+      "correct": "A == 3.14*r*r"
+    },
+    {
+      "id": "C",
+      "text": "Panjang busur sudut 90° adalah {wrong} cm.",
+      "correct": "wrong == arc"
+    },
+    {
+      "id": "D",
+      "text": "Luas juring sudut 90° adalah {sector} cm².",
+      "correct": "sector == A/4"
+    }
+  ],
+  "explanation": "Keliling = {K} cm; luas = {A} cm². Sudut 90° mengambil seperempat lingkaran: busur {arc} cm dan luas juring {sector} cm²."
+}

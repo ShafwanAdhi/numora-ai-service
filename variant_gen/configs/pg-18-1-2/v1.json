@@ -1,0 +1,61 @@
+{
+  "question_id": "pg-18-1-2",
+  "config_version": 1,
+  "original_hash": "a8128fb9c692d9d0",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "r": 14
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        70
+      ],
+      "step": 7
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "22/7*r"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "3*22/7*r/2"
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "2*22/7*r"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "22/7*r*r/4"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah lingkaran memiliki jari-jari {r} cm (gunakan π = 22/7). Keliling lingkaran tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{K} cm",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Keliling lingkaran = 2πr = 2 × 22/7 × {r} = {K} cm."
+}

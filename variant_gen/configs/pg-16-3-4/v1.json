@@ -75,5 +75,6 @@
       "text": "Luas selimut = {sel} cm² dan Luas permukaan = {p4} cm²",
       "correct": true
     }
-  ]
+  ],
+  "explanation": "Luas alas = πr² = {La} cm². Luas selimut = 2πrt = {sel} cm². Luas permukaan tabung tertutup = selimut + 2 alas = {p4} cm²."
 }

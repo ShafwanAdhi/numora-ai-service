@@ -1,0 +1,60 @@
+{
+  "question_id": "kategori-18-2-10",
+  "config_version": 1,
+  "original_hash": "a68c3ee3e362f6e3",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 10
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        4,
+        40
+      ],
+      "step": 2
+    },
+    "r": {
+      "gen": "derived",
+      "expr": "s/2"
+    },
+    "square": {
+      "gen": "derived",
+      "expr": "s*s"
+    },
+    "half": {
+      "gen": "derived",
+      "expr": "3.14*r*r/2"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "square+half"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "square+square/2"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah bangun datar gabungan terdiri dari sebuah persegi dengan sisi {s} cm dan sebuah setengah lingkaran yang menempel pada salah satu sisinya. Diameter setengah lingkaran tersebut sama dengan panjang sisi persegi (gunakan π = 3,14). Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas persegi tersebut adalah {square} cm².",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas setengah lingkaran tersebut adalah {half} cm².",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Luas total bangun gabungan tersebut adalah {wrong} cm².",
+      "correct": "wrong == total"
+    }
+  ],
+  "explanation": "Luas persegi = {square} cm²; setengah lingkaran = π({s}/2)²/2 = {half} cm². Total = {total} cm²."
+}

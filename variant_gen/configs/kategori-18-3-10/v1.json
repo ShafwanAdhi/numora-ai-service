@@ -1,0 +1,79 @@
+{
+  "question_id": "kategori-18-3-10",
+  "config_version": 1,
+  "original_hash": "695b5fcf78358257",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 10,
+    "theta": 72,
+    "k": 2
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        5,
+        30
+      ],
+      "step": 5
+    },
+    "theta": {
+      "gen": "choice",
+      "values": [
+        36,
+        72,
+        108,
+        144
+      ]
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "sector": {
+      "gen": "derived",
+      "expr": "theta/360*3.14*r*r"
+    },
+    "arc": {
+      "gen": "derived",
+      "expr": "theta/360*2*3.14*r"
+    },
+    "newR": {
+      "gen": "derived",
+      "expr": "k*r"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "sector*k"
+    },
+    "newArea": {
+      "gen": "derived",
+      "expr": "sector*k*k"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah lingkaran memiliki jari-jari {r} cm. Sebuah juring dibuat dengan sudut pusat {theta}° (gunakan π = 3,14). Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas juring tersebut adalah {sector} cm².",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Panjang busur juring tersebut adalah {arc} cm.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika jari-jari lingkaran diubah menjadi {newR} cm, maka luas juring tersebut menjadi {wrong} cm².",
+      "correct": "wrong == newArea"
+    }
+  ],
+  "explanation": "Luas juring = {sector} cm²; busur = {arc} cm. Radius berubah dengan faktor {k}, sehingga luas seharusnya {newArea} cm²."
+}

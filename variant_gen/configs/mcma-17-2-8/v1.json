@@ -95,5 +95,7 @@
       "text": "Bayangan B oleh rotasi 180° terhadap titik pusat (0,0) adalah ({r2x}, {r2y}).",
       "correct": true
     }
-  ]
+  ],
+  "original_hash": "a3e2a2f9892d77cc",
+  "explanation": "Dari translasi diperoleh x = {bx} - ({c}) = {x} dan y = {by} - ({d}) = {y}, sehingga x + y = {s}. Kedua koordinat positif, jadi B berada di kuadran I. Refleksi sumbu X menghasilkan ({r1x}, {r1y}); rotasi 180 derajat menghasilkan ({r2x}, {r2y})."
 }

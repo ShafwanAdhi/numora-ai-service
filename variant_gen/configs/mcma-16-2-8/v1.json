@@ -63,5 +63,6 @@
       "text": "Luas persegi panjang pada jaring-jaring adalah {x4} cm².",
       "correct": true
     }
-  ]
+  ],
+  "explanation": "Luas satu alas tabung = πr² = {La} cm². Keliling alas = {Ks} cm menjadi panjang selimut; luas selimut = {Ks} × {t} = {x4} cm²."
 }

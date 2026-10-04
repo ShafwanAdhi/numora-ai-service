@@ -1,0 +1,73 @@
+{
+  "question_id": "pg-18-3-5",
+  "config_version": 1,
+  "original_hash": "c7eb6696e491f899",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "m": 2
+  },
+  "variables": {
+    "m": {
+      "gen": "range",
+      "range": [
+        1,
+        12
+      ],
+      "step": 1
+    },
+    "d1": {
+      "gen": "derived",
+      "expr": "6*m"
+    },
+    "d2": {
+      "gen": "derived",
+      "expr": "8*m"
+    },
+    "side": {
+      "gen": "derived",
+      "expr": "5*m"
+    },
+    "sum": {
+      "gen": "derived",
+      "expr": "d1+d2"
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "4*side"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "4*d1"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "2*(d1+d2)"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah belah ketupat memiliki panjang diagonal {d1} cm dan {d2} cm. Analisis keliling belah ketupat tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{sum} cm",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{K} cm",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Sisi = √(({d1}/2)²+({d2}/2)²) = {side} cm; keliling = 4 × {side} = {K} cm."
+}

@@ -1,0 +1,61 @@
+{
+  "question_id": "mcma-19-1-7",
+  "config_version": 1,
+  "original_hash": "ef741d87c90ea803",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 12
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ],
+      "step": 3
+    },
+    "cube": {
+      "gen": "derived",
+      "expr": "s*s*s"
+    },
+    "pyramid": {
+      "gen": "derived",
+      "expr": "cube/3"
+    },
+    "difference": {
+      "gen": "derived",
+      "expr": "cube-pyramid"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "difference-152"
+    }
+  },
+  "constraints": ["wrong > 0"],
+  "stem": "Sebuah kubus memiliki panjang rusuk {s} cm. Di dalam kubus tersebut terdapat sebuah limas dengan alas yang sama dengan alas kubus dan tinggi limas {s} cm. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Volume kubus adalah {cube} cm³.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Volume limas adalah {pyramid} cm³.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Volume kubus sama dengan 3 kali volume limas.",
+      "correct": "cube == 3*pyramid"
+    },
+    {
+      "id": "D",
+      "text": "Selisih volume kubus dan limas adalah {wrong} cm³.",
+      "correct": "wrong == difference"
+    }
+  ],
+  "explanation": "Volume kubus = {cube} cm³; limas dengan alas dan tinggi sama = {pyramid} cm³. Kubus tepat 3 kali limas; selisih yang benar = {difference} cm³."
+}

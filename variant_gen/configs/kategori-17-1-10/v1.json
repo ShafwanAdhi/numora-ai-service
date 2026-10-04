@@ -72,5 +72,7 @@
       "text": "Bayangan B oleh rotasi 90° searah jarum jam terhadap pusat (0,0) adalah ({s3x}, {s3y}).",
       "correct": "s3x == y and s3y == -x"
     }
-  ]
+  ],
+  "original_hash": "609e2fe720a1a4bf",
+  "explanation": "Rotasi 90° berlawanan arah jarum jam memakai (-y,x), menghasilkan ({s1x}, {s1y}). Dilatasi faktor 1/2 menghasilkan ({s2x}, {s2y}). Rotasi 90° searah jarum jam harus memakai (y,-x)."
 }

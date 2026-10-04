@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-18-3-4",
+  "config_version": 1,
+  "original_hash": "1e2ecd10ee7f0580",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "d": 20,
+    "w": 1
+  },
+  "variables": {
+    "d": {
+      "gen": "range",
+      "range": [
+        8,
+        40
+      ],
+      "step": 2
+    },
+    "w": {
+      "gen": "range",
+      "range": [
+        1,
+        5
+      ],
+      "step": 1
+    },
+    "r": {
+      "gen": "derived",
+      "expr": "d/2"
+    },
+    "outer": {
+      "gen": "derived",
+      "expr": "r+w"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "22/7*(outer*outer-r*r)",
+      "filters": [
+        "nodec"
+      ]
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "A+3"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "A+6"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "A+9"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah kolam berbentuk lingkaran memiliki diameter {d} meter. Di sekeliling kolam akan dibuat jalan setapak dengan lebar {w} meter (gunakan π = 22/7). Analisis luas jalan setapak tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{A} m²",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{o2} m²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{o3} m²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} m²",
+      "correct": false
+    }
+  ],
+  "explanation": "Jari-jari dalam = {r} m, luar = {outer} m. Luas jalan = π(R²−r²) = {A} m²."
+}

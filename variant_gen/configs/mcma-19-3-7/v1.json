@@ -1,0 +1,65 @@
+{
+  "question_id": "mcma-19-3-7",
+  "config_version": 1,
+  "original_hash": "7507025a8266a142",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 6
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        3,
+        30
+      ],
+      "step": 3
+    },
+    "h": {
+      "gen": "derived",
+      "expr": "2*r"
+    },
+    "newH": {
+      "gen": "derived",
+      "expr": "4*r"
+    },
+    "sphere": {
+      "gen": "derived",
+      "expr": "4*r*r*r/3"
+    },
+    "cone": {
+      "gen": "derived",
+      "expr": "r*r*h/3"
+    },
+    "newCone": {
+      "gen": "derived",
+      "expr": "r*r*newH/3"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah bola memiliki jari-jari {r} cm. Sebuah kerucut memiliki jari-jari {r} cm dan tinggi {h} cm. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Volume bola tersebut adalah {sphere}π cm³.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Volume kerucut tersebut adalah {cone}π cm³.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Volume bola sama dengan 2 kali volume kerucut.",
+      "correct": "sphere == 2*cone"
+    },
+    {
+      "id": "D",
+      "text": "Jika tinggi kerucut diubah menjadi {newH} cm, volumenya menjadi 2 kali volume bola.",
+      "correct": "newCone == 2*sphere"
+    }
+  ],
+  "explanation": "Koefisien volume bola = {sphere}, kerucut = {cone}. Bola tepat 2 kali kerucut. Tinggi kerucut {newH} memberi volume {newCone}π cm³, sama dengan volume bola."
+}

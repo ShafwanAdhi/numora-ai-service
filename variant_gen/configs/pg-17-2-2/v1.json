@@ -86,5 +86,7 @@
       "text": "({o4x}, {o4y})",
       "correct": false
     }
-  ]
+  ],
+  "original_hash": "daaee8c815e45874",
+  "explanation": "Refleksi terhadap garis y = -x memakai (x,y) → (-y,-x), menghasilkan ({o3x}, {o3y})."
 }

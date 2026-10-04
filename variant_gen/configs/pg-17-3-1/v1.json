@@ -120,5 +120,7 @@
       "text": "({o4x}, {o4y})",
       "correct": false
     }
-  ]
+  ],
+  "original_hash": "40b0348545350bbd",
+  "explanation": "Kerjakan translasi dahulu: ({tx}, {ty}). Setelah dilatasi dengan faktor {k}, koordinat menjadi ({o3x}, {o3y})."
 }

@@ -1,0 +1,69 @@
+{
+  "question_id": "pg-18-2-3",
+  "config_version": 1,
+  "original_hash": "c86a3db5ee870503",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "r": 10,
+    "theta": 90
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        4,
+        40
+      ],
+      "step": 2
+    },
+    "theta": {
+      "gen": "choice",
+      "values": [
+        90,
+        180
+      ]
+    },
+    "arc": {
+      "gen": "derived",
+      "expr": "theta/360*2*3.14*r"
+    },
+    "twice": {
+      "gen": "derived",
+      "expr": "2*arc"
+    },
+    "four": {
+      "gen": "derived",
+      "expr": "4*arc"
+    },
+    "five": {
+      "gen": "derived",
+      "expr": "5*arc"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah lingkaran memiliki jari-jari {r} cm (gunakan π = 3,14). Panjang busur yang menghadap sudut pusat {theta}° adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{arc} cm",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{twice} cm",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{four} cm",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{five} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Panjang busur = {theta}/360 × 2 × 3,14 × {r} = {arc} cm."
+}

@@ -1,0 +1,71 @@
+{
+  "question_id": "pg-19-3-2",
+  "config_version": 1,
+  "original_hash": "b2a5d87bca13f8f4",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "V": 400,
+    "k": 3
+  },
+  "variables": {
+    "V": {
+      "gen": "range",
+      "range": [
+        100,
+        1000
+      ],
+      "step": 50
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "new": {
+      "gen": "derived",
+      "expr": "V*k"
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "V*(k-1)"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "V*(k-1/2)"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "V*(k+1)"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah limas segi empat memiliki volume {V} cm³. Jika tinggi limas tersebut diperbesar {k} kali dari tinggi semula (ukuran alas tetap), maka volume limas yang baru adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm³",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm³",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{new} cm³",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm³",
+      "correct": false
+    }
+  ],
+  "explanation": "Luas alas tetap, sehingga volume baru = {V} × {k} = {new} cm³."
+}

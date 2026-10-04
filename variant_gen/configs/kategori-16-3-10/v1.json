@@ -68,5 +68,6 @@
       "text": "Jika garis pelukis kerucut diperpanjang menjadi {s2} cm, maka luas selimutnya menjadi {k} kali lipat.",
       "correct": true
     }
-  ]
+  ],
+  "explanation": "Jaring-jaring kerucut terdiri dari lingkaran alas dan juring selimut. Luas alas = πr² = {La} cm²; luas selimut = πrs. Jika garis pelukis dikali {k} dengan r tetap, luas selimut juga dikali {k}."
 }

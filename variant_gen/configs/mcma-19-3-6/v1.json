@@ -1,0 +1,61 @@
+{
+  "question_id": "mcma-19-3-6",
+  "config_version": 1,
+  "original_hash": "d86a1312d6970dcd",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 10
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ],
+      "step": 2
+    },
+    "h": {
+      "gen": "derived",
+      "expr": "3*s/2"
+    },
+    "cube": {
+      "gen": "derived",
+      "expr": "s*s*s"
+    },
+    "pyramid": {
+      "gen": "derived",
+      "expr": "s*s*h/3"
+    },
+    "difference": {
+      "gen": "derived",
+      "expr": "cube-pyramid"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah kubus memiliki panjang rusuk {s} cm. Sebuah limas dengan alas persegi berukuran sisi {s} cm dan tinggi limas {h} cm. Pilihlah semua pernyataan yang benar terkait analisis volume kedua bangun tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Volume kubus adalah {cube} cm³.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Volume limas adalah {pyramid} cm³.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Volume kubus lebih besar dari 2 kali volume limas.",
+      "correct": "cube > 2*pyramid"
+    },
+    {
+      "id": "D",
+      "text": "Selisih volume kubus dan limas adalah {difference} cm³.",
+      "correct": true
+    }
+  ],
+  "explanation": "Kedua bangun dibandingkan sebagai bangun terpisah. Kubus = {cube} cm³, limas = {pyramid} cm³. Kubus tepat 2 kali limas, bukan lebih besar; selisih = {difference} cm³."
+}

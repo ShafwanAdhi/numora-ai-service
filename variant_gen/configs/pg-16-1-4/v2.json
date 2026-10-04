@@ -1,0 +1,78 @@
+{
+  "question_id": "pg-16-1-4",
+  "config_version": 2,
+  "original_hash": "ea4356999ae4d6ba",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "a": 36,
+    "L": 24
+  },
+  "variables": {
+    "a": {
+      "gen": "choice",
+      "values": [
+        16,
+        25,
+        36,
+        49,
+        64,
+        81,
+        100,
+        121,
+        144
+      ]
+    },
+    "L": {
+      "gen": "range",
+      "range": [
+        12,
+        60
+      ],
+      "step": 4
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "a + L"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "a + 4*L"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "6*L"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "a + 5*L"
+    }
+  },
+  "stem": "Sebuah jaring-jaring limas segi empat terdiri dari alas berbentuk persegi dengan luas {a} cm² dan 4 buah sisi tegak berbentuk segitiga dengan luas masing-masing {L} cm². Luas permukaan limas tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Luas permukaan limas = luas alas + 4 × luas satu sisi tegak = {a} + 4 × {L} = {o2} cm².",
+  "constraints": [
+    "4*L > a"
+  ]
+}

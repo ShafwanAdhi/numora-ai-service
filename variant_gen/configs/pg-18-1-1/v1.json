@@ -1,0 +1,70 @@
+{
+  "question_id": "pg-18-1-1",
+  "config_version": 1,
+  "original_hash": "d8a3d52271cbfa93",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "a": 12,
+    "h": 10
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        4,
+        40
+      ],
+      "step": 2
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        4,
+        30
+      ],
+      "step": 2
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "a*h/2"
+    },
+    "half": {
+      "gen": "derived",
+      "expr": "A/2"
+    },
+    "twice": {
+      "gen": "derived",
+      "expr": "2*A"
+    },
+    "four": {
+      "gen": "derived",
+      "expr": "4*A"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah segitiga memiliki panjang alas {a} cm dan tinggi {h} cm. Luas segitiga tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{half} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{A} cm²",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{twice} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{four} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Luas segitiga = {a} × {h}/2 = {A} cm²."
+}

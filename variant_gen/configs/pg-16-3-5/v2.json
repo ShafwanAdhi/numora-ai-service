@@ -1,0 +1,90 @@
+{
+  "question_id": "pg-16-3-5",
+  "config_version": 2,
+  "original_hash": "f15581f6fb5a0fb0",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "m": 1,
+    "t": 10
+  },
+  "variables": {
+    "m": {
+      "gen": "range",
+      "range": [
+        1,
+        8
+      ],
+      "step": 1
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        5,
+        30
+      ],
+      "step": 1
+    },
+    "p": {
+      "gen": "derived",
+      "expr": "3*m"
+    },
+    "q": {
+      "gen": "derived",
+      "expr": "4*m"
+    },
+    "c": {
+      "gen": "derived",
+      "expr": "5*m"
+    },
+    "T": {
+      "gen": "derived",
+      "expr": "p*q"
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "p+q+c"
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "K*t"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "T+K*t"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "K*t+2*T"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "2*K*t"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah prisma segitiga memiliki jaring-jaring yang terdiri dari 2 segitiga siku-siku dan 3 persegi panjang. Diketahui luas total kedua segitiga adalah {T} cm². Jika keliling alas segitiga adalah {K} cm dan tinggi prisma adalah {t} cm, maka analisis luas permukaan prisma tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Alas siku-siku dengan sisi {p}, {q}, {c} mempunyai keliling {K} cm. Dua alas memiliki luas {T} cm². Luas permukaan = {T} + {K} × {t} = {o2} cm²."
+}

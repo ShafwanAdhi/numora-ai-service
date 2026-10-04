@@ -1,0 +1,104 @@
+{
+  "question_id": "mcma-18-2-8",
+  "config_version": 1,
+  "original_hash": "ca495688653061ba",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "p": 12,
+    "l": 8,
+    "k": 2,
+    "delta": 3,
+    "eps": 2
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        10,
+        30
+      ],
+      "step": 1
+    },
+    "l": {
+      "gen": "range",
+      "range": [
+        4,
+        18
+      ],
+      "step": 1
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "delta": {
+      "gen": "range",
+      "range": [
+        1,
+        4
+      ],
+      "step": 1
+    },
+    "eps": {
+      "gen": "range",
+      "range": [
+        1,
+        5
+      ],
+      "step": 1
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "p*l"
+    },
+    "k2": {
+      "gen": "derived",
+      "expr": "k*k"
+    },
+    "shift": {
+      "gen": "derived",
+      "expr": "(p+delta)*(l-delta)"
+    },
+    "both": {
+      "gen": "derived",
+      "expr": "(p+eps)*(l+eps)"
+    },
+    "one": {
+      "gen": "derived",
+      "expr": "k*p*l"
+    }
+  },
+  "constraints": [
+    "p > l",
+    "l > delta"
+  ],
+  "stem": "Sebuah persegi panjang memiliki panjang {p} cm dan lebar {l} cm. Pilihlah semua pernyataan yang benar terkait analisis perubahan ukuran bangun datar tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jika panjang dan lebar masing-masing diperbesar {k} kali, maka luasnya menjadi {k2} kali lipat.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jika panjang ditambah {delta} cm dan lebar dikurangi {delta} cm, luasnya tetap sama.",
+      "correct": "shift == A"
+    },
+    {
+      "id": "C",
+      "text": "Jika panjang dan lebar masing-masing ditambah {eps} cm, luasnya menjadi {both} cm².",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika panjangnya saja yang diperbesar {k} kali, luasnya menjadi {one} cm².",
+      "correct": true
+    }
+  ],
+  "explanation": "Luas awal = {A} cm². Dua ukuran dikali {k} memberi faktor {k2}; perubahan +{delta}/−{delta} memberi luas {shift} cm². Penambahan {eps} pada kedua ukuran memberi {both} cm²; satu ukuran dikali {k} memberi {one} cm²."
+}

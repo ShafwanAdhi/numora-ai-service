@@ -5,7 +5,7 @@ from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime, timezone
 
-from config_store import DEFAULT_MAX_DRAWS
+from config_store import DEFAULT_MAX_DRAWS, ConfigError, validate_config
 from expr import RejectDraw, evaluate, is_num, json_number, norm, render, to_num
 from filters import check_variable, validate_candidate
 from randomizer import draw_variable, rng_for
@@ -52,7 +52,8 @@ def assemble(cfg, values):
         if isinstance(corr, str):
             corr = bool(evaluate(corr, values))
         options.append({"id": o["id"], "text": render(o["text"], values, fmts), "correct": bool(corr)})
-    return {"stem": render(cfg["stem"], values, fmts), "options": options}
+    return {"stem": render(cfg["stem"], values, fmts), "options": options,
+            "explanation": render(cfg["explanation"], values, fmts)}
 
 
 def shuffle_options(cand, rng, ids):
@@ -76,6 +77,9 @@ def generate(orig, cfg, seed, others):
     """others = candidates this one must not duplicate (other seeds' latest variants, and earlier
     versions of the same seed when regenerating)."""
     qid, limit = orig["id"], cfg.get("max_draws", DEFAULT_MAX_DRAWS)
+    problems = validate_config(cfg, orig)
+    if problems:
+        raise ConfigError("; ".join(problems))
     ids = [o["id"] for o in orig["options"]]
     rejections = Counter()
     for draw in range(limit):
@@ -99,6 +103,11 @@ def generate(orig, cfg, seed, others):
 
 def make_record(orig, cfg, cfg_hash, seed, ver, result, replacement_of=None, reason=None):
     c = result.cand
+    if orig["format"] == "PG":
+        answers = "Jawaban: " + "; ".join(f"{o['id']}. {o['text']}" for o in c["options"] if o["correct"])
+    else:
+        answers = "Penilaian pernyataan: " + "; ".join(
+            f"{o['id']}: {'Benar' if o['correct'] else 'Salah'} — {o['text']}" for o in c["options"])
     return {
         "record_id": f"{orig['id']}:s{seed}:v{ver}",
         "question_id": orig["id"], "seed": seed, "variant_ver": ver,
@@ -107,6 +116,7 @@ def make_record(orig, cfg, cfg_hash, seed, ver, result, replacement_of=None, rea
         "values_used": {k: (json_number(v) if is_num(v) else v) for k, v in result.values.items()},
         "stem": c["stem"], "options": [{"id": o["id"], "text": o["text"]} for o in c["options"]],
         "key": key_of(c),
+        "explanation": c["explanation"] + "\n\n" + answers,
         "original_hash": orig["hash"], "original_version": orig["version"],
         "replacement_of": replacement_of, "regen_reason": reason,
         "created_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

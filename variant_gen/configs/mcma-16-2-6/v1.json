@@ -71,5 +71,6 @@
       "text": "Luas permukaan total prisma adalah {a4} + {b4}√3 cm².",
       "correct": true
     }
-  ]
+  ],
+  "explanation": "Prisma segitiga sama sisi memiliki dua segitiga dan tiga persegi panjang. Luas satu sisi tegak = {x2} cm². Total sisi tegak = {a4} cm²; dua alas menyumbang {b4}√3 cm²."
 }

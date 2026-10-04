@@ -1,0 +1,60 @@
+{
+  "question_id": "pg-19-1-4",
+  "config_version": 1,
+  "original_hash": "94632bd5dfabe9e2",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "r": 3
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        2,
+        15
+      ],
+      "step": 1
+    },
+    "V": {
+      "gen": "derived",
+      "expr": "4/3*3.14*r*r*r"
+    },
+    "third": {
+      "gen": "derived",
+      "expr": "V/3"
+    },
+    "quarter": {
+      "gen": "derived",
+      "expr": "V/4"
+    }
+  },
+  "constraints": [
+    "V*100 % 1 == 0",
+    "third*100 % 1 == 0"
+  ],
+  "stem": "Sebuah bola memiliki jari-jari {r} cm (gunakan π = 3,14). Volume bola tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{V} cm³",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{V} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{third} cm³",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{quarter} cm³",
+      "correct": false
+    }
+  ],
+  "explanation": "Volume bola = 4 × 3,14 × {r}³/3 = {V} cm³. Satuan volume adalah cm³."
+}

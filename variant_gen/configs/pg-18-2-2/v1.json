@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-18-2-2",
+  "config_version": 1,
+  "original_hash": "d7cb4f77cbb06510",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "a": 12,
+    "b": 18,
+    "h": 8
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        4,
+        24
+      ],
+      "step": 2
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        8,
+        40
+      ],
+      "step": 2
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        4,
+        20
+      ],
+      "step": 2
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "a*h"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "(a+b)*h/2"
+    },
+    "twice": {
+      "gen": "derived",
+      "expr": "2*A"
+    },
+    "four": {
+      "gen": "derived",
+      "expr": "4*A"
+    }
+  },
+  "constraints": [
+    "b > a"
+  ],
+  "stem": "Sebuah trapesium memiliki panjang sisi sejajar {a} cm dan {b} cm, serta tinggi {h} cm. Luas trapesium tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{A} cm²",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{twice} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{four} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Luas trapesium = ({a}+{b}) × {h}/2 = {A} cm²."
+}

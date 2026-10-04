@@ -1,0 +1,65 @@
+{
+  "question_id": "kategori-19-2-10",
+  "config_version": 1,
+  "original_hash": "e4a495ebb1ea399b",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 10,
+    "h": 12
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ],
+      "step": 2
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ],
+      "step": 3
+    },
+    "cube": {
+      "gen": "derived",
+      "expr": "s*s*s"
+    },
+    "pyramid": {
+      "gen": "derived",
+      "expr": "s*s*h/3"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "cube+pyramid"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "total+s*s"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah bangun ruang gabungan terdiri dari sebuah kubus dengan rusuk {s} cm dan sebuah limas segi empat yang menempel pada sisi atas kubus. Alas limas sama dengan sisi atas kubus dan tinggi limas tersebut adalah {h} cm. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Volume kubus tersebut adalah {cube} cm³.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Volume limas tersebut adalah {pyramid} cm³.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Volume total bangun gabungan tersebut adalah {wrong} cm³.",
+      "correct": "wrong == total"
+    }
+  ],
+  "explanation": "Volume kubus = {cube} cm³; limas = {pyramid} cm³. Keduanya menempel tanpa tumpang tindih volume, sehingga total = {total} cm³."
+}

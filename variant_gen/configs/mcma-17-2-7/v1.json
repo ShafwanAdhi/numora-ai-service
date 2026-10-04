@@ -51,5 +51,7 @@
       "text": "Jika dirotasi 90°, luas segitiga tetap {L} cm².",
       "correct": true
     }
-  ]
+  ],
+  "original_hash": "1de0d4876ebc75fd",
+  "explanation": "Translasi, refleksi, dan rotasi mempertahankan luas {L} cm². Dilatasi dengan faktor {k} mengalikan luas dengan kuadrat faktor, sehingga luas menjadi {L} × {k}² cm², bukan {cl} cm²."
 }

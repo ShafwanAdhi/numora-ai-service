@@ -1,0 +1,61 @@
+{
+  "question_id": "mcma-19-1-8",
+  "config_version": 1,
+  "original_hash": "172a21969e206ec3",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "d": 21
+  },
+  "variables": {
+    "d": {
+      "gen": "range",
+      "range": [
+        21,
+        147
+      ],
+      "step": 21
+    },
+    "r": {
+      "gen": "derived",
+      "expr": "d/2"
+    },
+    "V": {
+      "gen": "derived",
+      "expr": "4/3*22/7*r*r*r"
+    },
+    "hc": {
+      "gen": "derived",
+      "expr": "4*r/3"
+    },
+    "cylinder": {
+      "gen": "derived",
+      "expr": "22/7*r*r*hc"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah bola memiliki diameter {d} cm (gunakan π = 22/7). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jari-jari bola tersebut adalah {r} cm.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Volume bola tersebut adalah {V} cm³.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika jari-jari bola diubah menjadi {d} cm, volume bola menjadi 2 kali lipat.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Volume bola tersebut setara dengan volume tabung yang memiliki jari-jari {r} cm dan tinggi {hc} cm.",
+      "correct": "V == cylinder"
+    }
+  ],
+  "explanation": "Radius = {r} cm; volume bola = {V} cm³. Radius dikali 2 membuat volume 8 kali lipat. Tabung radius sama dan tinggi 4r/3 = {hc} cm mempunyai volume yang sama."
+}

@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-18-3-3",
+  "config_version": 1,
+  "original_hash": "1f88f4be92fb95b2",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "r": 14,
+    "theta": 90
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        14,
+        70
+      ],
+      "step": 14
+    },
+    "theta": {
+      "gen": "choice",
+      "values": [
+        45,
+        60,
+        90,
+        120,
+        180
+      ]
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "22/7*r*r*theta/360",
+      "filters": [
+        "step0.01"
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "theta/2"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "theta*2/3"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "theta*4/3"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah juring lingkaran memiliki jari-jari {r} cm. Jika luas juring tersebut adalah {A} cm² (gunakan π = 22/7), maka analisis besar sudut pusat juring tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1}°",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2}°",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{theta}°",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{o4}°",
+      "correct": false
+    }
+  ],
+  "explanation": "Sudut pusat = luas juring/(πr²) × 360° = {A}/(22/7 × {r}²) × 360° = {theta}°."
+}

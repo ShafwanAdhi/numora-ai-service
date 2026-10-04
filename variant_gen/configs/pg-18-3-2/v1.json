@@ -1,0 +1,73 @@
+{
+  "question_id": "pg-18-3-2",
+  "config_version": 1,
+  "original_hash": "d5943bf344dc3b7f",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "s": 14
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        14,
+        140
+      ],
+      "step": 14
+    },
+    "r": {
+      "gen": "derived",
+      "expr": "s/2"
+    },
+    "square": {
+      "gen": "derived",
+      "expr": "s*s"
+    },
+    "circle": {
+      "gen": "derived",
+      "expr": "22/7*r*r"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "square-circle"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "A+2"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "A+4"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "A+6"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah persegi memiliki panjang sisi {s} cm. Di dalam persegi tersebut dibuat sebuah lingkaran yang menyinggung keempat sisinya (gunakan π = 22/7). Analisis luas daerah di dalam persegi tetapi di luar lingkaran adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{A} cm²",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Jari-jari = {r} cm. Luas daerah = {square} − {circle} = {A} cm²."
+}

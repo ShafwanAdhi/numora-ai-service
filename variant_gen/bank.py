@@ -4,6 +4,7 @@ import csv
 import hashlib
 import json
 from copy import deepcopy
+from pathlib import Path
 
 FORMATS = ("PG", "MCMA", "KATEGORI")
 
@@ -57,7 +58,7 @@ class OriginalBank:
     def __init__(self, path):
         self._rows = {}
         try:
-            f = open(path, newline="", encoding="utf-8")
+            f = open(path, newline="", encoding="utf-8-sig")
         except OSError as e:
             raise BankError(f"cannot open bank file: {e}")
         with f:
@@ -66,6 +67,27 @@ class OriginalBank:
                 if o["id"] in self._rows:
                     raise BankError(f"duplicate question id {o['id']}")
                 self._rows[o["id"]] = o
+        revisions = Path(path).with_name("original_revisions.jsonl")
+        if revisions.exists():
+            try:
+                for line, text in enumerate(revisions.read_text(encoding="utf-8").splitlines(), start=1):
+                    if not text.strip():
+                        continue
+                    revision = json.loads(text)
+                    current = self._rows[revision["question_id"]]
+                    previous = _parse_row(revision["original_row"], line)
+                    replacement = _parse_row(revision["replacement_row"], line)
+                    if (previous["id"] != current["id"] or previous["hash"] != current["hash"]
+                            or previous["version"] != current["version"]
+                            or revision["original_version"] != current["version"]
+                            or replacement["id"] != current["id"]
+                            or replacement["version"] != current["version"] + 1
+                            or revision["replacement_version"] != replacement["version"]
+                            or not isinstance(revision.get("reason"), str) or not revision["reason"].strip()):
+                        raise BankError(f"{revisions.name} (row {line}): revision provenance/version mismatch")
+                    self._rows[current["id"]] = replacement
+            except (OSError, ValueError, KeyError, TypeError, AttributeError) as error:
+                raise BankError(f"cannot load original revisions: {error}") from error
 
     def ids(self):
         return list(self._rows)

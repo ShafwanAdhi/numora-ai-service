@@ -69,5 +69,6 @@
       "text": "Luas permukaan menjadi {o4} kali lipat",
       "correct": false
     }
-  ]
+  ],
+  "explanation": "Luas berubah sebanding kuadrat faktor ukuran linear. Faktor skala {k} menghasilkan faktor luas {k}² = {o3}."
 }

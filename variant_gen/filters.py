@@ -80,6 +80,11 @@ def validate_candidate(cand, orig, others):
         p.append("empty_text")
     if PLACEHOLDER.search(cand["stem"]) or any(PLACEHOLDER.search(o["text"]) for o in opts):
         p.append("unresolved_placeholder")
+    if "explanation" in cand:
+        if not cand["explanation"].strip():
+            p.append("empty_explanation")
+        if PLACEHOLDER.search(cand["explanation"]):
+            p.append("unresolved_explanation_placeholder")
     texts = [_n(o["text"]) for o in opts]
     if len(set(texts)) != len(texts):
         p.append("options_not_distinct")

@@ -19,6 +19,7 @@ from engine import GenerationError, cand_from_record, generate, make_record, ori
 from expr import ExprError
 from lint import run_lint
 from store import StoreError, VariantStore
+from handoff import export_record
 
 HERE = Path(__file__).resolve().parent
 KNOWN_ERRORS = (BankError, ConfigError, GenerationError, StoreError, ExprError)
@@ -57,6 +58,8 @@ def show(rec, as_json):
     for o in rec["options"]:
         print(f"  {o['id']}. {o['text']}")
     print(f"key: {rec['key']}")
+    if rec.get("explanation"):
+        print("pembahasan: " + rec["explanation"])
     print()
 
 
@@ -114,8 +117,13 @@ def cmd_regen(a, bank, configs, store):
     if not prev:
         raise StoreError(f"seed {seed} has no variant yet - use gen first")
     cfg, h = load_config(configs, store, orig)
+    reason = (a.reason or "").strip() or None
+    if cfg["config_version"] < prev["config_ver"]:
+        raise ConfigError("regen cannot use an older config version")
+    if cfg["config_version"] == prev["config_ver"] and not reason:
+        raise ConfigError("regen with the same config requires a non-empty --reason")
     res = generate(orig, cfg, seed, others_for(store, orig["id"], seed))
-    reason = a.reason or ("new config" if cfg["config_version"] != prev["config_ver"] else None)
+    reason = reason or "new config"
     rec = make_record(orig, cfg, h, seed, prev["variant_ver"] + 1, res, prev["variant_ver"], reason)
     store.append(rec)
     show(rec, a.json)
@@ -152,6 +160,19 @@ def cmd_hash(a, bank, configs, store):
     return 0
 
 
+def cmd_export(a, bank, configs, store):
+    (seed,) = parse_seeds(a.seed)
+    rec = store.get(a.question_id, seed, parse_ver(a.ver) if a.ver else None)
+    if not rec:
+        raise StoreError("no stored variant; generate a non-zero seed first")
+    try:
+        mapping = json.loads(Path(a.mapping).read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise StoreError(f"cannot read mapping: {error}") from error
+    print(json.dumps(export_record(rec, mapping), ensure_ascii=False, indent=2))
+    return 0
+
+
 def main(argv=None):
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--bank", default=HERE / "data" / "q0_bank.csv")
@@ -168,6 +189,8 @@ def main(argv=None):
     p = sub.add_parser("lint", parents=[common]); p.add_argument("question_id")
     p.add_argument("--n", type=int, default=100); p.set_defaults(fn=cmd_lint)
     p = sub.add_parser("hash", parents=[common]); p.add_argument("question_id"); p.set_defaults(fn=cmd_hash)
+    p = sub.add_parser("export", parents=[common]); p.add_argument("question_id"); p.add_argument("seed")
+    p.add_argument("ver", nargs="?"); p.add_argument("--mapping", required=True); p.set_defaults(fn=cmd_export)
     a = ap.parse_args(argv)
     try:
         return a.fn(a, OriginalBank(a.bank), ConfigStore(a.configs), VariantStore(a.store))

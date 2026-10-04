@@ -1,0 +1,76 @@
+{
+  "question_id": "pg-18-2-4",
+  "config_version": 1,
+  "original_hash": "3eb69cd6dbb7dde4",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "s": 14,
+    "h": 6
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        6,
+        40
+      ],
+      "step": 2
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        4,
+        24
+      ],
+      "step": 2
+    },
+    "square": {
+      "gen": "derived",
+      "expr": "s*s"
+    },
+    "triangle": {
+      "gen": "derived",
+      "expr": "s*h/2"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "square+triangle/3"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "square+2*triangle/3"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "square+triangle"
+    }
+  },
+  "constraints": [
+    "triangle % 3 == 0"
+  ],
+  "stem": "Sebuah bangun datar gabungan terdiri dari sebuah persegi dengan sisi {s} cm dan sebuah segitiga siku-siku dengan alas {s} cm dan tinggi {h} cm yang menempel pada sisi atas persegi. Luas total bangun gabungan tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{square} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{A} cm²",
+      "correct": true
+    }
+  ],
+  "explanation": "Luas persegi = {square} cm²; luas segitiga = {s} × {h}/2 = {triangle} cm². Total = {A} cm²."
+}

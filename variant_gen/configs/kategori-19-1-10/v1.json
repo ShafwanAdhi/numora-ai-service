@@ -1,0 +1,74 @@
+{
+  "question_id": "kategori-19-1-10",
+  "config_version": 1,
+  "original_hash": "6a069cd5ceea24b2",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 7,
+    "h": 12,
+    "k": 2
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        35
+      ],
+      "step": 7
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ],
+      "step": 3
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "22/7*r*r"
+    },
+    "V": {
+      "gen": "derived",
+      "expr": "A*h/3"
+    },
+    "newH": {
+      "gen": "derived",
+      "expr": "h*k"
+    },
+    "newV": {
+      "gen": "derived",
+      "expr": "V*k"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah kerucut memiliki jari-jari alas {r} cm dan tinggi {h} cm (gunakan π = 22/7). Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas alas kerucut tersebut adalah {A} cm².",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Volume kerucut tersebut adalah {V} cm³.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika tinggi kerucut diubah menjadi {newH} cm, volume kerucut menjadi {V} cm³.",
+      "correct": "V == newV"
+    }
+  ],
+  "explanation": "Luas alas = {A} cm²; volume = {V} cm³. Tinggi berubah menjadi {newH}, sehingga volume menjadi {newV} cm³."
+}

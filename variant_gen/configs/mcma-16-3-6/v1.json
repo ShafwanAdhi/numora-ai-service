@@ -1,0 +1,51 @@
+{
+  "question_id": "mcma-16-3-6",
+  "config_version": 1,
+  "original_hash": "5ac7a61eb0e8084b",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "k": 2
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "k2": {
+      "gen": "derived",
+      "expr": "k*k"
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan pernyataan-pernyataan berikut terkait jaring-jaring kubus! Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jaring-jaring kubus selalu terdiri dari 6 buah persegi yang kongruen.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jika rusuk kubus diperbesar {k} kali, maka luas jaring-jaringnya menjadi {k2} kali lipat.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas jaring-jaring kubus sama dengan luas permukaan kubus.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jaring-jaring kubus dapat terdiri dari 4 persegi dan 2 persegi panjang.",
+      "correct": false
+    }
+  ],
+  "explanation": "Kubus memiliki enam sisi persegi kongruen. Faktor rusuk {k} menghasilkan faktor luas {k2}. Seluruh jaring-jaring memuat keenam sisi kubus."
+}

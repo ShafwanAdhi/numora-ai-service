@@ -1,0 +1,59 @@
+{
+  "question_id": "pg-16-1-3",
+  "config_version": 2,
+  "original_hash": "f4902ada44e308d4",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "s": 5
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        2,
+        20
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "s*s"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "4*s*s"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "5*s*s"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "6*s*s"
+    }
+  },
+  "stem": "Sebuah kubus memiliki jaring-jaring yang terdiri dari 6 buah persegi. Jika panjang sisi persegi pada jaring-jaring tersebut adalah {s} cm, maka luas total jaring-jaring kubus tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} cm²",
+      "correct": true
+    }
+  ],
+  "explanation": "Luas satu sisi kubus = s² = {s} × {s} = {o1} cm². Kubus memiliki 6 sisi, sehingga luas total = 6s² = {o4} cm²."
+}

@@ -82,5 +82,6 @@
       "text": "{o4} cm²",
       "correct": false
     }
-  ]
+  ],
+  "explanation": "Luas permukaan kerucut = πr² + πrs = πr(r+s). Dengan r = {r}, s = {s}, π = 22/7, diperoleh {o3} cm²."
 }

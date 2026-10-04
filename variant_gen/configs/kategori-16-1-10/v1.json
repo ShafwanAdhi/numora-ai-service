@@ -41,5 +41,6 @@
       "text": "Luas permukaan kubus tersebut adalah {x3} cm².",
       "correct": "x3 == 6*s*s"
     }
-  ]
+  ],
+  "explanation": "Luas satu sisi kubus = s² = {x1} cm². Luas permukaan = 6s². Volume s³ = {x3} cm³ berbeda dari luas permukaan."
 }

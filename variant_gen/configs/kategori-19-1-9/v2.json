@@ -1,0 +1,78 @@
+{
+  "question_id": "kategori-19-1-9",
+  "config_version": 2,
+  "original_hash": "bbc665116c459992",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "p": 8,
+    "q": 15,
+    "t": 20
+  },
+  "constraints": [
+    "p < q"
+  ],
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        3,
+        20
+      ]
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        3,
+        20
+      ]
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        10,
+        40
+      ],
+      "step": 2
+    },
+    "alas": {
+      "gen": "derived",
+      "expr": "p*q/2",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "vol": {
+      "gen": "derived",
+      "expr": "alas*t"
+    },
+    "t2": {
+      "gen": "derived",
+      "expr": "t/2",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    }
+  },
+  "stem": "Sebuah prisma segitiga siku-siku memiliki alas dengan panjang sisi-sisi penyiku {p} cm dan {q} cm. Tinggi prisma tersebut adalah {t} cm. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas alas prisma tersebut adalah {alas} cm².",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Volume prisma tersebut adalah {vol} cm³.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika tinggi prisma diubah menjadi {t2} cm, volume prisma menjadi {vol} cm³.",
+      "correct": "vol == alas*t2"
+    }
+  ],
+  "explanation": "Luas alas segitiga siku-siku = {p} × {q}/2 = {alas} cm². Volume prisma = {alas} × {t} = {vol} cm³. Jika tinggi berubah menjadi {t2}, volume juga berubah sesuai luas alas × tinggi baru."
+}

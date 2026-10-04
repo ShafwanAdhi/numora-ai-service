@@ -1,0 +1,98 @@
+{
+  "question_id": "pg-19-3-4",
+  "config_version": 1,
+  "original_hash": "6de2b4f83e17555e",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "p": 4,
+    "l": 3,
+    "h": 2,
+    "q": 200
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        3,
+        10
+      ],
+      "step": 1
+    },
+    "l": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        1,
+        4
+      ],
+      "step": 1
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        100,
+        500
+      ],
+      "step": 50
+    },
+    "V": {
+      "gen": "derived",
+      "expr": "p*l*h*1000"
+    },
+    "t": {
+      "gen": "derived",
+      "expr": "V/q",
+      "filters": [
+        "nodec"
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "t*5/6"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "t*5/4"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "t*5/3"
+    }
+  },
+  "constraints": [
+    "p > l",
+    "t % 12 == 0"
+  ],
+  "stem": "Sebuah kolam berbentuk balok berukuran panjang {p} meter, lebar {l} meter, dan tinggi {h} meter. Kolam tersebut akan diisi air menggunakan pompa dengan debit {q} liter/menit. Analisis waktu yang dibutuhkan untuk mengisi kolam hingga penuh adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} menit",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{t} menit",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{o3} menit",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{o4} menit",
+      "correct": false
+    }
+  ],
+  "explanation": "Volume = {V} liter. Waktu = {V}/{q} = {t} menit."
+}

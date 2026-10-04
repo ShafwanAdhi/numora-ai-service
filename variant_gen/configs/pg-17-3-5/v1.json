@@ -132,5 +132,7 @@
       "text": "({o4x}, {o4y})",
       "correct": false
     }
-  ]
+  ],
+  "original_hash": "5c654375ef903b34",
+  "explanation": "Refleksi y = -x menghasilkan ({u}, {v}); translasi T({c}, {d}) menghasilkan ({fx}, {fy}). Gunakan koordinat hasil kedua transformasi tersebut."
 }

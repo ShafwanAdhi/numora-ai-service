@@ -1,0 +1,57 @@
+{
+  "question_id": "pg-19-3-5",
+  "config_version": 1,
+  "original_hash": "b59c2e60a65711a5",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "V": 600
+  },
+  "variables": {
+    "V": {
+      "gen": "range",
+      "range": [
+        100,
+        2000
+      ],
+      "step": 100
+    },
+    "half": {
+      "gen": "derived",
+      "expr": "V/2"
+    },
+    "twice": {
+      "gen": "derived",
+      "expr": "V*2"
+    },
+    "three": {
+      "gen": "derived",
+      "expr": "V*3"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah prisma memiliki volume {V} cm³. Jika luas alas prisma dilipatgandakan menjadi 2 kali dan tingginya dikurangi menjadi setengah dari tinggi semula, maka volume prisma yang baru adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{V} cm³",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{half} cm³",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{twice} cm³",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{three} cm³",
+      "correct": false
+    }
+  ],
+  "explanation": "Faktor perubahan volume = 2 × 1/2 = 1; volume tetap {V} cm³."
+}

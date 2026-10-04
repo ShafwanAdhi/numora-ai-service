@@ -70,5 +70,6 @@
       "text": "Luas permukaan total limas adalah {x4} cm².",
       "correct": "x4 == x1 + x3"
     }
-  ]
+  ],
+  "explanation": "Luas alas = {x1} cm²; satu sisi tegak = {x2} cm²; empat sisi tegak = {x3} cm². Luas total harus berupa luas alas ditambah seluruh sisi tegak."
 }

@@ -1,0 +1,86 @@
+{
+  "question_id": "pg-18-2-5",
+  "config_version": 1,
+  "original_hash": "d5841ceb70600d47",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "p": 25,
+    "l": 12,
+    "cost": 15000
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        15,
+        45
+      ],
+      "step": 1
+    },
+    "l": {
+      "gen": "range",
+      "range": [
+        6,
+        20
+      ],
+      "step": 1
+    },
+    "cost": {
+      "gen": "range",
+      "range": [
+        5000,
+        25000
+      ],
+      "step": 1000
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "p*l"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "A*cost"
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "total*2/3"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "total*6/5"
+    },
+    "o4": {
+      "gen": "derived",
+      "expr": "total*4/3"
+    }
+  },
+  "constraints": [
+    "p > l",
+    "total % 15 == 0"
+  ],
+  "stem": "Sebuah taman berbentuk persegi panjang memiliki panjang {p} meter dan lebar {l} meter. Jika taman tersebut akan ditanami rumput dengan biaya Rp{cost},00 per meter persegi, maka total biaya yang diperlukan adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{o1},00",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{total},00",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Rp{o3},00",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rp{o4},00",
+      "correct": false
+    }
+  ],
+  "explanation": "Luas = {A} m². Biaya = {A} × Rp{cost},00 = Rp{total},00."
+}

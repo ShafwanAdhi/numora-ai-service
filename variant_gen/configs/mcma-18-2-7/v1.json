@@ -1,0 +1,77 @@
+{
+  "question_id": "mcma-18-2-7",
+  "config_version": 1,
+  "original_hash": "460ff25b440e5ae1",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 21,
+    "theta": 120
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        42
+      ],
+      "step": 7
+    },
+    "theta": {
+      "gen": "choice",
+      "values": [
+        60,
+        90,
+        120,
+        180
+      ]
+    },
+    "arc": {
+      "gen": "derived",
+      "expr": "theta/360*2*22/7*r",
+      "filters": [
+        "step0.01"
+      ]
+    },
+    "sector": {
+      "gen": "derived",
+      "expr": "theta/360*22/7*r*r",
+      "filters": [
+        "step0.01"
+      ]
+    },
+    "halfTheta": {
+      "gen": "derived",
+      "expr": "theta/2"
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "arc+2*r"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah taman berbentuk juring lingkaran dengan sudut pusat {theta}° dan jari-jari {r} meter (gunakan π = 22/7). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Panjang busur taman tersebut adalah {arc} meter.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas taman tersebut adalah {sector} m².",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika sudut pusat diubah menjadi {halfTheta}°, luas taman menjadi setengah dari luas semula.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Keliling taman tersebut adalah {arc} meter.",
+      "correct": "arc == K"
+    }
+  ],
+  "explanation": "Busur = {arc} m; luas juring = {sector} m². Sudut dibagi 2 membuat luas dibagi 2. Keliling juring menambahkan dua radius, menjadi {K} m."
+}

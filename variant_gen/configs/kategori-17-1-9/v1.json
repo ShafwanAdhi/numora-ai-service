@@ -95,5 +95,7 @@
       "text": "Bayangan A oleh refleksi terhadap garis y = -x adalah ({s3x}, {s3y}).",
       "correct": "s3x == -y and s3y == -x"
     }
-  ]
+  ],
+  "original_hash": "06f74b1e95a5c5aa",
+  "explanation": "Translasi menggunakan (x+c,y+d), menghasilkan ({s1x}, {s1y}). Refleksi sumbu X memakai (x,-y), menghasilkan ({s2x}, {s2y}). Refleksi y = -x harus memakai (-y,-x)."
 }

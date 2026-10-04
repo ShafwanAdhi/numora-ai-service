@@ -1,0 +1,97 @@
+{
+  "question_id": "pg-19-3-1",
+  "config_version": 1,
+  "original_hash": "70e6b5689b52938a",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "r": 7,
+    "h": 10,
+    "k": 2,
+    "m": 2
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        3,
+        20
+      ],
+      "step": 1
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ],
+      "step": 2
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "m": {
+      "gen": "choice",
+      "values": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "rb": {
+      "gen": "derived",
+      "expr": "r*k"
+    },
+    "hb": {
+      "gen": "derived",
+      "expr": "h/m",
+      "filters": [
+        "nodec"
+      ]
+    },
+    "q": {
+      "gen": "derived",
+      "expr": "k*k/m",
+      "filters": [
+        "nodec"
+      ]
+    },
+    "q2": {
+      "gen": "derived",
+      "expr": "q*q"
+    }
+  },
+  "constraints": [
+    "q > 1"
+  ],
+  "stem": "Tabung A memiliki jari-jari {r} cm dan tinggi {h} cm. Tabung B memiliki jari-jari {rb} cm dan tinggi {hb} cm. Analisis perbandingan volume Tabung A dan Tabung B adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "1 : {q}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "1 : {q2}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{q} : 1",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{q2} : 1",
+      "correct": false
+    }
+  ],
+  "explanation": "Faktor volume B/A = {k}²/{m} = {q}; perbandingan A:B = 1:{q}."
+}

@@ -96,5 +96,7 @@
       "text": "({o4x}, {o4y})",
       "correct": true
     }
-  ]
+  ],
+  "original_hash": "f400e1044474c606",
+  "explanation": "Dilatasi dengan faktor {k} mengalikan kedua koordinat: ({k} × {x}, {k} × {y}) = ({o4x}, {o4y})."
 }

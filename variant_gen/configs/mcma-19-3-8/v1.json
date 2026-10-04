@@ -1,0 +1,74 @@
+{
+  "question_id": "mcma-19-3-8",
+  "config_version": 1,
+  "original_hash": "07cf49a7b4e980a8",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 7,
+    "h": 10
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        35
+      ],
+      "step": 7
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        4,
+        30
+      ],
+      "step": 2
+    },
+    "cylinder": {
+      "gen": "derived",
+      "expr": "22/7*r*r*h"
+    },
+    "cone": {
+      "gen": "derived",
+      "expr": "cylinder/3"
+    },
+    "coneShown": {
+      "gen": "derived",
+      "expr": "round(cone,2)"
+    },
+    "halfH": {
+      "gen": "derived",
+      "expr": "h/2"
+    },
+    "halfCylinder": {
+      "gen": "derived",
+      "expr": "cylinder/2"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah tabung memiliki jari-jari {r} cm dan tinggi {h} cm. Sebuah kerucut memiliki jari-jari {r} cm dan tinggi {h} cm (gunakan π = 22/7). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Volume tabung adalah {cylinder} cm³.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Volume kerucut adalah {coneShown} cm³.",
+      "correct": "coneShown == round(cone,2)"
+    },
+    {
+      "id": "C",
+      "text": "Volume tabung sama dengan 3 kali volume kerucut.",
+      "correct": "cylinder == 3*cone"
+    },
+    {
+      "id": "D",
+      "text": "Jika tinggi tabung diubah menjadi {halfH} cm, volume tabung sama dengan 3 kali volume kerucut.",
+      "correct": "halfCylinder == 3*cone"
+    }
+  ],
+  "explanation": "Volume tabung = {cylinder} cm³; kerucut = {coneShown} cm³, dibulatkan dua desimal. Secara eksak tabung = 3 × kerucut. Tinggi tabung dibagi 2 hanya memberi 1,5 kali volume kerucut."
+}

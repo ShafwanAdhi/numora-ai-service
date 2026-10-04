@@ -69,5 +69,6 @@
       "text": "1 : {o4}",
       "correct": false
     }
-  ]
+  ],
+  "explanation": "Faktor panjang {k} menghasilkan faktor luas {k}² = {o1}; perbandingan luas semula dan baru adalah 1 : {o1}."
 }

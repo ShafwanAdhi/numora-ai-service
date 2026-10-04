@@ -121,5 +121,7 @@
       "text": "({o4x}, {o4y})",
       "correct": false
     }
-  ]
+  ],
+  "original_hash": "4be3f0d8e629fe3e",
+  "explanation": "Dua translasi dijumlahkan: (x+c1+c2,y+d1+d2) = ({o2x}, {o2y})."
 }

@@ -59,5 +59,6 @@
       "text": "Luas persegi panjang pada jaring-jaring adalah {x4} cm².",
       "correct": "x4 == Ks*t"
     }
-  ]
+  ],
+  "explanation": "Jaring-jaring tabung mempunyai dua lingkaran dan satu persegi panjang. Luas satu alas = {La} cm². Panjang persegi panjang = keliling alas = {Ks} cm; lebarnya adalah tinggi {t}."
 }

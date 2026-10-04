@@ -79,5 +79,6 @@
       "text": "{o4} cm²",
       "correct": false
     }
-  ]
+  ],
+  "explanation": "Luas tabung tertutup = 2πr² + 2πrt = 2πr(r+t). Dengan π = 22/7, r = {r}, t = {t}, hasilnya {o3} cm²."
 }

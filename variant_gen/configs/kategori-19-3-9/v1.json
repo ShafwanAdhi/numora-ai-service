@@ -1,0 +1,82 @@
+{
+  "question_id": "kategori-19-3-9",
+  "config_version": 1,
+  "original_hash": "5345ab19090ad810",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 14,
+    "h": 30,
+    "q": 100,
+    "k": 2
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        35
+      ],
+      "step": 7
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        10,
+        50
+      ],
+      "step": 5
+    },
+    "q": {
+      "gen": "choice",
+      "values": [
+        50,
+        100,
+        200
+      ]
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "V": {
+      "gen": "derived",
+      "expr": "22/7*r*r*h"
+    },
+    "t": {
+      "gen": "derived",
+      "expr": "V/q",
+      "filters": [
+        "step0.01"
+      ]
+    },
+    "k2": {
+      "gen": "derived",
+      "expr": "k*k"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah wadah air berbentuk tabung memiliki jari-jari {r} cm dan tinggi {h} cm. Wadah tersebut diisi air hingga penuh (gunakan π = 22/7). Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Volume wadah air tersebut adalah {V} cm³.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika air dikeluarkan dengan debit {q} cm³/detik, wadah akan kosong dalam waktu {t} detik.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika jari-jari wadah diperbesar {k} kali, maka volume wadah menjadi {k} kali lipat.",
+      "correct": "k == k2"
+    }
+  ],
+  "explanation": "Volume tabung = {V} cm³. Waktu pengosongan = volume/debit = {V}/{q} = {t} detik. Radius dikali {k} memberi faktor volume {k2}."
+}

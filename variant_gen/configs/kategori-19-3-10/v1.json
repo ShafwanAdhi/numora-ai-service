@@ -1,0 +1,77 @@
+{
+  "question_id": "kategori-19-3-10",
+  "config_version": 1,
+  "original_hash": "7beedbe24afe4827",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 6,
+    "R": 10,
+    "h": 20
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        3,
+        12
+      ],
+      "step": 3
+    },
+    "R": {
+      "gen": "range",
+      "range": [
+        6,
+        24
+      ],
+      "step": 1
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        8,
+        40
+      ],
+      "step": 2
+    },
+    "diameter": {
+      "gen": "derived",
+      "expr": "2*r"
+    },
+    "sphere": {
+      "gen": "derived",
+      "expr": "4/3*3.14*r*r*r"
+    },
+    "cylinder": {
+      "gen": "derived",
+      "expr": "3.14*R*R*h"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "cylinder/2"
+    }
+  },
+  "constraints": [
+    "r <= R",
+    "2*r <= h"
+  ],
+  "stem": "Sebuah bola besi berjari-jari {r} cm dimasukkan ke dalam tabung yang penuh berisi air dengan jari-jari {R} cm dan tinggi {h} cm hingga bola tenggelam seluruhnya (gunakan π = 3,14). Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Volume bola besi tersebut adalah {sphere} cm³.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Volume air yang tumpah dari tabung sama dengan volume bola besi.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Volume tabung tersebut adalah {wrong} cm³.",
+      "correct": "wrong == cylinder"
+    }
+  ],
+  "explanation": "Bola muat sepenuhnya: diameter {diameter} cm tidak melebihi tinggi tabung, radiusnya tidak melebihi radius tabung. Volume bola = {sphere} cm³; air yang tumpah sama dengan volume bola. Volume tabung sebenarnya = {cylinder} cm³."
+}

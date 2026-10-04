@@ -99,5 +99,7 @@
       "text": "({o4x}, {o4y})",
       "correct": false
     }
-  ]
+  ],
+  "original_hash": "17d9ff7a6a7511ab",
+  "explanation": "Translasi T({c}, {d}) menghasilkan (x+c,y+d) = ({o1x}, {o1y})."
 }

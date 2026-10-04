@@ -1,0 +1,85 @@
+{
+  "question_id": "pg-19-2-1",
+  "config_version": 1,
+  "original_hash": "d862c475238e99ea",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "a": 8,
+    "b": 6,
+    "h": 12
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        4,
+        24
+      ],
+      "step": 2
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        4,
+        24
+      ],
+      "step": 2
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        5,
+        25
+      ],
+      "step": 1
+    },
+    "base": {
+      "gen": "derived",
+      "expr": "a*b/2"
+    },
+    "V": {
+      "gen": "derived",
+      "expr": "base*h"
+    },
+    "half": {
+      "gen": "derived",
+      "expr": "V/2"
+    },
+    "threequarter": {
+      "gen": "derived",
+      "expr": "3*V/4"
+    },
+    "twice": {
+      "gen": "derived",
+      "expr": "2*V"
+    }
+  },
+  "constraints": [
+    "V % 4 == 0"
+  ],
+  "stem": "Sebuah prisma segitiga memiliki alas berbentuk segitiga dengan panjang alas {a} cm dan tinggi {b} cm. Jika tinggi prisma tersebut adalah {h} cm, maka volume prisma tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{half} cm³",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{threequarter} cm³",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{V} cm³",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{twice} cm³",
+      "correct": false
+    }
+  ],
+  "explanation": "Luas alas = {a} × {b}/2 = {base} cm². Volume prisma = {base} × {h} = {V} cm³."
+}

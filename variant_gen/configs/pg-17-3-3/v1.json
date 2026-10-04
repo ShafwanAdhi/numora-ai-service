@@ -1,0 +1,76 @@
+{
+  "question_id": "pg-17-3-3",
+  "config_version": 1,
+  "original_hash": "bee7ea7e28feb2b1",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "x": 2,
+    "y": 1,
+    "theta": 90
+  },
+  "variables": {
+    "x": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "step": 1,
+      "filters": [
+        "nozero"
+      ]
+    },
+    "y": {
+      "gen": "range",
+      "range": [
+        -9,
+        9
+      ],
+      "step": 1,
+      "filters": [
+        "nozero"
+      ]
+    },
+    "theta": {
+      "gen": "choice",
+      "values": [
+        90,
+        180
+      ]
+    },
+    "rx": {
+      "gen": "derived",
+      "expr": "-y if theta == 90 else -x"
+    },
+    "ry": {
+      "gen": "derived",
+      "expr": "x if theta == 90 else -y"
+    }
+  },
+  "constraints": [],
+  "stem": "Titik C({x}, {y}) memiliki bayangan C'({rx}, {ry}) setelah dirotasi terhadap titik pusat (0,0). Analisis sudut dan arah rotasi yang tepat untuk transformasi tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "90° berlawanan arah jarum jam",
+      "correct": "theta == 90"
+    },
+    {
+      "id": "B",
+      "text": "90° searah jarum jam",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "180° berlawanan arah jarum jam",
+      "correct": "theta == 180"
+    },
+    {
+      "id": "D",
+      "text": "270° berlawanan arah jarum jam",
+      "correct": false
+    }
+  ],
+  "explanation": "Rotasi 90° berlawanan arah jarum jam memakai (-y,x); rotasi 180° memakai (-x,-y). Titik ({x}, {y}) menjadi ({rx}, {ry}) melalui rotasi {theta}° berlawanan arah jarum jam."
+}

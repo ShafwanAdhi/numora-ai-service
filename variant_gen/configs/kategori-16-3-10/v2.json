@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-16-3-10",
+  "config_version": 2,
+  "original_hash": "fc77e40f5fe035d7",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "r": 14,
+    "s": 30,
+    "k": 2
+  },
+  "variables": {
+    "r": {
+      "gen": "range",
+      "range": [
+        7,
+        28
+      ],
+      "step": 7
+    },
+    "s": {
+      "gen": "range",
+      "range": [
+        20,
+        60
+      ],
+      "step": 5
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "La": {
+      "gen": "derived",
+      "expr": "22/7*r*r"
+    },
+    "x2": {
+      "gen": "derived",
+      "expr": "La/2",
+      "filters": [
+        "nominus",
+        "nodec"
+      ]
+    },
+    "s2": {
+      "gen": "derived",
+      "expr": "s*k"
+    }
+  },
+  "stem": "Sebuah kerucut memiliki jari-jari alas {r} cm dan garis pelukis {s} cm. Jaring-jaring kerucut terdiri dari sebuah lingkaran dan sebuah juring lingkaran (gunakan π = 22/7). Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Panjang busur juring lingkaran pada jaring-jaring sama dengan keliling alas kerucut.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas alas kerucut tersebut adalah {x2} cm².",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Jika garis pelukis kerucut diperpanjang menjadi {s2} cm, maka luas selimutnya menjadi {k} kali lipat.",
+      "correct": true
+    }
+  ],
+  "explanation": "Jaring-jaring kerucut terdiri dari lingkaran alas dan juring selimut. Luas alas = πr² = {La} cm²; luas selimut = πrs. Jika garis pelukis dikali {k} dengan r tetap, luas selimut juga dikali {k}.",
+  "constraints": [
+    "s > r"
+  ]
+}

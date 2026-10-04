@@ -1,0 +1,95 @@
+{
+  "question_id": "mcma-18-1-8",
+  "config_version": 1,
+  "original_hash": "bdb227a9096ef928",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "p": 20,
+    "l": 15,
+    "cost": 10000,
+    "delta": 5
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        12,
+        40
+      ],
+      "step": 1
+    },
+    "l": {
+      "gen": "range",
+      "range": [
+        6,
+        24
+      ],
+      "step": 1
+    },
+    "cost": {
+      "gen": "range",
+      "range": [
+        5000,
+        20000
+      ],
+      "step": 1000
+    },
+    "delta": {
+      "gen": "range",
+      "range": [
+        2,
+        10
+      ],
+      "step": 1
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "2*(p+l)"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "p*l"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "A*cost"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "total*2/3"
+    },
+    "new": {
+      "gen": "derived",
+      "expr": "(p+delta)*l"
+    }
+  },
+  "constraints": [
+    "p > l",
+    "total % 3 == 0"
+  ],
+  "stem": "Sebuah lapangan berbentuk persegi panjang memiliki panjang {p} meter dan lebar {l} meter. Pilihlah semua pernyataan yang benar terkait lapangan tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Keliling lapangan adalah {K} meter.",
+      "correct": "K == 2*(p+l)"
+    },
+    {
+      "id": "B",
+      "text": "Luas lapangan adalah {A} m².",
+      "correct": "A == p*l"
+    },
+    {
+      "id": "C",
+      "text": "Jika lapangan ditanami rumput dengan biaya Rp{cost}/m², total biaya adalah Rp{wrong}.",
+      "correct": "wrong == total"
+    },
+    {
+      "id": "D",
+      "text": "Jika panjang lapangan ditambah {delta} meter, luasnya menjadi {new} m².",
+      "correct": "new == (p+delta)*l"
+    }
+  ],
+  "explanation": "Keliling = {K} m; luas = {A} m². Biaya rumput seharusnya Rp{total}. Setelah panjang ditambah {delta}, luas = {new} m²."
+}

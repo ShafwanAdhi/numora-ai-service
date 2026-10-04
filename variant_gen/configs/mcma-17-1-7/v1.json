@@ -92,5 +92,7 @@
       "text": "Bayangan Q oleh dilatasi dengan faktor skala -1 terhadap pusat (0,0) adalah ({d1x}, {d1y}).",
       "correct": "d1x == -x and d1y == -y"
     }
-  ]
+  ],
+  "original_hash": "98e2b9be197acd13",
+  "explanation": "Dilatasi faktor {k} menghasilkan ({a1x}, {a1y}). Rotasi 90° searah jarum jam menghasilkan ({b1x}, {b1y}); rotasi 180° menghasilkan ({c1x}, {c1y}). Dilatasi faktor -1 harus mengubah kedua tanda."
 }

@@ -86,5 +86,7 @@
       "text": "({o4x}, {o4y})",
       "correct": false
     }
-  ]
+  ],
+  "original_hash": "4ebc8e1cf6a37deb",
+  "explanation": "Refleksi terhadap garis y = x menukar kedua koordinat: ({x}, {y}) → ({o2x}, {o2y})."
 }

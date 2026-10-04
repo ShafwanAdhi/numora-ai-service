@@ -1,0 +1,91 @@
+{
+  "question_id": "mcma-18-2-6",
+  "config_version": 1,
+  "original_hash": "45fd0042c3e078f2",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "p": 20,
+    "l": 10,
+    "d": 7
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        14,
+        40
+      ],
+      "step": 2
+    },
+    "l": {
+      "gen": "range",
+      "range": [
+        8,
+        30
+      ],
+      "step": 2
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        7,
+        28
+      ],
+      "step": 7
+    },
+    "r": {
+      "gen": "derived",
+      "expr": "d/2"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "p*l"
+    },
+    "pool": {
+      "gen": "derived",
+      "expr": "22/7*r*r"
+    },
+    "outside": {
+      "gen": "derived",
+      "expr": "A-pool"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "outside-3/2"
+    },
+    "doubleD": {
+      "gen": "derived",
+      "expr": "2*d"
+    }
+  },
+  "constraints": [
+    "p > l",
+    "d < l",
+    "outside > 3/2"
+  ],
+  "stem": "Sebuah lapangan berbentuk persegi panjang memiliki panjang {p} meter dan lebar {l} meter. Di tengah lapangan terdapat kolam berbentuk lingkaran dengan diameter {d} meter (gunakan π = 22/7). Pilihlah semua pernyataan yang benar terkait analisis luas daerah tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Luas lapangan seluruhnya adalah {A} m².",
+      "correct": "A == p*l"
+    },
+    {
+      "id": "B",
+      "text": "Luas kolam adalah {pool} m².",
+      "correct": "pool == 22/7*r*r"
+    },
+    {
+      "id": "C",
+      "text": "Luas lapangan di luar kolam adalah {wrong} m².",
+      "correct": "wrong == outside"
+    },
+    {
+      "id": "D",
+      "text": "Jika diameter kolam diperbesar menjadi {doubleD} meter, maka luas kolam menjadi 4 kali lipat.",
+      "correct": true
+    }
+  ],
+  "explanation": "Luas lapangan = {A} m²; kolam = π({d}/2)² = {pool} m². Daerah di luar kolam = {outside} m². Diameter dikali 2 memberi faktor luas 4."
+}

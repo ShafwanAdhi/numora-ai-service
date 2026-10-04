@@ -1,0 +1,65 @@
+{
+  "question_id": "kategori-18-1-9",
+  "config_version": 1,
+  "original_hash": "8d7733ab5776f67c",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {
+    "s": 8,
+    "k": 2
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        3,
+        30
+      ],
+      "step": 1
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "K": {
+      "gen": "derived",
+      "expr": "4*s"
+    },
+    "A": {
+      "gen": "derived",
+      "expr": "s*s"
+    },
+    "wrong": {
+      "gen": "derived",
+      "expr": "6*s"
+    },
+    "k2": {
+      "gen": "derived",
+      "expr": "k*k"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah persegi memiliki panjang sisi {s} cm. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Keliling persegi tersebut adalah {K} cm.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas persegi tersebut adalah {wrong} cm².",
+      "correct": "wrong == A"
+    },
+    {
+      "id": "3",
+      "text": "Jika panjang sisi persegi diperbesar {k} kali, maka luasnya menjadi {k2} kali lipat.",
+      "correct": true
+    }
+  ],
+  "explanation": "Keliling = 4s = {K} cm; luas sebenarnya = s² = {A} cm². Sisi dikali {k} memberi faktor luas {k2}."
+}

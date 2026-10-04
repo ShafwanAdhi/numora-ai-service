@@ -97,5 +97,7 @@
       "text": "Bayangan P jika dirotasi 180° terhadap titik pusat (0,0) adalah ({b1x}, {b1y}).",
       "correct": "b1x == -x and b1y == -y"
     }
-  ]
+  ],
+  "original_hash": "788c481be50edb3e",
+  "explanation": "Translasi menghasilkan ({a1x}, {a1y}); refleksi sumbu Y menghasilkan ({b1x}, {b1y}); refleksi sumbu X menghasilkan ({c1x}, {c1y}). Rotasi 180° harus mengubah kedua tanda koordinat."
 }

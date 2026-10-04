@@ -1,0 +1,72 @@
+{
+  "question_id": "pg-19-2-2",
+  "config_version": 1,
+  "original_hash": "7c8d7916743e418b",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "s": 14,
+    "h": 18
+  },
+  "variables": {
+    "s": {
+      "gen": "range",
+      "range": [
+        6,
+        28
+      ],
+      "step": 2
+    },
+    "h": {
+      "gen": "range",
+      "range": [
+        6,
+        30
+      ],
+      "step": 3
+    },
+    "V": {
+      "gen": "derived",
+      "expr": "s*s*h/3"
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "V*6/7"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "V*8/7"
+    },
+    "prism": {
+      "gen": "derived",
+      "expr": "3*V"
+    }
+  },
+  "constraints": [
+    "V % 7 == 0"
+  ],
+  "stem": "Sebuah limas segi empat memiliki alas berbentuk persegi dengan panjang sisi {s} cm. Jika tinggi limas tersebut adalah {h} cm, maka volume limas tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1} cm³",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{V} cm³",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{o3} cm³",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{prism} cm³",
+      "correct": false
+    }
+  ],
+  "explanation": "Volume limas = {s}² × {h}/3 = {V} cm³."
+}

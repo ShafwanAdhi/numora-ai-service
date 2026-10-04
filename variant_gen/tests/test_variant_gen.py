@@ -1,5 +1,6 @@
 """Run:  python -m unittest discover -s tests -v   (from the variant_gen folder)"""
 import contextlib
+import csv
 import io
 import json
 import shutil
@@ -13,12 +14,15 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 import cli
-from bank import OriginalBank
-from config_store import ConfigStore
+from bank import OriginalBank, _parse_row
+from config_store import ConfigStore, validate_config
 from engine import generate
+from filters import correct_set, signature
+from handoff import export_record
 from expr import ExprError, RejectDraw, evaluate, format_number, render
 from lint import run_lint
 from store import VariantStore
+from store import StoreError
 
 BANK = ROOT / "data" / "q0_bank.csv"
 CONFIG_QIDS = sorted(p.name for p in (ROOT / "configs").iterdir() if p.is_dir())
@@ -77,7 +81,9 @@ class Configs(unittest.TestCase):
             a = generate(orig, cfg, 3, [])
             b = generate(orig, cfg, 3, [])
             self.assertEqual((a.values, a.cand), (b.values, b.cand), qid)
-            self.assertNotEqual(a.cand["stem"], orig["stem"], qid)
+            self.assertNotEqual(signature(a.cand["stem"], a.cand["options"]),
+                                signature(orig["stem"], orig["options"]), qid)
+            self.assertNotEqual(correct_set(a.cand["options"]), correct_set(orig["options"]), qid)
 
     def test_original_is_untouchable(self):
         orig = self.bank.get("pg-18-3-1")
@@ -85,7 +91,7 @@ class Configs(unittest.TestCase):
         self.assertNotEqual(self.bank.get("pg-18-3-1")["stem"], "tampered")
 
 
-class Cli(unittest.TestCase):
+class CliHarness(unittest.TestCase):
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp())
         self.cfg_dir = self.tmp / "configs"
@@ -100,6 +106,8 @@ class Cli(unittest.TestCase):
         with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
             return cli.main(list(a) + self.args)
 
+
+class Cli(CliHarness):
     def test_gen_is_idempotent_and_regen_versions(self):
         q = "pg-18-3-1"
         self.assertEqual(self.run_cli("gen", q, "s4"), 0)
@@ -139,6 +147,128 @@ class Cli(unittest.TestCase):
         codes = [self.run_cli("gen", q, f"s{i}") for i in range(1, 12)]
         self.assertIn(1, codes)
         self.assertEqual(len(self.store.for_question(q)), codes.count(0))
+
+
+class Regressions(CliHarness):
+    def setUp(self):
+        super().setUp()
+        # Exercise the other regressions independently of the bank's BOM bug.
+        clean_bank = self.tmp / "bank.csv"
+        clean_bank.write_text(BANK.read_text(encoding="utf-8-sig"), encoding="utf-8")
+        self.args += ["--bank", str(clean_bank)]
+
+    def test_bom_bank_loads(self):
+        try:
+            bank = OriginalBank(BANK)
+        except KeyError as error:
+            self.fail(f"BOM must not become part of the CSV header: {error}")
+        self.assertIn("pg-18-3-1", bank.ids())
+
+    def test_missing_or_wrong_original_hash_is_rejected(self):
+        with BANK.open(encoding="utf-8-sig", newline="") as f:
+            row = next(r for r in csv.DictReader(f) if r["id"] == "pg-18-3-1")
+        original = _parse_row(row, 2)
+        config, _ = ConfigStore(ROOT / "configs").load(original["id"])
+        for bad_hash in (None, "wrong"):
+            changed = dict(config)
+            if bad_hash is None:
+                changed.pop("original_hash", None)
+            else:
+                changed["original_hash"] = bad_hash
+            self.assertTrue(validate_config(changed, original), bad_hash)
+
+    def test_all_config_paths_match_bank_ids_exactly(self):
+        bank = OriginalBank(self.tmp / "bank.csv")
+        for path in (ROOT / "configs").glob("*/v*.json"):
+            config = json.loads(path.read_text(encoding="utf-8"))
+            self.assertEqual(path.parent.name, config["question_id"])
+            self.assertIn(path.parent.name, bank.ids())
+
+    def test_explanation_is_rendered_and_saved(self):
+        self.assertEqual(self.run_cli("gen", "pg-18-3-1", "s4"), 0)
+        record = self.store.get("pg-18-3-1", 4)
+        self.assertTrue(record.get("explanation"), "a variant needs its own explanation")
+        self.assertNotIn("{", record["explanation"])
+        self.assertIn(record["key"], record["explanation"])
+
+    def test_blank_regen_reason_does_not_append(self):
+        qid = "pg-18-3-1"
+        self.assertEqual(self.run_cli("gen", qid, "s4"), 0)
+        self.assertEqual(self.run_cli("regen", qid, "s4", "--reason", "   "), 1)
+        self.assertEqual(len(self.store.versions_of_seed(qid, 4)), 1)
+
+    def test_historical_snapshots_migrate_without_overwrite(self):
+        shutil.copyfile(ROOT / "store" / "variants.jsonl", self.store.path)
+        for qid in ("pg-16-1-3", "kategori-19-1-9", "mcma-18-1-7"):
+            before = self.store.versions_of_seed(qid, 1)
+            self.assertEqual(self.run_cli("gen", qid, "s1"), 0)
+            self.assertEqual(self.store.versions_of_seed(qid, 1), before)
+            self.assertEqual(self.run_cli("regen", qid, "s1"), 0)
+            after = self.store.versions_of_seed(qid, 1)
+            self.assertEqual(after[:-1], before)
+            self.assertEqual(after[-1]["config_ver"], 2)
+            self.assertTrue(after[-1]["explanation"])
+
+    def test_export_preserves_answers_for_all_formats_and_rejects_legacy(self):
+        for qid in ("pg-18-3-1", "mcma-17-2-7", "kategori-19-1-9"):
+            self.assertEqual(self.run_cli("gen", qid, "s4"), 0)
+            record = self.store.get(qid, 4)
+            mapping = {
+                "questionExternalId": qid,
+                "originalHash": record["original_hash"],
+                "originalVersion": record["original_version"],
+                "familyId": "11111111-1111-4111-8111-111111111111",
+                "parentQuestionVersionId": "22222222-2222-4222-8222-222222222222",
+                "scoringRubricVersionId": "33333333-3333-4333-8333-333333333333",
+            }
+            exported = export_record(record, mapping)
+            self.assertEqual(exported["payload"]["options"], record["options"])
+            self.assertEqual(exported["generation"]["reviewStatus"], "REVIEW")
+            correct = set(record["key"].split(","))
+            if record["format"] == "PG":
+                self.assertEqual(exported["answer"]["correctOptionId"], record["key"])
+            elif record["format"] == "MCMA":
+                self.assertEqual(set(exported["answer"]["correctOptionIds"]), correct)
+            else:
+                statements = exported["answer"]["statements"]
+                self.assertEqual(len(statements), len(record["options"]))
+                self.assertEqual({s["id"] for s in statements if s["correct"]}, correct)
+                self.assertTrue(any(not s["correct"] for s in statements))
+            legacy = {k: v for k, v in record.items() if k != "explanation"}
+            with self.assertRaises(StoreError):
+                export_record(legacy, mapping)
+
+    def test_export_requires_real_matching_mapping(self):
+        qid = "pg-18-3-1"
+        self.assertEqual(self.run_cli("gen", qid, "s4"), 0)
+        record = self.store.get(qid, 4)
+        mapping = {
+            "questionExternalId": qid,
+            "originalHash": record["original_hash"],
+            "originalVersion": record["original_version"],
+            "familyId": "11111111-1111-4111-8111-111111111111",
+            "parentQuestionVersionId": "22222222-2222-4222-8222-222222222222",
+            "scoringRubricVersionId": "33333333-3333-4333-8333-333333333333",
+        }
+        path = self.tmp / "mapping.json"
+        path.write_text(json.dumps(mapping), encoding="utf-8")
+        output = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(output), contextlib.redirect_stderr(io.StringIO()):
+                status = cli.main(["export", qid, "s4", "--mapping", str(path)] + self.args)
+        except SystemExit:
+            self.fail("the export command is missing")
+        self.assertEqual(status, 0)
+        exported = json.loads(output.getvalue())
+        self.assertEqual(exported["variantExternalId"], record["record_id"])
+        self.assertEqual(exported["payload"]["parentQuestionVersionId"], mapping["parentQuestionVersionId"])
+        self.assertEqual(exported["explanation"]["text"], record["explanation"])
+        for field, value in (("originalHash", "wrong"), ("originalVersion", 999),
+                             ("familyId", None), ("scoringRubricVersionId", "not-a-uuid"),
+                             ("parentQuestionVersionId", "00000000-0000-0000-0000-000000000000")):
+            changed = {**mapping, field: value}
+            path.write_text(json.dumps(changed), encoding="utf-8")
+            self.assertEqual(self.run_cli("export", qid, "s4", "--mapping", str(path)), 1, field)
 
 
 if __name__ == "__main__":

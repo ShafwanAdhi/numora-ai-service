@@ -1,0 +1,70 @@
+{
+  "question_id": "pg-19-3-3",
+  "config_version": 1,
+  "original_hash": "b956b04a1bc40ad5",
+  "max_draws": 200,
+  "shuffle": true,
+  "original_values": {
+    "V": 288,
+    "k": 2
+  },
+  "variables": {
+    "V": {
+      "gen": "range",
+      "range": [
+        48,
+        960
+      ],
+      "step": 48
+    },
+    "k": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    "o1": {
+      "gen": "derived",
+      "expr": "V*k"
+    },
+    "o2": {
+      "gen": "derived",
+      "expr": "V*k*k"
+    },
+    "o3": {
+      "gen": "derived",
+      "expr": "V*(k*k*k-2)"
+    },
+    "new": {
+      "gen": "derived",
+      "expr": "V*k*k*k"
+    }
+  },
+  "constraints": [],
+  "stem": "Volume sebuah bola adalah {V}π cm³. Jika jari-jari bola tersebut diperbesar {k} kali, maka analisis volume bola yang baru adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{o1}π cm³",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{o2}π cm³",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{o3}π cm³",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{new}π cm³",
+      "correct": true
+    }
+  ],
+  "explanation": "Volume sebanding r³. Faktor radius {k} menghasilkan volume baru {new}π cm³."
+}

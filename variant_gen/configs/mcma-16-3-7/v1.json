@@ -63,5 +63,6 @@
       "text": "Luas permukaan total tabung adalah {x4} cm².",
       "correct": true
     }
-  ]
+  ],
+  "explanation": "Keliling alas = {Ks} cm; luas satu alas = {La} cm². Luas selimut = keliling × tinggi {t}. Luas tabung tertutup = 2πr(r+t) = {x4} cm²."
 }
