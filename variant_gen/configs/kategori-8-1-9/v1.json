@@ -1,0 +1,112 @@
+{
+  "question_id": "kategori-8-1-9",
+  "config_version": 1,
+  "original_hash": "11833951c6688c5d",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "450000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "150000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "150000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "450000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "150000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "450000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Guru PJOK memiliki anggaran maksimum Rp{v1} untuk membeli perlengkapan olahraga sekolah. Ia membeli 1 buah bola basket seharga Rp{v2} dan beberapa bola kasti seharga Rp25.000 per buah. Misalkan y menyatakan banyak bola kasti yang dibeli.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Model pertidaksamaan yang sesuai dengan batasan anggaran tersebut adalah 25.000y+{v3}≤{v4}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Banyak bola kasti maksimum yang dapat dibeli oleh Guru PJOK adalah {v5} buah.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika Guru PJOK membeli {v6} bola kasti, sisa uang anggaran adalah Rp{v7}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Model 25000y+{v8} <= {v9}, y maksimum {v10}. Bila membeli {v11}, sisa {v12} rupiah."
+}

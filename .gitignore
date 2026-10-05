@@ -3,3 +3,9 @@
 !.env.example
 .playwright-cli/
 output/playwright/
+
+# Python bytecode and local authoring scratch
+__pycache__/
+*.py[cod]
+.scratch/
+scratch/

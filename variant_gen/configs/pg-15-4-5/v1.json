@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-15-4-5",
+  "config_version": 1,
+  "original_hash": "829de113fd03b0d3",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "540*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "240*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tanah A berbentuk persegi panjang berukuran {v0} m × {v1} m. Tanah B sebangun dengan tanah A dan panjangnya {v2} m. Pak Dodi menyatakan bahwa luas tanah B pasti 1,5 kali luas tanah A karena panjang tanah B adalah 1,5 kali panjang tanah A. Penilaian yang tepat terhadap pernyataan Pak Dodi adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena luas berbanding lurus dengan panjang sisi sehingga luas tanah B adalah 1,5 kali luas tanah A.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena luas tanah B adalah 2,25 kali luas tanah A, yaitu {v3} m^(2) berbanding {v4} m^(2).",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena luas tanah B adalah 2 kali luas tanah A.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena luas tanah B adalah 3 kali luas tanah A.",
+      "correct": false
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Salah. Benar, karena luas berbanding lurus dengan panjang sisi sehingga luas tanah B adalah 1,5 kali luas tanah A.\nB: Benar. Salah, karena luas tanah B adalah 2,25 kali luas tanah A, yaitu {v3} m^(2) berbanding {v4} m^(2).\nC: Salah. Salah, karena luas tanah B adalah 2 kali luas tanah A.\nD: Salah. Salah, karena luas tanah B adalah 3 kali luas tanah A."
+}

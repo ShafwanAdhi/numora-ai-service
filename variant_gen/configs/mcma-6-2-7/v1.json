@@ -1,0 +1,93 @@
+{
+  "question_id": "mcma-6-2-7",
+  "config_version": 1,
+  "original_hash": "14e6d91ea1fd0110",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "360*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "45*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "360*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "360*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "45*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "48*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia studi wisata SMP menganalisis penawaran dari dua armada bus pariwisata untuk kegiatan karya wisata:\nBus Anggrek: Mengonsumsi 15 liter solar untuk menempuh jarak 120 km.\nBus Mawar: Mengonsumsi 20 liter solar untuk menempuh jarak 150 km.\nPerjalanan studi wisata akan menempuh jarak total {v1}km. Manakah pernyataan berikut yang benar terkait analisis efisiensi bahan bakar kedua bus tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bus Anggrek membutuhkan {v2} liter solar untuk menempuh seluruh perjalanan pergi.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Bus Mawar lebih hemat bahan bakar daripada Bus Anggrek karena mampu menempuh jarak lebih jauh dalam sekali pengisian.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Untuk jarak {v3}km, Bus Mawar membutuhkan {v4} liter solar lebih banyak daripada Bus Anggrek.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rasio konsumsi bahan bakar Bus Anggrek adalah 8km/liter, sedangkan Bus Mawar adalah 7,5km/liter.",
+      "correct": true
+    }
+  ],
+  "explanation": "Efisiensi Anggrek 120/15=8 km/liter, Mawar 150/20=7,5. Jarak {v5} km memerlukan {v6} dan {v7} liter; selisih {v8}."
+}

@@ -1,0 +1,166 @@
+{
+  "question_id": "kategori-10-3-10",
+  "config_version": 1,
+  "original_hash": "a529359ae1483897",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 1 else k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "6*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "2*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "6*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "4*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tim tata ruang sekolah menganalisis dua area tanah untuk stan bazar:\nLahan A (Persegi Panjang): Panjang p=(3x+{v1})m dan lebar l=(x-{v2})m\nLahan B (Segitiga Siku-Siku): Alas a=(2x+{v3})m dan tinggi t=(3x-{v4})m\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas Lahan A dalam bentuk aljabar adalah (3x^2-{v5}x-{v6})m^2.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas Lahan B dalam bentuk aljabar adalah (3x^2+{v7}x-{v8})m^2.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Selisih Luas Lahan B terhadap Luas Lahan A adalah ({v9}x-{v10})m^2.",
+      "correct": true
+    }
+  ],
+  "explanation": "Luas A=(3x+{v11})(x-{v12})=3x^2-{v13}x-{v14}. Luas B=(2x+{v15})(3x-{v16})/2=3x^2+{v17}x-{v18}. B-A={v19}x-{v20}; domain geometris x>{v21}."
+}

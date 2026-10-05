@@ -1,0 +1,168 @@
+{
+  "question_id": "mcma-23-2-6",
+  "config_version": 1,
+  "original_hash": "dd617d519e572456",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "trials": 100,
+    "delta": 0
+  },
+  "variables": {
+    "trials": {
+      "gen": "choice",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600
+      ]
+    },
+    "delta": {
+      "gen": "range",
+      "range": [
+        -60,
+        60
+      ],
+      "step": 1
+    },
+    "observed0": {
+      "gen": "derived",
+      "expr": "(17/100)*trials+delta",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "frequency0": {
+      "gen": "derived",
+      "expr": "observed0/trials",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "claim0": {
+      "gen": "derived",
+      "expr": "observed0/trials+(0/1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "observed1": {
+      "gen": "derived",
+      "expr": "(52/100)*trials+delta",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "frequency1": {
+      "gen": "derived",
+      "expr": "observed1/trials",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "claim1": {
+      "gen": "derived",
+      "expr": "observed1/trials+(0/1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "observed2": {
+      "gen": "derived",
+      "expr": "(25/100)*trials+delta",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "frequency2": {
+      "gen": "derived",
+      "expr": "observed2/trials",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "claim2": {
+      "gen": "derived",
+      "expr": "observed2/trials+(-1/20)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "display2": {
+      "gen": "derived",
+      "expr": "\"0,20\" if trials == 100 and delta == 0 else claim2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "observed3": {
+      "gen": "derived",
+      "expr": "(16/100)*trials+delta",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "frequency3": {
+      "gen": "derived",
+      "expr": "observed3/trials",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "claim3": {
+      "gen": "derived",
+      "expr": "observed3/trials+(0/1)",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah dadu dilempar sebanyak {trials} kali.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jika angka 1 muncul {observed0} kali, frekuensi relatifnya {claim0}.",
+      "correct": "(observed0/trials) == (observed0/trials+(0/1))"
+    },
+    {
+      "id": "B",
+      "text": "Jika angka genap muncul {observed1} kali, frekuensi relatifnya {claim1}.",
+      "correct": "(observed1/trials) == (observed1/trials+(0/1))"
+    },
+    {
+      "id": "C",
+      "text": "Jika angka 6 muncul {observed2} kali, frekuensi relatifnya {display2}.",
+      "correct": "(observed2/trials) == (observed2/trials+(-1/20))"
+    },
+    {
+      "id": "D",
+      "text": "Jika angka 3 muncul {observed3} kali, frekuensi relatifnya {claim3}.",
+      "correct": "(observed3/trials) == (observed3/trials+(0/1))"
+    }
+  ],
+  "explanation": "Untuk setiap kondisi, frekuensi relatif = kemunculan/jumlah percobaan. Nilai aktual per pernyataan: {frequency0}, {frequency1}, {frequency2}, {frequency3}.",
+  "constraints": [
+    "observed0 >= 0",
+    "observed0 <= trials",
+    "(observed0/trials+(0/1)) >= 0",
+    "(observed0/trials+(0/1)) <= 1",
+    "(observed0/trials+(0/1)) == round(observed0/trials+(0/1),2)",
+    "observed1 >= 0",
+    "observed1 <= trials",
+    "(observed1/trials+(0/1)) >= 0",
+    "(observed1/trials+(0/1)) <= 1",
+    "(observed1/trials+(0/1)) == round(observed1/trials+(0/1),2)",
+    "observed2 >= 0",
+    "observed2 <= trials",
+    "(observed2/trials+(-1/20)) >= 0",
+    "(observed2/trials+(-1/20)) <= 1",
+    "(observed2/trials+(-1/20)) == round(observed2/trials+(-1/20),2)",
+    "observed3 >= 0",
+    "observed3 <= trials",
+    "(observed3/trials+(0/1)) >= 0",
+    "(observed3/trials+(0/1)) <= 1",
+    "(observed3/trials+(0/1)) == round(observed3/trials+(0/1),2)"
+  ]
+}

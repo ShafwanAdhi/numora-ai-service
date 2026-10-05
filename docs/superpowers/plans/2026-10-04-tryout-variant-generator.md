@@ -1,5 +1,8 @@
 # Tryout Variant Generator Implementation Plan
 
+> Arsip rancangan/rencana bertanggal; status dan checklist di bawah mencatat tahap saat dokumen ditulis. Untuk implementasi saat ini lihat [kondisi repo](../../audits/2026-10-05-repository-status.md) dan [panduan aktif](../../../readme.md).
+
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans untuk implementasi inline task-by-task. Langkah memakai checkbox; jangan mulai sebelum pengguna mereview plan. Review independen dilakukan setelah implementasi.
 
 **Goal:** 30 original Tryout 1 tercatat, 27 generator numerik/analitis lengkap,

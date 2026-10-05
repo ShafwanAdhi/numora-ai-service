@@ -1,0 +1,80 @@
+{
+  "question_id": "pg-20-3-1",
+  "config_version": 1,
+  "original_hash": "c35231bc51ca30fd",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "a": 8,
+    "b": 18,
+    "c": 10,
+    "d": 4
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "step": 2
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "step": 2
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "step": 2
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "step": 2
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "a+b+c+d",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah kelas melakukan survei terhadap {total} siswa mengenai waktu belajar di rumah.\nWaktu Belajar | Jumlah Siswa\nKurang dari 1 jam | {a}\n1–2 jam | {b}\n2–3 jam | {c}\nLebih dari 3 jam | {d}\nKesimpulan yang paling tepat berdasarkan data tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sebagian besar siswa belajar lebih dari 3 jam.",
+      "correct": "d > total/2"
+    },
+    {
+      "id": "B",
+      "text": "Kelompok siswa dengan waktu belajar 1–2 jam merupakan kelompok terbesar.",
+      "correct": "b > max(a,c,d)"
+    },
+    {
+      "id": "C",
+      "text": "Semua siswa belajar minimal 2 jam.",
+      "correct": "a == 0 and b == 0"
+    },
+    {
+      "id": "D",
+      "text": "Jumlah siswa yang belajar kurang dari 1 jam sama dengan yang belajar 2–3 jam.",
+      "correct": "a == c"
+    }
+  ],
+  "explanation": "Total = {total}; jumlah tiap kelompok = {a}, {b}, {c}, {d}. Kesimpulan dipilih dengan membandingkan jumlah terbesar, mayoritas, dan kesamaan jumlah.",
+  "constraints": [
+    "total > 0"
+  ]
+}

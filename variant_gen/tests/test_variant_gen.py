@@ -198,7 +198,10 @@ class Regressions(CliHarness):
         self.assertEqual(len(self.store.versions_of_seed(qid, 4)), 1)
 
     def test_historical_snapshots_migrate_without_overwrite(self):
-        shutil.copyfile(ROOT / "store" / "variants.jsonl", self.store.path)
+        # Test config-v1 migration independently of newer user snapshots.
+        historical = [line for line in (ROOT / 'store/variants.jsonl').read_text(encoding='utf8').splitlines()
+                      if json.loads(line)['config_ver'] == 1]
+        self.store.path.write_text('\n'.join(historical) + '\n', encoding='utf8')
         for qid in ("pg-16-1-3", "kategori-19-1-9", "mcma-18-1-7"):
             before = self.store.versions_of_seed(qid, 1)
             self.assertEqual(self.run_cli("gen", qid, "s1"), 0)

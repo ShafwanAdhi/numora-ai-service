@@ -55,6 +55,8 @@ class ConfigStore:
 def validate_config(cfg, orig):
     """Return a list of human-readable problems (empty list = config is well-formed)."""
     errs = []
+    if orig.get("metadata", {}).get("generation_status", "ACTIVE") != "ACTIVE":
+        return [orig["metadata"]["reason"]]
     for k in REQUIRED_TOP:
         if k not in cfg:
             errs.append(f"missing '{k}'")

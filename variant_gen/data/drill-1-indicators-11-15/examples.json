@@ -1,0 +1,1022 @@
+[
+  {
+    "record_id": "pg-11-1-2:s1:v1",
+    "question_id": "pg-11-1-2",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 11,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 2,
+      "source_indicator": 11,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "C",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "e94ed8b1e0775cd1",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 11,
+      "v0": 11,
+      "v1": 22,
+      "v2": 33,
+      "v3": 11,
+      "v4": 22,
+      "v5": 33,
+      "v6": 11,
+      "v7": 22,
+      "v8": 33,
+      "v9": 22,
+      "v10": 33
+    },
+    "stem": "Diketahui suatu fungsi yang dinyatakan dalam himpunan pasangan berurutan:\nf={(11,a),(22,b),(33,c)}.\nTentukan daerah asal (domain) dari fungsi f tersebut!",
+    "options": [
+      {
+        "id": "A",
+        "text": "{a,b,c}"
+      },
+      {
+        "id": "B",
+        "text": "{11,22,33,a,b,c}"
+      },
+      {
+        "id": "C",
+        "text": "{11,22,33}"
+      },
+      {
+        "id": "D",
+        "text": "{22,33}"
+      }
+    ],
+    "key": "C",
+    "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Salah. {a,b,c}\nB: Salah. {11,22,33,a,b,c}\nC: Benar. {11,22,33}\nD: Salah. {22,33}\n\nJawaban: C. {11,22,33}",
+    "original_hash": "94d6f4c1aacb497d",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:11:15+00:00"
+  },
+  {
+    "record_id": "mcma-11-1-6:s1:v1",
+    "question_id": "mcma-11-1-6",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 11,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 6,
+      "source_indicator": 11,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "Pernyataan 1, Pernyataan 3",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "0efc6ce039be82ca",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 35,
+      "v0": 70,
+      "v1": 140,
+      "v2": 105,
+      "v3": 210,
+      "v4": 140,
+      "v5": 280,
+      "v6": 175,
+      "v7": 350,
+      "v8": 70,
+      "v9": 105,
+      "v10": 140,
+      "v11": 175,
+      "v12": 140,
+      "v13": 210,
+      "v14": 280,
+      "v15": 350,
+      "v16": 140,
+      "v17": 210,
+      "v18": 280,
+      "v19": 350,
+      "v20": 70,
+      "v21": 105,
+      "v22": 140,
+      "v23": 175
+    },
+    "stem": "Diberikan fungsi dalam bentuk himpunan pasangan berurutan: R={(70,140),(105,210),(140,280),(175,350)}.\nPilihlah semua pernyataan yang benar terkait himpunan tersebut!",
+    "options": [
+      {
+        "id": "A",
+        "text": "Domain dari fungsi R adalah {70,105,140,175}."
+      },
+      {
+        "id": "B",
+        "text": "Domain dari fungsi R adalah {140,210,280,350}."
+      },
+      {
+        "id": "C",
+        "text": "Range (daerah hasil) dari fungsi R adalah {140,210,280,350}."
+      },
+      {
+        "id": "D",
+        "text": "Range dari fungsi R adalah {70,105,140,175}."
+      }
+    ],
+    "key": "A,C",
+    "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Benar. Domain dari fungsi R adalah {70,105,140,175}.\nB: Salah. Domain dari fungsi R adalah {140,210,280,350}.\nC: Benar. Range (daerah hasil) dari fungsi R adalah {140,210,280,350}.\nD: Salah. Range dari fungsi R adalah {70,105,140,175}.\n\nPenilaian pernyataan: A: Benar — Domain dari fungsi R adalah {70,105,140,175}.; B: Salah — Domain dari fungsi R adalah {140,210,280,350}.; C: Benar — Range (daerah hasil) dari fungsi R adalah {140,210,280,350}.; D: Salah — Range dari fungsi R adalah {70,105,140,175}.",
+    "original_hash": "97e9844db60e9683",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:11:15+00:00"
+  },
+  {
+    "record_id": "kategori-11-1-10:s1:v1",
+    "question_id": "kategori-11-1-10",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 11,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 10,
+      "source_indicator": 11,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "A. Benar, B. Benar, C. Salah",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "source_option_ids": {
+        "1": "A",
+        "2": "B",
+        "3": "C"
+      }
+    },
+    "config_ver": 1,
+    "config_hash": "1c93c7bdc71d401b",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 26,
+      "v0": 52,
+      "v1": 130,
+      "v2": 78,
+      "v3": 78,
+      "v4": 286
+    },
+    "stem": "Diberikan fungsi linear f(x)=-52x+130. Tentukan Benar atau Salah untuk nilai fungsi berikut:",
+    "options": [
+      {
+        "id": "1",
+        "text": "Nilai dari f(1)=78."
+      },
+      {
+        "id": "2",
+        "text": "Nilai dari f(4)=-78."
+      },
+      {
+        "id": "3",
+        "text": "Jika f(x)=286, maka nilai x=-5."
+      }
+    ],
+    "key": "1,2",
+    "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\n1: Benar. Nilai dari f(1)=78.\n2: Benar. Nilai dari f(4)=-78.\n3: Salah. Jika f(x)=286, maka nilai x=-5.\n\nPenilaian pernyataan: 1: Benar — Nilai dari f(1)=78.; 2: Benar — Nilai dari f(4)=-78.; 3: Salah — Jika f(x)=286, maka nilai x=-5.",
+    "original_hash": "6601107021dab4ad",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:11:15+00:00"
+  },
+  {
+    "record_id": "pg-12-1-1:s1:v1",
+    "question_id": "pg-12-1-1",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 12,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 1,
+      "source_indicator": 12,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "C",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "93231c2b8ece50f2",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 11,
+      "v0": 55,
+      "v1": 99,
+      "v2": 143,
+      "v3": 187,
+      "v4": 748,
+      "v5": 2992,
+      "v6": 44,
+      "v7": 231,
+      "v8": 286,
+      "v9": 44,
+      "v10": 231,
+      "v11": 275,
+      "v12": 374,
+      "v13": 748
+    },
+    "stem": "Diketahui barisan bilangan berhingga 55, 99, 143, 187, ... Pola yang berlaku pada barisan tersebut dan dua suku berikutnya adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Geometri dengan rasio 4; dua suku berikutnya 748 dan 2992"
+      },
+      {
+        "id": "B",
+        "text": "Aritmetika dengan beda 44; dua suku berikutnya 231 dan 286"
+      },
+      {
+        "id": "C",
+        "text": "Aritmetika dengan beda 44; dua suku berikutnya 231 dan 275"
+      },
+      {
+        "id": "D",
+        "text": "Geometri dengan rasio 2; dua suku berikutnya 374 dan 748"
+      }
+    ],
+    "key": "C",
+    "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Salah. Geometri dengan rasio 4; dua suku berikutnya 748 dan 2992\nB: Salah. Aritmetika dengan beda 44; dua suku berikutnya 231 dan 286\nC: Benar. Aritmetika dengan beda 44; dua suku berikutnya 231 dan 275\nD: Salah. Geometri dengan rasio 2; dua suku berikutnya 374 dan 748\n\nJawaban: C. Aritmetika dengan beda 44; dua suku berikutnya 231 dan 275",
+    "original_hash": "24d2c2c859fe29f7",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:49+00:00"
+  },
+  {
+    "record_id": "mcma-12-1-6:s1:v1",
+    "question_id": "mcma-12-1-6",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 12,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 6,
+      "source_indicator": 12,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "Pernyataan 1, Pernyataan 3, Pernyataan 4",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "1f18e0033a213a98",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 36,
+      "v0": 720,
+      "v1": 612,
+      "v2": 504,
+      "v3": 396,
+      "v4": 288,
+      "v5": 108,
+      "v6": 108,
+      "v7": 180
+    },
+    "stem": "Diketahui barisan bilangan berhingga 720, 612, 504, 396, 288. Pilihlah semua pernyataan yang benar!",
+    "options": [
+      {
+        "id": "A",
+        "text": "Barisan tersebut merupakan barisan aritmetika."
+      },
+      {
+        "id": "B",
+        "text": "Setiap suku diperoleh dengan menambahkan 108 pada suku sebelumnya."
+      },
+      {
+        "id": "C",
+        "text": "Setiap suku diperoleh dengan mengurangi suku sebelumnya dengan 108."
+      },
+      {
+        "id": "D",
+        "text": "Jika pola dilanjutkan, suku berikutnya adalah 180."
+      }
+    ],
+    "key": "A,C,D",
+    "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Benar. Barisan tersebut merupakan barisan aritmetika.\nB: Salah. Setiap suku diperoleh dengan menambahkan 108 pada suku sebelumnya.\nC: Benar. Setiap suku diperoleh dengan mengurangi suku sebelumnya dengan 108.\nD: Benar. Jika pola dilanjutkan, suku berikutnya adalah 180.\n\nPenilaian pernyataan: A: Benar — Barisan tersebut merupakan barisan aritmetika.; B: Salah — Setiap suku diperoleh dengan menambahkan 108 pada suku sebelumnya.; C: Benar — Setiap suku diperoleh dengan mengurangi suku sebelumnya dengan 108.; D: Benar — Jika pola dilanjutkan, suku berikutnya adalah 180.",
+    "original_hash": "a6dacd75d26873ec",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:49+00:00"
+  },
+  {
+    "record_id": "kategori-12-1-9:s1:v1",
+    "question_id": "kategori-12-1-9",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 12,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 9,
+      "source_indicator": 12,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "A. Benar, B. Salah, C. Benar",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "source_option_ids": {
+        "1": "A",
+        "2": "B",
+        "3": "C"
+      }
+    },
+    "config_ver": 1,
+    "config_hash": "96f8addbdaa07f82",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 24,
+      "v0": 72,
+      "v1": 144,
+      "v2": 288,
+      "v3": 576,
+      "v4": 1152,
+      "v5": 3072,
+      "v6": 9216
+    },
+    "stem": "Diketahui barisan geometri berhingga 72, 144, 288, 576, ... Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Suku ke-5 barisan tersebut adalah 1152."
+      },
+      {
+        "id": "2",
+        "text": "Suku ke-7 barisan tersebut adalah 3072."
+      },
+      {
+        "id": "3",
+        "text": "Suku ke-8 barisan tersebut adalah 9216."
+      }
+    ],
+    "key": "1,3",
+    "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\n1: Benar. Suku ke-5 barisan tersebut adalah 1152.\n2: Salah. Suku ke-7 barisan tersebut adalah 3072.\n3: Benar. Suku ke-8 barisan tersebut adalah 9216.\n\nPenilaian pernyataan: 1: Benar — Suku ke-5 barisan tersebut adalah 1152.; 2: Salah — Suku ke-7 barisan tersebut adalah 3072.; 3: Benar — Suku ke-8 barisan tersebut adalah 9216.",
+    "original_hash": "54d7442db853e4da",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:49+00:00"
+  },
+  {
+    "record_id": "pg-13-1-1:s1:v1",
+    "question_id": "pg-13-1-1",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 13,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 1,
+      "source_indicator": 13,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "C",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "a8d370f56df0daf9",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 14,
+      "v0": 42,
+      "v1": 84,
+      "v2": 126,
+      "v3": 168,
+      "v4": 210,
+      "v5": 126,
+      "v6": 252,
+      "v7": 168,
+      "v8": 252,
+      "v9": 168,
+      "v10": 420,
+      "v11": 420,
+      "v12": 168
+    },
+    "stem": "Diketahui barisan bilangan 42, 84, 126, 168, 210. Nilai U_4 dan S_4 berturut-turut adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "126 dan 252"
+      },
+      {
+        "id": "B",
+        "text": "168 dan 252"
+      },
+      {
+        "id": "C",
+        "text": "168 dan 420"
+      },
+      {
+        "id": "D",
+        "text": "420 dan 168"
+      }
+    ],
+    "key": "C",
+    "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. 126 dan 252\nB: Salah. 168 dan 252\nC: Benar. 168 dan 420\nD: Salah. 420 dan 168\n\nJawaban: C. 168 dan 420",
+    "original_hash": "48a68a0a66a892d9",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:49+00:00"
+  },
+  {
+    "record_id": "mcma-13-1-6:s1:v1",
+    "question_id": "mcma-13-1-6",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 13,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 6,
+      "source_indicator": 13,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "Pernyataan 1, Pernyataan 2, Pernyataan 3",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "637e984b24b892ce",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 28,
+      "v0": 168,
+      "v1": 224,
+      "v2": 280,
+      "v3": 336,
+      "v4": 28,
+      "v5": "(",
+      "v6": ")",
+      "v7": 28,
+      "v8": "(",
+      "v9": ")",
+      "v10": 1008,
+      "v11": 28,
+      "v12": "(",
+      "v13": ")"
+    },
+    "stem": "Diketahui deret aritmetika 168+224+280+336+... Pilihlah semua pernyataan yang benar!",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rumus jumlah n suku pertama dapat ditulis S_n=28((n)/(2)(12+(n-1)2))."
+      },
+      {
+        "id": "B",
+        "text": "S_n=28(n(n+5))."
+      },
+      {
+        "id": "C",
+        "text": "S_4=1008."
+      },
+      {
+        "id": "D",
+        "text": "S_n=28(n(n+6))."
+      }
+    ],
+    "key": "A,B,C",
+    "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Benar. Rumus jumlah n suku pertama dapat ditulis S_n=28((n)/(2)(12+(n-1)2)).\nB: Benar. S_n=28(n(n+5)).\nC: Benar. S_4=1008.\nD: Salah. S_n=28(n(n+6)).\n\nPenilaian pernyataan: A: Benar — Rumus jumlah n suku pertama dapat ditulis S_n=28((n)/(2)(12+(n-1)2)).; B: Benar — S_n=28(n(n+5)).; C: Benar — S_4=1008.; D: Salah — S_n=28(n(n+6)).",
+    "original_hash": "f00253fa06965b89",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:49+00:00"
+  },
+  {
+    "record_id": "kategori-13-1-9:s1:v1",
+    "question_id": "kategori-13-1-9",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 13,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 9,
+      "source_indicator": 13,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "A. Salah, B. Benar, C. Benar",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "source_option_ids": {
+        "1": "A",
+        "2": "B",
+        "3": "C"
+      }
+    },
+    "config_ver": 1,
+    "config_hash": "1fac1ac193b64ab0",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 9,
+      "v0": 45,
+      "v1": 72,
+      "v2": 99,
+      "v3": 126,
+      "v4": 153,
+      "v5": 99,
+      "v6": 126,
+      "v7": 342
+    },
+    "stem": "Diketahui barisan bilangan 45, 72, 99, 126, 153. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Nilai S_2 adalah 99."
+      },
+      {
+        "id": "2",
+        "text": "U_4=126 dan S_4=342."
+      },
+      {
+        "id": "3",
+        "text": "S_4-S_3=U_4."
+      }
+    ],
+    "key": "2,3",
+    "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\n1: Salah. Nilai S_2 adalah 99.\n2: Benar. U_4=126 dan S_4=342.\n3: Benar. S_4-S_3=U_4.\n\nPenilaian pernyataan: 1: Salah — Nilai S_2 adalah 99.; 2: Benar — U_4=126 dan S_4=342.; 3: Benar — S_4-S_3=U_4.",
+    "original_hash": "b4fb2c8834c7c9aa",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:49+00:00"
+  },
+  {
+    "record_id": "pg-14-1-2:s1:v1",
+    "question_id": "pg-14-1-2",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 14,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 2,
+      "source_indicator": 14,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "B",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "816cf4ff86a17886",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "t": -13,
+      "v0": 102,
+      "v1": 102,
+      "v2": 78,
+      "v3": 38,
+      "v4": 88
+    },
+    "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Jika ∠A1 = 102°, besar ∠B3 adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "102°"
+      },
+      {
+        "id": "B",
+        "text": "78°"
+      },
+      {
+        "id": "C",
+        "text": "38°"
+      },
+      {
+        "id": "D",
+        "text": "88°"
+      }
+    ],
+    "key": "B",
+    "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Salah. 102°\nB: Benar. 78°\nC: Salah. 38°\nD: Salah. 88°\n\nJawaban: B. 78°",
+    "original_hash": "fd36ea4e5ae6779e",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:50+00:00"
+  },
+  {
+    "record_id": "mcma-14-1-7:s1:v1",
+    "question_id": "mcma-14-1-7",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 14,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 7,
+      "source_indicator": 14,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "Pernyataan 1, Pernyataan 3",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "6840d5c7207fe6c4",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "t": -1,
+      "v0": 79,
+      "v1": 79,
+      "v2": 101,
+      "v3": 101,
+      "v4": 79
+    },
+    "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Jika ∠A1 = 79°, pilihlah semua pernyataan yang benar!",
+    "options": [
+      {
+        "id": "A",
+        "text": "∠B1 = 79°"
+      },
+      {
+        "id": "B",
+        "text": "∠A4 = 101°"
+      },
+      {
+        "id": "C",
+        "text": "∠B3 = 101°"
+      },
+      {
+        "id": "D",
+        "text": "∠B2 = 79°"
+      }
+    ],
+    "key": "A,C",
+    "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Benar. ∠B1 = 79°\nB: Salah. ∠A4 = 101°\nC: Benar. ∠B3 = 101°\nD: Salah. ∠B2 = 79°\n\nPenilaian pernyataan: A: Benar — ∠B1 = 79°; B: Salah — ∠A4 = 101°; C: Benar — ∠B3 = 101°; D: Salah — ∠B2 = 79°",
+    "original_hash": "75857cd347d53101",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:50+00:00"
+  },
+  {
+    "record_id": "kategori-14-1-10:s1:v1",
+    "question_id": "kategori-14-1-10",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 14,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 10,
+      "source_indicator": 14,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "A. Benar, B. Salah, C. Salah",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "source_option_ids": {
+        "1": "A",
+        "2": "B",
+        "3": "C"
+      }
+    },
+    "config_ver": 1,
+    "config_hash": "a2288293159a203c",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "t": -19,
+      "v0": 106,
+      "v1": 106,
+      "v2": 106
+    },
+    "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Jika ∠A2 = 106°, tentukan Benar atau Salah!",
+    "options": [
+      {
+        "id": "1",
+        "text": "∠B2 = 106°."
+      },
+      {
+        "id": "2",
+        "text": "∠A4 = 106°."
+      },
+      {
+        "id": "3",
+        "text": "∠A3 dan ∠B1 adalah sudut dalam sepihak yang besarnya sama."
+      }
+    ],
+    "key": "1",
+    "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\n1: Benar. ∠B2 = 106°.\n2: Salah. ∠A4 = 106°.\n3: Salah. ∠A3 dan ∠B1 adalah sudut dalam sepihak yang besarnya sama.\n\nPenilaian pernyataan: 1: Benar — ∠B2 = 106°.; 2: Salah — ∠A4 = 106°.; 3: Salah — ∠A3 dan ∠B1 adalah sudut dalam sepihak yang besarnya sama.",
+    "original_hash": "589afb2188655a1f",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:50+00:00"
+  },
+  {
+    "record_id": "pg-15-1-1:s1:v1",
+    "question_id": "pg-15-1-1",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 15,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 1,
+      "source_indicator": 15,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "C",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "0d674d8bceb39475",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 11,
+      "v0": 66,
+      "v1": 88,
+      "v2": 132,
+      "v3": 55,
+      "v4": 110,
+      "v5": 132,
+      "v6": 99,
+      "v7": 132,
+      "v8": 165,
+      "v9": 77,
+      "v10": 99,
+      "v11": 132
+    },
+    "stem": "Di antara kelompok tiga bilangan berikut, yang merupakan tripel Pythagoras adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "66, 88, 132"
+      },
+      {
+        "id": "B",
+        "text": "55, 110, 132"
+      },
+      {
+        "id": "C",
+        "text": "99, 132, 165"
+      },
+      {
+        "id": "D",
+        "text": "77, 99, 132"
+      }
+    ],
+    "key": "C",
+    "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Salah. 66, 88, 132\nB: Salah. 55, 110, 132\nC: Benar. 99, 132, 165\nD: Salah. 77, 99, 132\n\nJawaban: C. 99, 132, 165",
+    "original_hash": "a4821bf553e529cb",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:50+00:00"
+  },
+  {
+    "record_id": "mcma-15-1-6:s1:v1",
+    "question_id": "mcma-15-1-6",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 15,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 6,
+      "source_indicator": 15,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "Pernyataan 1, Pernyataan 4",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "e4c2ab33a4a16520",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "p": 9,
+      "v0": 9,
+      "v1": 10,
+      "v2": 81,
+      "v3": 100,
+      "v4": 9,
+      "v5": 10,
+      "v6": 81,
+      "v7": 100,
+      "v8": 9,
+      "v9": 10
+    },
+    "stem": "Dua segitiga sebangun dengan perbandingan panjang sisi-sisi yang bersesuaian 9 : 10. Pilihlah semua pernyataan yang benar!",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perbandingan luas kedua segitiga adalah 81 : 100."
+      },
+      {
+        "id": "B",
+        "text": "Perbandingan luas kedua segitiga adalah 9 : 10."
+      },
+      {
+        "id": "C",
+        "text": "Perbandingan tinggi kedua segitiga adalah 81 : 100."
+      },
+      {
+        "id": "D",
+        "text": "Perbandingan keliling kedua segitiga adalah 9 : 10."
+      }
+    ],
+    "key": "A,D",
+    "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Benar. Perbandingan luas kedua segitiga adalah 81 : 100.\nB: Salah. Perbandingan luas kedua segitiga adalah 9 : 10.\nC: Salah. Perbandingan tinggi kedua segitiga adalah 81 : 100.\nD: Benar. Perbandingan keliling kedua segitiga adalah 9 : 10.\n\nPenilaian pernyataan: A: Benar — Perbandingan luas kedua segitiga adalah 81 : 100.; B: Salah — Perbandingan luas kedua segitiga adalah 9 : 10.; C: Salah — Perbandingan tinggi kedua segitiga adalah 81 : 100.; D: Benar — Perbandingan keliling kedua segitiga adalah 9 : 10.",
+    "original_hash": "b1c2fa22a662ded2",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:12:50+00:00"
+  },
+  {
+    "record_id": "kategori-15-1-9:s1:v1",
+    "question_id": "kategori-15-1-9",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 15,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 9,
+      "source_indicator": 15,
+      "source_level": 1,
+      "source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "source_cognitive_label": "C3",
+      "source_key": "A. Benar, B. Salah, C. Benar",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "source_option_ids": {
+        "1": "A",
+        "2": "B",
+        "3": "C"
+      }
+    },
+    "config_ver": 1,
+    "config_hash": "acc0cff0aa2884c6",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 9,
+      "v0": 54,
+      "v1": 270,
+      "v2": 405,
+      "v3": 40.5,
+      "v4": 9,
+      "v5": 45
+    },
+    "stem": "Sebuah peta digambar dengan skala 1 : 500.000. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Jarak 54 cm pada peta mewakili jarak sebenarnya 270 km."
+      },
+      {
+        "id": "2",
+        "text": "Jarak sebenarnya 405 km digambarkan dengan 40,5 cm pada peta."
+      },
+      {
+        "id": "3",
+        "text": "Jarak 9 cm pada peta mewakili jarak sebenarnya 45 km."
+      }
+    ],
+    "key": "1,3",
+    "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\n1: Benar. Jarak 54 cm pada peta mewakili jarak sebenarnya 270 km.\n2: Salah. Jarak sebenarnya 405 km digambarkan dengan 40,5 cm pada peta.\n3: Benar. Jarak 9 cm pada peta mewakili jarak sebenarnya 45 km.\n\nPenilaian pernyataan: 1: Benar — Jarak 54 cm pada peta mewakili jarak sebenarnya 270 km.; 2: Salah — Jarak sebenarnya 405 km digambarkan dengan 40,5 cm pada peta.; 3: Benar — Jarak 9 cm pada peta mewakili jarak sebenarnya 45 km.",
+    "original_hash": "b02e3714a4d693b2",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-05T11:13:10+00:00"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "question_id": "pg-23-2-3",
+  "config_version": 1,
+  "original_hash": "d268a2cf7c4c59a2",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "trials": 60
+  },
+  "variables": {
+    "trials": {
+      "gen": "range",
+      "range": [
+        6,
+        600
+      ],
+      "step": 6
+    },
+    "expected": {
+      "gen": "derived",
+      "expr": "trials/6",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oA": {
+      "gen": "derived",
+      "expr": "expected+(0)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oB": {
+      "gen": "derived",
+      "expr": "expected+(2)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oC": {
+      "gen": "derived",
+      "expr": "expected+(5)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oD": {
+      "gen": "derived",
+      "expr": "expected+(10)",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah dadu dilempar {trials} kali. Berdasarkan peluang teoretis, perkiraan banyak kemunculan angka 3 adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{oA} kali",
+      "correct": "expected == (expected+(0))"
+    },
+    {
+      "id": "B",
+      "text": "{oB} kali",
+      "correct": "expected == (expected+(2))"
+    },
+    {
+      "id": "C",
+      "text": "{oC} kali",
+      "correct": "expected == (expected+(5))"
+    },
+    {
+      "id": "D",
+      "text": "{oD} kali",
+      "correct": "expected == (expected+(10))"
+    }
+  ],
+  "explanation": "Perkiraan kemunculan = jumlah percobaan × peluang teoretis = {trials} × 1/6 = {expected} kali; bukan kepastian jumlah hasil.",
+  "constraints": [
+    "(expected+(0)) >= 0",
+    "(expected+(0)) <= trials",
+    "(expected+(2)) >= 0",
+    "(expected+(2)) <= trials",
+    "(expected+(5)) >= 0",
+    "(expected+(5)) <= trials",
+    "(expected+(10)) >= 0",
+    "(expected+(10)) <= trials"
+  ]
+}

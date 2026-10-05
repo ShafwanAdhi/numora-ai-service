@@ -1,0 +1,109 @@
+{
+  "question_id": "kategori-12-5-10",
+  "config_version": 1,
+  "original_hash": "1e65b326f1801d89",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "denominator": 2
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "denominator": {
+      "gen": "range",
+      "range": [
+        2,
+        6
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "54*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "20*k*denominator**3",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "20*k*denominator**2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "20*k*denominator**1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "20*k*denominator**0",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "denominator",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "20*k*denominator**3",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui barisan M: {v0}, -{v1}, {v2}, -{v3}, ... dan barisan N: {v4}, {v5}, {v6}, {v7}, .... Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Barisan M adalah barisan geometri yang selalu naik karena |r| > 1.",
+      "correct": false
+    },
+    {
+      "id": "2",
+      "text": "Barisan N turun karena rasionya 1/{v8}, yaitu antara 0 dan 1.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika rasio barisan N diganti menjadi 3/2 dengan suku pertama tetap {v9}, pola barisan tetap turun.",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\n1: Salah. Barisan M adalah barisan geometri yang selalu naik karena |r| > 1.\n2: Benar. Barisan N turun karena rasionya 1/{v8}, yaitu antara 0 dan 1.\n3: Salah. Jika rasio barisan N diganti menjadi 3/2 dengan suku pertama tetap {v9}, pola barisan tetap turun."
+}

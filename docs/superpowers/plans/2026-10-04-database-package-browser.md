@@ -1,5 +1,8 @@
 # Database Package Browser Implementation Plan
 
+> Arsip rancangan/rencana bertanggal; status dan checklist di bawah mencatat tahap saat dokumen ditulis. Untuk implementasi saat ini lihat [kondisi repo](../../audits/2026-10-05-repository-status.md) dan [panduan aktif](../../../readme.md).
+
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking. Execute inline in the current session; preserve existing user changes.
 
 **Goal:** Interface AI membaca paket bernama beserta versi soal dan varian melalui koneksi PostgreSQL langsung dari backend Python.

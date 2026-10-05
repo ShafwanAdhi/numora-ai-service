@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-6-2-10",
+  "config_version": 1,
+  "original_hash": "2d2c7c8c523bae63",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "180000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "360000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "180000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "360000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga orang siswa (Andi, Budi, dan Citra) mengevaluasi biaya operasional kulkas penyimpanan es krim di kantin sekolah:\n\"Kantin sekolah menyewa 3 unit kulkas tempat penyimpanan es krim. Total biaya listrik untuk 3 kulkas selama 20 hari adalah Rp{v1}. Pengelola kantin berencana menambah 1 unit kulkas lagi (dengan tipe identik) dan mengoperasikan seluruh kulkas selama 30 hari.\"\nMasing-masing siswa mengajukan klaim analisis perhitungan. Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Andi mengklaim bahwa biaya listrik untuk 1 unit kulkas selama 1 hari adalah Rp{v2}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Budi menyatakan bahwa total biaya listrik untuk 4 unit kulkas selama 30 hari adalah Rp{v3}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Citra menyimpulkan bahwa hubungan antara jumlah kulkas dan total biaya listrik untuk durasi hari yang sama merupakan perbandingan berbalik nilai.",
+      "correct": false
+    }
+  ],
+  "explanation": "Biaya satu unit satu hari = {v4}/(3*20)={v5} rupiah; empat unit 30 hari = {v6}. Biaya senilai dengan jumlah kulkas."
+}

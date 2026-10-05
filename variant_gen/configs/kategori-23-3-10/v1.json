@@ -1,0 +1,97 @@
+{
+  "question_id": "kategori-23-3-10",
+  "config_version": 1,
+  "original_hash": "4f06ba2686fa07d7",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "red": 3,
+    "white": 7,
+    "trials": 200,
+    "observed": 58
+  },
+  "variables": {
+    "red": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "white": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "trials": {
+      "gen": "choice",
+      "values": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "observed": {
+      "gen": "range",
+      "range": [
+        0,
+        500
+      ],
+      "step": 1
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "red+white",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "theoretical": {
+      "gen": "derived",
+      "expr": "red/total",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "frequency": {
+      "gen": "derived",
+      "expr": "observed/trials",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah kantong berisi {red} bola merah dan {white} bola putih. Bola diambil satu per satu dengan pengembalian sebanyak {trials} kali. Bola merah muncul {observed} kali.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Peluang teoretis bola merah adalah {theoretical}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Frekuensi relatif bola merah adalah {theoretical}.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Frekuensi relatif bola merah adalah {frequency}.",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Hasil percobaan harus selalu sama dengan peluang teoretis.",
+      "correct": false
+    }
+  ],
+  "explanation": "Dengan pengembalian, peluang teoretis merah = {red}/{total} = {theoretical}; frekuensi relatif = {observed}/{trials} = {frequency}. Hasil empiris tidak harus sama dengan peluang teoretis.",
+  "constraints": [
+    "observed <= trials",
+    "frequency != theoretical",
+    "frequency == round(frequency,2)",
+    "theoretical == round(theoretical,2)"
+  ]
+}

@@ -54,12 +54,21 @@ def show(rec, as_json):
               f"config v{rec['config_ver']} | draws {rec['draws_used']}{extra}")
         print("values: " + ", ".join(f"{k}={v}" for k, v in rec["values_used"].items()))
     print("-" * 60)
+    metadata = rec.get("metadata", {})
+    held = metadata.get("generation_status") == "HOLD_SOURCE"
+    if metadata.get("generation_status"):
+        print("status: " + metadata["generation_status"])
+    if metadata.get("reason"):
+        print(metadata["reason"])
     print(rec["stem"])
     for o in rec["options"]:
         print(f"  {o['id']}. {o['text']}")
-    print(f"key: {rec['key']}")
+    if rec.get("answer_categories"):
+        print("kategori: " + "; ".join(f"{qid}: {label}" for qid,label in rec["answer_categories"].items()))
+    else:
+        print(f"{'key sumber (belum disahkan)' if held else 'key'}: {rec['key'] or 'Belum tersedia'}")
     if rec.get("explanation"):
-        print("pembahasan: " + rec["explanation"])
+        print(("pembahasan sumber (belum disahkan): " if held else "pembahasan: ") + rec["explanation"])
     print()
 
 
@@ -91,6 +100,8 @@ def cmd_gen(a, bank, configs, store):
             if seed == 0:
                 show(original_record(orig), a.json)
                 continue
+            if orig.get("metadata", {}).get("generation_status", "ACTIVE") != "ACTIVE":
+                raise ConfigError(orig["metadata"]["reason"])
             existing = store.get(orig["id"], seed)
             if existing:
                 print(f"(seed {seed} already exists - showing stored v{existing['variant_ver']}, nothing overwritten)",

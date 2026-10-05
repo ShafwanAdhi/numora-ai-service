@@ -1,0 +1,58 @@
+{
+  "question_id": "kategori-14-1-10",
+  "config_version": 1,
+  "original_hash": "589afb2188655a1f",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "125+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "125+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "125+t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Jika ∠A2 = {v0}°, tentukan Benar atau Salah!",
+  "options": [
+    {
+      "id": "1",
+      "text": "∠B2 = {v1}°.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "∠A4 = {v2}°.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "∠A3 dan ∠B1 adalah sudut dalam sepihak yang besarnya sama.",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\n1: Benar. ∠B2 = {v1}°.\n2: Salah. ∠A4 = {v2}°.\n3: Salah. ∠A3 dan ∠B1 adalah sudut dalam sepihak yang besarnya sama."
+}

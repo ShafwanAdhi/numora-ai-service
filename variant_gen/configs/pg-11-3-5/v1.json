@@ -1,0 +1,96 @@
+{
+  "question_id": "pg-11-3-5",
+  "config_version": 1,
+  "original_hash": "6c6e2d48d3bd6aad",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "n": 5
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "n": {
+      "gen": "range",
+      "range": [
+        3,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "(n-1)*50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "n+-2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "n+-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "n+0",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "n+1",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Rental mobil A menetapkan biaya tetap Rp{v0},00 ditambah Rp{v1},00 per hari. Rental mobil B menetapkan biaya Rp{v2},00 per hari tanpa biaya tetap. Mulai hari ke berapa biaya sewa mobil A lebih murah daripada mobil B?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Hari ke-{v3}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Hari ke-{v4}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Hari ke-{v5}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Hari ke-{v6}",
+      "correct": false
+    }
+  ],
+  "explanation": "Bandingkan biaya tetap ditambah biaya harian A dengan biaya harian B. Pada hari sebelum jawaban, biaya sama; A lebih murah mulai satu hari setelah titik impas."
+}

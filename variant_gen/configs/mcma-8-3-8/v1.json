@@ -1,0 +1,141 @@
+{
+  "question_id": "mcma-8-3-8",
+  "config_version": 1,
+  "original_hash": "3ae9abcde47187dd",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "1200*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "150*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "450*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "1200*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "150*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "150*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "450*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "450*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "1200*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "150*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus OSIS menyewa bus untuk acara bakti sosial sekolah. Bus memiliki kapasitas maksimal beban {v1} kg. Terdapat 2 orang guru pendamping dengan berat total {v2} kg, beberapa siswa dengan rata-rata berat 50 kg per siswa, dan barang bantuan sembako sebanyak {v3} kardus dengan berat 15 kg per kardus.\nManakah pernyataan analisis berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model pertidaksamaan batas beban bus adalah 50x+{v4}≤{v5}, dengan x menyatakan banyak siswa.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Banyak siswa maksimum yang dapat diangkut oleh bus tersebut adalah {v6} orang.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika jumlah siswa yang ikut adalah {v7} orang, beban bus masih menyisakan sisa kapasitas aman sebesar {v8} kg.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Hubungan antara jumlah siswa dan sisa kapasitas beban bus merupakan perbandingan yang berbanding lurus.",
+      "correct": false
+    }
+  ],
+  "explanation": "Beban tetap = {v9}+{v10}*15={v11} kg. Model 50x+{v12} <= {v13}, maksimum {v14} siswa. Bila {v15} siswa, sisa {v16} kg. Sisa kapasitas menurun secara affine, bukan senilai."
+}

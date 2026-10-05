@@ -1,0 +1,108 @@
+{
+  "question_id": "pg-23-2-1",
+  "config_version": 1,
+  "original_hash": "ff660aee2ee4f02d",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "c0": 4,
+    "c1": 3,
+    "c2": 3
+  },
+  "variables": {
+    "c0": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "c1": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "c2": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "c0+c1+c2",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "probability": {
+      "gen": "derived",
+      "expr": "c1/total",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "oA": {
+      "gen": "derived",
+      "expr": "probability+(-1/20)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "oB": {
+      "gen": "derived",
+      "expr": "probability+(0/1)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "oC": {
+      "gen": "derived",
+      "expr": "probability+(9/70)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "oD": {
+      "gen": "derived",
+      "expr": "probability+(1/5)",
+      "fmt": "mixed",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah kotak berisi {c0} bola merah, {c1} bola biru, dan {c2} bola hijau. Satu bola diambil secara acak.\nPeluang terambil bola biru adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{oA}",
+      "correct": "probability == (probability+(-1/20))"
+    },
+    {
+      "id": "B",
+      "text": "{oB}",
+      "correct": "probability == (probability+(0/1))"
+    },
+    {
+      "id": "C",
+      "text": "{oC}",
+      "correct": "probability == (probability+(9/70))"
+    },
+    {
+      "id": "D",
+      "text": "{oD}",
+      "correct": "probability == (probability+(1/5))"
+    }
+  ],
+  "explanation": "Peluang = banyak hasil yang diinginkan / seluruh hasil = {c1} / {total} = {probability}.",
+  "constraints": [
+    "(probability+(-1/20)) >= 0",
+    "(probability+(-1/20)) <= 1",
+    "(probability+(0/1)) >= 0",
+    "(probability+(0/1)) <= 1",
+    "(probability+(9/70)) >= 0",
+    "(probability+(9/70)) <= 1",
+    "(probability+(1/5)) >= 0",
+    "(probability+(1/5)) <= 1"
+  ]
+}

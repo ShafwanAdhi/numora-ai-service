@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-12-5-1",
+  "config_version": 1,
+  "original_hash": "53f6aef6de2aea77",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "260*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "320*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "380*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "494*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "420*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "440*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Banyak pengunjung sebuah pameran pada empat hari pertama berturut-turut adalah {v0}, {v1}, {v2}, dan {v3} orang. Pak Budi menyimpulkan bahwa pola tersebut adalah barisan geometri dengan rasio 1,3 sehingga pengunjung hari ke-5 diperkirakan {v4} orang. Penilaian yang paling tepat terhadap kesimpulan Pak Budi adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat, karena rasio dua suku pertama sudah cukup untuk menentukan jenis barisan.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Tidak tepat, karena rasio antarsukunya tidak tetap; pola yang sesuai adalah aritmetika dengan b = {v5} sehingga pengunjung hari ke-5 adalah {v6} orang.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Tidak tepat, karena rasio antarsukunya tidak tetap; pola yang sesuai adalah aritmetika dengan b = {v7} sehingga pengunjung hari ke-5 adalah {v8} orang.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Tidak tepat, karena rasio antarsukunya tidak tetap sehingga pola barisan tidak dapat ditentukan.",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Salah. Tepat, karena rasio dua suku pertama sudah cukup untuk menentukan jenis barisan.\nB: Salah. Tidak tepat, karena rasio antarsukunya tidak tetap; pola yang sesuai adalah aritmetika dengan b = {v5} sehingga pengunjung hari ke-5 adalah {v6} orang.\nC: Benar. Tidak tepat, karena rasio antarsukunya tidak tetap; pola yang sesuai adalah aritmetika dengan b = {v7} sehingga pengunjung hari ke-5 adalah {v8} orang.\nD: Salah. Tidak tepat, karena rasio antarsukunya tidak tetap sehingga pola barisan tidak dapat ditentukan."
+}

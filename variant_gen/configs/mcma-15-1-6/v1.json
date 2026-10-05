@@ -1,0 +1,105 @@
+{
+  "question_id": "mcma-15-1-6",
+  "config_version": 1,
+  "original_hash": "b1c2fa22a662ded2",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "p": 2
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        2,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "p+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "p*p",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "(p+1)**2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "p+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "p*p",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "(p+1)**2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "p+1",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dua segitiga sebangun dengan perbandingan panjang sisi-sisi yang bersesuaian {v0} : {v1}. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Perbandingan luas kedua segitiga adalah {v2} : {v3}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Perbandingan luas kedua segitiga adalah {v4} : {v5}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Perbandingan tinggi kedua segitiga adalah {v6} : {v7}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Perbandingan keliling kedua segitiga adalah {v8} : {v9}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Benar. Perbandingan luas kedua segitiga adalah {v2} : {v3}.\nB: Salah. Perbandingan luas kedua segitiga adalah {v4} : {v5}.\nC: Salah. Perbandingan tinggi kedua segitiga adalah {v6} : {v7}.\nD: Benar. Perbandingan keliling kedua segitiga adalah {v8} : {v9}."
+}

@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-10-3-1",
+  "config_version": 1,
+  "original_hash": "e7a644611072af98",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Siswa pengurus OSIS menganalisis dua formulasi anggaran untuk dua sub-seksi acara pameran karya seni sekolah dalam variabel x:\nAnggaran Sub-seksi Panggung (P): P=4(x^2-2x+{v1})\nAnggaran Sub-seksi Publikasi (Q): Q=2(2x^2-5x-{v2})\nPengurus OSIS menganalisis selisih anggaran antara Sub-seksi Panggung dan Sub-seksi Publikasi (P-Q). Kesimpulan analisis bentuk aljabar yang tepat mengenai selisih anggaran tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Berbentuk aljabar linear (2x+{v3}) karena suku berderajat dua (x^2) saling menghilangkan",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Berbentuk aljabar kuadrat (8x^2-18x+{v4}) karena suku x^2 saling menjumlahkan",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Berbentuk aljabar linear (2x+{v5}) karena konstanta {v6} dikurangi {v7}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Berbentuk aljabar kuadrat (4x^2+2x+{v8}) karena pengalihan sifat distributif",
+      "correct": false
+    }
+  ],
+  "explanation": "P=4x^2-8x+{v9}, Q=4x^2-10x-{v10}. P-Q=2x+{v11}, linear karena suku kuadrat saling menghilangkan."
+}

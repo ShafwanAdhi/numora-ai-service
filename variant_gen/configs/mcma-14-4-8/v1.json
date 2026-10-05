@@ -1,0 +1,77 @@
+{
+  "question_id": "mcma-14-4-8",
+  "config_version": 1,
+  "original_hash": "b81aeff9419b2382",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "40+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "120-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "120-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "80-2*t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [
+    "t!=-5"
+  ],
+  "stem": "Pada segitiga ABC, ∠A = {v0}° dan ∠B = {v1}°. Sudut luar dibuat di tiap titik sudut (satu sudut luar untuk satu titik). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sudut luar di A = {v2}°.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Sudut luar di B = {v3}°.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Sudut luar di C = {v4}°.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Jumlah ketiga sudut luar tersebut 360°.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Salah. Sudut luar di A = {v2}°.\nB: Benar. Sudut luar di B = {v3}°.\nC: Salah. Sudut luar di C = {v4}°.\nD: Benar. Jumlah ketiga sudut luar tersebut 360°."
+}

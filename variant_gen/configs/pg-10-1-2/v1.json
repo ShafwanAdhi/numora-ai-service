@@ -1,0 +1,129 @@
+{
+  "question_id": "pg-10-1-2",
+  "config_version": 1,
+  "original_hash": "2c663ff8879849c0",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "14*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "7*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "7*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "7*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Kebun Tanaman Obat Keluarga (TOGA) di sekolah berbentuk persegi panjang dengan luas (x^2+{v1}x-{v2})m^2. Jika ukuran panjang kebun tersebut dinyatakan sebagai (x+{v3})m, bentuk aljabar yang menyatakan keliling kebun TOGA tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "2x+{v4}m",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "4x+{v5}m",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "4x+{v6}m",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "4x+{v7}m",
+      "correct": false
+    }
+  ],
+  "explanation": "Luas difaktorkan (x+{v8})(x-{v9}); lebar x-{v10}. Keliling 2((x+{v11})+(x-{v12}))=4x+{v13}. Panjang dan lebar positif untuk x>{v14}."
+}

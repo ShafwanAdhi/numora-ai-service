@@ -1,0 +1,83 @@
+{
+  "question_id": "mcma-14-2-6",
+  "config_version": 1,
+  "original_hash": "6c737e5a2d632284",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -9,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "10+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "50+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "30+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "90+2*t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "100-2*t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "80+2*t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [
+    "t!=5"
+  ],
+  "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Diketahui ∠A2 = (3x - {v0})° dan ∠B3 = (x + {v1})°. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "x = {v2}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "∠B3 = {v3}°",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "∠B4 = {v4}°",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "∠A4 = {v5}°",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Benar. x = {v2}\nB: Salah. ∠B3 = {v3}°\nC: Benar. ∠B4 = {v4}°\nD: Salah. ∠A4 = {v5}°"
+}

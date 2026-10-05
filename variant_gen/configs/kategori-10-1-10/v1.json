@@ -1,0 +1,136 @@
+{
+  "question_id": "kategori-10-1-10",
+  "config_version": 1,
+  "original_hash": "057873c8a0c12276",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menguji penyederhanaan dan ekuivalensi dari bentuk aljabar pecahan ({v1}x^2y-{v2}xy^2)/(3xy) (dengan x,y≠0).\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Pembilang {v3}x^2y-{v4}xy^2 dapat difaktorkan menggunakan sifat distributif menjadi 3xy({v5}x-{v6}y).",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Bentuk aljabar ({v7}x^2y-{v8}xy^2)/(3xy) ekuivalen dengan bentuk aljabar sederhana {v9}x-{v10}y.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika nilai x=3 dan y=1, maka nilai dari bentuk aljabar pecahan tersebut adalah {v11}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pembilang = 3xy({v12}x-{v13}y). Dengan x,y tidak nol, pecahan menyederhana menjadi {v14}x-{v15}y. Untuk x=3,y=1 nilainya {v16}."
+}

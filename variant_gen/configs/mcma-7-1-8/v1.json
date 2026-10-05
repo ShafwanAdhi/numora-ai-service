@@ -1,0 +1,105 @@
+{
+  "question_id": "mcma-7-1-8",
+  "config_version": 1,
+  "original_hash": "5c98c9b17ad2b1d4",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k+28",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "4*k+28",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "k+5",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3*k+15",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k+8",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k+28",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "k+5",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*k+15",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2*k+10",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2*k+8",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Umur Kakak saat ini adalah 3 kali umur Adik. Empat tahun yang akan datang, jumlah umur mereka berdua adalah {v1} tahun. Manakah pernyataan berikut yang BENAR terkait situasi tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jika x menyatakan umur Adik saat ini, model matematika yang tepat adalah (x+4)+(3x+4)={v2}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Umur Adik saat ini adalah {v3} tahun.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Umur Kakak saat ini adalah {v4} tahun.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Selisih umur Kakak dan Adik saat ini adalah {v5} tahun.",
+      "correct": false
+    }
+  ],
+  "explanation": "Adik=x, kakak=3x. Empat tahun kemudian 4x+8={v6}; adik {v7}, kakak {v8}, selisih {v9}, bukan {v10} tahun."
+}

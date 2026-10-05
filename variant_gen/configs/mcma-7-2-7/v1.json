@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-7-2-7",
+  "config_version": 1,
+  "original_hash": "3143cc48d598c2c5",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Guru Matematika menyajikan tiga bentuk persamaan aljabar berikut di papan tulis untuk dianalisis sifat himpunan penyelesaiannya:\nPersamaan I: 4(x−2)=4x−8\nPersamaan II: 2(3x+1)=6x+5\nPersamaan III: 5x−{v1}=2x+{v2}\nManakah pernyataan analisis berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Persamaan I merupakan bentuk identitas sehingga memiliki tak hingga banyak penyelesaian.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Persamaan II merupakan bentuk kontradiksi sehingga tidak memiliki penyelesaian (himpunan kosong).",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Persamaan III memiliki penyelesaian tunggal, yaitu x={v3}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Persamaan I dan Persamaan II sama-sama memiliki satu penyelesaian bulat positif.",
+      "correct": false
+    }
+  ],
+  "explanation": "I identitas, II kontradiksi karena 2 tidak sama dengan 5. III: 3x={v4}, x={v5}. I dan II tidak sama-sama memiliki solusi tunggal."
+}

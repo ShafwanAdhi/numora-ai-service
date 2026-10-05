@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-8-3-5",
+  "config_version": 1,
+  "original_hash": "9802d9f9ccd33759",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        -20,
+        11
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "80+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "75+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "80+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "80+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "75+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "80+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "80+k-1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Syarat kelulusan seleksi anggota Paskibra sekolah adalah memiliki nilai rata-rata dari 3 kali tes fisik tidak kurang dari {v1}, serta nilai tes ke-3 tidak boleh kurang dari nilai tes ke-2. Rian telah mengikuti tes ke-1 dengan nilai {v2} dan tes ke-2 dengan nilai {v3}. Berdasarkan analisis pertidaksamaan dan skala nilai tes maksimum (100), nilai tes ke-3 (x) yang harus diperoleh Rian berada pada rentang ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v4}≤x≤100",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v5}≤x≤100",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v6}≤x≤{v7}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v8}≤x≤{v9}",
+      "correct": false
+    }
+  ],
+  "explanation": "Rata-rata mensyaratkan x >= {v10}, lebih kuat daripada x >= {v11}. Skala maksimum tetap 100, jadi {v12} <= x <= 100."
+}

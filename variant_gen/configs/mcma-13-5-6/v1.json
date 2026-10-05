@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-13-5-6",
+  "config_version": 1,
+  "original_hash": "ee58e98ff868431f",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui deret aritmetika {v6}+{v7}+{v8}+{v9}+... Andi menulis S_n={v0}{v1}n(2n+4){v2} dan Beni menulis S_n={v3}{v4}(n)/(2)(12+4n){v5}. Pilihlah semua penilaian yang tepat!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rumus Andi benar.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Rumus Beni benar.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Rumus Beni keliru karena memakai {v10}n, seharusnya {v11}(n-1).",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rumus Andi menghasilkan S_1={v12}, sesuai dengan suku pertama deret.",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Benar. Rumus Andi benar.\nB: Salah. Rumus Beni benar.\nC: Benar. Rumus Beni keliru karena memakai {v10}n, seharusnya {v11}(n-1).\nD: Benar. Rumus Andi menghasilkan S_1={v12}, sesuai dengan suku pertama deret."
+}

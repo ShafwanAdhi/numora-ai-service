@@ -1,0 +1,69 @@
+{
+  "question_id": "mcma-11-3-6",
+  "config_version": 1,
+  "original_hash": "80a8d29b8898ef8b",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui f(x)=x+{v0} dan g(x)=2x. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "(g∘f)(x)=2x+{v1}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "(f∘g)(x)=2x+{v2}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "(f∘g)(x)=(g∘f)(x) untuk setiap nilai x.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "(g∘f)(2)-(f∘g)(2)={v3}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Benar. (g∘f)(x)=2x+{v1}.\nB: Benar. (f∘g)(x)=2x+{v2}.\nC: Salah. (f∘g)(x)=(g∘f)(x) untuk setiap nilai x.\nD: Benar. (g∘f)(2)-(f∘g)(2)={v3}."
+}

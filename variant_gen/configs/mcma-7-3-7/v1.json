@@ -1,0 +1,135 @@
+{
+  "question_id": "mcma-7-3-7",
+  "config_version": 1,
+  "original_hash": "85f6ff2ad7acff29",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "180000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "30000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "180000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "25000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "30000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "180000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "25000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "120000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga orang siswa (Andi, Budi, dan Cici) mengumpulkan dana untuk iuran kegiatan ekstrakurikuler:\nUang Budi Rp{v1} lebih banyak dari uang Andi.\nUang Cici dua kali lipat dari total gabungan uang Andi dan Budi.\nTotal seluruh uang ketiga siswa tersebut adalah Rp{v2}.\nJika x menyatakan banyaknya uang Andi (dalam rupiah), manakah pernyataan analisis berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model matematika total uang dalam variabel x adalah 6x+{v3}={v4}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Besarnya uang Andi adalah Rp{v5}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Besarnya uang Budi adalah Rp{v6}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Besarnya uang Cici adalah Rp{v7}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Budi=x+{v8}; Cici=2(2x+{v9}). Total 6x+{v10}={v11}; Andi {v12}, Budi {v13}, Cici {v14}, bukan {v15}."
+}

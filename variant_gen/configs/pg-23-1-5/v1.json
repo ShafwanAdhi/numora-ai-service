@@ -1,0 +1,130 @@
+{
+  "question_id": "pg-23-1-5",
+  "config_version": 1,
+  "original_hash": "e3d789c5f1fe7160",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "trials": 50,
+    "observed": 28
+  },
+  "variables": {
+    "trials": {
+      "gen": "choice",
+      "values": [
+        20,
+        40,
+        50,
+        60,
+        80,
+        100,
+        120,
+        140,
+        160,
+        180,
+        200,
+        220,
+        240,
+        260,
+        280,
+        300,
+        320,
+        340,
+        360,
+        380,
+        400,
+        420,
+        440,
+        460,
+        480,
+        500
+      ]
+    },
+    "observed": {
+      "gen": "range",
+      "range": [
+        0,
+        500
+      ],
+      "step": 1
+    },
+    "frequency": {
+      "gen": "derived",
+      "expr": "observed/trials",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oA": {
+      "gen": "derived",
+      "expr": "frequency+(-3/25)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oB": {
+      "gen": "derived",
+      "expr": "frequency+(-3/50)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "displayB": {
+      "gen": "derived",
+      "expr": "\"0,50\" if trials == 50 and observed == 28 else oB",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "oC": {
+      "gen": "derived",
+      "expr": "frequency+(0/1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oD": {
+      "gen": "derived",
+      "expr": "frequency+(1/25)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "displayD": {
+      "gen": "derived",
+      "expr": "\"0,60\" if trials == 50 and observed == 28 else oD",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah koin dilempar {trials} kali. Sisi gambar muncul sebanyak {observed} kali. Frekuensi relatif muncul gambar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{oA}",
+      "correct": "frequency == (frequency+(-3/25))"
+    },
+    {
+      "id": "B",
+      "text": "{displayB}",
+      "correct": "frequency == (frequency+(-3/50))"
+    },
+    {
+      "id": "C",
+      "text": "{oC}",
+      "correct": "frequency == (frequency+(0/1))"
+    },
+    {
+      "id": "D",
+      "text": "{displayD}",
+      "correct": "frequency == (frequency+(1/25))"
+    }
+  ],
+  "explanation": "Frekuensi relatif = {observed}/{trials} = {frequency}. Peluang teoretis tidak berubah akibat hasil percobaan.",
+  "constraints": [
+    "observed <= trials",
+    "frequency == round(frequency,2)",
+    "(frequency+(-3/25)) >= 0",
+    "(frequency+(-3/25)) <= 1",
+    "(frequency+(-3/50)) >= 0",
+    "(frequency+(-3/50)) <= 1",
+    "(frequency+(0/1)) >= 0",
+    "(frequency+(0/1)) <= 1",
+    "(frequency+(1/25)) >= 0",
+    "(frequency+(1/25)) <= 1"
+  ]
+}

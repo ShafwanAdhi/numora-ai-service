@@ -1,0 +1,85 @@
+{
+  "question_id": "kategori-11-5-10",
+  "config_version": 1,
+  "original_hash": "44bcdef6952d9ce0",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "distance": 3
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "distance": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "(2000+1000*distance)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "distance",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "distance+2",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Taksi X menetapkan biaya f(x) = {v0} + {v1}x, sedangkan taksi Y menetapkan biaya g(x) = {v2} + {v3}x, dengan x jarak tempuh dalam kilometer. Tentukan Benar atau Salah untuk setiap penilaian berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Untuk jarak {v4} km, biaya kedua taksi sama.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Untuk jarak {v5} km, taksi Y lebih murah daripada taksi X.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Grafik g lebih curam daripada grafik f.",
+      "correct": true
+    }
+  ],
+  "explanation": "Samakan kedua rumus tarif untuk memperoleh jarak titik potong. Setelah titik potong, taksi dengan koefisien jarak lebih besar memiliki tarif lebih mahal; koefisien tersebut juga menentukan kecuraman grafik."
+}

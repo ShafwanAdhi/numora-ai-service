@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-11-4-5",
+  "config_version": 1,
+  "original_hash": "308b25c904cfbb69",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "1000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tarif parkir sebuah gedung adalah Rp{v0} untuk jam pertama dan Rp{v1} untuk setiap jam berikutnya (dihitung per jam penuh). Dina memodelkan biaya parkir untuk t jam (t bilangan asli) sebagai f(t) = {v2}t + {v3}. Penilaian yang tepat terhadap model Dina adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat, karena biaya bertambah Rp{v4} untuk setiap tambahan satu jam",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kurang tepat, karena seharusnya f(t) = {v5}t",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kurang tepat, karena f(1) = {v6}, padahal tarif jam pertama Rp{v7}; model yang tepat adalah f(t) = {v8}t + {v9}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kurang tepat, karena grafik fungsi tarif parkir seharusnya berupa garis lurus yang kontinu",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Salah. Tepat, karena biaya bertambah Rp{v4} untuk setiap tambahan satu jam\nB: Salah. Kurang tepat, karena seharusnya f(t) = {v5}t\nC: Benar. Kurang tepat, karena f(1) = {v6}, padahal tarif jam pertama Rp{v7}; model yang tepat adalah f(t) = {v8}t + {v9}\nD: Salah. Kurang tepat, karena grafik fungsi tarif parkir seharusnya berupa garis lurus yang kontinu"
+}

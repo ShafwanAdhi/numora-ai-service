@@ -1,0 +1,142 @@
+{
+  "question_id": "pg-20-1-2",
+  "config_version": 1,
+  "original_hash": "ef52d81ca0ea70de",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "n1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n2": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n4": {
+      "gen": "derived",
+      "expr": "7*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n5": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n6": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n7": {
+      "gen": "derived",
+      "expr": "23*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n8": {
+      "gen": "derived",
+      "expr": "25*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n9": {
+      "gen": "derived",
+      "expr": "27*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "(4+6+3+7+5)*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Perhatikan data jumlah buku yang dibaca lima siswa dalam satu bulan berikut.\nSiswa | Jumlah Buku\nAndi | {n1}\nBudi | {n2}\nCitra | {n3}\nDeni | {n4}\nEka | {n5}\nJumlah seluruh buku yang dibaca kelima siswa tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{n6} buku",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{n7} buku",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{n8} buku",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{n9} buku",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah seluruh buku = {total} buku.",
+  "constraints": []
+}

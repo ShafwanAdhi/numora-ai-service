@@ -1,0 +1,71 @@
+{
+  "question_id": "pg-14-4-5",
+  "config_version": 1,
+  "original_hash": "96f67e35cff77cad",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "100+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "70-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "110+t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [
+    "t!=-20"
+  ],
+  "stem": "Budi mengukur segitiga ABC dan memperoleh ∠A = {v0}°, ∠B = 50°, serta sudut luar di titik C = {v1}°. Penilaian yang tepat terhadap hasil ukur Budi adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena jumlah ∠A, ∠B, dan sudut luar C adalah 180°.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Benar, karena sudut luar C harus lebih kecil dari ∠A.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena sudut luar C seharusnya {v2}°.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena sudut luar C seharusnya ∠A + ∠B = {v3}°.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Salah. Benar, karena jumlah ∠A, ∠B, dan sudut luar C adalah 180°.\nB: Salah. Benar, karena sudut luar C harus lebih kecil dari ∠A.\nC: Salah. Salah, karena sudut luar C seharusnya {v2}°.\nD: Benar. Salah, karena sudut luar C seharusnya ∠A + ∠B = {v3}°."
+}

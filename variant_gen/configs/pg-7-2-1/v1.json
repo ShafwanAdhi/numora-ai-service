@@ -1,0 +1,159 @@
+{
+  "question_id": "pg-7-2-1",
+  "config_version": 1,
+  "original_hash": "97328f3fa942805e",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "15000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "15000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "25000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "15000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "19000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "15000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "37000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "15000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "125000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "15000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "15000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "25000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pak Roni (pembina OSIS) membeli 5 pack spidol papan tulis di koperasi sekolah untuk keperluan inventaris kelas dan mendapat potongan harga tunai sebesar Rp{v1}. Total uang yang harus dibayar Pak Roni setelah potongan harga adalah Rp{v2}. Jika x menyatakan harga 1 pack spidol sebelum potongan harga, model matematika dan harga 1 pack spidol tersebut berturut-turut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "5x−{v3}={v4}; Rp{v5}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "5x+{v6}={v7}; Rp{v8}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "5(x−{v9})={v10}; Rp{v11}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "x−{v12}={v13}; Rp{v14}",
+      "correct": false
+    }
+  ],
+  "explanation": "Model 5x-{v15}={v16}; x=({v17}+{v18})/5={v19} rupiah."
+}

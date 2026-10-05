@@ -35,11 +35,13 @@ flowchart LR
 | `webui.py`, `webui.html` | HTTP localhost dan UI operator |
 | `database.py` | Pembacaan PostgreSQL terpisah dari generator |
 
+Workspace default memuat bank dasar indikator 16–19, bank tambahan 6–10,11–15,20–23, dan Tryout 1: 670 original, 575 config, 94 kelompok katalog termasuk level kosong. `--bank` custom tetap standalone. Bank lokal tidak otomatis diimpor dari database utama.
+
 ## Penyimpanan dan versi
 
 Original seed 0 dari CSV+ledger, tidak di-append ke store. Varian memiliki ID `<question_id>:s<seed>:v<variant_ver>`. Config version, original version dan variant version berbeda; regen menambah variant version, menautkan `replacement_of` dan alasan.
 
-Snapshot memuat `record_id`, `question_id`, `seed`, `variant_ver`, `config_ver`, `config_hash`, `original_hash`, `original_version`, `draws_used`, `values_used`, `stem`, `options[{id,text}]`, `key`, `explanation`, `format`, `cognitive_level`, `replacement_of`, `regen_reason`, `created_at`; klasifikasi/metadata bila tersedia. `key`: ID benar dipisah koma, KATEGORI angka, PG/MCMA huruf. Snapshot historis dapat tidak memiliki pembahasan/klasifikasi terbaru.
+Snapshot memuat `record_id`, `question_id`, `seed`, `variant_ver`, `config_ver`, `config_hash`, `original_hash`, `original_version`, `draws_used`, `values_used`, `stem`, `options[{id,text}]`, `key`, `explanation`, `format`, `cognitive_level`, `replacement_of`, `regen_reason`, `created_at`; klasifikasi/metadata bila tersedia. `key`: ID benar dipisah koma, KATEGORI angka, PG/MCMA huruf. KATEGORI dengan label khusus juga menyimpan `answer_categories`. Snapshot historis dapat tidak memiliki pembahasan/klasifikasi terbaru.
 
 Hash original/config adalah fingerprint SHA-256 dipotong 16 karakter; guard identitas lokal, bukan tanda tangan authenticity. Original hash tidak mencakup klasifikasi. Perubahan config/catalog tidak menulis ulang snapshot. Pecahan metadata dapat menjadi float JSON; preview/export memakai teks/kunci snapshot.
 
@@ -68,7 +70,7 @@ Mapping satu objek JSON, bukan dictionary per question:
 
 UUID non-zero; generator tidak membuat/mencari ID. Pemeriksaan offline tidak membuktikan existence/relasi UUID; importer Numora wajib memvalidasi DB, original/rubric. Mapping historis harus cocok snapshot historis, bukan sekadar bank aktif.
 
-Envelope: `questionExternalId`, `variantExternalId`, `payload`, `answer`, `explanation`, `generation` dengan `reviewStatus=REVIEW`. PG satu ID benar; MCMA list ID benar; KATEGORI truth value **seluruh** pernyataan termasuk false. Snapshot tanpa pembahasan lengkap ditolak. Command tidak insert/upload/adopt/publish.
+Envelope: `questionExternalId`, `variantExternalId`, `payload`, `answer`, `explanation`, `generation` dengan `reviewStatus=REVIEW`. PG satu ID benar; MCMA list ID benar; KATEGORI truth value **seluruh** pernyataan termasuk false. Snapshot tanpa pembahasan lengkap ditolak. Ekspor kanonik menerima satu label kognitif C1–C6 dan kategori boolean Benar/Salah; label kognitif gabungan atau kategori khusus tetap lokal sampai mapping semantiknya disahkan. Command tidak insert/upload/adopt/publish.
 
 ## Browser database
 

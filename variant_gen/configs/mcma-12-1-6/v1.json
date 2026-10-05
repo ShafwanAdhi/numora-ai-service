@@ -1,0 +1,93 @@
+{
+  "question_id": "mcma-12-1-6",
+  "config_version": 1,
+  "original_hash": "a6dacd75d26873ec",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "17*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui barisan bilangan berhingga {v0}, {v1}, {v2}, {v3}, {v4}. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Barisan tersebut merupakan barisan aritmetika.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Setiap suku diperoleh dengan menambahkan {v5} pada suku sebelumnya.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Setiap suku diperoleh dengan mengurangi suku sebelumnya dengan {v6}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika pola dilanjutkan, suku berikutnya adalah {v7}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Benar. Barisan tersebut merupakan barisan aritmetika.\nB: Salah. Setiap suku diperoleh dengan menambahkan {v5} pada suku sebelumnya.\nC: Benar. Setiap suku diperoleh dengan mengurangi suku sebelumnya dengan {v6}.\nD: Benar. Jika pola dilanjutkan, suku berikutnya adalah {v7}."
+}

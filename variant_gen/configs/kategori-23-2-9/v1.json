@@ -1,0 +1,73 @@
+{
+  "question_id": "kategori-23-2-9",
+  "config_version": 1,
+  "original_hash": "fc027b4b4f40dd9a",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "trials": 200,
+    "observed": 108
+  },
+  "variables": {
+    "trials": {
+      "gen": "choice",
+      "values": [
+        200,
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "observed": {
+      "gen": "range",
+      "range": [
+        0,
+        500
+      ],
+      "step": 1
+    },
+    "frequency": {
+      "gen": "derived",
+      "expr": "observed/trials",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "complement": {
+      "gen": "derived",
+      "expr": "1-frequency",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah koin dilempar {trials} kali. Sisi gambar muncul {observed} kali.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Frekuensi relatif gambar adalah {frequency}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Frekuensi relatif gambar adalah {complement}.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Frekuensi relatif dapat digunakan untuk menggambarkan hasil percobaan.",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Peluang teoretis gambar adalah {frequency}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Frekuensi relatif = {observed}/{trials} = {frequency}. Peluang teoretis koin seimbang tetap 1/2; jumlah hasil bukan kepastian.",
+  "constraints": [
+    "observed <= trials",
+    "frequency != 1/2",
+    "frequency == round(frequency,2)"
+  ]
+}

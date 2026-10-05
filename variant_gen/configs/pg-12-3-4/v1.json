@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-12-3-4",
+  "config_version": 1,
+  "original_hash": "ffde3352be50ee6f",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "(3/2)*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Barisan aritmetika dan barisan geometri sama-sama memiliki suku pertama {v0}. Beda barisan aritmetika adalah -{v1} dan rasio barisan geometri adalah (1)/(2). Perbandingan penurunan nilai suku-suku kedua barisan pada lima suku pertama yang tepat adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Penurunan barisan aritmetika selalu {v2}, sedangkan penurunan barisan geometri makin kecil: {v3}, {v4}, {v5}, {v6}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Penurunan kedua barisan sama-sama tetap",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Penurunan barisan geometri selalu {v7}, sedangkan penurunan barisan aritmetika makin kecil",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Penurunan barisan aritmetika makin besar, sedangkan penurunan barisan geometri tetap",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Benar. Penurunan barisan aritmetika selalu {v2}, sedangkan penurunan barisan geometri makin kecil: {v3}, {v4}, {v5}, {v6}\nB: Salah. Penurunan kedua barisan sama-sama tetap\nC: Salah. Penurunan barisan geometri selalu {v7}, sedangkan penurunan barisan aritmetika makin kecil\nD: Salah. Penurunan barisan aritmetika makin besar, sedangkan penurunan barisan geometri tetap"
+}

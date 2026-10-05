@@ -1,0 +1,142 @@
+{
+  "question_id": "kategori-10-1-9",
+  "config_version": 1,
+  "original_hash": "db2dce7293c5f7ca",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "9*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "8*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "9*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "8*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pak Budi memiliki sebidang tanah untuk kebun sekolah berbentuk persegi dengan panjang sisi (2x+{v1})meter. Di tengah kebun tersebut dibangun kolam ikan berbentuk persegi dengan panjang sisi (x-{v2})meter. Sisa lahan tanah di luar kolam akan ditanami rumput hias.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas seluruh tanah kebun Pak Budi adalah (4x^2+{v3}x+{v4})m^2.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas area kolam ikan adalah (x^2-{v5}x+{v6})m^2.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Luas area tanah yang ditanami rumput hias adalah (3x^2+{v7}x+{v8})m^2.",
+      "correct": true
+    }
+  ],
+  "explanation": "Luas kebun (2x+{v9})^2=4x^2+{v10}x+{v11}; kolam (x-{v12})^2=x^2-{v13}x+{v14}. Selisih 3x^2+{v15}x+{v16}; kedua sisi positif untuk x>{v17}."
+}

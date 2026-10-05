@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-10-3-8",
+  "config_version": 1,
+  "original_hash": "ab693ecc86c03e27",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "4*k-1.5",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "8*k-3",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k-3",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "8*k-3",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "8*k-3",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "-8*k+3",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "8*k-3",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan dua bentuk aljabar hasil pencatatan stok alat tulis di koperasi sekolah:\nBentuk A: A=4(x-{v1}y)+3(2x+y)\nBentuk B: B=2(5x-{v2}y)\nManakah pernyataan analisis ekuivalensi berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bentuk A dapat disederhanakan menjadi 10x-{v3}y.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Bentuk A dan Bentuk B saling ekuivalen satu sama lain.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Hasil selisih A-B=0 untuk setiap nilai x dan y.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Koefisien dari variabel y pada bentuk sederhana A adalah {v4}.",
+      "correct": false
+    }
+  ],
+  "explanation": "A=4x-{v5}y+6x+3y=10x-{v6}y. B juga 10x-{v7}y; A-B=0. Koefisien y negatif {v8}, bukan positif {v9}."
+}

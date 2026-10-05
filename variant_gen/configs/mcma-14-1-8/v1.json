@@ -1,0 +1,93 @@
+{
+  "question_id": "mcma-14-1-8",
+  "config_version": 1,
+  "original_hash": "94d7975b42e3cb3d",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "50+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "60-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "90+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "45-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "30+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "30-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "100+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "50-t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pilihlah semua kelompok besar sudut yang dapat membentuk sebuah segitiga!",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v0}°, {v1}°, 70°",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v2}°, {v3}°, 55°",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4}°, {v5}°, 120°",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v6}°, {v7}°, 40°",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Benar. {v0}°, {v1}°, 70°\nB: Salah. {v2}°, {v3}°, 55°\nC: Benar. {v4}°, {v5}°, 120°\nD: Salah. {v6}°, {v7}°, 40°"
+}

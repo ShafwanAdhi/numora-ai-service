@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-13-2-10",
+  "config_version": 1,
+  "original_hash": "938fd75faa38d601",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "25*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "350*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2300*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2400*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah perusahaan memproduksi {v0} unit barang pada bulan pertama dan produksinya bertambah {v1} unit setiap bulan selama 8 bulan. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Produksi pada bulan ke-8 adalah {v2} unit.",
+      "correct": false
+    },
+    {
+      "id": "2",
+      "text": "Total produksi selama 8 bulan adalah {v3} unit.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika target produksi {v4} unit, produksi selama 8 bulan masih kurang {v5} unit.",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\n1: Salah. Produksi pada bulan ke-8 adalah {v2} unit.\n2: Benar. Total produksi selama 8 bulan adalah {v3} unit.\n3: Benar. Jika target produksi {v4} unit, produksi selama 8 bulan masih kurang {v5} unit."
+}

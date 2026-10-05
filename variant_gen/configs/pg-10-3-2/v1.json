@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-10-3-2",
+  "config_version": 1,
+  "original_hash": "70a78a20a57a0c65",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Denah panggung utama pertunjukan teater sekolah berbentuk persegi panjang dengan luas L(x)=(6x^2+11x-10)m^2. Tim dekorasi menganalisis bahwa panjang panggung adalah (2x+5)m dan lebarnya adalah (3x-2)m. Jika nilai variabel x bertambah sebesar {v1} meter, analisis perubahan keliling panggung (ΔK) yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Keliling panggung bertambah sebesar {v2}meter secara konstan tanpa terpengaruh nilai awal x",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Keliling panggung bertambah sebesar {v3}meter",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Keliling panggung bertambah sebesar {v4}meter",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Perubahan keliling panggung bergantung pada nilai x^2",
+      "correct": false
+    }
+  ],
+  "explanation": "Keliling K(x)=2((2x+5)+(3x-2))=10x+6. Selisih K(x+{v5})-K(x)={v6} meter, tidak bergantung nilai awal x."
+}

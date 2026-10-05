@@ -1,0 +1,2440 @@
+{
+  "source_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+  "counts": {
+    "ACTIVE": 129,
+    "HOLD_SOURCE": 12,
+    "DEFERRED_CONCEPTUAL": 9
+  },
+  "seeds": [
+    201,
+    400
+  ],
+  "accepted": 25800,
+  "failures": 0,
+  "questions": [
+    {
+      "id": "pg-6-1-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-6-1-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        0.5,
+        2.5
+      ],
+      "parameter_step": 0.05,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "pg-6-1-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 9,
+        "same_answer_as_original": 9
+      }
+    },
+    {
+      "id": "pg-6-1-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-6-1-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Header kunci kosong; pembahasan menghasilkan 4,5 liter (opsi C), bukan kunci sumber yang eksplisit."
+    },
+    {
+      "id": "mcma-6-1-6",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Klasifikasi perbandingan murni; teks jawaban benar tetap walaupun angka diubah."
+    },
+    {
+      "id": "mcma-6-1-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-6-1-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "kategori-6-1-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "kategori-6-1-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-6-2-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 37,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-6-2-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 40,
+      "parameter_range": [
+        0.5,
+        2.5
+      ],
+      "parameter_step": 0.05,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "pg-6-2-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "pg-6-2-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-6-2-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "mcma-6-2-6",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Klasifikasi senilai/berbalik nilai; teks jawaban benar tetap walaupun angka diubah."
+    },
+    {
+      "id": "mcma-6-2-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "mcma-6-2-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "kategori-6-2-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "kategori-6-2-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-6-3-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "pg-6-3-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-6-3-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "pg-6-3-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 40,
+      "parameter_range": [
+        0.5,
+        2.5
+      ],
+      "parameter_step": 0.05,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "pg-6-3-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 9,
+        "same_answer_as_original": 9
+      }
+    },
+    {
+      "id": "mcma-6-3-6",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Klasifikasi hubungan perbandingan; teks jawaban benar tetap walaupun angka diubah."
+    },
+    {
+      "id": "mcma-6-3-7",
+      "status": "HOLD_SOURCE",
+      "reason": "Frasa pada hari ke-3 ambigu; jawaban 5,25 hari mengasumsikan tiga hari penuh telah berlalu."
+    },
+    {
+      "id": "mcma-6-3-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "kategori-6-3-9",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Satu klaim benar tetap: Vendor Y berbanding lurus. Mengubah biaya tidak mengubah himpunan jawaban benar."
+    },
+    {
+      "id": "kategori-6-3-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-7-1-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "pg-7-1-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Header kunci kosong; pembahasan menghasilkan Rp35.000 (opsi B), bukan kunci sumber yang eksplisit."
+    },
+    {
+      "id": "pg-7-1-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Luas yang dihitung 80 (opsi C), kunci sumber B=72."
+    },
+    {
+      "id": "pg-7-1-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "pg-7-1-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-7-1-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-7-1-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-7-1-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 29,
+      "parameter_range": [
+        1,
+        30
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "kategori-7-1-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "kategori-7-1-10",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Klaim benar identitas/kontradiksi tetap; perubahan angka tidak lolos same_answer_as_original."
+    },
+    {
+      "id": "pg-7-2-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "pg-7-2-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 9,
+        "same_answer_as_original": 9
+      }
+    },
+    {
+      "id": "pg-7-2-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "pg-7-2-4",
+      "status": "HOLD_SOURCE",
+      "reason": "Kontradiksi memerlukan a != -4; opsi berkunci menyebut a != 4. Periksa opsi dan pembahasan lengkap."
+    },
+    {
+      "id": "pg-7-2-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 29,
+      "parameter_range": [
+        1,
+        30
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "mcma-7-2-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-7-2-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    },
+    {
+      "id": "mcma-7-2-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    },
+    {
+      "id": "kategori-7-2-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "kategori-7-2-10",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Klaim benar identitas/kontradiksi tetap; perubahan angka tidak lolos same_answer_as_original."
+    },
+    {
+      "id": "pg-7-3-1",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Teks jawaban benar tetap: kedua distributor mempunyai harga dasar yang sama."
+    },
+    {
+      "id": "pg-7-3-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "pg-7-3-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-7-3-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 9,
+        "same_answer_as_original": 9
+      }
+    },
+    {
+      "id": "pg-7-3-5",
+      "status": "HOLD_SOURCE",
+      "reason": "XML sumber mengonfirmasi opsi A/B k=4, C/D k=8. Kunci B salah untuk kontradiksi k != 4; opsi duplikat."
+    },
+    {
+      "id": "mcma-7-3-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-7-3-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-7-3-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "kategori-7-3-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 14,
+        "same_answer_as_original": 14
+      }
+    },
+    {
+      "id": "kategori-7-3-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "pg-8-1-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 10,
+        "same_answer_as_original": 10
+      }
+    },
+    {
+      "id": "pg-8-1-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "pg-8-1-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-8-1-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-8-1-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-8-1-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "mcma-8-1-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 35,
+      "parameter_range": [
+        -20,
+        15
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "mcma-8-1-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 9,
+        "same_answer_as_original": 9
+      }
+    },
+    {
+      "id": "kategori-8-1-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "kategori-8-1-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 9,
+        "same_answer_as_original": 9
+      }
+    },
+    {
+      "id": "pg-8-2-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-8-2-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 37,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "pg-8-2-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-8-2-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "pg-8-2-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-8-2-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-8-2-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 31,
+      "parameter_range": [
+        -20,
+        11
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-8-2-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Langkah 4 mencantumkan hasil dengan tanda salah sekaligus alternatif benar; evaluasi kesalahan dan kunci tidak konsisten."
+    },
+    {
+      "id": "kategori-8-2-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "kategori-8-2-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 10,
+        "same_answer_as_original": 10
+      }
+    },
+    {
+      "id": "pg-8-3-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "pg-8-3-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "pg-8-3-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-8-3-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-8-3-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 31,
+      "parameter_range": [
+        -20,
+        11
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "mcma-8-3-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-8-3-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-8-3-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "kategori-8-3-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "kategori-8-3-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-9-1-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 13,
+        "same_answer_as_original": 13
+      }
+    },
+    {
+      "id": "pg-9-1-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "pg-9-1-3",
+      "status": "HOLD_SOURCE",
+      "reason": "XML sumber mengonfirmasi opsi A/B k=8, C/D k=4. Kunci B adalah sistem berhimpit; tanpa solusi perlu k != 8."
+    },
+    {
+      "id": "pg-9-1-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-9-1-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi."
+    },
+    {
+      "id": "mcma-9-1-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-9-1-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-9-1-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "kategori-9-1-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "kategori-9-1-10",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Klaim benar jenis grafik tetap; variasi angka saja tidak mengubah jawaban benar."
+    },
+    {
+      "id": "pg-9-2-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-9-2-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "pg-9-2-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-9-2-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-9-2-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi."
+    },
+    {
+      "id": "mcma-9-2-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "mcma-9-2-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-9-2-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "kategori-9-2-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "kategori-9-2-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-9-3-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-9-3-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Nomor soal dan tingkat kognitif tidak tercantum. ID lokal 2 disimpulkan dari posisi; kunci A eksplisit pada pembahasan. Metadata sumber perlu disahkan."
+    },
+    {
+      "id": "pg-9-3-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {}
+    },
+    {
+      "id": "pg-9-3-4",
+      "status": "HOLD_SOURCE",
+      "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi."
+    },
+    {
+      "id": "pg-9-3-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-9-3-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "mcma-9-3-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "mcma-9-3-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "kategori-9-3-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "kategori-9-3-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "pg-10-1-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "pg-10-1-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "pg-10-1-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-10-1-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 9,
+        "same_answer_as_original": 9
+      }
+    },
+    {
+      "id": "pg-10-1-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "mcma-10-1-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      }
+    },
+    {
+      "id": "mcma-10-1-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "mcma-10-1-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "kategori-10-1-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "kategori-10-1-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 8,
+        "same_answer_as_original": 8
+      }
+    },
+    {
+      "id": "pg-10-2-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 38,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-10-2-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "pg-10-2-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "pg-10-2-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      }
+    },
+    {
+      "id": "pg-10-2-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "mcma-10-2-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "mcma-10-2-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "mcma-10-2-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 9,
+        "same_answer_as_original": 9
+      }
+    },
+    {
+      "id": "kategori-10-2-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "kategori-10-2-10",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Ketiga klaim ekuivalensi benar dengan teks tetap; variasi angka yang aman belum tersedia."
+    },
+    {
+      "id": "pg-10-3-1",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-10-3-2",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-10-3-3",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "pg-10-3-4",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 37,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    },
+    {
+      "id": "pg-10-3-5",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "mcma-10-3-6",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      }
+    },
+    {
+      "id": "mcma-10-3-7",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "mcma-10-3-8",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      }
+    },
+    {
+      "id": "kategori-10-3-9",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "id": "kategori-10-3-10",
+      "status": "ACTIVE",
+      "reason": "Reproduksi dan seluruh opsi lolos oracle independen.",
+      "stock_gate": 20,
+      "audit_accepted": 200,
+      "audit_failures": 0,
+      "audit_distinct": 39,
+      "parameter_range": [
+        1,
+        40
+      ],
+      "parameter_step": 1,
+      "rejected_candidates": {
+        "same_as_original": 7,
+        "same_answer_as_original": 7
+      }
+    }
+  ]
+}

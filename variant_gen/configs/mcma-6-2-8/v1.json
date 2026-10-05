@@ -1,0 +1,117 @@
+{
+  "question_id": "mcma-6-2-8",
+  "config_version": 1,
+  "original_hash": "8cdd464c7ee4335d",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "96*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dalam kegiatan Perkemahan Jumat-Sabtu (Perjusa), regu Elang yang beranggotakan 8 siswa membawa persediaan makanan yang dirancang cukup untuk {v1} hari. Setelah kegiatan berlangsung selama {v2} hari, bergabung 4 siswa dari regu lain yang persediaan makannya telah habis.\nManakah pernyataan berikut yang benar terkait analisis sisa persediaan makanan regu Elang? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sisa persediaan makanan sebelum 4 siswa bergabung cukup untuk 8 siswa selama {v3} hari ke depan.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Setelah 4 siswa bergabung, sisa persediaan makanan tersebut akan habis dalam waktu {v4} hari.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kedatangan 4 siswa baru menyebabkan persediaan makanan habis {v5} hari lebih cepat dari rencana awal.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika 4 siswa tersebut tidak bergabung, total persediaan makanan awal dapat bertahan selama {v6} hari.",
+      "correct": false
+    }
+  ],
+  "explanation": "Sisa makanan = 8*({v7}-{v8})={v9} hari-siswa. Dua belas siswa menghabiskan dalam {v10} hari, {v11} hari lebih cepat. Tanpa tambahan siswa, total bertahan {v12} hari."
+}

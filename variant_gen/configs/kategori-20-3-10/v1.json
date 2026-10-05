@@ -1,0 +1,135 @@
+{
+  "question_id": "kategori-20-3-10",
+  "config_version": 1,
+  "original_hash": "30652364a5585464",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "n1": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n2": {
+      "gen": "derived",
+      "expr": "70*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n3": {
+      "gen": "derived",
+      "expr": "90*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n4": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "70*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "bc": {
+      "gen": "derived",
+      "expr": "90*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "d": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Perhatikan data penggunaan lima aplikasi belajar oleh {n1} siswa.\nAplikasi | Persentase\nA | 35%\nB | 25%\nC | 20%\nD | 15%\nE | 5%\nTentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Aplikasi A digunakan oleh {n2} siswa.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Aplikasi B dan C digunakan oleh {n3} siswa secara keseluruhan.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Aplikasi D digunakan oleh {n4} siswa.",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Aplikasi A digunakan tujuh kali lebih banyak daripada aplikasi E.",
+      "correct": true
+    },
+    {
+      "id": "5",
+      "text": "Aplikasi A, B, dan C secara keseluruhan digunakan oleh 80% siswa.",
+      "correct": true
+    }
+  ],
+  "explanation": "Jumlah A = {a}; B + C = {bc}; D = {d}; A/E = 7; A+B+C = 80% dari {total} siswa.",
+  "constraints": []
+}

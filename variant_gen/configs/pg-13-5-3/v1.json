@@ -1,0 +1,147 @@
+{
+  "question_id": "pg-13-5-3",
+  "config_version": 1,
+  "original_hash": "af6060e0ca4e31e6",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "16*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "22*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "825*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "825*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "750*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "94*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "705*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "94*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "780*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada deret aritmatika {v0}+{v1}+{v2}+... yang terdiri dari 15 suku, seorang siswa menghitung U_15={v3}+15×{v4}={v5} dan S_15=(15)/(2)({v6}+{v7})={v8}. Penilaian yang tepat terhadap pekerjaan siswa tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena U_15={v9} dan S_15={v10}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah; U_15={v11} sudah benar, tetapi S_15 seharusnya {v12}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Salah; U_15 seharusnya {v13} sehingga S_15={v14}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Salah; U_15 seharusnya {v15} sehingga S_15={v16}",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. Benar, karena U_15={v9} dan S_15={v10}\nB: Salah. Salah; U_15={v11} sudah benar, tetapi S_15 seharusnya {v12}\nC: Salah. Salah; U_15 seharusnya {v13} sehingga S_15={v14}\nD: Benar. Salah; U_15 seharusnya {v15} sehingga S_15={v16}"
+}

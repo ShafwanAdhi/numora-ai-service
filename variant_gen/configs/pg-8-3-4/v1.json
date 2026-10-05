@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-8-3-4",
+  "config_version": 1,
+  "original_hash": "1365a49ab6164810",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'−' if k == 1 else ''",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "abs(2*k-3)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2*k-1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k+1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k+3",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2*k-3",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan pertidaksamaan berparameter (k−{v1})x<12. Pembina tim olimpiade sekolah menganalisis bahwa himpunan penyelesaian dari pertidaksamaan tersebut adalah x>−4. Nilai konstanta k yang memenuhi analisis tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "k={v2}{v3}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "k={v4}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "k={v5}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "k={v6}",
+      "correct": false
+    }
+  ],
+  "explanation": "Koefisien x harus negatif. Batas 12/(k-{v7})=-4, maka k-{v8}=-3 dan k={v9}."
+}

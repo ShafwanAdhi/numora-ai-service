@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-14-2-8",
+  "config_version": 1,
+  "original_hash": "180f9e639172c616",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "50+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "70-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "60-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "120+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "130+t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada segitiga ABC, ∠A = {v0}° dan ∠B = 70°. Sisi BC diperpanjang ke titik D. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "∠ACB = {v1}°",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "∠ACB = {v2}°",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "∠ACD = {v3}°",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "∠ACD = {v4}°",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Salah. ∠ACB = {v1}°\nB: Benar. ∠ACB = {v2}°\nC: Benar. ∠ACD = {v3}°\nD: Salah. ∠ACD = {v4}°"
+}

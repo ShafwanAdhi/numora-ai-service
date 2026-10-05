@@ -14,12 +14,17 @@ Generator per soal berupa JSON; engine Python dipakai bersama. Tambahkan config 
 | `data/tryout-1/question_metadata.json` | Nomor sumber, difficulty, status/alasan, notes, teks/pembahasan sumber |
 | `data/tryout-1/original_revisions.jsonl` | Koreksi original Tryout |
 | `data/tryout-1/source.docx` | Source verbatim |
+| `data/drill-1-indicators-6-10/` | 150 original, katalog, metadata, source DOCX |
+| `data/drill-1-indicators-11-15/` | 250 original, katalog, metadata, source DOCX, audit.json dan examples.json |
+| `data/drill-1-indicators-20-23/` | 120 original Drill tambahan, katalog, metadata, source DOCX; ledger kosong karena belum ada koreksi disetujui |
 
-`OriginalBank(path)` membaca satu bank. CLI/UI memakai `load_workspace_bank`: path default Drill menggabungkan Tryout bila tersedia; `--bank` custom tetap standalone. API Python menerima `additional_paths` eksplisit; ID duplikat ditolak. Katalog/metadata/ledger harus di samping CSV. CSV tanpa katalog unclassified; paket custom membutuhkan katalog Tryout.
+`OriginalBank(path)` membaca satu bank. CLI/UI memakai `load_workspace_bank`: path default Drill menggabungkan Tryout dan Drill indikator6–10,11–15,20–23 bila tersedia; `--bank` custom tetap standalone. API Python menerima `additional_paths` eksplisit; ID duplikat ditolak. Katalog/metadata/ledger harus di samping CSV. CSV tanpa katalog unclassified; paket custom membutuhkan katalog sesuai aktivitasnya.
 
 ID Drill `pg-16-1-3`: format PG, indikator 16, level sumber 1, soal 3. ID Tryout `tryout-1-b2-q04`: paket 1, bab 2, soal 4. ID lokal bukan UUID canonical database. Level sumber berbeda dari difficulty, cognitive level dan parameter IRT.
 
 Ledger menjaga row source/replacement dan versi berurutan; loader memvalidasi identitas/hash lalu mengekspos original efektif. Salin ledger bersama CSV; CSV saja menunjukkan source sebelum koreksi. Klasifikasi tidak masuk hash konten original.
+
+Metadata status: `ACTIVE`, `HOLD_SOURCE`, `DEFERRED_CONCEPTUAL`; non-ACTIVE wajib alasan dan menolak generate/regen/lint/config save. `category_labels` opsional: dua label unik nonempty, hanya KATEGORI. Key CSV memilih kategori pertama, bukan selalu kebenaran. Label nondefault masuk hash original; snapshot menyimpan `answer_categories` seluruh pernyataan. UI membaca label snapshot historis; ekspor kontrak boolean menolak kategori berlabel khusus.
 
 ## Config
 
@@ -86,7 +91,9 @@ Config yang sudah menghasilkan snapshot dilindungi hash. Editing in-place menola
 
 ## Cakupan dan koreksi
 
-Drill: 110/120 config, seluruh indikator 18–19 tercakup. [Review skip](../variant_gen/soalskip.md) mencatat 12 soal awal: dua mendapat config, sepuluh memerlukan desain/policy konseptual.
+Drill indikator16–19: 110/120 config, seluruh indikator18–19 tercakup. [Review skip](../variant_gen/soalskip.md) mencatat 12 soal awal: dua mendapat config, sepuluh memerlukan desain/policy konseptual. Indikator20–23: 86/120 aktif, 11 HOLD_SOURCE, 23 DEFERRED_CONCEPTUAL; [audit](audits/2026-10-05-drill-20-23-generator-audit.md) memuat stok20 unik per ACTIVE dan semua alasan penundaan. Subtotal indikator16–23: 196 config/240 original.
+
+Drill indikator 6–10: 129/150 aktif, 12 HOLD_SOURCE, 9 DEFERRED_CONCEPTUAL. Subtotal indikator6–10 dan16–23: 325 config/390 original. [Audit](audits/2026-10-05-drill-6-10-generator-audit.md) mencatat pemeriksaan setiap opsi, stok teramati, serta batas recipe. Bank `variant_gen/data/drill-1-indicators-6-10` dimuat otomatis oleh UI/CLI; level 4–5 kosong sesuai sumber. Contoh: `python -B variant_gen/cli.py gen pg-6-1-1 s1 --store output/drill-6-10.jsonl`. Kunci PG sumber yang kosong tetap HOLD, tampil “Belum tersedia”.
 
 Tryout: 27/30 aktif; deferred `tryout-1-b1-q07` (alasan operasi), `tryout-1-b4-q02` (satu mata dadu), `tryout-1-b4-q06` (bias survei). `DEFERRED_CONCEPTUAL` menolak generasi walaupun config disuplai.
 
@@ -98,3 +105,5 @@ Tryout: 27/30 aktif; deferred `tryout-1-b1-q07` (alasan operasi), `tryout-1-b4-q
 | `tryout-1-b4-q04` | Bandingkan rentang, jangan simpulkan varians dari rentang |
 
 Normalisasi source dicatat dalam metadata. q06 deferred: jumlah sampel sama per kelas belum tentu proporsional. Kebenaran teknis tidak menggantikan approval kurikulum atau kalibrasi empiris.
+
+Drill indikator11–15: 223/250 generator aktif, 5 HOLD_SOURCE dan 22 DEFERRED_CONCEPTUAL, tersedia level1–5. [Audit](audits/2026-10-05-drill-11-15-generator-audit.md) dan contoh hasil berada di bank `variant_gen/data/drill-1-indicators-11-15/`. Total Drill: 548 config/640 original; bersama Tryout: 575 config/670 original. Ekspor kanonik mensyaratkan satu label kognitif C1–C6; label sumber gabungan tetap disimpan lokal.

@@ -1,0 +1,83 @@
+{
+  "question_id": "pg-14-4-2",
+  "config_version": 1,
+  "original_hash": "a83b2835a9c8a767",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -9,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "20+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "10+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "86+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "94-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "76+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "104+t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [
+    "t!=4"
+  ],
+  "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Diketahui ∠A3 = (3x - {v0})° dan ∠B1 = (2x + {v1})°. Besar ∠B4 adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2}°",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v3}°",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4}°",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5}°",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Benar. {v2}°\nB: Salah. {v3}°\nC: Salah. {v4}°\nD: Salah. {v5}°"
+}

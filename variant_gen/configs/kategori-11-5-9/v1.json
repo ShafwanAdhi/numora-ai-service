@@ -1,0 +1,102 @@
+{
+  "question_id": "kategori-11-5-9",
+  "config_version": 1,
+  "original_hash": "177da5bc72705304",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "flip": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "flip": {
+      "gen": "choice",
+      "values": [
+        0,
+        1
+      ]
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k if flip==0 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6 if flip==0 else 8",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'Benar' if (flip==0) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'Benar' if (flip==1) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Anto menyatakan bahwa f dari A = {{v0}, {v1}, {v2}} ke B = {a, b} dengan f({v3}) = a, f({v4}) = a, dan f({v5}) = b adalah sebuah fungsi. Tentukan Benar atau Salah untuk setiap penilaian berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Pernyataan Anto benar karena setiap anggota A memiliki tepat satu pasangan di B.",
+      "correct": "flip==0"
+    },
+    {
+      "id": "2",
+      "text": "Pernyataan Anto salah karena anggota a pada B dipasangkan dengan dua anggota A.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Banyak seluruh fungsi yang mungkin dari A ke B adalah {v6}.",
+      "correct": "flip==1"
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\n1: {v7}. Pernyataan Anto benar karena setiap anggota A memiliki tepat satu pasangan di B.\n2: Salah. Pernyataan Anto salah karena anggota a pada B dipasangkan dengan dua anggota A.\n3: {v8}. Banyak seluruh fungsi yang mungkin dari A ke B adalah {v6}."
+}

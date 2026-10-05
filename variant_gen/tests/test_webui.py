@@ -70,14 +70,15 @@ class WebUI(unittest.TestCase):
             read.assert_called_once_with('00000000-0000-0000-0000-000000000001', 100, 0)
 
     def test_original_and_missing_config_are_readable_without_generating(self):
+        from bank import OriginalBank
         status, questions = self.request("GET", "/api/questions")
         self.assertEqual(status, 200)
-        self.assertEqual(len(questions), 150)
+        self.assertEqual(len(questions), sum(len(OriginalBank(p).ids()) for p in (ROOT/'data').rglob('q0_bank.csv')))
         self.assertEqual({q['classification']['activity'] for q in questions}, {'DRILL','TRYOUT'})
         self.assertEqual({q['classification']['package_id'] for q in questions}, {'drill-1','tryout-1'})
         status, catalog = self.request('GET', '/api/catalog')
         self.assertEqual(status, 200)
-        self.assertEqual(len(catalog), 24)
+        self.assertEqual(len(catalog), sum(len(json.loads(p.read_text(encoding='utf8'))) for p in (ROOT/'data').rglob('question_catalog.json')))
         status, data = self.request("GET", "/api/question?id=pg-16-1-1&seed=1")
         self.assertEqual(status, 200)
         self.assertEqual(data["original"]["seed"], 0)
@@ -165,7 +166,127 @@ class WebUI(unittest.TestCase):
         connection.request("GET", "/api/questions")
         response = connection.getresponse()
         self.assertEqual(response.status, 200)
-        self.assertEqual(len(json.loads(response.read())), 150)
+        from bank import OriginalBank
+        self.assertEqual(len(json.loads(response.read())), sum(len(OriginalBank(p).ids()) for p in (ROOT/'data').rglob('q0_bank.csv')))
+
+    def test_drill_20_23_local_lifecycle_and_hold_guards(self):
+        with patch('database.connection',side_effect=AssertionError('Database must not be touched')):
+            status, questions = self.request('GET','/api/questions')
+            self.assertEqual(status,200)
+            self.assertEqual({q['classification']['indicator'] for q in questions if q['classification']['activity']=='DRILL'},set(range(6,24)))
+            status, catalog = self.request('GET','/api/catalog')
+            groups=[g for g in catalog if g.get('indicator') in range(20,24)]
+            self.assertEqual(len(groups),20)
+            self.assertEqual(sum(not g['question_ids'] for g in groups),8)
+            payload={'question_id':'pg-21-1-1','seed':11}
+            status, first=self.request('POST','/api/generate',payload)
+            self.assertEqual(status,200)
+            saved=self.store.read_bytes()
+            self.assertEqual(self.request('POST','/api/generate',payload),(200,first))
+            self.assertEqual(self.store.read_bytes(),saved)
+            status,second=self.request('POST','/api/regen',dict(payload,reason='review local'))
+            self.assertEqual(status,200)
+            self.assertEqual(second['variant_ver'],2)
+            self.assertEqual(second['replacement_of'],1)
+            self.assertEqual(self.request('GET','/api/question?id=pg-21-1-1&seed=11&version=1')[1]['variant'],first)
+            status,data=self.request('GET','/api/question?id=pg-21-1-1&seed=11')
+            before=self.store.read_bytes()
+            self.assertTrue(self.request('POST','/api/lint',{'question_id':payload['question_id'],'config':data['config']})[1]['ok'])
+            self.assertEqual(self.store.read_bytes(),before)
+            draft={'question_id':payload['question_id'],'config':data['config'],'base_version':1,'base_hash':data['config_hash']}
+            self.assertEqual(self.request('POST','/api/config',draft)[0],200)
+            self.assertEqual(self.request('POST','/api/config',draft)[0],409)
+            for qid in ['pg-20-3-3','pg-23-1-2','kategori-20-1-9']:
+                status,data=self.request('GET','/api/question?id='+qid+'&seed=1')
+                self.assertEqual(status,200)
+                self.assertTrue(data['original']['explanation'])
+                if qid=='kategori-20-1-9':
+                    self.assertEqual(data['original']['answer_categories']['2'],'Kualitatif')
+                # Forge a config file in the temporary folder; status must still win.
+                forged=json.loads((ROOT/'configs/pg-21-1-1/v1.json').read_text(encoding='utf8'))
+                forged['question_id']=qid
+                directory=self.configs/qid;directory.mkdir(exist_ok=True)
+                (directory/'v1.json').write_text(json.dumps(forged),encoding='utf8')
+                for route in ['generate','regen','config','lint']:
+                    status,result=self.request('POST','/api/'+route,{'question_id':qid,'seed':1,'reason':'test','config':forged,'base_version':0,'base_hash':None})
+                    self.assertEqual(status,400,(route,result))
+            self.assertEqual(self.store.read_bytes(),before)
+
+    def test_drill_6_10_local_lifecycle_and_hold(self):
+        with patch('database.connection', side_effect=AssertionError('Database must not be touched')):
+            status, catalog = self.request('GET', '/api/catalog')
+            self.assertEqual(status, 200)
+            groups = [g for g in catalog if g.get('indicator') in range(6, 11)]
+            self.assertEqual(len(groups), 25)
+            self.assertEqual(sum(not g['question_ids'] for g in groups), 10)
+            for qid in ['pg-6-1-1', 'mcma-8-1-6', 'kategori-10-1-9']:
+                payload = {'question_id': qid, 'seed': 11}
+                status, first = self.request('POST', '/api/generate', payload)
+                self.assertEqual(status, 200, first)
+                saved = self.store.read_bytes()
+                self.assertEqual(self.request('POST', '/api/generate', payload), (200, first))
+                self.assertEqual(self.store.read_bytes(), saved)
+                status, second = self.request('POST', '/api/regen', dict(payload, reason='test history'))
+                self.assertEqual(status, 200, second)
+                self.assertEqual(second['replacement_of'], 1)
+                status, historical = self.request('GET', f'/api/question?id={qid}&seed=11&version=1')
+                self.assertEqual(historical['variant'], first)
+                self.assertEqual(len(historical['history']), 2)
+                if first['format'] == 'KATEGORI':
+                    self.assertEqual([o['id'] for o in first['options']], ['1', '2', '3'])
+                    self.assertEqual(first['key'], historical['original']['key'])
+                config_path = self.configs / qid / 'v1.json'
+                changed = json.loads(config_path.read_text(encoding='utf8'))
+                changed['explanation'] += ' Edited in place.'
+                config_path.write_text(json.dumps(changed), encoding='utf8')
+                self.assertEqual(self.request('POST', '/api/regen', dict(payload, reason='stale'))[0], 400)
+            before = self.store.read_bytes()
+            for qid in ['pg-6-1-5', 'pg-7-1-2', 'mcma-6-1-6', 'pg-9-3-2']:
+                status, data = self.request('GET', f'/api/question?id={qid}&seed=11')
+                self.assertEqual(status, 200)
+                if qid in ['pg-6-1-5', 'pg-7-1-2']:
+                    self.assertEqual(data['original']['key'], '')
+                    self.assertFalse(any(o.get('correct', False) for o in data['original']['options']))
+                forged = json.loads((ROOT/'configs/pg-6-1-1/v1.json').read_text(encoding='utf8'))
+                forged['question_id'] = qid
+                directory = self.configs / qid
+                directory.mkdir(exist_ok=True)
+                (directory/'v1.json').write_text(json.dumps(forged), encoding='utf8')
+                for route in ['generate', 'regen', 'config', 'lint']:
+                    status, result = self.request('POST', '/api/'+route, dict(question_id=qid, seed=11,
+                        reason='test', config=forged, base_version=0, base_hash=None))
+                    self.assertEqual(status, 400, (route, result))
+            self.assertEqual(self.store.read_bytes(), before)
+
+    def test_drill_11_15_lifecycle_and_all_levels(self):
+        with patch('database.connection',side_effect=AssertionError('local generation must not touch DB')):
+            status,catalog=self.request('GET','/api/catalog')
+            self.assertEqual(status,200)
+            groups=[g for g in catalog if g.get('indicator') in range(11,16)]
+            self.assertEqual(len(groups),25)
+            self.assertEqual({len(g['question_ids']) for g in groups},{10})
+            payload=dict(question_id='pg-11-1-4',seed=11)
+            status,first=self.request('POST','/api/generate',payload)
+            self.assertEqual(status,200)
+            saved=self.store.read_bytes()
+            self.assertEqual(self.request('POST','/api/generate',payload),(200,first))
+            self.assertEqual(self.store.read_bytes(),saved)
+            self.assertEqual(self.request('POST','/api/regen',payload)[0],400)
+            status,second=self.request('POST','/api/regen',dict(payload,reason='local math review'))
+            self.assertEqual(status,200)
+            self.assertEqual(second['variant_ver'],2)
+            self.assertEqual(self.request('GET','/api/question?id=pg-11-1-4&seed=11&version=1')[1]['variant'],first)
+            status,data=self.request('GET','/api/question?id=pg-11-1-4&seed=11')
+            draft=dict(question_id=payload['question_id'],config=data['config'],base_version=1,base_hash=data['config_hash'])
+            self.assertEqual(self.request('POST','/api/config',draft)[0],200)
+            self.assertEqual(self.request('POST','/api/config',draft)[0],409)
+            for qid in ('mcma-11-1-7','pg-11-2-4','kategori-11-3-9','mcma-15-2-8','pg-15-4-2','pg-11-1-1'):
+                status,data=self.request('GET','/api/question?id='+qid+'&seed=1')
+                self.assertEqual(status,200)
+                self.assertTrue(data['original']['metadata']['reason'])
+                for route in ('generate','regen','lint','config'):
+                    self.assertEqual(self.request('POST','/api/'+route,dict(question_id=qid,seed=1,config={},reason='review'))[0],400)
+
 
     def test_tryout_end_to_end_never_queries_database(self):
         with patch('database.connection',side_effect=AssertionError('Database must not be touched')):

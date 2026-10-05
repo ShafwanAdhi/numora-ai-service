@@ -1,0 +1,63 @@
+{
+  "question_id": "mcma-12-3-7",
+  "config_version": 1,
+  "original_hash": "1fe019e7fd5099de",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "486*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Suatu barisan geometri berhingga dengan suku-suku positif memiliki U_3={v0} dan U_6={v1}. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rasio barisan tersebut adalah 3.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Suku pertama barisan tersebut adalah {v2}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Selisih U_5 dan U_4 sama dengan selisih U_6 dan U_5.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Selisih U_6 dan U_5 adalah tiga kali selisih U_5 dan U_4.",
+      "correct": true
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Benar. Rasio barisan tersebut adalah 3.\nB: Benar. Suku pertama barisan tersebut adalah {v2}.\nC: Salah. Selisih U_5 dan U_4 sama dengan selisih U_6 dan U_5.\nD: Benar. Selisih U_6 dan U_5 adalah tiga kali selisih U_5 dan U_4."
+}

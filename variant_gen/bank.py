@@ -26,10 +26,13 @@ def original_hash(o):
         "options": [x["text"] for x in o["options"]],
         "key": [x["id"] for x in o["options"] if x["correct"]],
     }
+    labels = o.get("metadata", {}).get("category_labels", ["Benar", "Salah"])
+    if labels != ["Benar", "Salah"]:
+        payload["category_labels"] = labels
     return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:16]
 
 
-def _parse_row(row, line):
+def _parse_row(row, line, allow_missing_key=False):
     qid = row["id"].strip()
     fmt = row["format"].strip()
     if fmt not in FORMATS:
@@ -43,7 +46,7 @@ def _parse_row(row, line):
     bad = [k for k in key if k not in ids]
     if bad:
         raise BankError(f"{qid} (row {line}): key ids {bad} are not among options {ids}")
-    if fmt == "PG" and len(key) != 1:
+    if fmt == "PG" and len(key) != 1 and not (allow_missing_key and not key):
         raise BankError(f"{qid} (row {line}): PG needs exactly one correct id, got {key}")
     o = {
         "id": qid, "format": fmt, "cognitive_level": row.get("cognitive_level", ""),
@@ -58,13 +61,25 @@ class OriginalBank:
     def __init__(self, path):
         self._rows = {}
         self._catalog = []
+        metadata = Path(path).with_name("question_metadata.json")
+        items = {}
+        if metadata.exists():
+            try:
+                items = json.loads(metadata.read_text(encoding="utf-8"))
+                if not isinstance(items, dict):
+                    raise ValueError("question metadata must be an object")
+            except (OSError, ValueError) as error:
+                raise BankError(f"cannot load question metadata: {error}") from error
         try:
             f = open(path, newline="", encoding="utf-8-sig")
         except OSError as e:
             raise BankError(f"cannot open bank file: {e}")
         with f:
             for line, row in enumerate(csv.DictReader(f), start=2):
-                o = _parse_row(row, line)
+                item = items.get(row["id"].strip(), {})
+                held = (isinstance(item, dict) and item.get("generation_status") == "HOLD_SOURCE"
+                        and isinstance(item.get("reason"), str) and bool(item["reason"].strip()))
+                o = _parse_row(row, line, allow_missing_key=held)
                 if o["id"] in self._rows:
                     raise BankError(f"duplicate question id {o['id']}")
                 self._rows[o["id"]] = o
@@ -118,20 +133,23 @@ class OriginalBank:
                 self._catalog = groups
             except (OSError, ValueError, KeyError, TypeError) as error:
                 raise BankError(f"cannot load question catalog: {error}") from error
-        metadata = Path(path).with_name("question_metadata.json")
         if metadata.exists():
             try:
-                items = json.loads(metadata.read_text(encoding="utf-8"))
-                if not isinstance(items, dict):
-                    raise ValueError("question metadata must be an object")
                 for qid, item in items.items():
-                    if not isinstance(item, dict) or item.get("generation_status") not in ("ACTIVE", "DEFERRED_CONCEPTUAL"):
+                    if not isinstance(item, dict) or item.get("generation_status") not in ("ACTIVE", "HOLD_SOURCE", "DEFERRED_CONCEPTUAL"):
                         raise ValueError(f"invalid generation status: {qid}")
                     if ("notes" in item and (not isinstance(item["notes"],list) or any(not isinstance(note,str) for note in item["notes"]))):
                         raise ValueError(f"notes must be a list of strings: {qid}")
-                    if item["generation_status"] == "DEFERRED_CONCEPTUAL" and (not isinstance(item.get("reason"),str) or not item["reason"].strip()):
+                    if item["generation_status"] != "ACTIVE" and (not isinstance(item.get("reason"),str) or not item["reason"].strip()):
                         raise ValueError(f"deferred question requires reason: {qid}")
+                    if "category_labels" in item:
+                        labels = item["category_labels"]
+                        if (self._rows[qid]["format"] != "KATEGORI" or not isinstance(labels, list)
+                                or len(labels) != 2 or any(not isinstance(s, str) or not s.strip() for s in labels)
+                                or labels[0].strip().casefold() == labels[1].strip().casefold()):
+                            raise ValueError(f"invalid category labels: {qid}")
                     self._rows[qid]["metadata"] = item
+                    self._rows[qid]["hash"] = original_hash(self._rows[qid])
             except (OSError, ValueError, KeyError, TypeError) as error:
                 raise BankError(f"cannot load question metadata: {error}") from error
 
@@ -151,8 +169,11 @@ def load_workspace_bank(path, additional_paths=None):
     bank = OriginalBank(path)
     default = Path(__file__).resolve().parent / "data/q0_bank.csv"
     if additional_paths is None:
-        extra = default.parent / "tryout-1/q0_bank.csv"
-        additional_paths = [extra] if Path(path).resolve() == default and extra.exists() else []
+        additional_paths = ([extra for extra in (default.parent / "tryout-1/q0_bank.csv",
+                            default.parent / "drill-1-indicators-6-10/q0_bank.csv",
+                            default.parent / "drill-1-indicators-11-15/q0_bank.csv",
+                            default.parent / "drill-1-indicators-20-23/q0_bank.csv") if extra.exists()]
+                            if Path(path).resolve() == default else [])
     for extra in additional_paths:
         other = OriginalBank(extra)
         duplicates = bank._rows.keys() & other._rows.keys()

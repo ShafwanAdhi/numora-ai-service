@@ -1,0 +1,100 @@
+{
+  "question_id": "kategori-9-1-9",
+  "config_version": 1,
+  "original_hash": "f518bec74c4b45a9",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "210000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "260000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "45000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "85000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "210000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "260000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "45000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "85000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Kelompok OSIS menyusun anggaran pengadaan kaos dan topi untuk panitia kegiatan sekolah:\nPembelian I: 3 kaos dan 2 topi dengan total biaya Rp{v1}.\nPembelian II: 2 kaos dan 4 topi dengan total biaya Rp{v2}.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Harga 1 buah kaos adalah Rp{v3}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Harga 1 buah topi adalah Rp{v4}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Untuk membeli 1 kaos dan 1 topi, total biaya yang harus dibayar adalah Rp{v5}.",
+      "correct": true
+    }
+  ],
+  "explanation": "3x+2y={v6}, 2x+4y={v7}. Kaos {v8}, topi {v9}, satu masing-masing {v10}."
+}

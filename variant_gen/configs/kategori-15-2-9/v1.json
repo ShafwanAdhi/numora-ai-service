@@ -1,0 +1,88 @@
+{
+  "question_id": "kategori-15-2-9",
+  "config_version": 1,
+  "original_hash": "a77345a034b61eec",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "36*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada saat yang sama, sebuah tiang setinggi {v0} m memiliki bayangan {v1} m, sedangkan sebuah menara memiliki bayangan {v2} m. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Tinggi menara adalah {v3} m.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Pada saat itu, benda setinggi {v4} m memiliki bayangan {v5} m.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Pada saat itu, pohon dengan bayangan {v6} m memiliki tinggi {v7} m.",
+      "correct": false
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\n1: Benar. Tinggi menara adalah {v3} m.\n2: Benar. Pada saat itu, benda setinggi {v4} m memiliki bayangan {v5} m.\n3: Salah. Pada saat itu, pohon dengan bayangan {v6} m memiliki tinggi {v7} m."
+}

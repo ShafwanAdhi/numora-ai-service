@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-11-5-8",
+  "config_version": 1,
+  "original_hash": "f1464e07564a9562",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Bima menabung dengan saldo awal Rp{v0} dan menabung Rp{v1} setiap minggu. Saldo setelah t minggu dimodelkan dengan g(t) = {v2} + {v3}t, t bilangan cacah. Pilihlah semua penilaian yang tepat terhadap model tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Grafik g berupa garis lurus yang kontinu karena minggu dapat berupa pecahan.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Grafik g naik karena saldo bertambah setiap minggu.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Saldo Bima setelah 6 minggu adalah Rp{v4}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Domain g adalah bilangan cacah sehingga grafik g berupa titik-titik terpisah (diskrit).",
+      "correct": true
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Salah. Grafik g berupa garis lurus yang kontinu karena minggu dapat berupa pecahan.\nB: Benar. Grafik g naik karena saldo bertambah setiap minggu.\nC: Benar. Saldo Bima setelah 6 minggu adalah Rp{v4}.\nD: Benar. Domain g adalah bilangan cacah sehingga grafik g berupa titik-titik terpisah (diskrit)."
+}

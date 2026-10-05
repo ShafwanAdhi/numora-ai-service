@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-12-1-10",
+  "config_version": 1,
+  "original_hash": "eb3a3d70da528afd",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "7*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui barisan aritmetika berhingga {v0}, {v1}, {v2}, -{v3}, ... Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Beda barisan tersebut adalah {v4} sehingga barisan tersebut naik.",
+      "correct": false
+    },
+    {
+      "id": "2",
+      "text": "Beda bernilai negatif sehingga nilai suku-suku semakin kecil.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Suku ke-5 barisan tersebut adalah -{v5}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\n1: Salah. Beda barisan tersebut adalah {v4} sehingga barisan tersebut naik.\n2: Benar. Beda bernilai negatif sehingga nilai suku-suku semakin kecil.\n3: Benar. Suku ke-5 barisan tersebut adalah -{v5}."
+}

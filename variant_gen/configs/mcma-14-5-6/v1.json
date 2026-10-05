@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-14-5-6",
+  "config_version": 1,
+  "original_hash": "643f9498e61614d9",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "150+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "75+t/2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "105-t/2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "105-t/2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "75+t/2",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Diketahui ∠A3 + ∠B2 = {v0}°. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "∠A3 = {v1}°",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "∠B1 = {v2}°",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "∠A2 = {v3}°",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "∠B4 = {v4}°",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Benar. ∠A3 = {v1}°\nB: Benar. ∠B1 = {v2}°\nC: Salah. ∠A2 = {v3}°\nD: Salah. ∠B4 = {v4}°"
+}

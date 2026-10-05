@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-13-1-8",
+  "config_version": 1,
+  "original_hash": "cb74ee734e4534ae",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "65*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "42*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "23*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tumpukan batu bata disusun dalam 5 baris. Baris paling bawah berisi {v0} batu bata dan setiap baris di atasnya berisi {v1} batu bata lebih sedikit. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Baris paling atas berisi {v2} batu bata.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Banyak batu bata seluruhnya adalah {v3}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Banyak batu bata pada tiga baris paling bawah adalah {v4}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Banyak batu bata pada dua baris paling atas adalah {v5}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. Baris paling atas berisi {v2} batu bata.\nB: Benar. Banyak batu bata seluruhnya adalah {v3}.\nC: Benar. Banyak batu bata pada tiga baris paling bawah adalah {v4}.\nD: Benar. Banyak batu bata pada dua baris paling atas adalah {v5}."
+}

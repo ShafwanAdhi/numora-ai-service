@@ -1,0 +1,153 @@
+{
+  "question_id": "pg-8-1-5",
+  "config_version": 1,
+  "original_hash": "ef1e00437bec1c5b",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "500*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "500*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "22*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "500*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "22*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "500*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "22*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "500*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "21*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "500*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "440*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "22*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah mobil boks pengangkut buku perpustakaan sekolah memiliki daya angkut beban tidak lebih dari {v1} kg. Pak Sopir yang beratnya {v2} kg akan mengangkut sejumlah kardus buku, di mana setiap kardus memiliki berat 20 kg. Jika n menyatakan banyak kardus buku, model pertidaksamaan dan banyak kardus buku maksimum yang dapat diangkut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "20n+{v3}={v4}; {v5} kardus",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "20n+{v6}≤{v7}; {v8} kardus",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "20n+{v9}≥{v10}; {v11} kardus",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "20n+{v12}<{v13}; {v14} kardus",
+      "correct": false
+    }
+  ],
+  "explanation": "Model beban 20n+{v15} <= {v16}. n bilangan bulat nonnegatif; maksimum floor({v17}/20)={v18}."
+}

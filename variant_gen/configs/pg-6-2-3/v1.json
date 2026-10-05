@@ -1,0 +1,129 @@
+{
+  "question_id": "pg-6-2-3",
+  "config_version": 1,
+  "original_hash": "1fc986de9411b0d7",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "floor((22/3)*k)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'00' if ((22/3)*k*60)%60 == 0 else ((22/3)*k*60)%60",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "floor((8)*k)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'00' if ((8)*k*60)%60 == 0 else ((8)*k*60)%60",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "floor((26/3)*k)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'00' if ((26/3)*k*60)%60 == 0 else ((26/3)*k*60)%60",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "floor((28/3)*k)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'00' if ((28/3)*k*60)%60 == 0 else ((28/3)*k*60)%60",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "20*k/3",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "26*k/3",
+      "fmt": "mixed",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia Pentas Seni SMP membagikan tugas membuat 60 hiasan gantung dekorasi panggung kepada 5 siswa. Ditargetkan pekerjaan tersebut selesai dalam waktu {v1} jam. Setelah kelima siswa bekerja bersama selama {v2} jam, 2 orang siswa di antaranya harus meninggalkan lokasi untuk mengikuti latihan paduan suara. Jika kemampuan kerja setiap siswa dianggap sama, total waktu yang dibutuhkan sejak awal hingga seluruh hiasan gantung selesai dibuat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} jam {v4} menit",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v5} jam {v6} menit",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v7} jam {v8} menit",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v9} jam {v10} menit",
+      "correct": false
+    }
+  ],
+  "explanation": "Total pekerjaan 5*{v11} jam-orang; sisa {v12} jam-orang diselesaikan oleh tiga siswa dalam {v13} jam. Total {v14} jam."
+}

@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-6-2-4",
+  "config_version": 1,
+  "original_hash": "31549b4bb8c3ea0e",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "600*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "600*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Perpustakaan sekolah mengoperasikan 2 unit printer identik untuk mencetak modul pembelajaran. Dalam waktu 15 menit, kedua printer tersebut secara bersama-sama mampu mencetak total 180 halaman. Kepala perpustakaan ingin mencetak {v1} halaman modul yang sama dan ditargetkan selesai dalam waktu 25 menit. Minimal total unit printer identik yang harus dioperasikan secara bersamaan adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} printer",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} printer",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v4} printer",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5} printer",
+      "correct": false
+    }
+  ],
+  "explanation": "Laju satu printer = 180/(2*15)=6 halaman/menit. Minimal ceil({v6}/(25*6)) = {v7} printer."
+}

@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-6-1-2",
+  "config_version": 1,
+  "original_hash": "6608e5547a5ce001",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0.5,
+        2.5
+      ],
+      "step": 0.05
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "45/2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "25*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "28*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "25*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Budi biasanya bersepeda dari rumah ke sekolah dengan kecepatan rata-rata {v1}km/jam dan tiba dalam waktu 20menit. Suatu hari, Budi terlambat bangun sehingga ia hanya memiliki waktu 12menit untuk perjalanan dari rumah ke sekolah agar tidak terlambat. Kecepatan rata-rata minimal yang harus dikayuh Budi adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2}km/jam",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3}km/jam",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4}km/jam",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v5}km/jam",
+      "correct": false
+    }
+  ],
+  "explanation": "Jarak = {v6}*20/60 km; kecepatan = jarak/(12/60) = {v7} km/jam."
+}

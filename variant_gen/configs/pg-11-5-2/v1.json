@@ -1,0 +1,135 @@
+{
+  "question_id": "pg-11-5-2",
+  "config_version": 1,
+  "original_hash": "475d3c2878cea386",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "0*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "2*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "4*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Fungsi f(x) = {v0}x^(2) memiliki domain D = {-2, -1, 0, 1, 2}. Dika menyatakan bahwa range f adalah {{v1}, {v2}, 0, {v3}, {v4}} sehingga memiliki 5 anggota. Penilaian yang tepat terhadap pernyataan Dika adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat, karena banyak anggota range selalu sama dengan banyak anggota domain",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kurang tepat, karena range f adalah {0, {v5}, {v6}} dan anggota yang sama hanya ditulis sekali sehingga range memiliki 3 anggota",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kurang tepat, karena range f adalah {-{v7}, -{v8}, {v9}, {v10}, {v11}}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kurang tepat, karena range f adalah {0, {v12}, {v13}, {v14}}",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Salah. Tepat, karena banyak anggota range selalu sama dengan banyak anggota domain\nB: Benar. Kurang tepat, karena range f adalah {0, {v5}, {v6}} dan anggota yang sama hanya ditulis sekali sehingga range memiliki 3 anggota\nC: Salah. Kurang tepat, karena range f adalah {-{v7}, -{v8}, {v9}, {v10}, {v11}}\nD: Salah. Kurang tepat, karena range f adalah {0, {v12}, {v13}, {v14}}"
+}

@@ -1,0 +1,189 @@
+{
+  "question_id": "mcma-11-1-6",
+  "config_version": 1,
+  "original_hash": "97e9844db60e9683",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan fungsi dalam bentuk himpunan pasangan berurutan: R={({v0},{v1}),({v2},{v3}),({v4},{v5}),({v6},{v7})}.\nPilihlah semua pernyataan yang benar terkait himpunan tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Domain dari fungsi R adalah {{v8},{v9},{v10},{v11}}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Domain dari fungsi R adalah {{v12},{v13},{v14},{v15}}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Range (daerah hasil) dari fungsi R adalah {{v16},{v17},{v18},{v19}}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Range dari fungsi R adalah {{v20},{v21},{v22},{v23}}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Benar. Domain dari fungsi R adalah {{v8},{v9},{v10},{v11}}.\nB: Salah. Domain dari fungsi R adalah {{v12},{v13},{v14},{v15}}.\nC: Benar. Range (daerah hasil) dari fungsi R adalah {{v16},{v17},{v18},{v19}}.\nD: Salah. Range dari fungsi R adalah {{v20},{v21},{v22},{v23}}."
+}

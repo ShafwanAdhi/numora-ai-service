@@ -1,0 +1,96 @@
+{
+  "question_id": "mcma-12-5-8",
+  "config_version": 1,
+  "original_hash": "9a49dbb7cb7e6a03",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "year": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "year": {
+      "gen": "range",
+      "range": [
+        1,
+        12
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "year",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "year+2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "year+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "year+2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dua skema investasi sama-sama bernilai Rp{v0} juta pada tahun ke-{v1}. Nilai skema X bertambah Rp{v2} juta setiap tahun, sedangkan nilai skema Y bertambah 5% dari nilai tahun sebelumnya. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pada tahun ke-{v3}, nilai kedua skema sama besar.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Pada tahun ke-{v4}, nilai kedua skema sama besar.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Mulai tahun ke-{v5}, nilai skema Y lebih besar daripada skema X.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Selisih nilai skema Y pada dua tahun berurutan tetap sebesar Rp{v6} juta.",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Salah. Pada tahun ke-{v3}, nilai kedua skema sama besar.\nB: Benar. Pada tahun ke-{v4}, nilai kedua skema sama besar.\nC: Benar. Mulai tahun ke-{v5}, nilai skema Y lebih besar daripada skema X.\nD: Salah. Selisih nilai skema Y pada dua tahun berurutan tetap sebesar Rp{v6} juta."
+}

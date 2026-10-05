@@ -1,0 +1,108 @@
+{
+  "question_id": "pg-23-2-2",
+  "config_version": 1,
+  "original_hash": "c7e1f907e8bb1999",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "c0": 3,
+    "c1": 2,
+    "c2": 3
+  },
+  "variables": {
+    "c0": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "c1": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "c2": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "c0+c1+c2",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "probability": {
+      "gen": "derived",
+      "expr": "c2/total",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "oA": {
+      "gen": "derived",
+      "expr": "probability+(-1/8)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "oB": {
+      "gen": "derived",
+      "expr": "probability+(9/40)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "oC": {
+      "gen": "derived",
+      "expr": "probability+(1/4)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "oD": {
+      "gen": "derived",
+      "expr": "probability+(0/1)",
+      "fmt": "mixed",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah spinner memiliki {total} bagian sama besar yang terdiri atas {c0} bagian merah, {c1} bagian biru, dan {c2} bagian kuning.\nPeluang jarum berhenti pada warna kuning adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{oA}",
+      "correct": "probability == (probability+(-1/8))"
+    },
+    {
+      "id": "B",
+      "text": "{oB}",
+      "correct": "probability == (probability+(9/40))"
+    },
+    {
+      "id": "C",
+      "text": "{oC}",
+      "correct": "probability == (probability+(1/4))"
+    },
+    {
+      "id": "D",
+      "text": "{oD}",
+      "correct": "probability == (probability+(0/1))"
+    }
+  ],
+  "explanation": "Peluang = banyak hasil yang diinginkan / seluruh hasil = {c2} / {total} = {probability}.",
+  "constraints": [
+    "(probability+(-1/8)) >= 0",
+    "(probability+(-1/8)) <= 1",
+    "(probability+(9/40)) >= 0",
+    "(probability+(9/40)) <= 1",
+    "(probability+(1/4)) >= 0",
+    "(probability+(1/4)) <= 1",
+    "(probability+(0/1)) >= 0",
+    "(probability+(0/1)) <= 1"
+  ]
+}

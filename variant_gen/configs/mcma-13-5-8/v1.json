@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-13-5-8",
+  "config_version": 1,
+  "original_hash": "c532f60ae4fd5418",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "9000000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "500000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12600000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3000000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "12600000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pak Hasan menyiapkan dana Rp{v0},00 untuk membayar iuran selama 12 bulan. Iuran bulan pertama Rp{v1},00 dan naik Rp{v2},00 setiap bulan. Pilihlah semua penilaian yang tepat!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Total iuran selama 12 bulan adalah Rp{v3},00.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Dana yang disiapkan Pak Hasan tidak mencukupi.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Dana Pak Hasan hanya kurang Rp{v4},00.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Dana minimal yang dibutuhkan agar mencukupi adalah Rp{v5},00.",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Benar. Total iuran selama 12 bulan adalah Rp{v3},00.\nB: Benar. Dana yang disiapkan Pak Hasan tidak mencukupi.\nC: Salah. Dana Pak Hasan hanya kurang Rp{v4},00.\nD: Benar. Dana minimal yang dibutuhkan agar mencukupi adalah Rp{v5},00."
+}

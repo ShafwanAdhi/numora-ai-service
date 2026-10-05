@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-13-1-4",
+  "config_version": 1,
+  "original_hash": "0ee38c128b9db00f",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "112*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "120*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "128*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "136*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada sebuah ruang pertemuan, baris pertama berisi {v0} kursi dan setiap baris di belakangnya berisi {v1} kursi lebih banyak daripada baris di depannya. Jika terdapat 8 baris, banyak kursi seluruhnya adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5}",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. {v2}\nB: Salah. {v3}\nC: Salah. {v4}\nD: Benar. {v5}"
+}

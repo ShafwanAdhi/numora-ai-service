@@ -1,0 +1,84 @@
+{
+  "question_id": "pg-12-1-4",
+  "config_version": 1,
+  "original_hash": "6950e721f94e00e4",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "denominator": 2
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "denominator": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "80*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "denominator",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "40*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "denominator",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "40*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui barisan geometri berhingga dengan suku pertama {v0} dan rasio (1)/({v1}). Pola perubahan nilai suku-suku barisan tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Naik, karena setiap suku ditambah {v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Turun, karena setiap suku dikalikan (1)/({v3})",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Turun, karena setiap suku dikurangi {v4}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Tetap, karena rasio bernilai positif",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Salah. Naik, karena setiap suku ditambah {v2}\nB: Benar. Turun, karena setiap suku dikalikan (1)/({v3})\nC: Salah. Turun, karena setiap suku dikurangi {v4}\nD: Salah. Tetap, karena rasio bernilai positif"
+}

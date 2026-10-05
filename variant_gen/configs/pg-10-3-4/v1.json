@@ -1,0 +1,147 @@
+{
+  "question_id": "pg-10-3-4",
+  "config_version": 1,
+  "original_hash": "55e05de4582479a8",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "-3*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa (Eko) melakukan penyederhanaan bentuk aljabar (12x^2-{v1}xy)/(-6x)+2(x-{v2}y) melalui langkah-langkah pengerjaan berikut:\nLangkah 1: Membagi pembilang dengan −6x:(12x² / −6x) − ({v3}xy / −6x) = −2x − {v4}y\nLangkah 2: Menjabarkan suku kedua 2(x − {v5}y) = 2x − {v6}y\nLangkah 3: Menjumlahkan hasil (−2x − {v7}y) + (2x − {v8}y) = −{v9}y\nBerdasarkan analisis pengerjaan di atas, pernyataan evaluasi yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kesalahan terjadi pada Langkah 1 karena pembagian (-{v10}xy)/(-6x) seharusnya menghasilkan +{v11}y, sehingga hasil akhir yang benar adalah -{v12}y",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kesalahan terjadi pada Langkah 2 karena penjabaran 2(x-{v13}y) seharusnya 2x-{v14}y",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Pengerjaan Eko sudah tepat dari Langkah 1 hingga Langkah 3",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kesalahan terjadi pada Langkah 3 karena -2x+2x seharusnya 4x",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk x tidak nol, pembagian pertama -2x+{v15}y. Suku kedua 2x-{v16}y; hasil akhir {v17}y. Kesalahan pertama langkah 1, pembagian negatif oleh negatif harus positif."
+}

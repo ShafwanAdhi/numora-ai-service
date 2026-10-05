@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-23-3-4",
+  "config_version": 1,
+  "original_hash": "e370228548688d03",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "red": 4,
+    "blue": 6,
+    "trials": 100
+  },
+  "variables": {
+    "red": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "blue": {
+      "gen": "range",
+      "range": [
+        1,
+        20
+      ],
+      "step": 1
+    },
+    "trials": {
+      "gen": "range",
+      "range": [
+        20,
+        400
+      ],
+      "step": 20
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "red+blue",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "probability": {
+      "gen": "derived",
+      "expr": "red/total",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "expected": {
+      "gen": "derived",
+      "expr": "trials*probability",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "oA": {
+      "gen": "derived",
+      "expr": "expected+(-20)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oB": {
+      "gen": "derived",
+      "expr": "expected+(0)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oC": {
+      "gen": "derived",
+      "expr": "expected+(10)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oD": {
+      "gen": "derived",
+      "expr": "expected+(20)",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah kotak berisi {red} bola merah dan {blue} bola biru. Jika satu bola diambil secara acak sebanyak {trials} kali dengan pengembalian, perkiraan banyak bola merah yang terambil adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{oA} kali",
+      "correct": "expected == (expected+(-20))"
+    },
+    {
+      "id": "B",
+      "text": "{oB} kali",
+      "correct": "expected == (expected+(0))"
+    },
+    {
+      "id": "C",
+      "text": "{oC} kali",
+      "correct": "expected == (expected+(10))"
+    },
+    {
+      "id": "D",
+      "text": "{oD} kali",
+      "correct": "expected == (expected+(20))"
+    }
+  ],
+  "explanation": "Dengan pengembalian, peluang merah tetap {red}/{total} = {probability}; perkiraan kemunculan = {trials} × {probability} = {expected}.",
+  "constraints": [
+    "(expected+(-20)) >= 0",
+    "(expected+(-20)) <= trials",
+    "(expected+(0)) >= 0",
+    "(expected+(0)) <= trials",
+    "(expected+(10)) >= 0",
+    "(expected+(10)) <= trials",
+    "(expected+(20)) >= 0",
+    "(expected+(20)) <= trials"
+  ]
+}

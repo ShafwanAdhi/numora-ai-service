@@ -1,0 +1,129 @@
+{
+  "question_id": "mcma-9-3-8",
+  "config_version": 1,
+  "original_hash": "cb78aa9629bf99fd",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "16*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa (Budi) mencoba menyelesaikan sistem persamaan linear berikut:\nx+2y={v1} ... (Persamaan 1)\n3x-2y={v2} ... (Persamaan 2)\nBudi melakukan langkah-langkah pengerjaan sebagai berikut:\nLangkah 1: Mengurangi Persamaan 1 dengan Persamaan 2 sehingga diperoleh −2x = 0 ⇒ x = 0\nLangkah 2: Memasukkan x=0 ke Persamaan 1 sehingga 0 + 2y = {v3}\n⇒ 2y = {v4}\n⇒ y = {v5} / 2\n⇒ y = {v6}\nLangkah 3: Menyimpulkan bahwa pasangan penyelesaian sistem adalah (0, {v7}).\nManakah pernyataan evaluasi pengerjaan berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Langkah 1 Budi SALAH, seharusnya kedua persamaan DIJUMLAHKAN untuk mengeliminasi variabel y.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Nilai penyelesaian yang benar untuk variabel x adalah x={v8}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Nilai penyelesaian yang benar untuk variabel y adalah y={v9}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Hasil pasangan (0, {v10}) yang diperoleh Budi memenuhi Persamaan 1, tetapi TIDAK memenuhi Persamaan 2.",
+      "correct": true
+    }
+  ],
+  "explanation": "Penjumlahan persamaan menghasilkan 4x={v11}, x={v12}, y={v13}. Pengurangan yang ditulis menghilangkan suku y secara salah. Pasangan salah (0,{v14}) hanya memenuhi persamaan pertama."
+}

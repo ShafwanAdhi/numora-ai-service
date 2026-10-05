@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-13-4-8",
+  "config_version": 1,
+  "original_hash": "78ceefd54589528c",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "3000000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "200000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3500000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "49800000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "48600000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "600000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5200000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4600000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pekerja menerima dua tawaran gaji selama 12 bulan. Tawaran X: Rp{v0},00 pada bulan pertama dan naik Rp{v1},00 setiap bulan. Tawaran Y: Rp{v2},00 pada bulan pertama dan naik Rp{v3},00 setiap bulan. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Total gaji tawaran X selama 12 bulan adalah Rp{v4},00.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Total gaji tawaran Y selama 12 bulan adalah Rp{v5},00.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Tawaran X lebih menguntungkan Rp{v6},00 daripada tawaran Y.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pada bulan ke-12, gaji tawaran X (Rp{v7},00) lebih besar daripada tawaran Y (Rp{v8},00).",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. Total gaji tawaran X selama 12 bulan adalah Rp{v4},00.\nB: Benar. Total gaji tawaran Y selama 12 bulan adalah Rp{v5},00.\nC: Benar. Tawaran X lebih menguntungkan Rp{v6},00 daripada tawaran Y.\nD: Benar. Pada bulan ke-12, gaji tawaran X (Rp{v7},00) lebih besar daripada tawaran Y (Rp{v8},00)."
+}

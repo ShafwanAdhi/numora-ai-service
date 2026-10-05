@@ -76,7 +76,7 @@ def cand_from_record(rec):
 def generate(orig, cfg, seed, others):
     """others = candidates this one must not duplicate (other seeds' latest variants, and earlier
     versions of the same seed when regenerating)."""
-    if orig.get("metadata", {}).get("generation_status") == "DEFERRED_CONCEPTUAL":
+    if orig.get("metadata", {}).get("generation_status", "ACTIVE") != "ACTIVE":
         raise ConfigError(orig["metadata"]["reason"])
     qid, limit = orig["id"], cfg.get("max_draws", DEFAULT_MAX_DRAWS)
     problems = validate_config(cfg, orig)
@@ -105,11 +105,12 @@ def generate(orig, cfg, seed, others):
 
 def make_record(orig, cfg, cfg_hash, seed, ver, result, replacement_of=None, reason=None):
     c = result.cand
+    labels = orig.get("metadata", {}).get("category_labels", ["Benar", "Salah"])
     if orig["format"] == "PG":
         answers = "Jawaban: " + "; ".join(f"{o['id']}. {o['text']}" for o in c["options"] if o["correct"])
     else:
         answers = "Penilaian pernyataan: " + "; ".join(
-            f"{o['id']}: {'Benar' if o['correct'] else 'Salah'} — {o['text']}" for o in c["options"])
+            f"{o['id']}: {labels[0] if o['correct'] else labels[1]} — {o['text']}" for o in c["options"])
     return {
         "record_id": f"{orig['id']}:s{seed}:v{ver}",
         "question_id": orig["id"], "seed": seed, "variant_ver": ver,
@@ -120,6 +121,8 @@ def make_record(orig, cfg, cfg_hash, seed, ver, result, replacement_of=None, rea
         "values_used": {k: (json_number(v) if is_num(v) else v) for k, v in result.values.items()},
         "stem": c["stem"], "options": [{"id": o["id"], "text": o["text"]} for o in c["options"]],
         "key": key_of(c),
+        **({"answer_categories": {o["id"]: labels[0] if o["correct"] else labels[1] for o in c["options"]}}
+           if orig["format"] == "KATEGORI" and labels != ["Benar", "Salah"] else {}),
         "explanation": c["explanation"] + "\n\n" + answers,
         "original_hash": orig["hash"], "original_version": orig["version"],
         "replacement_of": replacement_of, "regen_reason": reason,
@@ -129,6 +132,7 @@ def make_record(orig, cfg, cfg_hash, seed, ver, result, replacement_of=None, rea
 
 def original_record(orig):
     """Seed 0 = the original, shown in the same shape as a variant (never stored, never changed)."""
+    labels = orig.get("metadata", {}).get("category_labels", ["Benar", "Salah"])
     return {
         "record_id": f"{orig['id']}:s0", "question_id": orig["id"], "seed": 0, "variant_ver": None,
         **({"classification": orig["classification"]} if "classification" in orig else {}),
@@ -137,5 +141,7 @@ def original_record(orig):
         "values_used": {}, "stem": orig["stem"],
         "options": [{"id": o["id"], "text": o["text"]} for o in orig["options"]],
         "key": key_of(orig), "original_hash": orig["hash"], "original_version": orig["version"],
+        **({"answer_categories": {o["id"]: labels[0] if o["correct"] else labels[1] for o in orig["options"]}}
+           if orig["format"] == "KATEGORI" and labels != ["Benar", "Salah"] else {}),
         **({"explanation": orig["metadata"]["original_explanation"]} if orig.get("metadata", {}).get("original_explanation") else {}),
     }

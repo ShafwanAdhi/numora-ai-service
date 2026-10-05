@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-15-3-6",
+  "config_version": 1,
+  "original_hash": "d5c0375c460b79a2",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "120*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Persegi panjang A berukuran {v0} cm × {v1} cm sebangun dengan persegi panjang B berukuran {v2} cm × {v3} cm. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Perbandingan luas persegi panjang A dan B adalah 4 : 9.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Perbandingan keliling persegi panjang A dan B adalah 4 : 9.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Setiap sisi persegi panjang B adalah 1,5 kali sisi yang bersesuaian pada persegi panjang A.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Selisih luas kedua persegi panjang adalah {v4} cm^(2).",
+      "correct": true
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Benar. Perbandingan luas persegi panjang A dan B adalah 4 : 9.\nB: Salah. Perbandingan keliling persegi panjang A dan B adalah 4 : 9.\nC: Benar. Setiap sisi persegi panjang B adalah 1,5 kali sisi yang bersesuaian pada persegi panjang A.\nD: Benar. Selisih luas kedua persegi panjang adalah {v4} cm^(2)."
+}

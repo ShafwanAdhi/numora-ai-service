@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-11-3-3",
+  "config_version": 1,
+  "original_hash": "d5acb0bab74d729b",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "offset": 1
+  },
+  "variables": {
+    "offset": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "1+offset",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4+offset",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "9+offset",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "16+offset",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "offset",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Suatu fungsi f dinyatakan dalam penyajian tabel berikut.\n• Jika x=1, maka f(1)={v0}\n• Jika x=2, maka f(2)={v1}\n• Jika x=3, maka f(3)={v2}\n• Jika x=4, maka f(4)={v3}\nRumus fungsi f yang sesuai dengan penyajian tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "f(x)=3x-1",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "f(x)=x^(2)+x",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "f(x)=4x-2",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "f(x)=x^(2)+{v4}",
+      "correct": true
+    }
+  ],
+  "explanation": "Selisih output berturut-turut3,5,7, sehingga tabel mengikuti fungsi kuadrat. Untuk setiap input, kurangi kuadrat input dari output: hasilnya konstanta yang sama."
+}

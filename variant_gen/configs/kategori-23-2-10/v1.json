@@ -1,0 +1,72 @@
+{
+  "question_id": "kategori-23-2-10",
+  "config_version": 1,
+  "original_hash": "550746852ba24013",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "trials": 60,
+    "observed": 31
+  },
+  "variables": {
+    "trials": {
+      "gen": "choice",
+      "values": [
+        60,
+        100,
+        200,
+        300,
+        400,
+        500
+      ]
+    },
+    "observed": {
+      "gen": "range",
+      "range": [
+        0,
+        500
+      ],
+      "step": 1
+    },
+    "frequency": {
+      "gen": "derived",
+      "expr": "observed/trials",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "rounded": {
+      "gen": "derived",
+      "expr": "round(observed/trials,2)",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah dadu dilempar sebanyak {trials} kali dan angka genap muncul {observed} kali.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Frekuensi relatif angka genap adalah {frequency}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Nilai frekuensi relatifnya sekitar {rounded}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Peluang teoretis angka genap adalah {frequency}.",
+      "correct": false
+    },
+    {
+      "id": "4",
+      "text": "Hasil percobaan dapat berbeda dari peluang teoretis.",
+      "correct": true
+    }
+  ],
+  "explanation": "Frekuensi relatif = {observed}/{trials} = {frequency}, sekitar {rounded} (dua desimal). Peluang teoretis angka genap tetap 1/2.",
+  "constraints": [
+    "observed <= trials",
+    "observed/trials != 1/2"
+  ]
+}

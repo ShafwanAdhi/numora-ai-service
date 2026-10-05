@@ -1,0 +1,87 @@
+{
+  "question_id": "mcma-8-1-6",
+  "config_version": 1,
+  "original_hash": "c1ae61879ba492f5",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "9*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Siswa kelas VII mengidentifikasi berbagai bentuk kalimat terbuka aljabar di papan tulis. Manakah di antara bentuk berikut yang merupakan Pertidaksamaan Linear Satu Variabel (PtLSV) dan memiliki himpunan penyelesaian x>{v1}? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "2x−{v2}>{v3}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v4}−x<{v5}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "x^2−{v6}>0",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "3x+2y≤12",
+      "correct": false
+    }
+  ],
+  "explanation": "A dan B sama-sama menyederhana menjadi x>{v7}. C kuadrat, D dua variabel sehingga bukan PtLSV satu variabel."
+}

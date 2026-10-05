@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-7-1-4",
+  "config_version": 1,
+  "original_hash": "e9f6cf25953f9c48",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "17*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "19*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "22*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "17*k/2",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "22*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dalam suatu latihan penyelesaian aljabar, nilai x memenuhi persamaan (2x-{v1})/(4)=(x+{v2})/(3). Nilai dari 2x+{v3} adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v4}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v5}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v6}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v7}",
+      "correct": false
+    }
+  ],
+  "explanation": "Perkalian silang menghasilkan 6x-{v8}=4x+{v9}; x={v10}. Nilai 2x+{v11}={v12}."
+}

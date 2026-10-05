@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-12-5-3",
+  "config_version": 1,
+  "original_hash": "d04ea29e878fb15b",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "13122*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4374*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "1458*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dalam menghitung suku ke-8 barisan geometri {v0}, {v1}, {v2}, ..., seorang siswa menulis: \"U_8 = a·r^(8) = {v3}·3^(8) = {v4}\". Penilaian yang tepat terhadap penyelesaian siswa tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Salah, karena rumus yang benar adalah U_n = a·r^(n-1) sehingga U_8 = {v5}·3^(7) = {v6}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Benar, karena rumus suku ke-n barisan geometri adalah U_n = a·r^(n).",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena seharusnya U_8 = {v7}·3^(6) = {v8}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena barisan tersebut aritmetika dengan b = {v9} sehingga U_8 = {v10}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Benar. Salah, karena rumus yang benar adalah U_n = a·r^(n-1) sehingga U_8 = {v5}·3^(7) = {v6}.\nB: Salah. Benar, karena rumus suku ke-n barisan geometri adalah U_n = a·r^(n).\nC: Salah. Salah, karena seharusnya U_8 = {v7}·3^(6) = {v8}.\nD: Salah. Salah, karena barisan tersebut aritmetika dengan b = {v9} sehingga U_8 = {v10}."
+}

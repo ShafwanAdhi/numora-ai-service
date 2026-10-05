@@ -1,5 +1,8 @@
 # Drill Paket 1, indikator 20–23: rancangan generator lokal
 
+> Arsip rancangan/rencana bertanggal; status dan checklist di bawah mencatat tahap saat dokumen ditulis. Untuk implementasi saat ini lihat [kondisi repo](../../audits/2026-10-05-repository-status.md) dan [panduan aktif](../../../readme.md).
+
+
 Status: PROPOSED. Pengguna meminta plan dahulu, belum implementasi.
 Klarifikasi pengguna: kata Tryout adalah salah ketik; target DRILL Paket 1.
 

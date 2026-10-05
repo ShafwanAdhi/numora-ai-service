@@ -1,0 +1,64 @@
+{
+  "question_id": "kategori-11-4-9",
+  "config_version": 1,
+  "original_hash": "b948522e2b8e5dc3",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Fungsi f(x) = -{v0}x + {v1} dengan domain bilangan real. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Grafik fungsi f turun karena koefisien x bernilai negatif.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Grafik fungsi f memotong sumbu y di titik (0, {v2}).",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Nilai f(-1) adalah {v3}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\n1: Benar. Grafik fungsi f turun karena koefisien x bernilai negatif.\n2: Benar. Grafik fungsi f memotong sumbu y di titik (0, {v2}).\n3: Salah. Nilai f(-1) adalah {v3}."
+}

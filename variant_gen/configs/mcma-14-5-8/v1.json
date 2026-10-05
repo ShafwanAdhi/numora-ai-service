@@ -1,0 +1,84 @@
+{
+  "question_id": "mcma-14-5-8",
+  "config_version": 1,
+  "original_hash": "2f783391bf137aba",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "t": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        -12,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "(150+t)/(2*k+1)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "(150+t)/(2*k+1)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "180-(150+t)/(2*k+1)",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "150+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada segitiga ABC, sudut luar di titik A besarnya {v3}° dan ∠B = {v4} × ∠C. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "∠B = {v0}°",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "∠C = {v1}°",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Segitiga ABC adalah segitiga lancip.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Sudut luar di titik C besarnya {v2}°.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Salah. ∠B = {v0}°\nB: Benar. ∠C = {v1}°\nC: Salah. Segitiga ABC adalah segitiga lancip.\nD: Benar. Sudut luar di titik C besarnya {v2}°."
+}

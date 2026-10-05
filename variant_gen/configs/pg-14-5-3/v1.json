@@ -1,0 +1,118 @@
+{
+  "question_id": "pg-14-5-3",
+  "config_version": 1,
+  "original_hash": "b7dc673575329455",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0,
+    "winner": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "winner": {
+      "gen": "range",
+      "range": [
+        0,
+        3
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "(10+t) if winner<2 else ((40+t) if winner==2 else (20+t))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "(10+t) if winner<2 else ((40+t) if winner==2 else (20+t))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "(120-((10+t) if winner<2 else ((40+t) if winner==2 else (20+t)))) if winner==0 else ((180-(120-((10+t) if winner<2 else ((40+t) if winner==2 else (20+t))))) if winner==1 else (110-t))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "(120-((10+t) if winner<2 else ((40+t) if winner==2 else (20+t)))) if winner==1 else (70+t)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "80-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "100-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'Benar' if (winner==0) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'Benar' if (winner==1) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'Benar' if (winner==2) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'Benar' if (winner==3) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [
+    "winner>=2 or t!=20",
+    "winner!=2 or t!=5",
+    "winner!=3 or t!=15"
+  ],
+  "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Diketahui ∠A1 = (4x - {v0})° dan ∠B2 = (2x + {v1})°. Rina menyatakan ∠B4 = {v2}°, sedangkan Doni menyatakan ∠B4 = {v3}°. Pernyataan yang benar adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rina benar.",
+      "correct": "winner==0"
+    },
+    {
+      "id": "B",
+      "text": "Doni benar.",
+      "correct": "winner==1"
+    },
+    {
+      "id": "C",
+      "text": "Keduanya salah; ∠B4 = {v4}°.",
+      "correct": "winner==2"
+    },
+    {
+      "id": "D",
+      "text": "Keduanya salah; ∠B4 = {v5}°.",
+      "correct": "winner==3"
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: {v6}. Rina benar.\nB: {v7}. Doni benar.\nC: {v8}. Keduanya salah; ∠B4 = {v4}°.\nD: {v9}. Keduanya salah; ∠B4 = {v5}°."
+}

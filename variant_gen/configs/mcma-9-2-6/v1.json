@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-9-2-6",
+  "config_version": 1,
+  "original_hash": "bf7abf0c92435326",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "44000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "46000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "6000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "7000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "1000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "30000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "44000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "46000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "6000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "7000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "1000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "26000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "30000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Petugas laboratorium IPA sekolah membeli paket alat praktikum di toko yang sama:\nPaket A: 5 tabung reaksi dan 2 gelas ukur seharga Rp{v1}.\nPaket B: 3 tabung reaksi dan 4 gelas ukur seharga Rp{v2}.\nManakah pernyataan berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Harga 1 tabung reaksi adalah Rp{v3}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Harga 1 gelas ukur adalah Rp{v4}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Selisih harga 1 gelas ukur dan 1 tabung reaksi adalah Rp{v5}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Total biaya untuk membeli 2 tabung reaksi dan 2 gelas ukur adalah Rp{v6}.",
+      "correct": false
+    }
+  ],
+  "explanation": "5x+2y={v7}, 3x+4y={v8}. Tabung {v9}, gelas ukur {v10}, selisih {v11}. Dua masing-masing {v12}, bukan {v13}."
+}

@@ -1,0 +1,105 @@
+{
+  "question_id": "mcma-9-1-8",
+  "config_version": 1,
+  "original_hash": "d4df05029e6f17f3",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "20000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "20000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "60000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "20000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "60000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dua siswa, Ani (x) dan Budi (y), mengumpulkan uang jajan untuk membeli tiket pentas seni. Jumlah uang jajan Ani dan Budi adalah Rp{v1}. Diketahui uang Ani Rp{v2} lebih banyak daripada uang Budi.\nManakah pernyataan berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model matematika yang sesuai adalah x+y={v3} dan x−y={v4}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Besarnya uang Ani adalah Rp{v5}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Besarnya uang Budi adalah Rp{v6}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Perbandingan uang Ani dan uang Budi adalah 3:2.",
+      "correct": true
+    }
+  ],
+  "explanation": "Jumlah {v7}, selisih {v8}; Ani {v9}, Budi {v10}, rasio tetap 3:2."
+}

@@ -1,0 +1,130 @@
+{
+  "question_id": "mcma-20-1-8",
+  "config_version": 1,
+  "original_hash": "9111c1763526bf12",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "n1": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n2": {
+      "gen": "derived",
+      "expr": "25*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n3": {
+      "gen": "derived",
+      "expr": "40*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n4": {
+      "gen": "derived",
+      "expr": "35*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n5": {
+      "gen": "derived",
+      "expr": "50*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n6": {
+      "gen": "derived",
+      "expr": "25*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "max": {
+      "gen": "derived",
+      "expr": "50*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "difference": {
+      "gen": "derived",
+      "expr": "25*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Perhatikan data penjualan minuman selama lima hari.\nHari | Penjualan\nSenin | {n1}\nSelasa | {n2}\nRabu | {n3}\nKamis | {n4}\nJumat | {n5}\nPilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Penjualan tertinggi terjadi pada Jumat.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Penjualan Rabu lebih banyak daripada Selasa.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Penjualan Kamis lebih sedikit daripada Senin.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Selisih penjualan Jumat dan Selasa adalah {n6}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Jumat {max} tertinggi; Rabu > Selasa, Kamis > Senin; Jumat − Selasa = {difference}.",
+  "constraints": []
+}

@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-9-2-3",
+  "config_version": 1,
+  "original_hash": "df00c3d9f6fc2aa3",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "52*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "128*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "144*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "160*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "180*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "26*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "144*k*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Lapangan olahraga sekolah berbentuk persegi panjang memiliki keliling {v1} meter. Berdasarkan pengukuran tim fasilitas, ukuran panjang lapangan (p) adalah {v2} meter lebihnya dari dua kali lebarnya (l). Luas lapangan olahraga tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} m^2",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4} m^2",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v5} m^2",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v6} m^2",
+      "correct": false
+    }
+  ],
+  "explanation": "p+l={v7}, p=2l+{v8}. Lebar {v9}, panjang {v10}, luas {v11} meter persegi."
+}

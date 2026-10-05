@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-11-2-2",
+  "config_version": 1,
+  "original_hash": "651bb69aa32694c8",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "offset": 1
+  },
+  "variables": {
+    "offset": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "offset",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "offset-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "offset+9",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "offset",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "offset+9",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "offset",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "offset+8",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Suatu fungsi kuadrat didefinisikan pada interval tertutup f(x)=x^(2)+{v0} dengan daerah asal (domain) D = {x | -3 ≤  x ≤  3, x ∈ R}. Daerah hasil (range) dari fungsi tersebut adalah..",
+  "options": [
+    {
+      "id": "A",
+      "text": "{y | {v1} ≤  y ≤  {v2}, y ∈ R}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{y | {v3} ≤  y ≤  {v4}, y ∈ R}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{y | -3 ≤  y ≤  3, y ∈ R}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{y | {v5} ≤  y ≤  {v6}, y ∈ R}",
+      "correct": false
+    }
+  ],
+  "explanation": "Karena 0 berada dalam interval [-3,3], nilai minimum terjadi pada x=0. Maksimum terjadi pada x=-3 atau x=3: selisih maksimum dan minimum adalah9."
+}

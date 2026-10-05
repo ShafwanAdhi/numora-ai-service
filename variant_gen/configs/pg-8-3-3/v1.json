@@ -1,0 +1,129 @@
+{
+  "question_id": "pg-8-3-3",
+  "config_version": 1,
+  "original_hash": "0ec9c368828c6f59",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola laboratorium komputer sekolah menganalisis dua syarat keamanan kelembapan udara ruangan (x):\nSyarat I: 4x−{v1}≥2x+{v2}\nSyarat II: 3(x−{v3})<x+{v4}\nBerdasarkan analisis irisan dari kedua syarat tersebut, penyajian garis bilangan yang tepat untuk menggambarkan rentang nilai kelembapan aman x adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Batas kiri angka {v5} (lingkaran penuh) hingga batas kanan angka {v6} (lingkaran kosong)",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Batas kiri angka {v7} (lingkaran kosong) hingga batas kanan angka {v8} (lingkaran penuh)",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Panah mengarah ke kiri dari angka {v9} dan panah mengarah ke kanan dari angka {v10}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Batas kiri angka {v11} (lingkaran penuh) hingga batas kanan angka {v12} (lingkaran penuh)",
+      "correct": false
+    }
+  ],
+  "explanation": "Syarat I x >= {v13}, syarat II x < {v14}. Irisan berbatas kiri penuh dan kanan kosong."
+}

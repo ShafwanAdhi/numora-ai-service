@@ -21,13 +21,13 @@ python -B variant_gen/webui.py --port 8766 --configs scratch/configs --store scr
 
 Tab **Service AI** bekerja pada bank/config/store lokal. **DB Utama** membaca PostgreSQL; tidak ada sinkronisasi otomatis. Berpindah tab mempertahankan draft config.
 
-1. Pilih aktivitas/paket. Drill difilter per indikator, level sumber dan format; Tryout per bab dan format. Level Drill 4–5 dan Pretest masih kosong.
+1. Pilih aktivitas/paket. Drill difilter per indikator, level sumber dan format; Tryout per bab dan format. Level Drill 4–5 tersedia pada indikator 11–15; indikator 6–10,16–23 dan Pretest masih kosong.
 2. Pilih soal/seed positif. **Lihat** membaca snapshot. Original seed 0 selalu di kiri; varian yang belum dibuat belum tampil.
 3. **Generate** membuat varian seed baru atau membaca hasil existing.
 4. **Regen** menambah versi. Isi **Alasan regen** bila config sama; config versi lebih tinggi tidak memerlukan alasan manual.
 5. **Atur config → Validasi** memeriksa draft tanpa menulis. **Simpan versi baru** membuat versi berikutnya setelah struktur, reproduksi original dan probe lima seed lulus. Editor usang ditolak; muat ulang sebelum retry.
 
-Draft belum disimpan menonaktifkan Generate/Regen/generasi paket. Perpindahan soal/filter meminta keputusan membuang draft. Tryout `DEFERRED_CONCEPTUAL` terlihat dengan alasan; generator/editor disabled. Drill tanpa config tetap dapat menampilkan original; template baru memerlukan desain konten.
+Draft belum disimpan menonaktifkan Generate/Regen/generasi paket. Perpindahan soal/filter meminta keputusan membuang draft. `HOLD_SOURCE` dan `DEFERRED_CONCEPTUAL` terlihat dengan alasan; generator/editor disabled. Drill tanpa config tetap dapat menampilkan original; template baru memerlukan desain konten. Indikator20–23 menampilkan nomor soal dokumen dan kategori sumber; kunci HOLD berlabel belum disahkan.
 
 ## CLI per soal
 
@@ -101,11 +101,20 @@ python -B variant_gen/tests/check_database_postgres.py
 
 Helper membuat dan menghapus cluster sementara; tidak memakai `.env` atau `DATABASE_URL` pengguna.
 
+Audit matematika indikator 11–15 dapat diulang tanpa menulis store:
+
+```powershell
+python -B variant_gen/tests/audit_drill_11_15.py --output output/drill-11-15/audit.json
+```
+
+Perintah ini juga menulis `examples.json` di folder output. Target default 20 variant unik dengan batas 200 seed; enam generator memiliki hasil sampling di bawah target. Suite memutar ulang seed berhasil dari audit bank dan memeriksa hash config. Audit 6–10 dan20–23 tersedia di `docs/audits/`; browser helper masing-masing adalah `check_drill_6_10_browser.js` dan `check_drill_20_23_browser.js`, dengan server/config/store sementara.
+
 ## Pemecahan masalah
 
 | Gejala | Tindakan |
 |---|---|
 | `ModuleNotFoundError: dotenv/psycopg` | Aktifkan venv; install requirements. |
+| Indikator baru belum muncul | Pastikan server menjalankan checkout terbaru, restart server, lalu refresh halaman. |
 | Port dipakai | Hentikan server lama atau pilih `--port` lain. |
 | `no config found` | Periksa ID, `--configs`, status soal tanpa generator. |
 | Config edited after generation | Pulihkan versi lama; buat versi berikutnya. |
@@ -117,3 +126,5 @@ Helper membuat dan menghapus cluster sementara; tidak memakai `.env` atau `DATAB
 | Snapshot lama tanpa pembahasan | Regen ke config baru; pertahankan snapshot lama. |
 
 Sistem belum mencatat kapasitas finite exact atau otomatis reuse saat stok habis. Kegagalan dilaporkan kepada operator.
+
+Indikator 11–15 dimuat otomatis dari bank lokal oleh UI/CLI. Jika server sudah berjalan sebelum integrasi bank, restart `python -B variant_gen/webui.py`, lalu refresh halaman. [Audit generator](audits/2026-10-05-drill-11-15-generator-audit.md).

@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-11-5-5",
+  "config_version": 1,
+  "original_hash": "0d50be221cff7482",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "8000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "8000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "0*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "8000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "0*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "0*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tarif sebuah taksi adalah Rp{v0} (tarif buka) ditambah Rp{v1} untuk setiap kilometer perjalanan, dengan jarak ditempuh dihitung secara kontinu (termasuk pecahan kilometer). Anto memodelkan biaya f(x) = {v2} + {v3}x dan menggambar grafiknya berupa titik-titik terpisah pada x = 0, 1, 2, 3, .... Penilaian yang tepat terhadap grafik Anto adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kurang tepat, karena jarak dapat berupa bilangan pecahan sehingga grafik yang tepat berupa garis lurus kontinu yang naik, dimulai dari titik ({v4}; {v5})",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Tepat, karena jarak biasanya dinyatakan dalam kilometer bulat",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kurang tepat, karena grafik yang tepat berupa garis lurus yang turun",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kurang tepat, karena grafik yang tepat berupa garis lurus yang melalui titik ({v6}, {v7})",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Benar. Kurang tepat, karena jarak dapat berupa bilangan pecahan sehingga grafik yang tepat berupa garis lurus kontinu yang naik, dimulai dari titik ({v4}; {v5})\nB: Salah. Tepat, karena jarak biasanya dinyatakan dalam kilometer bulat\nC: Salah. Kurang tepat, karena grafik yang tepat berupa garis lurus yang turun\nD: Salah. Kurang tepat, karena grafik yang tepat berupa garis lurus yang melalui titik ({v6}, {v7})"
+}

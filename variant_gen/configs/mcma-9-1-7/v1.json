@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-9-1-7",
+  "config_version": 1,
+  "original_hash": "9e4a947997dd7ee4",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan tiga persamaan garis lurus sebagai berikut:\n(1) 2x+3y={v1}\n(2) 4x+6y={v2}\n(3) 2x+3y={v3}\nManakah pernyataan berikut yang BENAR terkait hubungan ketiga persamaan tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sistem persamaan yang dibentuk oleh (1) dan (2) memiliki tak hingga banyak penyelesaian.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Sistem persamaan yang dibentuk oleh (1) dan (3) tidak memiliki penyelesaian.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Grafik dari persamaan (1) memotong sumbu-Y di titik (0, {v4}).",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Sistem persamaan yang dibentuk oleh (2) dan (3) memiliki tepat satu penyelesaian.",
+      "correct": false
+    }
+  ],
+  "explanation": "Garis 2 dua kali garis 1, berhimpit. Garis 3 koefisien sama tetapi konstanta berbeda, sejajar. Intersep Y garis 1 adalah {v5}/3={v6}."
+}

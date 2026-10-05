@@ -23,12 +23,28 @@ Inventaris kode/data per **5 Oktober 2026**:
 
 | Aktivitas | Paket | Original | Soal dengan config | Struktur |
 |---|---|---:|---:|---|
-| Drill & Practice | `drill-1` / Paket 1 | 120 | 110 | Paket > indikator 16–19 > level sumber > soal |
+| Drill & Practice | `drill-1` / Paket 1 | 640 | 548 | Paket > indikator 6–23 > level sumber > soal |
 | Tryout | `tryout-1` / Tryout 1 | 30 | 27 | Paket > bab 1–4 > soal |
 | Pretest | Belum tersedia | 0 | 0 | Belum memiliki bank lokal |
-| Total | | 150 | 137 | |
+| Total | | 670 | 575 | |
 
-Paket Drill menargetkan 5 level × 10 soal per indikator. Data baru level 1–3: 120 dari target 200 original; 80 soal level 4–5 belum tersedia. Seluruh 60 soal indikator 18–19 memiliki config. Sepuluh Drill dan tiga Tryout konseptual belum memiliki generator. Config tersedia bukan approval kurikulum atau bukti kesetaraan IRT.
+Paket Drill menargetkan 5 level × 10 soal per indikator. Indikator 11–15 memiliki level 1–5; indikator 6–10 dan 16–23 memiliki level 1–3. Total 640 original; 260 soal level 4–5 pada kelompok lainnya belum tersedia. Seluruh 60 soal indikator 18–19 memiliki config. Config tersedia bukan approval kurikulum atau bukti kesetaraan IRT.
+
+Indikator **6–10**: 150 original, **129 generator aktif**, 12 HOLD_SOURCE dan 9 DEFERRED_CONCEPTUAL. Level 1–3 tersedia; level 4–5 belum memiliki sumber. [Laporan audit](docs/audits/2026-10-05-drill-6-10-generator-audit.md).
+
+Indikator **11–15**: 250 original, **223 generator aktif**, 5 HOLD_SOURCE dan 22 DEFERRED_CONCEPTUAL. Bank dan config sudah terintegrasi ke checkout ini; pilih Service AI > Drill > Paket 1 > indikator 11–15 > level 1–5. [Laporan audit dan contoh hasil](docs/audits/2026-10-05-drill-11-15-generator-audit.md).
+
+Indikator **20–23**: 120 original, **86 generator aktif**, **11 HOLD_SOURCE** (konflik opsi/kunci/stem), **23 DEFERRED_CONCEPTUAL** (template setara/aturan penilaian perlu review). Semua 86 aktif diuji masing-masing 20 varian unik, dengan oracle matematika independen. Tidak ada koreksi akademik pada sumber yang diterapkan. [Audit per soal](docs/audits/2026-10-05-drill-20-23-generator-audit.md) memuat alasan setiap soal tertahan. Sepuluh Drill indikator16–19 dan tiga Tryout tetap tanpa generator.
+
+Di tab **Service AI**, pilih Drill > Paket 1 > indikator20–23 > level > soal. Generate membuat snapshot lokal, Regen menambah versi, riwayat lama tetap tersedia. Nomor dokumen dan status review ditampilkan; kunci HOLD belum disahkan. Kategori Kuantitatif/Kualitatif dan Sesuai/Tidak Sesuai mempertahankan label sumber. Level4–5 tersedia pada indikator 11–15; kelompok lainnya masih kosong.
+
+```powershell
+python -B variant_gen/cli.py gen pg-21-1-1 s1-20
+python -B variant_gen/cli.py regen pg-21-1-1 s1 --reason "review lokal"
+python -B variant_gen/cli.py view pg-21-1-1 s1 v1
+```
+
+Bank tambahan disimpan di `variant_gen/data/drill-1-indicators-{6-10,11-15,20-23}/` dan dimuat bersama bank dasar; bank/config/riwayat sebelumnya dipertahankan. Generator ini memakai engine deterministik existing, berhenti pada snapshot lokal. Ekspor kontrak kategori boolean menolak label kategori khusus; tidak mengakses atau menulis database Numora.
 
 Original disimpan sebagai CSV dengan ledger revisi; varian sebagai JSONL. Jumlah ini **bukan inventaris database Numora**. Tab **DB Utama** membaca database bila `DATABASE_URL` dikonfigurasi; generator tidak mengimpor/memublikasikan hasil ke database tersebut.
 
@@ -45,4 +61,4 @@ Original disimpan sebagai CSV dengan ledger revisi; varian sebagai JSONL. Jumlah
 python -B -m unittest discover -s variant_gen/tests -v
 ```
 
-Tes memakai fixture/store sementara. Jalankan satu writer untuk config/store yang sama; JSONL belum mendukung transaksi atau koordinasi writer lintas proses.
+Verifikasi gabungan dicatat pada [laporan kondisi repo](docs/audits/2026-10-05-repository-status.md). Tes memakai fixture/store sementara. Jalankan satu writer untuk config/store yang sama; JSONL belum mendukung transaksi atau koordinasi writer lintas proses.

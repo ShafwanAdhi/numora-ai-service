@@ -1,0 +1,204 @@
+{
+  "question_id": "pg-12-3-1",
+  "config_version": 1,
+  "original_hash": "daaa39bf114db0c1",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "rotation": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "rotation": {
+      "gen": "range",
+      "range": [
+        0,
+        4
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'(i)' if rotation==0 else ('(ii)' if rotation==1 else ('(iii)' if rotation==2 else ('(iv)' if rotation==3 else ('(v)'))))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'(ii)' if rotation==0 else ('(iii)' if rotation==1 else ('(iv)' if rotation==2 else ('(v)' if rotation==3 else ('(i)'))))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'(iii)' if rotation==0 else ('(iv)' if rotation==1 else ('(v)' if rotation==2 else ('(i)' if rotation==3 else ('(ii)'))))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'(iv)' if rotation==0 else ('(v)' if rotation==1 else ('(i)' if rotation==2 else ('(ii)' if rotation==3 else ('(iii)'))))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'(v)' if rotation==0 else ('(i)' if rotation==1 else ('(ii)' if rotation==2 else ('(iii)' if rotation==3 else ('(iv)'))))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "7*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "54*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "16*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "48*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "7*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan lima barisan berhingga berikut.\n• {v0} {v5}, {v6}, {v7}, {v8}\n• {v1} {v9}, {v10}, {v11}, {v12}\n• {v2} {v13}, {v14}, {v15}, {v16}\n• {v3} {v17}, {v18}, {v19}, {v20}\n• {v4} {v21}, {v22}, {v23}, {v24}\nBarisan geometri dengan rasio kurang dari 1 dan barisan aritmetika dengan beda negatif secara berurutan adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v1} dan {v4}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} dan {v0}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v2} dan {v4}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v3} dan {v4}",
+      "correct": true
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Salah. {v1} dan {v4}\nB: Salah. {v3} dan {v0}\nC: Salah. {v2} dan {v4}\nD: Benar. {v3} dan {v4}"
+}

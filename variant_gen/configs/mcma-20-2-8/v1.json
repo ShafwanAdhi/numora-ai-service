@@ -1,0 +1,124 @@
+{
+  "question_id": "mcma-20-2-8",
+  "config_version": 1,
+  "original_hash": "2d7c59824dad3a0c",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "n1": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n2": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n3": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n4": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n5": {
+      "gen": "derived",
+      "expr": "50*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "50*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "last": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Perhatikan data penggunaan internet untuk belajar berikut.\nDurasi | Banyak Siswa\nKurang dari 1 jam | {n1}\n1–2 jam | {n2}\n2–3 jam | {n3}\nLebih dari 3 jam | {n4}\nPilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelompok 2–3 jam memiliki jumlah siswa terbanyak.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jumlah seluruh siswa adalah {n5}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Siswa yang belajar menggunakan internet lebih dari 3 jam berjumlah 20%.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kelompok kurang dari 1 jam merupakan kelompok terbesar.",
+      "correct": false
+    }
+  ],
+  "explanation": "Total = {total}; kelompok 2–3 jam terbanyak; proporsi lebih dari 3 jam = {last} / {total} = 20%.",
+  "constraints": []
+}

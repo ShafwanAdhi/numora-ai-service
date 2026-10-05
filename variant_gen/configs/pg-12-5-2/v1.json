@@ -1,0 +1,102 @@
+{
+  "question_id": "pg-12-5-2",
+  "config_version": 1,
+  "original_hash": "456c3c50590b475d",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "n": 6
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "n": {
+      "gen": "range",
+      "range": [
+        3,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "3000000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "250000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "(3000000-(n-2)*50000)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "300000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "n+-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "n+0",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "n+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "n+2",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Rina menerima dua tawaran kerja. Perusahaan A memberi gaji tahun pertama Rp{v0} per bulan dan naik Rp{v1} setiap tahun. Perusahaan B memberi gaji tahun pertama Rp{v2} per bulan dan naik Rp{v3} setiap tahun. Rina akan memilih Perusahaan B jika gajinya lebih besar daripada Perusahaan A. Mulai tahun ke berapa gaji Perusahaan B pertama kali lebih besar daripada Perusahaan A?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tahun ke-{v4}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Tahun ke-{v5}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Tahun ke-{v6}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Tahun ke-{v7}",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Salah. Tahun ke-{v4}\nB: Benar. Tahun ke-{v5}\nC: Salah. Tahun ke-{v6}\nD: Salah. Tahun ke-{v7}"
+}

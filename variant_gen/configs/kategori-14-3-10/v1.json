@@ -1,0 +1,58 @@
+{
+  "question_id": "kategori-14-3-10",
+  "config_version": 1,
+  "original_hash": "7c437d1e606357f1",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "35+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "65-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "125+t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Segitiga ABC siku-siku di B dengan ∠A = {v0}°. Tentukan Benar atau Salah!",
+  "options": [
+    {
+      "id": "1",
+      "text": "∠C = {v1}°.",
+      "correct": false
+    },
+    {
+      "id": "2",
+      "text": "Sudut luar di titik C besarnya {v2}°.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "∠A + ∠C = 90°.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\n1: Salah. ∠C = {v1}°.\n2: Benar. Sudut luar di titik C besarnya {v2}°.\n3: Benar. ∠A + ∠C = 90°."
+}

@@ -1,0 +1,95 @@
+{
+  "question_id": "pg-20-1-3",
+  "config_version": 1,
+  "original_hash": "648a6d7d749835fe",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "mon": 20,
+    "tue": 25,
+    "wed": 30,
+    "thu": 25,
+    "fri": 40
+  },
+  "variables": {
+    "mon": {
+      "gen": "range",
+      "range": [
+        5,
+        100
+      ],
+      "step": 5
+    },
+    "tue": {
+      "gen": "range",
+      "range": [
+        5,
+        100
+      ],
+      "step": 5
+    },
+    "wed": {
+      "gen": "range",
+      "range": [
+        5,
+        100
+      ],
+      "step": 5
+    },
+    "thu": {
+      "gen": "range",
+      "range": [
+        5,
+        100
+      ],
+      "step": 5
+    },
+    "fri": {
+      "gen": "range",
+      "range": [
+        5,
+        100
+      ],
+      "step": 5
+    },
+    "maximum": {
+      "gen": "derived",
+      "expr": "max(mon,tue,wed,thu,fri)",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Perhatikan data jumlah pengunjung perpustakaan berikut.\nHari | Jumlah Pengunjung\nSenin | {mon}\nSelasa | {tue}\nRabu | {wed}\nKamis | {thu}\nJumat | {fri}\nBerdasarkan data tersebut, hari dengan jumlah pengunjung terbanyak adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Senin",
+      "correct": "mon == maximum"
+    },
+    {
+      "id": "B",
+      "text": "Selasa",
+      "correct": "tue == maximum"
+    },
+    {
+      "id": "C",
+      "text": "Rabu",
+      "correct": "wed == maximum"
+    },
+    {
+      "id": "D",
+      "text": "Jumat",
+      "correct": "fri == maximum"
+    }
+  ],
+  "explanation": "Pengunjung terbanyak = {maximum}; bandingkan seluruh hari untuk memilih hari dengan jumlah tersebut.",
+  "constraints": [
+    "maximum > thu",
+    "mon != tue",
+    "mon != wed",
+    "mon != fri",
+    "tue != wed",
+    "tue != fri",
+    "wed != fri"
+  ]
+}

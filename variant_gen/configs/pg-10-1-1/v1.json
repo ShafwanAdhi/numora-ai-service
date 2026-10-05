@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-10-1-1",
+  "config_version": 1,
+  "original_hash": "2d194742c416631b",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "1000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "16000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "13000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "16000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "1000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "16000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus OSIS membeli perlengkapan dekorasi bazar sekolah berupa 3 pak kertas karton seharga (2x+{v1}) rupiah per pak dan 2 buah spidol seharga (x-{v2}) rupiah per buah. Saat pembayaran di kasir toko, pengurus mendapat potongan harga khusus sebesar (x-{v3}) rupiah. Bentuk aljabar paling sederhana yang menyatakan total biaya akhir yang dibayarkan pengurus OSIS adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "7x+{v4}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "7x+{v5}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "8x+{v6}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "8x+{v7}",
+      "correct": false
+    }
+  ],
+  "explanation": "Total = 3(2x+{v8})+2(x-{v9})-(x-{v10}) = 7x+{v11}."
+}

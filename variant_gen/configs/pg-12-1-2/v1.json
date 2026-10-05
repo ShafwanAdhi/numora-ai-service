@@ -1,0 +1,141 @@
+{
+  "question_id": "pg-12-1-2",
+  "config_version": 1,
+  "original_hash": "46f0967e3b984218",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "54*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui barisan geometri berhingga {v0}, {v1}, {v2}, {v3}, ... Rumus suku ke-n barisan tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "U_n={v4}{v5}2×3^(n-1){v6}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "U_n={v7}{v8}2×3^(n){v9}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "U_n={v10}{v11}3×2^(n-1){v12}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "U_n={v13}{v14}4n-2{v15}",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Benar. U_n={v4}{v5}2×3^(n-1){v6}\nB: Salah. U_n={v7}{v8}2×3^(n){v9}\nC: Salah. U_n={v10}{v11}3×2^(n-1){v12}\nD: Salah. U_n={v13}{v14}4n-2{v15}"
+}

@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-15-5-1",
+  "config_version": 1,
+  "original_hash": "c39ac8c5be8022b3",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5*k+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3*k+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4*k+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(3*k+1)**2+(4*k+1)**2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "(5*k+1)**2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "5*k+1",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dewi menyatakan bahwa jika (a, b, c) adalah tripel Pythagoras, maka (a + 1, b + 1, c + 1) juga merupakan tripel Pythagoras. Penilaian yang tepat terhadap pernyataan Dewi adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena selisih antarbilangan pada tripel tersebut tidak berubah.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena terdapat contoh penyangkal: ({v0}, {v1}, {v2}) menjadi ({v3}, {v4}, {v5}) dan {v6}^(2) + {v7}^(2) = {v8} ≠ {v9} = {v10}^(2).",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Benar, karena penambahan 1 pada setiap bilangan mempertahankan perbandingan ketiga bilangan.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena tripel Pythagoras harus terdiri atas bilangan genap.",
+      "correct": false
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Salah. Benar, karena selisih antarbilangan pada tripel tersebut tidak berubah.\nB: Benar. Salah, karena terdapat contoh penyangkal: ({v0}, {v1}, {v2}) menjadi ({v3}, {v4}, {v5}) dan {v6}^(2) + {v7}^(2) = {v8} ≠ {v9} = {v10}^(2).\nC: Salah. Benar, karena penambahan 1 pada setiap bilangan mempertahankan perbandingan ketiga bilangan.\nD: Salah. Salah, karena tripel Pythagoras harus terdiri atas bilangan genap."
+}

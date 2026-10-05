@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-8-2-3",
+  "config_version": 1,
+  "original_hash": "1b39bf0c81f53616",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "120000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "80000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "80000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "120000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kelompok ekstrakurikuler (Kelompok A dan Kelompok B) berencana menyewa aula sekolah untuk latihan pertunjukan.\nKelompok A: Menggunakan skema biaya dasar Rp{v1} ditambah biaya kebersihan Rp15.000 per jam.\nKelompok B: Menggunakan skema biaya dasar Rp{v2} ditambah biaya kebersihan Rp20.000 per jam.\nJika x menyatakan durasi waktu sewa dalam jam, analisis durasi sewa yang menyebabkan total biaya Kelompok B lebih mahal daripada total biaya Kelompok A adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "x<{v3} jam",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "x={v4} jam",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "x>{v5} jam",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "x≥{v6} jam",
+      "correct": false
+    }
+  ],
+  "explanation": "B lebih mahal jika {v7}+20000x > {v8}+15000x; 5000x > {v9}, jadi x>{v10} jam."
+}

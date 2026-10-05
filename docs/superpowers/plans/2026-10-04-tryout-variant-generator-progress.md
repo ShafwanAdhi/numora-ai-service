@@ -26,3 +26,7 @@ Batas review: persetujuan kurikulum/label kognitif/IRT; kapasitas stok exact;
 integrasi DB live/publikasi/scoring; concurrent writers/torn JSONL recovery;
 autentikasi kriptografis preview. Di luar tahap ini. Snapshot varian lama tetap
 mempertahankan original/config lama; perubahan baseline pengguna tidak direview.
+
+## Status integrasi repo
+
+Catatan tes/branch di atas merupakan bukti sesi implementasi pada waktunya. Implementasi yang tersedia telah digabungkan di checkout `main`; [laporan kondisi repo](../../audits/2026-10-05-repository-status.md) menjadi acuan inventaris dan verifikasi gabungan saat publikasi. IRT, generasi LLM, self-adjusting dan publikasi database tetap belum tersedia.

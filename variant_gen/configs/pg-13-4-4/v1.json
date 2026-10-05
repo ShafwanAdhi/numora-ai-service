@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-13-4-4",
+  "config_version": 1,
+  "original_hash": "b48258d3d4a81d6a",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "80000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "800000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "750000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "900000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "950000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "150000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "800000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dina memiliki dua skema menabung selama 10 bulan. Skema A: Rp{v0},00 pada bulan pertama dan setiap bulan berikutnya bertambah Rp{v1},00. Skema B: Rp{v2},00 setiap bulan. Dina memilih skema B karena nominal tabungan per bulan pada awalnya lebih besar. Penilaian yang tepat terhadap pilihan Dina adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat; total skema B lebih besar karena nominal bulanan awalnya lebih besar",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Tepat; total skema B Rp{v3},00 lebih besar daripada total skema A Rp{v4},00",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kurang tepat; total skema A Rp{v5},00 lebih besar Rp{v6},00 daripada total skema B",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kurang tepat; total skema A Rp{v7},00 lebih besar Rp{v8},00 daripada total skema B Rp{v9},00",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. Tepat; total skema B lebih besar karena nominal bulanan awalnya lebih besar\nB: Salah. Tepat; total skema B Rp{v3},00 lebih besar daripada total skema A Rp{v4},00\nC: Salah. Kurang tepat; total skema A Rp{v5},00 lebih besar Rp{v6},00 daripada total skema B\nD: Benar. Kurang tepat; total skema A Rp{v7},00 lebih besar Rp{v8},00 daripada total skema B Rp{v9},00"
+}

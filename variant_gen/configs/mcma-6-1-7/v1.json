@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-6-1-7",
+  "config_version": 1,
+  "original_hash": "20e0bb8d53a99342",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "180*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "400*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "300*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "40*k/3",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "400*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "300*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah percetakan langganan sekolah memiliki dua unit mesin cetak brosur kegiatan ekstrakurikuler:\nMesin A dapat mencetak {v1} lembar brosur dalam waktu 12 menit.\nMesin B dapat mencetak {v2} lembar brosur dalam waktu 15 menit.\nManakah pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kecepatan cetak Mesin A adalah {v3} lembar per menit.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Dalam waktu 30 menit, Mesin B dapat mencetak {v4} lembar brosur.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Untuk mencetak {v5} lembar brosur, Mesin A membutuhkan waktu lebih singkat dibandingkan Mesin B.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Mesin B memiliki kecepatan cetak per menit yang lebih tinggi daripada Mesin A.",
+      "correct": false
+    }
+  ],
+  "explanation": "Laju A={v6}, B={v7} lembar/menit. B selama 30 menit menghasilkan {v8}. Untuk {v9} lembar, A 20 menit, B 22,5 menit; A lebih cepat."
+}

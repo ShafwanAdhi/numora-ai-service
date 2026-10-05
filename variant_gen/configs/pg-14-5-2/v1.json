@@ -1,0 +1,95 @@
+{
+  "question_id": "pg-14-5-2",
+  "config_version": 1,
+  "original_hash": "f8b9f76c26d66a90",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -9,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "30+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "10+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "30+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "10+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "30+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "10+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "95-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "70+4*t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [
+    "t!=5"
+  ],
+  "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Diketahui ∠A2 = (5x - {v0})° dan ∠B2 = (3x + {v1})°. Sari menghitung dengan 5x - {v2} + 3x + {v3} = 180, sedangkan Rudi dengan 5x - {v4} = 3x + {v5}. Penilaian yang tepat adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sari benar, ∠A2 = {v6}°.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rudi benar, ∠A2 = {v7}°.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Keduanya benar.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Keduanya salah.",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Salah. Sari benar, ∠A2 = {v6}°.\nB: Benar. Rudi benar, ∠A2 = {v7}°.\nC: Salah. Keduanya benar.\nD: Salah. Keduanya salah."
+}

@@ -1,0 +1,209 @@
+{
+  "question_id": "pg-21-2-3",
+  "config_version": 1,
+  "original_hash": "4f9cda117ff13f4e",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "t": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        0.5,
+        1,
+        1.5
+      ]
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        -50,
+        30
+      ],
+      "step": 1
+    },
+    "x1": {
+      "gen": "derived",
+      "expr": "70*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x2": {
+      "gen": "derived",
+      "expr": "75*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x3": {
+      "gen": "derived",
+      "expr": "80*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x4": {
+      "gen": "derived",
+      "expr": "85*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "xmean": {
+      "gen": "derived",
+      "expr": "(x1+x2+x3+x4)/4",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmedian": {
+      "gen": "derived",
+      "expr": "(x2+x3)/2",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xrange": {
+      "gen": "derived",
+      "expr": "x4-x1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmin": {
+      "gen": "derived",
+      "expr": "x1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmax": {
+      "gen": "derived",
+      "expr": "x4",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "targetmean": {
+      "gen": "derived",
+      "expr": "80*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "5*targetmean-(x1+x2+x3+x4)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n13": {
+      "gen": "derived",
+      "expr": "80*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n14": {
+      "gen": "derived",
+      "expr": "70*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n15": {
+      "gen": "derived",
+      "expr": "75*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n16": {
+      "gen": "derived",
+      "expr": "80*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n17": {
+      "gen": "derived",
+      "expr": "85*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oA": {
+      "gen": "derived",
+      "expr": "answer+(-5)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oB": {
+      "gen": "derived",
+      "expr": "answer+(0)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oC": {
+      "gen": "derived",
+      "expr": "answer+(5)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "oD": {
+      "gen": "derived",
+      "expr": "answer+(10)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "5*targetmean",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "knownsum": {
+      "gen": "derived",
+      "expr": "x1+x2+x3+x4",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Data berikut memiliki rata-rata {n13}:\n{n14}, {n15}, {n16}, {n17}, x\nNilai x adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{oA}",
+      "correct": "answer == (answer+(-5)*k)"
+    },
+    {
+      "id": "B",
+      "text": "{oB}",
+      "correct": "answer == (answer+(0)*k)"
+    },
+    {
+      "id": "C",
+      "text": "{oC}",
+      "correct": "answer == (answer+(5)*k)"
+    },
+    {
+      "id": "D",
+      "text": "{oD}",
+      "correct": "answer == (answer+(10)*k)"
+    }
+  ],
+  "explanation": "Jumlah yang diperlukan = 5 × {targetmean}. Nilai yang belum diketahui = {total} − {knownsum} = {answer}.",
+  "constraints": [
+    "x1 >= 0",
+    "x1 <= 100",
+    "x2 >= 0",
+    "x2 <= 100",
+    "x3 >= 0",
+    "x3 <= 100",
+    "x4 >= 0",
+    "x4 <= 100",
+    "answer >= 0",
+    "answer <= 100"
+  ]
+}

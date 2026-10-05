@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-11-3-2",
+  "config_version": 1,
+  "original_hash": "7cb8ca90c6639848",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "shift": 0
+  },
+  "variables": {
+    "shift": {
+      "gen": "range",
+      "range": [
+        0,
+        10
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "shift+0",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "shift+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "shift+2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "shift+3",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "shift+4",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "(3 if shift==0 else (4 if shift==1 else 5))+-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "(3 if shift==0 else (4 if shift==1 else 5))+0",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "(3 if shift==0 else (4 if shift==1 else 5))+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(3 if shift==0 else (4 if shift==1 else 5))+2",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui fungsi f:A→B dengan f(x)=x^(2)-4x+3, A={{v0},{v1},{v2},{v3},{v4}}, dan B himpunan bilangan bulat. Banyak anggota range fungsi f adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v5}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v6}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v7}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v8}",
+      "correct": false
+    }
+  ],
+  "explanation": "Hitung f(x)=x²-4x+3 pada lima anggota domain. Banyak anggota range adalah jumlah nilai hasil yang berbeda; hasil sama tidak dihitung dua kali."
+}

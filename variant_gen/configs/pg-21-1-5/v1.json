@@ -1,0 +1,201 @@
+{
+  "question_id": "pg-21-1-5",
+  "config_version": 1,
+  "original_hash": "e17655e54c0792a9",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "t": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        0.5,
+        1,
+        1.5,
+        2
+      ]
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        -60,
+        60
+      ],
+      "step": 1
+    },
+    "x1": {
+      "gen": "derived",
+      "expr": "70*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x2": {
+      "gen": "derived",
+      "expr": "80*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x3": {
+      "gen": "derived",
+      "expr": "75*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x4": {
+      "gen": "derived",
+      "expr": "85*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x5": {
+      "gen": "derived",
+      "expr": "90*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "xmean": {
+      "gen": "derived",
+      "expr": "(x1+x2+x3+x4+x5)/5",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmedian": {
+      "gen": "derived",
+      "expr": "x2",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xrange": {
+      "gen": "derived",
+      "expr": "x5-x1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmin": {
+      "gen": "derived",
+      "expr": "x1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmax": {
+      "gen": "derived",
+      "expr": "x5",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n12": {
+      "gen": "derived",
+      "expr": "70*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n13": {
+      "gen": "derived",
+      "expr": "80*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n14": {
+      "gen": "derived",
+      "expr": "75*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n15": {
+      "gen": "derived",
+      "expr": "85*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n16": {
+      "gen": "derived",
+      "expr": "90*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n17": {
+      "gen": "derived",
+      "expr": "xmean+(-5/1)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n18": {
+      "gen": "derived",
+      "expr": "xmean+(-2/1)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n19": {
+      "gen": "derived",
+      "expr": "xmean",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n20": {
+      "gen": "derived",
+      "expr": "xmean+(5/1)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "sum": {
+      "gen": "derived",
+      "expr": "x1+x2+x3+x4+x5",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Nilai ulangan seorang siswa selama lima kali adalah:\n{n12}, {n13}, {n14}, {n15}, {n16}\nRata-rata nilai tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{n17}",
+      "correct": "xmean == (xmean+(-5/1)*k)"
+    },
+    {
+      "id": "B",
+      "text": "{n18}",
+      "correct": "xmean == (xmean+(-2/1)*k)"
+    },
+    {
+      "id": "C",
+      "text": "{n19}",
+      "correct": "xmean == (xmean)"
+    },
+    {
+      "id": "D",
+      "text": "{n20}",
+      "correct": "xmean == (xmean+(5/1)*k)"
+    }
+  ],
+  "explanation": "Jumlah data = {sum}. Mean = {xmean}; median = {xmedian}; minimum = {xmin}; maksimum = {xmax}; jangkauan = {xrange}. Tidak ada modus tunggal.",
+  "constraints": [
+    "x1 >= 0",
+    "x1 <= 100",
+    "x2 >= 0",
+    "x2 <= 100",
+    "x3 >= 0",
+    "x3 <= 100",
+    "x4 >= 0",
+    "x4 <= 100",
+    "x5 >= 0",
+    "x5 <= 100"
+  ]
+}

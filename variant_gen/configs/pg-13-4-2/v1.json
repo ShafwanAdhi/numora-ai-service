@@ -1,0 +1,129 @@
+{
+  "question_id": "pg-13-4-2",
+  "config_version": 1,
+  "original_hash": "453a7e6ff551e9ff",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "19*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "55*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada suatu deret aritmetika diketahui U_5={v0} dan S_5={v1}. Rumus jumlah n suku pertama deret tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "S_n={v2}{v3}2n^(2)+3n{v4}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "S_n={v5}{v6}2n^(2)+n{v7}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "S_n={v8}{v9}4n^(2)-5n{v10}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "S_n={v11}{v12}n^(2)+10n{v13}",
+      "correct": false
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. S_n={v2}{v3}2n^(2)+3n{v4}\nB: Benar. S_n={v5}{v6}2n^(2)+n{v7}\nC: Salah. S_n={v8}{v9}4n^(2)-5n{v10}\nD: Salah. S_n={v11}{v12}n^(2)+10n{v13}"
+}

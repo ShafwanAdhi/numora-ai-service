@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-11-2-8",
+  "config_version": 1,
+  "original_hash": "d254463217c72940",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "0*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan fungsi pecahan f(x)=({v0})/(x-{v1}). Pilihlah semua pernyataan yang benar terkait domain dan pembatasannya!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nilai x={v2} tidak diperbolehkan masuk dalam domain karena menyebabkan penyebut bernilai nol.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Domain fungsi tersebut adalah seluruh bilangan real tanpa terkecuali",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Domain fungsi adalah {x | x ≠  {v3}, x ∈ R}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Range dari fungsi tersebut mencakup angka {v4}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Benar. Nilai x={v2} tidak diperbolehkan masuk dalam domain karena menyebabkan penyebut bernilai nol.\nB: Salah. Domain fungsi tersebut adalah seluruh bilangan real tanpa terkecuali\nC: Benar. Domain fungsi adalah {x | x ≠  {v3}, x ∈ R}\nD: Salah. Range dari fungsi tersebut mencakup angka {v4}."
+}

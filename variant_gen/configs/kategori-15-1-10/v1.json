@@ -1,0 +1,64 @@
+{
+  "question_id": "kategori-15-1-10",
+  "config_version": 1,
+  "original_hash": "0274b54b0e6014ad",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "60*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Persegi panjang ABCD memiliki panjang AB = {v0} cm dan lebar BC = {v1} cm. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Panjang diagonal AC adalah {v2} cm.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas segitiga ABC adalah {v3} cm^(2).",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Segitiga ABC dan segitiga CDA tidak kongruen.",
+      "correct": false
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\n1: Benar. Panjang diagonal AC adalah {v2} cm.\n2: Salah. Luas segitiga ABC adalah {v3} cm^(2).\n3: Salah. Segitiga ABC dan segitiga CDA tidak kongruen."
+}

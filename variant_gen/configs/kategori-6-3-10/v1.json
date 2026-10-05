@@ -1,0 +1,88 @@
+{
+  "question_id": "kategori-6-3-10",
+  "config_version": 1,
+  "original_hash": "3a88b71fbd2d28c6",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola fasilitas sekolah mengevaluasi laju pengerjaan pembuatan gazebo taman sekolah. Tercatat bahwa {v1} orang pekerja dapat menyelesaikan pembuatan 2 unit gazebo dalam waktu 6 hari.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Untuk menyelesaikan pembuatan 4 unit gazebo dalam waktu 6 hari, dibutuhkan {v2} orang pekerja.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Produktivitas 1 orang pekerja per hari adalah menyelesaikan (1)/({v3}) bagian dari 1 unit gazebo.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika tersedia {v4} orang pekerja dan ditargetkan menyelesaikan 3 unit gazebo, waktu pengerjaan yang dibutuhkan adalah 7,5 hari.",
+      "correct": true
+    }
+  ],
+  "explanation": "Laju per pekerja per hari = 2/({v5}*6)=1/{v6} gazebo. Empat gazebo enam hari membutuhkan {v7} pekerja; tiga gazebo dengan {v8} pekerja membutuhkan 7,5 hari."
+}

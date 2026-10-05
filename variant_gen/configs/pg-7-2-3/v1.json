@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-7-2-3",
+  "config_version": 1,
+  "original_hash": "96e5b2f0f065f779",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "44*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "99*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "108*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "117*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "126*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "44*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "117*k*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Lapangan bulu tangkis sekolah berbentuk persegi panjang memiliki ukuran panjang (4x−{v1}) meter dan lebar (2x+{v2}) meter. Jika keliling lapangan bulu tangkis tersebut adalah {v3} meter, luas lapangan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v4} m^2",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v5} m^2",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v6} m^2",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v7} m^2",
+      "correct": false
+    }
+  ],
+  "explanation": "Keliling 12x-{v8}={v9}, x={v10}. Panjang {v11}, lebar {v12}, luas {v13} meter persegi."
+}

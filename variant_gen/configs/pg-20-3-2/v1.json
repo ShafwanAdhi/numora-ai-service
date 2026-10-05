@@ -1,0 +1,72 @@
+{
+  "question_id": "pg-20-3-2",
+  "config_version": 1,
+  "original_hash": "f981ba366772d929",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "jan": 20,
+    "feb": 30,
+    "mar": 45,
+    "apr": 40
+  },
+  "variables": {
+    "jan": {
+      "gen": "range",
+      "range": [
+        10,
+        150
+      ],
+      "step": 5
+    },
+    "feb": {
+      "gen": "range",
+      "range": [
+        10,
+        150
+      ],
+      "step": 5
+    },
+    "mar": {
+      "gen": "range",
+      "range": [
+        10,
+        150
+      ],
+      "step": 5
+    },
+    "apr": {
+      "gen": "range",
+      "range": [
+        10,
+        150
+      ],
+      "step": 5
+    }
+  },
+  "stem": "Jumlah siswa yang mengikuti program membaca selama empat bulan ditunjukkan dalam tabel berikut.\nBulan | Jumlah Siswa\nJanuari | {jan}\nFebruari | {feb}\nMaret | {mar}\nApril | {apr}\nKesimpulan yang paling tepat berdasarkan data tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jumlah peserta selalu meningkat setiap bulan.",
+      "correct": "jan < feb and feb < mar and mar < apr"
+    },
+    {
+      "id": "B",
+      "text": "Jumlah peserta selalu menurun setiap bulan.",
+      "correct": "jan > feb and feb > mar and mar > apr"
+    },
+    {
+      "id": "C",
+      "text": "Jumlah peserta meningkat sampai Maret kemudian menurun pada April.",
+      "correct": "jan < feb and feb < mar and mar > apr"
+    },
+    {
+      "id": "D",
+      "text": "Jumlah peserta tidak mengalami perubahan.",
+      "correct": "jan == feb and feb == mar and mar == apr"
+    }
+  ],
+  "explanation": "Bandingkan urutan jumlah peserta: {jan}, {feb}, {mar}, {apr}. Kenaikan/penurunan ditentukan antarbulan berurutan.",
+  "constraints": []
+}

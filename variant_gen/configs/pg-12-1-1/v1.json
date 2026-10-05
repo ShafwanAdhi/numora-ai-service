@@ -1,0 +1,129 @@
+{
+  "question_id": "pg-12-1-1",
+  "config_version": 1,
+  "original_hash": "24d2c2c859fe29f7",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "17*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "68*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "272*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "21*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "26*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "21*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "25*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "34*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "68*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui barisan bilangan berhingga {v0}, {v1}, {v2}, {v3}, ... Pola yang berlaku pada barisan tersebut dan dua suku berikutnya adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Geometri dengan rasio 4; dua suku berikutnya {v4} dan {v5}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Aritmetika dengan beda {v6}; dua suku berikutnya {v7} dan {v8}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Aritmetika dengan beda {v9}; dua suku berikutnya {v10} dan {v11}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Geometri dengan rasio 2; dua suku berikutnya {v12} dan {v13}",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Salah. Geometri dengan rasio 4; dua suku berikutnya {v4} dan {v5}\nB: Salah. Aritmetika dengan beda {v6}; dua suku berikutnya {v7} dan {v8}\nC: Benar. Aritmetika dengan beda {v9}; dua suku berikutnya {v10} dan {v11}\nD: Salah. Geometri dengan rasio 2; dua suku berikutnya {v12} dan {v13}"
+}

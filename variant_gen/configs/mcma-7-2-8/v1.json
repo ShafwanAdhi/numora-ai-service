@@ -1,0 +1,87 @@
+{
+  "question_id": "mcma-7-2-8",
+  "config_version": 1,
+  "original_hash": "b5377b89cbd3fb0c",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "135+6*(k-1)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "135+6*(k-1)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "43+2*(k-1)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "90+4*(k-1)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "135+6*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "43+2*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "90+4*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga nomor kartu peserta ujian Pramuka yang berurutan berbentuk bilangan ganjil. Jumlah ketiga nomor kartu peserta tersebut adalah {v1}.\nManakah pernyataan analisis berikut yang BENAR terkait nomor-nomor kartu peserta tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model matematika yang tepat untuk masalah tersebut adalah 3n+6={v2}, dengan n menyatakan nomor ganjil pertama.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Nomor kartu peserta terkecil adalah {v3}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Selisih antara nomor kartu terbesar dan nomor kartu terkecil adalah 6.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Jumlah nomor kartu terbesar dan nomor kartu terkecil adalah {v4}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Tiga nomor ganjil n,n+2,n+4. Model 3n+6={v5}, n={v6}. Selisih terbesar-terkecil selalu 4, jumlah keduanya {v7}."
+}

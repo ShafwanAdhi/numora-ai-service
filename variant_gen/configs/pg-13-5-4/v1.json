@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-13-5-4",
+  "config_version": 1,
+  "original_hash": "0463c74422603f7e",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "1000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2047000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "1023000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "23000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "1000000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Rudi ditawari dua pilihan penghasilan selama 10 hari. Pilihan (i): Rp{v0},00 pada hari pertama dan menjadi dua kali lipat setiap hari berikutnya. Pilihan (ii): Rp{v1},00 setiap hari. Rudi memilih (ii) karena nominal harian lebih besar. Penilaian yang tepat terhadap pilihan Rudi adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat, karena total (ii) lebih besar daripada total (i)",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kurang tepat; total (i) Rp{v2},00 lebih besar daripada total (ii)",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Tepat, karena total kedua pilihan sama",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kurang tepat; total (i) Rp{v3},00 lebih besar Rp{v4},00 daripada total (ii) Rp{v5},00",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. Tepat, karena total (ii) lebih besar daripada total (i)\nB: Salah. Kurang tepat; total (i) Rp{v2},00 lebih besar daripada total (ii)\nC: Salah. Tepat, karena total kedua pilihan sama\nD: Benar. Kurang tepat; total (i) Rp{v3},00 lebih besar Rp{v4},00 daripada total (ii) Rp{v5},00"
+}

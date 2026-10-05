@@ -1,0 +1,63 @@
+{
+  "question_id": "mcma-23-1-6",
+  "config_version": 1,
+  "original_hash": "d31cfaa3470231de",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "limit": 7,
+    "face": 5
+  },
+  "variables": {
+    "limit": {
+      "gen": "choice",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "face": {
+      "gen": "range",
+      "range": [
+        1,
+        6
+      ],
+      "step": 1
+    },
+    "p": {
+      "gen": "derived",
+      "expr": "(limit-1)/6",
+      "fmt": "mixed",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah dadu dilempar satu kali.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Peluang muncul angka genap adalah 1/2.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Peluang muncul angka {face} adalah 1/6.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Peluang muncul angka lebih dari 6 adalah 1/6.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Peluang muncul angka kurang dari {limit} adalah {p}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Angka genap = 2, 4, 6 (peluang 1/2); angka {face} berpeluang 1/6; lebih dari 6 mustahil. Angka kurang dari {limit} memiliki peluang {p}.",
+  "constraints": []
+}

@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-15-4-8",
+  "config_version": 1,
+  "original_hash": "a5ecfb75855b4391",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(96/5)*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada saat yang sama, tiang bendera setinggi {v0} m memiliki bayangan {v1} m, dan sebuah gedung memiliki bayangan {v2} m. Empat siswa menyampaikan pendapat berikut. Pilihlah semua pendapat yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rani: Tinggi gedung adalah {v3} m.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Tono: Tinggi gedung adalah {v4} m.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Wati: Tinggi gedung dapat dihitung dengan kesebangunan segitiga karena sinar matahari dianggap sejajar.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Beni: Karena bayangan tiang lebih pendek daripada tiangnya, kesebangunan tidak dapat dipakai untuk menghitung tinggi gedung.",
+      "correct": false
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Benar. Rani: Tinggi gedung adalah {v3} m.\nB: Salah. Tono: Tinggi gedung adalah {v4} m.\nC: Benar. Wati: Tinggi gedung dapat dihitung dengan kesebangunan segitiga karena sinar matahari dianggap sejajar.\nD: Salah. Beni: Karena bayangan tiang lebih pendek daripada tiangnya, kesebangunan tidak dapat dipakai untuk menghitung tinggi gedung."
+}

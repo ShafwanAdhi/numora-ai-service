@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-13-2-8",
+  "config_version": 1,
+  "original_hash": "6596f448ff950a59",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "53*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "456*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "438*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "130*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada sebuah gedung pertunjukan, baris pertama berisi {v0} kursi dan setiap baris di belakangnya berisi {v1} kursi lebih banyak. Terdapat 12 baris kursi. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Baris ke-12 berisi {v2} kursi.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Banyak kursi seluruhnya adalah {v3}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Banyak kursi seluruhnya adalah {v4}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Banyak kursi pada 5 baris pertama adalah {v5}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Benar. Baris ke-12 berisi {v2} kursi.\nB: Salah. Banyak kursi seluruhnya adalah {v3}.\nC: Benar. Banyak kursi seluruhnya adalah {v4}.\nD: Benar. Banyak kursi pada 5 baris pertama adalah {v5}."
+}

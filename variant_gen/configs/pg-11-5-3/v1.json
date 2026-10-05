@@ -1,0 +1,159 @@
+{
+  "question_id": "pg-11-5-3",
+  "config_version": 1,
+  "original_hash": "95f951ba3ff7cca9",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "17*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui f(x) = 3x - {v0} dan g(x) = x + {v1}. Gita menghitung (f ∘ g)({v2}) dengan cara berikut: (f ∘ g)(x) = f(x) + g(x) = (3x - {v3}) + (x + {v4}) = 4x + {v5}, sehingga (f ∘ g)({v6}) = {v7}. Penilaian yang tepat terhadap pekerjaan Gita adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat, karena komposisi fungsi diperoleh dengan menjumlahkan kedua fungsi",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kurang tepat, karena seharusnya (f ∘ g)({v8}) = {v9}, yaitu f({v10}) dikomposisikan dengan g({v11})",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kurang tepat, karena seharusnya (f ∘ g)({v12}) = {v13}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kurang tepat, karena (f ∘ g)(x) = f(g(x)) = 3(x + {v14}) - {v15} = 3x + {v16} sehingga (f ∘ g)({v17}) = {v18}",
+      "correct": true
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Salah. Tepat, karena komposisi fungsi diperoleh dengan menjumlahkan kedua fungsi\nB: Salah. Kurang tepat, karena seharusnya (f ∘ g)({v8}) = {v9}, yaitu f({v10}) dikomposisikan dengan g({v11})\nC: Salah. Kurang tepat, karena seharusnya (f ∘ g)({v12}) = {v13}\nD: Benar. Kurang tepat, karena (f ∘ g)(x) = f(g(x)) = 3(x + {v14}) - {v15} = 3x + {v16} sehingga (f ∘ g)({v17}) = {v18}"
+}

@@ -1,0 +1,135 @@
+{
+  "question_id": "mcma-8-1-7",
+  "config_version": 1,
+  "original_hash": "ae9a388df51d9615",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        -20,
+        15
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "76+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "82+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "84+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "82+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "76+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "82+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "84+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "82+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "328+4*(k-1)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "86+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "328+4*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "242+3*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "86+k-1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Sinta telah mengikuti 3 kali tes matematika dengan nilai berturut-turut {v1}, {v2}, dan {v3}. Agar nilai rata-rata dari 4 kali tes matematika Sinta tidak kurang dari {v4} untuk mencapai KKM predikat A, Sinta harus mendapatkan nilai x pada tes ke-4.\nManakah pernyataan berikut yang BENAR terkait situasi tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model pertidaksamaan yang tepat adalah ({v5} + {v6} + {v7} + x) / 4 ≥ {v8}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Total nilai minimum dari 4 kali tes yang harus dicapai Sinta adalah {v9}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Nilai tes ke-4 (x) minimum yang harus diperoleh Sinta adalah {v10}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika Sinta mendapat nilai {v11} pada tes ke-4, nilai rata-ratanya sudah memenuhi syarat predikat A.",
+      "correct": false
+    }
+  ],
+  "explanation": "Total minimum {v12}, total tiga tes {v13}; tes berikut perlu minimal {v14}. Nilai {v15} kurang satu."
+}

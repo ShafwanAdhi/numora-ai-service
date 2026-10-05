@@ -1,0 +1,69 @@
+{
+  "question_id": "mcma-15-4-7",
+  "config_version": 1,
+  "original_hash": "a73288181a85b995",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada trapesium ABCD dengan AB sejajar CD, diagonal AC dan BD berpotongan di titik O. Diketahui OA = {v0} cm, OC = {v1} cm, dan AB = {v2} cm. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Segitiga OAB sebangun dengan segitiga OCD.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Panjang CD = {v3} cm.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Perbandingan OB : OD = 3 : 2.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Perbandingan luas segitiga OAB dan segitiga OCD adalah 4 : 9.",
+      "correct": true
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Benar. Segitiga OAB sebangun dengan segitiga OCD.\nB: Benar. Panjang CD = {v3} cm.\nC: Salah. Perbandingan OB : OD = 3 : 2.\nD: Benar. Perbandingan luas segitiga OAB dan segitiga OCD adalah 4 : 9."
+}

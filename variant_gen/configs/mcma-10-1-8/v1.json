@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-10-1-8",
+  "config_version": 1,
+  "original_hash": "c8544b098887a686",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan sebuah ekspresi aljabar kompleks: 3(x^2-2x+{v1})-2(2x^2-3x-{v2}).\nManakah pernyataan berikut yang BENAR mengenai hasil penyederhanaan bentuk aljabar tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bentuk sederhana dari ekspresi tersebut adalah -x^2+{v3}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Koefisien dari variabel x pada bentuk sederhana adalah 0.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Nilai konstanta pada bentuk sederhana adalah {v4}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Bentuk sederhana tersebut ekuivalen dengan {v5}-x^2.",
+      "correct": true
+    }
+  ],
+  "explanation": "Ekspansi: 3x^2-6x+{v6}-4x^2+6x+{v7} = -x^2+{v8}. Koefisien x nol; bentuk {v9}-x^2 ekuivalen."
+}

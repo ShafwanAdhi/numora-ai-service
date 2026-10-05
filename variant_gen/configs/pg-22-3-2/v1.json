@@ -1,0 +1,72 @@
+{
+  "question_id": "pg-22-3-2",
+  "config_version": 1,
+  "original_hash": "8abf5cffd080f588",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "ma": 75,
+    "mb": 75,
+    "ra": 10,
+    "rb": 30
+  },
+  "variables": {
+    "ma": {
+      "gen": "range",
+      "range": [
+        40,
+        90
+      ],
+      "step": 1
+    },
+    "mb": {
+      "gen": "range",
+      "range": [
+        40,
+        90
+      ],
+      "step": 1
+    },
+    "ra": {
+      "gen": "range",
+      "range": [
+        0,
+        40
+      ],
+      "step": 2
+    },
+    "rb": {
+      "gen": "range",
+      "range": [
+        0,
+        40
+      ],
+      "step": 2
+    }
+  },
+  "stem": "Kelompok A memiliki mean {ma} dan jangkauan {ra}. Kelompok B memiliki mean {mb} dan jangkauan {rb}.\nPernyataan yang paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelompok A memiliki nilai rata-rata lebih tinggi",
+      "correct": "ma > mb"
+    },
+    {
+      "id": "B",
+      "text": "Kedua kelompok memiliki pusat data yang sama, tetapi B lebih menyebar",
+      "correct": "ma == mb and rb > ra"
+    },
+    {
+      "id": "C",
+      "text": "Kelompok B memiliki pusat data lebih rendah",
+      "correct": "mb < ma"
+    },
+    {
+      "id": "D",
+      "text": "Kedua kelompok memiliki penyebaran yang sama",
+      "correct": "ra == rb"
+    }
+  ],
+  "explanation": "Mean A = {ma}, B = {mb}; jangkauan A = {ra}, B = {rb}. Pusat data dibandingkan melalui mean, penyebaran melalui jangkauan.",
+  "constraints": []
+}

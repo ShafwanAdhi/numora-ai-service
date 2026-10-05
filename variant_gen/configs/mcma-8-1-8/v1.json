@@ -1,0 +1,141 @@
+{
+  "question_id": "mcma-8-1-8",
+  "config_version": 1,
+  "original_hash": "78280a4292254933",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "-2*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menyelesaikan pertidaksamaan {v1}−3(x−{v2})≤{v3} dengan langkah-langkah pengerjaan sebagai berikut:\nLangkah 1: {v4}−3x−{v5}≤{v6}\nLangkah 2: −3x−{v7}≤{v8}\nLangkah 3: −3x≤{v9}\nLangkah 4: x≤−{v10}\nManakah pernyataan evaluasi berikut yang BENAR mengenai langkah pengerjaan di atas? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Siswa melakukan kesalahan perkalian distributif pada Langkah 1.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Langkah 3 merupakan hasil penyederhanaan yang konsisten dari Langkah 2.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Siswa melakukan kesalahan pada Langkah 4 karena tidak membalik tanda pertidaksamaan saat membagi dengan bilangan negatif.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Penyelesaian yang benar dari pertidaksamaan tersebut adalah x≥−{v11}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Distributif yang benar {v12}-3x+{v13} <= {v14}, jadi -3x <= {v15}, x >= {v16}. Langkah 1 salah distributif; langkah 3 konsisten dengan langkah 2 yang sudah salah; langkah 4 juga lupa membalik tanda."
+}

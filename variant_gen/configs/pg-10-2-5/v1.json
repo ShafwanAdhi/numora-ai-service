@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-10-2-5",
+  "config_version": 1,
+  "original_hash": "2d75f487bfe993ed",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'+' if 4*k-11 >= 0 else '-'",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "abs(4*k-11)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "-8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "4*k-11",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah ekspresi aljabar (2x+a)(x-3) jika dijabarkan lalu dijumlahkan dengan bentuk aljabar (3x^2-5x+{v1}) menghasilkan bentuk aljabar 5x^2{v2}{v3}x-{v4}. Nilai konstanta a yang memenuhi hubungan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "a={v5}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "a={v6}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "a={v7}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "a=-{v8}",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil ekspansi 5x^2+(a-11)x+{v9}-3a. Kesamaan konstanta mensyaratkan {v10}-3a={v11}, a={v12}; koefisien x juga cocok {v13}."
+}

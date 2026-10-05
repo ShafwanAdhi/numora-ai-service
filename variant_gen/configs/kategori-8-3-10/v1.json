@@ -1,0 +1,124 @@
+{
+  "question_id": "kategori-8-3-10",
+  "config_version": 1,
+  "original_hash": "62fb59974b3e04f6",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2500000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "80*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "160*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "80*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "160*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "170*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "2500000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "160*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "80*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "80*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "160*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "170*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia perpisahan kelas IX menyewa gedung pertunjukan dengan dua syarat dari pengelola:\nSyarat I (Anggaran): Total biaya sewa Rp{v1} ditambah Rp15.000 per siswa tidak boleh melebihi Rp{v2}.\nSyarat II (Kapasitas): Banyak siswa n yang hadir harus tidak kurang dari {v3} siswa agar acara dapat dilaksanakan.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Berdasarkan Syarat I, banyak siswa maksimum yang dapat ditampung sesuai anggaran adalah {v4} siswa.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Rentang jumlah siswa n yang memenuhi kedua syarat tersebut adalah {v5}≤n≤{v6}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika panitia menetapkan jumlah siswa yang hadir adalah {v7} siswa, Syarat II terpenuhi tetapi Syarat I dilanggar.",
+      "correct": true
+    }
+  ],
+  "explanation": "Batas anggaran n <= ({v8}-{v9})/15000={v10}; batas minimum {v11}. Irisan {v12} <= n <= {v13}. Nilai {v14} memenuhi minimum tetapi melanggar anggaran."
+}

@@ -10,6 +10,10 @@ from store import StoreError
 
 
 def export_record(record, mapping):
+    if record.get("metadata", {}).get("category_labels", ["Benar", "Salah"]) != ["Benar", "Salah"]:
+        raise StoreError("canonical export requires boolean Benar/Salah categories; custom labels remain local")
+    if record.get("cognitive_level") not in ("C1", "C2", "C3", "C4", "C5", "C6"):
+        raise StoreError("canonical export requires a single cognitive label C1..C6; mixed source labels remain local")
     if not isinstance(mapping, dict):
         raise StoreError("mapping must be a JSON object")
     for field, expected in (("questionExternalId", record["question_id"]),

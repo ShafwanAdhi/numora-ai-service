@@ -169,7 +169,7 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(qid, str):
                 raise ValueError("question_id harus berupa teks.")
             original = self.server.bank.get(qid)
-            if original.get('metadata',{}).get('generation_status')=='DEFERRED_CONCEPTUAL':
+            if original.get('metadata',{}).get('generation_status','ACTIVE')!='ACTIVE':
                 raise ConfigError(original['metadata']['reason'])
             configs, store = self.server.configs, self.server.store
             path = urlsplit(self.path).path

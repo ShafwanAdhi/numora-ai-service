@@ -1,0 +1,72 @@
+{
+  "question_id": "kategori-14-4-9",
+  "config_version": 1,
+  "original_hash": "00e5f09b5ce78715",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -4,
+        9
+      ],
+      "step": 0.5
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "15+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "20+2*t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "125-5*t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "125-5*t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [
+    "t!=7"
+  ],
+  "stem": "Garis p ∥ q (p di atas q) dipotong garis transversal t di titik A (pada p) dan titik B (pada q). Pada tiap titik potong, sudut bernomor 1 = kiri-atas, 2 = kanan-atas, 3 = kiri-bawah, 4 = kanan-bawah (misalnya ∠A1 dan ∠B1). Diketahui ∠A4 = (2x + {v0})° dan ∠B4 = (3x - {v1})°. Tentukan Benar atau Salah!",
+  "options": [
+    {
+      "id": "1",
+      "text": "x = {v2}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "∠A1 = {v3}°.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "∠B3 = {v4}°.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\n1: Benar. x = {v2}.\n2: Salah. ∠A1 = {v3}°.\n3: Benar. ∠B3 = {v4}°."
+}

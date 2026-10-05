@@ -1,0 +1,60 @@
+{
+  "question_id": "kategori-14-2-10",
+  "config_version": 1,
+  "original_hash": "a1a13c2e97d2142f",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -9,
+        20
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "10+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "100+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "80-t",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [
+    "t!=-10"
+  ],
+  "stem": "Pada segitiga PQR, ∠P = (x + {v0})° dan ∠Q = (2x)°. Sudut luar di titik R besarnya {v1}°. Tentukan Benar atau Salah!",
+  "options": [
+    {
+      "id": "1",
+      "text": "x = 30.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "∠R (sudut dalam) = {v2}°.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Segitiga PQR adalah segitiga siku-siku.",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\n1: Benar. x = 30.\n2: Benar. ∠R (sudut dalam) = {v2}°.\n3: Salah. Segitiga PQR adalah segitiga siku-siku."
+}

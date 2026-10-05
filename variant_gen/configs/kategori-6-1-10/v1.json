@@ -1,0 +1,94 @@
+{
+  "question_id": "kategori-6-1-10",
+  "config_version": 1,
+  "original_hash": "8af8611d65f88d9f",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "180*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "72*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "180*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "72*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "180*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah bus travel sekolah menempuh perjalanan antar kota untuk studi lapangan:\nJika bus melaju dengan kecepatan rata-rata {v1}km/jam, waktu tempuh yang dibutuhkan adalah 3 jam.\nKonsumsi bahan bakar bus tersebut adalah 1 liter untuk setiap jarak 12 km.\nTentukan BENAR atau SALAH untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Jarak antara kedua kota tersebut adalah {v2}km.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika bus ingin sampai dalam waktu 2,5 jam, kecepatan rata-rata yang diperlukan adalah {v3}km/jam.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Total bahan bakar yang dibutuhkan untuk perjalanan pergi-pulang (dua arah) adalah {v4} liter.",
+      "correct": false
+    }
+  ],
+  "explanation": "Jarak {v5} km; waktu 2,5 jam perlu {v6} km/jam. Pergi-pulang membutuhkan 2*{v7}/12={v8} liter, bukan {v9}."
+}

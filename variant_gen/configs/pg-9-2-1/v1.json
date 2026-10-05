@@ -1,0 +1,135 @@
+{
+  "question_id": "pg-9-2-1",
+  "config_version": 1,
+  "original_hash": "5c1b23e41d2a93a7",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "65000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "41000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "14000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "16000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "18000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "20000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "65000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "41000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "7000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "34000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "34000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "16000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus OSIS membeli perlengkapan dekorasi panggung untuk bazar seni sekolah. Pada pembelian pertama, pengurus membeli 3 gulung pita dan 5 pak balon seharga Rp{v1}. Pada pembelian kedua di toko yang sama, pengurus membeli 2 gulung pita dan 3 pak balon seharga Rp{v2}. Jika pengurus OSIS ingin membeli lagi 2 gulung pita dan 2 pak balon dengan membayar menggunakan selembar uang Rp{v3}, uang kembalian yang diterima pengurus adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{v4}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{v5}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Rp{v6}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rp{v7}",
+      "correct": false
+    }
+  ],
+  "explanation": "3x+5y={v8}, 2x+3y={v9}. Pita {v10}, balon {v11}. Dua masing-masing {v12}; kembalian {v13}-{v14}={v15}."
+}

@@ -1,0 +1,354 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-20-1-1,PG,C3,Seorang siswa ingin mengetahui jenis olahraga yang paling disukai siswa kelas IX. Pertanyaan yang paling tepat untuk memperoleh data tersebut adalah ....,"[""Apakah olahraga penting bagi kesehatan?"", ""Jenis olahraga apa yang paling kamu sukai?"", ""Mengapa olahraga harus dilakukan?"", ""Apakah kamu suka berolahraga setiap hari?""]",B,1
+pg-20-1-2,PG,C3,"Perhatikan data jumlah buku yang dibaca lima siswa dalam satu bulan berikut.
+Siswa | Jumlah Buku
+Andi | 4
+Budi | 6
+Citra | 3
+Deni | 7
+Eka | 5
+Jumlah seluruh buku yang dibaca kelima siswa tersebut adalah ....","[""20 buku"", ""23 buku"", ""25 buku"", ""27 buku""]",C,1
+pg-20-1-3,PG,C3,"Perhatikan data jumlah pengunjung perpustakaan berikut.
+Hari | Jumlah Pengunjung
+Senin | 20
+Selasa | 25
+Rabu | 30
+Kamis | 25
+Jumat | 40
+Berdasarkan data tersebut, hari dengan jumlah pengunjung terbanyak adalah ....","[""Senin"", ""Selasa"", ""Rabu"", ""Jumat""]",D,1
+pg-20-1-4,PG,C3,"Nilai ulangan Matematika lima siswa adalah 70, 80, 75, 85, dan 90. Rata-rata nilai tersebut adalah ....","[""75"", ""80"", ""85"", ""90""]",B,1
+pg-20-1-5,PG,C3,"Perhatikan data jumlah saudara kandung siswa berikut.
+1, 2, 2, 3, 1, 2, 4, 3, 2, 1
+Modus dari data tersebut adalah ....","[""2"", ""3"", ""4"", ""1""]",A,1
+mcma-20-1-6,MCMA,C3,Seorang guru ingin mengetahui kebiasaan siswa menggunakan internet untuk belajar. Pilihlah semua pertanyaan yang sesuai dengan tujuan tersebut!,"[""Berapa lama kamu menggunakan internet untuk belajar setiap hari?"", ""Apakah kamu menggunakan internet untuk belajar?"", ""Siapa penemu internet?"", ""Aplikasi apa yang sering kamu gunakan untuk belajar?""]","A,B,D",1
+mcma-20-1-7,MCMA,C3,"Perhatikan data pilihan ekstrakurikuler 50 siswa berikut.
+Ekstrakurikuler | Jumlah Siswa
+Basket | 15
+Futsal | 20
+Pramuka | 10
+PMR | 5
+Pilihlah semua pernyataan yang benar!","[""Futsal memiliki jumlah peminat terbanyak."", ""Jumlah peminat basket dan PMR adalah 20 siswa."", ""Peminat Pramuka dua kali peminat PMR."", ""Peminat PMR sama dengan peminat Basket.""]","A,B,C",1
+mcma-20-1-8,MCMA,C3,"Perhatikan data penjualan minuman selama lima hari.
+Hari | Penjualan
+Senin | 30
+Selasa | 25
+Rabu | 40
+Kamis | 35
+Jumat | 50
+Pilihlah semua pernyataan yang benar!","[""Penjualan tertinggi terjadi pada Jumat."", ""Penjualan Rabu lebih banyak daripada Selasa."", ""Penjualan Kamis lebih sedikit daripada Senin."", ""Selisih penjualan Jumat dan Selasa adalah 25.""]","A,B,D",1
+kategori-20-1-9,KATEGORI,C3,Tentukan kategori data yang diperoleh dari pertanyaan berikut!,"[""Berapa jam kamu belajar setiap hari?"", ""Apa mata pelajaran yang paling kamu sukai?"", ""Berapa jumlah saudara kandungmu?""]","1,3",1
+kategori-20-1-10,KATEGORI,C3,Perhatikan pernyataan mengenai penyajian data berikut!,"[""Diagram batang dapat digunakan untuk membandingkan jumlah beberapa kategori."", ""Tabel tidak dapat digunakan untuk menyajikan data."", ""Diagram lingkaran dapat digunakan untuk menunjukkan bagian dari keseluruhan data.""]","1,3",1
+pg-20-2-1,PG,C3 & C4,Seorang peneliti ingin mengetahui alasan siswa menggunakan sepeda motor untuk pergi ke sekolah. Pertanyaan yang paling tepat adalah ....,"[""Apakah kamu memiliki sepeda motor?"", ""Mengapa kamu memilih menggunakan sepeda motor ke sekolah?"", ""Apa merek sepeda motor yang kamu gunakan?"", ""Berapa harga sepeda motor yang digunakan?""]",B,1
+pg-20-2-2,PG,C3 & C4,"Nilai ulangan delapan siswa adalah:
+60, 70, 75, 80, 80, 85, 90, 100
+Median data tersebut adalah ....","[""75"", ""77,5"", ""80"", ""85""]",C,1
+pg-20-2-3,PG,C3 & C4,"Jumlah siswa yang mengikuti kegiatan olahraga selama tiga bulan adalah:
+Bulan | Jumlah Siswa
+Januari | 40
+Februari | 50
+Maret | 60
+Persentase kenaikan jumlah siswa dari Januari ke Maret adalah ....","[""20%"", ""25%"", ""40%"", ""50%""]",D,1
+pg-20-2-4,PG,C3 & C4,"Hasil survei terhadap 200 siswa mengenai transportasi ke sekolah ditampilkan sebagai berikut.
+Transportasi | Persentase
+Sepeda | 20%
+Bus | 30%
+Motor | 40%
+Jalan kaki | 10%
+Banyak siswa yang menggunakan motor adalah ....","[""60 siswa"", ""70 siswa"", ""80 siswa"", ""90 siswa""]",C,1
+pg-20-2-5,PG,C3 & C4,"Rata-rata nilai lima siswa adalah 78. Empat nilai yang diketahui adalah 70, 75, 80, dan 85. Nilai siswa kelima adalah ....","[""75"", ""78"", ""79"", ""80""]",D,1
+mcma-20-2-6,MCMA,C3 & C4,"Perhatikan data waktu belajar lima siswa berikut.
+Siswa | Waktu Belajar
+A | 1 jam
+B | 2 jam
+C | 3 jam
+D | 2 jam
+E | 4 jam
+Pilihlah semua pernyataan yang benar!","[""Rata-rata waktu belajar adalah 2,4 jam."", ""Modus data adalah 2 jam."", ""Median data adalah 3 jam."", ""Selisih waktu belajar terlama dan tersingkat adalah 3 jam.""]","A,B,D",1
+mcma-20-2-7,MCMA,C3 & C4,Seorang siswa ingin membandingkan jumlah siswa yang memilih lima jenis ekstrakurikuler. Pilih semua bentuk penyajian data yang tepat!,"[""Diagram batang."", ""Diagram lingkaran."", ""Tabel."", ""Paragraf tanpa angka.""]","A,B,C",1
+mcma-20-2-8,MCMA,C3 & C4,"Perhatikan data penggunaan internet untuk belajar berikut.
+Durasi | Banyak Siswa
+Kurang dari 1 jam | 5
+1–2 jam | 15
+2–3 jam | 20
+Lebih dari 3 jam | 10
+Pilihlah semua pernyataan yang benar!","[""Kelompok 2–3 jam memiliki jumlah siswa terbanyak."", ""Jumlah seluruh siswa adalah 50."", ""Siswa yang belajar menggunakan internet lebih dari 3 jam berjumlah 20%."", ""Kelompok kurang dari 1 jam merupakan kelompok terbesar.""]","A,B,C",1
+kategori-20-2-9,KATEGORI,C3 & C4,"Perhatikan data pengunjung perpustakaan berikut.
+Hari | Pengunjung
+Senin | 30
+Selasa | 45
+Rabu | 40
+Kamis | 55
+Jumat | 30
+Tentukan Benar atau Salah untuk setiap pernyataan!","[""Pengunjung terbanyak terjadi pada Kamis."", ""Selasa memiliki pengunjung lebih banyak daripada Rabu."", ""Selisih pengunjung Kamis dan Jumat adalah 25."", ""Rata-rata pengunjung per hari adalah 40.""]","1,2,3,4",1
+kategori-20-2-10,KATEGORI,C3 & C4,"Tujuan penelitian adalah mengetahui kebiasaan siswa membawa bekal ke sekolah.
+Tentukan apakah setiap pertanyaan sesuai dengan tujuan penelitian!","[""Berapa kali dalam seminggu kamu membawa bekal?"", ""Apa makanan favoritmu?"", ""Apakah kamu biasanya membawa bekal ke sekolah?"", ""Berapa uang saku yang kamu terima setiap hari?""]","1,3",1
+pg-20-3-1,PG,C4,"Sebuah kelas melakukan survei terhadap 40 siswa mengenai waktu belajar di rumah.
+Waktu Belajar | Jumlah Siswa
+Kurang dari 1 jam | 8
+1–2 jam | 18
+2–3 jam | 10
+Lebih dari 3 jam | 4
+Kesimpulan yang paling tepat berdasarkan data tersebut adalah ....","[""Sebagian besar siswa belajar lebih dari 3 jam."", ""Kelompok siswa dengan waktu belajar 1–2 jam merupakan kelompok terbesar."", ""Semua siswa belajar minimal 2 jam."", ""Jumlah siswa yang belajar kurang dari 1 jam sama dengan yang belajar 2–3 jam.""]",B,1
+pg-20-3-2,PG,C4,"Jumlah siswa yang mengikuti program membaca selama empat bulan ditunjukkan dalam tabel berikut.
+Bulan | Jumlah Siswa
+Januari | 20
+Februari | 30
+Maret | 45
+April | 40
+Kesimpulan yang paling tepat berdasarkan data tersebut adalah ....","[""Jumlah peserta selalu meningkat setiap bulan."", ""Jumlah peserta selalu menurun setiap bulan."", ""Jumlah peserta meningkat sampai Maret kemudian menurun pada April."", ""Jumlah peserta tidak mengalami perubahan.""]",C,1
+pg-20-3-3,PG,C4,"Nilai lima siswa adalah 60, 70, 80, 90, dan 100. Guru menambahkan satu nilai baru sehingga rata-rata keenam siswa menjadi 85. Nilai baru tersebut adalah ....","[""100"", ""105"", ""110"", ""110""]",D,1
+pg-20-3-4,PG,C4,"Dalam survei terhadap 360 siswa mengenai kegiatan setelah sekolah diperoleh data berikut.
+Kegiatan | Persentase
+Olahraga | 40%
+Belajar | 25%
+Bermain | 20%
+Lainnya | 15%
+Jumlah siswa yang memilih belajar atau bermain adalah ....","[""144 siswa"", ""154 siswa"", ""162 siswa"", ""180 siswa""]",C,1
+pg-20-3-5,PG,C4,Seorang peneliti ingin mengetahui hubungan antara lama penggunaan media sosial dan waktu belajar siswa. Pertanyaan yang paling tepat digunakan adalah ....,"[""Apakah media sosial menarik bagi siswa?"", ""Apa aplikasi media sosial favorit siswa?"", ""Berapa lama kamu menggunakan media sosial dan berapa lama kamu belajar setiap hari?"", ""Mengapa media sosial banyak digunakan?""]",C,1
+mcma-20-3-6,MCMA,C4,"Perhatikan dua kelompok nilai berikut.
+Kelompok A: 70, 70, 80, 80, 90 Kelompok B: 60, 75, 80, 85, 100
+Pilihlah semua pernyataan yang benar!","[""Rata-rata kedua kelompok sama."", ""Median kedua kelompok sama."", ""Jangkauan Kelompok B lebih besar daripada Kelompok A."", ""Nilai tertinggi Kelompok B lebih besar daripada Kelompok A.""]","B,C,D",1
+mcma-20-3-7,MCMA,C4,"Hasil survei terhadap 100 siswa mengenai transportasi ke sekolah adalah:
+Transportasi | Jumlah
+Jalan kaki | 10
+Sepeda | 20
+Motor | 50
+Angkutan umum | 20
+Pilihlah semua pernyataan yang benar!","[""Setengah siswa menggunakan motor."", ""Sepeda dan angkutan umum digunakan oleh jumlah siswa yang sama."", ""Siswa yang tidak menggunakan motor berjumlah 50 orang."", ""Jalan kaki merupakan pilihan kedua terbanyak.""]","A,B,C",1
+mcma-20-3-8,MCMA,C4,Sebuah penelitian bertujuan mengetahui kepuasan siswa terhadap fasilitas perpustakaan. Pilihlah semua pertanyaan yang sesuai dengan tujuan tersebut!,"[""Seberapa puas kamu terhadap kebersihan perpustakaan?"", ""Seberapa puas kamu terhadap jumlah buku yang tersedia?"", ""Apa warna yang paling kamu sukai?"", ""Seberapa puas kamu terhadap kenyamanan tempat membaca?""]","A,B,D",1
+kategori-20-3-9,KATEGORI,C4,"Perhatikan data jenis bacaan yang dipilih oleh 100 siswa.
+Jenis Bacaan | Jumlah Siswa
+Novel | 24
+Komik | 36
+Buku Pelajaran | 20
+Majalah | 10
+Cerita Pendek | 10
+Tentukan Benar atau Salah untuk setiap pernyataan berikut!","[""Komik merupakan bacaan yang paling banyak dipilih."", ""Novel dipilih oleh 24% siswa."", ""Buku pelajaran dan novel memiliki selisih 4 siswa."", ""Majalah dan cerita pendek memiliki jumlah pemilih yang sama."", ""Jumlah seluruh responden adalah 100 siswa.""]","1,2,3,4,5",1
+kategori-20-3-10,KATEGORI,C4,"Perhatikan data penggunaan lima aplikasi belajar oleh 200 siswa.
+Aplikasi | Persentase
+A | 35%
+B | 25%
+C | 20%
+D | 15%
+E | 5%
+Tentukan Benar atau Salah untuk setiap pernyataan berikut!","[""Aplikasi A digunakan oleh 70 siswa."", ""Aplikasi B dan C digunakan oleh 90 siswa secara keseluruhan."", ""Aplikasi D digunakan oleh 30 siswa."", ""Aplikasi A digunakan tujuh kali lebih banyak daripada aplikasi E."", ""Aplikasi A, B, dan C secara keseluruhan digunakan oleh 80% siswa.""]","1,2,3,4,5",1
+pg-21-1-1,PG,C3,"Perhatikan data berikut.
+70, 75, 80, 85, 90
+Rata-rata dari data tersebut adalah ....","[""75"", ""78"", ""80"", ""85""]",C,1
+pg-21-1-2,PG,C3,"Perhatikan data berikut.
+6, 8, 7, 9, 10, 8, 5
+Median dari data tersebut adalah ....","[""7"", ""8"", ""9"", ""10""]",B,1
+pg-21-1-3,PG,C3,"Data jumlah buku yang dibaca siswa dalam satu bulan adalah:
+2, 3, 4, 3, 5, 3, 6
+Modus data tersebut adalah ....","[""2"", ""4"", ""5"", ""3""]",D,1
+pg-21-1-4,PG,C3,"Perhatikan data berikut.
+12, 15, 18, 20, 25
+Jangkauan data tersebut adalah ....","[""13"", ""15"", ""18"", ""25""]",A,1
+pg-21-1-5,PG,C3,"Nilai ulangan seorang siswa selama lima kali adalah:
+70, 80, 75, 85, 90
+Rata-rata nilai tersebut adalah ....","[""75"", ""78"", ""80"", ""85""]",C,1
+mcma-21-1-6,MCMA,C3,"Perhatikan data berikut.
+5, 7, 7, 8, 9, 10
+Pilihlah semua pernyataan yang benar!","[""Modus data adalah 7."", ""Nilai terbesar adalah 10."", ""Jangkauan data adalah 4."", ""Jangkauan data adalah 5.""]","A,B,D",1
+mcma-21-1-7,MCMA,C3,"Perhatikan data:
+60, 70, 70, 80, 90
+Pilih semua pernyataan yang benar!","[""Median data adalah 70."", ""Modus data adalah 80."", ""Rata-rata data adalah 74."", ""Jangkauan data adalah 20.""]","A,C",1
+mcma-21-1-8,MCMA,C3,"Perhatikan data berikut.
+4, 5, 5, 6, 7, 8
+Pilihlah semua pernyataan yang benar!","[""Modus data adalah 5."", ""Nilai terkecil adalah 4."", ""Jangkauan data adalah 4."", ""Median data adalah 7.""]","A,B,C",1
+kategori-21-1-9,KATEGORI,C3,"Perhatikan data:
+10, 12, 12, 14, 17
+Tentukan Benar atau Salah!","[""Modus data adalah 12."", ""Median data adalah 12."", ""Jangkauan data adalah 5."", ""Nilai terbesar adalah 17.""]","1,2,4",1
+kategori-21-1-10,KATEGORI,C3,"Perhatikan data:
+5, 6, 7, 7, 10
+Tentukan Benar atau Salah!","[""Modusnya adalah 7."", ""Mediannya adalah 8."", ""Jangkauannya adalah 5."", ""Rata-ratanya adalah 8.""]","1,3",1
+pg-21-2-1,PG,C3 & C4,"Data nilai:
+65, 70, 75, 80, 85, 90
+Median data tersebut adalah ....","[""75"", ""77"", ""77,5"", ""80""]",C,1
+pg-21-2-2,PG,C3 & C4,"Rata-rata dari lima bilangan adalah 72. Jika empat bilangan tersebut adalah 65, 70, 75, dan 80, bilangan kelima adalah ....","[""65"", ""68"", ""70"", ""70""]",D,1
+pg-21-2-3,PG,C3 & C4,"Data berikut memiliki rata-rata 80:
+70, 75, 80, 85, x
+Nilai x adalah ....","[""85"", ""90"", ""95"", ""100""]",B,1
+pg-21-2-4,PG,C3 & C4,"Perhatikan data berikut.
+12, 15, 18, 20, 25, 30
+Jangkauan data tersebut adalah ....","[""18"", ""20"", ""22"", ""25""]",A,1
+pg-21-2-5,PG,C3 & C4,"Data waktu belajar lima siswa adalah:
+1, 2, 2, 3, 7 jam
+Ukuran data yang paling dipengaruhi oleh nilai 7 adalah ....","[""Modus"", ""Median"", ""Mean"", ""Banyak data""]",C,1
+mcma-21-2-6,MCMA,C3 & C4,"Data:
+10, 12, 12, 14, 17
+Pilih semua pernyataan yang benar!","[""Mean data adalah 13."", ""Median data adalah 12."", ""Modus data adalah 14."", ""Range data adalah 7.""]","A,B,D",1
+mcma-21-2-7,MCMA,C3 & C4,"Perhatikan data:
+4, 6, 6, 8, 10, 14
+Pilih semua pernyataan yang benar!","[""Modus data adalah 6."", ""Median data adalah 6."", ""Jangkauan data adalah 10."", ""Nilai terbesar adalah 14.""]","A,C,D",1
+mcma-21-2-8,MCMA,C3 & C4,"Diketahui data:
+20, 25, 25, 30, 35
+Pilih semua pernyataan yang benar!","[""Mean data adalah 27."", ""Median data adalah 27."", ""Modus data adalah 25."", ""Range data adalah 20.""]","A,C",1
+kategori-21-2-9,KATEGORI,C3 & C4,"Data nilai:
+60, 70, 70, 80, 90, 90
+Tentukan Benar atau Salah!","[""Mean data adalah 76,67."", ""Data memiliki dua modus."", ""Median data adalah 80."", ""Range data adalah 30.""]","1,2,4",1
+kategori-21-2-10,KATEGORI,C3 & C4,"Data waktu tempuh siswa menuju sekolah:
+15, 20, 20, 25, 30
+Tentukan Benar atau Salah!","[""Mean data adalah 22 menit."", ""Median data adalah 22 menit."", ""Modus data adalah 20 menit."", ""Range data adalah 15 menit.""]","1,3,4",1
+pg-21-3-1,PG,C4,"Rata-rata nilai 6 siswa adalah 75. Setelah satu siswa yang memperoleh nilai 90 bergabung dalam kelompok tersebut, rata-rata menjadi 77.
+Nilai siswa yang bergabung adalah ....","[""85"", ""90"", ""89"", ""95""]",C,1
+pg-21-3-2,PG,C4,"Data nilai:
+60, 65, 70, 75, 80
+Jika setiap nilai ditambah 5, pernyataan yang benar adalah ....","[""Mean dan median tetap."", ""Mean dan median masing-masing bertambah 5."", ""Range bertambah 5."", ""Modus bertambah 10.""]",B,1
+pg-21-3-3,PG,C4,"Perhatikan dua kelompok data berikut.
+Kelompok A: 70, 70, 75, 80, 80 Kelompok B: 60, 70, 75, 80, 90
+Pernyataan yang tepat adalah ....","[""Kelompok A memiliki range lebih besar."", ""Kelompok A dan B memiliki range yang sama."", ""Kelompok A memiliki median lebih besar."", ""Kelompok B memiliki range lebih besar.""]",D,1
+pg-21-3-4,PG,C4,"Data berikut memiliki rata-rata 70:
+60, 65, 70, 75, x
+Jika nilai x diubah menjadi 90, rata-rata baru data tersebut adalah ....","[""74"", ""75"", ""76"", ""78""]",A,1
+pg-21-3-5,PG,C4,"Dua kelompok memiliki data berikut.
+Kelompok A: 70, 75, 75, 80, 80 Kelompok B: 60, 70, 80, 80, 90
+Pernyataan yang paling tepat adalah ....","[""Mean A lebih kecil daripada mean B."", ""Median A lebih kecil daripada median B."", ""Range B lebih besar daripada range A."", ""Modus A dan B berbeda.""]",C,1
+mcma-21-3-6,MCMA,C4,"Perhatikan data berikut.
+10, 15, 15, 20, 25
+Pilihlah semua pernyataan yang benar!","[""Mean data adalah 17."", ""Median data adalah 17."", ""Modus data adalah 15."", ""Range data adalah 15.""]","A,C,D",1
+mcma-21-3-7,MCMA,C4,"Data waktu belajar:
+1, 2, 2, 2, 3, 4
+Pilihlah semua pernyataan yang benar!","[""Modus data adalah 2 jam."", ""Median data adalah 2 jam."", ""Mean data adalah 2 jam."", ""Range data adalah 3 jam.""]","A,B,D",1
+mcma-21-3-8,MCMA,C4,"Perhatikan data berikut.
+50, 60, 60, 70, 80
+Kemudian nilai 50 diganti menjadi 90.
+Pilihlah semua pernyataan yang benar!","[""Median data tetap 60."", ""Modus data berubah."", ""Range data bertambah."", ""Jumlah data bertambah.""]","A,C",1
+kategori-21-3-9,KATEGORI,C4,"Perhatikan data nilai berikut.
+65, 70, 70, 75, 80, 80, 80
+Tentukan Benar atau Salah!","[""Modus data adalah 80."", ""Median data adalah 75."", ""Jangkauan data adalah 20."", ""Mean data adalah 75,71.""]","1,2,4",1
+kategori-21-3-10,KATEGORI,C4,"Dua kelompok siswa memperoleh data nilai sebagai berikut.
+Kelompok A: 60, 70, 70, 80, 90 Kelompok B: 50, 70, 80, 80, 100
+Tentukan Benar atau Salah berdasarkan data tersebut!","[""Mean Kelompok A adalah 74."", ""Mean Kelompok B adalah 74."", ""Median Kelompok B adalah 80."", ""Range Kelompok A lebih besar daripada Kelompok B.""]","1,3",1
+pg-22-1-1,PG,C3,"Data nilai kelompok A: 70, 75, 80, 85, 90. Data nilai kelompok B: 65, 75, 80, 85, 95.
+Perbandingan mean kedua kelompok tersebut adalah ....","[""Mean A lebih besar"", ""Mean B lebih besar"", ""Mean A dan B sama"", ""Tidak dapat ditentukan""]",B,1
+pg-22-1-2,PG,C3,"Perhatikan data berikut.
+Kelompok A: 5, 6, 7, 8, 9
+Kelompok B: 3, 6, 7, 8, 11
+Kelompok yang memiliki jangkauan lebih besar adalah ....","[""Kelompok A"", ""Keduanya sama"", ""Kelompok B"", ""Tidak dapat ditentukan""]",C,1
+pg-22-1-3,PG,C3,"Data nilai:
+Kelompok A: 70, 70, 75, 80, 80
+Kelompok B: 60, 70, 75, 80, 90
+Pernyataan yang tepat adalah ....","[""Median kedua kelompok sama"", ""Median A lebih besar"", ""Median B lebih besar"", ""Mean A lebih besar daripada mean B""]",A,1
+pg-22-1-4,PG,C3,"Kelompok A memiliki data 10, 12, 14, 16, 18. Kelompok B memiliki data 8, 12, 14, 16, 20.
+Ukuran penyebaran yang dapat langsung dibandingkan untuk melihat kelompok yang datanya lebih menyebar adalah ....","[""Mean"", ""Median"", ""Modus"", ""Jangkauan""]",D,1
+pg-22-1-5,PG,C3,"Perhatikan data berikut.
+Kelas A: 60, 70, 70, 80, 80
+Kelas B: 60, 70, 75, 80, 85
+Pernyataan yang benar adalah ....","[""Mean A lebih besar"", ""Mean B lebih besar"", ""Mean keduanya sama"", ""Median A lebih besar""]",B,1
+mcma-22-1-6,MCMA,C3,"Perhatikan data:
+Kelompok A: 4, 5, 5, 6, 10
+Kelompok B: 4, 5, 6, 7, 8
+Pilih semua pernyataan yang benar.","[""Mean A lebih besar daripada mean B."", ""Median A lebih kecil daripada median B."", ""Jangkauan A lebih kecil daripada jangkauan B."", ""Jangkauan A lebih besar daripada jangkauan B.""]","A,B,D",1
+mcma-22-1-7,MCMA,C3,"Data:
+Kelompok A: 60, 70, 70, 80, 90
+Kelompok B: 60, 70, 80, 80, 90
+Pilih semua pernyataan yang benar.","[""Mean A dan B sama."", ""Median A lebih besar daripada median B."", ""Jangkauan A dan B sama."", ""Modus A lebih besar daripada modus B.""]","A,C",1
+mcma-22-1-8,MCMA,C3,"Data:
+Kelompok A: 5, 5, 6, 7, 7
+Kelompok B: 4, 5, 6, 7, 8
+Pilih semua pernyataan yang benar.","[""Median kedua kelompok sama."", ""Jangkauan B lebih besar daripada A."", ""Modus A tidak ada."", ""Mean A dan B sama.""]","A,B,D",1
+kategori-22-1-9,KATEGORI,C3,"Perhatikan data:
+Kelompok A: 10, 12, 14, 16, 18
+Kelompok B: 8, 12, 14, 16, 20
+Tentukan benar atau salah.","[""Mean kedua kelompok sama."", ""Median kedua kelompok sama."", ""Jangkauan kelompok A lebih besar."", ""Jangkauan kelompok B adalah 12.""]","1,2,4",1
+kategori-22-1-10,KATEGORI,C3,"Data:
+Kelompok A: 20, 25, 30, 35, 40
+Kelompok B: 15, 25, 30, 35, 45","[""Mean A dan B sama."", ""Median A lebih besar daripada B."", ""Jangkauan B lebih besar daripada A."", ""Jangkauan A adalah 30.""]","1,3",1
+pg-22-2-1,PG,C3 & C4,"Data:
+Kelompok A: 65, 70, 75, 80, 85
+Kelompok B: 60, 70, 75, 80, 90
+Kesimpulan yang tepat adalah ....","[""Mean A lebih besar dan jangkauan A lebih besar"", ""Mean B lebih besar dan jangkauan B lebih kecil"", ""Mean kedua kelompok sama, tetapi jangkauan B lebih besar"", ""Mean dan jangkauan kedua kelompok sama""]",C,1
+pg-22-2-2,PG,C3 & C4,"Kelompok A memiliki data 70, 75, 80, 85, 90. Kelompok B memiliki data 60, 70, 80, 90, 100.
+Jika dibandingkan berdasarkan mean dan jangkauan, maka ....","[""Mean kedua kelompok sama, tetapi jangkauan B lebih besar"", ""Mean A lebih besar dan jangkauan B lebih kecil"", ""Mean B lebih besar dan jangkauan A lebih besar"", ""Mean dan jangkauan keduanya sama""]",A,1
+pg-22-2-3,PG,C3 & C4,"Perhatikan data:
+Kelompok A: 10, 10, 10, 20, 50
+Kelompok B: 18, 19, 20, 21, 22
+Ukuran pemusatan yang paling tepat untuk menunjukkan nilai tengah kedua kelompok adalah ....","[""Mean"", ""Modus"", ""Jangkauan"", ""Median""]",D,1
+pg-22-2-4,PG,C3 & C4,"Data nilai dua kelompok:
+A: 72, 74, 76, 78, 80
+B: 60, 70, 76, 82, 92
+Pernyataan yang benar adalah ....","[""Mean A lebih besar"", ""Mean kedua kelompok sama, tetapi B lebih menyebar"", ""Mean B lebih kecil"", ""Kedua kelompok memiliki jangkauan yang sama""]",B,1
+pg-22-2-5,PG,C3 & C4,"Kelompok A memiliki nilai: 70, 72, 74, 76, 78. Kelompok B memiliki nilai: 60, 68, 74, 80, 88.
+Jika guru ingin memilih kelompok yang memiliki nilai lebih konsisten, kelompok yang dipilih adalah ....","[""Kelompok B karena mean lebih besar"", ""Kelompok B karena nilai maksimum lebih tinggi"", ""Kelompok A karena jangkauannya lebih kecil"", ""Kelompok A karena nilai maksimumnya lebih besar""]",C,1
+mcma-22-2-6,MCMA,C3 & C4,"Data:
+A: 50, 60, 70, 80, 90
+B: 60, 65, 70, 75, 80","[""Mean A dan B sama."", ""Median A dan B sama."", ""Jangkauan A lebih kecil daripada B."", ""Kelompok B memiliki data yang lebih rapat.""]","A,B,D",1
+mcma-22-2-7,MCMA,C3 & C4,"Data:
+A: 70, 70, 80, 80, 80
+B: 60, 75, 80, 85, 100","[""Median kedua kelompok sama."", ""Mean A lebih besar daripada B."", ""Jangkauan B lebih besar daripada A."", ""Modus B lebih besar daripada modus A.""]","A,C",1
+mcma-22-2-8,MCMA,C3 & C4,"Data:
+A: 12, 14, 16, 18, 20
+B: 8, 12, 16, 20, 24","[""Mean A dan B sama."", ""Median A dan B sama."", ""Jangkauan B lebih besar."", ""Mean B lebih besar daripada A.""]","A,B,C",1
+kategori-22-2-9,KATEGORI,C3 & C4,"A: 65, 70, 75, 80, 85
+B: 55, 65, 75, 85, 95","[""Mean kedua kelompok sama."", ""Median kedua kelompok sama."", ""Jangkauan A lebih besar."", ""Kelompok B memiliki penyebaran lebih besar.""]","1,2,4",1
+kategori-22-2-10,KATEGORI,C3 & C4,"A: 70, 72, 74, 76, 78
+B: 60, 70, 74, 78, 88","[""Median kedua kelompok sama."", ""Mean A lebih besar daripada B."", ""Jangkauan B lebih besar."", ""Kelompok A lebih menyebar daripada B.""]","1,3",1
+pg-22-3-1,PG,C4,"Dua kelas memiliki data nilai berikut:
+Kelas A: 70, 75, 75, 80, 80
+Kelas B: 60, 70, 75, 85, 90
+Kesimpulan yang tepat adalah ....","[""Mean A lebih besar dan data A lebih menyebar"", ""Mean B lebih besar dan data B lebih rapat"", ""Mean kedua kelas sama, tetapi data B lebih menyebar"", ""Mean dan penyebaran kedua kelas sama""]",C,1
+pg-22-3-2,PG,C4,"Kelompok A memiliki mean 75 dan jangkauan 10. Kelompok B memiliki mean 75 dan jangkauan 30.
+Pernyataan yang paling tepat adalah ....","[""Kelompok A memiliki nilai rata-rata lebih tinggi"", ""Kedua kelompok memiliki pusat data yang sama, tetapi B lebih menyebar"", ""Kelompok B memiliki pusat data lebih rendah"", ""Kedua kelompok memiliki penyebaran yang sama""]",B,1
+pg-22-3-3,PG,C4,"Perhatikan dua kelompok berikut.
+Kelompok A: 80, 80, 80, 80, 80
+Kelompok B: 60, 70, 80, 90, 100
+Kesimpulan yang benar adalah ....","[""Mean dan median sama, tetapi penyebaran B lebih besar"", ""Mean B lebih besar daripada A"", ""Median B lebih besar daripada A"", ""Penyebaran A lebih besar daripada B""]",A,1
+pg-22-3-4,PG,C4,"Data kelompok A adalah 70, 75, 80, 85, 90. Data kelompok B adalah 60, 75, 80, 85, 100.
+Jika kedua kelompok dibandingkan, pernyataan yang tepat adalah ....","[""Mean A lebih besar"", ""Median A lebih besar"", ""Jangkauan A lebih besar"", ""Mean dan median keduanya sama, tetapi B lebih menyebar""]",D,1
+pg-22-3-5,PG,C4,"Dua kelompok memiliki data:
+A: 68, 70, 72, 74, 76
+B: 50, 65, 72, 79, 94
+Guru ingin mengetahui kelompok yang memiliki nilai paling konsisten. Berdasarkan jangkauan, kelompok yang lebih konsisten adalah ....","[""B karena memiliki nilai maksimum lebih tinggi"", ""A karena memiliki jangkauan lebih kecil"", ""B karena memiliki mean lebih tinggi"", ""Keduanya sama karena memiliki median yang sama""]",B,1
+mcma-22-3-6,MCMA,C4,"Data:
+A: 10, 15, 20, 25, 30
+B: 10, 20, 20, 20, 30","[""Mean kedua kelompok sama."", ""Median A lebih besar daripada B."", ""Modus kelompok B adalah 20."", ""Jangkauan kedua kelompok sama.""]","A,C,D",1
+mcma-22-3-7,MCMA,C4,"Perhatikan data:
+Kelompok A: 60, 70, 80, 90, 100
+Kelompok B: 70, 75, 80, 85, 90","[""Mean kedua kelompok sama."", ""Median kedua kelompok sama."", ""Jangkauan B lebih besar daripada A."", ""Kelompok B memiliki penyebaran lebih besar.""]","A,B",1
+mcma-22-3-8,MCMA,C4,"Data:
+A: 40, 50, 60, 70, 80
+B: 50, 55, 60, 65, 70
+Pilih pernyataan yang benar.","[""Mean A lebih besar daripada mean B."", ""Median A lebih kecil daripada median B."", ""Jangkauan A lebih besar daripada B."", ""Kelompok B memiliki data yang lebih homogen berdasarkan jangkauan.""]","A,C,D",1
+kategori-22-3-9,KATEGORI,C4,"Diketahui:
+Kelompok A: 70, 70, 75, 80, 80
+Kelompok B: 60, 70, 75, 80, 90","[""Median kedua kelompok sama."", ""Mean kedua kelompok sama."", ""Jangkauan A lebih besar daripada B."", ""Kelompok B memiliki penyebaran lebih besar.""]","1,2,4",1
+kategori-22-3-10,KATEGORI,C4,"Perhatikan data:
+Kelompok A: 65, 70, 75, 80, 85
+Kelompok B: 55, 65, 75, 85, 95","[""Mean kedua kelompok sama."", ""Median A lebih besar daripada B."", ""Jangkauan B lebih besar daripada A."", ""Kelompok A memiliki penyebaran lebih besar.""]","1,3",1
+pg-23-1-1,PG,C3,Sebuah dadu bersisi enam dilempar satu kali. Peluang munculnya mata dadu 4 adalah ....,"[""1/2"", ""1/6"", ""1/4"", ""2/3""]",B,1
+pg-23-1-2,PG,C3,Sebuah koin dilempar satu kali. Peluang muncul sisi gambar adalah ....,"[""0"", ""1/4"", ""1/2"", ""1""]",C,1
+pg-23-1-3,PG,C3,Sebuah kantong berisi 3 bola merah dan 2 bola biru. Satu bola diambil secara acak. Peluang terambil bola merah adalah ....,"[""3/5"", ""2/5"", ""1/3"", ""1/2""]",A,1
+pg-23-1-4,PG,C3,Sebuah dadu dilempar sebanyak 20 kali dan muncul angka 6 sebanyak 4 kali. Frekuensi relatif muncul angka 6 adalah ....,"[""0,1"", ""0,15"", ""0,25"", ""0,2""]",D,1
+pg-23-1-5,PG,C3,Sebuah koin dilempar 50 kali. Sisi gambar muncul sebanyak 28 kali. Frekuensi relatif muncul gambar adalah ....,"[""0,44"", ""0,50"", ""0,56"", ""0,60""]",C,1
+mcma-23-1-6,MCMA,C3,Sebuah dadu dilempar satu kali.,"[""Peluang muncul angka genap adalah 1/2."", ""Peluang muncul angka 5 adalah 1/6."", ""Peluang muncul angka lebih dari 6 adalah 1/6."", ""Peluang muncul angka kurang dari 7 adalah 1.""]","A,B,D",1
+mcma-23-1-7,MCMA,C3,Sebuah kotak berisi 5 bola merah dan 5 bola putih.,"[""Peluang mengambil bola merah adalah 1/2."", ""Peluang mengambil bola putih adalah 1/3."", ""Peluang mengambil bola bukan merah adalah 1/2."", ""Peluang mengambil bola merah adalah 5/11.""]","A,C",1
+mcma-23-1-8,MCMA,C3,Sebuah dadu dilempar sebanyak 30 kali.,"[""Jika angka 2 muncul 6 kali, frekuensi relatifnya 0,2."", ""Jika angka 4 muncul 10 kali, frekuensi relatifnya 1/3."", ""Jika angka 6 muncul 15 kali, frekuensi relatifnya 0,4."", ""Jika angka 1 muncul 3 kali, frekuensi relatifnya 0,1.""]","A,B,D",1
+kategori-23-1-9,KATEGORI,C3,Sebuah dadu dilempar satu kali.,"[""Peluang muncul angka 1 adalah 1/6."", ""Peluang muncul angka genap adalah 1/2."", ""Peluang muncul angka 7 adalah 1/6."", ""Peluang muncul angka kurang dari 4 adalah 1/2.""]","1,2,4",1
+kategori-23-1-10,KATEGORI,C3,Sebuah koin dilempar 40 kali. Sisi gambar muncul 18 kali.,"[""Frekuensi relatif gambar adalah 0,45."", ""Frekuensi relatif gambar adalah 0,55."", ""Frekuensi relatif tidak selalu sama dengan peluang teoretis."", ""Sisi gambar pasti muncul tepat 20 kali.""]","1,3",1
+pg-23-2-1,PG,C3 & C4,"Sebuah kotak berisi 4 bola merah, 3 bola biru, dan 3 bola hijau. Satu bola diambil secara acak.
+Peluang terambil bola biru adalah ....","[""1/4"", ""3/10"", ""3/7"", ""1/2""]",B,1
+pg-23-2-2,PG,C3 & C4,"Sebuah spinner memiliki 8 bagian sama besar yang terdiri atas 3 bagian merah, 2 bagian biru, dan 3 bagian kuning.
+Peluang jarum berhenti pada warna kuning adalah ....","[""1/4"", ""3/5"", ""5/8"", ""3/8""]",D,1
+pg-23-2-3,PG,C3 & C4,"Sebuah dadu dilempar 60 kali. Berdasarkan peluang teoretis, perkiraan banyak kemunculan angka 3 adalah ....","[""10 kali"", ""12 kali"", ""15 kali"", ""20 kali""]",A,1
+pg-23-2-4,PG,C3 & C4,"Sebuah koin dilempar sebanyak 80 kali. Secara teoretis, perkiraan muncul sisi angka adalah ....","[""20 kali"", ""30 kali"", ""40 kali"", ""60 kali""]",C,1
+pg-23-2-5,PG,C3 & C4,"Dalam suatu percobaan, sebuah dadu dilempar 50 kali dan angka genap muncul 28 kali. Frekuensi relatif muncul angka genap adalah ....","[""0,48"", ""0,56"", ""0,60"", ""0,72""]",B,1
+mcma-23-2-6,MCMA,C3 & C4,Sebuah dadu dilempar sebanyak 100 kali.,"[""Jika angka 1 muncul 17 kali, frekuensi relatifnya 0,17."", ""Jika angka genap muncul 52 kali, frekuensi relatifnya 0,52."", ""Jika angka 6 muncul 25 kali, frekuensi relatifnya 0,20."", ""Jika angka 3 muncul 16 kali, frekuensi relatifnya 0,16.""]","A,B,D",1
+mcma-23-2-7,MCMA,C3 & C4,"Sebuah kantong berisi 2 bola merah, 3 bola biru, dan 5 bola hijau.","[""Peluang mengambil bola merah adalah 1/5."", ""Peluang mengambil bola biru adalah 1/2."", ""Peluang mengambil bola hijau adalah 1/2."", ""Peluang mengambil bola bukan hijau adalah 1/5.""]","A,C",1
+mcma-23-2-8,MCMA,C3 & C4,Sebuah dadu dilempar 120 kali.,"[""Perkiraan muncul angka 1 adalah 20 kali."", ""Perkiraan muncul angka 2 adalah 30 kali."", ""Perkiraan muncul angka genap adalah 60 kali."", ""Perkiraan muncul angka lebih dari 4 adalah 40 kali.""]","A,C,D",1
+kategori-23-2-9,KATEGORI,C3 & C4,Sebuah koin dilempar 200 kali. Sisi gambar muncul 108 kali.,"[""Frekuensi relatif gambar adalah 0,54."", ""Frekuensi relatif gambar adalah 0,46."", ""Frekuensi relatif dapat digunakan untuk menggambarkan hasil percobaan."", ""Peluang teoretis gambar adalah 0,54.""]","1,3",1
+kategori-23-2-10,KATEGORI,C3 & C4,Sebuah dadu dilempar sebanyak 60 kali dan angka genap muncul 31 kali.,"[""Frekuensi relatif angka genap adalah 31/60."", ""Nilai frekuensi relatifnya sekitar 0,52."", ""Peluang teoretis angka genap adalah 31/60."", ""Hasil percobaan dapat berbeda dari peluang teoretis.""]","1,2,4",1
+pg-23-3-1,PG,C4,"Sebuah dadu dilempar sebanyak 120 kali. Angka 6 muncul sebanyak 15 kali.
+Pernyataan yang tepat adalah ....","[""Frekuensi relatif lebih besar daripada peluang teoretis"", ""Frekuensi relatif sama dengan peluang teoretis"", ""Frekuensi relatif lebih kecil daripada peluang teoretis"", ""Tidak dapat dibandingkan""]",C,1
+pg-23-3-2,PG,C4,"Sebuah koin dilempar sebanyak 200 kali. Sisi gambar muncul 106 kali.
+Kesimpulan yang tepat adalah ....","[""Frekuensi relatif gambar mendekati peluang teoretis"", ""Frekuensi relatif gambar sama dengan 1"", ""Peluang teoretis gambar adalah 106/200"", ""Percobaan tersebut membuktikan gambar pasti muncul 106 kali""]",A,1
+pg-23-3-3,PG,C4,"Dalam suatu percobaan, sebuah dadu dilempar 300 kali. Angka ganjil muncul 156 kali.
+Frekuensi relatif angka ganjil adalah ....","[""0,48"", ""0,50"", ""0,54"", ""0,52""]",D,1
+pg-23-3-4,PG,C4,"Sebuah kotak berisi 4 bola merah dan 6 bola biru. Jika satu bola diambil secara acak sebanyak 100 kali dengan pengembalian, perkiraan banyak bola merah yang terambil adalah ....","[""20 kali"", ""40 kali"", ""50 kali"", ""60 kali""]",B,1
+pg-23-3-5,PG,C4,"Dalam percobaan melempar sebuah dadu 240 kali, angka 4 muncul 35 kali.
+Jika dibandingkan dengan peluang teoretis, frekuensi relatif angka 4 ....","[""jauh lebih besar daripada peluang teoretis"", ""sama dengan peluang teoretis"", ""lebih kecil daripada peluang teoretis"", ""tidak dapat dihitung""]",C,1
+mcma-23-3-6,MCMA,C4,Sebuah dadu dilempar 600 kali.,"[""Perkiraan muncul angka 1 adalah 100 kali."", ""Perkiraan muncul angka genap adalah 300 kali."", ""Perkiraan muncul angka 6 adalah 150 kali."", ""Perkiraan muncul angka lebih dari 4 adalah 200 kali.""]","A,B,D",1
+mcma-23-3-7,MCMA,C4,"Dalam percobaan koin 400 kali, diperoleh 212 kali gambar.","[""Frekuensi relatif gambar adalah 0,53."", ""Frekuensi relatif gambar adalah 0,47."", ""Hasil percobaan tersebut mendekati peluang teoretis 0,5."", ""Karena gambar muncul 212 kali, peluang teoretis gambar adalah 0,53.""]","A,C",1
+mcma-23-3-8,MCMA,C4,Sebuah dadu dilempar 500 kali. Hasil percobaan menunjukkan angka genap muncul 247 kali.,"[""Frekuensi relatif angka genap adalah 0,494."", ""Frekuensi relatif angka genap adalah 0,506."", ""Hasil percobaan mendekati peluang teoretis 0,5."", ""Frekuensi relatif diperoleh dari banyak kejadian dibagi banyak percobaan.""]","A,C,D",1
+kategori-23-3-9,KATEGORI,C4,Sebuah dadu dilempar 300 kali. Angka ganjil muncul 147 kali.,"[""Frekuensi relatifnya adalah 0,49."", ""Frekuensi relatif tersebut mendekati peluang teoretis 0,5."", ""Peluang teoretis angka ganjil adalah 0,49."", ""Hasil percobaan tidak harus sama persis dengan peluang teoretis.""]","1,2,4",1
+kategori-23-3-10,KATEGORI,C4,Sebuah kantong berisi 3 bola merah dan 7 bola putih. Bola diambil satu per satu dengan pengembalian sebanyak 200 kali. Bola merah muncul 58 kali.,"[""Peluang teoretis bola merah adalah 0,3."", ""Frekuensi relatif bola merah adalah 0,3."", ""Frekuensi relatif bola merah adalah 0,29."", ""Hasil percobaan harus selalu sama dengan peluang teoretis.""]","1,3",1

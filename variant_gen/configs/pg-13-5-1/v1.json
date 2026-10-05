@@ -1,0 +1,108 @@
+{
+  "question_id": "pg-13-5-1",
+  "config_version": 1,
+  "original_hash": "6c04f7f62203f314",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "rotation": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "rotation": {
+      "gen": "range",
+      "range": [
+        0,
+        2
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'Ani' if rotation==0 else ('Budi' if rotation==1 else ('Cici'))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'Budi' if rotation==0 else ('Cici' if rotation==1 else ('Ani'))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'Cici' if rotation==0 else ('Ani' if rotation==1 else ('Budi'))",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '('",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "40*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "28*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Jumlah n suku pertama suatu deret adalah S_n={v3}{v4}n^(2)+3n{v5}. Tiga siswa menentukan nilai U_5. {v0} menjawab {v6}. {v1} menjawab {v7} dengan langkah U_5=S_5-S_4. {v2} menjawab {v8}. Penilaian yang tepat terhadap jawaban ketiga siswa adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Hanya {v1} yang benar; {v0} menjawab S_5 dan {v2} menjawab S_4",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Hanya {v0} yang benar karena U_5 sama dengan jumlah lima suku pertama",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v0} dan {v2} benar, sedangkan {v1} salah",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Ketiganya salah",
+      "correct": false
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Benar. Hanya {v1} yang benar; {v0} menjawab S_5 dan {v2} menjawab S_4\nB: Salah. Hanya {v0} yang benar karena U_5 sama dengan jumlah lima suku pertama\nC: Salah. {v0} dan {v2} benar, sedangkan {v1} salah\nD: Salah. Ketiganya salah"
+}

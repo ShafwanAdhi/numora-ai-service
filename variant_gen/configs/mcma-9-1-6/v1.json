@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-9-1-6",
+  "config_version": 1,
+  "original_hash": "5bbb85331a7112ab",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "71000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "81000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "8000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "13000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "55000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "71000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "81000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "8000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "13000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "55000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus perpustakaan sekolah membeli perlengkapan berupa buku tulis dan tempat pensil:\nPaket 1: 4 buku tulis dan 3 tempat pensil seharga Rp{v1}.\nPaket 2: 2 buku tulis dan 5 tempat pensil seharga Rp{v2}.\nManakah pernyataan berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Harga 1 buku tulis adalah Rp{v3}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Harga 1 tempat pensil adalah Rp{v4}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Selisih harga 1 tempat pensil dan 1 buku tulis adalah Rp{v5}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Total harga untuk 3 buku tulis dan 2 tempat pensil adalah Rp{v6}.",
+      "correct": false
+    }
+  ],
+  "explanation": "4x+3y={v7}, 2x+5y={v8}. Harga buku {v9}, tempat pensil {v10}, selisih {v11}. Tiga buku dan dua tempat pensil {v12}, bukan {v13}."
+}

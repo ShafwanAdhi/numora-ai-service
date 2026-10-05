@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-6-2-1",
+  "config_version": 1,
+  "original_hash": "fba4b21905ae1056",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "1.5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "300*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "21/10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "5/2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "14/5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "16/5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "1.5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "0.3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2.8*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola kantin kejujuran di SMP merencanakan pembuatan jus jeruk segar untuk dijual saat istirahat sekolah. Untuk membuat 12 gelas jus jeruk, dibutuhkan {v1} kg jeruk dan {v2} gram gula pasir. Pada hari Jumat, pengelola kantin berencana membuat 28 gelas jus jeruk dengan standar rasa yang sama. Selisih massa jeruk dan gula pasir yang dibutuhkan untuk membuat 28 gelas jus tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} kg",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4} kg",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v5} kg",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v6} kg",
+      "correct": false
+    }
+  ],
+  "explanation": "Selisih bahan = (28/12)*({v7}-{v8}) = {v9} kg."
+}

@@ -1,0 +1,124 @@
+{
+  "question_id": "pg-20-2-4",
+  "config_version": 1,
+  "original_hash": "3a8548f11f3082ee",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "n1": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n2": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n3": {
+      "gen": "derived",
+      "expr": "70*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n4": {
+      "gen": "derived",
+      "expr": "80*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n5": {
+      "gen": "derived",
+      "expr": "90*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "80*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Hasil survei terhadap {n1} siswa mengenai transportasi ke sekolah ditampilkan sebagai berikut.\nTransportasi | Persentase\nSepeda | 20%\nBus | 30%\nMotor | 40%\nJalan kaki | 10%\nBanyak siswa yang menggunakan motor adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{n2} siswa",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{n3} siswa",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{n4} siswa",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{n5} siswa",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah pengguna motor = 40% × {total} = {answer} siswa.",
+  "constraints": []
+}

@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-10-1-7",
+  "config_version": 1,
+  "original_hash": "29b8c4ba9af7e128",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus koperasi sekolah mencatat perubahan persediaan barang berupa p buah buku dan q buah pensil selama tiga hari berturut-turut:\nHari Senin: Menerima kiriman persediaan sebanyak 3(2p+{v1}q).\nHari Selasa: Menerima tambahan persediaan sebanyak 2(p-{v2}q).\nHari Rabu: Terjual kepada siswa sebanyak (4p-{v3}q).\nManakah pernyataan analisis berikut yang BENAR terkait catatan persediaan barang tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bentuk aljabar persediaan barang yang diterima pada hari Senin adalah 6p+{v4}q.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Total persediaan barang setelah hari Selasa (sebelum penjualan hari Rabu) adalah 8p+{v5}q.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Sisa persediaan barang pada akhir hari Rabu adalah 4p+{v6}q.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Koefisien q pada sisa persediaan barang di akhir hari Rabu adalah {v7}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Senin 6p+{v8}q; setelah Selasa 8p+{v9}q. Kurangi penjualan 4p-{v10}q: sisa 4p+{v11}q. Koefisien q {v12}, bukan {v13}."
+}

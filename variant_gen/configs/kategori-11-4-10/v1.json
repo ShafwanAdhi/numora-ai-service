@@ -1,0 +1,64 @@
+{
+  "question_id": "kategori-11-4-10",
+  "config_version": 1,
+  "original_hash": "d294b3cb9427b522",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "300*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "300*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "300*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4500*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Budi memodelkan biaya fotokopi Rp{v0} per lembar dengan f(x) = {v1}x, x banyak lembar yang difotokopi. Ia menggambar grafiknya sebagai garis lurus penuh yang melalui titik (0, 0) dan (1, {v2}). Tentukan Benar atau Salah untuk setiap penilaian berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Karena x banyak lembar (bilangan cacah), grafik yang tepat berupa titik-titik terpisah (diskrit).",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Grafik Budi sudah tepat karena rumus fungsinya linear sehingga grafiknya pasti garis lurus yang kontinu.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Biaya untuk 15 lembar adalah Rp{v3}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\n1: Benar. Karena x banyak lembar (bilangan cacah), grafik yang tepat berupa titik-titik terpisah (diskrit).\n2: Salah. Grafik Budi sudah tepat karena rumus fungsinya linear sehingga grafiknya pasti garis lurus yang kontinu.\n3: Benar. Biaya untuk 15 lembar adalah Rp{v3}."
+}

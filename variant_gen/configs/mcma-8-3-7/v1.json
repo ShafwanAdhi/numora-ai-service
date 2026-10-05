@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-8-3-7",
+  "config_version": 1,
+  "original_hash": "97af1be35537d937",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "-9*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menyelesaikan pertidaksamaan ({v1}−2x)/4≤(x−{v2})/(−2) melalui langkah-langkah pengerjaan sebagai berikut:\nLangkah 1: Mengalikan kedua ruas dengan −4 sehingga diperoleh −({v3}−2x)≥2(x−{v4})\nLangkah 2: −{v5}+2x≥2x−{v6}\nLangkah 3: 2x−2x≥−{v7}+{v8}⟹0≥−{v9}\nLangkah 4: Siswa menyimpulkan bahwa pertidaksamaan tersebut tidak memiliki penyelesaian (himpunan kosong).\nManakah pernyataan evaluasi berikut yang BENAR mengenai pengerjaan di atas? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Perubahan tanda pertidaksamaan pada Langkah 1 sudah benar karena kedua ruas dikalikan dengan bilangan negatif (−4).",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Penjabaran suku distributif pada Langkah 2 sudah tepat.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan 0≥−{v10} pada Langkah 3 bernilai BENAR untuk semua bilangan real x.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kesimpulan siswa pada Langkah 4 SALAH, seharusnya himpunan penyelesaiannya adalah seluruh bilangan real.",
+      "correct": true
+    }
+  ],
+  "explanation": "Mengalikan -4 membalik tanda, menjadi -{v11}+2x >= 2x-{v12}, lalu 0 >= {v13}. Pernyataan benar karena {k} positif; seluruh real memenuhi, bukan himpunan kosong."
+}

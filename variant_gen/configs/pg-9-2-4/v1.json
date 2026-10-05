@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-9-2-4",
+  "config_version": 1,
+  "original_hash": "c7e377f01be096db",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menganalisis grafik tarif sewa dua kendaraan operasional sekolah berdasarkan jarak tempuh x (dalam km) dan total biaya y (dalam puluhan ribu rupiah):\nKendaraan A: {v1}x−3y=−12\nKendaraan B: kx−6y=10\nAgar grafik tarif kedua kendaraan tersebut berbentuk dua garis sejajar (sistem persamaan tidak memiliki penyelesaian), nilai konstanta k yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "k={v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "k={v3}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "k={v4}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "k={v5}",
+      "correct": false
+    }
+  ],
+  "explanation": "Agar koefisien proporsional, k/{v6}=(-6)/(-3)=2; k={v7}. Konstanta -12 dan 10 tidak proporsional sehingga garis sejajar, bukan berhimpit."
+}

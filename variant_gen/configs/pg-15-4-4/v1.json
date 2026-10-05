@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-15-4-4",
+  "config_version": 1,
+  "original_hash": "3c0e398a9f557961",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "8/5",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "(8/5)*(2*k+1)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(16/5)*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "(16/5)*(k+1)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa setinggi {v0} m berdiri pada jarak {v1} m dari tiang lampu. Panjang bayangan siswa tersebut adalah {v2} m (bayangan berada di sisi yang menjauhi tiang). Tinggi tiang lampu adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} m",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v4} m",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v5} m",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v6} m",
+      "correct": false
+    }
+  ],
+  "explanation": "Segitiga tiang dan ujung bayangan sebangun dengan segitiga siswa dan bayangannya. Jarak tiang ke ujung bayangan adalah {v1} + {v2} m. Tinggi tiang = {v0} × ({v1} + {v2}) / {v2} = {v3} m.\nA: Benar. {v3} m\nB: Salah. {v4} m\nC: Salah. {v5} m\nD: Salah. {v6} m"
+}

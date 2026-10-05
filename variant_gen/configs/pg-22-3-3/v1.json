@@ -1,0 +1,183 @@
+{
+  "question_id": "pg-22-3-3",
+  "config_version": 1,
+  "original_hash": "ccf7dd7dc2dd844f",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "center": 80,
+    "gap": 10,
+    "shift": 0,
+    "skew": 0
+  },
+  "variables": {
+    "center": {
+      "gen": "range",
+      "range": [
+        20,
+        80
+      ],
+      "step": 1
+    },
+    "gap": {
+      "gen": "choice",
+      "values": [
+        5,
+        10,
+        15,
+        20
+      ]
+    },
+    "shift": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "skew": {
+      "gen": "range",
+      "range": [
+        -30,
+        30
+      ],
+      "step": 1
+    },
+    "a1": {
+      "gen": "derived",
+      "expr": "center+shift",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "a2": {
+      "gen": "derived",
+      "expr": "center+shift",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "a3": {
+      "gen": "derived",
+      "expr": "center+shift",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "a4": {
+      "gen": "derived",
+      "expr": "center+shift",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "a5": {
+      "gen": "derived",
+      "expr": "center+shift",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "b1": {
+      "gen": "derived",
+      "expr": "center-2*gap",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "b2": {
+      "gen": "derived",
+      "expr": "center-gap",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "b3": {
+      "gen": "derived",
+      "expr": "center",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "b4": {
+      "gen": "derived",
+      "expr": "center+gap",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "b5": {
+      "gen": "derived",
+      "expr": "center+2*gap+skew",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "amean": {
+      "gen": "derived",
+      "expr": "a1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "amedian": {
+      "gen": "derived",
+      "expr": "a1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "arange": {
+      "gen": "derived",
+      "expr": "0",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "bmean": {
+      "gen": "derived",
+      "expr": "(b1+b2+b3+b4+b5)/5",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "bmedian": {
+      "gen": "derived",
+      "expr": "b3",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "brange": {
+      "gen": "derived",
+      "expr": "b5-b1",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Perhatikan dua kelompok berikut.\nKelompok A: {a1}, {a2}, {a3}, {a4}, {a5}\nKelompok B: {b1}, {b2}, {b3}, {b4}, {b5}\nKesimpulan yang benar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Mean dan median sama, tetapi penyebaran B lebih besar",
+      "correct": "amean == bmean and amedian == bmedian and brange > arange"
+    },
+    {
+      "id": "B",
+      "text": "Mean B lebih besar daripada A",
+      "correct": "bmean > amean"
+    },
+    {
+      "id": "C",
+      "text": "Median B lebih besar daripada A",
+      "correct": "bmedian > amedian"
+    },
+    {
+      "id": "D",
+      "text": "Penyebaran A lebih besar daripada B",
+      "correct": "arange > brange"
+    }
+  ],
+  "explanation": "Mean A = {amean}, median A = {amedian}, jangkauan A = 0. Mean B = {bmean}, median B = {bmedian}, jangkauan B = {brange}. Data B terurut dan berbeda; mean dan median diperiksa terpisah.",
+  "constraints": [
+    "a1 >= 0",
+    "a1 <= 100",
+    "b1 >= 0",
+    "b1 <= 100",
+    "b2 >= 0",
+    "b2 <= 100",
+    "b3 >= 0",
+    "b3 <= 100",
+    "b4 >= 0",
+    "b4 <= 100",
+    "b5 >= 0",
+    "b5 <= 100",
+    "b5 > b4"
+  ]
+}

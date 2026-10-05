@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-11-2-7",
+  "config_version": 1,
+  "original_hash": "7fe5c69481164ba4",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui fungsi f(x)=x+{v0} dan g(x)=2x. Pilihlah pernyataan yang benar mengenai nilai fungsi komposisi berikut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "(f∘g)({v1})={v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "(f∘g)({v3})={v4}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "(g∘f)({v5})={v6}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "(g∘f)({v7})={v8}",
+      "correct": true
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Salah. (f∘g)({v1})={v2}\nB: Benar. (f∘g)({v3})={v4}\nC: Salah. (g∘f)({v5})={v6}\nD: Benar. (g∘f)({v7})={v8}"
+}

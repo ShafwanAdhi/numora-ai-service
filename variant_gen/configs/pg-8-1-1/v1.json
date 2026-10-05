@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-8-1-1",
+  "config_version": 1,
+  "original_hash": "6a43e076c8800f3c",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "200000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "floor(12.5*k)-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "floor(12.5*k)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "floor(12.5*k)+1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "floor(12.5*k)+2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "150000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "150000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "floor(12.5*k)",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia bazar sekolah memiliki anggaran tidak lebih dari Rp{v1} untuk membeli barang konsumsi. Mereka telah membeli minuman kemasan seharga Rp{v2} dan sisa uangnya akan digunakan untuk membeli beberapa kotak kue seharga Rp12.000 per kotak. Banyak kotak kue maksimum yang dapat dibeli oleh panitia bazar tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} kotak",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4} kotak",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v5} kotak",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v6} kotak",
+      "correct": false
+    }
+  ],
+  "explanation": "Sisa anggaran {v7} rupiah. Maksimum kotak = floor({v8}/12000) = {v9}."
+}

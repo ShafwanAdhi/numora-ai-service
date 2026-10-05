@@ -43,7 +43,8 @@ class TryoutTests(unittest.TestCase):
     def test_workspace_bank_isolation(self):
         from bank import load_workspace_bank
         self.assertEqual(len(OriginalBank(ROOT / 'data/q0_bank.csv').ids()), 120)
-        self.assertEqual(len(load_workspace_bank(ROOT / 'data/q0_bank.csv').ids()), 150)
+        workspace=load_workspace_bank(ROOT / 'data/q0_bank.csv')
+        self.assertEqual(len(workspace.ids()),sum(len(OriginalBank(p).ids()) for p in (ROOT/'data').rglob('q0_bank.csv')))
         self.assertEqual(len(load_workspace_bank(ROOT / 'data/tryout-1/q0_bank.csv').ids()), 30)
         with self.assertRaises(BankError):
             load_workspace_bank(ROOT / 'data/q0_bank.csv', [ROOT / 'data/q0_bank.csv'])

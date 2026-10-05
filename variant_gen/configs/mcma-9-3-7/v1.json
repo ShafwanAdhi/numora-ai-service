@@ -1,0 +1,129 @@
+{
+  "question_id": "mcma-9-3-7",
+  "config_version": 1,
+  "original_hash": "6e025719b1073742",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "130000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "140000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "1000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "75000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "130000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "140000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "1000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "75000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "30000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "24000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Siswa kelompok kewirausahaan sekolah mencatat hasil penjualan dua jenis kuliner pada bazar sekolah:\nPenjualan Hari I: 30 porsi Risol Mayo dan 20 porsi Cireng Rujak memperoleh pendapatan total Rp{v1}.\nPenjualan Hari II: 20 porsi Risol Mayo dan 40 porsi Cireng Rujak memperoleh pendapatan total Rp{v2}.\nManakah pernyataan analisis berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Harga jual 1 porsi Risol Mayo adalah Rp{v3} dan 1 porsi Cireng Rujak adalah Rp{v4}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Selisih harga jual antara 1 porsi Risol Mayo dan 1 porsi Cireng Rujak adalah Rp{v5}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika seorang pembeli memesan 15 porsi Risol Mayo dan 15 porsi Cireng Rujak, total tagihannya adalah Rp{v6}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pembelian 10 porsi Risol Mayo lebih mahal daripada pembelian 12 porsi Cireng Rujak.",
+      "correct": true
+    }
+  ],
+  "explanation": "30x+20y={v7}, 20x+40y={v8}. Mayo {v9}, cireng {v10}, selisih {v11}. Lima belas masing-masing {v12}; 10 mayo {v13} lebih mahal daripada 12 cireng {v14}."
+}

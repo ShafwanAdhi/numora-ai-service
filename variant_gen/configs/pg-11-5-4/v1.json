@@ -1,0 +1,141 @@
+{
+  "question_id": "pg-11-5-4",
+  "config_version": 1,
+  "original_hash": "078284f432e691fb",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'Nia dan Oki sama-sama salah karena rumus fungsinya f(x) = x^(2) - 1' if k==1 else 'Nia dan Oki sama-sama salah karena rumus fungsinya f(x) = '",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k==1 else k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k==1 else '(x^(2) - 1)'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Fungsi f dari A = {0, 1, 2, 3} dinyatakan dengan diagram panah: 0 dipetakan ke -{v3}, 1 ke {v4}, 2 ke {v5}, dan 3 ke {v6}. Dua siswa menyatakan rumus fungsinya. Nia: f(x) = {v7}x - {v8}. Oki: f(x) = {v9}x + {v10}. Penilaian yang tepat terhadap kedua pernyataan tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nia benar karena f(x) = {v11}x - {v12} memenuhi keempat pasangan pada diagram panah, sedangkan Oki salah karena f(0) = {v13}, bukan -{v3}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Oki benar karena f(1) = {v14} sesuai dengan diagram panah",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Nia dan Oki sama-sama benar karena gradien kedua rumus sama, yaitu {v15}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v0}{v1}{v2}",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Benar. Nia benar karena f(x) = {v11}x - {v12} memenuhi keempat pasangan pada diagram panah, sedangkan Oki salah karena f(0) = {v13}, bukan -{v3}\nB: Salah. Oki benar karena f(1) = {v14} sesuai dengan diagram panah\nC: Salah. Nia dan Oki sama-sama benar karena gradien kedua rumus sama, yaitu {v15}\nD: Salah. {v0}{v1}{v2}"
+}

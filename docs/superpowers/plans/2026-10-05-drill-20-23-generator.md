@@ -1,5 +1,8 @@
 # Drill Paket 1 Indikator 20–23 Implementation Plan
 
+> Arsip rancangan/rencana bertanggal; status dan checklist di bawah mencatat tahap saat dokumen ditulis. Untuk implementasi saat ini lihat [kondisi repo](../../audits/2026-10-05-repository-status.md) dan [panduan aktif](../../../readme.md).
+
+
 > **For agentic workers:** REQUIRED SUB-SKILL: gunakan superpowers:executing-plans untuk eksekusi inline setelah pengguna mereview plan. Checkbox mencatat langkah. Plan ini belum mengimplementasikan produk.
 
 **Goal:** Generator lokal indikator20–23 terhubung dari original sampai snapshot

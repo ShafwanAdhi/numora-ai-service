@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-6-2-9",
+  "config_version": 1,
+  "original_hash": "c65c362f9a4e6fed",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pembina Green Club sekolah merencanakan penanaman bibit pohon di sepanjang pagar belakang sekolah:\nData I: Untuk menanam {v1} bibit pohon dibutuhkan waktu 45 menit jika dikerjakan oleh 3 siswa.\nData II: Jarak antar bibit pohon ditetapkan 2 meter sepanjang pagar sekolah.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Dengan laju kerja yang sama, 3 siswa tersebut dapat menanam {v2} bibit pohon dalam waktu 75 menit.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika penanaman {v3} bibit pohon ingin diselesaikan dalam waktu 15 menit, banyak siswa yang dibutuhkan adalah 9 orang.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Hubungan antara banyak bibit pohon yang ditanam dan total waktu penanaman oleh jumlah siswa yang tetap merupakan perbandingan berbalik nilai.",
+      "correct": false
+    }
+  ],
+  "explanation": "Laju kelompok {v4}/45 pohon per menit. {v5} pohon perlu 75 menit; untuk {v6} pohon dalam 15 menit perlu 9 siswa. Waktu dan jumlah pohon senilai."
+}

@@ -1,0 +1,57 @@
+{
+  "question_id": "mcma-11-4-6",
+  "config_version": 1,
+  "original_hash": "abb2600e10bb4d49",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pilihlah semua relasi dari himpunan bilangan real ke himpunan bilangan real berikut yang merupakan fungsi!",
+  "options": [
+    {
+      "id": "A",
+      "text": "y = x^(2) - {v0}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "x = y^(2)",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "x = {v1}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "y = |x|",
+      "correct": true
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Benar. y = x^(2) - {v0}\nB: Salah. x = y^(2)\nC: Salah. x = {v1}\nD: Benar. y = |x|"
+}

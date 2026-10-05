@@ -1,5 +1,8 @@
 # Interface AI: paket dan varian dari database Numora
 
+> Arsip rancangan/rencana bertanggal; status dan checklist di bawah mencatat tahap saat dokumen ditulis. Untuk implementasi saat ini lihat [kondisi repo](../../audits/2026-10-05-repository-status.md) dan [panduan aktif](../../../readme.md).
+
+
 Status: IMPLEMENTED — dua tab sesuai permintaan pengguna; verifikasi DB live menunggu kredensial.
 
 ## Tujuan dan izin

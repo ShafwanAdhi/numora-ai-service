@@ -1,0 +1,118 @@
+{
+  "question_id": "kategori-6-1-9",
+  "config_version": 1,
+  "original_hash": "506a207b970ca9b5",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "48*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "48*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan dua tabel hubungan antara variabel x dan y berikut:\nTabel I\nx | 2 | 4 | 6\ny | {v1} | {v2} | {v3}\nTabel II\nx | 2 | 4 | 8\ny | {v4} | {v5} | {v6}\nTentukan BENAR atau SALAH untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Tabel I menunjukkan hubungan perbandingan senilai dengan konstanta perbandingan (y)/(x)={v7}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Tabel II menunjukkan hubungan perbandingan berbalik nilai dengan hasil kali x×y={v8}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Pada Tabel II, jika nilai x=12, maka nilai y adalah {v9}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Tabel I y/x={v10}; Tabel II xy={v11}. Saat x=12, y={v12}, bukan {v13}."
+}

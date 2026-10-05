@@ -1,0 +1,154 @@
+{
+  "question_id": "kategori-8-3-9",
+  "config_version": 1,
+  "original_hash": "4d36132c5a379035",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "-3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dua orang siswa, Fani dan Gina, mencoba menyelesaikan pertidaksamaan −2x+{v1}<{v2} dengan strategi berbeda:\nFani: Mengurangi {v3} di kedua ruas ⟹−2x<{v4}⟹x<−{v5}.\nGina: Menambahkan 2x di kedua ruas ⟹{v6}<{v7}+2x⟹−{v8}<2x⟹−{v9}<x⟹x>−{v10}.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Hasil penyelesaian Fani SALAH karena lupa membalik tanda pertidaksamaan saat membagi dengan −2.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Langkah penyelesaian Gina BENAR dan menghasilkan penyelesaian yang tepat, yaitu x>−{v11}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Nilai x=−{v12} memenuhi pertidaksamaan awal −2x+{v13}<{v14}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Fani lupa membalik tanda pembagian negatif. Gina benar: -2x < {v15} sehingga x > {v16}. Nilai x={v17} memberi ruas kiri {v18} < {v19}."
+}

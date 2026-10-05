@@ -1,0 +1,88 @@
+{
+  "question_id": "kategori-12-5-9",
+  "config_version": 1,
+  "original_hash": "e9d3c3819ff016cd",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "17*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "23*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "91*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "125*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dimas mempelajari barisan {v0}, {v1}, {v2}, {v3}, .... Tentukan Benar atau Salah untuk setiap kesimpulan Dimas berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Suku ke-15 barisan tersebut adalah {v4}.",
+      "correct": false
+    },
+    {
+      "id": "2",
+      "text": "Bilangan {v5} merupakan suku ke-21 barisan tersebut.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Setiap suku barisan tersebut bersisa {v6} jika dibagi {v7}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\n1: Salah. Suku ke-15 barisan tersebut adalah {v4}.\n2: Benar. Bilangan {v5} merupakan suku ke-21 barisan tersebut.\n3: Benar. Setiap suku barisan tersebut bersisa {v6} jika dibagi {v7}."
+}

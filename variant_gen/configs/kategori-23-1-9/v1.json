@@ -1,0 +1,66 @@
+{
+  "question_id": "kategori-23-1-9",
+  "config_version": 1,
+  "original_hash": "b03973c009cc79fb",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "limit": 4,
+    "face": 1
+  },
+  "variables": {
+    "limit": {
+      "gen": "range",
+      "range": [
+        2,
+        7
+      ],
+      "step": 1
+    },
+    "face": {
+      "gen": "range",
+      "range": [
+        1,
+        6
+      ],
+      "step": 1
+    },
+    "p": {
+      "gen": "derived",
+      "expr": "(limit-1)/6",
+      "fmt": "mixed",
+      "decimals": 2
+    },
+    "favorable": {
+      "gen": "derived",
+      "expr": "limit-1",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah dadu dilempar satu kali.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Peluang muncul angka {face} adalah 1/6.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Peluang muncul angka genap adalah 1/2.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Peluang muncul angka 7 adalah 1/6.",
+      "correct": false
+    },
+    {
+      "id": "4",
+      "text": "Peluang muncul angka kurang dari {limit} adalah {p}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Setiap muka dadu berpeluang 1/6; angka genap berpeluang 1/2; angka 7 mustahil. Ada {favorable} muka kurang dari {limit}, sehingga peluang {p}.",
+  "constraints": []
+}

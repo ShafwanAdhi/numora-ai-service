@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-6-2-2",
+  "config_version": 1,
+  "original_hash": "ab95515442b67099",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0.5,
+        2.5
+      ],
+      "step": 0.05
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "16*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Rombongan sepeda santai siswa SMP menempuh rute perjalanan kegiatan tengah semester dari sekolah menuju taman kota. Jika mengayuh dengan kecepatan rata-rata {v1}km/jam, rombongan akan sampai di lokasi dalam waktu 45menit. Agar rombongan dapat tiba di lokasi 15menit lebih cepat untuk mengikuti acara pembukaan tepat waktu, kecepatan rata-rata sepeda yang harus dikayuh adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2}km/jam",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3}km/jam",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4}km/jam",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v5}km/jam",
+      "correct": false
+    }
+  ],
+  "explanation": "Jarak = {v6}*45/60; waktu baru 30/60 jam. Kecepatan = {v7} km/jam."
+}

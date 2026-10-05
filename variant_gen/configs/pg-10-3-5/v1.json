@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-10-3-5",
+  "config_version": 1,
+  "original_hash": "174c388e438d740c",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "1.5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "1.5*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola fasilitas sekolah membandingkan ukuran keliling dua area di lingkungan sekolah:\nArea Kebun TOGA (Persegi): Panjang sisi s=(3x-{v1})m\nArea Lapangan Olahraga (Persegi Panjang): Panjang p=(4x+{v2})m dan lebar l=(2x-{v3})m\nBerdasarkan analisis kesetaraan aljabar keliling kedua area tersebut untuk nilai x>{v4}, kesimpulan yang BENAR adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kebun TOGA dan Lapangan Olahraga memiliki keliling yang selalu sama (ekuivalen) yaitu (12x-{v5})m untuk setiap nilai x",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kebun TOGA selalu memiliki keliling yang lebih panjang dari Lapangan Olahraga",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Lapangan Olahraga memiliki keliling yang lebih panjang sebesar {v6}meter",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Keliling kedua area hanya sama jika nilai x=0",
+      "correct": false
+    }
+  ],
+  "explanation": "Keliling persegi 4(3x-{v7})=12x-{v8}. Persegi panjang 2((4x+{v9})+(2x-{v10}))=12x-{v11}. Selalu sama pada domain x>{v12}."
+}

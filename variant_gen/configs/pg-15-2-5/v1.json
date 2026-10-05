@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-15-2-5",
+  "config_version": 1,
+  "original_hash": "725f0dbd569fecc1",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "20*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "50*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "125*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "100*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "80*k*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dua segitiga sebangun. Luas segitiga yang kecil adalah {v0} cm^(2). Sebuah sisi segitiga kecil berukuran {v1} cm dan sisi yang bersesuaian pada segitiga besar berukuran {v2} cm. Luas segitiga besar adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} cm^(2)",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4} cm^(2)",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v5} cm^(2)",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v6} cm^(2)",
+      "correct": false
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Salah. {v3} cm^(2)\nB: Benar. {v4} cm^(2)\nC: Salah. {v5} cm^(2)\nD: Salah. {v6} cm^(2)"
+}

@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-6-3-8",
+  "config_version": 1,
+  "original_hash": "81bb039fdbb299af",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "400*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "88*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "400*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "28*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "16*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "88*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "160000*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "200*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Denah lapangan basket sekolah digambar pada kertas bertakik dengan skala 1:{v1}. Panjang gambar pada denah adalah 7cm dan lebamya 4cm.\nManakah pernyataan analisis berikut yang BENAR mengenai ukuran sebenarnya dan perubahan skala denah tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Perbandingan panjang dan lebar lapangan sebenarnya sama dengan perbandingan pada denah, yaitu 7:4.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Keliling lapangan basket sebenarnya adalah {v2}meter.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Perbandingan luas lapangan pada denah terhadap luas lapangan sebenarnya adalah 1:{v3}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Jika skala denah diperbesar menjadi 1:{v4}, maka luas gambar denah yang baru menjadi 4 kali luas gambar denah awal.",
+      "correct": true
+    }
+  ],
+  "explanation": "Ukuran sebenarnya {v5} kali {v6} meter, keliling {v7}. Rasio panjang tetap 7:4; rasio luas 1:{v8}. Skala baru 1:{v9} menggandakan panjang gambar dan membuat luas empat kali."
+}

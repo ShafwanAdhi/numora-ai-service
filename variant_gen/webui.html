@@ -270,9 +270,9 @@
   function updateButtons() {
     $('catalog-controls').disabled = busy;
     $('workspace').disabled = busy || !data;
-    $('generate').disabled = !data?.config || dirty;
-    $('regen').disabled = !data?.config || !data?.history.length || dirty;
-    const deferred = data?.original.metadata?.generation_status === 'DEFERRED_CONCEPTUAL';
+    const deferred = !!data?.original.metadata?.generation_status && data.original.metadata.generation_status !== 'ACTIVE';
+    $('generate').disabled = !data?.config || dirty || deferred;
+    $('regen').disabled = !data?.config || !data?.history.length || dirty || deferred;
     ['lint','save','config-editor','config-version'].forEach(id => $(id).disabled = !!deferred);
     $('tryout-tools').hidden = $('activity').value !== 'TRYOUT';
     $('generate-package').disabled = busy || dirty || !$('package').value || !data;
@@ -305,6 +305,7 @@
       : `${classification.activity} · indikator ${classification.indicator} · level ${classification.source_level} · ${classification.package_id}`);
     if (record.seed) meta.push(`Seed ${record.seed} · varian v${record.variant_ver} · config v${record.config_ver}`);
     add(panel, 'p', meta.join(' | '), 'muted');
+    if (record.metadata?.source_number) add(panel,'p',`Nomor sumber: ${record.metadata.source_number} · ${record.metadata.generation_status}`,'muted');
     if (record.metadata?.reason) add(panel,'p',record.metadata.reason,'muted');
     (record.metadata?.notes || []).forEach(note => add(panel,'p',note,'muted'));
     if (record.original_hash !== data.original.original_hash) add(panel, 'p', 'Hasil historis ini dibuat dari original versi sebelumnya.', 'muted');
@@ -313,9 +314,12 @@
     record.options.forEach(option => {
       const correct = keys.has(option.id), row = add(panel, 'div', '', `option${correct ? ' correct' : ''}`);
       add(row, 'strong', `${option.id}.`); add(row, 'span', option.text);
-      add(row, 'small', record.format === 'PG' ? (correct ? 'Kunci' : '') : (correct ? 'Benar' : 'Salah'));
+      const category = record.answer_categories?.[option.id];
+      add(row, 'small', record.format === 'PG' ? (correct ? 'Kunci' : '') : (category || (correct ? 'Benar' : 'Salah')));
     });
-    add(panel, 'p', `Kunci: ${record.key}`, 'key');
+    add(panel, 'p', record.answer_categories
+      ? `Kategori: ${Object.entries(record.answer_categories).map(([id,label]) => `${id}: ${label}`).join('; ')}`
+      : `Kunci${record.metadata?.generation_status === 'HOLD_SOURCE' ? ' sumber (belum disahkan)' : ''}: ${record.key || 'Belum tersedia'}`, 'key');
     add(panel, 'strong', 'Pembahasan');
     add(panel, 'p', record.explanation || (record.seed ? 'Belum tersedia pada hasil lama. Regen untuk pembahasan terbaru.' : 'Belum tersedia di bank original.'), 'explanation');
     if (record.seed) {
@@ -351,7 +355,7 @@
     $('config-editor').value = data.config ? JSON.stringify(data.config, null, 2) : '';
     $('config-note').textContent = data.config ? `Simpan akan membuat v${data.latest_config_version + 1}.` : 'Belum ada config. Original tetap bisa dilihat.';
     $('lint-output').textContent = '';
-    message(data.original.metadata?.generation_status === 'DEFERRED_CONCEPTUAL' ? data.original.metadata.reason
+    message(data.original.metadata?.generation_status && data.original.metadata.generation_status !== 'ACTIVE' ? data.original.metadata.reason
       : (data.variant ? 'Hasil tersimpan ditampilkan. Generate pada seed yang sama memakai hasil ini.' : 'Original siap. Belum ada varian tersimpan untuk seed ini.'));
   }
   function discardChanges() {
@@ -388,13 +392,13 @@
       const items = pool.filter(q => q.format === format);
       if (!items.length) return;
       const group = document.createElement('optgroup'); group.label = format;
-      items.forEach(q => group.append(new Option(`${q.id}${q.metadata?.generation_status === 'DEFERRED_CONCEPTUAL' ? ' [ditunda]' : (q.has_config ? '' : ' [tanpa config]')} — ${q.stem.slice(0,65)}`, q.id)));
+      items.forEach(q => group.append(new Option(`${q.id}${q.metadata?.generation_status === 'HOLD_SOURCE' ? ' [review sumber]' : q.metadata?.generation_status === 'DEFERRED_CONCEPTUAL' ? ' [ditunda]' : (q.has_config ? '' : ' [tanpa config]')} — ${q.stem.slice(0,65)}`, q.id)));
       $('question').append(group);
     });
     $('question').value = pool.some(q => q.id === previous) ? previous : (pool.find(q => q.has_config)?.id || pool[0]?.id || '');
     $('catalog-note').textContent = `${pool.length} soal · ${pool.filter(q => q.has_config).length} memiliki config. ` + (tryout
       ? 'Paket > bab > soal. Soal konseptual ditandai ditunda; database Numora tidak digunakan.'
-      : 'Paket > indikator > level > soal. Setiap indikator: 5 level × 10 soal; level 4–5 Paket 1 belum tersedia.');
+      : `Paket > indikator > level > soal. ${groups.filter(g => !g.question_ids.length).length} kelompok katalog belum memiliki soal sumber.`);
     return pool.length;
   }
   async function filterQuestions() {

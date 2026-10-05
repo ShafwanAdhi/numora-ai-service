@@ -1,0 +1,282 @@
+{
+  "question_id": "pg-20-1-5",
+  "config_version": 1,
+  "original_hash": "94ac27a137359eb0",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1,
+    "t": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        0.5,
+        1,
+        1.5,
+        2
+      ]
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        -60,
+        60
+      ],
+      "step": 1
+    },
+    "x1": {
+      "gen": "derived",
+      "expr": "1*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x2": {
+      "gen": "derived",
+      "expr": "2*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x3": {
+      "gen": "derived",
+      "expr": "2*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x4": {
+      "gen": "derived",
+      "expr": "3*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x5": {
+      "gen": "derived",
+      "expr": "1*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x6": {
+      "gen": "derived",
+      "expr": "2*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x7": {
+      "gen": "derived",
+      "expr": "4*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x8": {
+      "gen": "derived",
+      "expr": "3*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x9": {
+      "gen": "derived",
+      "expr": "2*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "x10": {
+      "gen": "derived",
+      "expr": "1*k+t",
+      "fmt": "id",
+      "decimals": 2,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "xmean": {
+      "gen": "derived",
+      "expr": "(x1+x2+x3+x4+x5+x6+x7+x8+x9+x10)/10",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmedian": {
+      "gen": "derived",
+      "expr": "(x3+x6)/2",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xrange": {
+      "gen": "derived",
+      "expr": "x7-x1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmin": {
+      "gen": "derived",
+      "expr": "x1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmax": {
+      "gen": "derived",
+      "expr": "x7",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "xmode1": {
+      "gen": "derived",
+      "expr": "x2",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n18": {
+      "gen": "derived",
+      "expr": "1*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n19": {
+      "gen": "derived",
+      "expr": "2*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n20": {
+      "gen": "derived",
+      "expr": "2*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n21": {
+      "gen": "derived",
+      "expr": "3*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n22": {
+      "gen": "derived",
+      "expr": "1*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n23": {
+      "gen": "derived",
+      "expr": "2*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n24": {
+      "gen": "derived",
+      "expr": "4*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n25": {
+      "gen": "derived",
+      "expr": "3*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n26": {
+      "gen": "derived",
+      "expr": "2*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n27": {
+      "gen": "derived",
+      "expr": "1*k+t",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n28": {
+      "gen": "derived",
+      "expr": "xmode1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n29": {
+      "gen": "derived",
+      "expr": "xmode1+(1/1)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n30": {
+      "gen": "derived",
+      "expr": "xmode1+(2/1)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n31": {
+      "gen": "derived",
+      "expr": "xmode1+(-1/1)*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "sum": {
+      "gen": "derived",
+      "expr": "x1+x2+x3+x4+x5+x6+x7+x8+x9+x10",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Perhatikan data jumlah saudara kandung siswa berikut.\n{n18}, {n19}, {n20}, {n21}, {n22}, {n23}, {n24}, {n25}, {n26}, {n27}\nModus dari data tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{n28}",
+      "correct": "xmode1 == (xmode1)"
+    },
+    {
+      "id": "B",
+      "text": "{n29}",
+      "correct": "xmode1 == (xmode1+(1/1)*k)"
+    },
+    {
+      "id": "C",
+      "text": "{n30}",
+      "correct": "xmode1 == (xmode1+(2/1)*k)"
+    },
+    {
+      "id": "D",
+      "text": "{n31}",
+      "correct": "xmode1 == (xmode1+(-1/1)*k)"
+    }
+  ],
+  "explanation": "Jumlah data = {sum}. Mean = {xmean}; median = {xmedian}; minimum = {xmin}; maksimum = {xmax}; jangkauan = {xrange}. Modus: {xmode1}.",
+  "constraints": [
+    "x1 >= 0",
+    "x2 >= 0",
+    "x3 >= 0",
+    "x4 >= 0",
+    "x5 >= 0",
+    "x6 >= 0",
+    "x7 >= 0",
+    "x8 >= 0",
+    "x9 >= 0",
+    "x10 >= 0"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-6-3-4",
+  "config_version": 1,
+  "original_hash": "5caca2abff6181b5",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0.5,
+        2.5
+      ],
+      "step": 0.05
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "28*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "32*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "36*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "36*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Rani mengendarai sepeda menuju sekolah yang berjarak {v1}km. Biasanya ia mengayuh dengan kecepatan rata-rata {v2}km/jam sehingga tiba tepat waktu. Suatu hari, setelah menempuh {v3}km pertama dengan kecepatan normalnya, rantai sepeda Rani putus sehingga ia harus berhenti selama 10menit untuk memperbaikinya. Kecepatan rata-rata minimal yang harus dikayuh Rani untuk sisa perjalanan agar ia tetap tiba di sekolah pada waktu yang sama seperti biasanya adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v4}km/jam",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v5}km/jam",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v6}km/jam",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v7}km/jam",
+      "correct": true
+    }
+  ],
+  "explanation": "Waktu biasa {v8}/{v9}=0,5 jam. Tahap awal {v10}/{v11}=1/6 jam dan berhenti 1/6 jam; tersisa 1/6 jam untuk {v12} km, perlu {v13} km/jam."
+}

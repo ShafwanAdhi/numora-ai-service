@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-13-4-3",
+  "config_version": 1,
+  "original_hash": "b593d18a629bf096",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "14*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "46*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "62*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "126*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada deret geometri dengan rasio positif diketahui suku pertama {v0} dan S_3={v1}. Nilai S_5 adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v5}",
+      "correct": false
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. {v2}\nB: Salah. {v3}\nC: Benar. {v4}\nD: Salah. {v5}"
+}

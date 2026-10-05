@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-9-2-7",
+  "config_version": 1,
+  "original_hash": "0cdbd32db78ba839",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan tiga persamaan garis lurus berikut:\n(1) 3x−2y={v1}\n(2) 6x−4y={v2}\n(3) 3x−2y={v3}\nManakah pernyataan analisis berikut yang BENAR terkait hubungan persamaan-persamaan tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sistem persamaan yang dibentuk oleh Garis (1) dan Garis (2) memiliki tak hingga banyak penyelesaian.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Sistem persamaan yang dibentuk oleh Garis (1) dan Garis (3) tidak memiliki penyelesaian.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Garis (1) memotong sumbu-X di titik ({v4}, 0).",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Sistem persamaan yang dibentuk oleh Garis (2) dan Garis (3) memiliki tepat satu penyelesaian di titik origin (0, 0).",
+      "correct": false
+    }
+  ],
+  "explanation": "Garis 2 dua kali garis 1, berhimpit. Garis 3 sejajar garis 1 dengan konstanta berbeda. Intersep X garis 1 {v5}/3={v6}; pasangan sejajar tidak memiliki solusi tunggal."
+}

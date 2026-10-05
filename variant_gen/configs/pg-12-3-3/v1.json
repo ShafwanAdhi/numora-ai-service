@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-12-3-3",
+  "config_version": 1,
+  "original_hash": "86c43be2fa771862",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "47*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "43*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "39*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "17*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "23*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "26*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Barisan P: {v0}, {v1}, {v2}, ... dan barisan Q: {v3}, {v4}, {v5}, ... masing-masing terdiri dari 10 suku. Pada salah satu nomor suku yang sama, kedua barisan memiliki nilai yang sama. Nilai tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v6}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v7}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v8}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v9}",
+      "correct": false
+    }
+  ],
+  "explanation": "Untuk aritmetika, U_n=a+(n-1)b. Untuk geometri, U_n=a·r^(n-1). Periksa setiap klaim dengan rumus tersebut dan beda/rasio antarsuku.\nA: Salah. {v6}\nB: Salah. {v7}\nC: Benar. {v8}\nD: Salah. {v9}"
+}

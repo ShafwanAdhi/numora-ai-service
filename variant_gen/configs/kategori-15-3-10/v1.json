@@ -1,0 +1,64 @@
+{
+  "question_id": "kategori-15-3-10",
+  "config_version": 1,
+  "original_hash": "fd8c98c2fdeb29d2",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "40*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "50*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah taman berbentuk persegi panjang berukuran {v0} m × {v1} m. Anto berjalan dari sudut A ke sudut C melalui diagonal taman, sedangkan Budi berjalan dari A ke C melalui sisi-sisi taman (A ke B, kemudian B ke C). Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Anto berjalan sejauh {v2} m.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Budi berjalan {v3} m lebih jauh daripada Anto.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Jarak yang ditempuh Budi adalah 1,4 kali jarak yang ditempuh Anto.",
+      "correct": true
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\n1: Benar. Anto berjalan sejauh {v2} m.\n2: Salah. Budi berjalan {v3} m lebih jauh daripada Anto.\n3: Benar. Jarak yang ditempuh Budi adalah 1,4 kali jarak yang ditempuh Anto."
+}

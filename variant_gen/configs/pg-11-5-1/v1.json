@@ -1,0 +1,129 @@
+{
+  "question_id": "pg-11-5-1",
+  "config_version": 1,
+  "original_hash": "0373ef3dd0904a44",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Rina menyatakan bahwa relasi R = {({v0}, {v1}), ({v2}, {v3}), ({v4}, {v5}), ({v6}, {v7})} bukan fungsi karena bilangan {v8} muncul dua kali sebagai pasangan. Penilaian yang tepat terhadap pernyataan Rina adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat, karena satu anggota kodomain tidak boleh muncul dua kali",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kurang tepat, karena bilangan {v9} hanya muncul satu kali sebagai anggota domain",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kurang tepat, karena R merupakan fungsi: setiap anggota domain ({v10}, {v11}, {v12}, {v13}) memiliki tepat satu pasangan, dan anggota kodomain boleh muncul berulang",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Tepat, karena fungsi harus memetakan anggota domain ke bayangan yang berbeda-beda",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Salah. Tepat, karena satu anggota kodomain tidak boleh muncul dua kali\nB: Salah. Kurang tepat, karena bilangan {v9} hanya muncul satu kali sebagai anggota domain\nC: Benar. Kurang tepat, karena R merupakan fungsi: setiap anggota domain ({v10}, {v11}, {v12}, {v13}) memiliki tepat satu pasangan, dan anggota kodomain boleh muncul berulang\nD: Salah. Tepat, karena fungsi harus memetakan anggota domain ke bayangan yang berbeda-beda"
+}

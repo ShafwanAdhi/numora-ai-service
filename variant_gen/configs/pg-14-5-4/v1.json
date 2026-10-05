@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-14-5-4",
+  "config_version": 1,
+  "original_hash": "f97da0f90ac98754",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        60
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "10+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'Benar' if (max(60+t,70-t,50)<90) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'Benar' if (max(60+t,70-t,50)==90) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'Benar' if (max(60+t,70-t,50)>90) else 'Salah'",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": ["t!=-10", "t!=5", "t!=20"],
+  "stem": "Pada segitiga ABC, ∠A = (2x + {v0})°, ∠B = (3x - {v1})°, dan ∠C = (x + 25)°. Tono menyimpulkan bahwa segitiga ABC sama sisi karena ∠A = {v2}°. Penilaian yang tepat adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena salah satu sudutnya {v3}°.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena ketiga sudutnya berbeda dan semuanya lancip.",
+      "correct": "max(60+t,70-t,50)<90"
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena segitiga tersebut siku-siku.",
+      "correct": "max(60+t,70-t,50)==90"
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena segitiga tersebut tumpul.",
+      "correct": "max(60+t,70-t,50)>90"
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Salah. Benar, karena salah satu sudutnya {v3}°.\nB: {v4}. Salah, karena ketiga sudutnya berbeda dan semuanya lancip.\nC: {v5}. Salah, karena segitiga tersebut siku-siku.\nD: {v6}. Salah, karena segitiga tersebut tumpul."
+}

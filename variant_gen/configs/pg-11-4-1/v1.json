@@ -1,0 +1,165 @@
+{
+  "question_id": "pg-11-4-1",
+  "config_version": 1,
+  "original_hash": "f51560b36a346447",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan empat relasi dari A = {{v0}, {v1}, {v2}, {v3}} ke B = {a, b, c} berikut. P = {({v4}, a), ({v5}, b), ({v6}, b), ({v7}, c)}; Q = {({v8}, a), ({v9}, b), ({v10}, c)}; R = {({v11}, a), ({v12}, a), ({v13}, a), ({v14}, a)}; S = {({v15}, b), ({v16}, c), ({v17}, a), ({v18}, b)}. Relasi yang bukan merupakan fungsi dari A ke B adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Q, karena anggota A yaitu {v19} tidak memiliki pasangan",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "P dan R, karena ada anggota B yang dipasangkan dengan lebih dari satu anggota A",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Q dan S, karena ada anggota B yang tidak memiliki pasangan di A",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Tidak ada, karena keempat relasi merupakan fungsi",
+      "correct": false
+    }
+  ],
+  "explanation": "Fungsi memasangkan setiap anggota domain tepat sekali. Substitusikan input pada rumus; komposisi berarti f(g(x)), bukan penjumlahan.\nA: Benar. Q, karena anggota A yaitu {v19} tidak memiliki pasangan\nB: Salah. P dan R, karena ada anggota B yang dipasangkan dengan lebih dari satu anggota A\nC: Salah. Q dan S, karena ada anggota B yang tidak memiliki pasangan di A\nD: Salah. Tidak ada, karena keempat relasi merupakan fungsi"
+}

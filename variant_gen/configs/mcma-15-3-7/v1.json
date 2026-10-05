@@ -1,0 +1,69 @@
+{
+  "question_id": "mcma-15-3-7",
+  "config_version": 1,
+  "original_hash": "3dbc5bb2f87c46e8",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada segitiga ABC, titik D terletak pada AB dan titik E terletak pada AC sehingga DE sejajar BC. Diketahui AD = {v0} cm, DB = {v1} cm, dan DE = {v2} cm. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Segitiga ADE sebangun dengan segitiga ABC.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Panjang BC = {v3} cm.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Perbandingan AE : AC = 1 : 2.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Perbandingan luas segitiga ADE dan segitiga ABC adalah 2 : 3.",
+      "correct": false
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Benar. Segitiga ADE sebangun dengan segitiga ABC.\nB: Benar. Panjang BC = {v3} cm.\nC: Salah. Perbandingan AE : AC = 1 : 2.\nD: Salah. Perbandingan luas segitiga ADE dan segitiga ABC adalah 2 : 3."
+}

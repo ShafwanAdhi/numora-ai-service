@@ -1,0 +1,136 @@
+{
+  "question_id": "kategori-9-3-9",
+  "config_version": 1,
+  "original_hash": "056eb40ff1750c37",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tim olimpiade matematika sekolah menganalisis tiga jenis sistem persamaan linear dua variabel berdasarkan struktur koefisiennya:\nSistem A: 2x+3y={v1} dan 4x+6y={v2}\nSistem B: x-2y={v3} dan 2x-4y={v4}\nSistem C: x+y={v5} dan x-y={v6}\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Sistem A memiliki tak hingga banyak penyelesaian karena rasio koefisien dan konstantanya sama ((2)/(4)=(3)/(6)=({v7})/({v8})).",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Sistem B tidak memiliki penyelesaian karena grafik kedua garisnya sejajar ((1)/(2)=(-2)/(-4)≠({v9})/({v10})).",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Sistem C memiliki tepat satu penyelesaian, yaitu pasangan bilangan ({v11}, {v12}).",
+      "correct": true
+    }
+  ],
+  "explanation": "A mempunyai baris proporsional beserta ruas kanan, tak hingga solusi. B koefisien proporsional tetapi ruas kanan tidak, tanpa solusi. C: x+y={v13}, x-y={v14}, solusi ({v15},{v16})."
+}

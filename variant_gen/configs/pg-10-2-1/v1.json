@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-10-2-1",
+  "config_version": 1,
+  "original_hash": "585d64940af370e1",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "29000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "21000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "29000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "21000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "10000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "29000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus OSIS membeli perlengkapan administrasi untuk kegiatan bazar sekolah berupa 4 rim kertas kuarto seharga (3x+{v1}) rupiah per rim dan 3 pak spidol seharga (2x-{v2}) rupiah per pak. Saat pembayaran di kasir toko, pengurus mendapat potongan voucher diskon total sebesar (2x-{v3}) rupiah. Bentuk aljabar paling sederhana yang menyatakan total uang yang harus dibayarkan pengurus OSIS adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "16x+{v4}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "16x+{v5}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "18x+{v6}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "18x+{v7}",
+      "correct": false
+    }
+  ],
+  "explanation": "Total 4(3x+{v8})+3(2x-{v9})-(2x-{v10})=16x+{v11}."
+}

@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-15-1-2",
+  "config_version": 1,
+  "original_hash": "1fb5cd5337ad7cdd",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "17*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "16*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "32*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Segitiga PQR siku-siku di Q dengan PQ = {v0} cm dan PR = {v1} cm. Panjang QR adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} cm",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v3} cm",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4} cm",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Periksa a²+b²=c² pada segitiga siku-siku. Sisi bersesuaian pada bangun sebangun memiliki rasio sama; rasio luas adalah kuadrat rasio panjang. Samakan unit terlebih dahulu.\nA: Benar. {v2} cm\nB: Salah. {v3} cm\nC: Salah. {v4} cm\nD: Salah. {v5} cm"
+}

@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-13-5-5",
+  "config_version": 1,
+  "original_hash": "25be318fecf99fc7",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "95*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "90*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "100*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "105*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah yayasan menerima donasi Rp{v0} juta pada tahun pertama dan setiap tahun berikutnya donasi bertambah Rp{v1} juta dari tahun sebelumnya. Pengurus memprediksi total donasi 10 tahun pertama sudah melebihi Rp{v2} juta. Penilaian yang tepat terhadap prediksi tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat, karena total donasi 10 tahun pertama adalah Rp{v3} juta",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kurang tepat; total 10 tahun Rp{v4} juta dan baru melebihi Rp{v5} juta pada tahun ke-11",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kurang tepat; total 10 tahun Rp{v6} juta dan baru melebihi Rp{v7} juta pada tahun ke-12",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Tepat, karena total donasi 10 tahun pertama adalah Rp{v8} juta",
+      "correct": false
+    }
+  ],
+  "explanation": "Gunakan S_n=n[2a+(n-1)b]/2 untuk aritmetika, S_n=a(r^n-1)/(r-1) untuk geometri r≠1, dan U_n=S_n-S_(n-1).\nA: Salah. Tepat, karena total donasi 10 tahun pertama adalah Rp{v3} juta\nB: Benar. Kurang tepat; total 10 tahun Rp{v4} juta dan baru melebihi Rp{v5} juta pada tahun ke-11\nC: Salah. Kurang tepat; total 10 tahun Rp{v6} juta dan baru melebihi Rp{v7} juta pada tahun ke-12\nD: Salah. Tepat, karena total donasi 10 tahun pertama adalah Rp{v8} juta"
+}

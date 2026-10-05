@@ -1,0 +1,138 @@
+{
+  "question_id": "pg-14-5-5",
+  "config_version": 1,
+  "original_hash": "5daa9af9080b909a",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "t": 0,
+    "role": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "role": {
+      "gen": "range",
+      "range": [
+        0,
+        1
+      ],
+      "step": 1
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "120+t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "75+t/2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "45-t/2",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "60-t",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'Dina' if role==0 else 'Eko'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'Eko' if role==0 else 'Dina'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'Dina' if role==0 else 'Eko'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'Eko' if role==0 else 'Dina'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'Dina' if role==0 else 'Eko'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'Eko' if role==0 else 'Dina'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'Dina' if role==0 else 'Eko'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'Eko' if role==0 else 'Dina'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'Dina' if role==0 else 'Eko'",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'Eko' if role==0 else 'Dina'",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pada segitiga ABC, sudut luar di titik C besarnya {v0}° dan ∠A = ∠B + 30°. {v4} memperoleh ∠A = {v1}°, sedangkan {v5} memperoleh ∠A = {v2}° dengan menganggap ∠A + ∠B = {v3}°. Penilaian yang tepat adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v7} benar.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Keduanya benar.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v10} benar.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Keduanya salah.",
+      "correct": false
+    }
+  ],
+  "explanation": "Pada garis sejajar sudut sehadap/berseberangan sama besar; sudut sepihak berjumlah180°. Sudut dalam segitiga berjumlah180°; sudut luar adalah jumlah dua sudut dalam yang tidak berdekatan.\nA: Salah. {v7} benar.\nB: Salah. Keduanya benar.\nC: Benar. {v10} benar.\nD: Salah. Keduanya salah."
+}

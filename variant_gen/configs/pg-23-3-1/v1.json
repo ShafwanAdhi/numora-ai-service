@@ -1,0 +1,62 @@
+{
+  "question_id": "pg-23-3-1",
+  "config_version": 1,
+  "original_hash": "59bf7ab03dd1904d",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "trials": 120,
+    "observed": 15
+  },
+  "variables": {
+    "trials": {
+      "gen": "range",
+      "range": [
+        30,
+        360
+      ],
+      "step": 6
+    },
+    "observed": {
+      "gen": "range",
+      "range": [
+        0,
+        360
+      ],
+      "step": 1
+    },
+    "frequency": {
+      "gen": "derived",
+      "expr": "observed/trials",
+      "fmt": "mixed",
+      "decimals": 2
+    }
+  },
+  "stem": "Sebuah dadu dilempar sebanyak {trials} kali. Angka 6 muncul sebanyak {observed} kali.\nPernyataan yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Frekuensi relatif lebih besar daripada peluang teoretis",
+      "correct": "frequency > 1/6"
+    },
+    {
+      "id": "B",
+      "text": "Frekuensi relatif sama dengan peluang teoretis",
+      "correct": "frequency == 1/6"
+    },
+    {
+      "id": "C",
+      "text": "Frekuensi relatif lebih kecil daripada peluang teoretis",
+      "correct": "frequency < 1/6"
+    },
+    {
+      "id": "D",
+      "text": "Tidak dapat dibandingkan",
+      "correct": "False"
+    }
+  ],
+  "explanation": "Frekuensi relatif = {observed}/{trials} = {frequency}; bandingkan pecahan tepat tersebut dengan peluang teoretis 1/6.",
+  "constraints": [
+    "observed <= trials"
+  ]
+}

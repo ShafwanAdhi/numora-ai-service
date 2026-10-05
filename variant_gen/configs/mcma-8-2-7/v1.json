@@ -1,0 +1,147 @@
+{
+  "question_id": "mcma-8-2-7",
+  "config_version": 1,
+  "original_hash": "5e97aabc29dde6a7",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        -20,
+        11
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "78+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "80+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "82+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "83+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "78+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "85+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "80+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "82+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "83+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "415+5*(k-1)",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "90+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "88+k-1",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "415+5*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "325+4*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "90+k-1",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "88+k-1",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dalam 4 kali Ulangan Harian Matematika, Bagas memperoleh nilai berturut-turut {v1}, {v2}, {v3}, dan {v4}. Untuk bisa mendapatkan predikat siswa berprestasi, sekolah menetapkan syarat bahwa nilai rata-rata dari 5 kali ulangan Bagas tidak boleh kurang dari {v5}.\nManakah pernyataan berikut yang BENAR terkait situasi tersebut? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model pertidaksamaan yang tepat adalah ({v6} + {v7} + {v8} + {v9} + x) / 5 ≥ {v10}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Total nilai minimum dari 5 kali ulangan yang harus dicapai Bagas adalah {v11}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Nilai ulangan ke-5 (x) minimum yang harus diperoleh Bagas adalah {v12}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika Bagas memperoleh nilai {v13} pada ulangan ke-5, rata-rata nilainya sudah memenuhi syarat predikat siswa berprestasi.",
+      "correct": false
+    }
+  ],
+  "explanation": "Total minimum {v14}, empat nilai sebelumnya {v15}. Tes berikut minimal {v16}; {v17} masih kurang dua."
+}

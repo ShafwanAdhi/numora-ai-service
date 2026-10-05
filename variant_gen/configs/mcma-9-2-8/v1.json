@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-9-2-8",
+  "config_version": 1,
+  "original_hash": "28c9a2aaa3ba93fb",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "50*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "160000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "60000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "50*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "160000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "60000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Siswa kelompok kewirausahaan membuat dua jenis kue: Risol Mayo (m) dan Risol Coklat (c). Total modal produksi untuk membuat {v1} buah risol (gabungan Risol Mayo dan Risol Coklat) adalah Rp{v2}. Biaya pembuatan 1 buah Risol Mayo adalah Rp2.500 dan 1 buah Risol Coklat adalah Rp2.000.\nManakah pernyataan analisis berikut yang BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Banyak Risol Mayo yang dibuat adalah {v3} buah.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Banyak Risol Coklat yang dibuat adalah {v4} buah.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika Risol Mayo dijual seharga Rp3.500/buah dan Risol Coklat Rp3.000/buah, total pendapatan penjualan seluruh risol adalah Rp{v5}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Total keuntungan yang diperoleh siswa dari penjualan seluruh risol tersebut adalah Rp{v6}.",
+      "correct": false
+    }
+  ],
+  "explanation": "m+c={v7}, 2500m+2000c={v8}. Mayo {v9}, coklat {v10}. Pendapatan 3500m+3000c={v11}; keuntungan {v12}, bukan {v13}."
+}

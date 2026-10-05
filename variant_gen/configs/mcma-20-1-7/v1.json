@@ -1,0 +1,124 @@
+{
+  "question_id": "mcma-20-1-7",
+  "config_version": 1,
+  "original_hash": "8696990a6779381e",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "n1": {
+      "gen": "derived",
+      "expr": "50*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n2": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n3": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n4": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n5": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "n6": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "max": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "stem": "Perhatikan data pilihan ekstrakurikuler {n1} siswa berikut.\nEkstrakurikuler | Jumlah Siswa\nBasket | {n2}\nFutsal | {n3}\nPramuka | {n4}\nPMR | {n5}\nPilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Futsal memiliki jumlah peminat terbanyak.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jumlah peminat basket dan PMR adalah {n6} siswa.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Peminat Pramuka dua kali peminat PMR.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Peminat PMR sama dengan peminat Basket.",
+      "correct": false
+    }
+  ],
+  "explanation": "Futsal {max} terbanyak; basket + PMR = {max}; Pramuka = 2 × PMR; PMR lebih sedikit daripada basket.",
+  "constraints": []
+}

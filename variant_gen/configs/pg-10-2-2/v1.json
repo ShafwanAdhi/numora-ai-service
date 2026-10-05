@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-10-2-2",
+  "config_version": 1,
+  "original_hash": "7e1612134e9ce030",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "7*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "15*k*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "3*k/2",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Taman tanaman obat di halaman sekolah berbentuk persegi panjang dengan luas (2x^2+{v1}x-{v2})m^2. Berdasarkan hasil pengukuran tim lingkungan hidup, ukuran panjang taman tersebut adalah (2x-{v3})m. Bentuk aljabar yang menyatakan keliling taman sekolah tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "3x+{v4}m",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "6x+{v5}m",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "6x+{v6}m",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "6x+{v7}m",
+      "correct": false
+    }
+  ],
+  "explanation": "Luas=(2x-{v8})(x+{v9}); keliling=2((2x-{v10})+(x+{v11}))=6x+{v12}. Domain geometris x>{v13}."
+}
