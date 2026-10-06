@@ -1,0 +1,111 @@
+{
+  "question_id": "mcma-1-1-7",
+  "config_version": 1,
+  "original_hash": "48439c8b0fc6b3e8",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        21
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2.4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "6*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2.6*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2.4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2.5*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "-2.6*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "-2.5*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "6*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "-2.4*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Empat kelompok siswa SMP melakukan pengujian daya serap air pada spons. Perubahan volume air (dalam mL) setelah pengujian dicatat sebagai berikut:\nKelompok A: -({v1})/(2) mL\nKelompok B: -{v2} mL\nKelompok C: -sqrt({v3})mL\nKelompok D: -{v4} mL\nManakah pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Perubahan volume air pada Kelompok A lebih kecil nilainya daripada Kelompok D.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kelompok B mengalami pengurangan volume paling sedikit di antara Kelompok A, B, dan D.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Nilai -sqrt({v5}) berada di antara -{v6} dan -{v7}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Urutan perubahan volume dari yang paling banyak berkurang ke paling sedikit berkurang adalah D, A, C, B.",
+      "correct": true
+    }
+  ],
+  "explanation": "D={v8} < A={v9} < C=-sqrt({v10}) < B={v11}. B,C,D benar."
+}

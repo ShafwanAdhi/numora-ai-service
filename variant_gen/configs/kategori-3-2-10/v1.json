@@ -1,0 +1,163 @@
+{
+  "question_id": "kategori-3-2-10",
+  "config_version": 1,
+  "original_hash": "c2a76daab28d5fe6",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "round(sqrt(27+k),1)",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "floor(v1)",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "round((v1-floor(v1))*10)",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "27+k",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round(sqrt(75))-round(sqrt(27+k))+1",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "round(sqrt(27+k),1)",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "floor(v6)",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "round((v6-floor(v6))*10)",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "27+k",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "round(sqrt(75))-round(sqrt(27+k))+1",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "round(sqrt(27+k),1)",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "floor(v11)",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "round((v11-floor(v11))*10)",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "27+k",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "round(sqrt(75))-round(sqrt(27+k))+1",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "round(sqrt(27+k),1)",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "floor(v16)",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "round((v16-floor(v16))*10)",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "27+k",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "round(sqrt(75))-round(sqrt(27+k))+1",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "round(sqrt(27+k),1)",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "round(sqrt(27+k))",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "round(sqrt(75))",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "round(sqrt(75))-round(sqrt(27+k))",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [
+    "floor(sqrt(27+k))**2 != 27+k",
+    "27+k < 75"
+  ],
+  "stem": "Seorang tim arsitek sekolah menganalisis dua ukuran batas bentangan kanopi:\nA=sqrt({v4})meter\nB=sqrt(75)meter\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Nilai aproksimasi A (sqrt({v9})) jika dibulatkan ke persepuluhan terdekat adalah {v7},{v8}m.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Nilai aproksimasi B (sqrt(75)) jika dibulatkan ke satuan terdekat adalah 9m.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Nilai estimasi selisih B-A menggunakan pembulatan ke satuan terdekat adalah {v20}m.",
+      "correct": false
+    }
+  ],
+  "explanation": "Akar pertama persepuluhan={v21}; Akar pertama satuan={v22}; Akar kedua satuan={v23}; Estimasi={v24}."
+}

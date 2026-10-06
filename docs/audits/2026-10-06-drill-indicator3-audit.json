@@ -1,0 +1,1445 @@
+{
+  "scope": {
+    "indicators": [
+      3
+    ],
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  "counts": {
+    "ACTIVE": 20,
+    "HOLD_SOURCE": 10
+  },
+  "stock_count": 400,
+  "extra_accepted": 1000,
+  "rows": [
+    {
+      "question_id": "pg-3-1-1",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "3b06283f7f866274",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "59d7cba99e22ec31",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 38,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 80,
+      "finite_domain_unique": 80,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 5,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    },
+    {
+      "question_id": "pg-3-1-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Lahan persegi luas45m2 mempunyai diagonal sqrt(90), bukan sqrt(45); premis geometri bertentangan dengan besaran yang diminta.",
+      "original_hash": "a1f089a5081614a5",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-1-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem hanya membulatkan harga satuan:3,25*25.000=81.250 tidak ada pada opsi. Pembahasan menambahkan pembulatan total tanpa instruksi stem.",
+      "original_hash": "e458e79b206491ae",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-1-4",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "5f089e6ae7b85edf",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "9cf127319f57f786",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 41,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 80,
+      "finite_domain_unique": 80,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 8,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    },
+    {
+      "question_id": "pg-3-1-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Aturan pembulatan operand menghasilkan20*7.000=140.000 tetapi kunci130.000 memakai pembulatan hasil riil; aturan estimasi tidak tunggal.",
+      "original_hash": "d99fff9fda3ef485",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-3-1-6",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "7123fb6ab146a39d",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "b7f0bdee2747ded5",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 30,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 40,
+      "finite_domain_unique": 40,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 41
+      },
+      "rejections": {
+        "same_answer_as_original": 91,
+        "duplicate_of_existing_variant": 2,
+        "same_as_original": 2
+      }
+    },
+    {
+      "question_id": "mcma-3-1-7",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "5138fe85a5bf8cff",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "af297811e9c3a286",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 35,
+      "sampling_status": "PASS",
+      "constraints": [
+        "floor(sqrt(15+k))**2 != 15+k"
+      ],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 74,
+      "finite_domain_unique": 74,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "constraint failed: floor(sqrt(15+k))**2 != 15+k": 6
+      },
+      "rejections": {
+        "constraint failed: floor(sqrt(15+k))**2 != 15+k": 3,
+        "duplicate_of_existing_variant": 7,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    },
+    {
+      "question_id": "mcma-3-1-8",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "f7176b8b1f806076",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "f6dffc1909c9ed76",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 34,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 80,
+      "finite_domain_unique": 80,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 2,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "question_id": "kategori-3-1-9",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "99d8315dea19ca08",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "2674a03ee8720a94",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 37,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 80,
+      "finite_domain_unique": 80,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 1
+      }
+    },
+    {
+      "question_id": "kategori-3-1-10",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "f11817dd66e90f2d",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "edecd78e82958f4b",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 37,
+      "sampling_status": "PASS",
+      "constraints": [
+        "floor(sqrt(18+k))**2 != 18+k",
+        "round(sqrt(18+k)+sqrt(50)) == round(sqrt(18+k))+round(sqrt(50))"
+      ],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 68,
+      "finite_domain_unique": 68,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "constraint failed: round(sqrt(18+k)+sqrt(50)) == round(sqrt(18+k))+round(sqrt(50))": 7,
+        "constraint failed: floor(sqrt(18+k))**2 != 18+k": 5
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 1,
+        "constraint failed: round(sqrt(18+k)+sqrt(50)) == round(sqrt(18+k))+round(sqrt(50))": 3,
+        "constraint failed: floor(sqrt(18+k))**2 != 18+k": 1
+      }
+    },
+    {
+      "question_id": "pg-3-2-1",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "cdc68b19f97e8720",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "b87f702a55d74907",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 41,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 80,
+      "finite_domain_unique": 80,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 1,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    },
+    {
+      "question_id": "pg-3-2-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Lahan persegi luas52m2 mempunyai diagonal sqrt(104), bukan sqrt(52); premis geometri bertentangan dengan panjang papan.",
+      "original_hash": "5517cf5cd348932d",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-2-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Pembulatan harga satuan menghasilkan3,5*25.000=87.500 tanpa opsi yang sesuai. Pembahasan menambahkan pembulatan total dan mengizinkan87.000/88.000; kunci87.000 tidak tunggal.",
+      "original_hash": "28a86e8c91a0deec",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-2-4",
+      "status": "HOLD_SOURCE",
+      "reason": "Hasil riil59,4*19,8/9,7=121,249484... membulat menjadi121,25. Stem dan opsi B menyatakan121,26; pembahasan menyatakan121,25.",
+      "original_hash": "14aa6267dbe8ae14",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-2-5",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "83edd577786754c4",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "8d0ea2b9c3330505",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 35,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 63,
+      "finite_domain_unique": 63,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "options_not_distinct": 17
+      },
+      "rejections": {
+        "options_not_distinct": 28,
+        "duplicate_of_existing_variant": 2
+      }
+    },
+    {
+      "question_id": "mcma-3-2-6",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "36ab524f1d5ffd25",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "bad21f1443bd875e",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 25,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 40,
+      "finite_domain_unique": 40,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 41
+      },
+      "rejections": {
+        "same_answer_as_original": 78,
+        "duplicate_of_existing_variant": 14,
+        "same_as_original": 4
+      }
+    },
+    {
+      "question_id": "mcma-3-2-7",
+      "status": "HOLD_SOURCE",
+      "reason": "Luas ubin persegi20,32,48cm2 disamakan dengan diagonal sqrt(20),sqrt(32),sqrt(48); diagonal seharusnya sqrt(dua kali luas).",
+      "original_hash": "9c514a0e9f5de642",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-3-2-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Opsi C menyatakan semua komponen dibulatkan ke atas, tetapi12 botol dibulatkan menjadi10. Klaim alasan yang dikunci benar adalah salah.",
+      "original_hash": "897ac3f9a3086595",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-3-2-9",
+      "status": "HOLD_SOURCE",
+      "reason": "Kunci sumber menyatakan(b) SALAH, tetapi2,45 dibulatkan ke satuan menjadi2 sehingga(b) BENAR. Instruksi koreksi dalam pembahasan tidak diterapkan.",
+      "original_hash": "418fe62588b98275",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-3-2-10",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "c2a76daab28d5fe6",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "12afe5838d65ab3b",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 31,
+      "sampling_status": "PASS",
+      "constraints": [
+        "floor(sqrt(27+k))**2 != 27+k",
+        "27+k < 75"
+      ],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 44,
+      "finite_domain_unique": 44,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "constraint failed: floor(sqrt(27+k))**2 != 27+k": 5,
+        "constraint failed: 27+k < 75": 31
+      },
+      "rejections": {
+        "constraint failed: 27+k < 75": 65,
+        "constraint failed: floor(sqrt(27+k))**2 != 27+k": 8,
+        "duplicate_of_existing_variant": 6,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    },
+    {
+      "question_id": "pg-3-3-1",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "23cfaec1607dabfd",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "4d8e2534beecc9f1",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 26,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 40,
+      "finite_domain_unique": 40,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 41
+      },
+      "rejections": {
+        "same_answer_as_original": 98,
+        "duplicate_of_existing_variant": 9,
+        "same_as_original": 4
+      }
+    },
+    {
+      "question_id": "pg-3-3-2",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "5d2a782d1696fbd4",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "5c02d75281753a8b",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 32,
+      "sampling_status": "PASS",
+      "constraints": [
+        "floor(sqrt(40+k))**2 != 40+k",
+        "floor(sqrt(41+k))**2 != 41+k"
+      ],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 71,
+      "finite_domain_unique": 71,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "constraint failed: floor(sqrt(41+k))**2 != 41+k": 5,
+        "constraint failed: floor(sqrt(40+k))**2 != 40+k": 4
+      },
+      "rejections": {
+        "constraint failed: floor(sqrt(40+k))**2 != 40+k": 3,
+        "duplicate_of_existing_variant": 2,
+        "constraint failed: floor(sqrt(41+k))**2 != 41+k": 9
+      }
+    },
+    {
+      "question_id": "pg-3-3-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Total riil415.800. Opsi C450.000 dan D420.000 sama-sama batas atas aman; D lebih dekat. Stem tidak mensyaratkan kedua operand dibulatkan ke atas, sehingga kunci C tidak tunggal.",
+      "original_hash": "b6406e92b6944fbc",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-3-4",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "32fbaebc2583abfd",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "c6c44de34721a128",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 35,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 80,
+      "finite_domain_unique": 80,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 2,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    },
+    {
+      "question_id": "pg-3-3-5",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "e928296a51c8ff70",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "f4ae029441505896",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 38,
+      "sampling_status": "PASS",
+      "constraints": [
+        "round(sqrt(83+2*k))-round(sqrt(38+k))>=2"
+      ],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 60,
+      "finite_domain_unique": 60,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 21
+      },
+      "rejections": {
+        "same_answer_as_original": 32,
+        "duplicate_of_existing_variant": 2,
+        "same_as_original": 2
+      }
+    },
+    {
+      "question_id": "mcma-3-3-6",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "d1081ada1893b3c4",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "eec113ede13a51c0",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 28,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 40,
+      "finite_domain_unique": 40,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 41
+      },
+      "rejections": {
+        "same_answer_as_original": 73,
+        "duplicate_of_existing_variant": 9,
+        "same_as_original": 2
+      }
+    },
+    {
+      "question_id": "mcma-3-3-7",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "962141f8b18c4fd6",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "ebaf6007b58f7696",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 39,
+      "sampling_status": "PASS",
+      "constraints": [
+        "floor(sqrt(12+k))**2 != 12+k"
+      ],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 74,
+      "finite_domain_unique": 74,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "constraint failed: floor(sqrt(12+k))**2 != 12+k": 6
+      },
+      "rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "duplicate_of_existing_variant": 2,
+        "constraint failed: floor(sqrt(12+k))**2 != 12+k": 3
+      }
+    },
+    {
+      "question_id": "mcma-3-3-8",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "b1f5fb35add836c7",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "b22ef45c22a567a5",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 35,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 80,
+      "finite_domain_unique": 80,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 1,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      }
+    },
+    {
+      "question_id": "kategori-3-3-9",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "2455dd4519ab6574",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "0da19a06246d78c3",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 36,
+      "sampling_status": "PASS",
+      "constraints": [],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 80,
+      "finite_domain_unique": 80,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "rejections": {}
+    },
+    {
+      "question_id": "kategori-3-3-10",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "7f29e228a355e9ca",
+      "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "config_hash": "046be34f307ca9b2",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      },
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 37,
+      "sampling_status": "PASS",
+      "constraints": [
+        "floor(sqrt(19+k))**2 != 19+k"
+      ],
+      "finite_domain_draws": 81,
+      "finite_domain_accepted": 75,
+      "finite_domain_unique": 75,
+      "finite_domain_rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "constraint failed: floor(sqrt(19+k))**2 != 19+k": 5
+      },
+      "rejections": {
+        "duplicate_of_existing_variant": 2,
+        "constraint failed: floor(sqrt(19+k))**2 != 19+k": 6,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      }
+    }
+  ]
+}

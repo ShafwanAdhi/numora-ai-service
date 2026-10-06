@@ -1,0 +1,94 @@
+{
+  "question_id": "pg-5-2-5",
+  "config_version": 1,
+  "original_hash": "8e5439a7463615ab",
+  "original_values": {
+    "rate": 40,
+    "fuel": 7.5
+  },
+  "variables": {
+    "rate": {
+      "gen": "range",
+      "range": [
+        20,
+        60
+      ],
+      "step": 2
+    },
+    "fuel": {
+      "gen": "range",
+      "range": [
+        6.5,
+        12
+      ],
+      "step": 0.5
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*rate"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*rate"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6*rate"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "fuel"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "fuel"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "fuel*rate+(-30)"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "fuel*rate+(-20)"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "fuel*rate+(0)"
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "fuel*rate+(20)"
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "fuel*rate"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Tabel berikut menunjukkan hubungan proporsional antara volume konsumsi bahan bakar (bensin) kendaraan operasional sekolah dan jarak tempuh yang dicapai:\nVolume Bensin (liter) | \nJarak Tempuh (km)\n\n3 | \n{v2}\n\n4 | \n{v3}\n\n6 | \n{v4}\n\n{v5} | \nm\nSeorang siswa menganalisis nilai m (jarak tempuh yang dicapai jika bensin yang terpakai sebanyak {v6} liter). Nilai m yang benar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v7} km",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v8} km",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v9} km",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v10} km",
+      "correct": false
+    }
+  ],
+  "explanation": "Rasio jarak per liter = {rate} km/liter. Jarak = volume dikali rasio = {answer} km."
+}

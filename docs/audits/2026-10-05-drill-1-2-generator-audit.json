@@ -1,0 +1,2004 @@
+{
+  "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+  "scope": {
+    "indicators": [
+      1,
+      2
+    ],
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  "counts": {
+    "ACTIVE": 34,
+    "DEFERRED_CONCEPTUAL": 9,
+    "HOLD_SOURCE": 17
+  },
+  "extra_accepted": 1700,
+  "rows": [
+    {
+      "question_id": "pg-1-1-1",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "c83e81172114a294",
+      "config_hash": "6edece4a5923d59a",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2,
+        "duplicate_of_existing_variant": 11
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-1-1-2",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "6cd1d0fefd99ff68",
+      "config_hash": "f23b72195f8bff88",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 21,
+      "rejections": {
+        "same_as_original": 6,
+        "same_answer_as_original": 6,
+        "duplicate_of_existing_variant": 17
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-1-1-3",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "ef23ce1a94d00190",
+      "config_hash": "00a0b0c3577003a7",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 27,
+      "rejections": {
+        "duplicate_of_existing_variant": 6,
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-1-1-4",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Sifat Distributif tetap menjadi teks jawaban benar; perubahan nominal saja tidak lolos same_answer_as_original.",
+      "original_hash": "d75a2397d3bf8903",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-1-1-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Pembahasan DOCX menulis Wadah X:3,5°C dan -13/4=3,25°C, bertentangan dengan stimulus -3,5°C dan hasil -3,25°C. Tanda minus pembahasan perlu disahkan; tidak dikoreksi diam-diam.",
+      "original_hash": "a6486db535abda45",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-1-1-6",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "8f532a9a7644869d",
+      "config_hash": "14216b102444aae3",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 26,
+      "rejections": {
+        "same_as_original": 4,
+        "same_answer_as_original": 4,
+        "duplicate_of_existing_variant": 5
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-1-1-7",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "48439c8b0fc6b3e8",
+      "config_hash": "a1d4f4b50be36eee",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 20,
+      "rejections": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3,
+        "duplicate_of_existing_variant": 34
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            21
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-1-1-8",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Empat klaim sifat operasi universal tetap; tidak ada parameter numerik yang mengubah jawaban substantif.",
+      "original_hash": "61ea125a636d768d",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-1-1-9",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "29ede98ecf785aea",
+      "config_hash": "d2802ddf0d333f90",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 27,
+      "rejections": {
+        "duplicate_of_existing_variant": 9,
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-1-1-10",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Klaim sifat distributif/komutatif tetap, teks jawaban benar tidak berubah oleh nominal transaksi.",
+      "original_hash": "d2875981cfff3f0e",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-1-2-1",
+      "status": "HOLD_SOURCE",
+      "reason": "Kerugian paling besar adalah Kelompok3 (-0,62), bukan PakDimas (-3/5=-0,60).",
+      "original_hash": "394b4381a4b85189",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-1-2-2",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "2a053a9e1ff45cf2",
+      "config_hash": "975cd2c2e75023a7",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5,
+        "duplicate_of_existing_variant": 11
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-1-2-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Opsi B dan C sama-sama benar: sqrt2>0 dan -4/3<-1,3<-1,25; PG tidak unik.",
+      "original_hash": "e90edfb279255156",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-1-2-4",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "f9252bfb06ab6da1",
+      "config_hash": "f3af8ee0b4a64682",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 21,
+      "rejections": {
+        "duplicate_of_existing_variant": 11,
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-1-2-5",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "e1a4b21943a1f83b",
+      "config_hash": "46c5430f183db714",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 22,
+      "rejections": {
+        "duplicate_of_existing_variant": 17,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-1-2-6",
+      "status": "HOLD_SOURCE",
+      "reason": "Header A,B,C; nilai -sqrt(8) paling dingin sehingga klaim B salah. Pembahasan eksplisit menyimpulkan A,C.",
+      "original_hash": "c3cdcf6fef509550",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-1-2-7",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "de293b41b7dcef25",
+      "config_hash": "00d7b99a227e0979",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 22,
+      "rejections": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2,
+        "duplicate_of_existing_variant": 11
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-1-2-8",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "dcabe9c220910166",
+      "config_hash": "6377600495b9d955",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "duplicate_of_existing_variant": 17,
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-1-2-9",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "5bc24cc2ad235003",
+      "config_hash": "5369e06cf66cdbf0",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 23,
+      "rejections": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5,
+        "duplicate_of_existing_variant": 10
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-1-2-10",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Hipotesis struktur bilangan universal tetap; template konseptual setara belum tersedia.",
+      "original_hash": "ba9ce36e91d2e893",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-1-3-1",
+      "status": "HOLD_SOURCE",
+      "reason": "Urutan benar -2,65 < -sqrt7 < -13/5 < -2,4; AnalisisII menukar dua nilai pertama, tidak ada opsi urutan benar.",
+      "original_hash": "203b52b93e0ab968",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-1-3-2",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "f96169dbb0042c24",
+      "config_hash": "3e85299222961add",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5,
+        "duplicate_of_existing_variant": 14
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-1-3-3",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "f00df4ff5b951f1d",
+      "config_hash": "29185fccda891780",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "duplicate_of_existing_variant": 5,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-1-3-4",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "e3e2df72dfee222f",
+      "config_hash": "827da231e0c18b94",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 22,
+      "rejections": {
+        "duplicate_of_existing_variant": 14,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-1-3-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Opsi A,B,D benar: r=-2,35 < p=-2,25 < q=-sqrt5; PG tidak unik.",
+      "original_hash": "13b887b01b9f1458",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-1-3-6",
+      "status": "HOLD_SOURCE",
+      "reason": "Header A,B,C; W=Y=-3,2 lebih kecil dari X=-sqrt(10), sehingga klaim B salah. Pembahasan menyimpulkan A,C.",
+      "original_hash": "ae640ea9d24dc768",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-1-3-7",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "7ada0b630daf27f8",
+      "config_hash": "6c35efd2904cead7",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "duplicate_of_existing_variant": 8
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-1-3-8",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "678e3152b075a0f7",
+      "config_hash": "29ecfb7817790f7b",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "same_as_original": 5,
+        "same_answer_as_original": 5,
+        "duplicate_of_existing_variant": 15
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-1-3-9",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "b07b2efb3edf2cdb",
+      "config_hash": "6cf49e005a8c3b21",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 22,
+      "rejections": {
+        "constraint failed: k % 3 != 0": 50,
+        "duplicate_of_existing_variant": 8,
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            40
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-1-3-10",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Hipotesis struktur bilangan universal tetap; template konseptual setara belum tersedia.",
+      "original_hash": "9d557176c6c20088",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-1-1",
+      "status": "HOLD_SOURCE",
+      "reason": "Saldo dari stimulus 38.500 tidak ada pada opsi; header B=18.500 mengikuti usulan revisi saldo awal dalam pembahasan.",
+      "original_hash": "3c0623974bacd01c",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-1-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Nilai benar 49, opsi B dan C duplikat, header C menyebut 19. PG tidak memiliki jawaban unik.",
+      "original_hash": "01faa5304c720f49",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-1-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Diagonal dari stimulus 2sqrt(30), tidak ada pada opsi. Pembahasan mengusulkan beberapa rekonstruksi, bukan original final tunggal.",
+      "original_hash": "b507ddce74cb0ba0",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-1-4",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "95e8e66c2d1b8564",
+      "config_hash": "d6651f814122f4d1",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "duplicate_of_existing_variant": 14,
+        "same_answer_as_original": 15,
+        "same_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            35
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-2-1-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Tagihan setelah diskon 104.000 sedangkan pembayaran 100.000; tidak ada kembalian positif 42.000. Pembahasan mengusulkan perubahan jumlah barang/pembayaran/diskon.",
+      "original_hash": "41614044a78bcd0b",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-2-1-6",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "c6afd36e32c21231",
+      "config_hash": "02fc2055c41dac32",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 18,
+      "rejections": {
+        "duplicate_of_existing_variant": 49,
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            21
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-2-1-7",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "df3561df4caf579c",
+      "config_hash": "1db1a342acac8945",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3,
+        "duplicate_of_existing_variant": 19
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-2-1-8",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "a9874a1ee0dadfaf",
+      "config_hash": "2a50e0a3d94c95f8",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "duplicate_of_existing_variant": 19,
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-2-1-9",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "bea3ba03fffbf80d",
+      "config_hash": "334ae84ac5e1e145",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 22,
+      "rejections": {
+        "duplicate_of_existing_variant": 15,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-2-1-10",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "b78d3da496b18414",
+      "config_hash": "289025eaba689f34",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 26,
+      "rejections": {
+        "duplicate_of_existing_variant": 12,
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-2-2-1",
+      "status": "HOLD_SOURCE",
+      "reason": "Perhitungan dan opsi B=51.500 cocok, tetapi caption header B menyebut 21.500. Perbedaan klaim kunci sumber harus dicatat/disahkan.",
+      "original_hash": "125d0f5e2ad6d80c",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-2-2",
+      "status": "HOLD_SOURCE",
+      "reason": "3sqrt(20)-sqrt(45)=3sqrt(5) pada opsi A, bukan header B=4sqrt(5); hasil akhir pembahasan memuat akar kosong.",
+      "original_hash": "94b4ea6336a8de73",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-2-3",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "61048511aecbf3cf",
+      "config_hash": "48579f095ac8b880",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 27,
+      "rejections": {
+        "duplicate_of_existing_variant": 19,
+        "same_answer_as_original": 6
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            32
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-2-2-4",
+      "status": "HOLD_SOURCE",
+      "reason": "Opsi B dan C sama-sama LangkahII; header C juga memuat ekspresi, bukan nama langkah. PG duplikat.",
+      "original_hash": "f95489d6c92b284f",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-2-5",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Jawaban berupa alasan distributif AnalisisI tetap; recipe mengubah siapa yang benar perlu rancangan langkah alternatif.",
+      "original_hash": "85a0c1bc4a93c65e",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-2-2-6",
+      "status": "HOLD_SOURCE",
+      "reason": "Kebenaran i,ii,iv adalah A,B,D, bukan header A,C,D; 3^(2*3)=729 bukan243.",
+      "original_hash": "4a2d30a724f54771",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-2-2-7",
+      "status": "HOLD_SOURCE",
+      "reason": "Klaim D metode lebih efisien tidak menentukan ukuran efisiensi; kedua metode memakai dua operasi. Kriteria penilaian perlu disahkan.",
+      "original_hash": "7ce83cd93c140efb",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-2-2-8",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "be634aaa1b199318",
+      "config_hash": "f86cf8af9c1875cc",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 23,
+      "rejections": {
+        "duplicate_of_existing_variant": 18,
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-2-2-9",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "2b9531cd6c3d1e9f",
+      "config_hash": "6dfd4825e2d4de67",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 27,
+      "rejections": {
+        "duplicate_of_existing_variant": 14,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-2-2-10",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "45a48803198dafd1",
+      "config_hash": "420573e31307d532",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "duplicate_of_existing_variant": 19,
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-2-3-1",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Jawaban berupa alasan tanda cashback AnalisisII tetap; perubahan nominal tidak mengubah teks jawaban benar.",
+      "original_hash": "0357aa2700dd0799",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-3-2",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "3530e539cc6fbd6a",
+      "config_hash": "4c45edd0bef1eef2",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 21,
+      "rejections": {
+        "duplicate_of_existing_variant": 12,
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-2-3-3",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "1fde3287ee026c43",
+      "config_hash": "cbc54aa301d061f5",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "same_answer_as_original": 16,
+        "duplicate_of_existing_variant": 5,
+        "same_as_original": 3
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            36
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-2-3-4",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Jawaban SiswaC tetap; variasi langkah antar siswa yang mengubah jawaban substantif belum dirancang.",
+      "original_hash": "924c9aca39d93ac5",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-2-3-5",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Jawaban berupa alasan distributif AnalisisI tetap; perubahan nominal tidak mengubah teks jawaban benar.",
+      "original_hash": "00215da37fc43b8d",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-2-3-6",
+      "status": "HOLD_SOURCE",
+      "reason": "Header A,C,D bertentangan dengan kebenaran i,ii,iv: A,B,D. Pembahasan menyebut koreksi kunci eksplisit.",
+      "original_hash": "84fa464d128978da",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-2-3-7",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "2831f7d2132e93ad",
+      "config_hash": "0b98c13bbc66dafc",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 23,
+      "rejections": {
+        "duplicate_of_existing_variant": 5,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-2-3-8",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "4508da3938b031c4",
+      "config_hash": "27b2ba8ce56f082f",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "duplicate_of_existing_variant": 16,
+        "same_as_original": 5,
+        "same_answer_as_original": 5
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-2-3-9",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "c4f59908adfd78fb",
+      "config_hash": "12c84670d589386a",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "duplicate_of_existing_variant": 8,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-2-3-10",
+      "status": "ACTIVE",
+      "reason": null,
+      "original_hash": "12f028c72e7c86d5",
+      "config_hash": "b57ee1a129a718aa",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 27,
+      "rejections": {
+        "duplicate_of_existing_variant": 16,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    }
+  ]
+}

@@ -35,7 +35,7 @@ flowchart LR
 | `webui.py`, `webui.html` | HTTP localhost dan UI operator |
 | `database.py` | Pembacaan PostgreSQL terpisah dari generator |
 
-Workspace default memuat bank dasar indikator 16–19, bank tambahan 6–10,11–15,20–23, dan Tryout 1: 670 original, 575 config, 94 kelompok katalog termasuk level kosong. `--bank` custom tetap standalone. Bank lokal tidak otomatis diimpor dari database utama.
+Workspace default memuat bank dasar indikator 16–19, bank tambahan1–2,3–5,6–10,11–15,20–23, dan Tryout 1: 820 original,673 config,109 kelompok katalog termasuk level kosong. `--bank` custom tetap standalone. Bank lokal tidak otomatis diimpor dari database utama.
 
 ## Penyimpanan dan versi
 

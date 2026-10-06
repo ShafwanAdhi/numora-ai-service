@@ -1,0 +1,162 @@
+{
+  "question_id": "mcma-3-1-7",
+  "config_version": 1,
+  "original_hash": "5138fe85a5bf8cff",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "floor(v1)",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "round((v1-floor(v1))*10)",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "15+k",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "floor(v5)",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "round((v5-floor(v5))*10)",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "15+k",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "floor(v9)",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "round((v9-floor(v9))*10)",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "15+k",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "floor(v13)",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "round((v13-floor(v13))*10)",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "15+k",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "floor(v17)",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "round((v17-floor(v17))*10)",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "15+k",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "round(sqrt(26),1)",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "round(sqrt(35))",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [
+    "floor(sqrt(15+k))**2 != 15+k"
+  ],
+  "stem": "Seorang siswa mengukur volume air pada tiga buah akuarium laboratorium berbentuk kubus dengan panjang rusuk masing-masing sebagai berikut:\nAkuarium P: rusuk =sqrt({v4}) dm\nAkuarium Q: rusuk =sqrt(26) dm\nAkuarium R: rusuk =sqrt(35)dm\nManakah hasil aproksimasi dan pembulatan panjang rusuk akuarium tersebut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Aproksimasi rusuk Akuarium P ke persepuluhan terdekat adalah {v6},{v7} dm.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Aproksimasi rusuk Akuarium Q ke persepuluhan terdekat adalah 5,1 dm.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Rusuk Akuarium R jika dibulatkan ke satuan terdekat adalah 5 dm.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rusuk Akuarium R jika dibulatkan ke satuan terdekat adalah 6 dm.",
+      "correct": true
+    }
+  ],
+  "explanation": "Rusuk pertama={v21}; Rusuk kedua={v22}; Rusuk ketiga={v23}."
+}

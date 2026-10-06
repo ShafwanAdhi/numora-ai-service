@@ -1,0 +1,111 @@
+{
+  "question_id": "mcma-5-1-7",
+  "config_version": 1,
+  "original_hash": "7224721c3fa5c00f",
+  "original_values": {
+    "scale": 250,
+    "length": 12,
+    "width": 8
+  },
+  "variables": {
+    "scale": {
+      "gen": "range",
+      "range": [
+        100,
+        350
+      ],
+      "step": 50
+    },
+    "length": {
+      "gen": "range",
+      "range": [
+        8,
+        18
+      ],
+      "step": 1
+    },
+    "width": {
+      "gen": "range",
+      "range": [
+        4,
+        12
+      ],
+      "step": 1
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "scale"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "length"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "width"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "length*scale/100"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "width*scale/100"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "length*width+4"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "length*width*scale*scale/10000"
+    },
+    "long": {
+      "gen": "derived",
+      "expr": "length*scale/100"
+    },
+    "wide": {
+      "gen": "derived",
+      "expr": "width*scale/100"
+    },
+    "paper": {
+      "gen": "derived",
+      "expr": "length*width"
+    },
+    "area": {
+      "gen": "derived",
+      "expr": "length*width*scale*scale/10000"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [
+    "length > width",
+    "length*scale <= 4500",
+    "width*scale <= 3000"
+  ],
+  "stem": "Sebuah denah gedung aula sekolah digambar dengan skala 1:{v3}. Pada denah tersebut, aula berbentuk persegi panjang memiliki ukuran panjang {v4}cm dan lebar {v5}cm.\nManakah pernyataan berikut yang benar mengenai ukuran aula sebenarnya? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Panjang aula sebenarnya adalah {v6} meter.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Lebar aula sebenarnya adalah {v7} meter.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas aula pada denah adalah {v8} cm^(2).",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Luas aula sebenarnya adalah {v9} m^(2).",
+      "correct": true
+    }
+  ],
+  "explanation": "Panjang sebenarnya = {long} m; lebar sebenarnya = {wide} m. Luas denah = {paper} cm persegi; luas sebenarnya = {area} m persegi."
+}

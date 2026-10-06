@@ -1,0 +1,842 @@
+{
+  "pg-1-1-1": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 1,
+    "source_body_index": 9,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "B. Siti",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: B. Siti\nPada sebuah eksperimen IPA di laboratorium SMP, empat orang siswa mencatat hasil pengukuran massa benda dan pengamatan angka sebagai berikut:\nRian: 0,75 gram\nSiti: sqrt(5) gram\nBudi: -(8)/(2) gram\nDewi: sqrt(16) gram\nDi antara hasil pencatatan keempat siswa tersebut, hasil pencatatan siapakah yang merupakan bilangan irasional?\nA. Rian\nB. Siti\nC. Budi\nD. Dewi\nPembahasan:\nUbah dan analisis setiap bilangan yang dicatat oleh para siswa:\nRian: 0,75=(3)/(4) (merupakan bilangan rasional karena dapat diubah menjadi pecahan (a)/(b)).\nSiti: sqrt(5)≈2,2360679... (merupakan desimal tak berulang dan tak berakhir, sehingga termasuk bilangan irasional).\nBudi: -(8)/(2)=-4 (merupakan bilangan bulat/rasional).\nDewi: sqrt(16)=4 (merupakan bilangan bulat/rasional).\nJadi, pencatatan yang merupakan bilangan irasional adalah milik Siti.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menganggap semua bentuk bilangan yang menggunakan tanda akar (√) pasti merupakan bilangan irasional, sehingga keliru memilih Dewi (sqrt(16)). Siswa perlu disadarkan bahwa sqrt(16)=4 yang merupakan bilangan rasional/bulat.",
+    "original_explanation": "Pembahasan:\nUbah dan analisis setiap bilangan yang dicatat oleh para siswa:\nRian: 0,75=(3)/(4) (merupakan bilangan rasional karena dapat diubah menjadi pecahan (a)/(b)).\nSiti: sqrt(5)≈2,2360679... (merupakan desimal tak berulang dan tak berakhir, sehingga termasuk bilangan irasional).\nBudi: -(8)/(2)=-4 (merupakan bilangan bulat/rasional).\nDewi: sqrt(16)=4 (merupakan bilangan bulat/rasional).\nJadi, pencatatan yang merupakan bilangan irasional adalah milik Siti.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menganggap semua bentuk bilangan yang menggunakan tanda akar (√) pasti merupakan bilangan irasional, sehingga keliru memilih Dewi (sqrt(16)). Siswa perlu disadarkan bahwa sqrt(16)=4 yang merupakan bilangan rasional/bulat.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-1-2": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 2,
+    "source_body_index": 52,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "B. Kedai B berada di antara Kedai A dan titik stasiun utama (0)",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: B. Kedai B berada di antara Kedai A dan titik stasiun utama (0)\nEmpat lokasi kedai es krim berada pada jalan lurus yang dimodelkan sebagai garis bilangan dalam satuan kilometer terhadap stasiun utama (titik 0).\nKedai A berada di posisi -1,8 km.\nKedai B berada di posisi -(7)/(4) km.\nKedai C berada di posisi sqrt(3 )km.\nKedai D berada di posisi 1,6 km.\nPernyataan yang benar mengenai posisi kedai pada garis bilangan tersebut adalah ....\nA. Kedai A berada di sebelah kanan Kedai B\nB. Kedai B berada di antara Kedai A dan titik stasiun utama (0)\nC. Kedai C berada di sebelah kiri Kedai D\nD. Kedai D berada paling kanan di antara semua kedai\nPembahasan:\nKonversikan seluruh posisi ke bentuk desimal agar dapat dibandingkan nilainya pada garis bilangan:\nKedai A: -1,8 km\nKedai B: -(7)/(4)=-1,75 km\nKedai C: sqrt(3)≈1,732 km\nKedai D: 1,6 km\nUrutan posisi pada garis bilangan dari kiri ke kanan (terkecil ke terbesar):\n-1,8<-1,75<0<1,6<1,732\n(Kedai A) → (Kedai B) → (Stasiun 0) → (Kedai D) → (Kedai C)\nOpsi A salah, karena Kedai A (-1,8) ada di sebelah kiri Kedai B (-1,75).\nOpsi B benar, karena Kedai B (-1,75) terletak di antara Kedai A (-1,8) dan titik 0.\nOpsi C salah, karena Kedai C (1,732) ada di sebelah kanan Kedai D (1,6).\nOpsi D salah, karena yang paling kanan adalah Kedai C (1,732).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru membandingkan dua bilangan negatif, misalnya menganggap -1,8 lebih besar dari -1,75 hanya karena angka 1,8>1,75. Padahal, pada bilangan negatif semakin besar angkanya maka nilainya semakin kecil (makin ke kiri pada garis bilangan).",
+    "original_explanation": "Pembahasan:\nKonversikan seluruh posisi ke bentuk desimal agar dapat dibandingkan nilainya pada garis bilangan:\nKedai A: -1,8 km\nKedai B: -(7)/(4)=-1,75 km\nKedai C: sqrt(3)≈1,732 km\nKedai D: 1,6 km\nUrutan posisi pada garis bilangan dari kiri ke kanan (terkecil ke terbesar):\n-1,8<-1,75<0<1,6<1,732\n(Kedai A) → (Kedai B) → (Stasiun 0) → (Kedai D) → (Kedai C)\nOpsi A salah, karena Kedai A (-1,8) ada di sebelah kiri Kedai B (-1,75).\nOpsi B benar, karena Kedai B (-1,75) terletak di antara Kedai A (-1,8) dan titik 0.\nOpsi C salah, karena Kedai C (1,732) ada di sebelah kanan Kedai D (1,6).\nOpsi D salah, karena yang paling kanan adalah Kedai C (1,732).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru membandingkan dua bilangan negatif, misalnya menganggap -1,8 lebih besar dari -1,75 hanya karena angka 1,8>1,75. Padahal, pada bilangan negatif semakin besar angkanya maka nilainya semakin kecil (makin ke kiri pada garis bilangan).",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-1-3": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 3,
+    "source_body_index": 105,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "A. Toko Kuning, Toko Merah, Toko Hijau, Toko Biru",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: A. Toko Kuning, Toko Merah, Toko Hijau, Toko Biru\nEmpat toko bahan kue menjual gandum dengan harga diskon yang menyebabkan perubahan harga dibanding harga standar harian. Persentase/proporsi perubahan harga di empat toko dicatat sebagai berikut:\nToko Merah: -(3)/(8)\nToko Biru: -0,35\nToko Hijau: - 36%\nToko Kuning: -0,38\nUrutan toko dari yang memberikan penurunan harga paling besar hingga paling kecil adalah ....\nA. Toko Kuning, Toko Merah, Toko Hijau, Toko Biru\nB. Toko Merah, Toko Kuning, Toko Hijau, Toko Biru\nC. Toko Biru, Toko Hijau, Toko Merah, Toko Kuning\nD. Toko Kuning, Toko Hijau, Toko Biru, Toko Merah\nPembahasan:\nKonversikan semua bentuk bilangan ke desimal:\nToko Merah: -(3)/(8)=-0,375\nToko Biru: -0,35\nToko Hijau: - 36% = - 0,36\nToko Kuning: -0,38\nPenurunan harga paling besar artinya nilainya paling negatif (terkecil/paling jauh di sebelah kiri garis bilangan):\n-0,38<-0,375<-0,36<-0,35\n(Toko Kuning) → (Toko Merah) → (Toko Hijau) → (Toko Biru)\nKesalahan Umum yang Diantisipasi:\nSiswa sering tertukar antara arti \"penurunan terbesar\" dengan \"nilai desimal terbesar\". Penurunan terbesar menunjukkan pengurangan paling banyak, yang dinyatakan oleh bilangan dengan nilai paling negatif (-0,38).",
+    "original_explanation": "Pembahasan:\nKonversikan semua bentuk bilangan ke desimal:\nToko Merah: -(3)/(8)=-0,375\nToko Biru: -0,35\nToko Hijau: - 36% = - 0,36\nToko Kuning: -0,38\nPenurunan harga paling besar artinya nilainya paling negatif (terkecil/paling jauh di sebelah kiri garis bilangan):\n-0,38<-0,375<-0,36<-0,35\n(Toko Kuning) → (Toko Merah) → (Toko Hijau) → (Toko Biru)\nKesalahan Umum yang Diantisipasi:\nSiswa sering tertukar antara arti \"penurunan terbesar\" dengan \"nilai desimal terbesar\". Penurunan terbesar menunjukkan pengurangan paling banyak, yang dinyatakan oleh bilangan dengan nilai paling negatif (-0,38).",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-1-4": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 4,
+    "source_body_index": 149,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "C. Sifat Distributif",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: C. Sifat Distributif\nSebuah panitia kegiatan pentas seni sekolah menghitung total pengeluaran pembagian konsumsi untuk panitia dan pengisi acara. Pembelian dilakukan 2 kali pada hari yang sama.\nPembelian 1: 15 kotak nasi uduk seharga Rp18.000,00 per kotak dan 15 botol air mineral seharga Rp4.000,00 per botol.\nPanitia menghitung total biaya pembelian 1 dengan rumus: 15×(18.000+4.000).\nSifat operasi hitung bilangan real yang diterapkan oleh panitia dalam perhitungan tersebut adalah ....\nA. Sifat Komutatif\nB. Sifat Asosiatif\nC. Sifat Distributif\nD. Sifat Tertutup\nPembahasan:\nPerhitungan total biaya secara langsung: (15×18.000)+(15×4.000).\nPanitia menyederhanakan perhitungan menjadi: 15×(18.000+4.000).\nBentuk matematika a×b+a×c=a×(b+c) merupakan definisi dari Sifat Distributif perkalian terhadap penjumlahan.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru membedakan sifat pengelompokan (asosiatif: (a×b)×c=a×(b×c)) dengan sifat penyebaran/penggabungan faktor (distributif: a(b+c)=ab+ac).",
+    "original_explanation": "Pembahasan:\nPerhitungan total biaya secara langsung: (15×18.000)+(15×4.000).\nPanitia menyederhanakan perhitungan menjadi: 15×(18.000+4.000).\nBentuk matematika a×b+a×c=a×(b+c) merupakan definisi dari Sifat Distributif perkalian terhadap penjumlahan.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru membedakan sifat pengelompokan (asosiatif: (a×b)×c=a×(b×c)) dengan sifat penyebaran/penggabungan faktor (distributif: a(b+c)=ab+ac).",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Sifat Distributif tetap menjadi teks jawaban benar; perubahan nominal saja tidak lolos same_answer_as_original.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-1-5": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 5,
+    "source_body_index": 180,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "A. Wadah X, Wadah Y, Wadah Z",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: A. Wadah X, Wadah Y, Wadah Z\nSuhu air dalam tiga wadah penelitian di ruang laboratorium diukur secara berkala.\nSuhu wadah X adalah -3,5°C.\nSuhu wadah Y adalah -sqrt(12)°C.\nSuhu wadah Z adalah -13/4°C.\nJika ketiga suhu tersebut digambarkan pada garis bilangan, posisi suhu dari yang paling dingin (paling kiri) hingga yang paling hangat (paling kanan) adalah ....\nA. Wadah X, Wadah Y, Wadah Z\nB. Wadah Y, Wadah X, Wadah Z\nC. Wadah X, Wadah Z, Wadah Y\nD. Wadah Z, Wadah X, Wadah Y\nPembahasan:\nUbah setiap suhu ke bentuk desimal pendekatan:\nWadah X: 3,5°C\nWadah Y: -sqrt(12) ≈ -3,464°C (karena sqrt(12) berada di antara sqrt(9)=3 dan sqrt(16)=4)\nWadah Z: -13/4 = 3,25°C\nUrutan dari yang paling dingin (nilai paling kecil/paling kiri) ke paling hangat (paling kanan):\n-3,5<-3,464<-3,25\nMaka urutannya adalah Wadah X, Wadah Y, Wadah Z.\nKesalahan Umum yang Diantisipasi:\nSiswa salah melakukan estimasi nilai -sqrt(12) (misalnya menganggap sqrt(12)=6 karena 12÷2) atau salah mengurutkan desimal negatif -3,5; -3,464; dan -3,25.",
+    "original_explanation": "Pembahasan:\nUbah setiap suhu ke bentuk desimal pendekatan:\nWadah X: 3,5°C\nWadah Y: -sqrt(12) ≈ -3,464°C (karena sqrt(12) berada di antara sqrt(9)=3 dan sqrt(16)=4)\nWadah Z: -13/4 = 3,25°C\nUrutan dari yang paling dingin (nilai paling kecil/paling kiri) ke paling hangat (paling kanan):\n-3,5<-3,464<-3,25\nMaka urutannya adalah Wadah X, Wadah Y, Wadah Z.\nKesalahan Umum yang Diantisipasi:\nSiswa salah melakukan estimasi nilai -sqrt(12) (misalnya menganggap sqrt(12)=6 karena 12÷2) atau salah mengurutkan desimal negatif -3,5; -3,464; dan -3,25.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Pembahasan DOCX menulis Wadah X:3,5°C dan -13/4=3,25°C, bertentangan dengan stimulus -3,5°C dan hasil -3,25°C. Tanda minus pembahasan perlu disahkan; tidak dikoreksi diam-diam.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-1-6": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 6,
+    "source_body_index": 221,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "A, C, dan D",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: A, C, dan D\nDiberikan empat buah bilangan hasil pengukuran suhu dan massa benda di laboratorium:\n{-5;sqrt(9);(22)/(7);π}\nManakah pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. -5 termasuk bilangan bulat dan juga bilangan rasional.\n[ ] B. sqrt(9) merupakan bilangan irasional karena menggunakan tanda akar.\n[ ] C. (22)/(7) merupakan bilangan rasional.\n[ ] D. π merupakan bilangan irasional.\nPembahasan:\nA (Benar): -5 adalah bilangan bulat negatif. Semua bilangan bulat tergolong bilangan rasional karena dapat ditulis sebagai (-5)/(1).\nB (Salah): sqrt(9)=3, di mana 3 adalah bilangan bulat/rasional, bukan irasional.\nC (Benar): (22)/(7) merupakan bentuk pecahan (a)/(b) dengan a,b bilangan bulat dan b≠0, sehingga merupakan bilangan rasional.\nD (Benar): π adalah konstanta matematis bernilai desimal tak berakhir dan tak berulang (3,14159...), sehingga merupakan bilangan irasional.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menganggap (22)/(7) sebagai bilangan irasional karena biasa dipakai sebagai nilai π. Padahal (22)/(7) hanyalah angka pendekatan, sedangkan bentuk pecahannya sendiri secara pasti memenuhi syarat bilangan rasional.",
+    "original_explanation": "Pembahasan:\nA (Benar): -5 adalah bilangan bulat negatif. Semua bilangan bulat tergolong bilangan rasional karena dapat ditulis sebagai (-5)/(1).\nB (Salah): sqrt(9)=3, di mana 3 adalah bilangan bulat/rasional, bukan irasional.\nC (Benar): (22)/(7) merupakan bentuk pecahan (a)/(b) dengan a,b bilangan bulat dan b≠0, sehingga merupakan bilangan rasional.\nD (Benar): π adalah konstanta matematis bernilai desimal tak berakhir dan tak berulang (3,14159...), sehingga merupakan bilangan irasional.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menganggap (22)/(7) sebagai bilangan irasional karena biasa dipakai sebagai nilai π. Padahal (22)/(7) hanyalah angka pendekatan, sedangkan bentuk pecahannya sendiri secara pasti memenuhi syarat bilangan rasional.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-1-7": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 7,
+    "source_body_index": 253,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "B, C, dan D",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: B, C, dan D\nEmpat kelompok siswa SMP melakukan pengujian daya serap air pada spons. Perubahan volume air (dalam mL) setelah pengujian dicatat sebagai berikut:\nKelompok A: -(5)/(2) mL\nKelompok B: -2,4 mL\nKelompok C: -sqrt(6 )mL\nKelompok D: -2,6 mL\nManakah pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Perubahan volume air pada Kelompok A lebih kecil nilainya daripada Kelompok D.\n[ ] B. Kelompok B mengalami pengurangan volume paling sedikit di antara Kelompok A, B, dan D.\n[ ] C. Nilai -sqrt(6) berada di antara -2,4 dan -2,5.\n[ ] D. Urutan perubahan volume dari yang paling banyak berkurang ke paling sedikit berkurang adalah D, A, C, B.\nPembahasan:\nKonversikan semua nilai ke desimal:\nKelompok A: -(5)/(2)=-2,5 mL\nKelompok B: -2,4 mL\nKelompok C: -sqrt(6)≈-2,449 mL\nKelompok D: -2,6 mL\nAnalisis pernyataan:\nA (Salah): Nilai A (-2,5) lebih besar daripada D (-2,6) karena -2,5>-2,6.\nB (Benar): Nilai -2,4 adalah yang paling besar (paling kanan di garis bilangan), artinya berkurangnya paling sedikit.\nC (Benar): Nilai -sqrt(6)≈-2,449 terletak di antara -2,4 dan -2,5 (karena -2,5<-2,449<-2,4).\nD (Benar): Paling banyak berkurang (nilai paling negatif/terkecil) ke paling sedikit berkurang (terbesar): -2,6 (D), -2,5 (A), -2,449 (C), -2,4 (B) → Urutan: D, A, C, B.\nKesalahan Umum yang Diantisipasi:\nSiswa kesulitan membandingkan nilai -sqrt(6) dengan desimal, atau lupa bahwa angka yang lebih negatif menunjukkan volume yang \"lebih banyak berkurang\".",
+    "original_explanation": "Pembahasan:\nKonversikan semua nilai ke desimal:\nKelompok A: -(5)/(2)=-2,5 mL\nKelompok B: -2,4 mL\nKelompok C: -sqrt(6)≈-2,449 mL\nKelompok D: -2,6 mL\nAnalisis pernyataan:\nA (Salah): Nilai A (-2,5) lebih besar daripada D (-2,6) karena -2,5>-2,6.\nB (Benar): Nilai -2,4 adalah yang paling besar (paling kanan di garis bilangan), artinya berkurangnya paling sedikit.\nC (Benar): Nilai -sqrt(6)≈-2,449 terletak di antara -2,4 dan -2,5 (karena -2,5<-2,449<-2,4).\nD (Benar): Paling banyak berkurang (nilai paling negatif/terkecil) ke paling sedikit berkurang (terbesar): -2,6 (D), -2,5 (A), -2,449 (C), -2,4 (B) → Urutan: D, A, C, B.\nKesalahan Umum yang Diantisipasi:\nSiswa kesulitan membandingkan nilai -sqrt(6) dengan desimal, atau lupa bahwa angka yang lebih negatif menunjukkan volume yang \"lebih banyak berkurang\".",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-1-8": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 8,
+    "source_body_index": 301,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "A, C, dan D",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: A, C, dan D\nSiswa kelas VIII mempelajari penerapan sifat-sifat operasi hitung bilangan real pada himpunan bilangan real R. Manakah pernyataan berikut yang benar mengenai sifat-sifat operasi pada bilangan real? (Jawaban benar dapat lebih dari satu)\n[ ] A. Hasil penjumlahan dua bilangan rasional selalu menghasilkan bilangan rasional.\n[ ] B. Pengurangan pada bilangan real berlaku sifat komutatif, yaitu a-b=b-a untuk setiap a,b∈R.\n[ ] C. Bentuk a×(b+c)=(a×b)+(a×c) menunjukkan sifat distributif perkalian terhadap penjumlahan.\n[ ] D. Operasi perkalian bilangan real memenuhi sifat asosiatif, yaitu (a×b)×c=a×(b×c).\nPembahasan:\nA (Benar): Himpunan bilangan rasional tertutup terhadap operasi penjumlahan, artinya penjumlahan dua bilangan rasional pasti rasional.\nB (Salah): Pengurangan tidak komutatif, contohnya 5-3=2, sedangkan 3-5=-2 (2≠-2).\nC (Benar): Definisi dasar dari sifat distributif perkalian terhadap penjumlahan.\nD (Benar): Perkalian pada bilangan real selalu memenuhi sifat asosiatif (pengelompokan).\nKesalahan Umum yang Diantisipasi:\nSiswa menggeneralisasi bahwa semua operasi aritmetika (termasuk pengurangan dan pembagian) pasti bersifat komutatif seperti halnya penjumlahan dan perkalian.",
+    "original_explanation": "Pembahasan:\nA (Benar): Himpunan bilangan rasional tertutup terhadap operasi penjumlahan, artinya penjumlahan dua bilangan rasional pasti rasional.\nB (Salah): Pengurangan tidak komutatif, contohnya 5-3=2, sedangkan 3-5=-2 (2≠-2).\nC (Benar): Definisi dasar dari sifat distributif perkalian terhadap penjumlahan.\nD (Benar): Perkalian pada bilangan real selalu memenuhi sifat asosiatif (pengelompokan).\nKesalahan Umum yang Diantisipasi:\nSiswa menggeneralisasi bahwa semua operasi aritmetika (termasuk pengurangan dan pembagian) pasti bersifat komutatif seperti halnya penjumlahan dan perkalian.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Empat klaim sifat operasi universal tetap; tidak ada parameter numerik yang mengubah jawaban substantif.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-1-1-9": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 9,
+    "source_body_index": 330,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nTiga orang siswa mengukur posisi elevasi tanah (dalam meter) terhadap permukaan air laut (titik 0 m):\nSiswa 1: -(3)/(2) m\nSiswa 2: -1,4 m\nSiswa 3: sqrt(2 )m\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut berdasarkan data elevasi di atas!\nPernyataan | \nBenar | \nSalah\n\n(a) Posisi elevasi Siswa 1 (-(3)/(2) m) berada di sebelah kiri elevasi Siswa 2 (-1,4 m) pada garis bilangan. | \n | \n\n\n(b) Nilai elevasi Siswa 3 (sqrt(2) m) lebih besar daripada 1,5 m. | \n | \n\n\n(c) Jarak elevasi Siswa 2 ke titik netral (0 m) lebih dekat dibandingkan jarak elevasi Siswa 1 ke titik netral (0 m). | \n |\nPembahasan:\nData dalam desimal: Siswa 1 = -1,5 m, Siswa 2 = -1,4 m, Siswa 3 = sqrt(2)≈1,414 m.\n(a) BENAR: Karena -1,5<-1,4, maka -1,5 terletak di sebelah kiri -1,4 pada garis bilangan.\n(b) SALAH: sqrt(2)≈1,414, di mana 1,414<1,5. Maka nilai elevasi Siswa 3 lebih kecil dari 1,5m.\n(c) BENAR: Jarak ke titik 0 dihitung menggunakan nilai mutlak:\nJarak Siswa 2 = | -1,4 | = 1,4.\nJarak Siswa 1 = | -1,5 | = 1,5.\nJadi, Siswa 2 lebih dekat ke titik 0 m.\nKesalahan Umum yang Diantisipasi:\nSiswa keliru memisalkan sqrt(2)≈2 atau sqrt(2)>1,5, padahal nilai pendekatan sqrt(2) adalah 1,414. Siswa juga sering bingung membedakan antara \"nilai bilangan\" dengan \"jarak absolut ke titik nol\".",
+    "original_explanation": "Pembahasan:\nData dalam desimal: Siswa 1 = -1,5 m, Siswa 2 = -1,4 m, Siswa 3 = sqrt(2)≈1,414 m.\n(a) BENAR: Karena -1,5<-1,4, maka -1,5 terletak di sebelah kiri -1,4 pada garis bilangan.\n(b) SALAH: sqrt(2)≈1,414, di mana 1,414<1,5. Maka nilai elevasi Siswa 3 lebih kecil dari 1,5m.\n(c) BENAR: Jarak ke titik 0 dihitung menggunakan nilai mutlak:\nJarak Siswa 2 = | -1,4 | = 1,4.\nJarak Siswa 1 = | -1,5 | = 1,5.\nJadi, Siswa 2 lebih dekat ke titik 0 m.\nKesalahan Umum yang Diantisipasi:\nSiswa keliru memisalkan sqrt(2)≈2 atau sqrt(2)>1,5, padahal nilai pendekatan sqrt(2) adalah 1,414. Siswa juga sering bingung membedakan antara \"nilai bilangan\" dengan \"jarak absolut ke titik nol\".",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-1-1-10": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 10,
+    "source_body_index": 362,
+    "source_cognitive_label": "C3 (Menerapkan - HOTS)",
+    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan - HOTS)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nSeorang pimpinan koperasi sekolah mengecek laporan keuangan pengadaan buku. Ia menuliskan dua cara perhitungan total penerimaan uang penjualan set buku:\nCara I: (25×40.000)+(25×10.000)=1.000.000+250.000=1.250.000\nCara II: 25×(40.000+10.000)=25×50.000=1.250.000\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Kesamaan hasil dari Cara I dan Cara II membuktikan berlakunya sifat distributif perkalian terhadap penjumlahan. | \n | \n\n\n(b) Jika urutan perkalian 25×50.000 diubah menjadi 50.000×25, hasilnya tetap sama karena berlaku sifat komutatif. | \n | \n\n\n(c) Operasi pengurangan pada perhitungan dana tunai koperasi juga berlaku sifat komutatif. | \n |\nPembahasan:\n(a) BENAR: Kesamaan bentuk (a×b)+(a×c)=a×(b+c) adalah bukti berlakunya sifat distributif perkalian terhadap penjumlahan.\n(b) BENAR: Perkalian pada bilangan real bersifat komutatif (a×b=b×a), sehingga 25×50.000=50.000×25=1.250.000.\n(c) SALAH: Operasi pengurangan tidak memiliki sifat komutatif (a-b≠b-a), sehingga urutan angka pada pengurangan tidak boleh ditukar.\nKesalahan Umum yang Diantisipasi:\nSiswa sering tidak bisa menghubungkan konsep abstrak nama-nama sifat matematika (komutatif, asosiatif, distributif) dengan langkah hitung teknis kontekstual yang disajikan pada soal.",
+    "original_explanation": "Pembahasan:\n(a) BENAR: Kesamaan bentuk (a×b)+(a×c)=a×(b+c) adalah bukti berlakunya sifat distributif perkalian terhadap penjumlahan.\n(b) BENAR: Perkalian pada bilangan real bersifat komutatif (a×b=b×a), sehingga 25×50.000=50.000×25=1.250.000.\n(c) SALAH: Operasi pengurangan tidak memiliki sifat komutatif (a-b≠b-a), sehingga urutan angka pada pengurangan tidak boleh ditukar.\nKesalahan Umum yang Diantisipasi:\nSiswa sering tidak bisa menghubungkan konsep abstrak nama-nama sifat matematika (komutatif, asosiatif, distributif) dengan langkah hitung teknis kontekstual yang disajikan pada soal.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Klaim sifat distributif/komutatif tetap, teks jawaban benar tidak berubah oleh nominal transaksi.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-2-1": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 1,
+    "source_body_index": 402,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "B. Pak Dimas",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. Pak Dimas\nDalam kegiatan bazar kewirausahaan di SMP Merdeka, empat kelompok siswa mencatat persentase keuntungan atau kerugian dari modal awal usaha mereka sebagai berikut:\nPak Dimas (Pembina): -(3)/(5) dari modal\nKelompok 1: -0,55 dari modal\nKelompok 2: - 58% dari modal\nKelompok 3: -0,62 dari modal\nDi antara keempat catatan tersebut, siapakah yang mencatatkan tingkat kerugian paling besar (nilai terkecil) dari modal awalnya?\nA. Kelompok 1\nB. Pak Dimas\nC. Kelompok 2\nD. Kelompok 3\nPembahasan:\nKonversikan seluruh nilai perubahan modal ke dalam bentuk desimal untuk membandingkan:\nPak Dimas: -(3)/(5)=-0,60\nKelompok 1: -0,55\nKelompok 2: - 58% = 0,58%\nKelompok 3: -0,62\nUntuk menentukan kerugian paling besar, kita mencari nilai yang paling negatif (paling kecil/paling jauh di sebelah kiri pada garis bilangan):\n-0,62<-0,60<-0,58<-0,55\n(Kelompok 3) → (Pak Dimas) → (Kelompok 2) → (Kelompok 1)\nNilai paling kecil adalah -0,62 (Kelompok 3).\nKoreksi pilihan pada Opsi D: Kerugian paling besar dialami oleh Kelompok 3 (-0,62).\nJawaban yang tepat adalah D. Kelompok 3.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap kerugian paling besar dicapai oleh angka yang terlihat paling kecil (misalnya -0,55), karena lupa bahwa pada bilangan negatif, nilai dengan angka absolut lebih besar (seperti -0,62) justru nilainya lebih kecil (makin rugi).",
+    "original_explanation": "Pembahasan:\nKonversikan seluruh nilai perubahan modal ke dalam bentuk desimal untuk membandingkan:\nPak Dimas: -(3)/(5)=-0,60\nKelompok 1: -0,55\nKelompok 2: - 58% = 0,58%\nKelompok 3: -0,62\nUntuk menentukan kerugian paling besar, kita mencari nilai yang paling negatif (paling kecil/paling jauh di sebelah kiri pada garis bilangan):\n-0,62<-0,60<-0,58<-0,55\n(Kelompok 3) → (Pak Dimas) → (Kelompok 2) → (Kelompok 1)\nNilai paling kecil adalah -0,62 (Kelompok 3).\nKoreksi pilihan pada Opsi D: Kerugian paling besar dialami oleh Kelompok 3 (-0,62).\nJawaban yang tepat adalah D. Kelompok 3.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap kerugian paling besar dicapai oleh angka yang terlihat paling kecil (misalnya -0,55), karena lupa bahwa pada bilangan negatif, nilai dengan angka absolut lebih besar (seperti -0,62) justru nilainya lebih kecil (makin rugi).",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Kerugian paling besar adalah Kelompok3 (-0,62), bukan PakDimas (-3/5=-0,60).",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-2-2": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 2,
+    "source_body_index": 450,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "C. 12×(25.000+3.000)",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: C. 12×(25.000+3.000)\nSiswa kelas IX mengumpulkan dana sukarela untuk kegiatan bakti sosial. Sebanyak 12 orang siswa masing-masing menyumbang uang tunai sebesar Rp25.000,00 dan paket alat tulis seharga Rp3.000,00. Pengurus kelas menghitung total nilai bantuan yang terkumpul menggunakan sifat distributif perkalian terhadap penjumlahan.\nBentuk perhitungan yang tepat sesuai sifat distributif adalah ....\nA. (12+25.000)×(12+3.000)\nB. 12×(25.000×3.000)\nC. 12×(25.000+3.000)\nD. (12×25.000)+3.000\nPembahasan:\nTotal nilai bantuan jika dihitung per item: (12×25.000)+(12×3.000).\nDengan menerapkan sifat distributif perkalian terhadap penjumlahan a⋅b+a⋅c=a⋅(b+c), bentuk tersebut dapat ditulis menjadi:\n12×(25.000+3.000).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru hanya mengalikan 12 dengan nilai uang tunai (Rp25.000,00) lalu mengabaikan perkalian 12 pada paket alat tulis, sehingga memilih opsi D.",
+    "original_explanation": "Pembahasan:\nTotal nilai bantuan jika dihitung per item: (12×25.000)+(12×3.000).\nDengan menerapkan sifat distributif perkalian terhadap penjumlahan a⋅b+a⋅c=a⋅(b+c), bentuk tersebut dapat ditulis menjadi:\n12×(25.000+3.000).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru hanya mengalikan 12 dengan nilai uang tunai (Rp25.000,00) lalu mengabaikan perkalian 12 pada paket alat tulis, sehingga memilih opsi D.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-2-3": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 3,
+    "source_body_index": 476,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "B. Posisi Patok B berada di sebelah kanan titik nol (0)",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. Posisi Patok B berada di sebelah kanan titik nol (0)\nEmpat orang siswa mengukur kedalaman pengerukan parit sekolah terhadap permukaan tanah netral (titik 0 meter):\nPatok A: -1,25m\nPatok B: sqrt(2)m (elevasi tanggul)\nPatok C: -(4)/(3)m\nPatok D: -1,3m\nPernyataan yang benar mengenai posisi patok-patok tersebut pada garis bilangan adalah ....\nA. Patok C ( -(4)/(3)m ) berada di sebelah kanan Patok A ( -1,25m )\nB. Posisi Patok B ( sqrt(2)m ) berada di sebelah kanan titik nol (0)\nC. Patok D ( -1,3m ) berada di antara Patok C dan Patok A\nD. Patok A berada paling kiri di antara semua patok\nPembahasan:\nUbah nilai posisi ke desimal pendekatan:\nPatok A: -1,25m\nPatok B: sqrt(2)≈+1,414m\nPatok C: -(4)/(3)≈-1,333m\nPatok D: -1,30m\nUrutan posisi pada garis bilangan dari kiri ke kanan (terkecil ke terbesar):\n-1,333<-1,30<-1,25<0<+1,414\n(Patok C) → (Patok D) → (Patok A) → (Nol) → (Patok B)\nOpsi A salah: -1,333 ada di sebelah kiri -1,25.\nOpsi B benar: sqrt(2)≈1,414>0, sehingga berada di sebelah kanan titik nol.\nOpsi C salah: -1,30 ada di antara -1,333 (C) dan -1,25 (A), namun Patok D diletakkan di antara C dan A (Analisis: -1,333<-1,30<-1,25. Ini menunjukkan Patok D memang ada di antara C dan A).\nMari cek kembali kepastian Opsi B vs C: Opsi B adalah nilai positif tunggal yang dipastikan berada di sebelah kanan nol.\nOpsi B terbukti tepat dan pasti secara definisi garis bilangan.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menganggap -(4)/(3)=-1,3 secara pasti tanpa menghitung desimal berulangnya (-1,333...), sehingga salah membandingkan Patok C dan D.",
+    "original_explanation": "Pembahasan:\nUbah nilai posisi ke desimal pendekatan:\nPatok A: -1,25m\nPatok B: sqrt(2)≈+1,414m\nPatok C: -(4)/(3)≈-1,333m\nPatok D: -1,30m\nUrutan posisi pada garis bilangan dari kiri ke kanan (terkecil ke terbesar):\n-1,333<-1,30<-1,25<0<+1,414\n(Patok C) → (Patok D) → (Patok A) → (Nol) → (Patok B)\nOpsi A salah: -1,333 ada di sebelah kiri -1,25.\nOpsi B benar: sqrt(2)≈1,414>0, sehingga berada di sebelah kanan titik nol.\nOpsi C salah: -1,30 ada di antara -1,333 (C) dan -1,25 (A), namun Patok D diletakkan di antara C dan A (Analisis: -1,333<-1,30<-1,25. Ini menunjukkan Patok D memang ada di antara C dan A).\nMari cek kembali kepastian Opsi B vs C: Opsi B adalah nilai positif tunggal yang dipastikan berada di sebelah kanan nol.\nOpsi B terbukti tepat dan pasti secara definisi garis bilangan.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menganggap -(4)/(3)=-1,3 secara pasti tanpa menghitung desimal berulangnya (-1,333...), sehingga salah membandingkan Patok C dan D.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Opsi B dan C sama-sama benar: sqrt2>0 dan -4/3<-1,3<-1,25; PG tidak unik.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-2-4": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 4,
+    "source_body_index": 529,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A. Penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional.",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A. Penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional.\nSeorang siswa kelas IX membuat empat kuis pernyataan tentang sifat-sifat himpunan bilangan real R. Manakah analisis berikut yang membuktikan bahwa pernyataan kuis tersebut SALAH (diberikan contoh penyangkal / counterexample)?\nA. Pernyataan \"Penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional\" adalah SALAH, karena sqrt(5)+(-sqrt(5))=0 (bilangan rasional).\nB. Pernyataan \"Perkalian dua bilangan bulat selalu menghasilkan bilangan bulat\" adalah SALAH, karena 3×4=12.\nC. Pernyataan \"Setiap bilangan rasional dapat ditulis dalam bentuk pecahan (a)/(b)\" adalah SALAH, karena 0,5=(1)/(2).\nD. Pernyataan \"Sifat komutatif berlaku pada penjumlahan bilangan real\" adalah SALAH, karena 2+3=3+2.\nPembahasan:\nAnalisis A (Benar): Pernyataan bahwa \"penjumlahan dua bilangan irasional selalu irasional\" adalah salah. Contoh penyangkalnya: sqrt(5) (irasional) ditambah -sqrt(5) (irasional) menghasilkan 0, di mana 0 adalah bilangan rasional ((0)/(1)). Ini membuktikan sifat penjumlahan irasional tidak tertutup.\nOpsi B, C, dan D memberikan alasan pendukung yang justru memperkuat kebenaran pernyataan asal, bukan membuktikan kesalahan.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira himpunan bilangan irasional bersifat tertutup terhadap operasi penjumlahan sebagaimana bilangan rasional.",
+    "original_explanation": "Pembahasan:\nAnalisis A (Benar): Pernyataan bahwa \"penjumlahan dua bilangan irasional selalu irasional\" adalah salah. Contoh penyangkalnya: sqrt(5) (irasional) ditambah -sqrt(5) (irasional) menghasilkan 0, di mana 0 adalah bilangan rasional ((0)/(1)). Ini membuktikan sifat penjumlahan irasional tidak tertutup.\nOpsi B, C, dan D memberikan alasan pendukung yang justru memperkuat kebenaran pernyataan asal, bukan membuktikan kesalahan.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira himpunan bilangan irasional bersifat tertutup terhadap operasi penjumlahan sebagaimana bilangan rasional.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-2-5": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 5,
+    "source_body_index": 554,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "C. Nilai p dan q keduanya merupakan bilangan rasional.",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: C. Nilai p dan q keduanya merupakan bilangan rasional.\nDiberikan dua buah bilangan real p dan q yang didefinisikan dari hasil pengamatan sampel zat kimia berikut:\np=sqrt(49)-(6)/(2)\nq=0,3333... (desimal berulang)\nHasil analisis yang paling tepat mengenai jenis kedua bilangan tersebut adalah ....\nA. Nilai p adalah irasional dan q adalah rasional\nB. Nilai p dan q keduanya merupakan bilangan irasional\nC. Nilai p dan q keduanya merupakan bilangan rasional\nD. Nilai p adalah rasional dan q adalah irasional\nPembahasan:\nAnalisis p: sqrt(49)=7, sehingga p=7-3=4. Angka 4 dapat ditulis sebagai (4)/(1), maka p tergolong bilangan rasional (bulat).\nAnalisis q: q=0,3333... adalah desimal berulang yang dapat diubah menjadi bentuk pecahan (1)/(3). Karena dapat dinyatakan dalam (a)/(b) (a,b∈Z,b≠0), maka q juga merupakan bilangan rasional.\nKesimpulan: p dan q keduanya adalah bilangan rasional.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menganggap desimal tak berakhir seperti 0,3333... pasti merupakan bilangan irasional, padahal desimal berulang merupakan bilangan rasional.",
+    "original_explanation": "Pembahasan:\nAnalisis p: sqrt(49)=7, sehingga p=7-3=4. Angka 4 dapat ditulis sebagai (4)/(1), maka p tergolong bilangan rasional (bulat).\nAnalisis q: q=0,3333... adalah desimal berulang yang dapat diubah menjadi bentuk pecahan (1)/(3). Karena dapat dinyatakan dalam (a)/(b) (a,b∈Z,b≠0), maka q juga merupakan bilangan rasional.\nKesimpulan: p dan q keduanya adalah bilangan rasional.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menganggap desimal tak berakhir seperti 0,3333... pasti merupakan bilangan irasional, padahal desimal berulang merupakan bilangan rasional.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-2-6": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 6,
+    "source_body_index": 585,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "A, B, dan C",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: A, B, dan C\nDiberikan himpunan data suhu empat ruangan penyimpanan benih tanaman di laboratorium sekolah:\nRuang A = - 2,5°C\nRuang B = -sqrt(8)°C\nRuang C = - (11)/(4)°C\nRuang D = - 2,7°C\nManakah pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Suhu Ruang C jika diubah ke desimal adalah - 2,75°C.\n[ ] B. Ruang C memiliki suhu yang paling dingin di antara semua ruangan.\n[ ] C. Nilai -sqrt(8) berada di antara - 2,7°C dan - 2,9°C.\n[ ] D. Urutan ruangan dari yang terhangat ke yang terdingin adalah C, D, B, A.\nPembahasan:\nUbah semua suhu ke bentuk desimal:\nRuang A: - 2,5°C\nRuang B: -sqrt(8) (karena sqrt(8)≈2,828)\nRuang C: - (11)/(4) = - 2,75°C\nRuang D: - 2,7°C\nAnalisis opsi:\nA (Benar): - (11)/(4) = - 2,75°C\nB (Benar): Urutan suhu dari terdingin (terkecil) ke terhangat (terbesar):\n-2,828<-2,75<-2,7<-2,5\n(Ruang B) → (Ruang C) → (Ruang D) → (Ruang A)\nKoreksi B: Suhu paling dingin adalah Ruang B (- 2,828°C). Maka B Salah.\nC (Benar): - sqrt(8)≈2,828°C, di mana -2,9<-2,828<-2,7. Pernyataan C Benar.\nD (Salah): Urutan terhangat (terbesar) ke terdingin (terkecil) adalah A (-2,5), D (-2,7), C (-2,75), B (-2,828).\nRe-evaluasi Kunci PGK 6:\nOpsi A: Benar\nOpsi B: Salah (paling dingin adalah B, bukan C)\nOpsi C: Benar (-2,828 di antara -2,7 dan -2,9)\nOpsi D: Salah\nKunci Jawaban Benar: A dan C\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengestimasi nilai sqrt(8), mengiranya bernilai 4 (karena 8÷2) sehingga mendapatkan - 4°C.",
+    "original_explanation": "Pembahasan:\nUbah semua suhu ke bentuk desimal:\nRuang A: - 2,5°C\nRuang B: -sqrt(8) (karena sqrt(8)≈2,828)\nRuang C: - (11)/(4) = - 2,75°C\nRuang D: - 2,7°C\nAnalisis opsi:\nA (Benar): - (11)/(4) = - 2,75°C\nB (Benar): Urutan suhu dari terdingin (terkecil) ke terhangat (terbesar):\n-2,828<-2,75<-2,7<-2,5\n(Ruang B) → (Ruang C) → (Ruang D) → (Ruang A)\nKoreksi B: Suhu paling dingin adalah Ruang B (- 2,828°C). Maka B Salah.\nC (Benar): - sqrt(8)≈2,828°C, di mana -2,9<-2,828<-2,7. Pernyataan C Benar.\nD (Salah): Urutan terhangat (terbesar) ke terdingin (terkecil) adalah A (-2,5), D (-2,7), C (-2,75), B (-2,828).\nRe-evaluasi Kunci PGK 6:\nOpsi A: Benar\nOpsi B: Salah (paling dingin adalah B, bukan C)\nOpsi C: Benar (-2,828 di antara -2,7 dan -2,9)\nOpsi D: Salah\nKunci Jawaban Benar: A dan C\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengestimasi nilai sqrt(8), mengiranya bernilai 4 (karena 8÷2) sehingga mendapatkan - 4°C.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Header A,B,C; nilai -sqrt(8) paling dingin sehingga klaim B salah. Pembahasan eksplisit menyimpulkan A,C.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-2-7": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 7,
+    "source_body_index": 652,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A, B, dan D",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A, B, dan D\nSeorang bendahara OSIS menganalisis dua rumus perhitungan sisa anggaran kegiatan penerimaan siswa baru:\nRumus 1: (500.000-120.000)-80.000=380.000-80.000=300.000\nRumus 2: 500.000-(120.000-80.000)=500.000-40.000=460.000\nBerdasarkan perbedaan hasil antara Rumus 1 dan Rumus 2, manakah analisis matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Perbedaan hasil tersebut membuktikan bahwa operasi pengurangan tidak bersifat asosiatif.\n[ ] B. Pengelompokan tanda kurung pada operasi pengurangan mempengaruhi hasil akhir perhitungan.\n[ ] C. Hasil Rumus 1 dan Rumus 2 bernilai sama jika dihitung menggunakan sifat komutatif.\n[ ] D. Agar Rumus 2 menghasilkan nilai yang sama dengan Rumus 1 (Rp300.000,00), bentuknya harus diubah menjadi 500.000-(120.000+80.000).\nPembahasan:\nA (Benar): (a-b)-c≠a-(b-c) membuktikan bahwa sifat asosiatif tidak berlaku pada operasi pengurangan.\nB (Benar): Perubahan letak tanda kurung mengubah urutan pengerjaan dan menghasilkan nilai yang berbeda (300.000≠460.000).\nC (Salah): Pengurangan tidak komutatif maupun asosiatif, sehingga tidak bisa disamakan dengan sifat komutatif.\nD (Benar): 500.000-(120.000+80.000)=500.000-200.000=300.000 (menggunakan sifat distributif tanda negatif terhadap penjumlahan).\nKesalahan Umum yang Diantisipasi:\nSiswa menganggap tanda kurung dapat dipindahkan secara bebas pada operasi pengurangan sebagaimana pada penjumlahan.",
+    "original_explanation": "Pembahasan:\nA (Benar): (a-b)-c≠a-(b-c) membuktikan bahwa sifat asosiatif tidak berlaku pada operasi pengurangan.\nB (Benar): Perubahan letak tanda kurung mengubah urutan pengerjaan dan menghasilkan nilai yang berbeda (300.000≠460.000).\nC (Salah): Pengurangan tidak komutatif maupun asosiatif, sehingga tidak bisa disamakan dengan sifat komutatif.\nD (Benar): 500.000-(120.000+80.000)=500.000-200.000=300.000 (menggunakan sifat distributif tanda negatif terhadap penjumlahan).\nKesalahan Umum yang Diantisipasi:\nSiswa menganggap tanda kurung dapat dipindahkan secara bebas pada operasi pengurangan sebagaimana pada penjumlahan.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-2-8": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 8,
+    "source_body_index": 686,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "B dan D",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B dan D\nDiberikan empat buah bilangan real hasil pencatatan skor permainan matematika:\nK=-3\nL=sqrt(2)\nM=(5)/(2)\nN=0\nManakah analisis operasi gabungan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Hasil perkalian K×L (yaitu -3sqrt(2)) tergolong bilangan rasional.\n[ ] B. Hasil penjumlahan K+M (yaitu -3+2,5=-0,5) tergolong bilangan rasional.\n[ ] C. Operasi pembagian (M)/(N) ((2,5)/(0)) menghasilkan bilangan real bernilai nol.\n[ ] D. Hasil perkalian L×L (yaitu sqrt(2)×sqrt(2)=2) tergolong bilangan bulat/rasional.\nPembahasan:\nA (Salah): -3×sqrt(2)=-3sqrt(2) adalah perkalian bilangan rasional bukan nol dengan bilangan irasional, yang menghasilkan bilangan irasional.\nB (Benar): -3+(5)/(2)=-(1)/(2)=-0,5, yang merupakan bilangan rasional.\nC (Salah): Pembagian dengan nol ((2,5)/(0)) tidak terdefinisi dalam himpunan bilangan real, bukan bernilai nol.\nD (Benar): sqrt(2)×sqrt(2)=sqrt(4)=2, di mana 2 adalah bilangan bulat/rasional.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira pembagian suatu bilangan dengan nol menghasilkan nol (keliru antara (0)/(a)=0 dengan (a)/(0)=tidak terdefinisi).",
+    "original_explanation": "Pembahasan:\nA (Salah): -3×sqrt(2)=-3sqrt(2) adalah perkalian bilangan rasional bukan nol dengan bilangan irasional, yang menghasilkan bilangan irasional.\nB (Benar): -3+(5)/(2)=-(1)/(2)=-0,5, yang merupakan bilangan rasional.\nC (Salah): Pembagian dengan nol ((2,5)/(0)) tidak terdefinisi dalam himpunan bilangan real, bukan bernilai nol.\nD (Benar): sqrt(2)×sqrt(2)=sqrt(4)=2, di mana 2 adalah bilangan bulat/rasional.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira pembagian suatu bilangan dengan nol menghasilkan nol (keliru antara (0)/(a)=0 dengan (a)/(0)=tidak terdefinisi).",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-1-2-9": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 9,
+    "source_body_index": 724,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nTiga buah kedai minuman di area kuliner sekolah mencatat suhu penyajian produk es krim mereka:\nKedai Merah: - 1,8°C\nKedai Kuning: - (7)/(4)°C\nKedai Hijau: -sqrt(3)°C\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut berdasarkan data suhu penyajian tersebut!\nPernyataan | \nBenar | \nSalah\n\n(a) Suhu Kedai Kuning (- (7)/(4)°C) jika dinyatakan dalam desimal adalah - 1,75°C. | \n | \n\n\n(b) Kedai Merah (- 1,8°C) memiliki suhu penyajian yang lebih hangat daripada Kedai Kuning (- 1,75°C) | \n | \n\n\n(c) Urutan kedai dari yang memiliki suhu penyajian paling dingin ke paling hangat adalah Kedai Merah, Kedai Kuning, Kedai Hijau. | \n |\nPembahasan:\nNilai desimal masing-masing suhu:\nKedai Merah: - 1,8°C\nKedai Kuning: - (7)/(4) = - 1,75°C\nKedai Hijau:  -sqrt(3) ≈ - 1,732°C\nAnalisis per baris:\n(a) BENAR: -(7)/(4)=-1,75.\n(b) SALAH: -1,8<-1,75, yang berarti Kedai Merah justru lebih dingin (nilai lebih kecil), bukan lebih hangat.\n(c) BENAR: Urutan dari terkecil (paling dingin) ke terbesar (paling hangat):\n-1,8<-1,75<-1,732→ Kedai Merah, Kedai Kuning, Kedai Hijau.\nKesalahan Umum yang Diantisipasi:\nSiswa sering terkecoh menganggap -1,8 lebih besar nilainya daripada -1,75 karena membandingkan 1,8 dengan 1,75 tanpa memperhatikan tanda negatif.",
+    "original_explanation": "Pembahasan:\nNilai desimal masing-masing suhu:\nKedai Merah: - 1,8°C\nKedai Kuning: - (7)/(4) = - 1,75°C\nKedai Hijau:  -sqrt(3) ≈ - 1,732°C\nAnalisis per baris:\n(a) BENAR: -(7)/(4)=-1,75.\n(b) SALAH: -1,8<-1,75, yang berarti Kedai Merah justru lebih dingin (nilai lebih kecil), bukan lebih hangat.\n(c) BENAR: Urutan dari terkecil (paling dingin) ke terbesar (paling hangat):\n-1,8<-1,75<-1,732→ Kedai Merah, Kedai Kuning, Kedai Hijau.\nKesalahan Umum yang Diantisipasi:\nSiswa sering terkecoh menganggap -1,8 lebih besar nilainya daripada -1,75 karena membandingkan 1,8 dengan 1,75 tanpa memperhatikan tanda negatif.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-1-2-10": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 10,
+    "source_body_index": 763,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nSeorang peneliti muda di sekolah menganalisis struktur himpunan bilangan real R melalui tiga buah pernyataan hipotesis:\nTentukan status BENAR atau SALAH untuk setiap pernyataan hipotesis berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Jika x adalah bilangan rasional dan y adalah bilangan irasional, maka hasil kali x×y (dengan x≠0) pasti berupa bilangan irasional. | \n | \n\n\n(b) Himpunan bilangan real R merupakan gabungan dari himpunan bilangan rasional dan himpunan bilangan irasional. | \n | \n\n\n(c) Terdapat sebuah bilangan real yang dapat tergolong sebagai bilangan rasional sekaligus bilangan irasional. | \n |\nPembahasan:\n(a) BENAR: Perkalian bilangan rasional bukan nol dengan bilangan irasional selalu menghasilkan bilangan irasional (misal: 2×sqrt(3)=2sqrt(3)).\n(b) BENAR: Definisi dasar bilangan real (R) adalah himpunan yang terdiri dari seluruh bilangan rasional (Q) dan irasional (I), di mana R=Q∪I.\n(c) SALAH: Himpunan bilangan rasional dan irasional bersifat saling lepas (disjoint set), artinya tidak ada satu pun bilangan yang bisa menjadi rasional dan irasional bersamaan (Q ∩ I=∅).\nKesalahan Umum yang Diantisipasi:\nSiswa mengira bilangan seperti (22)/(7) atau sqrt(9) termasuk ke dalam kedua jenis kelompok (rasional dan irasional), padahal setiap bilangan real pasti termasuk tepat ke salah satu jenis saja.",
+    "original_explanation": "Pembahasan:\n(a) BENAR: Perkalian bilangan rasional bukan nol dengan bilangan irasional selalu menghasilkan bilangan irasional (misal: 2×sqrt(3)=2sqrt(3)).\n(b) BENAR: Definisi dasar bilangan real (R) adalah himpunan yang terdiri dari seluruh bilangan rasional (Q) dan irasional (I), di mana R=Q∪I.\n(c) SALAH: Himpunan bilangan rasional dan irasional bersifat saling lepas (disjoint set), artinya tidak ada satu pun bilangan yang bisa menjadi rasional dan irasional bersamaan (Q ∩ I=∅).\nKesalahan Umum yang Diantisipasi:\nSiswa mengira bilangan seperti (22)/(7) atau sqrt(9) termasuk ke dalam kedua jenis kelompok (rasional dan irasional), padahal setiap bilangan real pasti termasuk tepat ke salah satu jenis saja.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Hipotesis struktur bilangan universal tetap; template konseptual setara belum tersedia.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-3-1": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 1,
+    "source_body_index": 788,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "B. Analisis II",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B. Analisis II\nEmpat orang siswa menganalisis hasil pengukuran suhu ruang pendingin buah di sebuah toko kelontong. Perubahan suhu relatif terhadap titik acuan standar ($0^\\circ\\text{C}$) dicatat oleh keempat siswa tersebut:\nDina: - 2,4°C\nEko: - sqrt(7) °C\nFani: - (13)/(5) °C\nGilang: -2,65°C\nKeempat siswa memberikan hasil analisis urutan suhu dari yang paling dingin (paling kecil) ke yang paling hangat (paling besar) sebagai berikut:\nAnalisis I (Dina): -sqrt(7)<-(13)/(5)<-2,65<-2,4\nAnalisis II (Eko): -sqrt(7)<-2,65<-(13)/(5)<-2,4\nAnalisis III (Fani): -(13)/(5)<-2,65<-sqrt(7)<-2,4\nAnalisis IV (Gilang): -2,4<-(13)/(5)<-2,65<-sqrt(7)\nAnalisis siapakah yang memberikan urutan paling tepat berdasarkan konsep garis bilangan?\nA. Analisis I\nB. Analisis II\nC. Analisis III\nD. Analisis IV\nPembahasan:\nUbah seluruh nilai ke bentuk desimal untuk membandingkan posisi pada garis bilangan:\nDina: - 2,4°C\nEko: -sqrt(7 ) ≈ -2,64575...°C (karena 2,64575..(.)^(2)≈7)\nFani: - (13)/(5) °C = - 2,60°C\nGilang: - 2,65°C\nBandingkan nilai-nilai desimal negatif tersebut. Semakin besar angka negatifnya, nilainya semakin kecil (makin ke kiri pada garis bilangan):\n-2,65<-2,64575...<-2,60<-2,4\n-2,65<-sqrt(7)<-(13)/(5)<-2,4\nUrutan dari yang paling dingin ke paling hangat divalidasi oleh Analisis II (Eko).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengestimasi nilai sqrt(7) (misalnya menganggap sqrt(7)≈3,5 karena 7÷2), atau salah membandingkan desimal negatif -2,65 dengan -2,60 dan -2,64575....",
+    "original_explanation": "Pembahasan:\nUbah seluruh nilai ke bentuk desimal untuk membandingkan posisi pada garis bilangan:\nDina: - 2,4°C\nEko: -sqrt(7) ≈ -2,64575...°C (karena 2,64575..(.)^(2)≈7)\nFani: - (13)/(5) °C = - 2,60°C\nGilang: - 2,65°C\nBandingkan nilai-nilai desimal negatif tersebut. Semakin besar angka negatifnya, nilainya semakin kecil (makin ke kiri pada garis bilangan):\n-2,65<-2,64575...<-2,60<-2,4\n-2,65<-sqrt(7)<-(13)/(5)<-2,4\nUrutan dari yang paling dingin ke paling hangat divalidasi oleh Analisis II (Eko).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengestimasi nilai sqrt(7) (misalnya menganggap sqrt(7)≈3,5 karena 7÷2), atau salah membandingkan desimal negatif -2,65 dengan -2,60 dan -2,64575....",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Urutan benar -2,65 < -sqrt7 < -13/5 < -2,4; AnalisisII menukar dua nilai pertama, tidak ada opsi urutan benar.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-3-2": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 2,
+    "source_body_index": 842,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "C. 16×(35.000+5.000)",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: C. 16×(35.000+5.000)\nPengurus OSIS SMP Cendekia menghitung total biaya pengadaan perlengkapan lomba antar-kelas. Sebanyak 16 piala penghargaan dibeli dengan harga Rp35.000,00 per piala dan setiap piala dipasangi pita hias seharga Rp5.000,00 per buah.\nDua orang panitia menganalisis metode perhitungan total biaya:\nMetode A: Menghitung total piala terlebih dahulu (16×35.000), lalu ditambah total pita hias (16×5.000).\nMetode B: Menggabungkan harga piala dan pita hias per unit terlebih dahulu, lalu dikalikan dengan banyak unit piala.\nBentuk penyederhanaan perhitungan Metode B yang memanfaatkan Sifat Distributif perkalian terhadap penjumlahan adalah ....\nA. (16+35.000)×(16+5.000)\nB. 16×(35.000×5.000)\nC. 16×(35.000+5.000)\nD. (16×35.000)+5.000\nPembahasan:\nPerhitungan Metode A dinyatakan dalam bentuk: (16×35.000)+(16×5.000).\nDengan mengoperasikan sifat distributif perkalian terhadap penjumlahan a⋅b+a⋅c=a⋅(b+c), bentuk tersebut disederhanakan menjadi:\n16×(35.000+5.000).\nIni membuktikan bahwa Metode B memfaktorkan angka 16 untuk mempermudah perhitungan aljabar.\nKesalahan Umum yang Diantisipasi:\nSiswa sering salah memilih opsi D karena tidak mendistribusikan multiplier 16 ke kedua suku dalam kurung.",
+    "original_explanation": "Pembahasan:\nPerhitungan Metode A dinyatakan dalam bentuk: (16×35.000)+(16×5.000).\nDengan mengoperasikan sifat distributif perkalian terhadap penjumlahan a⋅b+a⋅c=a⋅(b+c), bentuk tersebut disederhanakan menjadi:\n16×(35.000+5.000).\nIni membuktikan bahwa Metode B memfaktorkan angka 16 untuk mempermudah perhitungan aljabar.\nKesalahan Umum yang Diantisipasi:\nSiswa sering salah memilih opsi D karena tidak mendistribusikan multiplier 16 ke kedua suku dalam kurung.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-3-3": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 3,
+    "source_body_index": 877,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A. Pernyataan kuis \"Perkalian dua bilangan irasional selalu menghasilkan bilangan irasional\" adalah SALAH, karena sqrt(3)×sqrt(3)=3 (bilangan rasional).",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A. Pernyataan kuis \"Perkalian dua bilangan irasional selalu menghasilkan bilangan irasional\" adalah SALAH, karena sqrt(3)×sqrt(3)=3 (bilangan rasional).\nSeorang ketua klub matematika menyusun empat klaim kuis untuk diuji kebenarannya oleh para anggota klub. Manakah analisis kuis di bawah ini yang berhasil membuktikan bahwa klaim awal SALAH dengan menyajikan contoh penyangkal (counterexample) yang tepat?\nA. Klaim \"Perkalian dua bilangan irasional selalu menghasilkan bilangan irasional\" adalah SALAH, karena sqrt(3)×sqrt(3)=3 (bilangan rasional).\nB. Klaim \"Pengurangan dua bilangan bulat selalu menghasilkan bilangan bulat\" adalah SALAH, karena 5-8=-3.\nC. Klaim \"Setiap bilangan bulat positif termasuk bilangan asli\" adalah SALAH, karena 1 adalah bilangan asli.\nD. Klaim \"Operasi penjumlahan bilangan real memenuhi sifat komutatif\" adalah SALAH, karena 4+2=2+4.\nPembahasan:\nAnalisis A (Benar): Klaim bahwa hasil kali dua bilangan irasional selalu irasional terbukti salah. Contoh penyangkalnya: sqrt(3) (irasional) dikalikan sqrt(3) (irasional) menghasilkan 3, padahal 3 adalah bilangan bulat/rasional ((3)/(1)). Hal ini menganalisis bahwa himpunan bilangan irasional tidak tertutup terhadap operasi perkalian.\nOpsi B, C, dan D tidak memberikan contoh penyangkal yang membatalkan klaim; sebaliknya, pilihan tersebut justru mengkonfirmasi aturan matematika yang berlaku.\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengira sifat tertutup berlaku universal pada semua jenis himpunan bilangan untuk semua operasi aritmetika.",
+    "original_explanation": "Pembahasan:\nAnalisis A (Benar): Klaim bahwa hasil kali dua bilangan irasional selalu irasional terbukti salah. Contoh penyangkalnya: sqrt(3) (irasional) dikalikan sqrt(3) (irasional) menghasilkan 3, padahal 3 adalah bilangan bulat/rasional ((3)/(1)). Hal ini menganalisis bahwa himpunan bilangan irasional tidak tertutup terhadap operasi perkalian.\nOpsi B, C, dan D tidak memberikan contoh penyangkal yang membatalkan klaim; sebaliknya, pilihan tersebut justru mengkonfirmasi aturan matematika yang berlaku.\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengira sifat tertutup berlaku universal pada semua jenis himpunan bilangan untuk semua operasi aritmetika.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-3-4": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 4,
+    "source_body_index": 899,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "B. Bilangan a adalah irasional dan b adalah rasional.",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B. Bilangan a adalah irasional dan b adalah rasional.\nSeorang peneliti muda menganalisis dua buah nilai konstanta fisika sederhana a dan b dari pengukuran di laboratorium:\na=sqrt(18)-sqrt(2)\nb=0,121212... (desimal berulang)\nManakah kesimpulan yang paling tepat berdasarkan analisis sifat dan jenis bilangan real untuk kedua nilai tersebut?\nA. Bilangan a dan b keduanya merupakan bilangan irasional.\nB. Bilangan a adalah irasional dan b adalah rasional.\nC. Bilangan a dan b keduanya merupakan bilangan rasional.\nD. Bilangan a adalah rasional dan b adalah irasional.\nPembahasan:\nAnalisis a: Sederhanakan bentuk akar a=sqrt(18)-sqrt(2)=sqrt(9×2)-sqrt(2)=3sqrt(2)-sqrt(2)=2sqrt(2). Karena 2sqrt(2)≈2,828427... merupakan bentuk akar yang tak dapat diubah ke pecahan biasa (m)/(n) (m,n∈Z), maka a tergolong bilangan irasional.\nAnalisis b: b=0,121212... merupakan desimal tak berakhir tetapi berulang teratur. Bilangan ini dapat diubah ke pecahan biasa (12)/(99)=(4)/(33). Karena dapat dinyatakan dalam (m)/(n), maka b tergolong bilangan rasional.\nKesimpulan: a adalah bilangan irasional dan b adalah bilangan rasional.\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan sqrt(18)-sqrt(2)=sqrt(16)=4, lalu secara keliru menyimpulkan a sebagai bilangan rasional.",
+    "original_explanation": "Pembahasan:\nAnalisis a: Sederhanakan bentuk akar a=sqrt(18)-sqrt(2)=sqrt(9×2)-sqrt(2)=3sqrt(2)-sqrt(2)=2sqrt(2). Karena 2sqrt(2)≈2,828427... merupakan bentuk akar yang tak dapat diubah ke pecahan biasa (m)/(n) (m,n∈Z), maka a tergolong bilangan irasional.\nAnalisis b: b=0,121212... merupakan desimal tak berakhir tetapi berulang teratur. Bilangan ini dapat diubah ke pecahan biasa (12)/(99)=(4)/(33). Karena dapat dinyatakan dalam (m)/(n), maka b tergolong bilangan rasional.\nKesimpulan: a adalah bilangan irasional dan b adalah bilangan rasional.\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan sqrt(18)-sqrt(2)=sqrt(16)=4, lalu secara keliru menyimpulkan a sebagai bilangan rasional.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-1-3-5": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 5,
+    "source_body_index": 929,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "D. p berada di antara r dan q pada garis bilangan.",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: D. p berada di antara r dan q pada garis bilangan.\nTiga lokasi pos penataan taman sekolah diukur posisinya (dalam meter) terhadap tiang bendera utama (titik 0 meter):\nPos p=-(9)/(4)m\nPos q=-sqrt(5)m\nPos r=-2,35m\nBerdasarkan analisis kedudukan ketiga pos tersebut pada garis bilangan, manakah hubungan posisi yang pasti benar?\nA. Pos q berada paling kanan di antara semua pos.\nB. Pos r terletak di sebelah kiri Pos q.\nC. Pos p terletak di sebelah kiri Pos r.\nD. Pos p berada di antara Pos r dan Pos q pada garis bilangan.\nPembahasan:\nUbah nilai kedudukan ketiga pos ke bentuk desimal:\nPos p: -(9)/(4)=-2,25m\nPos q: -sqrt(5)≈-2,23606...m (karena 2,23606..(.)^(2)=5)\nPos r: -2,35m\nBandingkan ketiga bilangan negatif tersebut pada garis bilangan:\n-2,35<-2,25<-2,23606...\n(Pos r) → (Pos p) → (Pos q)\nAnalisis opsi:\nOpsi A salah: Pos q (-2,23606...) adalah nilai terbesar (paling kanan), namun opsi D menyajikan analisis relasi posisi antar suku secara spesifik.\nOpsi B salah: r (-2,35) ada di sebelah kiri q (-2,23606...), pernyataan B benar jika tidak ada opsi posisi tengah. Namun mari cek D: p (-2,25) terletak di antara r (-2,35) dan q (-2,236...).\nOpsi D terbukti pasti benar karena -2,35<-2,25<-2,236....\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengira sqrt(5)≈2,5, sehingga mendapatkan q=-2,5 dan salah dalam menyusun urutan posisi.",
+    "original_explanation": "Pembahasan:\nUbah nilai kedudukan ketiga pos ke bentuk desimal:\nPos p: -(9)/(4)=-2,25m\nPos q: -sqrt(5)≈-2,23606...m (karena 2,23606..(.)^(2)=5)\nPos r: -2,35m\nBandingkan ketiga bilangan negatif tersebut pada garis bilangan:\n-2,35<-2,25<-2,23606...\n(Pos r) → (Pos p) → (Pos q)\nAnalisis opsi:\nOpsi A salah: Pos q (-2,23606...) adalah nilai terbesar (paling kanan), namun opsi D menyajikan analisis relasi posisi antar suku secara spesifik.\nOpsi B salah: r (-2,35) ada di sebelah kiri q (-2,23606...), pernyataan B benar jika tidak ada opsi posisi tengah. Namun mari cek D: p (-2,25) terletak di antara r (-2,35) dan q (-2,236...).\nOpsi D terbukti pasti benar karena -2,35<-2,25<-2,236....\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengira sqrt(5)≈2,5, sehingga mendapatkan q=-2,5 dan salah dalam menyusun urutan posisi.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Opsi A,B,D benar: r=-2,35 < p=-2,25 < q=-sqrt5; PG tidak unik.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-3-6": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 6,
+    "source_body_index": 973,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A, B, dan C",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A, B, dan C\nDiberikan empat data posisi titik elevasi saluran air di lapangan sekolah terhadap titik netral (0m):\nW=-3,2 m\nX=-sqrt(10 )m\nY=-(16)/(5) m\nZ=-3,12 m\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Posisi saluran W dan Y berada pada titik elevasi yang persis sama.\n[ ] B. Saluran X memiliki posisi paling dalam (paling jauh di sebelah kiri titik 0).\n[ ] C. Nilai elevasi Z (-3,12m) lebih besar daripada nilai elevasi W (-3,2m).\n[ ] D. Urutan saluran dari yang paling dangkal (terbesar) ke paling dalam (terkecil) adalah X,W,Y,Z.\nPembahasan:\nKonversikan seluruh data ke bentuk desimal:\nW=-3,20m\nX=-sqrt(10)≈-3,16227...m (karena 3,16227..(.)^(2)≈10)\nY=-(16)/(5)=-3,20m\nZ=-3,12m\nAnalisis per opsi:\nA (Benar): W=-3,20 dan Y=-3,20, maka nilainya identik/sama persis.\nB (Salah): Urutan nilai pada garis bilangan dari terkecil ke terbesar:\n-3,20(W,Y)<-3,16227...(X)<-3,12(Z).\nPosisi paling dalam/terkecil dialami oleh W dan Y, bukan X.\nC (Benar): Karena -3,12>-3,20, maka elevasi Z lebih besar dari W.\nD (Salah): Urutan dari paling dangkal (terbesar) ke paling dalam (terkecil) adalah Z, X, lalu W dan Y.\nRe-evaluasi Kunci PGK 6:\nOpsi A dan C terbukti Benar.\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengestimasi nilai sqrt(10), mengiranya bernilai 5 (karena 10÷2) sehingga menganggap X=-5m sebagai posisi paling dalam.",
+    "original_explanation": "Pembahasan:\nKonversikan seluruh data ke bentuk desimal:\nW=-3,20m\nX=-sqrt(10)≈-3,16227...m (karena 3,16227..(.)^(2)≈10)\nY=-(16)/(5)=-3,20m\nZ=-3,12m\nAnalisis per opsi:\nA (Benar): W=-3,20 dan Y=-3,20, maka nilainya identik/sama persis.\nB (Salah): Urutan nilai pada garis bilangan dari terkecil ke terbesar:\n-3,20(W,Y)<-3,16227...(X)<-3,12(Z).\nPosisi paling dalam/terkecil dialami oleh W dan Y, bukan X.\nC (Benar): Karena -3,12>-3,20, maka elevasi Z lebih besar dari W.\nD (Salah): Urutan dari paling dangkal (terbesar) ke paling dalam (terkecil) adalah Z, X, lalu W dan Y.\nRe-evaluasi Kunci PGK 6:\nOpsi A dan C terbukti Benar.\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengestimasi nilai sqrt(10), mengiranya bernilai 5 (karena 10÷2) sehingga menganggap X=-5m sebagai posisi paling dalam.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Header A,B,C; W=Y=-3,2 lebih kecil dari X=-sqrt(10), sehingga klaim B salah. Pembahasan menyimpulkan A,C.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-3-7": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 7,
+    "source_body_index": 1029,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A, B, dan D",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A, B, dan D\nSeorang panitia koperasi sekolah menganalisis kegagalan kesamaan hasil pada dua model transaksi keuangan bulanan:\nModel I: (1.200.000-400.000)-150.000=800.000-150.000=650.000\nModel II: 1.200.000-(400.000-150.000)=1.200.000-250.000=950.000\nManakah analisis matematika yang benar untuk menjelaskan ketidaksamaan hasil transaksi di atas? (Jawaban benar dapat lebih dari satu)\n[ ] A. Ketidaksamaan tersebut membuktikan bahwa operasi pengurangan pada bilangan real tidak memenuhi sifat asosiatif.\n[ ] B. Perubahan posisi tanda kurung pada operasi pengurangan mengubah makna dan hasil perhitungan.\n[ ] C. Model I dan Model II akan menghasilkan nilai yang sama jika dihitung menggunakan sifat komutatif.\n[ ] D. Bentuk Model II ekuivalen dengan 1.200.000-400.000+150.000=950.000 sesuai sifat distributif tanda negatif.\nPembahasan:\nA (Benar): Ketiadaan kesamaan (a-b)-c≠a-(b-c) menegaskan bahwa sifat pengelompokan (asosiatif) tidak berlaku pada operasi pengurangan.\nB (Benar): Pengelompokan menentukan urutan prioritas operasi hitung, yang pada pengurangan mempengaruhi nilai akhir.\nC (Salah): Pengurangan tidak komutatif maupun asosiatif, sehingga tidak bisa disamakan melalui sifat komutatif.\nD (Benar): -(400.000-150.000)=-400.000+150.000 sesuai aturan distributif perkalian tanda negatif terhadap tanda di dalam kurung.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira tanda minus di depan kurung pada Model II tidak mengubah tanda negatif di dalam kurung menjadi positif.",
+    "original_explanation": "Pembahasan:\nA (Benar): Ketiadaan kesamaan (a-b)-c≠a-(b-c) menegaskan bahwa sifat pengelompokan (asosiatif) tidak berlaku pada operasi pengurangan.\nB (Benar): Pengelompokan menentukan urutan prioritas operasi hitung, yang pada pengurangan mempengaruhi nilai akhir.\nC (Salah): Pengurangan tidak komutatif maupun asosiatif, sehingga tidak bisa disamakan melalui sifat komutatif.\nD (Benar): -(400.000-150.000)=-400.000+150.000 sesuai aturan distributif perkalian tanda negatif terhadap tanda di dalam kurung.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira tanda minus di depan kurung pada Model II tidak mengubah tanda negatif di dalam kurung menjadi positif.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-1-3-8": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 8,
+    "source_body_index": 1062,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A, C, dan D",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A, C, dan D\nDiberikan empat buah bilangan real K,L,M, dan N yang mewakili skor pengamatan eksperimen:\nK=-4\nL=sqrt(5)\nM=(3)/(2)\nN=0\nManakah hasil analisis operasi gabungan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Hasil perkalian K×L (yaitu -4sqrt(5)) merupakan bilangan irasional.\n[ ] B. Pembagian (M)/(N) ((1,5)/(0)) menghasilkan nilai nol dalam himpunan bilangan real.\n[ ] C. Penjumlahan K+M (yaitu -4+1,5=-2,5) tergolong bilangan rasional.\n[ ] D. Perkalian L×L (yaitu sqrt(5)×sqrt(5)=5) menghasilkan bilangan bulat/rasional.\nPembahasan:\nA (Benar): Perkalian bilangan rasional bukan nol (-4) dengan bilangan irasional (sqrt(5)) menghasilkan bilangan irasional (-4sqrt(5)).\nB (Salah): Pembagian bilangan real dengan nol ((1,5)/(0)) tidak terdefinisi (undefined), bukan bernilai nol.\nC (Benar): -4+1,5=-2,5=-(5)/(2), yang merupakan bilangan rasional.\nD (Benar): sqrt(5)×sqrt(5)=sqrt(25)=5, di mana 5 adalah bilangan bulat (rasional).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru membedakan antara pembagian nol dengan suatu bilangan ((0)/(a)=0) dan pembagian suatu bilangan dengan nol ((a)/(0)=tidak terdefinisi).",
+    "original_explanation": "Pembahasan:\nA (Benar): Perkalian bilangan rasional bukan nol (-4) dengan bilangan irasional (sqrt(5)) menghasilkan bilangan irasional (-4sqrt(5)).\nB (Salah): Pembagian bilangan real dengan nol ((1,5)/(0)) tidak terdefinisi (undefined), bukan bernilai nol.\nC (Benar): -4+1,5=-2,5=-(5)/(2), yang merupakan bilangan rasional.\nD (Benar): sqrt(5)×sqrt(5)=sqrt(25)=5, di mana 5 adalah bilangan bulat (rasional).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru membedakan antara pembagian nol dengan suatu bilangan ((0)/(a)=0) dan pembagian suatu bilangan dengan nol ((a)/(0)=tidak terdefinisi).",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-1-3-9": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 9,
+    "source_body_index": 1099,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nTiga tim laboratorium menguji batas pembekuan larutan garam (dalam $^\\circ\\text{C}$):\nTim Alpha: - 1,6 °C\nTim Beta: -(5)/(3) °C\nTim Gamma: -sqrt(2) °C\nTentukan status BENAR atau SALAH untuk setiap hasil analisis pernyataan berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Suhu pembekuan Tim Beta (-(5)/(3) °C) jika dinyatakan dalam desimal berulang adalah (-1,666...°C). | \n | \n\n\n(b) Batas pembekuan Tim Alpha (-1,6°C) lebih dingin (lebih kecil) daripada Tim Beta (-1,666...°C). | \n | \n\n\n(c) Urutan tim dari yang memiliki batas pembekuan paling dingin ke paling hangat adalah Tim Beta, Tim Alpha, Tim Gamma. | \n |\nPembahasan:\nData desimal masing-masing tim:\nTim Alpha: - 1,60 °C\nTim Beta: - 1,666...°C\nTim Gamma: -sqrt(2)≈ -1,414...°C\nAnalisis per baris:\n(a) BENAR: -(5)/(3)  = - 1,666...°C (desimal berulang teratur).\n(b) SALAH: -1,60>-1,666..., sehingga Tim Alpha justru lebih hangat (nilai lebih besar) daripada Tim Beta.\n(c) BENAR: Urutan dari terkecil (paling dingin) ke terbesar (paling hangat):\n-1,666...<-1,60<-1,414...→ Tim Beta, Tim Alpha, Tim Gamma.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira -1,6 lebih kecil dari -1,666... karena angka 1,6 terlihat lebih pendek dari 1,666..., tanpa menyelaraskan jumlah digit desimalnya (-1,600 vs -1,666).",
+    "original_explanation": "Pembahasan:\nData desimal masing-masing tim:\nTim Alpha: - 1,60 °C\nTim Beta: - 1,666...°C\nTim Gamma: -sqrt(2)≈ -1,414...°C\nAnalisis per baris:\n(a) BENAR: -(5)/(3)  = - 1,666...°C (desimal berulang teratur).\n(b) SALAH: -1,60>-1,666..., sehingga Tim Alpha justru lebih hangat (nilai lebih besar) daripada Tim Beta.\n(c) BENAR: Urutan dari terkecil (paling dingin) ke terbesar (paling hangat):\n-1,666...<-1,60<-1,414...→ Tim Beta, Tim Alpha, Tim Gamma.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira -1,6 lebih kecil dari -1,666... karena angka 1,6 terlihat lebih pendek dari 1,666..., tanpa menyelaraskan jumlah digit desimalnya (-1,600 vs -1,666).",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-1-3-10": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 10,
+    "source_body_index": 1135,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nSeorang tim ahli matematika sekolah menganalisis struktur hubungan himpunan bilangan pada sistem bilangan real R:\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Jika x adalah bilangan rasional bukan nol dan y adalah bilangan irasional, maka x×y tidak pernah menghasilkan bilangan rasional. | \n | \n\n\n(b) Himpunan bilangan asli N merupakan himpunan bagian (subset) dari himpunan bilangan bulat Z dan himpunan bilangan rasional Q. | \n | \n\n\n(c) Terdapat setidaknya satu bilangan real yang dapat dinyatakan sebagai pecahan biasa (a)/(b) sekaligus memiliki bentuk desimal tak berakhir dan tak berulang. | \n |\nPembahasan:\n(a) BENAR: Perkalian bilangan rasional bukan nol dengan bilangan irasional selalu menghasilkan bilangan irasional (misal: 3×sqrt(2)=3sqrt(2)).\n(b) BENAR: Setiap bilangan asli (1,2,3,...) juga merupakan bilangan bulat dan dapat ditulis dalam bentuk pecahan (n)/(1) (rasional), sehingga N⊂Z⊂Q.\n(c) SALAH: Bilangan yang dapat dinyatakan dalam pecahan (a)/(b) adalah definisi bilangan rasional, sedangkan desimal tak berakhir dan tak berulang adalah definisi bilangan irasional. Kedua himpunan ini bersifat saling lepas (Q ∩ I=∅), sehingga tidak ada bilangan yang memenuhi kedua kriteria tersebut sekaligus.\nKesalahan Umum yang Diantisipasi:\nSiswa sering tertukar antara sifat desimal berulang (rasional) dengan desimal tak berulang (irasional).",
+    "original_explanation": "Pembahasan:\n(a) BENAR: Perkalian bilangan rasional bukan nol dengan bilangan irasional selalu menghasilkan bilangan irasional (misal: 3×sqrt(2)=3sqrt(2)).\n(b) BENAR: Setiap bilangan asli (1,2,3,...) juga merupakan bilangan bulat dan dapat ditulis dalam bentuk pecahan (n)/(1) (rasional), sehingga N⊂Z⊂Q.\n(c) SALAH: Bilangan yang dapat dinyatakan dalam pecahan (a)/(b) adalah definisi bilangan rasional, sedangkan desimal tak berakhir dan tak berulang adalah definisi bilangan irasional. Kedua himpunan ini bersifat saling lepas (Q ∩ I=∅), sehingga tidak ada bilangan yang memenuhi kedua kriteria tersebut sekaligus.\nKesalahan Umum yang Diantisipasi:\nSiswa sering tertukar antara sifat desimal berulang (rasional) dengan desimal tak berulang (irasional).",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Hipotesis struktur bilangan universal tetap; template konseptual setara belum tersedia.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-1-1": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 1,
+    "source_body_index": 1953,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "B. Rp18.500,00",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. Rp18.500,00\nSeorang siswa SMP memiliki saldo awal pada kartu kantin elektronik sebesar Rp50.000,00. Dalam satu minggu, ia melakukan transaksi berikut:\nMembeli makan siang seharga Rp18.000,00.\nMengisi ulang (top up) saldo sebesar Rp20.000,00.\nMembeli alat tulis seharga Rp12.500,00 dan es krim seharga Rp6.000,00.\nMendapatkan pengembalian tunai (cashback) ke kartu sebesar Rp5.000,00.\nBerapa saldo akhir pada kartu kantin elektronik siswa tersebut?\nA. Rp17.500,00\nB. Rp18.500,00\nC. Rp20.500,00\nD. Rp22.500,00\nPembahasan:\nTentukan nilai operasi dengan memperhatikan arah transaksi (pengeluaran bernilai negatif, pemasukan/top up/cashback bernilai positif):\nSaldo Akhir 50.000-18.000+20.000-12.500-6.000+5.000\n=32.000+20.000-12.500-6.000+5.000\n=52.000-12.500-6.000+5.000\n=39.500-6.000+5.000\n=33.500+5.000=38.500\nHitung ulang secara langsung:\n50.000+(20.000+5.000)-(18.000+12.500+6.000)\n=50.000+25.000-36.500=38.500\nAgar opsi tepat: Misalkan pengeluaran es krim Rp16.000,00, maka 75.000-46.500=28.500.\nMari sesuaikan angka pada soal agar jawaban eksak 18.500:\nJika saldo awal Rp30.000,00:\nSaldo Akhir=30.000+25.000-36.500=18.500\nSoal Disesuaikan:\nSaldo awal Rp30.000,00, top up Rp20.000,00, cashback Rp5.000,00. Pengeluaran: makan Rp18.000,00, alat tulis Rp12.500,00, es krim Rp6.000,00.\nTotal Saldo=30.000-18.000+20.000-12.500-6.000+5.000=18.500\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengalihkan seluruh nilai menjadi penjumlahan tanpa membedakan mana transaksi pengeluaran dan pemasukan/pengembalian tunai.",
+    "original_explanation": "Pembahasan:\nTentukan nilai operasi dengan memperhatikan arah transaksi (pengeluaran bernilai negatif, pemasukan/top up/cashback bernilai positif):\nSaldo Akhir 50.000-18.000+20.000-12.500-6.000+5.000\n=32.000+20.000-12.500-6.000+5.000\n=52.000-12.500-6.000+5.000\n=39.500-6.000+5.000\n=33.500+5.000=38.500\nHitung ulang secara langsung:\n50.000+(20.000+5.000)-(18.000+12.500+6.000)\n=50.000+25.000-36.500=38.500\nAgar opsi tepat: Misalkan pengeluaran es krim Rp16.000,00, maka 75.000-46.500=28.500.\nMari sesuaikan angka pada soal agar jawaban eksak 18.500:\nJika saldo awal Rp30.000,00:\nSaldo Akhir=30.000+25.000-36.500=18.500\nSoal Disesuaikan:\nSaldo awal Rp30.000,00, top up Rp20.000,00, cashback Rp5.000,00. Pengeluaran: makan Rp18.000,00, alat tulis Rp12.500,00, es krim Rp6.000,00.\nTotal Saldo=30.000-18.000+20.000-12.500-6.000+5.000=18.500\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengalihkan seluruh nilai menjadi penjumlahan tanpa membedakan mana transaksi pengeluaran dan pemasukan/pengembalian tunai.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Saldo dari stimulus 38.500 tidak ada pada opsi; header B=18.500 mengikuti usulan revisi saldo awal dalam pembahasan.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-1-2": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 2,
+    "source_body_index": 2003,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "C. 19",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: C. 19\nDalam suatu kegiatan kuis matematika kelompok, aturan penilaian ditentukan sebagai berikut:\nJawaban benar diberi nilai +4.\nJawaban salah diberi nilai -2.\nSoal yang tidak dijawab diberi nilai -1.\nDari total 25 soal yang diberikan, Kelompok A berhasil menjawab benar 16 soal, tidak menjawab 3 soal, dan sisanya dijawab salah. Menggunakan hirarki operasi hitung campuran, total nilai yang diperoleh Kelompok A adalah ....\nA. 43\nB. 49\nC. 49\nD. 52\nPembahasan:\nBanyak soal dijawab salah = Total Soal - (Benar + Tidak Dijawab) = 25-(16+3)=25-19=6 soal.\nTerapkan aturan penilaian:\nTotal Penilaian =(16×4)+(6×(-2))+(3×(-1))\n=64+(-12)+(-3)\n=64-12-3=49\nJawaban yang tepat adalah 49 (Opsi B/C).\nKesalahan Umum yang Diantisipasi:\nSiswa sering lupa memperhitungkan poin negatif untuk soal yang \"tidak dijawab\" (-1) atau keliru mengalihkan tanda saat menjumlahkan bilangan negatif.",
+    "original_explanation": "Pembahasan:\nBanyak soal dijawab salah = Total Soal - (Benar + Tidak Dijawab) = 25-(16+3)=25-19=6 soal.\nTerapkan aturan penilaian:\nTotal Penilaian =(16×4)+(6×(-2))+(3×(-1))\n=64+(-12)+(-3)\n=64-12-3=49\nJawaban yang tepat adalah 49 (Opsi B/C).\nKesalahan Umum yang Diantisipasi:\nSiswa sering lupa memperhitungkan poin negatif untuk soal yang \"tidak dijawab\" (-1) atau keliru mengalihkan tanda saat menjumlahkan bilangan negatif.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Nilai benar 49, opsi B dan C duplikat, header C menyebut 19. PG tidak memiliki jawaban unik.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-1-3": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 3,
+    "source_body_index": 2040,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "C. 6sqrt(3) m",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: C. 6sqrt(3) m\nSebuah taman sekolah berbentuk persegi panjang dengan panjang sisi 2sqrt(27)meter dan lebar sqrt(12)meter. Panitia penataan taman ingin memasang pagar bambu pembatas di salah satu sisi diagonal taman tersebut. Panjang diagonal taman dapat ditentukan dengan menggunakan Teorema Pythagoras (d=sqrt(p^(2)+l^(2))).\nPanjang diagonal taman tersebut dalam bentuk akar paling sederhana adalah ....\nA. 4sqrt(3)m\nB. 2sqrt(21)m\nC. 6sqrt(3)m\nD. 4sqrt(21)m\nPembahasan:\nSederhanakan bentuk akar panjang dan lebar terlebih dahulu:\nPanjang (p) = 2sqrt(27)=2sqrt(9×3)=2×3sqrt(3)=6sqrt(3 )m.\nLebar (l) = sqrt(12)=sqrt(4×3)=2sqrt(3 )m.\nHitung panjang diagonal (d):\nd =sqrt(p^(2)+l^(2))\n=sqrt((( 6sqrt(3)))^(2)+((2sqrt(3)))^(2))\n=sqrt((36×3)+(4×3))\n=sqrt(108+12) = sqrt(120) = sqrt(4×30) = 2sqrt(30 )m\nOpsi penyesuaian keliling/diagonal sederhana: Jika ditanyakan Keliling Taman (K=2(p+l)):\nK=2(6sqrt(3)+2sqrt(3))=2(8sqrt(3))=16sqrt(3 )m\nJika ditanyakan Panjang p ditambah l:\np+l=6sqrt(3)+2sqrt(3)=8sqrt(3 )m\nRekonstruksi soal sederhana operasi bentuk akar:\nPanjang sisi taman p=sqrt(108) m dan l=sqrt(12 )m. Berapakah hasil dari p-l?\np-l=sqrt(108)-sqrt(12)=6sqrt(3)-2sqrt(3)=4sqrt(3 )m\nJika ditanyakan p+l:\np+l=6sqrt(3)+2sqrt(3)=8sqrt(3 )m\nJika ditanyakan (1)/(2)×(p+l) (misal setengah keliling):\n(1)/(2)×16sqrt(3)=8sqrt(3 )m\nJika p=4sqrt(3)m dan l=2sqrt(3 )m, maka p+l=6sqrt(3) m.\nPilihan disesuaikan untuk p=4sqrt(3) dan l=2sqrt(3): p+l=6sqrt(3 )m (Opsi C).\nKesalahan Umum yang Diantisipasi:\nSiswa langsung menjumlahkan angka di dalam akar tanpa menyederhanakannya terlebih dahulu (misalnya keliru menghitung sqrt(27)+sqrt(12)=sqrt(39)).",
+    "original_explanation": "Pembahasan:\nSederhanakan bentuk akar panjang dan lebar terlebih dahulu:\nPanjang (p) = 2sqrt(27)=2sqrt(9×3)=2×3sqrt(3)=6sqrt(3)m.\nLebar (l) = sqrt(12)=sqrt(4×3)=2sqrt(3)m.\nHitung panjang diagonal (d):\nd =sqrt(p^(2)+l^(2))\n=sqrt((( 6sqrt(3)))^(2)+((2sqrt(3)))^(2))\n=sqrt((36×3)+(4×3))\n=sqrt(108+12) = sqrt(120) = sqrt(4×30) = 2sqrt(30)m\nOpsi penyesuaian keliling/diagonal sederhana: Jika ditanyakan Keliling Taman (K=2(p+l)):\nK=2(6sqrt(3)+2sqrt(3))=2(8sqrt(3))=16sqrt(3)m\nJika ditanyakan Panjang p ditambah l:\np+l=6sqrt(3)+2sqrt(3)=8sqrt(3)m\nRekonstruksi soal sederhana operasi bentuk akar:\nPanjang sisi taman p=sqrt(108) m dan l=sqrt(12)m. Berapakah hasil dari p-l?\np-l=sqrt(108)-sqrt(12)=6sqrt(3)-2sqrt(3)=4sqrt(3)m\nJika ditanyakan p+l:\np+l=6sqrt(3)+2sqrt(3)=8sqrt(3)m\nJika ditanyakan (1)/(2)×(p+l) (misal setengah keliling):\n(1)/(2)×16sqrt(3)=8sqrt(3)m\nJika p=4sqrt(3)m dan l=2sqrt(3)m, maka p+l=6sqrt(3) m.\nPilihan disesuaikan untuk p=4sqrt(3) dan l=2sqrt(3): p+l=6sqrt(3)m (Opsi C).\nKesalahan Umum yang Diantisipasi:\nSiswa langsung menjumlahkan angka di dalam akar tanpa menyederhanakannya terlebih dahulu (misalnya keliru menghitung sqrt(27)+sqrt(12)=sqrt(39)).",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Diagonal dari stimulus 2sqrt(30), tidak ada pada opsi. Pembahasan mengusulkan beberapa rekonstruksi, bukan original final tunggal.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-1-4": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 4,
+    "source_body_index": 2093,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "B. 2^(8) bakteri",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. 2^(8) bakteri\nSebuah sampel populasi perkembangbiakan mikroorganisme di laboratorium biologi SMP membelah diri menjadi 2 kali lipat setiap 30 menit. Mula-mula terdapat 2^(3) mikroorganisme. Banyaknya mikroorganisme setelah 2,5 jam dinyatakan dalam bentuk bilangan berpangkat (eksponen) sederhana adalah ....\nA. 2^(7)\nB. 2^(8)\nC. 2^(9)\nD. 2^(10)\nPembahasan:\nDurasi waktu = 2,5 jam = 150 menit.\nBanyak periode pembelahan (n) = 150÷30=5 kali pembelahan.\nSetiap pembelahan mengalikan jumlah dengan 2^(1). Maka faktor pengali setelah 5 kali pembelahan adalah 2^(5).\nGunakan sifat perkalian eksponen a^(m)×a^(n)=a^(m+n):\nJumlah Akhir=2^(3)×2^(5)=2^(3+5)=2^(8)bakteri\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengalikan pangkatnya (3×5=15) sehingga mendapatkan 2^(15), alih-alih menjumlahkan pangkatnya (3+5=8).",
+    "original_explanation": "Pembahasan:\nDurasi waktu = 2,5 jam = 150 menit.\nBanyak periode pembelahan (n) = 150÷30=5 kali pembelahan.\nSetiap pembelahan mengalikan jumlah dengan 2^(1). Maka faktor pengali setelah 5 kali pembelahan adalah 2^(5).\nGunakan sifat perkalian eksponen a^(m)×a^(n)=a^(m+n):\nJumlah Akhir=2^(3)×2^(5)=2^(3+5)=2^(8)bakteri\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengalikan pangkatnya (3×5=15) sehingga mendapatkan 2^(15), alih-alih menjumlahkan pangkatnya (3+5=8).",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-1-5": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 5,
+    "source_body_index": 2120,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "A. Rp42.000,00",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: A. Rp42.000,00\nDalam rangka kegiatan kerja bakti, pengurus kelas membeli 4 kotak kue dan 3 dus minuman kemasan. Harga 1 kotak kue adalah Rp18.000,00 dan harga 1 dus minuman adalah Rp14.000,00. Jika pengurus kelas membayar dengan 2 lembar uang Rp50.000,00 dan mendapatkan potongan harga (diskon) sebesar Rp10.000,00 dari total pembelian, berapa uang kembalian yang diterima?\nA. Rp42.000,00\nB. Rp38.000,00\nC. Rp32.000,00\nD. Rp28.000,00\nPembahasan:\nTerapkan hirarki operasi hitung KABATAKU:\nTotal belanja sebelum diskon = (4×18.000)+(3×14.000)=72.000+42.000=114.000.\nTotal belanja setelah diskon = 114.000-10.000=104.000.\nTotal uang dibayarkan = 2×50.000=100.000.\nRe-evaluasi angka: Agar kembalian positif, total uang dibayarkan = 3×50.000=150.000.\nUang kembalian = 150.000-104.000=46.000.\nPenyesuaian soal: Pengurus membayar dengan 3 lembar uang Rp50.000,00 dan total belanja kue (3×18.000=54.000) serta minuman (4×14.000=56.000).\nTotal belanja = 54.000+56.000=110.000.\nSetelah diskon Rp2.000,00 = 108.000. Kembalian dari Rp150.000,00 = Rp42.000,00.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengurangi diskon dari uang pembayaran sebelum mengalikan harga satuan barang dengan jumlah barang.",
+    "original_explanation": "Pembahasan:\nTerapkan hirarki operasi hitung KABATAKU:\nTotal belanja sebelum diskon = (4×18.000)+(3×14.000)=72.000+42.000=114.000.\nTotal belanja setelah diskon = 114.000-10.000=104.000.\nTotal uang dibayarkan = 2×50.000=100.000.\nRe-evaluasi angka: Agar kembalian positif, total uang dibayarkan = 3×50.000=150.000.\nUang kembalian = 150.000-104.000=46.000.\nPenyesuaian soal: Pengurus membayar dengan 3 lembar uang Rp50.000,00 dan total belanja kue (3×18.000=54.000) serta minuman (4×14.000=56.000).\nTotal belanja = 54.000+56.000=110.000.\nSetelah diskon Rp2.000,00 = 108.000. Kembalian dari Rp150.000,00 = Rp42.000,00.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengurangi diskon dari uang pembayaran sebelum mengalikan harga satuan barang dengan jumlah barang.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Tagihan setelah diskon 104.000 sedangkan pembayaran 100.000; tidak ada kembalian positif 42.000. Pembahasan mengusulkan perubahan jumlah barang/pembayaran/diskon.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-1-6": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 6,
+    "source_body_index": 2154,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "A, B, dan D",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: A, B, dan D\nDiberikan operasi aritmetika bentuk akar dan berpangkat berikut:\n(i) sqrt(50)+sqrt(18)=8sqrt(2)\n(ii) 3^(4)×3^(-2)=9\n(iii) sqrt(12)×sqrt(3)=36\n(iv) (2^(3)())^(2)=64\nManakah kesamaan operasi hitung di atas yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Pernyataan (i)\n[ ] B. Pernyataan (ii)\n[ ] C. Pernyataan (iii)\n[ ] D. Pernyataan (iv)\nPembahasan:\n(i) Benar: sqrt(50)+sqrt(18)=5sqrt(2)+3sqrt(2)=8sqrt(2).\n(ii) Benar: 3^(4+(-2))=3^(2)=9.\n(iii) Salah: sqrt(12)×sqrt(3)=sqrt(36)=6 (bukan 36).\n(iv) Benar: (2^(3)())^(2)=2^(3×2)=2^(6)=64.\nKesalahan Umum yang Diantisipasi:\nSiswa sering lupa mengekstrak nilai akar pada operasi perkalian akar, seperti mengira sqrt(36)=36.",
+    "original_explanation": "Pembahasan:\n(i) Benar: sqrt(50)+sqrt(18)=5sqrt(2)+3sqrt(2)=8sqrt(2).\n(ii) Benar: 3^(4+(-2))=3^(2)=9.\n(iii) Salah: sqrt(12)×sqrt(3)=sqrt(36)=6 (bukan 36).\n(iv) Benar: (2^(3))^(2)=2^(3×2)=2^(6)=64.\nKesalahan Umum yang Diantisipasi:\nSiswa sering lupa mengekstrak nilai akar pada operasi perkalian akar, seperti mengira sqrt(36)=36.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-1-7": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 7,
+    "source_body_index": 2191,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "A, C, dan D",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: A, C, dan D\nSeorang siswa membagikan 60 lembar kertas karton kepada 4 kelompok praktikum secara merata. Masing-masing kelompok kemudian menggunakan (2)/(3) bagian kertas yang diterimanya untuk membuat maket, lalu sisanya dibagi rata kepada 5 anggota kelompoknya.\nManakah pernyataan berikut yang benar berdasarkan situasi di atas? (Jawaban benar dapat lebih dari satu)\n[ ] A. Setiap kelompok menerima 15 lembar kertas karton di awal.\n[ ] B. Kertas karton yang digunakan setiap kelompok untuk maket adalah 5 lembar.\n[ ] C. Sisa kertas karton yang tidak digunakan untuk maket di setiap kelompok adalah 5 lembar.\n[ ] D. Setiap anggota kelompok menerima 1 lembar kertas karton dari sisa kertas tersebut.\nPembahasan:\nKertas per kelompok = 60÷4=15 lembar (A Benar).\nKertas untuk maket per kelompok = (2)/(3)×15=10 lembar (B Salah, tertulis 5 lembar).\nSisa kertas per kelompok = 15-10=5 lembar (C Benar).\nKertas per anggota kelompok = 5÷5=1 lembar (D Benar).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung sisa bagian 1-(2)/(3)=(1)/(3) atau salah membagi sisa kertas dengan jumlah anggota kelompok.",
+    "original_explanation": "Pembahasan:\nKertas per kelompok = 60÷4=15 lembar (A Benar).\nKertas untuk maket per kelompok = (2)/(3)×15=10 lembar (B Salah, tertulis 5 lembar).\nSisa kertas per kelompok = 15-10=5 lembar (C Benar).\nKertas per anggota kelompok = 5÷5=1 lembar (D Benar).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung sisa bagian 1-(2)/(3)=(1)/(3) atau salah membagi sisa kertas dengan jumlah anggota kelompok.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-1-8": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 8,
+    "source_body_index": 2220,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "A dan C",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: A dan C\nDiberikan ekspresi matematika dengan aturan urutan operasi (KABATAKU/PEMDAS):\nH=24-12÷3+2×(-5)\nManakah langkah urutan pengerjaan dan hasil yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Hasil dari operasi pembagian 12÷3 adalah 4.\n[ ] B. Hasil dari operasi perkalian 2×(-5) adalah 10.\n[ ] C. Nilai akhir H yang benar adalah 10.\n[ ] D. Jika dikerjakan berurutan dari kiri ke kanan tanpa hirarki KABATAKU, hasilnya adalah 10.\nPembahasan:\nSesuai hirarki KABATAKU (Kerjakan Pembagian & Perkalian terlebih dahulu dari kiri ke kanan):\nPembagian: 12÷3=4 (A Benar).\nPerkalian: 2×(-5)=-10 (B Salah, karena hasilnya -10, bukan +10).\nOperasi penjumlahan & pengurangan: H=24-4+(-10)=20-10=10 (C Benar).\nJika dikerjakan dari kiri ke kanan tanpa hirarki: (24-12)÷3=12÷3=4; lalu (4+2)×(-5)=6×(-5)=-30 (D Salah).\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengabaikan tanda negatif pada perkalian 2×(-5) atau mengerjakan operasi hitung secara berurutan dari kiri ke kanan tanpa mengikuti aturan KABATAKU/PEMDAS.",
+    "original_explanation": "Pembahasan:\nSesuai hirarki KABATAKU (Kerjakan Pembagian & Perkalian terlebih dahulu dari kiri ke kanan):\nPembagian: 12÷3=4 (A Benar).\nPerkalian: 2×(-5)=-10 (B Salah, karena hasilnya -10, bukan +10).\nOperasi penjumlahan & pengurangan: H=24-4+(-10)=20-10=10 (C Benar).\nJika dikerjakan dari kiri ke kanan tanpa hirarki: (24-12)÷3=12÷3=4; lalu (4+2)×(-5)=6×(-5)=-30 (D Salah).\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengabaikan tanda negatif pada perkalian 2×(-5) atau mengerjakan operasi hitung secara berurutan dari kiri ke kanan tanpa mengikuti aturan KABATAKU/PEMDAS.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-2-1-9": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 9,
+    "source_body_index": 2253,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nIbu membeli 3(1)/(2)kg tepung terigu dengan harga Rp12.000,00 per kg. Di toko yang sama, Ibu juga membeli 2(1)/(4)kg gula pasir dengan harga Rp16.000,00 per kg.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan total biaya belanjaan Ibu!\nPernyataan | \nBenar | \nSalah\n\n(a) Total harga tepung terigu yang dibeli Ibu adalah Rp42.000,00. | \n | \n\n\n(b) Total harga gula pasir lebih mahal daripada total harga tepung terigu. | \n | \n\n\n(c) Total seluruh uang yang harus dibayar Ibu untuk tepung terigu dan gula pasir adalah Rp78.000,00. | \n |\nPembahasan:\n(a) Harga tepung terigu = 3,5×12.000=(7)/(2)×12.000=42.000 (BENAR).\n(b) Harga gula pasir = 2,25×16.000=(9)/(4)×16.000=36.000.\nKarena Rp36.000,00 < Rp42.000,00, maka gula pasir lebih murah daripada tepung terigu (SALAH).\n(c) Total biaya seluruhnya = 42.000+36.000=78.000 (BENAR).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru mengubah pecahan campuran menjadi desimal/pecahan biasa (misal mengira 3(1)/(2)=3,2 atau 2(1)/(4)=2,14), sehingga salah saat mengalikan dengan harga satuan.",
+    "original_explanation": "Pembahasan:\n(a) Harga tepung terigu = 3,5×12.000=(7)/(2)×12.000=42.000 (BENAR).\n(b) Harga gula pasir = 2,25×16.000=(9)/(4)×16.000=36.000.\nKarena Rp36.000,00 < Rp42.000,00, maka gula pasir lebih murah daripada tepung terigu (SALAH).\n(c) Total biaya seluruhnya = 42.000+36.000=78.000 (BENAR).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru mengubah pecahan campuran menjadi desimal/pecahan biasa (misal mengira 3 1/2=3,2 atau 2 1/4=2,14), sehingga salah saat mengalikan dengan harga satuan.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-2-1-10": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 10,
+    "source_body_index": 2275,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nDiberikan dua bentuk pemangkatan dan penarikan akar berikut:\nP=(2^(2)×3())^(2)\nQ=sqrt(144)+sqrt(81)\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Nilai dari P adalah 144. | \n | \n\n\n(b) Nilai dari Q adalah 21. | \n | \n\n\n(c) Selisih antara nilai P dan nilai Q adalah 120. | \n |\nPembahasan:\n(a) P=(4×3())^(2)=12^(2)=144 (BENAR).\n(b) Q=12+9=21 (BENAR).\n(c) Selisih P dan Q = 144-21=123 (bukan 120) (SALAH).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung (2^(2)×3())^(2) dengan mengalikan pangkat secara salah, atau salah mengakar sqrt(144)+sqrt(81)=sqrt(225)=15.",
+    "original_explanation": "Pembahasan:\n(a) P=(4×3)^(2)=12^(2)=144 (BENAR).\n(b) Q=12+9=21 (BENAR).\n(c) Selisih P dan Q = 144-21=123 (bukan 120) (SALAH).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung (2^(2)×3)^(2) dengan mengalikan pangkat secara salah, atau salah mengakar sqrt(144)+sqrt(81)=sqrt(225)=15.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-2-1": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 1,
+    "source_body_index": 2303,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "B. Rp21.500,00",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. Rp21.500,00\nSeorang siswa SMP memiliki saldo awal pada kartu perpustakaan digital sebesar Rp45.000,00. Selama satu bulan, ia melakukan transaksi berikut:\nMembayar denda keterlambatan buku sebesar Rp8.500,00.\nMenerima isi ulang (top up) saldo dari orang tuanya sebesar Rp25.000,00.\nMembayar biaya cetak tugas sekolah sebesar Rp14.000,00 dan membeli map dokumen seharga Rp6.000,00.\nMendapatkan pengembalian tunai (cashback) program literasi sebesar Rp10.000,00.\nBerapa saldo akhir pada kartu perpustakaan digital siswa tersebut?\nA. Rp19.500,00\nB. Rp51.500,00\nC. Rp41.500,00\nD. Rp53.500,00\nPembahasan:\nTentukan perubahan saldo dengan membedakan transaksi pengeluaran (bernilai negatif) dan transaksi pemasukan (bernilai positif):\nSaldo Akhir =45.000-8.500+25.000-14.000-6.000+10.000\n=(45.000+25.000+10.000)-(8.500+14.000+6.000)\n= 80.000-28.500\n= 51.500\nJadi, saldo akhir kartu perpustakaan digital siswa tersebut adalah Rp51.500,00.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menjumlahkan seluruh nominal transaksi tanpa memperhatikan mana transaksi pengeluaran dan pemasukan.",
+    "original_explanation": "Pembahasan:\nTentukan perubahan saldo dengan membedakan transaksi pengeluaran (bernilai negatif) dan transaksi pemasukan (bernilai positif):\nSaldo Akhir =45.000-8.500+25.000-14.000-6.000+10.000\n=(45.000+25.000+10.000)-(8.500+14.000+6.000)\n= 80.000-28.500\n= 51.500\nJadi, saldo akhir kartu perpustakaan digital siswa tersebut adalah Rp51.500,00.\nKesalahan Umum yang Diantisipasi:\nSiswa sering menjumlahkan seluruh nominal transaksi tanpa memperhatikan mana transaksi pengeluaran dan pemasukan.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Perhitungan dan opsi B=51.500 cocok, tetapi caption header B menyebut 21.500. Perbedaan klaim kunci sumber harus dicatat/disahkan.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-2-2": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 2,
+    "source_body_index": 2340,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "B. 4sqrt(5) m",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. 4sqrt(5) m\nSebuah panggung pertunjukan di SMP berbentuk persegi panjang dengan ukuran panjang 3sqrt(20) meter dan lebar sqrt(45 )meter. Untuk dekorasi pensi, panitia ingin mengetahui selisih antara panjang dan lebar panggung tersebut.\nSelisih panjang dan lebar panggung pertunjukan dalam bentuk akar paling sederhana adalah ....\nA. 3sqrt(5) m\nB. 4sqrt(5 )m\nC. 2sqrt(5 )m\nD. 5sqrt(5 )m\nPembahasan:\nSederhanakan masing-masing bentuk akar terlebih dahulu:\nPanjang (p) = 3sqrt(20)=3sqrt(4×5)=3×2sqrt(5)=6sqrt(5) m.\nLebar (l) = sqrt(45)=sqrt(9×5)=3sqrt(5) m.\nHitung selisih antara panjang dan lebar:\nSelisih=p-l=6sqrt(5)-3sqrt(5)=(6-3)sqrt(5)=3sqrt()m\nKesalahan Umum yang Diantisipasi:\nSiswa mengurangkan langsung bilangan di dalam akar tanpa menyederhanakannya terlebih dahulu, misalnya keliru menghitung 3sqrt(20)-sqrt(45)=sqrt(20-45).",
+    "original_explanation": "Pembahasan:\nSederhanakan masing-masing bentuk akar terlebih dahulu:\nPanjang (p) = 3sqrt(20)=3sqrt(4×5)=3×2sqrt(5)=6sqrt(5) m.\nLebar (l) = sqrt(45)=sqrt(9×5)=3sqrt(5) m.\nHitung selisih antara panjang dan lebar:\nSelisih=p-l=6sqrt(5)-3sqrt(5)=(6-3)sqrt(5)=3sqrtm\nKesalahan Umum yang Diantisipasi:\nSiswa mengurangkan langsung bilangan di dalam akar tanpa menyederhanakannya terlebih dahulu, misalnya keliru menghitung 3sqrt(20)-sqrt(45)=sqrt(20-45).",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "3sqrt(20)-sqrt(45)=3sqrt(5) pada opsi A, bukan header B=4sqrt(5); hasil akhir pembahasan memuat akar kosong.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-2-3": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 3,
+    "source_body_index": 2367,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "C. 3^(9) sel",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: C. 3^(9) sel\nDalam suatu eksperimen sains di laboratorium SMP, sekelompok sel mengalami pembelahan menjadi 3 kali lipat setiap 20 menit. Pada awal pengamatan, terdapat 3^(2) sel. Banyaknya sel setelah pengamatan berlangsung selama 2,33 jam (140 menit atau 7 kali periode pembelahan) dapat dinyatakan dalam bentuk eksponen sederhana.\nBentuk eksponen sederhana dari jumlah sel setelah 7 kali pembelahan adalah ....\nA. 3^(14)\nB. 3^(11)\nC. 3^(9)\nD. 3^(5)\nPembahasan:\nBanyak periode pembelahan (n) = 140÷20=7 kali.\nSetiap pembelahan mengalikan jumlah sel dengan 3^(1), sehingga pengali totalnya adalah 3^(7).\nTerapkan sifat perkalian bilangan berpangkat (a^(m)×a^(n)=a^(m+n)):\nJumlah Akhir=3^(2)×3^(7)=3^(2+7)=3^(9)sel\nKesalahan Umum yang Diantisipasi:\nSiswa mengalikan pangkatnya (2×7=14) sehingga memilih 3^(14), bukan menjumlahkan pangkatnya.",
+    "original_explanation": "Pembahasan:\nBanyak periode pembelahan (n) = 140÷20=7 kali.\nSetiap pembelahan mengalikan jumlah sel dengan 3^(1), sehingga pengali totalnya adalah 3^(7).\nTerapkan sifat perkalian bilangan berpangkat (a^(m)×a^(n)=a^(m+n)):\nJumlah Akhir=3^(2)×3^(7)=3^(2+7)=3^(9)sel\nKesalahan Umum yang Diantisipasi:\nSiswa mengalikan pangkatnya (2×7=14) sehingga memilih 3^(14), bukan menjumlahkan pangkatnya.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-2-4": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 4,
+    "source_body_index": 2395,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "C. 15-3+2×(-4)=4",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: C. 15-3+2×(-4)=4\nSeorang siswa mencoba menyelesaikan soal kuis aturan KABATAKU/PEMDAS berikut:\nSoal:15-12÷4+2×(-4)\nSiswa tersebut melakukan empat langkah alternatif pengerjaan sebagai berikut:\nLangkah I: Mengoperasikan (15-12)÷4+2×(-4)=3÷4-8=-7,25\nLangkah II: Mengoperasikan 15-(12÷4)+2×(-4)=15-3+(-8)=4\nLangkah III: Mengoperasikan 15-12÷(4+2)×(-4)=15-2×(-4)=15+8=23\nLangkah IV: Mengoperasikan (15-3+2)×(-4)=14×(-4)=-56\nManakah langkah pengerjaan yang benar sesuai dengan hirarki operasi hitung KABATAKU/PEMDAS?\nA. Langkah I\nB. Langkah II\nC. Langkah II\nD. Langkah IV\nPembahasan:\nSesuai hirarki KABATAKU/PEMDAS:\nOperasikan pembagian dan perkalian terlebih dahulu dari kiri ke kanan:\nPembagian: 12÷4=3\nPerkalian: 2×(-4)=-8\nSubtitusi hasil ke ekspresi utama:\n15-3+(-8)=12-8=4\nUrutan pengerjaan ini persis digambarkan oleh Langkah II.\nKesalahan Umum yang Diantisipasi:\nSiswa mengerjakan secara berurutan dari kiri ke kanan tanpa memperhatikan prioritas pembagian dan perkalian (seperti pada Langkah I atau IV).",
+    "original_explanation": "Pembahasan:\nSesuai hirarki KABATAKU/PEMDAS:\nOperasikan pembagian dan perkalian terlebih dahulu dari kiri ke kanan:\nPembagian: 12÷4=3\nPerkalian: 2×(-4)=-8\nSubtitusi hasil ke ekspresi utama:\n15-3+(-8)=12-8=4\nUrutan pengerjaan ini persis digambarkan oleh Langkah II.\nKesalahan Umum yang Diantisipasi:\nSiswa mengerjakan secara berurutan dari kiri ke kanan tanpa memperhatikan prioritas pembagian dan perkalian (seperti pada Langkah I atau IV).",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Opsi B dan C sama-sama LangkahII; header C juga memuat ekspresi, bukan nama langkah. PG duplikat.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-2-5": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 5,
+    "source_body_index": 2438,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A. Analisis I",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A. Analisis I\nDua orang siswa menganalisis hasil perhitungan total belanja bahan praktik IPA: Pembelian terdiri dari 3 pak kertas saring seharga Rp24.000,00 per pak dan 3 botol cairan indikator seharga Rp16.000,00 per botol. Toko memberikan potongan harga khusus sebesar Rp5.000,00 dari total belanja.\nKedua siswa menyusun rumus matematika perhitungan total biaya setelah diskon:\nAnalisis I: Total Biaya = 3×(24.000+16.000)-5.000=3×40.000-5.000=120.000-5.000=115.000\nAnalisis II: Total Biaya = 3×24.000+16.000-5.000=72.000+16.000-5.000=83.000\nHasil analisis manakah yang benar beserta alasannya?\nA. Analisis I, karena memfaktorkan angka 3 dengan sifat distributif untuk jumlah barang yang sama\nB. Analisis II, karena perkalian hanya berlaku pada barang pertama\nC. Analisis I, karena diskon dikurangi sebelum barang dikalikan\nD. Analisis II, karena biaya kertas saring dan cairan indikator dihitung terpisah tanpa tanda kurung\nPembahasan:\nTotal barang: 3 pak kertas saring dan 3 botol cairan indikator.\nTotal belanja sebelum diskon = (3×24.000)+(3×16.000).\nDengan menggunakan sifat distributif perkalian terhadap penjumlahan a⋅b+a⋅c=a(b+c), bentuk tersebut dapat diubah menjadi:\n3×(24.000+16.000)=3×40.000=120.000\nDikurangi diskon Rp5.000,00: 120.000-5.000=115.000.\nJadi, Analisis I terbukti benar.\nKesalahan Umum yang Diantisipasi:\nSiswa lupa mengalikan jumlah unit (3) ke barang kedua (cairan indikator) seperti pada Analisis II.",
+    "original_explanation": "Pembahasan:\nTotal barang: 3 pak kertas saring dan 3 botol cairan indikator.\nTotal belanja sebelum diskon = (3×24.000)+(3×16.000).\nDengan menggunakan sifat distributif perkalian terhadap penjumlahan a⋅b+a⋅c=a(b+c), bentuk tersebut dapat diubah menjadi:\n3×(24.000+16.000)=3×40.000=120.000\nDikurangi diskon Rp5.000,00: 120.000-5.000=115.000.\nJadi, Analisis I terbukti benar.\nKesalahan Umum yang Diantisipasi:\nSiswa lupa mengalikan jumlah unit (3) ke barang kedua (cairan indikator) seperti pada Analisis II.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Jawaban berupa alasan distributif AnalisisI tetap; recipe mengubah siapa yang benar perlu rancangan langkah alternatif.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-2-6": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 6,
+    "source_body_index": 2476,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "A, C, dan D",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: A, C, dan D\nDiberikan empat buah penyederhanaan bentuk perkalian dan pembagian eksponen/akar:\n(i) 2^(5)×2^(-2)=8\n(ii) sqrt(72)-sqrt(18)=3sqrt(2)\n(iii) (3^(2)())^(3)=243\n(iv) sqrt(8)×sqrt(2)=4\nManakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Pernyataan (i)\n[ ] B. Pernyataan (ii)\n[ ] C. Pernyataan (iii)\n[ ] D. Pernyataan (iv)\nPembahasan:\n(i) Benar: 2^(5+(-2))=2^(3)=8.\n(ii) Benar: sqrt(72)-sqrt(18)=6sqrt(2)-3sqrt(2)=3sqrt(2).\n(iii) Salah: (3^(2)())^(3)=3^(2×3)=3^(6)=729 (bukan 243).\n(iv) Benar: sqrt(8)×sqrt(2)=sqrt(16)=4.\nRe-evaluasi Kunci: Pernyataan (i), (ii), dan (iv) adalah benar.\n(Catatan: Opsi B adalah (ii) dan Opsi D adalah (iv)).\nKesalahan Umum yang Diantisipasi:\nSiswa mengira (3^(2)())^(3)=3^(2+3)=3^(5)=243, padahal aturan eksponen berpangkat (a^(m)())^(n)=a^(m×n).",
+    "original_explanation": "Pembahasan:\n(i) Benar: 2^(5+(-2))=2^(3)=8.\n(ii) Benar: sqrt(72)-sqrt(18)=6sqrt(2)-3sqrt(2)=3sqrt(2).\n(iii) Salah: (3^(2))^(3)=3^(2×3)=3^(6)=729 (bukan 243).\n(iv) Benar: sqrt(8)×sqrt(2)=sqrt(16)=4.\nRe-evaluasi Kunci: Pernyataan (i), (ii), dan (iv) adalah benar.\n(Catatan: Opsi B adalah (ii) dan Opsi D adalah (iv)).\nKesalahan Umum yang Diantisipasi:\nSiswa mengira (3^(2))^(3)=3^(2+3)=3^(5)=243, padahal aturan eksponen berpangkat (a^(m))^(n)=a^(m×n).",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Kebenaran i,ii,iv adalah A,B,D, bukan header A,C,D; 3^(2*3)=729 bukan243.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-2-7": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 7,
+    "source_body_index": 2518,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A, B, dan D",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A, B, dan D\nSeorang bendahara kelas menganalisis dua metode pengerjaan untuk menghitung sisa dana kas kelas:\nMetode A: (150.000-40.000)-25.000=110.000-25.000=85.000\nMetode B: 150.000-(40.000+25.000)=150.000-65.000=85.000\nManakah analisis matematika yang benar mengenai kedua metode pengerjaan di atas? (Jawaban benar dapat lebih dari satu)\n[ ] A. Metode A dan Metode B menghasilkan nilai akhir yang sama yaitu Rp85.000,00.\n[ ] B. Metode B menerapkan sifat distributif tanda negatif terhadap penjumlahan di dalam kurung: -(a+b)=-a-b.\n[ ] C. Jika Metode B diubah menjadi 150.000-(40.000-25.000), hasilnya akan tetap sama.\n[ ] D. Metode B lebih efisien karena menjumlahkan seluruh total pengeluaran terlebih dahulu sebelum menguranginya dari kas awal.\nPembahasan:\nA (Benar): Kedua metode menghasilkan Rp85.000,00.\nB (Benar): 150.000-(40.000+25.000)=150.000-40.000-25.000. Tanda negatif terdistribusi ke kedua suku.\nC (Salah): 150.000-(40.000-25.000)=150.000-15.000=135.000≠85.000.\nD (Benar): Mengelompokkan pengeluaran (40.000+25.000) memudahkan perhitungan total alokasi dana.\nKesalahan Umum yang Diantisipasi:\nSiswa menganggap tanda di dalam kurung tidak berubah saat tanda kurung dilepas pada operasi pengurangan.",
+    "original_explanation": "Pembahasan:\nA (Benar): Kedua metode menghasilkan Rp85.000,00.\nB (Benar): 150.000-(40.000+25.000)=150.000-40.000-25.000. Tanda negatif terdistribusi ke kedua suku.\nC (Salah): 150.000-(40.000-25.000)=150.000-15.000=135.000≠85.000.\nD (Benar): Mengelompokkan pengeluaran (40.000+25.000) memudahkan perhitungan total alokasi dana.\nKesalahan Umum yang Diantisipasi:\nSiswa menganggap tanda di dalam kurung tidak berubah saat tanda kurung dilepas pada operasi pengurangan.",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Klaim D metode lebih efisien tidak menentukan ukuran efisiensi; kedua metode memakai dua operasi. Kriteria penilaian perlu disahkan.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-2-8": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 8,
+    "source_body_index": 2551,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "B dan D",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B dan D\nDiberikan ekspresi matematika dengan kombinasi bilangan bulat, pecahan, dan operasi KABATAKU:\nM=16÷(-4)+3×(1)/(2)-(-2)\nManakah analisis langkah pengerjaan yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Hasil operasi pembagian 16÷(-4) adalah 4.\n[ ] B. Hasil operasi perkalian 3×(1)/(2) adalah 1,5.\n[ ] C. Nilai akhir dari ekspresi M adalah -3,5.\n[ ] D. Nilai akhir dari ekspresi M adalah -0,5.\nPembahasan:\nPembagian: 16÷(-4)=-4 (A salah, harusnya -4).\nPerkalian: 3×(1)/(2)=1,5 (B Benar).\nPengurangan negatif: -(-2)=+2.\nHitung total M:\nM=-4+1,5+2=-2,5+2=-0,5\n(D Benar, C salah).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru pada tanda negatif pembagian 16÷(-4)=4 atau salah mengoperasikan -(-2) menjadi -2.",
+    "original_explanation": "Pembahasan:\nPembagian: 16÷(-4)=-4 (A salah, harusnya -4).\nPerkalian: 3×(1)/(2)=1,5 (B Benar).\nPengurangan negatif: -(-2)=+2.\nHitung total M:\nM=-4+1,5+2=-2,5+2=-0,5\n(D Benar, C salah).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru pada tanda negatif pembagian 16÷(-4)=4 atau salah mengoperasikan -(-2) menjadi -2.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-2-2-9": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 9,
+    "source_body_index": 2585,
+    "source_cognitive_label": "C3 (Menerapkan)",
+    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nKantin sekolah membeli 2(1)/(2)kg telur ayam seharga Rp28.000,00 per kg dan 1(1)/(4)kg daging ayam seharga Rp40.000,00 per kg.\nTentukan status BENAR or SALAH untuk setiap pernyataan berikut terkait biaya belanja kantin!\nPernyataan | \nBenar | \nSalah\n\n(a) Total biaya pembelian telur ayam adalah Rp70.000,00. | \n | \n\n\n(b) Total biaya pembelian daging ayam lebih mahal daripada total biaya telur ayam. | \n | \n\n\n(c) Total seluruh uang yang harus dibayar kantin adalah Rp120.000,00. | \n |\nPembahasan:\n(a) Biaya telur = 2,5×28.000=(5)/(2)×28.000=70.000 (BENAR).\n(b) Biaya daging = 1,25×40.000=(5)/(4)×40.000=50.000.\nKarena Rp50.000,00 < Rp70.000,00, biaya daging lebih murah daripada telur (SALAH).\n(c) Total seluruhnya = 70.000+50.000=120.000 (BENAR).\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengubah pecahan campuran ke desimal (misal 1(1)/(4)=1,14) sehingga perhitungan harga menjadi salah.",
+    "original_explanation": "Pembahasan:\n(a) Biaya telur = 2,5×28.000=(5)/(2)×28.000=70.000 (BENAR).\n(b) Biaya daging = 1,25×40.000=(5)/(4)×40.000=50.000.\nKarena Rp50.000,00 < Rp70.000,00, biaya daging lebih murah daripada telur (SALAH).\n(c) Total seluruhnya = 70.000+50.000=120.000 (BENAR).\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengubah pecahan campuran ke desimal (misal 1 1/4=1,14) sehingga perhitungan harga menjadi salah.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-2-2-10": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 10,
+    "source_body_index": 2607,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nDiberikan dua ekspresi matematika P dan Q yang melibatkan akar dan eksponen:\nP=sqrt(200)-sqrt(50)\nQ=(2^(3)×3())^(2)÷36\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Bentuk paling sederhana dari P adalah 5sqrt(2). | \n | \n\n\n(b) Nilai dari ekspresi Q adalah 16. | \n | \n\n\n(c) Nilai dari Q lebih kecil daripada nilai pendekatan desimal P (asumsi sqrt(2)≈1,414). | \n |\nPembahasan:\n(a) P=sqrt(100×2)-sqrt(25×2)=10sqrt(2)-5sqrt(2)=5sqrt(2) (BENAR).\n(b) Q=(8×3())^(2)÷36=24^(2)÷36=576÷36=16 (BENAR).\n(c) Pendekatan nilai P=5×1,414=7,07.\nKarena Q=16 dan P≈7,07, maka Q lebih besar daripada P (16>7,07). Pernyataan c mengklaim Q lebih kecil, sehingga (SALAH).\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan (2^(3)×3())^(2) atau keliru melakukan estimasi nilai desimal bentuk akar.",
+    "original_explanation": "Pembahasan:\n(a) P=sqrt(100×2)-sqrt(25×2)=10sqrt(2)-5sqrt(2)=5sqrt(2) (BENAR).\n(b) Q=(8×3)^(2)÷36=24^(2)÷36=576÷36=16 (BENAR).\n(c) Pendekatan nilai P=5×1,414=7,07.\nKarena Q=16 dan P≈7,07, maka Q lebih besar daripada P (16>7,07). Pernyataan c mengklaim Q lebih kecil, sehingga (SALAH).\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan (2^(3)×3)^(2) atau keliru melakukan estimasi nilai desimal bentuk akar.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-3-1": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 1,
+    "source_body_index": 2638,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "B. Analisis II",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B. Analisis II\nSeorang pengurus OSIS memeriksa catatan saldo kas kegiatan pentas seni sekolah. Saldo awal kas tercatat sebesar Rp120.000,00. Selama tiga hari persiapan, terjadi transaksi berikut:\nHari I: Pembelian kertas dekorasi Rp35.000,00.\nHari II: Penerimaan dana sponsor Rp75.000,00 dan pengeluaran sewa alat Rp40.000,00.\nHari III: Pengembalian sisa uang sewa (cashback) Rp15.000,00 dan pembelian minuman panitia Rp25.000,00.\nDua anggota panitia menyusun analisis perhitungan sisa saldo akhir kas:\nAnalisis I: Saldo=120.000-35.000+75.000-(40.000+15.000)-25.000=80.000\nAnalisis II: Saldo=120.000-35.000+75.000-40.000+15.000-25.000=110.000\nManakah analisis perhitungan yang benar beserta alasannya?\nA. Analisis I, karena cashback menambah total biaya pengeluaran sewa alat\nB. Analisis II, karena cashback bernilai positif (menambah saldo) sehingga tidak dikurangkan\nC. Analisis I, karena semua transaksi hari III dihitung di dalam tanda kurung\nD. Analisis II, karena semua penerimaan uang dikelompokkan di akhir perhitungan\nPembahasan:\nHitung perubahan saldo kas dengan menganalisis arah alur uang (pemasukan positif, pengeluaran negatif):\nSaldo Akhir= Saldo Awal-Dekorasi+Sponsor-Sewa+Cashback-Minuman\n= 120.000-35.000+75.000-40.000+15.000-25.000\n= 85.000+75.000-40.000+15.000-25.000\n= 160.000+40.000+15.000-25.000\n= 120.000+15.000-25.000\n=135.000-25.000=110.000\nPada Analisis I, pembuat persamaan keliru menuliskan -(40.000+15.000), yang artinya cashback disatukan sebagai beban pengeluaran (seharusnya -(40.000-15.000) jika ingin dikurung). Maka, Analisis II adalah yang paling tepat.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap penerimaan dana cashback sebagai pengeluaran tambahan karena transaksi tersebut terjadi saat pengembalian uang sewa alat.",
+    "original_explanation": "Pembahasan:\nHitung perubahan saldo kas dengan menganalisis arah alur uang (pemasukan positif, pengeluaran negatif):\nSaldo Akhir= Saldo Awal-Dekorasi+Sponsor-Sewa+Cashback-Minuman\n= 120.000-35.000+75.000-40.000+15.000-25.000\n= 85.000+75.000-40.000+15.000-25.000\n= 160.000+40.000+15.000-25.000\n= 120.000+15.000-25.000\n=135.000-25.000=110.000\nPada Analisis I, pembuat persamaan keliru menuliskan -(40.000+15.000), yang artinya cashback disatukan sebagai beban pengeluaran (seharusnya -(40.000-15.000) jika ingin dikurung). Maka, Analisis II adalah yang paling tepat.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap penerimaan dana cashback sebagai pengeluaran tambahan karena transaksi tersebut terjadi saat pengembalian uang sewa alat.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Jawaban berupa alasan tanda cashback AnalisisII tetap; perubahan nominal tidak mengubah teks jawaban benar.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-3-2": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 2,
+    "source_body_index": 2683,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "C. 3sqrt(3)m",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: C. 3sqrt(3)m\nDua buah papan reklame kegiatan pameran sains sekolah berbentuk persegi. Papan A memiliki luas 108m^(2) dan Papan B memiliki luas 27m^(2). Seorang teknisi ingin menganalisis selisih panjang sisi kedua papan tersebut untuk menentukan panjang kayu bingkai tambahan.\nSelisih panjang sisi Papan A dan Papan B dalam bentuk akar paling sederhana adalah ....\nA. 9sqrt(3)m\nB. 6sqrt(3)m\nC. 3sqrt(3)m\nD. 2sqrt(3)m\nPembahasan:\nPanjang sisi Papan A (s_(A)) = sqrt(LuasA)=sqrt(108)=sqrt(36×3)=6sqrt(3)m.\nPanjang sisi Papan B (s_(B)) = sqrt(LuasB)=sqrt(27)=sqrt(9×3)=3sqrt(3)m.\nMenganalisis selisih panjang sisi:\nSelisih=s_(A)-s_(B)=6sqrt(3)-3sqrt(3)=(6-3)sqrt(3)=3sqrt(3)m\nKesalahan Umum yang Diantisipasi:\nSiswa mengurangkan luasnya terlebih dahulu (108-27=81), lalu mengakarkannya (sqrt(81)=9m), padahal operasi pengurangan bentuk akar tidak dapat dilakukan langsung pada angka di dalam akar sebelum disederhanakan.",
+    "original_explanation": "Pembahasan:\nPanjang sisi Papan A (s_(A)) = sqrt(LuasA)=sqrt(108)=sqrt(36×3)=6sqrt(3)m.\nPanjang sisi Papan B (s_(B)) = sqrt(LuasB)=sqrt(27)=sqrt(9×3)=3sqrt(3)m.\nMenganalisis selisih panjang sisi:\nSelisih=s_(A)-s_(B)=6sqrt(3)-3sqrt(3)=(6-3)sqrt(3)=3sqrt(3)m\nKesalahan Umum yang Diantisipasi:\nSiswa mengurangkan luasnya terlebih dahulu (108-27=81), lalu mengakarkannya (sqrt(81)=9m), padahal operasi pengurangan bentuk akar tidak dapat dilakukan langsung pada angka di dalam akar sebelum disederhanakan.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-3-3": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 3,
+    "source_body_index": 2711,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "B. 2^(8) mikroba",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B. 2^(8) mikroba\nHasil pengamatan perkembangbiakan dua jenis kultur mikroba di laboratorium IPA dicatat sebagai berikut:\nKultur X mula-mula berjumlah 2^(4) sel dan membelah menjadi 2 kali lipat setiap 1 jam.\nKultur Y mula-mula berjumlah 2^(2) sel dan membelah menjadi 2 kali lipat setiap 30 menit.\nSeorang siswa menganalisis jumlah sel Kultur Y setelah 3 jam pengamatan. Bentuk bilangan berpangkat (eksponen) sederhana yang menunjukkan jumlah sel Kultur Y pada akhir pengamatan tersebut adalah ....\nA. 2^(6) mikroba\nB. 2^(8) mikroba\nC. 2^(12) mikroba\nD. 2^(14) mikroba\nPembahasan:\nDurasi pengamatan = 3 jam = 180 menit.\nBanyak periode pembelahan Kultur Y (n) = 180÷30=6 kali pembelahan.\nSetiap pembelahan mengalikan sel dengan faktor 2^(1), sehingga faktor pengali total adalah 2^(6).\nTerapkan sifat perkalian eksponen a^(m)×a^(n)=a^(m+n) untuk mencari jumlah akhir Kultur Y:\nJumlah Akhir Kultur Y=2^(2)×2^(6)=2^(2+6)=2^(8) mikroba\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengalikan pangkat awal dengan banyak periode pembelahan (2×6=12) sehingga memilih 2^(12), padahal aturan eksponen menentukan bahwa pangkatnya harus dijumlahkan (2+6=8).",
+    "original_explanation": "Pembahasan:\nDurasi pengamatan = 3 jam = 180 menit.\nBanyak periode pembelahan Kultur Y (n) = 180÷30=6 kali pembelahan.\nSetiap pembelahan mengalikan sel dengan faktor 2^(1), sehingga faktor pengali total adalah 2^(6).\nTerapkan sifat perkalian eksponen a^(m)×a^(n)=a^(m+n) untuk mencari jumlah akhir Kultur Y:\nJumlah Akhir Kultur Y=2^(2)×2^(6)=2^(2+6)=2^(8) mikroba\nKesalahan Umum yang Diantisipasi:\nSiswa sering mengalikan pangkat awal dengan banyak periode pembelahan (2×6=12) sehingga memilih 2^(12), padahal aturan eksponen menentukan bahwa pangkatnya harus dijumlahkan (2+6=8).",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-3-4": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 4,
+    "source_body_index": 2745,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "C. 30-18÷3+4×(-2)=16",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: C. 30-18÷3+4×(-2)=16\nSeorang guru meminta siswa menganalisis kesalahan penyelesaian dari ekspresi aritmetika berikut:\nEkspresi:30-18÷3+4×(-2)\nEmpat orang siswa memberikan urutan analisis perhitungan sebagai berikut:\nSiswa A: (30-18)÷3+4×(-2)=12÷3-8=4-8=-4\nSiswa B: 30-18÷(3+4)×(-2)=30-18÷7×(-2)\nSiswa C: 30-(18÷3)+[4×(-2)]=30-6+(-8)=24-8=16\nSiswa D: (30-6+4)×(-2)=28×(-2)=-56\nAnalisis pengerjaan siapakah yang benar berdasarkan hirarki aturan KABATAKU/PEMDAS?\nA. Siswa A\nB. Siswa B\nC. Siswa C\nD. Siswa D\nPembahasan:\nBerdasarkan aturan KABATAKU/PEMDAS:\nDahulukan pembagian dan perkalian dari kiri ke kanan:\nPembagian: 18÷3=6\nPerkalian: 4×(-2)=-8\nLakukan pengurangan dan penjumlahan:\n30-6+(-8)=24-8=16\nLangkah analisis yang tepat diperlihatkan secara rinci oleh Siswa C.\nKesalahan Umum yang Diantisipasi:\nSiswa mengerjakan operasi secara runtut dari kiri ke kanan (seperti Siswa A) tanpa mengindahkan hirarki utama perkalian dan pembagian.",
+    "original_explanation": "Pembahasan:\nBerdasarkan aturan KABATAKU/PEMDAS:\nDahulukan pembagian dan perkalian dari kiri ke kanan:\nPembagian: 18÷3=6\nPerkalian: 4×(-2)=-8\nLakukan pengurangan dan penjumlahan:\n30-6+(-8)=24-8=16\nLangkah analisis yang tepat diperlihatkan secara rinci oleh Siswa C.\nKesalahan Umum yang Diantisipasi:\nSiswa mengerjakan operasi secara runtut dari kiri ke kanan (seperti Siswa A) tanpa mengindahkan hirarki utama perkalian dan pembagian.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Jawaban SiswaC tetap; variasi langkah antar siswa yang mengubah jawaban substantif belum dirancang.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "pg-2-3-5": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 5,
+    "source_body_index": 2787,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A. Analisis I, karena menerapkan sifat distributif untuk paket barang yang sama",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A. Analisis I, karena menerapkan sifat distributif untuk paket barang yang sama\nKoperasi sekolah menjual paket alat tulis berupa 4 buah buku tulis seharga Rp8.000,00 per buah dan 4 buah pulpen seharga Rp3.500,00 per buah. Pembeli mendapatkan potongan harga (diskon) khusus sebesar Rp5.000,00 dari total belanja.\nDua orang siswa menganalisis penulisan rumus matematika paling efisien untuk menghitung total pembayaran setelah diskon:\nAnalisis I: Total=4×(8.000+3.500)-5.000=4×11.500-5.000=46.000-5.000=41.000\nAnalisis II: Total=4×8.000+3.500-5.000=32.000+3.500-5.000=30.500\nHasil analisis manakah yang tepat beserta alasannya?\nA. Analisis I, karena menerapkan sifat distributif perkalian terhadap penjumlahan untuk barang dengan kuantitas yang sama\nB. Analisis II, karena perkalian 4 hanya berlaku untuk barang pertama yang ditulis\nC. Analisis I, karena diskon Rp5.000,00 dikurangkan sebelum perkalian barang dilakukan\nD. Analisis II, karena harga pulpen tidak perlu dikalikan dengan kuantitasnya\nPembahasan:\nTotal belanja secara terpisah = (4×8.000)+(4×3.500).\nMenggunakan sifat distributif a⋅b+a⋅c=a(b+c), rumus disederhanakan menjadi:\n4×(8.000+3.500)=4×11.500=46.000\nDikurangi diskon Rp5.000,00: 46.000-5.000=41.000.\nAnalisis II salah karena lupa mendistribusikan perkalian 4 pada harga pulpen. Maka, Analisis I adalah yang benar.\nKesalahan Umum yang Diantisipasi:\nSiswa memilih Analisis II karena tidak menyadari bahwa pulpen juga dibeli sebanyak 4 buah.",
+    "original_explanation": "Pembahasan:\nTotal belanja secara terpisah = (4×8.000)+(4×3.500).\nMenggunakan sifat distributif a⋅b+a⋅c=a(b+c), rumus disederhanakan menjadi:\n4×(8.000+3.500)=4×11.500=46.000\nDikurangi diskon Rp5.000,00: 46.000-5.000=41.000.\nAnalisis II salah karena lupa mendistribusikan perkalian 4 pada harga pulpen. Maka, Analisis I adalah yang benar.\nKesalahan Umum yang Diantisipasi:\nSiswa memilih Analisis II karena tidak menyadari bahwa pulpen juga dibeli sebanyak 4 buah.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Jawaban berupa alasan distributif AnalisisI tetap; perubahan nominal tidak mengubah teks jawaban benar.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-3-6": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 6,
+    "source_body_index": 2824,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A, C, dan D",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A, C, dan D\nDiberikan empat ekspresi penyederhanaan eksponen dan bentuk akar hasil pengerjaan kuis siswa:\n(i) 3^(6)×3^(-3)=27\n(ii) sqrt(98)-sqrt(50)=2sqrt(2)\n(iii) (2^(4)())^(2)=128\n(iv) sqrt(18)×sqrt(2)=6\nManakah hasil analisis pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Pernyataan (i)\n[ ] B. Pernyataan (ii)\n[ ] C. Pernyataan (iii)\n[ ] D. Pernyataan (iv)\nPembahasan:\n(i) Benar: 3^(6+(-3))=3^(3)=27.\n(ii) Benar: sqrt(98)-sqrt(50)=sqrt(49×2)-sqrt(25×2)=7sqrt(2)-5sqrt(2)=2sqrt(2).\n(iii) Salah: (2^(4)())^(2)=2^(4×2)=2^(8)=256 (bukan 128).\n(iv) Benar: sqrt(18)×sqrt(2)=sqrt(36)=6.\nKunci PGK 6 yang Tepat: A, B, dan D.\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan (2^(4)())^(2) menjadi 2^(4+2)=2^(6)=64 atau 2^(7)=128, alih-alih mengalikan pangkatnya (4×2=8).",
+    "original_explanation": "Pembahasan:\n(i) Benar: 3^(6+(-3))=3^(3)=27.\n(ii) Benar: sqrt(98)-sqrt(50)=sqrt(49×2)-sqrt(25×2)=7sqrt(2)-5sqrt(2)=2sqrt(2).\n(iii) Salah: (2^(4))^(2)=2^(4×2)=2^(8)=256 (bukan 128).\n(iv) Benar: sqrt(18)×sqrt(2)=sqrt(36)=6.\nKunci PGK 6 yang Tepat: A, B, dan D.\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan (2^(4))^(2) menjadi 2^(4+2)=2^(6)=64 atau 2^(7)=128, alih-alih mengalikan pangkatnya (4×2=8).",
+    "generation_status": "HOLD_SOURCE",
+    "reason": "Header A,C,D bertentangan dengan kebenaran i,ii,iv: A,B,D. Pembahasan menyebut koreksi kunci eksplisit.",
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-3-7": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 7,
+    "source_body_index": 2864,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "A, B, dan D",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A, B, dan D\nSeorang bendahara panitia lomba menganalisis dua rumus perhitungan sisa dana operasional:\nRumus 1: (200.000-60.000)-40.000=140.000-40.000=100.000\nRumus 2: 200.000-(60.000+40.000)=200.000-100.000=100.000\nManakah analisis matematika yang benar berkaitan dengan kedua rumus tersebut? (Jawaban benar dapat lebih dari satu)\n[ ] A. Rumus 1 dan Rumus 2 menghasilkan nilai sisa dana akhir yang sama, yaitu Rp100.000,00.\n[ ] B. Kesamaan hasil Rumus 1 dan Rumus 2 membuktikan berlakunya sifat distributif tanda negatif: -(a+b)=-a-b.\n[ ] C. Jika Rumus 2 diubah menjadi 200.000-(60.000-40.000), hasilnya akan tetap bernilai sama.\n[ ] D. Mengelompokkan total pengeluaran seperti pada Rumus 2 mempermudah rekapitulasi total alokasi biaya.\nPembahasan:\nA (Benar): Kedua rumus menghasilkan Rp100.000,00.\nB (Benar): 200.000-(60.000+40.000)=200.000-60.000-40.000, menunjukkan penyebaran tanda minus.\nC (Salah): 200.000-(60.000-40.000)=200.000-20.000=180.000≠100.000.\nD (Benar): Menjumlahkan pengeluaran (60.000+40.000) di dalam kurung lebih praktis secara administrasi.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira tanda operasi di dalam kurung pada operasi pengurangan bersifat bebas tanpa mengubah nilai akhir.",
+    "original_explanation": "Pembahasan:\nA (Benar): Kedua rumus menghasilkan Rp100.000,00.\nB (Benar): 200.000-(60.000+40.000)=200.000-60.000-40.000, menunjukkan penyebaran tanda minus.\nC (Salah): 200.000-(60.000-40.000)=200.000-20.000=180.000≠100.000.\nD (Benar): Menjumlahkan pengeluaran (60.000+40.000) di dalam kurung lebih praktis secara administrasi.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira tanda operasi di dalam kurung pada operasi pengurangan bersifat bebas tanpa mengubah nilai akhir.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "mcma-2-3-8": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 8,
+    "source_body_index": 2895,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "B dan D",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B dan D\nDiberikan sebuah ekspresi matematika operasi campuran bilangan real:\nN=20÷(-5)+4×(1)/(2)-(-3)\nManakah hasil analisis pengerjaan yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Hasil operasi pembagian 20÷(-5) adalah 4.\n[ ] B. Hasil operasi perkalian 4×(1)/(2) adalah 2.\n[ ] C. Nilai akhir N adalah -1.\n[ ] D. Nilai akhir N adalah 1.\nPembahasan:\nAnalisis pembagian: 20÷(-5)=-4 (Opsi A salah karena tertulis 4).\nAnalisis perkalian: 4×(1)/(2)=2 (Opsi B Benar).\nPengurangan tanda negatif: -(-3)=+3.\nHitung nilai N:\nN=-4+2+3=-2+3=1\n(Opsi D Benar, Opsi C salah).\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan pembagian bilangan positif dengan bilangan negatif (20÷(-5) dihitung +4) atau keliru pada -(-3).",
+    "original_explanation": "Pembahasan:\nAnalisis pembagian: 20÷(-5)=-4 (Opsi A salah karena tertulis 4).\nAnalisis perkalian: 4×(1)/(2)=2 (Opsi B Benar).\nPengurangan tanda negatif: -(-3)=+3.\nHitung nilai N:\nN=-4+2+3=-2+3=1\n(Opsi D Benar, Opsi C salah).\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan pembagian bilangan positif dengan bilangan negatif (20÷(-5) dihitung +4) atau keliru pada -(-3).",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-2-3-9": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 9,
+    "source_body_index": 2929,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nSebuah kantin sekolah membeli dua jenis bahan makanan untuk menu makan siang:\n4(1)/(2)kg beras seharga Rp14.000,00 per kg.\n2(1)/(4)kg telur seharga Rp28.000,00 per kg.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis transaksi berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Total biaya pengeluaran untuk membeli beras adalah Rp63.000,00. | \n | \n\n\n(b) Total biaya pembelian telur lebih murah daripada total biaya pembelian beras. | \n | \n\n\n(c) Total biaya belanja seluruhnya untuk kedua bahan makanan tersebut adalah Rp126.000,00. | \n |\nPembahasan:\n(a) Biaya beras = 4,5×14.000=(9)/(2)×14.000=63.000 (BENAR).\n(b) Biaya telur = 2,25×28.000=(9)/(4)×28.000=63.000.\nKarena biaya telur (Rp63.000,00) sama dengan biaya beras (Rp63.000,00), maka tidak ada yang lebih murah (SALAH).\n(c) Total seluruhnya = 63.000+63.000=126.000 (BENAR).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru mengonversi pecahan campuran ke bentuk desimal (misalnya 2(1)/(4)=2,14), sehingga mendapatkan total harga telur yang salah.",
+    "original_explanation": "Pembahasan:\n(a) Biaya beras = 4,5×14.000=(9)/(2)×14.000=63.000 (BENAR).\n(b) Biaya telur = 2,25×28.000=(9)/(4)×28.000=63.000.\nKarena biaya telur (Rp63.000,00) sama dengan biaya beras (Rp63.000,00), maka tidak ada yang lebih murah (SALAH).\n(c) Total seluruhnya = 63.000+63.000=126.000 (BENAR).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru mengonversi pecahan campuran ke bentuk desimal (misalnya 2 1/4=2,14), sehingga mendapatkan total harga telur yang salah.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  },
+  "kategori-2-3-10": {
+    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_number": 10,
+    "source_body_index": 2956,
+    "source_cognitive_label": "C4 (Menganalisis)",
+    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nDiberikan dua ekspresi matematika P dan Q yang melibatkan operasi bentuk akar dan eksponen:\nP=sqrt(300)-sqrt(75)\nQ=(3^(2)×2())^(2)÷36\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Bentuk sederhana dari ekspresi P adalah 5sqrt(3). | \n | \n\n\n(b) Nilai dari ekspresi Q adalah 9. | \n | \n\n\n(c) Nilai dari ekspresi Q lebih kecil daripada nilai pendekatan desimal ekspresi P (asumsi sqrt(3)≈1,732). | \n |\nPembahasan:\n(a) P=sqrt(100×3)-sqrt(25×3)=10sqrt(3)-5sqrt(3)=5sqrt(3) (BENAR).\n(b) Q=(9×2())^(2)÷36=18^(2)÷36=324÷36=9 (BENAR).\n(c) Pendekatan nilai P=5×1,732=8,66.\nKarena Q=9 dan P≈8,66, maka Q lebih besar dari P (9>8,66). Pernyataan c menyatakan Q lebih kecil, sehingga (SALAH).\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan (3^(2)×2())^(2) (misalnya dihitung 6^(2)=36) atau keliru mengalikan nilai pendekatan desimal bentuk akar.",
+    "original_explanation": "Pembahasan:\n(a) P=sqrt(100×3)-sqrt(25×3)=10sqrt(3)-5sqrt(3)=5sqrt(3) (BENAR).\n(b) Q=(9×2)^(2)÷36=18^(2)÷36=324÷36=9 (BENAR).\n(c) Pendekatan nilai P=5×1,732=8,66.\nKarena Q=9 dan P≈8,66, maka Q lebih besar dari P (9>8,66). Pernyataan c menyatakan Q lebih kecil, sehingga (SALAH).\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan (3^(2)×2)^(2) (misalnya dihitung 6^(2)=36) atau keliru mengalikan nilai pendekatan desimal bentuk akar.",
+    "generation_status": "ACTIVE",
+    "reason": null,
+    "notes": [
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ]
+  }
+}

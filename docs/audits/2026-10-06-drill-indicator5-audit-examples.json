@@ -1,0 +1,1821 @@
+[
+  {
+    "record_id": "pg-5-1-1:s250:v1",
+    "question_id": "pg-5-1-1",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 1,
+      "source_body_index": 7085,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "B. 4:3",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "1f4be71839f105be",
+    "draws_used": 6,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "p": 11,
+      "q": 6,
+      "scale": 6,
+      "v3": 66,
+      "v4": 36,
+      "v5": 11,
+      "v6": 6,
+      "rp": 11,
+      "rq": 6
+    },
+    "stem": "Tim OSIS SMP menyiapkan dua jenis minuman untuk disajikan dalam acara jalan sehat sekolah. Panitia mencampur 66 liter sirup rasa jeruk dengan 36 liter air mineral ke dalam wadah utama.\nRasio paling sederhana antara volume sirup rasa jeruk dan air mineral dalam campuran tersebut adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "3:2"
+      },
+      {
+        "id": "B",
+        "text": "11:6"
+      },
+      {
+        "id": "C",
+        "text": "5:4"
+      },
+      {
+        "id": "D",
+        "text": "8:5"
+      }
+    ],
+    "key": "B",
+    "explanation": "Rasio sederhana = 11:6. Kedua volume dibagi faktor yang sama.\n\nJawaban: B. 11:6",
+    "original_hash": "dfe15e500ce51f1f",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:52+00:00"
+  },
+  {
+    "record_id": "pg-5-1-2:s250:v1",
+    "question_id": "pg-5-1-2",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 2,
+      "source_body_index": 7117,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "C. 15cm",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "168daff6d4fe1591",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "distance": 20,
+      "scale": 500,
+      "v2": 100,
+      "v3": 500,
+      "v4": 14,
+      "v5": 17,
+      "v6": 20,
+      "v7": 23,
+      "answer": 20
+    },
+    "stem": "Seorang siswa menggambar denah denah denah tata letak stan bazar sekolah. Jarak sebenarnya antara stan pameran IPA dan stan prakarya adalah 100 meter. Jika denah tersebut digambar menggunakan skala 1:500, berapa jarak antara kedua stan pameran tersebut pada denah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 cm"
+      },
+      {
+        "id": "B",
+        "text": "17 cm"
+      },
+      {
+        "id": "C",
+        "text": "20 cm"
+      },
+      {
+        "id": "D",
+        "text": "23 cm"
+      }
+    ],
+    "key": "C",
+    "explanation": "Jarak denah = jarak sebenarnya dalam cm dibagi skala = 20 cm.\n\nJawaban: C. 20 cm",
+    "original_hash": "6881bbf45d7340aa",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:52+00:00"
+  },
+  {
+    "record_id": "pg-5-1-3:s250:v1",
+    "question_id": "pg-5-1-3",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 3,
+      "source_body_index": 7146,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "B. 25 liter/menit",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "3370836b4fa3cf92",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "rate": 23,
+      "v1": 414,
+      "v2": 18,
+      "v3": 23,
+      "v4": 28,
+      "v5": 33,
+      "duration": 18,
+      "answer": 23
+    },
+    "stem": "Petugas kebersihan mengisi bak penampungan air laboratorium IPA yang berkapasitas 414 liter hingga penuh. Selang pengisi air dinyalakan mulai pukul 07.15 WIB dan bak terisi penuh tepat pada pukul 07.33 WIB.\nLaju aliran air (debit) dari selang tersebut adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "18 liter/menit"
+      },
+      {
+        "id": "B",
+        "text": "23 liter/menit"
+      },
+      {
+        "id": "C",
+        "text": "28 liter/menit"
+      },
+      {
+        "id": "D",
+        "text": "33 liter/menit"
+      }
+    ],
+    "key": "B",
+    "explanation": "Durasi = 18 menit. Debit = volume dibagi durasi = 23 liter/menit.\n\nJawaban: B. 23 liter/menit",
+    "original_hash": "4ac66e1a238c9ef6",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:52+00:00"
+  },
+  {
+    "record_id": "pg-5-1-4:s250:v1",
+    "question_id": "pg-5-1-4",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 4,
+      "source_body_index": 7175,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "C. Rp31.500,00",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "8c864945519661bd",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "unit": 6900,
+      "a": 6,
+      "b": 5,
+      "v3": 6,
+      "v4": 41400,
+      "v5": 5,
+      "v6": 34500,
+      "v7": 5,
+      "v8": 31000,
+      "v9": 33000,
+      "v10": 34500,
+      "v11": 38000,
+      "price": 6900,
+      "total": 34500
+    },
+    "stem": "Koperasi sekolah menjual dua paket alat tulis sekolah:\nPaket Hemat A: berisi 6 buku latihan seharga Rp41.400\nPaket Hemat B: berisi 5 buku latihan seharga Rp34.500\nJika harga per unit buku pada Paket Hemat B bernilai ekuivalen (proporsional) dengan Paket Hemat A, berapakah harga yang harus dibayar siswa untuk membeli 5 buku latihan tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rp31.000"
+      },
+      {
+        "id": "B",
+        "text": "Rp33.000"
+      },
+      {
+        "id": "C",
+        "text": "Rp34.500"
+      },
+      {
+        "id": "D",
+        "text": "Rp38.000"
+      }
+    ],
+    "key": "C",
+    "explanation": "Harga satuan = Rp6.900. Harga pembelian = jumlah buku dikali harga satuan = Rp34.500.\n\nJawaban: C. Rp34.500",
+    "original_hash": "5356537283059bf5",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:52+00:00"
+  },
+  {
+    "record_id": "mcma-5-1-6:s250:v1",
+    "question_id": "mcma-5-1-6",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 6,
+      "source_body_index": 7236,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "A, C, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "1be8dd5984c483d6",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "p": 9,
+      "q": 4,
+      "first": 5,
+      "second": 13,
+      "v4": 45,
+      "v5": 20,
+      "v6": 117,
+      "v7": 52,
+      "v8": 9,
+      "v9": 4,
+      "v10": 10,
+      "v11": 5,
+      "v12": 4,
+      "v13": 13,
+      "part": 4,
+      "total": 13
+    },
+    "stem": "Seorang pengurus perpustakaan membandingkan rasio koleksi buku di dua rak terpisah:\nRak 1: memuat 45 buku pelajaran dan 20 buku cerita.\nRak 2: memuat 117 buku pelajaran dan 52 buku cerita.\nManakah pernyataan berikut yang benar mengenai rasio dan ekuivalensi buku pada kedua rak tersebut? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 1 adalah 9:4."
+      },
+      {
+        "id": "B",
+        "text": "Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 2 adalah 10:5."
+      },
+      {
+        "id": "C",
+        "text": "Rasio buku pelajaran dan buku cerita di Rak 1 ekuivalen (sama bernilai) dengan Rak 2."
+      },
+      {
+        "id": "D",
+        "text": "Rasio total buku cerita terhadap seluruh buku di Rak 1 adalah 4:13."
+      }
+    ],
+    "key": "A,C,D",
+    "explanation": "Rasio sederhana kedua kelompok = 9:4. Rasio bagian terhadap seluruh kelompok pertama = 4:13.\n\nPenilaian pernyataan: A: Benar — Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 1 adalah 9:4.; B: Salah — Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 2 adalah 10:5.; C: Benar — Rasio buku pelajaran dan buku cerita di Rak 1 ekuivalen (sama bernilai) dengan Rak 2.; D: Benar — Rasio total buku cerita terhadap seluruh buku di Rak 1 adalah 4:13.",
+    "original_hash": "1e7ae3479c933827",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "mcma-5-1-7:s250:v1",
+    "question_id": "mcma-5-1-7",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 7,
+      "source_body_index": 7268,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "A, B, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "7ed0b4ff9e05aa28",
+    "draws_used": 4,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "scale": 200,
+      "length": 11,
+      "width": 10,
+      "v3": 200,
+      "v4": 11,
+      "v5": 10,
+      "v6": 22,
+      "v7": 20,
+      "v8": 114,
+      "v9": 440,
+      "long": 22,
+      "wide": 20,
+      "paper": 110,
+      "area": 440
+    },
+    "stem": "Sebuah denah gedung aula sekolah digambar dengan skala 1:200. Pada denah tersebut, aula berbentuk persegi panjang memiliki ukuran panjang 11cm dan lebar 10cm.\nManakah pernyataan berikut yang benar mengenai ukuran aula sebenarnya? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panjang aula sebenarnya adalah 22 meter."
+      },
+      {
+        "id": "B",
+        "text": "Lebar aula sebenarnya adalah 20 meter."
+      },
+      {
+        "id": "C",
+        "text": "Luas aula pada denah adalah 114 cm^(2)."
+      },
+      {
+        "id": "D",
+        "text": "Luas aula sebenarnya adalah 440 m^(2)."
+      }
+    ],
+    "key": "A,B,D",
+    "explanation": "Panjang sebenarnya = 22 m; lebar sebenarnya = 20 m. Luas denah = 110 cm persegi; luas sebenarnya = 440 m persegi.\n\nPenilaian pernyataan: A: Benar — Panjang aula sebenarnya adalah 22 meter.; B: Benar — Lebar aula sebenarnya adalah 20 meter.; C: Salah — Luas aula pada denah adalah 114 cm^(2).; D: Benar — Luas aula sebenarnya adalah 440 m^(2).",
+    "original_hash": "7224721c3fa5c00f",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "mcma-5-1-8:s250:v1",
+    "question_id": "mcma-5-1-8",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 8,
+      "source_body_index": 7297,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "B dan C",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "fe2123ed7858ec01",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "speed": 48,
+      "gap": 8,
+      "v2": 72,
+      "v3": 80,
+      "v4": 38,
+      "v5": 48,
+      "v6": 40,
+      "second": 40
+    },
+    "stem": "Dua sepeda motor A dan B melakukan perjalanan dari sekolah menuju kompleks tempat berkemah.\nSepeda Motor A menempuh jarak 72km dalam waktu 1,5 jam.\nSepeda Motor B menempuh jarak 80km dalam waktu 2 jam.\nManakah pernyataan berikut yang benar mengenai laju kecepatan kedua sepeda motor tersebut? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kecepatan rata-rata Sepeda Motor A adalah 38 km/jam."
+      },
+      {
+        "id": "B",
+        "text": "Kecepatan rata-rata Sepeda Motor A adalah 48 km/jam."
+      },
+      {
+        "id": "C",
+        "text": "Kecepatan rata-rata Sepeda Motor B adalah 40 km/jam."
+      },
+      {
+        "id": "D",
+        "text": "Sepeda Motor B melaju lebih cepat daripada Sepeda Motor A."
+      }
+    ],
+    "key": "B,C",
+    "explanation": "Kecepatan kendaraan pertama = 48 km/jam; kendaraan kedua = 40 km/jam. Selisih kecepatan pertama terhadap kedua = 8 km/jam.\n\nPenilaian pernyataan: A: Salah — Kecepatan rata-rata Sepeda Motor A adalah 38 km/jam.; B: Benar — Kecepatan rata-rata Sepeda Motor A adalah 48 km/jam.; C: Benar — Kecepatan rata-rata Sepeda Motor B adalah 40 km/jam.; D: Salah — Sepeda Motor B melaju lebih cepat daripada Sepeda Motor A.",
+    "original_hash": "7226d35ad265b214",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "kategori-5-1-9:s250:v1",
+    "question_id": "kategori-5-1-9",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 9,
+      "source_body_index": 7331,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "a8645aa501bd3036",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "unit": 17800,
+      "gap": 600,
+      "v2": 44500,
+      "v3": 68800,
+      "v4": 17800,
+      "v5": 17700,
+      "second": 17200
+    },
+    "stem": "Ibu kantin sekolah membeli dua kemasan minyak goreng dengan ukuran berbeda:\nKemasan P: berisi 2,5 liter seharga Rp44.500\nKemasan Q: berisi 4,0 liter seharga Rp68.800\nTentukan status BENAR atau SALAH untuk setiap pernyataan berkaitan dengan laju harga per liter minyak goreng tersebut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Harga per liter minyak goreng Kemasan P adalah Rp17.800."
+      },
+      {
+        "id": "2",
+        "text": "Harga per liter minyak goreng Kemasan Q adalah Rp17.700."
+      },
+      {
+        "id": "3",
+        "text": "Kemasan Q menawarkan harga per liter yang lebih murah dibandingkan Kemasan P."
+      }
+    ],
+    "key": "1,3",
+    "explanation": "Harga satuan kemasan pertama = Rp17.800; kemasan kedua = Rp17.200. Kemasan kedua lebih murah Rp600 per satuan.\n\nPenilaian pernyataan: 1: Benar — Harga per liter minyak goreng Kemasan P adalah Rp17.800.; 2: Salah — Harga per liter minyak goreng Kemasan Q adalah Rp17.700.; 3: Benar — Kemasan Q menawarkan harga per liter yang lebih murah dibandingkan Kemasan P.",
+    "original_hash": "1ed8ceaefe552455",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "kategori-5-1-10:s250:v1",
+    "question_id": "kategori-5-1-10",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 10,
+      "source_body_index": 7363,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "65d448ea4be29877",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "rate": 15,
+      "time": 7,
+      "v2": 45,
+      "v3": 75,
+      "v4": 120,
+      "v5": 15,
+      "v6": 7,
+      "v7": 105,
+      "v8": 180,
+      "result": 105,
+      "duration": 12
+    },
+    "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra pengrajin dan banyak barang souvenir pameran sekolah yang dihasilkan:\nWaktu Kerja (jam) | \nSouvenir Dihasilkan (unit)\n\n3 | \n45\n\n5 | \n75\n\n8 | \n120\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis proporsi berdasarkan tabel di atas!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Laju pembuatan souvenir tersebut adalah 15 unit/jam."
+      },
+      {
+        "id": "2",
+        "text": "Jika pengrajin bekerja selama 7jam, maka barang souvenir yang dihasilkan adalah 105 unit."
+      },
+      {
+        "id": "3",
+        "text": "Untuk menghasilkan 180 unit souvenir, waktu kerja yang dibutuhkan adalah 14 jam."
+      }
+    ],
+    "key": "1,2",
+    "explanation": "Laju produksi = 15 satuan/jam. Produksi untuk waktu yang ditanyakan = 105 satuan. Waktu untuk target pernyataan terakhir = 12 jam.\n\nPenilaian pernyataan: 1: Benar — Laju pembuatan souvenir tersebut adalah 15 unit/jam.; 2: Benar — Jika pengrajin bekerja selama 7jam, maka barang souvenir yang dihasilkan adalah 105 unit.; 3: Salah — Untuk menghasilkan 180 unit souvenir, waktu kerja yang dibutuhkan adalah 14 jam.",
+    "original_hash": "e88bfdf00fd8fbf7",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "pg-5-2-1:s250:v1",
+    "question_id": "pg-5-2-1",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 1,
+      "source_body_index": 7388,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "B. 5:3",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "f3bfb508803a7c21",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "p": 8,
+      "q": 5,
+      "scale": 4,
+      "v3": 32,
+      "v4": 20,
+      "v5": 8,
+      "v6": 5,
+      "rp": 8,
+      "rq": 5
+    },
+    "stem": "Untuk keperluan hiasan panggung acara perpisahan sekolah, tim dekorasi menyiapkan dua jenis pita. Panjang pita merah adalah 32 meter dan panjang pita putih adalah 20 meter.\nBentuk rasio paling sederhana antara panjang pita merah dan pita putih adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "3:2"
+      },
+      {
+        "id": "B",
+        "text": "8:5"
+      },
+      {
+        "id": "C",
+        "text": "9:5"
+      },
+      {
+        "id": "D",
+        "text": "15:8"
+      }
+    ],
+    "key": "B",
+    "explanation": "Rasio sederhana = 8:5. Kedua panjang dibagi faktor yang sama.\n\nJawaban: B. 8:5",
+    "original_hash": "0751b4974d5b67a1",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "pg-5-2-2:s250:v1",
+    "question_id": "pg-5-2-2",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 2,
+      "source_body_index": 7421,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "C. 18cm",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "5b7888be95b10968",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "distance": 25,
+      "scale": 350,
+      "v2": 87.5,
+      "v3": 350,
+      "v4": 19,
+      "v5": 22,
+      "v6": 25,
+      "v7": 31,
+      "answer": 25
+    },
+    "stem": "Seorang siswa menggambar denah tata letak panggung terbuka dan lapangan olahraga sekolah. Jarak sebenarnya antara panggung terbuka dan lapangan olahraga tersebut adalah 87,5 meter. Jika denah tersebut digambar menggunakan skala 1:350, berapa jarak antara kedua fasilitas tersebut pada denah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "19 cm"
+      },
+      {
+        "id": "B",
+        "text": "22 cm"
+      },
+      {
+        "id": "C",
+        "text": "25 cm"
+      },
+      {
+        "id": "D",
+        "text": "31 cm"
+      }
+    ],
+    "key": "C",
+    "explanation": "Jarak denah = jarak sebenarnya dalam cm dibagi skala = 25 cm.\n\nJawaban: C. 25 cm",
+    "original_hash": "063865d3ecb073ce",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "pg-5-2-3:s250:v1",
+    "question_id": "pg-5-2-3",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 3,
+      "source_body_index": 7451,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "B. 18 liter/menit",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "9ffba514919b3d43",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "rate": 16,
+      "v1": 320,
+      "v2": 13,
+      "v3": 16,
+      "v4": 18,
+      "v5": 22,
+      "duration": 20,
+      "answer": 16
+    },
+    "stem": "Petugas kebersihan mengisi bak kolam ikan hias di taman sekolah yang berkapasitas 320 liter hingga penuh. Keran air dinyalakan mulai pukul 08.10 WIB dan kolam terisi penuh tepat pada pukul 08.30 WIB.\nLaju aliran air (debit) dari keran tersebut adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "13 liter/menit"
+      },
+      {
+        "id": "B",
+        "text": "16 liter/menit"
+      },
+      {
+        "id": "C",
+        "text": "18 liter/menit"
+      },
+      {
+        "id": "D",
+        "text": "22 liter/menit"
+      }
+    ],
+    "key": "B",
+    "explanation": "Durasi = 20 menit. Debit = volume dibagi durasi = 16 liter/menit.\n\nJawaban: B. 16 liter/menit",
+    "original_hash": "38d312218d2b11d1",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "pg-5-2-5:s250:v1",
+    "question_id": "pg-5-2-5",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 5,
+      "source_body_index": 7521,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "C. 300 kilometer",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "c466bbfa6f44c535",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C4",
+    "values_used": {
+      "rate": 44,
+      "fuel": 9.5,
+      "v2": 132,
+      "v3": 176,
+      "v4": 264,
+      "v5": 9.5,
+      "v6": 9.5,
+      "v7": 388,
+      "v8": 398,
+      "v9": 418,
+      "v10": 438,
+      "answer": 418
+    },
+    "stem": "Tabel berikut menunjukkan hubungan proporsional antara volume konsumsi bahan bakar (bensin) kendaraan operasional sekolah dan jarak tempuh yang dicapai:\nVolume Bensin (liter) | \nJarak Tempuh (km)\n\n3 | \n132\n\n4 | \n176\n\n6 | \n264\n\n9,5 | \nm\nSeorang siswa menganalisis nilai m (jarak tempuh yang dicapai jika bensin yang terpakai sebanyak 9,5 liter). Nilai m yang benar adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "388 km"
+      },
+      {
+        "id": "B",
+        "text": "398 km"
+      },
+      {
+        "id": "C",
+        "text": "418 km"
+      },
+      {
+        "id": "D",
+        "text": "438 km"
+      }
+    ],
+    "key": "C",
+    "explanation": "Rasio jarak per liter = 44 km/liter. Jarak = volume dikali rasio = 418 km.\n\nJawaban: C. 418 km",
+    "original_hash": "8e5439a7463615ab",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "mcma-5-2-6:s250:v1",
+    "question_id": "mcma-5-2-6",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 6,
+      "source_body_index": 7551,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "A, C, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "26d446fee00f4d9e",
+    "draws_used": 3,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "p": 6,
+      "q": 1,
+      "first": 16,
+      "second": 21,
+      "v4": 96,
+      "v5": 16,
+      "v6": 126,
+      "v7": 21,
+      "v8": 6,
+      "v9": 1,
+      "v10": 7,
+      "v11": 2,
+      "v12": 6,
+      "v13": 7,
+      "part": 6,
+      "total": 7
+    },
+    "stem": "Seorang petugas perpustakaan membandingkan rasio jenis buku di dua rak:\nRak A: memuat 96 buku fiksi dan 16 buku non-fiksi.\nRak B: memuat 126 buku fiksi dan 21 buku non-fiksi.\nManakah pernyataan berikut yang benar mengenai rasio dan ekuivalensi buku pada kedua rak tersebut? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rasio paling sederhana antara buku fiksi dan non-fiksi di Rak A adalah 6:1."
+      },
+      {
+        "id": "B",
+        "text": "Rasio paling sederhana antara buku fiksi dan non-fiksi di Rak B adalah 7:2."
+      },
+      {
+        "id": "C",
+        "text": "Rasio buku fiksi dan non-fiksi di Rak A ekuivalen (senilai) dengan Rak B."
+      },
+      {
+        "id": "D",
+        "text": "Rasio total buku fiksi terhadap seluruh buku di Rak A adalah 6:7."
+      }
+    ],
+    "key": "A,C,D",
+    "explanation": "Rasio sederhana kedua kelompok = 6:1. Rasio bagian terhadap seluruh kelompok pertama = 6:7.\n\nPenilaian pernyataan: A: Benar — Rasio paling sederhana antara buku fiksi dan non-fiksi di Rak A adalah 6:1.; B: Salah — Rasio paling sederhana antara buku fiksi dan non-fiksi di Rak B adalah 7:2.; C: Benar — Rasio buku fiksi dan non-fiksi di Rak A ekuivalen (senilai) dengan Rak B.; D: Benar — Rasio total buku fiksi terhadap seluruh buku di Rak A adalah 6:7.",
+    "original_hash": "c3a2a2b56d7a4ac2",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "mcma-5-2-7:s250:v1",
+    "question_id": "mcma-5-2-7",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 7,
+      "source_body_index": 7585,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "A, B, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "25d7b32693ecdd7b",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C4",
+    "values_used": {
+      "scale": 150,
+      "length": 11,
+      "width": 8,
+      "v3": 150,
+      "v4": 11,
+      "v5": 8,
+      "v6": 16.5,
+      "v7": 12,
+      "v8": 99,
+      "v9": 198,
+      "long": 16.5,
+      "wide": 12,
+      "paper": 88,
+      "area": 198
+    },
+    "stem": "Sebuah denah ruang serbaguna sekolah digambar menggunakan skala 1:150. Pada denah, ruang tersebut berbentuk persegi panjang dengan ukuran panjang 11 cm dan lebar 8 cm. Seorang siswa menganalisis dimensi sebenarnya dari ruang tersebut.\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panjang ruang serbaguna sebenarnya adalah 16,5 meter."
+      },
+      {
+        "id": "B",
+        "text": "Lebar ruang serbaguna sebenarnya adalah 12 meter."
+      },
+      {
+        "id": "C",
+        "text": "Luas ruang serbaguna sebenarnya adalah 99( m)^(2)."
+      },
+      {
+        "id": "D",
+        "text": "Luas ruang serbaguna sebenarnya adalah 198 m^(2)."
+      }
+    ],
+    "key": "A,B,D",
+    "explanation": "Panjang sebenarnya = 16,5 m; lebar sebenarnya = 12 m. Luas denah = 88 cm persegi; luas sebenarnya = 198 m persegi.\n\nPenilaian pernyataan: A: Benar — Panjang ruang serbaguna sebenarnya adalah 16,5 meter.; B: Benar — Lebar ruang serbaguna sebenarnya adalah 12 meter.; C: Salah — Luas ruang serbaguna sebenarnya adalah 99( m)^(2).; D: Benar — Luas ruang serbaguna sebenarnya adalah 198 m^(2).",
+    "original_hash": "65742448759f89e0",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "mcma-5-2-8:s250:v1",
+    "question_id": "mcma-5-2-8",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 8,
+      "source_body_index": 7614,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "B dan C",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "7de06562807f8922",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C4",
+    "values_used": {
+      "speed": 50,
+      "gap": 9,
+      "v2": 100,
+      "v3": 102.5,
+      "v4": 45,
+      "v5": 50,
+      "v6": 41,
+      "second": 41
+    },
+    "stem": "Dua sepeda motor P dan Q melakukan perjalanan dari sekolah menuju lokasi kegiatan bakti sosial:\nSepeda Motor P menempuh jarak 100km dalam waktu 2 jam.\nSepeda Motor Q menempuh jarak 102,5km dalam waktu 2,5 jam.\nSeorang siswa menganalisis laju kecepatan kedua sepeda motor tersebut. Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kecepatan rata-rata Sepeda Motor P adalah 45 km/jam."
+      },
+      {
+        "id": "B",
+        "text": "Kecepatan rata-rata Sepeda Motor P adalah 50 km/jam."
+      },
+      {
+        "id": "C",
+        "text": "Kecepatan rata-rata Sepeda Motor Q adalah 41 km/jam."
+      },
+      {
+        "id": "D",
+        "text": "Sepeda Motor Q melaju lebih cepat daripada Sepeda Motor P."
+      }
+    ],
+    "key": "B,C",
+    "explanation": "Kecepatan kendaraan pertama = 50 km/jam; kendaraan kedua = 41 km/jam. Selisih kecepatan pertama terhadap kedua = 9 km/jam.\n\nPenilaian pernyataan: A: Salah — Kecepatan rata-rata Sepeda Motor P adalah 45 km/jam.; B: Benar — Kecepatan rata-rata Sepeda Motor P adalah 50 km/jam.; C: Benar — Kecepatan rata-rata Sepeda Motor Q adalah 41 km/jam.; D: Salah — Sepeda Motor Q melaju lebih cepat daripada Sepeda Motor P.",
+    "original_hash": "936bf73827a8a066",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "kategori-5-2-9:s250:v1",
+    "question_id": "kategori-5-2-9",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 9,
+      "source_body_index": 7646,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "de840c38c4336837",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "unit": 12200,
+      "gap": 1300,
+      "v2": 61000,
+      "v3": 109000,
+      "v4": 12200,
+      "v5": 12200,
+      "second": 10900
+    },
+    "stem": "Pengurus kantin sekolah membeli dua kemasan beras dengan ukuran berbeda:\nKemasan A: berisi 5 kg seharga Rp61.000\nKemasan B: berisi 10 kg seharga Rp109.000\nTentukan status BENAR atau SALAH untuk setiap pernyataan berkaitan dengan laju harga per kilogram beras tersebut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Harga per kilogram beras Kemasan A adalah Rp12.200."
+      },
+      {
+        "id": "2",
+        "text": "Harga per kilogram beras Kemasan B adalah Rp12.200."
+      },
+      {
+        "id": "3",
+        "text": "Kemasan B menawarkan harga per kilogram yang lebih murah dibandingkan Kemasan A."
+      }
+    ],
+    "key": "1,3",
+    "explanation": "Harga satuan kemasan pertama = Rp12.200; kemasan kedua = Rp10.900. Kemasan kedua lebih murah Rp1.300 per satuan.\n\nPenilaian pernyataan: 1: Benar — Harga per kilogram beras Kemasan A adalah Rp12.200.; 2: Salah — Harga per kilogram beras Kemasan B adalah Rp12.200.; 3: Benar — Kemasan B menawarkan harga per kilogram yang lebih murah dibandingkan Kemasan A.",
+    "original_hash": "d6f88e7ddb963ca7",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "kategori-5-2-10:s250:v1",
+    "question_id": "kategori-5-2-10",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 10,
+      "source_body_index": 7677,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "4839ad4edd50771d",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C4",
+    "values_used": {
+      "rate": 18,
+      "time": 11,
+      "v2": 36,
+      "v3": 90,
+      "v4": 144,
+      "v5": 18,
+      "v6": 11,
+      "v7": 198,
+      "v8": 180,
+      "result": 198,
+      "duration": 10
+    },
+    "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja tim sablon dan banyak kaus panitia kegiatan sekolah yang selesai disablon:\nWaktu Kerja (jam) | \nKaus Selesai (lembar)\n\n2 | \n36\n\n5 | \n90\n\n8 | \n144\nSeorang siswa menganalisis proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Laju pencetakan sablon kaus tersebut adalah 18 lembar/jam."
+      },
+      {
+        "id": "2",
+        "text": "Jika tim bekerja selama 11 jam, maka kaus yang selesai disablon adalah 198 lembar."
+      },
+      {
+        "id": "3",
+        "text": "Untuk menyelesaikan 180 lembar kaus, waktu kerja yang dibutuhkan adalah 12 jam."
+      }
+    ],
+    "key": "1,2",
+    "explanation": "Laju produksi = 18 satuan/jam. Produksi untuk waktu yang ditanyakan = 198 satuan. Waktu untuk target pernyataan terakhir = 10 jam.\n\nPenilaian pernyataan: 1: Benar — Laju pencetakan sablon kaus tersebut adalah 18 lembar/jam.; 2: Benar — Jika tim bekerja selama 11 jam, maka kaus yang selesai disablon adalah 198 lembar.; 3: Salah — Untuk menyelesaikan 180 lembar kaus, waktu kerja yang dibutuhkan adalah 12 jam.",
+    "original_hash": "8e9487d1785db18c",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "pg-5-3-1:s250:v1",
+    "question_id": "pg-5-3-1",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 1,
+      "source_body_index": 7702,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "B. Analisis II",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "3a089c362c18352c",
+    "draws_used": 6,
+    "format": "PG",
+    "cognitive_level": "C4",
+    "values_used": {
+      "p": 1,
+      "q": 5,
+      "first": 9,
+      "second": 21,
+      "delta": 1,
+      "v5": 9,
+      "v6": 45,
+      "v7": 21,
+      "v8": 126,
+      "v9": 1,
+      "v10": 5,
+      "v11": 1,
+      "v12": 6,
+      "v13": 1,
+      "v14": 5,
+      "v15": 18,
+      "v16": 90,
+      "v17": 21,
+      "v18": 105,
+      "v19": 21,
+      "v20": 9,
+      "other": 6,
+      "relation": "lebih besar daripada"
+    },
+    "stem": "Seorang pengurus OSIS menganalisis dua resep campuran larutan pembersih lantai laboratorium:\nCampuran P: 9 ml konsentrat dicampur dengan 45 ml air bersih.\nCampuran Q: 21 ml konsentrat dicampur dengan 126 ml air bersih.\nDua siswa memberikan hasil analisis rasio paling sederhana antara konsentrat dan air bersih pada kedua campuran tersebut:\nAnalisis I: Campuran P memiliki rasio 1:5, sedangkan Campuran Q memiliki rasio 1:6, sehingga Campuran P lebih pekat.\nAnalisis II: Campuran P dan Campuran Q keduanya memiliki rasio ekuivalen 1:5, sehingga tingkat kepekatan kedua campuran tersebut persis sama.\nAnalisis III: Campuran P memiliki rasio 18:90 dan Campuran Q memiliki rasio 21:105, sehingga keduanya tidak ekuivalen.\nAnalisis IV: Campuran Q lebih pekat karena volume konsentratnya lebih banyak (21 ml>9 ml).\nHasil analisis siapakah yang pasti benar secara matematis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Analisis I"
+      },
+      {
+        "id": "B",
+        "text": "Analisis II"
+      },
+      {
+        "id": "C",
+        "text": "Analisis III"
+      },
+      {
+        "id": "D",
+        "text": "Analisis IV"
+      }
+    ],
+    "key": "A",
+    "explanation": "Rasio sederhana Campuran P = 1:5; Campuran Q = 1:6. Perbandingan konsentrat terhadap air Campuran P lebih besar daripada Campuran Q.\n\nJawaban: A. Analisis I",
+    "original_hash": "ea93e9cd8e9a9ab5",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "pg-5-3-2:s250:v1",
+    "question_id": "pg-5-3-2",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 2,
+      "source_body_index": 7748,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "C. 1:250",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "9935d64c85930764",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C4",
+    "values_used": {
+      "scale": 660,
+      "length": 6,
+      "factor": 2,
+      "v3": 660,
+      "v4": 6,
+      "v5": 12,
+      "v6": 1320,
+      "v7": 660,
+      "v8": 330,
+      "v9": 165,
+      "actual": 3960,
+      "answer": 330
+    },
+    "stem": "Seorang siswa menggambar ulang peta denah area hijau sekolah. Pada denah asli bertuliskan skala 1:660, panjang lapangan basket terukur 6cm. Siswa tersebut ingin menggambar ulang denah pada kertas berukuran lebih besar sehingga panjang lapangan basket menjadi 12cm.\nBerapakah skala baru pada denah pengganti tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1:1.320"
+      },
+      {
+        "id": "B",
+        "text": "1:660"
+      },
+      {
+        "id": "C",
+        "text": "1:330"
+      },
+      {
+        "id": "D",
+        "text": "1:165"
+      }
+    ],
+    "key": "C",
+    "explanation": "Panjang sebenarnya = 3.960 cm. Skala baru = panjang gambar baru dibagi panjang sebenarnya = 1:330.\n\nJawaban: C. 1:330",
+    "original_hash": "7d8235c7a17cb2f2",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "pg-5-3-4:s250:v1",
+    "question_id": "pg-5-3-4",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 4,
+      "source_body_index": 7815,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "C. Toko B lebih murah dengan selisih harga Rp300,00 per buku",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "f68e23de0b610aa8",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C4",
+    "values_used": {
+      "a": 3700,
+      "gap": 700,
+      "v2": 37000,
+      "v3": 45000,
+      "v4": 900,
+      "v5": 900,
+      "v6": 700,
+      "first": 3700,
+      "second": 3000
+    },
+    "stem": "Koperasi sekolah membandingkan penawaran harga buku tulis dari dua distributor grosir:\nToko A: Menjual 1 pak berisi 10 buku seharga Rp37.000.\nToko B: Menjual 1 pak berisi 15 buku seharga Rp45.000.\nSeorang siswa menganalisis laju harga per unit (harga per buku) untuk merekomendasikan toko yang paling hemat. Hasil analisis yang benar adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "Toko A lebih murah dengan selisih harga Rp900 per buku"
+      },
+      {
+        "id": "B",
+        "text": "Toko B lebih murah dengan selisih harga Rp900 per buku"
+      },
+      {
+        "id": "C",
+        "text": "Toko B lebih murah dengan selisih harga Rp700 per buku"
+      },
+      {
+        "id": "D",
+        "text": "Toko A dan Toko B memiliki harga per unit yang ekuivalen"
+      }
+    ],
+    "key": "C",
+    "explanation": "Harga per buku Toko A = Rp3.700; Toko B = Rp3.000. Toko B lebih murah Rp700 per buku.\n\nJawaban: C. Toko B lebih murah dengan selisih harga Rp700 per buku",
+    "original_hash": "7c623541f5c09ddc",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "pg-5-3-5:s250:v1",
+    "question_id": "pg-5-3-5",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 5,
+      "source_body_index": 7854,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "B. 240 lembar",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "8ec8c2bff342476b",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C4",
+    "values_used": {
+      "rate": 58,
+      "time": 9,
+      "v2": 232,
+      "v3": 406,
+      "v4": 580,
+      "v5": 928,
+      "v6": 9,
+      "v7": 9,
+      "v8": 482,
+      "v9": 522,
+      "v10": 542,
+      "v11": 582,
+      "answer": 522,
+      "missing": 16
+    },
+    "stem": "Tabel berikut menyajikan data hubungan proporsional antara waktu operasional mesin cetak offset dan jumlah lembar brosur pendaftaran sekolah yang berhasil dicetak:\nWaktu Cetak (menit) | \nJumlah Brosur (lembar)\n\n4 | \n232\n\n7 | \n406\n\n10 | \n580\n\nn | \n928\nSeorang siswa menganalisis waktu cetak n dan jumlah brosur jika mesin bekerja selama 9 menit. Banyaknya brosur yang dicetak mesin tersebut dalam waktu 9 menit adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "482 lembar"
+      },
+      {
+        "id": "B",
+        "text": "522 lembar"
+      },
+      {
+        "id": "C",
+        "text": "542 lembar"
+      },
+      {
+        "id": "D",
+        "text": "582 lembar"
+      }
+    ],
+    "key": "B",
+    "explanation": "Laju cetak = 58 lembar/menit. Jumlah brosur = 522 lembar. Waktu untuk baris terakhir = 16 menit.\n\nJawaban: B. 522 lembar",
+    "original_hash": "6d651bcc82a8412f",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "mcma-5-3-6:s250:v1",
+    "question_id": "mcma-5-3-6",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 6,
+      "source_body_index": 7887,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "A, C, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "703fc08ce892ddda",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C4",
+    "values_used": {
+      "p": 2,
+      "q": 1,
+      "first": 19,
+      "second": 18,
+      "v4": 38,
+      "v5": 19,
+      "v6": 36,
+      "v7": 18,
+      "v8": 2,
+      "v9": 1,
+      "v10": 3,
+      "v11": 2,
+      "v12": 2,
+      "v13": 3,
+      "part": 2,
+      "total": 3
+    },
+    "stem": "Dua buah wadah pita dekorasi di ruang OSIS dianalisis komposisi warnanya:\nWadah I: berisi 38 pita biru dan 19 pita kuning.\nWadah II: berisi 36 pita biru dan 18 pita kuning.\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rasio paling sederhana antara pita biru dan pita kuning pada Wadah I adalah 2:1."
+      },
+      {
+        "id": "B",
+        "text": "Rasio paling sederhana antara pita biru dan pita kuning pada Wadah II adalah 3:2."
+      },
+      {
+        "id": "C",
+        "text": "Komposisi pita biru dan pita kuning pada Wadah I ekuivalen (senilai) dengan Wadah II."
+      },
+      {
+        "id": "D",
+        "text": "Rasio pita biru terhadap seluruh pita pada Wadah I adalah 2:3."
+      }
+    ],
+    "key": "A,C,D",
+    "explanation": "Rasio sederhana kedua kelompok = 2:1. Rasio bagian terhadap seluruh kelompok pertama = 2:3.\n\nPenilaian pernyataan: A: Benar — Rasio paling sederhana antara pita biru dan pita kuning pada Wadah I adalah 2:1.; B: Salah — Rasio paling sederhana antara pita biru dan pita kuning pada Wadah II adalah 3:2.; C: Benar — Komposisi pita biru dan pita kuning pada Wadah I ekuivalen (senilai) dengan Wadah II.; D: Benar — Rasio pita biru terhadap seluruh pita pada Wadah I adalah 2:3.",
+    "original_hash": "ce469720072b1463",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "mcma-5-3-7:s250:v1",
+    "question_id": "mcma-5-3-7",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 7,
+      "source_body_index": 7920,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "A, B, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "678b922a8d6c540c",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C4",
+    "values_used": {
+      "scale": 100,
+      "length": 15,
+      "width": 6,
+      "v3": 100,
+      "v4": 15,
+      "v5": 6,
+      "v6": 15,
+      "v7": 6,
+      "v8": 30,
+      "v9": 90,
+      "long": 15,
+      "wide": 6,
+      "paper": 90,
+      "area": 90
+    },
+    "stem": "Sebuah maket maket denah kompleks gedung sekolah digambar dengan skala 1:100. Pada maket tersebut, gedung perpustakaan berbentuk persegi panjang memiliki ukuran panjang 15cm dan lebar 6 cm. Seorang siswa menganalisis dimensi sebenarnya gedung tersebut.\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panjang gedung perpustakaan sebenarnya adalah 15 meter."
+      },
+      {
+        "id": "B",
+        "text": "Lebar gedung perpustakaan sebenarnya adalah 6 meter."
+      },
+      {
+        "id": "C",
+        "text": "Luas gedung perpustakaan sebenarnya adalah 30 m^(2)."
+      },
+      {
+        "id": "D",
+        "text": "Luas gedung perpustakaan sebenarnya adalah 90 m^(2)."
+      }
+    ],
+    "key": "A,B,D",
+    "explanation": "Panjang sebenarnya = 15 m; lebar sebenarnya = 6 m. Luas denah = 90 cm persegi; luas sebenarnya = 90 m persegi.\n\nPenilaian pernyataan: A: Benar — Panjang gedung perpustakaan sebenarnya adalah 15 meter.; B: Benar — Lebar gedung perpustakaan sebenarnya adalah 6 meter.; C: Salah — Luas gedung perpustakaan sebenarnya adalah 30 m^(2).; D: Benar — Luas gedung perpustakaan sebenarnya adalah 90 m^(2).",
+    "original_hash": "16e2c74f980f4572",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "mcma-5-3-8:s250:v1",
+    "question_id": "mcma-5-3-8",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 8,
+      "source_body_index": 7949,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "B dan C",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "34973421d7eb4583",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C4",
+    "values_used": {
+      "speed": 45,
+      "gap": 3,
+      "v2": 112.5,
+      "v3": 126,
+      "v4": 35,
+      "v5": 45,
+      "v6": 42,
+      "second": 42
+    },
+    "stem": "Dua rombongan bus studi tur SMP menempuh rute jalan yang sama menuju lokasi museum:\nBus X menempuh jarak 112,5km dalam waktu 2,5 jam.\nBus Y menempuh jarak 126km dalam waktu 3 jam.\nSeorang siswa menganalisis laju kecepatan rata-rata kedua bus. Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kecepatan rata-rata Bus X adalah 35 km/jam."
+      },
+      {
+        "id": "B",
+        "text": "Kecepatan rata-rata Bus X adalah 45 km/jam."
+      },
+      {
+        "id": "C",
+        "text": "Kecepatan rata-rata Bus Y adalah 42 km/jam."
+      },
+      {
+        "id": "D",
+        "text": "Bus Y melaju lebih cepat daripada Bus X."
+      }
+    ],
+    "key": "B,C",
+    "explanation": "Kecepatan kendaraan pertama = 45 km/jam; kendaraan kedua = 42 km/jam. Selisih kecepatan pertama terhadap kedua = 3 km/jam.\n\nPenilaian pernyataan: A: Salah — Kecepatan rata-rata Bus X adalah 35 km/jam.; B: Benar — Kecepatan rata-rata Bus X adalah 45 km/jam.; C: Benar — Kecepatan rata-rata Bus Y adalah 42 km/jam.; D: Salah — Bus Y melaju lebih cepat daripada Bus X.",
+    "original_hash": "ef2a177a2e0afb83",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "kategori-5-3-9:s250:v1",
+    "question_id": "kategori-5-3-9",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 9,
+      "source_body_index": 7982,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "265f0af4c5f63992",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C4",
+    "values_used": {
+      "unit": 1200,
+      "gap": 200,
+      "v2": 48000,
+      "v3": 60000,
+      "v4": 1200,
+      "v5": 1200,
+      "second": 1000
+    },
+    "stem": "Pengurus OSIS menganalisis dua harga paket kertas sertifikat kegiatan:\nPaket M: berisi 40 lembar seharga Rp48.000\nPaket N: berisi 60 lembar seharga Rp60.000\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis laju harga per lembar berikut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Harga per lembar kertas pada Paket M adalah Rp1.200."
+      },
+      {
+        "id": "2",
+        "text": "Harga per lembar kertas pada Paket N adalah Rp1.200."
+      },
+      {
+        "id": "3",
+        "text": "Paket N menawarkan harga per lembar yang lebih murah dibandingkan Paket M."
+      }
+    ],
+    "key": "1,3",
+    "explanation": "Harga satuan kemasan pertama = Rp1.200; kemasan kedua = Rp1.000. Kemasan kedua lebih murah Rp200 per satuan.\n\nPenilaian pernyataan: 1: Benar — Harga per lembar kertas pada Paket M adalah Rp1.200.; 2: Salah — Harga per lembar kertas pada Paket N adalah Rp1.200.; 3: Benar — Paket N menawarkan harga per lembar yang lebih murah dibandingkan Paket M.",
+    "original_hash": "9b75fe280a664f63",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  },
+  {
+    "record_id": "kategori-5-3-10:s250:v1",
+    "question_id": "kategori-5-3-10",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 10,
+      "source_body_index": 8014,
+      "source_cognitive_label": "C4 (Menganalisis)",
+      "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "8b6e6588ec0febc8",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C4",
+    "values_used": {
+      "rate": 11,
+      "time": 8,
+      "v2": 33,
+      "v3": 55,
+      "v4": 88,
+      "v5": 11,
+      "v6": 8,
+      "v7": 88,
+      "v8": 132,
+      "result": 88,
+      "duration": 12
+    },
+    "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim konveksi dan banyak seragam olahraga sekolah yang selesai dijahit:\nWaktu Kerja (jam) | \nSeragam Selesai (stel)\n\n3 | \n33\n\n5 | \n55\n\n8 | \n88\nSeorang siswa menganalisis proporsi pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Laju penjahitan seragam tersebut adalah 11 stel/jam."
+      },
+      {
+        "id": "2",
+        "text": "Jika tim bekerja selama 8 jam, maka seragam yang selesai dijahit adalah 88 stel."
+      },
+      {
+        "id": "3",
+        "text": "Untuk menyelesaikan 132 stel seragam, waktu kerja yang dibutuhkan adalah 14 jam."
+      }
+    ],
+    "key": "1,2",
+    "explanation": "Laju produksi = 11 satuan/jam. Produksi untuk waktu yang ditanyakan = 88 satuan. Waktu untuk target pernyataan terakhir = 12 jam.\n\nPenilaian pernyataan: 1: Benar — Laju penjahitan seragam tersebut adalah 11 stel/jam.; 2: Benar — Jika tim bekerja selama 8 jam, maka seragam yang selesai dijahit adalah 88 stel.; 3: Salah — Untuk menyelesaikan 132 stel seragam, waktu kerja yang dibutuhkan adalah 14 jam.",
+    "original_hash": "0805f647a2ef2efe",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:05:53+00:00"
+  }
+]

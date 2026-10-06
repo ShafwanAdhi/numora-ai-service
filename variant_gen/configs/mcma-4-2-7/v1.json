@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-4-2-7",
+  "config_version": 1,
+  "original_hash": "067b25598e807b67",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "72*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "18*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "180*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "180*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "72*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "180*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dua buah interval kedipan lampu hias panggung masing-masing adalah {v1} detik dan {v2} detik. Kedua lampu berkedip bersamaan pada detik ke-0. Seorang siswa menganalisis keterkaitan frekuensi kedipan kedua lampu:\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kedua lampu akan berkedip bersamaan kembali setiap {v3} detik.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "FPB dari {v4} dan {v5} adalah {v6}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Dalam waktu {v7} menit ({v8} detik), kedua lampu berkedip bersamaan sebanyak 3 kali (tidak menghitung detik ke-0).",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Dalam waktu {v9} menit ({v10} detik), kedua lampu berkedip bersamaan sebanyak 2 kali (tidak menghitung detik ke-0).",
+      "correct": true
+    }
+  ],
+  "explanation": "FPB={v11}; KPK={v12} detik; durasi={v13} detik; banyak kejadian=2. Titik awal tidak dihitung."
+}

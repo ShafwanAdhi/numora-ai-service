@@ -1,0 +1,4021 @@
+{
+  "source_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+  "scope": {
+    "indicators": [
+      3,
+      4,
+      5
+    ],
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  "counts": {
+    "ACTIVE": 64,
+    "HOLD_SOURCE": 25,
+    "DEFERRED_CONCEPTUAL": 1
+  },
+  "extra_accepted": 3200,
+  "rows": [
+    {
+      "question_id": "pg-3-1-1",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "3b06283f7f866274",
+      "config_hash": "59d7cba99e22ec31",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 38,
+      "rejections": {
+        "duplicate_of_existing_variant": 5,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-3-1-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Lahan persegi luas45m2 mempunyai diagonal sqrt(90), bukan sqrt(45); premis geometri bertentangan dengan besaran yang diminta.",
+      "original_hash": "a1f089a5081614a5",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-1-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem hanya membulatkan harga satuan:3,25*25.000=81.250 tidak ada pada opsi. Pembahasan menambahkan pembulatan total tanpa instruksi stem.",
+      "original_hash": "e458e79b206491ae",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-1-4",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "5f089e6ae7b85edf",
+      "config_hash": "9cf127319f57f786",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 41,
+      "rejections": {
+        "duplicate_of_existing_variant": 8,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-3-1-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Aturan pembulatan operand menghasilkan20*7.000=140.000 tetapi kunci130.000 memakai pembulatan hasil riil; aturan estimasi tidak tunggal.",
+      "original_hash": "d99fff9fda3ef485",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-3-1-6",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "7123fb6ab146a39d",
+      "config_hash": "b7f0bdee2747ded5",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 30,
+      "rejections": {
+        "same_answer_as_original": 91,
+        "duplicate_of_existing_variant": 2,
+        "same_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-3-1-7",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "5138fe85a5bf8cff",
+      "config_hash": "af297811e9c3a286",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 35,
+      "rejections": {
+        "constraint failed: floor(sqrt(15+k))**2 != 15+k": 3,
+        "duplicate_of_existing_variant": 7,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-3-1-8",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "f7176b8b1f806076",
+      "config_hash": "f6dffc1909c9ed76",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 34,
+      "rejections": {
+        "duplicate_of_existing_variant": 2,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-3-1-9",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "99d8315dea19ca08",
+      "config_hash": "2674a03ee8720a94",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 37,
+      "rejections": {
+        "duplicate_of_existing_variant": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-3-1-10",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "f11817dd66e90f2d",
+      "config_hash": "edecd78e82958f4b",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 37,
+      "rejections": {
+        "duplicate_of_existing_variant": 1,
+        "constraint failed: round(sqrt(18+k)+sqrt(50)) == round(sqrt(18+k))+round(sqrt(50))": 3,
+        "constraint failed: floor(sqrt(18+k))**2 != 18+k": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-3-2-1",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "cdc68b19f97e8720",
+      "config_hash": "b87f702a55d74907",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 41,
+      "rejections": {
+        "duplicate_of_existing_variant": 1,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-3-2-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Lahan persegi luas52m2 mempunyai diagonal sqrt(104), bukan sqrt(52); premis geometri bertentangan dengan panjang papan.",
+      "original_hash": "5517cf5cd348932d",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-2-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Pembulatan harga satuan menghasilkan3,5*25.000=87.500 tanpa opsi yang sesuai. Pembahasan menambahkan pembulatan total dan mengizinkan87.000/88.000; kunci87.000 tidak tunggal.",
+      "original_hash": "28a86e8c91a0deec",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-2-4",
+      "status": "HOLD_SOURCE",
+      "reason": "Hasil riil59,4*19,8/9,7=121,249484... membulat menjadi121,25. Stem dan opsi B menyatakan121,26; pembahasan menyatakan121,25.",
+      "original_hash": "14aa6267dbe8ae14",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-2-5",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "83edd577786754c4",
+      "config_hash": "8d0ea2b9c3330505",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 35,
+      "rejections": {
+        "options_not_distinct": 28,
+        "duplicate_of_existing_variant": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-3-2-6",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "36ab524f1d5ffd25",
+      "config_hash": "bad21f1443bd875e",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "same_answer_as_original": 78,
+        "duplicate_of_existing_variant": 14,
+        "same_as_original": 4
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-3-2-7",
+      "status": "HOLD_SOURCE",
+      "reason": "Luas ubin persegi20,32,48cm2 disamakan dengan diagonal sqrt(20),sqrt(32),sqrt(48); diagonal seharusnya sqrt(dua kali luas).",
+      "original_hash": "9c514a0e9f5de642",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-3-2-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Opsi C menyatakan semua komponen dibulatkan ke atas, tetapi12 botol dibulatkan menjadi10. Klaim alasan yang dikunci benar adalah salah.",
+      "original_hash": "897ac3f9a3086595",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-3-2-9",
+      "status": "HOLD_SOURCE",
+      "reason": "Kunci sumber menyatakan(b) SALAH, tetapi2,45 dibulatkan ke satuan menjadi2 sehingga(b) BENAR. Instruksi koreksi dalam pembahasan tidak diterapkan.",
+      "original_hash": "418fe62588b98275",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-3-2-10",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "c2a76daab28d5fe6",
+      "config_hash": "12afe5838d65ab3b",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 31,
+      "rejections": {
+        "constraint failed: 27+k < 75": 65,
+        "constraint failed: floor(sqrt(27+k))**2 != 27+k": 8,
+        "duplicate_of_existing_variant": 6,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-3-3-1",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "23cfaec1607dabfd",
+      "config_hash": "4d8e2534beecc9f1",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 26,
+      "rejections": {
+        "same_answer_as_original": 98,
+        "duplicate_of_existing_variant": 9,
+        "same_as_original": 4
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-3-3-2",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "5d2a782d1696fbd4",
+      "config_hash": "5c02d75281753a8b",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 32,
+      "rejections": {
+        "constraint failed: floor(sqrt(40+k))**2 != 40+k": 3,
+        "duplicate_of_existing_variant": 2,
+        "constraint failed: floor(sqrt(41+k))**2 != 41+k": 9
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-3-3-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Total riil415.800. Opsi C450.000 dan D420.000 sama-sama batas atas aman; D lebih dekat. Stem tidak mensyaratkan kedua operand dibulatkan ke atas, sehingga kunci C tidak tunggal.",
+      "original_hash": "b6406e92b6944fbc",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-3-3-4",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "32fbaebc2583abfd",
+      "config_hash": "c6c44de34721a128",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 35,
+      "rejections": {
+        "duplicate_of_existing_variant": 2,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-3-3-5",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "e928296a51c8ff70",
+      "config_hash": "f4ae029441505896",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 38,
+      "rejections": {
+        "same_answer_as_original": 32,
+        "duplicate_of_existing_variant": 2,
+        "same_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-3-3-6",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "d1081ada1893b3c4",
+      "config_hash": "eec113ede13a51c0",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 28,
+      "rejections": {
+        "same_answer_as_original": 73,
+        "duplicate_of_existing_variant": 9,
+        "same_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-3-3-7",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "962141f8b18c4fd6",
+      "config_hash": "ebaf6007b58f7696",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 39,
+      "rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "duplicate_of_existing_variant": 2,
+        "constraint failed: floor(sqrt(12+k))**2 != 12+k": 3
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-3-3-8",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "b1f5fb35add836c7",
+      "config_hash": "b22ef45c22a567a5",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 35,
+      "rejections": {
+        "duplicate_of_existing_variant": 1,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-3-3-9",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "2455dd4519ab6574",
+      "config_hash": "0da19a06246d78c3",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 36,
+      "rejections": {},
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-3-3-10",
+      "status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "original_hash": "7f29e228a355e9ca",
+      "config_hash": "046be34f307ca9b2",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 37,
+      "rejections": {
+        "duplicate_of_existing_variant": 2,
+        "constraint failed: floor(sqrt(19+k))**2 != 19+k": 6,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            0,
+            80
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-1-1",
+      "status": "HOLD_SOURCE",
+      "reason": "Header kunci B menyebut12 hari; KPK(12,18)=36 hari sesuai opsi C dan pembahasan. Kunci akademik perlu disahkan.",
+      "original_hash": "dd62091cff70d5ba",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-1-2",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "4a57428e81a98df0",
+      "config_hash": "876dedb7c5c01acc",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "duplicate_of_existing_variant": 21,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-1-3",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "0717aaad57ca5bcc",
+      "config_hash": "299f4348c5154c02",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 22,
+      "rejections": {
+        "duplicate_of_existing_variant": 7,
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "choice",
+          "values": [
+            2,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47,
+            53,
+            59,
+            61,
+            67,
+            71,
+            73,
+            79,
+            83,
+            89,
+            97,
+            101,
+            103,
+            107,
+            109
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-1-4",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "cbfaa7341b9afa48",
+      "config_hash": "faca0aef02c655f2",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 50,
+      "rejections": {},
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            7
+          ],
+          "step": 1
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            0,
+            50
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-1-5",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "c8bb0971e0b205bd",
+      "config_hash": "205d5d2366e784f9",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "duplicate_of_existing_variant": 9,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-4-1-6",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "103abf69010b8bd7",
+      "config_hash": "dbcfcbc96a787257",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 23,
+      "rejections": {
+        "duplicate_of_existing_variant": 6
+      },
+      "parameter_domain": {
+        "a": {
+          "gen": "range",
+          "range": [
+            0,
+            5
+          ],
+          "step": 1
+        },
+        "d": {
+          "gen": "range",
+          "range": [
+            0,
+            4
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-4-1-7",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "fd9e51303cc26815",
+      "config_hash": "f216637b9b922268",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 25,
+      "rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "duplicate_of_existing_variant": 9
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-4-1-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah kantong maksimum.14 kantong sama isi sah memuat6 buku,4 pensil,2 penggaris;3 buku per kantong hanya berlaku jika memakai28 kantong.",
+      "original_hash": "a95923d96cce2fa8",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-1-9",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah piring maksimum.9 piring sama isi sah memuat8 bolu dan10 lapis; selisih2, bukan1 pada kunci. Pembahasan mengasumsikan18 piring.",
+      "original_hash": "a6f41ba9d797748d",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-1-10",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Potongan5cm menghasilkan9 potongan dari pita pertama, bukan3. Kunci mengasumsikan panjang15cm.",
+      "original_hash": "323d1862f14e7fea",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-2-1",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "02c71ffd49fd43da",
+      "config_hash": "e759d8cff149d656",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3,
+        "duplicate_of_existing_variant": 14
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-2-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Beras,gula,minyak dapat dibagi dalam massa pecahan. Tanpa syarat isi tiap paket berupa kg bulat, jumlah paket tidak mempunyai maksimum12 seperti kunci.",
+      "original_hash": "4fe15b7a9f8cd508",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-2-3",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "01bebbf6d72eda4d",
+      "config_hash": "bc2ffbccb3756848",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 47,
+      "rejections": {
+        "duplicate_of_existing_variant": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            7
+          ],
+          "step": 1
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            0,
+            50
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-2-4",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "e8c0daf17bd5b2ad",
+      "config_hash": "d00d3785ab5aa777",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 21,
+      "rejections": {
+        "duplicate_of_existing_variant": 7,
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "choice",
+          "values": [
+            2,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47,
+            53,
+            59,
+            61,
+            67,
+            71,
+            73,
+            79,
+            83,
+            89,
+            97,
+            101,
+            103,
+            107,
+            109
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-2-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Caption header C menyebut2^2*3=12, tetapi opsi C dan pembahasan2^2*3^2=36. Instruksi koreksi dalam DOCX adalah konten sumber, bukan izin mengganti kunci akademik.",
+      "original_hash": "1626907d2113470e",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-4-2-6",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "866ec0ac416c695c",
+      "config_hash": "b8c8305e8447127f",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "duplicate_of_existing_variant": 10,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "a": {
+          "gen": "range",
+          "range": [
+            0,
+            5
+          ],
+          "step": 1
+        },
+        "d": {
+          "gen": "range",
+          "range": [
+            0,
+            4
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-4-2-7",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "067b25598e807b67",
+      "config_hash": "cf5a7499374c5203",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "duplicate_of_existing_variant": 27,
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-4-2-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah ruangan maksimum.12 ruangan sama isi sah mendapat6 tetikus dan8 papan ketik; kunci3 dan4 mengasumsikan24 ruangan.",
+      "original_hash": "43547a6d08dbcb00",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-2-9",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah kardus maksimum.9 kardus sama isi sah memuat6 botol apel dan8 jeruk; total14, bukan7. Kunci mengasumsikan18 kardus.",
+      "original_hash": "3590337192c1bb70",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-2-10",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Pita60/90cm dipotong15cm menghasilkan10 potongan, bukan5. Kunci mengasumsikan panjang30cm.",
+      "original_hash": "ad2e6751bb088589",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-3-1",
+      "status": "HOLD_SOURCE",
+      "reason": "Analisis I dan III sama-sama benar:60 hari setelah1 Maret adalah30 April. PG tidak boleh memilih III saja. Stem juga menyebut3 analisis tetapi mencantumkan4.",
+      "original_hash": "ae06e54c12ddcb09",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-3-2",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "c9b4975f23434870",
+      "config_hash": "a58240a40e26d374",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 20,
+      "rejections": {
+        "duplicate_of_existing_variant": 12,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "choice",
+          "values": [
+            2,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47,
+            53,
+            59,
+            61,
+            67,
+            71,
+            73,
+            79,
+            83,
+            89,
+            97,
+            101,
+            103,
+            107,
+            109
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-3-3",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "4b198ba45f03d465",
+      "config_hash": "ad0e66d5d0945898",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 22,
+      "rejections": {
+        "duplicate_of_existing_variant": 10,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-3-4",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "c98a8869cd05e858",
+      "config_hash": "9d9426bdc3b6e4c0",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 28,
+      "rejections": {
+        "duplicate_of_existing_variant": 23,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-4-3-5",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "a34d9e03b52f2355",
+      "config_hash": "e4eaee63357605a8",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 23,
+      "rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "duplicate_of_existing_variant": 17
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "choice",
+          "values": [
+            2,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47,
+            53,
+            59,
+            61,
+            67,
+            71,
+            73,
+            79,
+            83,
+            89,
+            97,
+            101,
+            103,
+            107,
+            109
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "mcma-4-3-6",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "849ced1a6572fcb6",
+      "config_hash": "5bc2efd8356dbf49",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 24,
+      "rejections": {
+        "duplicate_of_existing_variant": 14,
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      },
+      "parameter_domain": {
+        "a": {
+          "gen": "range",
+          "range": [
+            0,
+            5
+          ],
+          "step": 1
+        },
+        "d": {
+          "gen": "range",
+          "range": [
+            0,
+            4
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-4-3-7",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "ff3dee008cad8217",
+      "config_hash": "4798b6d1288340c2",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 21,
+      "rejections": {
+        "duplicate_of_existing_variant": 15,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-4-3-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah kelompok maksimum.8 kelompok sama isi sah mendapat10 pak kertas dan14 botol; kunci5 dan7 mengasumsikan16 kelompok.",
+      "original_hash": "8856c1760cb9c1fc",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-3-9",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah kotak maksimum.6 kotak sama isi sah memuat10 mikroskop dan14 kaca; total24, bukan12. Kunci mengasumsikan12 kotak.",
+      "original_hash": "ccf3cef4864fa638",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-3-10",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Pita75/105cm dipotong5cm menghasilkan36 potongan, bukan12. Kunci mengasumsikan panjang15cm.",
+      "original_hash": "3ae0f3911d07fbeb",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-5-1-1",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "dfe15e500ce51f1f",
+      "config_hash": "1f4be71839f105be",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 46,
+      "rejections": {
+        "constraint failed: p > q": 102,
+        "constraint failed: gcd(p,q) == 1": 29,
+        "options_not_distinct": 10,
+        "pg_needs_exactly_one_correct": 10,
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "range",
+          "range": [
+            2,
+            11
+          ],
+          "step": 1
+        },
+        "q": {
+          "gen": "range",
+          "range": [
+            2,
+            9
+          ],
+          "step": 1
+        },
+        "scale": {
+          "gen": "range",
+          "range": [
+            1.5,
+            6
+          ],
+          "step": 0.5
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-1-2",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "6881bbf45d7340aa",
+      "config_hash": "168daff6d4fe1591",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 44,
+      "rejections": {
+        "same_answer_as_original": 2,
+        "duplicate_of_existing_variant": 2
+      },
+      "parameter_domain": {
+        "distance": {
+          "gen": "range",
+          "range": [
+            9,
+            36
+          ],
+          "step": 1
+        },
+        "scale": {
+          "gen": "range",
+          "range": [
+            100,
+            500
+          ],
+          "step": 50
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-1-3",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "4ac66e1a238c9ef6",
+      "config_hash": "3370836b4fa3cf92",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 26,
+      "rejections": {
+        "same_as_original": 2,
+        "same_answer_as_original": 2,
+        "duplicate_of_existing_variant": 14
+      },
+      "parameter_domain": {
+        "rate": {
+          "gen": "range",
+          "range": [
+            12,
+            45
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-1-4",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "5356537283059bf5",
+      "config_hash": "8c864945519661bd",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 50,
+      "rejections": {},
+      "parameter_domain": {
+        "unit": {
+          "gen": "range",
+          "range": [
+            2500,
+            7500
+          ],
+          "step": 100
+        },
+        "a": {
+          "gen": "range",
+          "range": [
+            4,
+            10
+          ],
+          "step": 1
+        },
+        "b": {
+          "gen": "range",
+          "range": [
+            5,
+            12
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-1-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem/opsi B/pembahasan meminta6liter, caption header B menyebut240kilometer. Unit dan makna kunci bertentangan.",
+      "original_hash": "d4eff376cfcaad27",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-5-1-6",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "1e7ae3479c933827",
+      "config_hash": "1be8dd5984c483d6",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 50,
+      "rejections": {
+        "constraint failed: p > q": 58,
+        "constraint failed: gcd(p,q) == 1": 27,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "range",
+          "range": [
+            2,
+            9
+          ],
+          "step": 1
+        },
+        "q": {
+          "gen": "range",
+          "range": [
+            1,
+            7
+          ],
+          "step": 1
+        },
+        "first": {
+          "gen": "range",
+          "range": [
+            5,
+            20
+          ],
+          "step": 1
+        },
+        "second": {
+          "gen": "range",
+          "range": [
+            6,
+            24
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-5-1-7",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "7224721c3fa5c00f",
+      "config_hash": "7ed0b4ff9e05aa28",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 48,
+      "rejections": {
+        "constraint failed: length > width": 21,
+        "constraint failed: length*scale <= 4500": 21,
+        "duplicate_of_existing_variant": 1,
+        "constraint failed: width*scale <= 3000": 2
+      },
+      "parameter_domain": {
+        "scale": {
+          "gen": "range",
+          "range": [
+            100,
+            350
+          ],
+          "step": 50
+        },
+        "length": {
+          "gen": "range",
+          "range": [
+            8,
+            18
+          ],
+          "step": 1
+        },
+        "width": {
+          "gen": "range",
+          "range": [
+            4,
+            12
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-5-1-8",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "7226d35ad265b214",
+      "config_hash": "fe2123ed7858ec01",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 46,
+      "rejections": {},
+      "parameter_domain": {
+        "speed": {
+          "gen": "range",
+          "range": [
+            40,
+            80
+          ],
+          "step": 1
+        },
+        "gap": {
+          "gen": "range",
+          "range": [
+            0,
+            10
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-5-1-9",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "1ed8ceaefe552455",
+      "config_hash": "a8645aa501bd3036",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 49,
+      "rejections": {
+        "same_answer_as_original": 2
+      },
+      "parameter_domain": {
+        "unit": {
+          "gen": "range",
+          "range": [
+            10000,
+            18000
+          ],
+          "step": 100
+        },
+        "gap": {
+          "gen": "range",
+          "range": [
+            100,
+            2000
+          ],
+          "step": 100
+        }
+      }
+    },
+    {
+      "question_id": "kategori-5-1-10",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "e88bfdf00fd8fbf7",
+      "config_hash": "65d448ea4be29877",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 44,
+      "rejections": {
+        "duplicate_of_existing_variant": 1
+      },
+      "parameter_domain": {
+        "rate": {
+          "gen": "range",
+          "range": [
+            4,
+            25
+          ],
+          "step": 1
+        },
+        "time": {
+          "gen": "range",
+          "range": [
+            4,
+            14
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-2-1",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "0751b4974d5b67a1",
+      "config_hash": "f3bfb508803a7c21",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 46,
+      "rejections": {
+        "constraint failed: p > q": 80,
+        "constraint failed: gcd(p,q) == 1": 27,
+        "options_not_distinct": 1,
+        "pg_needs_exactly_one_correct": 1
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "range",
+          "range": [
+            2,
+            11
+          ],
+          "step": 1
+        },
+        "q": {
+          "gen": "range",
+          "range": [
+            2,
+            9
+          ],
+          "step": 1
+        },
+        "scale": {
+          "gen": "range",
+          "range": [
+            1.5,
+            6
+          ],
+          "step": 0.5
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-2-2",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "063865d3ecb073ce",
+      "config_hash": "5b7888be95b10968",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 46,
+      "rejections": {
+        "same_answer_as_original": 3,
+        "same_as_original": 1
+      },
+      "parameter_domain": {
+        "distance": {
+          "gen": "range",
+          "range": [
+            9,
+            36
+          ],
+          "step": 1
+        },
+        "scale": {
+          "gen": "range",
+          "range": [
+            100,
+            500
+          ],
+          "step": 50
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-2-3",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "38d312218d2b11d1",
+      "config_hash": "9ffba514919b3d43",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 23,
+      "rejections": {
+        "duplicate_of_existing_variant": 8,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "rate": {
+          "gen": "range",
+          "range": [
+            12,
+            45
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-2-4",
+      "status": "DEFERRED_CONCEPTUAL",
+      "reason": "Jawaban original AnalisisII tetap. Mengubah harga agar AnalisisI benar mengesahkan alasan membandingkan harga total tanpa harga satuan; profil unit setara membuat opsi C dan D sama-sama benar. Template analisis alternatif setara belum tersedia.",
+      "original_hash": "91438fc794409c0d",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-5-2-5",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "8e5439a7463615ab",
+      "config_hash": "c466bbfa6f44c535",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 44,
+      "rejections": {
+        "duplicate_of_existing_variant": 2
+      },
+      "parameter_domain": {
+        "rate": {
+          "gen": "range",
+          "range": [
+            20,
+            60
+          ],
+          "step": 2
+        },
+        "fuel": {
+          "gen": "range",
+          "range": [
+            6.5,
+            12
+          ],
+          "step": 0.5
+        }
+      }
+    },
+    {
+      "question_id": "mcma-5-2-6",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "c3a2a2b56d7a4ac2",
+      "config_hash": "26d446fee00f4d9e",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 50,
+      "rejections": {
+        "constraint failed: p > q": 56,
+        "constraint failed: gcd(p,q) == 1": 31,
+        "same_answer_as_original": 6
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "range",
+          "range": [
+            2,
+            9
+          ],
+          "step": 1
+        },
+        "q": {
+          "gen": "range",
+          "range": [
+            1,
+            7
+          ],
+          "step": 1
+        },
+        "first": {
+          "gen": "range",
+          "range": [
+            5,
+            20
+          ],
+          "step": 1
+        },
+        "second": {
+          "gen": "range",
+          "range": [
+            6,
+            24
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-5-2-7",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "65742448759f89e0",
+      "config_hash": "25d7b32693ecdd7b",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 49,
+      "rejections": {
+        "constraint failed: length > width": 10,
+        "constraint failed: length*scale <= 4500": 16,
+        "constraint failed: width*scale <= 3000": 2
+      },
+      "parameter_domain": {
+        "scale": {
+          "gen": "range",
+          "range": [
+            100,
+            350
+          ],
+          "step": 50
+        },
+        "length": {
+          "gen": "range",
+          "range": [
+            8,
+            18
+          ],
+          "step": 1
+        },
+        "width": {
+          "gen": "range",
+          "range": [
+            4,
+            12
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-5-2-8",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "936bf73827a8a066",
+      "config_hash": "7de06562807f8922",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 46,
+      "rejections": {
+        "duplicate_of_existing_variant": 1
+      },
+      "parameter_domain": {
+        "speed": {
+          "gen": "range",
+          "range": [
+            40,
+            80
+          ],
+          "step": 1
+        },
+        "gap": {
+          "gen": "range",
+          "range": [
+            0,
+            10
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-5-2-9",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "d6f88e7ddb963ca7",
+      "config_hash": "de840c38c4336837",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 49,
+      "rejections": {
+        "same_answer_as_original": 1
+      },
+      "parameter_domain": {
+        "unit": {
+          "gen": "range",
+          "range": [
+            10000,
+            18000
+          ],
+          "step": 100
+        },
+        "gap": {
+          "gen": "range",
+          "range": [
+            100,
+            2000
+          ],
+          "step": 100
+        }
+      }
+    },
+    {
+      "question_id": "kategori-5-2-10",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "8e9487d1785db18c",
+      "config_hash": "4839ad4edd50771d",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 46,
+      "rejections": {
+        "duplicate_of_existing_variant": 2
+      },
+      "parameter_domain": {
+        "rate": {
+          "gen": "range",
+          "range": [
+            4,
+            25
+          ],
+          "step": 1
+        },
+        "time": {
+          "gen": "range",
+          "range": [
+            4,
+            14
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-3-1",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "ea93e9cd8e9a9ab5",
+      "config_hash": "3a089c362c18352c",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 50,
+      "rejections": {
+        "same_answer_as_original": 126,
+        "constraint failed: gcd(p,q+delta) == 1": 64,
+        "constraint failed: gcd(p,q) == 1": 95,
+        "constraint failed: second > first": 31,
+        "constraint failed: p < q": 145
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "range",
+          "range": [
+            1,
+            5
+          ],
+          "step": 1
+        },
+        "q": {
+          "gen": "range",
+          "range": [
+            2,
+            9
+          ],
+          "step": 1
+        },
+        "first": {
+          "gen": "range",
+          "range": [
+            5,
+            15
+          ],
+          "step": 0.5
+        },
+        "second": {
+          "gen": "range",
+          "range": [
+            10,
+            25
+          ],
+          "step": 1
+        },
+        "delta": {
+          "gen": "range",
+          "range": [
+            0,
+            1
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-3-2",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "7d8235c7a17cb2f2",
+      "config_hash": "9935d64c85930764",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 47,
+      "rejections": {
+        "constraint failed: scale % factor == 0": 61,
+        "constraint failed: 2000 <= scale*length <= 4000": 135,
+        "duplicate_of_existing_variant": 3
+      },
+      "parameter_domain": {
+        "scale": {
+          "gen": "range",
+          "range": [
+            200,
+            1000
+          ],
+          "step": 20
+        },
+        "length": {
+          "gen": "range",
+          "range": [
+            4,
+            10
+          ],
+          "step": 1
+        },
+        "factor": {
+          "gen": "range",
+          "range": [
+            2,
+            4
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-3-3",
+      "status": "HOLD_SOURCE",
+      "reason": "Selisih debit4liter/menit pada opsi B; caption header B menyebut24liter/menit yaitu debitQ, bukan selisih.",
+      "original_hash": "e925336dc1de2e29",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-5-3-4",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "7c623541f5c09ddc",
+      "config_hash": "f68e23de0b610aa8",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 44,
+      "rejections": {
+        "same_answer_as_original": 9,
+        "same_as_original": 1
+      },
+      "parameter_domain": {
+        "a": {
+          "gen": "range",
+          "range": [
+            3500,
+            6500
+          ],
+          "step": 100
+        },
+        "gap": {
+          "gen": "range",
+          "range": [
+            100,
+            1000
+          ],
+          "step": 100
+        }
+      }
+    },
+    {
+      "question_id": "pg-5-3-5",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "6d651bcc82a8412f",
+      "config_hash": "8ec8c2bff342476b",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 48,
+      "rejections": {},
+      "parameter_domain": {
+        "rate": {
+          "gen": "range",
+          "range": [
+            20,
+            80
+          ],
+          "step": 1
+        },
+        "time": {
+          "gen": "range",
+          "range": [
+            5,
+            12
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-5-3-6",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "ce469720072b1463",
+      "config_hash": "703fc08ce892ddda",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 50,
+      "rejections": {
+        "constraint failed: gcd(p,q) == 1": 22,
+        "constraint failed: p > q": 46,
+        "same_answer_as_original": 5
+      },
+      "parameter_domain": {
+        "p": {
+          "gen": "range",
+          "range": [
+            2,
+            9
+          ],
+          "step": 1
+        },
+        "q": {
+          "gen": "range",
+          "range": [
+            1,
+            7
+          ],
+          "step": 1
+        },
+        "first": {
+          "gen": "range",
+          "range": [
+            5,
+            20
+          ],
+          "step": 1
+        },
+        "second": {
+          "gen": "range",
+          "range": [
+            6,
+            24
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-5-3-7",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "16e2c74f980f4572",
+      "config_hash": "678b922a8d6c540c",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 47,
+      "rejections": {
+        "constraint failed: length*scale <= 4500": 20,
+        "constraint failed: length > width": 17,
+        "duplicate_of_existing_variant": 1,
+        "constraint failed: width*scale <= 3000": 2
+      },
+      "parameter_domain": {
+        "scale": {
+          "gen": "range",
+          "range": [
+            100,
+            350
+          ],
+          "step": 50
+        },
+        "length": {
+          "gen": "range",
+          "range": [
+            8,
+            18
+          ],
+          "step": 1
+        },
+        "width": {
+          "gen": "range",
+          "range": [
+            4,
+            12
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-5-3-8",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "ef2a177a2e0afb83",
+      "config_hash": "34973421d7eb4583",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 48,
+      "rejections": {},
+      "parameter_domain": {
+        "speed": {
+          "gen": "range",
+          "range": [
+            40,
+            80
+          ],
+          "step": 1
+        },
+        "gap": {
+          "gen": "range",
+          "range": [
+            0,
+            10
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-5-3-9",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "9b75fe280a664f63",
+      "config_hash": "265f0af4c5f63992",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 35,
+      "rejections": {
+        "duplicate_of_existing_variant": 6,
+        "same_answer_as_original": 8,
+        "same_as_original": 2
+      },
+      "parameter_domain": {
+        "unit": {
+          "gen": "range",
+          "range": [
+            500,
+            1500
+          ],
+          "step": 100
+        },
+        "gap": {
+          "gen": "range",
+          "range": [
+            50,
+            300
+          ],
+          "step": 50
+        }
+      }
+    },
+    {
+      "question_id": "kategori-5-3-10",
+      "status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "original_hash": "0805f647a2ef2efe",
+      "config_hash": "8b6e6588ec0febc8",
+      "config_version": 1,
+      "sampling_status": "PASS",
+      "stock_count": 20,
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_accepted": 50,
+      "extra_unique": 50,
+      "rejections": {
+        "duplicate_of_existing_variant": 3
+      },
+      "parameter_domain": {
+        "rate": {
+          "gen": "range",
+          "range": [
+            4,
+            25
+          ],
+          "step": 1
+        },
+        "time": {
+          "gen": "range",
+          "range": [
+            4,
+            14
+          ],
+          "step": 1
+        }
+      }
+    }
+  ]
+}

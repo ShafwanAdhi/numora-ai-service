@@ -1,0 +1,78 @@
+{
+  "question_id": "mcma-5-2-8",
+  "config_version": 1,
+  "original_hash": "936bf73827a8a066",
+  "original_values": {
+    "speed": 50,
+    "gap": 2
+  },
+  "variables": {
+    "speed": {
+      "gen": "range",
+      "range": [
+        40,
+        80
+      ],
+      "step": 1
+    },
+    "gap": {
+      "gen": "range",
+      "range": [
+        0,
+        10
+      ],
+      "step": 1
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "speed*2"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "(speed-gap)*2.5"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "speed-5"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "speed"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "speed-gap"
+    },
+    "second": {
+      "gen": "derived",
+      "expr": "speed-gap"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dua sepeda motor P dan Q melakukan perjalanan dari sekolah menuju lokasi kegiatan bakti sosial:\nSepeda Motor P menempuh jarak {v2}km dalam waktu 2 jam.\nSepeda Motor Q menempuh jarak {v3}km dalam waktu 2,5 jam.\nSeorang siswa menganalisis laju kecepatan kedua sepeda motor tersebut. Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kecepatan rata-rata Sepeda Motor P adalah {v4} km/jam.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kecepatan rata-rata Sepeda Motor P adalah {v5} km/jam.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kecepatan rata-rata Sepeda Motor Q adalah {v6} km/jam.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Sepeda Motor Q melaju lebih cepat daripada Sepeda Motor P.",
+      "correct": false
+    }
+  ],
+  "explanation": "Kecepatan kendaraan pertama = {speed} km/jam; kendaraan kedua = {second} km/jam. Selisih kecepatan pertama terhadap kedua = {gap} km/jam."
+}

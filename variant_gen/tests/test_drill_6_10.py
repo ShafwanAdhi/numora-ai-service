@@ -22,6 +22,8 @@ HOLD = ['pg-6-1-5', 'pg-7-1-2', 'pg-7-1-3', 'pg-7-2-4', 'pg-7-3-5',
 class DrillSource(unittest.TestCase):
     def test_workspace_registration(self):
         paths = [ROOT / 'data/q0_bank.csv', ROOT / 'data/tryout-1/q0_bank.csv',
+                 ROOT / 'data/drill-1-indicators-1-2/q0_bank.csv',
+                 ROOT / 'data/drill-1-indicators-3-5/q0_bank.csv',
                  ROOT / 'data/drill-1-indicators-20-23/q0_bank.csv',
                  ROOT / 'data/drill-1-indicators-11-15/q0_bank.csv', BANK]
         workspace = load_workspace_bank(paths[0])

@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-4-3-7",
+  "config_version": 1,
+  "original_hash": "ff3dee008cad8217",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "240*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "240*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "240*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "240*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dua buah kedipan lampu penanda simulasi sains berulang secara periodik setiap {v1} detik dan {v2} detik. Kedua lampu menyala bersamaan pada detik ke-0. Seorang siswa menganalisis frekuensi menyala bersama kedua lampu dalam selang waktu {v4} menit ({v3} detik).\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kedua lampu berkedip bersamaan kembali setiap {v5} detik.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "FPB dari {v6} dan {v7} adalah {v8}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Dalam selang waktu {v9} detik, kedua lampu berkedip bersamaan sebanyak 5 kali (tidak menghitung detik ke-0).",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Dalam selang waktu {v10} detik, kedua lampu berkedip bersamaan sebanyak 4 kali (tidak menghitung detik ke-0).",
+      "correct": true
+    }
+  ],
+  "explanation": "FPB={v11}; KPK={v12} detik; durasi={v13} detik; banyak kejadian=4. Titik awal tidak dihitung."
+}

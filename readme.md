@@ -19,16 +19,20 @@ Buka http://127.0.0.1:8765. Tab **Service AI** berjalan tanpa database. UI membu
 
 ## Status bank lokal
 
-Inventaris kode/data per **5 Oktober 2026**:
+Inventaris kode/data per **6 Oktober 2026**:
 
 | Aktivitas | Paket | Original | Soal dengan config | Struktur |
 |---|---|---:|---:|---|
-| Drill & Practice | `drill-1` / Paket 1 | 640 | 548 | Paket > indikator 6–23 > level sumber > soal |
+| Drill & Practice | `drill-1` / Paket 1 | 790 | 646 | Paket > indikator1–23 > level sumber > soal |
 | Tryout | `tryout-1` / Tryout 1 | 30 | 27 | Paket > bab 1–4 > soal |
 | Pretest | Belum tersedia | 0 | 0 | Belum memiliki bank lokal |
-| Total | | 670 | 575 | |
+| Total | | 820 | 673 | |
 
-Paket Drill menargetkan 5 level × 10 soal per indikator. Indikator 11–15 memiliki level 1–5; indikator 6–10 dan 16–23 memiliki level 1–3. Total 640 original; 260 soal level 4–5 pada kelompok lainnya belum tersedia. Seluruh 60 soal indikator 18–19 memiliki config. Config tersedia bukan approval kurikulum atau bukti kesetaraan IRT.
+Paket Drill menargetkan 5 level × 10 soal per indikator. Indikator 11–15 memiliki level 1–5; indikator 6–10 dan 16–23 memiliki level 1–3. Total790 original; indikator1–2 dibatasi level1–3 sesuai scope, indikator3–5 level1–3 sudah tersedia. Seluruh 60 soal indikator 18–19 memiliki config. Config tersedia bukan approval kurikulum atau bukti kesetaraan IRT.
+
+Indikator **1–2**:60 original level1–3, **34 generator aktif**,17 HOLD_SOURCE,9 DEFERRED_CONCEPTUAL. Indikator3–5 tersedia, lihat audit berikut. [Audit](docs/audits/2026-10-05-drill-1-2-generator-audit.md).
+
+Indikator **3–5**:90 original level1–3,**64 aktif**,25 HOLD_SOURCE,1 DEFERRED_CONCEPTUAL. [Audit](docs/audits/2026-10-06-drill-3-5-generator-audit.md).
 
 Indikator **6–10**: 150 original, **129 generator aktif**, 12 HOLD_SOURCE dan 9 DEFERRED_CONCEPTUAL. Level 1–3 tersedia; level 4–5 belum memiliki sumber. [Laporan audit](docs/audits/2026-10-05-drill-6-10-generator-audit.md).
 
@@ -44,7 +48,7 @@ python -B variant_gen/cli.py regen pg-21-1-1 s1 --reason "review lokal"
 python -B variant_gen/cli.py view pg-21-1-1 s1 v1
 ```
 
-Bank tambahan disimpan di `variant_gen/data/drill-1-indicators-{6-10,11-15,20-23}/` dan dimuat bersama bank dasar; bank/config/riwayat sebelumnya dipertahankan. Generator ini memakai engine deterministik existing, berhenti pada snapshot lokal. Ekspor kontrak kategori boolean menolak label kategori khusus; tidak mengakses atau menulis database Numora.
+Bank tambahan disimpan di `variant_gen/data/drill-1-indicators-{1-2,3-5,6-10,11-15,20-23}/` dan dimuat bersama bank dasar; bank/config/riwayat sebelumnya dipertahankan. Generator ini memakai engine deterministik existing, berhenti pada snapshot lokal. Ekspor kontrak kategori boolean menolak label kategori khusus; tidak mengakses atau menulis database Numora.
 
 Original disimpan sebagai CSV dengan ledger revisi; varian sebagai JSONL. Jumlah ini **bukan inventaris database Numora**. Tab **DB Utama** membaca database bila `DATABASE_URL` dikonfigurasi; generator tidak mengimpor/memublikasikan hasil ke database tersebut.
 
@@ -61,4 +65,4 @@ Original disimpan sebagai CSV dengan ledger revisi; varian sebagai JSONL. Jumlah
 python -B -m unittest discover -s variant_gen/tests -v
 ```
 
-Verifikasi gabungan dicatat pada [laporan kondisi repo](docs/audits/2026-10-05-repository-status.md). Tes memakai fixture/store sementara. Jalankan satu writer untuk config/store yang sama; JSONL belum mendukung transaksi atau koordinasi writer lintas proses.
+Verifikasi gabungan dicatat pada [laporan kondisi repo](docs/audits/2026-10-06-repository-status.md). Tes memakai fixture/store sementara. Jalankan satu writer untuk config/store yang sama; JSONL belum mendukung transaksi atau koordinasi writer lintas proses.

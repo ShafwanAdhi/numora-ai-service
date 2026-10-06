@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-2-3-2",
+  "config_version": 1,
+  "original_hash": "3530e539cc6fbd6a",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "108*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "27*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dua buah papan reklame kegiatan pameran sains sekolah berbentuk persegi. Papan A memiliki luas {v1}m^(2) dan Papan B memiliki luas {v2}m^(2). Seorang teknisi ingin menganalisis selisih panjang sisi kedua papan tersebut untuk menentukan panjang kayu bingkai tambahan.\nSelisih panjang sisi Papan A dan Papan B dalam bentuk akar paling sederhana adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3}sqrt(3)m",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4}sqrt(3)m",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v5}sqrt(3)m",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v6}sqrt(3)m",
+      "correct": false
+    }
+  ],
+  "explanation": "Sisi A={v7}sqrt(3), sisi B={v8}sqrt(3); selisih{v9}sqrt(3). Radikan3 square-free; bentuk paling sederhana. Semua luas positif."
+}

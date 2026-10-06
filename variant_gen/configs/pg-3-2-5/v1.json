@@ -1,0 +1,185 @@
+{
+  "question_id": "pg-3-2-5",
+  "config_version": 1,
+  "original_hash": "83edd577786754c4",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "15+k",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "16+k",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)+(0)",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "floor(v3)",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round((v3-floor(v3))*10)",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "round(sqrt(16+k),1)+(0)",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "floor(v6)",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "round((v6-floor(v6))*10)",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)+(-0.1)",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "floor(v9)",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "round((v9-floor(v9))*10)",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "round(sqrt(16+k),1)+(0)",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "floor(v12)",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "round((v12-floor(v12))*10)",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)+(0)",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "floor(v15)",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "round((v15-floor(v15))*10)",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "round(sqrt(16+k),1)+(0.1)",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "floor(v18)",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "round((v18-floor(v18))*10)",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "floor(sqrt(15+k))+0.5",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "floor(v21)",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "round((v21-floor(v21))*10)",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "round(sqrt(16+k),1)+(0)",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "floor(v24)",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "round((v24-floor(v24))*10)",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "round(sqrt(15+k),1)",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "round(sqrt(16+k),1)",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dua buah sampel jalur kawat penelitian laboratorium memiliki panjang sqrt({v1}) cm dan sqrt({v2})cm. Seorang siswa menganalisis rentang nilai aproksimasi kedua kawat tersebut pada mistar yang memiliki ketelitian persepuluhan centimeter (0,1 cm).\nHasil analisis aproksimasi panjang kedua kawat berturut-turut ke persepuluhan terdekat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v4},{v5}cm dan {v7},{v8} cm",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v10},{v11}cm dan {v13},{v14} cm",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v16},{v17}cm dan {v19},{v20} cm",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v22},{v23}cm dan {v25},{v26} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Kawat pertama={v27}; Kawat kedua={v28}."
+}

@@ -1,0 +1,85 @@
+{
+  "question_id": "kategori-5-1-10",
+  "config_version": 1,
+  "original_hash": "e88bfdf00fd8fbf7",
+  "original_values": {
+    "rate": 6,
+    "time": 10
+  },
+  "variables": {
+    "rate": {
+      "gen": "range",
+      "range": [
+        4,
+        25
+      ],
+      "step": 1
+    },
+    "time": {
+      "gen": "range",
+      "range": [
+        4,
+        14
+      ],
+      "step": 1
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3*rate"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "5*rate"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*rate"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "rate"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "time"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "time*rate"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "12*rate"
+    },
+    "result": {
+      "gen": "derived",
+      "expr": "time*rate"
+    },
+    "duration": {
+      "gen": "derived",
+      "expr": "12"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra pengrajin dan banyak barang souvenir pameran sekolah yang dihasilkan:\nWaktu Kerja (jam) | \nSouvenir Dihasilkan (unit)\n\n3 | \n{v2}\n\n5 | \n{v3}\n\n8 | \n{v4}\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis proporsi berdasarkan tabel di atas!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Laju pembuatan souvenir tersebut adalah {v5} unit/jam.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika pengrajin bekerja selama {v6}jam, maka barang souvenir yang dihasilkan adalah {v7} unit.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Untuk menghasilkan {v8} unit souvenir, waktu kerja yang dibutuhkan adalah 14 jam.",
+      "correct": false
+    }
+  ],
+  "explanation": "Laju produksi = {rate} satuan/jam. Produksi untuk waktu yang ditanyakan = {result} satuan. Waktu untuk target pernyataan terakhir = {duration} jam."
+}

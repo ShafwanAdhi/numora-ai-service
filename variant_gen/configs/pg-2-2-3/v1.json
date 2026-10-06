@@ -1,0 +1,137 @@
+{
+  "question_id": "pg-2-2-3",
+  "config_version": 1,
+  "original_hash": "61048511aecbf3cf",
+  "original_values": {
+    "k": 15
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        32
+      ],
+      "step": 1
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "1+(k-1)//8"
+    },
+    "n": {
+      "gen": "derived",
+      "expr": "1+(k-1)%8"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "a",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "round(n/3,2)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "20*n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "a+n+5",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "a+n+2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "a+n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "a+n-4",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "20*n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "a",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "a+n",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dalam suatu eksperimen sains di laboratorium SMP, sekelompok sel mengalami pembelahan menjadi 3 kali lipat setiap 20 menit. Pada awal pengamatan, terdapat 3^({v3}) sel. Banyaknya sel setelah pengamatan berlangsung selama {v4} jam ({v5} menit atau {v6} kali periode pembelahan) dapat dinyatakan dalam bentuk eksponen sederhana.\nBentuk eksponen sederhana dari jumlah sel setelah {v7} kali pembelahan adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "3^({v8})",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "3^({v9})",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "3^({v10})",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "3^({v11})",
+      "correct": false
+    }
+  ],
+  "explanation": "Menit eksplisit {v12} memberi {v13} periode20menit; jam ditampilkan dibulatkan2desimal. Jumlah=3^({v14}+{v15})=3^({v16})."
+}

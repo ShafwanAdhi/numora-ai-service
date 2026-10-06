@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-5-1-6",
+  "config_version": 1,
+  "original_hash": "1e7ae3479c933827",
+  "original_values": {
+    "p": 3,
+    "q": 2,
+    "first": 12,
+    "second": 15
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        1,
+        7
+      ],
+      "step": 1
+    },
+    "first": {
+      "gen": "range",
+      "range": [
+        5,
+        20
+      ],
+      "step": 1
+    },
+    "second": {
+      "gen": "range",
+      "range": [
+        6,
+        24
+      ],
+      "step": 1
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "p*first"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "q*first"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "p*second"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "q*second"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "p+1"
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "q+1"
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "p+q"
+    },
+    "part": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "p+q"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [
+    "p > q",
+    "gcd(p,q) == 1"
+  ],
+  "stem": "Seorang pengurus perpustakaan membandingkan rasio koleksi buku di dua rak terpisah:\nRak 1: memuat {v4} buku pelajaran dan {v5} buku cerita.\nRak 2: memuat {v6} buku pelajaran dan {v7} buku cerita.\nManakah pernyataan berikut yang benar mengenai rasio dan ekuivalensi buku pada kedua rak tersebut? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 1 adalah {v8}:{v9}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 2 adalah {v10}:{v11}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Rasio buku pelajaran dan buku cerita di Rak 1 ekuivalen (sama bernilai) dengan Rak 2.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rasio total buku cerita terhadap seluruh buku di Rak 1 adalah {v12}:{v13}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Rasio sederhana kedua kelompok = {p}:{q}. Rasio bagian terhadap seluruh kelompok pertama = {part}:{total}."
+}

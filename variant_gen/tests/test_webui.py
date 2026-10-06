@@ -173,7 +173,7 @@ class WebUI(unittest.TestCase):
         with patch('database.connection',side_effect=AssertionError('Database must not be touched')):
             status, questions = self.request('GET','/api/questions')
             self.assertEqual(status,200)
-            self.assertEqual({q['classification']['indicator'] for q in questions if q['classification']['activity']=='DRILL'},set(range(6,24)))
+            self.assertEqual({q['classification']['indicator'] for q in questions if q['classification']['activity']=='DRILL'},set(range(1,24)))
             status, catalog = self.request('GET','/api/catalog')
             groups=[g for g in catalog if g.get('indicator') in range(20,24)]
             self.assertEqual(len(groups),20)
@@ -287,6 +287,63 @@ class WebUI(unittest.TestCase):
                 for route in ('generate','regen','lint','config'):
                     self.assertEqual(self.request('POST','/api/'+route,dict(question_id=qid,seed=1,config={},reason='review'))[0],400)
 
+
+    def test_drill_1_2_local_lifecycle(self):
+        with patch('database.connection',side_effect=AssertionError('No database access')):
+            status,catalog=self.request('GET','/api/catalog')
+            groups=[g for g in catalog if g.get('indicator') in (1,2)]
+            self.assertEqual(status,200);self.assertEqual(len(groups),6)
+            self.assertEqual({g['source_level'] for g in groups},{1,2,3})
+            for qid in ['pg-1-1-1','mcma-2-1-6','kategori-1-3-9']:
+                payload=dict(question_id=qid,seed=11)
+                status,first=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,first)
+                before=self.store.read_bytes()
+                self.assertEqual(self.request('POST','/api/generate',payload),(200,first))
+                self.assertEqual(self.store.read_bytes(),before)
+                status,second=self.request('POST','/api/regen',dict(payload,reason='review'))
+                self.assertEqual(status,200,second);self.assertEqual(second['replacement_of'],1)
+                status,data=self.request('GET',f'/api/question?id={qid}&seed=11&version=1')
+                self.assertEqual(status,200);self.assertEqual(data['variant'],first)
+                self.assertEqual(len(data['history']),2)
+                if first['format']=='KATEGORI':self.assertEqual([o['id'] for o in first['options']],['1','2','3'])
+            before=self.store.read_bytes()
+            for qid in ['pg-1-2-1','pg-2-1-2','pg-1-1-4']:
+                status,data=self.request('GET',f'/api/question?id={qid}&seed=11')
+                self.assertEqual(status,200);self.assertTrue(data['original']['metadata']['reason'])
+                forged=json.loads((ROOT/'configs/pg-1-1-1/v1.json').read_text(encoding='utf8'))
+                forged['question_id']=qid;directory=self.configs/qid;directory.mkdir(exist_ok=True)
+                (directory/'v1.json').write_text(json.dumps(forged),encoding='utf8')
+                for route in ['generate','regen','lint','config']:
+                    status,result=self.request('POST','/api/'+route,dict(question_id=qid,seed=11,config=forged,reason='test',base_hash=None,base_version=0))
+                    self.assertEqual(status,400,(route,result))
+            self.assertEqual(self.store.read_bytes(),before)
+
+    def test_drill_3_5_local_lifecycle(self):
+        with patch('database.connection',side_effect=AssertionError('No database access')):
+            status,catalog=self.request('GET','/api/catalog')
+            groups=[g for g in catalog if g.get('indicator') in (3,4,5)]
+            self.assertEqual(status,200);self.assertEqual(len(groups),9)
+            self.assertEqual({g['source_level'] for g in groups},{1,2,3})
+            for qid in ['pg-3-1-1','mcma-4-1-7','kategori-5-1-9']:
+                payload=dict(question_id=qid,seed=11)
+                status,first=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,first)
+                before=self.store.read_bytes()
+                self.assertEqual(self.request('POST','/api/generate',payload),(200,first))
+                self.assertEqual(self.store.read_bytes(),before)
+                status,second=self.request('POST','/api/regen',dict(payload,reason='review'))
+                self.assertEqual(status,200,second);self.assertEqual(second['replacement_of'],1)
+                status,data=self.request('GET',f'/api/question?id={qid}&seed=11&version=1')
+                self.assertEqual(status,200);self.assertEqual(data['variant'],first)
+                self.assertEqual(len(data['history']),2)
+            before=self.store.read_bytes()
+            for qid in ['pg-3-1-3','pg-4-1-1','pg-5-1-5']:
+                status,data=self.request('GET',f'/api/question?id={qid}&seed=11')
+                self.assertEqual(status,200);self.assertTrue(data['original']['metadata']['reason'])
+                for route in ['generate','regen','lint','config']:
+                    self.assertEqual(self.request('POST','/api/'+route,dict(question_id=qid,seed=11,config={},reason='test'))[0],400)
+            self.assertEqual(self.store.read_bytes(),before)
 
     def test_tryout_end_to_end_never_queries_database(self):
         with patch('database.connection',side_effect=AssertionError('Database must not be touched')):

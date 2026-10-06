@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-4-3-4",
+  "config_version": 1,
+  "original_hash": "c98a8869cd05e858",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "120*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "150*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang pembina pramuka mengatur barisan {v1} siswa laki-laki dan {v2} siswa perempuan ke dalam beberapa kelompok campuran dengan jumlah anggota laki-laki dan perempuan yang sama di setiap kelompok tanpa ada sisa.\nJika pembina membentuk kelompok sebanyak-banyaknya, berapakah jumlah kelompok yang terbentuk serta banyaknya siswa laki-laki pada masing-masing kelompok?",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} kelompok dan 8 siswa",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4} kelompok dan 5 siswa",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v5} kelompok dan 4 siswa",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v6} kelompok dan 2 siswa",
+      "correct": false
+    }
+  ],
+  "explanation": "FPB={v7}; hasil bagi berurutan: 4, 5. Jumlah kelompok maksimum adalah FPB."
+}

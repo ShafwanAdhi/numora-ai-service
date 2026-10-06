@@ -1,0 +1,180 @@
+{
+  "question_id": "pg-3-2-1",
+  "config_version": 1,
+  "original_hash": "cdc68b19f97e8720",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "47580+1000*k",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "47000+1000*k",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "48000+1000*k",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "round((47580+1000*k)/100)*100",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "50000+1000*k",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "47580+1000*k",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "47000+1000*k",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "48000+1000*k",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "round((47580+1000*k)/100)*100",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "50000+1000*k",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "47580+1000*k",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "47000+1000*k",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "48000+1000*k",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "round((47580+1000*k)/100)*100",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "50000+1000*k",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "47580+1000*k",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "47000+1000*k",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "48000+1000*k",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "round((47580+1000*k)/100)*100",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "50000+1000*k",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "47580+1000*k",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "47000+1000*k",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "48000+1000*k",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "round((47580+1000*k)/100)*100",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "50000+1000*k",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "47580+1000*k",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "round((47580+1000*k)/1000)*1000",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang pengurus kebun sekolah mencatat hasil persemaian bibit tanaman selama satu semester sebanyak {v1} bibit. Untuk keperluan laporan tahunan ke dinas pendidikan, pengurus diminta membulatkan jumlah bibit tersebut ke ribuan terdekat.\nHasil pembulatan jumlah bibit tanaman ke ribuan terdekat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v7} bibit",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v13} bibit",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v19} bibit",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v25} bibit",
+      "correct": false
+    }
+  ],
+  "explanation": "Bilangan={v26}; Pembulatan ribuan={v27}."
+}

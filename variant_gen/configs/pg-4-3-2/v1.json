@@ -1,0 +1,122 @@
+{
+  "question_id": "pg-4-3-2",
+  "config_version": 1,
+  "original_hash": "c9b4975f23434870",
+  "original_values": {
+    "p": 2
+  },
+  "variables": {
+    "p": {
+      "gen": "choice",
+      "values": [
+        2,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        37,
+        41,
+        43,
+        47,
+        53,
+        59,
+        61,
+        67,
+        71,
+        73,
+        79,
+        83,
+        89,
+        97,
+        101,
+        103,
+        107,
+        109
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "p**3*45",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "p**2*21",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "p**2*3",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan dua buah bilangan asli P dan Q yang dinyatakan dalam bentuk pembuktian faktorisasi prima:\nP={v1}^(3)×3^(2)×5\nQ={v2}^(2)×3×7\nSeorang siswa menganalisis pembagi persekutuan terbesar yang dapat membagi habis kedua bilangan tersebut tanpa sisa. Bentuk faktorisasi prima dari FPB(P,Q) yang benar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3}^(3)×3^(2)",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4}^(2)×3",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v5}^(3)×3^(2)×5×7",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v6}^(2)×3^(2)×5",
+      "correct": false
+    }
+  ],
+  "explanation": "P={v7}; Q={v8}; FPB={v9}. Ambil faktor prima sekutu dengan pangkat terkecil."
+}

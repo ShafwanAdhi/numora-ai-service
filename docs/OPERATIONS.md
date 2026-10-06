@@ -21,6 +21,8 @@ python -B variant_gen/webui.py --port 8766 --configs scratch/configs --store scr
 
 Tab **Service AI** bekerja pada bank/config/store lokal. **DB Utama** membaca PostgreSQL; tidak ada sinkronisasi otomatis. Berpindah tab mempertahankan draft config.
 
+Indikator1–2: pilih Drill > Paket1 > indikator > level1–3 > soal.34 generator aktif;26 soal tertahan menampilkan alasan. Indikator3–5 tersedia,64 generator aktif;26 soal tertahan.
+
 1. Pilih aktivitas/paket. Drill difilter per indikator, level sumber dan format; Tryout per bab dan format. Level Drill 4–5 tersedia pada indikator 11–15; indikator 6–10,16–23 dan Pretest masih kosong.
 2. Pilih soal/seed positif. **Lihat** membaca snapshot. Original seed 0 selalu di kiri; varian yang belum dibuat belum tampil.
 3. **Generate** membuat varian seed baru atau membaca hasil existing.

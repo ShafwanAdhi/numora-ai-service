@@ -1,0 +1,102 @@
+{
+  "question_id": "pg-5-3-5",
+  "config_version": 1,
+  "original_hash": "6d651bcc82a8412f",
+  "original_values": {
+    "rate": 40,
+    "time": 6
+  },
+  "variables": {
+    "rate": {
+      "gen": "range",
+      "range": [
+        20,
+        80
+      ],
+      "step": 1
+    },
+    "time": {
+      "gen": "range",
+      "range": [
+        5,
+        12
+      ],
+      "step": 1
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "4*rate"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "7*rate"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "10*rate"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "16*rate"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "time"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "time"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "time*rate+(-40)"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "time*rate+(0)"
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "time*rate+(20)"
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "time*rate+(60)"
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "time*rate"
+    },
+    "missing": {
+      "gen": "derived",
+      "expr": "16"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Tabel berikut menyajikan data hubungan proporsional antara waktu operasional mesin cetak offset dan jumlah lembar brosur pendaftaran sekolah yang berhasil dicetak:\nWaktu Cetak (menit) | \nJumlah Brosur (lembar)\n\n4 | \n{v2}\n\n7 | \n{v3}\n\n10 | \n{v4}\n\nn | \n{v5}\nSeorang siswa menganalisis waktu cetak n dan jumlah brosur jika mesin bekerja selama {v6} menit. Banyaknya brosur yang dicetak mesin tersebut dalam waktu {v7} menit adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v8} lembar",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v9} lembar",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v10} lembar",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v11} lembar",
+      "correct": false
+    }
+  ],
+  "explanation": "Laju cetak = {rate} lembar/menit. Jumlah brosur = {answer} lembar. Waktu untuk baris terakhir = {missing} menit."
+}

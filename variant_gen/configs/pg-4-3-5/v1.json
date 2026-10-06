@@ -1,0 +1,122 @@
+{
+  "question_id": "pg-4-3-5",
+  "config_version": 1,
+  "original_hash": "a34d9e03b52f2355",
+  "original_values": {
+    "p": 2
+  },
+  "variables": {
+    "p": {
+      "gen": "choice",
+      "values": [
+        2,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        37,
+        41,
+        43,
+        47,
+        53,
+        59,
+        61,
+        67,
+        71,
+        73,
+        79,
+        83,
+        89,
+        97,
+        101,
+        103,
+        107,
+        109
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "p**3*9",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "p**4*15",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "p**4*45",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang peneliti mengamati dua buah bilangan berpangkat faktorisasi prima X={v1}^(3)×3^(2) dan Y={v2}^(4)×3×5. Peneliti tersebut ingin menganalisis kelipatan persekutuan terkecil (KPK) dari kedua bilangan sebagai acuan skala eksperimen.\nBentuk faktorisasi prima dari KPK(X,Y) yang benar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3}^(3)×3",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4}^(4)×3^(2)×5",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v5}^(3)×3^(2)×5",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v6}^(7)×3^(3)×5",
+      "correct": false
+    }
+  ],
+  "explanation": "X={v7}; Y={v8}; KPK={v9}. Ambil seluruh faktor prima dengan pangkat terbesar."
+}

@@ -1,0 +1,150 @@
+{
+  "question_id": "mcma-4-3-6",
+  "config_version": 1,
+  "original_hash": "849ced1a6572fcb6",
+  "original_values": {
+    "a": 0,
+    "d": 0
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        0,
+        5
+      ],
+      "step": 1
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        0,
+        4
+      ],
+      "step": 1
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "36*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "48*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "72*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "72*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'^(' if (3+a)!=1 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "(3+a) if (3+a)!=1 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "')' if (3+a)!=1 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'^(' if (2+d)!=1 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "(2+d) if (2+d)!=1 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "')' if (2+d)!=1 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "24*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "12*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "144*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "12*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "144*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "72*2**a*3**d",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan tiga buah bilangan asli: {v2},{v3}, dan {v4}. Seorang siswa menganalisis sifat-sifat faktorisasi, FPB, dan KPK dari ketiga bilangan tersebut.\nManakah hasil analisis berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Faktorisasi prima dari {v5} adalah 2{v6}{v7}{v8}×3{v9}{v10}{v11}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "FPB dari ketiga bilangan tersebut adalah {v12}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "FPB dari ketiga bilangan tersebut adalah {v13}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "KPK dari ketiga bilangan tersebut adalah {v14}.",
+      "correct": true
+    }
+  ],
+  "explanation": "FPB={v15}; KPK={v16}. Faktorisasi prima pada pernyataan A memiliki hasil kali {v17}."
+}

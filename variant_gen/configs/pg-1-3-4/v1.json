@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-1-3-4",
+  "config_version": 1,
+  "original_hash": "e3e2df72dfee222f",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "18 if k == 1 else (k+1)*(k+1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2 if k == 1 else 4",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "\"irasional\" if k == 1 else \"rasional\"",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "\"2sqrt(2)\" if k == 1 else k-1",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "\"B\" if k == 1 else \"C\"",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang peneliti muda menganalisis dua buah nilai konstanta fisika sederhana a dan b dari pengukuran di laboratorium:\na=sqrt({v1})-sqrt({v2})\nb=0,121212... (desimal berulang)\nManakah kesimpulan yang paling tepat berdasarkan analisis sifat dan jenis bilangan real untuk kedua nilai tersebut?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bilangan a dan b keduanya merupakan bilangan irasional.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Bilangan a adalah irasional dan b adalah rasional.",
+      "correct": "k == 1"
+    },
+    {
+      "id": "C",
+      "text": "Bilangan a dan b keduanya merupakan bilangan rasional.",
+      "correct": "k != 1"
+    },
+    {
+      "id": "D",
+      "text": "Bilangan a adalah rasional dan b adalah irasional.",
+      "correct": false
+    }
+  ],
+  "explanation": "a={v4}, {v3}, dari pengurangan dua akar pada soal. b=12/99 rasional karena desimal berulang. Opsi {v5}."
+}

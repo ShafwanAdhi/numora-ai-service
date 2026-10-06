@@ -1,0 +1,82 @@
+{
+  "question_id": "pg-5-3-4",
+  "config_version": 1,
+  "original_hash": "7c623541f5c09ddc",
+  "original_values": {
+    "a": 4800,
+    "gap": 300
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        3500,
+        6500
+      ],
+      "step": 100
+    },
+    "gap": {
+      "gen": "range",
+      "range": [
+        100,
+        1000
+      ],
+      "step": 100
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "10*a"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "15*(a-gap)"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "gap+200"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "gap+200"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "gap"
+    },
+    "first": {
+      "gen": "derived",
+      "expr": "a"
+    },
+    "second": {
+      "gen": "derived",
+      "expr": "a-gap"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Koperasi sekolah membandingkan penawaran harga buku tulis dari dua distributor grosir:\nToko A: Menjual 1 pak berisi 10 buku seharga Rp{v2}.\nToko B: Menjual 1 pak berisi 15 buku seharga Rp{v3}.\nSeorang siswa menganalisis laju harga per unit (harga per buku) untuk merekomendasikan toko yang paling hemat. Hasil analisis yang benar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Toko A lebih murah dengan selisih harga Rp{v4} per buku",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Toko B lebih murah dengan selisih harga Rp{v5} per buku",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Toko B lebih murah dengan selisih harga Rp{v6} per buku",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Toko A dan Toko B memiliki harga per unit yang ekuivalen",
+      "correct": false
+    }
+  ],
+  "explanation": "Harga per buku Toko A = Rp{first}; Toko B = Rp{second}. Toko B lebih murah Rp{gap} per buku."
+}

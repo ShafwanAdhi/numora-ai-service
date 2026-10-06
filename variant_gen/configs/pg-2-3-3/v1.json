@@ -1,0 +1,113 @@
+{
+  "question_id": "pg-2-3-3",
+  "config_version": 1,
+  "original_hash": "1fde3287ee026c43",
+  "original_values": {
+    "k": 12
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        36
+      ],
+      "step": 1
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "1+(k-1)//6"
+    },
+    "n": {
+      "gen": "derived",
+      "expr": "1+(k-1)%6"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "a",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "n/2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "a+n-2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "a+n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "a+n+4",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "a+n+6",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "n/2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "30*n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "a+n",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Hasil pengamatan perkembangbiakan dua jenis kultur mikroba di laboratorium IPA dicatat sebagai berikut:\nKultur X mula-mula berjumlah 2^(4) sel dan membelah menjadi 2 kali lipat setiap 1 jam.\nKultur Y mula-mula berjumlah 2^({v3}) sel dan membelah menjadi 2 kali lipat setiap 30 menit.\nSeorang siswa menganalisis jumlah sel Kultur Y setelah {v4} jam pengamatan. Bentuk bilangan berpangkat (eksponen) sederhana yang menunjukkan jumlah sel Kultur Y pada akhir pengamatan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "2^({v5}) mikroba",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "2^({v6}) mikroba",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "2^({v7}) mikroba",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "2^({v8}) mikroba",
+      "correct": false
+    }
+  ],
+  "explanation": "Y diamati {v9} jam={v10} menit, memberi {v11} periode. JumlahY=2^({v12}); kulturX tidak dipakai."
+}

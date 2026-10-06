@@ -1,0 +1,90 @@
+{
+  "question_id": "pg-5-2-1",
+  "config_version": 1,
+  "original_hash": "0751b4974d5b67a1",
+  "original_values": {
+    "p": 5,
+    "q": 3,
+    "scale": 4.5
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        2,
+        11
+      ],
+      "step": 1
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "scale": {
+      "gen": "range",
+      "range": [
+        1.5,
+        6
+      ],
+      "step": 0.5
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "p*scale"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "q*scale"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "rp": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "rq": {
+      "gen": "derived",
+      "expr": "q"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [
+    "p > q",
+    "gcd(p,q) == 1"
+  ],
+  "stem": "Untuk keperluan hiasan panggung acara perpisahan sekolah, tim dekorasi menyiapkan dua jenis pita. Panjang pita merah adalah {v3} meter dan panjang pita putih adalah {v4} meter.\nBentuk rasio paling sederhana antara panjang pita merah dan pita putih adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "3:2",
+      "correct": "p*2 == q*3"
+    },
+    {
+      "id": "B",
+      "text": "{v5}:{v6}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "9:5",
+      "correct": "p*5 == q*9"
+    },
+    {
+      "id": "D",
+      "text": "15:8",
+      "correct": "p*8 == q*15"
+    }
+  ],
+  "explanation": "Rasio sederhana = {rp}:{rq}. Kedua panjang dibagi faktor yang sama."
+}

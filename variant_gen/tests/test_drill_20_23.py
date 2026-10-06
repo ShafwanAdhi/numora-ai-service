@@ -47,7 +47,7 @@ class DrillTests(unittest.TestCase):
         workspace = load_workspace_bank(ROOT/'data/q0_bank.csv')
         self.assertEqual(len(legacy.ids()), 120)
         early = OriginalBank(ROOT/'data/drill-1-indicators-6-10/q0_bank.csv')
-        self.assertEqual(set(workspace.ids()), set(legacy.ids()+tryout.ids()+new.ids()+early.ids()+OriginalBank(ROOT/'data/drill-1-indicators-11-15/q0_bank.csv').ids()))
+        self.assertEqual(set(workspace.ids()), set(legacy.ids()+tryout.ids()+new.ids()+early.ids()+OriginalBank(ROOT/'data/drill-1-indicators-11-15/q0_bank.csv').ids()+OriginalBank(ROOT/'data/drill-1-indicators-1-2/q0_bank.csv').ids()+OriginalBank(ROOT/'data/drill-1-indicators-3-5/q0_bank.csv').ids()))
         self.assertEqual(len(load_workspace_bank(BANK).ids()), 120)
         for qid in legacy.ids()+tryout.ids():
             self.assertEqual(workspace.get(qid), (legacy if qid in legacy.ids() else tryout).get(qid))

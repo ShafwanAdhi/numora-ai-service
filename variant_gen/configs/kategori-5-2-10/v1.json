@@ -1,0 +1,85 @@
+{
+  "question_id": "kategori-5-2-10",
+  "config_version": 1,
+  "original_hash": "8e9487d1785db18c",
+  "original_values": {
+    "rate": 12,
+    "time": 6
+  },
+  "variables": {
+    "rate": {
+      "gen": "range",
+      "range": [
+        4,
+        25
+      ],
+      "step": 1
+    },
+    "time": {
+      "gen": "range",
+      "range": [
+        4,
+        14
+      ],
+      "step": 1
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "2*rate"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "5*rate"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*rate"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "rate"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "time"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "time*rate"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "10*rate"
+    },
+    "result": {
+      "gen": "derived",
+      "expr": "time*rate"
+    },
+    "duration": {
+      "gen": "derived",
+      "expr": "10"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja tim sablon dan banyak kaus panitia kegiatan sekolah yang selesai disablon:\nWaktu Kerja (jam) | \nKaus Selesai (lembar)\n\n2 | \n{v2}\n\n5 | \n{v3}\n\n8 | \n{v4}\nSeorang siswa menganalisis proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Laju pencetakan sablon kaus tersebut adalah {v5} lembar/jam.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika tim bekerja selama {v6} jam, maka kaus yang selesai disablon adalah {v7} lembar.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Untuk menyelesaikan {v8} lembar kaus, waktu kerja yang dibutuhkan adalah 12 jam.",
+      "correct": false
+    }
+  ],
+  "explanation": "Laju produksi = {rate} satuan/jam. Produksi untuk waktu yang ditanyakan = {result} satuan. Waktu untuk target pernyataan terakhir = {duration} jam."
+}

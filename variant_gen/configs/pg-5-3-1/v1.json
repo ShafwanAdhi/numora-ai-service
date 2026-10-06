@@ -1,0 +1,158 @@
+{
+  "question_id": "pg-5-3-1",
+  "config_version": 1,
+  "original_hash": "ea93e9cd8e9a9ab5",
+  "original_values": {
+    "p": 1,
+    "q": 3,
+    "first": 12.5,
+    "second": 15,
+    "delta": 0
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        1,
+        5
+      ],
+      "step": 1
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "first": {
+      "gen": "range",
+      "range": [
+        5,
+        15
+      ],
+      "step": 0.5
+    },
+    "second": {
+      "gen": "range",
+      "range": [
+        10,
+        25
+      ],
+      "step": 1
+    },
+    "delta": {
+      "gen": "range",
+      "range": [
+        0,
+        1
+      ],
+      "step": 1
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "p*first"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "q*first"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "p*second"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(q+delta)*second"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "q+1"
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "p*first*2"
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "q*first*2"
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "p*second"
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "q*second"
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "p*second"
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "p*first"
+    },
+    "other": {
+      "gen": "derived",
+      "expr": "q+delta"
+    },
+    "relation": {
+      "gen": "derived",
+      "expr": "'sama dengan' if delta == 0 else 'lebih besar daripada'"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [
+    "p < q",
+    "gcd(p,q) == 1",
+    "gcd(p,q+delta) == 1",
+    "second > first"
+  ],
+  "stem": "Seorang pengurus OSIS menganalisis dua resep campuran larutan pembersih lantai laboratorium:\nCampuran P: {v5} ml konsentrat dicampur dengan {v6} ml air bersih.\nCampuran Q: {v7} ml konsentrat dicampur dengan {v8} ml air bersih.\nDua siswa memberikan hasil analisis rasio paling sederhana antara konsentrat dan air bersih pada kedua campuran tersebut:\nAnalisis I: Campuran P memiliki rasio {v9}:{v10}, sedangkan Campuran Q memiliki rasio {v11}:{v12}, sehingga Campuran P lebih pekat.\nAnalisis II: Campuran P dan Campuran Q keduanya memiliki rasio ekuivalen {v13}:{v14}, sehingga tingkat kepekatan kedua campuran tersebut persis sama.\nAnalisis III: Campuran P memiliki rasio {v15}:{v16} dan Campuran Q memiliki rasio {v17}:{v18}, sehingga keduanya tidak ekuivalen.\nAnalisis IV: Campuran Q lebih pekat karena volume konsentratnya lebih banyak ({v19} ml>{v20} ml).\nHasil analisis siapakah yang pasti benar secara matematis?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis I",
+      "correct": "delta == 1"
+    },
+    {
+      "id": "B",
+      "text": "Analisis II",
+      "correct": "delta == 0"
+    },
+    {
+      "id": "C",
+      "text": "Analisis III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis IV",
+      "correct": false
+    }
+  ],
+  "explanation": "Rasio sederhana Campuran P = {p}:{q}; Campuran Q = {p}:{other}. Perbandingan konsentrat terhadap air Campuran P {relation} Campuran Q."
+}

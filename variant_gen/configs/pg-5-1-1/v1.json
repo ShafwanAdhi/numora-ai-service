@@ -1,0 +1,90 @@
+{
+  "question_id": "pg-5-1-1",
+  "config_version": 1,
+  "original_hash": "dfe15e500ce51f1f",
+  "original_values": {
+    "p": 4,
+    "q": 3,
+    "scale": 4.5
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        2,
+        11
+      ],
+      "step": 1
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "scale": {
+      "gen": "range",
+      "range": [
+        1.5,
+        6
+      ],
+      "step": 0.5
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "p*scale"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "q*scale"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "rp": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "rq": {
+      "gen": "derived",
+      "expr": "q"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [
+    "p > q",
+    "gcd(p,q) == 1"
+  ],
+  "stem": "Tim OSIS SMP menyiapkan dua jenis minuman untuk disajikan dalam acara jalan sehat sekolah. Panitia mencampur {v3} liter sirup rasa jeruk dengan {v4} liter air mineral ke dalam wadah utama.\nRasio paling sederhana antara volume sirup rasa jeruk dan air mineral dalam campuran tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "3:2",
+      "correct": "p*2 == q*3"
+    },
+    {
+      "id": "B",
+      "text": "{v5}:{v6}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "5:4",
+      "correct": "p*4 == q*5"
+    },
+    {
+      "id": "D",
+      "text": "8:5",
+      "correct": "p*5 == q*8"
+    }
+  ],
+  "explanation": "Rasio sederhana = {rp}:{rq}. Kedua volume dibagi faktor yang sama."
+}

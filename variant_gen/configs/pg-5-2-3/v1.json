@@ -1,0 +1,73 @@
+{
+  "question_id": "pg-5-2-3",
+  "config_version": 1,
+  "original_hash": "38d312218d2b11d1",
+  "original_values": {
+    "rate": 18
+  },
+  "variables": {
+    "rate": {
+      "gen": "range",
+      "range": [
+        12,
+        45
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "rate*20"
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "rate+(-3)"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "rate+(0)"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "rate+(2)"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "rate+(6)"
+    },
+    "duration": {
+      "gen": "derived",
+      "expr": "20"
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "rate"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Petugas kebersihan mengisi bak kolam ikan hias di taman sekolah yang berkapasitas {v1} liter hingga penuh. Keran air dinyalakan mulai pukul 08.10 WIB dan kolam terisi penuh tepat pada pukul 08.30 WIB.\nLaju aliran air (debit) dari keran tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} liter/menit",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} liter/menit",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v4} liter/menit",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5} liter/menit",
+      "correct": false
+    }
+  ],
+  "explanation": "Durasi = {duration} menit. Debit = volume dibagi durasi = {answer} liter/menit."
+}

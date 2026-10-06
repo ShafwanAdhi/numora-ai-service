@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-1-3-2",
+  "config_version": 1,
+  "original_hash": "f96169dbb0042c24",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Pengurus OSIS SMP Cendekia menghitung total biaya pengadaan perlengkapan lomba antar-kelas. Sebanyak 16 piala penghargaan dibeli dengan harga Rp{v1} per piala dan setiap piala dipasangi pita hias seharga Rp{v2} per buah.\nDua orang panitia menganalisis metode perhitungan total biaya:\nMetode A: Menghitung total piala terlebih dahulu (16×{v3}), lalu ditambah total pita hias (16×{v4}).\nMetode B: Menggabungkan harga piala dan pita hias per unit terlebih dahulu, lalu dikalikan dengan banyak unit piala.\nBentuk penyederhanaan perhitungan Metode B yang memanfaatkan Sifat Distributif perkalian terhadap penjumlahan adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "(16+{v5})×(16+{v6})",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "16×({v7}×{v8})",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "16×({v9}+{v10})",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "(16×{v11})+{v12}",
+      "correct": false
+    }
+  ],
+  "explanation": "Biaya gabungan per unit dikalikan jumlah unit. Hanya bentuk C mempunyai faktor kuantitas bersama; nominal berubah dengan faktor {v13}."
+}

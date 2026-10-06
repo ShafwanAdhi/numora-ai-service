@@ -1,0 +1,125 @@
+{
+  "question_id": "pg-2-1-4",
+  "config_version": 1,
+  "original_hash": "95e8e66c2d1b8564",
+  "original_values": {
+    "k": 19
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        35
+      ],
+      "step": 1
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "1+(k-1)//7"
+    },
+    "n": {
+      "gen": "derived",
+      "expr": "1+(k-1)%7"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "a",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "n/2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "a+n-1",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "a+n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "a+n+1",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "a+n+2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "n/2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "30*n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "a",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "n",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "a+n",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Sebuah sampel populasi perkembangbiakan mikroorganisme di laboratorium biologi SMP membelah diri menjadi 2 kali lipat setiap 30 menit. Mula-mula terdapat 2^({v3}) mikroorganisme. Banyaknya mikroorganisme setelah {v4} jam dinyatakan dalam bentuk bilangan berpangkat (eksponen) sederhana adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "2^({v5})",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "2^({v6})",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "2^({v7})",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "2^({v8})",
+      "correct": false
+    }
+  ],
+  "explanation": "Waktu {v9} jam = {v10} menit; dibagi30 menjadi {v11} periode. Jumlah=2^({v12}+{v13})=2^({v14})."
+}

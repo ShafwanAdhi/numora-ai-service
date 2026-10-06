@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-5-2-6",
+  "config_version": 1,
+  "original_hash": "c3a2a2b56d7a4ac2",
+  "original_values": {
+    "p": 3,
+    "q": 2,
+    "first": 16,
+    "second": 20
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        1,
+        7
+      ],
+      "step": 1
+    },
+    "first": {
+      "gen": "range",
+      "range": [
+        5,
+        20
+      ],
+      "step": 1
+    },
+    "second": {
+      "gen": "range",
+      "range": [
+        6,
+        24
+      ],
+      "step": 1
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "p*first"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "q*first"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "p*second"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "q*second"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "p+1"
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "q+1"
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "p+q"
+    },
+    "part": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "p+q"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [
+    "p > q",
+    "gcd(p,q) == 1"
+  ],
+  "stem": "Seorang petugas perpustakaan membandingkan rasio jenis buku di dua rak:\nRak A: memuat {v4} buku fiksi dan {v5} buku non-fiksi.\nRak B: memuat {v6} buku fiksi dan {v7} buku non-fiksi.\nManakah pernyataan berikut yang benar mengenai rasio dan ekuivalensi buku pada kedua rak tersebut? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rasio paling sederhana antara buku fiksi dan non-fiksi di Rak A adalah {v8}:{v9}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Rasio paling sederhana antara buku fiksi dan non-fiksi di Rak B adalah {v10}:{v11}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Rasio buku fiksi dan non-fiksi di Rak A ekuivalen (senilai) dengan Rak B.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rasio total buku fiksi terhadap seluruh buku di Rak A adalah {v12}:{v13}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Rasio sederhana kedua kelompok = {p}:{q}. Rasio bagian terhadap seluruh kelompok pertama = {part}:{total}."
+}

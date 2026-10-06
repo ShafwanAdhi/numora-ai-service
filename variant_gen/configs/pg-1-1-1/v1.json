@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-1-1-1",
+  "config_version": 1,
+  "original_hash": "c83e81172114a294",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "pre": {
+      "gen": "derived",
+      "expr": "'' if k == 1 else 'sqrt('"
+    },
+    "value": {
+      "gen": "derived",
+      "expr": "0.75 if k == 1 else k*k+1"
+    },
+    "post": {
+      "gen": "derived",
+      "expr": "'' if k == 1 else ')'"
+    },
+    "spre": {
+      "gen": "derived",
+      "expr": "'sqrt(' if k == 1 else ''"
+    },
+    "svalue": {
+      "gen": "derived",
+      "expr": "5 if k == 1 else k/4"
+    },
+    "spost": {
+      "gen": "derived",
+      "expr": "')' if k == 1 else ''"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "pre",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "value",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "post",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "spre",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "svalue",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "spost",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "\"rasional\" if k == 1 else \"irasional karena radikan bukan kuadrat sempurna\"",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "\"irasional\" if k == 1 else \"rasional\"",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Pada sebuah eksperimen IPA di laboratorium SMP, empat orang siswa mencatat hasil pengukuran massa benda dan pengamatan angka sebagai berikut:\nRian: {v7}{v8}{v9} gram\nSiti: {v10}{v11}{v12} gram\nBudi: -(8)/(2) gram\nDewi: sqrt(16) gram\nDi antara hasil pencatatan keempat siswa tersebut, hasil pencatatan siapakah yang merupakan bilangan irasional?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rian",
+      "correct": "k != 1"
+    },
+    {
+      "id": "B",
+      "text": "Siti",
+      "correct": "k == 1"
+    },
+    {
+      "id": "C",
+      "text": "Budi",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Dewi",
+      "correct": false
+    }
+  ],
+  "explanation": "Rian={v7}{v8}{v9}, {v14}. Siti={v10}{v11}{v12}, {v16}. Budi=-4 dan Dewi=4 rasional; tepat satu irasional."
+}

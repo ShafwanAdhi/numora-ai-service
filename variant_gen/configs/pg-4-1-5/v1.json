@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-4-1-5",
+  "config_version": 1,
+  "original_hash": "c8bb0971e0b205bd",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "12*(k+3)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "12*(k+2)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "k+3",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "k+2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "k+2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "k+3",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "12",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "12",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "k+5",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "k+3",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "k+3",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "k+2",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Ibu membeli {v1} kue donat dan {v2} kue lemper untuk acara syukuran kelas. Kue-kue tersebut ditempatkan ke dalam beberapa piring dengan jumlah dan kombinasi yang sama di setiap piring. Jika piring yang digunakan sebanyak-banyaknya, berapa isi kue donat dan kue lemper pada masing-masing piring?",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} kue donat dan {v4} kue lemper",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v5} kue donat dan {v6} kue lemper",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v7} kue donat dan {v8} kue lemper",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v9} kue donat dan {v10} kue lemper",
+      "correct": false
+    }
+  ],
+  "explanation": "FPB=12; hasil bagi berurutan: {v11}, {v12}. Jumlah kelompok maksimum adalah FPB."
+}

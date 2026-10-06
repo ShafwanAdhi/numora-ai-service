@@ -1,0 +1,107 @@
+{
+  "question_id": "pg-5-1-4",
+  "config_version": 1,
+  "original_hash": "5356537283059bf5",
+  "original_values": {
+    "unit": 4500,
+    "a": 6,
+    "b": 7
+  },
+  "variables": {
+    "unit": {
+      "gen": "range",
+      "range": [
+        2500,
+        7500
+      ],
+      "step": 100
+    },
+    "a": {
+      "gen": "range",
+      "range": [
+        4,
+        10
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        5,
+        12
+      ],
+      "step": 1
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "a"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "a*unit"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "b"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "b*unit"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "b"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "b*unit+(-3500)"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "b*unit+(-1500)"
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "b*unit+(0)"
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "b*unit+(3500)"
+    },
+    "price": {
+      "gen": "derived",
+      "expr": "unit"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "b*unit"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Koperasi sekolah menjual dua paket alat tulis sekolah:\nPaket Hemat A: berisi {v3} buku latihan seharga Rp{v4}\nPaket Hemat B: berisi {v5} buku latihan seharga Rp{v6}\nJika harga per unit buku pada Paket Hemat B bernilai ekuivalen (proporsional) dengan Paket Hemat A, berapakah harga yang harus dibayar siswa untuk membeli {v7} buku latihan tersebut?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{v8}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{v9}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Rp{v10}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rp{v11}",
+      "correct": false
+    }
+  ],
+  "explanation": "Harga satuan = Rp{price}. Harga pembelian = jumlah buku dikali harga satuan = Rp{total}."
+}

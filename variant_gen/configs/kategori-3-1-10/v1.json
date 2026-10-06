@@ -1,0 +1,163 @@
+{
+  "question_id": "kategori-3-1-10",
+  "config_version": 1,
+  "original_hash": "f11817dd66e90f2d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "round(sqrt(18+k),1)",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "floor(v1)",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "round((v1-floor(v1))*10)",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "18+k",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round(sqrt(50))+round(sqrt(18+k))+1",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "round(sqrt(18+k),1)",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "floor(v6)",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "round((v6-floor(v6))*10)",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "18+k",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "round(sqrt(50))+round(sqrt(18+k))+1",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "round(sqrt(18+k),1)",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "floor(v11)",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "round((v11-floor(v11))*10)",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "18+k",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "round(sqrt(50))+round(sqrt(18+k))+1",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "round(sqrt(18+k),1)",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "floor(v16)",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "round((v16-floor(v16))*10)",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "18+k",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "round(sqrt(50))+round(sqrt(18+k))+1",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "round(sqrt(18+k),1)",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "round(sqrt(18+k))",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "round(sqrt(50))",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "round(sqrt(50))+round(sqrt(18+k))",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [
+    "floor(sqrt(18+k))**2 != 18+k",
+    "round(sqrt(18+k)+sqrt(50)) == round(sqrt(18+k))+round(sqrt(50))"
+  ],
+  "stem": "Diberikan dua nilai bentuk akar irasional hasil pengukuran bidang lahan sekolah:\nP=sqrt({v4}) meter\nQ=sqrt(50) meter\nTentukan status BENAR atau SALAH untuk setiap pernyataan aproksimasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Nilai aproksimasi P (sqrt({v9})) ke persepuluhan terdekat adalah {v7},{v8} m.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Nilai aproksimasi Q (sqrt(50)) jika dibulatkan ke satuan terdekat adalah 7 m.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Estimasi hasil penjumlahan P+Q ke satuan terdekat adalah {v20} m.",
+      "correct": false
+    }
+  ],
+  "explanation": "Akar pertama persepuluhan={v21}; Akar pertama satuan={v22}; Akar kedua satuan={v23}; Estimasi={v24}."
+}

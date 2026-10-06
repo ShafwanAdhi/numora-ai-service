@@ -1,0 +1,602 @@
+[
+  {
+    "record_id": "pg-3-1-1:s250:v1",
+    "question_id": "pg-3-1-1",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 3,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 1,
+      "source_body_index": 3719,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "B. 38.000 orang",
+      "generation_status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "59d7cba99e22ec31",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 57,
+      "v1": 94685,
+      "v2": 94000,
+      "v3": 95000,
+      "v4": 94700,
+      "v5": 97000,
+      "v6": 94685,
+      "v7": 94000,
+      "v8": 95000,
+      "v9": 94700,
+      "v10": 97000,
+      "v11": 94685,
+      "v12": 94000,
+      "v13": 95000,
+      "v14": 94700,
+      "v15": 97000,
+      "v16": 94685,
+      "v17": 94000,
+      "v18": 95000,
+      "v19": 94700,
+      "v20": 97000,
+      "v21": 94685,
+      "v22": 94000,
+      "v23": 95000,
+      "v24": 94700,
+      "v25": 97000,
+      "v26": 94685,
+      "v27": 95000
+    },
+    "stem": "Seorang petugas museum SMP mencatat jumlah pengunjung harian museum selama satu bulan sebanyak 94.685 orang. Untuk membuat laporan ringkas mingguan ke dinas pendidikan, petugas tersebut diminta melakukan pembulatan ke ribuan terdekat.\nHasil pembulatan jumlah pengunjung museum tersebut adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "94.000 orang"
+      },
+      {
+        "id": "B",
+        "text": "95.000 orang"
+      },
+      {
+        "id": "C",
+        "text": "94.700 orang"
+      },
+      {
+        "id": "D",
+        "text": "97.000 orang"
+      }
+    ],
+    "key": "B",
+    "explanation": "Bilangan=94.685; Pembulatan ribuan=95.000.\n\nJawaban: B. 95.000 orang",
+    "original_hash": "3b06283f7f866274",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:11:30+00:00"
+  },
+  {
+    "record_id": "mcma-3-1-6:s250:v1",
+    "question_id": "mcma-3-1-6",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 3,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 6,
+      "source_body_index": 3891,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "A, C, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "b7f0bdee2747ded5",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 11,
+      "v1": 25.836,
+      "v2": 25.85,
+      "v3": 3.2,
+      "v4": 3,
+      "v5": 2,
+      "v6": 25.836,
+      "v7": 25.85,
+      "v8": 3.2,
+      "v9": 3,
+      "v10": 2,
+      "v11": 25.836,
+      "v12": 25.85,
+      "v13": 3.2,
+      "v14": 3,
+      "v15": 2,
+      "v16": 25.836,
+      "v17": 25.85,
+      "v18": 3.2,
+      "v19": 3,
+      "v20": 2,
+      "v21": 25.836,
+      "v22": 25.85,
+      "v23": 3.2,
+      "v24": 3,
+      "v25": 2,
+      "v26": 25.84,
+      "v27": 3.2,
+      "v28": 8.9,
+      "v29": 9,
+      "v30": 120000
+    },
+    "stem": "Diberikan empat pernyataan tentang pembulatan dan aproksimasi bilangan desimal/akar:\n(i) Pembulatan 25,836 ke dua tempat desimal (persatusan terdekat) adalah 25,85.\n(ii) Aproksimasi nilai sqrt(10) ke persepuluhan terdekat adalah 3,2.\n(iii) Nilai dari sqrt(80) berada di antara 8,9 dan 9,0.\n(iv) Hasil estimasi dari 402×298 menggunakan pembulatan ke ratusan terdekat adalah 120.000.\nManakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pernyataan (i)"
+      },
+      {
+        "id": "B",
+        "text": "Pernyataan (ii)"
+      },
+      {
+        "id": "C",
+        "text": "Pernyataan (iii)"
+      },
+      {
+        "id": "D",
+        "text": "Pernyataan (iv)"
+      }
+    ],
+    "key": "B,C,D",
+    "explanation": "Pembulatan desimal=25,84; Pembulatan akar=3,2; Batas bawah akar=8,9; Batas atas akar=9; Estimasi perkalian=120.000.\n\nPenilaian pernyataan: A: Salah — Pernyataan (i); B: Benar — Pernyataan (ii); C: Benar — Pernyataan (iii); D: Benar — Pernyataan (iv)",
+    "original_hash": "7123fb6ab146a39d",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:11:30+00:00"
+  },
+  {
+    "record_id": "kategori-3-1-9:s250:v1",
+    "question_id": "kategori-3-1-9",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 3,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 9,
+      "source_body_index": 3999,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+      "generation_status": "ACTIVE",
+      "reason": "Audit sumber valid; template numerik mempertahankan stem/opsi/kunci asli, pembulatan half-up diverifikasi independen.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "2674a03ee8720a94",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 52,
+      "v1": 54.48,
+      "v2": 54.5,
+      "v3": 54,
+      "v4": 5,
+      "v5": 57.1,
+      "v6": 57,
+      "v7": 1,
+      "v8": 54.48,
+      "v9": 54.5,
+      "v10": 54,
+      "v11": 5,
+      "v12": 57.1,
+      "v13": 57,
+      "v14": 1,
+      "v15": 54.48,
+      "v16": 54.5,
+      "v17": 54,
+      "v18": 5,
+      "v19": 57.1,
+      "v20": 57,
+      "v21": 1,
+      "v22": 54.48,
+      "v23": 54.5,
+      "v24": 54,
+      "v25": 5,
+      "v26": 57.1,
+      "v27": 57,
+      "v28": 1,
+      "v29": 54.5,
+      "v30": 2,
+      "v31": 1.7,
+      "v32": 0.9,
+      "v33": 57.1
+    },
+    "stem": "Ibu membeli tiga jenis kebutuhan dapur di minimarket sekolah:\n54,48 kg beras\n1,73 kg gula pasir\n0,85 kg minyak goreng\nTentukan status BENAR atau SALAH untuk setiap pernyataan pembulatan berat belanjaan berikut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Berat beras (54,48 kg) jika dibulatkan ke persepuluhan terdekat adalah 54,5 kg."
+      },
+      {
+        "id": "2",
+        "text": "Berat gula pasir (1,73kg) jika dibulatkan ke satuan terdekat adalah 1kg."
+      },
+      {
+        "id": "3",
+        "text": "Estimasi total berat seluruh belanjaan Ibu jika masing-masing dibulatkan ke persepuluhan terdekat adalah 57,1kg."
+      }
+    ],
+    "key": "1,3",
+    "explanation": "Bahan pertama=54,5; Bahan kedua satuan=2; Bahan kedua persepuluhan=1,7; Bahan ketiga=0,9; Total=57,1.\n\nPenilaian pernyataan: 1: Benar — Berat beras (54,48 kg) jika dibulatkan ke persepuluhan terdekat adalah 54,5 kg.; 2: Salah — Berat gula pasir (1,73kg) jika dibulatkan ke satuan terdekat adalah 1kg.; 3: Benar — Estimasi total berat seluruh belanjaan Ibu jika masing-masing dibulatkan ke persepuluhan terdekat adalah 57,1kg.",
+    "original_hash": "99d8315dea19ca08",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:11:31+00:00"
+  },
+  {
+    "record_id": "pg-4-1-2:s250:v1",
+    "question_id": "pg-4-1-2",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 4,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 2,
+      "source_body_index": 5258,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "C. 15 bingkisan",
+      "generation_status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "876dedb7c5c01acc",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "k": 22,
+      "v1": 1320,
+      "v2": 990,
+      "v3": 660,
+      "v4": 110,
+      "v5": 220,
+      "v6": 330,
+      "v7": 660,
+      "v8": 330
+    },
+    "stem": "Pengurus OSIS membagikan paket bantuan bakti sosial berupa 1320 buku tulis, 990 pensil, dan 660 penghapus. Barang-barang tersebut akan dimasukkan ke dalam beberapa kantong bingkisan dengan jumlah dan jenis barang yang sama banyak di setiap kantong tanpa ada sisa.\nBanyaknya bingkisan maksimum yang dapat dibuat oleh pengurus OSIS adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "110 bingkisan"
+      },
+      {
+        "id": "B",
+        "text": "220 bingkisan"
+      },
+      {
+        "id": "C",
+        "text": "330 bingkisan"
+      },
+      {
+        "id": "D",
+        "text": "660 bingkisan"
+      }
+    ],
+    "key": "C",
+    "explanation": "FPB=330; hasil bagi berurutan: 4, 3, 2. Jumlah kelompok maksimum adalah FPB.\n\nJawaban: C. 330 bingkisan",
+    "original_hash": "4a57428e81a98df0",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:11:32+00:00"
+  },
+  {
+    "record_id": "mcma-4-1-6:s250:v1",
+    "question_id": "mcma-4-1-6",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 4,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 6,
+      "source_body_index": 5393,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "A, C, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "dbcfcbc96a787257",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "a": 0,
+      "d": 3,
+      "v2": 486,
+      "v3": 648,
+      "v4": 972,
+      "v5": 648,
+      "v6": "^(",
+      "v7": 3,
+      "v8": ")",
+      "v9": "^(",
+      "v10": 4,
+      "v11": ")",
+      "v12": 324,
+      "v13": 162,
+      "v14": 1944,
+      "v15": 162,
+      "v16": 1944,
+      "v17": 648
+    },
+    "stem": "Diberikan tiga buah bilangan asli: 486,648, dan 972. Manakah pernyataan berikut yang benar mengenai KPK, FPB, atau faktor persekutuannya? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Faktorisasi prima dari 648 adalah 2^(3)×3^(4)."
+      },
+      {
+        "id": "B",
+        "text": "FPB dari ketiga bilangan tersebut adalah 324."
+      },
+      {
+        "id": "C",
+        "text": "FPB dari ketiga bilangan tersebut adalah 162."
+      },
+      {
+        "id": "D",
+        "text": "KPK dari ketiga bilangan tersebut adalah 1944."
+      }
+    ],
+    "key": "A,C,D",
+    "explanation": "FPB=162; KPK=1944. Faktorisasi prima pada pernyataan A memiliki hasil kali 648.\n\nPenilaian pernyataan: A: Benar — Faktorisasi prima dari 648 adalah 2^(3)×3^(4).; B: Salah — FPB dari ketiga bilangan tersebut adalah 324.; C: Benar — FPB dari ketiga bilangan tersebut adalah 162.; D: Benar — KPK dari ketiga bilangan tersebut adalah 1944.",
+    "original_hash": "103abf69010b8bd7",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:11:32+00:00"
+  },
+  {
+    "record_id": "pg-5-1-1:s250:v1",
+    "question_id": "pg-5-1-1",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 1,
+      "source_body_index": 7085,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "B. 4:3",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "1f4be71839f105be",
+    "draws_used": 6,
+    "format": "PG",
+    "cognitive_level": "C3",
+    "values_used": {
+      "p": 11,
+      "q": 6,
+      "scale": 6,
+      "v3": 66,
+      "v4": 36,
+      "v5": 11,
+      "v6": 6,
+      "rp": 11,
+      "rq": 6
+    },
+    "stem": "Tim OSIS SMP menyiapkan dua jenis minuman untuk disajikan dalam acara jalan sehat sekolah. Panitia mencampur 66 liter sirup rasa jeruk dengan 36 liter air mineral ke dalam wadah utama.\nRasio paling sederhana antara volume sirup rasa jeruk dan air mineral dalam campuran tersebut adalah ....",
+    "options": [
+      {
+        "id": "A",
+        "text": "3:2"
+      },
+      {
+        "id": "B",
+        "text": "11:6"
+      },
+      {
+        "id": "C",
+        "text": "5:4"
+      },
+      {
+        "id": "D",
+        "text": "8:5"
+      }
+    ],
+    "key": "B",
+    "explanation": "Rasio sederhana = 11:6. Kedua volume dibagi faktor yang sama.\n\nJawaban: B. 11:6",
+    "original_hash": "dfe15e500ce51f1f",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:11:32+00:00"
+  },
+  {
+    "record_id": "mcma-5-1-6:s250:v1",
+    "question_id": "mcma-5-1-6",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 6,
+      "source_body_index": 7236,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "A, C, dan D",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "1be8dd5984c483d6",
+    "draws_used": 1,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "p": 9,
+      "q": 4,
+      "first": 5,
+      "second": 13,
+      "v4": 45,
+      "v5": 20,
+      "v6": 117,
+      "v7": 52,
+      "v8": 9,
+      "v9": 4,
+      "v10": 10,
+      "v11": 5,
+      "v12": 4,
+      "v13": 13,
+      "part": 4,
+      "total": 13
+    },
+    "stem": "Seorang pengurus perpustakaan membandingkan rasio koleksi buku di dua rak terpisah:\nRak 1: memuat 45 buku pelajaran dan 20 buku cerita.\nRak 2: memuat 117 buku pelajaran dan 52 buku cerita.\nManakah pernyataan berikut yang benar mengenai rasio dan ekuivalensi buku pada kedua rak tersebut? (Jawaban benar dapat lebih dari satu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 1 adalah 9:4."
+      },
+      {
+        "id": "B",
+        "text": "Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 2 adalah 10:5."
+      },
+      {
+        "id": "C",
+        "text": "Rasio buku pelajaran dan buku cerita di Rak 1 ekuivalen (sama bernilai) dengan Rak 2."
+      },
+      {
+        "id": "D",
+        "text": "Rasio total buku cerita terhadap seluruh buku di Rak 1 adalah 4:13."
+      }
+    ],
+    "key": "A,C,D",
+    "explanation": "Rasio sederhana kedua kelompok = 9:4. Rasio bagian terhadap seluruh kelompok pertama = 4:13.\n\nPenilaian pernyataan: A: Benar — Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 1 adalah 9:4.; B: Salah — Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 2 adalah 10:5.; C: Benar — Rasio buku pelajaran dan buku cerita di Rak 1 ekuivalen (sama bernilai) dengan Rak 2.; D: Benar — Rasio total buku cerita terhadap seluruh buku di Rak 1 adalah 4:13.",
+    "original_hash": "1e7ae3479c933827",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:11:32+00:00"
+  },
+  {
+    "record_id": "kategori-5-1-9:s250:v1",
+    "question_id": "kategori-5-1-9",
+    "seed": 250,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 5,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+      "source_number": 9,
+      "source_body_index": 7331,
+      "source_cognitive_label": "C3 (Menerapkan)",
+      "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
+      "generation_status": "ACTIVE",
+      "reason": "Source arithmetic consistent; declarative template, exact rendered-text oracle and bounded domain verified.",
+      "notes": [
+        "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+      ]
+    },
+    "config_ver": 1,
+    "config_hash": "a8645aa501bd3036",
+    "draws_used": 1,
+    "format": "KATEGORI",
+    "cognitive_level": "C3",
+    "values_used": {
+      "unit": 17800,
+      "gap": 600,
+      "v2": 44500,
+      "v3": 68800,
+      "v4": 17800,
+      "v5": 17700,
+      "second": 17200
+    },
+    "stem": "Ibu kantin sekolah membeli dua kemasan minyak goreng dengan ukuran berbeda:\nKemasan P: berisi 2,5 liter seharga Rp44.500\nKemasan Q: berisi 4,0 liter seharga Rp68.800\nTentukan status BENAR atau SALAH untuk setiap pernyataan berkaitan dengan laju harga per liter minyak goreng tersebut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Harga per liter minyak goreng Kemasan P adalah Rp17.800."
+      },
+      {
+        "id": "2",
+        "text": "Harga per liter minyak goreng Kemasan Q adalah Rp17.700."
+      },
+      {
+        "id": "3",
+        "text": "Kemasan Q menawarkan harga per liter yang lebih murah dibandingkan Kemasan P."
+      }
+    ],
+    "key": "1,3",
+    "explanation": "Harga satuan kemasan pertama = Rp17.800; kemasan kedua = Rp17.200. Kemasan kedua lebih murah Rp600 per satuan.\n\nPenilaian pernyataan: 1: Benar — Harga per liter minyak goreng Kemasan P adalah Rp17.800.; 2: Salah — Harga per liter minyak goreng Kemasan Q adalah Rp17.700.; 3: Benar — Kemasan Q menawarkan harga per liter yang lebih murah dibandingkan Kemasan P.",
+    "original_hash": "1ed8ceaefe552455",
+    "original_version": 1,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T07:11:32+00:00"
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "question_id": "pg-4-2-4",
+  "config_version": 1,
+  "original_hash": "e8c0daf17bd5b2ad",
+  "original_values": {
+    "p": 2
+  },
+  "variables": {
+    "p": {
+      "gen": "choice",
+      "values": [
+        2,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        37,
+        41,
+        43,
+        47,
+        53,
+        59,
+        61,
+        67,
+        71,
+        73,
+        79,
+        83,
+        89,
+        97,
+        101,
+        103,
+        107,
+        109
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "p**2*45",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "p*5",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "p**2*45",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "p*5",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "p**2*45",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "p*5",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "p**2*45",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "p*5",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "p**2*45",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "p*5",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'I' if p==2 else 'II'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "'II' if p==2 else 'I'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "'I' if p==2 else 'II'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "'II' if p==2 else 'I'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "'I' if p==2 else 'II'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "'II' if p==2 else 'I'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "p**2*45",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "p*5",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "'II' if p==2 else 'I'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "'I' if p==2 else 'II'",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang guru meminta dua orang siswa menganalisis faktorisasi prima dan kelipatan dari bilangan {v4} untuk menentukan jumlah faktor positifnya:\nAnalisis {v14}: {v4}={v1}×3^(2)×{v5}, sehingga memiliki faktor sebanyak 6 buah.\nAnalisis {v15}: {v4}={v2}^(2)×3^(2)×5, sehingga seluruh faktor primanya adalah {v3},3, dan 5.\nHasil analisis manakah yang benar berdasarkan konsep faktorisasi prima?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis {v16}, karena {v7} merupakan faktor dari {v6}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Analisis {v17}, karena faktorisasi prima hanya boleh memuat bilangan prima",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Analisis {v18}, karena penguraiannya lebih cepat dan singkat",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis {v19}, karena angka {v12} tidak habis dibagi {v13}",
+      "correct": false
+    }
+  ],
+  "explanation": "N={v20}; faktor komposit={v21}; jumlah faktor positif=18. Analisis {v22} menggunakan faktor prima; Analisis {v23} memuat faktor komposit dan salah menghitung jumlah faktor."
+}

@@ -1,0 +1,1265 @@
+{
+  "scope": {
+    "indicators": [
+      4
+    ],
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  "counts": {
+    "HOLD_SOURCE": 13,
+    "ACTIVE": 17
+  },
+  "stock_count": 340,
+  "extra_accepted": 850,
+  "rows": [
+    {
+      "question_id": "pg-4-1-1",
+      "status": "HOLD_SOURCE",
+      "reason": "Header kunci B menyebut12 hari; KPK(12,18)=36 hari sesuai opsi C dan pembahasan. Kunci akademik perlu disahkan.",
+      "original_hash": "dd62091cff70d5ba",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "11da5fe53a9cd45f893549d59ee007cb42919f8cdaf00190150085530a80c8df",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-1-2",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "4a57428e81a98df0",
+      "config_hash": "876dedb7c5c01acc",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "1f2dad6aec0bf321370c2adca3b927e978f0f21ce816e3e06fbe3ac160f34f43",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 25,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 21,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-1-3",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "0717aaad57ca5bcc",
+      "config_hash": "299f4348c5154c02",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "p": {
+          "gen": "choice",
+          "values": [
+            2,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47,
+            53,
+            59,
+            61,
+            67,
+            71,
+            73,
+            79,
+            83,
+            89,
+            97,
+            101,
+            103,
+            107,
+            109
+          ]
+        }
+      },
+      "source_text_sha256": "8029406402f0fae41b6facc350ff019cead4941e0d70137e2ddea044df85ddfe",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 22,
+      "raw_domain_cardinality": 26,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 7,
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-1-4",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "cbfaa7341b9afa48",
+      "config_hash": "faca0aef02c655f2",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            7
+          ],
+          "step": 1
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            0,
+            50
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "8d08d143bd23c5c4149ce216038e7abe1ae4117ff8e1fab9e18944b105bb8615",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 50,
+      "raw_domain_cardinality": 357,
+      "sampling_status": "PASS",
+      "rejections": {},
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-1-5",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "c8bb0971e0b205bd",
+      "config_hash": "205d5d2366e784f9",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "40bea3c2d59310ccdc2ad8e4b9781e8cc75c7698be3338b8ee5ea091c3e4d259",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 24,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 9,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "mcma-4-1-6",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "103abf69010b8bd7",
+      "config_hash": "dbcfcbc96a787257",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "a": {
+          "gen": "range",
+          "range": [
+            0,
+            5
+          ],
+          "step": 1
+        },
+        "d": {
+          "gen": "range",
+          "range": [
+            0,
+            4
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "d1f6ba6c6935ee070ff57210d41ac76749999a6d306604a4fede82e7152fcaf2",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 23,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 6
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "mcma-4-1-7",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "fd9e51303cc26815",
+      "config_hash": "f216637b9b922268",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "647bacdadf7470746609abdfb135c0e0f379ea910a82a2b689c87717c18ea38b",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 25,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "duplicate_of_existing_variant": 9
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "mcma-4-1-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah kantong maksimum.14 kantong sama isi sah memuat6 buku,4 pensil,2 penggaris;3 buku per kantong hanya berlaku jika memakai28 kantong.",
+      "original_hash": "a95923d96cce2fa8",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "6ccaa58aef63eb22256d69daf2345f69d83aa197c6c9e595176c73def11c9a3c",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-1-9",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah piring maksimum.9 piring sama isi sah memuat8 bolu dan10 lapis; selisih2, bukan1 pada kunci. Pembahasan mengasumsikan18 piring.",
+      "original_hash": "a6f41ba9d797748d",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "f3ebefa9c4636408ab21eba0107e696555f37f7be30b6fc2b0a59afaea813e61",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-1-10",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Potongan5cm menghasilkan9 potongan dari pita pertama, bukan3. Kunci mengasumsikan panjang15cm.",
+      "original_hash": "323d1862f14e7fea",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "721fea63e1ef35647b2e97126aab1d33577dcf63253492068260a3e8df7d4e15",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-2-1",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "02c71ffd49fd43da",
+      "config_hash": "e759d8cff149d656",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "01a753fbe4f8894b07b76ae9d764330c251ba097cd50bb7c6faf1151d143cf6a",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 24,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "same_as_original": 3,
+        "same_answer_as_original": 3,
+        "duplicate_of_existing_variant": 14
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-2-2",
+      "status": "HOLD_SOURCE",
+      "reason": "Beras,gula,minyak dapat dibagi dalam massa pecahan. Tanpa syarat isi tiap paket berupa kg bulat, jumlah paket tidak mempunyai maksimum12 seperti kunci.",
+      "original_hash": "4fe15b7a9f8cd508",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "7c3327edbfb4c7263eb0e781319bfe642d59d624b8d721aaaf5fdf3d92c5a0b6",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-2-3",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "01bebbf6d72eda4d",
+      "config_hash": "bc2ffbccb3756848",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            7
+          ],
+          "step": 1
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            0,
+            50
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "d35642bffa2fb885e10404317fbbd3d64ec438b3f4d02cc0a28cdb9e72d6e348",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 47,
+      "raw_domain_cardinality": 357,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 2
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-2-4",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "e8c0daf17bd5b2ad",
+      "config_hash": "d00d3785ab5aa777",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "p": {
+          "gen": "choice",
+          "values": [
+            2,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47,
+            53,
+            59,
+            61,
+            67,
+            71,
+            73,
+            79,
+            83,
+            89,
+            97,
+            101,
+            103,
+            107,
+            109
+          ]
+        }
+      },
+      "source_text_sha256": "44f0f2b51945374ee587e42c0a289616e34207c06229b7070827e6ba4bcbd5cf",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 21,
+      "raw_domain_cardinality": 26,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 7,
+        "same_as_original": 6,
+        "same_answer_as_original": 6
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-2-5",
+      "status": "HOLD_SOURCE",
+      "reason": "Caption header C menyebut2^2*3=12, tetapi opsi C dan pembahasan2^2*3^2=36. Instruksi koreksi dalam DOCX adalah konten sumber, bukan izin mengganti kunci akademik.",
+      "original_hash": "1626907d2113470e",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "572740a804fad6ffed02afdc77c24c5cf50606d6c965c40e8aebbf53ebdd0234",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "mcma-4-2-6",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "866ec0ac416c695c",
+      "config_hash": "b8c8305e8447127f",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "a": {
+          "gen": "range",
+          "range": [
+            0,
+            5
+          ],
+          "step": 1
+        },
+        "d": {
+          "gen": "range",
+          "range": [
+            0,
+            4
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "6471d1adbfeb8c2c6d6c868398e140ec01bf9f78699a0a3bd7b07adc6c31c2a8",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 24,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 10,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "mcma-4-2-7",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "067b25598e807b67",
+      "config_hash": "cf5a7499374c5203",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "18dbd1b647ba9f499c64502288d4f6e904eb9c153af9effbf307a8d3a8b152fc",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 24,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 27,
+        "same_as_original": 4,
+        "same_answer_as_original": 4
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "mcma-4-2-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah ruangan maksimum.12 ruangan sama isi sah mendapat6 tetikus dan8 papan ketik; kunci3 dan4 mengasumsikan24 ruangan.",
+      "original_hash": "43547a6d08dbcb00",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "b60f3dd7fb8fe56ef19457955d4c978113f329a37b8c01e6c0dda3fb94419d2d",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-2-9",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah kardus maksimum.9 kardus sama isi sah memuat6 botol apel dan8 jeruk; total14, bukan7. Kunci mengasumsikan18 kardus.",
+      "original_hash": "3590337192c1bb70",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "93ee31f36c31f3607f9cec0bfce567678db3a5c5d9a8c9041923ed3c4294e404",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-2-10",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Pita60/90cm dipotong15cm menghasilkan10 potongan, bukan5. Kunci mengasumsikan panjang30cm.",
+      "original_hash": "ad2e6751bb088589",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "fbfceeee56e8914c735d2d615f1ca9f1877896c20addd2f853d3e8574c816a31",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-3-1",
+      "status": "HOLD_SOURCE",
+      "reason": "Analisis I dan III sama-sama benar:60 hari setelah1 Maret adalah30 April. PG tidak boleh memilih III saja. Stem juga menyebut3 analisis tetapi mencantumkan4.",
+      "original_hash": "ae06e54c12ddcb09",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "fb7146f2f135d81cfe39f401d4c68d2845a3af560bf140eb47b5eb3b83aa01e3",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "pg-4-3-2",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "c9b4975f23434870",
+      "config_hash": "a58240a40e26d374",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "p": {
+          "gen": "choice",
+          "values": [
+            2,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47,
+            53,
+            59,
+            61,
+            67,
+            71,
+            73,
+            79,
+            83,
+            89,
+            97,
+            101,
+            103,
+            107,
+            109
+          ]
+        }
+      },
+      "source_text_sha256": "57a7c4466798234a1aab717a47195c964228fb91cc348e47e6adb27abcae5904",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 20,
+      "raw_domain_cardinality": 26,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 12,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-3-3",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "4b198ba45f03d465",
+      "config_hash": "ad0e66d5d0945898",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "ec799eaffaa176b18fa9cc4ef12873ed66668ff9b017157711e11ca7355a08e5",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 22,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 10,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-3-4",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "c98a8869cd05e858",
+      "config_hash": "9d9426bdc3b6e4c0",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "2ed9d972332434eb832a3dac9f5ff32a4f58fcd1480ac6800fc2da6c6a238b6d",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 28,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 23,
+        "same_as_original": 2,
+        "same_answer_as_original": 2
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "pg-4-3-5",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "a34d9e03b52f2355",
+      "config_hash": "e4eaee63357605a8",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "p": {
+          "gen": "choice",
+          "values": [
+            2,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47,
+            53,
+            59,
+            61,
+            67,
+            71,
+            73,
+            79,
+            83,
+            89,
+            97,
+            101,
+            103,
+            107,
+            109
+          ]
+        }
+      },
+      "source_text_sha256": "fee514beeafffa6f43145dfa00a5f4037cf124c1072b40911933c45cf62bb6e2",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 23,
+      "raw_domain_cardinality": 26,
+      "sampling_status": "PASS",
+      "rejections": {
+        "same_as_original": 1,
+        "same_answer_as_original": 1,
+        "duplicate_of_existing_variant": 17
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "mcma-4-3-6",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "849ced1a6572fcb6",
+      "config_hash": "5bc2efd8356dbf49",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "a": {
+          "gen": "range",
+          "range": [
+            0,
+            5
+          ],
+          "step": 1
+        },
+        "d": {
+          "gen": "range",
+          "range": [
+            0,
+            4
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "08cba02f9df7ba565e43dca720890e5379eb9cad287731dfcb43501028cba574",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 24,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 14,
+        "same_as_original": 3,
+        "same_answer_as_original": 3
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "mcma-4-3-7",
+      "status": "ACTIVE",
+      "reason": "Source key, options and explanation agree. Parameterized arithmetic verified independently from rendered stimulus and options.",
+      "original_hash": "ff3dee008cad8217",
+      "config_hash": "4798b6d1288340c2",
+      "stock_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stock_count": 20,
+      "extra_accepted": 50,
+      "parameter_domain": {
+        "k": {
+          "gen": "range",
+          "range": [
+            1,
+            30
+          ],
+          "step": 1
+        }
+      },
+      "source_text_sha256": "c2d333be569c1f9b48da7ec5322b099ff8c2021280b4daef7e8601282ba2ae67",
+      "config_version": 1,
+      "extra_seed_range": [
+        201,
+        250
+      ],
+      "extra_unique": 21,
+      "raw_domain_cardinality": 30,
+      "sampling_status": "PASS",
+      "rejections": {
+        "duplicate_of_existing_variant": 15,
+        "same_as_original": 1,
+        "same_answer_as_original": 1
+      },
+      "domain_note": "Finite declared domain; original-equivalent candidates rejected. Twenty distinct candidates checked; extra seeds sampled independently, not claimed unique."
+    },
+    {
+      "question_id": "mcma-4-3-8",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah kelompok maksimum.8 kelompok sama isi sah mendapat10 pak kertas dan14 botol; kunci5 dan7 mengasumsikan16 kelompok.",
+      "original_hash": "8856c1760cb9c1fc",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "9ffac319b068cc048841d01c781e9f4c0bd542d8254606dbc97582197c0ddb4d",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-3-9",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem tidak menetapkan jumlah kotak maksimum.6 kotak sama isi sah memuat10 mikroskop dan14 kaca; total24, bukan12. Kunci mengasumsikan12 kotak.",
+      "original_hash": "ccf3cef4864fa638",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "5ab41a7ec348dcefbcd0121d3f33e42004ca0a1497b328412a0a12453b0566e7",
+      "sampling_status": "SKIP"
+    },
+    {
+      "question_id": "kategori-4-3-10",
+      "status": "HOLD_SOURCE",
+      "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Pita75/105cm dipotong5cm menghasilkan36 potongan, bukan12. Kunci mengasumsikan panjang15cm.",
+      "original_hash": "3ae0f3911d07fbeb",
+      "config_hash": null,
+      "stock_seeds": [],
+      "stock_count": 0,
+      "extra_accepted": 0,
+      "parameter_domain": {},
+      "source_text_sha256": "65d707e76a0b8ad5979fd6f1593c508d5d052f3063d16050b7eb8bc85d7f1bfc",
+      "sampling_status": "SKIP"
+    }
+  ]
+}

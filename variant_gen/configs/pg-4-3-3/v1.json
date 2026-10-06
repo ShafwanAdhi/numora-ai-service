@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-4-3-3",
+  "config_version": 1,
+  "original_hash": "4b198ba45f03d465",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "90*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "105*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "90*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "105*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Pengurus koperasi sekolah hendak mengemas {v1} buku tulis dan {v2} pulpen ke dalam beberapa wadah bingkisan dengan jumlah dan kombinasi isi yang sama tanpa ada sisa.\nDua orang pengurus mengajukan analisis banyaknya wadah terbanyak dan isi per wadah:\nAnalisis A: Dibuat {v3} wadah, masing-masing berisi 6 buku tulis dan 7 pulpen.\nAnalisis B: Dibuat {v4} wadah, masing-masing berisi 3 buku tulis dan 3,5 pulpen.\nHasil analisis manakah yang benar secara sistem matematis dan logika barang?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis A, karena FPB dari {v5} dan {v6} adalah {v7} sehingga isi barang bernilai bilangan bulat",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Analisis B, karena semakin banyak wadah maka bingkisan semakin efisien",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Analisis A, karena buku tulis harus lebih banyak dari pulpen",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis B, karena {v8} merupakan kelipatan dari {v9}",
+      "correct": false
+    }
+  ],
+  "explanation": "FPB={v10}; hasil bagi berurutan: 6, 7. Analisis B menghasilkan pecahan barang; Analisis A memakai jumlah wadah maksimum."
+}

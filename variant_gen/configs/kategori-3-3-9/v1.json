@@ -1,0 +1,205 @@
+{
+  "question_id": "kategori-3-3-9",
+  "config_version": 1,
+  "original_hash": "2455dd4519ab6574",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4.36+k",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "floor(v2)",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "round((v2-floor(v2))*10)",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)+round(2.65,1)+round(1.24,1)",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "floor(v5)",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "round((v5-floor(v5))*10)",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4.36+k",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "floor(v9)",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "round((v9-floor(v9))*10)",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)+round(2.65,1)+round(1.24,1)",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "floor(v12)",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "round((v12-floor(v12))*10)",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "4.36+k",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "floor(v16)",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "round((v16-floor(v16))*10)",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)+round(2.65,1)+round(1.24,1)",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "floor(v19)",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "round((v19-floor(v19))*10)",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "4.36+k",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "floor(v23)",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "round((v23-floor(v23))*10)",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)+round(2.65,1)+round(1.24,1)",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "floor(v26)",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "round((v26-floor(v26))*10)",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "round(2.65)",
+      "decimals": 6
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "round(2.65,1)",
+      "decimals": 6
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "round(1.24,1)",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "round(4.36+k,1)+round(2.65,1)+round(1.24,1)",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang teknisi menimbang massa tiga bahan kimia kering di laboratorium:\nBahan P: {v1} gram\nBahan Q: 2,65 gram\nBahan R: 1,24 gram\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis pembulatan massa berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Massa Bahan P ({v8} gram) jika dibulatkan ke persepuluhan terdekat adalah {v10},{v11} gram.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Massa Bahan Q (2,65 gram) jika dibulatkan ke satuan terdekat adalah 2 gram.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Estimasi total massa ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah {v27},{v28} gram.",
+      "correct": true
+    }
+  ],
+  "explanation": "Bahan pertama={v29}; Bahan kedua satuan={v30}; Bahan kedua persepuluhan={v31}; Bahan ketiga={v32}; Total={v33}."
+}

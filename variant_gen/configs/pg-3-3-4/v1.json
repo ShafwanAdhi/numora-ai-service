@@ -1,0 +1,350 @@
+{
+  "question_id": "pg-3-3-4",
+  "config_version": 1,
+  "original_hash": "32fbaebc2583abfd",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "round((398.8+100*k)*20.4/4.9,2)",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "(398.8+100*k)*20.4",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "398.8+100*k",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "floor(v3)",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round((v3-floor(v3))*10)",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "(300+100*k)*4",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "(400+100*k)*4",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(300+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "(400+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "300+100*k",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "400+100*k",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "round((398.8+100*k)*20.4/4.9,2)",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "(398.8+100*k)*20.4",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "398.8+100*k",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "floor(v14)",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "round((v14-floor(v14))*10)",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "(300+100*k)*4",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "(400+100*k)*4",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "(300+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "(400+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "300+100*k",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "400+100*k",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "round((398.8+100*k)*20.4/4.9,2)",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "(398.8+100*k)*20.4",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "398.8+100*k",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "floor(v25)",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "round((v25-floor(v25))*10)",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "(300+100*k)*4",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "(400+100*k)*4",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "(300+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "(400+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "300+100*k",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "400+100*k",
+      "decimals": 6
+    },
+    "v34": {
+      "gen": "derived",
+      "expr": "round((398.8+100*k)*20.4/4.9,2)",
+      "decimals": 6
+    },
+    "v35": {
+      "gen": "derived",
+      "expr": "(398.8+100*k)*20.4",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v36": {
+      "gen": "derived",
+      "expr": "398.8+100*k",
+      "decimals": 6
+    },
+    "v37": {
+      "gen": "derived",
+      "expr": "floor(v36)",
+      "decimals": 6
+    },
+    "v38": {
+      "gen": "derived",
+      "expr": "round((v36-floor(v36))*10)",
+      "decimals": 6
+    },
+    "v39": {
+      "gen": "derived",
+      "expr": "(300+100*k)*4",
+      "decimals": 6
+    },
+    "v40": {
+      "gen": "derived",
+      "expr": "(400+100*k)*4",
+      "decimals": 6
+    },
+    "v41": {
+      "gen": "derived",
+      "expr": "(300+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v42": {
+      "gen": "derived",
+      "expr": "(400+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v43": {
+      "gen": "derived",
+      "expr": "300+100*k",
+      "decimals": 6
+    },
+    "v44": {
+      "gen": "derived",
+      "expr": "400+100*k",
+      "decimals": 6
+    },
+    "v45": {
+      "gen": "derived",
+      "expr": "round((398.8+100*k)*20.4/4.9,2)",
+      "decimals": 6
+    },
+    "v46": {
+      "gen": "derived",
+      "expr": "(398.8+100*k)*20.4",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v47": {
+      "gen": "derived",
+      "expr": "398.8+100*k",
+      "decimals": 6
+    },
+    "v48": {
+      "gen": "derived",
+      "expr": "floor(v47)",
+      "decimals": 6
+    },
+    "v49": {
+      "gen": "derived",
+      "expr": "round((v47-floor(v47))*10)",
+      "decimals": 6
+    },
+    "v50": {
+      "gen": "derived",
+      "expr": "(300+100*k)*4",
+      "decimals": 6
+    },
+    "v51": {
+      "gen": "derived",
+      "expr": "(400+100*k)*4",
+      "decimals": 6
+    },
+    "v52": {
+      "gen": "derived",
+      "expr": "(300+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v53": {
+      "gen": "derived",
+      "expr": "(400+100*k)*20",
+      "decimals": 6,
+      "fmt": "raw"
+    },
+    "v54": {
+      "gen": "derived",
+      "expr": "300+100*k",
+      "decimals": 6
+    },
+    "v55": {
+      "gen": "derived",
+      "expr": "400+100*k",
+      "decimals": 6
+    },
+    "v56": {
+      "gen": "derived",
+      "expr": "round((398.8+100*k)*20.4/4.9,2)",
+      "decimals": 6
+    },
+    "v57": {
+      "gen": "derived",
+      "expr": "(300+100*k)*4",
+      "decimals": 6
+    },
+    "v58": {
+      "gen": "derived",
+      "expr": "(400+100*k)*4",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang guru meminta dua orang siswa menganalisis kewajaran hasil operasi pembagian desimal untuk konsumsi acara sekolah:\nHitungan Riil:({v4},{v5}×20,4)/(4,9)=({v2})/(4,9)≈{v1}\nKedua siswa mengajukan metode estimasi cepat berikut:\nAnalisis I: Membulatkan menjadi ({v10}×20)/(5)=({v8})/(5)={v6}\nAnalisis II: Membulatkan menjadi ({v11}×20)/(5)=({v9})/(5)={v7}\nHasil analisis manakah yang memberikan estimasi paling akurat dan mendekati nilai sebenarnya?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis I, karena {v15},{v16} lebih aman dibulatkan ke bawah",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Analisis II, karena {v33} sangat dekat dengan {v26},{v27} sehingga hasil {v29} mendekati {v23}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Analisis I, karena perkalian angka {v43} lebih mudah dihitung tanpa kalkulator",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis II, karena semua angka harus dibulatkan ke atas tanpa memperhatikan posisinya",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil riil={v56}; Analisis I={v57}; Analisis II={v58}."
+}

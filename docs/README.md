@@ -8,11 +8,15 @@ Panduan aktif mengikuti kode; arsip menyimpan keputusan pada tanggalnya.
 | UI/CLI, paket, tes, troubleshooting | [OPERATIONS](OPERATIONS.md) |
 | Config, original, validator, versi | [GENERATOR](GENERATOR.md) |
 | Modul, DB, ekspor dan batas integrasi | [ARCHITECTURE](ARCHITECTURE.md) |
-| 95 soal tanpa generator (92 Drill + 3 Tryout) | [Review soal skip](../variant_gen/soalskip.md) |
+| 147 soal tanpa generator (144 Drill + 3 Tryout) | [Review soal skip](../variant_gen/soalskip.md) |
 
 ## Kondisi repo dan generator
 
-- [Kondisi repo dan verifikasi gabungan](audits/2026-10-05-repository-status.md): inventaris 670 original/575 config dan cakupan yang belum tersedia.
+- [Audit Drill3–5 level1–3](audits/2026-10-06-drill-3-5-generator-audit.md), [progres](superpowers/plans/2026-10-06-drill-3-5-generator-progress.md).
+
+- [Audit Drill1–2 level1–3](audits/2026-10-05-drill-1-2-generator-audit.md), [progres](superpowers/plans/2026-10-05-drill-1-2-generator-progress.md).
+
+- [Kondisi repo dan verifikasi gabungan](audits/2026-10-06-repository-status.md): inventaris 820 original/673 config dan cakupan yang belum tersedia.
 - [Audit Drill 6–10](audits/2026-10-05-drill-6-10-generator-audit.md), [hasil implementasi](superpowers/plans/2026-10-05-drill-6-10-generator-progress.md).
 - [Audit Drill 11–15](audits/2026-10-05-drill-11-15-generator-audit.md), [hasil implementasi](superpowers/plans/2026-10-05-drill-11-15-generator-progress.md), [contoh hasil](../variant_gen/data/drill-1-indicators-11-15/examples.json).
 

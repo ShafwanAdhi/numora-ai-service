@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-4-1-2",
+  "config_version": 1,
+  "original_hash": "4a57428e81a98df0",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "60*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "45*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "30*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Pengurus OSIS membagikan paket bantuan bakti sosial berupa {v1} buku tulis, {v2} pensil, dan {v3} penghapus. Barang-barang tersebut akan dimasukkan ke dalam beberapa kantong bingkisan dengan jumlah dan jenis barang yang sama banyak di setiap kantong tanpa ada sisa.\nBanyaknya bingkisan maksimum yang dapat dibuat oleh pengurus OSIS adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v4} bingkisan",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v5} bingkisan",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v6} bingkisan",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v7} bingkisan",
+      "correct": false
+    }
+  ],
+  "explanation": "FPB={v8}; hasil bagi berurutan: 4, 3, 2. Jumlah kelompok maksimum adalah FPB."
+}

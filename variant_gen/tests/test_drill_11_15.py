@@ -53,6 +53,8 @@ class Drill1115Tests(unittest.TestCase):
     def test_workspace_merge_and_isolation(self):
         self.assertTrue(BANK.exists(), 'Drill 11–15 original bank is missing')
         old = load_workspace_bank(ROOT/'data/q0_bank.csv', additional_paths=[
+            ROOT/'data/drill-1-indicators-1-2/q0_bank.csv',
+                 ROOT/'data/drill-1-indicators-3-5/q0_bank.csv',
             ROOT/'data/tryout-1/q0_bank.csv', ROOT/'data/drill-1-indicators-20-23/q0_bank.csv',
             ROOT/'data/drill-1-indicators-6-10/q0_bank.csv'])
         merged = load_workspace_bank(ROOT/'data/q0_bank.csv')

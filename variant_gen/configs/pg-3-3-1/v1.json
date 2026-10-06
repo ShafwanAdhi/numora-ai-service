@@ -1,0 +1,195 @@
+{
+  "question_id": "pg-3-3-1",
+  "config_version": 1,
+  "original_hash": "23cfaec1607dabfd",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "38462+1000*k",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "39000+1000*k",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "38000+1000*k",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "38500+1000*k",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "38400+1000*k",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "38462+1000*k",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "39000+1000*k",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "38000+1000*k",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "38500+1000*k",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "38400+1000*k",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "38462+1000*k",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "39000+1000*k",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "38000+1000*k",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "38500+1000*k",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "38400+1000*k",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "38462+1000*k",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "39000+1000*k",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "38000+1000*k",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "38500+1000*k",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "38400+1000*k",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "38462+1000*k",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "39000+1000*k",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "38000+1000*k",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "38500+1000*k",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "38400+1000*k",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "38000+1000*k+(1000 if k%2==0 else 0)",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "38000+1000*k+(0 if k%2==0 else 1000)",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "38462+1000*k",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "round((38462+1000*k)/1000)*1000",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "round((38462+1000*k)/100)*100",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang petugas perpustakaan sekolah mencatat total jumlah pengunjung mingguan selama satu semester sebanyak {v1} orang. Petugas tersebut diminta menganalisis hasil pembulatan jumlah pengunjung untuk dua jenis laporan yang berbeda:\nLaporan Ringkas Dinas: Dibulatkan ke ribuan terdekat.\nLaporan Detail Internal: Dibulatkan ke ratusan terdekat.\nDua anggota staf perpustakaan memberikan hasil analisis berikut:\nAnalisis I: Laporan Dinas = {v26} orang, Laporan Internal = {v4} orang\nAnalisis II: Laporan Dinas = {v27} orang, Laporan Internal = {v4} orang\nAnalisis III: Laporan Dinas = {v3} orang, Laporan Internal = {v5} orang\nAnalisis IV: Laporan Dinas = {v2} orang, Laporan Internal = {v5} orang\nHasil analisis siapakah yang pasti benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis I",
+      "correct": "k%2==1"
+    },
+    {
+      "id": "B",
+      "text": "Analisis II",
+      "correct": "k%2==0"
+    },
+    {
+      "id": "C",
+      "text": "Analisis III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis IV",
+      "correct": false
+    }
+  ],
+  "explanation": "Bilangan={v28}; Pembulatan ribuan={v29}; Pembulatan ratusan={v30}."
+}

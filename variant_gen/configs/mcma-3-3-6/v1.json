@@ -1,0 +1,245 @@
+{
+  "question_id": "mcma-3-3-6",
+  "config_version": 1,
+  "original_hash": "d1081ada1893b3c4",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "18.749+k",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "round(18.749+k,1)+k%2/10",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "floor(v2)",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "round((v2-floor(v2))*10)",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4.9 if k%2==0 else round(sqrt(22),1)",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "floor(v5)",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "round((v5-floor(v5))*10)",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "18.749+k",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "round(18.749+k,1)+k%2/10",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "floor(v9)",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "round((v9-floor(v9))*10)",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "4.9 if k%2==0 else round(sqrt(22),1)",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "floor(v12)",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "round((v12-floor(v12))*10)",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "18.749+k",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "round(18.749+k,1)+k%2/10",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "floor(v16)",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "round((v16-floor(v16))*10)",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "4.9 if k%2==0 else round(sqrt(22),1)",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "floor(v19)",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "round((v19-floor(v19))*10)",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "18.749+k",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "round(18.749+k,1)+k%2/10",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "floor(v23)",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "round((v23-floor(v23))*10)",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "4.9 if k%2==0 else round(sqrt(22),1)",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "floor(v26)",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "round((v26-floor(v26))*10)",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "18.749+k",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "round(18.749+k,1)+k%2/10",
+      "decimals": 6
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "floor(v30)",
+      "decimals": 6
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "round((v30-floor(v30))*10)",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "4.9 if k%2==0 else round(sqrt(22),1)",
+      "decimals": 6
+    },
+    "v34": {
+      "gen": "derived",
+      "expr": "floor(v33)",
+      "decimals": 6
+    },
+    "v35": {
+      "gen": "derived",
+      "expr": "round((v33-floor(v33))*10)",
+      "decimals": 6
+    },
+    "v36": {
+      "gen": "derived",
+      "expr": "round(18.749+k,1)",
+      "decimals": 6
+    },
+    "v37": {
+      "gen": "derived",
+      "expr": "round(sqrt(22),1)",
+      "decimals": 6
+    },
+    "v38": {
+      "gen": "derived",
+      "expr": "floor(sqrt(55)*10)/10",
+      "decimals": 6
+    },
+    "v39": {
+      "gen": "derived",
+      "expr": "(floor(sqrt(55)*10)+1)/10",
+      "decimals": 6
+    },
+    "v40": {
+      "gen": "derived",
+      "expr": "500*200",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan empat pernyataan analisis pembulatan dan aproksimasi bilangan:\n(i) Bilangan {v1} jika dibulatkan ke satu tempat desimal (persepuluhan terdekat) adalah {v3},{v4}.\n(ii) Nilai aproksimasi dari sqrt(22) ke persepuluhan terdekat adalah {v6},{v7}.\n(iii) Nilai dari sqrt(55) berada di antara 7,4 dan 7,5.\n(iv) Hasil estimasi dari 503×197 menggunakan pembulatan ke ratusan terdekat adalah 100.000.\nManakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan (i)",
+      "correct": "k%2==0"
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan (ii)",
+      "correct": "k%2==1"
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan (iii)",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan (iv)",
+      "correct": true
+    }
+  ],
+  "explanation": "Pembulatan desimal={v36}; Pembulatan akar={v37}; Batas bawah akar={v38}; Batas atas akar={v39}; Estimasi perkalian={v40}."
+}

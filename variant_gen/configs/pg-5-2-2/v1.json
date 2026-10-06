@@ -1,0 +1,82 @@
+{
+  "question_id": "pg-5-2-2",
+  "config_version": 1,
+  "original_hash": "063865d3ecb073ce",
+  "original_values": {
+    "distance": 18,
+    "scale": 400
+  },
+  "variables": {
+    "distance": {
+      "gen": "range",
+      "range": [
+        9,
+        36
+      ],
+      "step": 1
+    },
+    "scale": {
+      "gen": "range",
+      "range": [
+        100,
+        500
+      ],
+      "step": 50
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "distance*scale/100"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "scale"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "distance+(-6)"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "distance+(-3)"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "distance+(0)"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "distance+(6)"
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "distance"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang siswa menggambar denah tata letak panggung terbuka dan lapangan olahraga sekolah. Jarak sebenarnya antara panggung terbuka dan lapangan olahraga tersebut adalah {v2} meter. Jika denah tersebut digambar menggunakan skala 1:{v3}, berapa jarak antara kedua fasilitas tersebut pada denah?",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v4} cm",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v5} cm",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v6} cm",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v7} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Jarak denah = jarak sebenarnya dalam cm dibagi skala = {answer} cm."
+}

@@ -170,6 +170,8 @@ def load_workspace_bank(path, additional_paths=None):
     default = Path(__file__).resolve().parent / "data/q0_bank.csv"
     if additional_paths is None:
         additional_paths = ([extra for extra in (default.parent / "tryout-1/q0_bank.csv",
+                            default.parent / "drill-1-indicators-1-2/q0_bank.csv",
+                            default.parent / "drill-1-indicators-3-5/q0_bank.csv",
                             default.parent / "drill-1-indicators-6-10/q0_bank.csv",
                             default.parent / "drill-1-indicators-11-15/q0_bank.csv",
                             default.parent / "drill-1-indicators-20-23/q0_bank.csv") if extra.exists()]

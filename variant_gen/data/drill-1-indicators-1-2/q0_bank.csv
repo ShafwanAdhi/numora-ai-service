@@ -1,0 +1,260 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-1-1-1,PG,C3,"Pada sebuah eksperimen IPA di laboratorium SMP, empat orang siswa mencatat hasil pengukuran massa benda dan pengamatan angka sebagai berikut:
+Rian: 0,75 gram
+Siti: sqrt(5) gram
+Budi: -(8)/(2) gram
+Dewi: sqrt(16) gram
+Di antara hasil pencatatan keempat siswa tersebut, hasil pencatatan siapakah yang merupakan bilangan irasional?","[""Rian"", ""Siti"", ""Budi"", ""Dewi""]",B,1
+pg-1-1-2,PG,C3,"Empat lokasi kedai es krim berada pada jalan lurus yang dimodelkan sebagai garis bilangan dalam satuan kilometer terhadap stasiun utama (titik 0).
+Kedai A berada di posisi -1,8 km.
+Kedai B berada di posisi -(7)/(4) km.
+Kedai C berada di posisi sqrt(3)km.
+Kedai D berada di posisi 1,6 km.
+Pernyataan yang benar mengenai posisi kedai pada garis bilangan tersebut adalah ....","[""Kedai A berada di sebelah kanan Kedai B"", ""Kedai B berada di antara Kedai A dan titik stasiun utama (0)"", ""Kedai C berada di sebelah kiri Kedai D"", ""Kedai D berada paling kanan di antara semua kedai""]",B,1
+pg-1-1-3,PG,C3,"Empat toko bahan kue menjual gandum dengan harga diskon yang menyebabkan perubahan harga dibanding harga standar harian. Persentase/proporsi perubahan harga di empat toko dicatat sebagai berikut:
+Toko Merah: -(3)/(8)
+Toko Biru: -0,35
+Toko Hijau: - 36%
+Toko Kuning: -0,38
+Urutan toko dari yang memberikan penurunan harga paling besar hingga paling kecil adalah ....","[""Toko Kuning, Toko Merah, Toko Hijau, Toko Biru"", ""Toko Merah, Toko Kuning, Toko Hijau, Toko Biru"", ""Toko Biru, Toko Hijau, Toko Merah, Toko Kuning"", ""Toko Kuning, Toko Hijau, Toko Biru, Toko Merah""]",A,1
+pg-1-1-4,PG,C3,"Sebuah panitia kegiatan pentas seni sekolah menghitung total pengeluaran pembagian konsumsi untuk panitia dan pengisi acara. Pembelian dilakukan 2 kali pada hari yang sama.
+Pembelian 1: 15 kotak nasi uduk seharga Rp18.000 per kotak dan 15 botol air mineral seharga Rp4.000 per botol.
+Panitia menghitung total biaya pembelian 1 dengan rumus: 15×(18.000+4.000).
+Sifat operasi hitung bilangan real yang diterapkan oleh panitia dalam perhitungan tersebut adalah ....","[""Sifat Komutatif"", ""Sifat Asosiatif"", ""Sifat Distributif"", ""Sifat Tertutup""]",C,1
+pg-1-1-5,PG,C3,"Suhu air dalam tiga wadah penelitian di ruang laboratorium diukur secara berkala.
+Suhu wadah X adalah -3,5°C.
+Suhu wadah Y adalah -sqrt(12)°C.
+Suhu wadah Z adalah -13/4°C.
+Jika ketiga suhu tersebut digambarkan pada garis bilangan, posisi suhu dari yang paling dingin (paling kiri) hingga yang paling hangat (paling kanan) adalah ....","[""Wadah X, Wadah Y, Wadah Z"", ""Wadah Y, Wadah X, Wadah Z"", ""Wadah X, Wadah Z, Wadah Y"", ""Wadah Z, Wadah X, Wadah Y""]",A,1
+mcma-1-1-6,MCMA,C3,"Diberikan empat buah bilangan hasil pengukuran suhu dan massa benda di laboratorium:
+{-5;sqrt(9);(22)/(7);π}
+Manakah pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""-5 termasuk bilangan bulat dan juga bilangan rasional."", ""sqrt(9) merupakan bilangan irasional karena menggunakan tanda akar."", ""(22)/(7) merupakan bilangan rasional."", ""π merupakan bilangan irasional.""]","A,C,D",1
+mcma-1-1-7,MCMA,C3,"Empat kelompok siswa SMP melakukan pengujian daya serap air pada spons. Perubahan volume air (dalam mL) setelah pengujian dicatat sebagai berikut:
+Kelompok A: -(5)/(2) mL
+Kelompok B: -2,4 mL
+Kelompok C: -sqrt(6)mL
+Kelompok D: -2,6 mL
+Manakah pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Perubahan volume air pada Kelompok A lebih kecil nilainya daripada Kelompok D."", ""Kelompok B mengalami pengurangan volume paling sedikit di antara Kelompok A, B, dan D."", ""Nilai -sqrt(6) berada di antara -2,4 dan -2,5."", ""Urutan perubahan volume dari yang paling banyak berkurang ke paling sedikit berkurang adalah D, A, C, B.""]","B,C,D",1
+mcma-1-1-8,MCMA,C3,Siswa kelas VIII mempelajari penerapan sifat-sifat operasi hitung bilangan real pada himpunan bilangan real R. Manakah pernyataan berikut yang benar mengenai sifat-sifat operasi pada bilangan real? (Jawaban benar dapat lebih dari satu),"[""Hasil penjumlahan dua bilangan rasional selalu menghasilkan bilangan rasional."", ""Pengurangan pada bilangan real berlaku sifat komutatif, yaitu a-b=b-a untuk setiap a,b∈R."", ""Bentuk a×(b+c)=(a×b)+(a×c) menunjukkan sifat distributif perkalian terhadap penjumlahan."", ""Operasi perkalian bilangan real memenuhi sifat asosiatif, yaitu (a×b)×c=a×(b×c).""]","A,C,D",1
+kategori-1-1-9,KATEGORI,C3,"Tiga orang siswa mengukur posisi elevasi tanah (dalam meter) terhadap permukaan air laut (titik 0 m):
+Siswa 1: -(3)/(2) m
+Siswa 2: -1,4 m
+Siswa 3: sqrt(2)m
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut berdasarkan data elevasi di atas!","[""Posisi elevasi Siswa 1 (-(3)/(2) m) berada di sebelah kiri elevasi Siswa 2 (-1,4 m) pada garis bilangan."", ""Nilai elevasi Siswa 3 (sqrt(2) m) lebih besar daripada 1,5 m."", ""Jarak elevasi Siswa 2 ke titik netral (0 m) lebih dekat dibandingkan jarak elevasi Siswa 1 ke titik netral (0 m).""]","1,3",1
+kategori-1-1-10,KATEGORI,C3,"Seorang pimpinan koperasi sekolah mengecek laporan keuangan pengadaan buku. Ia menuliskan dua cara perhitungan total penerimaan uang penjualan set buku:
+Cara I: (25×40.000)+(25×10.000)=1.000.000+250.000=1.250.000
+Cara II: 25×(40.000+10.000)=25×50.000=1.250.000
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut!","[""Kesamaan hasil dari Cara I dan Cara II membuktikan berlakunya sifat distributif perkalian terhadap penjumlahan."", ""Jika urutan perkalian 25×50.000 diubah menjadi 50.000×25, hasilnya tetap sama karena berlaku sifat komutatif."", ""Operasi pengurangan pada perhitungan dana tunai koperasi juga berlaku sifat komutatif.""]","1,2",1
+pg-1-2-1,PG,C3,"Dalam kegiatan bazar kewirausahaan di SMP Merdeka, empat kelompok siswa mencatat persentase keuntungan atau kerugian dari modal awal usaha mereka sebagai berikut:
+Pak Dimas (Pembina): -(3)/(5) dari modal
+Kelompok 1: -0,55 dari modal
+Kelompok 2: - 58% dari modal
+Kelompok 3: -0,62 dari modal
+Di antara keempat catatan tersebut, siapakah yang mencatatkan tingkat kerugian paling besar (nilai terkecil) dari modal awalnya?","[""Kelompok 1"", ""Pak Dimas"", ""Kelompok 2"", ""Kelompok 3""]",B,1
+pg-1-2-2,PG,C3,"Siswa kelas IX mengumpulkan dana sukarela untuk kegiatan bakti sosial. Sebanyak 12 orang siswa masing-masing menyumbang uang tunai sebesar Rp25.000 dan paket alat tulis seharga Rp3.000. Pengurus kelas menghitung total nilai bantuan yang terkumpul menggunakan sifat distributif perkalian terhadap penjumlahan.
+Bentuk perhitungan yang tepat sesuai sifat distributif adalah ....","[""(12+25.000)×(12+3.000)"", ""12×(25.000×3.000)"", ""12×(25.000+3.000)"", ""(12×25.000)+3.000""]",C,1
+pg-1-2-3,PG,C3,"Empat orang siswa mengukur kedalaman pengerukan parit sekolah terhadap permukaan tanah netral (titik 0 meter):
+Patok A: -1,25m
+Patok B: sqrt(2)m (elevasi tanggul)
+Patok C: -(4)/(3)m
+Patok D: -1,3m
+Pernyataan yang benar mengenai posisi patok-patok tersebut pada garis bilangan adalah ....","[""Patok C ( -(4)/(3)m ) berada di sebelah kanan Patok A ( -1,25m )"", ""Posisi Patok B ( sqrt(2)m ) berada di sebelah kanan titik nol (0)"", ""Patok D ( -1,3m ) berada di antara Patok C dan Patok A"", ""Patok A berada paling kiri di antara semua patok""]",B,1
+pg-1-2-4,PG,C4,Seorang siswa kelas IX membuat empat kuis pernyataan tentang sifat-sifat himpunan bilangan real R. Manakah analisis berikut yang membuktikan bahwa pernyataan kuis tersebut SALAH (diberikan contoh penyangkal / counterexample)?,"[""Pernyataan \""Penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional\"" adalah SALAH, karena sqrt(5)+(-sqrt(5))=0 (bilangan rasional)."", ""Pernyataan \""Perkalian dua bilangan bulat selalu menghasilkan bilangan bulat\"" adalah SALAH, karena 3×4=12."", ""Pernyataan \""Setiap bilangan rasional dapat ditulis dalam bentuk pecahan (a)/(b)\"" adalah SALAH, karena 0,5=(1)/(2)."", ""Pernyataan \""Sifat komutatif berlaku pada penjumlahan bilangan real\"" adalah SALAH, karena 2+3=3+2.""]",A,1
+pg-1-2-5,PG,C4,"Diberikan dua buah bilangan real p dan q yang didefinisikan dari hasil pengamatan sampel zat kimia berikut:
+p=sqrt(49)-(6)/(2)
+q=0,3333... (desimal berulang)
+Hasil analisis yang paling tepat mengenai jenis kedua bilangan tersebut adalah ....","[""Nilai p adalah irasional dan q adalah rasional"", ""Nilai p dan q keduanya merupakan bilangan irasional"", ""Nilai p dan q keduanya merupakan bilangan rasional"", ""Nilai p adalah rasional dan q adalah irasional""]",C,1
+mcma-1-2-6,MCMA,C3,"Diberikan himpunan data suhu empat ruangan penyimpanan benih tanaman di laboratorium sekolah:
+Ruang A = - 2,5°C
+Ruang B = -sqrt(8)°C
+Ruang C = - (11)/(4)°C
+Ruang D = - 2,7°C
+Manakah pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Suhu Ruang C jika diubah ke desimal adalah - 2,75°C."", ""Ruang C memiliki suhu yang paling dingin di antara semua ruangan."", ""Nilai -sqrt(8) berada di antara - 2,7°C dan - 2,9°C."", ""Urutan ruangan dari yang terhangat ke yang terdingin adalah C, D, B, A.""]","A,B,C",1
+mcma-1-2-7,MCMA,C4,"Seorang bendahara OSIS menganalisis dua rumus perhitungan sisa anggaran kegiatan penerimaan siswa baru:
+Rumus 1: (500.000-120.000)-80.000=380.000-80.000=300.000
+Rumus 2: 500.000-(120.000-80.000)=500.000-40.000=460.000
+Berdasarkan perbedaan hasil antara Rumus 1 dan Rumus 2, manakah analisis matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Perbedaan hasil tersebut membuktikan bahwa operasi pengurangan tidak bersifat asosiatif."", ""Pengelompokan tanda kurung pada operasi pengurangan mempengaruhi hasil akhir perhitungan."", ""Hasil Rumus 1 dan Rumus 2 bernilai sama jika dihitung menggunakan sifat komutatif."", ""Agar Rumus 2 menghasilkan nilai yang sama dengan Rumus 1 (Rp300.000), bentuknya harus diubah menjadi 500.000-(120.000+80.000).""]","A,B,D",1
+mcma-1-2-8,MCMA,C4,"Diberikan empat buah bilangan real hasil pencatatan skor permainan matematika:
+K=-3
+L=sqrt(2)
+M=(5)/(2)
+N=0
+Manakah analisis operasi gabungan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Hasil perkalian K×L (yaitu -3sqrt(2)) tergolong bilangan rasional."", ""Hasil penjumlahan K+M (yaitu -3+2,5=-0,5) tergolong bilangan rasional."", ""Operasi pembagian (M)/(N) ((2,5)/(0)) menghasilkan bilangan real bernilai nol."", ""Hasil perkalian L×L (yaitu sqrt(2)×sqrt(2)=2) tergolong bilangan bulat/rasional.""]","B,D",1
+kategori-1-2-9,KATEGORI,C3,"Tiga buah kedai minuman di area kuliner sekolah mencatat suhu penyajian produk es krim mereka:
+Kedai Merah: - 1,8°C
+Kedai Kuning: - (7)/(4)°C
+Kedai Hijau: -sqrt(3)°C
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut berdasarkan data suhu penyajian tersebut!","[""Suhu Kedai Kuning (- (7)/(4)°C) jika dinyatakan dalam desimal adalah - 1,75°C."", ""Kedai Merah (- 1,8°C) memiliki suhu penyajian yang lebih hangat daripada Kedai Kuning (- 1,75°C)"", ""Urutan kedai dari yang memiliki suhu penyajian paling dingin ke paling hangat adalah Kedai Merah, Kedai Kuning, Kedai Hijau.""]","1,3",1
+kategori-1-2-10,KATEGORI,C4,"Seorang peneliti muda di sekolah menganalisis struktur himpunan bilangan real R melalui tiga buah pernyataan hipotesis:
+Tentukan status BENAR atau SALAH untuk setiap pernyataan hipotesis berikut!","[""Jika x adalah bilangan rasional dan y adalah bilangan irasional, maka hasil kali x×y (dengan x≠0) pasti berupa bilangan irasional."", ""Himpunan bilangan real R merupakan gabungan dari himpunan bilangan rasional dan himpunan bilangan irasional."", ""Terdapat sebuah bilangan real yang dapat tergolong sebagai bilangan rasional sekaligus bilangan irasional.""]","1,2",1
+pg-1-3-1,PG,C4,"Empat orang siswa menganalisis hasil pengukuran suhu ruang pendingin buah di sebuah toko kelontong. Perubahan suhu relatif terhadap titik acuan standar (0°C) dicatat oleh keempat siswa tersebut:
+Dina: - 2,4°C
+Eko: - sqrt(7) °C
+Fani: - (13)/(5) °C
+Gilang: -2,65°C
+Keempat siswa memberikan hasil analisis urutan suhu dari yang paling dingin (paling kecil) ke yang paling hangat (paling besar) sebagai berikut:
+Analisis I (Dina): -sqrt(7)<-(13)/(5)<-2,65<-2,4
+Analisis II (Eko): -sqrt(7)<-2,65<-(13)/(5)<-2,4
+Analisis III (Fani): -(13)/(5)<-2,65<-sqrt(7)<-2,4
+Analisis IV (Gilang): -2,4<-(13)/(5)<-2,65<-sqrt(7)
+Analisis siapakah yang memberikan urutan paling tepat berdasarkan konsep garis bilangan?","[""Analisis I"", ""Analisis II"", ""Analisis III"", ""Analisis IV""]",B,1
+pg-1-3-2,PG,C4,"Pengurus OSIS SMP Cendekia menghitung total biaya pengadaan perlengkapan lomba antar-kelas. Sebanyak 16 piala penghargaan dibeli dengan harga Rp35.000 per piala dan setiap piala dipasangi pita hias seharga Rp5.000 per buah.
+Dua orang panitia menganalisis metode perhitungan total biaya:
+Metode A: Menghitung total piala terlebih dahulu (16×35.000), lalu ditambah total pita hias (16×5.000).
+Metode B: Menggabungkan harga piala dan pita hias per unit terlebih dahulu, lalu dikalikan dengan banyak unit piala.
+Bentuk penyederhanaan perhitungan Metode B yang memanfaatkan Sifat Distributif perkalian terhadap penjumlahan adalah ....","[""(16+35.000)×(16+5.000)"", ""16×(35.000×5.000)"", ""16×(35.000+5.000)"", ""(16×35.000)+5.000""]",C,1
+pg-1-3-3,PG,C4,Seorang ketua klub matematika menyusun empat klaim kuis untuk diuji kebenarannya oleh para anggota klub. Manakah analisis kuis di bawah ini yang berhasil membuktikan bahwa klaim awal SALAH dengan menyajikan contoh penyangkal (counterexample) yang tepat?,"[""Klaim \""Perkalian dua bilangan irasional selalu menghasilkan bilangan irasional\"" adalah SALAH, karena sqrt(3)×sqrt(3)=3 (bilangan rasional)."", ""Klaim \""Pengurangan dua bilangan bulat selalu menghasilkan bilangan bulat\"" adalah SALAH, karena 5-8=-3."", ""Klaim \""Setiap bilangan bulat positif termasuk bilangan asli\"" adalah SALAH, karena 1 adalah bilangan asli."", ""Klaim \""Operasi penjumlahan bilangan real memenuhi sifat komutatif\"" adalah SALAH, karena 4+2=2+4.""]",A,1
+pg-1-3-4,PG,C4,"Seorang peneliti muda menganalisis dua buah nilai konstanta fisika sederhana a dan b dari pengukuran di laboratorium:
+a=sqrt(18)-sqrt(2)
+b=0,121212... (desimal berulang)
+Manakah kesimpulan yang paling tepat berdasarkan analisis sifat dan jenis bilangan real untuk kedua nilai tersebut?","[""Bilangan a dan b keduanya merupakan bilangan irasional."", ""Bilangan a adalah irasional dan b adalah rasional."", ""Bilangan a dan b keduanya merupakan bilangan rasional."", ""Bilangan a adalah rasional dan b adalah irasional.""]",B,1
+pg-1-3-5,PG,C4,"Tiga lokasi pos penataan taman sekolah diukur posisinya (dalam meter) terhadap tiang bendera utama (titik 0 meter):
+Pos p=-(9)/(4)m
+Pos q=-sqrt(5)m
+Pos r=-2,35m
+Berdasarkan analisis kedudukan ketiga pos tersebut pada garis bilangan, manakah hubungan posisi yang pasti benar?","[""Pos q berada paling kanan di antara semua pos."", ""Pos r terletak di sebelah kiri Pos q."", ""Pos p terletak di sebelah kiri Pos r."", ""Pos p berada di antara Pos r dan Pos q pada garis bilangan.""]",D,1
+mcma-1-3-6,MCMA,C4,"Diberikan empat data posisi titik elevasi saluran air di lapangan sekolah terhadap titik netral (0m):
+W=-3,2 m
+X=-sqrt(10)m
+Y=-(16)/(5) m
+Z=-3,12 m
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Posisi saluran W dan Y berada pada titik elevasi yang persis sama."", ""Saluran X memiliki posisi paling dalam (paling jauh di sebelah kiri titik 0)."", ""Nilai elevasi Z (-3,12m) lebih besar daripada nilai elevasi W (-3,2m)."", ""Urutan saluran dari yang paling dangkal (terbesar) ke paling dalam (terkecil) adalah X,W,Y,Z.""]","A,B,C",1
+mcma-1-3-7,MCMA,C4,"Seorang panitia koperasi sekolah menganalisis kegagalan kesamaan hasil pada dua model transaksi keuangan bulanan:
+Model I: (1.200.000-400.000)-150.000=800.000-150.000=650.000
+Model II: 1.200.000-(400.000-150.000)=1.200.000-250.000=950.000
+Manakah analisis matematika yang benar untuk menjelaskan ketidaksamaan hasil transaksi di atas? (Jawaban benar dapat lebih dari satu)","[""Ketidaksamaan tersebut membuktikan bahwa operasi pengurangan pada bilangan real tidak memenuhi sifat asosiatif."", ""Perubahan posisi tanda kurung pada operasi pengurangan mengubah makna dan hasil perhitungan."", ""Model I dan Model II akan menghasilkan nilai yang sama jika dihitung menggunakan sifat komutatif."", ""Bentuk Model II ekuivalen dengan 1.200.000-400.000+150.000=950.000 sesuai sifat distributif tanda negatif.""]","A,B,D",1
+mcma-1-3-8,MCMA,C4,"Diberikan empat buah bilangan real K,L,M, dan N yang mewakili skor pengamatan eksperimen:
+K=-4
+L=sqrt(5)
+M=(3)/(2)
+N=0
+Manakah hasil analisis operasi gabungan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Hasil perkalian K×L (yaitu -4sqrt(5)) merupakan bilangan irasional."", ""Pembagian (M)/(N) ((1,5)/(0)) menghasilkan nilai nol dalam himpunan bilangan real."", ""Penjumlahan K+M (yaitu -4+1,5=-2,5) tergolong bilangan rasional."", ""Perkalian L×L (yaitu sqrt(5)×sqrt(5)=5) menghasilkan bilangan bulat/rasional.""]","A,C,D",1
+kategori-1-3-9,KATEGORI,C4,"Tiga tim laboratorium menguji batas pembekuan larutan garam (dalam °C):
+Tim Alpha: - 1,6 °C
+Tim Beta: -(5)/(3) °C
+Tim Gamma: -sqrt(2) °C
+Tentukan status BENAR atau SALAH untuk setiap hasil analisis pernyataan berikut!","[""Suhu pembekuan Tim Beta (-(5)/(3) °C) jika dinyatakan dalam desimal berulang adalah (-1,666...°C)."", ""Batas pembekuan Tim Alpha (-1,6°C) lebih dingin (lebih kecil) daripada Tim Beta (-1,666...°C)."", ""Urutan tim dari yang memiliki batas pembekuan paling dingin ke paling hangat adalah Tim Beta, Tim Alpha, Tim Gamma.""]","1,3",1
+kategori-1-3-10,KATEGORI,C4,"Seorang tim ahli matematika sekolah menganalisis struktur hubungan himpunan bilangan pada sistem bilangan real R:
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Jika x adalah bilangan rasional bukan nol dan y adalah bilangan irasional, maka x×y tidak pernah menghasilkan bilangan rasional."", ""Himpunan bilangan asli N merupakan himpunan bagian (subset) dari himpunan bilangan bulat Z dan himpunan bilangan rasional Q."", ""Terdapat setidaknya satu bilangan real yang dapat dinyatakan sebagai pecahan biasa (a)/(b) sekaligus memiliki bentuk desimal tak berakhir dan tak berulang.""]","1,2",1
+pg-2-1-1,PG,C3,"Seorang siswa SMP memiliki saldo awal pada kartu kantin elektronik sebesar Rp50.000. Dalam satu minggu, ia melakukan transaksi berikut:
+Membeli makan siang seharga Rp18.000.
+Mengisi ulang (top up) saldo sebesar Rp20.000.
+Membeli alat tulis seharga Rp12.500 dan es krim seharga Rp6.000.
+Mendapatkan pengembalian tunai (cashback) ke kartu sebesar Rp5.000.
+Berapa saldo akhir pada kartu kantin elektronik siswa tersebut?","[""Rp17.500"", ""Rp18.500"", ""Rp20.500"", ""Rp22.500""]",B,1
+pg-2-1-2,PG,C3,"Dalam suatu kegiatan kuis matematika kelompok, aturan penilaian ditentukan sebagai berikut:
+Jawaban benar diberi nilai +4.
+Jawaban salah diberi nilai -2.
+Soal yang tidak dijawab diberi nilai -1.
+Dari total 25 soal yang diberikan, Kelompok A berhasil menjawab benar 16 soal, tidak menjawab 3 soal, dan sisanya dijawab salah. Menggunakan hirarki operasi hitung campuran, total nilai yang diperoleh Kelompok A adalah ....","[""43"", ""49"", ""49"", ""52""]",C,1
+pg-2-1-3,PG,C3,"Sebuah taman sekolah berbentuk persegi panjang dengan panjang sisi 2sqrt(27)meter dan lebar sqrt(12)meter. Panitia penataan taman ingin memasang pagar bambu pembatas di salah satu sisi diagonal taman tersebut. Panjang diagonal taman dapat ditentukan dengan menggunakan Teorema Pythagoras (d=sqrt(p^(2)+l^(2))).
+Panjang diagonal taman tersebut dalam bentuk akar paling sederhana adalah ....","[""4sqrt(3)m"", ""2sqrt(21)m"", ""6sqrt(3)m"", ""4sqrt(21)m""]",C,1
+pg-2-1-4,PG,C3,"Sebuah sampel populasi perkembangbiakan mikroorganisme di laboratorium biologi SMP membelah diri menjadi 2 kali lipat setiap 30 menit. Mula-mula terdapat 2^(3) mikroorganisme. Banyaknya mikroorganisme setelah 2,5 jam dinyatakan dalam bentuk bilangan berpangkat (eksponen) sederhana adalah ....","[""2^(7)"", ""2^(8)"", ""2^(9)"", ""2^(10)""]",B,1
+pg-2-1-5,PG,C3,"Dalam rangka kegiatan kerja bakti, pengurus kelas membeli 4 kotak kue dan 3 dus minuman kemasan. Harga 1 kotak kue adalah Rp18.000 dan harga 1 dus minuman adalah Rp14.000. Jika pengurus kelas membayar dengan 2 lembar uang Rp50.000 dan mendapatkan potongan harga (diskon) sebesar Rp10.000 dari total pembelian, berapa uang kembalian yang diterima?","[""Rp42.000"", ""Rp38.000"", ""Rp32.000"", ""Rp28.000""]",A,1
+mcma-2-1-6,MCMA,C3,"Diberikan operasi aritmetika bentuk akar dan berpangkat berikut:
+(i) sqrt(50)+sqrt(18)=8sqrt(2)
+(ii) 3^(4)×3^(-2)=9
+(iii) sqrt(12)×sqrt(3)=36
+(iv) (2^(3))^(2)=64
+Manakah kesamaan operasi hitung di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan (i)"", ""Pernyataan (ii)"", ""Pernyataan (iii)"", ""Pernyataan (iv)""]","A,B,D",1
+mcma-2-1-7,MCMA,C3,"Seorang siswa membagikan 60 lembar kertas karton kepada 4 kelompok praktikum secara merata. Masing-masing kelompok kemudian menggunakan (2)/(3) bagian kertas yang diterimanya untuk membuat maket, lalu sisanya dibagi rata kepada 5 anggota kelompoknya.
+Manakah pernyataan berikut yang benar berdasarkan situasi di atas? (Jawaban benar dapat lebih dari satu)","[""Setiap kelompok menerima 15 lembar kertas karton di awal."", ""Kertas karton yang digunakan setiap kelompok untuk maket adalah 5 lembar."", ""Sisa kertas karton yang tidak digunakan untuk maket di setiap kelompok adalah 5 lembar."", ""Setiap anggota kelompok menerima 1 lembar kertas karton dari sisa kertas tersebut.""]","A,C,D",1
+mcma-2-1-8,MCMA,C3,"Diberikan ekspresi matematika dengan aturan urutan operasi (KABATAKU/PEMDAS):
+H=24-12÷3+2×(-5)
+Manakah langkah urutan pengerjaan dan hasil yang benar? (Jawaban benar dapat lebih dari satu)","[""Hasil dari operasi pembagian 12÷3 adalah 4."", ""Hasil dari operasi perkalian 2×(-5) adalah 10."", ""Nilai akhir H yang benar adalah 10."", ""Jika dikerjakan berurutan dari kiri ke kanan tanpa hirarki KABATAKU, hasilnya adalah 10.""]","A,C",1
+kategori-2-1-9,KATEGORI,C3,"Ibu membeli 3 1/2kg tepung terigu dengan harga Rp12.000 per kg. Di toko yang sama, Ibu juga membeli 2 1/4kg gula pasir dengan harga Rp16.000 per kg.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan total biaya belanjaan Ibu!","[""Total harga tepung terigu yang dibeli Ibu adalah Rp42.000."", ""Total harga gula pasir lebih mahal daripada total harga tepung terigu."", ""Total seluruh uang yang harus dibayar Ibu untuk tepung terigu dan gula pasir adalah Rp78.000.""]","1,3",1
+kategori-2-1-10,KATEGORI,C3,"Diberikan dua bentuk pemangkatan dan penarikan akar berikut:
+P=(2^(2)×3)^(2)
+Q=sqrt(144)+sqrt(81)
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut!","[""Nilai dari P adalah 144."", ""Nilai dari Q adalah 21."", ""Selisih antara nilai P dan nilai Q adalah 120.""]","1,2",1
+pg-2-2-1,PG,C3,"Seorang siswa SMP memiliki saldo awal pada kartu perpustakaan digital sebesar Rp45.000. Selama satu bulan, ia melakukan transaksi berikut:
+Membayar denda keterlambatan buku sebesar Rp8.500.
+Menerima isi ulang (top up) saldo dari orang tuanya sebesar Rp25.000.
+Membayar biaya cetak tugas sekolah sebesar Rp14.000 dan membeli map dokumen seharga Rp6.000.
+Mendapatkan pengembalian tunai (cashback) program literasi sebesar Rp10.000.
+Berapa saldo akhir pada kartu perpustakaan digital siswa tersebut?","[""Rp19.500"", ""Rp51.500"", ""Rp41.500"", ""Rp53.500""]",B,1
+pg-2-2-2,PG,C3,"Sebuah panggung pertunjukan di SMP berbentuk persegi panjang dengan ukuran panjang 3sqrt(20) meter dan lebar sqrt(45)meter. Untuk dekorasi pensi, panitia ingin mengetahui selisih antara panjang dan lebar panggung tersebut.
+Selisih panjang dan lebar panggung pertunjukan dalam bentuk akar paling sederhana adalah ....","[""3sqrt(5) m"", ""4sqrt(5)m"", ""2sqrt(5)m"", ""5sqrt(5)m""]",B,1
+pg-2-2-3,PG,C3,"Dalam suatu eksperimen sains di laboratorium SMP, sekelompok sel mengalami pembelahan menjadi 3 kali lipat setiap 20 menit. Pada awal pengamatan, terdapat 3^(2) sel. Banyaknya sel setelah pengamatan berlangsung selama 2,33 jam (140 menit atau 7 kali periode pembelahan) dapat dinyatakan dalam bentuk eksponen sederhana.
+Bentuk eksponen sederhana dari jumlah sel setelah 7 kali pembelahan adalah ....","[""3^(14)"", ""3^(11)"", ""3^(9)"", ""3^(5)""]",C,1
+pg-2-2-4,PG,C4,"Seorang siswa mencoba menyelesaikan soal kuis aturan KABATAKU/PEMDAS berikut:
+Soal:15-12÷4+2×(-4)
+Siswa tersebut melakukan empat langkah alternatif pengerjaan sebagai berikut:
+Langkah I: Mengoperasikan (15-12)÷4+2×(-4)=3÷4-8=-7,25
+Langkah II: Mengoperasikan 15-(12÷4)+2×(-4)=15-3+(-8)=4
+Langkah III: Mengoperasikan 15-12÷(4+2)×(-4)=15-2×(-4)=15+8=23
+Langkah IV: Mengoperasikan (15-3+2)×(-4)=14×(-4)=-56
+Manakah langkah pengerjaan yang benar sesuai dengan hirarki operasi hitung KABATAKU/PEMDAS?","[""Langkah I"", ""Langkah II"", ""Langkah II"", ""Langkah IV""]",C,1
+pg-2-2-5,PG,C4,"Dua orang siswa menganalisis hasil perhitungan total belanja bahan praktik IPA: Pembelian terdiri dari 3 pak kertas saring seharga Rp24.000 per pak dan 3 botol cairan indikator seharga Rp16.000 per botol. Toko memberikan potongan harga khusus sebesar Rp5.000 dari total belanja.
+Kedua siswa menyusun rumus matematika perhitungan total biaya setelah diskon:
+Analisis I: Total Biaya = 3×(24.000+16.000)-5.000=3×40.000-5.000=120.000-5.000=115.000
+Analisis II: Total Biaya = 3×24.000+16.000-5.000=72.000+16.000-5.000=83.000
+Hasil analisis manakah yang benar beserta alasannya?","[""Analisis I, karena memfaktorkan angka 3 dengan sifat distributif untuk jumlah barang yang sama"", ""Analisis II, karena perkalian hanya berlaku pada barang pertama"", ""Analisis I, karena diskon dikurangi sebelum barang dikalikan"", ""Analisis II, karena biaya kertas saring dan cairan indikator dihitung terpisah tanpa tanda kurung""]",A,1
+mcma-2-2-6,MCMA,C3,"Diberikan empat buah penyederhanaan bentuk perkalian dan pembagian eksponen/akar:
+(i) 2^(5)×2^(-2)=8
+(ii) sqrt(72)-sqrt(18)=3sqrt(2)
+(iii) (3^(2))^(3)=243
+(iv) sqrt(8)×sqrt(2)=4
+Manakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan (i)"", ""Pernyataan (ii)"", ""Pernyataan (iii)"", ""Pernyataan (iv)""]","A,C,D",1
+mcma-2-2-7,MCMA,C4,"Seorang bendahara kelas menganalisis dua metode pengerjaan untuk menghitung sisa dana kas kelas:
+Metode A: (150.000-40.000)-25.000=110.000-25.000=85.000
+Metode B: 150.000-(40.000+25.000)=150.000-65.000=85.000
+Manakah analisis matematika yang benar mengenai kedua metode pengerjaan di atas? (Jawaban benar dapat lebih dari satu)","[""Metode A dan Metode B menghasilkan nilai akhir yang sama yaitu Rp85.000."", ""Metode B menerapkan sifat distributif tanda negatif terhadap penjumlahan di dalam kurung: -(a+b)=-a-b."", ""Jika Metode B diubah menjadi 150.000-(40.000-25.000), hasilnya akan tetap sama."", ""Metode B lebih efisien karena menjumlahkan seluruh total pengeluaran terlebih dahulu sebelum menguranginya dari kas awal.""]","A,B,D",1
+mcma-2-2-8,MCMA,C4,"Diberikan ekspresi matematika dengan kombinasi bilangan bulat, pecahan, dan operasi KABATAKU:
+M=16÷(-4)+3×(1)/(2)-(-2)
+Manakah analisis langkah pengerjaan yang benar? (Jawaban benar dapat lebih dari satu)","[""Hasil operasi pembagian 16÷(-4) adalah 4."", ""Hasil operasi perkalian 3×(1)/(2) adalah 1,5."", ""Nilai akhir dari ekspresi M adalah -3,5."", ""Nilai akhir dari ekspresi M adalah -0,5.""]","B,D",1
+kategori-2-2-9,KATEGORI,C3,"Kantin sekolah membeli 2 1/2kg telur ayam seharga Rp28.000 per kg dan 1 1/4kg daging ayam seharga Rp40.000 per kg.
+Tentukan status BENAR or SALAH untuk setiap pernyataan berikut terkait biaya belanja kantin!","[""Total biaya pembelian telur ayam adalah Rp70.000."", ""Total biaya pembelian daging ayam lebih mahal daripada total biaya telur ayam."", ""Total seluruh uang yang harus dibayar kantin adalah Rp120.000.""]","1,3",1
+kategori-2-2-10,KATEGORI,C4,"Diberikan dua ekspresi matematika P dan Q yang melibatkan akar dan eksponen:
+P=sqrt(200)-sqrt(50)
+Q=(2^(3)×3)^(2)÷36
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Bentuk paling sederhana dari P adalah 5sqrt(2)."", ""Nilai dari ekspresi Q adalah 16."", ""Nilai dari Q lebih kecil daripada nilai pendekatan desimal P (asumsi sqrt(2)≈1,414).""]","1,2",1
+pg-2-3-1,PG,C4,"Seorang pengurus OSIS memeriksa catatan saldo kas kegiatan pentas seni sekolah. Saldo awal kas tercatat sebesar Rp120.000. Selama tiga hari persiapan, terjadi transaksi berikut:
+Hari I: Pembelian kertas dekorasi Rp35.000.
+Hari II: Penerimaan dana sponsor Rp75.000 dan pengeluaran sewa alat Rp40.000.
+Hari III: Pengembalian sisa uang sewa (cashback) Rp15.000 dan pembelian minuman panitia Rp25.000.
+Dua anggota panitia menyusun analisis perhitungan sisa saldo akhir kas:
+Analisis I: Saldo=120.000-35.000+75.000-(40.000+15.000)-25.000=80.000
+Analisis II: Saldo=120.000-35.000+75.000-40.000+15.000-25.000=110.000
+Manakah analisis perhitungan yang benar beserta alasannya?","[""Analisis I, karena cashback menambah total biaya pengeluaran sewa alat"", ""Analisis II, karena cashback bernilai positif (menambah saldo) sehingga tidak dikurangkan"", ""Analisis I, karena semua transaksi hari III dihitung di dalam tanda kurung"", ""Analisis II, karena semua penerimaan uang dikelompokkan di akhir perhitungan""]",B,1
+pg-2-3-2,PG,C4,"Dua buah papan reklame kegiatan pameran sains sekolah berbentuk persegi. Papan A memiliki luas 108m^(2) dan Papan B memiliki luas 27m^(2). Seorang teknisi ingin menganalisis selisih panjang sisi kedua papan tersebut untuk menentukan panjang kayu bingkai tambahan.
+Selisih panjang sisi Papan A dan Papan B dalam bentuk akar paling sederhana adalah ....","[""9sqrt(3)m"", ""6sqrt(3)m"", ""3sqrt(3)m"", ""2sqrt(3)m""]",C,1
+pg-2-3-3,PG,C4,"Hasil pengamatan perkembangbiakan dua jenis kultur mikroba di laboratorium IPA dicatat sebagai berikut:
+Kultur X mula-mula berjumlah 2^(4) sel dan membelah menjadi 2 kali lipat setiap 1 jam.
+Kultur Y mula-mula berjumlah 2^(2) sel dan membelah menjadi 2 kali lipat setiap 30 menit.
+Seorang siswa menganalisis jumlah sel Kultur Y setelah 3 jam pengamatan. Bentuk bilangan berpangkat (eksponen) sederhana yang menunjukkan jumlah sel Kultur Y pada akhir pengamatan tersebut adalah ....","[""2^(6) mikroba"", ""2^(8) mikroba"", ""2^(12) mikroba"", ""2^(14) mikroba""]",B,1
+pg-2-3-4,PG,C4,"Seorang guru meminta siswa menganalisis kesalahan penyelesaian dari ekspresi aritmetika berikut:
+Ekspresi:30-18÷3+4×(-2)
+Empat orang siswa memberikan urutan analisis perhitungan sebagai berikut:
+Siswa A: (30-18)÷3+4×(-2)=12÷3-8=4-8=-4
+Siswa B: 30-18÷(3+4)×(-2)=30-18÷7×(-2)
+Siswa C: 30-(18÷3)+[4×(-2)]=30-6+(-8)=24-8=16
+Siswa D: (30-6+4)×(-2)=28×(-2)=-56
+Analisis pengerjaan siapakah yang benar berdasarkan hirarki aturan KABATAKU/PEMDAS?","[""Siswa A"", ""Siswa B"", ""Siswa C"", ""Siswa D""]",C,1
+pg-2-3-5,PG,C4,"Koperasi sekolah menjual paket alat tulis berupa 4 buah buku tulis seharga Rp8.000 per buah dan 4 buah pulpen seharga Rp3.500 per buah. Pembeli mendapatkan potongan harga (diskon) khusus sebesar Rp5.000 dari total belanja.
+Dua orang siswa menganalisis penulisan rumus matematika paling efisien untuk menghitung total pembayaran setelah diskon:
+Analisis I: Total=4×(8.000+3.500)-5.000=4×11.500-5.000=46.000-5.000=41.000
+Analisis II: Total=4×8.000+3.500-5.000=32.000+3.500-5.000=30.500
+Hasil analisis manakah yang tepat beserta alasannya?","[""Analisis I, karena menerapkan sifat distributif perkalian terhadap penjumlahan untuk barang dengan kuantitas yang sama"", ""Analisis II, karena perkalian 4 hanya berlaku untuk barang pertama yang ditulis"", ""Analisis I, karena diskon Rp5.000 dikurangkan sebelum perkalian barang dilakukan"", ""Analisis II, karena harga pulpen tidak perlu dikalikan dengan kuantitasnya""]",A,1
+mcma-2-3-6,MCMA,C4,"Diberikan empat ekspresi penyederhanaan eksponen dan bentuk akar hasil pengerjaan kuis siswa:
+(i) 3^(6)×3^(-3)=27
+(ii) sqrt(98)-sqrt(50)=2sqrt(2)
+(iii) (2^(4))^(2)=128
+(iv) sqrt(18)×sqrt(2)=6
+Manakah hasil analisis pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan (i)"", ""Pernyataan (ii)"", ""Pernyataan (iii)"", ""Pernyataan (iv)""]","A,C,D",1
+mcma-2-3-7,MCMA,C4,"Seorang bendahara panitia lomba menganalisis dua rumus perhitungan sisa dana operasional:
+Rumus 1: (200.000-60.000)-40.000=140.000-40.000=100.000
+Rumus 2: 200.000-(60.000+40.000)=200.000-100.000=100.000
+Manakah analisis matematika yang benar berkaitan dengan kedua rumus tersebut? (Jawaban benar dapat lebih dari satu)","[""Rumus 1 dan Rumus 2 menghasilkan nilai sisa dana akhir yang sama, yaitu Rp100.000."", ""Kesamaan hasil Rumus 1 dan Rumus 2 membuktikan berlakunya sifat distributif tanda negatif: -(a+b)=-a-b."", ""Jika Rumus 2 diubah menjadi 200.000-(60.000-40.000), hasilnya akan tetap bernilai sama."", ""Mengelompokkan total pengeluaran seperti pada Rumus 2 mempermudah rekapitulasi total alokasi biaya.""]","A,B,D",1
+mcma-2-3-8,MCMA,C4,"Diberikan sebuah ekspresi matematika operasi campuran bilangan real:
+N=20÷(-5)+4×(1)/(2)-(-3)
+Manakah hasil analisis pengerjaan yang benar? (Jawaban benar dapat lebih dari satu)","[""Hasil operasi pembagian 20÷(-5) adalah 4."", ""Hasil operasi perkalian 4×(1)/(2) adalah 2."", ""Nilai akhir N adalah -1."", ""Nilai akhir N adalah 1.""]","B,D",1
+kategori-2-3-9,KATEGORI,C4,"Sebuah kantin sekolah membeli dua jenis bahan makanan untuk menu makan siang:
+4 1/2kg beras seharga Rp14.000 per kg.
+2 1/4kg telur seharga Rp28.000 per kg.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis transaksi berikut!","[""Total biaya pengeluaran untuk membeli beras adalah Rp63.000."", ""Total biaya pembelian telur lebih murah daripada total biaya pembelian beras."", ""Total biaya belanja seluruhnya untuk kedua bahan makanan tersebut adalah Rp126.000.""]","1,3",1
+kategori-2-3-10,KATEGORI,C4,"Diberikan dua ekspresi matematika P dan Q yang melibatkan operasi bentuk akar dan eksponen:
+P=sqrt(300)-sqrt(75)
+Q=(3^(2)×2)^(2)÷36
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Bentuk sederhana dari ekspresi P adalah 5sqrt(3)."", ""Nilai dari ekspresi Q adalah 9."", ""Nilai dari ekspresi Q lebih kecil daripada nilai pendekatan desimal ekspresi P (asumsi sqrt(3)≈1,732).""]","1,2",1

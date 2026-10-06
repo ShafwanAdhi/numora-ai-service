@@ -1,0 +1,78 @@
+{
+  "question_id": "mcma-5-3-8",
+  "config_version": 1,
+  "original_hash": "ef2a177a2e0afb83",
+  "original_values": {
+    "speed": 60,
+    "gap": 0
+  },
+  "variables": {
+    "speed": {
+      "gen": "range",
+      "range": [
+        40,
+        80
+      ],
+      "step": 1
+    },
+    "gap": {
+      "gen": "range",
+      "range": [
+        0,
+        10
+      ],
+      "step": 1
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "speed*2.5"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "(speed-gap)*3"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "speed-10"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "speed"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "speed-gap"
+    },
+    "second": {
+      "gen": "derived",
+      "expr": "speed-gap"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dua rombongan bus studi tur SMP menempuh rute jalan yang sama menuju lokasi museum:\nBus X menempuh jarak {v2}km dalam waktu 2,5 jam.\nBus Y menempuh jarak {v3}km dalam waktu 3 jam.\nSeorang siswa menganalisis laju kecepatan rata-rata kedua bus. Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kecepatan rata-rata Bus X adalah {v4} km/jam.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kecepatan rata-rata Bus X adalah {v5} km/jam.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kecepatan rata-rata Bus Y adalah {v6} km/jam.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Bus Y melaju lebih cepat daripada Bus X.",
+      "correct": false
+    }
+  ],
+  "explanation": "Kecepatan kendaraan pertama = {speed} km/jam; kendaraan kedua = {second} km/jam. Selisih kecepatan pertama terhadap kedua = {gap} km/jam."
+}

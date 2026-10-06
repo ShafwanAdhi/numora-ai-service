@@ -1,0 +1,102 @@
+{
+  "question_id": "pg-5-3-2",
+  "config_version": 1,
+  "original_hash": "7d8235c7a17cb2f2",
+  "original_values": {
+    "scale": 500,
+    "length": 6,
+    "factor": 2
+  },
+  "variables": {
+    "scale": {
+      "gen": "range",
+      "range": [
+        200,
+        1000
+      ],
+      "step": 20
+    },
+    "length": {
+      "gen": "range",
+      "range": [
+        4,
+        10
+      ],
+      "step": 1
+    },
+    "factor": {
+      "gen": "range",
+      "range": [
+        2,
+        4
+      ],
+      "step": 1
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "scale"
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "length"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "length*factor"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "scale*factor"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "scale"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "scale/factor"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "scale/(factor*2)"
+    },
+    "actual": {
+      "gen": "derived",
+      "expr": "scale*length"
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "scale/factor"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [
+    "scale % factor == 0",
+    "2000 <= scale*length <= 4000"
+  ],
+  "stem": "Seorang siswa menggambar ulang peta denah area hijau sekolah. Pada denah asli bertuliskan skala 1:{v3}, panjang lapangan basket terukur {v4}cm. Siswa tersebut ingin menggambar ulang denah pada kertas berukuran lebih besar sehingga panjang lapangan basket menjadi {v5}cm.\nBerapakah skala baru pada denah pengganti tersebut?",
+  "options": [
+    {
+      "id": "A",
+      "text": "1:{v6}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "1:{v7}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "1:{v8}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "1:{v9}",
+      "correct": false
+    }
+  ],
+  "explanation": "Panjang sebenarnya = {actual} cm. Skala baru = panjang gambar baru dibagi panjang sebenarnya = 1:{answer}."
+}

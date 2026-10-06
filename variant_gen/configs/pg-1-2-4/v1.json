@@ -1,0 +1,63 @@
+{
+  "question_id": "pg-1-2-4",
+  "config_version": 1,
+  "original_hash": "f9252bfb06ab6da1",
+  "original_values": {
+    "k": 2
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "k*k+1",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "k*k+1",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "k*k+1",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang siswa kelas IX membuat empat kuis pernyataan tentang sifat-sifat himpunan bilangan real R. Manakah analisis berikut yang membuktikan bahwa pernyataan kuis tersebut SALAH (diberikan contoh penyangkal / counterexample)?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan \"Penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional\" adalah SALAH, karena sqrt({v2})+(-sqrt({v3}))=0 (bilangan rasional).",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan \"Perkalian dua bilangan bulat selalu menghasilkan bilangan bulat\" adalah SALAH, karena 3×4=12.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan \"Setiap bilangan rasional dapat ditulis dalam bentuk pecahan (a)/(b)\" adalah SALAH, karena 0,5=(1)/(2).",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan \"Sifat komutatif berlaku pada penjumlahan bilangan real\" adalah SALAH, karena 2+3=3+2.",
+      "correct": false
+    }
+  ],
+  "explanation": "sqrt({v4}) irasional karena di antara dua kuadrat berurutan; jumlah dengan negatifnya0. Klaim selalu irasional salah. B,C,D tidak menjadi penyangkal."
+}

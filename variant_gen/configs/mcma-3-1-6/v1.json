@@ -1,0 +1,195 @@
+{
+  "question_id": "mcma-3-1-6",
+  "config_version": 1,
+  "original_hash": "7123fb6ab146a39d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        80
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "14.836+k",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "round(14.836+k,2)+k%2/100",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3.5 if k%2==0 else round(sqrt(10),1)",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "floor(v3)",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round((v3-floor(v3))*10)",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "14.836+k",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "round(14.836+k,2)+k%2/100",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3.5 if k%2==0 else round(sqrt(10),1)",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "floor(v8)",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "round((v8-floor(v8))*10)",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "14.836+k",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "round(14.836+k,2)+k%2/100",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "3.5 if k%2==0 else round(sqrt(10),1)",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "floor(v13)",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "round((v13-floor(v13))*10)",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "14.836+k",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "round(14.836+k,2)+k%2/100",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "3.5 if k%2==0 else round(sqrt(10),1)",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "floor(v18)",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "round((v18-floor(v18))*10)",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "14.836+k",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "round(14.836+k,2)+k%2/100",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "3.5 if k%2==0 else round(sqrt(10),1)",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "floor(v23)",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "round((v23-floor(v23))*10)",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "round(14.836+k,2)",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "round(sqrt(10),1)",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "floor(sqrt(80)*10)/10",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "(floor(sqrt(80)*10)+1)/10",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "400*300",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan empat pernyataan tentang pembulatan dan aproksimasi bilangan desimal/akar:\n(i) Pembulatan {v1} ke dua tempat desimal (persatusan terdekat) adalah {v2}.\n(ii) Aproksimasi nilai sqrt(10) ke persepuluhan terdekat adalah {v4},{v5}.\n(iii) Nilai dari sqrt(80) berada di antara 8,9 dan 9,0.\n(iv) Hasil estimasi dari 402×298 menggunakan pembulatan ke ratusan terdekat adalah 120.000.\nManakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan (i)",
+      "correct": "k%2==0"
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan (ii)",
+      "correct": "k%2==1"
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan (iii)",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan (iv)",
+      "correct": true
+    }
+  ],
+  "explanation": "Pembulatan desimal={v26}; Pembulatan akar={v27}; Batas bawah akar={v28}; Batas atas akar={v29}; Estimasi perkalian={v30}."
+}

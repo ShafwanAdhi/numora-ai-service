@@ -1,0 +1,70 @@
+{
+  "question_id": "kategori-2-1-9",
+  "config_version": 1,
+  "original_hash": "bea3ba03fffbf80d",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "12000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "16000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "42000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "78000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Ibu membeli 3 1/2kg tepung terigu dengan harga Rp{v1} per kg. Di toko yang sama, Ibu juga membeli 2 1/4kg gula pasir dengan harga Rp{v2} per kg.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan total biaya belanjaan Ibu!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Total harga tepung terigu yang dibeli Ibu adalah Rp{v3}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Total harga gula pasir lebih mahal daripada total harga tepung terigu.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Total seluruh uang yang harus dibayar Ibu untuk tepung terigu dan gula pasir adalah Rp{v4}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Harga tiap bahan = berat campuran dikali harga per kg. Semua nominal diskalakan {v5}; perbandingan biaya tidak berubah. Klaim1,3 benar."
+}

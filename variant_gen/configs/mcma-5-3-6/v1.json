@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-5-3-6",
+  "config_version": 1,
+  "original_hash": "ce469720072b1463",
+  "original_values": {
+    "p": 3,
+    "q": 2,
+    "first": 14,
+    "second": 18
+  },
+  "variables": {
+    "p": {
+      "gen": "range",
+      "range": [
+        2,
+        9
+      ],
+      "step": 1
+    },
+    "q": {
+      "gen": "range",
+      "range": [
+        1,
+        7
+      ],
+      "step": 1
+    },
+    "first": {
+      "gen": "range",
+      "range": [
+        5,
+        20
+      ],
+      "step": 1
+    },
+    "second": {
+      "gen": "range",
+      "range": [
+        6,
+        24
+      ],
+      "step": 1
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "p*first"
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "q*first"
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "p*second"
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "q*second"
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "q"
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "p+1"
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "q+1"
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "p+q"
+    },
+    "part": {
+      "gen": "derived",
+      "expr": "p"
+    },
+    "total": {
+      "gen": "derived",
+      "expr": "p+q"
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [
+    "p > q",
+    "gcd(p,q) == 1"
+  ],
+  "stem": "Dua buah wadah pita dekorasi di ruang OSIS dianalisis komposisi warnanya:\nWadah I: berisi {v4} pita biru dan {v5} pita kuning.\nWadah II: berisi {v6} pita biru dan {v7} pita kuning.\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rasio paling sederhana antara pita biru dan pita kuning pada Wadah I adalah {v8}:{v9}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Rasio paling sederhana antara pita biru dan pita kuning pada Wadah II adalah {v10}:{v11}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Komposisi pita biru dan pita kuning pada Wadah I ekuivalen (senilai) dengan Wadah II.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rasio pita biru terhadap seluruh pita pada Wadah I adalah {v12}:{v13}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Rasio sederhana kedua kelompok = {p}:{q}. Rasio bagian terhadap seluruh kelompok pertama = {part}:{total}."
+}

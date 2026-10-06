@@ -1,6 +1,6 @@
 # Kondisi repo Numora AI Service — 5 Oktober 2026
 
-Laporan ini menjadi acuan inventaris checkout `main`. Dokumen desain dan
+Laporan ini menjadi acuan inventaris checkout `feat/drill-1-2`. Dokumen desain dan
 rencana bertanggal mempertahankan keputusan awal; checklist dan jumlah tes
 di dalamnya adalah catatan sesi, bukan status keseluruhan repo sekarang.
 
@@ -8,27 +8,27 @@ di dalamnya adalah catatan sesi, bukan status keseluruhan repo sekarang.
 
 | Bank | Original | Soal dengan config | HOLD_SOURCE | DEFERRED_CONCEPTUAL | Tanpa config lainnya |
 |---|---:|---:|---:|---:|---:|
+| Drill 1–2 | 60 | 34 | 17 | 9 | 0 |
 | Drill 6–10 | 150 | 129 | 12 | 9 | 0 |
 | Drill 11–15 | 250 | 223 | 5 | 22 | 0 |
 | Drill 16–19 | 120 | 110 | 0 | 0 | 10 |
 | Drill 20–23 | 120 | 86 | 11 | 23 | 0 |
 | Tryout 1 | 30 | 27 | 0 | 3 | 0 |
-| Total | **670** | **575** | **28** | **57** | **10** |
+| Total | **730** | **609** | **45** | **66** | **10** |
 
 Sepuluh soal bank dasar 16–19 belum memiliki status metadata eksplisit;
 loader memperlakukannya sebagai ACTIVE, tetapi tidak ada config. Jangan
 menyamakan default status tersebut dengan generator yang siap dipakai.
-[Daftar seluruh 95 soal tanpa generator](../../variant_gen/soalskip.md).
+[Daftar seluruh 121 soal tanpa generator](../../variant_gen/soalskip.md).
 
-Drill berisi 640 original dan 548 soal dengan config. Indikator 11–15
-memiliki level 1–5; indikator 6–10 dan16–23 memiliki level 1–3. Sebanyak
-260 soal level 4–5 pada kelompok lain belum tersedia. Tryout memiliki
-empat bab; Pretest belum memiliki bank. Workspace berisi 94 kelompok
+Drill berisi 700 original dan 582 soal dengan config. Indikator 11–15
+memiliki level 1–5; indikator1–2,6–10 dan16–23 memiliki level 1–3. Indikator1–2 hanya level1–3 sesuai scope; indikator3–5 belum diimpor. Tryout memiliki
+empat bab; Pretest belum memiliki bank. Workspace berisi 100 kelompok
 katalog, termasuk kelompok kosong.
 
 ## Implementasi yang tersedia
 
-- UI/CLI memuat kelima bank secara otomatis pada path bank default.
+- UI/CLI memuat keenam bank secara otomatis pada path bank default.
   `--bank` custom membaca bank tersebut secara standalone.
 - Seluruh 223 generator aktif 11–15 terintegrasi ke interface bersama
   129 generator 6–10, 110 generator 16–19 dan86 generator 20–23.
@@ -48,6 +48,8 @@ Original berada di CSV beserta ledger/catalog/metadata. Config di
 riwayat lokal, bukan inventaris soal pada database produksi.
 
 ## Audit dan contoh hasil
+
+- [Audit1–2](2026-10-05-drill-1-2-generator-audit.md):34 aktif,680 stok sampling,1.700 accepted tambahan;17 HOLD dan9 DEFERRED.
 
 - [Audit 6–10](2026-10-05-drill-6-10-generator-audit.md): 129 generator,
   oracle seluruh opsi dan stok sampling; konteks berat manusia pada tiga
@@ -74,13 +76,9 @@ python -B variant_gen/tests/audit_drill_11_15.py --output output/drill-11-15/aud
 git diff --check
 ```
 
-Verifikasi checkout `main` sebelum publikasi meluluskan **97 tes** dalam
-86,950 detik, exit code 0. Pengujian menggunakan fixture/store sementara dan
-mock database. Pemeriksaan
-integrasi memastikan 377 file bank/config/store existing dipertahankan.
-Browser setelah restart menampilkan indikator 6–23 dan level 1–5 pada11–15,
-dengan nol error/warning konsol. Server lokal berada di localhost:8765;
-refresh halaman setelah restart untuk membaca katalog terbaru.
+Baseline main0553c29:97 tes lulus. Tahap indikator1–2: suite final108 tes lulus dalam99,763 detik,exit0;605 file bank/config/store lama identik. Verifikasi dan review dicatat pada [progres](../superpowers/plans/2026-10-05-drill-1-2-generator-progress.md).
+
+Browser smoke terisolasi di port8768 menampilkan700 original Drill, indikator1–2 dan level1–3; PG/MCMA/KATEGORI generate/reuse lulus; HOLD/DEFERRED disabled;0 error/warning konsol. Store sementara, DB mock. Restart server operator lalu refresh untuk memuat bank baru.
 
 IRT compute worker, API produksi service-to-service, generation LLM,
 self-adjusting soal, penulisan/publikasi database dan kapasitas exact belum

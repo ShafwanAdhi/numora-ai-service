@@ -1,0 +1,82 @@
+{
+  "question_id": "kategori-2-3-10",
+  "config_version": 1,
+  "original_hash": "12f028c72e7c86d5",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "300*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "75*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "9*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "9*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan dua ekspresi matematika P dan Q yang melibatkan operasi bentuk akar dan eksponen:\nP=sqrt({v1})-sqrt({v2})\nQ=(3^(2)×{v3})^(2)÷36\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Bentuk sederhana dari ekspresi P adalah {v4}sqrt(3).",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Nilai dari ekspresi Q adalah {v5}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Nilai dari ekspresi Q lebih kecil daripada nilai pendekatan desimal ekspresi P (asumsi sqrt(3)≈1,732).",
+      "correct": false
+    }
+  ],
+  "explanation": "P={v6}sqrt(3), Q={v7}; Q>P untuk semua nilai pada soal ini. Klaim1,2 benar."
+}

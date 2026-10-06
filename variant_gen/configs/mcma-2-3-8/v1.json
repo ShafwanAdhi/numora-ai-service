@@ -1,0 +1,123 @@
+{
+  "question_id": "mcma-2-3-8",
+  "config_version": 1,
+  "original_hash": "4508da3938b031c4",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "20*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "-k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "4*k/2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "1*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan sebuah ekspresi matematika operasi campuran bilangan real:\nN={v1}÷(-5)+{v2}×(1)/(2)-(-{v3})\nManakah hasil analisis pengerjaan yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Hasil operasi pembagian {v4}÷(-5) adalah {v5}.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Hasil operasi perkalian {v6}×(1)/(2) adalah {v7}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Nilai akhir N adalah {v8}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Nilai akhir N adalah {v9}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pembagian={v10}, perkalian={v11}, pengurangan bilangan negatif menambah {v12}. Total={v13}. B,D benar."
+}

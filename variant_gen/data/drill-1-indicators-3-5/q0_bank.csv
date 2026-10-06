@@ -1,0 +1,355 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-3-1-1,PG,C3,"Seorang petugas museum SMP mencatat jumlah pengunjung harian museum selama satu bulan sebanyak 37.685 orang. Untuk membuat laporan ringkas mingguan ke dinas pendidikan, petugas tersebut diminta melakukan pembulatan ke ribuan terdekat.
+Hasil pembulatan jumlah pengunjung museum tersebut adalah ....","[""37.000 orang"", ""38.000 orang"", ""37.700 orang"", ""40.000 orang""]",B,1
+pg-3-1-2,PG,C3,"Panitia penataan taman sekolah mengukur panjang sebuah papan diagonal penguat pagar berbentuk persegi. Luas lahan tempat pagar terpasang adalah 45m^(2), sehingga panjang diagonal mendekati nilai sqrt(45)meter.
+Jika nilai sqrt(45) diaproksimasi dan dibulatkan hingga satu tempat desimal (persepuluhan terdekat), perkiraan panjang papan penguat tersebut adalah ....","[""6,5m"", ""6,6m"", ""6,7m"", ""6,8m""]",C,1
+pg-3-1-3,PG,C3,"Bu Sinta membeli jeruk seberat 3 1/4kg di pasar tradisional dengan harga Rp24.800 per kg. Sebelum melakukan pembayaran tunai, Bu Sinta melakukan estimasi total harga dengan membulatkan harga satuan jeruk ke ribuan terdekat.
+Berapa estimasi total harga jeruk yang harus dibayar Bu Sinta berdasarkan pembulatan tersebut?","[""Rp75.000"", ""Rp80.000"", ""Rp81.000"", ""Rp82.500""]",C,1
+pg-3-1-4,PG,C3,"Suatu denah kawasan olahraga sekolah dibuat dengan skala tertentu. Jarak sebenarnya antara lapangan basket dan lapangan voli adalah 142 meter. Pada peta, jarak tersebut diwakili oleh panjang sqrt(23)cm.
+Untuk kemudahan pengukuran pada mistar biasa, nilai sqrt(23) diaproksimasi ke satu tempat desimal. Nilai estimasi jarak pada peta tersebut adalah ....","[""4,7 cm"", ""4,8 cm"", ""4,9 cm"", ""5,0 cm""]",B,1
+pg-3-1-5,PG,C3,"Dalam rangka kegiatan bakti sosial, pengurus OSIS membeli 19 paket sembako seharga Rp6.850 per paket. Bendahara OSIS ingin mengecek kewajaran jawaban total pengeluaran dengan mengestimasi hasil kali setelah membulatkan masing-masing bilangan ke satuan/puluhan/ribuan terdekat yang terdekat.
+Estimasi total biaya belanja sembako yang paling reasonable/wajar adalah ....","[""Rp130.000"", ""Rp140.000"", ""Rp120.000"", ""Rp133.000""]",A,1
+mcma-3-1-6,MCMA,C3,"Diberikan empat pernyataan tentang pembulatan dan aproksimasi bilangan desimal/akar:
+(i) Pembulatan 14,836 ke dua tempat desimal (persatusan terdekat) adalah 14,84.
+(ii) Aproksimasi nilai sqrt(10) ke persepuluhan terdekat adalah 3,5.
+(iii) Nilai dari sqrt(80) berada di antara 8,9 dan 9,0.
+(iv) Hasil estimasi dari 402×298 menggunakan pembulatan ke ratusan terdekat adalah 120.000.
+Manakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan (i)"", ""Pernyataan (ii)"", ""Pernyataan (iii)"", ""Pernyataan (iv)""]","A,C,D",1
+mcma-3-1-7,MCMA,C3,"Seorang siswa mengukur volume air pada tiga buah akuarium laboratorium berbentuk kubus dengan panjang rusuk masing-masing sebagai berikut:
+Akuarium P: rusuk =sqrt(15) dm
+Akuarium Q: rusuk =sqrt(26) dm
+Akuarium R: rusuk =sqrt(35)dm
+Manakah hasil aproksimasi dan pembulatan panjang rusuk akuarium tersebut yang benar? (Jawaban benar dapat lebih dari satu)","[""Aproksimasi rusuk Akuarium P ke persepuluhan terdekat adalah 3,9 dm."", ""Aproksimasi rusuk Akuarium Q ke persepuluhan terdekat adalah 5,1 dm."", ""Rusuk Akuarium R jika dibulatkan ke satuan terdekat adalah 5 dm."", ""Rusuk Akuarium R jika dibulatkan ke satuan terdekat adalah 6 dm.""]","A,B,D",1
+mcma-3-1-8,MCMA,C3,"Untuk mengecek kewajaran jawaban pada soal pembagian dan perkalian desimal:
+Hitungan:(48,2×19,7)/(9,8)
+Manakah estimasi pembulatan dan alasan analisis kewajaran yang benar? (Jawaban benar dapat lebih dari satu)","[""Jika masing-masing bilangan dibulatkan ke satuan terdekat, operasinya menjadi (48×19)/(9)."", ""Jika dibulatkan ke puluhan/satuan terdekat, operasinya menjadi (50×20)/(10)."", ""Hasil estimasi kewajaran jawaban dari operasi tersebut adalah sekitar 100."", ""Hasil estimasi kewajaran jawaban dari operasi tersebut adalah sekitar 1.000.""]","B,C",1
+kategori-3-1-9,KATEGORI,C3,"Ibu membeli tiga jenis kebutuhan dapur di minimarket sekolah:
+2,48 kg beras
+1,73 kg gula pasir
+0,85 kg minyak goreng
+Tentukan status BENAR atau SALAH untuk setiap pernyataan pembulatan berat belanjaan berikut!","[""Berat beras (2,48 kg) jika dibulatkan ke persepuluhan terdekat adalah 2,5 kg."", ""Berat gula pasir (1,73kg) jika dibulatkan ke satuan terdekat adalah 1kg."", ""Estimasi total berat seluruh belanjaan Ibu jika masing-masing dibulatkan ke persepuluhan terdekat adalah 5,1kg.""]","1,3",1
+kategori-3-1-10,KATEGORI,C3,"Diberikan dua nilai bentuk akar irasional hasil pengukuran bidang lahan sekolah:
+P=sqrt(18) meter
+Q=sqrt(50) meter
+Tentukan status BENAR atau SALAH untuk setiap pernyataan aproksimasi berikut!","[""Nilai aproksimasi P (sqrt(18)) ke persepuluhan terdekat adalah 4,2 m."", ""Nilai aproksimasi Q (sqrt(50)) jika dibulatkan ke satuan terdekat adalah 7 m."", ""Estimasi hasil penjumlahan P+Q ke satuan terdekat adalah 12 m.""]","1,2",1
+pg-3-2-1,PG,C3,"Seorang pengurus kebun sekolah mencatat hasil persemaian bibit tanaman selama satu semester sebanyak 47.580 bibit. Untuk keperluan laporan tahunan ke dinas pendidikan, pengurus diminta membulatkan jumlah bibit tersebut ke ribuan terdekat.
+Hasil pembulatan jumlah bibit tanaman ke ribuan terdekat adalah ....","[""47.000 bibit"", ""48.000 bibit"", ""47.600 bibit"", ""50.000 bibit""]",B,1
+pg-3-2-2,PG,C3,"Sebuah papan penunjuk jalan di area lapangan sekolah dipasang secara diagonal pada lahan berbentuk persegi dengan luas 52 m^(2). Panjang papan tersebut mendekati nilai sqrt(52)meter.
+Jika nilai sqrt(52) diaproksimasi dan dibulatkan hingga satu tempat desimal (persepuluhan terdekat), perkiraan panjang papan penunjuk jalan tersebut adalah ....","[""7,0 m"", ""7,1 m"", ""7,2 m"", ""7,3 m""]",C,1
+pg-3-2-3,PG,C3,"Ibu membeli mangga seberat 3 1/2kg di pasar tradisional dengan harga Rp24.600 per kg. Sebelum membayar, Ibu melakukan estimasi total harga dengan membulatkan harga satuan mangga ke ribuan terdekat.
+Berapa estimasi total harga mangga yang harus dibayar Ibu berdasarkan pembulatan tersebut?","[""Rp84.000"", ""Rp85.500"", ""Rp87.000"", ""Rp88.000""]",C,1
+pg-3-2-4,PG,C4,"Seorang siswa ingin mengecek kewajaran jawaban dari operasi perkalian dan pembagian desimal untuk biaya belanja bahan kantin:
+Operasi:(59,4×19,8)/(9,7)
+Dua siswa menganalisis cara estimasi cepat dengan pembulatan:
+Analisis A: Mengubah operasi menjadi (50×10)/(10)=50 dengan membulatkan semua angka ke bawah.
+Analisis B: Mengubah operasi menjadi (60×20)/(10)=120 dengan membulatkan setiap bilangan ke puluhan/satuan terdekat.
+Manakah analisis estimasi yang memberikan nilai paling wajar dan mendekati hasil sebenarnya (≈121,26)?","[""Analisis A, karena pembulatan ke bawah mencegah over-budget"", ""Analisis B, karena hasil 120 sangat dekat dengan hasil sebenarnya (121,26)"", ""Analisis A, karena langkah pembulatan lebih mudah dikalikan"", ""Analisis B, karena semua angka harus dinaikkan tanpa melihat digit pembulatannya""]",B,1
+pg-3-2-5,PG,C4,"Dua buah sampel jalur kawat penelitian laboratorium memiliki panjang sqrt(15) cm dan sqrt(16)cm. Seorang siswa menganalisis rentang nilai aproksimasi kedua kawat tersebut pada mistar yang memiliki ketelitian persepuluhan centimeter (0,1 cm).
+Hasil analisis aproksimasi panjang kedua kawat berturut-turut ke persepuluhan terdekat adalah ....","[""3,9cm dan 4,0 cm"", ""3,8cm dan 4,0 cm"", ""3,9cm dan 4,1 cm"", ""3,5cm dan 4,0 cm""]",A,1
+mcma-3-2-6,MCMA,C3,"Diberikan empat pernyataan tentang aturan pembulatan dan estimasi operasi bilangan desimal/akar:
+(i) Hasil pembulatan 25,648 ke dua tempat desimal (persatusan terdekat) adalah 25,65.
+(ii) Nilai aproksimasi dari sqrt(18) ke persepuluhan terdekat adalah 4,5.
+(iii) Estimasi hasil perkalian 19×408 dengan membulatkan ke puluhan/ratusan terdekat adalah 8.000.
+(iv) Nilai dari sqrt(30) berada di antara 5,4 dan 5,5.
+Manakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan (i)"", ""Pernyataan (ii)"", ""Pernyataan (iii)"", ""Pernyataan (iv)""]","A,C,D",1
+mcma-3-2-7,MCMA,C4,"Seorang peneliti di laboratorium sekolah mengamati panjang diagonal tiga ubin tempat duduk taman berbentuk persegi:
+Ubin X: 20 cm^(2)⇒ diagonal =sqrt(20) cm
+Ubin Y: 32 cm^(2)⇒ diagonal =sqrt(32) cm
+Ubin Z: 48 cm^(2)⇒ diagonal =sqrt(48) cm
+Manakah hasil analisis aproksimasi dan pembulatan panjang diagonal yang benar? (Jawaban benar dapat lebih dari satu)","[""Nilai aproksimasi diagonal Ubin X ke persepuluhan terdekat adalah 4,5cm."", ""Nilai aproksimasi diagonal Ubin Y ke persepuluhan terdekat adalah 5,7cm."", ""Diagonal Ubin Z (sqrt(48)) jika dibulatkan ke satuan terdekat adalah 6 cm."", ""Diagonal Ubin Z (sqrt(48)) jika dibulatkan ke satuan terdekat adalah 7cm.""]","A,B,D",1
+mcma-3-2-8,MCMA,C4,"Diberikan sebuah transaksi belanja pembekalan ekstrakurikuler: ""Membeli 48 pak buku seharga Rp19.500 per pak dan 12 botol minuman seharga Rp4.800 per botol.""
+Manakah analisis estimasi biaya total yang logis dan wajar? (Jawaban benar dapat lebih dari satu)","[""Estimasi dapat dihitung dengan (40×10.000)+(10×4.000)=440.000."", ""Estimasi dapat dihitung dengan (50×20.000)+(10×5.000)=1.050.000."", ""Total pembayaran riil akan sedikit lebih kecil dari hasil estimasi Rp1.050.000 karena semua komponen dibulatkan ke atas."", ""Hasil estimasi Rp1.050.000 pasti bernilai lebih kecil dari total pembayaran sebenarnya.""]","B,C",1
+kategori-3-2-9,KATEGORI,C3,"Tiga bahan masakan kantin sekolah ditimbang beratnya:
+Daging: 3,64 kg
+Sayur: 2,45 kg
+Bumbu: 0,78 kg
+Tentukan status BENAR atau SALAH untuk setiap pernyataan pembulatan berikut!","[""Berat daging (3,64kg) jika dibulatkan ke persepuluhan terdekat adalah 3,6kg."", ""Berat sayur (2,45 kg) jika dibulatkan ke satuan terdekat adalah 2kg."", ""Estimasi total berat ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah 6,9 kg.""]","1,3",1
+kategori-3-2-10,KATEGORI,C4,"Seorang tim arsitek sekolah menganalisis dua ukuran batas bentangan kanopi:
+A=sqrt(27)meter
+B=sqrt(75)meter
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Nilai aproksimasi A (sqrt(27)) jika dibulatkan ke persepuluhan terdekat adalah 5,2m."", ""Nilai aproksimasi B (sqrt(75)) jika dibulatkan ke satuan terdekat adalah 9m."", ""Nilai estimasi selisih B-A menggunakan pembulatan ke satuan terdekat adalah 5m.""]","1,2",1
+pg-3-3-1,PG,C4,"Seorang petugas perpustakaan sekolah mencatat total jumlah pengunjung mingguan selama satu semester sebanyak 38.462 orang. Petugas tersebut diminta menganalisis hasil pembulatan jumlah pengunjung untuk dua jenis laporan yang berbeda:
+Laporan Ringkas Dinas: Dibulatkan ke ribuan terdekat.
+Laporan Detail Internal: Dibulatkan ke ratusan terdekat.
+Dua anggota staf perpustakaan memberikan hasil analisis berikut:
+Analisis I: Laporan Dinas = 39.000 orang, Laporan Internal = 38.500 orang
+Analisis II: Laporan Dinas = 38.000 orang, Laporan Internal = 38.500 orang
+Analisis III: Laporan Dinas = 38.000 orang, Laporan Internal = 38.400 orang
+Analisis IV: Laporan Dinas = 39.000 orang, Laporan Internal = 38.400 orang
+Hasil analisis siapakah yang pasti benar?","[""Analisis I"", ""Analisis II"", ""Analisis III"", ""Analisis IV""]",B,1
+pg-3-3-2,PG,C4,"Seorang siswa menganalisis nilai aproksimasi dua kawat praktikum berbentuk irasional yang diukur dengan ketelitian persepuluhan centimeter (0,1 cm):
+Kawat A: panjang =sqrt(40)cm
+Kawat B: panjang =sqrt(41) cm
+Manakah analisis rentang nilai aproksimasi panjang kedua kawat tersebut yang benar jika dibulatkan ke persepuluhan terdekat?","[""6,2 cm dan 6,3 cm"", ""6,3 cm dan 6,4 cm"", ""6,3 cm dan 6,5 cm"", ""6,4 cm dan 6,4 cm""]",B,1
+pg-3-3-3,PG,C4,"Seorang pembina pramuka mengecek kewajaran anggaran belanja untuk 28 paket pasak tenda seharga Rp14.850 per paket. Pembina tersebut ingin membandingkan nilai estimasi pembulatan cepat dengan hasil perhitungan riil (28×14.850=415.800).
+Model matematika estimasi manakah yang paling wajar dan memberikan batas atas (upper bound) anggaran yang aman?","[""20×10.000=200.000"", ""25×14.000=350.000"", ""30×15.000=450.000"", ""30×14.000=420.000""]",C,1
+pg-3-3-4,PG,C4,"Seorang guru meminta dua orang siswa menganalisis kewajaran hasil operasi pembagian desimal untuk konsumsi acara sekolah:
+Hitungan Riil:(398,8×20,4)/(4,9)=(8135,52)/(4,9)≈1.660,31
+Kedua siswa mengajukan metode estimasi cepat berikut:
+Analisis I: Membulatkan menjadi (300×20)/(5)=(6000)/(5)=1.200
+Analisis II: Membulatkan menjadi (400×20)/(5)=(8000)/(5)=1.600
+Hasil analisis manakah yang memberikan estimasi paling akurat dan mendekati nilai sebenarnya?","[""Analisis I, karena 398,8 lebih aman dibulatkan ke bawah"", ""Analisis II, karena 400 sangat dekat dengan 398,8 sehingga hasil 1.600 mendekati 1.660,31"", ""Analisis I, karena perkalian angka 300 lebih mudah dihitung tanpa kalkulator"", ""Analisis II, karena semua angka harus dibulatkan ke atas tanpa memperhatikan posisinya""]",B,1
+pg-3-3-5,PG,C4,"Dua buah papan reklame kegiatan pameran seni diukur panjang diagonalnya:
+Papan X: diagonal =sqrt(38)meter
+Papan Y: diagonal =sqrt(83)meter
+Seorang teknisi membulatkan panjang diagonal kedua papan ke satuan terdekat untuk menganalisis selisih kebutuhan bingkai. Nilai estimasi selisih panjang diagonal Papan Y dan Papan X adalah ....","[""1m"", ""2m"", ""3m"", ""4m""]",C,1
+mcma-3-3-6,MCMA,C4,"Diberikan empat pernyataan analisis pembulatan dan aproksimasi bilangan:
+(i) Bilangan 18,749 jika dibulatkan ke satu tempat desimal (persepuluhan terdekat) adalah 18,7.
+(ii) Nilai aproksimasi dari sqrt(22) ke persepuluhan terdekat adalah 4,9.
+(iii) Nilai dari sqrt(55) berada di antara 7,4 dan 7,5.
+(iv) Hasil estimasi dari 503×197 menggunakan pembulatan ke ratusan terdekat adalah 100.000.
+Manakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan (i)"", ""Pernyataan (ii)"", ""Pernyataan (iii)"", ""Pernyataan (iv)""]","A,C,D",1
+mcma-3-3-7,MCMA,C4,"Seorang peneliti di laboratorium sekolah menganalisis hasil aproksimasi dan pembulatan panjang tiga sampel pita pengukur:
+Sampel 1: panjang =sqrt(12)cm
+Sampel 2: panjang =sqrt(29) cm
+Sampel 3: panjang =sqrt(50)cm
+Manakah hasil analisis aproksimasi dan pembulatan yang benar? (Jawaban benar dapat lebih dari satu)","[""Nilai aproksimasi Sampel 1 (sqrt(12)) ke persepuluhan terdekat adalah 3,5 cm."", ""Nilai aproksimasi Sampel 2 (sqrt(29)) ke persepuluhan terdekat adalah 5,4 cm."", ""Nilai Sampel 3 (sqrt(50)) jika dibulatkan ke satuan terdekat adalah 8 cm."", ""Nilai Sampel 3 (sqrt(50)) jika dibulatkan ke satuan terdekat adalah 7 cm.""]","A,B,D",1
+mcma-3-3-8,MCMA,C4,"Diberikan dua metode estimasi transaksi belanja perlengkapan laboratorium: ""Membeli 39 unit wadah sampel seharga Rp14.500 per unit dan 19 unit penutup seharga Rp4.800 per unit.""
+Metode I: (40×15.000)+(20×5.000)=600.000+100.000=700.000
+Metode II: (30×10.000)+(10×4.000)=300.000+40.000=340.000
+Manakah analisis perbandingan kedua metode estimasi di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Metode II menghasilkan nilai estimasi yang lebih wajar dan akurat disbanding Metode I."", ""Metode I menerapkan pembulatan ke atas pada semua komponen sehingga menghasilkan nilai estimasi batas atas (upper bound) sebesar Rp700.000."", ""Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Metode I (Rp700.000)."", ""Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Metode II (Rp340.000).""]","B,C",1
+kategori-3-3-9,KATEGORI,C4,"Seorang teknisi menimbang massa tiga bahan kimia kering di laboratorium:
+Bahan P: 4,36 gram
+Bahan Q: 2,65 gram
+Bahan R: 1,24 gram
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis pembulatan massa berikut!","[""Massa Bahan P (4,36 gram) jika dibulatkan ke persepuluhan terdekat adalah 4,4 gram."", ""Massa Bahan Q (2,65 gram) jika dibulatkan ke satuan terdekat adalah 2 gram."", ""Estimasi total massa ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah 8,3 gram.""]","1,3",1
+kategori-3-3-10,KATEGORI,C4,"Diberikan dua ukuran panjang jalur pipa berbentuk irasional hasil pengukuran bidang taman:
+X=sqrt(19)meter
+Y=sqrt(60)meter
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis aproksimasi berikut!","[""Nilai aproksimasi X (sqrt(19)) jika dibulatkan ke persepuluhan terdekat adalah 4,4m."", ""Nilai aproksimasi Y (sqrt(60)) jika dibulatkan ke satuan terdekat adalah 8m."", ""Nilai estimasi total panjang X+Y menggunakan pembulatan ke satuan terdekat masing-masing komponen adalah 11m.""]","1,2",1
+pg-4-1-1,PG,C3,"Dua buah bus antarkota sekolah berangkat dari terminal yang sama untuk mengantar siswa kegiatan praktikum. Bus A berangkat setiap 12 hari sekali dan Bus B berangkat setiap 18 hari sekali. Jika pada tanggal 4 Oktober kedua bus berangkat bersama-sama dari terminal, berapa hari lagi paling cepat kedua bus tersebut akan berangkat bersama-sama kembali?","[""6 hari lagi"", ""12 hari lagi"", ""36 hari lagi"", ""72 hari lagi""]",B,1
+pg-4-1-2,PG,C3,"Pengurus OSIS membagikan paket bantuan bakti sosial berupa 60 buku tulis, 45 pensil, dan 30 penghapus. Barang-barang tersebut akan dimasukkan ke dalam beberapa kantong bingkisan dengan jumlah dan jenis barang yang sama banyak di setiap kantong tanpa ada sisa.
+Banyaknya bingkisan maksimum yang dapat dibuat oleh pengurus OSIS adalah ....","[""5 bingkisan"", ""10 bingkisan"", ""15 bingkisan"", ""30 bingkisan""]",C,1
+pg-4-1-3,PG,C3,Suatu bilangan asli N memiliki bentuk faktorisasi prima 2^(3)×3^(2)×5. Manakah yang merupakan faktor persekutuan dari bilangan N tersebut dengan bilangan 120?,"[""2^(4)×3"", ""2^(3)×3^(2)×5"", ""2^(3)×3×5"", ""2^(2)×3^(2)×5""]",C,1
+pg-4-1-4,PG,C3,"Tiga buah bel di sekolah berbunyi secara berkala. Bel A berbunyi setiap 6 menit, Bel B berbunyi setiap 8 menit, dan Bel C berbunyi setiap 12 menit. Jika ketiga bel berbunyi bersamaan pada pukul 07.00 WIB, pada pukul berapa ketiga bel tersebut akan berbunyi bersama-sama untuk kedua kalinya?","[""Pukul 07.12 WIB"", ""Pukul 07.24 WIB"", ""Pukul 07.36 WIB"", ""Pukul 07.48 WIB""]",B,1
+pg-4-1-5,PG,C3,"Ibu membeli 48 kue donat dan 36 kue lemper untuk acara syukuran kelas. Kue-kue tersebut ditempatkan ke dalam beberapa piring dengan jumlah dan kombinasi yang sama di setiap piring. Jika piring yang digunakan sebanyak-banyaknya, berapa isi kue donat dan kue lemper pada masing-masing piring?","[""4 kue donat dan 3 kue lemper"", ""3 kue donat dan 4 kue lemper"", ""12 kue donat dan 12 kue lemper"", ""6 kue donat dan 4 kue lemper""]",A,1
+mcma-4-1-6,MCMA,C3,"Diberikan tiga buah bilangan asli: 18,24, dan 36. Manakah pernyataan berikut yang benar mengenai KPK, FPB, atau faktor persekutuannya? (Jawaban benar dapat lebih dari satu)","[""Faktorisasi prima dari 24 adalah 2^(3)×3."", ""FPB dari ketiga bilangan tersebut adalah 12."", ""FPB dari ketiga bilangan tersebut adalah 6."", ""KPK dari ketiga bilangan tersebut adalah 72.""]","A,C,D",1
+mcma-4-1-7,MCMA,C3,"Dua lampu hias laboratorium menyala berulang secara periodik. Lampu Merah menyala setiap 15 detik dan Lampu Hijau menyala setiap 20 detik. Kedua lampu menyala bersamaan pada detik ke-0.
+Manakah pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Kedua lampu akan menyala bersamaan kembali setiap 60 detik."", ""FPB dari 15 dan 20 adalah 10."", ""Dalam waktu 3 menit (180 detik), kedua lampu menyala bersamaan sebanyak 2 kali (tidak menghitung detik ke-0)."", ""Dalam waktu 3 menit (180 detik), kedua lampu menyala bersamaan sebanyak 3 kali (tidak menghitung detik ke-0).""]","A,D",1
+mcma-4-1-8,MCMA,C3,"Tiga kelompok belajar SMP menerima sumbangan alat tulis berupa 84 buku, 56 pensil, dan 28 penggaris. Perlengkapan tersebut akan dibagi rata ke beberapa kantong bantuan tanpa tersisa.
+Manakah pernyataan berikut yang benar mengenai pembagian kantong bantuan tersebut? (Jawaban benar dapat lebih dari satu)","[""Jumlah kantong terbanyak yang dapat dibuat adalah 28 kantong."", ""Setiap kantong bantuan akan berisi 3 buku."", ""Setiap kantong bantuan akan berisi 3 pensil."", ""FPB dari 84, 56, dan 28 dapat dinyatakan sebagai 2^(2)×7.""]","A,B,D",1
+kategori-4-1-9,KATEGORI,C3,"Ibu membawa 72 kue bolu dan 90 kue lapis untuk disajikan pada acara rapat komite sekolah. Seluruh kue disajikan di atas beberapa piring dengan jumlah bolu dan lapis yang sama di setiap piring.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan piring penyajian kue tersebut!","[""Piring terbanyak yang dapat digunakan untuk menyajikan seluruh kue adalah 18 piring."", ""Pada setiap piring, banyaknya kue bolu yang disajikan adalah 5 buah."", ""Selisih banyaknya kue bolu dan kue lapis pada masing-masing piring adalah 1 buah.""]","1,3",1
+kategori-4-1-10,KATEGORI,C3,"Dua pita pengukur latihan ekstrakurikuler dipotong menjadi beberapa bagian yang sama panjang tanpa sisa. Pita pertama panjangnya 45cm dan pita kedua panjangnya 75 cm.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan potongan pita tersebut!","[""Panjang potongan pita terpanjang yang dapat diperoleh adalah 15 cm."", ""Dari pita pertama (45cm) diperoleh sebanyak 3 potongan pita."", ""Total seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 10 potongan.""]","1,2",1
+pg-4-2-1,PG,C3,"Dua orang petugas kebersihan sekolah menjadwalkan perawatan fasilitas secara berkala. Petugas A membersihkan laboratorium komputer setiap 8 hari sekali, sedangkan Petugas B membersihkan laboratorium IPA setiap 10 hari sekali. Jika pada tanggal 10 November kedua petugas tersebut melakukan perawatan bersama-sama untuk pertama kalinya, berapa hari lagi paling cepat mereka akan melakukan perawatan bersama-sama kembali?","[""18 hari lagi"", ""20 hari lagi"", ""40 hari lagi"", ""80 hari lagi""]",C,1
+pg-4-2-2,PG,C3,"Panitia kegiatan peringatan hari Pahlawan di sekolah menerima sumbangan bahan pokok berupa 48 kg beras, 36 kg gula pasir, dan 24 kg minyak goreng. Bahan pokok tersebut akan dibagi ke dalam beberapa paket bantuan dengan jumlah dan jenis bahan pokok yang sama banyak tanpa ada sisa.
+Banyaknya paket bantuan maksimum yang dapat dibentuk oleh panitia adalah ....","[""6 paket"", ""12 paket"", ""24 paket"", ""36 paket""]",B,1
+pg-4-2-3,PG,C3,"Tiga sirine latihan evakuasi bencana di kompleks sekolah menyala secara berkala. Sirine I menyala setiap 12 menit, Sirine II menyala setiap 15 menit, dan Sirine III menyala setiap 20 menit. Jika ketiga sirine membunyikan tanda awal bersamaan pada pukul 07.00 WIB, pukul berapa ketiga sirine tersebut membunyikan tanda bersamaan untuk kedua kalinya?","[""Pukul 08.00 WIB"", ""Pukul 08.20 WIB"", ""Pukul 08.30 WIB"", ""Pukul 09.00 WIB""]",A,1
+pg-4-2-4,PG,C4,"Seorang guru meminta dua orang siswa menganalisis faktorisasi prima dan kelipatan dari bilangan 180 untuk menentukan jumlah faktor positifnya:
+Analisis I: 180=2×3^(2)×10, sehingga memiliki faktor sebanyak 6 buah.
+Analisis II: 180=2^(2)×3^(2)×5, sehingga seluruh faktor primanya adalah 2,3, dan 5.
+Hasil analisis manakah yang benar berdasarkan konsep faktorisasi prima?","[""Analisis I, karena 10 merupakan faktor dari 180"", ""Analisis II, karena faktorisasi prima hanya boleh memuat bilangan prima"", ""Analisis I, karena penguraiannya lebih cepat dan singkat"", ""Analisis II, karena angka 180 tidak habis dibagi 10""]",B,1
+pg-4-2-5,PG,C4,"Diberikan dua buah bilangan asli A dan B. Bilangan A memiliki faktorisasi prima 2^(3)×3^(2)×5, sedangkan bilangan B memiliki faktorisasi prima 2^(2)×3^(3)×7. Seorang siswa menganalisis hubungan KPK dan FPB dari kedua bilangan tersebut.
+Bentuk faktorisasi prima dari FPB(A,B) yang benar adalah ....","[""2^(3)×3^(3)×5×7"", ""2^(3)×3^(2)"", ""2^(2)×3^(2)"", ""2^(2)×3""]",C,1
+mcma-4-2-6,MCMA,C3,"Diberikan tiga buah bilangan asli: 24,36, dan 60. Manakah pernyataan berikut yang benar mengenai faktorisasi prima, FPB, atau KPK dari ketiga bilangan tersebut? (Jawaban benar dapat lebih dari satu)","[""Faktorisasi prima dari 60 adalah 2^(2)×3×5."", ""FPB dari ketiga bilangan tersebut adalah 24."", ""FPB dari ketiga bilangan tersebut adalah 12."", ""KPK dari ketiga bilangan tersebut adalah 360.""]","A,C,D",1
+mcma-4-2-7,MCMA,C4,"Dua buah interval kedipan lampu hias panggung masing-masing adalah 18 detik dan 24 detik. Kedua lampu berkedip bersamaan pada detik ke-0. Seorang siswa menganalisis keterkaitan frekuensi kedipan kedua lampu:
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Kedua lampu akan berkedip bersamaan kembali setiap 72 detik."", ""FPB dari 18 dan 24 adalah 6."", ""Dalam waktu 3 menit (180 detik), kedua lampu berkedip bersamaan sebanyak 3 kali (tidak menghitung detik ke-0)."", ""Dalam waktu 3 menit (180 detik), kedua lampu berkedip bersamaan sebanyak 2 kali (tidak menghitung detik ke-0).""]","A,B,D",1
+mcma-4-2-8,MCMA,C4,"Seorang pengurus lab komputer menganalisis pembagian 72 unit tetikus (mouse) dan 96 unit papan ketik (keyboard) ke dalam beberapa ruangan praktikum dengan jumlah dan kombinasi yang identik tanpa tersisa.
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah 12 ruangan."", ""Jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah 24 ruangan."", ""Setiap ruangan yang menerima paket akan mendapatkan 3 unit tetikus dan 4 unit papan ketik."", ""Setiap ruangan yang menerima paket akan mendapatkan 4 unit tetikus dan 3 unit papan ketik.""]","B,C",1
+kategori-4-2-9,KATEGORI,C3,"Sebuah panitia bazar sekolah menyediakan 54 botol jus apel dan 72 botol jus jeruk. Seluruh botol jus dikemas ke dalam beberapa kardus dengan jumlah dan komposisi yang sama di setiap kardus.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan kemasan kardus tersebut!","[""Kardus terbanyak yang dapat digunakan untuk mengemas seluruh botol jus adalah 18 kardus."", ""Banyaknya botol jus jeruk pada setiap kardus adalah 3 botol."", ""Total seluruh botol jus (apel dan jeruk) pada masing-masing kardus adalah 7 botol.""]","1,3",1
+kategori-4-2-10,KATEGORI,C4,"Dua pita hias berukuran 60cm dan 90cm dipotong menjadi beberapa bagian sama panjang tanpa sisa. Seorang siswa menganalisis hasil pemotongan pita tersebut.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Ukuran potongan pita terpanjang yang dapat dibuat adalah 30cm."", ""Jumlah seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 5 potongan."", ""Jumlah potongan yang diperoleh dari pita 90cm dua kali lebih banyak daripada pita 60cm.""]","1,2",1
+pg-4-3-1,PG,C4,"Tiga buah jadwal pemeliharaan rutin pendingin ruangan di gedung sekolah dicatat sebagai berikut:
+Ruang Laboratorium: setiap 12 hari sekali
+Ruang Perpustakaan: setiap 15 hari sekali
+Ruang Aulia: setiap 20 hari sekali
+Jika pada tanggal 1 Maret ketiga ruangan dibersihkan bersama-sama, tiga siswa menganalisis waktu pemeliharaan bersama berikutnya:
+Analisis I: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu tanggal 30 April.
+Analisis II: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu tanggal 1 Mei.
+Analisis III: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu tanggal 30 April (mengingat bulan Maret memiliki 31 hari).
+Analisis IV: Pemeliharaan bersama berikutnya terjadi setelah 30 hari, yaitu tanggal 31 Maret.
+Manakah analisis penanggalan yang pasti benar?","[""Analisis I"", ""Analisis II"", ""Analisis III"", ""Analisis IV""]",C,1
+pg-4-3-2,PG,C4,"Diberikan dua buah bilangan asli P dan Q yang dinyatakan dalam bentuk pembuktian faktorisasi prima:
+P=2^(3)×3^(2)×5
+Q=2^(2)×3×7
+Seorang siswa menganalisis pembagi persekutuan terbesar yang dapat membagi habis kedua bilangan tersebut tanpa sisa. Bentuk faktorisasi prima dari FPB(P,Q) yang benar adalah ....","[""2^(3)×3^(2)"", ""2^(2)×3"", ""2^(3)×3^(2)×5×7"", ""2^(2)×3^(2)×5""]",B,1
+pg-4-3-3,PG,C4,"Pengurus koperasi sekolah hendak mengemas 90 buku tulis dan 105 pulpen ke dalam beberapa wadah bingkisan dengan jumlah dan kombinasi isi yang sama tanpa ada sisa.
+Dua orang pengurus mengajukan analisis banyaknya wadah terbanyak dan isi per wadah:
+Analisis A: Dibuat 15 wadah, masing-masing berisi 6 buku tulis dan 7 pulpen.
+Analisis B: Dibuat 30 wadah, masing-masing berisi 3 buku tulis dan 3,5 pulpen.
+Hasil analisis manakah yang benar secara sistem matematis dan logika barang?","[""Analisis A, karena FPB dari 90 dan 105 adalah 15 sehingga isi barang bernilai bilangan bulat"", ""Analisis B, karena semakin banyak wadah maka bingkisan semakin efisien"", ""Analisis A, karena buku tulis harus lebih banyak dari pulpen"", ""Analisis B, karena 30 merupakan kelipatan dari 15""]",A,1
+pg-4-3-4,PG,C4,"Seorang pembina pramuka mengatur barisan 120 siswa laki-laki dan 150 siswa perempuan ke dalam beberapa kelompok campuran dengan jumlah anggota laki-laki dan perempuan yang sama di setiap kelompok tanpa ada sisa.
+Jika pembina membentuk kelompok sebanyak-banyaknya, berapakah jumlah kelompok yang terbentuk serta banyaknya siswa laki-laki pada masing-masing kelompok?","[""15 kelompok dan 8 siswa"", ""30 kelompok dan 5 siswa"", ""30 kelompok dan 4 siswa"", ""60 kelompok dan 2 siswa""]",C,1
+pg-4-3-5,PG,C4,"Seorang peneliti mengamati dua buah bilangan berpangkat faktorisasi prima X=2^(3)×3^(2) dan Y=2^(4)×3×5. Peneliti tersebut ingin menganalisis kelipatan persekutuan terkecil (KPK) dari kedua bilangan sebagai acuan skala eksperimen.
+Bentuk faktorisasi prima dari KPK(X,Y) yang benar adalah ....","[""2^(3)×3"", ""2^(4)×3^(2)×5"", ""2^(3)×3^(2)×5"", ""2^(7)×3^(3)×5""]",B,1
+mcma-4-3-6,MCMA,C4,"Diberikan tiga buah bilangan asli: 36,48, dan 72. Seorang siswa menganalisis sifat-sifat faktorisasi, FPB, dan KPK dari ketiga bilangan tersebut.
+Manakah hasil analisis berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Faktorisasi prima dari 72 adalah 2^(3)×3^(2)."", ""FPB dari ketiga bilangan tersebut adalah 24."", ""FPB dari ketiga bilangan tersebut adalah 12."", ""KPK dari ketiga bilangan tersebut adalah 144.""]","A,C,D",1
+mcma-4-3-7,MCMA,C4,"Dua buah kedipan lampu penanda simulasi sains berulang secara periodik setiap 20 detik dan 30 detik. Kedua lampu menyala bersamaan pada detik ke-0. Seorang siswa menganalisis frekuensi menyala bersama kedua lampu dalam selang waktu 4 menit (240 detik).
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Kedua lampu berkedip bersamaan kembali setiap 60 detik."", ""FPB dari 20 dan 30 adalah 10."", ""Dalam selang waktu 240 detik, kedua lampu berkedip bersamaan sebanyak 5 kali (tidak menghitung detik ke-0)."", ""Dalam selang waktu 240 detik, kedua lampu berkedip bersamaan sebanyak 4 kali (tidak menghitung detik ke-0).""]","A,B,D",1
+mcma-4-3-8,MCMA,C4,"Seorang panitia kegiatan membagikan 80 pak kertas saring dan 112 botol cairan uji ke beberapa kelompok praktikum secara merata tanpa sisa.
+Manakah hasil analisis pembagian kelompok berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Jumlah kelompok terbanyak yang dapat menerima paket barang tersebut adalah 32 kelompok."", ""Jumlah kelompok terbanyak yang dapat menerima paket barang tersebut adalah 16 kelompok."", ""Setiap kelompok yang menerima paket akan mendapatkan 5 pak kertas saring dan 7 botol cairan uji."", ""Setiap kelompok yang menerima paket akan mendapatkan 7 pak kertas saring dan 5 botol cairan uji.""]","B,C",1
+kategori-4-3-9,KATEGORI,C4,"Sebuah laboratorium sekolah menerima bantuan 60 unit mikroskop dan 84 unit kaca persiapan. Seluruh alat dikemas ke dalam beberapa kotak penyimpanan dengan kombinasi isi yang persis sama tanpa ada sisa.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Kotak penyimpanan terbanyak yang dapat digunakan untuk mengemas seluruh alat adalah 12 kotak."", ""Banyaknya kaca persiapan pada masing-masing kotak penyimpanan adalah 5 unit."", ""Total seluruh unit alat (mikroskop dan kaca persiapan) pada masing-masing kotak penyimpanan adalah 12 unit.""]","1,3",1
+kategori-4-3-10,KATEGORI,C4,"Dua pita pengukur latihan olahraga berukuran 75 cm dan 105 cm dipotong menjadi beberapa bagian yang sama panjang tanpa ada sisa. Seorang siswa menganalisis hasil pemotongan tersebut.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Ukuran panjang potongan pita terpanjang yang dapat dibuat adalah 15 cm."", ""Jumlah seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 12 potongan."", ""Jumlah potongan dari pita 105 cm dua kali lebih banyak daripada potongan dari pita 75 cm.""]","1,2",1
+pg-5-1-1,PG,C3,"Tim OSIS SMP menyiapkan dua jenis minuman untuk disajikan dalam acara jalan sehat sekolah. Panitia mencampur 18 liter sirup rasa jeruk dengan 13,5 liter air mineral ke dalam wadah utama.
+Rasio paling sederhana antara volume sirup rasa jeruk dan air mineral dalam campuran tersebut adalah ....","[""3:2"", ""4:3"", ""5:4"", ""8:5""]",B,1
+pg-5-1-2,PG,C3,"Seorang siswa menggambar denah denah denah tata letak stan bazar sekolah. Jarak sebenarnya antara stan pameran IPA dan stan prakarya adalah 45 meter. Jika denah tersebut digambar menggunakan skala 1:300, berapa jarak antara kedua stan pameran tersebut pada denah?","[""9 cm"", ""12 cm"", ""15 cm"", ""18 cm""]",C,1
+pg-5-1-3,PG,C3,"Petugas kebersihan mengisi bak penampungan air laboratorium IPA yang berkapasitas 450 liter hingga penuh. Selang pengisi air dinyalakan mulai pukul 07.15 WIB dan bak terisi penuh tepat pada pukul 07.33 WIB.
+Laju aliran air (debit) dari selang tersebut adalah ....","[""20 liter/menit"", ""25 liter/menit"", ""30 liter/menit"", ""35 liter/menit""]",B,1
+pg-5-1-4,PG,C3,"Koperasi sekolah menjual dua paket alat tulis sekolah:
+Paket Hemat A: berisi 6 buku latihan seharga Rp27.000
+Paket Hemat B: berisi 7 buku latihan seharga Rp31.500
+Jika harga per unit buku pada Paket Hemat B bernilai ekuivalen (proporsional) dengan Paket Hemat A, berapakah harga yang harus dibayar siswa untuk membeli 7 buku latihan tersebut?","[""Rp28.000"", ""Rp30.000"", ""Rp31.500"", ""Rp35.000""]",C,1
+pg-5-1-5,PG,C3,"Tabel berikut menunjukkan hubungan proporsional antara volume bahan bakar minyak (bensin) yang digunakan sepeda motor inventaris sekolah dan jarak tempuh yang berhasil dicapai:
+Volume Bensin (liter) | 
+Jarak Tempuh (km)
+
+2 | 
+80
+
+3 | 
+120
+
+5 | 
+200
+
+k | 
+240
+Berdasarkan hubungan proporsional pada tabel di atas, berapa nilai k (jarak tempuh 240 km memerlukan berapa liter bensin)?","[""5,5 liter"", ""6,0 liter"", ""6,5 liter"", ""7,0 liter""]",B,1
+mcma-5-1-6,MCMA,C3,"Seorang pengurus perpustakaan membandingkan rasio koleksi buku di dua rak terpisah:
+Rak 1: memuat 36 buku pelajaran dan 24 buku cerita.
+Rak 2: memuat 45 buku pelajaran dan 30 buku cerita.
+Manakah pernyataan berikut yang benar mengenai rasio dan ekuivalensi buku pada kedua rak tersebut? (Jawaban benar dapat lebih dari satu)","[""Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 1 adalah 3:2."", ""Rasio paling sederhana antara buku pelajaran dan buku cerita di Rak 2 adalah 4:3."", ""Rasio buku pelajaran dan buku cerita di Rak 1 ekuivalen (sama bernilai) dengan Rak 2."", ""Rasio total buku cerita terhadap seluruh buku di Rak 1 adalah 2:5.""]","A,C,D",1
+mcma-5-1-7,MCMA,C3,"Sebuah denah gedung aula sekolah digambar dengan skala 1:250. Pada denah tersebut, aula berbentuk persegi panjang memiliki ukuran panjang 12cm dan lebar 8cm.
+Manakah pernyataan berikut yang benar mengenai ukuran aula sebenarnya? (Jawaban benar dapat lebih dari satu)","[""Panjang aula sebenarnya adalah 30 meter."", ""Lebar aula sebenarnya adalah 20 meter."", ""Luas aula pada denah adalah 100 cm^(2)."", ""Luas aula sebenarnya adalah 600 m^(2).""]","A,B,D",1
+mcma-5-1-8,MCMA,C3,"Dua sepeda motor A dan B melakukan perjalanan dari sekolah menuju kompleks tempat berkemah.
+Sepeda Motor A menempuh jarak 90km dalam waktu 1,5 jam.
+Sepeda Motor B menempuh jarak 110km dalam waktu 2 jam.
+Manakah pernyataan berikut yang benar mengenai laju kecepatan kedua sepeda motor tersebut? (Jawaban benar dapat lebih dari satu)","[""Kecepatan rata-rata Sepeda Motor A adalah 50 km/jam."", ""Kecepatan rata-rata Sepeda Motor A adalah 60 km/jam."", ""Kecepatan rata-rata Sepeda Motor B adalah 55 km/jam."", ""Sepeda Motor B melaju lebih cepat daripada Sepeda Motor A.""]","B,C",1
+kategori-5-1-9,KATEGORI,C3,"Ibu kantin sekolah membeli dua kemasan minyak goreng dengan ukuran berbeda:
+Kemasan P: berisi 2,5 liter seharga Rp35.000
+Kemasan Q: berisi 4,0 liter seharga Rp52.000
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berkaitan dengan laju harga per liter minyak goreng tersebut!","[""Harga per liter minyak goreng Kemasan P adalah Rp14.000."", ""Harga per liter minyak goreng Kemasan Q adalah Rp13.500."", ""Kemasan Q menawarkan harga per liter yang lebih murah dibandingkan Kemasan P.""]","1,3",1
+kategori-5-1-10,KATEGORI,C3,"Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra pengrajin dan banyak barang souvenir pameran sekolah yang dihasilkan:
+Waktu Kerja (jam) | 
+Souvenir Dihasilkan (unit)
+
+3 | 
+18
+
+5 | 
+30
+
+8 | 
+48
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis proporsi berdasarkan tabel di atas!","[""Laju pembuatan souvenir tersebut adalah 6 unit/jam."", ""Jika pengrajin bekerja selama 10jam, maka barang souvenir yang dihasilkan adalah 60 unit."", ""Untuk menghasilkan 72 unit souvenir, waktu kerja yang dibutuhkan adalah 14 jam.""]","1,2",1
+pg-5-2-1,PG,C3,"Untuk keperluan hiasan panggung acara perpisahan sekolah, tim dekorasi menyiapkan dua jenis pita. Panjang pita merah adalah 22,5 meter dan panjang pita putih adalah 13,5 meter.
+Bentuk rasio paling sederhana antara panjang pita merah dan pita putih adalah ....","[""3:2"", ""5:3"", ""9:5"", ""15:8""]",B,1
+pg-5-2-2,PG,C3,"Seorang siswa menggambar denah tata letak panggung terbuka dan lapangan olahraga sekolah. Jarak sebenarnya antara panggung terbuka dan lapangan olahraga tersebut adalah 72 meter. Jika denah tersebut digambar menggunakan skala 1:400, berapa jarak antara kedua fasilitas tersebut pada denah?","[""12 cm"", ""15 cm"", ""18 cm"", ""24 cm""]",C,1
+pg-5-2-3,PG,C3,"Petugas kebersihan mengisi bak kolam ikan hias di taman sekolah yang berkapasitas 360 liter hingga penuh. Keran air dinyalakan mulai pukul 08.10 WIB dan kolam terisi penuh tepat pada pukul 08.30 WIB.
+Laju aliran air (debit) dari keran tersebut adalah ....","[""15 liter/menit"", ""18 liter/menit"", ""20 liter/menit"", ""24 liter/menit""]",B,1
+pg-5-2-4,PG,C4,"Pengurus kantin sekolah menganalisis dua opsi pembelian paket minuman kemasan botol:
+Paket X: Berisi 8 botol seharga Rp36.000
+Paket Y: Berisi 12 botol seharga Rp51.600
+Dua siswa memberikan laporan analisis harga per unit dan keefisienan opsi pembelian:
+Analisis I: Paket X lebih murah karena harga totalnya (Rp36.000) lebih kecil dibanding Paket Y.
+Analisis II: Paket Y lebih hemat karena harga per unitnya adalah Rp4.300/botol, sedangkan Paket X adalah Rp4.500/botol.
+Manakah hasil analisis yang pasti benar secara matematis?","[""Analisis I"", ""Analisis II"", ""Kedua analisis salah"", ""Paket X dan Y memiliki harga per unit yang ekuivalen""]",B,1
+pg-5-2-5,PG,C4,"Tabel berikut menunjukkan hubungan proporsional antara volume konsumsi bahan bakar (bensin) kendaraan operasional sekolah dan jarak tempuh yang dicapai:
+Volume Bensin (liter) | 
+Jarak Tempuh (km)
+
+3 | 
+120
+
+4 | 
+160
+
+6 | 
+240
+
+7,5 | 
+m
+Seorang siswa menganalisis nilai m (jarak tempuh yang dicapai jika bensin yang terpakai sebanyak 7,5 liter). Nilai m yang benar adalah ....","[""270 km"", ""280 km"", ""300 km"", ""320 km""]",C,1
+mcma-5-2-6,MCMA,C3,"Seorang petugas perpustakaan membandingkan rasio jenis buku di dua rak:
+Rak A: memuat 48 buku fiksi dan 32 buku non-fiksi.
+Rak B: memuat 60 buku fiksi dan 40 buku non-fiksi.
+Manakah pernyataan berikut yang benar mengenai rasio dan ekuivalensi buku pada kedua rak tersebut? (Jawaban benar dapat lebih dari satu)","[""Rasio paling sederhana antara buku fiksi dan non-fiksi di Rak A adalah 3:2."", ""Rasio paling sederhana antara buku fiksi dan non-fiksi di Rak B adalah 4:3."", ""Rasio buku fiksi dan non-fiksi di Rak A ekuivalen (senilai) dengan Rak B."", ""Rasio total buku fiksi terhadap seluruh buku di Rak A adalah 3:5.""]","A,C,D",1
+mcma-5-2-7,MCMA,C4,"Sebuah denah ruang serbaguna sekolah digambar menggunakan skala 1:200. Pada denah, ruang tersebut berbentuk persegi panjang dengan ukuran panjang 15 cm dan lebar 10 cm. Seorang siswa menganalisis dimensi sebenarnya dari ruang tersebut.
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Panjang ruang serbaguna sebenarnya adalah 30 meter."", ""Lebar ruang serbaguna sebenarnya adalah 20 meter."", ""Luas ruang serbaguna sebenarnya adalah 300( m)^(2)."", ""Luas ruang serbaguna sebenarnya adalah 600 m^(2).""]","A,B,D",1
+mcma-5-2-8,MCMA,C4,"Dua sepeda motor P dan Q melakukan perjalanan dari sekolah menuju lokasi kegiatan bakti sosial:
+Sepeda Motor P menempuh jarak 100km dalam waktu 2 jam.
+Sepeda Motor Q menempuh jarak 120km dalam waktu 2,5 jam.
+Seorang siswa menganalisis laju kecepatan kedua sepeda motor tersebut. Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Kecepatan rata-rata Sepeda Motor P adalah 45 km/jam."", ""Kecepatan rata-rata Sepeda Motor P adalah 50 km/jam."", ""Kecepatan rata-rata Sepeda Motor Q adalah 48 km/jam."", ""Sepeda Motor Q melaju lebih cepat daripada Sepeda Motor P.""]","B,C",1
+kategori-5-2-9,KATEGORI,C3,"Pengurus kantin sekolah membeli dua kemasan beras dengan ukuran berbeda:
+Kemasan A: berisi 5 kg seharga Rp70.000
+Kemasan B: berisi 10 kg seharga Rp135.000
+Tentukan status BENAR atau SALAH untuk setiap pernyataan berkaitan dengan laju harga per kilogram beras tersebut!","[""Harga per kilogram beras Kemasan A adalah Rp14.000."", ""Harga per kilogram beras Kemasan B adalah Rp14.000."", ""Kemasan B menawarkan harga per kilogram yang lebih murah dibandingkan Kemasan A.""]","1,3",1
+kategori-5-2-10,KATEGORI,C4,"Tabel berikut menyajikan data hubungan antara jumlah jam kerja tim sablon dan banyak kaus panitia kegiatan sekolah yang selesai disablon:
+Waktu Kerja (jam) | 
+Kaus Selesai (lembar)
+
+2 | 
+24
+
+5 | 
+60
+
+8 | 
+96
+Seorang siswa menganalisis proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Laju pencetakan sablon kaus tersebut adalah 12 lembar/jam."", ""Jika tim bekerja selama 6 jam, maka kaus yang selesai disablon adalah 72 lembar."", ""Untuk menyelesaikan 120 lembar kaus, waktu kerja yang dibutuhkan adalah 12 jam.""]","1,2",1
+pg-5-3-1,PG,C4,"Seorang pengurus OSIS menganalisis dua resep campuran larutan pembersih lantai laboratorium:
+Campuran P: 12,5 ml konsentrat dicampur dengan 37,5 ml air bersih.
+Campuran Q: 15 ml konsentrat dicampur dengan 45 ml air bersih.
+Dua siswa memberikan hasil analisis rasio paling sederhana antara konsentrat dan air bersih pada kedua campuran tersebut:
+Analisis I: Campuran P memiliki rasio 1:3, sedangkan Campuran Q memiliki rasio 1:4, sehingga Campuran P lebih pekat.
+Analisis II: Campuran P dan Campuran Q keduanya memiliki rasio ekuivalen 1:3, sehingga tingkat kepekatan kedua campuran tersebut persis sama.
+Analisis III: Campuran P memiliki rasio 25:75 dan Campuran Q memiliki rasio 15:45, sehingga keduanya tidak ekuivalen.
+Analisis IV: Campuran Q lebih pekat karena volume konsentratnya lebih banyak (15 ml>12,5 ml).
+Hasil analisis siapakah yang pasti benar secara matematis?","[""Analisis I"", ""Analisis II"", ""Analisis III"", ""Analisis IV""]",B,1
+pg-5-3-2,PG,C4,"Seorang siswa menggambar ulang peta denah area hijau sekolah. Pada denah asli bertuliskan skala 1:500, panjang lapangan basket terukur 6cm. Siswa tersebut ingin menggambar ulang denah pada kertas berukuran lebih besar sehingga panjang lapangan basket menjadi 12cm.
+Berapakah skala baru pada denah pengganti tersebut?","[""1:1.000"", ""1:500"", ""1:250"", ""1:125""]",C,1
+pg-5-3-3,PG,C4,"Dua buah selang pengisi air digunakan untuk menguras dan mengisi kembali dua akuarium sekolah yang berukuran berbeda:
+Selang P: Mengisi akuarium berkapasitas 300 liter sampai penuh dalam waktu 15 menit.
+Selang Q: Mengisi akuarium berkapasitas 480 liter sampai penuh dalam waktu 20 menit.
+Seorang siswa menganalisis selisih laju aliran air (debit) antara Selang Q dan Selang P. Selisih debit air kedua selang tersebut adalah ....","[""2 liter/menit"", ""4 liter/menit"", ""6 liter/menit"", ""8 liter/menit""]",B,1
+pg-5-3-4,PG,C4,"Koperasi sekolah membandingkan penawaran harga buku tulis dari dua distributor grosir:
+Toko A: Menjual 1 pak berisi 10 buku seharga Rp48.000.
+Toko B: Menjual 1 pak berisi 15 buku seharga Rp67.500.
+Seorang siswa menganalisis laju harga per unit (harga per buku) untuk merekomendasikan toko yang paling hemat. Hasil analisis yang benar adalah ....","[""Toko A lebih murah dengan selisih harga Rp500 per buku"", ""Toko B lebih murah dengan selisih harga Rp500 per buku"", ""Toko B lebih murah dengan selisih harga Rp300 per buku"", ""Toko A dan Toko B memiliki harga per unit yang ekuivalen""]",C,1
+pg-5-3-5,PG,C4,"Tabel berikut menyajikan data hubungan proporsional antara waktu operasional mesin cetak offset dan jumlah lembar brosur pendaftaran sekolah yang berhasil dicetak:
+Waktu Cetak (menit) | 
+Jumlah Brosur (lembar)
+
+4 | 
+160
+
+7 | 
+280
+
+10 | 
+400
+
+n | 
+640
+Seorang siswa menganalisis waktu cetak n dan jumlah brosur jika mesin bekerja selama 6 menit. Banyaknya brosur yang dicetak mesin tersebut dalam waktu 6 menit adalah ....","[""200 lembar"", ""240 lembar"", ""260 lembar"", ""300 lembar""]",B,1
+mcma-5-3-6,MCMA,C4,"Dua buah wadah pita dekorasi di ruang OSIS dianalisis komposisi warnanya:
+Wadah I: berisi 42 pita biru dan 28 pita kuning.
+Wadah II: berisi 54 pita biru dan 36 pita kuning.
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Rasio paling sederhana antara pita biru dan pita kuning pada Wadah I adalah 3:2."", ""Rasio paling sederhana antara pita biru dan pita kuning pada Wadah II adalah 4:3."", ""Komposisi pita biru dan pita kuning pada Wadah I ekuivalen (senilai) dengan Wadah II."", ""Rasio pita biru terhadap seluruh pita pada Wadah I adalah 3:5.""]","A,C,D",1
+mcma-5-3-7,MCMA,C4,"Sebuah maket maket denah kompleks gedung sekolah digambar dengan skala 1:300. Pada maket tersebut, gedung perpustakaan berbentuk persegi panjang memiliki ukuran panjang 10cm dan lebar 6 cm. Seorang siswa menganalisis dimensi sebenarnya gedung tersebut.
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Panjang gedung perpustakaan sebenarnya adalah 30 meter."", ""Lebar gedung perpustakaan sebenarnya adalah 18 meter."", ""Luas gedung perpustakaan sebenarnya adalah 180 m^(2)."", ""Luas gedung perpustakaan sebenarnya adalah 540 m^(2).""]","A,B,D",1
+mcma-5-3-8,MCMA,C4,"Dua rombongan bus studi tur SMP menempuh rute jalan yang sama menuju lokasi museum:
+Bus X menempuh jarak 150km dalam waktu 2,5 jam.
+Bus Y menempuh jarak 180km dalam waktu 3 jam.
+Seorang siswa menganalisis laju kecepatan rata-rata kedua bus. Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Kecepatan rata-rata Bus X adalah 50 km/jam."", ""Kecepatan rata-rata Bus X adalah 60 km/jam."", ""Kecepatan rata-rata Bus Y adalah 60 km/jam."", ""Bus Y melaju lebih cepat daripada Bus X.""]","B,C",1
+kategori-5-3-9,KATEGORI,C4,"Pengurus OSIS menganalisis dua harga paket kertas sertifikat kegiatan:
+Paket M: berisi 40 lembar seharga Rp28.000
+Paket N: berisi 60 lembar seharga Rp39.000
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis laju harga per lembar berikut!","[""Harga per lembar kertas pada Paket M adalah Rp700."", ""Harga per lembar kertas pada Paket N adalah Rp700."", ""Paket N menawarkan harga per lembar yang lebih murah dibandingkan Paket M.""]","1,3",1
+kategori-5-3-10,KATEGORI,C4,"Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim konveksi dan banyak seragam olahraga sekolah yang selesai dijahit:
+Waktu Kerja (jam) | 
+Seragam Selesai (stel)
+
+3 | 
+21
+
+5 | 
+35
+
+8 | 
+56
+Seorang siswa menganalisis proporsi pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Laju penjahitan seragam tersebut adalah 7 stel/jam."", ""Jika tim bekerja selama 10 jam, maka seragam yang selesai dijahit adalah 70 stel."", ""Untuk menyelesaikan 84 stel seragam, waktu kerja yang dibutuhkan adalah 14 jam.""]","1,2",1

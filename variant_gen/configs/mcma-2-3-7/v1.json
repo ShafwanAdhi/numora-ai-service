@@ -1,0 +1,141 @@
+{
+  "question_id": "mcma-2-3-7",
+  "config_version": 1,
+  "original_hash": "2831f7d2132e93ad",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "200000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "60000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "140000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "200000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "60000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "200000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "200000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "60000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang bendahara panitia lomba menganalisis dua rumus perhitungan sisa dana operasional:\nRumus 1: ({v1}-{v2})-{v3}={v4}-{v5}={v6}\nRumus 2: {v7}-({v8}+{v9})={v10}-{v11}={v12}\nManakah analisis matematika yang benar berkaitan dengan kedua rumus tersebut? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rumus 1 dan Rumus 2 menghasilkan nilai sisa dana akhir yang sama, yaitu Rp{v13}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kesamaan hasil Rumus 1 dan Rumus 2 membuktikan berlakunya sifat distributif tanda negatif: -(a+b)=-a-b.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika Rumus 2 diubah menjadi {v14}-({v15}-{v16}), hasilnya akan tetap bernilai sama.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Mengelompokkan total pengeluaran seperti pada Rumus 2 mempermudah rekapitulasi total alokasi biaya.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pengeluaran dijumlah sebelum dikurangkan: -(a+b)=-a-b. Mengganti menjadi -(a-b) menambahkan b sehingga hasil berbeda untuk b>0. A,B,D benar."
+}

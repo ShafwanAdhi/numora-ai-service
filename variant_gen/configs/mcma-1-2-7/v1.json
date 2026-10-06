@@ -1,0 +1,147 @@
+{
+  "question_id": "mcma-1-2-7",
+  "config_version": 1,
+  "original_hash": "de293b41b7dcef25",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        30
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "500000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "120000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "80000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "380000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "80000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "300000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "500000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "120000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "80000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "500000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "460000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "300000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "500000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "120000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "80000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 500,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang bendahara OSIS menganalisis dua rumus perhitungan sisa anggaran kegiatan penerimaan siswa baru:\nRumus 1: ({v1}-{v2})-{v3}={v4}-{v5}={v6}\nRumus 2: {v7}-({v8}-{v9})={v10}-{v11}={v12}\nBerdasarkan perbedaan hasil antara Rumus 1 dan Rumus 2, manakah analisis matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Perbedaan hasil tersebut membuktikan bahwa operasi pengurangan tidak bersifat asosiatif.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pengelompokan tanda kurung pada operasi pengurangan mempengaruhi hasil akhir perhitungan.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Hasil Rumus 1 dan Rumus 2 bernilai sama jika dihitung menggunakan sifat komutatif.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Agar Rumus 2 menghasilkan nilai yang sama dengan Rumus 1 (Rp{v13}), bentuknya harus diubah menjadi {v14}-({v15}+{v16}).",
+      "correct": true
+    }
+  ],
+  "explanation": "Pengurangan tidak asosiatif. Mengurangkan (b-c) sama dengan -b+c, berbeda dari mengurangkan b lalu c ketika c tidak nol. Nominal diskalakan {v17}; A,B,D benar."
+}
