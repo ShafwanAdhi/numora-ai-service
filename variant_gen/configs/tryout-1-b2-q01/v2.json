@@ -1,0 +1,109 @@
+{
+  "question_id": "tryout-1-b2-q01",
+  "config_version": 2,
+  "original_hash": "a7f737149303df28",
+  "original_values": {
+    "a": 3,
+    "b": 2,
+    "c": 5,
+    "d": 4,
+    "e": 3,
+    "f": 2
+  },
+  "variables": {
+    "a": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "b": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "c": {
+      "gen": "range",
+      "range": [
+        2,
+        12
+      ],
+      "step": 1
+    },
+    "d": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "e": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "f": {
+      "gen": "range",
+      "range": [
+        2,
+        8
+      ],
+      "step": 1
+    },
+    "coef": {
+      "gen": "derived",
+      "expr": "a*b+d*e"
+    },
+    "const": {
+      "gen": "derived",
+      "expr": "a*c-d*f"
+    },
+    "badconst": {
+      "gen": "derived",
+      "expr": "a*c+d*f"
+    },
+    "badcoef": {
+      "gen": "derived",
+      "expr": "a*b+e*e"
+    }
+  },
+  "stem": "Area A memerlukan {a}({b}x+{c}) buah ubin, sedangkan Area B memerlukan {d}({e}x−{f}) buah ubin. Bentuk aljabar paling sederhana untuk total ubin adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{coef}x+{const}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{coef}x+{badconst}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{badcoef}x+{const}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{badcoef}x+{badconst}",
+      "correct": false
+    }
+  ],
+  "explanation": "Distributif menghasilkan koefisien x sebesar {a} × {b} + {d} × {e} = {coef} dan konstanta {a} × {c} − {d} × {f} = {const}. Total = {coef}x+{const}.",
+  "constraints": [
+    "const>0",
+    "badcoef != coef"
+  ],
+  "shuffle": false,
+  "max_draws": 400
+}
