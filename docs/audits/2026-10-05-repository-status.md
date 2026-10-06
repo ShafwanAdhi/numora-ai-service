@@ -57,7 +57,7 @@ riwayat lokal, bukan inventaris soal pada database produksi.
 - [Audit 11–15](2026-10-05-drill-11-15-generator-audit.md): 217 PASS,
   6 SHORT, 0 FAIL, 27 SKIP; 4.436 variant unik tervalidasi saat sampling.
   [Manifest per soal](../../variant_gen/data/drill-1-indicators-11-15/audit.json)
-  menyimpan hash config dan seed; [15 contoh hasil](../../variant_gen/data/drill-1-indicators-11-15/examples.json)
+  menyimpan hash config dan seed; contoh hasil dihapus pada 6 Oktober 2026; audit hash/seed tetap tersedia
   mencakup tiga format pada lima indikator.
 - [Audit 20–23](2026-10-05-drill-20-23-generator-audit.md): 86 generator
   mencapai target sampling 20 variant unik; semua opsi diuji independen.

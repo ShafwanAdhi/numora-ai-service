@@ -22,8 +22,8 @@ def original_hash(o):
     """Stable fingerprint of an original's content. Stands in for a question version until a DB exists."""
     payload = {
         "format": o["format"],
-        "stem": o["stem"],
-        "options": [x["text"] for x in o["options"]],
+        "stem": o["stem"].replace('\r\n', '\n'),
+        "options": [x["text"].replace('\r\n', '\n') for x in o["options"]],
         "key": [x["id"] for x in o["options"] if x["correct"]],
     }
     labels = o.get("metadata", {}).get("category_labels", ["Benar", "Salah"])
@@ -50,8 +50,8 @@ def _parse_row(row, line, allow_missing_key=False):
         raise BankError(f"{qid} (row {line}): PG needs exactly one correct id, got {key}")
     o = {
         "id": qid, "format": fmt, "cognitive_level": row.get("cognitive_level", ""),
-        "stem": row["stem"], "version": int(row.get("version") or 1),
-        "options": [{"id": i, "text": t, "correct": i in key} for i, t in zip(ids, texts)],
+        "stem": row["stem"].replace('\r\n', '\n'), "version": int(row.get("version") or 1),
+        "options": [{"id": i, "text": t.replace('\r\n', '\n'), "correct": i in key} for i, t in zip(ids, texts)],
     }
     o["hash"] = original_hash(o)
     return o

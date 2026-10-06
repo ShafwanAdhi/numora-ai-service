@@ -166,14 +166,13 @@ class DrillTests(unittest.TestCase):
 
     def test_cli_hold_rejects_even_an_existing_seed(self):
         import contextlib, io, cli
-        from store import VariantStore
         orig=OriginalBank(BANK).get('pg-21-3-1')
         record=original_record(orig)
         record.update(seed=1,variant_ver=1,record_id=orig['id']+':s1:v1',config_ver=1,
                       config_hash='fixture',draws_used=1,replacement_of=None,regen_reason=None,
                       created_at='2026-10-05T00:00:00Z')
         with tempfile.TemporaryDirectory() as tmp:
-            path=Path(tmp)/'variants.jsonl';store=VariantStore(path);store.append(record)
+            path=Path(tmp)/'variants.jsonl';path.write_text(json.dumps(record)+'\n',encoding='utf-8')
             before=path.read_bytes()
             with contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
                 self.assertEqual(cli.main(['gen',orig['id'],'s1','--bank',str(BANK),'--store',str(path)]),1)

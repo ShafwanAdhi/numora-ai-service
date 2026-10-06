@@ -26,49 +26,49 @@ flowchart LR
 | `bank.py` | CSV, ledger, katalog/metadata, loader workspace |
 | `config_store.py` | Versi config, hash, schema |
 | `randomizer.py`, `expr.py` | RNG per variabel; evaluator, aritmetika, render |
-| `filters.py`, `engine.py` | Filter/validator; pipeline kandidat dan snapshot |
-| `store.py` | Append-only JSONL, versi/seed/history |
+| `filters.py`, `engine.py` | Filter/validator; pipeline kandidat dan respons |
+| `store.py` | Error validasi respons/ekspor; tanpa penyimpanan |
 | `lint.py` | Reproduksi original dan probe in-memory |
-| `tryout.py` | Paket, validasi manifest, pinning, preview export |
+| `tryout.py` | Paket dalam respons, validasi manifest |
 | `handoff.py` | Envelope Numora dengan canonical mapping |
-| `cli.py` | Orchestration, immutability config, duplicate inventory |
+| `cli.py` | Orchestration generate/preview/ekspor tanpa cache |
 | `webui.py`, `webui.html` | HTTP localhost dan UI operator |
 | `database.py` | Pembacaan PostgreSQL terpisah dari generator |
 
 Workspace default memuat bank dasar indikator 16–19, bank tambahan1–2,3–5,6–10,11–15,20–23, dan Tryout 1: 820 original,673 config,109 kelompok katalog termasuk level kosong. `--bank` custom tetap standalone. Bank lokal tidak otomatis diimpor dari database utama.
 
-## Penyimpanan dan versi
+## Respons dan versi
 
-Original seed 0 dari CSV+ledger, tidak di-append ke store. Varian memiliki ID `<question_id>:s<seed>:v<variant_ver>`. Config version, original version dan variant version berbeda; regen menambah variant version, menautkan `replacement_of` dan alasan.
+Original/config tetap berbasis file. Generator tidak menyimpan varian, manifest, atau riwayat; tidak mengakses DB. GET `/api/question` memuat original/config dengan `variant: null`; POST `/api/generate` mengembalikan hasil langsung. POST `/api/tryout/generate-package` mengembalikan seluruh paket dalam satu respons.
 
-Snapshot memuat `record_id`, `question_id`, `seed`, `variant_ver`, `config_ver`, `config_hash`, `original_hash`, `original_version`, `draws_used`, `values_used`, `stem`, `options[{id,text}]`, `key`, `explanation`, `format`, `cognitive_level`, `replacement_of`, `regen_reason`, `created_at`; klasifikasi/metadata bila tersedia. `key`: ID benar dipisah koma, KATEGORI angka, PG/MCMA huruf. KATEGORI dengan label khusus juga menyimpan `answer_categories`. Snapshot historis dapat tidak memiliki pembahasan/klasifikasi terbaru.
+Respons mempertahankan bentuk record existing: ID `<question_id>:s<seed>:v1`, seed, versi/hash config dan original, variabel, stem, opsi, key, pembahasan, klasifikasi, dan waktu pembuatan. `variant_ver` selalu 1; `replacement_of`/`regen_reason` null. ID tersebut bukan identitas unik setiap panggilan; service utama harus menentukan identitas record DB jika menyimpan beberapa respons identik.
 
-Hash original/config adalah fingerprint SHA-256 dipotong 16 karakter; guard identitas lokal, bukan tanda tangan authenticity. Original hash tidak mencakup klasifikasi. Perubahan config/catalog tidak menulis ulang snapshot. Pecahan metadata dapat menjadi float JSON; preview/export memakai teks/kunci snapshot.
+Seed/config sama menghasilkan konten sama. Tidak ada deduplikasi terhadap panggilan sebelumnya atau penghentian karena stok terpakai. Validasi terhadap original dan batas draw tetap berlaku. Hash original menormalkan CRLF menjadi LF agar checkout Windows/Linux tidak mengubah identitas isi soal.
 
-Store default `variant_gen/store/variants.jsonl`; manifest UI `variant_gen/store/packages/`. Backup bank+ledger+catalog+metadata, seluruh versi config, JSONL dan manifest terkait. Manifest sendiri belum cukup: pinned variant harus ada dalam store. Satu writer; JSONL dibaca ulang, belum memakai indeks DB.
+Backup hanya diperlukan untuk sumber, ledger, katalog/metadata, serta config. Tampilan halaman menyimpan hasil sementara dalam memori browser, tanpa localStorage/sessionStorage atau unduh paket.
 
 ## Ekspor ke Numora
 
-`package-export` menghasilkan **LOCAL_PREVIEW**: validasi struktur, roster/status/original konseptual terhadap bank; bukan bukti authenticity setiap varian. `generate_package` juga mencocokkan pinned variant dengan snapshot store. Ekspor paket tidak membuat canonical mapping.
+Paket respons berstatus **LOCAL_PREVIEW**; validasi struktur, roster, status, dan original konseptual memakai bank. Tidak membuat file atau canonical mapping.
 
-Ekspor **individual** memakai stored snapshot dan mapping dari pemilik ID Numora:
+Ekspor **individual** menghitung respons baru dengan seed/config terbaru dan mapping dari pemilik ID Numora:
 
 ```powershell
-python -B variant_gen/cli.py export tryout-1-b1-q01 s5 v1 --mapping mapping.json --store scratch/variants.jsonl
+python -B variant_gen/cli.py export tryout-1-b1-q01 s5 --mapping mapping.json
 ```
 
 Mapping satu objek JSON, bukan dictionary per question:
 
 | Field | Sumber/validasi |
 |---|---|
-| `questionExternalId` | Sama `question_id` snapshot |
-| `originalHash`, `originalVersion` | Sama identitas original snapshot |
+| `questionExternalId` | Sama `question_id` respons |
+| `originalHash`, `originalVersion` | Sama identitas original respons |
 | `familyId` | UUID canonical keluarga dari Numora |
 | `parentQuestionVersionId` | UUID versi original canonical yang dipin |
 | `scoringRubricVersionId` | UUID versi rubric |
 | `generationWaveItemId` | UUID opsional dari Numora |
 
-UUID non-zero; generator tidak membuat/mencari ID. Pemeriksaan offline tidak membuktikan existence/relasi UUID; importer Numora wajib memvalidasi DB, original/rubric. Mapping historis harus cocok snapshot historis, bukan sekadar bank aktif.
+UUID non-zero; generator tidak membuat/mencari ID. Pemeriksaan offline tidak membuktikan existence/relasi UUID; importer Numora wajib memvalidasi DB, original/rubric. Mapping harus cocok versi/hash original pada respons.
 
 Envelope: `questionExternalId`, `variantExternalId`, `payload`, `answer`, `explanation`, `generation` dengan `reviewStatus=REVIEW`. PG satu ID benar; MCMA list ID benar; KATEGORI truth value **seluruh** pernyataan termasuk false. Snapshot tanpa pembahasan lengkap ditolak. Ekspor kanonik menerima satu label kognitif C1–C6 dan kategori boolean Benar/Salah; label kognitif gabungan atau kategori khusus tetap lokal sampai mapping semantiknya disahkan. Command tidak insert/upload/adopt/publish.
 
@@ -78,7 +78,7 @@ Membaca `public.assessment_packages`, `public.package_items`, `public.question_v
 
 `DATABASE_URL` dari environment/.env root. Koneksi read-only, repeatable-read; timeout connect/query lima detik; TLS remote. Tidak membuat role/grant/view/schema. Browser menerima data/error tersanitasi, bukan kredensial. Markup/media/JSON ditampilkan sebagai teks; tidak mengeksekusi HTML atau render media/LaTeX aktif. Mutasi DB ditolak.
 
-API operator localhost: GET `/api/questions`, `/api/catalog`, `/api/question`; POST `/api/generate`, `/api/regen`, `/api/lint`, `/api/config`, `/api/tryout/generate-package`. Route DB GET `/api/database/status`, `/api/database/packages`, `/api/database/package`, `/api/database/family`. Host/origin lokal divalidasi; belum kontrak service-to-service produksi.
+API operator localhost: GET `/api/questions`, `/api/catalog`, `/api/question`; POST `/api/generate`, `/api/lint`, `/api/config`, `/api/tryout/generate-package`. Route DB GET `/api/database/status`, `/api/database/packages`, `/api/database/package`, `/api/database/family`. Host/origin lokal divalidasi; belum kontrak service-to-service produksi.
 
 ## Belum diimplementasikan
 

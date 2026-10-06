@@ -2,7 +2,7 @@
 
 60 original:30 PG,18 MCMA,12 KATEGORI. **34 ACTIVE,17 HOLD_SOURCE,9 DEFERRED_CONCEPTUAL**. Indikator1:18 aktif; indikator2:16 aktif. Semua skipped beserta alasan dan syarat aktivasi: [soalskip](../../variant_gen/soalskip.md).
 
-34 config mereproduksi original; masing-masing mencapai20 variant unik (680 hasil). Seed tambahan201–250 menghasilkan1.700 hasil accepted, semua opsi diperiksa oracle matematika independen. [Data per soal/hash/seed/domain/rejections](2026-10-05-drill-1-2-generator-audit.json); [6 contoh indikator×format](2026-10-05-drill-1-2-generator-audit-examples.json).
+34 config mereproduksi original; masing-masing mencapai20 variant unik (680 hasil). Seed tambahan201–250 menghasilkan1.700 hasil accepted, semua opsi diperiksa oracle matematika independen. [Data per soal/hash/seed/domain/rejections](2026-10-05-drill-1-2-generator-audit.json); contoh hasil dihapus pada 6 Oktober 2026; audit hash/seed tetap tersedia.
 
 Sumber SHA256 `f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6`. DOCX diarsipkan utuh, source_text/declared_key/pembahasan asli disimpan. Normalisasi tipografi tidak mengesahkan rekonstruksi akademik. Beberapa PG memiliki beberapa opsi benar, opsi duplikat, hasil tidak tersedia atau caption kunci bertentangan; tetap HOLD. Klaim konseptual universal dengan jawaban tetap ditunda.
 

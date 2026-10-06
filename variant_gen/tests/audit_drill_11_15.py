@@ -61,6 +61,5 @@ if __name__=='__main__':
     a=p.parse_args();report,examples=audit(a.target,a.seeds)
     a.output.parent.mkdir(parents=True,exist_ok=True)
     a.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-    a.output.with_name('examples.json').write_text(json.dumps(examples,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(report['summary'])
     sys.exit(bool(report['summary'].get('FAIL')))

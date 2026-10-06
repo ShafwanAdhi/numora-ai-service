@@ -1,7 +1,5 @@
 """Local variant workbench: python -B webui.py."""
 import argparse
-import contextlib
-import io
 import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -13,12 +11,11 @@ import database
 from bank import OriginalBank, load_workspace_bank
 from tryout import generate_package
 import re
-from cli import KNOWN_ERRORS, cmd_gen, cmd_regen
+from cli import KNOWN_ERRORS, preview
 from config_store import ConfigError, ConfigStore, validate_config
 from engine import original_record
 from expr import ExprError
 from lint import run_lint
-from store import VariantStore
 
 HERE = Path(__file__).resolve().parent
 load_dotenv(HERE.parent / '.env', override=False)
@@ -76,7 +73,7 @@ class Handler(BaseHTTPRequestHandler):
             return
         try:
             url = urlsplit(self.path)
-            bank, configs, store = self.server.bank, self.server.configs, self.server.store
+            bank, configs = self.server.bank, self.server.configs
             if url.path == "/":
                 self.reply(200, (HERE / "webui.html").read_text(encoding="utf-8"), "text/html")
             elif url.path.startswith('/api/database/'):
@@ -119,12 +116,10 @@ class Handler(BaseHTTPRequestHandler):
                 latest, latest_hash = configs.load(qid) if versions else (None, None)
                 cfg_ver = query.get("config_version", [""])[0]
                 cfg = configs.load(qid, positive_integer(int(cfg_ver)))[0] if cfg_ver else latest
-                variant = store.get(qid, seed, ver)
-                if ver and not variant:
-                    raise ValueError("Versi varian tidak ditemukan.")
-                self.reply(200, {"original": original_record(original), "variant": variant,
-                                 "history": store.versions_of_seed(qid, seed),
-                                 "seeds": sorted(store.latest_by_seed(qid)), "seed": seed,
+                if ver:
+                    raise ValueError("Riwayat varian tidak tersedia; gunakan generate.")
+                self.reply(200, {"original": original_record(original), "variant": None,
+                                 "seed": seed,
                                  "config": cfg, "config_versions": versions,
                                  "latest_config_version": versions[-1] if versions else 0,
                                  "config_hash": latest_hash})
@@ -156,13 +151,15 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(data, dict):
                 raise ValueError("Body harus berupa objek JSON.")
             json.dumps(data, allow_nan=False)
+            if urlsplit(self.path).path not in ('/api/tryout/generate-package', '/api/generate', '/api/config', '/api/lint'):
+                self.reply(404, {"error": "Aksi tidak ditemukan."})
+                return
             if urlsplit(self.path).path == '/api/tryout/generate-package':
                 package_id=data.get('package_id')
                 if not isinstance(package_id,str) or not re.fullmatch(r'[a-z0-9-]+',package_id):
                     raise ValueError('ID paket tidak valid.')
                 seed=positive_integer(data.get('seed'))
-                target=self.server.store.path.parent/'packages'/f'{package_id}-s{seed}.json'
-                result=generate_package(self.server.bank,self.server.configs,self.server.store,package_id,seed,target)
+                result=generate_package(self.server.bank,self.server.configs,package_id,seed)
                 self.reply(200,result)
                 return
             qid = data.get("question_id")
@@ -171,22 +168,11 @@ class Handler(BaseHTTPRequestHandler):
             original = self.server.bank.get(qid)
             if original.get('metadata',{}).get('generation_status','ACTIVE')!='ACTIVE':
                 raise ConfigError(original['metadata']['reason'])
-            configs, store = self.server.configs, self.server.store
+            configs = self.server.configs
             path = urlsplit(self.path).path
-            if path in ("/api/generate", "/api/regen"):
+            if path == "/api/generate":
                 seed = positive_integer(data.get("seed"))
-                reason = data.get("reason", "")
-                if not isinstance(reason, str):
-                    raise ValueError("Alasan regen harus berupa teks.")
-                args = argparse.Namespace(question_id=qid, seed=str(seed), seeds=str(seed),
-                                          reason=reason, json=True)
-                output, errors = io.StringIO(), io.StringIO()
-                command = cmd_gen if path == "/api/generate" else cmd_regen
-                with contextlib.redirect_stdout(output), contextlib.redirect_stderr(errors):
-                    status = command(args, self.server.bank, configs, store)
-                if status:
-                    raise ValueError(errors.getvalue().strip())
-                self.reply(200, json.loads(output.getvalue()))
+                self.reply(200, preview(self.server.bank, configs, qid, seed))
             elif path in ("/api/config", "/api/lint"):
                 cfg = data.get("config")
                 if not isinstance(cfg, dict):
@@ -231,7 +217,7 @@ def make_server(port=8765, bank=HERE / "data" / "q0_bank.csv",
                 configs=HERE / "configs", store=HERE / "store" / "variants.jsonl"):
     originals = load_workspace_bank(bank)
     server = HTTPServer(("127.0.0.1", port), Handler)
-    server.bank, server.configs, server.store = originals, ConfigStore(configs), VariantStore(store)
+    server.bank, server.configs = originals, ConfigStore(configs)
     return server
 
 
@@ -240,7 +226,7 @@ if __name__ == "__main__":
     parser.add_argument("--port", type=int, default=8765)
     parser.add_argument("--bank", type=Path, default=HERE / "data" / "q0_bank.csv")
     parser.add_argument("--configs", type=Path, default=HERE / "configs")
-    parser.add_argument("--store", type=Path, default=HERE / "store" / "variants.jsonl")
+    parser.add_argument("--store", type=Path, help=argparse.SUPPRESS)
     args = parser.parse_args()
     try:
         with make_server(args.port, args.bank, args.configs, args.store) as server:

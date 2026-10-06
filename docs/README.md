@@ -18,7 +18,7 @@ Panduan aktif mengikuti kode; arsip menyimpan keputusan pada tanggalnya.
 
 - [Kondisi repo dan verifikasi gabungan](audits/2026-10-06-repository-status.md): inventaris 820 original/673 config dan cakupan yang belum tersedia.
 - [Audit Drill 6–10](audits/2026-10-05-drill-6-10-generator-audit.md), [hasil implementasi](superpowers/plans/2026-10-05-drill-6-10-generator-progress.md).
-- [Audit Drill 11–15](audits/2026-10-05-drill-11-15-generator-audit.md), [hasil implementasi](superpowers/plans/2026-10-05-drill-11-15-generator-progress.md), [contoh hasil](../variant_gen/data/drill-1-indicators-11-15/examples.json).
+- [Audit Drill 11–15](audits/2026-10-05-drill-11-15-generator-audit.md), [hasil implementasi](superpowers/plans/2026-10-05-drill-11-15-generator-progress.md), contoh hasil dihapus pada 6 Oktober 2026; audit hash/seed tetap tersedia.
 
 ## Arsip dan sumber
 
@@ -35,3 +35,5 @@ Angka stok/snapshot pada audit merupakan evidence run historis, bukan inventaris
 Saat mengubah perilaku, perbarui panduan aktif yang sesuai. Pertahankan arsip bertanggal; checklist plan tidak menggantikan verifikasi kode atau approval publikasi.
 
 - [Audit generator Drill 11–15](audits/2026-10-05-drill-11-15-generator-audit.md): 223 aktif, oracle matematika, kapasitas dan contoh hasil.
+
+Sejak 6 Oktober 2026, generate tidak menyimpan varian/paket. Catatan regen, history, dan snapshot pada audit/progres sebelumnya bersifat historis. Contoh hasil tersimpan dihapus; bukti matematika berupa hash/seed/status tetap tersedia.

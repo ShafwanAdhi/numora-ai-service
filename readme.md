@@ -40,21 +40,20 @@ Indikator **11–15**: 250 original, **223 generator aktif**, 5 HOLD_SOURCE dan 
 
 Indikator **20–23**: 120 original, **86 generator aktif**, **11 HOLD_SOURCE** (konflik opsi/kunci/stem), **23 DEFERRED_CONCEPTUAL** (template setara/aturan penilaian perlu review). Semua 86 aktif diuji masing-masing 20 varian unik, dengan oracle matematika independen. Tidak ada koreksi akademik pada sumber yang diterapkan. [Audit per soal](docs/audits/2026-10-05-drill-20-23-generator-audit.md) memuat alasan setiap soal tertahan. Sepuluh Drill indikator16–19 dan tiga Tryout tetap tanpa generator.
 
-Di tab **Service AI**, pilih Drill > Paket 1 > indikator20–23 > level > soal. Generate membuat snapshot lokal, Regen menambah versi, riwayat lama tetap tersedia. Nomor dokumen dan status review ditampilkan; kunci HOLD belum disahkan. Kategori Kuantitatif/Kualitatif dan Sesuai/Tidak Sesuai mempertahankan label sumber. Level4–5 tersedia pada indikator 11–15; kelompok lainnya masih kosong.
+Di tab **Service AI**, pilih Drill > Paket 1 > indikator20–23 > level > soal. Generate menampilkan respons tanpa penyimpanan lokal. Tidak ada Regen atau riwayat varian; generate dapat diulang tanpa batas stok. Seed sama menghasilkan soal sama, seed lain belum tentu unik. Nomor dokumen dan status review ditampilkan; kunci HOLD belum disahkan. Kategori Kuantitatif/Kualitatif dan Sesuai/Tidak Sesuai mempertahankan label sumber. Level4–5 tersedia pada indikator 11–15; kelompok lainnya masih kosong.
 
 ```powershell
 python -B variant_gen/cli.py gen pg-21-1-1 s1-20
-python -B variant_gen/cli.py regen pg-21-1-1 s1 --reason "review lokal"
-python -B variant_gen/cli.py view pg-21-1-1 s1 v1
+python -B variant_gen/cli.py view pg-21-1-1 s1
 ```
 
-Bank tambahan disimpan di `variant_gen/data/drill-1-indicators-{1-2,3-5,6-10,11-15,20-23}/` dan dimuat bersama bank dasar; bank/config/riwayat sebelumnya dipertahankan. Generator ini memakai engine deterministik existing, berhenti pada snapshot lokal. Ekspor kontrak kategori boolean menolak label kategori khusus; tidak mengakses atau menulis database Numora.
+Bank tambahan disimpan di `variant_gen/data/drill-1-indicators-{1-2,3-5,6-10,11-15,20-23}/` dan dimuat bersama bank dasar; bank/config dipertahankan. Generator memakai engine deterministik dan mengembalikan hasil tanpa menyimpannya. Ekspor kontrak kategori boolean menolak label kategori khusus; tidak mengakses atau menulis database Numora.
 
-Original disimpan sebagai CSV dengan ledger revisi; varian sebagai JSONL. Jumlah ini **bukan inventaris database Numora**. Tab **DB Utama** membaca database bila `DATABASE_URL` dikonfigurasi; generator tidak mengimpor/memublikasikan hasil ke database tersebut.
+Original disimpan sebagai CSV dengan ledger revisi; varian hanya berada dalam respons/tampilan halaman. Jumlah ini **bukan inventaris database Numora**. Tab **DB Utama** membaca database bila `DATABASE_URL` dikonfigurasi; generator tidak mengimpor/memublikasikan hasil ke database tersebut.
 
 ## Dokumentasi
 
-- [Panduan penggunaan](docs/OPERATIONS.md): UI, CLI, seed, regen, paket, tes, troubleshooting.
+- [Panduan penggunaan](docs/OPERATIONS.md): UI, CLI, seed, generate, paket, tes, troubleshooting.
 - [Referensi generator](docs/GENERATOR.md): bank, config, variabel, validator, versi, penambahan soal.
 - [Arsitektur dan integrasi](docs/ARCHITECTURE.md): modul, alur data, ekspor Numora, akses DB, batas implementasi.
 - [Indeks dan arsip](docs/README.md): desain, audit, progres, sumber akademik.
@@ -65,4 +64,4 @@ Original disimpan sebagai CSV dengan ledger revisi; varian sebagai JSONL. Jumlah
 python -B -m unittest discover -s variant_gen/tests -v
 ```
 
-Verifikasi gabungan dicatat pada [laporan kondisi repo](docs/audits/2026-10-06-repository-status.md). Tes memakai fixture/store sementara. Jalankan satu writer untuk config/store yang sama; JSONL belum mendukung transaksi atau koordinasi writer lintas proses.
+Verifikasi gabungan dicatat pada [laporan kondisi repo](docs/audits/2026-10-06-repository-status.md). Tes memakai fixture sementara dan memeriksa generate tanpa penyimpanan. Editor config tetap memerlukan satu writer untuk folder config yang sama.

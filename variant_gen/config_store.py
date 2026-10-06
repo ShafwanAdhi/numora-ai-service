@@ -1,5 +1,4 @@
-"""Config files: configs/<question_id>/v<N>.json. A new version is a new file; a version that has
-already produced variants must never be edited (the engine checks this with a content hash)."""
+"""Versioned generator configs: configs/<question_id>/v<N>.json."""
 import hashlib
 import json
 import re

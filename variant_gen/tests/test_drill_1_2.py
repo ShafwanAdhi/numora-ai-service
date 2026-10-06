@@ -69,26 +69,17 @@ class Drill12(unittest.TestCase):
                 bad['options'][index]['text']=text[:start]+'999999'+text[end:]
                 with self.assertRaises(AssertionError):check_math(bank.get(qid),bad)
 
-    def test_cli_lifecycle_and_cached_hold(self):
+    def test_cli_stateless_generation_and_hold(self):
         import contextlib,io,tempfile,cli
         from unittest.mock import patch
-        from store import VariantStore
-        from engine import original_record
-        with tempfile.TemporaryDirectory() as tmp, patch('database.connection',side_effect=AssertionError('No DB')):
+        with tempfile.TemporaryDirectory() as tmp,patch('database.connection',side_effect=AssertionError('No DB')):
             path=Path(tmp)/'variants.jsonl';args=['--store',str(path)]
             with contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
-                for qid in ['pg-1-1-1','mcma-2-1-6','kategori-1-3-9']:
-                    self.assertEqual(cli.main(['gen',qid,'s11']+args),0)
-                    before=path.read_bytes();self.assertEqual(cli.main(['gen',qid,'s11']+args),0)
-                    self.assertEqual(path.read_bytes(),before)
-                    self.assertEqual(cli.main(['regen',qid,'s11','--reason','test']+args),0)
-                    self.assertEqual(cli.main(['view',qid,'s11','v1']+args),0)
-                held=original_record(OriginalBank(BANK).get('pg-1-2-1'))
-                held.update(seed=1,variant_ver=1,record_id='pg-1-2-1:s1:v1',config_ver=1,config_hash='fixture',
-                    created_at='2026-10-05T00:00:00Z',draws_used=1,replacement_of=None,regen_reason=None)
-                VariantStore(path).append(held);before=path.read_bytes()
+                for qid in ['pg-1-1-1', 'mcma-2-1-6', 'kategori-2-1-9']:
+                    for command in ['gen','gen','view']:
+                        self.assertEqual(cli.main([command,qid,'s11']+args),0)
                 self.assertEqual(cli.main(['gen','pg-1-2-1','s1']+args),1)
-                self.assertEqual(path.read_bytes(),before)
+            self.assertFalse(path.exists())
 
     def test_oracle_edges_and_simplest_radical(self):
         from drill_1_2_math import calc,rational,compare

@@ -72,5 +72,4 @@ if __name__=='__main__':
     report,examples=audit()
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-    args.output.with_name(args.output.stem+'-examples.json').write_text(json.dumps(examples,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(report['counts'],report['stock_count'],report['extra_accepted'])

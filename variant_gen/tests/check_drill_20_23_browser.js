@@ -1,10 +1,10 @@
-// playwright-cli run-code --filename; localhost:8767, temporary configs/store.
+// playwright-cli run-code --filename; localhost:8767, temporary configs.
 async (page) => {
   const check = (ok, message) => { if (!ok) throw new Error(message); };
   const ready = () => page.locator('#workspace:not([disabled])').waitFor();
   await page.route('**/api/database/**', route => route.fulfill({json: {items: [], total: 0, limit: 50, offset: 0}}));
   await page.goto('http://127.0.0.1:8767'); await ready();
-  check(await page.locator('#question option').count() === 390, '390 Drill originals');
+  check(await page.locator('#question option').count() === 790, '790 Drill originals');
   for (const indicator of ['20','21','22','23']) {
     await page.locator('#indicator').selectOption(indicator); await ready();
     check(await page.locator('#question option').count() === 30, `indicator ${indicator}`);
@@ -24,15 +24,12 @@ async (page) => {
   check((await page.locator('#original .stem').textContent()).includes('Andi | 4'), 'table row label retained');
   await page.locator('#seed').fill('9'); await page.locator('#seed').press('Tab'); await ready();
   await page.locator('#generate').click(); await ready();
-  check((await page.locator('#variant').textContent()).includes('varian v1'), 'local snapshot');
+  check((await page.locator('#variant').textContent()).includes('varian v1'), 'generated response');
   const first = await page.locator('#variant').textContent();
   await page.locator('#generate').click(); await ready();
   check(await page.locator('#variant').textContent() === first, 'seed reused');
-  await page.locator('#reason').fill('browser local review');
-  await page.locator('#regen').click(); await ready();
-  check((await page.locator('#variant').textContent()).includes('varian v2'), 'regen appends version');
-  await page.locator('#version').selectOption('1'); await ready();
-  check(await page.locator('#variant').textContent() === first, 'history preserves v1');
+  check(await page.locator('#regen').count() === 0, 'regen removed');
+  check(await page.locator('#version').count() === 0, 'history removed');
   await page.locator('#config-section summary').click();
   const draft = await page.locator('#config-editor').inputValue();
   await page.locator('#config-editor').fill(draft+'\n ');
@@ -53,5 +50,5 @@ async (page) => {
   await page.setViewportSize({width:390,height:844});
   check(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), '390px no overflow');
   await page.screenshot({path:'output/playwright/drill-20-23-mobile.png',fullPage:true});
-  return {originals:120, indicators:4, seedHistory:true, categoryLabels:true, database:'mocked', mobile:390};
+  return {originals:120, indicators:4, stateless:true, categoryLabels:true, database:'mocked', mobile:390};
 }

@@ -1,4 +1,4 @@
-// Run via playwright-cli run-code --filename; server on8766 with TEMP configs/store.
+// Run via playwright-cli run-code --filename; server on8766 with TEMP configs.
 async (page) => {
   const check = (ok, message) => { if (!ok) throw new Error(message); };
   let databaseRequests = 0;
@@ -20,16 +20,26 @@ async (page) => {
   await page.locator('#question').selectOption('tryout-1-b1-q01'); await ready();
   await page.locator('#seed').fill('7'); await page.locator('#seed').press('Tab'); await ready();
   await page.locator('#generate-package').click(); await ready();
-  check(await page.locator('#package-items details').count() === 30, '30 pinned preview entries');
+  check(await page.locator('#package-items details').count() === 30, '30 response preview entries');
   check((await page.locator('#package-items').textContent()).includes('27 varian + 3 original'), '27+3 inventory');
   const pinned = await page.locator('#package-items').textContent();
-  const download = page.waitForEvent('download'); await page.locator('#export-package').click();
-  check((await download).suggestedFilename() === 'tryout-1-s7-preview.json', 'local export');
+  check(await page.locator('#regen').count() === 0, 'no regen');
+  check(await page.locator('#version').count() === 0, 'no history selector');
+  check(await page.locator('#export-package').count() === 0, 'no download');
   await page.locator('#generate').click(); await ready();
-  await page.locator('#reason').fill('browser verification');
-  await page.locator('#regen').click(); await ready();
+  const first = await page.locator('#variant').textContent();
+  for (let i = 0; i < 12; i++) {
+    await page.locator('#generate').click(); await ready();
+    check(await page.locator('#variant').textContent() === first, 'repeatable response');
+  }
   await page.locator('#generate-package').click(); await ready();
-  check(await page.locator('#package-items').textContent() === pinned, 'package snapshot pinned after regen');
+  check(await page.locator('#package-items').textContent() === pinned, 'repeatable package content');
+  await page.reload(); await ready();
+  check(!(await page.locator('#variant').textContent()).includes('varian v1'), 'reload has no cached variant');
+  check(await page.locator('#package-preview').isHidden(), 'reload has no cached package');
+  await page.locator('#activity').selectOption('TRYOUT'); await ready();
+  await page.locator('#package').selectOption('tryout-1'); await ready();
+  await page.locator('#question').selectOption('tryout-1-b1-q01'); await ready();
   await page.locator('#config-section summary').click();
   const draft = await page.locator('#config-editor').inputValue();
   await page.locator('#config-editor').fill(draft + '\n ');

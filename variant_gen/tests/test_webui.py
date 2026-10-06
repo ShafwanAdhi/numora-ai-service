@@ -86,30 +86,25 @@ class WebUI(unittest.TestCase):
         self.assertIsNone(data["config"])
         self.assertFalse(self.store.exists())
 
-    def test_generate_is_idempotent_and_regen_preserves_history(self):
-        payload = {"question_id": "pg-18-3-1", "seed": 3}
-        status, first = self.request("POST", "/api/generate", payload)
-        self.assertEqual(status, 200)
-        self.assertEqual(first["variant_ver"], 1)
-        self.assertEqual(first['classification'], dict(activity='DRILL', indicator=18,
-                         source_level=3, package_id='drill-1'))
-        saved = self.store.read_bytes()
-        status, same = self.request("POST", "/api/generate", payload)
-        self.assertEqual(status, 200)
-        self.assertEqual(same, first)
-        self.assertEqual(self.store.read_bytes(), saved)
-        status, error = self.request("POST", "/api/regen", payload)
-        self.assertEqual(status, 400)
-        self.assertIn("reason", error["error"])
-        self.assertEqual(self.store.read_bytes(), saved)
-        status, second = self.request("POST", "/api/regen", dict(payload, reason="review angka"))
-        self.assertEqual(status, 200)
-        self.assertEqual(second["variant_ver"], 2)
-        self.assertTrue(self.store.read_bytes().startswith(saved))
-        status, historical = self.request("GET", "/api/question?id=pg-18-3-1&seed=3&version=1")
-        self.assertEqual(status, 200)
-        self.assertEqual(historical["variant"], first)
-        self.assertEqual(len(historical["history"]), 2)
+    def test_generate_returns_repeatable_content_without_history(self):
+        with patch('database.connection',side_effect=AssertionError('No DB')):
+            for qid in ['pg-18-3-1']:
+                payload=dict(question_id=qid,seed=11)
+                status,first=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,first)
+                self.assertTrue(first['explanation'])
+                status,second=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,second)
+                for field in ['stem','options','key','values_used','config_hash']:
+                    self.assertEqual(first[field],second[field])
+                status,data=self.request('GET',f'/api/question?id={qid}&seed=11')
+                self.assertEqual(status,200)
+                self.assertIsNone(data['variant'])
+                self.assertNotIn('history',data)
+                self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
+            for route in ['generate','lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-21-3-1',seed=11,config={}))[0],400)
+            self.assertFalse(self.store.exists())
 
     def test_config_save_versions_validates_and_rejects_stale_editor(self):
         data = self.question()
@@ -169,201 +164,119 @@ class WebUI(unittest.TestCase):
         from bank import OriginalBank
         self.assertEqual(len(json.loads(response.read())), sum(len(OriginalBank(p).ids()) for p in (ROOT/'data').rglob('q0_bank.csv')))
 
-    def test_drill_20_23_local_lifecycle_and_hold_guards(self):
-        with patch('database.connection',side_effect=AssertionError('Database must not be touched')):
-            status, questions = self.request('GET','/api/questions')
-            self.assertEqual(status,200)
-            self.assertEqual({q['classification']['indicator'] for q in questions if q['classification']['activity']=='DRILL'},set(range(1,24)))
-            status, catalog = self.request('GET','/api/catalog')
-            groups=[g for g in catalog if g.get('indicator') in range(20,24)]
-            self.assertEqual(len(groups),20)
-            self.assertEqual(sum(not g['question_ids'] for g in groups),8)
-            payload={'question_id':'pg-21-1-1','seed':11}
-            status, first=self.request('POST','/api/generate',payload)
-            self.assertEqual(status,200)
-            saved=self.store.read_bytes()
-            self.assertEqual(self.request('POST','/api/generate',payload),(200,first))
-            self.assertEqual(self.store.read_bytes(),saved)
-            status,second=self.request('POST','/api/regen',dict(payload,reason='review local'))
-            self.assertEqual(status,200)
-            self.assertEqual(second['variant_ver'],2)
-            self.assertEqual(second['replacement_of'],1)
-            self.assertEqual(self.request('GET','/api/question?id=pg-21-1-1&seed=11&version=1')[1]['variant'],first)
-            status,data=self.request('GET','/api/question?id=pg-21-1-1&seed=11')
-            before=self.store.read_bytes()
-            self.assertTrue(self.request('POST','/api/lint',{'question_id':payload['question_id'],'config':data['config']})[1]['ok'])
-            self.assertEqual(self.store.read_bytes(),before)
-            draft={'question_id':payload['question_id'],'config':data['config'],'base_version':1,'base_hash':data['config_hash']}
-            self.assertEqual(self.request('POST','/api/config',draft)[0],200)
-            self.assertEqual(self.request('POST','/api/config',draft)[0],409)
-            for qid in ['pg-20-3-3','pg-23-1-2','kategori-20-1-9']:
-                status,data=self.request('GET','/api/question?id='+qid+'&seed=1')
+    def test_drill_20_23_local_responses_and_hold_guards(self):
+        with patch('database.connection',side_effect=AssertionError('No DB')):
+            for qid in ['pg-20-1-2', 'mcma-22-3-6', 'kategori-23-2-10']:
+                payload=dict(question_id=qid,seed=11)
+                status,first=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,first)
+                self.assertTrue(first['explanation'])
+                status,second=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,second)
+                for field in ['stem','options','key','values_used','config_hash']:
+                    self.assertEqual(first[field],second[field])
+                status,data=self.request('GET',f'/api/question?id={qid}&seed=11')
                 self.assertEqual(status,200)
-                self.assertTrue(data['original']['explanation'])
-                if qid=='kategori-20-1-9':
-                    self.assertEqual(data['original']['answer_categories']['2'],'Kualitatif')
-                # Forge a config file in the temporary folder; status must still win.
-                forged=json.loads((ROOT/'configs/pg-21-1-1/v1.json').read_text(encoding='utf8'))
-                forged['question_id']=qid
-                directory=self.configs/qid;directory.mkdir(exist_ok=True)
-                (directory/'v1.json').write_text(json.dumps(forged),encoding='utf8')
-                for route in ['generate','regen','config','lint']:
-                    status,result=self.request('POST','/api/'+route,{'question_id':qid,'seed':1,'reason':'test','config':forged,'base_version':0,'base_hash':None})
-                    self.assertEqual(status,400,(route,result))
-            self.assertEqual(self.store.read_bytes(),before)
+                self.assertIsNone(data['variant'])
+                self.assertNotIn('history',data)
+                self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
+            for route in ['generate','lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-21-3-1',seed=11,config={}))[0],400)
+            self.assertFalse(self.store.exists())
 
-    def test_drill_6_10_local_lifecycle_and_hold(self):
-        with patch('database.connection', side_effect=AssertionError('Database must not be touched')):
-            status, catalog = self.request('GET', '/api/catalog')
-            self.assertEqual(status, 200)
-            groups = [g for g in catalog if g.get('indicator') in range(6, 11)]
-            self.assertEqual(len(groups), 25)
-            self.assertEqual(sum(not g['question_ids'] for g in groups), 10)
+    def test_drill_6_10_local_responses_and_hold(self):
+        with patch('database.connection',side_effect=AssertionError('No DB')):
             for qid in ['pg-6-1-1', 'mcma-8-1-6', 'kategori-10-1-9']:
-                payload = {'question_id': qid, 'seed': 11}
-                status, first = self.request('POST', '/api/generate', payload)
-                self.assertEqual(status, 200, first)
-                saved = self.store.read_bytes()
-                self.assertEqual(self.request('POST', '/api/generate', payload), (200, first))
-                self.assertEqual(self.store.read_bytes(), saved)
-                status, second = self.request('POST', '/api/regen', dict(payload, reason='test history'))
-                self.assertEqual(status, 200, second)
-                self.assertEqual(second['replacement_of'], 1)
-                status, historical = self.request('GET', f'/api/question?id={qid}&seed=11&version=1')
-                self.assertEqual(historical['variant'], first)
-                self.assertEqual(len(historical['history']), 2)
-                if first['format'] == 'KATEGORI':
-                    self.assertEqual([o['id'] for o in first['options']], ['1', '2', '3'])
-                    self.assertEqual(first['key'], historical['original']['key'])
-                config_path = self.configs / qid / 'v1.json'
-                changed = json.loads(config_path.read_text(encoding='utf8'))
-                changed['explanation'] += ' Edited in place.'
-                config_path.write_text(json.dumps(changed), encoding='utf8')
-                self.assertEqual(self.request('POST', '/api/regen', dict(payload, reason='stale'))[0], 400)
-            before = self.store.read_bytes()
-            for qid in ['pg-6-1-5', 'pg-7-1-2', 'mcma-6-1-6', 'pg-9-3-2']:
-                status, data = self.request('GET', f'/api/question?id={qid}&seed=11')
-                self.assertEqual(status, 200)
-                if qid in ['pg-6-1-5', 'pg-7-1-2']:
-                    self.assertEqual(data['original']['key'], '')
-                    self.assertFalse(any(o.get('correct', False) for o in data['original']['options']))
-                forged = json.loads((ROOT/'configs/pg-6-1-1/v1.json').read_text(encoding='utf8'))
-                forged['question_id'] = qid
-                directory = self.configs / qid
-                directory.mkdir(exist_ok=True)
-                (directory/'v1.json').write_text(json.dumps(forged), encoding='utf8')
-                for route in ['generate', 'regen', 'config', 'lint']:
-                    status, result = self.request('POST', '/api/'+route, dict(question_id=qid, seed=11,
-                        reason='test', config=forged, base_version=0, base_hash=None))
-                    self.assertEqual(status, 400, (route, result))
-            self.assertEqual(self.store.read_bytes(), before)
-
-    def test_drill_11_15_lifecycle_and_all_levels(self):
-        with patch('database.connection',side_effect=AssertionError('local generation must not touch DB')):
-            status,catalog=self.request('GET','/api/catalog')
-            self.assertEqual(status,200)
-            groups=[g for g in catalog if g.get('indicator') in range(11,16)]
-            self.assertEqual(len(groups),25)
-            self.assertEqual({len(g['question_ids']) for g in groups},{10})
-            payload=dict(question_id='pg-11-1-4',seed=11)
-            status,first=self.request('POST','/api/generate',payload)
-            self.assertEqual(status,200)
-            saved=self.store.read_bytes()
-            self.assertEqual(self.request('POST','/api/generate',payload),(200,first))
-            self.assertEqual(self.store.read_bytes(),saved)
-            self.assertEqual(self.request('POST','/api/regen',payload)[0],400)
-            status,second=self.request('POST','/api/regen',dict(payload,reason='local math review'))
-            self.assertEqual(status,200)
-            self.assertEqual(second['variant_ver'],2)
-            self.assertEqual(self.request('GET','/api/question?id=pg-11-1-4&seed=11&version=1')[1]['variant'],first)
-            status,data=self.request('GET','/api/question?id=pg-11-1-4&seed=11')
-            draft=dict(question_id=payload['question_id'],config=data['config'],base_version=1,base_hash=data['config_hash'])
-            self.assertEqual(self.request('POST','/api/config',draft)[0],200)
-            self.assertEqual(self.request('POST','/api/config',draft)[0],409)
-            for qid in ('mcma-11-1-7','pg-11-2-4','kategori-11-3-9','mcma-15-2-8','pg-15-4-2','pg-11-1-1'):
-                status,data=self.request('GET','/api/question?id='+qid+'&seed=1')
+                payload=dict(question_id=qid,seed=11)
+                status,first=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,first)
+                self.assertTrue(first['explanation'])
+                status,second=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,second)
+                for field in ['stem','options','key','values_used','config_hash']:
+                    self.assertEqual(first[field],second[field])
+                status,data=self.request('GET',f'/api/question?id={qid}&seed=11')
                 self.assertEqual(status,200)
-                self.assertTrue(data['original']['metadata']['reason'])
-                for route in ('generate','regen','lint','config'):
-                    self.assertEqual(self.request('POST','/api/'+route,dict(question_id=qid,seed=1,config={},reason='review'))[0],400)
+                self.assertIsNone(data['variant'])
+                self.assertNotIn('history',data)
+                self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
+            for route in ['generate','lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-6-1-5',seed=11,config={}))[0],400)
+            self.assertFalse(self.store.exists())
 
-
-    def test_drill_1_2_local_lifecycle(self):
-        with patch('database.connection',side_effect=AssertionError('No database access')):
-            status,catalog=self.request('GET','/api/catalog')
-            groups=[g for g in catalog if g.get('indicator') in (1,2)]
-            self.assertEqual(status,200);self.assertEqual(len(groups),6)
-            self.assertEqual({g['source_level'] for g in groups},{1,2,3})
-            for qid in ['pg-1-1-1','mcma-2-1-6','kategori-1-3-9']:
+    def test_drill_11_15_responses_and_all_levels(self):
+        with patch('database.connection',side_effect=AssertionError('No DB')):
+            for qid in ['pg-11-1-2', 'mcma-13-5-6', 'kategori-15-5-10']:
                 payload=dict(question_id=qid,seed=11)
                 status,first=self.request('POST','/api/generate',payload)
                 self.assertEqual(status,200,first)
-                before=self.store.read_bytes()
-                self.assertEqual(self.request('POST','/api/generate',payload),(200,first))
-                self.assertEqual(self.store.read_bytes(),before)
-                status,second=self.request('POST','/api/regen',dict(payload,reason='review'))
-                self.assertEqual(status,200,second);self.assertEqual(second['replacement_of'],1)
-                status,data=self.request('GET',f'/api/question?id={qid}&seed=11&version=1')
-                self.assertEqual(status,200);self.assertEqual(data['variant'],first)
-                self.assertEqual(len(data['history']),2)
-                if first['format']=='KATEGORI':self.assertEqual([o['id'] for o in first['options']],['1','2','3'])
-            before=self.store.read_bytes()
-            for qid in ['pg-1-2-1','pg-2-1-2','pg-1-1-4']:
+                self.assertTrue(first['explanation'])
+                status,second=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,second)
+                for field in ['stem','options','key','values_used','config_hash']:
+                    self.assertEqual(first[field],second[field])
                 status,data=self.request('GET',f'/api/question?id={qid}&seed=11')
-                self.assertEqual(status,200);self.assertTrue(data['original']['metadata']['reason'])
-                forged=json.loads((ROOT/'configs/pg-1-1-1/v1.json').read_text(encoding='utf8'))
-                forged['question_id']=qid;directory=self.configs/qid;directory.mkdir(exist_ok=True)
-                (directory/'v1.json').write_text(json.dumps(forged),encoding='utf8')
-                for route in ['generate','regen','lint','config']:
-                    status,result=self.request('POST','/api/'+route,dict(question_id=qid,seed=11,config=forged,reason='test',base_hash=None,base_version=0))
-                    self.assertEqual(status,400,(route,result))
-            self.assertEqual(self.store.read_bytes(),before)
+                self.assertEqual(status,200)
+                self.assertIsNone(data['variant'])
+                self.assertNotIn('history',data)
+                self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
+            for route in ['generate','lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-11-2-4',seed=11,config={}))[0],400)
+            self.assertFalse(self.store.exists())
 
-    def test_drill_3_5_local_lifecycle(self):
-        with patch('database.connection',side_effect=AssertionError('No database access')):
-            status,catalog=self.request('GET','/api/catalog')
-            groups=[g for g in catalog if g.get('indicator') in (3,4,5)]
-            self.assertEqual(status,200);self.assertEqual(len(groups),9)
-            self.assertEqual({g['source_level'] for g in groups},{1,2,3})
-            for qid in ['pg-3-1-1','mcma-4-1-7','kategori-5-1-9']:
+
+    def test_drill_1_2_local_responses(self):
+        with patch('database.connection',side_effect=AssertionError('No DB')):
+            for qid in ['pg-1-1-1', 'mcma-2-1-6', 'kategori-2-1-9']:
                 payload=dict(question_id=qid,seed=11)
                 status,first=self.request('POST','/api/generate',payload)
                 self.assertEqual(status,200,first)
-                before=self.store.read_bytes()
-                self.assertEqual(self.request('POST','/api/generate',payload),(200,first))
-                self.assertEqual(self.store.read_bytes(),before)
-                status,second=self.request('POST','/api/regen',dict(payload,reason='review'))
-                self.assertEqual(status,200,second);self.assertEqual(second['replacement_of'],1)
-                status,data=self.request('GET',f'/api/question?id={qid}&seed=11&version=1')
-                self.assertEqual(status,200);self.assertEqual(data['variant'],first)
-                self.assertEqual(len(data['history']),2)
-            before=self.store.read_bytes()
-            for qid in ['pg-3-1-3','pg-4-1-1','pg-5-1-5']:
+                self.assertTrue(first['explanation'])
+                status,second=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,second)
+                for field in ['stem','options','key','values_used','config_hash']:
+                    self.assertEqual(first[field],second[field])
                 status,data=self.request('GET',f'/api/question?id={qid}&seed=11')
-                self.assertEqual(status,200);self.assertTrue(data['original']['metadata']['reason'])
-                for route in ['generate','regen','lint','config']:
-                    self.assertEqual(self.request('POST','/api/'+route,dict(question_id=qid,seed=11,config={},reason='test'))[0],400)
-            self.assertEqual(self.store.read_bytes(),before)
+                self.assertEqual(status,200)
+                self.assertIsNone(data['variant'])
+                self.assertNotIn('history',data)
+                self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
+            for route in ['generate','lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-1-2-1',seed=11,config={}))[0],400)
+            self.assertFalse(self.store.exists())
+
+    def test_drill_3_5_local_responses(self):
+        with patch('database.connection',side_effect=AssertionError('No DB')):
+            for qid in ['pg-3-1-1', 'mcma-4-1-7', 'kategori-5-1-9']:
+                payload=dict(question_id=qid,seed=11)
+                status,first=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,first)
+                self.assertTrue(first['explanation'])
+                status,second=self.request('POST','/api/generate',payload)
+                self.assertEqual(status,200,second)
+                for field in ['stem','options','key','values_used','config_hash']:
+                    self.assertEqual(first[field],second[field])
+                status,data=self.request('GET',f'/api/question?id={qid}&seed=11')
+                self.assertEqual(status,200)
+                self.assertIsNone(data['variant'])
+                self.assertNotIn('history',data)
+                self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
+            for route in ['generate','lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-3-1-3',seed=11,config={}))[0],400)
+            self.assertFalse(self.store.exists())
 
     def test_tryout_end_to_end_never_queries_database(self):
-        with patch('database.connection',side_effect=AssertionError('Database must not be touched')):
-            status, data=self.request('GET','/api/question?id=tryout-1-b2-q04&seed=5')
-            self.assertEqual(status,200)
-            self.assertEqual(data['original']['classification']['chapter'],2)
-            self.assertEqual(data['original']['key'],'C')
-            status, result=self.request('POST','/api/tryout/generate-package',dict(package_id='tryout-1',seed=5))
-            self.assertEqual(status,200)
-            self.assertEqual(len(result['items']),30)
-            saved=self.store.read_bytes()
-            status, same=self.request('POST','/api/tryout/generate-package',dict(package_id='tryout-1',seed=5))
-            self.assertEqual(result,same);self.assertEqual(self.store.read_bytes(),saved)
-            for route in ['generate','regen','config','lint']:
-                status,_=self.request('POST','/api/'+route,dict(question_id='tryout-1-b4-q02',seed=5,config={}))
-                self.assertEqual(status,400)
-            self.assertEqual(self.store.read_bytes(),saved)
+        with patch('database.connection',side_effect=AssertionError('No DB')):
+            for _ in range(2):
+                status,result=self.request('POST','/api/tryout/generate-package',dict(package_id='tryout-1',seed=5))
+                self.assertEqual(status,200,result)
+                self.assertEqual(len(result['items']),30)
+            for route in ['generate','config','lint']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='tryout-1-b4-q02',seed=5,config={}))[0],400)
             for payload in [dict(package_id='../outside',seed=1),dict(package_id='tryout-1',seed=0),dict(package_id='tryout-1',seed=True)]:
-                status,_=self.request('POST','/api/tryout/generate-package',payload)
-                self.assertEqual(status,400)
+                self.assertEqual(self.request('POST','/api/tryout/generate-package',payload)[0],400)
+            self.assertFalse(self.store.exists())
+            self.assertFalse((self.directory/'packages').exists())
 
     def test_invalid_inputs_and_cross_origin_writes_are_rejected(self):
         cases = (

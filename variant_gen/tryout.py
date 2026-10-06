@@ -1,11 +1,8 @@
-"""Local Tryout authoring. No database access; one writer, immutable manifests."""
-import json
-import os
-import tempfile
+"""Tryout response generation. No persistence or database access."""
 from pathlib import Path
 
 from bank import option_ids
-from engine import generate, make_record, original_record
+from engine import original_record
 from store import StoreError
 
 
@@ -68,52 +65,24 @@ def validate_manifest(manifest, bank=None):
     return manifest
 
 
-def generate_package(bank, configs, store, package_id, seed, output_path):
-    from cli import load_config, others_for  # CLI also calls this module.
-    if not isinstance(package_id,str) or type(seed) is not int or not 1 <= seed <= 1_000_000_000:
+def generate_package(bank, configs, package_id, seed):
+    from cli import preview
+    if not isinstance(package_id, str) or type(seed) is not int or not 1 <= seed <= 1_000_000_000:
         raise ValueError('Package ID and positive integer seed required.')
-    groups=[g for g in bank.catalog() if g['activity']=='TRYOUT' and g['package_id']==package_id]
+    groups = [g for g in bank.catalog() if g['activity'] == 'TRYOUT' and g['package_id'] == package_id]
     if not groups:
         raise StoreError('Tryout package not found.')
-    output=Path(output_path)
-    if output.exists():
-        manifest=validate_manifest(json.loads(output.read_text(encoding='utf-8')),bank)
-        if manifest['package_id']!=package_id or manifest['seed']!=seed:
-            raise StoreError('Output file already belongs to another package/seed.')
-        for item in manifest['items']:
-            rec=item['record']
-            if item['status']=='VARIANT' and store.get(rec['question_id'],rec['seed'],rec['variant_ver'])!=rec:
-                raise StoreError('Pinned package snapshot is missing or changed.')
-        return manifest
-    items=[];pending=[]
-    for group in sorted(groups,key=lambda g:g['chapter']):
+    items = []
+    for group in sorted(groups, key=lambda g: g['chapter']):
         for qid in group['question_ids']:
-            orig=bank.get(qid)
-            if orig.get('metadata',{}).get('generation_status')=='DEFERRED_CONCEPTUAL':
-                items.append(dict(question_id=qid,status='ORIGINAL_ONLY',record=original_record(orig),reason=orig['metadata']['reason']))
-                continue
-            rec=store.get(qid,seed)
-            if rec is None:
-                cfg,h=load_config(configs,store,orig)
-                result=generate(orig,cfg,seed,others_for(store,qid,seed))
-                rec=make_record(orig,cfg,h,seed,1,result)
-                pending.append(rec)
-            items.append(dict(question_id=qid,status='VARIANT',record=rec))
-    manifest=validate_manifest(dict(schema_version=1,status='LOCAL_PREVIEW',package_id=package_id,seed=seed,items=items),bank)
-    body=(json.dumps(manifest,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode('utf-8')
-    # ponytail: one local writer; add shared locking/DB transactions before concurrent workers.
-    for rec in pending:
-        store.append(rec)
-    output.parent.mkdir(parents=True,exist_ok=True)
-    tmp_path=None
-    try:
-        with tempfile.NamedTemporaryFile(dir=output.parent,prefix=output.name+'.',suffix='.tmp',delete=False) as f:
-            tmp_path=Path(f.name);f.write(body);f.flush();os.fsync(f.fileno())
-        os.replace(tmp_path,output)
-    finally:
-        if tmp_path is not None:
-            tmp_path.unlink(missing_ok=True)
-    return manifest
+            orig = bank.get(qid)
+            if orig.get('metadata', {}).get('generation_status') == 'DEFERRED_CONCEPTUAL':
+                items.append(dict(question_id=qid, status='ORIGINAL_ONLY', record=original_record(orig),
+                                  reason=orig['metadata']['reason']))
+            else:
+                items.append(dict(question_id=qid, status='VARIANT', record=preview(bank, configs, qid, seed)))
+    return validate_manifest(dict(schema_version=1, status='LOCAL_PREVIEW', package_id=package_id,
+                                  seed=seed, items=items), bank)
 
 
 def export_package(manifest, bank=None):

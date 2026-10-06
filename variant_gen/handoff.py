@@ -1,4 +1,4 @@
-"""Export stored candidates using Numora's draft question-variant envelope.
+"""Export generated responses using Numora's draft question-variant envelope.
 
 Canonical IDs are supplied by Numora; this module never fabricates them or writes
 to either database. A mapping must pin the exact original content/version.
@@ -20,7 +20,7 @@ def export_record(record, mapping):
                             ("originalHash", record["original_hash"]),
                             ("originalVersion", record["original_version"])):
         if mapping.get(field) != expected:
-            raise StoreError(f"mapping {field} does not match the stored original")
+            raise StoreError(f"mapping {field} does not match the response original")
     ids = {}
     for field in ("familyId", "parentQuestionVersionId", "scoringRubricVersionId", "generationWaveItemId"):
         value = mapping.get(field)
@@ -34,7 +34,7 @@ def export_record(record, mapping):
             raise StoreError(f"mapping {field} must be a real non-zero Numora UUID") from None
     explanation = record.get("explanation")
     if not isinstance(explanation, str) or not explanation.strip() or PLACEHOLDER.search(explanation):
-        raise StoreError("stored variant has no complete explanation; regenerate with a newer config")
+        raise StoreError("variant has no complete explanation; generate with a newer config")
     correct = set(record["key"].split(",")) - {""}
     answer = ({"correctOptionId": next(iter(correct))} if record["format"] == "PG" else
               {"correctOptionIds": [o["id"] for o in record["options"] if o["id"] in correct]})

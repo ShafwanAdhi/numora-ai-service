@@ -17,7 +17,7 @@ Generator per soal berupa JSON; engine Python dipakai bersama. Tambahkan config 
 | `data/drill-1-indicators-1-2/` |60 original level1–3,34 config, katalog6 grup, metadata dan DOCX provenance |
 | `data/drill-1-indicators-3-5/` |90 original level1–3,64 config,9 grup, metadata/DOCX provenance |
 | `data/drill-1-indicators-6-10/` | 150 original, katalog, metadata, source DOCX |
-| `data/drill-1-indicators-11-15/` | 250 original, katalog, metadata, source DOCX, audit.json dan examples.json |
+| `data/drill-1-indicators-11-15/` | 250 original, katalog, metadata, source DOCX dan audit.json |
 | `data/drill-1-indicators-20-23/` | 120 original Drill tambahan, katalog, metadata, source DOCX; ledger kosong karena belum ada koreksi disetujui |
 
 `OriginalBank(path)` membaca satu bank. CLI/UI memakai `load_workspace_bank`: path default Drill menggabungkan Tryout dan Drill indikator1–2,3–5,6–10,11–15,20–23 bila tersedia; `--bank` custom tetap standalone. API Python menerima `additional_paths` eksplisit; ID duplikat ditolak. Katalog/metadata/ledger harus di samping CSV. CSV tanpa katalog unclassified; paket custom membutuhkan katalog sesuai aktivitasnya.
@@ -26,11 +26,11 @@ ID Drill `pg-16-1-3`: format PG, indikator 16, level sumber 1, soal 3. ID Tryout
 
 Ledger menjaga row source/replacement dan versi berurutan; loader memvalidasi identitas/hash lalu mengekspos original efektif. Salin ledger bersama CSV; CSV saja menunjukkan source sebelum koreksi. Klasifikasi tidak masuk hash konten original.
 
-Metadata status: `ACTIVE`, `HOLD_SOURCE`, `DEFERRED_CONCEPTUAL`; non-ACTIVE wajib alasan dan menolak generate/regen/lint/config save. `category_labels` opsional: dua label unik nonempty, hanya KATEGORI. Key CSV memilih kategori pertama, bukan selalu kebenaran. Label nondefault masuk hash original; snapshot menyimpan `answer_categories` seluruh pernyataan. UI membaca label snapshot historis; ekspor kontrak boolean menolak kategori berlabel khusus.
+Metadata status: `ACTIVE`, `HOLD_SOURCE`, `DEFERRED_CONCEPTUAL`; non-ACTIVE wajib alasan dan menolak generate/lint/config save. `category_labels` opsional: dua label unik nonempty, hanya KATEGORI. Key CSV memilih kategori pertama, bukan selalu kebenaran. Label nondefault masuk hash original; respons memuat `answer_categories` seluruh pernyataan. UI membaca label respons; ekspor kontrak boolean menolak kategori berlabel khusus.
 
 ## Config
 
-Lokasi `variant_gen/configs/<question_id>/v<N>.json`. Folder/file harus sesuai `question_id`/`config_version`. CLI generate/regen memakai versi terbaru; UI dapat melihat config historis.
+Lokasi `variant_gen/configs/<question_id>/v<N>.json`. Folder/file harus sesuai `question_id`/`config_version`. CLI generate memakai versi terbaru; UI dapat melihat config historis.
 
 | Field | Aturan |
 |---|---|
@@ -87,15 +87,15 @@ RNG memakai question ID, seed, draw, nama variabel. Draw yang sama deterministik
 2. Tambahkan original baru dan membership katalog. Koreksi existing melalui ledger row/versi/hash yang tepat.
 3. Buat config versi baru; derive jawaban/distractor dari input; jaga domain/constraints agar tugas akademik sesuai.
 4. Jalankan hash/lint, review reproduksi original, matematika dan kunci dengan oracle independen.
-5. Probe store sementara, run suite, review kurikulum sebelum publikasi. Jangan melonggarkan validator global demi satu soal.
+5. Probe respons tanpa penyimpanan, run suite, review kurikulum sebelum publikasi. Jangan melonggarkan validator global demi satu soal.
 
-Config yang sudah menghasilkan snapshot dilindungi hash. Editing in-place menolak generasi berikutnya; buat `v<N+1>.json`. Perubahan config tidak memigrasi snapshot existing.
+Config tetap berversi; editor membuat `v<N+1>.json`. Setiap generate membaca config terbaru dan menyertakan hash. Tidak ada snapshot/riwayat varian untuk mendeteksi perubahan config setelah dipakai.
 
 ## Cakupan dan koreksi
 
 Drill indikator16–19: 110/120 config, seluruh indikator18–19 tercakup. [Review skip](../variant_gen/soalskip.md) mencatat 12 soal awal: dua mendapat config, sepuluh memerlukan desain/policy konseptual. Indikator20–23: 86/120 aktif, 11 HOLD_SOURCE, 23 DEFERRED_CONCEPTUAL; [audit](audits/2026-10-05-drill-20-23-generator-audit.md) memuat stok20 unik per ACTIVE dan semua alasan penundaan. Subtotal indikator16–23: 196 config/240 original.
 
-Drill indikator 6–10: 129/150 aktif, 12 HOLD_SOURCE, 9 DEFERRED_CONCEPTUAL. Subtotal indikator6–10 dan16–23: 325 config/390 original. [Audit](audits/2026-10-05-drill-6-10-generator-audit.md) mencatat pemeriksaan setiap opsi, stok teramati, serta batas recipe. Bank `variant_gen/data/drill-1-indicators-6-10` dimuat otomatis oleh UI/CLI; level 4–5 kosong sesuai sumber. Contoh: `python -B variant_gen/cli.py gen pg-6-1-1 s1 --store output/drill-6-10.jsonl`. Kunci PG sumber yang kosong tetap HOLD, tampil “Belum tersedia”.
+Drill indikator 6–10: 129/150 aktif, 12 HOLD_SOURCE, 9 DEFERRED_CONCEPTUAL. Subtotal indikator6–10 dan16–23: 325 config/390 original. [Audit](audits/2026-10-05-drill-6-10-generator-audit.md) mencatat pemeriksaan setiap opsi, stok teramati, serta batas recipe. Bank `variant_gen/data/drill-1-indicators-6-10` dimuat otomatis oleh UI/CLI; level 4–5 kosong sesuai sumber. Contoh: `python -B variant_gen/cli.py gen pg-6-1-1 s1 --json`. Kunci PG sumber yang kosong tetap HOLD, tampil “Belum tersedia”.
 
 Tryout: 27/30 aktif; deferred `tryout-1-b1-q07` (alasan operasi), `tryout-1-b4-q02` (satu mata dadu), `tryout-1-b4-q06` (bias survei). `DEFERRED_CONCEPTUAL` menolak generasi walaupun config disuplai.
 

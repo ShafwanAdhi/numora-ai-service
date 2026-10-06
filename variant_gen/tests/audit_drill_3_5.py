@@ -55,5 +55,4 @@ if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);a=p.parse_args()
     report,examples=audit();a.output.parent.mkdir(parents=True,exist_ok=True)
     a.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-    a.output.with_name(a.output.stem+'-examples.json').write_text(json.dumps(examples,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(report['counts'],report['extra_accepted'],flush=True)

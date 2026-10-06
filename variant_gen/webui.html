@@ -68,7 +68,6 @@
   <p id="status" role="status" aria-live="polite">Memuat soal…</p>
   <div id="tryout-tools" class="controls" hidden>
     <button id="generate-package" type="button" class="primary">Generate paket Tryout</button>
-    <button id="export-package" type="button" disabled>Unduh preview JSON</button>
     <span class="muted">Pilih paket. Seed memakai kolom di bawah. Preview lokal: 27 varian + 3 original ditunda.</span>
   </div>
   <details id="package-preview" class="config" hidden><summary>Preview paket Tryout</summary><div id="package-items"></div></details>
@@ -77,16 +76,12 @@
       <div class="controls selection-controls">
       <label class="question">Soal<select id="question" required aria-label="Pilih soal"></select></label>
       <div class="version-controls">
-      <label>Seed<input id="seed" type="number" min="1" max="1000000000" step="1" value="1" list="saved-seeds" required></label>
-      <datalist id="saved-seeds"></datalist>
-      <label>Versi varian<select id="version"><option value="">Terbaru</option></select></label>
+      <label>Seed<input id="seed" type="number" min="1" max="1000000000" step="1" value="1" required></label>
       </div>
       </div>
       <div class="controls actions">
       <button type="submit">Lihat</button>
       <button type="button" id="generate" class="primary">Generate</button>
-      <label class="reason">Alasan regen<input id="reason" placeholder="Wajib jika config masih sama"></label>
-      <button type="button" id="regen">Regen</button>
       </div>
     </form>
     <div class="comparison">
@@ -96,7 +91,7 @@
       </article>
       <article aria-labelledby="variant-title">
         <h2 id="variant-title">Varian</h2>
-        <div id="variant">Pilih soal untuk melihat hasil.</div>
+        <div id="variant">Klik Generate untuk melihat hasil. Hasil tidak disimpan.</div>
       </article>
     </div>
     <details class="config" id="config-section">
@@ -259,10 +254,9 @@
       });
     }
   }
-  let data, questions = [], catalog = [], busy = false, dirty = false, loadedVersion = '', loadedConfigVersion = '', loadedFilters;
+  let data, questions = [], catalog = [], busy = false, dirty = false, loadedConfigVersion = '', loadedFilters;
   const filterIds = ['activity', 'package', 'indicator', 'source-level', 'format'];
   const filters = () => Object.fromEntries(filterIds.map(id => [id, $(id).value]));
-  let packageManifest;
   function message(text, error = false) {
     $('status').textContent = text;
     $('status').classList.toggle('error', error);
@@ -272,11 +266,9 @@
     $('workspace').disabled = busy || !data;
     const deferred = !!data?.original.metadata?.generation_status && data.original.metadata.generation_status !== 'ACTIVE';
     $('generate').disabled = !data?.config || dirty || deferred;
-    $('regen').disabled = !data?.config || !data?.history.length || dirty || deferred;
     ['lint','save','config-editor','config-version'].forEach(id => $(id).disabled = !!deferred);
     $('tryout-tools').hidden = $('activity').value !== 'TRYOUT';
     $('generate-package').disabled = busy || dirty || !$('package').value || !data;
-    $('export-package').disabled = busy || !packageManifest;
   }
   async function api(path, payload) {
     const response = await fetch(path, payload === undefined ? {} : {
@@ -321,7 +313,7 @@
       ? `Kategori: ${Object.entries(record.answer_categories).map(([id,label]) => `${id}: ${label}`).join('; ')}`
       : `Kunci${record.metadata?.generation_status === 'HOLD_SOURCE' ? ' sumber (belum disahkan)' : ''}: ${record.key || 'Belum tersedia'}`, 'key');
     add(panel, 'strong', 'Pembahasan');
-    add(panel, 'p', record.explanation || (record.seed ? 'Belum tersedia pada hasil lama. Regen untuk pembahasan terbaru.' : 'Belum tersedia di bank original.'), 'explanation');
+    add(panel, 'p', record.explanation || (record.seed ? 'Pembahasan belum tersedia.' : 'Belum tersedia di bank original.'), 'explanation');
     if (record.seed) {
       const details = add(panel, 'details', ''); add(details, 'summary', `Nilai variabel · ${record.draws_used} draw`);
       add(details, 'pre', JSON.stringify(record.values_used, null, 2));
@@ -337,26 +329,24 @@
     filterIds.forEach(id => { if (loadedFilters) $(id).value = loadedFilters[id]; });
     rebuildQuestions(loadedFilters);
     $('question').value = data.original.question_id; $('seed').value = data.seed;
-    $('version').value = loadedVersion; $('config-version').value = loadedConfigVersion;
+    $('config-version').value = loadedConfigVersion;
   }
   async function loadQuestion() {
     if (!$('controls').reportValidity()) return;
     const params = new URLSearchParams({id: $('question').value, seed: $('seed').value,
-      version: $('version').value, config_version: $('config-version').value});
+      config_version: $('config-version').value});
     let next;
     try { next = await api(`/api/question?${params}`); }
     catch (error) { restoreSelection(); throw error; }
-    data = next; dirty = false; loadedFilters = filters(); loadedVersion = $('version').value; loadedConfigVersion = $('config-version').value;
+    data = next; dirty = false; loadedFilters = filters(); loadedConfigVersion = $('config-version').value;
     $('workspace').hidden = false;
     renderQuestion('original', data.original); renderQuestion('variant', data.variant);
-    setVersions('version', data.history.map(record => record.variant_ver), loadedVersion);
     setVersions('config-version', data.config_versions, $('config-version').value);
-    $('saved-seeds').replaceChildren(...data.seeds.map(seed => new Option(`Tersimpan: seed ${seed}`, seed)));
     $('config-editor').value = data.config ? JSON.stringify(data.config, null, 2) : '';
     $('config-note').textContent = data.config ? `Simpan akan membuat v${data.latest_config_version + 1}.` : 'Belum ada config. Original tetap bisa dilihat.';
     $('lint-output').textContent = '';
     message(data.original.metadata?.generation_status && data.original.metadata.generation_status !== 'ACTIVE' ? data.original.metadata.reason
-      : (data.variant ? 'Hasil tersimpan ditampilkan. Generate pada seed yang sama memakai hasil ini.' : 'Original siap. Belum ada varian tersimpan untuk seed ini.'));
+      : 'Original siap. Generate dapat diulang; hasil tidak disimpan.');
   }
   function discardChanges() {
     if (!dirty || confirm('Perubahan config belum disimpan. Buang perubahan?')) return true;
@@ -409,7 +399,7 @@
         ? 'Belum ada soal untuk pilihan paket, indikator, level, dan jenis ini.' : 'Belum ada soal untuk aktivitas ini di bank lokal.');
       return;
     }
-    $('version').value = ''; $('config-version').value = '';
+    $('config-version').value = '';
     await loadQuestion();
   }
   filterIds.forEach(id => $(id).addEventListener('change', () => {
@@ -417,31 +407,30 @@
     if (id === 'activity') { ['indicator', 'source-level', 'package', 'format'].forEach(key => $(key).value = ''); }
     if (id === 'package') { $('indicator').value = ''; $('source-level').value = ''; }
     if (id === 'indicator') $('source-level').value = '';
-    if (id === 'activity' || id === 'package') { packageManifest = undefined; $('package-preview').hidden = true; }
+    if (id === 'activity' || id === 'package') { $('package-preview').hidden = true; }
     perform(filterQuestions);
   }));
   $('controls').addEventListener('submit', event => { event.preventDefault(); if (discardChanges()) perform(loadQuestion); });
   $('question').addEventListener('change', () => {
     if (!discardChanges()) return;
-    $('version').value = ''; $('config-version').value = ''; perform(loadQuestion);
+    $('config-version').value = ''; perform(loadQuestion);
   });
   $('seed').addEventListener('change', () => {
     if (!discardChanges()) return;
-    $('version').value = ''; perform(loadQuestion);
+    perform(loadQuestion);
   });
-  ['version', 'config-version'].forEach(id => $(id).addEventListener('change', () => { if (discardChanges()) perform(loadQuestion); }));
+  $('config-version').addEventListener('change', () => { if (discardChanges()) perform(loadQuestion); });
   $('config-editor').addEventListener('input', () => {
-    dirty = true; updateButtons(); message('Config belum disimpan. Validasi lalu simpan sebelum generate/regen.');
+    dirty = true; updateButtons(); message('Config belum disimpan. Validasi lalu simpan sebelum generate.');
   });
-  ['generate', 'regen'].forEach(action => $(action).addEventListener('click', () => {
+  $('generate').addEventListener('click', () => {
     if (!$('controls').reportValidity()) return;
     perform(async () => {
-      const result = await api(`/api/${action}`, {question_id: $('question').value,
-        seed: Number($('seed').value), reason: $('reason').value});
-      $('version').value = ''; await loadQuestion();
-      message(`Varian v${result.variant_ver} tersedia · seed ${result.seed} · config v${result.config_ver}.`);
+      const result = await api('/api/generate', {question_id: $('question').value, seed: Number($('seed').value)});
+      renderQuestion('variant', result);
+      message(`Varian tersedia ? seed ${result.seed} ? config v${result.config_ver}. Hasil tidak disimpan.`);
     });
-  }));
+  });
   ['lint', 'save'].forEach(action => $(action).addEventListener('click', () => perform(async () => {
     const result = await api(action === 'lint' ? '/api/lint' : '/api/config', {
       question_id: data.original.question_id, config: JSON.parse($('config-editor').value),
@@ -449,13 +438,12 @@
     });
     if (action === 'save') { $('config-version').value = ''; await loadQuestion(); }
     $('lint-output').textContent = result.lines.join('\n');
-    message(action === 'save' ? `Config v${result.config_version} tersimpan. Generate/regen memakai versi terbaru.` : (result.ok ? 'Validasi lulus. Belum ada file yang diubah.' : 'Validasi gagal; perbaiki config.'), result.ok === false);
+    message(action === 'save' ? `Config v${result.config_version} tersimpan. Generate memakai versi terbaru.` : (result.ok ? 'Validasi lulus. Belum ada file yang diubah.' : 'Validasi gagal; perbaiki config.'), result.ok === false);
   })));
   $('generate-package').addEventListener('click', () => {
     if (!$('controls').reportValidity() || dirty) return;
     perform(async () => {
       const manifest = await api('/api/tryout/generate-package', {package_id:$('package').value, seed:Number($('seed').value)});
-      packageManifest = manifest;
       const parent=$('package-items'); parent.replaceChildren();
       const count=manifest.items.filter(item => item.status === 'VARIANT').length;
       add(parent,'p',`${manifest.package_id} · seed ${manifest.seed} · ${count} varian + ${manifest.items.length-count} original ditunda · LOCAL_PREVIEW`,'muted');
@@ -468,15 +456,9 @@
         add(details,'p',`Kunci: ${record.key}`,'key'); add(details,'p',record.explanation || 'Belum tersedia.','explanation');
       });
       $('package-preview').hidden = false; $('package-preview').open = true;
-      $('version').value=''; await loadQuestion();
-      message(`Preview paket siap: ${count} varian, ${manifest.items.length-count} original ditunda. Seed ${manifest.seed}; snapshot paket dipertahankan.`);
+      await loadQuestion();
+      message(`Preview paket siap: ${count} varian, ${manifest.items.length-count} original ditunda. Seed ${manifest.seed}; hasil hanya ditampilkan, tidak disimpan.`);
     });
-  });
-  $('export-package').addEventListener('click', () => {
-    if (!packageManifest) return;
-    const url=URL.createObjectURL(new Blob([JSON.stringify(packageManifest,null,2)+'\n'],{type:'application/json'}));
-    const link=document.createElement('a');link.href=url;link.download=`${packageManifest.package_id}-s${packageManifest.seed}-preview.json`;
-    link.click();setTimeout(() => URL.revokeObjectURL(url),1000);
   });
   window.addEventListener('beforeunload', event => { if (dirty) { event.preventDefault(); event.returnValue = ''; } });
   perform(async () => {

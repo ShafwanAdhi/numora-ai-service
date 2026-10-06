@@ -119,27 +119,17 @@ class DrillGenerators(unittest.TestCase):
             result = generate(bank.get(qid), cfg, 201, [])
             self.assertIsNone(re.search(r'\bk\b', result.cand['explanation']), qid)
 
-    def test_cli_lifecycle_and_cached_hold(self):
-        import contextlib, io, cli
-        from store import VariantStore
+    def test_cli_stateless_generation_and_hold(self):
+        import contextlib,io,tempfile,cli
         from unittest.mock import patch
-        with tempfile.TemporaryDirectory() as tmp, patch('database.connection', side_effect=AssertionError('No DB')):
-            path = Path(tmp)/'variants.jsonl'
-            args = ['--store', str(path)]
-            with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+        with tempfile.TemporaryDirectory() as tmp,patch('database.connection',side_effect=AssertionError('No DB')):
+            path=Path(tmp)/'variants.jsonl';args=['--store',str(path)]
+            with contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
                 for qid in ['pg-6-1-1', 'mcma-8-1-6', 'kategori-10-1-9']:
-                    self.assertEqual(cli.main(['gen', qid, 's11']+args), 0)
-                    self.assertEqual(cli.main(['view', qid, 's11', '--json']+args), 0)
-                    self.assertEqual(cli.main(['regen', qid, 's11', '--reason', 'test']+args), 0)
-                    self.assertEqual(cli.main(['view', qid, 's11', 'v1']+args), 0)
-                held = original_record(OriginalBank(BANK).get('pg-6-1-5'))
-                held.update(seed=1, variant_ver=1, record_id='pg-6-1-5:s1:v1', config_ver=1,
-                            config_hash='fixture', draws_used=1, replacement_of=None, regen_reason=None,
-                            created_at='2026-10-05T00:00:00Z')
-                VariantStore(path).append(held)
-                before = path.read_bytes()
-                self.assertEqual(cli.main(['gen', held['question_id'], 's1']+args), 1)
-                self.assertEqual(path.read_bytes(), before)
+                    for command in ['gen','gen','view']:
+                        self.assertEqual(cli.main([command,qid,'s11']+args),0)
+                self.assertEqual(cli.main(['gen','pg-6-1-5','s1']+args),1)
+            self.assertFalse(path.exists())
 
     def test_oracle_edges(self):
         from drill_6_10_math import poly, substitute, system, inequality, contains

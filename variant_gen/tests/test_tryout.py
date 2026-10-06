@@ -14,7 +14,7 @@ from config_store import ConfigStore, validate_config
 from engine import generate, key_of
 from expr import render
 from lint import reproduce_original
-from store import VariantStore, StoreError
+from store import StoreError
 from unittest.mock import patch
 from engine import make_record
 import statistics
@@ -80,67 +80,37 @@ class TryoutTests(unittest.TestCase):
                     self.assertEqual(sum(o['correct'] for o in result.cand['options']), sum(o['correct'] for o in orig['options']))
                     candidates.append(result.cand)
 
-    def test_package_pins_snapshots_and_exports_preview(self):
-        from tryout import generate_package, export_package
-        with tempfile.TemporaryDirectory() as tmp:
-            store=VariantStore(Path(tmp)/'variants.jsonl'); output=Path(tmp)/'package.json'
-            first=generate_package(self.bank,self.configs,store,'tryout-1',7,output)
-            self.assertEqual(len(first['items']),30)
-            self.assertEqual(Counter(i['status'] for i in first['items']),dict(VARIANT=27,ORIGINAL_ONLY=3))
-            saved=store.path.read_bytes()
-            self.assertEqual(generate_package(self.bank,self.configs,store,'tryout-1',7,output),first)
-            self.assertEqual(store.path.read_bytes(),saved)
-            qid='tryout-1-b1-q01'; cfg,h=self.configs.load(qid); orig=self.bank.get(qid)
-            from cli import others_for
-            record=make_record(orig,cfg,h,7,2,generate(orig,cfg,7,others_for(store,qid,7)),1,'test history')
-            store.append(record)
-            self.assertEqual(generate_package(self.bank,self.configs,store,'tryout-1',7,output),first)
-            preview=export_package(first)
-            self.assertEqual(preview['status'],'LOCAL_PREVIEW')
-            self.assertEqual(len(preview['items']),30)
-            self.assertEqual(preview['items'][0]['record']['variant_ver'],1)
-            with self.assertRaises(StoreError):
-                generate_package(self.bank,self.configs,store,'tryout-1',8,output)
+    def test_package_returns_preview_without_persistence(self):
+        from tryout import generate_package,export_package
+        first=generate_package(self.bank,self.configs,'tryout-1',7)
+        self.assertEqual(len(first['items']),30)
+        self.assertEqual(Counter(i['status'] for i in first['items']),dict(VARIANT=27,ORIGINAL_ONLY=3))
+        second=generate_package(self.bank,self.configs,'tryout-1',7)
+        self.assertEqual([i['record']['stem'] for i in first['items']],[i['record']['stem'] for i in second['items']])
+        self.assertEqual(export_package(first),first)
 
     def test_modified_manifest_is_rejected(self):
         from copy import deepcopy
-        from tryout import generate_package, export_package
-        with tempfile.TemporaryDirectory() as tmp:
-            store=VariantStore(Path(tmp)/'variants.jsonl'); output=Path(tmp)/'package.json'
-            first=generate_package(self.bank,self.configs,store,'tryout-1',7,output)
-            malformed=[]
-            changed=deepcopy(first); changed['items'].pop(); malformed.append(changed)
-            changed=deepcopy(first); changed['items'].reverse(); malformed.append(changed)
-            changed=deepcopy(first); changed['items'][6]['record']['stem']='tampered'; malformed.append(changed)
-            changed=deepcopy(first); changed['items'][0]['record']['options']=[None]; malformed.append(changed)
-            changed=deepcopy(first); del changed['items'][0]['record']['config_hash']; malformed.append(changed)
-            for changed in malformed:
-                output.write_text(json.dumps(changed),encoding='utf-8')
-                with self.assertRaises(StoreError):
-                    generate_package(self.bank,self.configs,store,'tryout-1',7,output)
-                with self.assertRaises(StoreError):
-                    export_package(changed)
+        from tryout import generate_package,export_package
+        first=generate_package(self.bank,self.configs,'tryout-1',7)
+        malformed=[]
+        changed=deepcopy(first);changed['items'].pop();malformed.append(changed)
+        changed=deepcopy(first);changed['items'].reverse();malformed.append(changed)
+        changed=deepcopy(first);changed['items'][6]['record']['stem']='tampered';malformed.append(changed)
+        changed=deepcopy(first);changed['items'][0]['record']['options']=[None];malformed.append(changed)
+        changed=deepcopy(first);del changed['items'][0]['record']['config_hash'];malformed.append(changed)
+        for changed in malformed:
+            with self.assertRaises(StoreError):export_package(changed)
 
-    def test_package_validation_before_writes_and_crash_retry(self):
+    def test_failed_package_has_no_partial_output(self):
         from tryout import generate_package
-        with tempfile.TemporaryDirectory() as tmp:
-            store=VariantStore(Path(tmp)/'variants.jsonl'); output=Path(tmp)/'package.json'
-            real_load=self.configs.load
-            def bad_load(qid,*args):
-                if qid.endswith('b4-q07'): raise ValueError('bad config')
-                return real_load(qid,*args)
-            with patch.object(self.configs,'load',side_effect=bad_load), self.assertRaises(ValueError):
-                generate_package(self.bank,self.configs,store,'tryout-1',9,output)
-            self.assertFalse(store.path.exists()); self.assertFalse(output.exists())
-            real_append=store.append; calls=[]
-            def crash(record):
-                if len(calls)==2: raise OSError('simulated disk failure')
-                calls.append(record['record_id']);real_append(record)
-            with patch.object(store,'append',side_effect=crash), self.assertRaises(OSError):
-                generate_package(self.bank,self.configs,store,'tryout-1',9,output)
-            self.assertFalse(output.exists());self.assertEqual(len(store._all()),2)
-            generate_package(self.bank,self.configs,store,'tryout-1',9,output)
-            self.assertEqual(len(store._all()),27)
+        real_load=self.configs.load
+        def bad_load(qid,*args):
+            if qid.endswith('b4-q07'):raise ValueError('bad config')
+            return real_load(qid,*args)
+        with patch.object(self.configs,'load',side_effect=bad_load),self.assertRaises(ValueError):
+            generate_package(self.bank,self.configs,'tryout-1',9)
+        self.assertEqual(len(generate_package(self.bank,self.configs,'tryout-1',9)['items']),30)
 
 
 class FractionTests(unittest.TestCase):

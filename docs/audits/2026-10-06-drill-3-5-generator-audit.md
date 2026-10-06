@@ -9,7 +9,7 @@
 |5 Rasio/skala/laju|27|2|1|540|1.350|
 |Total|64|25|1|1.280|3.200|
 
-[Audit gabungan per soal/hash/domain/seed/rejections](2026-10-06-drill-3-5-generator-audit.json); [8 contoh indikator×format yang aktif](2026-10-06-drill-3-5-generator-audit-examples.json). Indikator4 tidak memiliki KATEGORI aktif setelah review; contoh mencakup format yang tersedia. [Semua26 skipped beserta alasan](../../variant_gen/soalskip.md). Audit domain lebih rinci: [3](2026-10-06-drill-indicator3-audit.json), [4](2026-10-06-drill-indicator4-audit.json), [5](2026-10-06-drill-indicator5-audit.json).
+[Audit gabungan per soal/hash/domain/seed/rejections](2026-10-06-drill-3-5-generator-audit.json); contoh hasil dihapus pada 6 Oktober 2026; audit hash/seed tetap tersedia. Indikator4 tidak memiliki KATEGORI aktif setelah review; contoh mencakup format yang tersedia. [Semua26 skipped beserta alasan](../../variant_gen/soalskip.md). Audit domain lebih rinci: [3](2026-10-06-drill-indicator3-audit.json), [4](2026-10-06-drill-indicator4-audit.json), [5](2026-10-06-drill-indicator5-audit.json).
 
 Raw DOCX SHA256 `f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6`; disalin utuh untuk provenance. Runtime hanya level1–3. Metadata menyimpan teks/key/explanation asli. Normalisasi tipografi pecahan/akar/pangkat/uang tidak mengesahkan koreksi akademik atau instruksi rekonstruksi dalam dokumen.
 

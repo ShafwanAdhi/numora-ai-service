@@ -22,7 +22,7 @@ CSV, metadata, label kognitif, kunci dan pembahasan sumber dipertahankan.
 - [Audit per ID](../../variant_gen/data/drill-1-indicators-11-15/audit.json):
   hash/version original dan config, domain parameter, seed berhasil/gagal,
   alasan rejection, serta hasil oracle. Target 20 varian berbeda, seeds 1–200.
-- [Contoh hasil](../../variant_gen/data/drill-1-indicators-11-15/examples.json):
+- contoh hasil dihapus pada 6 Oktober 2026; audit hash/seed tetap tersedia:
   15 snapshot contoh, masing-masing format pada masing-masing indikator.
   Ini fixture audit; snapshot operator tetap berada di store lokal.
 - [Oracle independen](../../variant_gen/tests/drill_11_15_math.py): memakai

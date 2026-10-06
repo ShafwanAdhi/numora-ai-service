@@ -7,27 +7,17 @@ from bank import OriginalBank
 from bank import load_workspace_bank
 
 class Drill35(unittest.TestCase):
-    def test_cli_lifecycle_and_read_only_database_boundary(self):
+    def test_cli_stateless_generation_and_hold(self):
         import contextlib,io,tempfile,cli
         from unittest.mock import patch
-        from config_store import ConfigStore
-        bank=OriginalBank(ROOT/'data/drill-1-indicators-3-5/q0_bank.csv')
         with tempfile.TemporaryDirectory() as tmp,patch('database.connection',side_effect=AssertionError('No DB')):
-            store=Path(tmp)/'variants.jsonl';args=['--store',str(store)]
+            path=Path(tmp)/'variants.jsonl';args=['--store',str(path)]
             with contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
-                for qid in ['pg-3-1-1','mcma-4-1-7','kategori-5-1-9']:
-                    self.assertTrue(ConfigStore(ROOT/'configs').versions(qid),'new config missing '+qid)
-                    self.assertEqual(cli.main(['gen',qid,'s11']+args),0)
-                    before=store.read_bytes()
-                    self.assertEqual(cli.main(['gen',qid,'s11']+args),0)
-                    self.assertEqual(store.read_bytes(),before)
-                    self.assertEqual(cli.main(['regen',qid,'s11','--reason','review']+args),0)
-                    self.assertEqual(cli.main(['view',qid,'s11','v1']+args),0)
-                for qid in bank.ids():
-                    if bank.get(qid)['metadata']['generation_status']=='ACTIVE':continue
-                    before=store.read_bytes()
-                    self.assertEqual(cli.main(['gen',qid,'s11']+args),1)
-                    self.assertEqual(store.read_bytes(),before)
+                for qid in ['pg-3-1-1', 'mcma-4-1-7', 'kategori-5-1-9']:
+                    for command in ['gen','gen','view']:
+                        self.assertEqual(cli.main([command,qid,'s11']+args),0)
+                self.assertEqual(cli.main(['gen','pg-3-1-3','s1']+args),1)
+            self.assertFalse(path.exists())
 
     def test_workspace_registration_preserves_existing(self):
         default=ROOT/'data/q0_bank.csv'

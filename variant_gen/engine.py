@@ -74,8 +74,7 @@ def cand_from_record(rec):
 
 
 def generate(orig, cfg, seed, others):
-    """others = candidates this one must not duplicate (other seeds' latest variants, and earlier
-    versions of the same seed when regenerating)."""
+    """Generate one candidate; others is an optional in-memory comparison set for audits."""
     if orig.get("metadata", {}).get("generation_status", "ACTIVE") != "ACTIVE":
         raise ConfigError(orig["metadata"]["reason"])
     qid, limit = orig["id"], cfg.get("max_draws", DEFAULT_MAX_DRAWS)
