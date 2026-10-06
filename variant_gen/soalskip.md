@@ -6,7 +6,7 @@
 
 `same_answer_as_original` berlaku pada generator numerik, tetapi dikecualikan khusus stok konseptual. Status metadata dan alasan historis di bawah dipertahankan sebagai riwayat. DEFERRED_CONCEPTUAL menolak generator/config; stok VERIFIED tetap dapat dibaca. Penggunaan ulang tidak menghabiskan stok.
 
-Rekonsiliasi Drill: 646 generator + 67 original dengan stok + 77 review sumber = 790. Masih 144 Drill tanpa **generator**, namun hanya77 belum memiliki generator maupun stok. Tiga Tryout tanpa generator/stok tetap di luar cakupan konseptual Drill.
+Rekonsiliasi Drill pada pemeriksaan lokal 7 Oktober: 679 generator + 67 original dengan stok + 44 soal menunggu generator/review = 790. Masih 111 Drill tanpa **generator**, namun hanya 44 belum memiliki generator maupun stok. Empat generator baru pada pekerjaan indikator 11–15 sudah termasuk; penghitungan juga mencakup pembaruan indikator lain yang tersedia di repo. Tiga Tryout tanpa generator/stok tetap di luar cakupan konseptual Drill.
 
 | ID konseptual | Stok VERIFIED |
 |---|---:|
@@ -78,7 +78,24 @@ Rekonsiliasi Drill: 646 generator + 67 original dengan stok + 77 review sumber =
 | `pg-5-2-4` | 3 |
 | `pg-7-3-1` | 4 |
 
-## Review 12 soal — 4 Oktober 2026
+## Revisi kurikulum indikator 16–19 — 7 Oktober 2026
+
+**ENGINEERING DECISION — impor lokal sesuai instruksi pengguna:** dokumen Curriculum [source-revision-2026-10-07.docx](data/drill-1-indicators-16-19/source-revision-2026-10-07.docx) disalin utuh. Sepuluh soal tanpa generator dicocokkan dengan sumber; dua memiliki bagian revisi eksplisit dan diperbarui menjadi original v2 melalui `data/original_revisions.jsonl`.
+
+| ID | Kunci | Hasil pencocokan |
+|---|---|---|
+| `mcma-17-1-8` | A,C,D | v2: menambahkan kondisi faktor skala pada stem dan `\|k\|≠1` pada pernyataan dilatasi; pembahasan mengikuti bagian “Revisi Soal 8”. |
+| `kategori-17-2-10` | 1,2 | v2: kondisi faktor skala dan pernyataan dilatasi mengikuti bagian “Soal 10 (Hasil Revisi)”; pembahasan diperbarui. |
+| `pg-16-1-1`, `pg-16-1-2`, `pg-16-3-2`, `pg-17-3-2` | B; C; B; B | Substansi dan kunci sama; original serta stok tetap. |
+| `mcma-16-1-6`, `kategori-16-1-9`, `kategori-16-2-9`, `kategori-17-3-10` | A,B,D; 1,2; 1,3; 1,3 | Substansi dan kunci sama; original serta stok tetap. |
+
+**Generator v1 sudah dibuat untuk dua ID tersebut sesuai desain yang disetujui pengguna.** Metadata kedua soal sekarang `generation_status = ACTIVE`, `source_review_status = REVISED_CURRICULUM`, dan `generator_status = IMPLEMENTED`. Original v2, sumber CSV, serta versi lama tetap utuh. Delapan soal lain di tabel ini tetap memakai stok existing tanpa generator baru. Angka header lima level tidak menambahkan soal Level 4–5: dokumen ini hanya memuat 120 soal Level 1–3.
+
+Config [MCMA](configs/mcma-17-1-8/v1.json) menghasilkan 32 varian (8 faktor × 4 posisi pernyataan salah); config [Kategori](configs/kategori-17-2-10/v1.json) menghasilkan 24 varian (8 faktor × 3 posisi pernyataan salah). Faktor `k` dipilih dari `{-4,-3,-2,-0.5,0.5,2,3,4}`. Klaim tentang bentuk/ukuran berubah beserta kunci dan pembahasan, tanpa mengubah jumlah jawaban benar (MCMA 3/4; Kategori 2/3). Shuffle bukan sumber variasi. Seed yang sama memberi hasil yang sama; seed berbeda dapat bertabrakan karena domain terbatas. Rekonsiliasi global di atas adalah snapshot sebelum aktivasi ini; perubahan bagian ini menambahkan dua generator.
+
+[Audit impor, provenance, dan catatan sumber](../docs/audits/2026-10-07-drill-16-19-source-revision.md). Tabel review 4 Oktober di bawah merupakan riwayat sebelum revisi; gunakan bagian ini untuk status kedua soal yang diperbarui.
+
+## Review 12 soal — 4 Oktober 2026 (historis)
 
 Review ini menilai kelayakan generasi dengan engine sekarang. Config baru masih
 memerlukan review Curriculum; keberadaan config bukan kelulusan kesetaraan IRT.
@@ -102,9 +119,36 @@ Sepuluh soal tetap belum mempunyai config, dengan alasan dan langkah berikut di 
 Aturan `same_answer_as_original` tetap berlaku. Shuffle opsi bukan varian substantif.
 Tidak ada perubahan policy global untuk meloloskan soal yang belum didesain.
 
+## Revisi kurikulum indikator20–23 — 7 Oktober 2026
+
+**16 soal sudah diperbarui menjadi original v2 dan generator v1 sudah aktif.** Dokumen revisi disalin ke repo lokal; source/CSV lama tetap utuh, perubahan dicatat melalui ledger. Sebelas konflik sumber pada tabel historis di bawah sudah dikoreksi, bersama lima soal frekuensi relatif.
+
+Status runtime16 soal adalah ACTIVE, generator_status = IMPLEMENTED dan source_review_status = REVISED_CURRICULUM. Semua18 soal ditunda lainnya dan stok manual tetap utuh. Bank20–23 kini memiliki102 generator dan18 soal tanpa generator yang tersedia melalui stok manual.
+
+| ID | Kunci v2 | Status pengerjaan |
+|---|---|---|
+| pg-20-3-3 | C | Generator ACTIVE |
+| pg-21-2-2 | C | Generator ACTIVE |
+| pg-21-3-1 | C | Generator ACTIVE |
+| pg-21-3-4 | A | Generator ACTIVE |
+| pg-21-3-5 | C | Generator ACTIVE |
+| mcma-21-3-8 | A,C | Generator ACTIVE |
+| kategori-21-3-9 | 1,2,4 | Generator ACTIVE |
+| pg-22-1-1 | C | Generator ACTIVE |
+| mcma-22-1-6 | A,B,D | Generator ACTIVE |
+| mcma-22-1-7 | A,C | Generator ACTIVE |
+| mcma-22-3-8 | A,C,D | Generator ACTIVE |
+| pg-23-3-2 | B | Generator ACTIVE |
+| pg-23-3-5 | C | Generator ACTIVE |
+| mcma-23-3-7 | A,D | Generator ACTIVE |
+| mcma-23-3-8 | A,C,D | Generator ACTIVE |
+| kategori-23-3-9 | 1,2,4 | Generator ACTIVE |
+
+[Laporan impor dan keputusan transkripsi](../docs/audits/2026-10-07-drill-20-23-source-revision.md).
+
 ## Drill Paket 1, indikator 20–23 — alasan ditinjau ulang 6 Oktober 2026
 
-**34 soal belum memiliki generator: 11 konflik sumber dan 23 soal yang desain variannya belum diimplementasikan.** Status di bawah mengikuti metadata saat ini. `DEFERRED_CONCEPTUAL` adalah label penundaan sistem; sebagian soal berlabel ini tetap memerlukan perhitungan dan bukan soal murni konseptual.
+**Catatan historis sebelum revisi7 Oktober: 34 soal belum memiliki generator, yaitu11 konflik sumber dan23 soal yang desain variannya belum diimplementasikan.** Alasan di tabel berikut merekam kondisi6 Oktober; untuk status16 soal yang diperbaiki, gunakan tabel revisi di atas. `DEFERRED_CONCEPTUAL` adalah label penundaan sistem; sebagian soal berlabel ini tetap memerlukan perhitungan dan bukan soal murni konseptual.
 
 Alasan dibedakan menjadi masalah pada original dan kekurangan generator. Jawaban tetap bukan bukti bahwa soal tidak dapat dibuat variannya. Varian konseptual dapat memakai stok template terbatas, sesuai pilihan pengguna sebelumnya. Untuk ID yang sudah tersedia pada tabel pembaruan, stok manual kini dapat dibaca ulang tanpa habis; sisanya menunggu tahap kedua.
 
@@ -182,6 +226,20 @@ Untuk `DEFERRED_CONCEPTUAL`, kerjakan desain generator atau stok template sesuai
 
 ## Drill Paket 1, indikator 6–10
 
+### Revisi kurikulum 7 Oktober 2026
+
+Dokumen revisi diarsipkan; 12 original menjadi v2, 138 original tetap sama. Sebelas revisi diterima kini memiliki generator config v1. `mcma-6-3-7` tetap HOLD_SOURCE: pernyataan C menyebut 5 hari, sedangkan awal hari ke-3 menghasilkan 6 hari dan setelah tiga hari penuh menghasilkan 5,25 hari; pembahasan masih menulis `42/8 = 5`.
+
+Status sekarang: **140 ACTIVE, 9 DEFERRED_CONCEPTUAL, 1 HOLD_SOURCE**. Sebelas soal yang sempat memakai label penundaan teknis sudah ACTIVE. Sembilan original konseptual beserta stok manual tetap dipertahankan. Level 4–5 belum tersedia.
+
+[Audit generator revisi dan batas parameter](../docs/audits/2026-10-07-revised-6-10-generator-audit.md). Sepuluh soal tanpa generator saat ini: `mcma-6-1-6`, `mcma-6-2-6`, `mcma-6-3-6`, `mcma-6-3-7`, `kategori-6-3-9`, `kategori-7-1-10`, `kategori-7-2-10`, `pg-7-3-1`, `kategori-9-1-10`, `kategori-10-2-10`.
+
+[Daftar 12 revisi, kunci, provenance, dan konflik tersisa](../docs/audits/2026-10-07-drill-6-10-source-revision.md).
+
+### Riwayat sebelum revisi
+
+Tabel berikut mencatat alasan historis, bukan status original v2. Gunakan laporan revisi di atas untuk status terkini.
+
 150 original: 129 ACTIVE, 12 HOLD_SOURCE, 9 DEFERRED_CONCEPTUAL. Semua 21 soal tanpa generator dicatat berikut. Level 4–5 belum tersedia pada sumber.
 
 | ID | Status | Alasan |
@@ -213,6 +271,22 @@ Aktivasi HOLD memerlukan konfirmasi/koreksi sumber per soal. Aktivasi DEFERRED m
 [Audit generator aktif](../docs/audits/2026-10-05-drill-6-10-generator-audit.md).
 
 ## Drill Paket 1, indikator 11–15
+
+### Revisi sumber — 7 Oktober 2026
+
+Dokumen revisi tim kurikulum sudah [diarsipkan](data/drill-1-indicators-11-15/source-revision-2026-10-07.docx). Dari 250 soal, tepat lima soal yang sebelumnya ditahan berubah. Kelimanya sudah menjadi original v2 melalui catatan revisi; empat kini mempunyai generator v1. Sebanyak 245 soal lain, termasuk 22 soal dengan stok manual, tetap sama.
+
+| ID | Kunci v2 | Kondisi sekarang |
+|---|---|---|
+| `mcma-11-1-7` | A,C | Generator aktif; konstanta dan input divariasikan. |
+| `pg-11-2-4` | B | Generator aktif; tetap dua langkah komposisi fungsi. |
+| `kategori-11-3-9` | 2 | Generator aktif; tetap tiga bilangan kuadrat dan enam pasangan positif-negatif. |
+| `mcma-15-2-8` | B,D, klaim sumber | Tetap ditahan: sudut 75°, 65°, 40° dan AB=6 memerlukan BC sekitar 9,0163, bukan tepat 9; sumber belum menyatakan pembulatan. |
+| `pg-15-4-2` | D | Generator aktif; sisi dan sudut dibatasi agar tetap satu segitiga yang mungkin. |
+
+Empat revisi kini memakai status `ACTIVE`; soal geometri yang masih bermasalah tetap `HOLD_SOURCE`. Bank 11–15 memiliki 227 generator, 22 soal dengan stok manual, dan satu soal ditahan: 227 + 22 + 1 = 250. Penyesuaian otomatis belum aktif; batas angka tidak diperluas otomatis. [Riwayat impor](../docs/audits/2026-10-07-drill-11-15-source-revision.md) dan [pemeriksaan generator baru](../docs/audits/2026-10-07-revised-11-15-generator-audit.md).
+
+### Alasan sebelum revisi — 5 Oktober 2026 (historis)
 
 250 original: 223 ACTIVE, 5 HOLD_SOURCE, 22 DEFERRED_CONCEPTUAL. Semua 27 soal tanpa generator dicatat berikut; level 1–5 tersedia.
 
@@ -250,6 +324,14 @@ Aktivasi HOLD memerlukan konfirmasi/koreksi sumber per soal. Aktivasi DEFERRED m
 
 ## Drill Paket1 indikator1–2, level1–3 — 5 Oktober 2026
 
+### Revisi kurikulum 7 Oktober 2026
+
+Status kini **34 ACTIVE, 25 DEFERRED_CONCEPTUAL, 1 HOLD_SOURCE**. Sebanyak 17 original menjadi v2: 16 revisi masuk untuk tahap generator berikutnya; `pg-1-2-1` tetap HOLD karena pembahasan menulis −58% = 0,58%. Sembilan original konseptual dan stok manual tetap sama. Label penundaan teknis pada 16 revisi tidak berarti soalnya konseptual; generator belum dibuat.
+
+[Daftar revisi, kunci, catatan distraktor, dan provenance](../docs/audits/2026-10-07-drill-1-5-source-revision.md). Tabel di bawah adalah **riwayat sebelum revisi**, bukan alasan/status original v2 saat ini.
+
+### Riwayat sebelum revisi
+
 60 original;34 generator aktif;17 HOLD_SOURCE;9 DEFERRED_CONCEPTUAL. Tidak menerapkan usulan koreksi dari pembahasan DOCX. Indikator3–5 belum diimpor; level4–5 di luar scope.
 
 | ID | Status | Alasan | Syarat aktivasi |
@@ -282,6 +364,14 @@ Aktivasi HOLD memerlukan konfirmasi/koreksi sumber per soal. Aktivasi DEFERRED m
 | `mcma-2-3-6` | HOLD_SOURCE | Header A,C,D bertentangan dengan kebenaran i,ii,iv: A,B,D. Pembahasan menyebut koreksi kunci eksplisit. | Original/opsi/kunci atau aturan penilaian perlu disahkan, lalu audit ulang. |
 
 ## Drill Paket1 indikator3–5, level1–3 — 6 Oktober 2026
+
+### Revisi kurikulum 7 Oktober 2026
+
+Status kini **64 ACTIVE, 25 DEFERRED_CONCEPTUAL, 1 HOLD_SOURCE**. Sebanyak 24 original menjadi v2; generator belum dibuat. `pg-5-3-3` belum berubah: header B menyebut 24 liter/menit, tetapi opsi B/pembahasan menyatakan selisih 4 liter/menit. Soal tersebut tetap v1/HOLD. `pg-5-2-4` dan stok manualnya tetap sama. Label kognitif `mcma-3-2-8` dipertahankan dari sumber awal karena revisi tidak mencantumkannya.
+
+[Daftar revisi dan batas impor](../docs/audits/2026-10-07-drill-1-5-source-revision.md). Tabel di bawah adalah **riwayat sebelum revisi**. Level tambahan dalam DOCX diarsipkan; katalog level 1–3 tetap sama.
+
+### Riwayat sebelum revisi
 
 90 original;64 aktif;25 HOLD_SOURCE;1 DEFERRED_CONCEPTUAL. Tidak mengoreksi akademik sumber.
 

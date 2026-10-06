@@ -1,0 +1,226 @@
+{
+  "question_id": "mcma-22-1-6",
+  "config_version": 1,
+  "original_hash": "177d7c2ac0dc9f26",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "case": 0,
+    "t": 0
+  },
+  "variables": {
+    "case": {
+      "gen": "choice",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "t": {
+      "gen": "range",
+      "range": [
+        -20,
+        20
+      ],
+      "step": 1
+    },
+    "a1": {
+      "gen": "derived",
+      "expr": "(4 if case==0 else 15 if case==1 else 25 if case==2 else 40 if case==3 else 25 if case==4 else 35 if case==5 else 50 if case==6 else 45)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "a2": {
+      "gen": "derived",
+      "expr": "(5 if case==0 else 30 if case==1 else 40 if case==2 else 55 if case==3 else 30 if case==4 else 40 if case==5 else 65 if case==6 else 50)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "a3": {
+      "gen": "derived",
+      "expr": "(6 if case==0 else 45 if case==1 else 55 if case==2 else 80 if case==3 else 40 if case==4 else 55 if case==5 else 75 if case==6 else 50)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "a4": {
+      "gen": "derived",
+      "expr": "(7 if case==0 else 75 if case==1 else 80 if case==2 else 90 if case==3 else 55 if case==4 else 85 if case==5 else 75 if case==6 else 60)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "a5": {
+      "gen": "derived",
+      "expr": "(10 if case==0 else 85 if case==1 else 95 if case==2 else 90 if case==3 else 65 if case==4 else 90 if case==5 else 90 if case==6 else 65)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "amean": {
+      "gen": "derived",
+      "expr": "(a1+a2+a3+a4+a5)/5",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "amedian": {
+      "gen": "derived",
+      "expr": "a3",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "arange": {
+      "gen": "derived",
+      "expr": "a5-a1",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "b1": {
+      "gen": "derived",
+      "expr": "(3 if case==0 else 5 if case==1 else 5 if case==2 else 5 if case==3 else 15 if case==4 else 5 if case==5 else 10 if case==6 else 10)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "b2": {
+      "gen": "derived",
+      "expr": "(5 if case==0 else 15 if case==1 else 5 if case==2 else 60 if case==3 else 25 if case==4 else 55 if case==5 else 65 if case==6 else 15)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "b3": {
+      "gen": "derived",
+      "expr": "(6 if case==0 else 45 if case==1 else 55 if case==2 else 80 if case==3 else 40 if case==4 else 55 if case==5 else 75 if case==6 else 50)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "b4": {
+      "gen": "derived",
+      "expr": "(7 if case==0 else 65 if case==1 else 80 if case==2 else 85 if case==3 else 40 if case==4 else 60 if case==5 else 95 if case==6 else 85)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "b5": {
+      "gen": "derived",
+      "expr": "(8 if case==0 else 85 if case==1 else 90 if case==2 else 85 if case==3 else 75 if case==4 else 65 if case==5 else 95 if case==6 else 95)+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "bmean": {
+      "gen": "derived",
+      "expr": "(b1+b2+b3+b4+b5)/5",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "bmedian": {
+      "gen": "derived",
+      "expr": "b3",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "brange": {
+      "gen": "derived",
+      "expr": "b5-b1",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "a1",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "a2",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "a3",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "a4",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "a5",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "b1",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "b2",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "b3",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "b4",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "b5",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [
+    "a1>=0 and a1<=100",
+    "a2>=0 and a2<=100",
+    "a3>=0 and a3<=100",
+    "a4>=0 and a4<=100",
+    "a5>=0 and a5<=100",
+    "b1>=0 and b1<=100",
+    "b2>=0 and b2<=100",
+    "b3>=0 and b3<=100",
+    "b4>=0 and b4<=100",
+    "b5>=0 and b5<=100"
+  ],
+  "stem": "Perhatikan data berikut:\nKelompok A: {v18}, {v19}, {v20}, {v21}, {v22}\nKelompok B: {v23}, {v24}, {v25}, {v26}, {v27}\nPilih semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Mean A lebih besar daripada mean B.",
+      "correct": "amean>bmean"
+    },
+    {
+      "id": "B",
+      "text": "Median A sama dengan median B.",
+      "correct": "amedian==bmedian"
+    },
+    {
+      "id": "C",
+      "text": "Jangkauan A lebih kecil daripada jangkauan B.",
+      "correct": "arange<brange"
+    },
+    {
+      "id": "D",
+      "text": "Jangkauan A lebih besar daripada jangkauan B.",
+      "correct": "arange>brange"
+    }
+  ],
+  "explanation": "Mean A = {amean}, median A = {amedian}, jangkauan A = {arange}. Mean B = {bmean}, median B = {bmedian}, jangkauan B = {brange}. Bandingkan mean, median dan jangkauan; pernyataan jangkauan berlawanan tidak dapat keduanya benar."
+}

@@ -1,0 +1,129 @@
+{
+  "question_id": "kategori-21-3-9",
+  "config_version": 1,
+  "original_hash": "fc0cb57c1b0de207",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -40,
+        10
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "65+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "75+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "75+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "20",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "520+7*t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "mode": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "median": {
+      "gen": "derived",
+      "expr": "75+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum": {
+      "gen": "derived",
+      "expr": "520+7*t",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan data nilai berikut.\n{v1}, {v2}, {v3}, {v4}, {v5}, {v6}, {v7}\nTentukan apakah setiap pernyataan berikut Benar atau Salah!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Modus data adalah {v8}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Median data adalah {v9}.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jangkauan data adalah {v10}.",
+      "correct": false
+    },
+    {
+      "id": "4",
+      "text": "Jumlah seluruh data adalah {v11}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Modus = {mode}; median = {median}; jangkauan = 15, bukan 20. Jumlah seluruh data = {sum}. Pernyataan 1, 2 dan 4 benar; pernyataan 3 salah."
+}

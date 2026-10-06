@@ -53,6 +53,8 @@ class Drill35(unittest.TestCase):
         from config_store import ConfigStore
         bank=OriginalBank(ROOT/'data/drill-1-indicators-3-5/q0_bank.csv')
         configs=ConfigStore(ROOT/'configs')
+        revisions = {r['question_id']:r for r in map(json.loads,
+            (ROOT/'data/drill-1-indicators-3-5/original_revisions.jsonl').read_text(encoding='utf8').splitlines())}
         for indicator in [3,4,5]:
             report=ROOT.parent/f'docs/audits/2026-10-06-drill-indicator{indicator}-audit.json'
             self.assertTrue(report.exists(),'indicator audit missing')
@@ -60,6 +62,9 @@ class Drill35(unittest.TestCase):
             self.assertEqual(len(rows),30)
             for row in rows:
                 metadata=bank.get(row['question_id'])['metadata']
+                if row['question_id'] in revisions:
+                    # Compare the historical audit against its original source version.
+                    metadata=revisions[row['question_id']]['original_metadata']
                 self.assertEqual(metadata['generation_status'],row['status'])
                 if row['status']=='ACTIVE':
                     self.assertEqual(configs.versions(row['question_id']),[1])

@@ -70,6 +70,13 @@ class OriginalBank:
                     raise ValueError("question metadata must be an object")
             except (OSError, ValueError) as error:
                 raise BankError(f"cannot load question metadata: {error}") from error
+        revisions = Path(path).with_name("original_revisions.jsonl")
+        try:
+            entries = [(line, json.loads(text)) for line, text in enumerate(
+                revisions.read_text(encoding="utf-8").splitlines(), start=1) if text.strip()] if revisions.exists() else []
+            revised_ids = {revision["question_id"] for _, revision in entries}
+        except (OSError, ValueError, KeyError, TypeError) as error:
+            raise BankError(f"cannot load original revisions: {error}") from error
         try:
             f = open(path, newline="", encoding="utf-8-sig")
         except OSError as e:
@@ -79,19 +86,16 @@ class OriginalBank:
                 item = items.get(row["id"].strip(), {})
                 held = (isinstance(item, dict) and item.get("generation_status") == "HOLD_SOURCE"
                         and isinstance(item.get("reason"), str) and bool(item["reason"].strip()))
-                o = _parse_row(row, line, allow_missing_key=held)
+                o = _parse_row(row, line, allow_missing_key=held or row["id"].strip() in revised_ids)
                 if o["id"] in self._rows:
                     raise BankError(f"duplicate question id {o['id']}")
                 self._rows[o["id"]] = o
-        revisions = Path(path).with_name("original_revisions.jsonl")
-        if revisions.exists():
+        if entries:
             try:
-                for line, text in enumerate(revisions.read_text(encoding="utf-8").splitlines(), start=1):
-                    if not text.strip():
-                        continue
-                    revision = json.loads(text)
+                for line, revision in entries:
                     current = self._rows[revision["question_id"]]
-                    previous = _parse_row(revision["original_row"], line)
+                    previous = _parse_row(revision["original_row"], line,
+                                          allow_missing_key=not any(o["correct"] for o in current["options"]))
                     replacement = _parse_row(revision["replacement_row"], line)
                     if (previous["id"] != current["id"] or previous["hash"] != current["hash"]
                             or previous["version"] != current["version"]

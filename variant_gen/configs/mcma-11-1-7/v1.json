@@ -1,0 +1,95 @@
+{
+  "question_id": "mcma-11-1-7",
+  "config_version": 1,
+  "original_hash": "57c838848831acc8",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "positive": 2,
+    "negative": 3,
+    "constant": 3
+  },
+  "variables": {
+    "positive": {
+      "gen": "range",
+      "range": [
+        2,
+        5
+      ],
+      "step": 1,
+      "fmt": "raw"
+    },
+    "negative": {
+      "gen": "range",
+      "range": [
+        3,
+        6
+      ],
+      "step": 1,
+      "fmt": "raw"
+    },
+    "constant": {
+      "gen": "range",
+      "range": [
+        2,
+        7
+      ],
+      "step": 1,
+      "fmt": "raw"
+    },
+    "neg": {
+      "gen": "derived",
+      "expr": "-negative",
+      "fmt": "raw"
+    },
+    "yes_p": {
+      "gen": "derived",
+      "expr": "positive**2-constant",
+      "fmt": "raw"
+    },
+    "no_p": {
+      "gen": "derived",
+      "expr": "positive**2",
+      "fmt": "raw"
+    },
+    "yes_n": {
+      "gen": "derived",
+      "expr": "negative**2-constant",
+      "fmt": "raw"
+    },
+    "no_n": {
+      "gen": "derived",
+      "expr": "negative**2+constant",
+      "fmt": "raw"
+    }
+  },
+  "constraints": [
+    "positive < negative",
+    "yes_p > 0",
+    "yes_n > 0"
+  ],
+  "stem": "Diketahui fungsi f(x) = x² - {constant}. Pilihlah semua pernyataan nilai fungsi yang benar di bawah ini!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nilai dari f({positive})={yes_p}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Nilai dari f({positive})={no_p}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Nilai dari f({neg})={yes_n}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Nilai dari f({neg})={no_n}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Substitusikan input dan kuadratkan sebelum mengurangi konstanta. f({positive})=({positive})²-{constant}={yes_p}; f({neg})=({neg})²-{constant}={yes_n}. A dan C benar. B mengabaikan pengurangan konstanta; D menambah konstanta, bukan menguranginya."
+}

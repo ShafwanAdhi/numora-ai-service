@@ -1,0 +1,121 @@
+{
+  "question_id": "pg-9-3-2",
+  "config_version": 1,
+  "original_hash": "b249e691c0193373",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "160000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "160000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "160000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "160000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "160000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "110000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "160000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia pertunjukan teater sekolah menganalisis penerimaan dari dua jenis tiket: tiket kelas utama (x) dan tiket kelas biasa (y). Sistem persamaan penerimaan dinyatakan sebagai:\n2x+3y={v1}\n5x+2y={v2}\nPanitia hendak menyajikan penyelesaian nilai variabel matriks $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ menggunakan bentuk perkalian invers matriks koefisien. Bentuk persamaan matriks yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{-11} \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix} \\begin{pmatrix} {v3} \\\\ {v4} \\end{pmatrix}$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{11} \\begin{pmatrix} 2 & 3 \\\\ 5 & 2 \\end{pmatrix} \\begin{pmatrix} {v5} \\\\ {v6} \\end{pmatrix}$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{-11} \\begin{pmatrix} -2 & 3 \\\\ 5 & -2 \\end{pmatrix} \\begin{pmatrix} {v7} \\\\ {v8} \\end{pmatrix}$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{11} \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix} \\begin{pmatrix} {v9} \\\\ {v10} \\end{pmatrix}$",
+      "correct": false
+    }
+  ],
+  "explanation": "Matriks koefisien A=[[2,3],[5,2]]. det(A)=2×2−3×5=−11, bukan nol. A^−1=(1/−11)[[2,−3],[−5,2]]. Kalikan invers dengan vektor penerimaan [{v11}, {v12}]^T. Tukar diagonal utama, ubah tanda diagonal samping; opsi B,C,D salah tanda/elemen. Jawaban A."
+}

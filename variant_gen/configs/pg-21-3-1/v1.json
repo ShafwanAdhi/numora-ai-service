@@ -1,0 +1,131 @@
+{
+  "question_id": "pg-21-3-1",
+  "config_version": 1,
+  "original_hash": "5817f19334104265",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "n": 6,
+    "m": 75,
+    "delta": 2
+  },
+  "variables": {
+    "n": {
+      "gen": "range",
+      "range": [
+        3,
+        25
+      ],
+      "step": 1
+    },
+    "m": {
+      "gen": "range",
+      "range": [
+        40,
+        85
+      ],
+      "step": 1
+    },
+    "delta": {
+      "gen": "choice",
+      "values": [
+        1,
+        2,
+        3
+      ]
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "n",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "m",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "n+1",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "m+delta",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "m+(n+1)*delta",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum_before": {
+      "gen": "derived",
+      "expr": "n*m",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum_after": {
+      "gen": "derived",
+      "expr": "(n+1)*(m+delta)",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "answer+(-4)",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "answer+(1)",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "answer+(0)",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "answer+(6)",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [
+    "answer<=100"
+  ],
+  "stem": "Rata-rata nilai {v3} siswa adalah {v4}. Setelah seorang siswa bergabung dalam kelompok tersebut, rata-rata nilai {v5} siswa menjadi {v6}.\nNilai siswa yang bergabung adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v10}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v11}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v12}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v13}",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah awal = {sum_before}. Jumlah setelah satu siswa bergabung = {sum_after}. Nilai siswa baru = {sum_after} - {sum_before} = {answer}."
+}

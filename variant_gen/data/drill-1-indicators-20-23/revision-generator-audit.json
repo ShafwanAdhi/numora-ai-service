@@ -1,0 +1,1176 @@
+{
+  "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+  "target": 20,
+  "seed_limit": 200,
+  "summary": {
+    "PASS": 16,
+    "FAIL": 0,
+    "distinct_count": 320,
+    "extra_seed_checks": 1600
+  },
+  "rows": [
+    {
+      "question_id": "pg-20-3-3",
+      "original_version": 2,
+      "original_hash": "0411cebecd0ec59e",
+      "config_version": 1,
+      "config_hash": "d73582e40d11de11",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "t": {
+          "gen": "range",
+          "range": [
+            -50,
+            10
+          ],
+          "step": 1,
+          "fmt": "raw"
+        }
+      }
+    },
+    {
+      "question_id": "pg-21-2-2",
+      "original_version": 2,
+      "original_hash": "b7df70083f67fc7e",
+      "config_version": 1,
+      "config_hash": "41ca14e1f399cd34",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        4
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "t": {
+          "gen": "range",
+          "range": [
+            -50,
+            10
+          ],
+          "step": 1,
+          "fmt": "raw"
+        }
+      }
+    },
+    {
+      "question_id": "pg-21-3-1",
+      "original_version": 2,
+      "original_hash": "5817f19334104265",
+      "config_version": 1,
+      "config_hash": "0111058be24fa5eb",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "n": {
+          "gen": "range",
+          "range": [
+            3,
+            25
+          ],
+          "step": 1
+        },
+        "m": {
+          "gen": "range",
+          "range": [
+            40,
+            85
+          ],
+          "step": 1
+        },
+        "delta": {
+          "gen": "choice",
+          "values": [
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "pg-21-3-4",
+      "original_version": 2,
+      "original_hash": "a0b9c98805e936f5",
+      "config_version": 1,
+      "config_hash": "e52a976752c6496c",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "t": {
+          "gen": "range",
+          "range": [
+            -50,
+            10
+          ],
+          "step": 1,
+          "fmt": "raw"
+        }
+      }
+    },
+    {
+      "question_id": "pg-21-3-5",
+      "original_version": 2,
+      "original_hash": "daef166154161efd",
+      "config_version": 1,
+      "config_hash": "d03309c1472e44c8",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        3,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        3,
+        5,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        5
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "case": {
+          "gen": "choice",
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            -20,
+            20
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-21-3-8",
+      "original_version": 2,
+      "original_hash": "fc671ca01da531e2",
+      "config_version": 1,
+      "config_hash": "d79dcfa845e64036",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "t": {
+          "gen": "range",
+          "range": [
+            -30,
+            20
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-21-3-9",
+      "original_version": 2,
+      "original_hash": "fc0cb57c1b0de207",
+      "config_version": 1,
+      "config_hash": "5130e3de9f9bd100",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "t": {
+          "gen": "range",
+          "range": [
+            -40,
+            10
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-22-1-1",
+      "original_version": 2,
+      "original_hash": "304db1ad93095e3f",
+      "config_version": 1,
+      "config_hash": "15f4a75a58dff7fd",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2,
+        3,
+        1,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        7
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "case": {
+          "gen": "choice",
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            -20,
+            20
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-22-1-6",
+      "original_version": 2,
+      "original_hash": "177d7c2ac0dc9f26",
+      "config_version": 1,
+      "config_hash": "82d78fbb36a0070b",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        4,
+        2,
+        5,
+        1,
+        6,
+        3,
+        1,
+        1,
+        2,
+        5,
+        4,
+        2,
+        1,
+        2,
+        6,
+        2,
+        1,
+        1,
+        1
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "case": {
+          "gen": "choice",
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            -20,
+            20
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-22-1-7",
+      "original_version": 2,
+      "original_hash": "64972e5105958f62",
+      "config_version": 1,
+      "config_hash": "afe10083a0537e2b",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        2,
+        4,
+        1,
+        2,
+        1,
+        1,
+        3,
+        1,
+        4,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        5,
+        3
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "case": {
+          "gen": "choice",
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            -20,
+            20
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-22-3-8",
+      "original_version": 2,
+      "original_hash": "511150bba8ff7dca",
+      "config_version": 1,
+      "config_hash": "dc7eb6883b8ceb7d",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        4,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "case": {
+          "gen": "choice",
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "t": {
+          "gen": "range",
+          "range": [
+            -20,
+            20
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-23-3-2",
+      "original_version": 2,
+      "original_hash": "f947f9d2c2a26489",
+      "config_version": 1,
+      "config_hash": "634081e69bf5649e",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "trials": {
+          "gen": "range",
+          "range": [
+            100,
+            1500
+          ],
+          "step": 100
+        },
+        "p": {
+          "gen": "range",
+          "range": [
+            1,
+            99
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "pg-23-3-5",
+      "original_version": 2,
+      "original_hash": "22ab65cb157d849c",
+      "config_version": 1,
+      "config_hash": "8fb3148b50f980d7",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        2,
+        4,
+        2,
+        4,
+        1,
+        1,
+        2,
+        2,
+        3,
+        2,
+        6,
+        5,
+        3,
+        2,
+        1,
+        12,
+        4,
+        20
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "trials": {
+          "gen": "range",
+          "range": [
+            30,
+            900
+          ],
+          "step": 30
+        },
+        "p": {
+          "gen": "choice",
+          "values": [
+            4,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "mcma-23-3-7",
+      "original_version": 2,
+      "original_hash": "a38491b838a742a2",
+      "config_version": 1,
+      "config_hash": "3d811a80373ee02b",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "trials": {
+          "gen": "range",
+          "range": [
+            100,
+            1500
+          ],
+          "step": 100
+        },
+        "p": {
+          "gen": "range",
+          "range": [
+            1,
+            99
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "mcma-23-3-8",
+      "original_version": 2,
+      "original_hash": "f0e7bf1cfa1a8261",
+      "config_version": 1,
+      "config_hash": "63c18aa1a7f76c84",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        4,
+        5,
+        5,
+        1,
+        1,
+        11,
+        1,
+        7,
+        5,
+        9,
+        1,
+        6,
+        1,
+        7,
+        2,
+        6,
+        4,
+        4,
+        3,
+        5
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "trials": {
+          "gen": "range",
+          "range": [
+            100,
+            1500
+          ],
+          "step": 100
+        },
+        "p": {
+          "gen": "range",
+          "range": [
+            1,
+            999
+          ],
+          "step": 1
+        }
+      }
+    },
+    {
+      "question_id": "kategori-23-3-9",
+      "original_version": 2,
+      "original_hash": "0c3ae15c182d1c9d",
+      "config_version": 1,
+      "config_hash": "633015eed2837a5f",
+      "status": "PASS",
+      "distinct_count": 20,
+      "successful_seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "failed_seeds": [],
+      "draws_used": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "extra_seed_checks": 100,
+      "parameter_domains": {
+        "trials": {
+          "gen": "range",
+          "range": [
+            100,
+            1500
+          ],
+          "step": 100
+        },
+        "p": {
+          "gen": "range",
+          "range": [
+            1,
+            49
+          ],
+          "step": 1
+        }
+      }
+    }
+  ]
+}

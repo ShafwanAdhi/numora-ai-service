@@ -1,0 +1,109 @@
+{
+  "question_id": "pg-7-1-2",
+  "config_version": 1,
+  "original_hash": "ced051982b33e575",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "45000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "25000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "30000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "40000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "45000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "45000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "25000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "70000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "35000*k",
+      "fmt": "id",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Saldo tabungan Dimas di koperasi sekolah setelah ditambah dengan uang saku tambahan sebesar Rp{v1},00 sama dengan tiga kali saldo tabungan awalnya dikurangi Rp{v2},00. Besar saldo tabungan awal Dimas sebelum ditambah uang saku tambahan adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{v3},00",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{v4},00",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Rp{v5},00",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rp{v6},00",
+      "correct": false
+    }
+  ],
+  "explanation": "Misalkan saldo awal x. x+{v7}=3x−{v8}. Maka 2x={v9} dan x={v10} rupiah. Jawaban B."
+}

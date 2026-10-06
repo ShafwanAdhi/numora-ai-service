@@ -40,15 +40,14 @@ class DrillSource(unittest.TestCase):
         with self.assertRaises(BankError):
             load_workspace_bank(BANK, [BANK])
 
-    def test_missing_key_display(self):
+    def test_revised_key_display(self):
         from contextlib import redirect_stdout
         from io import StringIO
         from cli import show
         output = StringIO()
         with redirect_stdout(output):
             show(original_record(OriginalBank(BANK).get('pg-6-1-5')), False)
-        self.assertIn('Belum tersedia', output.getvalue())
-        self.assertIn('belum disahkan', output.getvalue())
+        self.assertEqual(original_record(OriginalBank(BANK).get('pg-6-1-5'))['key'], 'C')
         self.assertIn("record.key || 'Belum tersedia'", (ROOT / 'webui.html').read_text(encoding='utf8'))
 
     def test_source_identity_and_catalog(self):
@@ -58,7 +57,7 @@ class DrillSource(unittest.TestCase):
         self.assertEqual(Counter(bank.get(q)['format'] for q in bank.ids()),
                          dict(PG=75, MCMA=45, KATEGORI=30))
         self.assertEqual(Counter(bank.get(q)['cognitive_level'] for q in bank.ids()),
-                         {'C3': 76, 'C4': 73, '': 1})
+                         {'C3': 77, 'C4': 73})
         self.assertEqual(len(bank.catalog()), 25)
         self.assertEqual(sum(not g['question_ids'] for g in bank.catalog()), 10)
         self.assertEqual(hashlib.sha256(BANK.with_name('source.docx').read_bytes()).hexdigest(),
@@ -68,7 +67,7 @@ class DrillSource(unittest.TestCase):
             self.assertEqual(o['classification']['package_id'], 'drill-1')
             self.assertTrue(o['metadata']['source_text'])
             self.assertTrue(o['metadata']['original_explanation'])
-        self.assertIsNone(bank.get('pg-9-3-2')['metadata']['source_number'])
+        self.assertEqual(bank.get('pg-9-3-2')['metadata']['source_number'], 2)
         self.assertEqual(bank.get('pg-6-2-1')['metadata']['source_number'], 1)
 
     def test_missing_key_is_hold_only(self):
@@ -98,14 +97,15 @@ class DrillSource(unittest.TestCase):
         bank = OriginalBank(BANK)
         for qid in HOLD:
             original = bank.get(qid)
-            self.assertEqual(original['metadata']['generation_status'], 'HOLD_SOURCE', qid)
-            self.assertTrue(original['metadata']['reason'])
-            self.assertEqual(ConfigStore(ROOT / 'configs').versions(qid), [])
-        for qid in ['pg-6-1-5', 'pg-7-1-2']:
-            self.assertEqual(original_record(bank.get(qid))['key'], '')
+            expected = 'HOLD_SOURCE' if qid == 'mcma-6-3-7' else 'ACTIVE'
+            self.assertEqual(original['metadata']['generation_status'], expected, qid)
+            if expected == 'HOLD_SOURCE': self.assertTrue(original['metadata']['reason'])
+            self.assertEqual(ConfigStore(ROOT / 'configs').versions(qid), [] if expected == 'HOLD_SOURCE' else [1])
+        for qid, key in [('pg-6-1-5', 'C'), ('pg-7-1-2', 'B')]:
+            self.assertEqual(original_record(bank.get(qid))['key'], key)
         for qid in ['pg-7-3-5', 'pg-9-1-3']:
             o = bank.get(qid)['options']
-            self.assertEqual(o[0]['text'], o[1]['text'])
+            self.assertEqual(len({option['text'] for option in o}), 4)
         self.assertIn('(x-2)^2', bank.get('kategori-10-3-9')['stem'])
 
 
@@ -128,7 +128,7 @@ class DrillGenerators(unittest.TestCase):
                 for qid in ['pg-6-1-1', 'mcma-8-1-6', 'kategori-10-1-9']:
                     for command in ['gen','gen','view']:
                         self.assertEqual(cli.main([command,qid,'s11']+args),0)
-                self.assertEqual(cli.main(['gen','pg-6-1-5','s1']+args),1)
+                self.assertEqual(cli.main(['gen','mcma-6-3-7','s1']+args),1)
             self.assertFalse(path.exists())
 
     def test_oracle_edges(self):

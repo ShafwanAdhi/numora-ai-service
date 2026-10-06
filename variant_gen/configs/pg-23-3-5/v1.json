@@ -1,0 +1,83 @@
+{
+  "question_id": "pg-23-3-5",
+  "config_version": 1,
+  "original_hash": "22ab65cb157d849c",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "trials": 150,
+    "p": 4
+  },
+  "variables": {
+    "trials": {
+      "gen": "range",
+      "range": [
+        30,
+        900
+      ],
+      "step": 30
+    },
+    "p": {
+      "gen": "choice",
+      "values": [
+        4,
+        6
+      ]
+    },
+    "observed": {
+      "gen": "derived",
+      "expr": "trials*p/30",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "frequency": {
+      "gen": "derived",
+      "expr": "p/30",
+      "fmt": "mixed",
+      "decimals": 3
+    },
+    "theory": {
+      "gen": "derived",
+      "expr": "1/6",
+      "fmt": "mixed",
+      "decimals": 3
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "trials",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "observed",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah dadu dilempar sebanyak {v5} kali. Hasil percobaan menunjukkan bahwa angka 5 muncul sebanyak {v6} kali. Pernyataan yang benar berdasarkan hasil percobaan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Frekuensi relatif muncul angka 5 adalah 1/5.",
+      "correct": "frequency==1/5"
+    },
+    {
+      "id": "B",
+      "text": "Frekuensi relatif muncul angka 5 adalah 1/6.",
+      "correct": "frequency==1/6"
+    },
+    {
+      "id": "C",
+      "text": "Frekuensi relatif muncul angka 5 lebih kecil daripada peluang teoretisnya.",
+      "correct": "frequency<1/6"
+    },
+    {
+      "id": "D",
+      "text": "Peluang teoretis muncul angka 5 adalah {observed}/{trials}.",
+      "correct": "frequency==1/6"
+    }
+  ],
+  "explanation": "Frekuensi relatif = {observed}/{trials} = {frequency}. Peluang teoretis angka 5 pada dadu fair = {theory}. Bandingkan kedua pecahan: jangan menggunakan hasil percobaan sebagai peluang teoretis. Pada kandidat dengan frekuensi 1/5, pernyataan A benar dan hubungan lebih kecil pada C salah."
+}

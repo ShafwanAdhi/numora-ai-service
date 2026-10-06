@@ -1,0 +1,103 @@
+{
+  "question_id": "pg-7-3-5",
+  "config_version": 1,
+  "original_hash": "109f3c1f66f1d560",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Persamaan perancangan kas kelas dirumuskan oleh bendahara sebagai 4(x+{v1})-2x=2(x+k), di mana k adalah suatu konstanta. Pembina kelas menganalisis bahwa perancangan kas tersebut tidak akan pernah bisa seimbang (tidak memiliki penyelesaian/kontradiksi) jika nilai k memenuhi kondisi ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "k={v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "k={v3}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "k≠{v4}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "k≠{v5}",
+      "correct": false
+    }
+  ],
+  "explanation": "4(x+{v6})−2x=2(x+k) menyederhana menjadi {v7}=2k. Identitas ketika k={v8}, kontradiksi ketika k≠{v9}. Jawaban C."
+}

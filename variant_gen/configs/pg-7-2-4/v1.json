@@ -1,0 +1,97 @@
+{
+  "question_id": "pg-7-2-4",
+  "config_version": 1,
+  "original_hash": "9e02d025f8c5728e",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Tim bendahara OSIS menguji sebuah formula aljabar untuk alokasi dana kegiatan sekolah yang dirumuskan dengan persamaan:\n3(2x-a)=6x+{v1}\ndi mana a adalah suatu konstanta. Agar persamaan tersebut tidak memiliki penyelesaian (kontradiksi), nilai a yang memenuhi adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "a={v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "a={v3}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Semua bilangan real a dengan a≠{v4}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Tidak ada nilai a yang memenuhi",
+      "correct": false
+    }
+  ],
+  "explanation": "3(2x−a)=6x+{v5} menyederhana menjadi −3a={v6}. Jika a={v7}, persamaan identitas. Agar kontradiksi, a≠{v8}. Jawaban C."
+}

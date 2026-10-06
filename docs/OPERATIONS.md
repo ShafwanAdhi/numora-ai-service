@@ -101,3 +101,13 @@ Server browser test: `python -B variant_gen/webui.py --port 8766`; gunakan confi
 | `no acceptable variant within ... draws` | Periksa domain, constraints, dan rejection; bukan tanda stok tersimpan habis. |
 | Soal sama muncul kembali | Wajar: tidak ada riwayat deduplikasi; ubah seed/config untuk mencoba variasi. |
 | DB belum terbaca | Periksa environment, jaringan/TLS, schema/izin SELECT. |
+
+## Audit ulang generator revisi20?23
+
+Enam belas revisi kurikulum kini ACTIVE dan tersedia melalui filter soal yang sama. Restart workbench yang masih memuat bank sebelum revisi. Audit berikut menghasilkan fixture offline di folder tujuan; generate UI/CLI tetap tidak menyimpan hasil dan tidak mengakses database.
+
+```powershell
+python -B variant_gen/tests/audit_drill_20_23_revisions.py --output .scratch/revision-audit/report.json
+```
+
+[Laporan dan konfigurasi parameter](audits/2026-10-07-revised-20-23-generator-audit.md).

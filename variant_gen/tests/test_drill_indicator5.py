@@ -39,7 +39,7 @@ class Indicator5(unittest.TestCase):
                 o = bank.get(q)
                 self.assertTrue(o['metadata']['original_explanation'])
                 if q in HELD:
-                    self.assertEqual(o['metadata']['generation_status'], 'DEFERRED_CONCEPTUAL' if q=='pg-5-2-4' else 'HOLD_SOURCE')
+                    self.assertEqual(o['metadata']['generation_status'], 'HOLD_SOURCE' if q=='pg-5-3-3' else 'DEFERRED_CONCEPTUAL')
                     self.assertTrue(o['metadata']['reason'])
                     self.assertEqual(configs.versions(q), [])
                     continue

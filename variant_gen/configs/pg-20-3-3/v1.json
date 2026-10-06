@@ -1,0 +1,127 @@
+{
+  "question_id": "pg-20-3-3",
+  "config_version": 1,
+  "original_hash": "0411cebecd0ec59e",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -50,
+        10
+      ],
+      "step": 1,
+      "fmt": "raw"
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "90+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "100+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "85+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "100+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "105+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "110+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "115+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum_before": {
+      "gen": "derived",
+      "expr": "400+5*t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum_after": {
+      "gen": "derived",
+      "expr": "6*(85+t)",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "110+t",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [
+    "60+t>=0",
+    "110+t<=120"
+  ],
+  "stem": "Nilai lima siswa adalah {v1}, {v2}, {v3}, {v4}, dan {v5}. Guru menambahkan satu nilai baru sehingga rata-rata keenam siswa menjadi {v6}. Nilai baru tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v7}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v8}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v9}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v10}",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah lima nilai = {sum_before}. Jumlah enam nilai = {sum_after}. Nilai tambahan = {sum_after} - {sum_before} = {answer}."
+}

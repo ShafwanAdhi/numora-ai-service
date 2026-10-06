@@ -322,18 +322,31 @@
   },
   "pg-20-3-3": {
     "source_number": 23,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 23 (Bentuk Soal: PG)\nKUNCI JAWABAN : D\nNilai lima siswa adalah 60, 70, 80, 90, dan 100. Guru menambahkan satu nilai baru sehingga rata-rata keenam siswa menjadi 85. Nilai baru tersebut adalah ....\n100\n105\n110\n110\nPembahasan :\nJumlah lima nilai:\n60 + 70 + 80 + 90 + 100 = 400.\nJumlah enam nilai agar rata-rata 85:\n6 × 85 = 510.\nNilai baru:\n510 − 400 = 110.\nCatatan: Pada soal ini pilihan 3 dan 4 akan memiliki jawaban sama, sehingga tidak layak digunakan dalam tes. Untuk menjaga kualitas butir, soal seharusnya diperbaiki menjadi:\n100\n105\n110\n115\nDengan perbaikan tersebut, kunci = C.",
-    "original_explanation": "Pembahasan :\nJumlah lima nilai:\n60 + 70 + 80 + 90 + 100 = 400.\nJumlah enam nilai agar rata-rata 85:\n6 × 85 = 510.\nNilai baru:\n510 − 400 = 110.\nCatatan: Pada soal ini pilihan 3 dan 4 akan memiliki jawaban sama, sehingga tidak layak digunakan dalam tes. Untuk menjaga kualitas butir, soal seharusnya diperbaiki menjadi:\n100\n105\n110\n115\nDengan perbaikan tersebut, kunci = C.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 23 (Bentuk Soal: PG)\nKUNCI JAWABAN : D\nNilai lima siswa adalah 60, 70, 80, 90, dan 100. Guru menambahkan satu nilai baru sehingga rata-rata keenam siswa menjadi 85. Nilai baru tersebut adalah ....\n100\n105\n120\n110\nPembahasan :\nJumlah lima nilai:\n60 + 70 + 80 + 90 + 100 = 400.\nJumlah enam nilai agar rata-rata 85:\n6 × 85 = 510.\nNilai baru:\n510 − 400 = 110.\nCatatan: Pada soal ini pilihan 3 dan 4 akan memiliki jawaban sama, sehingga tidak layak digunakan dalam tes. Untuk menjaga kualitas butir, soal seharusnya diperbaiki menjadi:\n100\n105\n110\n115\nDengan perbaikan tersebut, kunci = C.",
+    "original_explanation": "Pembahasan :\nJumlah lima nilai:\n60 + 70 + 80 + 90 + 100 = 400.\nJumlah enam nilai agar rata-rata 85:\n6 × 85 = 510.\nNilai baru:\n510 − 400 = 110.",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Hasil 110; opsi C dan D duplikat. Koreksi opsi belum disetujui."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 23 (Bentuk Soal: PG)\nKUNCI JAWABAN : D\nNilai lima siswa adalah 60, 70, 80, 90, dan 100. Guru menambahkan satu nilai baru sehingga rata-rata keenam siswa menjadi 85. Nilai baru tersebut adalah ....\n100\n105\n110\n110\nPembahasan :\nJumlah lima nilai:\n60 + 70 + 80 + 90 + 100 = 400.\nJumlah enam nilai agar rata-rata 85:\n6 × 85 = 510.\nNilai baru:\n510 − 400 = 110.\nCatatan: Pada soal ini pilihan 3 dan 4 akan memiliki jawaban sama, sehingga tidak layak digunakan dalam tes. Untuk menjaga kualitas butir, soal seharusnya diperbaiki menjadi:\n100\n105\n110\n115\nDengan perbaikan tersebut, kunci = C.",
+      "original_explanation": "Pembahasan :\nJumlah lima nilai:\n60 + 70 + 80 + 90 + 100 = 400.\nJumlah enam nilai agar rata-rata 85:\n6 × 85 = 510.\nNilai baru:\n510 − 400 = 110.\nCatatan: Pada soal ini pilihan 3 dan 4 akan memiliki jawaban sama, sehingga tidak layak digunakan dalam tes. Untuk menjaga kualitas butir, soal seharusnya diperbaiki menjadi:\n100\n105\n110\n115\nDengan perbaikan tersebut, kunci = C.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Hasil 110; opsi C dan D duplikat. Koreksi opsi belum disetujui."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": [
+      "Menggunakan opsi final 100,105,110,115 dan kunci C yang dinyatakan eksplisit dalam catatan revisi; header D adalah versi sebelum opsi final."
+    ]
   },
   "pg-20-3-4": {
     "source_number": 24,
@@ -593,18 +606,31 @@
   },
   "pg-21-2-2": {
     "source_number": 12,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 12 (Bentuk Soal: PG)\nKUNCI JAWABAN : D\nRata-rata dari lima bilangan adalah 72. Jika empat bilangan tersebut adalah 65, 70, 75, dan 80, bilangan kelima adalah ....\n65\n68\n70\n70\nPembahasan :\nJumlah seluruh data:\n5 × 72 = 360.\nJumlah empat data:\n65 + 70 + 75 + 80 = 290.\nData kelima:\n360 − 290 = 70.\nCatatan: pilihan harus dibuat unik. Gunakan opsi final:\n65\n68\n70\n75\nDengan demikian kunci = C.",
-    "original_explanation": "Pembahasan :\nJumlah seluruh data:\n5 × 72 = 360.\nJumlah empat data:\n65 + 70 + 75 + 80 = 290.\nData kelima:\n360 − 290 = 70.\nCatatan: pilihan harus dibuat unik. Gunakan opsi final:\n65\n68\n70\n75\nDengan demikian kunci = C.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 12 (Bentuk Soal: PG)\nKUNCI JAWABAN : D\nRata-rata dari lima bilangan adalah 72. Jika empat bilangan tersebut adalah 65, 70, 75, dan 80, bilangan kelima adalah ....\n65\n68\n75\n70\nPembahasan :\nJumlah seluruh data:\n5 × 72 = 360.\nJumlah empat data:\n65 + 70 + 75 + 80 = 290.\nData kelima:\n360 − 290 = 70.\nCatatan: pilihan harus dibuat unik. Gunakan opsi final:\n65\n68\n70\n75\nDengan demikian kunci = C.",
+    "original_explanation": "Pembahasan :\nJumlah seluruh data:\n5 × 72 = 360.\nJumlah empat data:\n65 + 70 + 75 + 80 = 290.\nData kelima:\n360 − 290 = 70.",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Hasil 70; opsi C dan D duplikat. Koreksi opsi belum disetujui."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 12 (Bentuk Soal: PG)\nKUNCI JAWABAN : D\nRata-rata dari lima bilangan adalah 72. Jika empat bilangan tersebut adalah 65, 70, 75, dan 80, bilangan kelima adalah ....\n65\n68\n70\n70\nPembahasan :\nJumlah seluruh data:\n5 × 72 = 360.\nJumlah empat data:\n65 + 70 + 75 + 80 = 290.\nData kelima:\n360 − 290 = 70.\nCatatan: pilihan harus dibuat unik. Gunakan opsi final:\n65\n68\n70\n75\nDengan demikian kunci = C.",
+      "original_explanation": "Pembahasan :\nJumlah seluruh data:\n5 × 72 = 360.\nJumlah empat data:\n65 + 70 + 75 + 80 = 290.\nData kelima:\n360 − 290 = 70.\nCatatan: pilihan harus dibuat unik. Gunakan opsi final:\n65\n68\n70\n75\nDengan demikian kunci = C.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Hasil 70; opsi C dan D duplikat. Koreksi opsi belum disetujui."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": [
+      "Menggunakan opsi final 65,68,70,75 dan kunci C dari catatan revisi, menggantikan urutan/header awal."
+    ]
   },
   "pg-21-2-3": {
     "source_number": 13,
@@ -721,18 +747,29 @@
   },
   "pg-21-3-1": {
     "source_number": 21,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 21 (Bentuk Soal: PG)\nKUNCI JAWABAN : C\nRata-rata nilai 6 siswa adalah 75. Setelah satu siswa yang memperoleh nilai 90 bergabung dalam kelompok tersebut, rata-rata menjadi 77.\nNilai siswa yang bergabung adalah ....\n85\n90\n89\n95\nPembahasan :\nJumlah nilai awal:\n6 × 75 = 450.\nJumlah nilai setelah menjadi 7 siswa:\n7 × 77 = 539.\nNilai siswa:\n539 − 450 = 89.",
-    "original_explanation": "Pembahasan :\nJumlah nilai awal:\n6 × 75 = 450.\nJumlah nilai setelah menjadi 7 siswa:\n7 × 77 = 539.\nNilai siswa:\n539 − 450 = 89.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 21 (Bentuk Soal: PG)\nKUNCI JAWABAN: C\nRata-rata nilai 6 siswa adalah 75. Setelah seorang siswa bergabung dalam kelompok tersebut, rata-rata nilai 7 siswa menjadi 77.\nNilai siswa yang bergabung adalah ....\nA. 85 B. 90 C. 89 D. 95\nPembahasan:\nJumlah nilai 6 siswa:\n6 × 75 = 450\nJumlah nilai 7 siswa:\n7 × 77 = 539\nNilai siswa yang bergabung:\n539 − 450 = 89\nJadi, nilai siswa yang bergabung adalah 89.",
+    "original_explanation": "Pembahasan:\nJumlah nilai 6 siswa:\n6 × 75 = 450\nJumlah nilai 7 siswa:\n7 × 77 = 539\nNilai siswa yang bergabung:\n539 − 450 = 89\nJadi, nilai siswa yang bergabung adalah 89.",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Stem menyebut nilai 90; mean mengharuskan 89. Koreksi stem belum disetujui."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 21 (Bentuk Soal: PG)\nKUNCI JAWABAN : C\nRata-rata nilai 6 siswa adalah 75. Setelah satu siswa yang memperoleh nilai 90 bergabung dalam kelompok tersebut, rata-rata menjadi 77.\nNilai siswa yang bergabung adalah ....\n85\n90\n89\n95\nPembahasan :\nJumlah nilai awal:\n6 × 75 = 450.\nJumlah nilai setelah menjadi 7 siswa:\n7 × 77 = 539.\nNilai siswa:\n539 − 450 = 89.",
+      "original_explanation": "Pembahasan :\nJumlah nilai awal:\n6 × 75 = 450.\nJumlah nilai setelah menjadi 7 siswa:\n7 × 77 = 539.\nNilai siswa:\n539 − 450 = 89.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Stem menyebut nilai 90; mean mengharuskan 89. Koreksi stem belum disetujui."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "pg-21-3-2": {
     "source_number": 22,
@@ -764,33 +801,55 @@
   },
   "pg-21-3-4": {
     "source_number": 24,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 24 (Bentuk Soal: PG)\nKUNCI JAWABAN : A\nData berikut memiliki rata-rata 70:\n60, 65, 70, 75, x\nJika nilai x diubah menjadi 90, rata-rata baru data tersebut adalah ....\n74\n75\n76\n78\nPembahasan :\nKarena rata-rata awal 70:\nJumlah data = 5 × 70 = 350.\nJumlah empat data:\n60 + 65 + 70 + 75 = 270.\nx = 350 − 270 = 80.\nJika x menjadi 90, jumlah baru:\n350 − 80 + 90 = 360.\nMean baru:\n360 ÷ 5 = 72.\nJadi opsi harus diperbaiki agar kunci sesuai. Jawaban sebenarnya adalah 72.\nUntuk versi final yang layak digunakan:\n72\n74\n76\n78\nKunci final: A.",
-    "original_explanation": "Pembahasan :\nKarena rata-rata awal 70:\nJumlah data = 5 × 70 = 350.\nJumlah empat data:\n60 + 65 + 70 + 75 = 270.\nx = 350 − 270 = 80.\nJika x menjadi 90, jumlah baru:\n350 − 80 + 90 = 360.\nMean baru:\n360 ÷ 5 = 72.\nJadi opsi harus diperbaiki agar kunci sesuai. Jawaban sebenarnya adalah 72.\nUntuk versi final yang layak digunakan:\n72\n74\n76\n78\nKunci final: A.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 24 (Bentuk Soal: PG)\nKUNCI JAWABAN: A\nData berikut memiliki rata-rata 70:\n60, 65, 70, 75, x\nJika nilai x diubah menjadi 90, rata-rata baru data tersebut adalah ....\nA. 72 B. 74 C. 76 D. 78\nPembahasan:\nRata-rata awal = 70 dan jumlah data = 5.\nJumlah seluruh data:\n5 × 70 = 350\nJumlah empat data yang diketahui:\n60 + 65 + 70 + 75 = 270\nMaka nilai x:\n350 − 270 = 80\nJika x diubah menjadi 90, jumlah data menjadi:\n350 − 80 + 90 = 360\nRata-rata baru:\n360 ÷ 5 = 72\nJadi, rata-rata baru adalah 72.",
+    "original_explanation": "Pembahasan:\nRata-rata awal = 70 dan jumlah data = 5.\nJumlah seluruh data:\n5 × 70 = 350\nJumlah empat data yang diketahui:\n60 + 65 + 70 + 75 = 270\nMaka nilai x:\n350 − 270 = 80\nJika x diubah menjadi 90, jumlah data menjadi:\n350 − 80 + 90 = 360\nRata-rata baru:\n360 ÷ 5 = 72\nJadi, rata-rata baru adalah 72.",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Mean baru 72; tidak ada opsi yang benar. Koreksi opsi belum disetujui."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 24 (Bentuk Soal: PG)\nKUNCI JAWABAN : A\nData berikut memiliki rata-rata 70:\n60, 65, 70, 75, x\nJika nilai x diubah menjadi 90, rata-rata baru data tersebut adalah ....\n74\n75\n76\n78\nPembahasan :\nKarena rata-rata awal 70:\nJumlah data = 5 × 70 = 350.\nJumlah empat data:\n60 + 65 + 70 + 75 = 270.\nx = 350 − 270 = 80.\nJika x menjadi 90, jumlah baru:\n350 − 80 + 90 = 360.\nMean baru:\n360 ÷ 5 = 72.\nJadi opsi harus diperbaiki agar kunci sesuai. Jawaban sebenarnya adalah 72.\nUntuk versi final yang layak digunakan:\n72\n74\n76\n78\nKunci final: A.",
+      "original_explanation": "Pembahasan :\nKarena rata-rata awal 70:\nJumlah data = 5 × 70 = 350.\nJumlah empat data:\n60 + 65 + 70 + 75 = 270.\nx = 350 − 270 = 80.\nJika x menjadi 90, jumlah baru:\n350 − 80 + 90 = 360.\nMean baru:\n360 ÷ 5 = 72.\nJadi opsi harus diperbaiki agar kunci sesuai. Jawaban sebenarnya adalah 72.\nUntuk versi final yang layak digunakan:\n72\n74\n76\n78\nKunci final: A.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Mean baru 72; tidak ada opsi yang benar. Koreksi opsi belum disetujui."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "pg-21-3-5": {
     "source_number": 25,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 25 (Bentuk Soal: PG)\nKUNCI JAWABAN : C\nDua kelompok memiliki data berikut.\nKelompok A: 70, 75, 75, 80, 80 Kelompok B: 60, 70, 80, 80, 90\nPernyataan yang paling tepat adalah ....\nMean A lebih kecil daripada mean B.\nMedian A lebih kecil daripada median B.\nRange B lebih besar daripada range A.\nModus A dan B berbeda.\nPembahasan :\nRange A:\n80 − 70 = 10.\nRange B:\n90 − 60 = 30.\nJadi range B lebih besar.\nMean A = 76. Mean B = 76.\nMedian A = 75. Median B = 80.\nModus A = 75 dan 80, sedangkan B = 80.",
-    "original_explanation": "Pembahasan :\nRange A:\n80 − 70 = 10.\nRange B:\n90 − 60 = 30.\nJadi range B lebih besar.\nMean A = 76. Mean B = 76.\nMedian A = 75. Median B = 80.\nModus A = 75 dan 80, sedangkan B = 80.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 25 (Bentuk Soal: PG)\nKUNCI JAWABAN: C\nDua kelompok memiliki data berikut.\nKelompok A: 70, 75, 75, 80, 80Kelompok B: 60, 70, 80, 80, 90\nPernyataan yang benar adalah ....\nMean A lebih kecil daripada mean B.\nMedian A lebih kecil daripada median B.\nRange B lebih besar daripada range A.\nModus A dan B berbeda.\nA. Pernyataan 1 dan 2B. Pernyataan 1 dan 3C. Pernyataan 2, 3, dan 4D. Pernyataan 1, 2, dan 4\nPembahasan:\nMean A:(70 + 75 + 75 + 80 + 80) ÷ 5 = 380 ÷ 5 = 76\nMean B:(60 + 70 + 80 + 80 + 90) ÷ 5 = 380 ÷ 5 = 76\nJadi, mean A sama dengan mean B. Pernyataan 1 salah.\nMedian A = 75Median B = 80\nJadi, median A lebih kecil daripada median B. Pernyataan 2 benar.\nRange A:80 - 70 = 10\nRange B:90 - 60 = 30\nJadi, range B lebih besar daripada range A. Pernyataan 3 benar.\nModus A = 75 dan 80, sedangkan modus B = 80. Jadi, modus A dan B berbeda. Pernyataan 4 benar.",
+    "original_explanation": "Pembahasan:\nMean A:(70 + 75 + 75 + 80 + 80) ÷ 5 = 380 ÷ 5 = 76\nMean B:(60 + 70 + 80 + 80 + 90) ÷ 5 = 380 ÷ 5 = 76\nJadi, mean A sama dengan mean B. Pernyataan 1 salah.\nMedian A = 75Median B = 80\nJadi, median A lebih kecil daripada median B. Pernyataan 2 benar.\nRange A:80 - 70 = 10\nRange B:90 - 60 = 30\nJadi, range B lebih besar daripada range A. Pernyataan 3 benar.\nModus A = 75 dan 80, sedangkan modus B = 80. Jadi, modus A dan B berbeda. Pernyataan 4 benar.",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "PG memiliki beberapa jawaban benar: median A<B, range B>A, modus berbeda."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 25 (Bentuk Soal: PG)\nKUNCI JAWABAN : C\nDua kelompok memiliki data berikut.\nKelompok A: 70, 75, 75, 80, 80 Kelompok B: 60, 70, 80, 80, 90\nPernyataan yang paling tepat adalah ....\nMean A lebih kecil daripada mean B.\nMedian A lebih kecil daripada median B.\nRange B lebih besar daripada range A.\nModus A dan B berbeda.\nPembahasan :\nRange A:\n80 − 70 = 10.\nRange B:\n90 − 60 = 30.\nJadi range B lebih besar.\nMean A = 76. Mean B = 76.\nMedian A = 75. Median B = 80.\nModus A = 75 dan 80, sedangkan B = 80.",
+      "original_explanation": "Pembahasan :\nRange A:\n80 − 70 = 10.\nRange B:\n90 − 60 = 30.\nJadi range B lebih besar.\nMean A = 76. Mean B = 76.\nMedian A = 75. Median B = 80.\nModus A = 75 dan 80, sedangkan B = 80.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "PG memiliki beberapa jawaban benar: median A<B, range B>A, modus berbeda."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "mcma-21-3-6": {
     "source_number": 26,
@@ -822,33 +881,57 @@
   },
   "mcma-21-3-8": {
     "source_number": 28,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 28 (Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3\nPerhatikan data berikut.\n50, 60, 60, 70, 80\nKemudian nilai 50 diganti menjadi 90.\nPilihlah semua pernyataan yang benar!\n[ ] Pernyataan 1: Median data tetap 60. [ ] Pernyataan 2: Modus data berubah. [ ] Pernyataan 3: Range data bertambah. [ ] Pernyataan 4: Jumlah data bertambah.\nPembahasan :\nData awal:\n50, 60, 60, 70, 80.\nData baru:\n60, 60, 70, 80, 90.\nMedian awal = 60. Median baru = 70.\nJadi pernyataan 1 sebenarnya salah.\nModus awal = 60 dan modus baru = 60, sehingga pernyataan 2 salah.\nRange awal = 80 − 50 = 30. Range baru = 90 − 60 = 30.\nRange tidak bertambah.\nJumlah data tetap 5.\nDengan demikian, tidak ada pernyataan yang benar pada versi awal soal ini. Agar menjadi butir MCMA yang layak, pernyataannya perlu diperbaiki menjadi:\n[✓] Pernyataan 1: Modus data tetap 60. [ ] Pernyataan 2: Median data tetap 60. [✓] Pernyataan 3: Nilai terbesar bertambah dari 80 menjadi 90. [ ] Pernyataan 4: Banyak data bertambah.\nKunci final: Pernyataan 1 dan 3.",
-    "original_explanation": "Pembahasan :\nData awal:\n50, 60, 60, 70, 80.\nData baru:\n60, 60, 70, 80, 90.\nMedian awal = 60. Median baru = 70.\nJadi pernyataan 1 sebenarnya salah.\nModus awal = 60 dan modus baru = 60, sehingga pernyataan 2 salah.\nRange awal = 80 − 50 = 30. Range baru = 90 − 60 = 30.\nRange tidak bertambah.\nJumlah data tetap 5.\nDengan demikian, tidak ada pernyataan yang benar pada versi awal soal ini. Agar menjadi butir MCMA yang layak, pernyataannya perlu diperbaiki menjadi:\n[✓] Pernyataan 1: Modus data tetap 60. [ ] Pernyataan 2: Median data tetap 60. [✓] Pernyataan 3: Nilai terbesar bertambah dari 80 menjadi 90. [ ] Pernyataan 4: Banyak data bertambah.\nKunci final: Pernyataan 1 dan 3.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 28 (Bentuk Soal: PG MCMA)\nKUNCI JAWABAN: Pernyataan 1 dan Pernyataan 3\nPerhatikan data berikut.\n40, 50, 60, 60, 70\nKemudian nilai 40 diganti menjadi 80. Pilihlah semua pernyataan yang benar!\nPernyataan 1: Modus data tetap 60.Pernyataan 2: Median data tetap 60.Pernyataan 3: Nilai terbesar bertambah dari 70 menjadi 80.Pernyataan 4: Banyak data bertambah dari 5 menjadi 6.\nPembahasan:\nData awal: 40, 50, 60, 60, 70\nData setelah nilai 40 diganti menjadi 80: 50, 60, 60, 70, 80\nModus awal = 60 dan modus baru = 60 → Pernyataan 1 benar.\nMedian awal = 60 dan median baru = 60 → Pernyataan 2 sebenarnya juga benar.\nAgar tepat dua jawaban benar, pernyataan 2 perlu dibuat salah:\nPernyataan 2: Median data berubah menjadi 70.\nMaka hasil akhirnya:\nPernyataan 1 → Benar\nPernyataan 2 → Salah\nPernyataan 3 → Benar\nPernyataan 4 → Salah",
+    "original_explanation": "Pembahasan:\nData awal: 40, 50, 60, 60, 70.\nSetelah 40 diganti 80: 50, 60, 60, 70, 80.\nModus tetap 60. Median tetap 60, bukan 70. Nilai terbesar berubah dari 70 menjadi 80. Banyak data tetap 5.\nPernyataan 1 dan 3 benar; pernyataan 2 dan 4 salah.",
     "source_option_ids": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Seluruh pernyataan awal salah. Koreksi pernyataan belum disetujui."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 28 (Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3\nPerhatikan data berikut.\n50, 60, 60, 70, 80\nKemudian nilai 50 diganti menjadi 90.\nPilihlah semua pernyataan yang benar!\n[ ] Pernyataan 1: Median data tetap 60. [ ] Pernyataan 2: Modus data berubah. [ ] Pernyataan 3: Range data bertambah. [ ] Pernyataan 4: Jumlah data bertambah.\nPembahasan :\nData awal:\n50, 60, 60, 70, 80.\nData baru:\n60, 60, 70, 80, 90.\nMedian awal = 60. Median baru = 70.\nJadi pernyataan 1 sebenarnya salah.\nModus awal = 60 dan modus baru = 60, sehingga pernyataan 2 salah.\nRange awal = 80 − 50 = 30. Range baru = 90 − 60 = 30.\nRange tidak bertambah.\nJumlah data tetap 5.\nDengan demikian, tidak ada pernyataan yang benar pada versi awal soal ini. Agar menjadi butir MCMA yang layak, pernyataannya perlu diperbaiki menjadi:\n[✓] Pernyataan 1: Modus data tetap 60. [ ] Pernyataan 2: Median data tetap 60. [✓] Pernyataan 3: Nilai terbesar bertambah dari 80 menjadi 90. [ ] Pernyataan 4: Banyak data bertambah.\nKunci final: Pernyataan 1 dan 3.",
+      "original_explanation": "Pembahasan :\nData awal:\n50, 60, 60, 70, 80.\nData baru:\n60, 60, 70, 80, 90.\nMedian awal = 60. Median baru = 70.\nJadi pernyataan 1 sebenarnya salah.\nModus awal = 60 dan modus baru = 60, sehingga pernyataan 2 salah.\nRange awal = 80 − 50 = 30. Range baru = 90 − 60 = 30.\nRange tidak bertambah.\nJumlah data tetap 5.\nDengan demikian, tidak ada pernyataan yang benar pada versi awal soal ini. Agar menjadi butir MCMA yang layak, pernyataannya perlu diperbaiki menjadi:\n[✓] Pernyataan 1: Modus data tetap 60. [ ] Pernyataan 2: Median data tetap 60. [✓] Pernyataan 3: Nilai terbesar bertambah dari 80 menjadi 90. [ ] Pernyataan 4: Banyak data bertambah.\nKunci final: Pernyataan 1 dan 3.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Seluruh pernyataan awal salah. Koreksi pernyataan belum disetujui."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": [
+      "Pernyataan 2 menggunakan redaksi final Median data berubah menjadi 70 yang diberikan dokumen; versi awal Median data tetap 60 ditandai benar dalam pembahasan dan diganti oleh penulis."
+    ]
   },
   "kategori-21-3-9": {
     "source_number": 29,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 29 (Bentuk Soal: PG Kategori)\nKUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar\nPerhatikan data nilai berikut.\n65, 70, 70, 75, 80, 80, 80\nTentukan Benar atau Salah!\nPernyataan\nBenar\nSalah\nA. Modus data adalah 80.\n[ ]\n[ ]\nB. Median data adalah 75.\n[ ]\n[ ]\nC. Jangkauan data adalah 20.\n[ ]\n[ ]\nD. Mean data adalah 75,71.\n[ ]\n[ ]\nPembahasan :\nModus = 80.\nMedian adalah data ke-4 = 75.\nRange:\n80 − 65 = 15, sehingga C salah.\nMean:\n(65 + 70 + 70 + 75 + 80 + 80 + 80) ÷ 7\n= 520 ÷ 7 ≈ 74,29.\nJadi D juga salah.\nKoreksi kunci final: A dan B benar, C dan D salah.",
-    "original_explanation": "Pembahasan :\nModus = 80.\nMedian adalah data ke-4 = 75.\nRange:\n80 − 65 = 15, sehingga C salah.\nMean:\n(65 + 70 + 70 + 75 + 80 + 80 + 80) ÷ 7\n= 520 ÷ 7 ≈ 74,29.\nJadi D juga salah.\nKoreksi kunci final: A dan B benar, C dan D salah.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 29 (Bentuk Soal: PG Kategori)\nKUNCI JAWABAN: A. Benar, B. Benar, C. Salah, D. Benar\nPerhatikan data nilai berikut.\n65, 70, 70, 75, 80, 80, 80\nTentukan apakah setiap pernyataan berikut Benar atau Salah!\nPernyataan | Benar | Salah\nA. Modus data adalah 80. | ✓ |\nB. Median data adalah 75. | ✓ |\nC. Jangkauan data adalah 20. |  | ✓\nD. Jumlah seluruh data adalah 520. | ✓ |\nPembahasan:\nModus = 80 karena muncul sebanyak 3 kali → Benar.\nMedian = data ke-4 = 75 → Benar.\nJangkauan = 80 − 65 = 15, bukan 20 → Salah.\nJumlah seluruh data = 65 + 70 + 70 + 75 + 80 + 80 + 80 = 520 → Benar.\nJadi:\nA. Benar B. Benar C. Salah D. Benar",
+    "original_explanation": "Pembahasan:\nModus = 80 karena muncul sebanyak 3 kali → Benar.\nMedian = data ke-4 = 75 → Benar.\nJangkauan = 80 − 65 = 15, bukan 20 → Salah.\nJumlah seluruh data = 65 + 70 + 70 + 75 + 80 + 80 + 80 = 520 → Benar.\nJadi:\nA. Benar B. Benar C. Salah D. Benar",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Mean 520/7≈74,29; kunci D tidak benar. Koreksi kunci belum disetujui."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 29 (Bentuk Soal: PG Kategori)\nKUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar\nPerhatikan data nilai berikut.\n65, 70, 70, 75, 80, 80, 80\nTentukan Benar atau Salah!\nPernyataan\nBenar\nSalah\nA. Modus data adalah 80.\n[ ]\n[ ]\nB. Median data adalah 75.\n[ ]\n[ ]\nC. Jangkauan data adalah 20.\n[ ]\n[ ]\nD. Mean data adalah 75,71.\n[ ]\n[ ]\nPembahasan :\nModus = 80.\nMedian adalah data ke-4 = 75.\nRange:\n80 − 65 = 15, sehingga C salah.\nMean:\n(65 + 70 + 70 + 75 + 80 + 80 + 80) ÷ 7\n= 520 ÷ 7 ≈ 74,29.\nJadi D juga salah.\nKoreksi kunci final: A dan B benar, C dan D salah.",
+      "original_explanation": "Pembahasan :\nModus = 80.\nMedian adalah data ke-4 = 75.\nRange:\n80 − 65 = 15, sehingga C salah.\nMean:\n(65 + 70 + 70 + 75 + 80 + 80 + 80) ÷ 7\n= 520 ÷ 7 ≈ 74,29.\nJadi D juga salah.\nKoreksi kunci final: A dan B benar, C dan D salah.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Mean 520/7≈74,29; kunci D tidak benar. Koreksi kunci belum disetujui."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "kategori-21-3-10": {
     "source_number": 30,
@@ -866,18 +949,29 @@
   },
   "pg-22-1-1": {
     "source_number": 1,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 1\n(Bentuk Soal: PG)\nKUNCI JAWABAN : B\nData nilai kelompok A: 70, 75, 80, 85, 90. Data nilai kelompok B: 65, 75, 80, 85, 95.\nPerbandingan mean kedua kelompok tersebut adalah ....\nMean A lebih besar\nMean B lebih besar\nMean A dan B sama\nTidak dapat ditentukan\nPembahasan : Mean A = (70 + 75 + 80 + 85 + 90) ÷ 5 = 80. Mean B = (65 + 75 + 80 + 85 + 95) ÷ 5 = 80. Jadi, mean kedua kelompok sama.",
-    "original_explanation": "Pembahasan : Mean A = (70 + 75 + 80 + 85 + 90) ÷ 5 = 80. Mean B = (65 + 75 + 80 + 85 + 95) ÷ 5 = 80. Jadi, mean kedua kelompok sama.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 1\nKUNCI JAWABAN: C\nData nilai kelompok A: 70, 75, 80, 85, 90. Data nilai kelompok B: 65, 75, 80, 85, 95.\nPerbandingan mean kedua kelompok tersebut adalah ....\nA. Mean kelompok A lebih besar daripada kelompok B B. Mean kelompok B lebih besar daripada kelompok A C. Mean kelompok A dan kelompok B sama D. Mean kedua kelompok tidak dapat ditentukan\nPembahasan:\nMean kelompok A:\n(70 + 75 + 80 + 85 + 90) ÷ 5 = 80\nMean kelompok B:\n(65 + 75 + 80 + 85 + 95) ÷ 5 = 80\nJadi, mean kelompok A dan kelompok B sama, yaitu 80.",
+    "original_explanation": "Pembahasan:\nMean kelompok A:\n(70 + 75 + 80 + 85 + 90) ÷ 5 = 80\nMean kelompok B:\n(65 + 75 + 80 + 85 + 95) ÷ 5 = 80\nJadi, mean kelompok A dan kelompok B sama, yaitu 80.",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Mean A=B=80; kunci B bertentangan dengan opsi C dan pembahasan."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 1\n(Bentuk Soal: PG)\nKUNCI JAWABAN : B\nData nilai kelompok A: 70, 75, 80, 85, 90. Data nilai kelompok B: 65, 75, 80, 85, 95.\nPerbandingan mean kedua kelompok tersebut adalah ....\nMean A lebih besar\nMean B lebih besar\nMean A dan B sama\nTidak dapat ditentukan\nPembahasan : Mean A = (70 + 75 + 80 + 85 + 90) ÷ 5 = 80. Mean B = (65 + 75 + 80 + 85 + 95) ÷ 5 = 80. Jadi, mean kedua kelompok sama.",
+      "original_explanation": "Pembahasan : Mean A = (70 + 75 + 80 + 85 + 90) ÷ 5 = 80. Mean B = (65 + 75 + 80 + 85 + 95) ÷ 5 = 80. Jadi, mean kedua kelompok sama.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Mean A=B=80; kunci B bertentangan dengan opsi C dan pembahasan."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "pg-22-1-2": {
     "source_number": 2,
@@ -938,33 +1032,55 @@
   },
   "mcma-22-1-6": {
     "source_number": 6,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 6\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4\nPerhatikan data:\nKelompok A: 4, 5, 5, 6, 10\nKelompok B: 4, 5, 6, 7, 8\nPilih semua pernyataan yang benar.\n☐ Pernyataan 1. Mean A lebih besar daripada mean B. ☐ Pernyataan 2. Median A lebih kecil daripada median B. ☐ Pernyataan 3. Jangkauan A lebih kecil daripada jangkauan B. ☐ Pernyataan 4. Jangkauan A lebih besar daripada jangkauan B.\nPembahasan : Mean A = 30 ÷ 5 = 6. Mean B = 30 ÷ 5 = 6, sehingga pernyataan 1 salah. Median A = 5, median B = 6, sehingga pernyataan 2 benar. Jangkauan A = 10 − 4 = 6. Jangkauan B = 8 − 4 = 4. Jadi pernyataan 4 benar.\nKunci yang tepat: Pernyataan 2 dan Pernyataan 4.\nKoreksi kunci: Pernyataan 1 tidak benar karena mean kedua kelompok sama.",
-    "original_explanation": "Pembahasan : Mean A = 30 ÷ 5 = 6. Mean B = 30 ÷ 5 = 6, sehingga pernyataan 1 salah. Median A = 5, median B = 6, sehingga pernyataan 2 benar. Jangkauan A = 10 − 4 = 6. Jangkauan B = 8 − 4 = 4. Jadi pernyataan 4 benar.\nKunci yang tepat: Pernyataan 2 dan Pernyataan 4.\nKoreksi kunci: Pernyataan 1 tidak benar karena mean kedua kelompok sama.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 6\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN: Pernyataan 1, Pernyataan 2, Pernyataan 4\nPerhatikan data berikut:\nKelompok A: 4, 5, 6, 7, 10\nKelompok B: 3, 5, 6, 7, 8\nPilih semua pernyataan yang benar!\nPernyataan 1. Mean A lebih besar daripada mean B.Pernyataan 2. Median A sama dengan median B.Pernyataan 3. Jangkauan A lebih kecil daripada jangkauan B.Pernyataan 4. Jangkauan A lebih besar daripada jangkauan B.\nPembahasan:\nMean A:\n(4 + 5 + 6 + 7 + 10) ÷ 5 = 6,4\nMean B:\n(3 + 5 + 6 + 7 + 8) ÷ 5 = 5,8\nJadi, mean A lebih besar daripada mean B → Pernyataan 1 benar.\nMedian A = 6 Median B = 6 → Pernyataan 2 benar.\nJangkauan A:\n10 − 4 = 6\nJangkauan B:\n8 − 3 = 5\nJadi, jangkauan A lebih besar daripada jangkauan B → Pernyataan 4 benar.\nPernyataan 3 salah karena jangkauan A bukan lebih kecil.",
+    "original_explanation": "Pembahasan:\nMean A:\n(4 + 5 + 6 + 7 + 10) ÷ 5 = 6,4\nMean B:\n(3 + 5 + 6 + 7 + 8) ÷ 5 = 5,8\nJadi, mean A lebih besar daripada mean B → Pernyataan 1 benar.\nMedian A = 6 Median B = 6 → Pernyataan 2 benar.\nJangkauan A:\n10 − 4 = 6\nJangkauan B:\n8 − 3 = 5\nJadi, jangkauan A lebih besar daripada jangkauan B → Pernyataan 4 benar.\nPernyataan 3 salah karena jangkauan A bukan lebih kecil.",
     "source_option_ids": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Mean A=B=6; pernyataan 1 salah. Koreksi kunci belum disetujui."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 6\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4\nPerhatikan data:\nKelompok A: 4, 5, 5, 6, 10\nKelompok B: 4, 5, 6, 7, 8\nPilih semua pernyataan yang benar.\n☐ Pernyataan 1. Mean A lebih besar daripada mean B. ☐ Pernyataan 2. Median A lebih kecil daripada median B. ☐ Pernyataan 3. Jangkauan A lebih kecil daripada jangkauan B. ☐ Pernyataan 4. Jangkauan A lebih besar daripada jangkauan B.\nPembahasan : Mean A = 30 ÷ 5 = 6. Mean B = 30 ÷ 5 = 6, sehingga pernyataan 1 salah. Median A = 5, median B = 6, sehingga pernyataan 2 benar. Jangkauan A = 10 − 4 = 6. Jangkauan B = 8 − 4 = 4. Jadi pernyataan 4 benar.\nKunci yang tepat: Pernyataan 2 dan Pernyataan 4.\nKoreksi kunci: Pernyataan 1 tidak benar karena mean kedua kelompok sama.",
+      "original_explanation": "Pembahasan : Mean A = 30 ÷ 5 = 6. Mean B = 30 ÷ 5 = 6, sehingga pernyataan 1 salah. Median A = 5, median B = 6, sehingga pernyataan 2 benar. Jangkauan A = 10 − 4 = 6. Jangkauan B = 8 − 4 = 4. Jadi pernyataan 4 benar.\nKunci yang tepat: Pernyataan 2 dan Pernyataan 4.\nKoreksi kunci: Pernyataan 1 tidak benar karena mean kedua kelompok sama.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Mean A=B=6; pernyataan 1 salah. Koreksi kunci belum disetujui."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "mcma-22-1-7": {
     "source_number": 7,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 7\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3\nData:\nKelompok A: 60, 70, 70, 80, 90\nKelompok B: 60, 70, 80, 80, 90\nPilih semua pernyataan yang benar.\n☐ Pernyataan 1. Mean A dan B sama. ☐ Pernyataan 2. Median A lebih besar daripada median B. ☐ Pernyataan 3. Jangkauan A dan B sama. ☐ Pernyataan 4. Modus A lebih besar daripada modus B.\nPembahasan : Jumlah kedua kelompok = 370, sehingga mean keduanya = 74. Median A = 70 dan median B = 80. Jangkauan keduanya = 90 − 60 = 30. Jadi pernyataan 1 dan 3 benar.",
-    "original_explanation": "Pembahasan : Jumlah kedua kelompok = 370, sehingga mean keduanya = 74. Median A = 70 dan median B = 80. Jangkauan keduanya = 90 − 60 = 30. Jadi pernyataan 1 dan 3 benar.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 7\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN: Pernyataan 1, Pernyataan 3\nPerhatikan data berikut:\nKelompok A: 60, 70, 70, 80, 90\nKelompok B: 60, 70, 70, 80, 90\nPilih semua pernyataan yang benar!\nPernyataan 1. Mean A dan B sama.Pernyataan 2. Median A lebih besar daripada median B.Pernyataan 3. Jangkauan A dan B sama.Pernyataan 4. Modus A lebih besar daripada modus B.\nPembahasan:\nJumlah nilai Kelompok A:\n60 + 70 + 70 + 80 + 90 = 370\nJumlah nilai Kelompok B:\n60 + 70 + 70 + 80 + 90 = 370\nMean A = 370 ÷ 5 = 74 Mean B = 370 ÷ 5 = 74\n→ Pernyataan 1 benar.\nMedian A = 70 dan median B = 70. → Pernyataan 2 salah.\nJangkauan A = 90 − 60 = 30. Jangkauan B = 90 − 60 = 30. → Pernyataan 3 benar.\nModus A = 70 dan modus B = 70. → Pernyataan 4 salah.",
+    "original_explanation": "Pembahasan:\nJumlah nilai Kelompok A:\n60 + 70 + 70 + 80 + 90 = 370\nJumlah nilai Kelompok B:\n60 + 70 + 70 + 80 + 90 = 370\nMean A = 370 ÷ 5 = 74 Mean B = 370 ÷ 5 = 74\n→ Pernyataan 1 benar.\nMedian A = 70 dan median B = 70. → Pernyataan 2 salah.\nJangkauan A = 90 − 60 = 30. Jangkauan B = 90 − 60 = 30. → Pernyataan 3 benar.\nModus A = 70 dan modus B = 70. → Pernyataan 4 salah.",
     "source_option_ids": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Mean A=74, B=76; pernyataan 1 salah. Pembahasan menjumlahkan B secara keliru."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 7\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3\nData:\nKelompok A: 60, 70, 70, 80, 90\nKelompok B: 60, 70, 80, 80, 90\nPilih semua pernyataan yang benar.\n☐ Pernyataan 1. Mean A dan B sama. ☐ Pernyataan 2. Median A lebih besar daripada median B. ☐ Pernyataan 3. Jangkauan A dan B sama. ☐ Pernyataan 4. Modus A lebih besar daripada modus B.\nPembahasan : Jumlah kedua kelompok = 370, sehingga mean keduanya = 74. Median A = 70 dan median B = 80. Jangkauan keduanya = 90 − 60 = 30. Jadi pernyataan 1 dan 3 benar.",
+      "original_explanation": "Pembahasan : Jumlah kedua kelompok = 370, sehingga mean keduanya = 74. Median A = 70 dan median B = 80. Jangkauan keduanya = 90 − 60 = 30. Jadi pernyataan 1 dan 3 benar.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Mean A=74, B=76; pernyataan 1 salah. Pembahasan menjumlahkan B secara keliru."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "mcma-22-1-8": {
     "source_number": 8,
@@ -1253,18 +1369,29 @@
   },
   "mcma-22-3-8": {
     "source_number": 28,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 28\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4\nData:\nA: 40, 50, 60, 70, 80\nB: 50, 55, 60, 65, 70\nPilih pernyataan yang benar.\n☐ Pernyataan 1. Mean A lebih besar daripada mean B. ☐ Pernyataan 2. Median A lebih kecil daripada median B. ☐ Pernyataan 3. Jangkauan A lebih besar daripada B. ☐ Pernyataan 4. Kelompok B memiliki data yang lebih homogen berdasarkan jangkauan.\nPembahasan : Mean A = 60 dan B = 60. Jadi pernyataan 1 salah. Median keduanya = 60. Jangkauan A = 40 dan B = 20. Jadi pernyataan 3 dan 4 benar.\nKunci yang tepat: Pernyataan 3 dan Pernyataan 4.",
-    "original_explanation": "Pembahasan : Mean A = 60 dan B = 60. Jadi pernyataan 1 salah. Median keduanya = 60. Jangkauan A = 40 dan B = 20. Jadi pernyataan 3 dan 4 benar.\nKunci yang tepat: Pernyataan 3 dan Pernyataan 4.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 28\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN: Pernyataan 1, Pernyataan 3, Pernyataan 4\nPerhatikan data berikut!\nKelompok A: 40, 50, 60, 70, 90\nKelompok B: 50, 55, 60, 65, 70\nPilih semua pernyataan yang benar!\nPernyataan 1. Mean kelompok A lebih besar daripada mean kelompok B.\nPernyataan 2. Median kelompok A lebih kecil daripada median kelompok B.\nPernyataan 3. Jangkauan kelompok A lebih besar daripada kelompok B.\nPernyataan 4. Kelompok B memiliki data yang lebih homogen berdasarkan jangkauan.\nPembahasan:\nMean kelompok A:(40 + 50 + 60 + 70 + 90) ÷ 5 = 310 ÷ 5 = 62\nMean kelompok B:(50 + 55 + 60 + 65 + 70) ÷ 5 = 300 ÷ 5 = 60\nJadi, mean A lebih besar daripada mean B. Pernyataan 1 benar.\nMedian kelompok A = 60Median kelompok B = 60\nJadi, median A tidak lebih kecil daripada median B. Pernyataan 2 salah.\nJangkauan kelompok A:90 - 40 = 50\nJangkauan kelompok B:70 - 50 = 20\nJadi, jangkauan A lebih besar daripada B. Pernyataan 3 benar.\nKarena jangkauan kelompok B lebih kecil daripada kelompok A, penyebaran data kelompok B lebih sempit. Berdasarkan jangkauan, kelompok B lebih homogen. Pernyataan 4 benar.\nKunci jawaban: Pernyataan 1, Pernyataan 3, dan Pernyataan 4.",
+    "original_explanation": "Pembahasan:\nMean kelompok A:(40 + 50 + 60 + 70 + 90) ÷ 5 = 310 ÷ 5 = 62\nMean kelompok B:(50 + 55 + 60 + 65 + 70) ÷ 5 = 300 ÷ 5 = 60\nJadi, mean A lebih besar daripada mean B. Pernyataan 1 benar.\nMedian kelompok A = 60Median kelompok B = 60\nJadi, median A tidak lebih kecil daripada median B. Pernyataan 2 salah.\nJangkauan kelompok A:90 - 40 = 50\nJangkauan kelompok B:70 - 50 = 20\nJadi, jangkauan A lebih besar daripada B. Pernyataan 3 benar.\nKarena jangkauan kelompok B lebih kecil daripada kelompok A, penyebaran data kelompok B lebih sempit. Berdasarkan jangkauan, kelompok B lebih homogen. Pernyataan 4 benar.\nKunci jawaban: Pernyataan 1, Pernyataan 3, dan Pernyataan 4.",
     "source_option_ids": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "generation_status": "HOLD_SOURCE",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Mean A=B=60; pernyataan 1 salah. Koreksi kunci belum disetujui."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 28\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4\nData:\nA: 40, 50, 60, 70, 80\nB: 50, 55, 60, 65, 70\nPilih pernyataan yang benar.\n☐ Pernyataan 1. Mean A lebih besar daripada mean B. ☐ Pernyataan 2. Median A lebih kecil daripada median B. ☐ Pernyataan 3. Jangkauan A lebih besar daripada B. ☐ Pernyataan 4. Kelompok B memiliki data yang lebih homogen berdasarkan jangkauan.\nPembahasan : Mean A = 60 dan B = 60. Jadi pernyataan 1 salah. Median keduanya = 60. Jangkauan A = 40 dan B = 20. Jadi pernyataan 3 dan 4 benar.\nKunci yang tepat: Pernyataan 3 dan Pernyataan 4.",
+      "original_explanation": "Pembahasan : Mean A = 60 dan B = 60. Jadi pernyataan 1 salah. Median keduanya = 60. Jangkauan A = 40 dan B = 20. Jadi pernyataan 3 dan 4 benar.\nKunci yang tepat: Pernyataan 3 dan Pernyataan 4.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Mean A=B=60; pernyataan 1 salah. Koreksi kunci belum disetujui."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "kategori-22-3-9": {
     "source_number": 29,
@@ -1592,18 +1719,29 @@
   },
   "pg-23-3-2": {
     "source_number": 22,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 22\n(Bentuk Soal: PG)\nKUNCI JAWABAN : A\nSebuah koin dilempar sebanyak 200 kali. Sisi gambar muncul 106 kali.\nKesimpulan yang tepat adalah ....\nA. Frekuensi relatif gambar mendekati peluang teoretis B. Frekuensi relatif gambar sama dengan 1 C. Peluang teoretis gambar adalah 106/200 D. Percobaan tersebut membuktikan gambar pasti muncul 106 kali\nPembahasan : Frekuensi relatif = 106/200 = 0,53. Nilai ini cukup dekat dengan peluang teoretis 0,5.",
-    "original_explanation": "Pembahasan : Frekuensi relatif = 106/200 = 0,53. Nilai ini cukup dekat dengan peluang teoretis 0,5.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 22\n(Bentuk Soal: PG)\nKUNCI JAWABAN: B\nSebuah koin dilempar sebanyak 200 kali. Sisi gambar muncul sebanyak 106 kali. Frekuensi relatif munculnya sisi gambar adalah ....\nA. 0,47 B. 0,53 C. 0,50 D. 1,06\nPembahasan: Frekuensi relatif = banyak kemunculan / jumlah percobaan\nFrekuensi relatif = 106 / 200 = 0,53\nJadi, frekuensi relatif munculnya sisi gambar adalah 0,53.",
+    "original_explanation": "Pembahasan: Frekuensi relatif = banyak kemunculan / jumlah percobaan\nFrekuensi relatif = 106 / 200 = 0,53\nJadi, frekuensi relatif munculnya sisi gambar adalah 0,53.",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Istilah mendekati belum memiliki domain/aturan penilaian yang direview. Tidak menetapkan ambang kedekatan baru."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 22\n(Bentuk Soal: PG)\nKUNCI JAWABAN : A\nSebuah koin dilempar sebanyak 200 kali. Sisi gambar muncul 106 kali.\nKesimpulan yang tepat adalah ....\nA. Frekuensi relatif gambar mendekati peluang teoretis B. Frekuensi relatif gambar sama dengan 1 C. Peluang teoretis gambar adalah 106/200 D. Percobaan tersebut membuktikan gambar pasti muncul 106 kali\nPembahasan : Frekuensi relatif = 106/200 = 0,53. Nilai ini cukup dekat dengan peluang teoretis 0,5.",
+      "original_explanation": "Pembahasan : Frekuensi relatif = 106/200 = 0,53. Nilai ini cukup dekat dengan peluang teoretis 0,5.",
+      "generation_status": "DEFERRED_CONCEPTUAL",
+      "reason": "Istilah mendekati belum memiliki domain/aturan penilaian yang direview. Tidak menetapkan ambang kedekatan baru."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "pg-23-3-3": {
     "source_number": 23,
@@ -1635,18 +1773,29 @@
   },
   "pg-23-3-5": {
     "source_number": 25,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 25\n(Bentuk Soal: PG)\nKUNCI JAWABAN : C\nDalam percobaan melempar sebuah dadu 240 kali, angka 4 muncul 35 kali.\nJika dibandingkan dengan peluang teoretis, frekuensi relatif angka 4 ....\nA. jauh lebih besar daripada peluang teoretis B. sama dengan peluang teoretis C. lebih kecil daripada peluang teoretis D. tidak dapat dihitung\nPembahasan : Frekuensi relatif = 35/240 ≈ 0,146. Peluang teoretis = 1/6 ≈ 0,167. Jadi frekuensi relatif lebih kecil.",
-    "original_explanation": "Pembahasan : Frekuensi relatif = 35/240 ≈ 0,146. Peluang teoretis = 1/6 ≈ 0,167. Jadi frekuensi relatif lebih kecil.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 25\n(Bentuk Soal: PG) KUNCI JAWABAN: C\nSebuah dadu dilempar sebanyak 150 kali. Hasil percobaan menunjukkan bahwa angka 5 muncul sebanyak 20 kali. Pernyataan yang benar berdasarkan hasil percobaan tersebut adalah ....\nA. Frekuensi relatif muncul angka 5 adalah 1/5. B. Frekuensi relatif muncul angka 5 adalah 1/6. C. Frekuensi relatif muncul angka 5 lebih kecil daripada peluang teoretisnya. D. Peluang teoretis muncul angka 5 adalah 20/150.\nPembahasan: Frekuensi relatif angka 5:\n20/150 = 2/15 ≈ 0,133\nPeluang teoretis muncul angka 5 pada sebuah dadu:\n1/6 ≈ 0,167\nKarena 0,133 < 0,167, maka frekuensi relatif muncul angka 5 lebih kecil daripada peluang teoretisnya.",
+    "original_explanation": "Pembahasan: Frekuensi relatif angka 5:\n20/150 = 2/15 ≈ 0,133\nPeluang teoretis muncul angka 5 pada sebuah dadu:\n1/6 ≈ 0,167\nKarena 0,133 < 0,167, maka frekuensi relatif muncul angka 5 lebih kecil daripada peluang teoretisnya.",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Opsi alternatif menggunakan jauh lebih besar tanpa definisi; domain yang membuat opsi itu benar perlu review. Opsi lebih kecil tetap tidak lolos same_answer_as_original."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 25\n(Bentuk Soal: PG)\nKUNCI JAWABAN : C\nDalam percobaan melempar sebuah dadu 240 kali, angka 4 muncul 35 kali.\nJika dibandingkan dengan peluang teoretis, frekuensi relatif angka 4 ....\nA. jauh lebih besar daripada peluang teoretis B. sama dengan peluang teoretis C. lebih kecil daripada peluang teoretis D. tidak dapat dihitung\nPembahasan : Frekuensi relatif = 35/240 ≈ 0,146. Peluang teoretis = 1/6 ≈ 0,167. Jadi frekuensi relatif lebih kecil.",
+      "original_explanation": "Pembahasan : Frekuensi relatif = 35/240 ≈ 0,146. Peluang teoretis = 1/6 ≈ 0,167. Jadi frekuensi relatif lebih kecil.",
+      "generation_status": "DEFERRED_CONCEPTUAL",
+      "reason": "Opsi alternatif menggunakan jauh lebih besar tanpa definisi; domain yang membuat opsi itu benar perlu review. Opsi lebih kecil tetap tidak lolos same_answer_as_original."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "mcma-23-3-6": {
     "source_number": 26,
@@ -1664,48 +1813,81 @@
   },
   "mcma-23-3-7": {
     "source_number": 27,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 27\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3\nDalam percobaan koin 400 kali, diperoleh 212 kali gambar.\n☐ Pernyataan 1. Frekuensi relatif gambar adalah 0,53. ☐ Pernyataan 2. Frekuensi relatif gambar adalah 0,47. ☐ Pernyataan 3. Hasil percobaan tersebut mendekati peluang teoretis 0,5. ☐ Pernyataan 4. Karena gambar muncul 212 kali, peluang teoretis gambar adalah 0,53.\nPembahasan : Frekuensi relatif = 212/400 = 0,53. Nilai tersebut mendekati 0,5. Peluang teoretis tetap 0,5 untuk koin seimbang.",
-    "original_explanation": "Pembahasan : Frekuensi relatif = 212/400 = 0,53. Nilai tersebut mendekati 0,5. Peluang teoretis tetap 0,5 untuk koin seimbang.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 27\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN: Pernyataan 1 dan Pernyataan 4\nDalam percobaan melempar sebuah koin seimbang sebanyak 400 kali, sisi gambar muncul sebanyak 212 kali. Perhatikan pernyataan berikut!\nPernyataan 1. Frekuensi relatif munculnya sisi gambar adalah 0,53.Pernyataan 2. Frekuensi relatif munculnya sisi gambar adalah 0,47.Pernyataan 3. Peluang teoretis munculnya sisi gambar adalah 0,53.Pernyataan 4. Peluang teoretis munculnya sisi gambar adalah 0,5.\nPembahasan: Frekuensi relatif = 212/400 = 0,53.\nKarena koin yang digunakan adalah koin seimbang, peluang teoretis munculnya sisi gambar adalah 1/2 = 0,5.\nJadi:\nPernyataan 1 → Benar\nPernyataan 2 → Salah\nPernyataan 3 → Salah\nPernyataan 4 → Benar",
+    "original_explanation": "Pembahasan: Frekuensi relatif = 212/400 = 0,53.\nKarena koin yang digunakan adalah koin seimbang, peluang teoretis munculnya sisi gambar adalah 1/2 = 0,5.\nJadi:\nPernyataan 1 → Benar\nPernyataan 2 → Salah\nPernyataan 3 → Salah\nPernyataan 4 → Benar",
     "source_option_ids": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Istilah mendekati belum memiliki domain/aturan penilaian yang direview. Tidak menetapkan ambang kedekatan baru."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 27\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3\nDalam percobaan koin 400 kali, diperoleh 212 kali gambar.\n☐ Pernyataan 1. Frekuensi relatif gambar adalah 0,53. ☐ Pernyataan 2. Frekuensi relatif gambar adalah 0,47. ☐ Pernyataan 3. Hasil percobaan tersebut mendekati peluang teoretis 0,5. ☐ Pernyataan 4. Karena gambar muncul 212 kali, peluang teoretis gambar adalah 0,53.\nPembahasan : Frekuensi relatif = 212/400 = 0,53. Nilai tersebut mendekati 0,5. Peluang teoretis tetap 0,5 untuk koin seimbang.",
+      "original_explanation": "Pembahasan : Frekuensi relatif = 212/400 = 0,53. Nilai tersebut mendekati 0,5. Peluang teoretis tetap 0,5 untuk koin seimbang.",
+      "generation_status": "DEFERRED_CONCEPTUAL",
+      "reason": "Istilah mendekati belum memiliki domain/aturan penilaian yang direview. Tidak menetapkan ambang kedekatan baru."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "mcma-23-3-8": {
     "source_number": 28,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 28\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4\nSebuah dadu dilempar 500 kali. Hasil percobaan menunjukkan angka genap muncul 247 kali.\n☐ Pernyataan 1. Frekuensi relatif angka genap adalah 0,494. ☐ Pernyataan 2. Frekuensi relatif angka genap adalah 0,506. ☐ Pernyataan 3. Hasil percobaan mendekati peluang teoretis 0,5. ☐ Pernyataan 4. Frekuensi relatif diperoleh dari banyak kejadian dibagi banyak percobaan.\nPembahasan : 247/500 = 0,494. Nilai tersebut dekat dengan 0,5. Rumus frekuensi relatif adalah banyak kejadian dibagi banyak percobaan.",
-    "original_explanation": "Pembahasan : 247/500 = 0,494. Nilai tersebut dekat dengan 0,5. Rumus frekuensi relatif adalah banyak kejadian dibagi banyak percobaan.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 28\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN: Pernyataan 1, Pernyataan 3, Pernyataan 4\nSebuah dadu dilempar sebanyak 500 kali. Hasil percobaan menunjukkan angka genap muncul sebanyak 247 kali. Perhatikan pernyataan berikut!\nPernyataan 1. Frekuensi relatif angka genap adalah 0,494.Pernyataan 2. Frekuensi relatif angka genap adalah 0,506.Pernyataan 3. Peluang teoretis munculnya angka genap pada sebuah dadu adalah 0,5.Pernyataan 4. Frekuensi relatif diperoleh dari banyak kejadian dibagi banyak percobaan.\nPembahasan: Frekuensi relatif angka genap:\n247/500 = 0,494\nPada sebuah dadu, terdapat 3 angka genap, yaitu 2, 4, dan 6 dari 6 sisi. Jadi peluang teoretis muncul angka genap adalah:\n3/6 = 0,5\nRumus frekuensi relatif adalah:\nFrekuensi relatif = banyak kejadian / banyak percobaan\nJadi:\nPernyataan 1 → Benar\nPernyataan 2 → Salah\nPernyataan 3 → Benar\nPernyataan 4 → Benar",
+    "original_explanation": "Pembahasan: Frekuensi relatif angka genap:\n247/500 = 0,494\nPada sebuah dadu, terdapat 3 angka genap, yaitu 2, 4, dan 6 dari 6 sisi. Jadi peluang teoretis muncul angka genap adalah:\n3/6 = 0,5\nRumus frekuensi relatif adalah:\nFrekuensi relatif = banyak kejadian / banyak percobaan\nJadi:\nPernyataan 1 → Benar\nPernyataan 2 → Salah\nPernyataan 3 → Benar\nPernyataan 4 → Benar",
     "source_option_ids": [
       "1",
       "2",
       "3",
       "4"
     ],
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Istilah mendekati belum memiliki domain/aturan penilaian yang direview. Tidak menetapkan ambang kedekatan baru."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 28\n(Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3, Pernyataan 4\nSebuah dadu dilempar 500 kali. Hasil percobaan menunjukkan angka genap muncul 247 kali.\n☐ Pernyataan 1. Frekuensi relatif angka genap adalah 0,494. ☐ Pernyataan 2. Frekuensi relatif angka genap adalah 0,506. ☐ Pernyataan 3. Hasil percobaan mendekati peluang teoretis 0,5. ☐ Pernyataan 4. Frekuensi relatif diperoleh dari banyak kejadian dibagi banyak percobaan.\nPembahasan : 247/500 = 0,494. Nilai tersebut dekat dengan 0,5. Rumus frekuensi relatif adalah banyak kejadian dibagi banyak percobaan.",
+      "original_explanation": "Pembahasan : 247/500 = 0,494. Nilai tersebut dekat dengan 0,5. Rumus frekuensi relatif adalah banyak kejadian dibagi banyak percobaan.",
+      "generation_status": "DEFERRED_CONCEPTUAL",
+      "reason": "Istilah mendekati belum memiliki domain/aturan penilaian yang direview. Tidak menetapkan ambang kedekatan baru."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "kategori-23-3-9": {
     "source_number": 29,
-    "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
-    "source_text": "SOAL 29\n(Bentuk Soal: PG Kategori)\nKUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar\nSebuah dadu dilempar 300 kali. Angka ganjil muncul 147 kali.\nPernyataan\nBenar\nSalah\nA. Frekuensi relatifnya adalah 0,49.\n✓\nB. Frekuensi relatif tersebut mendekati peluang teoretis 0,5.\n✓\nC. Peluang teoretis angka ganjil adalah 0,49.\n✓\nD. Hasil percobaan tidak harus sama persis dengan peluang teoretis.\n✓\nPembahasan : 147/300 = 0,49. Peluang teoretis angka ganjil = 3/6 = 0,5.",
-    "original_explanation": "Pembahasan : 147/300 = 0,49. Peluang teoretis angka ganjil = 3/6 = 0,5.",
+    "source_document_sha256": "1edd91abfc4e9a2ad1143cc578d0df8da54becd711b8e0cdb1dc8dc1543608e9",
+    "source_text": "SOAL 29\n(Bentuk Soal: PG Kategori)\nKUNCI JAWABAN: A. Benar, B. Benar, C. Salah, D. Benar\nSebuah dadu dilempar sebanyak 300 kali. Angka ganjil muncul sebanyak 147 kali.\nPernyataan | Benar | Salah\nA. Frekuensi relatif angka ganjil adalah 0,49. | ✓ |\nB. Frekuensi relatif angka ganjil lebih kecil daripada peluang teoretisnya. | ✓ |\nC. Peluang teoretis angka ganjil adalah 0,49. |  | ✓\nD. Frekuensi relatif diperoleh berdasarkan hasil percobaan, sedangkan peluang teoretis diperoleh berdasarkan kemungkinan kejadian. | ✓ |\nPembahasan:\nFrekuensi relatif angka ganjil:\n147/300 = 0,49\nPeluang teoretis angka ganjil pada dadu:\n3/6 = 0,5\nKarena 0,49 < 0,5, maka frekuensi relatif angka ganjil lebih kecil daripada peluang teoretisnya.\nJadi:\nA = Benar\nB = Benar\nC = Salah\nD = Benar",
+    "original_explanation": "Pembahasan:\nFrekuensi relatif angka ganjil:\n147/300 = 0,49\nPeluang teoretis angka ganjil pada dadu:\n3/6 = 0,5\nKarena 0,49 < 0,5, maka frekuensi relatif angka ganjil lebih kecil daripada peluang teoretisnya.\nJadi:\nA = Benar\nB = Benar\nC = Salah\nD = Benar",
     "source_option_ids": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "audit": "Seluruh opsi/kunci diperiksa; raw source dipertahankan, koreksi akademik belum diterapkan.",
-    "reason": "Istilah mendekati belum memiliki domain/aturan penilaian yang direview. Tidak menetapkan ambang kedekatan baru."
+    "generation_status": "ACTIVE",
+    "audit": "Original v2 direproduksi oleh config v1; generator revisi tersedia dan diperiksa independen.",
+    "reason": null,
+    "previous_source": {
+      "source_document_sha256": "2129f33e8ecc524e4c489b668798e8db0393f4b01348bf964cf1a8d420160575",
+      "source_text": "SOAL 29\n(Bentuk Soal: PG Kategori)\nKUNCI JAWABAN : A. Benar, B. Benar, C. Salah, D. Benar\nSebuah dadu dilempar 300 kali. Angka ganjil muncul 147 kali.\nPernyataan\nBenar\nSalah\nA. Frekuensi relatifnya adalah 0,49.\n✓\nB. Frekuensi relatif tersebut mendekati peluang teoretis 0,5.\n✓\nC. Peluang teoretis angka ganjil adalah 0,49.\n✓\nD. Hasil percobaan tidak harus sama persis dengan peluang teoretis.\n✓\nPembahasan : 147/300 = 0,49. Peluang teoretis angka ganjil = 3/6 = 0,5.",
+      "original_explanation": "Pembahasan : 147/300 = 0,49. Peluang teoretis angka ganjil = 3/6 = 0,5.",
+      "generation_status": "DEFERRED_CONCEPTUAL",
+      "reason": "Istilah mendekati belum memiliki domain/aturan penilaian yang direview. Tidak menetapkan ambang kedekatan baru."
+    },
+    "source_review_status": "REVISED_CURRICULUM",
+    "revision_document": "source-revision-2026-10-07.docx",
+    "generator_status": "IMPLEMENTED",
+    "notes": []
   },
   "kategori-23-3-10": {
     "source_number": 30,

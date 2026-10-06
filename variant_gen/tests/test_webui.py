@@ -110,7 +110,7 @@ class WebUI(unittest.TestCase):
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
             for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-21-3-1',seed=11,config={}))[0],400)
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config={}))[0],400)
             self.assertFalse(self.store.exists())
 
     def test_config_save_versions_validates_and_rejects_stale_editor(self):
@@ -188,7 +188,28 @@ class WebUI(unittest.TestCase):
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
             for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-21-3-1',seed=11,config={}))[0],400)
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config={}))[0],400)
+            self.assertFalse(self.store.exists())
+
+    def test_revised_originals_generate_without_database_or_storage(self):
+        from test_drill_20_23_revisions import REVISED, check_revised_math
+        with patch('database.connection',side_effect=AssertionError('No DB')):
+            for q in REVISED:
+                with self.subTest(question=q):
+                    status,data=self.request('GET',f'/api/question?id={q}&seed=11')
+                    self.assertEqual(status,200)
+                    self.assertEqual(data['original']['original_version'],2)
+                    self.assertTrue(data['config'])
+                    payload=dict(question_id=q,seed=11)
+                    status,first=self.request('POST','/api/generate',payload)
+                    self.assertEqual(status,200,first)
+                    keys=first['key'].split(',')
+                    cand=dict(stem=first['stem'],options=[dict(o,correct=o['id'] in keys) for o in first['options']])
+                    check_revised_math(self,self.server.bank.get(q),cand)
+                    status,again=self.request('POST','/api/generate',payload)
+                    self.assertEqual(status,200)
+                    for field in ('stem','options','key','values_used','config_hash'):
+                        self.assertEqual(first[field],again[field])
             self.assertFalse(self.store.exists())
 
     def test_drill_6_10_local_responses_and_hold(self):
@@ -208,12 +229,49 @@ class WebUI(unittest.TestCase):
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
             for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-6-1-5',seed=11,config={}))[0],400)
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config={}))[0],400)
+            self.assertFalse(self.store.exists())
+
+    def test_revised_6_10_generators_config_and_stateless_http(self):
+        from test_drill_6_10_revised_generators import REVISED
+        from drill_6_10_math import check_math
+        from engine import Result
+        from collections import Counter
+        with patch('database.connection', side_effect=AssertionError('No DB')):
+            for q in REVISED:
+                with self.subTest(question=q):
+                    status, data = self.request('GET', f'/api/question?id={q}&seed=11')
+                    self.assertEqual(status, 200)
+                    self.assertEqual(data['original']['original_version'], 2)
+                    self.assertEqual(data['variant_mode'], 'generator')
+                    self.assertEqual(data['config_versions'], [1])
+                    cfg = data['config']
+                    self.assertEqual(self.request('POST', '/api/lint', dict(question_id=q, config=cfg))[1]['ok'], True)
+                    payload = dict(question_id=q, seed=11)
+                    status, first = self.request('POST', '/api/generate', payload)
+                    self.assertEqual(status, 200, first)
+                    cand = dict(stem=first['stem'], options=[dict(o, correct=o['id'] in first['key'].split(',')) for o in first['options']])
+                    check_math(self, self.server.bank.get(q), Result({}, cand, 0, Counter()))
+                    status, again = self.request('POST', '/api/generate', payload)
+                    self.assertEqual(status, 200)
+                    for field in ('stem', 'options', 'key', 'values_used', 'config_hash'):
+                        self.assertEqual(first[field], again[field])
+                    self.assertIsNone(self.request('GET', f'/api/question?id={q}&seed=11')[1]['variant'])
+                    self.assertEqual(self.request('POST', '/api/generate', dict(question_id=q, seed=0))[0], 400)
+            q = REVISED[0]
+            _, data = self.request('GET', f'/api/question?id={q}&seed=11')
+            cfg = data['config']
+            cfg['variables']['k']['range'] = [1, 50]
+            status, saved = self.request('POST', '/api/config', dict(question_id=q, config=cfg,
+                base_version=1, base_hash=data['config_hash']))
+            self.assertEqual(status, 200, saved)
+            self.assertEqual(self.request('GET', f'/api/question?id={q}&seed=11')[1]['config_versions'], [1,2])
             self.assertFalse(self.store.exists())
 
     def test_drill_11_15_responses_and_all_levels(self):
         with patch('database.connection',side_effect=AssertionError('No DB')):
-            for qid in ['pg-11-1-2', 'mcma-13-5-6', 'kategori-15-5-10']:
+            for qid in ['pg-11-1-2', 'mcma-13-5-6', 'kategori-15-5-10',
+                        'mcma-11-1-7', 'pg-11-2-4', 'kategori-11-3-9', 'pg-15-4-2']:
                 payload=dict(question_id=qid,seed=11)
                 status,first=self.request('POST','/api/generate',payload)
                 self.assertEqual(status,200,first)
@@ -228,7 +286,7 @@ class WebUI(unittest.TestCase):
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
             for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-11-2-4',seed=11,config={}))[0],400)
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-15-2-8',seed=11,config={}))[0],400)
             self.assertFalse(self.store.exists())
 
 

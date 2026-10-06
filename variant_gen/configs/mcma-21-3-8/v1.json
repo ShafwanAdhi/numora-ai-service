@@ -1,0 +1,141 @@
+{
+  "question_id": "mcma-21-3-8",
+  "config_version": 1,
+  "original_hash": "fc671ca01da531e2",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -30,
+        20
+      ],
+      "step": 1
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "40+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "50+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "40+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "mode": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "median": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "wrong_median": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "max_before": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "max_after": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan data berikut.\n{v1}, {v2}, {v3}, {v4}, {v5}\nKemudian nilai {v6} diganti menjadi {v7}. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Modus data tetap {v8}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Median data berubah menjadi {v9}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Nilai terbesar bertambah dari {v10} menjadi {v11}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Banyak data bertambah dari 5 menjadi 6.",
+      "correct": false
+    }
+  ],
+  "explanation": "Modus tetap {mode}; median tetap {median}, bukan {wrong_median}. Nilai maksimum berubah dari {max_before} ke {max_after}. Banyak data tetap 5. Jadi pernyataan 1 dan 3 benar, sedangkan 2 dan 4 salah."
+}

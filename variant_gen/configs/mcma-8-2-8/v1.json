@@ -1,0 +1,139 @@
+{
+  "question_id": "mcma-8-2-8",
+  "config_version": 1,
+  "original_hash": "768e6a93b5780f58",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "13*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menyelesaikan pertidaksamaan linear pecahan ({v1}-2x)/(3)<(x+{v2})/(2) melalui langkah-langkah pengerjaan sebagai berikut:\nLangkah 1: 2({v3}-2x)<3(x+{v4})\nLangkah 2: {v5}-4x<3x+{v6}\nLangkah 3: $-4x - 3x < {v7} - {v8} \\implies -7x < {v9}$\nLangkah 4: x<-({v10})/(7)\nManakah pernyataan evaluasi berikut yang BENAR mengenai langkah pengerjaan di atas? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Langkah 1 dan Langkah 2 dilakukan dengan benar menggunakan sifat perkalian kedua ruas dengan KPK dan sifat distributif.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Langkah 3 merupakan proses pengelompokan suku sejenis yang tepat.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Siswa melakukan kesalahan pada Langkah 4 karena tidak membalik tanda pertidaksamaan saat membagi kedua ruas dengan -7.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Himpunan penyelesaian yang benar dari pertidaksamaan tersebut adalah x>-({v11})/(7).",
+      "correct": true
+    }
+  ],
+  "explanation": "Langkah 1 benar: kedua ruas dikalikan KPK 6. Langkah 2 benar: {v12}−4x<3x+{v13}. Langkah 3 benar: −7x<{v14}. Langkah 4 salah karena membagi dengan −7 harus membalik < menjadi >. Solusi x>−({v15})/7. Pernyataan A, B, C, D benar."
+}

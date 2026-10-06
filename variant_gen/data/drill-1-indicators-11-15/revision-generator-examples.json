@@ -1,0 +1,294 @@
+[
+  {
+    "record_id": "mcma-11-1-7:s1:v1",
+    "question_id": "mcma-11-1-7",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 11,
+      "source_level": 1,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 7,
+      "source_indicator": 11,
+      "source_level": 1,
+      "source_document_sha256": "2ea7ebb8e96b8a210ce0368210cd0539f38e57b96bdfd022dd715438f61ba5c6",
+      "source_cognitive_label": "C3",
+      "source_key": "Pernyataan 1, Pernyataan 3",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "reason": "Generator v1 tersedia untuk original v2 hasil revisi kurikulum; batas masukan tetap, penyesuaian otomatis belum aktif.",
+      "source_review_status": "REVISED_CURRICULUM",
+      "generator_status": "IMPLEMENTED",
+      "previous_source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "previous_generation_status": "HOLD_SOURCE",
+      "previous_reason": "Definisi f hilang pada stem; pembahasan memakai f(x)=x^2-3. Usulan menambahkan definisi; jangan mengasumsikan tanpa ledger."
+    },
+    "config_ver": 1,
+    "config_hash": "4eff58852abd8a5e",
+    "draws_used": 4,
+    "format": "MCMA",
+    "cognitive_level": "C3",
+    "values_used": {
+      "positive": 2,
+      "negative": 3,
+      "constant": 2,
+      "neg": -3,
+      "yes_p": 2,
+      "no_p": 4,
+      "yes_n": 7,
+      "no_n": 11
+    },
+    "stem": "Diketahui fungsi f(x) = x² - 2. Pilihlah semua pernyataan nilai fungsi yang benar di bawah ini!",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nilai dari f(2)=2."
+      },
+      {
+        "id": "B",
+        "text": "Nilai dari f(2)=4."
+      },
+      {
+        "id": "C",
+        "text": "Nilai dari f(-3)=7."
+      },
+      {
+        "id": "D",
+        "text": "Nilai dari f(-3)=11."
+      }
+    ],
+    "key": "A,C",
+    "explanation": "Substitusikan input dan kuadratkan sebelum mengurangi konstanta. f(2)=(2)²-2=2; f(-3)=(-3)²-2=7. A dan C benar. B mengabaikan pengurangan konstanta; D menambah konstanta, bukan menguranginya.\n\nPenilaian pernyataan: A: Benar — Nilai dari f(2)=2.; B: Salah — Nilai dari f(2)=4.; C: Benar — Nilai dari f(-3)=7.; D: Salah — Nilai dari f(-3)=11.",
+    "original_hash": "57c838848831acc8",
+    "original_version": 2,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T18:35:37+00:00"
+  },
+  {
+    "record_id": "pg-11-2-4:s1:v1",
+    "question_id": "pg-11-2-4",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 11,
+      "source_level": 2,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 4,
+      "source_indicator": 11,
+      "source_level": 2,
+      "source_document_sha256": "2ea7ebb8e96b8a210ce0368210cd0539f38e57b96bdfd022dd715438f61ba5c6",
+      "source_cognitive_label": "C3 & C4",
+      "source_key": "B",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "reason": "Generator v1 tersedia untuk original v2 hasil revisi kurikulum; batas masukan tetap, penyesuaian otomatis belum aktif.",
+      "source_review_status": "REVISED_CURRICULUM",
+      "generator_status": "IMPLEMENTED",
+      "previous_source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "previous_generation_status": "HOLD_SOURCE",
+      "previous_reason": "f(g(3))=f(2)=7, opsi B; source key D=11. Usulan key B dengan ledger v2."
+    },
+    "config_ver": 1,
+    "config_hash": "e35ebc0e9432098b",
+    "draws_used": 1,
+    "format": "PG",
+    "cognitive_level": "C3 & C4",
+    "values_used": {
+      "coefficient": 4,
+      "constant": 2,
+      "subtract": 2,
+      "input": 6,
+      "inner": 4,
+      "answer": 18,
+      "below": 14,
+      "above": 22,
+      "far": 26
+    },
+    "stem": "Diketahui fungsi f(x)=4x+2 dan g(x)=x-2. Nilai dari fungsi komposisi (f∘g)(6) adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "14"
+      },
+      {
+        "id": "B",
+        "text": "18"
+      },
+      {
+        "id": "C",
+        "text": "22"
+      },
+      {
+        "id": "D",
+        "text": "26"
+      }
+    ],
+    "key": "B",
+    "explanation": "Hitung g terlebih dahulu: g(6)=6-2=4. Kemudian f(g(6))=4×4+2=18. Jadi jawaban B.\n\nJawaban: B. 18",
+    "original_hash": "3874db78e959e76e",
+    "original_version": 2,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T18:35:37+00:00"
+  },
+  {
+    "record_id": "kategori-11-3-9:s1:v1",
+    "question_id": "kategori-11-3-9",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 11,
+      "source_level": 3,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 9,
+      "source_indicator": 11,
+      "source_level": 3,
+      "source_document_sha256": "2ea7ebb8e96b8a210ce0368210cd0539f38e57b96bdfd022dd715438f61ba5c6",
+      "source_cognitive_label": "C4",
+      "source_key": "A. Salah, B. Benar, C. Salah",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "reason": "Generator v1 tersedia untuk original v2 hasil revisi kurikulum; batas masukan tetap, penyesuaian otomatis belum aktif.",
+      "source_option_ids": {
+        "1": "A",
+        "2": "B",
+        "3": "C"
+      },
+      "source_review_status": "REVISED_CURRICULUM",
+      "generator_status": "IMPLEMENTED",
+      "previous_source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "previous_generation_status": "HOLD_SOURCE",
+      "previous_reason": "Istilah akar kuadrat berpotensi principal sqrt versus relasi y^2=x dengan dua akar; pembahasan menghendaki dua akar. Usulan memperjelas relasi y^2=x, bukan fungsi sqrt."
+    },
+    "config_ver": 1,
+    "config_hash": "6d3071f7dec903bf",
+    "draws_used": 8,
+    "format": "KATEGORI",
+    "cognitive_level": "C4",
+    "values_used": {
+      "r1": 1,
+      "r2": 2,
+      "r3": 7,
+      "labels": 1,
+      "a_name": "C",
+      "b_name": "D",
+      "s1": 1,
+      "s2": 4,
+      "s3": 49,
+      "n1": -1,
+      "n2": -2,
+      "n3": -7
+    },
+    "stem": "Diketahui C={1,4,49} dan D={-7,-2,-1,1,2,7}. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+    "options": [
+      {
+        "id": "1",
+        "text": "Relasi dari C ke D yang memasangkan setiap x ∈ C dengan semua y ∈ D yang memenuhi y² = x merupakan fungsi."
+      },
+      {
+        "id": "2",
+        "text": "Relasi dari D ke C yang memasangkan setiap y ∈ D dengan x ∈ C yang memenuhi x = y² merupakan fungsi."
+      },
+      {
+        "id": "3",
+        "text": "Relasi dari D ke C yang memasangkan setiap y ∈ D dengan x ∈ C yang memenuhi x = y² bukan fungsi karena -7 dan 7 dipasangkan dengan 49 yang sama."
+      }
+    ],
+    "key": "2",
+    "explanation": "Setiap anggota C mempunyai dua pasangan di D, yaitu akar positif dan negatifnya; relasi C ke D bukan fungsi. Setiap anggota D mempunyai tepat satu kuadrat di C; relasi D ke C merupakan fungsi. -7 dan 7 sama-sama menghasilkan 49; hasil sama dari dua input diperbolehkan. Pernyataan 1 Salah, 2 Benar, 3 Salah.\n\nPenilaian pernyataan: 1: Salah — Relasi dari C ke D yang memasangkan setiap x ∈ C dengan semua y ∈ D yang memenuhi y² = x merupakan fungsi.; 2: Benar — Relasi dari D ke C yang memasangkan setiap y ∈ D dengan x ∈ C yang memenuhi x = y² merupakan fungsi.; 3: Salah — Relasi dari D ke C yang memasangkan setiap y ∈ D dengan x ∈ C yang memenuhi x = y² bukan fungsi karena -7 dan 7 dipasangkan dengan 49 yang sama.",
+    "original_hash": "bccbf28b3dfcd810",
+    "original_version": 2,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T18:35:37+00:00"
+  },
+  {
+    "record_id": "pg-15-4-2:s1:v1",
+    "question_id": "pg-15-4-2",
+    "seed": 1,
+    "variant_ver": 1,
+    "classification": {
+      "activity": "DRILL",
+      "indicator": 15,
+      "source_level": 4,
+      "package_id": "drill-1"
+    },
+    "metadata": {
+      "generation_status": "ACTIVE",
+      "source_number": 2,
+      "source_indicator": 15,
+      "source_level": 4,
+      "source_document_sha256": "2ea7ebb8e96b8a210ce0368210cd0539f38e57b96bdfd022dd715438f61ba5c6",
+      "source_cognitive_label": "C4 & C5",
+      "source_key": "D",
+      "notes": [
+        "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
+      ],
+      "reason": "Generator v1 tersedia untuk original v2 hasil revisi kurikulum; batas masukan tetap, penyesuaian otomatis belum aktif.",
+      "source_review_status": "REVISED_CURRICULUM",
+      "generator_status": "IMPLEMENTED",
+      "previous_source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
+      "previous_generation_status": "HOLD_SOURCE",
+      "previous_reason": "SAS tidak terpenuhi, tetapi SSA khusus AB6 BC8 angleA40 menentukan satu segitiga; menolak kekongruenan hanya karena bukan SAS keliru. Usulan stem menilai alasan SAS, atau ganti ke SSA ambigu; perlu review."
+    },
+    "config_ver": 1,
+    "config_hash": "a6a3c156e7b25936",
+    "draws_used": 3,
+    "format": "PG",
+    "cognitive_level": "C4 & C5",
+    "values_used": {
+      "short": 7,
+      "long": 8,
+      "angle": 45,
+      "labels": 2,
+      "a": "K",
+      "b": "L",
+      "c": "M",
+      "p": "X",
+      "q": "Y",
+      "r": "Z"
+    },
+    "stem": "Rani menyimpulkan bahwa segitiga KLM dan segitiga XYZ kongruen karena KL = XY = 7 cm, LM = YZ = 8 cm, dan ∠K = ∠X = 45°, dengan alasan bahwa ketiga data tersebut memenuhi syarat sisi-sudut-sisi. Penilaian yang tepat terhadap alasan Rani adalah...",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alasan benar karena memenuhi syarat sisi-sudut-sisi."
+      },
+      {
+        "id": "B",
+        "text": "Alasan benar karena memenuhi syarat sisi-sisi-sisi."
+      },
+      {
+        "id": "C",
+        "text": "Alasan kurang tepat karena syarat kongruen mengharuskan ketiga sudut sama besar."
+      },
+      {
+        "id": "D",
+        "text": "Alasan kurang tepat karena ∠K tidak diapit oleh sisi KL dan LM, sehingga syarat sisi-sudut-sisi tidak terpenuhi, meskipun kesimpulan kongruen tetap dapat dibenarkan dengan alasan lain."
+      }
+    ],
+    "key": "D",
+    "explanation": "Sudut yang diapit sisi KL dan LM adalah ∠L, bukan ∠K. Karena itu, alasan sisi-sudut-sisi keliru; sisi ketiga belum diberikan sehingga alasan sisi-sisi-sisi juga belum terbukti dari data langsung. Namun sisi LM=8 cm, yang berhadapan dengan sudut ∠K=45°, lebih panjang daripada sisi KL=7 cm. Dengan sudut lancip dan kondisi sisi ini, hanya satu segitiga yang mungkin. Kesimpulan kongruen benar dengan alasan lain; jawaban D.\n\nJawaban: D. Alasan kurang tepat karena ∠K tidak diapit oleh sisi KL dan LM, sehingga syarat sisi-sudut-sisi tidak terpenuhi, meskipun kesimpulan kongruen tetap dapat dibenarkan dengan alasan lain.",
+    "original_hash": "a29c741da65a2863",
+    "original_version": 2,
+    "replacement_of": null,
+    "regen_reason": null,
+    "created_at": "2026-10-06T18:35:37+00:00"
+  }
+]

@@ -252,7 +252,8 @@ def evaluate(expr, names):
 
 
 # --------------------------------------------------------------- rendering
-PLACEHOLDER = re.compile(r"\{(\w+)\}")
+# Variable identifiers; numeric LaTeX groups and environment names are literal.
+PLACEHOLDER = re.compile(r"(?<!\\begin)(?<!\\end)\{((?!\d)\w+)\}")
 
 
 def placeholders(template):

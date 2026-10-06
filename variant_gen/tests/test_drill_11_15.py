@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from bank import OriginalBank, load_workspace_bank
+from bank import OriginalBank, load_workspace_bank, _parse_row
 from expr import render, PLACEHOLDER
 from config_store import ConfigError, ConfigStore, validate_config
 from engine import generate, assemble, build_values, make_record
@@ -160,16 +160,24 @@ class Drill1115Tests(unittest.TestCase):
     def test_saved_audit_matches_configs_and_replays_math(self):
         bank, configs = OriginalBank(BANK), ConfigStore(ROOT/'configs')
         report=json.loads(BANK.with_name('audit.json').read_text(encoding='utf8'))
+        revisions = {r['question_id']: r for r in map(json.loads,
+            BANK.with_name('original_revisions.jsonl').read_text(encoding='utf8').splitlines())}
         self.assertEqual({r['question_id'] for r in report['rows']},set(bank.ids()))
         self.assertEqual(report['summary'],dict(Counter(r['sampling_status'] for r in report['rows'])))
         for row in report['rows']:
             q=row['question_id'];o=bank.get(q)
+            if q in revisions:
+                # Audit records the source before the curriculum revision.
+                revision = revisions[q]
+                o = _parse_row(revision['original_row'], 0)
+                o['metadata'] = revision['original_metadata']
             with self.subTest(question=q):
                 self.assertEqual(row['original_hash'],o['hash'])
                 self.assertEqual(row['generation_status'],o['metadata']['generation_status'])
                 if row['generation_status']!='ACTIVE':
                     self.assertEqual(row['sampling_status'],'SKIP')
-                    self.assertFalse(configs.versions(q))
+                    if bank.get(q)['metadata']['generation_status'] != 'ACTIVE':
+                        self.assertFalse(configs.versions(q))
                     continue
                 cfg,h=configs.load(q)
                 self.assertEqual(row['config_hash'],h)

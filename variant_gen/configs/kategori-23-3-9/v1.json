@@ -1,0 +1,107 @@
+{
+  "question_id": "kategori-23-3-9",
+  "config_version": 1,
+  "original_hash": "0c3ae15c182d1c9d",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "trials": 300,
+    "p": 49
+  },
+  "variables": {
+    "trials": {
+      "gen": "range",
+      "range": [
+        100,
+        1500
+      ],
+      "step": 100
+    },
+    "p": {
+      "gen": "range",
+      "range": [
+        1,
+        49
+      ],
+      "step": 1
+    },
+    "observed": {
+      "gen": "derived",
+      "expr": "trials*p/100",
+      "fmt": "id",
+      "decimals": 3,
+      "filters": [
+        "nodec"
+      ]
+    },
+    "frequency": {
+      "gen": "derived",
+      "expr": "p/100",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "complement": {
+      "gen": "derived",
+      "expr": "1-frequency",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "half": {
+      "gen": "derived",
+      "expr": "1/2",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "trials",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "observed",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "frequency",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "frequency",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [
+    "p!=50"
+  ],
+  "stem": "Sebuah dadu dilempar sebanyak {v6} kali. Angka ganjil muncul sebanyak {v7} kali.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Frekuensi relatif angka ganjil adalah {v8}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Frekuensi relatif angka ganjil lebih kecil daripada peluang teoretisnya.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Peluang teoretis angka ganjil adalah {v9}.",
+      "correct": false
+    },
+    {
+      "id": "4",
+      "text": "Frekuensi relatif diperoleh berdasarkan hasil percobaan, sedangkan peluang teoretis diperoleh berdasarkan kemungkinan kejadian.",
+      "correct": true
+    }
+  ],
+  "explanation": "Frekuensi relatif = {observed}/{trials} = {frequency}. Peluang teoretis untuk kejadian pada koin seimbang atau angka genap/ganjil pada dadu fair adalah {half}. Frekuensi relatif berasal dari hasil percobaan, sedangkan peluang teoretis berasal dari ruang kemungkinan."
+}

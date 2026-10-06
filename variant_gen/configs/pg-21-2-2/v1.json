@@ -1,0 +1,118 @@
+{
+  "question_id": "pg-21-2-2",
+  "config_version": 1,
+  "original_hash": "b7df70083f67fc7e",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -50,
+        10
+      ],
+      "step": 1,
+      "fmt": "raw"
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "72+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "65+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "75+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "65+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "68+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "75+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum_all": {
+      "gen": "derived",
+      "expr": "5*(72+t)",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum_known": {
+      "gen": "derived",
+      "expr": "290+4*t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [],
+  "stem": "Rata-rata dari lima bilangan adalah {v1}. Jika empat bilangan tersebut adalah {v2}, {v3}, {v4}, dan {v5}, bilangan kelima adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v6}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v7}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v8}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v9}",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah lima bilangan = {sum_all}; jumlah empat bilangan = {sum_known}. Bilangan kelima = {sum_all} - {sum_known} = {answer}."
+}

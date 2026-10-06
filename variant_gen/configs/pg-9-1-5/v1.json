@@ -1,0 +1,109 @@
+{
+  "question_id": "pg-9-1-5",
+  "config_version": 1,
+  "original_hash": "4e7006c1a945a4a5",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "31*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "31*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "40*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Dalam menentukan titik potong alokasi biaya dua jenis kegiatan ekstrakurikuler, diperoleh sistem persamaan linear berikut:\nx=2y-{v1}\n3x+4y={v2}\nKarena variabel x pada persamaan (1) sudah dinyatakan secara eksplisit dalam y, metode penyelesaian yang paling langsung (tanpa perlu mengubah bentuk persamaan terlebih dahulu) untuk menentukan nilai y serta hasil nilai y yang diperoleh berturut-turut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Substitusi, dengan nilai y={v3}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Eliminasi, dengan nilai y={v4}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Grafik, dengan nilai y={v5}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Substitusi, dengan nilai y={v6}",
+      "correct": false
+    }
+  ],
+  "explanation": "Substitusi paling langsung karena x sudah dinyatakan dalam y. Masukkan x=2y−{v7} ke 3x+4y={v8}, diperoleh 10y={v9}, y={v10}. Eliminasi memerlukan penataan ulang. Jawaban A."
+}

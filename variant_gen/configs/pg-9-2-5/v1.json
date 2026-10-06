@@ -1,0 +1,109 @@
+{
+  "question_id": "pg-9-2-5",
+  "config_version": 1,
+  "original_hash": "83b6e0cb46efff5c",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        40
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "20000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "10*k",
+      "fmt": "raw",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "100000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "20000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "80000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 2
+    }
+  },
+  "constraints": [],
+  "stem": "Pembina OSIS menganalisis dua penawaran harga pembuatan kaus kelas dari dua konveksi berdasarkan jumlah kaus (x) dan total biaya (y dalam rupiah):\nKonveksi I: y=35.000x+{v1}\nKonveksi II: y=45.000x+{v2}\nKarena kedua persamaan sudah menyatakan nilai y secara eksplisit, metode penyelesaian yang paling langsung (dengan menyamakan kedua bentuk y tanpa perlu mengubah persamaan ke bentuk umum Ax+By=C) beserta jumlah kaus saat titik impas berturut-turut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Eliminasi, dengan titik impas pada x={v3} kaus",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Substitusi, dengan titik impas pada x={v4} kaus",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Grafik, dengan titik impas pada x={v5} kaus",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Substitusi, dengan titik impas pada x={v6} kaus",
+      "correct": false
+    }
+  ],
+  "explanation": "Kedua persamaan eksplisit y=f(x); samakan langsung melalui substitusi: 35.000x+{v7}=45.000x+{v8}. Maka 10.000x={v9}, x={v10} kaus. Jawaban B."
+}

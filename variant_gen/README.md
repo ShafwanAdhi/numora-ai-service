@@ -1,6 +1,6 @@
 # Generator dan stok varian Numora
 
-Workspace default: 820 original, 673 config, 67 original Drill dengan206 stok konseptual manual VERIFIED. Stok maksimum empat per original, saat ini2–4; tiga Tryout ditunda tetap tidak mempunyai stok. Komputasi IRT belum diimplementasikan.
+Workspace default: 820 original, 706 config, 67 original Drill dengan206 stok konseptual manual VERIFIED. Stok maksimum empat per original, saat ini2–4; tiga Tryout ditunda tetap tidak mempunyai stok. Komputasi IRT belum diimplementasikan.
 
 Panduan aktif:
 

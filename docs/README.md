@@ -8,9 +8,11 @@ Panduan aktif mengikuti kode; arsip menyimpan keputusan pada tanggalnya.
 | UI/CLI, paket, tes, troubleshooting | [OPERATIONS](OPERATIONS.md) |
 | Config, original, validator, versi | [GENERATOR](GENERATOR.md) |
 | Modul, DB, ekspor dan batas integrasi | [ARCHITECTURE](ARCHITECTURE.md) |
-| 147 soal tanpa generator (144 Drill + 3 Tryout) | [Review soal skip](../variant_gen/soalskip.md) |
+| 114 soal tanpa generator (111 Drill + 3 Tryout) | [Review soal skip](../variant_gen/soalskip.md) |
 
 ## Kondisi repo dan generator
+
+- [Impor revisi original Drill1–5](audits/2026-10-07-drill-1-5-source-revision.md):41 original v2; generator belum dibuat, dua soal tetap HOLD, stok manual dipertahankan.
 
 - [Stok konseptual lengkap dan cross-check kesulitan](audits/2026-10-06-conceptual-stock-audit.md): 67 original/206 stok VERIFIED; [progres](superpowers/plans/2026-10-06-conceptual-stock-progress.md).
 
@@ -18,7 +20,8 @@ Panduan aktif mengikuti kode; arsip menyimpan keputusan pada tanggalnya.
 
 - [Audit Drill1–2 level1–3](audits/2026-10-05-drill-1-2-generator-audit.md), [progres](superpowers/plans/2026-10-05-drill-1-2-generator-progress.md).
 
-- [Kondisi repo dan verifikasi gabungan](audits/2026-10-06-repository-status.md): inventaris 820 original/673 config dan cakupan yang belum tersedia.
+- [Kondisi repo dan verifikasi gabungan](audits/2026-10-07-repository-status.md): inventaris 820 original/706 config dan cakupan yang belum tersedia.
+- [Generator revisi Drill 6–10](audits/2026-10-07-revised-6-10-generator-audit.md): 11 generator baru, total 140/150 aktif; satu HOLD tetap ditahan.
 - [Audit Drill 6–10](audits/2026-10-05-drill-6-10-generator-audit.md), [hasil implementasi](superpowers/plans/2026-10-05-drill-6-10-generator-progress.md).
 - [Audit Drill 11–15](audits/2026-10-05-drill-11-15-generator-audit.md), [hasil implementasi](superpowers/plans/2026-10-05-drill-11-15-generator-progress.md), contoh hasil dihapus pada 6 Oktober 2026; audit hash/seed tetap tersedia.
 
@@ -38,4 +41,7 @@ Saat mengubah perilaku, perbarui panduan aktif yang sesuai. Pertahankan arsip be
 
 - [Audit generator Drill 11–15](audits/2026-10-05-drill-11-15-generator-audit.md): 223 aktif, oracle matematika, kapasitas dan contoh hasil.
 
-Sejak 6 Oktober 2026, generate tidak menyimpan varian/paket. Catatan regen, history, dan snapshot pada audit/progres sebelumnya bersifat historis. Contoh hasil tersimpan dihapus; bukti matematika berupa hash/seed/status tetap tersedia.
+Sejak 6 Oktober 2026, generate tidak menyimpan varian/paket. Catatan regen, history, dan snapshot pada audit/progres sebelumnya bersifat historis. Contoh hasil lama dihapus; bukti matematika berupa hash/seed/status tetap tersedia. Audit revisi 7 Oktober menyertakan fixture contoh offline; generate runtime tetap tidak menyimpan hasil.
+
+- [Revisi sumber Drill20–23,7 Oktober](audits/2026-10-07-drill-20-23-source-revision.md):16 original v2; [generator sudah aktif](audits/2026-10-07-revised-20-23-generator-audit.md).
+- [Revisi sumber Drill16–19, 7 Oktober](audits/2026-10-07-drill-16-19-source-revision.md): dua original v2 dari sepuluh soal skip yang diperiksa; DOCX diarsipkan, dua generator v1 kini aktif.

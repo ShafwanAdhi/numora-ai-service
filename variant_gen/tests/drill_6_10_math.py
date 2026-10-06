@@ -207,6 +207,79 @@ def check_math(test, orig, result):
         amount, flour, sugar, target = s
         answer = target / amount * (flour - sugar)
         flags = [x[0] == answer for x in n]
+    elif q == 'pg-6-1-5':
+        fuel, duration, area, target = s
+        test.assertGreater(fuel, 0); test.assertGreater(area, 0)
+        flags = [x[0] == fuel*target/area for x in n]
+    elif q == 'pg-7-1-2':
+        extra, deduction = s
+        flags = [x[0] == (extra+deduction)/2 for x in n]
+    elif q in ('pg-7-2-4', 'pg-7-3-5'):
+        variable = 'a' if q == 'pg-7-2-4' else 'k'
+        model = equation(equations(cand['stem'])[0])
+        test.assertNotIn((('x', 1),), model)
+        critical = linear_solution(model, variable)
+        flags = []
+        for option in opts:
+            match = re.search(variable+r'≠(-?\d+)', option['text'])
+            flags.append(bool(match) and F(match[1]) == critical)
+        test.assertEqual(linear_solution(substitute(model, **{variable: critical})), 'ALL')
+        test.assertEqual(linear_solution(substitute(model, **{variable: critical+1})), 'EMPTY')
+    elif q == 'mcma-8-2-8':
+        es = inequalities(cand['stem']); actual = inequality(es[0])
+        def difference(text):
+            left, op, right = re.split(r'([<>])', text.strip(' $'))
+            test.assertEqual(op, '<')
+            return poly(left)-poly(right)
+        step3 = cand['stem'].split('Langkah 3: ', 1)[1].split('\n', 1)[0]
+        group, reduced = step3.split(r'\implies')
+        first_ok = difference(es[1]) == 6*difference(es[0]) and difference(es[2]) == difference(es[1])
+        third_ok = difference(group) == difference(es[2]) and difference(reduced) == difference(group)
+        divisor = difference(reduced).get((('x', 1),), 0)
+        bad = inequality(es[-1])
+        flags = [first_ok, third_ok,
+                 divisor < 0 and signed(opts[2]['text'])[-1] == divisor and bad[0] != actual[0] and bad[1] == actual[1],
+                 inequality(inequalities(opts[3]['text'])[0]) == actual]
+    elif q == 'pg-9-1-3':
+        first, symbolic = equations(cand['stem'])[:2]
+        a, b, total = row_of(first)
+        model = equation(symbolic)
+        ratio = model[(('x', 1),)]/a
+        test.assertEqual(model[(('y', 1),)], b*ratio)
+        test.assertEqual(model[(('k', 1),)], -1)
+        critical = ratio*total
+        flags = [bool(m := re.search(r'k≠(-?\d+)', o['text'])) and F(m[1]) == critical for o in opts]
+    elif q in ('pg-9-1-5', 'pg-9-2-5', 'pg-9-3-4'):
+        eqs = equations(cand['stem'])[:2]
+        x, y = system(*(row_of(e) for e in eqs))
+        test.assertGreater(x, 0); test.assertGreater(y, 0)
+        test.assertIn('paling langsung', cand['stem'])
+        if q == 'pg-9-3-4':
+            flags = []
+            for option in opts:
+                point = re.search(r'titik potong \((\d+),(\d+)\)', option['text'])
+                direct = 'mengganti nilai y pada Persamaan 2' in option['text']
+                expression = re.search(r'dengan \(([^()]+)\)', option['text'])
+                flags.append(direct and expression is not None and poly(expression[1]) == poly(eqs[0].split('=')[1])
+                             and tuple(map(F, point.groups())) == (x, y))
+        else:
+            variable, answer = ('y', y) if q == 'pg-9-1-5' else ('x', x)
+            flags = [o['text'].startswith('Substitusi,') and claim_solution(o['text'], variable) == answer for o in opts]
+    elif q == 'pg-9-3-2':
+        a, b, e = row_of(equations(cand['stem'])[0])
+        c, d, f = row_of(equations(cand['stem'])[1])
+        test.assertNotEqual(a*d-b*c, 0)
+        test.assertTrue(all(v > 0 for v in system((a,b,e), (c,d,f))))
+        flags = []
+        for option in opts:
+            text = option['text']
+            numerator, denominator = map(F, re.search(r'\\frac\{(-?\d+)\}\{(-?\d+)\}', text).groups())
+            blocks = re.findall(r'\\begin\{pmatrix\}(.*?)\\end\{pmatrix\}', text)
+            test.assertEqual(len(blocks), 3)
+            matrix = [F(v.strip())*numerator/denominator for v in re.split(r'&|\\\\', blocks[1])]
+            rhs = [F(v.strip().replace('.', '')) for v in blocks[2].split(r'\\')]
+            p, r, t, u = matrix
+            flags.append([a*p+b*t, a*r+b*u, c*p+d*t, c*r+d*u] == [1,0,0,1] and rhs == [e,f])
     elif q == 'pg-6-1-2':
         speed, oldtime, newtime = s
         flags = [x[0] == speed * oldtime / newtime for x in n]
@@ -332,7 +405,7 @@ def check_math(test, orig, result):
         count, leftover, total = s
         flags = [equation(equations(opts[0]['text'])[0]) == count*poly('x')+leftover-total,
                  n[1] == [total, leftover, count], n[2][-1] == (total-leftover)/count]
-    elif q in ('pg-7-2-3', 'pg-7-3-4'):
+    elif q in ('pg-7-1-3', 'pg-7-2-3', 'pg-7-3-4'):
         expressions = re.findall(r'\(([^()]+)\)', cand['stem'])
         length, width = map(poly, expressions[:2])
         model = 2*(length+width)-(4*poly(expressions[2]) if q == 'pg-7-3-4' else s[-1])

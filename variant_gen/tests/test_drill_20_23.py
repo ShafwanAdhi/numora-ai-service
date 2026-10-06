@@ -58,13 +58,14 @@ class DrillTests(unittest.TestCase):
                     'mcma-21-3-8','kategori-21-3-9','pg-22-1-1','mcma-22-1-6',
                     'mcma-22-1-7','mcma-22-3-8']:
             orig = bank.get(qid)
-            self.assertEqual(orig['metadata']['generation_status'], 'HOLD_SOURCE')
-            self.assertTrue(orig['metadata']['reason'])
-            self.assertEqual(ConfigStore(ROOT/'configs').versions(qid), [])
+            self.assertEqual(orig['metadata']['generation_status'], 'ACTIVE')
+            self.assertEqual(orig['metadata']['source_review_status'], 'REVISED_CURRICULUM')
+            self.assertEqual(orig['metadata']['generator_status'], 'IMPLEMENTED')
+            self.assertEqual(ConfigStore(ROOT/'configs').versions(qid), [1])
             self.assertTrue(validate_config({}, orig))
             with self.assertRaises(ConfigError): generate(orig, {}, 1, [])
-        self.assertEqual(bank.get('pg-20-3-3')['options'][2]['text'],
-                         bank.get('pg-20-3-3')['options'][3]['text'])
+        self.assertNotEqual(bank.get('pg-20-3-3')['options'][2]['text'],
+                            bank.get('pg-20-3-3')['options'][3]['text'])
         self.assertEqual(bank.get('pg-23-1-2')['metadata']['generation_status'], 'DEFERRED_CONCEPTUAL')
 
     def test_custom_category_labels_and_hash(self):
@@ -122,6 +123,7 @@ class DrillTests(unittest.TestCase):
 
     def test_active_stock_and_independent_math(self):
         from drill_math import check_math
+        from test_drill_20_23_revisions import REVISED, check_revised_math
         from unittest.mock import patch
         bank = OriginalBank(BANK)
         configs = ConfigStore(ROOT/'configs')
@@ -136,7 +138,8 @@ class DrillTests(unittest.TestCase):
                     for seed in range(1,201):
                         try: result = generate(orig,cfg,seed,candidates)
                         except GenerationError: continue
-                        check_math(self,orig,result)
+                        if qid in REVISED: check_revised_math(self,orig,result.cand)
+                        else: check_math(self,orig,result)
                         candidates.append(result.cand)
                         if len(candidates) == 20: break
                     self.assertEqual(len(candidates),20)
@@ -159,9 +162,9 @@ class DrillTests(unittest.TestCase):
                 self.assertEqual(cli.main(['view','pg-21-3-1','s0','--bank',str(BANK),
                                            '--store',str(Path(tmp)/'variants.jsonl')]),0)
             text=output.getvalue()
-            self.assertIn('HOLD_SOURCE',text)
-            self.assertIn('belum disahkan',text)
-            self.assertIn('mean mengharuskan 89',text)
+            self.assertIn('ACTIVE',text)
+            self.assertIn('89',text)
+            self.assertNotIn('belum disahkan',text)
             self.assertFalse((Path(tmp)/'variants.jsonl').exists())
 
     def test_cli_hold_rejects_even_an_existing_seed(self):
@@ -175,7 +178,7 @@ class DrillTests(unittest.TestCase):
             path=Path(tmp)/'variants.jsonl';path.write_text(json.dumps(record)+'\n',encoding='utf-8')
             before=path.read_bytes()
             with contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
-                self.assertEqual(cli.main(['gen',orig['id'],'s1','--bank',str(BANK),'--store',str(path)]),1)
+                self.assertEqual(cli.main(['gen',orig['id'],'s1','--bank',str(BANK),'--store',str(path)]),0)
             self.assertEqual(path.read_bytes(),before)
 
 

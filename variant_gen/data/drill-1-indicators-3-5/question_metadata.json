@@ -14,31 +14,48 @@
     ]
   },
   "pg-3-1-2": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 2,
-    "source_body_index": 3749,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "C. 6,7m",
-    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: C. 6,7m\nPanitia penataan taman sekolah mengukur panjang sebuah papan diagonal penguat pagar berbentuk persegi. Luas lahan tempat pagar terpasang adalah 45m^(2), sehingga panjang diagonal mendekati nilai sqrt(45)meter.\nJika nilai sqrt(45) diaproksimasi dan dibulatkan hingga satu tempat desimal (persepuluhan terdekat), perkiraan panjang papan penguat tersebut adalah ....\nA. 6,5m\nB. 6,6m\nC. 6,7m\nD. 6,8m\nPembahasan:\nTentukan aproksimasi nilai akar kuadrat sqrt(45) menggunakan dua bilangan kuadrat sempurna terdekat:\n36<45<49 ⇒ sqrt(36)<sqrt(45)<sqrt(49)  ⇒ 6<sqrt(45)<7.\nGunakan pendekatan interpolasi atau kuadrat desimal:\n6,7^(2)=44,89 (sangat dekat ke 45)\n6,8^(2)=46,24\nKarena 44,89 adalah nilai paling dekat dengan 45, maka nilai aproksimasi sqrt(45)≈6,708...\nDibulatkan ke satu tempat desimal (persepuluhan terdekat) menjadi 6,7 m.\nKesalahan Umum yang Diantisipasi:\nSiswa membagi 45 dengan 2 (45÷2=22,5) atau mengambil titik tengah antara 6 dan 7 (6,5), alih-alih menguji pembulatan desimal kuadrat terdekat.",
-    "original_explanation": "Pembahasan:\nTentukan aproksimasi nilai akar kuadrat sqrt(45) menggunakan dua bilangan kuadrat sempurna terdekat:\n36<45<49 ⇒ sqrt(36)<sqrt(45)<sqrt(49)  ⇒ 6<sqrt(45)<7.\nGunakan pendekatan interpolasi atau kuadrat desimal:\n6,7^(2)=44,89 (sangat dekat ke 45)\n6,8^(2)=46,24\nKarena 44,89 adalah nilai paling dekat dengan 45, maka nilai aproksimasi sqrt(45)≈6,708...\nDibulatkan ke satu tempat desimal (persepuluhan terdekat) menjadi 6,7 m.\nKesalahan Umum yang Diantisipasi:\nSiswa membagi 45 dengan 2 (45÷2=22,5) atau mengambil titik tengah antara 6 dan 7 (6,5), alih-alih menguji pembulatan desimal kuadrat terdekat.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Lahan persegi luas45m2 mempunyai diagonal sqrt(90), bukan sqrt(45); premis geometri bertentangan dengan besaran yang diminta.",
+    "source_body_index": 3770,
+    "source_cognitive_label": "C3",
+    "declared_key": "C",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: C\nPanitia penataan taman sekolah akan memasang papan pembatas kayu di sepanjang salah satu sisi lahan tempat bibit tanaman yang berbentuk persegi. Luas lahan persegi tersebut adalah 45m^2, sehingga panjang sisi lahan tersebut adalah sqrt(45)meter.\nJika nilai sqrt(45) diaproksimasi dan dibulatkan hingga satu tempat desimal (persepuluhan terdekat), perkiraan panjang papan pembatas sisi tersebut adalah...\nOpsi Jawaban:\nA. 6,5 m\nB. 6,6 m\nC. 6,7 m\nD. 6,8 m\nPembahasan:\nTentukan batas dua bilangan kuadrat sempurna terdekat yang mengapit bilangan 45:\n36<45<49\n$$\\sqrt{36} < \\sqrt{45} < \\sqrt{49} \\implies 6 < \\sqrt{45} < 7$$\nUji perkiraan nilai desimal kuadrat di antara 6 dan 7 yang paling dekat dengan 45:\n6,6^2=43,56\n6,7^2=44,89 (selisih terhadap 45 hanya 0,11)\n6,8^2=46,24 (selisih terhadap 45 adalah 1,24)\nKarena 44,89 merupakan nilai yang paling dekat dengan 45, maka nilai aproksimasi sqrt(45)≈6,708...\nDibulatkan ke satu tempat desimal (persepuluhan terdekat) menjadi 6,7m.\nAnalisis opsi pilihan jawaban:\nOpsi A (6,5 m): Salah, muncul jika siswa keliru mengambil nilai titik tengah antara 6 dan 7.\nOpsi B (6,6 m): Salah, muncul jika siswa keliru menghitung nilai kuadrat desimal.\nOpsi C (6,7 m - BENAR): Hasil aproksimasi akar kuadrat dan pembulatan persepuluhan terdekat yang tepat (6,7^2=44,89≈45).\nOpsi D (6,8 m): Salah, muncul jika siswa keliru membulatkan ke atas dari nilai kuadrat yang lebih jauh (46,24).\nKesalahan umum yang diantisipasi: Siswa sering membagi 45 dengan 2 (45÷2=22,5m) atau langsung mengasumsikan nilai tengah (6,5m), alih-alih menguji pengkuadratan nilai desimal terdekat.",
+    "original_explanation": "Pembahasan:\nTentukan batas dua bilangan kuadrat sempurna terdekat yang mengapit bilangan 45:\n36<45<49\n$$\\sqrt{36} < \\sqrt{45} < \\sqrt{49} \\implies 6 < \\sqrt{45} < 7$$\nUji perkiraan nilai desimal kuadrat di antara 6 dan 7 yang paling dekat dengan 45:\n6,6^2=43,56\n6,7^2=44,89 (selisih terhadap 45 hanya 0,11)\n6,8^2=46,24 (selisih terhadap 45 adalah 1,24)\nKarena 44,89 merupakan nilai yang paling dekat dengan 45, maka nilai aproksimasi sqrt(45)≈6,708...\nDibulatkan ke satu tempat desimal (persepuluhan terdekat) menjadi 6,7m.\nAnalisis opsi pilihan jawaban:\nOpsi A (6,5 m): Salah, muncul jika siswa keliru mengambil nilai titik tengah antara 6 dan 7.\nOpsi B (6,6 m): Salah, muncul jika siswa keliru menghitung nilai kuadrat desimal.\nOpsi C (6,7 m - BENAR): Hasil aproksimasi akar kuadrat dan pembulatan persepuluhan terdekat yang tepat (6,7^2=44,89≈45).\nOpsi D (6,8 m): Salah, muncul jika siswa keliru membulatkan ke atas dari nilai kuadrat yang lebih jauh (46,24).\nKesalahan umum yang diantisipasi: Siswa sering membagi 45 dengan 2 (45÷2=22,5m) atau langsung mengasumsikan nilai tengah (6,5m), alih-alih menguji pengkuadratan nilai desimal terdekat.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Lahan persegi luas45m2 mempunyai diagonal sqrt(90), bukan sqrt(45); premis geometri bertentangan dengan besaran yang diminta.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-3-1-3": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 3,
-    "source_body_index": 3783,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "C. Rp81.000,00",
-    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: C. Rp81.000,00\nBu Sinta membeli jeruk seberat 3(1)/(4)kg di pasar tradisional dengan harga Rp24.800,00 per kg. Sebelum melakukan pembayaran tunai, Bu Sinta melakukan estimasi total harga dengan membulatkan harga satuan jeruk ke ribuan terdekat.\nBerapa estimasi total harga jeruk yang harus dibayar Bu Sinta berdasarkan pembulatan tersebut?\nA. Rp75.000,00\nB. Rp80.000,00\nC. Rp81.000,00\nD. Rp82.500,00\nPembahasan:\nBulatkan harga per kg (Rp24.800,00) ke ribuan terdekat:\nDigit ratusan pada 24.800 adalah 8≥5, maka dibulatkan ke atas menjadi Rp25.000,00.\nHitung perkiraan total pembayaran:\nEstimasi Total=3(1)/(4)×25.000=3,25×25.000\nEstimasi Total=(3×25.000)+(0,25×25.000)=75.000+6.250=81.250\nJika estimasi total dibulatkan ke ribuan terdekat untuk kewajaran kas belanja, maka 81.250 dibulatkan menjadi Rp81.000,00.\nKesalahan Umum yang Diantisipasi:\nSiswa membulatkan 24.800 ke bawah menjadi 24.000 atau lupa menghitung pecahan (1)/(4)kg (0,25kg).",
-    "original_explanation": "Pembahasan:\nBulatkan harga per kg (Rp24.800) ke ribuan terdekat:\nDigit ratusan pada 24.800 adalah 8≥5, maka dibulatkan ke atas menjadi Rp25.000.\nHitung perkiraan total pembayaran:\nEstimasi Total=3 1/4×25.000=3,25×25.000\nEstimasi Total=(3×25.000)+(0,25×25.000)=75.000+6.250=81.250\nJika estimasi total dibulatkan ke ribuan terdekat untuk kewajaran kas belanja, maka 81.250 dibulatkan menjadi Rp81.000.\nKesalahan Umum yang Diantisipasi:\nSiswa membulatkan 24.800 ke bawah menjadi 24.000 atau lupa menghitung pecahan (1)/(4)kg (0,25kg).",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem hanya membulatkan harga satuan:3,25*25.000=81.250 tidak ada pada opsi. Pembahasan menambahkan pembulatan total tanpa instruksi stem.",
+    "source_body_index": 3819,
+    "source_cognitive_label": "C3",
+    "declared_key": "C",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: C\nBu Sinta membeli jeruk seberat 3(1)/(4)kg di pasar tradisional dengan harga Rp24.800,00 per kg. Sebelum melakukan pembayaran tunai, Bu Sinta melakukan estimasi total harga dengan membulatkan harga satuan jeruk ke ribuan terdekat, kemudian membulatkan hasil perkiraan akhir total harganya ke ribuan terdekat.\nBerapa estimasi total harga jeruk yang harus dibayar Bu Sinta berdasarkan langkah tersebut?\nOpsi Jawaban:\nA. Rp75.000,00\nB. Rp80.000,00\nC. Rp81.000,00\nD. Rp82.500,00\nPembahasan:\nBulatkan harga per kg (Rp24.800,00) ke ribuan terdekat:\nAngka ratusannya adalah 8≥5, maka dibulatkan naik menjadi Rp25.000,00.\nHitung perkiraan total pembayaran dengan berat 3(1)/(4)kg=3,25kg:\nHasil Perkiraan Awal=3,25×Rp25.000,00\nHasil Perkiraan Awal=(3×25.000)+(0,25×25.000)=75.000+6.250=Rp81.250,00\nLakukan pembulatan hasil perkiraan akhir ke ribuan terdekat sesuai instruksi stem:\nAngka ratusan pada 81.250 adalah 2<5, maka dibulatkan ke bawah menjadi Rp81.000,00.\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp75.000,00): Salah, muncul jika siswa hanya menghitung bagian 3kg utuh saja (3×25.000).\nOpsi B (Rp80.000,00): Salah, muncul jika siswa keliru membulatkan Rp24.800,00 ke bawah menjadi Rp24.000,00 (3,25×24.000=78.000→80.000).\nOpsi C (Rp81.000,00 - BENAR): Hasil estimasi yang akurat dan tepat sesuai instruksi pembulatan.\nOpsi D (Rp82.500,00): Salah, muncul jika siswa lupa membulatkan harga satuan di awal dan langsung membulatkan beratnya (3,5×24.800).\nKesalahan umum yang diantisipasi: Siswa sering lupa menghitung porsi pecahan (1)/(4)kg (0,25kg) atau keliru melakukan pembulatan naik/turun pada bilangan desimal uang.",
+    "original_explanation": "Pembahasan:\nBulatkan harga per kg (Rp24.800,00) ke ribuan terdekat:\nAngka ratusannya adalah 8≥5, maka dibulatkan naik menjadi Rp25.000,00.\nHitung perkiraan total pembayaran dengan berat 3(1)/(4)kg=3,25kg:\nHasil Perkiraan Awal=3,25×Rp25.000,00\nHasil Perkiraan Awal=(3×25.000)+(0,25×25.000)=75.000+6.250=Rp81.250,00\nLakukan pembulatan hasil perkiraan akhir ke ribuan terdekat sesuai instruksi stem:\nAngka ratusan pada 81.250 adalah 2<5, maka dibulatkan ke bawah menjadi Rp81.000,00.\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp75.000,00): Salah, muncul jika siswa hanya menghitung bagian 3kg utuh saja (3×25.000).\nOpsi B (Rp80.000,00): Salah, muncul jika siswa keliru membulatkan Rp24.800,00 ke bawah menjadi Rp24.000,00 (3,25×24.000=78.000→80.000).\nOpsi C (Rp81.000,00 - BENAR): Hasil estimasi yang akurat dan tepat sesuai instruksi pembulatan.\nOpsi D (Rp82.500,00): Salah, muncul jika siswa lupa membulatkan harga satuan di awal dan langsung membulatkan beratnya (3,5×24.800).\nKesalahan umum yang diantisipasi: Siswa sering lupa menghitung porsi pecahan (1)/(4)kg (0,25kg) atau keliru melakukan pembulatan naik/turun pada bilangan desimal uang.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem hanya membulatkan harga satuan:3,25*25.000=81.250 tidak ada pada opsi. Pembahasan menambahkan pembulatan total tanpa instruksi stem.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push.",
+    "source_review_notes": [
+      "Alasan distraktor B memuat 78.000→80.000 yang tidak mengikuti ribuan terdekat; alasan D memuat 3,5×24.800=86.800, bukan Rp82.500. Solusi utama Rp81.000 benar."
     ]
   },
   "pg-3-1-4": {
@@ -56,17 +73,27 @@
     ]
   },
   "pg-3-1-5": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 5,
-    "source_body_index": 3851,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "A. Rp130.000,00",
-    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: A. Rp130.000,00\nDalam rangka kegiatan bakti sosial, pengurus OSIS membeli 19 paket sembako seharga Rp6.850,00 per paket. Bendahara OSIS ingin mengecek kewajaran jawaban total pengeluaran dengan mengestimasi hasil kali setelah membulatkan masing-masing bilangan ke satuan/puluhan/ribuan terdekat yang terdekat.\nEstimasi total biaya belanja sembako yang paling reasonable/wajar adalah ....\nA. Rp130.000,00\nB. Rp140.000,00\nC. Rp120.000,00\nD. Rp133.000,00\nPembahasan:\nBulatkan jumlah paket (19) ke puluhan terdekat: 19→20 paket.\nBulatkan harga per paket (Rp6.850,00) ke ribuan terdekat: 6.850→Rp7.000,00.\nHitung estimasi perkalian untuk memeriksa kewajaran:\nEstimasi Total=20×7.000=140.000\nPeriksa dengan pembulatan kombinasi dekat:\nJika 19×6.850=130.150, harga ini bila dibulatkan ke puluhan ribu terdekat adalah Rp130.000,00.\nPilihan estimasi pembulatan cepat:\n20×6.850≈137.000\n19×7.000=133.000→ dibulatkan ke puluh ribuan terdekat menjadi Rp130.000,00.\nJawaban estimasi kewajaran terdekat ke angka hasil nyata adalah Rp130.000,00 (Opsi A).\nKesalahan Umum yang Diantisipasi:\nSiswa menghitung secara detail tanpa melakukan estimasi pembulatan cepat atau membulatkan kedua angka ke bawah.",
-    "original_explanation": "Pembahasan:\nBulatkan jumlah paket (19) ke puluhan terdekat: 19→20 paket.\nBulatkan harga per paket (Rp6.850) ke ribuan terdekat: 6.850→Rp7.000.\nHitung estimasi perkalian untuk memeriksa kewajaran:\nEstimasi Total=20×7.000=140.000\nPeriksa dengan pembulatan kombinasi dekat:\nJika 19×6.850=130.150, harga ini bila dibulatkan ke puluhan ribu terdekat adalah Rp130.000.\nPilihan estimasi pembulatan cepat:\n20×6.850≈137.000\n19×7.000=133.000→ dibulatkan ke puluh ribuan terdekat menjadi Rp130.000.\nJawaban estimasi kewajaran terdekat ke angka hasil nyata adalah Rp130.000 (Opsi A).\nKesalahan Umum yang Diantisipasi:\nSiswa menghitung secara detail tanpa melakukan estimasi pembulatan cepat atau membulatkan kedua angka ke bawah.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Aturan pembulatan operand menghasilkan20*7.000=140.000 tetapi kunci130.000 memakai pembulatan hasil riil; aturan estimasi tidak tunggal.",
+    "source_body_index": 3896,
+    "source_cognitive_label": "C3",
+    "declared_key": "B",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: B\nDalam rangka kegiatan bakti sosial, pengurus OSIS membeli 19 paket sembako seharga Rp6.850,00 per paket. Bendahara OSIS ingin mengecek kewajaran total pengeluaran dengan mengestimasi hasil kali setelah membulatkan jumlah paket ke puluhan terdekat dan membulatkan harga per paket ke ribuan terdekat.\nEstimasi total biaya belanja sembako yang diperoleh bendahara OSIS adalah...\nOpsi Jawaban:\nA. Rp120.000,00\nB. Rp140.000,00\nC. Rp133.000,00\nD. Rp130.000,00\nPembahasan:\nLakukan pembulatan pada masing-masing operand (komponen bilangan) terlebih dahulu sesuai aturan pada stem:\nJumlah paket: 19 dibulatkan ke puluhan terdekat menjadi 20 paket.\nHarga per paket: Rp6.850,00 dibulatkan ke ribuan terdekat (karena angka ratusannya 8≥5) menjadi Rp7.000,00.\nHitung hasil perkalian dari operand yang telah dibulatkan:\nEstimasi Total Biaya=20×Rp7.000,00=Rp140.000,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp120.000,00): Salah, muncul jika siswa keliru membulatkan kedua operand ke bawah (20×Rp6.000,00).\nOpsi B (Rp140.000,00 - BENAR): Hasil estimasi pembulatan operand yang konsisten dan tepat secara matematika (20×Rp7.000,00).\nOpsi C (Rp133.000,00): Salah, muncul jika siswa hanya membulatkan harga per paket tanpa membulatkan jumlah paket (19×Rp7.000,00).\nOpsi D (Rp130.000,00): Salah, merupakan nilai riil (19×Rp6.850,00=Rp130.150,00) yang baru dibulatkan di akhir, bukan hasil dari prosedur estimasi operand sebelum operasi perkalian.\nKesalahan umum yang diantisipasi: Siswa menghitung nilai persisnya terlebih dahulu baru membulatkannya di akhir, padahal konsep estimasi/penaksiran dalam aritmetika menuntut pembulatan pada tiap komponen bilangan dilakukan terlebih dahulu sebelum dioperasikan.",
+    "original_explanation": "Pembahasan:\nLakukan pembulatan pada masing-masing operand (komponen bilangan) terlebih dahulu sesuai aturan pada stem:\nJumlah paket: 19 dibulatkan ke puluhan terdekat menjadi 20 paket.\nHarga per paket: Rp6.850,00 dibulatkan ke ribuan terdekat (karena angka ratusannya 8≥5) menjadi Rp7.000,00.\nHitung hasil perkalian dari operand yang telah dibulatkan:\nEstimasi Total Biaya=20×Rp7.000,00=Rp140.000,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp120.000,00): Salah, muncul jika siswa keliru membulatkan kedua operand ke bawah (20×Rp6.000,00).\nOpsi B (Rp140.000,00 - BENAR): Hasil estimasi pembulatan operand yang konsisten dan tepat secara matematika (20×Rp7.000,00).\nOpsi C (Rp133.000,00): Salah, muncul jika siswa hanya membulatkan harga per paket tanpa membulatkan jumlah paket (19×Rp7.000,00).\nOpsi D (Rp130.000,00): Salah, merupakan nilai riil (19×Rp6.850,00=Rp130.150,00) yang baru dibulatkan di akhir, bukan hasil dari prosedur estimasi operand sebelum operasi perkalian.\nKesalahan umum yang diantisipasi: Siswa menghitung nilai persisnya terlebih dahulu baru membulatkannya di akhir, padahal konsep estimasi/penaksiran dalam aritmetika menuntut pembulatan pada tiap komponen bilangan dilakukan terlebih dahulu sebelum dioperasikan.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Aturan pembulatan operand menghasilkan20*7.000=140.000 tetapi kunci130.000 memakai pembulatan hasil riil; aturan estimasi tidak tunggal.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push.",
+    "source_review_notes": [
+      "Alasan distraktor A menyebut kedua operand dibulatkan ke bawah, tetapi 19→20 adalah pembulatan naik. Solusi utama Rp140.000 benar."
     ]
   },
   "mcma-3-1-6": {
@@ -154,46 +181,70 @@
     ]
   },
   "pg-3-2-2": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 2,
-    "source_body_index": 4099,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "C. 7,2 m",
-    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: C. 7,2 m\nSebuah papan penunjuk jalan di area lapangan sekolah dipasang secara diagonal pada lahan berbentuk persegi dengan luas 52 m^(2). Panjang papan tersebut mendekati nilai sqrt(52 )meter.\nJika nilai sqrt(52) diaproksimasi dan dibulatkan hingga satu tempat desimal (persepuluhan terdekat), perkiraan panjang papan penunjuk jalan tersebut adalah ....\nA. 7,0 m\nB. 7,1 m\nC. 7,2 m\nD. 7,3 m\nPembahasan:\nTentukan aproksimasi nilai sqrt(52) menggunakan dua bilangan kuadrat sempurna terdekat:\n49<52<64 ⇒ sqrt(49)<sqrt(52)<sqrt(64)  ⇒ 7<sqrt(52)<8.\nUji kuadrat dari desimal persepuluhan:\n7,2^(2)=51,84 (sangat dekat dengan 52)\n7,3^(2)=53,29\nKarena 51,84 paling dekat dengan 52, nilai aproksimasinya adalah sqrt(52)≈7,211...\nDibulatkan ke persepuluhan terdekat menjadi 7,2m.\nKesalahan Umum yang Diantisipasi:\nSiswa membagi 52 dengan 2 (52÷2=26) atau mengambil nilai 7,0 hanya karena sqrt(49)=7 tanpa menguji nilai desimalnya.",
-    "original_explanation": "Pembahasan:\nTentukan aproksimasi nilai sqrt(52) menggunakan dua bilangan kuadrat sempurna terdekat:\n49<52<64 ⇒ sqrt(49)<sqrt(52)<sqrt(64)  ⇒ 7<sqrt(52)<8.\nUji kuadrat dari desimal persepuluhan:\n7,2^(2)=51,84 (sangat dekat dengan 52)\n7,3^(2)=53,29\nKarena 51,84 paling dekat dengan 52, nilai aproksimasinya adalah sqrt(52)≈7,211...\nDibulatkan ke persepuluhan terdekat menjadi 7,2m.\nKesalahan Umum yang Diantisipasi:\nSiswa membagi 52 dengan 2 (52÷2=26) atau mengambil nilai 7,0 hanya karena sqrt(49)=7 tanpa menguji nilai desimalnya.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Lahan persegi luas52m2 mempunyai diagonal sqrt(104), bukan sqrt(52); premis geometri bertentangan dengan panjang papan.",
+    "source_body_index": 4140,
+    "source_cognitive_label": "C3",
+    "declared_key": "C",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: C\nPanitia pameran sekolah akan memasang papan pembatas kayu di sepanjang salah satu sisi lahan tempat pameran karya siswa yang berbentuk persegi. Luas lahan persegi tersebut adalah 52m^2, sehingga panjang sisi lahan tersebut adalah sqrt(52)meter.\nJika nilai sqrt(52) diaproksimasi dan dibulatkan hingga satu tempat desimal (persepuluhan terdekat), perkiraan panjang papan pembatas sisi tersebut adalah...\nOpsi Jawaban:\nA. 7,0 m\nB. 7,1 m\nC. 7,2 m\nD. 7,3 m\nPembahasan:\nTentukan batas dua bilangan kuadrat sempurna terdekat yang mengapit bilangan 52:\n49<52<64\n$$\\sqrt{49} < \\sqrt{52} < \\sqrt{64} \\implies 7 < \\sqrt{52} < 8$$\nUji perkiraan nilai desimal kuadrat di antara 7 dan 8 yang paling dekat dengan 52:\n7,1^2=50,41 (selisih terhadap 52 adalah 1,59)\n7,2^2=51,84 (selisih terhadap 52 hanya 0,16)\n7,3^2=53,29 (selisih terhadap 52 adalah 1,29)\nKarena 51,84 merupakan nilai yang paling dekat dengan 52, maka nilai aproksimasi sqrt(52)≈7,211...\nDibulatkan ke satu tempat desimal (persepuluhan terdekat) menjadi 7,2m.\nAnalisis opsi pilihan jawaban:\nOpsi A (7,0 m): Salah, muncul jika siswa hanya mengambil nilai sqrt(49)=7 tanpa memperhitungkan sisa nilainya.\nOpsi B (7,1 m): Salah, muncul jika siswa keliru menghitung selisih desimal kuadrat.\nOpsi C (7,2 m - BENAR): Hasil aproksimasi akar kuadrat dan pembulatan persepuluhan terdekat yang tepat (7,2^2=51,84≈52).\nOpsi D (7,3 m): Salah, muncul jika siswa keliru membulatkan ke atas dari nilai kuadrat yang lebih jauh (53,29).\nKesalahan umum yang diantisipasi: Siswa sering membagi 52 dengan 2 (52÷2=26m) atau langsung mengasumsikan nilai bulat terkecil (7,0m) tanpa menguji pengkuadratan nilai desimal terdekat secara cermat.",
+    "original_explanation": "Pembahasan:\nTentukan batas dua bilangan kuadrat sempurna terdekat yang mengapit bilangan 52:\n49<52<64\n$$\\sqrt{49} < \\sqrt{52} < \\sqrt{64} \\implies 7 < \\sqrt{52} < 8$$\nUji perkiraan nilai desimal kuadrat di antara 7 dan 8 yang paling dekat dengan 52:\n7,1^2=50,41 (selisih terhadap 52 adalah 1,59)\n7,2^2=51,84 (selisih terhadap 52 hanya 0,16)\n7,3^2=53,29 (selisih terhadap 52 adalah 1,29)\nKarena 51,84 merupakan nilai yang paling dekat dengan 52, maka nilai aproksimasi sqrt(52)≈7,211...\nDibulatkan ke satu tempat desimal (persepuluhan terdekat) menjadi 7,2m.\nAnalisis opsi pilihan jawaban:\nOpsi A (7,0 m): Salah, muncul jika siswa hanya mengambil nilai sqrt(49)=7 tanpa memperhitungkan sisa nilainya.\nOpsi B (7,1 m): Salah, muncul jika siswa keliru menghitung selisih desimal kuadrat.\nOpsi C (7,2 m - BENAR): Hasil aproksimasi akar kuadrat dan pembulatan persepuluhan terdekat yang tepat (7,2^2=51,84≈52).\nOpsi D (7,3 m): Salah, muncul jika siswa keliru membulatkan ke atas dari nilai kuadrat yang lebih jauh (53,29).\nKesalahan umum yang diantisipasi: Siswa sering membagi 52 dengan 2 (52÷2=26m) atau langsung mengasumsikan nilai bulat terkecil (7,0m) tanpa menguji pengkuadratan nilai desimal terdekat secara cermat.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Lahan persegi luas52m2 mempunyai diagonal sqrt(104), bukan sqrt(52); premis geometri bertentangan dengan panjang papan.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-3-2-3": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 3,
-    "source_body_index": 4132,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "C. Rp87.000,00",
-    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: C. Rp87.000,00\nIbu membeli mangga seberat 3(1)/(2)kg di pasar tradisional dengan harga Rp24.600,00 per kg. Sebelum membayar, Ibu melakukan estimasi total harga dengan membulatkan harga satuan mangga ke ribuan terdekat.\nBerapa estimasi total harga mangga yang harus dibayar Ibu berdasarkan pembulatan tersebut?\nA. Rp84.000,00\nB. Rp85.500,00\nC. Rp87.000,00\nD. Rp88.000,00\nPembahasan:\nBulatkan harga per kg (Rp24.600,00) ke ribuan terdekat:\nDigit ratusan pada 24.600 adalah 6≥5, maka dibulatkan ke atas menjadi Rp25.000,00.\nHitung estimasi total harga:\nEstimasi Total=3(1)/(2)×25.000=3,5×25.000=87.500\nJika estimasi total dibulatkan ke ribuan terdekat untuk kewajaran transaksi kas:\n87.500 dibulatkan ke ribuan terdekat menjadi Rp87.000,00 atau Rp88.000,00 (sesuai aturan pembulatan setengah naik/turun).\nDengan perkalian langsung: 3,5×25.000=87.500→ pilihan terdekat yang paling logis adalah Rp87.000,00 (Opsi C) / Rp88.000,00.\nKesalahan Umum yang Diantisipasi:\nSiswa membulatkan Rp24.600,00 ke bawah menjadi Rp24.000,00 (3,5×24.000=84.000), sehingga salah memilih opsi A.",
-    "original_explanation": "Pembahasan:\nBulatkan harga per kg (Rp24.600) ke ribuan terdekat:\nDigit ratusan pada 24.600 adalah 6≥5, maka dibulatkan ke atas menjadi Rp25.000.\nHitung estimasi total harga:\nEstimasi Total=3 1/2×25.000=3,5×25.000=87.500\nJika estimasi total dibulatkan ke ribuan terdekat untuk kewajaran transaksi kas:\n87.500 dibulatkan ke ribuan terdekat menjadi Rp87.000 atau Rp88.000 (sesuai aturan pembulatan setengah naik/turun).\nDengan perkalian langsung: 3,5×25.000=87.500→ pilihan terdekat yang paling logis adalah Rp87.000 (Opsi C) / Rp88.000.\nKesalahan Umum yang Diantisipasi:\nSiswa membulatkan Rp24.600 ke bawah menjadi Rp24.000 (3,5×24.000=84.000), sehingga salah memilih opsi A.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Pembulatan harga satuan menghasilkan3,5*25.000=87.500 tanpa opsi yang sesuai. Pembahasan menambahkan pembulatan total dan mengizinkan87.000/88.000; kunci87.000 tidak tunggal.",
+    "source_body_index": 4192,
+    "source_cognitive_label": "C3",
+    "declared_key": "C",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: C\nIbu membeli mangga seberat 3(1)/(2)kg di pasar tradisional dengan harga Rp24.600,00 per kg. Sebelum membayar, Ibu melakukan estimasi total harga dengan membulatkan harga satuan mangga ke ribuan terdekat.\nBerapa estimasi total harga mangga yang diperoleh Ibu berdasarkan pembulatan tersebut?\nOpsi Jawaban:\nA. Rp84.000,00\nB. Rp86.100,00\nC. Rp87.500,00\nD. Rp90.000,00\nPembahasan:\nLakukan pembulatan pada harga satuan mangga (Rp24.600,00) ke ribuan terdekat:\nDigit ratusan pada 24.600 adalah 6≥5, maka dibulatkan ke atas menjadi Rp25.000,00.\nUbah berat mangga 3(1)/(2)kg ke bentuk desimal:\n3(1)/(2)kg=3,5kg\nHitung estimasi total harga menggunakan harga satuan yang telah dibulatkan:\nEstimasi Total Harga=3,5×Rp25.000,00=Rp87.500,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp84.000,00): Salah, muncul jika siswa keliru membulatkan Rp24.600,00 ke bawah menjadi Rp24.000,00 (3,5×24.000).\nOpsi B (Rp86.100,00): Salah, merupakan total harga persis sebelum dilakukan pembulatan harga satuan (3,5×24.600).\nOpsi C (Rp87.500,00 - BENAR): Hasil perhitungan estimasi yang tepat, pasti, dan akurat (3,5×25.000).\nOpsi D (Rp90.000,00): Salah, muncul jika siswa membulatkan harga satuan ke atas dan juga membulatkan berat mangga ke atas menjadi 4kg (4×25.000=100.000) atau keliru dalam mengalikan pecahan.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam aturan pembulatan angka ratusan (membulatkan ke bawah padahal angka ratusan ≥5), atau langsung mengalikan harga asli tanpa melakukan estimasi pada harga satuan terlebih dahulu.",
+    "original_explanation": "Pembahasan:\nLakukan pembulatan pada harga satuan mangga (Rp24.600,00) ke ribuan terdekat:\nDigit ratusan pada 24.600 adalah 6≥5, maka dibulatkan ke atas menjadi Rp25.000,00.\nUbah berat mangga 3(1)/(2)kg ke bentuk desimal:\n3(1)/(2)kg=3,5kg\nHitung estimasi total harga menggunakan harga satuan yang telah dibulatkan:\nEstimasi Total Harga=3,5×Rp25.000,00=Rp87.500,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp84.000,00): Salah, muncul jika siswa keliru membulatkan Rp24.600,00 ke bawah menjadi Rp24.000,00 (3,5×24.000).\nOpsi B (Rp86.100,00): Salah, merupakan total harga persis sebelum dilakukan pembulatan harga satuan (3,5×24.600).\nOpsi C (Rp87.500,00 - BENAR): Hasil perhitungan estimasi yang tepat, pasti, dan akurat (3,5×25.000).\nOpsi D (Rp90.000,00): Salah, muncul jika siswa membulatkan harga satuan ke atas dan juga membulatkan berat mangga ke atas menjadi 4kg (4×25.000=100.000) atau keliru dalam mengalikan pecahan.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam aturan pembulatan angka ratusan (membulatkan ke bawah padahal angka ratusan ≥5), atau langsung mengalikan harga asli tanpa melakukan estimasi pada harga satuan terlebih dahulu.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Pembulatan harga satuan menghasilkan3,5*25.000=87.500 tanpa opsi yang sesuai. Pembahasan menambahkan pembulatan total dan mengizinkan87.000/88.000; kunci87.000 tidak tunggal.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push.",
+    "source_review_notes": [
+      "Alasan distraktor D memuat 4×25.000=100.000, bukan Rp90.000. Solusi utama Rp87.500 benar."
     ]
   },
   "pg-3-2-4": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 4,
-    "source_body_index": 4163,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "B. Analisis B",
-    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B. Analisis B\nSeorang siswa ingin mengecek kewajaran jawaban dari operasi perkalian dan pembagian desimal untuk biaya belanja bahan kantin:\nOperasi:(59,4×19,8)/(9,7)\nDua siswa menganalisis cara estimasi cepat dengan pembulatan:\nAnalisis A: Mengubah operasi menjadi (50×10)/(10)=50 dengan membulatkan semua angka ke bawah.\nAnalisis B: Mengubah operasi menjadi (60×20)/(10)=120 dengan membulatkan setiap bilangan ke puluhan/satuan terdekat.\nManakah analisis estimasi yang memberikan nilai paling wajar dan mendekati hasil sebenarnya (≈121,26)?\nA. Analisis A, karena pembulatan ke bawah mencegah over-budget\nB. Analisis B, karena hasil 120 sangat dekat dengan hasil sebenarnya (121,26)\nC. Analisis A, karena langkah pembulatan lebih mudah dikalikan\nD. Analisis B, karena semua angka harus dinaikkan tanpa melihat digit pembulatannya\nPembahasan:\nBulatkan masing-masing komponen ke angka terdekat:\n59,4→60\n19,8→20\n9,7→10\nOperasi estimasi:\n(60×20)/(10)=(1200)/(10)=120\nBandingkan dengan hasil riil: (59,4×19,8)/(9,7)=(1176,12)/(9,7)≈121,25.\nAngka 120 dari Analisis B jauh lebih akurat dan wajar dibanding 50.\nKesalahan Umum yang Diantisipasi:\nSiswa keliru membulatkan 59,4 menjadi 50 dan 19,8 menjadi 10 secara sembarangan sehingga mendapatkan hasil estimasi yang jauh dari kewajaran.",
-    "original_explanation": "Pembahasan:\nBulatkan masing-masing komponen ke angka terdekat:\n59,4→60\n19,8→20\n9,7→10\nOperasi estimasi:\n(60×20)/(10)=(1200)/(10)=120\nBandingkan dengan hasil riil: (59,4×19,8)/(9,7)=(1176,12)/(9,7)≈121,25.\nAngka 120 dari Analisis B jauh lebih akurat dan wajar dibanding 50.\nKesalahan Umum yang Diantisipasi:\nSiswa keliru membulatkan 59,4 menjadi 50 dan 19,8 menjadi 10 secara sembarangan sehingga mendapatkan hasil estimasi yang jauh dari kewajaran.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Hasil riil59,4*19,8/9,7=121,249484... membulat menjadi121,25. Stem dan opsi B menyatakan121,26; pembahasan menyatakan121,25.",
+    "source_body_index": 4229,
+    "source_cognitive_label": "C4",
+    "declared_key": "B",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: B\nSeorang siswa ingin mengecek kewajaran jawaban dari operasi perkalian dan pembagian desimal untuk biaya belanja bahan kantin sekolah:\nOperasi Hitung:(59,4×19,8)/(9,7)\nDua orang siswa menganalisis cara estimasi cepat dengan pembulatan:\n• Analisis A: Mengubah operasi menjadi (50×10)/(10)=50 dengan membulatkan semua angka ke bawah secara kasar.\n• Analisis B: Mengubah operasi menjadi (60×20)/(10)=120 dengan membulatkan setiap bilangan ke puluhan/satuan terdekat.\nManakah analisis estimasi yang memberikan nilai paling wajar dan mendekati hasil sebenarnya (121,25)?\nOpsi Jawaban:\nA. Analisis A, karena pembulatan ke bawah mencegah over-budget\nB. Analisis B, karena hasil 120 sangat dekat dengan hasil sebenarnya (121,25)\nC. Analisis A, karena langkah pembulatan lebih mudah dikalikan\nD. Analisis B, karena semua angka harus dinaikkan tanpa melihat digit pembulatannya\nPembahasan:\nHitung hasil riil eksak dari operasi desimal:\nHasil Riil=(59,4×19,8)/(9,7)=(1176,12)/(9,7)≈121,249484...\nDibulatkan hingga dua tempat desimal (perseratusan terdekat) menjadi 121,25.\nEvaluasi Strategi Estimasi:\nAnalisis A (Pembulatan Kasar ke Bawah):\n(50×10)/(10)=50\nHasil estimasi 50 sangat jauh dari nilai riil (121,25), sehingga tidak wajar.\nAnalisis B (Pembulatan ke Terdekat):\n59,4≈60\n19,8≈20\n9,7≈10\nHasil Estimasi=(60×20)/(10)=(1200)/(10)=120\nNilai 120 sangat dekat dengan nilai riil 121,25, sehingga merupakan estimasi yang paling tepat dan wajar.\nAnalisis opsi pilihan jawaban:\nOpsi A (Salah): Meskipun pembulatan ke bawah mencegah melampaui anggaran, nilainya terlalu jauh dari kenyataan (50 vs 121,25).\nOpsi B (BENAR): Analisis B menghasilkan estimasi 120 yang sangat akurat mendekati hasil riil 121,25.\nOpsi C (Salah): Kemudahan perkalian tidak menjamin akurasi jika hasil estimasi tidak wajar.\nOpsi D (Salah): Alasan pada Analisis B bukan karena \"semua angka dinaikkan tanpa melihat digit\", melainkan mengikuti aturan pembulatan ke puluhan/satuan terdekat (59,4→60, 19,8→20, 9,7→10).\nKesalahan umum yang diantisipasi: Siswa sering melakukan pembulatan kasar (seperti membulatkan 59,4 menjadi 50 dan 19,8 menjadi 10) secara sembarangan sehingga memperoleh hasil estimasi yang menyimpang jauh dari nilai kewajaran matematis.",
+    "original_explanation": "Pembahasan:\nHitung hasil riil eksak dari operasi desimal:\nHasil Riil=(59,4×19,8)/(9,7)=(1176,12)/(9,7)≈121,249484...\nDibulatkan hingga dua tempat desimal (perseratusan terdekat) menjadi 121,25.\nEvaluasi Strategi Estimasi:\nAnalisis A (Pembulatan Kasar ke Bawah):\n(50×10)/(10)=50\nHasil estimasi 50 sangat jauh dari nilai riil (121,25), sehingga tidak wajar.\nAnalisis B (Pembulatan ke Terdekat):\n59,4≈60\n19,8≈20\n9,7≈10\nHasil Estimasi=(60×20)/(10)=(1200)/(10)=120\nNilai 120 sangat dekat dengan nilai riil 121,25, sehingga merupakan estimasi yang paling tepat dan wajar.\nAnalisis opsi pilihan jawaban:\nOpsi A (Salah): Meskipun pembulatan ke bawah mencegah melampaui anggaran, nilainya terlalu jauh dari kenyataan (50 vs 121,25).\nOpsi B (BENAR): Analisis B menghasilkan estimasi 120 yang sangat akurat mendekati hasil riil 121,25.\nOpsi C (Salah): Kemudahan perkalian tidak menjamin akurasi jika hasil estimasi tidak wajar.\nOpsi D (Salah): Alasan pada Analisis B bukan karena \"semua angka dinaikkan tanpa melihat digit\", melainkan mengikuti aturan pembulatan ke puluhan/satuan terdekat (59,4→60, 19,8→20, 9,7→10).\nKesalahan umum yang diantisipasi: Siswa sering melakukan pembulatan kasar (seperti membulatkan 59,4 menjadi 50 dan 19,8 menjadi 10) secara sembarangan sehingga memperoleh hasil estimasi yang menyimpang jauh dari nilai kewajaran matematis.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Hasil riil59,4*19,8/9,7=121,249484... membulat menjadi121,25. Stem dan opsi B menyatakan121,26; pembahasan menyatakan121,25.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-3-2-5": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -224,46 +275,70 @@
     ]
   },
   "mcma-3-2-7": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 7,
-    "source_body_index": 4281,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "A, B, dan D",
-    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: A, B, dan D\nSeorang peneliti di laboratorium sekolah mengamati panjang diagonal tiga ubin tempat duduk taman berbentuk persegi:\nUbin X: 20 cm^(2)⇒ diagonal =sqrt(20) cm\nUbin Y: 32 cm^(2)⇒ diagonal =sqrt(32) cm\nUbin Z: 48 cm^(2)⇒ diagonal =sqrt(48) cm\nManakah hasil analisis aproksimasi dan pembulatan panjang diagonal yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Nilai aproksimasi diagonal Ubin X ke persepuluhan terdekat adalah 4,5cm.\n[ ] B. Nilai aproksimasi diagonal Ubin Y ke persepuluhan terdekat adalah 5,7cm.\n[ ] C. Diagonal Ubin Z (sqrt(48)) jika dibulatkan ke satuan terdekat adalah 6 cm.\n[ ] D. Diagonal Ubin Z (sqrt(48)) jika dibulatkan ke satuan terdekat adalah 7cm.\nPembahasan:\nA (Benar): sqrt(20)≈4,472..., dibulatkan ke persepuluhan terdekat menjadi 4,5cm (4,5^(2)=20,25).\nB (Benar): sqrt(32)≈5,656..., dibulatkan ke persepuluhan terdekat menjadi 5,7cm (5,7^(2)=32,49).\nC (Salah): sqrt(48)≈6,928..., karena digit persepuluhan 9≥5, dibulatkan ke satuan terdekat menjadi 7 cm (bukan 6 cm).\nD (Benar): sqrt(48)≈6,928...→7 cm.\nKesalahan Umum yang Diantisipasi:\nSiswa membulatkan sqrt(48) ke bawah menjadi 6 hanya melihat angka depan sebelum desimal.",
-    "original_explanation": "Pembahasan:\nA (Benar): sqrt(20)≈4,472..., dibulatkan ke persepuluhan terdekat menjadi 4,5cm (4,5^(2)=20,25).\nB (Benar): sqrt(32)≈5,656..., dibulatkan ke persepuluhan terdekat menjadi 5,7cm (5,7^(2)=32,49).\nC (Salah): sqrt(48)≈6,928..., karena digit persepuluhan 9≥5, dibulatkan ke satuan terdekat menjadi 7 cm (bukan 6 cm).\nD (Benar): sqrt(48)≈6,928...→7 cm.\nKesalahan Umum yang Diantisipasi:\nSiswa membulatkan sqrt(48) ke bawah menjadi 6 hanya melihat angka depan sebelum desimal.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Luas ubin persegi20,32,48cm2 disamakan dengan diagonal sqrt(20),sqrt(32),sqrt(48); diagonal seharusnya sqrt(dua kali luas).",
+    "source_body_index": 4366,
+    "source_cognitive_label": "C4",
+    "declared_key": "A, B, D",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: A, B, D\nSeorang peneliti di laboratorium sekolah mengamati ukuran panjang sisi dari tiga jenis ubin persegi penutup lantai laboratorium yang memiliki luas berbeda:\n• Ubin X (Luas 20cm^2): Panjang sisi =sqrt(20)cm\n• Ubin Y (Luas 32cm^2): Panjang sisi =sqrt(32)cm\n• Ubin Z (Luas 48cm^2): Panjang sisi =sqrt(48)cm\nManakah hasil analisis aproksimasi dan pembulatan panjang sisi ubin persegi di atas yang bernilai BENAR? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Nilai aproksimasi panjang sisi Ubin X (sqrt(20)) ke persepuluhan terdekat adalah 4,5cm\n[ ] B. Nilai aproksimasi panjang sisi Ubin Y (sqrt(32)) ke persepuluhan terdekat adalah 5,7cm\n[ ] C. Panjang sisi Ubin Z (sqrt(48)) jika dibulatkan ke satuan terdekat adalah 6cm\n[ ] D. Panjang sisi Ubin Z (sqrt(48)) jika dibulatkan ke satuan terdekat adalah 7cm\nPembahasan:\nAnalisis Pernyataan A [BENAR]:\nsqrt(20)≈4,472...\nKarena digit perseratusannya adalah 7≥5, maka dibulatkan ke persepuluhan terdekat menjadi 4,5cm (4,5^2=20,25).\nAnalisis Pernyataan B [BENAR]:\nsqrt(32)≈5,656...\nKarena digit perseratusannya adalah 5≥5, maka dibulatkan ke persepuluhan terdekat menjadi 5,7cm (5,7^2=32,49).\nAnalisis Pernyataan C [SALAH]:\nsqrt(48)≈6,928...\nKarena digit persepuluhannya adalah 9≥5, maka pembulatan ke satuan terdekat adalah 7cm, bukan 6 cm.\nAnalisis Pernyataan D [BENAR]:\n$$\\sqrt{48} \\approx 6,928... \\implies 7\\text{ cm}$$\nPanjang sisi Ubin Z jika dibulatkan ke satuan terdekat adalah 7 cm.\nAnalisis Kunci Jawaban:\nPernyataan yang benar adalah A, B, dan D.\nKesalahan umum yang diantisipasi: Siswa sering melakukan pembulatan ke bawah secara salah pada sqrt(48)≈6,928... menjadi 6 cm hanya karena melihat angka depan sebelum tanda koma/desimal, tanpa memperhatikan digit desimal di belakangnya.",
+    "original_explanation": "Pembahasan:\nAnalisis Pernyataan A [BENAR]:\nsqrt(20)≈4,472...\nKarena digit perseratusannya adalah 7≥5, maka dibulatkan ke persepuluhan terdekat menjadi 4,5cm (4,5^2=20,25).\nAnalisis Pernyataan B [BENAR]:\nsqrt(32)≈5,656...\nKarena digit perseratusannya adalah 5≥5, maka dibulatkan ke persepuluhan terdekat menjadi 5,7cm (5,7^2=32,49).\nAnalisis Pernyataan C [SALAH]:\nsqrt(48)≈6,928...\nKarena digit persepuluhannya adalah 9≥5, maka pembulatan ke satuan terdekat adalah 7cm, bukan 6 cm.\nAnalisis Pernyataan D [BENAR]:\n$$\\sqrt{48} \\approx 6,928... \\implies 7\\text{ cm}$$\nPanjang sisi Ubin Z jika dibulatkan ke satuan terdekat adalah 7 cm.\nAnalisis Kunci Jawaban:\nPernyataan yang benar adalah A, B, dan D.\nKesalahan umum yang diantisipasi: Siswa sering melakukan pembulatan ke bawah secara salah pada sqrt(48)≈6,928... menjadi 6 cm hanya karena melihat angka depan sebelum tanda koma/desimal, tanpa memperhatikan digit desimal di belakangnya.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Luas ubin persegi20,32,48cm2 disamakan dengan diagonal sqrt(20),sqrt(32),sqrt(48); diagonal seharusnya sqrt(dua kali luas).",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "mcma-3-2-8": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 8,
-    "source_body_index": 4317,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "B dan C",
-    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B dan C\nDiberikan sebuah transaksi belanja pembekalan ekstrakurikuler: \"Membeli 48 pak buku seharga Rp19.500,00 per pak dan 12 botol minuman seharga Rp4.800,00 per botol.\"\nManakah analisis estimasi biaya total yang logis dan wajar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Estimasi dapat dihitung dengan (40×10.000)+(10×4.000)=440.000.\n[ ] B. Estimasi dapat dihitung dengan (50×20.000)+(10×5.000)=1.050.000.\n[ ] C. Total pembayaran riil akan sedikit lebih kecil dari hasil estimasi Rp1.050.000,00 karena semua komponen dibulatkan ke atas.\n[ ] D. Hasil estimasi Rp1.050.000,00 pasti bernilai lebih kecil dari total pembayaran sebenarnya.\nPembahasan:\nA (Salah): Membulatkan 48→40 dan 19.500→10.000 terlalu jauh di bawah harga asli.\nB (Benar): Bulatkan 48→50, 19.500→20.000, 12→10, dan 4.800→5.000.\nEstimasi=(50×20.000)+(10×5.000)=1.000.000+50.000=1.050.000\nC (Benar): Karena harga buku (19.500<20.000) dan jumlah buku (48<50) serta harga minuman (4.800<5.000) dibulatkan ke atas, maka nilai riilnya dipastikan lebih kecil dari Rp1.050.000,00.\nD (Salah): Kebalikan dari pernyataan C.\nKesalahan Umum yang Diantisipasi:\nSiswa tidak menganalisis efek pembulatan ke atas terhadap selisih antara nilai estimasi dan nilai riil.",
-    "original_explanation": "Pembahasan:\nA (Salah): Membulatkan 48→40 dan 19.500→10.000 terlalu jauh di bawah harga asli.\nB (Benar): Bulatkan 48→50, 19.500→20.000, 12→10, dan 4.800→5.000.\nEstimasi=(50×20.000)+(10×5.000)=1.000.000+50.000=1.050.000\nC (Benar): Karena harga buku (19.500<20.000) dan jumlah buku (48<50) serta harga minuman (4.800<5.000) dibulatkan ke atas, maka nilai riilnya dipastikan lebih kecil dari Rp1.050.000.\nD (Salah): Kebalikan dari pernyataan C.\nKesalahan Umum yang Diantisipasi:\nSiswa tidak menganalisis efek pembulatan ke atas terhadap selisih antara nilai estimasi dan nilai riil.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Opsi C menyatakan semua komponen dibulatkan ke atas, tetapi12 botol dibulatkan menjadi10. Klaim alasan yang dikunci benar adalah salah.",
+    "source_body_index": 4418,
+    "source_cognitive_label": null,
+    "declared_key": "B, C",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nKunci Jawaban: B, C\nDiberikan sebuah transaksi belanja pembekalan ekstrakurikuler sekolah sebagai berikut:\n\"Membeli 48 pak buku seharga Rp19.500,00 per pak dan 8 botol minuman seharga Rp4.800,00 per botol.\"\nManakah analisis estimasi biaya total yang logis dan wajar? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Estimasi dapat dihitung dengan (40×10.000)+(10×4.000)=Rp440.000,00\n[ ] B. Estimasi dapat dihitung dengan (50×20.000)+(10×5.000)=Rp1.050.000,00\n[ ] C. Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Rp1.050.000,00 karena seluruh komponen kuantitas dan harga dibulatkan ke atas\n[ ] D. Hasil estimasi Rp1.050.000,00 pasti bernilai lebih kecil dari total pembayaran sebenarnya\nPembahasan:\nHitung total biaya transaksi riil secara eksak:\nBuku=48×Rp19.500,00=Rp936.000,00\nMinuman=8×Rp4.800,00=Rp38.400,00\nTotal Rail=Rp936.000,00+Rp38.400,00=Rp974.400,00\nAnalisis Pilihan Jawaban:\nOpsi A [SALAH]: Membulatkan 48→40 dan Rp19.500→Rp10.000 terlalu jauh di bawah harga asli, sehingga estimasi tidak wajar.\nOpsi B [BENAR]: Melakukan pembulatan ke puluhan/ribuan terdekat:\nJumlah buku: 48→50 (dibulatkan ke atas)\nHarga buku: Rp19.500→Rp20.000 (dibulatkan ke atas)\nJumlah minuman: 8→10 (dibulatkan ke atas)\nHarga minuman: Rp4.800→Rp5.000 (dibulatkan ke atas)\nEstimasi=(50×20.000)+(10×5.000)=1.000.000+50.000=Rp1.050.000,00\nOpsi C [BENAR]: Karena seluruh komponen kuantitas dan harga (48<50, 19.500<20.000, 8<10, dan 4.800<5.000) dibulatkan ke atas, maka nilai pembayaran riil (Rp974.400,00) dipastikan lebih kecil daripada nilai estimasi (Rp1.050.000,00).\nOpsi D [SALAH]: Pernyataan ini berkebalikan dengan fakta matematis pada Opsi C.\nKesalahan umum yang diantisipasi: Siswa sering tidak menganalisis arah pembulatan (ke atas vs ke bawah) pada masing-masing komponen variabel, sehingga keliru memahami apakah nilai estimasi berada di atas atau di bawah total pembayaran riil.",
+    "original_explanation": "Pembahasan:\nHitung total biaya transaksi riil secara eksak:\nBuku=48×Rp19.500,00=Rp936.000,00\nMinuman=8×Rp4.800,00=Rp38.400,00\nTotal Rail=Rp936.000,00+Rp38.400,00=Rp974.400,00\nAnalisis Pilihan Jawaban:\nOpsi A [SALAH]: Membulatkan 48→40 dan Rp19.500→Rp10.000 terlalu jauh di bawah harga asli, sehingga estimasi tidak wajar.\nOpsi B [BENAR]: Melakukan pembulatan ke puluhan/ribuan terdekat:\nJumlah buku: 48→50 (dibulatkan ke atas)\nHarga buku: Rp19.500→Rp20.000 (dibulatkan ke atas)\nJumlah minuman: 8→10 (dibulatkan ke atas)\nHarga minuman: Rp4.800→Rp5.000 (dibulatkan ke atas)\nEstimasi=(50×20.000)+(10×5.000)=1.000.000+50.000=Rp1.050.000,00\nOpsi C [BENAR]: Karena seluruh komponen kuantitas dan harga (48<50, 19.500<20.000, 8<10, dan 4.800<5.000) dibulatkan ke atas, maka nilai pembayaran riil (Rp974.400,00) dipastikan lebih kecil daripada nilai estimasi (Rp1.050.000,00).\nOpsi D [SALAH]: Pernyataan ini berkebalikan dengan fakta matematis pada Opsi C.\nKesalahan umum yang diantisipasi: Siswa sering tidak menganalisis arah pembulatan (ke atas vs ke bawah) pada masing-masing komponen variabel, sehingga keliru memahami apakah nilai estimasi berada di atas atau di bawah total pembayaran riil.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
-      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+      "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan.",
+      "Dokumen revisi tidak mencantumkan Level Kognitif; label bank dipertahankan dari sumber awal, bukan label baru yang disimpulkan."
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Opsi C menyatakan semua komponen dibulatkan ke atas, tetapi12 botol dibulatkan menjadi10. Klaim alasan yang dikunci benar adalah salah.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push.",
+    "cognitive_label_provenance": "INHERITED_PREVIOUS_SOURCE",
+    "inherited_source_cognitive_label": "C4 (Menganalisis)"
   },
   "kategori-3-2-9": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 9,
-    "source_body_index": 4347,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
-    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nTiga bahan masakan kantin sekolah ditimbang beratnya:\nDaging: 3,64 kg\nSayur: 2,45 kg\nBumbu: 0,78 kg\nTentukan status BENAR atau SALAH untuk setiap pernyataan pembulatan berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Berat daging (3,64kg) jika dibulatkan ke persepuluhan terdekat adalah 3,6kg. | \n | \n\n\n(b) Berat sayur (2,45 kg) jika dibulatkan ke satuan terdekat adalah 2kg. | \n | \n\n\n(c) Estimasi total berat ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah 6,9 kg. | \n |\nPembahasan:\n(a) BENAR: Digit persatusan 4<5, dibulatkan menjadi 3,6kg.\n(b) SALAH: Digit persepuluhan 4<5, dibulatkan ke satuan terdekat menjadi 2kg. (Tunggu: 2,45 dengan digit persepuluhan 4 memang dibulatkan ke satuan terdekat menjadi 2).\nRe-analisis (b): 2,45→ digit persepuluhan adalah 4<5, maka dibulatkan ke satuan terdekat menjadi 2kg. Pernyataan menyatakan 2kg, maka seharusnya BENAR.\nKoreksi Kunci (b): BENAR.\n(c) BENAR: Bulatkan ke persepuluhan terdekat:\nDaging: 3,6kg\nSayur: 2,5kg (5≥5)\nBumbu: 0,8kg (8≥5)\nTotal estimasi = 3,6+2,5+0,8=6,9kg.\nKesalahan Umum yang Diantisipasi:\nSiswa melakukan pembulatan beruntun (membulatkan 2,45 menjadi 2,5 dulu, lalu membulatkan 2,5 menjadi 3), padahal pembulatan ke satuan harus langsung melihat digit persepuluhan (4<5→2).",
-    "original_explanation": "Pembahasan:\n(a) BENAR: Digit persatusan 4<5, dibulatkan menjadi 3,6kg.\n(b) SALAH: Digit persepuluhan 4<5, dibulatkan ke satuan terdekat menjadi 2kg. (Tunggu: 2,45 dengan digit persepuluhan 4 memang dibulatkan ke satuan terdekat menjadi 2).\nRe-analisis (b): 2,45→ digit persepuluhan adalah 4<5, maka dibulatkan ke satuan terdekat menjadi 2kg. Pernyataan menyatakan 2kg, maka seharusnya BENAR.\nKoreksi Kunci (b): BENAR.\n(c) BENAR: Bulatkan ke persepuluhan terdekat:\nDaging: 3,6kg\nSayur: 2,5kg (5≥5)\nBumbu: 0,8kg (8≥5)\nTotal estimasi = 3,6+2,5+0,8=6,9kg.\nKesalahan Umum yang Diantisipasi:\nSiswa melakukan pembulatan beruntun (membulatkan 2,45 menjadi 2,5 dulu, lalu membulatkan 2,5 menjadi 3), padahal pembulatan ke satuan harus langsung melihat digit persepuluhan (4<5→2).",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Kunci sumber menyatakan(b) SALAH, tetapi2,45 dibulatkan ke satuan menjadi2 sehingga(b) BENAR. Instruksi koreksi dalam pembahasan tidak diterapkan.",
+    "source_body_index": 4467,
+    "source_cognitive_label": "C3",
+    "declared_key": "(a) BENAR; (b) SALAH; (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3\nKunci Jawaban: (a) BENAR; (b) SALAH; (c) BENAR\nTiga bahan masakan kantin sekolah ditimbang beratnya sebagai berikut:\n• Daging: 3,64 kg\n• Sayur: 2,45 kg\n• Bumbu: 0,78 kg\nTentukan status BENAR atau SALAH untuk setiap pernyataan pembulatan berikut!\nOpsi Jawaban:\n(a) Berat daging (3,64 kg) jika dibulatkan ke persepuluhan terdekat adalah 3,6kg.\n(b) Berat sayur (2,45 kg) jika dibulatkan ke satuan terdekat adalah 3kg.\n(c) Estimasi total berat ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah 6,9 kg.\nPembahasan:\nEvaluasi Pernyataan (a) [BENAR]:\nPada berat daging (3,64kg), digit persatusannya adalah 4 (4<5). Maka, pembulatan ke persepuluhan terdekat adalah 3,6kg.\nEvaluasi Pernyataan (b) [SALAH]:\nPada berat sayur (2,45 kg), untuk membulatkan ke satuan terdekat, perhatikan digit persepuluhannya yaitu 4 (4<5). Maka, berat sayur dibulatkan ke bawah menjadi 2 kg, bukan 3 kg.\nEvaluasi Pernyataan (c) [BENAR]:\nBulatkan masing-masing bahan ke persepuluhan terdekat terlebih dahulu:\nDaging: 3,64kg→3,6 kg (digit persatusan 4<5)\nSayur: 2,45 kg→2,5 kg (digit persatusan 5≥5)\nBumbu: 0,78 kg→0,8 kg (digit persatusan 8≥5)\nTotal Estimasi=3,6+2,5+0,8=6,9 kg\nKesalahan umum yang diantisipasi: Siswa sering melakukan pembulatan beruntun (double rounding) yang keliru (membulatkan 2,45 menjadi 2,5 terlebih dahulu, lalu membulatkan 2,5 menjadi 3), padahal pembulatan ke satuan terdekat harus langsung melihat digit persepuluhan pertamanya ($4 < 5 \\implies 2\\text{ kg}$).",
+    "original_explanation": "Pembahasan:\nEvaluasi Pernyataan (a) [BENAR]:\nPada berat daging (3,64kg), digit persatusannya adalah 4 (4<5). Maka, pembulatan ke persepuluhan terdekat adalah 3,6kg.\nEvaluasi Pernyataan (b) [SALAH]:\nPada berat sayur (2,45 kg), untuk membulatkan ke satuan terdekat, perhatikan digit persepuluhannya yaitu 4 (4<5). Maka, berat sayur dibulatkan ke bawah menjadi 2 kg, bukan 3 kg.\nEvaluasi Pernyataan (c) [BENAR]:\nBulatkan masing-masing bahan ke persepuluhan terdekat terlebih dahulu:\nDaging: 3,64kg→3,6 kg (digit persatusan 4<5)\nSayur: 2,45 kg→2,5 kg (digit persatusan 5≥5)\nBumbu: 0,78 kg→0,8 kg (digit persatusan 8≥5)\nTotal Estimasi=3,6+2,5+0,8=6,9 kg\nKesalahan umum yang diantisipasi: Siswa sering melakukan pembulatan beruntun (double rounding) yang keliru (membulatkan 2,45 menjadi 2,5 terlebih dahulu, lalu membulatkan 2,5 menjadi 3), padahal pembulatan ke satuan terdekat harus langsung melihat digit persepuluhan pertamanya ($4 < 5 \\implies 2\\text{ kg}$).",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Kunci sumber menyatakan(b) SALAH, tetapi2,45 dibulatkan ke satuan menjadi2 sehingga(b) BENAR. Instruksi koreksi dalam pembahasan tidak diterapkan.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "kategori-3-2-10": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -308,18 +383,25 @@
     ]
   },
   "pg-3-3-3": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 3,
-    "source_body_index": 4515,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "C. 30×15.000=450.000",
-    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: C. 30×15.000=450.000\nSeorang pembina pramuka mengecek kewajaran anggaran belanja untuk 28 paket pasak tenda seharga Rp14.850,00 per paket. Pembina tersebut ingin membandingkan nilai estimasi pembulatan cepat dengan hasil perhitungan riil (28×14.850=415.800).\nModel matematika estimasi manakah yang paling wajar dan memberikan batas atas (upper bound) anggaran yang aman?\nA. 20×10.000=200.000\nB. 25×14.000=350.000\nC. 30×15.000=450.000\nD. 30×14.000=420.000\nPembahasan:\nUntuk mendapatkan batas atas yang aman (mencegah kekurangan dana/over-budget) dalam perencanaan anggaran, kedua komponen dibulatkan ke atas ke satuan/puluhan/ribuan terdekat yang praktis:\nBanyak paket (28) dibulatkan ke atas ke puluhan terdekat: 28→30.\nHarga paket (Rp14.850,00) dibulatkan ke atas ke ribuan terdekat: 14.850→Rp15.000,00.\nEstimasi batas atas anggaran:\nEstimasi=30×15.000=450.000\nAngka Rp450.000,00 berada sedikit di atas total riil (Rp415.800,00), sehingga menjadi estimasi batas atas yang sangat wajar dan aman.\nKesalahan Umum yang Diantisipasi:\nSiswa memilih opsi A atau B yang membulatkan angka ke bawah, sehingga menghasilkan estimasi biaya yang berada di bawah total riil dan berisiko kekurangan dana.",
-    "original_explanation": "Pembahasan:\nUntuk mendapatkan batas atas yang aman (mencegah kekurangan dana/over-budget) dalam perencanaan anggaran, kedua komponen dibulatkan ke atas ke satuan/puluhan/ribuan terdekat yang praktis:\nBanyak paket (28) dibulatkan ke atas ke puluhan terdekat: 28→30.\nHarga paket (Rp14.850) dibulatkan ke atas ke ribuan terdekat: 14.850→Rp15.000.\nEstimasi batas atas anggaran:\nEstimasi=30×15.000=450.000\nAngka Rp450.000 berada sedikit di atas total riil (Rp415.800), sehingga menjadi estimasi batas atas yang sangat wajar dan aman.\nKesalahan Umum yang Diantisipasi:\nSiswa memilih opsi A atau B yang membulatkan angka ke bawah, sehingga menghasilkan estimasi biaya yang berada di bawah total riil dan berisiko kekurangan dana.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Total riil415.800. Opsi C450.000 dan D420.000 sama-sama batas atas aman; D lebih dekat. Stem tidak mensyaratkan kedua operand dibulatkan ke atas, sehingga kunci C tidak tunggal.",
+    "source_body_index": 4642,
+    "source_cognitive_label": "C4",
+    "declared_key": "C",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: C\nSeorang pembina pramuka mengecek kewajaran anggaran belanja untuk 28 paket pasak tenda seharga Rp14.850,00 per paket. Pembina tersebut ingin menyusun estimasi batas atas (upper bound) anggaran yang aman agar dana tidak berisiko kurang, dengan ketentuan kedua komponen (banyak paket dan harga per paket) wajib dibulatkan ke atas masing-masing ke puluhan terdekat dan ke ribuan terdekat.\nModel matematika estimasi yang tepat sesuai ketentuan tersebut adalah...\nOpsi Jawaban:\nA. 20×10.000=200.000\nB. 25×14.000=350.000\nC. 30×15.000=450.000\nD. 30×14.000=420.000\nPembahasan:\nHitung total biaya riil sebagai bahan perbandingan:\nTotal Riil=28×Rp14.850,00=Rp415.800,00\nLakukan pembulatan ke atas (ceiling) pada masing-masing komponen sesuai instruksi stem:\nBanyak paket (28): Dibulatkan ke atas ke puluhan terdekat menjadi 30 paket.\nHarga per paket (Rp14.850,00): Dibulatkan ke atas ke ribuan terdekat menjadi Rp15.000,00.\nSusun model matematika estimasi batas atas yang aman:\nEstimasi Batas Atas=30×Rp15.000,00=Rp450.000,00\nAnalisis opsi pilihan jawaban:\nOpsi A (20×10.000=200.000): Salah, membulatkan kedua komponen ke bawah secara ekstrem sehingga jauh di bawah anggaran riil (berisiko kekurangan dana).\nOpsi B (25×14.000=350.000): Salah, membulatkan kedua komponen ke bawah sehingga nilainya di bawah total riil (Rp350.000<Rp415.800).\nOpsi C (30×15.000=450.000 - BENAR): Tepat dan konsisten mengikuti instruksi pembulatan ke atas pada kedua komponen, menghasilkan batas atas anggaran yang aman (Rp450.000>Rp415.800).\nOpsi D (30×14.000=420.000): Salah, membulatkan harga per paket ke bawah (Rp14.000,00), sehingga melanggar syarat pembulatan ke atas pada kedua komponen.\nKesalahan umum yang diantisipasi: Siswa sering keliru membulatkan salah satu atau kedua komponen ke bawah (seperti pada Opsi B atau D) tanpa menyadari bahwa pembulatan ke bawah pada perencanaan anggaran berisiko menyebabkan kekurangan dana (under-budget).",
+    "original_explanation": "Pembahasan:\nHitung total biaya riil sebagai bahan perbandingan:\nTotal Riil=28×Rp14.850,00=Rp415.800,00\nLakukan pembulatan ke atas (ceiling) pada masing-masing komponen sesuai instruksi stem:\nBanyak paket (28): Dibulatkan ke atas ke puluhan terdekat menjadi 30 paket.\nHarga per paket (Rp14.850,00): Dibulatkan ke atas ke ribuan terdekat menjadi Rp15.000,00.\nSusun model matematika estimasi batas atas yang aman:\nEstimasi Batas Atas=30×Rp15.000,00=Rp450.000,00\nAnalisis opsi pilihan jawaban:\nOpsi A (20×10.000=200.000): Salah, membulatkan kedua komponen ke bawah secara ekstrem sehingga jauh di bawah anggaran riil (berisiko kekurangan dana).\nOpsi B (25×14.000=350.000): Salah, membulatkan kedua komponen ke bawah sehingga nilainya di bawah total riil (Rp350.000<Rp415.800).\nOpsi C (30×15.000=450.000 - BENAR): Tepat dan konsisten mengikuti instruksi pembulatan ke atas pada kedua komponen, menghasilkan batas atas anggaran yang aman (Rp450.000>Rp415.800).\nOpsi D (30×14.000=420.000): Salah, membulatkan harga per paket ke bawah (Rp14.000,00), sehingga melanggar syarat pembulatan ke atas pada kedua komponen.\nKesalahan umum yang diantisipasi: Siswa sering keliru membulatkan salah satu atau kedua komponen ke bawah (seperti pada Opsi B atau D) tanpa menyadari bahwa pembulatan ke bawah pada perencanaan anggaran berisiko menyebabkan kekurangan dana (under-budget).",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Total riil415.800. Opsi C450.000 dan D420.000 sama-sama batas atas aman; D lebih dekat. Stem tidak mensyaratkan kedua operand dibulatkan ke atas, sehingga kunci C tidak tunggal.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-3-3-4": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -420,18 +502,25 @@
     ]
   },
   "pg-4-1-1": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 1,
-    "source_body_index": 5226,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "B. 12 hari lagi",
-    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. 12 hari lagi\nDua buah bus antarkota sekolah berangkat dari terminal yang sama untuk mengantar siswa kegiatan praktikum. Bus A berangkat setiap 12 hari sekali dan Bus B berangkat setiap 18 hari sekali. Jika pada tanggal 4 Oktober kedua bus berangkat bersama-sama dari terminal, berapa hari lagi paling cepat kedua bus tersebut akan berangkat bersama-sama kembali?\nA. 6 hari lagi\nB. 12 hari lagi\nC. 36 hari lagi\nD. 72 hari lagi\nPembahasan:\nMasalah ini berkaitan dengan kejadian yang berulang secara periodik bersamaan, sehingga diselesaikan dengan mencari Kelipatan Persekutuan Terkecil (KPK) dari 12 dan 18.\nFaktorisasi prima masing-masing bilangan:\n12=2^(2)×3\n18=2×3^(2)\nTentukan KPK dengan mengambil seluruh faktor dengan pangkat tertinggi:\nKPK(12,18)=2^(2)×3^(2)=4×9=36 hari\nJadi, kedua bus akan berangkat bersama-sama lagi setelah 36 hari.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menghitung FPB (FPB=6) alih-alih KPK, atau langsung mengalikan kedua bilangan (12×18=216) tanpa mencari kelipatan terkecilnya.",
-    "original_explanation": "Pembahasan:\nMasalah ini berkaitan dengan kejadian yang berulang secara periodik bersamaan, sehingga diselesaikan dengan mencari Kelipatan Persekutuan Terkecil (KPK) dari 12 dan 18.\nFaktorisasi prima masing-masing bilangan:\n12=2^(2)×3\n18=2×3^(2)\nTentukan KPK dengan mengambil seluruh faktor dengan pangkat tertinggi:\nKPK(12,18)=2^(2)×3^(2)=4×9=36 hari\nJadi, kedua bus akan berangkat bersama-sama lagi setelah 36 hari.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menghitung FPB (FPB=6) alih-alih KPK, atau langsung mengalikan kedua bilangan (12×18=216) tanpa mencari kelipatan terkecilnya.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Header kunci B menyebut12 hari; KPK(12,18)=36 hari sesuai opsi C dan pembahasan. Kunci akademik perlu disahkan.",
+    "source_body_index": 5364,
+    "source_cognitive_label": "C3",
+    "declared_key": "C",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: C\nDua buah bus antarkota sekolah berangkat dari terminal yang sama untuk mengantar siswa kegiatan praktikum. Bus A berangkat setiap 12 hari sekali dan Bus B berangkat setiap 18 hari sekali. Jika pada tanggal 4 Oktober kedua bus berangkat bersama-sama dari terminal, berapa hari lagi paling cepat kedua bus tersebut akan berangkat bersama-sama kembali?\nOpsi Jawaban:\nA. 6 hari lagi\nB. 12 hari lagi\nC. 36 hari lagi\nD. 72 hari lagi\nPembahasan:\nMasalah penentuan waktu pertemuan/keberangkatan bersama kembali yang terjadi secara periodik diselesaikan dengan mencari Kelipatan Persekutuan Terkecil (KPK) dari 12 dan 18.\nTentukan faktorisasi prima dari masing-masing bilangan:\n12=2^2×3\n18=2×3^2\nHitung KPK dengan mengalikan seluruh faktor prima sekutu dan non-sekutu menggunakan pangkat tertinggi:\nKPK(12,18)=2^2×3^2=4×9=36 hari\nAnalisis opsi pilihan jawaban:\nOpsi A (6 hari lagi): Salah, ini merupakan nilai Faktor Persekutuan Terbesar (FPB=2×3=6), bukan KPK.\nOpsi B (12 hari lagi): Salah, ini merupakan periode keberangkatan Bus A saja, bukan kelipatan persekutuan kedua bus.\nOpsi C (36 hari lagi - BENAR): Hasil perhitungan KPK dari 12 dan 18 yang tepat dan akurat (2^2×3^2=36).\nOpsi D (72 hari lagi): Salah, merupakan kelipatan persekutuan tetapi bukan kelipatan persekutuan yang terkecil (paling cepat).\nKesalahan umum yang diantisipasi: Siswa sering keliru menghitung nilai FPB (FPB=6) alih-alih KPK, atau keliru mengira jadwal bus A (12 hari) sebagai interval pertemuan bersama.",
+    "original_explanation": "Pembahasan:\nMasalah penentuan waktu pertemuan/keberangkatan bersama kembali yang terjadi secara periodik diselesaikan dengan mencari Kelipatan Persekutuan Terkecil (KPK) dari 12 dan 18.\nTentukan faktorisasi prima dari masing-masing bilangan:\n12=2^2×3\n18=2×3^2\nHitung KPK dengan mengalikan seluruh faktor prima sekutu dan non-sekutu menggunakan pangkat tertinggi:\nKPK(12,18)=2^2×3^2=4×9=36 hari\nAnalisis opsi pilihan jawaban:\nOpsi A (6 hari lagi): Salah, ini merupakan nilai Faktor Persekutuan Terbesar (FPB=2×3=6), bukan KPK.\nOpsi B (12 hari lagi): Salah, ini merupakan periode keberangkatan Bus A saja, bukan kelipatan persekutuan kedua bus.\nOpsi C (36 hari lagi - BENAR): Hasil perhitungan KPK dari 12 dan 18 yang tepat dan akurat (2^2×3^2=36).\nOpsi D (72 hari lagi): Salah, merupakan kelipatan persekutuan tetapi bukan kelipatan persekutuan yang terkecil (paling cepat).\nKesalahan umum yang diantisipasi: Siswa sering keliru menghitung nilai FPB (FPB=6) alih-alih KPK, atau keliru mengira jadwal bus A (12 hari) sebagai interval pertemuan bersama.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Header kunci B menyebut12 hari; KPK(12,18)=36 hari sesuai opsi C dan pembahasan. Kunci akademik perlu disahkan.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-4-1-2": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -518,46 +607,67 @@
     ]
   },
   "mcma-4-1-8": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 8,
-    "source_body_index": 5464,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "A, B, dan D",
-    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: A, B, dan D\nTiga kelompok belajar SMP menerima sumbangan alat tulis berupa 84 buku, 56 pensil, dan 28 penggaris. Perlengkapan tersebut akan dibagi rata ke beberapa kantong bantuan tanpa tersisa.\nManakah pernyataan berikut yang benar mengenai pembagian kantong bantuan tersebut? (Jawaban benar dapat lebih dari satu)\n[ ] A. Jumlah kantong terbanyak yang dapat dibuat adalah 28 kantong.\n[ ] B. Setiap kantong bantuan akan berisi 3 buku.\n[ ] C. Setiap kantong bantuan akan berisi 3 pensil.\n[ ] D. FPB dari 84, 56, dan 28 dapat dinyatakan sebagai 2^(2)×7.\nPembahasan:\nFaktorisasi prima:\n84=2^(2)×3×7\n56=2^(3)×7\n28=2^(2)×7\nFPB(84,56,28)=2^(2)×7=28 kantong (Pernyataan A dan D Benar).\nIsi per kantong:\nBuku = 84÷28=3 buku (Pernyataan B Benar).\nPensil = 56÷28=2 pensil (Pernyataan C Salah).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung hasil bagi 56÷28=2 menjadi 3 pensil.",
-    "original_explanation": "Pembahasan:\nFaktorisasi prima:\n84=2^(2)×3×7\n56=2^(3)×7\n28=2^(2)×7\nFPB(84,56,28)=2^(2)×7=28 kantong (Pernyataan A dan D Benar).\nIsi per kantong:\nBuku = 84÷28=3 buku (Pernyataan B Benar).\nPensil = 56÷28=2 pensil (Pernyataan C Salah).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung hasil bagi 56÷28=2 menjadi 3 pensil.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem tidak menetapkan jumlah kantong maksimum.14 kantong sama isi sah memuat6 buku,4 pensil,2 penggaris;3 buku per kantong hanya berlaku jika memakai28 kantong.",
+    "source_body_index": 5608,
+    "source_cognitive_label": "C3",
+    "declared_key": "A, B, D",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3\nKunci Jawaban: A, B, D\nTiga kelompok belajar SMP menerima sumbangan alat tulis berupa 84 buku, 56 pensil, dan 28 penggaris. Perlengkapan tersebut akan dibagi rata secara adil ke beberapa kantong bantuan tanpa ada barang yang tersisa.\nJika bantuan tersebut dimasukkan ke dalam jumlah kantong terbanyak yang mungkin dibuat, manakah pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Jumlah kantong terbanyak yang dapat dibuat adalah 28 kantong\n[ ] B. Setiap kantong bantuan akan berisi 3 buku\n[ ] C. Setiap kantong bantuan akan berisi 3 pensil\n[ ] D. FPB dari 84, 56, dan 28 dapat dinyatakan sebagai 2^2×7\nPembahasan:\nHitung Faktorisasi Prima dari ketiga bilangan:\n84=2^2×3×7\n56=2^3×7\n28=2^2×7\nHitung Faktor Persekutuan Terbesar (FPB):\nFPB(84,56,28)=2^2×7=4×7=28 kantong\nHitung rincian isi barang per kantong jika dibuat 28 kantong (jumlah terbanyak):\nBuku: 84÷28=3 buku\nPensil: 56÷28=2 pensil\nPenggaris: 28÷28=1 penggaris\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (BENAR): FPB =28, maka jumlah kantong terbanyak yang dapat dibuat adalah 28 kantong.\nOpsi B (BENAR): Setiap kantong dari 28 kantong tersebut berisi 84÷28=3 buku.\nOpsi C (SALAH): Setiap kantong berisi 56÷28=2 pensil, bukan 3 pensil.\nOpsi D (BENAR): FPB dari 84, 56, dan 28 adalah 2^2×7=28.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam menghitung hasil bagi pensil (56÷28=2) menjadi 3, atau salah menentukan faktorisasi prima/FPB dari ketiga bilangan tersebut.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari ketiga bilangan:\n84=2^2×3×7\n56=2^3×7\n28=2^2×7\nHitung Faktor Persekutuan Terbesar (FPB):\nFPB(84,56,28)=2^2×7=4×7=28 kantong\nHitung rincian isi barang per kantong jika dibuat 28 kantong (jumlah terbanyak):\nBuku: 84÷28=3 buku\nPensil: 56÷28=2 pensil\nPenggaris: 28÷28=1 penggaris\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (BENAR): FPB =28, maka jumlah kantong terbanyak yang dapat dibuat adalah 28 kantong.\nOpsi B (BENAR): Setiap kantong dari 28 kantong tersebut berisi 84÷28=3 buku.\nOpsi C (SALAH): Setiap kantong berisi 56÷28=2 pensil, bukan 3 pensil.\nOpsi D (BENAR): FPB dari 84, 56, dan 28 adalah 2^2×7=28.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam menghitung hasil bagi pensil (56÷28=2) menjadi 3, atau salah menentukan faktorisasi prima/FPB dari ketiga bilangan tersebut.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem tidak menetapkan jumlah kantong maksimum.14 kantong sama isi sah memuat6 buku,4 pensil,2 penggaris;3 buku per kantong hanya berlaku jika memakai28 kantong.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "kategori-4-1-9": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 9,
-    "source_body_index": 5501,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
-    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nIbu membawa 72 kue bolu dan 90 kue lapis untuk disajikan pada acara rapat komite sekolah. Seluruh kue disajikan di atas beberapa piring dengan jumlah bolu dan lapis yang sama di setiap piring.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan piring penyajian kue tersebut!\nPernyataan | \nBenar | \nSalah\n\n(a) Piring terbanyak yang dapat digunakan untuk menyajikan seluruh kue adalah 18 piring.\n | \n | \n\n\n(b) Pada setiap piring, banyaknya kue bolu yang disajikan adalah 5 buah.\n | \n | \n\n\n(c) Selisih banyaknya kue bolu dan kue lapis pada masing-masing piring adalah 1 buah.\n | \n |\nPembahasan:\nFaktorisasi prima dari 72 dan 90:\n72=2^(3)×3^(2)\n90=2×3^(2)×5\nFPB(72,90)=2×3^(2)=18 piring.\nEvaluasi pernyataan:\n(a) BENAR: FPB = 18 piring.\n(b) SALAH: Kue bolu per piring = 72÷18=4 buah (bukan 5 buah).\n(c) BENAR: Kue lapis per piring = 90÷18=5 buah. Selisih lapis dan bolu = 5-4=1 buah.\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar saat membagi jumlah bolu dan lapis, mengira bolu 90÷18=5 dan lapis 72÷18=4.",
-    "original_explanation": "Pembahasan:\nFaktorisasi prima dari 72 dan 90:\n72=2^(3)×3^(2)\n90=2×3^(2)×5\nFPB(72,90)=2×3^(2)=18 piring.\nEvaluasi pernyataan:\n(a) BENAR: FPB = 18 piring.\n(b) SALAH: Kue bolu per piring = 72÷18=4 buah (bukan 5 buah).\n(c) BENAR: Kue lapis per piring = 90÷18=5 buah. Selisih lapis dan bolu = 5-4=1 buah.\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar saat membagi jumlah bolu dan lapis, mengira bolu 90÷18=5 dan lapis 72÷18=4.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem tidak menetapkan jumlah piring maksimum.9 piring sama isi sah memuat8 bolu dan10 lapis; selisih2, bukan1 pada kunci. Pembahasan mengasumsikan18 piring.",
+    "source_body_index": 5655,
+    "source_cognitive_label": "C3",
+    "declared_key": "(a) BENAR; (b) SALAH; (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3\nKunci Jawaban: (a) BENAR; (b) SALAH; (c) BENAR\nIbu membawa 72 kue bolu dan 90 kue lapis untuk disajikan pada acara rapat komite sekolah. Seluruh kue disajikan di atas beberapa piring dengan jumlah bolu dan lapis yang sama di setiap piringnya.\nJika Ibu membaginya ke dalam jumlah piring terbanyak yang mungkin dibuat, tentukan status BENAR atau SALAH untuk setiap pernyataan berikut!\nOpsi Jawaban:\n(a) Piring terbanyak yang dapat digunakan untuk menyajikan seluruh kue adalah 18 piring.\n(b) Pada setiap piring, banyaknya kue bolu yang disajikan adalah 5 buah.\n(c) Selisih banyaknya kue bolu dan kue lapis pada masing-masing piring adalah 1 buah.\nPembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n72=2^3×3^2\n90=2×3^2×5\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah piring terbanyak:\nFPB(72,90)=2×3^2=2×9=18 piring\nHitung rincian kue per piring jika dibagi ke dalam 18 piring (jumlah piring terbanyak):\nKue Bolu per piring: 72÷18=4 buah\nKue Lapis per piring: 90÷18=5 buah\nEvaluasi setiap pernyataan:\nPernyataan (a) BENAR: Nilai FPB =18, maka piring terbanyak yang dapat digunakan adalah 18 piring.\nPernyataan (b) SALAH: Banyaknya kue bolu pada setiap piring adalah 72÷18=4 buah, bukan 5 buah.\nPernyataan (c) BENAR: Selisih kue lapis dan kue bolu pada masing-masing piring adalah 5-4=1 buah.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah kue bolu dan lapis, mengira kue bolu 90÷18=5 buah dan kue lapis 72÷18=4 buah.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n72=2^3×3^2\n90=2×3^2×5\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah piring terbanyak:\nFPB(72,90)=2×3^2=2×9=18 piring\nHitung rincian kue per piring jika dibagi ke dalam 18 piring (jumlah piring terbanyak):\nKue Bolu per piring: 72÷18=4 buah\nKue Lapis per piring: 90÷18=5 buah\nEvaluasi setiap pernyataan:\nPernyataan (a) BENAR: Nilai FPB =18, maka piring terbanyak yang dapat digunakan adalah 18 piring.\nPernyataan (b) SALAH: Banyaknya kue bolu pada setiap piring adalah 72÷18=4 buah, bukan 5 buah.\nPernyataan (c) BENAR: Selisih kue lapis dan kue bolu pada masing-masing piring adalah 5-4=1 buah.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah kue bolu dan lapis, mengira kue bolu 90÷18=5 buah dan kue lapis 72÷18=4 buah.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem tidak menetapkan jumlah piring maksimum.9 piring sama isi sah memuat8 bolu dan10 lapis; selisih2, bukan1 pada kunci. Pembahasan mengasumsikan18 piring.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "kategori-4-1-10": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 10,
-    "source_body_index": 5531,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
-    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nDua pita pengukur latihan ekstrakurikuler dipotong menjadi beberapa bagian yang sama panjang tanpa sisa. Pita pertama panjangnya 45cm dan pita kedua panjangnya 75 cm.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan potongan pita tersebut!\nPernyataan | \nBenar | \nSalah\n\n(a) Panjang potongan pita terpanjang yang dapat diperoleh adalah 15 cm.\n | \n | \n\n\n(b) Dari pita pertama (45cm) diperoleh sebanyak 3 potongan pita.\n | \n | \n\n\n(c) Total seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 10 potongan.\n | \n |\nPembahasan:\nFaktorisasi prima dari 45 dan 75:\n45=3^(2)×5\n75=3×5^(2)\nFPB(45,75)=3×5=15cm.\nEvaluasi pernyataan:\n(a) BENAR: Panjang potongan terpanjang = FPB = 15cm.\n(b) BENAR: Potongan pita pertama = 45÷15=3 potongan.\n(c) SALAH: Potongan pita kedua = 75÷15=5 potongan. Total potongan = 3+5=8 potongan (bukan 10).\nKesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan 45+75=120 lalu membaginya dengan angka sembarang seperti 12, atau salah menjumlahkan hasil potongannya.",
-    "original_explanation": "Pembahasan:\nFaktorisasi prima dari 45 dan 75:\n45=3^(2)×5\n75=3×5^(2)\nFPB(45,75)=3×5=15cm.\nEvaluasi pernyataan:\n(a) BENAR: Panjang potongan terpanjang = FPB = 15cm.\n(b) BENAR: Potongan pita pertama = 45÷15=3 potongan.\n(c) SALAH: Potongan pita kedua = 75÷15=5 potongan. Total potongan = 3+5=8 potongan (bukan 10).\nKesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan 45+75=120 lalu membaginya dengan angka sembarang seperti 12, atau salah menjumlahkan hasil potongannya.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Potongan5cm menghasilkan9 potongan dari pita pertama, bukan3. Kunci mengasumsikan panjang15cm.",
+    "source_body_index": 5694,
+    "source_cognitive_label": "C3",
+    "declared_key": "(a) BENAR; (b) BENAR; (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3\nKunci Jawaban: (a) BENAR; (b) BENAR; (c) SALAH\nDua pita pengukur latihan ekstrakurikuler dipotong menjadi beberapa bagian yang sama panjang tanpa ada sisa. Pita pertama panjangnya 45cm dan pita kedua panjangnya 75cm.\nJika kedua pita tersebut dipotong dengan ukuran terpanjang yang mungkin dibuat, tentukan status BENAR atau SALAH untuk setiap pernyataan berikut!\nOpsi Jawaban:\n(a) Panjang potongan pita terpanjang yang dapat diperoleh adalah 15cm.\n(b) Dari pita pertama (45cm) diperoleh sebanyak 3 potongan pita.\n(c) Total seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 10 potongan.\nPembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n45=3^2×5\n75=3×5^2\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan ukuran potongan terpanjang:\nFPB(45,75)=3×5=15 cm\nHitung rincian hasil potongan dari masing-masing pita dengan ukuran terpanjang (15cm):\nPita Pertama (45cm): 45÷15=3 potongan\nPita Kedua (75cm): 75÷15=5 potongan\nTotal Seluruh Potongan: 3+5=8 potongan\nEvaluasi setiap pernyataan:\nPernyataan (a) BENAR: Nilai FPB =15cm, maka panjang potongan pita terpanjang yang dapat diperoleh adalah 15cm.\nPernyataan (b) BENAR: Dari pita pertama (45cm) diperoleh 45÷15=3 potongan.\nPernyataan (c) SALAH: Total seluruh potongan dari kedua pita adalah 3+5=8 potongan, bukan 10 potongan.\nKesalahan umum yang diantisipasi: Siswa sering menjumlahkan panjang awal kedua pita (45+75=120 cm) lalu membaginya dengan angka sembarang tanpa mencari FPB terlebih dahulu, atau keliru dalam mengoperasikan pembagian untuk menentukan jumlah potongan pita kedua.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n45=3^2×5\n75=3×5^2\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan ukuran potongan terpanjang:\nFPB(45,75)=3×5=15 cm\nHitung rincian hasil potongan dari masing-masing pita dengan ukuran terpanjang (15cm):\nPita Pertama (45cm): 45÷15=3 potongan\nPita Kedua (75cm): 75÷15=5 potongan\nTotal Seluruh Potongan: 3+5=8 potongan\nEvaluasi setiap pernyataan:\nPernyataan (a) BENAR: Nilai FPB =15cm, maka panjang potongan pita terpanjang yang dapat diperoleh adalah 15cm.\nPernyataan (b) BENAR: Dari pita pertama (45cm) diperoleh 45÷15=3 potongan.\nPernyataan (c) SALAH: Total seluruh potongan dari kedua pita adalah 3+5=8 potongan, bukan 10 potongan.\nKesalahan umum yang diantisipasi: Siswa sering menjumlahkan panjang awal kedua pita (45+75=120 cm) lalu membaginya dengan angka sembarang tanpa mencari FPB terlebih dahulu, atau keliru dalam mengoperasikan pembagian untuk menentukan jumlah potongan pita kedua.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Potongan5cm menghasilkan9 potongan dari pita pertama, bukan3. Kunci mengasumsikan panjang15cm.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-4-2-1": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -574,18 +684,25 @@
     ]
   },
   "pg-4-2-2": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 2,
-    "source_body_index": 5594,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "B. 12 paket",
-    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. 12 paket\nPanitia kegiatan peringatan hari Pahlawan di sekolah menerima sumbangan bahan pokok berupa 48 kg beras, 36 kg gula pasir, dan 24 kg minyak goreng. Bahan pokok tersebut akan dibagi ke dalam beberapa paket bantuan dengan jumlah dan jenis bahan pokok yang sama banyak tanpa ada sisa.\nBanyaknya paket bantuan maksimum yang dapat dibentuk oleh panitia adalah ....\nA. 6 paket\nB. 12 paket\nC. 24 paket\nD. 36 paket\nPembahasan:\nMasalah pembagian barang secara merata tanpa sisa diselesaikan dengan mencari Faktor Persekutuan Terbesar (FPB) dari 48,36, dan 24.\nFaktorisasi prima masing-masing bilangan:\n48=2^(4)×3\n36=2^(2)×3^(2)\n24=2^(3)×3\nTentukan FPB dengan mengalikan faktor prima sekutu dengan pangkat terkecil:\nFPB(48,36,24)=2^(2)×3^(1)=4×3=12 paket\nJadi, paket bantuan terbanyak yang dapat dibentuk adalah 12 paket.\nKesalahan Umum yang Diantisipasi:\nSiswa salah membedakan antara mencari jumlah paket (FPB) dengan isi beras per paket (48÷12=4 kg).",
-    "original_explanation": "Pembahasan:\nMasalah pembagian barang secara merata tanpa sisa diselesaikan dengan mencari Faktor Persekutuan Terbesar (FPB) dari 48,36, dan 24.\nFaktorisasi prima masing-masing bilangan:\n48=2^(4)×3\n36=2^(2)×3^(2)\n24=2^(3)×3\nTentukan FPB dengan mengalikan faktor prima sekutu dengan pangkat terkecil:\nFPB(48,36,24)=2^(2)×3^(1)=4×3=12 paket\nJadi, paket bantuan terbanyak yang dapat dibentuk adalah 12 paket.\nKesalahan Umum yang Diantisipasi:\nSiswa salah membedakan antara mencari jumlah paket (FPB) dengan isi beras per paket (48÷12=4 kg).",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Beras,gula,minyak dapat dibagi dalam massa pecahan. Tanpa syarat isi tiap paket berupa kg bulat, jumlah paket tidak mempunyai maksimum12 seperti kunci.",
+    "source_body_index": 5772,
+    "source_cognitive_label": "C3",
+    "declared_key": "B",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: B\nPanitia kegiatan hari Pahlawan di sekolah menerima sumbangan bahan pokok berupa 48 kg beras, 36 kg gula pasir, dan 24 kg minyak goreng. Bahan pokok tersebut akan dibagi ke dalam beberapa paket bantuan dengan ketentuan setiap paket berisi jenis dan massa bahan pokok yang sama banyak dalam satuan kilogram bilangan bulat tanpa ada sisa.\nBanyaknya paket bantuan maksimum yang dapat dibentuk oleh panitia adalah...\nOpsi Jawaban:\nA. 6 paket\nB. 12 paket\nC. 24 paket\nD. 36 paket\nPembahasan:\nMasalah pembagian barang secara merata tanpa sisa dengan isi berupa bilangan bulat diselesaikan dengan mencari Faktor Persekutuan Terbesar (FPB) dari 48, 36, dan 24.\nTentukan faktorisasi prima masing-masing bilangan:\n48=2^4×3\n36=2^2×3^2\n24=2^3×3\nHitung FPB dengan mengalikan faktor prima yang sama dengan pangkat terkecil:\nFPB(48,36,24)=2^2×3^1=4×3=12 paket\nAnalisis opsi pilihan jawaban:\nOpsi A (6 paket): Salah, merupakan faktor persekutuan tetapi bukan jumlah paket maksimum.\nOpsi B (12 paket - BENAR): Nilai FPB dari 48, 36, dan 24 yang menyatakan jumlah paket maksimum dengan isi kg bilangan bulat.\nOpsi C (24 paket): Salah, muncul jika siswa keliru mengambil FPB hanya dari dua bilangan (24 dan 48) tanpa memperhitungkan 36.\nOpsi D (36 paket): Salah, muncul jika siswa keliru mengambil faktor terbesar dari bilangan 36 saja.\nKesalahan umum yang diantisipasi: Siswa sering tertukar antara mencari jumlah paket maksimum (FPB = 12 paket) dengan mencari isi beras per paket (48÷12=4kg).",
+    "original_explanation": "Pembahasan:\nMasalah pembagian barang secara merata tanpa sisa dengan isi berupa bilangan bulat diselesaikan dengan mencari Faktor Persekutuan Terbesar (FPB) dari 48, 36, dan 24.\nTentukan faktorisasi prima masing-masing bilangan:\n48=2^4×3\n36=2^2×3^2\n24=2^3×3\nHitung FPB dengan mengalikan faktor prima yang sama dengan pangkat terkecil:\nFPB(48,36,24)=2^2×3^1=4×3=12 paket\nAnalisis opsi pilihan jawaban:\nOpsi A (6 paket): Salah, merupakan faktor persekutuan tetapi bukan jumlah paket maksimum.\nOpsi B (12 paket - BENAR): Nilai FPB dari 48, 36, dan 24 yang menyatakan jumlah paket maksimum dengan isi kg bilangan bulat.\nOpsi C (24 paket): Salah, muncul jika siswa keliru mengambil FPB hanya dari dua bilangan (24 dan 48) tanpa memperhitungkan 36.\nOpsi D (36 paket): Salah, muncul jika siswa keliru mengambil faktor terbesar dari bilangan 36 saja.\nKesalahan umum yang diantisipasi: Siswa sering tertukar antara mencari jumlah paket maksimum (FPB = 12 paket) dengan mencari isi beras per paket (48÷12=4kg).",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Beras,gula,minyak dapat dibagi dalam massa pecahan. Tanpa syarat isi tiap paket berupa kg bulat, jumlah paket tidak mempunyai maksimum12 seperti kunci.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-4-2-3": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -616,18 +733,25 @@
     ]
   },
   "pg-4-2-5": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 5,
-    "source_body_index": 5695,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "C. 2^(2)×3",
-    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: C. 2^(2)×3\nDiberikan dua buah bilangan asli A dan B. Bilangan A memiliki faktorisasi prima 2^(3)×3^(2)×5, sedangkan bilangan B memiliki faktorisasi prima 2^(2)×3^(3)×7. Seorang siswa menganalisis hubungan KPK dan FPB dari kedua bilangan tersebut.\nBentuk faktorisasi prima dari FPB(A,B) yang benar adalah ....\nA. 2^(3)×3^(3)×5×7\nB. 2^(3)×3^(2)\nC. 2^(2)×3^(2)\nD. 2^(2)×3\nPembahasan:\nUntuk menentukan FPB dari dua bilangan berpangkat faktorisasi prima:\nPilih faktor prima yang sama (sekutu) yang terdapat pada kedua bilangan, yaitu 2 dan 3.\nPilih pangkat terkecil dari faktor sekutu tersebut:\nUntuk faktor 2: bandingkan 2^(3) dan 2^(2) ⇒  pilih 2^(2).\nUntuk faktor 3: bandingkan 3^(2) dan 3^(3) ⇒ pilih 3^(2).\nMaka, FPB(A,B)=2^(2)×3^(2)=4×9=36.\nKoreksi Opsi: Opsi C (2^(2)×3^(2)) merepresentasikan nilai FPB yang tepat.\nKesalahan Umum yang Diantisipasi:\nSiswa memilih pangkat terbesar dari faktor sekutu (konsep KPK) atau menyertakan faktor non-sekutu (5 dan 7) ke dalam perhitungan FPB.",
-    "original_explanation": "Pembahasan:\nUntuk menentukan FPB dari dua bilangan berpangkat faktorisasi prima:\nPilih faktor prima yang sama (sekutu) yang terdapat pada kedua bilangan, yaitu 2 dan 3.\nPilih pangkat terkecil dari faktor sekutu tersebut:\nUntuk faktor 2: bandingkan 2^(3) dan 2^(2) ⇒  pilih 2^(2).\nUntuk faktor 3: bandingkan 3^(2) dan 3^(3) ⇒ pilih 3^(2).\nMaka, FPB(A,B)=2^(2)×3^(2)=4×9=36.\nKoreksi Opsi: Opsi C (2^(2)×3^(2)) merepresentasikan nilai FPB yang tepat.\nKesalahan Umum yang Diantisipasi:\nSiswa memilih pangkat terbesar dari faktor sekutu (konsep KPK) atau menyertakan faktor non-sekutu (5 dan 7) ke dalam perhitungan FPB.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Caption header C menyebut2^2*3=12, tetapi opsi C dan pembahasan2^2*3^2=36. Instruksi koreksi dalam DOCX adalah konten sumber, bukan izin mengganti kunci akademik.",
+    "source_body_index": 5878,
+    "source_cognitive_label": "C4",
+    "declared_key": "C",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: C\nDiberikan dua buah bilangan asli A dan B. Bilangan A memiliki faktorisasi prima 2^3×3^2×5, sedangkan bilangan B memiliki faktorisasi prima 2^2×3^3×7. Seorang siswa menganalisis hubungan KPK dan FPB dari kedua bilangan tersebut.\nBentuk faktorisasi prima dari FPB(A,B) yang benar adalah...\nOpsi Jawaban:\nA. 2^3×3^3×5×7\nB. 2^3×3^2\nC. 2^2×3^2\nD. 2^2×3\nPembahasan:\nMenentukan Faktor Persekutuan Terbesar (FPB) dari dua bilangan yang dinyatakan dalam bentuk faktorisasi prima:\nLangkah 1: Pilih faktor prima yang sama (sekutu) yang terdapat pada kedua bilangan, yaitu 2 dan 3 (faktor 5 dan 7 diabaikan karena bukan faktor sekutu).\nLangkah 2: Bandingkan pangkat dari setiap faktor sekutu dan pilih pangkat terkecil:\nUntuk faktor 2: bandingkan 2^3 dan $2^2 \\implies$ pilih 2^2\nUntuk faktor 3: bandingkan 3^2 dan $3^3 \\implies$ pilih 3^2\nMaka, bentuk faktorisasi prima dari FPB(A,B) adalah 2^2×3^2 (sebanding dengan nilai 4×9=36).\nAnalisis opsi pilihan jawaban:\nOpsi A (2^3×3^3×5×7): Salah, ini merupakan bentuk faktorisasi prima dari KPK, bukan FPB.\nOpsi B (2^3×3^2): Salah, muncul jika siswa keliru mengambil pangkat terbesar pada faktor 2.\nOpsi C (2^2×3^2 - BENAR): Secara akurat menunjukkan perkalian faktor sekutu dengan pangkat terkecil (2^2×3^2).\nOpsi D (2^2×3): Salah, muncul jika siswa keliru mengambil pangkat 1 pada faktor 3 (seharusnya 3^2).\nKesalahan umum yang diantisipasi: Siswa sering keliru memilih pangkat terbesar dari faktor sekutu (konsep KPK) atau ikut menyertakan faktor non-sekutu (5 dan 7) ke dalam perhitungan FPB.",
+    "original_explanation": "Pembahasan:\nMenentukan Faktor Persekutuan Terbesar (FPB) dari dua bilangan yang dinyatakan dalam bentuk faktorisasi prima:\nLangkah 1: Pilih faktor prima yang sama (sekutu) yang terdapat pada kedua bilangan, yaitu 2 dan 3 (faktor 5 dan 7 diabaikan karena bukan faktor sekutu).\nLangkah 2: Bandingkan pangkat dari setiap faktor sekutu dan pilih pangkat terkecil:\nUntuk faktor 2: bandingkan 2^3 dan $2^2 \\implies$ pilih 2^2\nUntuk faktor 3: bandingkan 3^2 dan $3^3 \\implies$ pilih 3^2\nMaka, bentuk faktorisasi prima dari FPB(A,B) adalah 2^2×3^2 (sebanding dengan nilai 4×9=36).\nAnalisis opsi pilihan jawaban:\nOpsi A (2^3×3^3×5×7): Salah, ini merupakan bentuk faktorisasi prima dari KPK, bukan FPB.\nOpsi B (2^3×3^2): Salah, muncul jika siswa keliru mengambil pangkat terbesar pada faktor 2.\nOpsi C (2^2×3^2 - BENAR): Secara akurat menunjukkan perkalian faktor sekutu dengan pangkat terkecil (2^2×3^2).\nOpsi D (2^2×3): Salah, muncul jika siswa keliru mengambil pangkat 1 pada faktor 3 (seharusnya 3^2).\nKesalahan umum yang diantisipasi: Siswa sering keliru memilih pangkat terbesar dari faktor sekutu (konsep KPK) atau ikut menyertakan faktor non-sekutu (5 dan 7) ke dalam perhitungan FPB.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Caption header C menyebut2^2*3=12, tetapi opsi C dan pembahasan2^2*3^2=36. Instruksi koreksi dalam DOCX adalah konten sumber, bukan izin mengganti kunci akademik.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "mcma-4-2-6": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -658,60 +782,88 @@
     ]
   },
   "mcma-4-2-8": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 8,
-    "source_body_index": 5801,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "B dan C",
-    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B dan C\nSeorang pengurus lab komputer menganalisis pembagian 72 unit tetikus (mouse) dan 96 unit papan ketik (keyboard) ke dalam beberapa ruangan praktikum dengan jumlah dan kombinasi yang identik tanpa tersisa.\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah 12 ruangan.\n[ ] B. Jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah 24 ruangan.\n[ ] C. Setiap ruangan yang menerima paket akan mendapatkan 3 unit tetikus dan 4 unit papan ketik.\n[ ] D. Setiap ruangan yang menerima paket akan mendapatkan 4 unit tetikus dan 3 unit papan ketik.\nPembahasan:\nCari FPB dari 72 dan 96:\n72=2^(3)×3^(2)\n96=2^(5)×3\nFPB(72,96)=2^(3)×3=8×3=24 ruangan\n(Pernyataan A Salah, Pernyataan B Benar).\nPembagian barang per ruangan:\nTetikus per ruangan = 72÷24=3 unit.\nPapan ketik per ruangan = 96÷24=4 unit. (Pernyataan C Benar, Pernyataan D Salah).\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar antara jumlah tetikus dan papan ketik per ruangan, mengira tetikus berisi 4 unit dan papan ketik 3 unit.",
-    "original_explanation": "Pembahasan:\nCari FPB dari 72 dan 96:\n72=2^(3)×3^(2)\n96=2^(5)×3\nFPB(72,96)=2^(3)×3=8×3=24 ruangan\n(Pernyataan A Salah, Pernyataan B Benar).\nPembagian barang per ruangan:\nTetikus per ruangan = 72÷24=3 unit.\nPapan ketik per ruangan = 96÷24=4 unit. (Pernyataan C Benar, Pernyataan D Salah).\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar antara jumlah tetikus dan papan ketik per ruangan, mengira tetikus berisi 4 unit dan papan ketik 3 unit.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem tidak menetapkan jumlah ruangan maksimum.12 ruangan sama isi sah mendapat6 tetikus dan8 papan ketik; kunci3 dan4 mengasumsikan24 ruangan.",
+    "source_body_index": 5988,
+    "source_cognitive_label": "C4",
+    "declared_key": "B, C",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: B, C\nSeorang pengurus lab komputer menganalisis pembagian 72 unit tetikus (mouse) dan 96 unit papan ketik (keyboard) ke dalam beberapa ruangan praktikum dengan jumlah dan kombinasi yang identik tanpa tersisa.\nJika perlengkapan tersebut dibagi ke dalam jumlah ruangan terbanyak yang mungkin, manakah hasil analisis pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah 12 ruangan\n[ ] B. Jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah 24 ruangan\n[ ] C. Setiap ruangan yang menerima paket akan mendapatkan 3 unit tetikus dan 4 unit papan ketik\n[ ] D. Setiap ruangan yang menerima paket akan mendapatkan 4 unit tetikus dan 3 unit papan ketik\nPembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n72=2^3×3^2\n96=2^5×3\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah ruangan terbanyak:\nFPB(72,96)=2^3×3=8×3=24 ruangan\nHitung rincian unit barang per ruangan jika dibagi ke dalam 24 ruangan (jumlah terbanyak):\nTetikus per ruangan: 72÷24=3 unit\nPapan ketik per ruangan: 96÷24=4 unit\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (SALAH): Jumlah ruangan terbanyak adalah 24 ruangan, bukan 12 ruangan.\nOpsi B (BENAR): FPB =24, maka jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah 24 ruangan.\nOpsi C (BENAR): Setiap ruangan dari 24 ruangan tersebut mendapatkan 72÷24=3 unit tetikus dan 96÷24=4 unit papan ketik.\nOpsi D (SALAH): Pernyataan ini tertukar, jumlah tetikus adalah 3 unit dan papan ketik adalah 4 unit per ruangan.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah tetikus dan papan ketik per ruangan, mengira tetikus mendapatkan 96÷24=4 unit dan papan ketik mendapatkan 72÷24=3 unit.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n72=2^3×3^2\n96=2^5×3\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah ruangan terbanyak:\nFPB(72,96)=2^3×3=8×3=24 ruangan\nHitung rincian unit barang per ruangan jika dibagi ke dalam 24 ruangan (jumlah terbanyak):\nTetikus per ruangan: 72÷24=3 unit\nPapan ketik per ruangan: 96÷24=4 unit\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (SALAH): Jumlah ruangan terbanyak adalah 24 ruangan, bukan 12 ruangan.\nOpsi B (BENAR): FPB =24, maka jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah 24 ruangan.\nOpsi C (BENAR): Setiap ruangan dari 24 ruangan tersebut mendapatkan 72÷24=3 unit tetikus dan 96÷24=4 unit papan ketik.\nOpsi D (SALAH): Pernyataan ini tertukar, jumlah tetikus adalah 3 unit dan papan ketik adalah 4 unit per ruangan.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah tetikus dan papan ketik per ruangan, mengira tetikus mendapatkan 96÷24=4 unit dan papan ketik mendapatkan 72÷24=3 unit.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem tidak menetapkan jumlah ruangan maksimum.12 ruangan sama isi sah mendapat6 tetikus dan8 papan ketik; kunci3 dan4 mengasumsikan24 ruangan.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "kategori-4-2-9": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 9,
-    "source_body_index": 5838,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
-    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nSebuah panitia bazar sekolah menyediakan 54 botol jus apel dan 72 botol jus jeruk. Seluruh botol jus dikemas ke dalam beberapa kardus dengan jumlah dan komposisi yang sama di setiap kardus.\nTentukan status BENAR atau SALAH untuk setiap pernyataan berikut berkaitan dengan kemasan kardus tersebut!\nPernyataan | \nBenar | \nSalah\n\n(a) Kardus terbanyak yang dapat digunakan untuk mengemas seluruh botol jus adalah 18 kardus.\n | \n | \n\n\n(b) Banyaknya botol jus jeruk pada setiap kardus adalah 3 botol.\n | \n | \n\n\n(c) Total seluruh botol jus (apel dan jeruk) pada masing-masing kardus adalah 7 botol.\n | \n |\nPembahasan:\nFaktorisasi prima dari 54 dan 72:\n54=2×3^(3)\n72=2^(3)×3^(2)\nFPB(54,72)=2×3^(2)=18 kardus.\nEvaluasi pernyataan:\n(a) BENAR: Kardus terbanyak = FPB = 18 kardus.\n(b) SALAH: Jus jeruk per kardus = 72÷18=4 botol (bukan 3 botol).\n(c) BENAR: Jus apel per kardus = 54÷18=3 botol. Total botol per kardus = 3+4=7 botol.\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar membagi jumlah jus apel (54÷18=3) sebagai jumlah jus jeruk.",
-    "original_explanation": "Pembahasan:\nFaktorisasi prima dari 54 dan 72:\n54=2×3^(3)\n72=2^(3)×3^(2)\nFPB(54,72)=2×3^(2)=18 kardus.\nEvaluasi pernyataan:\n(a) BENAR: Kardus terbanyak = FPB = 18 kardus.\n(b) SALAH: Jus jeruk per kardus = 72÷18=4 botol (bukan 3 botol).\n(c) BENAR: Jus apel per kardus = 54÷18=3 botol. Total botol per kardus = 3+4=7 botol.\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar membagi jumlah jus apel (54÷18=3) sebagai jumlah jus jeruk.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem tidak menetapkan jumlah kardus maksimum.9 kardus sama isi sah memuat6 botol apel dan8 jeruk; total14, bukan7. Kunci mengasumsikan18 kardus.",
+    "source_body_index": 6031,
+    "source_cognitive_label": "C3",
+    "declared_key": "(a) BENAR; (b) SALAH; (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C3\nKunci Jawaban: (a) BENAR; (b) SALAH; (c) BENAR\nSebuah panitia bazar sekolah menyediakan 54 botol jus apel dan 72 botol jus jeruk. Seluruh botol jus dikemas ke dalam beberapa kardus dengan jumlah dan komposisi yang sama di setiap kardus.\nJika seluruh botol jus dikemas ke dalam jumlah kardus terbanyak yang mungkin dibuat, tentukan status BENAR atau SALAH untuk setiap pernyataan berikut!\nOpsi Jawaban:\n(a) Kardus terbanyak yang dapat digunakan untuk mengemas seluruh botol jus adalah 18 kardus.\n(b) Banyaknya botol jus jeruk pada setiap kardus adalah 3 botol.\n(c) Total seluruh botol jus (apel dan jeruk) pada masing-masing kardus adalah 7 botol.\nPembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n54=2×3^3\n72=2^3×3^2\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah kardus terbanyak:\nFPB(54,72)=2×3^2=2×9=18 kardus\nHitung rincian botol jus per kardus jika dikemas ke dalam 18 kardus (jumlah terbanyak):\nJus Apel per kardus: 54÷18=3 botol\nJus Jeruk per kardus: 72÷18=4 botol\nTotal Jus per kardus: 3+4=7 botol\nEvaluasi setiap pernyataan:\nPernyataan (a) BENAR: Nilai FPB =18, maka kardus terbanyak yang dapat digunakan adalah 18 kardus.\nPernyataan (b) SALAH: Banyaknya botol jus jeruk pada setiap kardus adalah 72÷18=4 botol, bukan 3 botol.\nPernyataan (c) BENAR: Total seluruh botol jus (apel dan jeruk) pada masing-masing kardus adalah 3+4=7 botol.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah jus apel dan jeruk, mengira jus jeruk per kardus adalah 54÷18=3 botol dan jus apel per kardus adalah 72÷18=4 botol.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n54=2×3^3\n72=2^3×3^2\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah kardus terbanyak:\nFPB(54,72)=2×3^2=2×9=18 kardus\nHitung rincian botol jus per kardus jika dikemas ke dalam 18 kardus (jumlah terbanyak):\nJus Apel per kardus: 54÷18=3 botol\nJus Jeruk per kardus: 72÷18=4 botol\nTotal Jus per kardus: 3+4=7 botol\nEvaluasi setiap pernyataan:\nPernyataan (a) BENAR: Nilai FPB =18, maka kardus terbanyak yang dapat digunakan adalah 18 kardus.\nPernyataan (b) SALAH: Banyaknya botol jus jeruk pada setiap kardus adalah 72÷18=4 botol, bukan 3 botol.\nPernyataan (c) BENAR: Total seluruh botol jus (apel dan jeruk) pada masing-masing kardus adalah 3+4=7 botol.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah jus apel dan jeruk, mengira jus jeruk per kardus adalah 54÷18=3 botol dan jus apel per kardus adalah 72÷18=4 botol.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem tidak menetapkan jumlah kardus maksimum.9 kardus sama isi sah memuat6 botol apel dan8 jeruk; total14, bukan7. Kunci mengasumsikan18 kardus.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "kategori-4-2-10": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 10,
-    "source_body_index": 5869,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
-    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nDua pita hias berukuran 60cm dan 90cm dipotong menjadi beberapa bagian sama panjang tanpa sisa. Seorang siswa menganalisis hasil pemotongan pita tersebut.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Ukuran potongan pita terpanjang yang dapat dibuat adalah 30cm.\n | \n | \n\n\n(b) Jumlah seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 5 potongan.\n | \n | \n\n\n(c) Jumlah potongan yang diperoleh dari pita 90cm dua kali lebih banyak daripada pita 60cm.\n | \n |\nPembahasan:\nCari FPB dari 60 dan 90:\n60=2^(2)×3×5\n90=2×3^(2)×5\nFPB(60,90)=2×3×5=30cm.\nEvaluasi pernyataan:\n(a) BENAR: Potongan terpanjang = FPB = 30cm.\n(b) BENAR:\nPotongan pita 60cm=60÷30=2 potongan.\nPotongan pita 90cm=90÷30=3 potongan.\nTotal potongan = 2+3=5 potongan.\n(c) SALAH: Potongan dari pita 90cm (3 potongan) bukan dua kali lipat dari pita 60 cm (2 potongan, dua kali lipatnya harusnya 4).\nKesalahan Umum yang Diantisipasi:\nSiswa mengira perbandingan hasil potongan sama dengan perbandingan 2:1, padahal perbandingannya adalah 3:2.",
-    "original_explanation": "Pembahasan:\nCari FPB dari 60 dan 90:\n60=2^(2)×3×5\n90=2×3^(2)×5\nFPB(60,90)=2×3×5=30cm.\nEvaluasi pernyataan:\n(a) BENAR: Potongan terpanjang = FPB = 30cm.\n(b) BENAR:\nPotongan pita 60cm=60÷30=2 potongan.\nPotongan pita 90cm=90÷30=3 potongan.\nTotal potongan = 2+3=5 potongan.\n(c) SALAH: Potongan dari pita 90cm (3 potongan) bukan dua kali lipat dari pita 60 cm (2 potongan, dua kali lipatnya harusnya 4).\nKesalahan Umum yang Diantisipasi:\nSiswa mengira perbandingan hasil potongan sama dengan perbandingan 2:1, padahal perbandingannya adalah 3:2.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Pita60/90cm dipotong15cm menghasilkan10 potongan, bukan5. Kunci mengasumsikan panjang30cm.",
+    "source_body_index": 6074,
+    "source_cognitive_label": "C4",
+    "declared_key": "(a) BENAR; (b) BENAR; (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4\nKunci Jawaban: (a) BENAR; (b) BENAR; (c) SALAH\nDua pita hias berukuran 60cm dan 90cm dipotong menjadi beberapa bagian sama panjang tanpa sisa. Seorang siswa menganalisis hasil pemotongan pita tersebut.\nJika kedua pita dipotong dengan ukuran terpanjang yang mungkin dibuat, tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nOpsi Jawaban:\n(a) Ukuran potongan pita terpanjang yang dapat dibuat adalah 30cm.\n(b) Jumlah seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 5 potongan.\n(c) Jumlah potongan yang diperoleh dari pita 90cm dua kali lebih banyak daripada pita 60cm.\nPembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n60=2^2×3×5\n90=2×3^2×5\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan ukuran potongan pita terpanjang:\nFPB(60,90)=2×3×5=30 cm\nHitung rincian hasil potongan dari masing-masing pita jika dipotong dengan ukuran terpanjang (30cm):\nPotongan dari pita 60cm: 60÷30=2 potongan\nPotongan dari pita 90cm: 90÷30=3 potongan\nTotal seluruh potongan: 2+3=5 potongan\nEvaluasi setiap pernyataan analisis:\nPernyataan (a) BENAR: Nilai FPB =30 cm, maka ukuran potongan pita terpanjang yang dapat dibuat adalah 30cm.\nPernyataan (b) BENAR: Total potongan yang diperoleh dari kedua pita tersebut dengan ukuran terpanjang adalah 2+3=5 potongan.\nPernyataan (c) SALAH: Potongan dari pita 90 cm (3 potongan) bukan dua kali lebih banyak daripada pita 60 cm (2 potongan, karena dua kali lipat dari 2 potongan seharusnya adalah 4 potongan).\nKesalahan umum yang diantisipasi: Siswa sering mengasumsikan ukuran pemotongan sembarang (misalnya dipotong 15cm sehingga menghasilkan 4+6=10 potongan) tanpa mencari FPB terlebih dahulu, atau keliru dalam mengoperasikan pembagian perbandingan hasil potongan.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira perbandingan hasil potongan sama dengan perbandingan 2:1, padahal perbandingannya adalah 3:2.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n60=2^2×3×5\n90=2×3^2×5\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan ukuran potongan pita terpanjang:\nFPB(60,90)=2×3×5=30 cm\nHitung rincian hasil potongan dari masing-masing pita jika dipotong dengan ukuran terpanjang (30cm):\nPotongan dari pita 60cm: 60÷30=2 potongan\nPotongan dari pita 90cm: 90÷30=3 potongan\nTotal seluruh potongan: 2+3=5 potongan\nEvaluasi setiap pernyataan analisis:\nPernyataan (a) BENAR: Nilai FPB =30 cm, maka ukuran potongan pita terpanjang yang dapat dibuat adalah 30cm.\nPernyataan (b) BENAR: Total potongan yang diperoleh dari kedua pita tersebut dengan ukuran terpanjang adalah 2+3=5 potongan.\nPernyataan (c) SALAH: Potongan dari pita 90 cm (3 potongan) bukan dua kali lebih banyak daripada pita 60 cm (2 potongan, karena dua kali lipat dari 2 potongan seharusnya adalah 4 potongan).\nKesalahan umum yang diantisipasi: Siswa sering mengasumsikan ukuran pemotongan sembarang (misalnya dipotong 15cm sehingga menghasilkan 4+6=10 potongan) tanpa mencari FPB terlebih dahulu, atau keliru dalam mengoperasikan pembagian perbandingan hasil potongan.\nKesalahan Umum yang Diantisipasi:\nSiswa mengira perbandingan hasil potongan sama dengan perbandingan 2:1, padahal perbandingannya adalah 3:2.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Pita60/90cm dipotong15cm menghasilkan10 potongan, bukan5. Kunci mengasumsikan panjang30cm.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-4-3-1": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 1,
-    "source_body_index": 5905,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "C. Analisis III",
-    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: C. Analisis III\nTiga buah jadwal pemeliharaan rutin pendingin ruangan di gedung sekolah dicatat sebagai berikut:\nRuang Laboratorium: setiap 12 hari sekali\nRuang Perpustakaan: setiap 15 hari sekali\nRuang Aulia: setiap 20 hari sekali\nJika pada tanggal 1 Maret ketiga ruangan dibersihkan bersama-sama, tiga siswa menganalisis waktu pemeliharaan bersama berikutnya:\nAnalisis I: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu tanggal 30 April.\nAnalisis II: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu tanggal 1 Mei.\nAnalisis III: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu tanggal 30 April (mengingat bulan Maret memiliki 31 hari).\nAnalisis IV: Pemeliharaan bersama berikutnya terjadi setelah 30 hari, yaitu tanggal 31 Maret.\nManakah analisis penanggalan yang pasti benar?\nA. Analisis I\nB. Analisis II\nC. Analisis III\nD. Analisis IV\nPembahasan:\nHitung KPK dari 12,15, dan 20:\n12=2^(2)×3\n15=3×5\n20=2^(2)×5\nKPK(12,15,20)=2^(2)×3×5=60 hari\nMenganalisis penanggalan tanggal 1 Maret + 60 hari:\nBulan Maret memiliki 31 hari. Sisa hari di bulan Maret setelah tanggal 1 adalah 31-1=30 hari.\nSisa hari yang harus dihitung di bulan April: 60-30=30 hari.\nMaka, 60 hari setelah tanggal 1 Maret jatuh pada tanggal 30 April. Alasan ini memvalidasi Analisis III secara tepat.\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengira bulan Maret berjumlah 30 hari sehingga menghitung 1 Maret+60 hari=1 Mei, atau salah dalam menentukan nilai KPK.",
-    "original_explanation": "Pembahasan:\nHitung KPK dari 12,15, dan 20:\n12=2^(2)×3\n15=3×5\n20=2^(2)×5\nKPK(12,15,20)=2^(2)×3×5=60 hari\nMenganalisis penanggalan tanggal 1 Maret + 60 hari:\nBulan Maret memiliki 31 hari. Sisa hari di bulan Maret setelah tanggal 1 adalah 31-1=30 hari.\nSisa hari yang harus dihitung di bulan April: 60-30=30 hari.\nMaka, 60 hari setelah tanggal 1 Maret jatuh pada tanggal 30 April. Alasan ini memvalidasi Analisis III secara tepat.\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengira bulan Maret berjumlah 30 hari sehingga menghitung 1 Maret+60 hari=1 Mei, atau salah dalam menentukan nilai KPK.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Analisis I dan III sama-sama benar:60 hari setelah1 Maret adalah30 April. PG tidak boleh memilih III saja. Stem juga menyebut3 analisis tetapi mencantumkan4.",
+    "source_body_index": 6122,
+    "source_cognitive_label": "C4",
+    "declared_key": "C",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: C\nEmpat buah jadwal pemeliharaan rutin pendingin ruangan di gedung sekolah dicatat sebagai berikut:\n• Ruang Laboratorium: setiap 12 hari sekali\n• Ruang Perpustakaan: setiap 15 hari sekali\n• Ruang Aula: setiap 20 hari sekali\nJika pada tanggal 1 Maret ketiga ruangan dibersihkan bersama-sama, empat orang siswa menganalisis waktu pemeliharaan bersama berikutnya sebagai berikut:\n• Analisis I: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu pada tanggal 29 April.\n• Analisis II: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu pada tanggal 1 Mei.\n• Analisis III: Pemeliharaan bersama berikutnya terjadi setelah 60 hari, yaitu pada tanggal 30 April (mengingat bulan Maret memiliki 31 hari).\n• Analisis IV: Pemeliharaan bersama berikutnya terjadi setelah 30 hari, yaitu pada tanggal 31 Maret.\nManakah analisis penanggalan yang pasti benar?\nOpsi Jawaban:\nA. Analisis I\nB. Analisis II\nC. Analisis III\nD. Analisis IV\nPembahasan:\nHitung Kelipatan Persekutuan Terkecil (KPK) dari 12, 15, dan 20 untuk menentukan interval pemeliharaan bersama:\nFaktorisasi prima:\n12=2^2×3\n15=3×5\n20=2^2×5\nKPK(12,15,20)=2^2×3×5=60hari\nHitung penanggalan pemeliharaan bersama berikutnya (1Maret+60hari):\nBulan Maret memiliki 31 hari.\nSisa hari di bulan Maret setelah tanggal 1 Maret adalah 31-1=30hari.\nSisa hari yang harus dihitung pada bulan berikutnya (April): 60-30=30hari.\nMaka, 60 hari setelah tanggal 1 Maret jatuh tepat pada tanggal 30 April.\nAnalisis klaim siswa:\nAnalisis I (SALAH): Menyebutkan tanggal 29 April (salah hitung pengurangan hari di bulan Maret).\nAnalisis II (SALAH): Menyebutkan tanggal 1 Mei (mengasumsikan bulan Maret hanya memiliki 30 hari).\nAnalisis III (BENAR): Secara akurat memperhitungkan bahwa bulan Maret terdiri atas 31 hari sehingga 60 hari setelah 1 Maret adalah 30 April.\nAnalisis IV (SALAH): Salah menentukan nilai KPK (30hari bukan KPK dari 12, 15, dan 20).\nKesalahan umum yang diantisipasi: Siswa sering menganggap semua bulan memiliki 30 hari sehingga menghitung 1Maret+60hari=1Mei, atau keliru dalam mengoperasikan pembagian/pengurangan sisa hari kalender.",
+    "original_explanation": "Pembahasan:\nHitung Kelipatan Persekutuan Terkecil (KPK) dari 12, 15, dan 20 untuk menentukan interval pemeliharaan bersama:\nFaktorisasi prima:\n12=2^2×3\n15=3×5\n20=2^2×5\nKPK(12,15,20)=2^2×3×5=60hari\nHitung penanggalan pemeliharaan bersama berikutnya (1Maret+60hari):\nBulan Maret memiliki 31 hari.\nSisa hari di bulan Maret setelah tanggal 1 Maret adalah 31-1=30hari.\nSisa hari yang harus dihitung pada bulan berikutnya (April): 60-30=30hari.\nMaka, 60 hari setelah tanggal 1 Maret jatuh tepat pada tanggal 30 April.\nAnalisis klaim siswa:\nAnalisis I (SALAH): Menyebutkan tanggal 29 April (salah hitung pengurangan hari di bulan Maret).\nAnalisis II (SALAH): Menyebutkan tanggal 1 Mei (mengasumsikan bulan Maret hanya memiliki 30 hari).\nAnalisis III (BENAR): Secara akurat memperhitungkan bahwa bulan Maret terdiri atas 31 hari sehingga 60 hari setelah 1 Maret adalah 30 April.\nAnalisis IV (SALAH): Salah menentukan nilai KPK (30hari bukan KPK dari 12, 15, dan 20).\nKesalahan umum yang diantisipasi: Siswa sering menganggap semua bulan memiliki 30 hari sehingga menghitung 1Maret+60hari=1Mei, atau keliru dalam mengoperasikan pembagian/pengurangan sisa hari kalender.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Analisis I dan III sama-sama benar:60 hari setelah1 Maret adalah30 April. PG tidak boleh memilih III saja. Stem juga menyebut3 analisis tetapi mencantumkan4.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-4-3-2": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -798,46 +950,67 @@
     ]
   },
   "mcma-4-3-8": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 8,
-    "source_body_index": 6176,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "B dan C",
-    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B dan C\nSeorang panitia kegiatan membagikan 80 pak kertas saring dan 112 botol cairan uji ke beberapa kelompok praktikum secara merata tanpa sisa.\nManakah hasil analisis pembagian kelompok berikut yang benar? (Jawaban benar dapat lebih dari satu)\n[ ] A. Jumlah kelompok terbanyak yang dapat menerima paket barang tersebut adalah 32 kelompok.\n[ ] B. Jumlah kelompok terbanyak yang dapat menerima paket barang tersebut adalah 16 kelompok.\n[ ] C. Setiap kelompok yang menerima paket akan mendapatkan 5 pak kertas saring dan 7 botol cairan uji.\n[ ] D. Setiap kelompok yang menerima paket akan mendapatkan 7 pak kertas saring dan 5 botol cairan uji.\nPembahasan:\nMenganalisis FPB dari 80 dan 112:\n80=2^(4)×5\n112=2^(4)×7\nFPB(80,112)=2^(4)=16 kelompok\n(Pernyataan A Salah, Pernyataan B Benar).\nMenganalisis isi per kelompok:\nKertas saring per kelompok = 80÷16=5 pak.\nCairan uji per kelompok = 112÷16=7 botol. (Pernyataan C Benar, Pernyataan D Salah).\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar antara jumlah isi kertas saring (5) dan cairan uji (7).",
-    "original_explanation": "Pembahasan:\nMenganalisis FPB dari 80 dan 112:\n80=2^(4)×5\n112=2^(4)×7\nFPB(80,112)=2^(4)=16 kelompok\n(Pernyataan A Salah, Pernyataan B Benar).\nMenganalisis isi per kelompok:\nKertas saring per kelompok = 80÷16=5 pak.\nCairan uji per kelompok = 112÷16=7 botol. (Pernyataan C Benar, Pernyataan D Salah).\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar antara jumlah isi kertas saring (5) dan cairan uji (7).",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem tidak menetapkan jumlah kelompok maksimum.8 kelompok sama isi sah mendapat10 pak kertas dan14 botol; kunci5 dan7 mengasumsikan16 kelompok.",
+    "source_body_index": 6397,
+    "source_cognitive_label": "C4",
+    "declared_key": "B, C",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: B, C\nSeorang panitia kegiatan membagikan 80 pak kertas saring dan 112 botol cairan uji ke beberapa kelompok praktikum secara merata tanpa sisa.\nJika perlengkapan tersebut dibagi ke dalam jumlah kelompok terbanyak yang mungkin, manakah hasil analisis pembagian kelompok berikut yang benar? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Jumlah kelompok terbanyak yang dapat menerima paket barang tersebut adalah 32 kelompok\n[ ] B. Jumlah kelompok terbanyak yang dapat menerima paket barang tersebut adalah 16 kelompok\n[ ] C. Setiap kelompok yang menerima paket akan mendapatkan 5 pak kertas saring dan 7 botol cairan uji\n[ ] D. Setiap kelompok yang menerima paket akan mendapatkan 7 pak kertas saring dan 5 botol cairan uji\nPembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n80=2^4×5\n112=2^4×7\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah kelompok terbanyak:\nFPB(80,112)=2^4=16 kelompok\nHitung rincian isi barang per kelompok jika dibagi ke dalam 16 kelompok (jumlah terbanyak):\nKertas saring per kelompok: 80÷16=5 pak\nCairan uji per kelompok: 112÷16=7 botol\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (SALAH): Jumlah kelompok terbanyak adalah 16 kelompok, bukan 32 kelompok.\nOpsi B (BENAR): FPB =16, maka jumlah kelompok terbanyak yang dapat menerima paket barang tersebut adalah 16 kelompok.\nOpsi C (BENAR): Setiap kelompok dari 16 kelompok tersebut mendapatkan 80÷16=5 pake kertas saring dan 112÷16=7 botol cairan uji.\nOpsi D (SALAH): Pernyataan ini tertukar, jumlah kertas saring adalah 5 pak dan cairan uji adalah 7 botol per kelompok.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah kertas saring dan cairan uji per kelompok, mengira kertas saring berisi 112÷16=7 pak dan cairan uji berisi 80÷16=5 botol.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n80=2^4×5\n112=2^4×7\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah kelompok terbanyak:\nFPB(80,112)=2^4=16 kelompok\nHitung rincian isi barang per kelompok jika dibagi ke dalam 16 kelompok (jumlah terbanyak):\nKertas saring per kelompok: 80÷16=5 pak\nCairan uji per kelompok: 112÷16=7 botol\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (SALAH): Jumlah kelompok terbanyak adalah 16 kelompok, bukan 32 kelompok.\nOpsi B (BENAR): FPB =16, maka jumlah kelompok terbanyak yang dapat menerima paket barang tersebut adalah 16 kelompok.\nOpsi C (BENAR): Setiap kelompok dari 16 kelompok tersebut mendapatkan 80÷16=5 pake kertas saring dan 112÷16=7 botol cairan uji.\nOpsi D (SALAH): Pernyataan ini tertukar, jumlah kertas saring adalah 5 pak dan cairan uji adalah 7 botol per kelompok.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah kertas saring dan cairan uji per kelompok, mengira kertas saring berisi 112÷16=7 pak dan cairan uji berisi 80÷16=5 botol.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem tidak menetapkan jumlah kelompok maksimum.8 kelompok sama isi sah mendapat10 pak kertas dan14 botol; kunci5 dan7 mengasumsikan16 kelompok.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "kategori-4-3-9": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 9,
-    "source_body_index": 6212,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "(a) BENAR, (b) SALAH, (c) BENAR",
-    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\nSebuah laboratorium sekolah menerima bantuan 60 unit mikroskop dan 84 unit kaca persiapan. Seluruh alat dikemas ke dalam beberapa kotak penyimpanan dengan kombinasi isi yang persis sama tanpa ada sisa.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Kotak penyimpanan terbanyak yang dapat digunakan untuk mengemas seluruh alat adalah 12 kotak.\n | \n | \n\n\n(b) Banyaknya kaca persiapan pada masing-masing kotak penyimpanan adalah 5 unit.\n | \n | \n\n\n(c) Total seluruh unit alat (mikroskop dan kaca persiapan) pada masing-masing kotak penyimpanan adalah 12 unit.\n | \n |\nPembahasan:\nMenganalisis FPB dari 60 dan 84:\n60=2^(2)×3×5\n84=2^(2)×3×7\nFPB(60,84)=2^(2)×3=12 kotak.\nEvaluasi pernyataan:\n(a) BENAR: Jumlah kotak terbanyak = FPB = 12 kotak.\n(b) SALAH: Kaca persiapan per kotak = 84÷12=7 unit (bukan 5 unit; 5 unit adalah mikroskop 60÷12=5).\n(c) BENAR: Mikroskop per kotak = 5 unit; Kaca persiapan per kotak = 7 unit. Total unit per kotak = 5+7=12 unit.\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar antara hasil bagi mikroskop (60÷12=5) sebagai jumlah kaca persiapan.",
-    "original_explanation": "Pembahasan:\nMenganalisis FPB dari 60 dan 84:\n60=2^(2)×3×5\n84=2^(2)×3×7\nFPB(60,84)=2^(2)×3=12 kotak.\nEvaluasi pernyataan:\n(a) BENAR: Jumlah kotak terbanyak = FPB = 12 kotak.\n(b) SALAH: Kaca persiapan per kotak = 84÷12=7 unit (bukan 5 unit; 5 unit adalah mikroskop 60÷12=5).\n(c) BENAR: Mikroskop per kotak = 5 unit; Kaca persiapan per kotak = 7 unit. Total unit per kotak = 5+7=12 unit.\nKesalahan Umum yang Diantisipasi:\nSiswa tertukar antara hasil bagi mikroskop (60÷12=5) sebagai jumlah kaca persiapan.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem tidak menetapkan jumlah kotak maksimum.6 kotak sama isi sah memuat10 mikroskop dan14 kaca; total24, bukan12. Kunci mengasumsikan12 kotak.",
+    "source_body_index": 6439,
+    "source_cognitive_label": "C4",
+    "declared_key": "(a) BENAR; (b) SALAH; (c) BENAR",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4\nKunci Jawaban: (a) BENAR; (b) SALAH; (c) BENAR\nSebuah laboratorium sekolah menerima bantuan 60 unit mikroskop dan 84 unit kaca persiapan. Seluruh alat dikemas ke dalam beberapa kotak penyimpanan dengan kombinasi isi yang persis sama tanpa ada sisa.\nJika seluruh alat dikemas ke dalam jumlah kotak penyimpanan terbanyak yang mungkin dibuat, tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nOpsi Jawaban:\n(a) Kotak penyimpanan terbanyak yang dapat digunakan untuk mengemas seluruh alat adalah 12 kotak.\n(b) Banyaknya kaca persiapan pada masing-masing kotak penyimpanan adalah 5 unit.\n(c) Total seluruh unit alat (mikroskop dan kaca persiapan) pada masing-masing kotak penyimpanan adalah 12 unit.\nPembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n60=2^2×3×5\n84=2^2×3×7\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah kotak penyimpanan terbanyak:\nFPB(60,84)=2^2×3=4×3=12 kotak\nHitung rincian alat per kotak penyimpanan jika dikemas ke dalam 12 kotak (jumlah terbanyak):\nMikroskop per kotak: 60÷12=5 unit\nKaca persiapan per kotak: 84÷12=7 unit\nTotal unit alat per kotak: 5+7=12 unit\nEvaluasi setiap pernyataan analisis:\nPernyataan (a) BENAR: Nilai FPB =12, maka kotak penyimpanan terbanyak yang dapat digunakan untuk mengemas seluruh alat adalah 12 kotak.\nPernyataan (b) SALAH: Banyaknya kaca persiapan pada masing-masing kotak adalah 84÷12=7 unit, bukan 5 unit (5 unit adalah jumlah mikroskop).\nPernyataan (c) BENAR: Total seluruh unit alat (mikroskop dan kaca persiapan) pada masing-masing kotak adalah 5+7=12 unit.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah mikroskop dan kaca persiapan, mengira kaca persiapan per kotak adalah 60÷12=5 unit dan mikroskop per kotak adalah 84÷12=7 unit.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n60=2^2×3×5\n84=2^2×3×7\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan jumlah kotak penyimpanan terbanyak:\nFPB(60,84)=2^2×3=4×3=12 kotak\nHitung rincian alat per kotak penyimpanan jika dikemas ke dalam 12 kotak (jumlah terbanyak):\nMikroskop per kotak: 60÷12=5 unit\nKaca persiapan per kotak: 84÷12=7 unit\nTotal unit alat per kotak: 5+7=12 unit\nEvaluasi setiap pernyataan analisis:\nPernyataan (a) BENAR: Nilai FPB =12, maka kotak penyimpanan terbanyak yang dapat digunakan untuk mengemas seluruh alat adalah 12 kotak.\nPernyataan (b) SALAH: Banyaknya kaca persiapan pada masing-masing kotak adalah 84÷12=7 unit, bukan 5 unit (5 unit adalah jumlah mikroskop).\nPernyataan (c) BENAR: Total seluruh unit alat (mikroskop dan kaca persiapan) pada masing-masing kotak adalah 5+7=12 unit.\nKesalahan umum yang diantisipasi: Siswa sering tertukar saat membagi jumlah mikroskop dan kaca persiapan, mengira kaca persiapan per kotak adalah 60÷12=5 unit dan mikroskop per kotak adalah 84÷12=7 unit.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem tidak menetapkan jumlah kotak maksimum.6 kotak sama isi sah memuat10 mikroskop dan14 kaca; total24, bukan12. Kunci mengasumsikan12 kotak.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "kategori-4-3-10": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 10,
-    "source_body_index": 6241,
-    "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "(a) BENAR, (b) BENAR, (c) SALAH",
-    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\nDua pita pengukur latihan olahraga berukuran 75 cm dan 105 cm dipotong menjadi beberapa bagian yang sama panjang tanpa ada sisa. Seorang siswa menganalisis hasil pemotongan tersebut.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nPernyataan | \nBenar | \nSalah\n\n(a) Ukuran panjang potongan pita terpanjang yang dapat dibuat adalah 15 cm.\n | \n | \n\n\n(b) Jumlah seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 12 potongan.\n | \n | \n\n\n(c) Jumlah potongan dari pita 105 cm dua kali lebih banyak daripada potongan dari pita 75 cm.\n | \n |\nPembahasan:\nMenganalisis FPB dari 75 dan 105:\n75=3×5^(2)\n105=3×5×7\nFPB(75,105)=3×5=15 cm.\nEvaluasi pernyataan:\n(a) BENAR: Potongan terpanjang = FPB = 15 cm.\n(b) BENAR:\nPotongan pita 75 cm=75÷15=5 potongan.\nPotongan pita 105 cm=105÷15=7 potongan.\nTotal potongan = 5+7=12 potongan.\n(c) SALAH: Perbandingan potongan pita 105cm dan 75cm adalah 7:5, bukan dua kali lipat (2:1).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru mengira rasio potongan 7:5 sebagai rasio dua kali lipat (14:7).",
-    "original_explanation": "Pembahasan:\nMenganalisis FPB dari 75 dan 105:\n75=3×5^(2)\n105=3×5×7\nFPB(75,105)=3×5=15 cm.\nEvaluasi pernyataan:\n(a) BENAR: Potongan terpanjang = FPB = 15 cm.\n(b) BENAR:\nPotongan pita 75 cm=75÷15=5 potongan.\nPotongan pita 105 cm=105÷15=7 potongan.\nTotal potongan = 5+7=12 potongan.\n(c) SALAH: Perbandingan potongan pita 105cm dan 75cm adalah 7:5, bukan dua kali lipat (2:1).\nKesalahan Umum yang Diantisipasi:\nSiswa keliru mengira rasio potongan 7:5 sebagai rasio dua kali lipat (14:7).",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Pita75/105cm dipotong5cm menghasilkan36 potongan, bukan12. Kunci mengasumsikan panjang15cm.",
+    "source_body_index": 6482,
+    "source_cognitive_label": "C4",
+    "declared_key": "(a) BENAR; (b) BENAR; (c) SALAH",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\nLevel Kognitif: C4\nKunci Jawaban: (a) BENAR; (b) BENAR; (c) SALAH\nDua pita pengukur latihan olahraga berukuran 75 cm dan 105 cm dipotong menjadi beberapa bagian yang sama panjang tanpa ada sisa. Seorang siswa menganalisis hasil pemotongan tersebut.\nJika kedua pita dipotong dengan ukuran terpanjang yang mungkin dibuat, tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\nOpsi Jawaban:\n(a) Ukuran panjang potongan pita terpanjang yang dapat dibuat adalah 15cm.\n(b) Jumlah seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 12 potongan.\n(c) Jumlah potongan dari pita 105cm dua kali lebih banyak daripada potongan dari pita 75cm.\nPembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n75=3×5^2\n105=3×5×7\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan ukuran potongan pita terpanjang:\nFPB(75,105)=3×5=15 cm\nHitung rincian hasil potongan dari masing-masing pita jika dipotong dengan ukuran terpanjang (15cm):\nPotongan dari pita 75 cm: 75÷15=5 potongan\nPotongan dari pita 105 cm: 105÷15=7 potongan\nTotal seluruh potongan: 5+7=12 potongan\nEvaluasi setiap pernyataan analisis:\nPernyataan (a) BENAR: Nilai FPB =15cm, maka ukuran panjang potongan pita terpanjang yang dapat dibuat adalah 15 cm.\nPernyataan (b) BENAR: Total potongan yang diperoleh dari kedua pita tersebut dengan ukuran terpanjang adalah 5+7=12 potongan.\nPernyataan (c) SALAH: Perbandingan potongan dari pita 105cm dan 75 cm adalah 7:5. Angka 7 potongan bukan dua kali lipat (2:1) dari 5potongan (dua kali lipat dari 5potongan seharusnya adalah 10 potongan).\nKesalahan umum yang diantisipasi: Siswa sering mengasumsikan ukuran pemotongan sembarang (misalnya dipotong 5cm sehingga menghasilkan 15+21=36 potongan) tanpa mencari FPB terlebih dahulu, atau keliru mengartikan rasio 7:5 sebagai bentuk perbandingan dua kali lipat.",
+    "original_explanation": "Pembahasan:\nHitung Faktorisasi Prima dari kedua bilangan:\n75=3×5^2\n105=3×5×7\nHitung Faktor Persekutuan Terbesar (FPB) untuk menentukan ukuran potongan pita terpanjang:\nFPB(75,105)=3×5=15 cm\nHitung rincian hasil potongan dari masing-masing pita jika dipotong dengan ukuran terpanjang (15cm):\nPotongan dari pita 75 cm: 75÷15=5 potongan\nPotongan dari pita 105 cm: 105÷15=7 potongan\nTotal seluruh potongan: 5+7=12 potongan\nEvaluasi setiap pernyataan analisis:\nPernyataan (a) BENAR: Nilai FPB =15cm, maka ukuran panjang potongan pita terpanjang yang dapat dibuat adalah 15 cm.\nPernyataan (b) BENAR: Total potongan yang diperoleh dari kedua pita tersebut dengan ukuran terpanjang adalah 5+7=12 potongan.\nPernyataan (c) SALAH: Perbandingan potongan dari pita 105cm dan 75 cm adalah 7:5. Angka 7 potongan bukan dua kali lipat (2:1) dari 5potongan (dua kali lipat dari 5potongan seharusnya adalah 10 potongan).\nKesalahan umum yang diantisipasi: Siswa sering mengasumsikan ukuran pemotongan sembarang (misalnya dipotong 5cm sehingga menghasilkan 15+21=36 potongan) tanpa mencari FPB terlebih dahulu, atau keliru mengartikan rasio 7:5 sebagai bentuk perbandingan dua kali lipat.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem meminta potongan sama panjang, tanpa syarat terpanjang. Pita75/105cm dipotong5cm menghasilkan36 potongan, bukan12. Kunci mengasumsikan panjang15cm.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-5-1-1": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -896,18 +1069,25 @@
     ]
   },
   "pg-5-1-5": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 5,
-    "source_body_index": 7206,
-    "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "B. 240 kilometer",
-    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: B. 240 kilometer\nTabel berikut menunjukkan hubungan proporsional antara volume bahan bakar minyak (bensin) yang digunakan sepeda motor inventaris sekolah dan jarak tempuh yang berhasil dicapai:\nVolume Bensin (liter) | \nJarak Tempuh (km)\n\n2 | \n80\n\n3 | \n120\n\n5 | \n200\n\nk | \n240\nBerdasarkan hubungan proporsional pada tabel di atas, berapa nilai k (jarak tempuh 240 km memerlukan berapa liter bensin)?\nA. 5,5 liter\nB. 6,0 liter\nC. 6,5 liter\nD. 7,0 liter\nPembahasan:\nTentukan konstanta proporsionalitas (rasio jarak per liter bensin):\nRasio=(80)/(2)=(120)/(3)=(200)/(5)=40 km/liter\nGunakan rasio untuk menentukan nilai k pada jarak 240 km:\nVolume Bensin (k)=(Jarak  Tempuh)/(Rasio)=(240 km)/(40 km/liter)=6 liter\nJadi, nilai k adalah 6 liter (sehingga opsi jawaban bensin untuk 240 km adalah 6 liter).\nKesalahan Umum yang Diantisipasi:\nSiswa salah memprediksi selisih linear dengan hanya mengurangkan baris 5-3=2 lalu menambahkan 200+40=240 tanpa membagi secara tepat rasio konstantanya.",
-    "original_explanation": "Pembahasan:\nTentukan konstanta proporsionalitas (rasio jarak per liter bensin):\nRasio=(80)/(2)=(120)/(3)=(200)/(5)=40 km/liter\nGunakan rasio untuk menentukan nilai k pada jarak 240 km:\nVolume Bensin (k)=(Jarak  Tempuh)/(Rasio)=(240 km)/(40 km/liter)=6 liter\nJadi, nilai k adalah 6 liter (sehingga opsi jawaban bensin untuk 240 km adalah 6 liter).\nKesalahan Umum yang Diantisipasi:\nSiswa salah memprediksi selisih linear dengan hanya mengurangkan baris 5-3=2 lalu menambahkan 200+40=240 tanpa membagi secara tepat rasio konstantanya.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Stem/opsi B/pembahasan meminta6liter, caption header B menyebut240kilometer. Unit dan makna kunci bertentangan.",
+    "source_body_index": 7453,
+    "source_cognitive_label": "C3",
+    "declared_key": "B",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: B\nTabel berikut menunjukkan hubungan proporsional antara volume bahan bakar minyak (bensin) yang digunakan sepeda motor inventaris sekolah dan jarak tempuh yang berhasil dicapai:\nVolume Bensin (liter) | Jarak Tempuh (km)\n2 | 80\n3 | 120\n5 | 200\nk | 240\nBerdasarkan hubungan proporsional pada tabel di atas, berapa nilai k (volume bensin yang dibutuhkan untuk menempuh jarak 240km)?\nOpsi Jawaban:\nA. 5,5 liter\nB. 6,0 liter\nC. 6,5 liter\nD. 7,0 liter\nPembahasan:\nTentukan konstanta proporsionalitas (rasio jarak tempuh per liter bensin):\nRasio=(80)/(2)=(120)/(3)=(200)/(5)=40 km/liter\nGunakan rasio proporsional untuk menghitung nilai k (volume bensin untuk jarak 240km):\nk=(Jarak Tempuh)/(Rasio)=(240 km)/(40 km/liter)=6 liter\nAnalisis opsi pilihan jawaban:\nOpsi A (5,5 liter): Salah, muncul jika siswa keliru membagi 240÷40 atau salah mengalikan pecahan desimal.\nOpsi B (6,0 liter - BENAR): Hasil perhitungan rasio perbandingan senilai yang tepat dan akurat (240÷40=6).\nOpsi C (6,5 liter): Salah, muncul jika siswa keliru mengasumsikan pertambahan volume bensin secara konstan tanpa menghitung nilai rasio sesungguhnya.\nOpsi D (7,0 liter): Salah, muncul jika siswa melakukan estimasi pembulatan ke atas yang tidak tepat.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam mengoperasikan pembagian rasio atau hanya mengandalkan estimasi pertambahan baris tanpa menguji konstanta perbandingan senilainya secara matematis.",
+    "original_explanation": "Pembahasan:\nTentukan konstanta proporsionalitas (rasio jarak tempuh per liter bensin):\nRasio=(80)/(2)=(120)/(3)=(200)/(5)=40 km/liter\nGunakan rasio proporsional untuk menghitung nilai k (volume bensin untuk jarak 240km):\nk=(Jarak Tempuh)/(Rasio)=(240 km)/(40 km/liter)=6 liter\nAnalisis opsi pilihan jawaban:\nOpsi A (5,5 liter): Salah, muncul jika siswa keliru membagi 240÷40 atau salah mengalikan pecahan desimal.\nOpsi B (6,0 liter - BENAR): Hasil perhitungan rasio perbandingan senilai yang tepat dan akurat (240÷40=6).\nOpsi C (6,5 liter): Salah, muncul jika siswa keliru mengasumsikan pertambahan volume bensin secara konstan tanpa menghitung nilai rasio sesungguhnya.\nOpsi D (7,0 liter): Salah, muncul jika siswa melakukan estimasi pembulatan ke atas yang tidak tepat.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam mengoperasikan pembagian rasio atau hanya mengandalkan estimasi pertambahan baris tanpa menguji konstanta perbandingan senilainya secara matematis.",
+    "generation_status": "DEFERRED_CONCEPTUAL",
+    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Stem/opsi B/pembahasan meminta6liter, caption header B menyebut240kilometer. Unit dan makna kunci bertentangan.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "mcma-5-1-6": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -1148,18 +1328,25 @@
     ]
   },
   "pg-5-3-3": {
-    "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
     "source_number": 3,
-    "source_body_index": 7779,
+    "source_body_index": 8032,
     "source_cognitive_label": "C4 (Menganalisis)",
     "declared_key": "B. 24 liter/menit",
-    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B. 24 liter/menit\nDua buah selang pengisi air digunakan untuk menguras dan mengisi kembali dua akuarium sekolah yang berukuran berbeda:\nSelang P: Mengisi akuarium berkapasitas 300 liter sampai penuh dalam waktu 15 menit.\nSelang Q: Mengisi akuarium berkapasitas 480 liter sampai penuh dalam waktu 20 menit.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang Q dan Selang P. Selisih debit air kedua selang tersebut adalah ....\nA. 2 liter/menit\nB. 4 liter/menit\nC. 6 liter/menit\nD. 8 liter/menit\nPembahasan:\nHitung debit Selang P (Q_(P)):\nQ_(P)=(300 liter)/(15 menit)=20 liter/menit\nHitung debit Selang Q (Q_(Q)):\nQ_(Q)=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit (Q_(Q)-Q_(P)):\nSelisih=24-20=4 liter/menit\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengurangkan volume (480-300=180) dan waktu (20-15=5) terlebih dahulu, lalu membagi 180÷5=36 liter/menit.",
-    "original_explanation": "Pembahasan:\nHitung debit Selang P (Q_(P)):\nQ_(P)=(300 liter)/(15 menit)=20 liter/menit\nHitung debit Selang Q (Q_(Q)):\nQ_(Q)=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit (Q_(Q)-Q_(P)):\nSelisih=24-20=4 liter/menit\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengurangkan volume (480-300=180) dan waktu (20-15=5) terlebih dahulu, lalu membagi 180÷5=36 liter/menit.",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B. 24 liter/menit\nDua buah selang pengisi air digunakan untuk menguras dan mengisi kembali dua akuarium sekolah yang berukuran berbeda:\nSelang P: Mengisi akuarium berkapasitas 300 liter sampai penuh dalam waktu 15 menit.\nSelang Q: Mengisi akuarium berkapasitas 480 liter sampai penuh dalam waktu 20 menit.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang Q dan Selang P. Selisih debit air kedua selang tersebut adalah ....\nA. 2 liter/menit\nB. 4 liter/menit\nC. 6 liter/menit\nD. 8 liter/menit\nPembahasan:\nHitung debit Selang P (Q_P):\nQ_P=(300 liter)/(15 menit)=20 liter/menit\nHitung debit Selang Q (Q_Q):\nQ_Q=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit (Q_Q-Q_P):\nSelisih=24-20=4 liter/menit\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengurangkan volume (480-300=180) dan waktu (20-15=5) terlebih dahulu, lalu membagi 180÷5=36 liter/menit.",
+    "original_explanation": "Pembahasan:\nHitung debit Selang P (Q_P):\nQ_P=(300 liter)/(15 menit)=20 liter/menit\nHitung debit Selang Q (Q_Q):\nQ_Q=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit (Q_Q-Q_P):\nSelisih=24-20=4 liter/menit\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengurangkan volume (480-300=180) dan waktu (20-15=5) terlebih dahulu, lalu membagi 180÷5=36 liter/menit.",
     "generation_status": "HOLD_SOURCE",
-    "reason": "Selisih debit4liter/menit pada opsi B; caption header B menyebut24liter/menit yaitu debitQ, bukan selisih.",
+    "reason": "Revisi belum mengubah konflik header: B. 24 liter/menit, sedangkan opsi B dan pembahasan selisih debit adalah 4 liter/menit. 24 merupakan debit Q, bukan selisih.",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
-    ]
+    ],
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM_PENDING_REVIEW",
+    "generator_status": "NOT_IMPLEMENTED",
+    "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
+    "previous_generation_status": "HOLD_SOURCE",
+    "previous_reason": "Selisih debit4liter/menit pada opsi B; caption header B menyebut24liter/menit yaitu debitQ, bukan selisih.",
+    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
   },
   "pg-5-3-4": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",

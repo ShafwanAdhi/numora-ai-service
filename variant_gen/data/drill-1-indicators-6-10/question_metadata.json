@@ -54,18 +54,29 @@
   "pg-6-1-5": {
     "source_number": 5,
     "source_ordinal_within_indicator": 5,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN :\nSebuah mesin pemotong rumput di sekolah memerlukan 1,5liter bensin untuk beroperasi selama 2jam dan mampu merapikan lahan rumput seluas 120(m)^(2). Jika petugas kebersihan hendak merapikan lapangan rumput sekolah seluas 360(m)^(2) menggunakan mesin yang sama dengan laju kerja konstan, banyak bensin yang dibutuhkan adalah ....\nA. 3,0liter\nB. 4,0liter\nC. 4,5liter\nD. 6,0liter\nPEMBAHASAN\nLuas lahan dan volume bensin yang dibutuhkan berbanding senilai (waktu operasi berbanding lurus dengan luas lahan).\n(Luas_1)/(Luas_2)=(Bensin_1)/(Bensin_2)\n120/360 = 1,5/B ⇒ 1/3 = 1,5/B ⇒ B = 1,5 × 3 = 4,5 liter\nKesalahan Umum yang Diantisipasi:\nSiswa terkadang terkecoh dengan angka \"2jam\" dan mencoba memasukkannya ke dalam rumus perkalian sehingga membuat perhitungan menjadi tidak perlu atau salah proporsi.",
-    "original_explanation": "PEMBAHASAN\nLuas lahan dan volume bensin yang dibutuhkan berbanding senilai (waktu operasi berbanding lurus dengan luas lahan).\n(Luas_1)/(Luas_2)=(Bensin_1)/(Bensin_2)\n120/360 = 1,5/B ⇒ 1/3 = 1,5/B ⇒ B = 1,5 × 3 = 4,5 liter\nKesalahan Umum yang Diantisipasi:\nSiswa terkadang terkecoh dengan angka \"2jam\" dan mencoba memasukkannya ke dalam rumus perkalian sehingga membuat perhitungan menjadi tidak perlu atau salah proporsi.",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : C\nSebuah mesin pemotong rumput di sekolah memerlukan 1,5 liter bensin untuk beroperasi selama 2 jam dan mampu merapikan lahan rumput seluas 120m^2. Jika petugas kebersihan hendak merapikan lapangan rumput sekolah seluas 360m^2 menggunakan mesin yang sama dengan laju kerja konstan, banyak bensin yang dibutuhkan adalah ....\nA. 3,0 liter\nB. 4,0 liter\nC. 4,5 liter\nD. 6,0 liter\nPEMBAHASAN\nAnalisis Hubungan Variabel: Hubungan antara luas lahan (L) dan kebutuhan bensin (B) merupakan perbandingan senilai (berbanding lurus). Semakin luas lahan yang dipotong, semakin banyak bensin yang dibutuhkan. (Informasi durasi \"2 jam\" pada soal merupakan informasi penyerta yang tidak memengaruhi perhitungan langsung hubungan antara luas lahan dan volume bensin).\nLangkah Perhitungan: Gunakan rumus perbandingan senilai: (Luas_1)/(Luas_2)=(Bensin_1)/(Bensin_2)\nSubstitusikan nilai yang diketahui: (120)/(360)=(1,5)/(B)\nSederhanakan pecahan (120)/(360) menjadi (1)/(3): (1)/(3)=(1,5)/(B)\nB=1,5×3\nB=4,5liter\nKesimpulan:\nBanyak bensin yang dibutuhkan untuk merapikan lahan seluas 360m^2 adalah 4,5 liter. Jawaban yang tepat adalah C.",
+    "original_explanation": "PEMBAHASAN\nAnalisis Hubungan Variabel: Hubungan antara luas lahan (L) dan kebutuhan bensin (B) merupakan perbandingan senilai (berbanding lurus). Semakin luas lahan yang dipotong, semakin banyak bensin yang dibutuhkan. (Informasi durasi \"2 jam\" pada soal merupakan informasi penyerta yang tidak memengaruhi perhitungan langsung hubungan antara luas lahan dan volume bensin).\nLangkah Perhitungan: Gunakan rumus perbandingan senilai: (Luas_1)/(Luas_2)=(Bensin_1)/(Bensin_2)\nSubstitusikan nilai yang diketahui: (120)/(360)=(1,5)/(B)\nSederhanakan pecahan (120)/(360) menjadi (1)/(3): (1)/(3)=(1,5)/(B)\nB=1,5×3\nB=4,5liter\nKesimpulan:\nBanyak bensin yang dibutuhkan untuk merapikan lahan seluas 360m^2 adalah 4,5 liter. Jawaban yang tepat adalah C.",
     "declared_keys": [
-      "KUNCI JAWABAN :"
+      "C"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [
       "Header kunci kosong; pembahasan menghasilkan 4,5 liter (opsi C), bukan kunci sumber yang eksplisit."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Header kunci kosong; pembahasan menghasilkan 4,5 liter (opsi C), bukan kunci sumber yang eksplisit."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN :\nSebuah mesin pemotong rumput di sekolah memerlukan 1,5liter bensin untuk beroperasi selama 2jam dan mampu merapikan lahan rumput seluas 120(m)^(2). Jika petugas kebersihan hendak merapikan lapangan rumput sekolah seluas 360(m)^(2) menggunakan mesin yang sama dengan laju kerja konstan, banyak bensin yang dibutuhkan adalah ....\nA. 3,0liter\nB. 4,0liter\nC. 4,5liter\nD. 6,0liter\nPEMBAHASAN\nLuas lahan dan volume bensin yang dibutuhkan berbanding senilai (waktu operasi berbanding lurus dengan luas lahan).\n(Luas_1)/(Luas_2)=(Bensin_1)/(Bensin_2)\n120/360 = 1,5/B ⇒ 1/3 = 1,5/B ⇒ B = 1,5 × 3 = 4,5 liter\nKesalahan Umum yang Diantisipasi:\nSiswa terkadang terkecoh dengan angka \"2jam\" dan mencoba memasukkannya ke dalam rumus perkalian sehingga membuat perhitungan menjadi tidak perlu atau salah proporsi.",
+      "original_explanation": "PEMBAHASAN\nLuas lahan dan volume bensin yang dibutuhkan berbanding senilai (waktu operasi berbanding lurus dengan luas lahan).\n(Luas_1)/(Luas_2)=(Bensin_1)/(Bensin_2)\n120/360 = 1,5/B ⇒ 1/3 = 1,5/B ⇒ B = 1,5 × 3 = 4,5 liter\nKesalahan Umum yang Diantisipasi:\nSiswa terkadang terkecoh dengan angka \"2jam\" dan mencoba memasukkannya ke dalam rumus perkalian sehingga membuat perhitungan menjadi tidak perlu atau salah proporsi.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Header kunci kosong; pembahasan menghasilkan 4,5 liter (opsi C), bukan kunci sumber yang eksplisit.",
+      "source_number": 5
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "mcma-6-1-6": {
     "source_number": 6,
@@ -352,18 +363,29 @@
   "mcma-6-3-7": {
     "source_number": 7,
     "source_ordinal_within_indicator": 27,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A, B, C\nDalam persiapan kegiatan Perjusa, dua regu Pramuka membawa persediaan makanan:\nRegu Elang (beranggotakan 6 siswa) memiliki persediaan makanan yang cukup untuk 10 hari.\nRegu Sriti (beranggotakan 4 siswa) memiliki persediaan makanan yang cukup untuk 15 hari.\nAsumsikan standar porsi pakan per siswa per hari pada kedua regu adalah sama. Manakah pernyataan analisis berikut yang BENAR? (Jawaban boleh lebih dari satu)\n[ ] A. Total porsi makanan persediaan awal Regu Elang dan Regu Sriti adalah sama banyak.\n[ ] B. Jika persediaan makanan kedua regu digabungkan untuk dikonsumsi bersama oleh 10 siswa, persediaan tersebut akan habis dalam waktu 12 hari.\n[ ] C. Jika pada hari ke-3 Regu Elang mendapat 2 anggota tambahan, sisa makanan Regu Elang akan habis dalam waktu 5,25 hari.\n[ ] D. Rata-rata porsi harian per siswa pada Regu Sriti dua kali lebih banyak daripada Regu Elang.\nPEMBAHASAN\nA (BENAR): Total porsi Regu Elang = 6×10=60 porsi; Regu Sriti = 4×15=60 porsi.\nB (BENAR): Total porsi gabungan = 60+60=120 porsi. Untuk 10 siswa, makanan bertahan (120)/(10)=12hari.\nC (BENAR): Setelah 2 hari berjalan, Regu Elang telah mengonsumsi 6×2=12 porsi (sisa porsi = 60-12=48 porsi, wait: jika pada hari ke-3 berarti sudah berjalan 2 hari penuh).\nSiswa baru = 6+2=8 siswa. Sisa hari bertahan = (42)/(8)=5,25hari (setelah dikurangi 3 hari terlewati: 60-(6×3)=42 porsi).\nD (SALAH): Asumsi standar porsi per siswa pada kedua regu adalah sama.\nKesalahan Umum yang Diantisipasi:\nSiswa gagal menghitung pengurangan porsi makanan yang telah dikonsumsi sebelum ada anggota baru yang bergabung.",
-    "original_explanation": "PEMBAHASAN\nA (BENAR): Total porsi Regu Elang = 6×10=60 porsi; Regu Sriti = 4×15=60 porsi.\nB (BENAR): Total porsi gabungan = 60+60=120 porsi. Untuk 10 siswa, makanan bertahan (120)/(10)=12hari.\nC (BENAR): Setelah 2 hari berjalan, Regu Elang telah mengonsumsi 6×2=12 porsi (sisa porsi = 60-12=48 porsi, wait: jika pada hari ke-3 berarti sudah berjalan 2 hari penuh). Siswa baru = 6+2=8 siswa. Sisa hari bertahan = (42)/(8)=5,25hari (setelah dikurangi 3 hari terlewati: 60-(6×3)=42 porsi).\nD (SALAH): Asumsi standar porsi per siswa pada kedua regu adalah sama.\nKesalahan Umum yang Diantisipasi:\nSiswa gagal menghitung pengurangan porsi makanan yang telah dikonsumsi sebelum ada anggota baru yang bergabung.",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A, B, C\n\nDalam persiapan kegiatan Perjusa, dua regu Pramuka membawa persediaan makanan:\nRegu Elang (beranggotakan 6 siswa) memiliki persediaan makanan yang cukup untuk 10 hari.\nRegu Sriti (beranggotakan 4 siswa) memiliki persediaan makanan yang cukup untuk 15 hari.\nAsumsikan standar porsi pakan per siswa per hari pada kedua regu adalah sama. Manakah pernyataan analisis berikut yang BENAR? (Jawaban boleh lebih dari satu)\n[ ] A. Total porsi makanan persediaan awal Regu Elang dan Regu Sriti adalah sama banyak.\n[ ] B. Jika persediaan makanan kedua regu digabungkan untuk dikonsumsi bersama oleh 10 siswa, persediaan tersebut akan habis dalam waktu 12 hari.\n[ ] C. Jika pada hari ke-3 Regu Elang mendapat 2 anggota tambahan, sisa makanan Regu Elang akan habis dalam waktu 5 hari.\n[ ] D. Rata-rata porsi harian per siswa pada Regu Sriti dua kali lebih banyak daripada Regu Elang.\n\nPEMBAHASAN\nA (BENAR): Total porsi Regu Elang = 6×10=60 porsi; Regu Sriti = 4×15=60 porsi.\nB (BENAR): Total porsi gabungan = 60+60=120 porsi. Untuk 10 siswa, makanan bertahan (120)/(10)=12hari.\nC (BENAR): Setelah 2 hari berjalan, Regu Elang telah mengonsumsi 6×2=12 porsi (sisa porsi = 60-12=48 porsi, wait: jika pada hari ke-3 berarti sudah berjalan 2 hari penuh). Siswa baru = 6+2=8 siswa. Sisa hari bertahan = (42)/(8)=5 hari (setelah dikurangi 3 hari terlewati: 60-(6×3)=42 porsi).\nD (SALAH): Asumsi standar porsi per siswa pada kedua regu adalah sama.\n\nKesalahan Umum yang Diantisipasi:\nSiswa gagal menghitung pengurangan porsi makanan yang telah dikonsumsi sebelum ada anggota baru yang bergabung.\n",
+    "original_explanation": "PEMBAHASAN\nA (BENAR): Total porsi Regu Elang = 6×10=60 porsi; Regu Sriti = 4×15=60 porsi.\nB (BENAR): Total porsi gabungan = 60+60=120 porsi. Untuk 10 siswa, makanan bertahan (120)/(10)=12hari.\nC (BENAR): Setelah 2 hari berjalan, Regu Elang telah mengonsumsi 6×2=12 porsi (sisa porsi = 60-12=48 porsi, wait: jika pada hari ke-3 berarti sudah berjalan 2 hari penuh). Siswa baru = 6+2=8 siswa. Sisa hari bertahan = (42)/(8)=5 hari (setelah dikurangi 3 hari terlewati: 60-(6×3)=42 porsi).\nD (SALAH): Asumsi standar porsi per siswa pada kedua regu adalah sama.\nKesalahan Umum yang Diantisipasi:\nSiswa gagal menghitung pengurangan porsi makanan yang telah dikonsumsi sebelum ada anggota baru yang bergabung.",
     "declared_keys": [
-      "KUNCI JAWABAN : A, B, C"
+      "A, B, C"
     ],
     "generation_status": "HOLD_SOURCE",
     "notes": [
       "Frasa pada hari ke-3 ambigu; jawaban 5,25 hari mengasumsikan tiga hari penuh telah berlalu."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Frasa pada hari ke-3 ambigu; jawaban 5,25 hari mengasumsikan tiga hari penuh telah berlalu."
+    "audit": "Impor revisi kurikulum lokal; generator tidak dibuat dan tidak diaktifkan.",
+    "reason": "Revisi masih konflik: pada awal hari ke-3 sisa makanan 48/8=6 hari; setelah tiga hari penuh 42/8=5,25 hari. Pernyataan C menyebut 5 hari dan pembahasan mencampur dua/tiga hari serta menulis 42/8=5; kunci A,B,C belum valid.",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A, B, C\nDalam persiapan kegiatan Perjusa, dua regu Pramuka membawa persediaan makanan:\nRegu Elang (beranggotakan 6 siswa) memiliki persediaan makanan yang cukup untuk 10 hari.\nRegu Sriti (beranggotakan 4 siswa) memiliki persediaan makanan yang cukup untuk 15 hari.\nAsumsikan standar porsi pakan per siswa per hari pada kedua regu adalah sama. Manakah pernyataan analisis berikut yang BENAR? (Jawaban boleh lebih dari satu)\n[ ] A. Total porsi makanan persediaan awal Regu Elang dan Regu Sriti adalah sama banyak.\n[ ] B. Jika persediaan makanan kedua regu digabungkan untuk dikonsumsi bersama oleh 10 siswa, persediaan tersebut akan habis dalam waktu 12 hari.\n[ ] C. Jika pada hari ke-3 Regu Elang mendapat 2 anggota tambahan, sisa makanan Regu Elang akan habis dalam waktu 5,25 hari.\n[ ] D. Rata-rata porsi harian per siswa pada Regu Sriti dua kali lebih banyak daripada Regu Elang.\nPEMBAHASAN\nA (BENAR): Total porsi Regu Elang = 6×10=60 porsi; Regu Sriti = 4×15=60 porsi.\nB (BENAR): Total porsi gabungan = 60+60=120 porsi. Untuk 10 siswa, makanan bertahan (120)/(10)=12hari.\nC (BENAR): Setelah 2 hari berjalan, Regu Elang telah mengonsumsi 6×2=12 porsi (sisa porsi = 60-12=48 porsi, wait: jika pada hari ke-3 berarti sudah berjalan 2 hari penuh).\nSiswa baru = 6+2=8 siswa. Sisa hari bertahan = (42)/(8)=5,25hari (setelah dikurangi 3 hari terlewati: 60-(6×3)=42 porsi).\nD (SALAH): Asumsi standar porsi per siswa pada kedua regu adalah sama.\nKesalahan Umum yang Diantisipasi:\nSiswa gagal menghitung pengurangan porsi makanan yang telah dikonsumsi sebelum ada anggota baru yang bergabung.",
+      "original_explanation": "PEMBAHASAN\nA (BENAR): Total porsi Regu Elang = 6×10=60 porsi; Regu Sriti = 4×15=60 porsi.\nB (BENAR): Total porsi gabungan = 60+60=120 porsi. Untuk 10 siswa, makanan bertahan (120)/(10)=12hari.\nC (BENAR): Setelah 2 hari berjalan, Regu Elang telah mengonsumsi 6×2=12 porsi (sisa porsi = 60-12=48 porsi, wait: jika pada hari ke-3 berarti sudah berjalan 2 hari penuh). Siswa baru = 6+2=8 siswa. Sisa hari bertahan = (42)/(8)=5,25hari (setelah dikurangi 3 hari terlewati: 60-(6×3)=42 porsi).\nD (SALAH): Asumsi standar porsi per siswa pada kedua regu adalah sama.\nKesalahan Umum yang Diantisipasi:\nSiswa gagal menghitung pengurangan porsi makanan yang telah dikonsumsi sebelum ada anggota baru yang bergabung.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Frasa pada hari ke-3 ambigu; jawaban 5,25 hari mengasumsikan tiga hari penuh telah berlalu.",
+      "source_number": 7
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM_PENDING_REVIEW",
+    "generator_status": "NOT_IMPLEMENTED"
   },
   "mcma-6-3-8": {
     "source_number": 8,
@@ -423,34 +445,56 @@
   "pg-7-1-2": {
     "source_number": 2,
     "source_ordinal_within_indicator": 2,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 2 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN :\nSaldo tabungan Dimas di koperasi sekolah setelah ditambah dengan uang saku tambahan sebesar Rp45.000,00 sama dengan tiga kali saldo tabungan awalnya dikurangi Rp25.000,00. Besar saldo tabungan awal Dimas sebelum ditambah uang saku tambahan adalah ....\nA. Rp30.000,00\nB. Rp35.000,00\nC. Rp40.000,00\nD. Rp45.000,00\nPEMBAHASAN\nMisalkan tabungan awal Dimas = x.\nKalimat matematika:\nx+45.000=3x−25.000\nMenyelesaikan dengan mengelompokkan suku sejenis:\n45.000+25.000=3x−x\n70.000=2x⟹x=270.000​=35.000\nJadi, saldo tabungan awal Dimas adalah Rp35.000,00.\nKesalahan Umum yang Diantisipasi:\nSiswa sering salah tanda saat memindahkan suku ber-variabel atau konstanta (misalnya mengurangkan 45.000−25.000=20.000).",
-    "original_explanation": "PEMBAHASAN\nMisalkan tabungan awal Dimas = x.\nKalimat matematika: x+45.000=3x−25.000\nMenyelesaikan dengan mengelompokkan suku sejenis: 45.000+25.000=3x−x 70.000=2x⟹x=270.000=35.000\nJadi, saldo tabungan awal Dimas adalah Rp35.000,00.\nKesalahan Umum yang Diantisipasi:\nSiswa sering salah tanda saat memindahkan suku ber-variabel atau konstanta (misalnya mengurangkan 45.000−25.000=20.000).",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 2 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : B\n\nSaldo tabungan Dimas di koperasi sekolah setelah ditambah dengan uang saku tambahan sebesar Rp45.000,00 sama dengan tiga kali saldo tabungan awalnya dikurangi Rp25.000,00. Besar saldo tabungan awal Dimas sebelum ditambah uang saku tambahan adalah ....\nA. Rp30.000,00\nB. Rp35.000,00\nC. Rp40.000,00\nD. Rp45.000,00\nPEMBAHASAN\nPemisalan & Model Matematika: Misalkan saldo tabungan awal Dimas = x Berdasarkan kalimat soal: \"Saldo setelah ditambah Rp45.000,00 sama dengan tiga kali saldo awal dikurangi Rp25.000,00\", diperoleh persamaan linear satu variabel: x+45.000=3x-25.000\nLangkah Penyelesaian Aljabar: Kelompokkan suku ber-variabel di satu ruas dan konstanta di ruas lainnya: 45.000+25.000=3x-x\n70.000=2x\nx=(70.000)/(2)\nx=35.000\nKesimpulan:\nBesar saldo tabungan awal Dimas adalah Rp35.000,00. Jawaban yang tepat adalah B.\n",
+    "original_explanation": "PEMBAHASAN\nPemisalan & Model Matematika: Misalkan saldo tabungan awal Dimas = x Berdasarkan kalimat soal: \"Saldo setelah ditambah Rp45.000,00 sama dengan tiga kali saldo awal dikurangi Rp25.000,00\", diperoleh persamaan linear satu variabel: x+45.000=3x-25.000\nLangkah Penyelesaian Aljabar: Kelompokkan suku ber-variabel di satu ruas dan konstanta di ruas lainnya: 45.000+25.000=3x-x\n70.000=2x\nx=(70.000)/(2)\nx=35.000\nKesimpulan:\nBesar saldo tabungan awal Dimas adalah Rp35.000,00. Jawaban yang tepat adalah B.",
     "declared_keys": [
-      "KUNCI JAWABAN :"
+      "B"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [
       "Header kunci kosong; pembahasan menghasilkan Rp35.000 (opsi B), bukan kunci sumber yang eksplisit."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Header kunci kosong; pembahasan menghasilkan Rp35.000 (opsi B), bukan kunci sumber yang eksplisit."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 2 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN :\nSaldo tabungan Dimas di koperasi sekolah setelah ditambah dengan uang saku tambahan sebesar Rp45.000,00 sama dengan tiga kali saldo tabungan awalnya dikurangi Rp25.000,00. Besar saldo tabungan awal Dimas sebelum ditambah uang saku tambahan adalah ....\nA. Rp30.000,00\nB. Rp35.000,00\nC. Rp40.000,00\nD. Rp45.000,00\nPEMBAHASAN\nMisalkan tabungan awal Dimas = x.\nKalimat matematika:\nx+45.000=3x−25.000\nMenyelesaikan dengan mengelompokkan suku sejenis:\n45.000+25.000=3x−x\n70.000=2x⟹x=270.000​=35.000\nJadi, saldo tabungan awal Dimas adalah Rp35.000,00.\nKesalahan Umum yang Diantisipasi:\nSiswa sering salah tanda saat memindahkan suku ber-variabel atau konstanta (misalnya mengurangkan 45.000−25.000=20.000).",
+      "original_explanation": "PEMBAHASAN\nMisalkan tabungan awal Dimas = x.\nKalimat matematika: x+45.000=3x−25.000\nMenyelesaikan dengan mengelompokkan suku sejenis: 45.000+25.000=3x−x 70.000=2x⟹x=270.000=35.000\nJadi, saldo tabungan awal Dimas adalah Rp35.000,00.\nKesalahan Umum yang Diantisipasi:\nSiswa sering salah tanda saat memindahkan suku ber-variabel atau konstanta (misalnya mengurangkan 45.000−25.000=20.000).",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Header kunci kosong; pembahasan menghasilkan Rp35.000 (opsi B), bukan kunci sumber yang eksplisit.",
+      "source_number": 2
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "pg-7-1-3": {
     "source_number": 3,
     "source_ordinal_within_indicator": 3,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 3 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : B\nTaman tanaman obat herbal sekolah berbentuk persegi panjang dengan ukuran panjang (3x-2)meter dan lebar (x+4)meter. Jika keliling taman tersebut ditetapkan 36meter, luas taman obat sekolah tersebut adalah ....\nA. 68(m)^(2)\nB. 72(m)^(2)\nC. 80(m)^(2)\nD. 96(m)^(2)\nPEMBAHASAN\nRumus keliling persegi panjang: K=2(p+l).\n2((3x−2)+(x+4))=36\n2(4x+2)=36⟹8x+4=36\n8x=32⟹x=4\nTentukan ukuran sebenarnya:\nPanjang (p) = 3(4)−2=12−2=10 m.\nLebar (l) = 4+4=8 m.\nLuas taman = p×l=10 m×8 m=80 m2.\nKesalahan Umum yang Diantisipasi:\nSiswa lupa menjumlahkan seluruh sisi pada keliling (hanya menjumlahkan panjang + lebar =36) atau berhenti sampai menentukan nilai x=4 tanpa menghitung luas.",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 3 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : C\n\nTaman tanaman obat herbal sekolah berbentuk persegi panjang dengan ukuran panjang (3x-2)meter dan lebar (x+4)meter. Jika keliling taman tersebut ditetapkan 36meter, luas taman obat sekolah tersebut adalah ....\nA. 68m^2\nB. 72m^2\nC. 80m^2\nD. 96m^2\n\nPEMBAHASAN\nRumus keliling persegi panjang: K=2(p+l).\n2((3x−2)+(x+4))=36 2(4x+2)=36⟹8x+4=36 8x=32⟹x=4\nTentukan ukuran sebenarnya:\nPanjang (p) = 3(4)−2=12−2=10 m.\nLebar (l) = 4+4=8 m.\nLuas taman = p×l=10 m×8 m=80 m2.\n\nKesalahan Umum yang Diantisipasi:\nSiswa lupa menjumlahkan seluruh sisi pada keliling (hanya menjumlahkan panjang + lebar =36) atau berhenti sampai menentukan nilai x=4 tanpa menghitung luas.\n",
     "original_explanation": "PEMBAHASAN\nRumus keliling persegi panjang: K=2(p+l).\n2((3x−2)+(x+4))=36 2(4x+2)=36⟹8x+4=36 8x=32⟹x=4\nTentukan ukuran sebenarnya:\nPanjang (p) = 3(4)−2=12−2=10 m.\nLebar (l) = 4+4=8 m.\nLuas taman = p×l=10 m×8 m=80 m2.\nKesalahan Umum yang Diantisipasi:\nSiswa lupa menjumlahkan seluruh sisi pada keliling (hanya menjumlahkan panjang + lebar =36) atau berhenti sampai menentukan nilai x=4 tanpa menghitung luas.",
     "declared_keys": [
-      "KUNCI JAWABAN : B"
+      "C"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [
       "Luas yang dihitung 80 (opsi C), kunci sumber B=72."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Luas yang dihitung 80 (opsi C), kunci sumber B=72."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 3 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : B\nTaman tanaman obat herbal sekolah berbentuk persegi panjang dengan ukuran panjang (3x-2)meter dan lebar (x+4)meter. Jika keliling taman tersebut ditetapkan 36meter, luas taman obat sekolah tersebut adalah ....\nA. 68(m)^(2)\nB. 72(m)^(2)\nC. 80(m)^(2)\nD. 96(m)^(2)\nPEMBAHASAN\nRumus keliling persegi panjang: K=2(p+l).\n2((3x−2)+(x+4))=36\n2(4x+2)=36⟹8x+4=36\n8x=32⟹x=4\nTentukan ukuran sebenarnya:\nPanjang (p) = 3(4)−2=12−2=10 m.\nLebar (l) = 4+4=8 m.\nLuas taman = p×l=10 m×8 m=80 m2.\nKesalahan Umum yang Diantisipasi:\nSiswa lupa menjumlahkan seluruh sisi pada keliling (hanya menjumlahkan panjang + lebar =36) atau berhenti sampai menentukan nilai x=4 tanpa menghitung luas.",
+      "original_explanation": "PEMBAHASAN\nRumus keliling persegi panjang: K=2(p+l).\n2((3x−2)+(x+4))=36 2(4x+2)=36⟹8x+4=36 8x=32⟹x=4\nTentukan ukuran sebenarnya:\nPanjang (p) = 3(4)−2=12−2=10 m.\nLebar (l) = 4+4=8 m.\nLuas taman = p×l=10 m×8 m=80 m2.\nKesalahan Umum yang Diantisipasi:\nSiswa lupa menjumlahkan seluruh sisi pada keliling (hanya menjumlahkan panjang + lebar =36) atau berhenti sampai menentukan nilai x=4 tanpa menghitung luas.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Luas yang dihitung 80 (opsi C), kunci sumber B=72.",
+      "source_number": 3
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "pg-7-1-4": {
     "source_number": 4,
@@ -591,18 +635,29 @@
   "pg-7-2-4": {
     "source_number": 4,
     "source_ordinal_within_indicator": 14,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 4 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : C\nTim bendahara OSIS menguji sebuah formula aljabar untuk alokasi dana kegiatan sekolah yang dirumuskan dengan persamaan 3(2x−a)=6x+12, di mana a adalah suatu konstanta. Agar persamaan tersebut tidak memiliki penyelesaian (kontradiksi), nilai a yang memenuhi adalah ....\nA. a=−4\nB. a=4\nC. Semua bilangan real a dengan a≠4\nD. Tidak ada nilai a yang memenuhi\nPEMBAHSAN\nJabarkan ruas kiri persamaan:\n3(2x − a) = 6x + 12  ⇒  6x − 3a = 6x + 12\nKurangi kedua ruas dengan 6x:\n−3a = 12\nAnalisis Kasus:\n• Jika −3a = 12  ⇒  a = −4, maka diperoleh 0 = 0 (Identitas → Memiliki tak hingga banyak penyelesaian).\n• Jika −3a ≠ 12  ⇒  a ≠ −4, maka diperoleh pernyataan bernilai salah/kontradiksi (misal −3a = 6  ⇒  6 = 12, Pernyataan SALAH), yang berarti persamaan tidak memiliki penyelesaian.\nJadi, agar persamaan tidak memiliki penyelesaian, nilai a harus memenuhi a ≠ −4 (semua bilangan real kecuali −4).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru memilih a=−4, mengira nilai tersebut membuat persamaan tidak memiliki solusi, padahal a=−4 justru membuat persamaan memiliki tak hingga banyak solusi.",
-    "original_explanation": "PEMBAHSAN\nJabarkan ruas kiri persamaan:\n3(2x − a) = 6x + 12 ⇒ 6x − 3a = 6x + 12\nKurangi kedua ruas dengan 6x:\n−3a = 12\nAnalisis Kasus:\n• Jika −3a = 12 ⇒ a = −4, maka diperoleh 0 = 0 (Identitas → Memiliki tak hingga banyak penyelesaian).\n• Jika −3a ≠ 12 ⇒ a ≠ −4, maka diperoleh pernyataan bernilai salah/kontradiksi (misal −3a = 6 ⇒ 6 = 12, Pernyataan SALAH), yang berarti persamaan tidak memiliki penyelesaian.\nJadi, agar persamaan tidak memiliki penyelesaian, nilai a harus memenuhi a ≠ −4 (semua bilangan real kecuali −4).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru memilih a=−4, mengira nilai tersebut membuat persamaan tidak memiliki solusi, padahal a=−4 justru membuat persamaan memiliki tak hingga banyak solusi.",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 4 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : C\n\nTim bendahara OSIS menguji sebuah formula aljabar untuk alokasi dana kegiatan sekolah yang dirumuskan dengan persamaan:\n3(2x-a)=6x+12\ndi mana a adalah suatu konstanta. Agar persamaan tersebut tidak memiliki penyelesaian (kontradiksi), nilai a yang memenuhi adalah ....\nA. a=-4\nB. a=4\nC. Semua bilangan real a dengan a≠-4\nD. Tidak ada nilai a yang memenuhi\nPEMBAHASAN\nLangkah Penjabaran Aljabar: Jabarkan ruas kiri persamaan:\n3(2x-a)=6x+12\n6x-3a=6x+12\nEliminasi variabel x dengan mengurangkan 6x di kedua ruas:\n0x-3a=12atau0x=3a+12\nAnalisis Nilai a dan Jenis Penyelesaian:\nKasus 1 (a=-4): Substitusikan a=-4 ke persamaan: $$0x = 3(-4) + 12 \\implies 0x = 0 \\implies 0 = 0 \\quad \\text{(Pernyataan BENAR / Identitas)}$$ Artinya, persamaan memiliki tak hingga banyak penyelesaian (apapun nilai x, persamaan selalu bernilai benar).\nKasus 2 (a≠-4): Jika a≠-4, maka ruas kanan bernilai bukan nol (misal untuk a=0, diperoleh $0x = 12 \\implies 0 = 12$, yang merupakan Pernyataan SALAH / Kontradiksi). Artinya, tidak ada satu pun nilai x yang dapat memenuhi persamaan tersebut, sehingga persamaan tidak memiliki penyelesaian.\nKesimpulan:\nAgar persamaan tidak memiliki penyelesaian (kontradiksi), syarat yang harus dipenuhi adalah a≠-4 (semua bilangan real a kecuali -4). Jawaban yang tepat adalah C.",
+    "original_explanation": "PEMBAHASAN\nLangkah Penjabaran Aljabar: Jabarkan ruas kiri persamaan:\n3(2x-a)=6x+12\n6x-3a=6x+12\nEliminasi variabel x dengan mengurangkan 6x di kedua ruas:\n0x-3a=12atau0x=3a+12\nAnalisis Nilai a dan Jenis Penyelesaian:\nKasus 1 (a=-4): Substitusikan a=-4 ke persamaan: $$0x = 3(-4) + 12 \\implies 0x = 0 \\implies 0 = 0 \\quad \\text{(Pernyataan BENAR / Identitas)}$$ Artinya, persamaan memiliki tak hingga banyak penyelesaian (apapun nilai x, persamaan selalu bernilai benar).\nKasus 2 (a≠-4): Jika a≠-4, maka ruas kanan bernilai bukan nol (misal untuk a=0, diperoleh $0x = 12 \\implies 0 = 12$, yang merupakan Pernyataan SALAH / Kontradiksi). Artinya, tidak ada satu pun nilai x yang dapat memenuhi persamaan tersebut, sehingga persamaan tidak memiliki penyelesaian.\nKesimpulan:\nAgar persamaan tidak memiliki penyelesaian (kontradiksi), syarat yang harus dipenuhi adalah a≠-4 (semua bilangan real a kecuali -4). Jawaban yang tepat adalah C.",
     "declared_keys": [
-      "KUNCI JAWABAN : C"
+      "C"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [
       "Kontradiksi memerlukan a != -4; opsi berkunci menyebut a != 4. Periksa opsi dan pembahasan lengkap."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Kontradiksi memerlukan a != -4; opsi berkunci menyebut a != 4. Periksa opsi dan pembahasan lengkap."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 4 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : C\nTim bendahara OSIS menguji sebuah formula aljabar untuk alokasi dana kegiatan sekolah yang dirumuskan dengan persamaan 3(2x−a)=6x+12, di mana a adalah suatu konstanta. Agar persamaan tersebut tidak memiliki penyelesaian (kontradiksi), nilai a yang memenuhi adalah ....\nA. a=−4\nB. a=4\nC. Semua bilangan real a dengan a≠4\nD. Tidak ada nilai a yang memenuhi\nPEMBAHSAN\nJabarkan ruas kiri persamaan:\n3(2x − a) = 6x + 12  ⇒  6x − 3a = 6x + 12\nKurangi kedua ruas dengan 6x:\n−3a = 12\nAnalisis Kasus:\n• Jika −3a = 12  ⇒  a = −4, maka diperoleh 0 = 0 (Identitas → Memiliki tak hingga banyak penyelesaian).\n• Jika −3a ≠ 12  ⇒  a ≠ −4, maka diperoleh pernyataan bernilai salah/kontradiksi (misal −3a = 6  ⇒  6 = 12, Pernyataan SALAH), yang berarti persamaan tidak memiliki penyelesaian.\nJadi, agar persamaan tidak memiliki penyelesaian, nilai a harus memenuhi a ≠ −4 (semua bilangan real kecuali −4).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru memilih a=−4, mengira nilai tersebut membuat persamaan tidak memiliki solusi, padahal a=−4 justru membuat persamaan memiliki tak hingga banyak solusi.",
+      "original_explanation": "PEMBAHSAN\nJabarkan ruas kiri persamaan:\n3(2x − a) = 6x + 12 ⇒ 6x − 3a = 6x + 12\nKurangi kedua ruas dengan 6x:\n−3a = 12\nAnalisis Kasus:\n• Jika −3a = 12 ⇒ a = −4, maka diperoleh 0 = 0 (Identitas → Memiliki tak hingga banyak penyelesaian).\n• Jika −3a ≠ 12 ⇒ a ≠ −4, maka diperoleh pernyataan bernilai salah/kontradiksi (misal −3a = 6 ⇒ 6 = 12, Pernyataan SALAH), yang berarti persamaan tidak memiliki penyelesaian.\nJadi, agar persamaan tidak memiliki penyelesaian, nilai a harus memenuhi a ≠ −4 (semua bilangan real kecuali −4).\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru memilih a=−4, mengira nilai tersebut membuat persamaan tidak memiliki solusi, padahal a=−4 justru membuat persamaan memiliki tak hingga banyak solusi.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Kontradiksi memerlukan a != -4; opsi berkunci menyebut a != 4. Periksa opsi dan pembahasan lengkap.",
+      "source_number": 4
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "pg-7-2-5": {
     "source_number": 5,
@@ -744,18 +799,29 @@
   "pg-7-3-5": {
     "source_number": 5,
     "source_ordinal_within_indicator": 25,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : B\nPersamaan perancangan kas kelas dirumuskan oleh bendahara sebagai 4(x+2)−2x=2(x+k), di mana k adalah suatu konstanta. Pembina kelas menganalisis bahwa perancangan kas tersebut tidak akan pernah bisa seimbang (tidak memiliki penyelesaian/kontradiksi) jika nilai k memenuhi kondisi ....\nA. k=4\nB. k=4\nC. k=8\nD. k=8\nPEMBAHASAN\nSederhanakan ruas kiri:\n4x + 8 − 2x = 2x + 8.\nPersamaan menjadi:\n2x + 8 = 2x + 2k  ⇒  8 = 2k.\nAnalisis Kasus Solusi:\n• Jika 2k = 8  ⇒  k = 4, diperoleh 8 = 8 (Identitas → Tak hingga solusi).\n• Jika 2k ≠ 8  ⇒  k ≠ 4, diperoleh hubungan kontradiksi (8 ≠ 2k), sehingga persamaan tidak memiliki penyelesaian.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru memilih k=4, mengira nilai tersebut membuat persamaan tidak memiliki solusi, padahal k=4 justru membuat persamaan memiliki tak hingga solusi.",
-    "original_explanation": "PEMBAHASAN\nSederhanakan ruas kiri:\n4x + 8 − 2x = 2x + 8.\nPersamaan menjadi:\n2x + 8 = 2x + 2k ⇒ 8 = 2k.\nAnalisis Kasus Solusi:\n• Jika 2k = 8 ⇒ k = 4, diperoleh 8 = 8 (Identitas → Tak hingga solusi).\n• Jika 2k ≠ 8 ⇒ k ≠ 4, diperoleh hubungan kontradiksi (8 ≠ 2k), sehingga persamaan tidak memiliki penyelesaian.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru memilih k=4, mengira nilai tersebut membuat persamaan tidak memiliki solusi, padahal k=4 justru membuat persamaan memiliki tak hingga solusi.",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : C\n\nPersamaan perancangan kas kelas dirumuskan oleh bendahara sebagai 4(x+2)-2x=2(x+k), di mana k adalah suatu konstanta. Pembina kelas menganalisis bahwa perancangan kas tersebut tidak akan pernah bisa seimbang (tidak memiliki penyelesaian/kontradiksi) jika nilai k memenuhi kondisi ....\nA. k=4\nB. k=8\nC. k≠4\nD. k≠8\nPEMBAHASAN\nLangkah Penjabaran Aljabar: Jabarkan dan sederhanakan ruas kiri persamaan: 4(x+2)-2x=2(x+k)\n4x+8-2x=2x+2k\n2x+8=2x+2k\nKurangi kedua ruas dengan 2x:\n8=2katau2k=8\nAnalisis Nilai k dan Jenis Penyelesaian:\nKasus 1 (k=4): Jika k=4, maka 2(4)=8, sehingga diperoleh 8=8 (Pernyataan BENAR / Identitas). Artinya, persamaan memiliki tak hingga banyak penyelesaian (kas selalu seimbang untuk nilai x berapapun).\nKasus 2 (k≠4): Jika k≠4, maka 2k≠8 (misalkan k=1, diperoleh 8=2, yang merupakan Pernyataan SALAH / Kontradiksi). Artinya, tidak ada nilai x yang dapat memenuhi persamaan tersebut, sehingga persamaan tidak memiliki penyelesaian (kas tidak pernah bisa seimbang).\nKesimpulan:\nAgar persamaan tidak memiliki penyelesaian (kontradiksi), nilai k harus memenuhi k≠4. Jawaban yang tepat adalah C.\n",
+    "original_explanation": "PEMBAHASAN\nLangkah Penjabaran Aljabar: Jabarkan dan sederhanakan ruas kiri persamaan: 4(x+2)-2x=2(x+k)\n4x+8-2x=2x+2k\n2x+8=2x+2k\nKurangi kedua ruas dengan 2x:\n8=2katau2k=8\nAnalisis Nilai k dan Jenis Penyelesaian:\nKasus 1 (k=4): Jika k=4, maka 2(4)=8, sehingga diperoleh 8=8 (Pernyataan BENAR / Identitas). Artinya, persamaan memiliki tak hingga banyak penyelesaian (kas selalu seimbang untuk nilai x berapapun).\nKasus 2 (k≠4): Jika k≠4, maka 2k≠8 (misalkan k=1, diperoleh 8=2, yang merupakan Pernyataan SALAH / Kontradiksi). Artinya, tidak ada nilai x yang dapat memenuhi persamaan tersebut, sehingga persamaan tidak memiliki penyelesaian (kas tidak pernah bisa seimbang).\nKesimpulan:\nAgar persamaan tidak memiliki penyelesaian (kontradiksi), nilai k harus memenuhi k≠4. Jawaban yang tepat adalah C.",
     "declared_keys": [
-      "KUNCI JAWABAN : B"
+      "C"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [
       "XML sumber mengonfirmasi opsi A/B k=4, C/D k=8. Kunci B salah untuk kontradiksi k != 4; opsi duplikat."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "XML sumber mengonfirmasi opsi A/B k=4, C/D k=8. Kunci B salah untuk kontradiksi k != 4; opsi duplikat."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : B\nPersamaan perancangan kas kelas dirumuskan oleh bendahara sebagai 4(x+2)−2x=2(x+k), di mana k adalah suatu konstanta. Pembina kelas menganalisis bahwa perancangan kas tersebut tidak akan pernah bisa seimbang (tidak memiliki penyelesaian/kontradiksi) jika nilai k memenuhi kondisi ....\nA. k=4\nB. k=4\nC. k=8\nD. k=8\nPEMBAHASAN\nSederhanakan ruas kiri:\n4x + 8 − 2x = 2x + 8.\nPersamaan menjadi:\n2x + 8 = 2x + 2k  ⇒  8 = 2k.\nAnalisis Kasus Solusi:\n• Jika 2k = 8  ⇒  k = 4, diperoleh 8 = 8 (Identitas → Tak hingga solusi).\n• Jika 2k ≠ 8  ⇒  k ≠ 4, diperoleh hubungan kontradiksi (8 ≠ 2k), sehingga persamaan tidak memiliki penyelesaian.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru memilih k=4, mengira nilai tersebut membuat persamaan tidak memiliki solusi, padahal k=4 justru membuat persamaan memiliki tak hingga solusi.",
+      "original_explanation": "PEMBAHASAN\nSederhanakan ruas kiri:\n4x + 8 − 2x = 2x + 8.\nPersamaan menjadi:\n2x + 8 = 2x + 2k ⇒ 8 = 2k.\nAnalisis Kasus Solusi:\n• Jika 2k = 8 ⇒ k = 4, diperoleh 8 = 8 (Identitas → Tak hingga solusi).\n• Jika 2k ≠ 8 ⇒ k ≠ 4, diperoleh hubungan kontradiksi (8 ≠ 2k), sehingga persamaan tidak memiliki penyelesaian.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru memilih k=4, mengira nilai tersebut membuat persamaan tidak memiliki solusi, padahal k=4 justru membuat persamaan memiliki tak hingga solusi.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "XML sumber mengonfirmasi opsi A/B k=4, C/D k=8. Kunci B salah untuk kontradiksi k != 4; opsi duplikat.",
+      "source_number": 5
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "mcma-7-3-6": {
     "source_number": 6,
@@ -1056,18 +1122,29 @@
   "mcma-8-2-8": {
     "source_number": 8,
     "source_ordinal_within_indicator": 18,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 8 (Bentuk Soal: PGK MCMA)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A, B, C, D\nSeorang siswa menyelesaikan pertidaksamaan linear pecahan (1 − 2x) / 3 < (x + 5) / 2 melalui langkah-langkah pengerjaan sebagai berikut:\nLangkah 1: 2(1 − 2x) < 3(x + 5)\nLangkah 2: 2 − 4x < 3x + 15\nLangkah 3: −4x − 3x < 15 − 2  ⇒  −7x < 13\nLangkah 4: x < 13 / −7  (atau x > −13 / 7)\nManakah pernyataan evaluasi berikut yang BENAR mengenai langkah pengerjaan di atas? (Jawaban boleh lebih dari satu)\n[ ] A. Langkah 1 dan Langkah 2 dilakukan dengan benar menggunakan sifat perkalian silang dan distributif.\n[ ] B. Langkah 3 merupakan proses pengelompokan suku sejenis yang tepat.\n[ ] C. Siswa melakukan kesalahan pada Langkah 4 karena tidak membalik tanda pertidaksamaan saat membagi dengan −7.\n[ ] D. Himpunan penyelesaian yang benar dari pertidaksamaan tersebut adalah x > −13 / 7.\nPEMBAHASAN\n(A) BENAR: Langkah 1 dan 2 benar (mengalikan silang KPK 6 dan menguraikan kurung secara distributif).\n(B) BENAR: −4x − 3x = −7x dan 15 − 2 = 13 (Langkah 3 benar).\n(C) BENAR: Dari −7x < 13, membagi dengan −7 seharusnya membalik tanda menjadi x > −13 / 7, tetapi siswa menulis x < −13 / 7.\n(D) BENAR: Himpunan penyelesaian yang benar adalah x > −13 / 7.\nKesalahan Umum yang Diantisipasi:\nSiswa menganggap Langkah 4 sudah benar karena tidak menyadari aturan wajib membalik tanda pertidaksamaan saat membagi dengan bilangan negatif.",
-    "original_explanation": "PEMBAHASAN\n(A) BENAR: Langkah 1 dan 2 benar (mengalikan silang KPK 6 dan menguraikan kurung secara distributif).\n(B) BENAR: −4x − 3x = −7x dan 15 − 2 = 13 (Langkah 3 benar).\n(C) BENAR: Dari −7x < 13, membagi dengan −7 seharusnya membalik tanda menjadi x > −13 / 7, tetapi siswa menulis x < −13 / 7.\n(D) BENAR: Himpunan penyelesaian yang benar adalah x > −13 / 7.\nKesalahan Umum yang Diantisipasi:\nSiswa menganggap Langkah 4 sudah benar karena tidak menyadari aturan wajib membalik tanda pertidaksamaan saat membagi dengan bilangan negatif.",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 8 (Bentuk Soal: PGK MCMA)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A, B, C, D\n\nSeorang siswa menyelesaikan pertidaksamaan linear pecahan (1-2x)/(3)<(x+5)/(2) melalui langkah-langkah pengerjaan sebagai berikut:\nLangkah 1: 2(1-2x)<3(x+5)\nLangkah 2: 2-4x<3x+15\nLangkah 3: $-4x - 3x < 15 - 2 \\implies -7x < 13$\nLangkah 4: x<-(13)/(7)\nManakah pernyataan evaluasi berikut yang BENAR mengenai langkah pengerjaan di atas? (Jawaban boleh lebih dari satu)\n[ ] A. Langkah 1 dan Langkah 2 dilakukan dengan benar menggunakan sifat perkalian kedua ruas dengan KPK dan sifat distributif.\n[ ] B. Langkah 3 merupakan proses pengelompokan suku sejenis yang tepat.\n[ ] C. Siswa melakukan kesalahan pada Langkah 4 karena tidak membalik tanda pertidaksamaan saat membagi kedua ruas dengan -7.\n[ ] D. Himpunan penyelesaian yang benar dari pertidaksamaan tersebut adalah x>-(13)/(7).\nPEMBAHASAN\nA (BENAR):\nPada Langkah 1, kedua ruas dikalikan dengan KPK dari penyebut (yaitu 6) sehingga pecahan hilang: 2(1-2x)<3(x+5).\nPada Langkah 2, sifat distributif diterapkan secara benar: 2-4x<3x+15.\nB (BENAR):\nPada Langkah 3, pengelompokan suku ber-variabel x ke ruas kiri dan konstanta ke ruas kanan dihitung dengan tepat: $$-4x - 3x = -7x \\quad \\text{dan} \\quad 15 - 2 = 13 \\implies -7x < 13$$\nC (BENAR):\nPada Langkah 4, siswa membagi kedua ruas dengan bilangan negatif (-7). Aturan dasar pertidaksamaan menyatakan bahwa membagi atau mengalikan kedua ruas dengan bilangan negatif wajib membalik tanda pertidaksamaan (dari < menjadi >). Siswa tetap mempertahankan tanda <, sehingga Langkah 4 salah.\nD (BENAR):\nMengoreksi Langkah 4: Dari -7x<13, membagi kedua ruas dengan -7 dan membalik tanda pertidaksamaan menghasilkan penyelesaian yang benar, yaitu:\nx>-(13)/(7)",
+    "original_explanation": "PEMBAHASAN\nA (BENAR):\nPada Langkah 1, kedua ruas dikalikan dengan KPK dari penyebut (yaitu 6) sehingga pecahan hilang: 2(1-2x)<3(x+5).\nPada Langkah 2, sifat distributif diterapkan secara benar: 2-4x<3x+15.\nB (BENAR):\nPada Langkah 3, pengelompokan suku ber-variabel x ke ruas kiri dan konstanta ke ruas kanan dihitung dengan tepat: $$-4x - 3x = -7x \\quad \\text{dan} \\quad 15 - 2 = 13 \\implies -7x < 13$$\nC (BENAR):\nPada Langkah 4, siswa membagi kedua ruas dengan bilangan negatif (-7). Aturan dasar pertidaksamaan menyatakan bahwa membagi atau mengalikan kedua ruas dengan bilangan negatif wajib membalik tanda pertidaksamaan (dari < menjadi >). Siswa tetap mempertahankan tanda <, sehingga Langkah 4 salah.\nD (BENAR):\nMengoreksi Langkah 4: Dari -7x<13, membagi kedua ruas dengan -7 dan membalik tanda pertidaksamaan menghasilkan penyelesaian yang benar, yaitu:\nx>-(13)/(7)",
     "declared_keys": [
-      "KUNCI JAWABAN : A, B, C, D"
+      "A, B, C, D"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [
       "Langkah 4 mencantumkan hasil dengan tanda salah sekaligus alternatif benar; evaluasi kesalahan dan kunci tidak konsisten."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Langkah 4 mencantumkan hasil dengan tanda salah sekaligus alternatif benar; evaluasi kesalahan dan kunci tidak konsisten."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 8 (Bentuk Soal: PGK MCMA)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A, B, C, D\nSeorang siswa menyelesaikan pertidaksamaan linear pecahan (1 − 2x) / 3 < (x + 5) / 2 melalui langkah-langkah pengerjaan sebagai berikut:\nLangkah 1: 2(1 − 2x) < 3(x + 5)\nLangkah 2: 2 − 4x < 3x + 15\nLangkah 3: −4x − 3x < 15 − 2  ⇒  −7x < 13\nLangkah 4: x < 13 / −7  (atau x > −13 / 7)\nManakah pernyataan evaluasi berikut yang BENAR mengenai langkah pengerjaan di atas? (Jawaban boleh lebih dari satu)\n[ ] A. Langkah 1 dan Langkah 2 dilakukan dengan benar menggunakan sifat perkalian silang dan distributif.\n[ ] B. Langkah 3 merupakan proses pengelompokan suku sejenis yang tepat.\n[ ] C. Siswa melakukan kesalahan pada Langkah 4 karena tidak membalik tanda pertidaksamaan saat membagi dengan −7.\n[ ] D. Himpunan penyelesaian yang benar dari pertidaksamaan tersebut adalah x > −13 / 7.\nPEMBAHASAN\n(A) BENAR: Langkah 1 dan 2 benar (mengalikan silang KPK 6 dan menguraikan kurung secara distributif).\n(B) BENAR: −4x − 3x = −7x dan 15 − 2 = 13 (Langkah 3 benar).\n(C) BENAR: Dari −7x < 13, membagi dengan −7 seharusnya membalik tanda menjadi x > −13 / 7, tetapi siswa menulis x < −13 / 7.\n(D) BENAR: Himpunan penyelesaian yang benar adalah x > −13 / 7.\nKesalahan Umum yang Diantisipasi:\nSiswa menganggap Langkah 4 sudah benar karena tidak menyadari aturan wajib membalik tanda pertidaksamaan saat membagi dengan bilangan negatif.",
+      "original_explanation": "PEMBAHASAN\n(A) BENAR: Langkah 1 dan 2 benar (mengalikan silang KPK 6 dan menguraikan kurung secara distributif).\n(B) BENAR: −4x − 3x = −7x dan 15 − 2 = 13 (Langkah 3 benar).\n(C) BENAR: Dari −7x < 13, membagi dengan −7 seharusnya membalik tanda menjadi x > −13 / 7, tetapi siswa menulis x < −13 / 7.\n(D) BENAR: Himpunan penyelesaian yang benar adalah x > −13 / 7.\nKesalahan Umum yang Diantisipasi:\nSiswa menganggap Langkah 4 sudah benar karena tidak menyadari aturan wajib membalik tanda pertidaksamaan saat membagi dengan bilangan negatif.",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Langkah 4 mencantumkan hasil dengan tanda salah sekaligus alternatif benar; evaluasi kesalahan dan kunci tidak konsisten.",
+      "source_number": 8
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "kategori-8-2-9": {
     "source_number": 9,
@@ -1263,18 +1340,29 @@
   "pg-9-1-3": {
     "source_number": 3,
     "source_ordinal_within_indicator": 3,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 3 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : B\nDua armada bus sekolah menempuh rute yang dinyatakan oleh sistem persamaan linear dua variabel berikut:\nGaris 1: 2x−y=4\nGaris 2: 4x−2y=k\nAgar kedua bus menempuh rute yang sejajar dan tidak pernah saling berpotongan (sistem tidak memiliki penyelesaian), nilai konstanta k yang tepat adalah ....\nA. k=8\nB. k=8\nC. k=4\nD. k=4\nPEMBAHASAN\nSyarat sistem persamaan linear dua variabel tidak memiliki penyelesaian (garis sejajar):\na2​a1​​=b2​b1​​=c2​c1​​\n42​=−2−1​=k4​\n21​=k4​⟹k=8\n(Catatan: Jika k=8, kedua garis akan berhimpit sehingga memiliki tak hingga banyak penyelesaian).",
-    "original_explanation": "PEMBAHASAN\nSyarat sistem persamaan linear dua variabel tidak memiliki penyelesaian (garis sejajar):\na2a1=b2b1=c2c1\n42=−2−1=k4\n21=k4⟹k=8\n(Catatan: Jika k=8, kedua garis akan berhimpit sehingga memiliki tak hingga banyak penyelesaian).",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 3 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : C\nDua armada bus sekolah menempuh rute yang dinyatakan oleh sistem persamaan linear dua variabel berikut:\nGaris 1: 2x-y=4\nGaris 2: 4x-2y=k\nAgar kedua bus menempuh rute yang sejajar dan tidak pernah saling berpotongan (sistem tidak memiliki penyelesaian), nilai konstanta k yang tepat adalah ....\nA. k=8\nB. k=4\nC. k≠8\nD. k≠4\nPEMBAHASAN\nSyarat Sistem Tidak Memiliki Penyelesaian (Garis Sejajar): Dua garis dengan persamaan a_1x+b_1y=c_1 dan a_2x+b_2y=c_2 dikatakan sejajar dan tidak pernah berpotongan jika memenuhi syarat: (a_1)/(a_2)=(b_1)/(b_2)≠(c_1)/(c_2)\nLangkah Perhitungan: Substitusikan koefisien dari kedua persamaan garis: (2)/(4)=(-1)/(-2)≠(4)/(k)\n(1)/(2)≠(4)/(k)\nk≠8\nAnalisis Nilai k:\nKasus 1 (k=8): Diperoleh $\\frac{1}{2} = \\frac{4}{8} \\implies \\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$. Kedua garis berhimpit, sehingga memiliki tak hingga banyak penyelesaian (rute bus identik sepenuhnya).\nKasus 2 (k≠8): Diperoleh $\\frac{1}{2} \\neq \\frac{4}{k} \\implies \\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$. Kedua garis sejajar dan tidak berpotongan, sehingga tidak memiliki penyelesaian (bus berjalan sejajar tanpa pernah berpapasan).\nKesimpulan:\nAgar kedua bus tidak pernah berpotongan, nilai k harus memenuhi k≠8. Jawaban yang tepat adalah C.",
+    "original_explanation": "PEMBAHASAN\nSyarat Sistem Tidak Memiliki Penyelesaian (Garis Sejajar): Dua garis dengan persamaan a_1x+b_1y=c_1 dan a_2x+b_2y=c_2 dikatakan sejajar dan tidak pernah berpotongan jika memenuhi syarat: (a_1)/(a_2)=(b_1)/(b_2)≠(c_1)/(c_2)\nLangkah Perhitungan: Substitusikan koefisien dari kedua persamaan garis: (2)/(4)=(-1)/(-2)≠(4)/(k)\n(1)/(2)≠(4)/(k)\nk≠8\nAnalisis Nilai k:\nKasus 1 (k=8): Diperoleh $\\frac{1}{2} = \\frac{4}{8} \\implies \\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$. Kedua garis berhimpit, sehingga memiliki tak hingga banyak penyelesaian (rute bus identik sepenuhnya).\nKasus 2 (k≠8): Diperoleh $\\frac{1}{2} \\neq \\frac{4}{k} \\implies \\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$. Kedua garis sejajar dan tidak berpotongan, sehingga tidak memiliki penyelesaian (bus berjalan sejajar tanpa pernah berpapasan).\nKesimpulan:\nAgar kedua bus tidak pernah berpotongan, nilai k harus memenuhi k≠8. Jawaban yang tepat adalah C.",
     "declared_keys": [
-      "KUNCI JAWABAN : B"
+      "C"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [
       "XML sumber mengonfirmasi opsi A/B k=8, C/D k=4. Kunci B adalah sistem berhimpit; tanpa solusi perlu k != 8."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "XML sumber mengonfirmasi opsi A/B k=8, C/D k=4. Kunci B adalah sistem berhimpit; tanpa solusi perlu k != 8."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 3 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : B\nDua armada bus sekolah menempuh rute yang dinyatakan oleh sistem persamaan linear dua variabel berikut:\nGaris 1: 2x−y=4\nGaris 2: 4x−2y=k\nAgar kedua bus menempuh rute yang sejajar dan tidak pernah saling berpotongan (sistem tidak memiliki penyelesaian), nilai konstanta k yang tepat adalah ....\nA. k=8\nB. k=8\nC. k=4\nD. k=4\nPEMBAHASAN\nSyarat sistem persamaan linear dua variabel tidak memiliki penyelesaian (garis sejajar):\na2​a1​​=b2​b1​​=c2​c1​​\n42​=−2−1​=k4​\n21​=k4​⟹k=8\n(Catatan: Jika k=8, kedua garis akan berhimpit sehingga memiliki tak hingga banyak penyelesaian).",
+      "original_explanation": "PEMBAHASAN\nSyarat sistem persamaan linear dua variabel tidak memiliki penyelesaian (garis sejajar):\na2a1=b2b1=c2c1\n42=−2−1=k4\n21=k4⟹k=8\n(Catatan: Jika k=8, kedua garis akan berhimpit sehingga memiliki tak hingga banyak penyelesaian).",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "XML sumber mengonfirmasi opsi A/B k=8, C/D k=4. Kunci B adalah sistem berhimpit; tanpa solusi perlu k != 8.",
+      "source_number": 3
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "pg-9-1-4": {
     "source_number": 4,
@@ -1292,16 +1380,27 @@
   "pg-9-1-5": {
     "source_number": 5,
     "source_ordinal_within_indicator": 5,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : A\nDalam menentukan titik potong alokasi biaya dua jenis kegiatan ekstrakurikuler, diperoleh sistem persamaan linear berikut:\nx=2y−3\n3x+4y=31\nMetode penyelesaian yang paling efisien untuk menentukan nilai y serta hasil nilai y yang diperoleh berturut-turut adalah ....\nA. Substitusi, dengan nilai y=4\nB. Eliminasi, dengan nilai y=4\nC. Grafik, dengan nilai y=5\nD. Substitusi, dengan nilai y=5\nPEMBAHASAN\nPersamaan pertama sudah menyatakan variabel x secara eksplisit (x=2y−3).\nOleh karena itu, Metode Substitusi merupakan metode paling efisien karena variabel x dapat langsung digantikan ke persamaan kedua tanpa perlu menyamakan koefisien.\nSubstitusi x=2y−3 ke 3x+4y=31:\n3(2y−3)+4y=31\n6y−9+4y=31\n10y=40⟹y=4",
-    "original_explanation": "PEMBAHASAN\nPersamaan pertama sudah menyatakan variabel x secara eksplisit (x=2y−3).\nOleh karena itu, Metode Substitusi merupakan metode paling efisien karena variabel x dapat langsung digantikan ke persamaan kedua tanpa perlu menyamakan koefisien.\nSubstitusi x=2y−3 ke 3x+4y=31:\n3(2y−3)+4y=31\n6y−9+4y=31\n10y=40⟹y=4",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : A\nDalam menentukan titik potong alokasi biaya dua jenis kegiatan ekstrakurikuler, diperoleh sistem persamaan linear berikut:\nx=2y-3\n3x+4y=31\nKarena variabel x pada persamaan (1) sudah dinyatakan secara eksplisit dalam y, metode penyelesaian yang paling langsung (tanpa perlu mengubah bentuk persamaan terlebih dahulu) untuk menentukan nilai y serta hasil nilai y yang diperoleh berturut-turut adalah ....\nA. Substitusi, dengan nilai y=4\nB. Eliminasi, dengan nilai y=4\nC. Grafik, dengan nilai y=5\nD. Substitusi, dengan nilai y=5\nPEMBAHASAN\nAnalisis Efisiensi Metode:\nMetode Substitusi: Persamaan pertama sudah berada dalam bentuk x=2y-3. Variabel x dapat langsung digantikan ke dalam persamaan kedua tanpa perlu menyusun ulang bentuk persamaan. Ini membutuhkan langkah paling sedikit.\nMetode Eliminasi: Memerlukan langkah tambahan untuk mengubah persamaan pertama menjadi bentuk standar (x-2y=-3) dan menyamakan koefisien sebelum dapat dieliminasi.\nPerhitungan Nilai y (Substitusi): Substitusikan x=2y-3 ke persamaan 3x+4y=31:\n3(2y-3)+4y=31\n6y-9+4y=31\n10y-9=31\n10y=40\ny=4\nKesimpulan: Metode yang paling langsung/efisien adalah Substitusi dengan hasil y=4 (Pilihan A).",
+    "original_explanation": "PEMBAHASAN\nAnalisis Efisiensi Metode:\nMetode Substitusi: Persamaan pertama sudah berada dalam bentuk x=2y-3. Variabel x dapat langsung digantikan ke dalam persamaan kedua tanpa perlu menyusun ulang bentuk persamaan. Ini membutuhkan langkah paling sedikit.\nMetode Eliminasi: Memerlukan langkah tambahan untuk mengubah persamaan pertama menjadi bentuk standar (x-2y=-3) dan menyamakan koefisien sebelum dapat dieliminasi.\nPerhitungan Nilai y (Substitusi): Substitusikan x=2y-3 ke persamaan 3x+4y=31:\n3(2y-3)+4y=31\n6y-9+4y=31\n10y-9=31\n10y=40\ny=4\nKesimpulan: Metode yang paling langsung/efisien adalah Substitusi dengan hasil y=4 (Pilihan A).",
     "declared_keys": [
-      "KUNCI JAWABAN : A"
+      "A"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C3\nKUNCI JAWABAN : A\nDalam menentukan titik potong alokasi biaya dua jenis kegiatan ekstrakurikuler, diperoleh sistem persamaan linear berikut:\nx=2y−3\n3x+4y=31\nMetode penyelesaian yang paling efisien untuk menentukan nilai y serta hasil nilai y yang diperoleh berturut-turut adalah ....\nA. Substitusi, dengan nilai y=4\nB. Eliminasi, dengan nilai y=4\nC. Grafik, dengan nilai y=5\nD. Substitusi, dengan nilai y=5\nPEMBAHASAN\nPersamaan pertama sudah menyatakan variabel x secara eksplisit (x=2y−3).\nOleh karena itu, Metode Substitusi merupakan metode paling efisien karena variabel x dapat langsung digantikan ke persamaan kedua tanpa perlu menyamakan koefisien.\nSubstitusi x=2y−3 ke 3x+4y=31:\n3(2y−3)+4y=31\n6y−9+4y=31\n10y=40⟹y=4",
+      "original_explanation": "PEMBAHASAN\nPersamaan pertama sudah menyatakan variabel x secara eksplisit (x=2y−3).\nOleh karena itu, Metode Substitusi merupakan metode paling efisien karena variabel x dapat langsung digantikan ke persamaan kedua tanpa perlu menyamakan koefisien.\nSubstitusi x=2y−3 ke 3x+4y=31:\n3(2y−3)+4y=31\n6y−9+4y=31\n10y=40⟹y=4",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi.",
+      "source_number": 5
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "mcma-9-1-6": {
     "source_number": 6,
@@ -1427,16 +1526,27 @@
   "pg-9-2-5": {
     "source_number": 5,
     "source_ordinal_within_indicator": 15,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : B\nPembina OSIS menganalisis dua penawaran harga pembuatan kaus kelas dari dua konveksi berdasarkan jumlah kaus x dan total biaya y (dalam rupiah):\nKonveksi I: y=35.000x+100.000\nKonveksi II: y=45.000x+20.000\nPembina OSIS ingin menentukan metode penyelesaian yang paling efisien untuk mencari jumlah kaus x saat total biaya kedua konveksi bernilai tepat sama (titik impas). Metode penyelesaian beserta jumlah kaus titik impas yang diperoleh berturut-turut adalah ....\nA. Eliminasi, dengan titik impas pada x=8 kaus\nB. Substitusi, dengan titik impas pada x=8 kaus\nC. Grafik, dengan titik impas pada x=10 kaus\nD. Substitusi, dengan titik impas pada x=10 kaus\nPEMBAHASAN\nKedua persamaan sudah menyatakan variabel y secara eksplisit dalam bentuk y=f(x).\nOleh karena itu, Metode Substitusi merupakan metode paling efisien karena kedua bentuk ekspresi y dapat langsung disamakan (y=y) tanpa mengubah bentuk persamaan awal.\nSubstitusi nilai y:\n35.000x+100.000=45.000x+20.000\n100.000−20.000=45.000x−35.000x\n80.000=10.000x⟹x=8 kaus",
-    "original_explanation": "PEMBAHASAN\nKedua persamaan sudah menyatakan variabel y secara eksplisit dalam bentuk y=f(x).\nOleh karena itu, Metode Substitusi merupakan metode paling efisien karena kedua bentuk ekspresi y dapat langsung disamakan (y=y) tanpa mengubah bentuk persamaan awal.\nSubstitusi nilai y:\n35.000x+100.000=45.000x+20.000\n100.000−20.000=45.000x−35.000x\n80.000=10.000x⟹x=8 kaus",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : B\nPembina OSIS menganalisis dua penawaran harga pembuatan kaus kelas dari dua konveksi berdasarkan jumlah kaus (x) dan total biaya (y dalam rupiah):\nKonveksi I: y=35.000x+100.000\nKonveksi II: y=45.000x+20.000\nKarena kedua persamaan sudah menyatakan nilai y secara eksplisit, metode penyelesaian yang paling langsung (dengan menyamakan kedua bentuk y tanpa perlu mengubah persamaan ke bentuk umum Ax+By=C) beserta jumlah kaus saat titik impas berturut-turut adalah ....\nA. Eliminasi, dengan titik impas pada x=8 kaus\nB. Substitusi, dengan titik impas pada x=8 kaus\nC. Grafik, dengan titik impas pada x=10 kaus\nD. Substitusi, dengan titik impas pada x=10 kaus\nPEMBAHASAN\nAnalisis Efisiensi Metode:\nMetode Substitusi: Kedua persamaan berformat y=f(x). Untuk mencari titik impas (y_1=y_2), kedua ekspresi nilai y dapat langsung disamakan (disubstitusikan) tanpa mengubah bentuk awal persamaan. Ini merupakan alur tercepat dan paling langsung.\nMetode Eliminasi: Memerlukan langkah penataan ulang persamaan ke bentuk baku terlebih dahulu (misalnya 35.000x-y=-100.000 dan 45.000x-y=-20.000) sebelum variabel y dieliminasi.\nPerhitungan Jumlah Kaus (x): Samakan kedua nilai y:\n35.000x+100.000=45.000x+20.000\n100.000-20.000=45.000x-35.000x\n80.000=10.000x\nx=8kaus\nKesimpulan: Metode yang paling langsung/efisien adalah Substitusi dengan jumlah x=8 kaus (Pilihan B).\n",
+    "original_explanation": "PEMBAHASAN\nAnalisis Efisiensi Metode:\nMetode Substitusi: Kedua persamaan berformat y=f(x). Untuk mencari titik impas (y_1=y_2), kedua ekspresi nilai y dapat langsung disamakan (disubstitusikan) tanpa mengubah bentuk awal persamaan. Ini merupakan alur tercepat dan paling langsung.\nMetode Eliminasi: Memerlukan langkah penataan ulang persamaan ke bentuk baku terlebih dahulu (misalnya 35.000x-y=-100.000 dan 45.000x-y=-20.000) sebelum variabel y dieliminasi.\nPerhitungan Jumlah Kaus (x): Samakan kedua nilai y:\n35.000x+100.000=45.000x+20.000\n100.000-20.000=45.000x-35.000x\n80.000=10.000x\nx=8kaus\nKesimpulan: Metode yang paling langsung/efisien adalah Substitusi dengan jumlah x=8 kaus (Pilihan B).",
     "declared_keys": [
-      "KUNCI JAWABAN : B"
+      "B"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 5 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : B\nPembina OSIS menganalisis dua penawaran harga pembuatan kaus kelas dari dua konveksi berdasarkan jumlah kaus x dan total biaya y (dalam rupiah):\nKonveksi I: y=35.000x+100.000\nKonveksi II: y=45.000x+20.000\nPembina OSIS ingin menentukan metode penyelesaian yang paling efisien untuk mencari jumlah kaus x saat total biaya kedua konveksi bernilai tepat sama (titik impas). Metode penyelesaian beserta jumlah kaus titik impas yang diperoleh berturut-turut adalah ....\nA. Eliminasi, dengan titik impas pada x=8 kaus\nB. Substitusi, dengan titik impas pada x=8 kaus\nC. Grafik, dengan titik impas pada x=10 kaus\nD. Substitusi, dengan titik impas pada x=10 kaus\nPEMBAHASAN\nKedua persamaan sudah menyatakan variabel y secara eksplisit dalam bentuk y=f(x).\nOleh karena itu, Metode Substitusi merupakan metode paling efisien karena kedua bentuk ekspresi y dapat langsung disamakan (y=y) tanpa mengubah bentuk persamaan awal.\nSubstitusi nilai y:\n35.000x+100.000=45.000x+20.000\n100.000−20.000=45.000x−35.000x\n80.000=10.000x⟹x=8 kaus",
+      "original_explanation": "PEMBAHASAN\nKedua persamaan sudah menyatakan variabel y secara eksplisit dalam bentuk y=f(x).\nOleh karena itu, Metode Substitusi merupakan metode paling efisien karena kedua bentuk ekspresi y dapat langsung disamakan (y=y) tanpa mengubah bentuk persamaan awal.\nSubstitusi nilai y:\n35.000x+100.000=45.000x+20.000\n100.000−20.000=45.000x−35.000x\n80.000=10.000x⟹x=8 kaus",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi.",
+      "source_number": 5
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "mcma-9-2-6": {
     "source_number": 6,
@@ -1517,21 +1627,34 @@
     "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe."
   },
   "pg-9-3-2": {
-    "source_number": null,
+    "source_number": 2,
     "source_ordinal_within_indicator": 22,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL (Bentuk Soal: PG)\nPanitia pertunjukan teater sekolah menganalisis penerimaan dari dua jenis tiket: tiket kelas utama (x) dan tiket kelas biasa (y). Sistem persamaan penerimaan dinyatakan sebagai:\n2x + 3y = 110.000\n5x + 2y = 160.000\nPanitia hendak menyajikan penyelesaian nilai variabel matriks [x / y] menggunakan bentuk perkalian invers matriks koefisien. Bentuk persamaan matriks yang tepat adalah ....\nA. [x / y] = (1 / -11) * [[2, -3], [-5, 2]] * [110.000 / 160.000]\nB. [x / y] = (1 / 11) * [[2, 3], [5, 2]] * [110.000 / 160.000]\nC. [x / y] = (1 / -11) * [[-2, 3], [5, -2]] * [110.000 / 160.000]\nD. [x / y] = (1 / 11) * [[2, -3], [-5, 2]] * [110.000 / 160.000]\n---\nPEMBAHASAN:\nPersamaan matriks awal: A · X = B\n[[2, 3], [5, 2]] * [x / y] = [110.000 / 160.000]\nPenyelesaian nilai X menggunakan invers matriks A⁻¹: X = A⁻¹ · B\n1. Determinan matriks A:\ndet(A) = (2 × 2) − (3 × 5) = 4 − 15 = −11\n2. Invers matriks A⁻¹:\nA⁻¹ = (1 / det(A)) * [[d, -b], [-c, a]] = (1 / -11) * [[2, -3], [-5, 2]]\n3. Sehingga bentuk persamaan matriksnya:\n[x / y] = (1 / -11) * [[2, -3], [-5, 2]] * [110.000 / 160.000]\nKunci Jawaban: A",
-    "original_explanation": "PEMBAHASAN:\nPersamaan matriks awal: A · X = B\n[[2, 3], [5, 2]] * [x / y] = [110.000 / 160.000]\nPenyelesaian nilai X menggunakan invers matriks A⁻¹: X = A⁻¹ · B\n1. Determinan matriks A:\ndet(A) = (2 × 2) − (3 × 5) = 4 − 15 = −11\n2. Invers matriks A⁻¹:\nA⁻¹ = (1 / det(A)) * [[d, -b], [-c, a]] = (1 / -11) * [[2, -3], [-5, 2]]\n3. Sehingga bentuk persamaan matriksnya:\n[x / y] = (1 / -11) * [[2, -3], [-5, 2]] * [110.000 / 160.000]\nKunci Jawaban: A",
-    "declared_keys": [],
-    "generation_status": "HOLD_SOURCE",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 2 (Bentuk Soal: PG)\nLEVEL KOGNITIF: C3\nKUNCI JAWABAN: A\nPanitia pertunjukan teater sekolah menganalisis penerimaan dari dua jenis tiket: tiket kelas utama (x) dan tiket kelas biasa (y). Sistem persamaan penerimaan dinyatakan sebagai:\n2x+3y=110.000\n5x+2y=160.000\nPanitia hendak menyajikan penyelesaian nilai variabel matriks $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ menggunakan bentuk perkalian invers matriks koefisien. Bentuk persamaan matriks yang tepat adalah ....\nA. $\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{-11} \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix} \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$\nB. $\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{11} \\begin{pmatrix} 2 & 3 \\\\ 5 & 2 \\end{pmatrix} \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$\nC. $\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{-11} \\begin{pmatrix} -2 & 3 \\\\ 5 & -2 \\end{pmatrix} \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$\nD. $\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{11} \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix} \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$\nPEMBAHASAN\nBentuk Matriks Awal (A⋅X=B): Berdasarkan sistem persamaan linear yang diberikan: $$\\begin{pmatrix} 2 & 3 \\\\ 5 & 2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$$ Di mana $A = \\begin{pmatrix} 2 & 3 \\\\ 5 & 2 \\end{pmatrix}$, $X = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$, dan $B = \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$.\nMenentukan Invers Matriks A (X=A^-1⋅B): Rumus invers matriks 2×2 untuk $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah: $$A^{-1} = \\frac{1}{\\det(A)} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$$\nHitung Determinan Matriks A: det(A)=(a⋅d)-(b⋅c)=(2⋅2)-(3⋅5)=4-15=-11\nTentukan Adjoin Matriks A: Tukar posisi elemen diagonal utama (a dan d) dan ubah tanda elemen diagonal samping (b dan c): $$\\text{Adj}(A) = \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix}$$\nSusun Bentuk Perkalian Invers Matriks: $$A^{-1} = \\frac{1}{-11} \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix}$$ Sehingga penyelesaian matriks X=A^-1⋅B menjadi: $$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{-11} \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix} \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$$\nKesimpulan:\nBentuk persamaan matriks yang tepat adalah opsi A.",
+    "original_explanation": "PEMBAHASAN\nBentuk Matriks Awal (A⋅X=B): Berdasarkan sistem persamaan linear yang diberikan: $$\\begin{pmatrix} 2 & 3 \\\\ 5 & 2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$$ Di mana $A = \\begin{pmatrix} 2 & 3 \\\\ 5 & 2 \\end{pmatrix}$, $X = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$, dan $B = \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$.\nMenentukan Invers Matriks A (X=A^-1⋅B): Rumus invers matriks 2×2 untuk $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah: $$A^{-1} = \\frac{1}{\\det(A)} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$$\nHitung Determinan Matriks A: det(A)=(a⋅d)-(b⋅c)=(2⋅2)-(3⋅5)=4-15=-11\nTentukan Adjoin Matriks A: Tukar posisi elemen diagonal utama (a dan d) dan ubah tanda elemen diagonal samping (b dan c): $$\\text{Adj}(A) = \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix}$$\nSusun Bentuk Perkalian Invers Matriks: $$A^{-1} = \\frac{1}{-11} \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix}$$ Sehingga penyelesaian matriks X=A^-1⋅B menjadi: $$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{1}{-11} \\begin{pmatrix} 2 & -3 \\\\ -5 & 2 \\end{pmatrix} \\begin{pmatrix} 110.000 \\\\ 160.000 \\end{pmatrix}$$\nKesimpulan:\nBentuk persamaan matriks yang tepat adalah opsi A.",
+    "declared_keys": [
+      "A"
+    ],
+    "generation_status": "ACTIVE",
     "notes": [
       "Missing source question number; proposed local number inferred only from position.",
       "No explicit KUNCI JAWABAN line; inspect explanation before assigning effective key.",
       "No per-question cognitive label; do not infer an individual label silently.",
       "Nomor soal dan label kognitif tidak tercantum. ID lokal posisi 2 diusulkan, kunci A eksplisit terdapat di pembahasan."
     ],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Nomor soal dan tingkat kognitif tidak tercantum. ID lokal 2 disimpulkan dari posisi; kunci A eksplisit pada pembahasan. Metadata sumber perlu disahkan."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL (Bentuk Soal: PG)\nPanitia pertunjukan teater sekolah menganalisis penerimaan dari dua jenis tiket: tiket kelas utama (x) dan tiket kelas biasa (y). Sistem persamaan penerimaan dinyatakan sebagai:\n2x + 3y = 110.000\n5x + 2y = 160.000\nPanitia hendak menyajikan penyelesaian nilai variabel matriks [x / y] menggunakan bentuk perkalian invers matriks koefisien. Bentuk persamaan matriks yang tepat adalah ....\nA. [x / y] = (1 / -11) * [[2, -3], [-5, 2]] * [110.000 / 160.000]\nB. [x / y] = (1 / 11) * [[2, 3], [5, 2]] * [110.000 / 160.000]\nC. [x / y] = (1 / -11) * [[-2, 3], [5, -2]] * [110.000 / 160.000]\nD. [x / y] = (1 / 11) * [[2, -3], [-5, 2]] * [110.000 / 160.000]\n---\nPEMBAHASAN:\nPersamaan matriks awal: A · X = B\n[[2, 3], [5, 2]] * [x / y] = [110.000 / 160.000]\nPenyelesaian nilai X menggunakan invers matriks A⁻¹: X = A⁻¹ · B\n1. Determinan matriks A:\ndet(A) = (2 × 2) − (3 × 5) = 4 − 15 = −11\n2. Invers matriks A⁻¹:\nA⁻¹ = (1 / det(A)) * [[d, -b], [-c, a]] = (1 / -11) * [[2, -3], [-5, 2]]\n3. Sehingga bentuk persamaan matriksnya:\n[x / y] = (1 / -11) * [[2, -3], [-5, 2]] * [110.000 / 160.000]\nKunci Jawaban: A",
+      "original_explanation": "PEMBAHASAN:\nPersamaan matriks awal: A · X = B\n[[2, 3], [5, 2]] * [x / y] = [110.000 / 160.000]\nPenyelesaian nilai X menggunakan invers matriks A⁻¹: X = A⁻¹ · B\n1. Determinan matriks A:\ndet(A) = (2 × 2) − (3 × 5) = 4 − 15 = −11\n2. Invers matriks A⁻¹:\nA⁻¹ = (1 / det(A)) * [[d, -b], [-c, a]] = (1 / -11) * [[2, -3], [-5, 2]]\n3. Sehingga bentuk persamaan matriksnya:\n[x / y] = (1 / -11) * [[2, -3], [-5, 2]] * [110.000 / 160.000]\nKunci Jawaban: A",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Nomor soal dan tingkat kognitif tidak tercantum. ID lokal 2 disimpulkan dari posisi; kunci A eksplisit pada pembahasan. Metadata sumber perlu disahkan.",
+      "source_number": null
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "pg-9-3-3": {
     "source_number": 3,
@@ -1549,16 +1672,27 @@
   "pg-9-3-4": {
     "source_number": 4,
     "source_ordinal_within_indicator": 24,
-    "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
-    "source_text": "SOAL 4 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A\nPembina OSIS menganalisis dua persamaan alokasi anggaran dana kegiatan dalam variabel x dan y:\nPersamaan 1: y=3x-5\nPersamaan 2: 2x+5y=43\nBerdasarkan struktur kedua persamaan tersebut, metode penyelesaian yang paling efisien, langkah awal pengerjaan, serta koordinat titik potong (x,y) yang dihasilkan berturut-turut adalah ....\nA. Metode Substitusi, mengganti nilai y pada Persamaan 2 dengan (3x-5), menghasilkan titik potong (4,7)\nB. Metode Eliminasi, mengalikan Persamaan 1 dengan 5, menghasilkan titik potong (4,7)\nC. Metode Grafik, menggambar kedua garis pada koordinat Cartesius, menghasilkan titik potong (5,10)\nD. Metode Substitusi, mengubah Persamaan 2 menjadi x=(43-5y)/(2), menghasilkan titik potong (5,10)\nPEMBAHASAN\nAnalisis Efisiensi: Persamaan 1 sudah berbentuk eksplisit y=f(x) (y=3x-5). Menggunakan Metode Substitusi secara langsung memasukkan bentuk y ke Persamaan 2 merupakan langkah paling ringkas tanpa perlu mengubah susunan bentuk aljabar.\nLangkah Pengerjaan:\nSubstitusi y=3x-5 ke 2x+5y=43:\n2x+5(3x-5)=43\n2x+15x-25=43\n17x = 68  ⇒  x = 68 / 17  ⇒  x = 4\nMenghitung nilai y:\ny=3(4)-5=12-5=7\nTitik potong yang diperoleh adalah (4,7).",
-    "original_explanation": "PEMBAHASAN\nAnalisis Efisiensi: Persamaan 1 sudah berbentuk eksplisit y=f(x) (y=3x-5). Menggunakan Metode Substitusi secara langsung memasukkan bentuk y ke Persamaan 2 merupakan langkah paling ringkas tanpa perlu mengubah susunan bentuk aljabar.\nLangkah Pengerjaan: Substitusi y=3x-5 ke 2x+5y=43: 2x+5(3x-5)=43 2x+15x-25=43 17x = 68 ⇒ x = 68 / 17 ⇒ x = 4\nMenghitung nilai y: y=3(4)-5=12-5=7 Titik potong yang diperoleh adalah (4,7).",
+    "source_document_sha256": "db7bfd87fb1649b4ad63090a32ae225af14ac888fa26b384bb192a4d9cfa3c69",
+    "source_text": "SOAL 4 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A\nPembina OSIS menganalisis dua persamaan alokasi anggaran dana kegiatan dalam variabel x dan y:\nPersamaan 1: y=3x-5\nPersamaan 2: 2x+5y=43\nKarena Persamaan 1 sudah dalam bentuk eksplisit y=f(x), metode penyelesaian yang paling langsung (tanpa perlu menyusun ulang bentuk aljabar menjadi bentuk baku Ax+By=C), langkah awal pengerjaan, serta koordinat titik potong (x,y) yang dihasilkan berturut-turut adalah ....\nA. Metode Substitusi, mengganti nilai y pada Persamaan 2 dengan (3x-5), menghasilkan titik potong (4,7)\nB. Metode Eliminasi, mengalikan Persamaan 1 dengan 5, menghasilkan titik potong (4,7)\nC. Metode Grafik, menggambar kedua garis pada koordinat Cartesius, menghasilkan titik potong (5,10)\nD. Metode Substitusi, mengubah Persamaan 2 menjadi x=(43-5y)/(2), menghasilkan titik potong (5,10)\nPEMBAHASAN\nAnalisis Efisiensi Metode:\nMetode Substitusi: Persamaan 1 sudah menyatakan nilai y secara eksplisit (y=3x-5). Bentuk (3x-5) dapat langsung disubstitusikan menggantikan variabel y pada Persamaan 2 tanpa perlu merUbah susunan persamaan terlebih dahulu. Ini merupakan alur paling praktis dengan langkah pengerjaan paling ringkas.\nMetode Eliminasi: Memerlukan langkah tambahan untuk mengubah Persamaan 1 ke bentuk baku (3x-y=5) terlebih dahulu sebelum menyamakan koefisien variabel.\nLangkah Pengerjaan & Perhitungan:\nSubstitusikan y=3x-5 ke Persamaan 2 (2x+5y=43):\n2x+5(3x-5)=43\n2x+15x-25=43\n$$17x = 68 \\implies x = 4$$\nHitung nilai y dengan memasukkan x=4 ke Persamaan 1:\ny=3(4)-5=12-5=7\nDiperoleh titik potong (x,y)=(4,7).\nKesimpulan: Jawaban yang tepat adalah A (Metode Substitusi, mengganti nilai y pada Persamaan 2 dengan (3x-5), menghasilkan titik potong (4,7)).",
+    "original_explanation": "PEMBAHASAN\nAnalisis Efisiensi Metode:\nMetode Substitusi: Persamaan 1 sudah menyatakan nilai y secara eksplisit (y=3x-5). Bentuk (3x-5) dapat langsung disubstitusikan menggantikan variabel y pada Persamaan 2 tanpa perlu merUbah susunan persamaan terlebih dahulu. Ini merupakan alur paling praktis dengan langkah pengerjaan paling ringkas.\nMetode Eliminasi: Memerlukan langkah tambahan untuk mengubah Persamaan 1 ke bentuk baku (3x-y=5) terlebih dahulu sebelum menyamakan koefisien variabel.\nLangkah Pengerjaan & Perhitungan:\nSubstitusikan y=3x-5 ke Persamaan 2 (2x+5y=43):\n2x+5(3x-5)=43\n2x+15x-25=43\n$$17x = 68 \\implies x = 4$$\nHitung nilai y dengan memasukkan x=4 ke Persamaan 1:\ny=3(4)-5=12-5=7\nDiperoleh titik potong (x,y)=(4,7).\nKesimpulan: Jawaban yang tepat adalah A (Metode Substitusi, mengganti nilai y pada Persamaan 2 dengan (3x-5), menghasilkan titik potong (4,7)).",
     "declared_keys": [
-      "KUNCI JAWABAN : A"
+      "A"
     ],
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "notes": [],
-    "audit": "Stimulus, opsi, kunci dan pembahasan diperiksa; verifikasi matematis ACTIVE dilanjutkan pada recipe.",
-    "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi."
+    "audit": "Generator original v2; reproduksi tepat dan oracle matematika pada seluruh opsi.",
+    "reason": "",
+    "previous_source": {
+      "source_document_sha256": "f736431733803c68f7de09d53285cd80ec6be6d63b56459664489f4d49d954c2",
+      "source_text": "SOAL 4 (Bentuk Soal: PG)\nLEVEL KOGNITIF : C4\nKUNCI JAWABAN : A\nPembina OSIS menganalisis dua persamaan alokasi anggaran dana kegiatan dalam variabel x dan y:\nPersamaan 1: y=3x-5\nPersamaan 2: 2x+5y=43\nBerdasarkan struktur kedua persamaan tersebut, metode penyelesaian yang paling efisien, langkah awal pengerjaan, serta koordinat titik potong (x,y) yang dihasilkan berturut-turut adalah ....\nA. Metode Substitusi, mengganti nilai y pada Persamaan 2 dengan (3x-5), menghasilkan titik potong (4,7)\nB. Metode Eliminasi, mengalikan Persamaan 1 dengan 5, menghasilkan titik potong (4,7)\nC. Metode Grafik, menggambar kedua garis pada koordinat Cartesius, menghasilkan titik potong (5,10)\nD. Metode Substitusi, mengubah Persamaan 2 menjadi x=(43-5y)/(2), menghasilkan titik potong (5,10)\nPEMBAHASAN\nAnalisis Efisiensi: Persamaan 1 sudah berbentuk eksplisit y=f(x) (y=3x-5). Menggunakan Metode Substitusi secara langsung memasukkan bentuk y ke Persamaan 2 merupakan langkah paling ringkas tanpa perlu mengubah susunan bentuk aljabar.\nLangkah Pengerjaan:\nSubstitusi y=3x-5 ke 2x+5y=43:\n2x+5(3x-5)=43\n2x+15x-25=43\n17x = 68  ⇒  x = 68 / 17  ⇒  x = 4\nMenghitung nilai y:\ny=3(4)-5=12-5=7\nTitik potong yang diperoleh adalah (4,7).",
+      "original_explanation": "PEMBAHASAN\nAnalisis Efisiensi: Persamaan 1 sudah berbentuk eksplisit y=f(x) (y=3x-5). Menggunakan Metode Substitusi secara langsung memasukkan bentuk y ke Persamaan 2 merupakan langkah paling ringkas tanpa perlu mengubah susunan bentuk aljabar.\nLangkah Pengerjaan: Substitusi y=3x-5 ke 2x+5y=43: 2x+5(3x-5)=43 2x+15x-25=43 17x = 68 ⇒ x = 68 / 17 ⇒ x = 4\nMenghitung nilai y: y=3(4)-5=12-5=7 Titik potong yang diperoleh adalah (4,7).",
+      "generation_status": "HOLD_SOURCE",
+      "reason": "Metode paling efisien tidak didefinisikan; opsi substitusi dan eliminasi sama-sama valid dan memberikan hasil benar. Perjelas kriteria atau opsi sebelum aktivasi.",
+      "source_number": 4
+    },
+    "source_document": "source-revision-2026-10-07.docx",
+    "source_review_status": "REVISED_CURRICULUM",
+    "generator_status": "IMPLEMENTED"
   },
   "pg-9-3-5": {
     "source_number": 5,

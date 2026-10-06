@@ -1,0 +1,42 @@
+{
+  "question_id": "kategori-17-2-10",
+  "config_version": 1,
+  "original_hash": "89a3320249e7a3ba",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {"variant": 0, "k": 2, "false_slot": 3},
+  "variables": {
+    "variant": {"gen": "choice", "values": [1]},
+    "k": {"gen": "choice", "values": [-4, -3, -2, -0.5, 0.5, 2, 3, 4]},
+    "false_slot": {"gen": "choice", "values": [1, 2, 3]},
+    "intro": {
+      "gen": "derived",
+      "expr": "'Diketahui faktor skala ' if variant == 0 else 'Diketahui faktor skala k='"
+    },
+    "factor": {"gen": "derived", "expr": "'k≠1 dan k≠0' if variant == 0 else k"},
+    "d_factor": {"gen": "derived", "expr": "' k di mana |k|≠1' if variant == 0 else k"},
+    "a_property": {
+      "gen": "derived",
+      "expr": "'mengubah ukuran bangun' if false_slot == 1 else 'mempertahankan kekongruenan bangun'"
+    },
+    "b_property": {
+      "gen": "derived",
+      "expr": "'mempertahankan bentuk dan ukuran bangun (kongruen)' if false_slot == 2 else 'mengubah ukuran bangun tetapi tidak mengubah bentuknya'"
+    },
+    "c_property": {
+      "gen": "derived",
+      "expr": "'mengubah ukuran bangun menjadi 2 kali lipat' if false_slot == 3 else 'mempertahankan bentuk dan ukuran bangun (kongruen)'"
+    },
+    "a_verdict": {"gen": "derived", "expr": "'Salah' if false_slot == 1 else 'Benar'"},
+    "b_verdict": {"gen": "derived", "expr": "'Salah' if false_slot == 2 else 'Benar'"},
+    "c_verdict": {"gen": "derived", "expr": "'Salah' if false_slot == 3 else 'Benar'"}
+  },
+  "constraints": ["variant == 0 or variant == 1", "k != 0 and abs(k) != 1", "false_slot >= 1 and false_slot <= 3"],
+  "stem": "{intro}{factor}. Perhatikan sifat-sifat transformasi geometri berikut. Tentukan Benar atau Salah untuk setiap pernyataan!",
+  "options": [
+    {"id": "1", "text": "Translasi dan rotasi merupakan transformasi yang {a_property}.", "correct": "false_slot != 1"},
+    {"id": "2", "text": "Dilatasi dengan faktor skala {d_factor} {b_property}.", "correct": "false_slot != 2"},
+    {"id": "3", "text": "Refleksi terhadap sumbu X {c_property}.", "correct": "false_slot != 3"}
+  ],
+  "explanation": "Pernyataan 1: {a_verdict}. Translasi dan rotasi mempertahankan bentuk serta ukuran, sehingga bangun dan bayangannya kongruen.\nPernyataan 2: {b_verdict}. Dilatasi dengan |k|≠1 mengubah ukuran menurut faktor |k|, tetapi tidak mengubah bentuk. Bayangan sebangun dengan bangun asal; jika |k|>1 ukurannya membesar, jika 0<|k|<1 ukurannya mengecil. Tanda negatif faktor skala tidak membuat bangun kongruen.\nPernyataan 3: {c_verdict}. Refleksi terhadap sumbu X mempertahankan bentuk dan ukuran, bukan memperbesar bangun menjadi dua kali lipat."
+}

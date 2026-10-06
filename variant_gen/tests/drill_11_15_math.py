@@ -6,6 +6,7 @@ Deliberately fail closed for an unimplemented question model.
 import ast
 import operator
 import re
+import math
 from fractions import Fraction as F
 from math import isqrt
 
@@ -176,6 +177,16 @@ def angle_model(qid, c):
 def geometry_model(qid,c):
     s,options=c['stem'],c['options']; n=nums(s); v=[nums(o['text']) for o in options]
     suffix='-'.join(qid.split('-')[2:]); pg=qid.startswith('pg')
+    if qid == 'pg-15-4-2':
+        short, long, angle = map(float, n[:3])
+        assert 0 < short < long and 0 < angle < 90, (qid, n)
+        other = math.degrees(math.asin(short * math.sin(math.radians(angle)) / long))
+        possibilities = sum(angle + b < 180 for b in (other, 180 - other))
+        vertices = re.search(r'segitiga ([A-Z]{3})', s)[1]
+        given_angle = re.search(r'∠([A-Z]) =', s)[1]
+        included = given_angle == vertices[1]
+        assert len(options) == 4
+        return [included, False, False, not included and possibilities == 1]
     def right(sides):
         a,b,d=sorted(sides); assert a+b>d and a>0,sides
         return a*a+b*b==d*d
@@ -493,6 +504,33 @@ def function_model(qid,c):
     def defs():
         exprs=re.findall(r'[fgT]\(x\)\s*=\s*([\d.,x()^*/+\- ]+)',s)
         return [lambda x,e=e.split(', x')[0].strip(' .,'):calc(e,x=x) for e in exprs[:2]]
+    if qid == 'mcma-11-1-7':
+        constant = int(re.search(r'x² - (\d+)', s)[1])
+        claims = [tuple(map(int, re.search(r'f\((-?\d+)\)=(-?\d+)', o['text']).groups())) for o in opts]
+        assert claims[0][0] > 0 and claims[2][0] < 0
+        assert all(x*x-constant > 0 for x, _ in claims)
+        return [x*x-constant == answer for x, answer in claims]
+    if qid == 'pg-11-2-4':
+        coefficient, constant = map(int, re.search(r'f\(x\)=(\d+)x\+(\d+)', s).groups())
+        subtract = int(re.search(r'g\(x\)=x-(\d+)', s)[1])
+        arg = int(re.search(r'\(f∘g\)\((\d+)\)', s)[1])
+        assert arg-subtract > 0
+        return equal_options(opts, coefficient*(arg-subtract)+constant)
+    if qid == 'kategori-11-3-9':
+        names = re.findall(r'([A-Z])=\{', s)
+        A, B = ({number(a) for a in named(name)} for name in names)
+        assert len(A) == 3 and len(B) == 6
+        assert all(x > 0 for x in A) and {y*y for y in B} == A
+        functions = {(names[0], names[1]): all(sum(y*y == x for y in B) == 1 for x in A),
+                     (names[1], names[0]): all(sum(y*y == x for x in A) == 1 for y in B)}
+        x1, x2, image = map(int, re.search(r'karena (-?\d+) dan (-?\d+) dipasangkan dengan (\d+)', opts[2]['text']).groups())
+        assert x1 in B and x2 in B and x1 != x2 and x1*x1 == x2*x2 == image
+        out = []
+        for option in opts:
+            source, target = re.search(r'Relasi dari ([A-Z]) ke ([A-Z])', option['text']).groups()
+            valid = functions[source, target]
+            out.append(not valid if 'bukan fungsi' in option['text'] else valid)
+        return out
     if suf=='1-2':return [members(o['text'])=={a for a,b in pairs(s)} for o in opts]
     if suf in ('1-3','3-3','2-3'):
         data=[(number(a),number(b)) for a,b in re.findall(r'f\(([-\d]+)\)\s*=\s*([-\d]+)',s)] if suf!='2-3' else [(number(a),number(b)) for a,b in pairs(s)]

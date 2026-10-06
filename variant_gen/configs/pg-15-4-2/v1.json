@@ -1,0 +1,104 @@
+{
+  "question_id": "pg-15-4-2",
+  "config_version": 1,
+  "original_hash": "a29c741da65a2863",
+  "max_draws": 500,
+  "shuffle": false,
+  "original_values": {
+    "short": 6,
+    "long": 8,
+    "angle": 40,
+    "labels": 0
+  },
+  "variables": {
+    "short": {
+      "gen": "range",
+      "range": [
+        4,
+        9
+      ],
+      "step": 1,
+      "fmt": "raw"
+    },
+    "long": {
+      "gen": "range",
+      "range": [
+        7,
+        12
+      ],
+      "step": 1,
+      "fmt": "raw"
+    },
+    "angle": {
+      "gen": "range",
+      "range": [
+        30,
+        60
+      ],
+      "step": 5,
+      "fmt": "raw"
+    },
+    "labels": {
+      "gen": "choice",
+      "values": [
+        0,
+        1,
+        2
+      ]
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'A' if labels == 0 else ('D' if labels == 1 else 'K')"
+    },
+    "b": {
+      "gen": "derived",
+      "expr": "'B' if labels == 0 else ('E' if labels == 1 else 'L')"
+    },
+    "c": {
+      "gen": "derived",
+      "expr": "'C' if labels == 0 else ('F' if labels == 1 else 'M')"
+    },
+    "p": {
+      "gen": "derived",
+      "expr": "'P' if labels == 0 else ('S' if labels == 1 else 'X')"
+    },
+    "q": {
+      "gen": "derived",
+      "expr": "'Q' if labels == 0 else ('T' if labels == 1 else 'Y')"
+    },
+    "r": {
+      "gen": "derived",
+      "expr": "'R' if labels == 0 else ('U' if labels == 1 else 'Z')"
+    }
+  },
+  "constraints": [
+    "long > short",
+    "angle > 0",
+    "angle < 90",
+    "labels == 0 or short != 6 or long != 8 or angle != 40"
+  ],
+  "stem": "Rani menyimpulkan bahwa segitiga {a}{b}{c} dan segitiga {p}{q}{r} kongruen karena {a}{b} = {p}{q} = {short} cm, {b}{c} = {q}{r} = {long} cm, dan ∠{a} = ∠{p} = {angle}°, dengan alasan bahwa ketiga data tersebut memenuhi syarat sisi-sudut-sisi. Penilaian yang tepat terhadap alasan Rani adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Alasan benar karena memenuhi syarat sisi-sudut-sisi.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Alasan benar karena memenuhi syarat sisi-sisi-sisi.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Alasan kurang tepat karena syarat kongruen mengharuskan ketiga sudut sama besar.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Alasan kurang tepat karena ∠{a} tidak diapit oleh sisi {a}{b} dan {b}{c}, sehingga syarat sisi-sudut-sisi tidak terpenuhi, meskipun kesimpulan kongruen tetap dapat dibenarkan dengan alasan lain.",
+      "correct": true
+    }
+  ],
+  "explanation": "Sudut yang diapit sisi {a}{b} dan {b}{c} adalah ∠{b}, bukan ∠{a}. Karena itu, alasan sisi-sudut-sisi keliru; sisi ketiga belum diberikan sehingga alasan sisi-sisi-sisi juga belum terbukti dari data langsung. Namun sisi {b}{c}={long} cm, yang berhadapan dengan sudut ∠{a}={angle}°, lebih panjang daripada sisi {a}{b}={short} cm. Dengan sudut lancip dan kondisi sisi ini, hanya satu segitiga yang mungkin. Kesimpulan kongruen benar dengan alasan lain; jawaban D."
+}

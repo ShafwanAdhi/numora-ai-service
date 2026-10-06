@@ -1,0 +1,130 @@
+{
+  "question_id": "pg-21-3-4",
+  "config_version": 1,
+  "original_hash": "a0b9c98805e936f5",
+  "max_draws": 1000,
+  "shuffle": false,
+  "original_values": {
+    "t": 0
+  },
+  "variables": {
+    "t": {
+      "gen": "range",
+      "range": [
+        -50,
+        10
+      ],
+      "step": 1,
+      "fmt": "raw"
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "60+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "65+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "70+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "75+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "90+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "72+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "74+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "76+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "78+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum_initial": {
+      "gen": "derived",
+      "expr": "5*(70+t)",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "80+t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "sum_new": {
+      "gen": "derived",
+      "expr": "360+5*t",
+      "fmt": "id",
+      "decimals": 3
+    },
+    "answer": {
+      "gen": "derived",
+      "expr": "72+t",
+      "fmt": "id",
+      "decimals": 3
+    }
+  },
+  "constraints": [],
+  "stem": "Data berikut memiliki rata-rata {v1}:\n{v2}, {v3}, {v4}, {v5}, x\nJika nilai x diubah menjadi {v6}, rata-rata baru data tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v7}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v8}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v9}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v10}",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah awal = {sum_initial}; nilai x = {x}. Setelah x diganti, jumlah menjadi {sum_new}. Mean baru = {sum_new}/5 = {answer}."
+}

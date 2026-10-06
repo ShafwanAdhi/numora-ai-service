@@ -1,0 +1,48 @@
+{
+  "question_id": "mcma-17-1-8",
+  "config_version": 1,
+  "original_hash": "dc82e5d1124254d0",
+  "max_draws": 200,
+  "shuffle": false,
+  "original_values": {"variant": 0, "k": 2, "false_slot": 2},
+  "variables": {
+    "variant": {"gen": "choice", "values": [1]},
+    "k": {"gen": "choice", "values": [-4, -3, -2, -0.5, 0.5, 2, 3, 4]},
+    "false_slot": {"gen": "choice", "values": [1, 2, 3, 4]},
+    "intro": {
+      "gen": "derived",
+      "expr": "'Diketahui faktor skala ' if variant == 0 else 'Diketahui faktor skala k='"
+    },
+    "factor": {"gen": "derived", "expr": "'k≠1 dan k≠0' if variant == 0 else k"},
+    "d_factor": {"gen": "derived", "expr": "'k di mana |k|≠1' if variant == 0 else k"},
+    "a_property": {
+      "gen": "derived",
+      "expr": "'mengubah ukuran bangun menjadi lebih besar atau lebih kecil' if false_slot == 1 else 'mempertahankan bentuk dan ukuran bangun (kongruen)'"
+    },
+    "b_property": {
+      "gen": "derived",
+      "expr": "'mengubah ukuran bangun menjadi lebih besar atau lebih kecil' if false_slot == 2 else 'mempertahankan bentuk dan ukuran bangun (kongruen)'"
+    },
+    "c_property": {
+      "gen": "derived",
+      "expr": "'mengubah ukuran bangun menjadi lebih besar atau lebih kecil' if false_slot == 3 else 'mempertahankan bentuk dan ukuran bangun (kongruen)'"
+    },
+    "d_property": {
+      "gen": "derived",
+      "expr": "'mempertahankan bentuk dan ukuran bangun (kongruen)' if false_slot == 4 else 'mengubah ukuran bangun tetapi mempertahankan bentuknya (kesebangunan)'"
+    },
+    "a_verdict": {"gen": "derived", "expr": "'Salah' if false_slot == 1 else 'Benar'"},
+    "b_verdict": {"gen": "derived", "expr": "'Salah' if false_slot == 2 else 'Benar'"},
+    "c_verdict": {"gen": "derived", "expr": "'Salah' if false_slot == 3 else 'Benar'"},
+    "d_verdict": {"gen": "derived", "expr": "'Salah' if false_slot == 4 else 'Benar'"}
+  },
+  "constraints": ["variant == 0 or variant == 1", "k != 0 and abs(k) != 1", "false_slot >= 1 and false_slot <= 4"],
+  "stem": "{intro}{factor}. Pilihlah semua pernyataan yang benar mengenai sifat-sifat bayangan hasil transformasi geometri!",
+  "options": [
+    {"id": "A", "text": "Translasi {a_property}.", "correct": "false_slot != 1"},
+    {"id": "B", "text": "Refleksi {b_property}.", "correct": "false_slot != 2"},
+    {"id": "C", "text": "Rotasi {c_property}.", "correct": "false_slot != 3"},
+    {"id": "D", "text": "Dilatasi dengan faktor skala {d_factor} {d_property}.", "correct": "false_slot != 4"}
+  ],
+  "explanation": "Pernyataan A: {a_verdict}. Translasi hanya menggeser posisi dan mempertahankan bentuk serta ukuran bangun.\nPernyataan B: {b_verdict}. Refleksi mencerminkan bangun dan mempertahankan bentuk serta ukuran bangun.\nPernyataan C: {c_verdict}. Rotasi memutar bangun dan mempertahankan bentuk serta ukuran bangun.\nPernyataan D: {d_verdict}. Dilatasi dengan |k|≠1 mengubah ukuran menurut faktor |k|, tetapi mempertahankan bentuk sehingga bayangan sebangun. Jika |k|>1 bangun diperbesar; jika 0<|k|<1 bangun diperkecil. Tanda negatif faktor skala tidak membuat bangun kongruen."
+}
