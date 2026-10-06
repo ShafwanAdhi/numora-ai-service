@@ -1,6 +1,82 @@
 # Soal tanpa generator
 
-Inventaris 5 Oktober 2026: **147 soal belum memiliki config**, terdiri dari 144 Drill dan 3 Tryout. Bagian pertama mempertahankan review historis 12 soal indikator16–19; sepuluh di antaranya masih tanpa config. Bagian berikut mencatat HOLD_SOURCE dan DEFERRED_CONCEPTUAL pada bank tambahan.
+## Pembaruan stok konseptual — lengkap 6 Oktober 2026
+
+**67/67 original konseptual Drill telah memiliki 206 varian manual VERIFIED**, bukan generator. Dua puluh soal mempunyai empat varian, 32 mempunyai tiga, 15 mempunyai dua. Semua 67 telah dibandingkan dengan original untuk variasi dan beban tugas; hasil review/perbaikan serta alasan pembatasan: [audit lengkap](../docs/audits/2026-10-06-conceptual-stock-audit.md).
+
+`same_answer_as_original` berlaku pada generator numerik, tetapi dikecualikan khusus stok konseptual. Status metadata dan alasan historis di bawah dipertahankan sebagai riwayat. DEFERRED_CONCEPTUAL menolak generator/config; stok VERIFIED tetap dapat dibaca. Penggunaan ulang tidak menghabiskan stok.
+
+Rekonsiliasi Drill: 646 generator + 67 original dengan stok + 77 review sumber = 790. Masih 144 Drill tanpa **generator**, namun hanya77 belum memiliki generator maupun stok. Tiga Tryout tanpa generator/stok tetap di luar cakupan konseptual Drill.
+
+| ID konseptual | Stok VERIFIED |
+|---|---:|
+| `kategori-1-1-10` | 3 |
+| `kategori-1-2-10` | 4 |
+| `kategori-1-3-10` | 4 |
+| `kategori-10-2-10` | 3 |
+| `kategori-11-1-9` | 4 |
+| `kategori-11-2-9` | 4 |
+| `kategori-12-3-10` | 3 |
+| `kategori-14-1-9` | 3 |
+| `kategori-14-4-10` | 3 |
+| `kategori-14-5-10` | 3 |
+| `kategori-16-1-9` | 3 |
+| `kategori-16-2-9` | 3 |
+| `kategori-17-3-10` | 3 |
+| `kategori-20-1-10` | 3 |
+| `kategori-20-1-9` | 4 |
+| `kategori-20-2-10` | 4 |
+| `kategori-6-3-9` | 3 |
+| `kategori-7-1-10` | 2 |
+| `kategori-7-2-10` | 3 |
+| `kategori-9-1-10` | 4 |
+| `mcma-1-1-8` | 4 |
+| `mcma-11-1-8` | 4 |
+| `mcma-11-2-6` | 4 |
+| `mcma-11-5-6` | 4 |
+| `mcma-14-1-6` | 4 |
+| `mcma-15-2-7` | 3 |
+| `mcma-16-1-6` | 3 |
+| `mcma-20-1-6` | 3 |
+| `mcma-20-2-7` | 2 |
+| `mcma-20-3-8` | 3 |
+| `mcma-22-1-8` | 2 |
+| `mcma-22-2-8` | 2 |
+| `mcma-6-1-6` | 4 |
+| `mcma-6-2-6` | 4 |
+| `mcma-6-3-6` | 4 |
+| `pg-1-1-4` | 3 |
+| `pg-11-1-1` | 4 |
+| `pg-12-2-4` | 3 |
+| `pg-14-1-1` | 4 |
+| `pg-14-2-1` | 3 |
+| `pg-14-3-1` | 3 |
+| `pg-14-4-1` | 3 |
+| `pg-14-4-3` | 2 |
+| `pg-14-5-1` | 3 |
+| `pg-15-1-3` | 2 |
+| `pg-15-3-3` | 2 |
+| `pg-15-5-3` | 3 |
+| `pg-16-1-1` | 2 |
+| `pg-16-1-2` | 3 |
+| `pg-16-3-2` | 2 |
+| `pg-17-3-2` | 3 |
+| `pg-2-2-5` | 2 |
+| `pg-2-3-1` | 4 |
+| `pg-2-3-4` | 3 |
+| `pg-2-3-5` | 2 |
+| `pg-20-1-1` | 4 |
+| `pg-20-2-1` | 2 |
+| `pg-20-3-5` | 3 |
+| `pg-21-2-5` | 2 |
+| `pg-22-1-4` | 3 |
+| `pg-22-2-3` | 3 |
+| `pg-22-2-5` | 3 |
+| `pg-22-3-5` | 3 |
+| `pg-23-1-1` | 2 |
+| `pg-23-1-2` | 2 |
+| `pg-5-2-4` | 3 |
+| `pg-7-3-1` | 4 |
 
 ## Review 12 soal — 4 Oktober 2026
 
@@ -30,7 +106,7 @@ Tidak ada perubahan policy global untuk meloloskan soal yang belum didesain.
 
 **34 soal belum memiliki generator: 11 konflik sumber dan 23 soal yang desain variannya belum diimplementasikan.** Status di bawah mengikuti metadata saat ini. `DEFERRED_CONCEPTUAL` adalah label penundaan sistem; sebagian soal berlabel ini tetap memerlukan perhitungan dan bukan soal murni konseptual.
 
-Alasan dibedakan menjadi masalah pada original dan kekurangan generator. Jawaban tetap bukan bukti bahwa soal tidak dapat dibuat variannya. Varian konseptual dapat memakai stok template terbatas, sesuai pilihan pengguna sebelumnya. Pencatatan stok dan penggunaan ulang saat habis masih perlu diverifikasi/diimplementasikan sebelum alur tersebut dinyatakan tersedia.
+Alasan dibedakan menjadi masalah pada original dan kekurangan generator. Jawaban tetap bukan bukti bahwa soal tidak dapat dibuat variannya. Varian konseptual dapat memakai stok template terbatas, sesuai pilihan pengguna sebelumnya. Untuk ID yang sudah tersedia pada tabel pembaruan, stok manual kini dapat dibaca ulang tanpa habis; sisanya menunggu tahap kedua.
 
 Aturan generator saat ini, `same_answer_as_original`, menolak kandidat dengan teks jawaban benar yang sama dengan original. Aturan ini menjelaskan penolakan teknis, bukan ketidaklayakan akademik suatu varian. Mengganti nama atau mengacak opsi saja tidak cukup; stimulus, pernyataan, dan alasan jawabannya perlu dirancang bersama.
 

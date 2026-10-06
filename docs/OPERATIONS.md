@@ -15,11 +15,24 @@ Buka http://127.0.0.1:8765. Argumen: `--port`, `--bank`, `--configs`. `--store` 
 3. **Generate** menghitung hasil memakai config terbaru; respons langsung tampil di kanan. Dapat diulang tanpa batas stok. Seed/config sama menghasilkan konten sama; seed berbeda masih dapat menghasilkan konten yang pernah muncul.
 4. **Atur config > Validasi** memeriksa draft. **Simpan versi baru** menulis config berikutnya; hasil varian tidak ikut disimpan. Draft belum disimpan menonaktifkan generate/paket. Editor usang ditolak.
 
-Tombol Regen, versi/riwayat varian, dan unduh preview paket sudah dihapus. Hasil hanya berada dalam respons dan tampilan halaman; refresh/pergantian soal mengosongkan hasil. Soal HOLD_SOURCE/DEFERRED_CONCEPTUAL tetap menampilkan original dan alasan, dengan generate/editor dinonaktifkan.
+Tombol Regen, versi/riwayat varian, dan unduh preview paket sudah dihapus. Hasil hanya berada dalam respons dan tampilan halaman; refresh/pergantian soal mengosongkan hasil. Soal HOLD_SOURCE dan konseptual tanpa stok menampilkan original dan alasan, dengan generate/editor dinonaktifkan. Soal konseptual dengan stok VERIFIED langsung menampilkan varian pertama; pilih Varian 1–N untuk membandingkan. Seed, Generate dan editor disembunyikan pada mode stok.
 
 Jumlah panggilan tidak dibatasi stok. Validasi akademik dan batas `max_draws` per panggilan tetap berlaku; config yang tidak menghasilkan kandidat sah tetap melaporkan kegagalan. Sistem tidak menjamin varian unik tanpa batas.
 
 Tab **DB Utama** tetap membaca PostgreSQL secara terpisah; generate tidak mengakses database. Endpoint service-to-service dan penyimpanan hasil oleh service utama belum diimplementasikan.
+
+## Stok konseptual
+
+67 original Drill memiliki206 stok VERIFIED, masing-masing2–4; jumlah tersedia bukan kuota pemakaian. [Audit per ID dan review kesulitan](audits/2026-10-06-conceptual-stock-audit.md).
+
+Stok manual berada di tab Service AI; tab DB Utama tetap terpisah. Membaca ulang varian yang sama tidak mengurangi stok atau menulis riwayat. Restart workbench setelah asset stok diperbarui. `--stock PATH` pada CLI/workbench memilih asset alternatif untuk pengujian.
+
+```powershell
+python -B variant_gen/cli.py stock pg-1-1-4 --json
+python -B variant_gen/cli.py stock pg-1-1-4 --variant 2 --json
+```
+
+Tanpa `--variant`, command menampilkan daftar stok; indeks di luar stok tersedia ditolak. Tidak membuat konten baru dan tidak menulis database.
 
 ## CLI per soal
 

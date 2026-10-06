@@ -16,6 +16,7 @@ from config_store import ConfigError, ConfigStore, validate_config
 from engine import original_record
 from expr import ExprError
 from lint import run_lint
+from conceptual_stock import load_stock, stock_record
 
 HERE = Path(__file__).resolve().parent
 load_dotenv(HERE.parent / '.env', override=False)
@@ -100,15 +101,27 @@ class Handler(BaseHTTPRequestHandler):
             elif url.path == "/api/questions":
                 self.reply(200, [{"id": qid, "format": bank.get(qid)["format"],
                                   "stem": bank.get(qid)["stem"], "has_config": bool(configs.versions(qid)),
+                                  "stock_count": len(self.server.stock.get(qid, [])),
+                                  "variant_mode": ('stock' if self.server.stock.get(qid) else
+                                                   'generator' if configs.versions(qid) else 'unavailable'),
                                   "classification": bank.get(qid).get("classification"),
                                   "metadata": bank.get(qid).get("metadata")}
                                  for qid in bank.ids()])
             elif url.path == "/api/catalog":
                 self.reply(200, bank.catalog())
             elif url.path == "/api/question":
-                query = parse_qs(url.query, max_num_fields=10)
+                query = parse_qs(url.query, keep_blank_values=True, max_num_fields=10)
+                if any(len(values) != 1 for values in query.values()):
+                    raise ValueError('Parameter soal tidak boleh berulang.')
                 qid = query.get("id", [""])[0]
                 original = bank.get(qid)  # Check bank membership before using any ID as a path.
+                items = self.server.stock.get(qid, [])
+                selected = None
+                if items or 'stock_variant' in query:
+                    index = int(query.get('stock_variant', ['1'])[0])
+                    if not 1 <= index <= len(items):
+                        raise ValueError(f'Nomor varian tidak tersedia; stok aktual {len(items)} (maksimal 4).')
+                    selected = stock_record(original, items[index - 1])
                 seed = positive_integer(int(query.get("seed", ["1"])[0]))
                 ver = query.get("version", [""])[0]
                 ver = positive_integer(int(ver)) if ver else None
@@ -118,7 +131,10 @@ class Handler(BaseHTTPRequestHandler):
                 cfg = configs.load(qid, positive_integer(int(cfg_ver)))[0] if cfg_ver else latest
                 if ver:
                     raise ValueError("Riwayat varian tidak tersedia; gunakan generate.")
-                self.reply(200, {"original": original_record(original), "variant": None,
+                self.reply(200, {"original": original_record(original), "variant": selected,
+                                 "variant_mode": 'stock' if items else 'generator' if versions else 'unavailable',
+                                 "stock_count": len(items),
+                                 "stock_variants": [{k: item[k] for k in ('variant_id', 'stock_index', 'stock_version')} for item in items],
                                  "seed": seed,
                                  "config": cfg, "config_versions": versions,
                                  "latest_config_version": versions[-1] if versions else 0,
@@ -214,10 +230,12 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def make_server(port=8765, bank=HERE / "data" / "q0_bank.csv",
-                configs=HERE / "configs", store=HERE / "store" / "variants.jsonl"):
+                configs=HERE / "configs", store=HERE / "store" / "variants.jsonl", stock=None):
     originals = load_workspace_bank(bank)
+    stock_items = load_stock(stock or Path(bank).with_name('conceptual_stock.json'), originals)
     server = HTTPServer(("127.0.0.1", port), Handler)
     server.bank, server.configs = originals, ConfigStore(configs)
+    server.stock = stock_items
     return server
 
 
@@ -227,9 +245,10 @@ if __name__ == "__main__":
     parser.add_argument("--bank", type=Path, default=HERE / "data" / "q0_bank.csv")
     parser.add_argument("--configs", type=Path, default=HERE / "configs")
     parser.add_argument("--store", type=Path, help=argparse.SUPPRESS)
+    parser.add_argument("--stock", type=Path)
     args = parser.parse_args()
     try:
-        with make_server(args.port, args.bank, args.configs, args.store) as server:
+        with make_server(args.port, args.bank, args.configs, args.store, args.stock) as server:
             print(f"Buka http://127.0.0.1:{server.server_port} — Ctrl+C untuk berhenti.", flush=True)
             server.serve_forever()
     except KeyboardInterrupt:

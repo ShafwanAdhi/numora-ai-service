@@ -12,6 +12,8 @@ Panduan aktif mengikuti kode; arsip menyimpan keputusan pada tanggalnya.
 
 ## Kondisi repo dan generator
 
+- [Stok konseptual lengkap dan cross-check kesulitan](audits/2026-10-06-conceptual-stock-audit.md): 67 original/206 stok VERIFIED; [progres](superpowers/plans/2026-10-06-conceptual-stock-progress.md).
+
 - [Audit Drill3–5 level1–3](audits/2026-10-06-drill-3-5-generator-audit.md), [progres](superpowers/plans/2026-10-06-drill-3-5-generator-progress.md).
 
 - [Audit Drill1–2 level1–3](audits/2026-10-05-drill-1-2-generator-audit.md), [progres](superpowers/plans/2026-10-05-drill-1-2-generator-progress.md).

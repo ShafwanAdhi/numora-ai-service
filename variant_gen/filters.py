@@ -67,7 +67,7 @@ def correct_set(options):
     return frozenset(_n(o["text"]) for o in options if o["correct"])
 
 
-def validate_candidate(cand, orig, others):
+def validate_candidate(cand, orig, others, *, allow_same_answer=False):
     """cand/orig: {stem, options:[{id,text,correct}], ...}. others: candidates that already exist.
     Returns a list of failure codes (empty = candidate is acceptable)."""
     p = []
@@ -101,7 +101,7 @@ def validate_candidate(cand, orig, others):
     sig = signature(cand["stem"], opts)
     if sig == signature(orig["stem"], orig["options"]):
         p.append("same_as_original")
-    if correct_set(opts) == correct_set(orig["options"]):
+    if not allow_same_answer and correct_set(opts) == correct_set(orig["options"]):
         p.append("same_answer_as_original")
     for o in others:
         if signature(o["stem"], o["options"]) == sig:

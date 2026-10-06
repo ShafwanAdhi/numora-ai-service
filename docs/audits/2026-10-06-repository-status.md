@@ -1,5 +1,15 @@
 # Kondisi repo —6 Oktober2026
 
+## Pembaruan stok konseptual
+
+Status terbaru: 820 original,673 generator,67 original Drill berstok manual dengan206 varian VERIFIED. Rekonsiliasi Drill:646 generator +67 stok +77 review sumber =790. Workspace:673 generator +67 stok +80 belum terlayani =820. Metadata sumber dipertahankan; status DEFERRED_CONCEPTUAL tidak melarang pembacaan stok VERIFIED.
+
+Cross-check seluruh67 original/222 kandidat memperbaiki pergeseran beban tugas dan duplikasi, kemudian16 kandidat dibuang. Kesulitan dinilai kualitatif berdasarkan tugas aktual; IRT belum dikalibrasi. [Audit per ID dan per varian](2026-10-06-conceptual-stock-audit.md), [ledger dan bukti verifikasi](../superpowers/plans/2026-10-06-conceptual-stock-progress.md).
+
+Verifikasi terbaru:136 tes PASS/71,431 detik; browser67 keluarga/206 stok PASS, tanpa page error (DB dimock);709 file original/config/source tidak berubah SHA-256. Branch lokal `feat/conceptual-stock`, tanpa commit/push/merge. Restart UI untuk memuat asset.
+
+## Catatan historis sebelum stok konseptual
+
 Checkout feature lokal `feat/drill-1-2`, belum commit. Inventaris aktual820 original/673 config/109 grup. Drill790/646, Tryout30/27. Indikator1–10 dan16–23 hanya level1–3;11–15 level1–5. Tidak import level4–5 indikator1–5.
 
 Tambahan3–5:90 original,64 aktif,25 HOLD_SOURCE,1 DEFERRED_CONCEPTUAL. Total seluruh workspace70 HOLD_SOURCE,67 DEFERRED_CONCEPTUAL,10 original bank dasar tanpa config/status eksplisit.147 soal tanpa generator; default ACTIVE bank dasar bukan generator tersedia.

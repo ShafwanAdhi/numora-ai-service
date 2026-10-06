@@ -13,10 +13,12 @@ flowchart LR
   B[CSV + ledger + katalog] --> L[bank.py]
   C[Config JSON] --> E[engine.py]
   L --> E
-  E --> S[Snapshot JSONL]
-  S --> P[Manifest Tryout pinned]
+  E --> S[Respons varian numerik]
+  S --> P[Paket Tryout dalam respons]
   S --> X[Ekspor REVIEW dengan mapping]
-  P --> Y[LOCAL_PREVIEW]
+  K[JSON stok manual] --> V[conceptual_stock.py]
+  L --> V
+  V --> A[Selector stok Service AI]
   D[PostgreSQL Numora] --> R[database.py read-only]
   R --> U[Tab DB Utama]
 ```
@@ -28,6 +30,7 @@ flowchart LR
 | `randomizer.py`, `expr.py` | RNG per variabel; evaluator, aritmetika, render |
 | `filters.py`, `engine.py` | Filter/validator; pipeline kandidat dan respons |
 | `store.py` | Error validasi respons/ekspor; tanpa penyimpanan |
+| `conceptual_stock.py` | Pembaca/validator stok manual VERIFIED; provenance, maksimum empat, tanpa penulisan |
 | `lint.py` | Reproduksi original dan probe in-memory |
 | `tryout.py` | Paket dalam respons, validasi manifest |
 | `handoff.py` | Envelope Numora dengan canonical mapping |
@@ -39,7 +42,11 @@ Workspace default memuat bank dasar indikator 16–19, bank tambahan1–2,3–5,
 
 ## Respons dan versi
 
-Original/config tetap berbasis file. Generator tidak menyimpan varian, manifest, atau riwayat; tidak mengakses DB. GET `/api/question` memuat original/config dengan `variant: null`; POST `/api/generate` mengembalikan hasil langsung. POST `/api/tryout/generate-package` mengembalikan seluruh paket dalam satu respons.
+Original/config tetap berbasis file. Generator numerik tidak menyimpan varian, manifest, atau riwayat; tidak mengakses DB. GET `/api/question` pada soal numerik memuat original/config dengan `variant: null`; POST `/api/generate` mengembalikan hasil langsung. POST `/api/tryout/generate-package` mengembalikan seluruh paket dalam satu respons.
+
+Stok konseptual adalah asset offline `data/conceptual_stock.json`: 67 original Drill dengan 206 varian VERIFIED. GET `/api/questions` memberi `stock_count` dan `variant_mode`; GET `/api/question?id=...&stock_variant=N` membaca stok pilihan (default1), bukan menjalankan generator. Respons memakai `source_kind: conceptual_stock`, `stock_index`, `variant_id`, versi stok, hash/versi original dan kategori sumber; seed/config null. Tidak ada pencatatan penggunaan atau endpoint tulis stok. Hash/versi source usang, item invalid dan indeks tidak tersedia ditolak; DRAFT tidak dilayani. Server memuat asset saat startup, sehingga perubahan memerlukan restart.
+
+`same_answer_as_original` dikecualikan hanya untuk stok; validator numerik tetap ketat. Review variasi/kesulitan menilai tugas aktual, bukan hanya label kognitif: [audit lengkap](audits/2026-10-06-conceptual-stock-audit.md). Kesetaraan IRT belum diukur.
 
 Respons mempertahankan bentuk record existing: ID `<question_id>:s<seed>:v1`, seed, versi/hash config dan original, variabel, stem, opsi, key, pembahasan, klasifikasi, dan waktu pembuatan. `variant_ver` selalu 1; `replacement_of`/`regen_reason` null. ID tersebut bukan identitas unik setiap panggilan; service utama harus menentukan identitas record DB jika menyimpan beberapa respons identik.
 
@@ -82,8 +89,8 @@ API operator localhost: GET `/api/questions`, `/api/catalog`, `/api/question`; P
 
 ## Belum diimplementasikan
 
-- Generator 10 Drill/3 Tryout konseptual; bank Pretest; 80 original Drill level 4–5.
-- Registry kapasitas finite exact dan fallback reuse saat stok habis.
+- Generator untuk soal konseptual tidak dibuat; 67 original Drill memakai stok manual. Tiga Tryout konseptual belum berstok; 77 Drill review sumber belum terlayani. Bank Pretest dan 80 original Drill level4–5 belum tersedia.
+- Registry kapasitas exact generator numerik belum tersedia. Stok manual memiliki jumlah pasti dan dapat dibaca ulang tanpa habis; tidak memerlukan fallback penggunaan ulang.
 - Import/write/sinkronisasi kandidat Numora, paket canonical dan publikasi.
 - Compute/kalibrasi IRT, adjuster config otomatis, exposure/scoring siswa.
 - Worker deployment, autentikasi API produksi, queue, writer paralel/transaksi JSONL.

@@ -82,8 +82,15 @@ class WebUI(unittest.TestCase):
         status, data = self.request("GET", "/api/question?id=pg-16-1-1&seed=1")
         self.assertEqual(status, 200)
         self.assertEqual(data["original"]["seed"], 0)
-        self.assertIsNone(data["variant"])
+        self.assertEqual(data['variant']['source_kind'], 'conceptual_stock')
+        self.assertIsNone(data['variant']['seed'])
+        self.assertEqual(data['variant_mode'], 'stock')
         self.assertIsNone(data["config"])
+        status, unavailable = self.request('GET', '/api/question?id=tryout-1-b1-q07&seed=1')
+        self.assertEqual(status, 200)
+        self.assertEqual(unavailable['original']['seed'], 0)
+        self.assertIsNone(unavailable['variant'])
+        self.assertIsNone(unavailable['config'])
         self.assertFalse(self.store.exists())
 
     def test_generate_returns_repeatable_content_without_history(self):

@@ -56,7 +56,7 @@
     <button id="tab-db" role="tab" aria-selected="false" aria-controls="panel-db" tabindex="-1" type="button">DB Utama</button>
   </div>
   <section id="panel-ai" role="tabpanel" aria-labelledby="tab-ai">
-  <p class="muted">Bank lokal · Buat dan atur varian melalui config service AI.</p>
+  <p class="muted">Bank lokal · Generate varian numerik atau pilih stok varian konseptual.</p>
   <fieldset id="catalog-controls" class="controls catalog-controls" disabled>
     <label>Aktivitas<select id="activity"><option value="DRILL">Drill &amp; Practice</option><option value="TRYOUT">Tryout</option><option value="PRETEST">Pretest</option></select></label>
     <label class="package-control">Paket<select id="package"><option value="">Semua paket</option></select></label>
@@ -76,7 +76,8 @@
       <div class="controls selection-controls">
       <label class="question">Soal<select id="question" required aria-label="Pilih soal"></select></label>
       <div class="version-controls">
-      <label>Seed<input id="seed" type="number" min="1" max="1000000000" step="1" value="1" required></label>
+      <label id="seed-control">Seed<input id="seed" type="number" min="1" max="1000000000" step="1" value="1" required></label>
+      <label id="stock-control" hidden>Varian stok<select id="stock-variant"></select></label>
       </div>
       </div>
       <div class="controls actions">
@@ -265,6 +266,12 @@
     $('catalog-controls').disabled = busy;
     $('workspace').disabled = busy || !data;
     const deferred = !!data?.original.metadata?.generation_status && data.original.metadata.generation_status !== 'ACTIVE';
+    const stock = data?.variant_mode === 'stock';
+    $('seed-control').hidden = !!stock;
+    $('seed').disabled = !!stock;
+    $('stock-control').hidden = !stock;
+    $('generate').hidden = !!stock;
+    $('config-section').hidden = !!stock;
     $('generate').disabled = !data?.config || dirty || deferred;
     ['lint','save','config-editor','config-version'].forEach(id => $(id).disabled = !!deferred);
     $('tryout-tools').hidden = $('activity').value !== 'TRYOUT';
@@ -295,7 +302,8 @@
     if (classification) meta.push(classification.activity === 'TRYOUT'
       ? `TRYOUT · bab ${classification.chapter} · ${classification.package_id}`
       : `${classification.activity} · indikator ${classification.indicator} · level ${classification.source_level} · ${classification.package_id}`);
-    if (record.seed) meta.push(`Seed ${record.seed} · varian v${record.variant_ver} · config v${record.config_ver}`);
+    if (record.source_kind === 'conceptual_stock') meta.push(`Stok manual · varian ${record.stock_index} · versi ${record.variant_ver}`);
+    else if (record.seed) meta.push(`Seed ${record.seed} · varian v${record.variant_ver} · config v${record.config_ver}`);
     add(panel, 'p', meta.join(' | '), 'muted');
     if (record.metadata?.source_number) add(panel,'p',`Nomor sumber: ${record.metadata.source_number} · ${record.metadata.generation_status}`,'muted');
     if (record.metadata?.reason) add(panel,'p',record.metadata.reason,'muted');
@@ -332,20 +340,27 @@
     $('config-version').value = loadedConfigVersion;
   }
   async function loadQuestion() {
+    const selected = questions.find(q => q.id === $('question').value);
+    const stock = selected?.variant_mode === 'stock';
+    $('seed').disabled = stock;
     if (!$('controls').reportValidity()) return;
-    const params = new URLSearchParams({id: $('question').value, seed: $('seed').value,
-      config_version: $('config-version').value});
+    const params = new URLSearchParams({id: $('question').value});
+    if (stock) params.set('stock_variant', data?.original.question_id === selected.id ? ($('stock-variant').value || '1') : '1');
+    else { params.set('seed', $('seed').value); params.set('config_version', $('config-version').value); }
     let next;
     try { next = await api(`/api/question?${params}`); }
     catch (error) { restoreSelection(); throw error; }
     data = next; dirty = false; loadedFilters = filters(); loadedConfigVersion = $('config-version').value;
+    $('stock-variant').replaceChildren(...data.stock_variants.map(item => new Option(`Varian ${item.stock_index}`, item.stock_index)));
+    $('stock-variant').value = String(data.variant?.stock_index || 1);
     $('workspace').hidden = false;
     renderQuestion('original', data.original); renderQuestion('variant', data.variant);
     setVersions('config-version', data.config_versions, $('config-version').value);
     $('config-editor').value = data.config ? JSON.stringify(data.config, null, 2) : '';
     $('config-note').textContent = data.config ? `Simpan akan membuat v${data.latest_config_version + 1}.` : 'Belum ada config. Original tetap bisa dilihat.';
     $('lint-output').textContent = '';
-    message(data.original.metadata?.generation_status && data.original.metadata.generation_status !== 'ACTIVE' ? data.original.metadata.reason
+    message(data.variant_mode === 'stock' ? `${data.stock_count} varian stok tersedia. Pilih nomor varian untuk membandingkan dengan original.`
+      : data.original.metadata?.generation_status && data.original.metadata.generation_status !== 'ACTIVE' ? data.original.metadata.reason
       : 'Original siap. Generate dapat diulang; hasil tidak disimpan.');
   }
   function discardChanges() {
@@ -382,11 +397,11 @@
       const items = pool.filter(q => q.format === format);
       if (!items.length) return;
       const group = document.createElement('optgroup'); group.label = format;
-      items.forEach(q => group.append(new Option(`${q.id}${q.metadata?.generation_status === 'HOLD_SOURCE' ? ' [review sumber]' : q.metadata?.generation_status === 'DEFERRED_CONCEPTUAL' ? ' [ditunda]' : (q.has_config ? '' : ' [tanpa config]')} — ${q.stem.slice(0,65)}`, q.id)));
+      items.forEach(q => group.append(new Option(`${q.id}${q.variant_mode === 'stock' ? ` [stok: ${q.stock_count}]` : q.metadata?.generation_status === 'HOLD_SOURCE' ? ' [review sumber]' : q.metadata?.generation_status === 'DEFERRED_CONCEPTUAL' ? ' [ditunda]' : (q.has_config ? '' : ' [tanpa config]')} — ${q.stem.slice(0,65)}`, q.id)));
       $('question').append(group);
     });
     $('question').value = pool.some(q => q.id === previous) ? previous : (pool.find(q => q.has_config)?.id || pool[0]?.id || '');
-    $('catalog-note').textContent = `${pool.length} soal · ${pool.filter(q => q.has_config).length} memiliki config. ` + (tryout
+    $('catalog-note').textContent = `${pool.length} soal · ${pool.filter(q => q.has_config).length} memiliki config · ${pool.filter(q => q.stock_count).length} memiliki stok konseptual. ` + (tryout
       ? 'Paket > bab > soal. Soal konseptual ditandai ditunda; database Numora tidak digunakan.'
       : `Paket > indikator > level > soal. ${groups.filter(g => !g.question_ids.length).length} kelompok katalog belum memiliki soal sumber.`);
     return pool.length;
@@ -419,6 +434,7 @@
     if (!discardChanges()) return;
     perform(loadQuestion);
   });
+  $('stock-variant').addEventListener('change', () => perform(loadQuestion));
   $('config-version').addEventListener('change', () => { if (discardChanges()) perform(loadQuestion); });
   $('config-editor').addEventListener('input', () => {
     dirty = true; updateButtons(); message('Config belum disimpan. Validasi lalu simpan sebelum generate.');

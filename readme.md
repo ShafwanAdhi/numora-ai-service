@@ -1,6 +1,6 @@
 # Numora AI Service
 
-Service terpisah untuk membuat dan meninjau varian soal Numora. Implementasi saat ini: generator deterministik berbasis config JSON, CLI, workbench lokal, dan browser database read-only. Generasi tidak memanggil model AI/LLM. Komputasi IRT belum diimplementasikan di repo ini.
+Service terpisah untuk membuat dan meninjau varian soal Numora. Implementasi saat ini: generator deterministik berbasis config JSON, stok konseptual manual, CLI, workbench lokal, dan browser database read-only. Generasi tidak memanggil model AI/LLM. Komputasi IRT belum diimplementasikan di repo ini.
 
 Numora menjalankan aplikasi utama pada VPS utama; repo ini ditujukan untuk VPS AI terpisah. Workbench merupakan alat operator di localhost, belum API produksi untuk aplikasi Numora.
 
@@ -15,7 +15,7 @@ python -m pip install -r requirements.txt
 python -B variant_gen/webui.py
 ```
 
-Buka http://127.0.0.1:8765. Tab **Service AI** berjalan tanpa database. UI membutuhkan `python-dotenv` dan `psycopg`; engine/CLI generator memakai stdlib. Di Linux, aktivasi venv memakai `source .venv/bin/activate`.
+Buka http://127.0.0.1:8765. Pada soal berstok, pilih Varian1–N; seed/Generate/editor disembunyikan. Restart workbench setelah asset stok berubah. Tab **Service AI** berjalan tanpa database. UI membutuhkan `python-dotenv` dan `psycopg`; engine/CLI generator memakai stdlib. Di Linux, aktivasi venv memakai `source .venv/bin/activate`.
 
 ## Status bank lokal
 
@@ -29,6 +29,8 @@ Inventaris kode/data per **6 Oktober 2026**:
 | Total | | 820 | 673 | |
 
 Paket Drill menargetkan 5 level × 10 soal per indikator. Indikator 11–15 memiliki level 1–5; indikator 6–10 dan 16–23 memiliki level 1–3. Total790 original; indikator1–2 dibatasi level1–3 sesuai scope, indikator3–5 level1–3 sudah tersedia. Seluruh 60 soal indikator 18–19 memiliki config. Config tersedia bukan approval kurikulum atau bukti kesetaraan IRT.
+
+**Stok konseptual lengkap: 67 original Drill, 206 varian VERIFIED, masing-masing2–4.** Generator646 + stok67 + review sumber77 =790 Drill. Metadata DEFERRED_CONCEPTUAL pada sumber tetap historis; stok dapat dibaca walaupun generator belum ada. [Audit variasi dan kesulitan per ID](docs/audits/2026-10-06-conceptual-stock-audit.md).
 
 Indikator **1–2**:60 original level1–3, **34 generator aktif**,17 HOLD_SOURCE,9 DEFERRED_CONCEPTUAL. Indikator3–5 tersedia, lihat audit berikut. [Audit](docs/audits/2026-10-05-drill-1-2-generator-audit.md).
 
@@ -49,7 +51,7 @@ python -B variant_gen/cli.py view pg-21-1-1 s1
 
 Bank tambahan disimpan di `variant_gen/data/drill-1-indicators-{1-2,3-5,6-10,11-15,20-23}/` dan dimuat bersama bank dasar; bank/config dipertahankan. Generator memakai engine deterministik dan mengembalikan hasil tanpa menyimpannya. Ekspor kontrak kategori boolean menolak label kategori khusus; tidak mengakses atau menulis database Numora.
 
-Original disimpan sebagai CSV dengan ledger revisi; varian hanya berada dalam respons/tampilan halaman. Jumlah ini **bukan inventaris database Numora**. Tab **DB Utama** membaca database bila `DATABASE_URL` dikonfigurasi; generator tidak mengimpor/memublikasikan hasil ke database tersebut.
+Original disimpan sebagai CSV dengan ledger revisi. Hasil generator numerik hanya berada dalam respons/tampilan; stok konseptual adalah asset JSON offline yang dibaca ulang tanpa habis. Jumlah ini **bukan inventaris database Numora**. Tab **DB Utama** membaca database bila `DATABASE_URL` dikonfigurasi; generator tidak mengimpor/memublikasikan hasil ke database tersebut.
 
 ## Dokumentasi
 

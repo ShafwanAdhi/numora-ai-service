@@ -19,6 +19,7 @@ from expr import ExprError
 from lint import run_lint
 from store import StoreError
 from handoff import export_record
+from conceptual_stock import load_stock, stock_record
 
 HERE = Path(__file__).resolve().parent
 KNOWN_ERRORS = (BankError, ConfigError, GenerationError, StoreError, ExprError)
@@ -38,7 +39,9 @@ def show(rec, as_json):
     if as_json:
         print(json.dumps(rec, ensure_ascii=False, indent=2))
         return
-    if rec["seed"] == 0:
+    if rec.get('source_kind') == 'conceptual_stock':
+        print(f"{rec['question_id']} | stock {rec['stock_index']} | variant v{rec['variant_ver']} | {rec['format']} {rec['cognitive_level']}")
+    elif rec["seed"] == 0:
         print(f"{rec['question_id']} | seed 0 (ORIGINAL, read-only) | {rec['format']} {rec['cognitive_level']}")
     else:
         extra = f" | replaces v{rec['replacement_of']}" if rec.get("replacement_of") else ""
@@ -133,6 +136,22 @@ def cmd_package_gen(a, bank, configs):
     return 0
 
 
+def cmd_stock(a, bank, configs):
+    original = bank.get(a.question_id)
+    items = load_stock(a.stock or Path(a.bank).with_name('conceptual_stock.json'), bank).get(a.question_id, [])
+    if a.variant is None:
+        summary = dict(question_id=a.question_id, stock_count=len(items),
+                       variants=[{k: item[k] for k in ('variant_id', 'stock_index', 'stock_version')} for item in items])
+        print(json.dumps(summary, ensure_ascii=False, indent=2) if a.json else
+              f"{a.question_id}: {len(items)} varian stok; pilih dengan --variant 1..{len(items)}" if items else
+              f"{a.question_id}: belum ada stok terverifikasi")
+    else:
+        if not 1 <= a.variant <= len(items):
+            raise StoreError(f'Nomor varian tidak tersedia; stok aktual {len(items)} (maksimal 4).')
+        show(stock_record(original, items[a.variant - 1]), a.json)
+    return 0
+
+
 def main(argv=None):
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--bank", default=HERE / "data" / "q0_bank.csv")
@@ -151,6 +170,9 @@ def main(argv=None):
     p.add_argument("--mapping", required=True); p.set_defaults(fn=cmd_export)
     p=sub.add_parser('package-gen',parents=[common]);p.add_argument('package_id');p.add_argument('seed')
     p.set_defaults(fn=cmd_package_gen)
+    p = sub.add_parser('stock', parents=[common]); p.add_argument('question_id')
+    p.add_argument('--variant', type=int); p.add_argument('--stock', type=Path)
+    p.set_defaults(fn=cmd_stock)
     a = ap.parse_args(argv)
     try:
         return a.fn(a, load_workspace_bank(a.bank), ConfigStore(a.configs))

@@ -28,6 +28,14 @@ Ledger menjaga row source/replacement dan versi berurutan; loader memvalidasi id
 
 Metadata status: `ACTIVE`, `HOLD_SOURCE`, `DEFERRED_CONCEPTUAL`; non-ACTIVE wajib alasan dan menolak generate/lint/config save. `category_labels` opsional: dua label unik nonempty, hanya KATEGORI. Key CSV memilih kategori pertama, bukan selalu kebenaran. Label nondefault masuk hash original; respons memuat `answer_categories` seluruh pernyataan. UI membaca label respons; ekspor kontrak boolean menolak kategori berlabel khusus.
 
+## Stok konseptual manual
+
+Cakupan lengkap: 67 original Drill/206 stok VERIFIED, masing-masing2–4. Review tugas aktual dan perubahan per varian tercatat pada [audit kesulitan](audits/2026-10-06-conceptual-stock-audit.md). Pewarisan label kognitif tidak membuktikan kesetaraan kesulitan.
+
+`variant_gen/data/conceptual_stock.json` menyimpan konten lengkap yang ditulis offline: maksimum empat varian tambahan per original. Tidak memakai generator/config/seed. `conceptual_stock.py` memvalidasi schema, hash/versi original, opsi, kunci, indeks dan duplikasi; hanya VERIFIED dilayani. DRAFT tetap divalidasi tetapi tidak tersedia. `same_answer_as_original` dikecualikan hanya untuk stok, aturan numerik tetap berlaku.
+
+Respons memakai `source_kind: conceptual_stock`, `stock_index`, ID stabil dan versi stok; seed/config null. Label KATEGORI custom tetap diwariskan. Asset dibaca saat server mulai; restart setelah perubahan asset. Tidak ada pencatatan pemakaian atau penulisan asset oleh runtime. Saat konten slot berubah, naikkan stock_version; saat original berubah, provenance stok harus direview ulang. ID+versi mengidentifikasi revisi, bukan nomor selector saja. [Audit cakupan](audits/2026-10-06-conceptual-stock-audit.md).
+
 ## Config
 
 Lokasi `variant_gen/configs/<question_id>/v<N>.json`. Folder/file harus sesuai `question_id`/`config_version`. CLI generate memakai versi terbaru; UI dapat melihat config historis.
@@ -75,9 +83,9 @@ Pipeline: input/derived → filter variabel → constraints → render → shuff
 - Jumlah opsi sama original; teks tidak kosong/duplikat, placeholder tuntas.
 - PG tepat satu benar; MCMA minimal satu dan jumlah benar sama original; KATEGORI jumlah benar sama original, termasuk nol/semua benar.
 - Kandidat tidak sama original; himpunan **teks jawaban benar** berbeda. `same_answer_as_original` membandingkan teks, bukan huruf kunci; shuffle saja tidak cukup.
-- Duplicate check: versi terbaru seed lain + seluruh versi seed yang sedang dibuat ulang; urutan opsi diabaikan. Bukan seluruh versi historis setiap seed.
+- Duplicate check memakai perbandingan in-memory yang diberikan pemanggil; generate numerik stateless tidak membaca riwayat seed. Loader stok membandingkan semua item dalam satu keluarga, termasuk DRAFT; urutan opsi diabaikan.
 
-RNG memakai question ID, seed, draw, nama variabel. Draw yang sama deterministik; kandidat akhir bergantung stok/penolakan. Snapshot tersimpan menjadi acuan, bukan replay dengan stok/config terbaru.
+RNG memakai question ID, seed, draw, nama variabel. Config dan seed sama memberi konten sama. Tidak ada snapshot/riwayat hasil generator; seed lain tidak menjamin konten unik.
 
 `lint` memeriksa schema/hash, reproduksi stem/opsi/kunci original dengan normalisasi whitespace, probe N seed unik di memori. Pembahasan tidak dibandingkan terhadap source. Warning stok tidak otomatis gagal bila masih ada kandidat valid; sampel bukan kapasitas exact.
 
