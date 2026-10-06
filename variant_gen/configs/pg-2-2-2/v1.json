@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-2-2-2",
+  "config_version": 1,
+  "original_hash": "f0f78905d2c28d74",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "45*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Sebuah panggung pertunjukan di SMP berbentuk persegi panjang dengan ukuran panjang {v1}sqrt(20)meter dan lebar sqrt({v2})meter. Untuk dekorasi pentas seni, panitia ingin mengetahui selisih antara panjang dan lebar panggung tersebut.\nSelisih panjang dan lebar panggung pertunjukan dalam bentuk akar paling sederhana adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3}sqrt(5)m",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v4}sqrt(5)m",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v5}sqrt(5)m",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v6}sqrt(5)m",
+      "correct": false
+    }
+  ],
+  "explanation": "Panjang ={v7}sqrt(5), lebar ={v8}sqrt(5). Selisih ={v9}sqrt(5) meter.\nHasil pemeriksaan: {v10}."
+}

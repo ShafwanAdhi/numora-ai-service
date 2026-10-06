@@ -20,8 +20,8 @@ class SourceRevisions(unittest.TestCase):
     def test_archives_ledgers_and_unmodified_originals(self):
         configs = ConfigStore(ROOT/'configs')
         for folder, count, expected in zip(FOLDERS, (17,24),
-            ({'ACTIVE':34,'DEFERRED_CONCEPTUAL':25,'HOLD_SOURCE':1},
-             {'ACTIVE':64,'DEFERRED_CONCEPTUAL':25,'HOLD_SOURCE':1})):
+            ({'ACTIVE':50,'DEFERRED_CONCEPTUAL':9,'HOLD_SOURCE':1},
+             {'ACTIVE':88,'DEFERRED_CONCEPTUAL':1,'HOLD_SOURCE':1})):
             with self.subTest(bank=folder.name):
                 self.assertEqual(hashlib.sha256((folder/'source-revision-2026-10-07.docx').read_bytes()).hexdigest(), SHA)
                 ledger = [json.loads(t) for t in (folder/'original_revisions.jsonl').read_text(encoding='utf-8').splitlines()]
@@ -36,9 +36,11 @@ class SourceRevisions(unittest.TestCase):
                     self.assertEqual(entry['source_document_sha256'], SHA)
                     self.assertEqual(entry['original_metadata']['generation_status'], 'HOLD_SOURCE')
                     self.assertEqual(original['hash'], _parse_row(entry['replacement_row'], 0)['hash'])
-                    self.assertEqual(original['metadata']['generator_status'], 'NOT_IMPLEMENTED')
-                    self.assertEqual(configs.versions(q), [])
-                    with self.assertRaises(ConfigError): generate(original, {}, 11, [])
+                    held = q == 'pg-1-2-1'
+                    self.assertEqual(original['metadata']['generator_status'], 'NOT_IMPLEMENTED' if held else 'IMPLEMENTED')
+                    self.assertEqual(configs.versions(q), [] if held else [1])
+                    if held:
+                        with self.assertRaises(ConfigError): generate(original, {}, 11, [])
                 baseline = OriginalBank(folder/'q0_bank.csv')
                 # Read the unchanged CSV directly; revised rows exist only in the ledger.
                 import csv

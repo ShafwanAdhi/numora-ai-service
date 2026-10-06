@@ -1,0 +1,321 @@
+{
+  "question_id": "pg-2-2-4",
+  "config_version": 1,
+  "original_hash": "f0914413fbb12c5c",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'I' if k==1 else 'II'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "0.75*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "-7.25*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'II' if k==1 else 'I'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "-8*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "8*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v34": {
+      "gen": "derived",
+      "expr": "15*k+8*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v35": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v36": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v37": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v38": {
+      "gen": "derived",
+      "expr": "12*k+2",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v39": {
+      "gen": "derived",
+      "expr": "-4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v40": {
+      "gen": "derived",
+      "expr": "(12*k+2)*(-4*k)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v41": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v42": {
+      "gen": "derived",
+      "expr": "3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v43": {
+      "gen": "derived",
+      "expr": "8*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v44": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v45": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang siswa mencoba menyelesaikan soal kuis aturan KABATAKU/PEMDAS berikut:\nSoal:{v1}-{v2}÷4+2({v3})\nSiswa tersebut mencoba empat langkah pengerjaan sebagai berikut:\n• Langkah {v4}: Mengoperasikan ({v5}-{v6})÷4+2({v7})={v8}÷4-{v9}={v10}-{v11}={v12}\n• Langkah {v13}: Mengoperasikan {v14}-({v15}÷4)+2({v16})={v17}-{v18}+({v19})={v20}-{v21}={v22}\n• Langkah III: Mengoperasikan {v23}-{v24}÷(4+2)({v25})={v26}-{v27}÷6({v28})={v29}-{v30}({v31})={v32}+{v33}={v34}\n• Langkah IV: Mengoperasikan ({v35}-{v36}+2)({v37})={v38}({v39})={v40}\nManakah langkah pengerjaan yang benar sesuai dengan hirarki operasi hitung KABATAKU/PEMDAS?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Langkah I",
+      "correct": "k!=1"
+    },
+    {
+      "id": "B",
+      "text": "Langkah II",
+      "correct": "k==1"
+    },
+    {
+      "id": "C",
+      "text": "Langkah III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Langkah IV",
+      "correct": false
+    }
+  ],
+  "explanation": "Kerjakan pembagian dan perkalian dahulu. Hasil ={v41}−{v42}−{v43}={v44}. Langkah lain mengubah tanda kurung atau mengalikan seluruh jumlah, sehingga bukan hierarki operasi semula.\nHasil pemeriksaan: {v45}."
+}

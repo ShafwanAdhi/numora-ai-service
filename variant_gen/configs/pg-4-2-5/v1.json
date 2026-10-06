@@ -1,0 +1,116 @@
+{
+  "question_id": "pg-4-2-5",
+  "config_version": 1,
+  "original_hash": "803bf8527f91f221",
+  "original_values": {
+    "p": 2
+  },
+  "variables": {
+    "p": {
+      "gen": "choice",
+      "values": [
+        2,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        37,
+        41,
+        43,
+        47,
+        53,
+        59,
+        61,
+        67,
+        71,
+        73,
+        79,
+        83,
+        89,
+        97,
+        101,
+        103,
+        107,
+        109
+      ],
+      "filters": [
+        "positive",
+        "nodec"
+      ]
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "p",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "p*p*9",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [
+    "p==2 or p==11 or p==13 or p==17 or p==19 or p==23 or p==29 or p==31 or p==37 or p==41 or p==43 or p==47 or p==53 or p==59 or p==61 or p==67 or p==71 or p==73 or p==79 or p==83 or p==89 or p==97 or p==101 or p==103 or p==107 or p==109"
+  ],
+  "stem": "Diberikan dua buah bilangan asli A dan B. Bilangan A memiliki faktorisasi prima {v1}^3×3^2×5, sedangkan bilangan B memiliki faktorisasi prima {v2}^2×3^3×7. Seorang siswa menganalisis hubungan KPK dan FPB dari kedua bilangan tersebut.\nBentuk faktorisasi prima dari FPB(A,B) yang benar adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3}^3×3^3×5×7",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4}^3×3^2",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v5}^2×3^2",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v6}^2×3",
+      "correct": false
+    }
+  ],
+  "explanation": "Ambil faktor prima yang terdapat pada kedua bilangan dengan pangkat terkecil: p^2×3^2. Faktor 5 dan 7 tidak dimiliki bersama; pangkat 3 bukan pangkat terkecil.\nHasil pemeriksaan: {v7}."
+}

@@ -1,0 +1,100 @@
+{
+  "question_id": "kategori-4-3-10",
+  "config_version": 1,
+  "original_hash": "71f024a576a7e538",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "75*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "105*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "105*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "75*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "75*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "105*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "15*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dua pita pengukur latihan olahraga berukuran {v1} cm dan {v2} cm dipotong menjadi beberapa bagian yang sama panjang tanpa ada sisa. Seorang siswa menganalisis hasil pemotongan tersebut.\nJika kedua pita dipotong dengan ukuran terpanjang yang mungkin dibuat, tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Ukuran panjang potongan pita terpanjang yang dapat dibuat adalah {v3}cm.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jumlah seluruh potongan pita yang diperoleh dari kedua pita tersebut adalah 12 potongan.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jumlah potongan dari pita {v4}cm dua kali lebih banyak daripada potongan dari pita {v5}cm.",
+      "correct": false
+    }
+  ],
+  "explanation": "Panjang terpanjang =FPB({v6},{v7})={v8} cm. Banyak potongan 5 dan 7; total 12. Rasio jumlah potongan tetap 7:5.\nHasil pemeriksaan: {v9}, 5, 7, 12."
+}

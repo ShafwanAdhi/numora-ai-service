@@ -18,6 +18,8 @@ def root(value):
 def roots(text):return [int(x) for x in re.findall(r'sqrt\(\s*(\d+)\s*\)',text)]
 
 def check_math(original,candidate):
+    from drill_1_5_revised_math import SUPPORTED,check_math as revised_math
+    if original['id'] in SUPPORTED:return revised_math(original,candidate)
     qid=original['id'];kind,_,level,num=qid.split('-');level=int(level);num=int(num)
     stem=candidate['stem'];options=candidate['options'];expected={};truth=[]
     def claims(entries):expected.update(entries)

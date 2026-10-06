@@ -1,0 +1,141 @@
+{
+  "question_id": "mcma-2-3-6",
+  "config_version": 1,
+  "original_hash": "3129bfe923ddc180",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        29
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 29
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": " 3 if k==1 else 3+k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": " 3 if k==1 else 3+k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "(3 if k==1 else 3+k)**3+(0 if k==1 else 1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "98*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "50*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2 if k==1 else 2+k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "128 if k==1 else (2+k)**8",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "18*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'(i), (ii), (iv)' if k==1 else '(ii), (iii), (iv)'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "(3 if k==1 else 3+k)**3",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "(2 if k==1 else 2+k)**8",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "6*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan empat ekspresi penyederhanaan eksponen dan bentuk akar hasil pengerjaan kuis siswa sebagai berikut:\n(i) {v1}^6×{v2}^-3={v3}\n(ii) sqrt({v4})-sqrt({v5})={v6}sqrt(2)\n(iii) ({v7}^4)^2={v8}\n(iv) sqrt({v9}×2)={v10}\nManakah hasil analisis pernyataan di atas yang bernilai BENAR? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan (i)",
+      "correct": "k==1"
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan (ii)",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan (iii)",
+      "correct": "k!=1"
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan (iv)",
+      "correct": true
+    }
+  ],
+  "explanation": "Eksponen perkalian dijumlahkan; eksponen pangkat dikalikan. Akar disederhanakan memakai faktor kuadrat. Pernyataan benar: {v11}. Bandingkan hasil kiri berikut dengan klaim pada ruas kanan setiap pernyataan.\nHasil pemeriksaan: {v12}, {v13}, {v14}, {v15}."
+}

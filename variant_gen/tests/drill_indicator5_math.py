@@ -20,6 +20,8 @@ def simplest(values, a, b):
 
 
 def check_math(original, candidate):
+    from drill_1_5_revised_math import SUPPORTED,check_math as revised_math
+    if original['id'] in SUPPORTED:return revised_math(original,candidate)
     qid = original['id']
     _, _, level, index = qid.split('-')
     level, index = int(level), int(index)

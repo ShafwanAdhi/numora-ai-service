@@ -13,7 +13,7 @@ from engine import assemble, build_values, generate
 from lint import reproduce_original
 
 BANK = ROOT / 'data/drill-1-indicators-3-5/q0_bank.csv'
-HELD = {'pg-5-1-5', 'pg-5-3-3', 'pg-5-2-4'}
+HELD = {'pg-5-3-3', 'pg-5-2-4'}
 
 
 class Indicator5(unittest.TestCase):

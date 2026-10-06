@@ -30,6 +30,8 @@ def clock(n):
 
 
 def check_math(original, candidate):
+    from drill_1_5_revised_math import SUPPORTED,check_math as revised_math
+    if original['id'] in SUPPORTED:return revised_math(original,candidate)
     qid = original['id']; level = int(qid.split('-')[2]); item = int(qid.split('-')[3])
     s = candidate['stem']; options = candidate['options']; texts = [o['text'] for o in options]
     assert len(options) == len(original['options'])

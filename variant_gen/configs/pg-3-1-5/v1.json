@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-3-1-5",
+  "config_version": 1,
+  "original_hash": "4adb059cbc8acf88",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "19+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "(20+10*(k-1))*7000+(-20000)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "(20+10*(k-1))*7000+(0)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(20+10*(k-1))*7000+(-7000)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "(20+10*(k-1))*7000+(-10000)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "20+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "(20+10*(k-1))*7000",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dalam rangka kegiatan bakti sosial, pengurus OSIS membeli {v1} paket sembako seharga Rp6.850,00 per paket. Bendahara OSIS ingin mengecek kewajaran total pengeluaran dengan mengestimasi hasil kali setelah membulatkan jumlah paket ke puluhan terdekat dan membulatkan harga per paket ke ribuan terdekat.\nEstimasi total biaya belanja sembako yang diperoleh bendahara OSIS adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{v2},00",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{v3},00",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Rp{v4},00",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rp{v5},00",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah paket dibulatkan ke puluhan menjadi {v6}; harga Rp6.850 dibulatkan menjadi Rp7.000. Kalikan kedua hasil pembulatan. Opsi lain memakai nilai yang tidak sesuai dua pembulatan ini.\nHasil pemeriksaan: {v7}."
+}

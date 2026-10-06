@@ -25,6 +25,8 @@ Tab **DB Utama** tetap membaca PostgreSQL secara terpisah; generate tidak mengak
 
 67 original Drill memiliki206 stok VERIFIED, masing-masing2–4; jumlah tersedia bukan kuota pemakaian. [Audit per ID dan review kesulitan](audits/2026-10-06-conceptual-stock-audit.md).
 
+Tiga original Tryout kini memiliki9 stok VERIFIED, masing-masing3: pilih Tryout > Tryout1 > bab > soal > Varian stok. CLI memakai `stock tryout-1-b1-q07 --variant 2 --json`. Generate paket tetap memakai original untuk tiga soal tersebut; belum memilih stok otomatis. [Audit Tryout](audits/2026-10-07-tryout-conceptual-stock-audit.md).
+
 Stok manual berada di tab Service AI; tab DB Utama tetap terpisah. Membaca ulang varian yang sama tidak mengurangi stok atau menulis riwayat. Restart workbench setelah asset stok diperbarui. `--stock PATH` pada CLI/workbench memilih asset alternatif untuk pengujian.
 
 ```powershell

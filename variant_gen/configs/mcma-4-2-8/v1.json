@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-4-2-8",
+  "config_version": 1,
+  "original_hash": "229fafa4365df87a",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "72*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "96*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "72*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "96*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "24*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang pengurus lab komputer menganalisis pembagian {v1} unit tetikus (mouse) dan {v2} unit papan ketik (keyboard) ke dalam beberapa ruangan praktikum dengan jumlah dan kombinasi yang identik tanpa tersisa.\nJika perlengkapan tersebut dibagi ke dalam jumlah ruangan terbanyak yang mungkin, manakah hasil analisis pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah {v3} ruangan",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Jumlah ruangan terbanyak yang dapat menerima paket barang tersebut adalah {v4} ruangan",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Setiap ruangan yang menerima paket akan mendapatkan 3 unit tetikus dan 4 unit papan ketik",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Setiap ruangan yang menerima paket akan mendapatkan 4 unit tetikus dan 3 unit papan ketik",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah kelompok maksimum =FPB({v5},{v6})={v7}. Isi masing-masing kelompok 3 dan 4; urutan jenis barang tidak boleh ditukar.\nHasil pemeriksaan: {v8}, 3, 4."
+}

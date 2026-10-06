@@ -44,6 +44,7 @@ class SourceRevision1115(unittest.TestCase):
                     self.assertTrue(generate(original, cfg, 1, []).cand['explanation'])
         workspace = load_workspace_bank(ROOT / 'data/q0_bank.csv')
         stocks = load_stock(ROOT / 'data/conceptual_stock.json', workspace)
+        stocks = {q:items for q,items in stocks.items() if workspace.get(q)['classification']['activity']=='DRILL'}
         self.assertEqual((len(stocks), sum(map(len, stocks.values()))), (67, 206))
         for qid in IDS:
             self.assertEqual(workspace.get(qid), bank.get(qid))

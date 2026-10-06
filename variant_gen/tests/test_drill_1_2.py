@@ -124,7 +124,7 @@ class Drill12(unittest.TestCase):
             self.assertTrue(o['metadata']['original_explanation'])
             self.assertEqual(o['classification']['package_id'], 'drill-1')
         for q in ['pg-1-1-5','pg-1-2-1','pg-1-2-3','pg-1-3-1','pg-1-3-5','pg-2-1-1','pg-2-1-2','mcma-2-2-6','pg-2-2-4']:
-            expected = 'HOLD_SOURCE' if q == 'pg-1-2-1' else 'DEFERRED_CONCEPTUAL'
+            expected = 'HOLD_SOURCE' if q == 'pg-1-2-1' else 'ACTIVE'
             self.assertEqual(bank.get(q)['metadata']['generation_status'], expected, q)
             self.assertEqual(bank.get(q)['version'], 2)
 

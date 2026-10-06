@@ -1,0 +1,179 @@
+{
+  "question_id": "pg-5-1-5",
+  "config_version": 1,
+  "original_hash": "e9647c52e2262dd2",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "efficiency": {
+      "gen": "derived",
+      "expr": "30+(k+9)%21"
+    },
+    "volume": {
+      "gen": "derived",
+      "expr": "6+(k-1)/2"
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3*efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5*efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "volume*efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "volume*efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "round(volume+(-0.5),1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "',0' if round(volume+(-0.5),1)%1==0 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "round(volume+(0),1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "',0' if round(volume+(0),1)%1==0 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "round(volume+(0.5),1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "',0' if round(volume+(0.5),1)%1==0 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "round(volume+(1),1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "',0' if round(volume+(1),1)%1==0 else ''",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "volume*efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "volume*efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "volume",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "efficiency",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "volume",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Tabel berikut menunjukkan hubungan proporsional antara volume bahan bakar minyak (bensin) yang digunakan sepeda motor inventaris sekolah dan jarak tempuh yang berhasil dicapai:\nVolume Bensin (liter) | Jarak Tempuh (km)\n2 | {v3}\n3 | {v4}\n5 | {v5}\nk | {v6}\nBerdasarkan hubungan proporsional pada tabel di atas, berapa nilai k (volume bensin yang dibutuhkan untuk menempuh jarak {v7}km)?",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v8}{v9} liter",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v10}{v11} liter",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v12}{v13} liter",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v14}{v15} liter",
+      "correct": false
+    }
+  ],
+  "explanation": "Jarak per liter ={v16} km/liter dari setiap baris tabel. Volume k untuk jarak {v17} km adalah {v18}/{v19}={v20} liter. Huruf k pada tabel adalah volume yang ditanyakan.\nHasil pemeriksaan: {v21}, {v22}."
+}

@@ -1,0 +1,147 @@
+{
+  "question_id": "mcma-1-2-6",
+  "config_version": 1,
+  "original_hash": "a6a974cd548d4267",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "-2.5*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "8*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "floor(11*k/4)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(11*k)%4",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "11*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "-2.7*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "-2.75*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "8*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "-2.7*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "-2.9*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "-2.75*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "-2.9*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "-2.7*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "-2.75*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "-2.9*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "-2.7*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan himpunan data suhu empat ruangan penyimpanan benih tanaman di laboratorium sekolah:\n• Ruang A: ${v1}^\\circ\\text{C}$\n• Ruang B: $-\\sqrt{{v2}}^\\circ\\text{C}$\n• Ruang C: $-{v3}\\frac{{v4}}{4}^\\circ\\text{C}$ (ditulis $-\\frac{{v5}}{4}^\\circ\\text{C}$)\n• Ruang D: ${v6}^\\circ\\text{C}$\nManakah pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Suhu Ruang C jika diubah ke bentuk desimal adalah ${v7}^\\circ\\text{C}$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Ruang C memiliki suhu yang paling dingin di antara semua ruangan",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Nilai $-\\sqrt{{v8}}^\\circ\\text{C}$ berada di antara ${v9}^\\circ\\text{C}$ dan ${v10}^\\circ\\text{C}$",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Urutan ruangan dari yang terhangat ke yang terdingin adalah C, D, B, A",
+      "correct": false
+    }
+  ],
+  "explanation": "B paling dingin: 8 > (11/4)^2. C menjadi desimal {v11}; akar berada di antara {v12} dan {v13}. Urutan hangat ke dingin A, D, C, B.\nHasil pemeriksaan: {v14}, {v15}, {v16}."
+}

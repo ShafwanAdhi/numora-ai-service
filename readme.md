@@ -23,22 +23,24 @@ Inventaris kode/data per **7 Oktober 2026**:
 
 | Aktivitas | Paket | Original | Soal dengan config | Struktur |
 |---|---|---:|---:|---|
-| Drill & Practice | `drill-1` / Paket 1 | 790 | 679 | Paket > indikator1–23 > level sumber > soal |
+| Drill & Practice | `drill-1` / Paket 1 | 790 | 719 | Paket > indikator1–23 > level sumber > soal |
 | Tryout | `tryout-1` / Tryout 1 | 30 | 27 | Paket > bab 1–4 > soal |
 | Pretest | Belum tersedia | 0 | 0 | Belum memiliki bank lokal |
-| Total | | 820 | 706 | |
+| Total | | 820 | 746 | |
 
 Paket Drill menargetkan 5 level × 10 soal per indikator. Indikator 11–15 memiliki level 1–5; indikator 6–10 dan 16–23 memiliki level 1–3. Total790 original; indikator1–2 dibatasi level1–3 sesuai scope, indikator3–5 level1–3 sudah tersedia. Seluruh 60 soal indikator 18–19 memiliki config. Config tersedia bukan approval kurikulum atau bukti kesetaraan IRT.
 
-**Stok konseptual lengkap: 67 original Drill, 206 varian VERIFIED, masing-masing2–4.** Generator679 + stok67 + 44 soal menunggu generator/review =790 Drill. Metadata DEFERRED_CONCEPTUAL pada sumber tetap historis; stok dapat dibaca walaupun generator belum ada. [Audit variasi dan kesulitan per ID](docs/audits/2026-10-06-conceptual-stock-audit.md).
+**Stok konseptual lengkap: 67 original Drill, 206 varian VERIFIED, masing-masing2–4.** Generator719 + stok67 + 4 soal HOLD =790 Drill. Stok dapat dibaca berulang walaupun generator belum ada. [Audit variasi dan kesulitan per ID](docs/audits/2026-10-06-conceptual-stock-audit.md).
 
-Indikator **1–2**:60 original level1–3, **34 generator aktif**,1 HOLD_SOURCE,25 DEFERRED_CONCEPTUAL. Sebanyak17 original v2 sudah diimpor;16 revisi menunggu generator, `pg-1-2-1` tetap ditahan. Sembilan soal konseptual memiliki stok manual. [Impor revisi](docs/audits/2026-10-07-drill-1-5-source-revision.md); [audit generator awal](docs/audits/2026-10-05-drill-1-2-generator-audit.md).
+**Tryout:27 generator +3 original dengan9 stok manual VERIFIED =30 soal.** Pilih stok pada UI/CLI per soal; generate paket tetap memakai original untuk tiga soal konseptual. Total stok seluruh aktivitas70 original/215 varian. [Audit Tryout](docs/audits/2026-10-07-tryout-conceptual-stock-audit.md).
 
-Indikator **3–5**:90 original level1–3,**64 aktif**,1 HOLD_SOURCE,25 DEFERRED_CONCEPTUAL. Sebanyak24 original v2 sudah diimpor, menunggu generator; `pg-5-3-3` masih ditahan. Satu soal konseptual memiliki stok manual. [Impor revisi](docs/audits/2026-10-07-drill-1-5-source-revision.md); [audit generator awal](docs/audits/2026-10-06-drill-3-5-generator-audit.md).
+Indikator **1–2**:60 original level1–3, **50 generator aktif**,1 HOLD_SOURCE,9 DEFERRED_CONCEPTUAL dengan stok manual. Enam belas original revisi v2 kini memiliki generator config v1; `pg-1-2-1` tetap ditahan. [Audit generator revisi](docs/audits/2026-10-07-revised-1-5-generator-audit.md); [impor sumber](docs/audits/2026-10-07-drill-1-5-source-revision.md).
+
+Indikator **3–5**:90 original level1–3,**88 generator aktif**,1 HOLD_SOURCE,1 DEFERRED_CONCEPTUAL dengan stok manual. Dua puluh empat original revisi v2 kini memiliki generator config v1; `pg-5-3-3` masih ditahan. [Audit generator revisi](docs/audits/2026-10-07-revised-1-5-generator-audit.md); [impor sumber](docs/audits/2026-10-07-drill-1-5-source-revision.md).
 
 Indikator **6–10**: 150 original, **140 generator aktif**, 1 HOLD_SOURCE dan 9 DEFERRED_CONCEPTUAL dengan stok manual. Sebelas original v2 revisi kurikulum sudah memiliki generator config v1; `mcma-6-3-7` tetap ditahan. Level 1–3 tersedia; level 4–5 belum memiliki sumber. [Audit generator revisi](docs/audits/2026-10-07-revised-6-10-generator-audit.md).
 
-Indikator **11–15**: 250 original, **223 generator aktif**, 5 HOLD_SOURCE dan 22 DEFERRED_CONCEPTUAL. Bank dan config sudah terintegrasi ke checkout ini; pilih Service AI > Drill > Paket 1 > indikator 11–15 > level 1–5. [Laporan audit dan contoh hasil](docs/audits/2026-10-05-drill-11-15-generator-audit.md).
+Indikator **11–15**: 250 original, **227 generator aktif**, 1 HOLD_SOURCE dan 22 DEFERRED_CONCEPTUAL dengan stok manual. Bank dan config sudah terintegrasi ke checkout ini; pilih Service AI > Drill > Paket 1 > indikator 11–15 > level 1–5. [Audit generator revisi](docs/audits/2026-10-07-revised-11-15-generator-audit.md).
 
 Indikator **20–23**: 120 original, **102 generator aktif**, **18 DEFERRED_CONCEPTUAL**, tanpa HOLD_SOURCE. Enam belas original revisi kurikulum v2 kini memiliki config v1 dan lolos 20 varian unik per soal serta oracle matematika independen. [Audit generator revisi](docs/audits/2026-10-07-revised-20-23-generator-audit.md) memuat parameter, bukti pemeriksaan dan contoh hasil. Audit 5 Oktober tetap menjadi arsip kondisi sebelumnya. Delapan Drill indikator16–19 dan tiga Tryout tetap tanpa generator.
 

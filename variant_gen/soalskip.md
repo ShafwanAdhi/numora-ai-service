@@ -6,7 +6,7 @@
 
 `same_answer_as_original` berlaku pada generator numerik, tetapi dikecualikan khusus stok konseptual. Status metadata dan alasan historis di bawah dipertahankan sebagai riwayat. DEFERRED_CONCEPTUAL menolak generator/config; stok VERIFIED tetap dapat dibaca. Penggunaan ulang tidak menghabiskan stok.
 
-Rekonsiliasi Drill pada pemeriksaan lokal 7 Oktober: 679 generator + 67 original dengan stok + 44 soal menunggu generator/review = 790. Masih 111 Drill tanpa **generator**, namun hanya 44 belum memiliki generator maupun stok. Empat generator baru pada pekerjaan indikator 11–15 sudah termasuk; penghitungan juga mencakup pembaruan indikator lain yang tersedia di repo. Tiga Tryout tanpa generator/stok tetap di luar cakupan konseptual Drill.
+Rekonsiliasi Drill pada pemeriksaan lokal 7 Oktober: **719 generator +67 original dengan stok +4 HOLD =790**. Masih71 Drill tanpa generator, namun hanya4 belum mempunyai generator maupun stok: `pg-1-2-1`, `pg-5-3-3`, `mcma-6-3-7`, `mcma-15-2-8`. Tiga Tryout konseptual kini mempunyai9 stok VERIFIED. Total lintas aktivitas70 original/215 stok. [Audit Tryout](../docs/audits/2026-10-07-tryout-conceptual-stock-audit.md); [40 generator revisi1–5](../docs/audits/2026-10-07-revised-1-5-generator-audit.md).
 
 | ID konseptual | Stok VERIFIED |
 |---|---:|
@@ -218,6 +218,8 @@ Untuk `DEFERRED_CONCEPTUAL`, kerjakan desain generator atau stok template sesuai
 
 ## Tryout 1 ? catatan existing
 
+**Pembaruan 7 Oktober:** ketiga ID berikut kini memiliki masing-masing3 stok manual VERIFIED melalui UI/CLI. Generator tetap ditunda; generate paket tetap ORIGINAL_ONLY. [Review sembilan stok](../docs/audits/2026-10-07-tryout-conceptual-stock-audit.md). Alasan dalam tabel berikut adalah riwayat sebelum stok tersedia.
+
 | ID | Status | Alasan |
 |---|---|---|
 | `tryout-1-b1-q07` | DEFERRED_CONCEPTUAL | Ditunda: inti pertanyaan adalah alasan/sifat tanda kurung; variasi konseptual belum dirancang. |
@@ -326,7 +328,7 @@ Empat revisi kini memakai status `ACTIVE`; soal geometri yang masih bermasalah t
 
 ### Revisi kurikulum 7 Oktober 2026
 
-Status kini **34 ACTIVE, 25 DEFERRED_CONCEPTUAL, 1 HOLD_SOURCE**. Sebanyak 17 original menjadi v2: 16 revisi masuk untuk tahap generator berikutnya; `pg-1-2-1` tetap HOLD karena pembahasan menulis −58% = 0,58%. Sembilan original konseptual dan stok manual tetap sama. Label penundaan teknis pada 16 revisi tidak berarti soalnya konseptual; generator belum dibuat.
+Status kini **50 ACTIVE, 9 DEFERRED_CONCEPTUAL, 1 HOLD_SOURCE**. Enam belas revisi sudah mempunyai generator config v1; `pg-1-2-1` tetap HOLD karena pembahasan menulis −58% = 0,58%. Sembilan original konseptual dan stok manual tetap sama. [Audit generator revisi](../docs/audits/2026-10-07-revised-1-5-generator-audit.md).
 
 [Daftar revisi, kunci, catatan distraktor, dan provenance](../docs/audits/2026-10-07-drill-1-5-source-revision.md). Tabel di bawah adalah **riwayat sebelum revisi**, bukan alasan/status original v2 saat ini.
 
@@ -367,7 +369,7 @@ Status kini **34 ACTIVE, 25 DEFERRED_CONCEPTUAL, 1 HOLD_SOURCE**. Sebanyak 17 or
 
 ### Revisi kurikulum 7 Oktober 2026
 
-Status kini **64 ACTIVE, 25 DEFERRED_CONCEPTUAL, 1 HOLD_SOURCE**. Sebanyak 24 original menjadi v2; generator belum dibuat. `pg-5-3-3` belum berubah: header B menyebut 24 liter/menit, tetapi opsi B/pembahasan menyatakan selisih 4 liter/menit. Soal tersebut tetap v1/HOLD. `pg-5-2-4` dan stok manualnya tetap sama. Label kognitif `mcma-3-2-8` dipertahankan dari sumber awal karena revisi tidak mencantumkannya.
+Status kini **88 ACTIVE, 1 DEFERRED_CONCEPTUAL, 1 HOLD_SOURCE**. Dua puluh empat original v2 kini mempunyai generator config v1. `pg-5-3-3` belum berubah: header B menyebut24liter/menit, tetapi opsi B/pembahasan menyatakan selisih4liter/menit; tetap v1/HOLD. `pg-5-2-4` dan stok manualnya tetap sama. Label kognitif `mcma-3-2-8` dipertahankan dari sumber awal karena revisi tidak mencantumkannya. [Audit generator revisi](../docs/audits/2026-10-07-revised-1-5-generator-audit.md).
 
 [Daftar revisi dan batas impor](../docs/audits/2026-10-07-drill-1-5-source-revision.md). Tabel di bawah adalah **riwayat sebelum revisi**. Level tambahan dalam DOCX diarsipkan; katalog level 1–3 tetap sama.
 

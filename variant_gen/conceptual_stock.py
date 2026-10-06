@@ -7,7 +7,7 @@ from bank import BankError
 from filters import validate_candidate
 from store import StoreError
 
-# ponytail: approved Drill 1 inventory only; review new families before extending this set.
+# ponytail: reviewed local inventory only; review new families before extending this set.
 CONCEPTUAL_IDS = frozenset('''
 pg-1-1-4 mcma-1-1-8 kategori-1-1-10 kategori-1-2-10 kategori-1-3-10
 pg-2-2-5 pg-2-3-1 pg-2-3-4 pg-2-3-5 pg-5-2-4
@@ -24,6 +24,7 @@ pg-20-1-1 mcma-20-1-6 kategori-20-1-9 kategori-20-1-10 pg-20-2-1 mcma-20-2-7
 kategori-20-2-10 pg-20-3-5 mcma-20-3-8 pg-21-2-5
 pg-22-1-4 mcma-22-1-8 pg-22-2-3 pg-22-2-5 mcma-22-2-8 pg-22-3-5
 pg-23-1-1 pg-23-1-2
+tryout-1-b1-q07 tryout-1-b4-q02 tryout-1-b4-q06
 '''.split())
 
 

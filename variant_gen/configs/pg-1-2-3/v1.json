@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-1-2-3",
+  "config_version": 1,
+  "original_hash": "6eb72b0b1a0f8169",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "-1.25*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": " 'sqrt(' if k==1 else '-('",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2 if k==1 else 4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": " ')' if k==1 else ')/(3)'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'-(' if k==1 else 'sqrt('",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4 if k==1 else 2*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": " ')/(3)' if k==1 else ')'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "-1.3*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'B' if k==1 else 'A'",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Empat orang siswa mengukur kedalaman pengerukan parit sekolah terhadap permukaan tanah netral (titik 0 meter):\n• Patok A: {v1}m\n• Patok B: {v2}{v3}{v4}m (elevasi tanggul)\n• Patok C: {v5}{v6}{v7}m\n• Patok D: {v8}m\nPernyataan yang benar mengenai posisi patok-patok tersebut pada garis bilangan adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "Patok C berada di sebelah kanan Patok A",
+      "correct": "k!=1"
+    },
+    {
+      "id": "B",
+      "text": "Posisi Patok B berada di sebelah kanan titik nol (0)",
+      "correct": "k==1"
+    },
+    {
+      "id": "C",
+      "text": "Patok A berada di sebelah kiri Patok D",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Patok A berada di posisi paling kiri di antara semua patok",
+      "correct": false
+    }
+  ],
+  "explanation": "Patok bernilai positif berada di kanan nol. Untuk nilai negatif, magnitudo lebih besar berada lebih kiri; bandingkan pecahan secara eksak.\nHasil pemeriksaan: {v9}."
+}

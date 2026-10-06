@@ -1,0 +1,135 @@
+{
+  "question_id": "mcma-3-2-8",
+  "config_version": 1,
+  "original_hash": "f0542ebee1e24075",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "19500+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "4800+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "10000+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4000+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "440000+50000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "20000+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5000+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "1050000+60000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "1050000+60000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "1050000+60000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "1050000+60000*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "974400+56000*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "1050000+60000*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "974400+56000*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Diberikan sebuah transaksi belanja pembekalan ekstrakurikuler sekolah sebagai berikut:\n\"Membeli 48 pak buku seharga Rp{v1},00 per pak dan 8 botol minuman seharga Rp{v2},00 per botol.\"\nManakah analisis estimasi biaya total yang logis dan wajar? (Jawaban boleh lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Estimasi dapat dihitung dengan (40×{v3})+(10×{v4})=Rp{v5},00",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Estimasi dapat dihitung dengan (50×{v6})+(10×{v7})=Rp{v8},00",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Rp{v9},00 karena seluruh komponen kuantitas dan harga dibulatkan ke atas",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Hasil estimasi Rp{v10},00 pasti bernilai lebih kecil dari total pembayaran sebenarnya",
+      "correct": false
+    }
+  ],
+  "explanation": "B membulatkan kuantitas 48→50 dan 8→10; harga satuan naik ke ribuan terdekat. Estimasi {v11} lebih besar daripada biaya riil {v12}. A menurunkan komponen utama jauh sehingga bukan estimasi wajar yang dimaksud; D membalik hubungan biaya.\nHasil pemeriksaan: {v13}, {v14}."
+}

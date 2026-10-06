@@ -2,6 +2,8 @@
 
 7 Oktober 2026. Impor sumber lokal saja; generator tidak dibuat/diaktifkan, database tidak diakses, tidak commit/push.
 
+**Snapshot tahap impor, sebelum implementasi generator.** Tahap berikutnya telah mengaktifkan 40 generator; status terkini 138 ACTIVE, 10 konseptual dengan stok, dan 2 HOLD. Lihat [audit generator revisi](2026-10-07-revised-1-5-generator-audit.md). Jumlah dan label penundaan pada bagian di bawah merekam keadaan saat impor.
+
 ## Sumber dan cakupan
 
 Dokumen `C:/Users/shafw/Downloads/revisi_banksoal_indikator1-5.docx` diarsipkan utuh pada kedua bank:

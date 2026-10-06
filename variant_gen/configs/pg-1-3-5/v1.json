@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-1-3-5",
+  "config_version": 1,
+  "original_hash": "3722625a7c6aadb4",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "9*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "5*k*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "-2.35 if k==1 else -2.24*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'r < p < q' if k==1 else 'p < r < q'",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'D' if k==1 else 'C'",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Tiga lokasi pos penataan taman sekolah diukur posisinya (dalam meter) terhadap tiang bendera utama (titik 0 meter):\n• Pos p=-({v1})/(4)m\n• Pos q=-sqrt({v2})m\n• Pos r={v3}m\nBerdasarkan analisis kedudukan ketiga pos tersebut pada garis bilangan, manakah hubungan posisi yang pasti benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pos r berada paling kanan di antara semua pos",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Pos q terletak di sebelah kiri Pos r",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Pos p terletak di sebelah kiri Pos r",
+      "correct": "k!=1"
+    },
+    {
+      "id": "D",
+      "text": "Pos p berada di antara Pos r dan Pos q pada garis bilangan",
+      "correct": "k==1"
+    }
+  ],
+  "explanation": "Bandingkan nilai negatif. Urutan kiri ke kanan: {v4}. Bandingkan kuadrat magnitudo pecahan, desimal, dan akar; magnitudo negatif terbesar berada paling kiri.\nHasil pemeriksaan: {v5}."
+}

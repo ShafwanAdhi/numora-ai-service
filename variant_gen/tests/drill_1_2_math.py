@@ -94,6 +94,8 @@ def line_value(s,label,ending):
     return calc(re.search(re.escape(label)+r'\s*(.*?)'+ending,s)[1])
 
 def check_math(original,c):
+    from drill_1_5_revised_math import SUPPORTED,check_math as revised_math
+    if original['id'] in SUPPORTED:return revised_math(original,c)
     q=original['id'];s=c['stem'];opts=[o['text'] for o in c['options']]
     if q=='pg-1-1-1':
         values=[line_value(s,n+':',r'\s*gram') for n in ['Rian','Siti','Budi','Dewi']]

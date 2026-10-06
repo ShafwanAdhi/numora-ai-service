@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-2-1-2",
+  "config_version": 1,
+  "original_hash": "f0388e92bf5b3f7c",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "-2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "-k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "43*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "49*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "52*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "58*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "-2*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "-k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "49*k",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "49*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dalam suatu kegiatan kuis matematika kelompok, aturan penilaian ditentukan sebagai berikut:\n• Jawaban benar diberi nilai +{v1}\n• Jawaban salah diberi nilai {v2}\n• Soal yang tidak dijawab diberi nilai {v3}\nDari total 25 soal yang diberikan, Kelompok A berhasil menjawab benar 16 soal, tidak menjawab 3 soal, dan sisanya dijawab salah. Menggunakan hirarki operasi hitung campuran, total nilai yang diperoleh Kelompok A adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v4}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v5}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v6}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v7}",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah jawaban salah =25−16−3=6. Skor =16×{v8}+6×{v9}+3×{v10}={v11}.\nHasil pemeriksaan: {v12}."
+}

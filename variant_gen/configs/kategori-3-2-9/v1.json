@@ -1,0 +1,88 @@
+{
+  "question_id": "kategori-3-2-9",
+  "config_version": 1,
+  "original_hash": "6dca400d1a4aecc5",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3.64+(k-1)/10",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3.64+(k-1)/10",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3.6+(k-1)/10",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6.9+(k-1)/10",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3.6+(k-1)/10",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3.6+(k-1)/10",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "6.9+(k-1)/10",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Tiga bahan masakan kantin sekolah ditimbang beratnya sebagai berikut:\n• Daging: {v1} kg\n• Sayur: 2,45 kg\n• Bumbu: 0,78 kg\nTentukan status BENAR atau SALAH untuk setiap pernyataan pembulatan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Berat daging ({v2} kg) jika dibulatkan ke persepuluhan terdekat adalah {v3}kg.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Berat sayur (2,45 kg) jika dibulatkan ke satuan terdekat adalah 3kg.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Estimasi total berat ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah {v4} kg.",
+      "correct": true
+    }
+  ],
+  "explanation": "Daging dibulatkan ke persepuluhan menjadi {v5}; sayur 2,45 ke satuan menjadi 2, bukan 3. Untuk total persepuluhan, sayur menjadi 2,5 dan bumbu 0,8.\nHasil pemeriksaan: {v6}, 2, {v7}."
+}

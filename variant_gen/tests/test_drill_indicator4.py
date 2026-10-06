@@ -41,7 +41,7 @@ class Indicator4(unittest.TestCase):
         self.assertEqual(len(ids), 30)
         for qid in ids:
             with self.subTest(qid=qid):
-                if qid in HOLD:
+                if bank.get(qid)['metadata']['generation_status'] != 'ACTIVE':
                     self.assertEqual(configs.versions(qid), [])
                     continue
                 original = copy.deepcopy(bank.get(qid))

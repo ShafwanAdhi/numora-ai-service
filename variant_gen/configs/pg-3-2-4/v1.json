@@ -1,0 +1,129 @@
+{
+  "question_id": "pg-3-2-4",
+  "config_version": 1,
+  "original_hash": "efd1e8762dcdb60c",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "59.4+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "50+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "50+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "60+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "120+20*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "round((59.4+10*(k-1))*19.8/9.7,2)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "120+20*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "round((59.4+10*(k-1))*19.8/9.7,2)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "120+20*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "round((59.4+10*(k-1))*19.8/9.7,2)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "50+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "round((59.4+10*(k-1))*19.8/9.7,2)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "120+20*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang siswa ingin mengecek kewajaran jawaban dari operasi perkalian dan pembagian desimal untuk biaya belanja bahan kantin sekolah:\nOperasi Hitung:({v1}×19,8)/(9,7)\nDua orang siswa menganalisis cara estimasi cepat dengan pembulatan:\n• Analisis A: Mengubah operasi menjadi ({v2}×10)/(10)={v3} dengan membulatkan semua angka ke bawah secara kasar.\n• Analisis B: Mengubah operasi menjadi ({v4}×20)/(10)={v5} dengan membulatkan setiap bilangan ke puluhan/satuan terdekat.\nManakah analisis estimasi yang memberikan nilai paling wajar dan mendekati hasil sebenarnya ({v6})?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis A, karena pembulatan ke bawah mencegah over-budget",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Analisis B, karena hasil {v7} sangat dekat dengan hasil sebenarnya ({v8})",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Analisis A, karena langkah pembulatan lebih mudah dikalikan",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis B, karena semua angka harus dinaikkan tanpa melihat digit pembulatannya",
+      "correct": false
+    }
+  ],
+  "explanation": "B membulatkan operand pertama ke puluhan dan denominator ke satuan terdekat: estimasi {v9}. Hasil riil dibulatkan dua desimal {v10}. A memberi {v11} dan lebih jauh; klaim semua angka wajib dinaikkan salah. Pembulatan denominator 9,7 menjadi 10 sebenarnya naik.\nHasil pemeriksaan: {v12}, {v13}."
+}

@@ -1,0 +1,159 @@
+{
+  "question_id": "pg-2-1-1",
+  "config_version": 1,
+  "original_hash": "f1db9ed37360e579",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "30000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "18000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "20000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "12500*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "17500*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "18500*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "20500*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "22500*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "30000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "18000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "20000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "12500*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "6000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "5000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "18500*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "18500*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang siswa SMP memiliki saldo awal pada kartu kantin elektronik sebesar Rp{v1},00. Dalam satu minggu, ia melakukan transaksi sebagai berikut:\n• Membeli makan siang seharga Rp{v2},00\n• Mengisi ulang (top up) saldo sebesar Rp{v3},00\n• Membeli alat tulis seharga Rp{v4},00 dan es krim seharga Rp{v5},00\n• Mendapatkan pengembalian tunai (cashback) ke kartu sebesar Rp{v6},00\nBerapa saldo akhir pada kartu kantin elektronik siswa tersebut?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{v7},00",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{v8},00",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Rp{v9},00",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rp{v10},00",
+      "correct": false
+    }
+  ],
+  "explanation": "Terapkan pemasukan sebagai penjumlahan, pengeluaran sebagai pengurangan, diskon mengurangi biaya. Perhitungan {v11}−{v12}+{v13}−{v14}−{v15}+{v16}={v17}. Opsi lain berbeda dari saldo/kembalian hasil perhitungan.\nHasil pemeriksaan: {v18}."
+}

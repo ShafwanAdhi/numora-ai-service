@@ -86,7 +86,7 @@ class WebUI(unittest.TestCase):
         self.assertIsNone(data['variant']['seed'])
         self.assertEqual(data['variant_mode'], 'stock')
         self.assertIsNone(data["config"])
-        status, unavailable = self.request('GET', '/api/question?id=tryout-1-b1-q07&seed=1')
+        status, unavailable = self.request('GET', '/api/question?id=mcma-6-3-7&seed=1')
         self.assertEqual(status, 200)
         self.assertEqual(unavailable['original']['seed'], 0)
         self.assertIsNone(unavailable['variant'])
@@ -292,7 +292,7 @@ class WebUI(unittest.TestCase):
 
     def test_drill_1_2_local_responses(self):
         with patch('database.connection',side_effect=AssertionError('No DB')):
-            for qid in ['pg-1-1-1', 'mcma-2-1-6', 'kategori-2-1-9']:
+            for qid in ['pg-1-1-1', 'mcma-2-1-6', 'kategori-2-1-9', 'pg-1-1-5', 'mcma-1-2-6', 'pg-2-2-4']:
                 payload=dict(question_id=qid,seed=11)
                 status,first=self.request('POST','/api/generate',payload)
                 self.assertEqual(status,200,first)
@@ -312,7 +312,7 @@ class WebUI(unittest.TestCase):
 
     def test_drill_3_5_local_responses(self):
         with patch('database.connection',side_effect=AssertionError('No DB')):
-            for qid in ['pg-3-1-1', 'mcma-4-1-7', 'kategori-5-1-9']:
+            for qid in ['pg-3-1-1', 'mcma-4-1-7', 'kategori-5-1-9', 'pg-3-2-4', 'pg-4-3-1', 'kategori-4-3-9', 'pg-5-1-5']:
                 payload=dict(question_id=qid,seed=11)
                 status,first=self.request('POST','/api/generate',payload)
                 self.assertEqual(status,200,first)
@@ -327,7 +327,7 @@ class WebUI(unittest.TestCase):
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
             for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-3-1-3',seed=11,config={}))[0],400)
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-5-3-3',seed=11,config={}))[0],400)
             self.assertFalse(self.store.exists())
 
     def test_tryout_end_to_end_never_queries_database(self):

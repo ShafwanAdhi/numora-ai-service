@@ -253,7 +253,7 @@ def evaluate(expr, names):
 
 # --------------------------------------------------------------- rendering
 # Variable identifiers; numeric LaTeX groups and environment names are literal.
-PLACEHOLDER = re.compile(r"(?<!\\begin)(?<!\\end)\{((?!\d)\w+)\}")
+PLACEHOLDER = re.compile(r"(?<!\\begin)(?<!\\end)(?<!\\text)\{((?!\d)\w+)\}")
 
 
 def placeholders(template):

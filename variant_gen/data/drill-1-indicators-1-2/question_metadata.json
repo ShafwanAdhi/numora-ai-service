@@ -63,18 +63,19 @@
     "declared_key": "A",
     "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: A\nSuhu air dalam tiga wadah penelitian di ruang laboratorium diukur secara berkala sebagai berikut:\n• Suhu Wadah X: $-3,5^\\circ\\text{C}$\n• Suhu Wadah Y: $-\\sqrt{12}^\\circ\\text{C}$\n• Suhu Wadah Z: $-\\frac{13}{4}^\\circ\\text{C}$\nJika ketiga suhu tersebut digambarkan pada garis bilangan, posisi suhu dari yang paling dingin (paling kiri) hingga yang paling hangat (paling kanan) adalah...\nOpsi Jawaban:\nA. Wadah X, Wadah Y, Wadah Z\nB. Wadah Y, Wadah X, Wadah Z\nC. Wadah X, Wadah Z, Wadah Y\nD. Wadah Z, Wadah X, Wadah Y\nPembahasan:\nKonversikan seluruh nilai suhu ke dalam bentuk desimal pendekatan dengan memperhatikan tanda negatif:\nWadah X: $-3,5^\\circ\\text{C}$\nWadah Y: $-\\sqrt{12}^\\circ\\text{C} \\approx -3,464^\\circ\\text{C}$ (karena sqrt(12) berada di antara sqrt(9)=3 dan sqrt(16)=4, yaitu sqrt(12)≈3,464)\nWadah Z: $-\\frac{13}{4}^\\circ\\text{C} = -3,25^\\circ\\text{C}$\nUrutkan bilangan negatif pada garis bilangan dari nilai terkecil/paling dingin (posisi paling kiri) ke nilai terbesar/paling hangat (posisi paling kanan):\n-3,5<-3,464<-3,25\nMaka, urutan posisi wadah dari yang paling dingin ke yang paling hangat adalah Wadah X, Wadah Y, Wadah Z.\nAnalisis opsi pilihan jawaban:\nOpsi A (Wadah X, Wadah Y, Wadah Z - BENAR): Urutan posisi pada garis bilangan negatif yang tepat (-3,5<-sqrt(12)<-(13)/(4)).\nOpsi B (Wadah Y, Wadah X, Wadah Z): Salah, muncul jika siswa keliru mengabaikan tanda negatif sehingga mengira sqrt(12) lebih besar nilainya dari 3,5.\nOpsi C (Wadah X, Wadah Z, Wadah Y): Salah, muncul jika siswa keliru menghitung nilai desimal -(13)/(4).\nOpsi D (Wadah Z, Wadah X, Wadah Y): Salah, muncul jika siswa mengurutkan dari bilangan positif (kebalikannya).\nKesalahan umum yang diantisipasi: Siswa sering lupa bahwa pada bilangan negatif, bilangan dengan nilai mutlak lebih besar justru terletak lebih kiri (lebih kecil/dingin), atau keliru melupakan tanda minus saat mengestimasi bentuk akar -sqrt(12).",
     "original_explanation": "Pembahasan:\nKonversikan seluruh nilai suhu ke dalam bentuk desimal pendekatan dengan memperhatikan tanda negatif:\nWadah X: $-3,5^\\circ\\text{C}$\nWadah Y: $-\\sqrt{12}^\\circ\\text{C} \\approx -3,464^\\circ\\text{C}$ (karena sqrt(12) berada di antara sqrt(9)=3 dan sqrt(16)=4, yaitu sqrt(12)≈3,464)\nWadah Z: $-\\frac{13}{4}^\\circ\\text{C} = -3,25^\\circ\\text{C}$\nUrutkan bilangan negatif pada garis bilangan dari nilai terkecil/paling dingin (posisi paling kiri) ke nilai terbesar/paling hangat (posisi paling kanan):\n-3,5<-3,464<-3,25\nMaka, urutan posisi wadah dari yang paling dingin ke yang paling hangat adalah Wadah X, Wadah Y, Wadah Z.\nAnalisis opsi pilihan jawaban:\nOpsi A (Wadah X, Wadah Y, Wadah Z - BENAR): Urutan posisi pada garis bilangan negatif yang tepat (-3,5<-sqrt(12)<-(13)/(4)).\nOpsi B (Wadah Y, Wadah X, Wadah Z): Salah, muncul jika siswa keliru mengabaikan tanda negatif sehingga mengira sqrt(12) lebih besar nilainya dari 3,5.\nOpsi C (Wadah X, Wadah Z, Wadah Y): Salah, muncul jika siswa keliru menghitung nilai desimal -(13)/(4).\nOpsi D (Wadah Z, Wadah X, Wadah Y): Salah, muncul jika siswa mengurutkan dari bilangan positif (kebalikannya).\nKesalahan umum yang diantisipasi: Siswa sering lupa bahwa pada bilangan negatif, bilangan dengan nilai mutlak lebih besar justru terletak lebih kiri (lebih kecil/dingin), atau keliru melupakan tanda minus saat mengestimasi bentuk akar -sqrt(12).",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Pembahasan DOCX menulis Wadah X:3,5°C dan -13/4=3,25°C, bertentangan dengan stimulus -3,5°C dan hasil -3,25°C. Tanda minus pembahasan perlu disahkan; tidak dikoreksi diam-diam.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "mcma-1-1-6": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -189,18 +190,19 @@
     "declared_key": "B",
     "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: B\nEmpat orang siswa mengukur kedalaman pengerukan parit sekolah terhadap permukaan tanah netral (titik 0 meter):\n• Patok A: -1,25m\n• Patok B: sqrt(2)m (elevasi tanggul)\n• Patok C: -(4)/(3)m\n• Patok D: -1,3m\nPernyataan yang benar mengenai posisi patok-patok tersebut pada garis bilangan adalah...\nOpsi Jawaban:\nA. Patok C berada di sebelah kanan Patok A\nB. Posisi Patok B berada di sebelah kanan titik nol (0)\nC. Patok A berada di sebelah kiri Patok D\nD. Patok A berada di posisi paling kiri di antara semua patok\nPembahasan:\nUbah seluruh nilai posisi ke dalam bentuk desimal pendekatan untuk membandingkan nilainya pada garis bilangan:\nPatok A: -1,25m\nPatok B: sqrt(2)≈+1,414m\nPatok C: -(4)/(3)≈-1,333m\nPatok D: -1,30m\nUrutkan posisi patok pada garis bilangan dari kiri ke kanan (nilai terkecil ke terbesar):\n-1,333<-1,30<-1,25<0<+1,414\n(PatokC)<(PatokD)<(PatokA)<(Nol)<(PatokB)\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (SALAH): Patok C (-1,333m) nilainya lebih kecil dari Patok A (-1,25m), sehingga posisinya berada di sebelah kiri Patok A.\nOpsi B (BENAR): Patok B (sqrt(2)≈+1,414m) bernilai positif (>0), sehingga posisinya berada di sebelah kanan titik nol (0).\nOpsi C (SALAH): Nilai Patok A (-1,25m) lebih besar daripada Patok D (-1,30m), sehingga Patok A berada di sebelah kanan Patok D.\nOpsi D (SALAH): Patok yang berada di posisi paling kiri (nilai terkecil) adalah Patok C (-1,333m), bukan Patok A.\nKesalahan umum yang diantisipasi: Siswa sering menganggap -(4)/(3)=-1,3 tanpa memperhatikan desimal berulangnya (-1,333...), sehingga keliru membandingkan urutan posisi antara Patok C dan Patok D pada garis bilangan negatif.",
     "original_explanation": "Pembahasan:\nUbah seluruh nilai posisi ke dalam bentuk desimal pendekatan untuk membandingkan nilainya pada garis bilangan:\nPatok A: -1,25m\nPatok B: sqrt(2)≈+1,414m\nPatok C: -(4)/(3)≈-1,333m\nPatok D: -1,30m\nUrutkan posisi patok pada garis bilangan dari kiri ke kanan (nilai terkecil ke terbesar):\n-1,333<-1,30<-1,25<0<+1,414\n(PatokC)<(PatokD)<(PatokA)<(Nol)<(PatokB)\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (SALAH): Patok C (-1,333m) nilainya lebih kecil dari Patok A (-1,25m), sehingga posisinya berada di sebelah kiri Patok A.\nOpsi B (BENAR): Patok B (sqrt(2)≈+1,414m) bernilai positif (>0), sehingga posisinya berada di sebelah kanan titik nol (0).\nOpsi C (SALAH): Nilai Patok A (-1,25m) lebih besar daripada Patok D (-1,30m), sehingga Patok A berada di sebelah kanan Patok D.\nOpsi D (SALAH): Patok yang berada di posisi paling kiri (nilai terkecil) adalah Patok C (-1,333m), bukan Patok A.\nKesalahan umum yang diantisipasi: Siswa sering menganggap -(4)/(3)=-1,3 tanpa memperhatikan desimal berulangnya (-1,333...), sehingga keliru membandingkan urutan posisi antara Patok C dan Patok D pada garis bilangan negatif.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Opsi B dan C sama-sama benar: sqrt2>0 dan -4/3<-1,3<-1,25; PG tidak unik.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "pg-1-2-4": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -238,18 +240,19 @@
     "declared_key": "A, C",
     "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: A, C\nDiberikan himpunan data suhu empat ruangan penyimpanan benih tanaman di laboratorium sekolah:\n• Ruang A: $-2,5^\\circ\\text{C}$\n• Ruang B: $-\\sqrt{8}^\\circ\\text{C}$\n• Ruang C: $-2\\frac{3}{4}^\\circ\\text{C}$ (ditulis $-\\frac{11}{4}^\\circ\\text{C}$)\n• Ruang D: $-2,7^\\circ\\text{C}$\nManakah pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Suhu Ruang C jika diubah ke bentuk desimal adalah $-2,75^\\circ\\text{C}$\n[ ] B. Ruang C memiliki suhu yang paling dingin di antara semua ruangan\n[ ] C. Nilai $-\\sqrt{8}^\\circ\\text{C}$ berada di antara $-2,7^\\circ\\text{C}$ dan $-2,9^\\circ\\text{C}$\n[ ] D. Urutan ruangan dari yang terhangat ke yang terdingin adalah C, D, B, A\nPembahasan:\nUbah seluruh nilai suhu ke dalam bentuk desimal pendekatan dengan mempertahankan tanda negatif (-) secara presisi:\nRuang A: $-2,5^\\circ\\text{C} = -2,500^\\circ\\text{C}$\nRuang B: $-\\sqrt{8}^\\circ\\text{C} \\approx -2,828^\\circ\\text{C}$ (karena sqrt(8)≈2,828)\nRuang C: $-2\\frac{3}{4}^\\circ\\text{C} = -\\frac{11}{4}^\\circ\\text{C} = -2,750^\\circ\\text{C}$\nRuang D: $-2,7^\\circ\\text{C} = -2,700^\\circ\\text{C}$\nUrutkan suhu dari yang paling dingin (nilai terkecil/paling kiri pada garis bilangan) hingga paling hangat (nilai terbesar):\n-2,828<-2,750<-2,700<-2,500\n(RuangB)<(RuangC)<(RuangD)<(RuangA)\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (BENAR): Ruang C $= -\\frac{11}{4}^\\circ\\text{C} = -2,75^\\circ\\text{C}$.\nOpsi B (SALAH): Suhu paling dingin (nilai terkecil) adalah Ruang B ($-\\sqrt{8} \\approx -2,828^\\circ\\text{C}$), bukan Ruang C.\nOpsi C (BENAR): Nilai $-\\sqrt{8}^\\circ\\text{C} \\approx -2,828^\\circ\\text{C}$ memang berada dalam rentang $-2,9^\\circ\\text{C} < -2,828^\\circ\\text{C} < -2,7^\\circ\\text{C}$.\nOpsi D (SALAH): Urutan ruangan dari yang terhangat (terbesar) ke yang terdingin (terkecil) adalah A, D, C, B.\nKesalahan umum yang diantisipasi: Siswa sering salah dalam mengestimasi nilai -sqrt(8), seperti mengiranya bernilai -4 (karena menganggap 8÷2), atau keliru mengira Ruang C adalah yang paling dingin karena mengabaikan bahwa -sqrt(8)≈-2,828 nilainya lebih kecil daripada -2,75.",
     "original_explanation": "Pembahasan:\nUbah seluruh nilai suhu ke dalam bentuk desimal pendekatan dengan mempertahankan tanda negatif (-) secara presisi:\nRuang A: $-2,5^\\circ\\text{C} = -2,500^\\circ\\text{C}$\nRuang B: $-\\sqrt{8}^\\circ\\text{C} \\approx -2,828^\\circ\\text{C}$ (karena sqrt(8)≈2,828)\nRuang C: $-2\\frac{3}{4}^\\circ\\text{C} = -\\frac{11}{4}^\\circ\\text{C} = -2,750^\\circ\\text{C}$\nRuang D: $-2,7^\\circ\\text{C} = -2,700^\\circ\\text{C}$\nUrutkan suhu dari yang paling dingin (nilai terkecil/paling kiri pada garis bilangan) hingga paling hangat (nilai terbesar):\n-2,828<-2,750<-2,700<-2,500\n(RuangB)<(RuangC)<(RuangD)<(RuangA)\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (BENAR): Ruang C $= -\\frac{11}{4}^\\circ\\text{C} = -2,75^\\circ\\text{C}$.\nOpsi B (SALAH): Suhu paling dingin (nilai terkecil) adalah Ruang B ($-\\sqrt{8} \\approx -2,828^\\circ\\text{C}$), bukan Ruang C.\nOpsi C (BENAR): Nilai $-\\sqrt{8}^\\circ\\text{C} \\approx -2,828^\\circ\\text{C}$ memang berada dalam rentang $-2,9^\\circ\\text{C} < -2,828^\\circ\\text{C} < -2,7^\\circ\\text{C}$.\nOpsi D (SALAH): Urutan ruangan dari yang terhangat (terbesar) ke yang terdingin (terkecil) adalah A, D, C, B.\nKesalahan umum yang diantisipasi: Siswa sering salah dalam mengestimasi nilai -sqrt(8), seperti mengiranya bernilai -4 (karena menganggap 8÷2), atau keliru mengira Ruang C adalah yang paling dingin karena mengabaikan bahwa -sqrt(8)≈-2,828 nilainya lebih kecil daripada -2,75.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Header A,B,C; nilai -sqrt(8) paling dingin sehingga klaim B salah. Pembahasan eksplisit menyimpulkan A,C.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "mcma-1-2-7": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -315,18 +318,19 @@
     "declared_key": "B",
     "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: B\nEmpat orang siswa menganalisis hasil pengukuran suhu ruang pendingin buah di sebuah toko kelontong. Perubahan suhu relatif terhadap titik acuan standar ($0^\\circ\\text{C}$) dicatat sebagai berikut:\n• Dina: $-2,4^\\circ\\text{C}$\n• Eko: $-\\sqrt{7}^\\circ\\text{C}$\n• Fani: $-\\frac{13}{5}^\\circ\\text{C}$\n• Gilang: $-2,65^\\circ\\text{C}$\nKeempat siswa memberikan hasil analisis urutan suhu dari yang paling dingin (paling kecil) ke yang paling hangat (paling besar) sebagai berikut:\n• Analisis I (Dina): -sqrt(7)<-(13)/(5)<-2,65<-2,4\n• Analisis II (Eko): -2,65<-sqrt(7)<-(13)/(5)<-2,4\n• Analisis III (Fani): -(13)/(5)<-2,65<-sqrt(7)<-2,4\n• Analisis IV (Gilang): -2,4<-(13)/(5)<-2,65<-sqrt(7)\nAnalisis siapakah yang memberikan urutan paling tepat berdasarkan konsep garis bilangan?\nOpsi Jawaban:\nA. Analisis I\nB. Analisis II\nC. Analisis III\nD. Analisis IV\nPembahasan:\nUbah seluruh nilai ke dalam bentuk desimal pendekatan untuk membandingkan nilainya secara presisi:\nDina: $-2,4^\\circ\\text{C} = -2,400^\\circ\\text{C}$\nEko: $-\\sqrt{7}^\\circ\\text{C} \\approx -2,6457^\\circ\\text{C}$ (karena sqrt(7)≈2,6457)\nFani: $-\\frac{13}{5}^\\circ\\text{C} = -2,600^\\circ\\text{C}$\nGilang: $-2,65^\\circ\\text{C} = -2,650^\\circ\\text{C}$\nUrutkan bilangan desimal negatif dari yang paling kecil/paling dingin (angka negatif terbesar/paling kiri pada garis bilangan) ke yang paling besar/paling hangat:\n-2,650<-2,6457<-2,600<-2,400\n-2,65<-sqrt(7)<-(13)/(5)<-2,4\n(Gilang)<(Eko)<(Fani)<(Dina)\nUrutan yang tepat ini sesuai dengan Analisis II (Eko).\nKesalahan umum yang diantisipasi: Siswa sering salah dalam mengestimasi nilai -sqrt(7) (misalnya mengira sqrt(7)=3,5 karena 7÷2), atau keliru membandingkan bilangan desimal negatif seperti menganggap -2,65 lebih besar daripada -2,60 (lupa bahwa pada garis bilangan negatif, semakin besar nilai mutlaknya, nilainya justru semakin kecil).",
     "original_explanation": "Pembahasan:\nUbah seluruh nilai ke dalam bentuk desimal pendekatan untuk membandingkan nilainya secara presisi:\nDina: $-2,4^\\circ\\text{C} = -2,400^\\circ\\text{C}$\nEko: $-\\sqrt{7}^\\circ\\text{C} \\approx -2,6457^\\circ\\text{C}$ (karena sqrt(7)≈2,6457)\nFani: $-\\frac{13}{5}^\\circ\\text{C} = -2,600^\\circ\\text{C}$\nGilang: $-2,65^\\circ\\text{C} = -2,650^\\circ\\text{C}$\nUrutkan bilangan desimal negatif dari yang paling kecil/paling dingin (angka negatif terbesar/paling kiri pada garis bilangan) ke yang paling besar/paling hangat:\n-2,650<-2,6457<-2,600<-2,400\n-2,65<-sqrt(7)<-(13)/(5)<-2,4\n(Gilang)<(Eko)<(Fani)<(Dina)\nUrutan yang tepat ini sesuai dengan Analisis II (Eko).\nKesalahan umum yang diantisipasi: Siswa sering salah dalam mengestimasi nilai -sqrt(7) (misalnya mengira sqrt(7)=3,5 karena 7÷2), atau keliru membandingkan bilangan desimal negatif seperti menganggap -2,65 lebih besar daripada -2,60 (lupa bahwa pada garis bilangan negatif, semakin besar nilai mutlaknya, nilainya justru semakin kecil).",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Urutan benar -2,65 < -sqrt7 < -13/5 < -2,4; AnalisisII menukar dua nilai pertama, tidak ada opsi urutan benar.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "pg-1-3-2": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -378,18 +382,19 @@
     "declared_key": "D",
     "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: D\nTiga lokasi pos penataan taman sekolah diukur posisinya (dalam meter) terhadap tiang bendera utama (titik 0 meter):\n• Pos p=-(9)/(4)m\n• Pos q=-sqrt(5)m\n• Pos r=-2,35m\nBerdasarkan analisis kedudukan ketiga pos tersebut pada garis bilangan, manakah hubungan posisi yang pasti benar?\nOpsi Jawaban:\nA. Pos r berada paling kanan di antara semua pos\nB. Pos q terletak di sebelah kiri Pos r\nC. Pos p terletak di sebelah kiri Pos r\nD. Pos p berada di antara Pos r dan Pos q pada garis bilangan\nPembahasan:\nUbah nilai kedudukan ketiga pos ke dalam bentuk desimal pendekatan untuk membandingkan posisinya pada garis bilangan:\nPos p: -(9)/(4)m=-2,250m\nPos q: -sqrt(5)m≈-2,236m (karena sqrt(5)≈2,236)\nPos r: -2,35m=-2,350m\nUrutkan posisi ketiga pos pada garis bilangan dari kiri ke kanan (nilai terkecil ke terbesar):\n-2,350<-2,250<-2,236\n(Posr)<(Posp)<(Posq)\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (SALAH): Pos r (-2,350m) nilainya paling kecil, sehingga posisinya berada di paling kiri, bukan paling kanan.\nOpsi B (SALAH): Pos q (-2,236m) nilainya lebih besar daripada Pos r (-2,350m), sehingga Pos q berada di sebelah kanan Pos r.\nOpsi C (SALAH): Nilai Pos p (-2,250m) lebih besar daripada Pos r (-2,350m), sehingga Pos p berada di sebelah kanan Pos r.\nOpsi D (BENAR): Nilai Pos p (-2,250m) berada di rentang antara -2,350m (Pos r) dan -2,236m (Pos q).\nKesalahan umum yang diantisipasi: Siswa sering keliru mengira sqrt(5)=2,5 (karena menganggap 5÷2), sehingga mendapatkan Pos q=-2,5m dan keliru dalam menyusun urutan posisi pada garis bilangan negatif.",
     "original_explanation": "Pembahasan:\nUbah nilai kedudukan ketiga pos ke dalam bentuk desimal pendekatan untuk membandingkan posisinya pada garis bilangan:\nPos p: -(9)/(4)m=-2,250m\nPos q: -sqrt(5)m≈-2,236m (karena sqrt(5)≈2,236)\nPos r: -2,35m=-2,350m\nUrutkan posisi ketiga pos pada garis bilangan dari kiri ke kanan (nilai terkecil ke terbesar):\n-2,350<-2,250<-2,236\n(Posr)<(Posp)<(Posq)\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (SALAH): Pos r (-2,350m) nilainya paling kecil, sehingga posisinya berada di paling kiri, bukan paling kanan.\nOpsi B (SALAH): Pos q (-2,236m) nilainya lebih besar daripada Pos r (-2,350m), sehingga Pos q berada di sebelah kanan Pos r.\nOpsi C (SALAH): Nilai Pos p (-2,250m) lebih besar daripada Pos r (-2,350m), sehingga Pos p berada di sebelah kanan Pos r.\nOpsi D (BENAR): Nilai Pos p (-2,250m) berada di rentang antara -2,350m (Pos r) dan -2,236m (Pos q).\nKesalahan umum yang diantisipasi: Siswa sering keliru mengira sqrt(5)=2,5 (karena menganggap 5÷2), sehingga mendapatkan Pos q=-2,5m dan keliru dalam menyusun urutan posisi pada garis bilangan negatif.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Opsi A,B,D benar: r=-2,35 < p=-2,25 < q=-sqrt5; PG tidak unik.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "mcma-1-3-6": {
     "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
@@ -399,18 +404,19 @@
     "declared_key": "A, C",
     "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: A, C\nDiberikan empat data posisi titik elevasi saluran air di lapangan sekolah terhadap titik netral (0m):\n• W=-3,2m\n• X=-sqrt(10)m\n• Y=-(16)/(5)m\n• Z=-3,12m\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Posisi saluran W dan Y berada pada titik elevasi yang persis sama\n[ ] B. Saluran X memiliki posisi paling dalam (paling jauh di sebelah kiri titik 0)\n[ ] C. Nilai elevasi Z (-3,12m) lebih besar daripada nilai elevasi W (-3,2m)\n[ ] D. Urutan saluran dari yang paling dangkal (terbesar) ke paling dalam (terkecil) adalah X, W, Y, Z\nPembahasan:\nKonversikan seluruh data nilai elevasi ke dalam bentuk desimal pendekatan dengan mempertahankan tanda negatif (-) secara presisi:\nSaluran W: -3,2m=-3,200m\nSaluran X: -sqrt(10)m≈-3,162m (karena sqrt(10)≈3,162)\nSaluran Y: -(16)/(5)m=-3,200m\nSaluran Z: -3,12m=-3,120m\nUrutkan posisi titik elevasi pada garis bilangan dari yang paling dalam/paling kecil (paling kiri) ke yang paling dangkal/paling besar (paling kanan):\n-3,200(W,Y)<-3,162(X)<-3,120(Z)\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (BENAR): Nilai W=-3,20m dan Y=-(16)/(5)=-3,20m, sehingga posisinya identik/persis sama.\nOpsi B (SALAH): Saluran yang memiliki posisi paling dalam (nilai terkecil) adalah W dan Y (-3,20m), bukan X (-3,162m).\nOpsi C (BENAR): Pada garis bilangan negatif, -3,12>-3,20, sehingga nilai elevasi Z lebih besar daripada W.\nOpsi D (SALAH): Urutan saluran dari yang paling dangkal (terbesar) ke yang paling dalam (terkecil) adalah Z, X, lalu W dan Y.\nKesalahan umum yang diantisipasi: Siswa sering salah mengestimasi nilai -sqrt(10) (misalnya mengira sqrt(10)=5 karena 10÷2), sehingga menganggap X=-5m sebagai posisi paling dalam. Selain itu, siswa kerap lupa bahwa pada garis bilangan negatif, -3,20 nilainya lebih kecil daripada -3,12.",
     "original_explanation": "Pembahasan:\nKonversikan seluruh data nilai elevasi ke dalam bentuk desimal pendekatan dengan mempertahankan tanda negatif (-) secara presisi:\nSaluran W: -3,2m=-3,200m\nSaluran X: -sqrt(10)m≈-3,162m (karena sqrt(10)≈3,162)\nSaluran Y: -(16)/(5)m=-3,200m\nSaluran Z: -3,12m=-3,120m\nUrutkan posisi titik elevasi pada garis bilangan dari yang paling dalam/paling kecil (paling kiri) ke yang paling dangkal/paling besar (paling kanan):\n-3,200(W,Y)<-3,162(X)<-3,120(Z)\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (BENAR): Nilai W=-3,20m dan Y=-(16)/(5)=-3,20m, sehingga posisinya identik/persis sama.\nOpsi B (SALAH): Saluran yang memiliki posisi paling dalam (nilai terkecil) adalah W dan Y (-3,20m), bukan X (-3,162m).\nOpsi C (BENAR): Pada garis bilangan negatif, -3,12>-3,20, sehingga nilai elevasi Z lebih besar daripada W.\nOpsi D (SALAH): Urutan saluran dari yang paling dangkal (terbesar) ke yang paling dalam (terkecil) adalah Z, X, lalu W dan Y.\nKesalahan umum yang diantisipasi: Siswa sering salah mengestimasi nilai -sqrt(10) (misalnya mengira sqrt(10)=5 karena 10÷2), sehingga menganggap X=-5m sebagai posisi paling dalam. Selain itu, siswa kerap lupa bahwa pada garis bilangan negatif, -3,20 nilainya lebih kecil daripada -3,12.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Header A,B,C; W=Y=-3,2 lebih kecil dari X=-sqrt(10), sehingga klaim B salah. Pembahasan menyimpulkan A,C.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "mcma-1-3-7": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -476,21 +482,22 @@
     "declared_key": "B",
     "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: B\nSeorang siswa SMP memiliki saldo awal pada kartu kantin elektronik sebesar Rp30.000,00. Dalam satu minggu, ia melakukan transaksi sebagai berikut:\n• Membeli makan siang seharga Rp18.000,00\n• Mengisi ulang (top up) saldo sebesar Rp20.000,00\n• Membeli alat tulis seharga Rp12.500,00 dan es krim seharga Rp6.000,00\n• Mendapatkan pengembalian tunai (cashback) ke kartu sebesar Rp5.000,00\nBerapa saldo akhir pada kartu kantin elektronik siswa tersebut?\nOpsi Jawaban:\nA. Rp17.500,00\nB. Rp18.500,00\nC. Rp20.500,00\nD. Rp22.500,00\nPembahasan:\nIdentifikasi tanda operasi setiap transaksi:\nPemasukan/Penambahan (+): Saldo awal (Rp30.000,00), top up (Rp20.000,00), dan cashback (Rp5.000,00).\nPengeluaran/Pengurangan (-): Makan siang (Rp18.000,00), alat tulis (Rp12.500,00), dan es krim (Rp6.000,00).\nHitung total pemasukan dan total pengeluaran:\nTotal Pemasukan=30.000+20.000+5.000=Rp55.000,00\nTotal Pengeluaran=18.000+12.500+6.000=Rp36.500,00\nHitung saldo akhir kartu:\nSaldo Akhir=Total Pemasukan-Total Pengeluaran\nSaldo Akhir=55.000-36.500=Rp18.500,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp17.500,00): Salah, muncul jika siswa keliru menghitung total pengeluaran menjadi Rp37.500,00.\nOpsi B (Rp18.500,00 - BENAR): Hasil perhitungan operasi campuran bilangan bulat/uang yang tepat dan akurat (Rp55.000,00-Rp36.500,00).\nOpsi C (Rp20.500,00): Salah, muncul jika siswa lupa memperhitungkan pengeluaran es krim (Rp6.000,00).\nOpsi D (Rp22.500,00): Salah, muncul jika siswa keliru mengasumsikan cashback sebagai pengeluaran/potongan.\nKesalahan umum yang diantisipasi: Siswa sering mengalihkan seluruh nilai transaksi menjadi penjumlahan tanpa membedakan mana transaksi yang menambah saldo (top up/cashback) dan mana transaksi yang mengurangi saldo (pembelian).",
     "original_explanation": "Pembahasan:\nIdentifikasi tanda operasi setiap transaksi:\nPemasukan/Penambahan (+): Saldo awal (Rp30.000,00), top up (Rp20.000,00), dan cashback (Rp5.000,00).\nPengeluaran/Pengurangan (-): Makan siang (Rp18.000,00), alat tulis (Rp12.500,00), dan es krim (Rp6.000,00).\nHitung total pemasukan dan total pengeluaran:\nTotal Pemasukan=30.000+20.000+5.000=Rp55.000,00\nTotal Pengeluaran=18.000+12.500+6.000=Rp36.500,00\nHitung saldo akhir kartu:\nSaldo Akhir=Total Pemasukan-Total Pengeluaran\nSaldo Akhir=55.000-36.500=Rp18.500,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp17.500,00): Salah, muncul jika siswa keliru menghitung total pengeluaran menjadi Rp37.500,00.\nOpsi B (Rp18.500,00 - BENAR): Hasil perhitungan operasi campuran bilangan bulat/uang yang tepat dan akurat (Rp55.000,00-Rp36.500,00).\nOpsi C (Rp20.500,00): Salah, muncul jika siswa lupa memperhitungkan pengeluaran es krim (Rp6.000,00).\nOpsi D (Rp22.500,00): Salah, muncul jika siswa keliru mengasumsikan cashback sebagai pengeluaran/potongan.\nKesalahan umum yang diantisipasi: Siswa sering mengalihkan seluruh nilai transaksi menjadi penjumlahan tanpa membedakan mana transaksi yang menambah saldo (top up/cashback) dan mana transaksi yang mengurangi saldo (pembelian).",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Saldo dari stimulus 38.500 tidak ada pada opsi; header B=18.500 mengikuti usulan revisi saldo awal dalam pembahasan.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push.",
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
     "source_review_notes": [
       "Alasan distraktor C menyebut lupa pengeluaran es krim Rp6.000, tetapi itu menghasilkan Rp24.500, bukan Rp20.500; alasan D juga tidak menghasilkan Rp22.500. Solusi utama Rp18.500 benar."
-    ]
+    ],
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "pg-2-1-2": {
     "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
@@ -500,18 +507,19 @@
     "declared_key": "B",
     "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: B\nDalam suatu kegiatan kuis matematika kelompok, aturan penilaian ditentukan sebagai berikut:\n• Jawaban benar diberi nilai +4\n• Jawaban salah diberi nilai -2\n• Soal yang tidak dijawab diberi nilai -1\nDari total 25 soal yang diberikan, Kelompok A berhasil menjawab benar 16 soal, tidak menjawab 3 soal, dan sisanya dijawab salah. Menggunakan hirarki operasi hitung campuran, total nilai yang diperoleh Kelompok A adalah...\nOpsi Jawaban:\nA. 43\nB. 49\nC. 52\nD. 58\nPembahasan:\nHitung banyak soal yang dijawab salah:\nSoal Salah=Total Soal-(Benar+Tidak Dijawab)\nSoal Salah=25-(16+3)=25-19=6 soal\nTerapkan aturan penilaian menggunakan operasi hitung campuran:\nTotal Nilai=(16×4)+(6×(-2))+(3×(-1))\nTotal Nilai=64+(-12)+(-3)\nTotal Nilai=64-12-3=49\nAnalisis opsi pilihan jawaban:\nOpsi A (43): Salah, muncul jika siswa keliru menghitung poin soal tidak dijawab menjadi -3×3=-9 atau -3×2=-6.\nOpsi B (49 - BENAR): Hasil perhitungan yang tepat dan akurat (64-12-3=49).\nOpsi C (52): Salah, muncul jika siswa lupa memperhitungkan pengurangan untuk soal yang tidak dijawab (64-12=52).\nOpsi D (58): Salah, muncul jika siswa keliru menganggap soal salah diberi nilai -1 dan tidak dijawab diberi nilai 0 (64-6=58).\nKesalahan umum yang diantisipasi: Siswa sering lupa memperhitungkan poin negatif untuk soal yang \"tidak dijawab\" (-1) atau keliru dalam mengalikan/menjumlahkan tanda bilangan negatif.",
     "original_explanation": "Pembahasan:\nHitung banyak soal yang dijawab salah:\nSoal Salah=Total Soal-(Benar+Tidak Dijawab)\nSoal Salah=25-(16+3)=25-19=6 soal\nTerapkan aturan penilaian menggunakan operasi hitung campuran:\nTotal Nilai=(16×4)+(6×(-2))+(3×(-1))\nTotal Nilai=64+(-12)+(-3)\nTotal Nilai=64-12-3=49\nAnalisis opsi pilihan jawaban:\nOpsi A (43): Salah, muncul jika siswa keliru menghitung poin soal tidak dijawab menjadi -3×3=-9 atau -3×2=-6.\nOpsi B (49 - BENAR): Hasil perhitungan yang tepat dan akurat (64-12-3=49).\nOpsi C (52): Salah, muncul jika siswa lupa memperhitungkan pengurangan untuk soal yang tidak dijawab (64-12=52).\nOpsi D (58): Salah, muncul jika siswa keliru menganggap soal salah diberi nilai -1 dan tidak dijawab diberi nilai 0 (64-6=58).\nKesalahan umum yang diantisipasi: Siswa sering lupa memperhitungkan poin negatif untuk soal yang \"tidak dijawab\" (-1) atau keliru dalam mengalikan/menjumlahkan tanda bilangan negatif.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Nilai benar 49, opsi B dan C duplikat, header C menyebut 19. PG tidak memiliki jawaban unik.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "pg-2-1-3": {
     "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
@@ -521,18 +529,19 @@
     "declared_key": "C",
     "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: C\nSebuah taman sekolah berbentuk persegi panjang memiliki ukuran panjang p=4sqrt(6)meter dan lebar l=2sqrt(3)meter. Panitia penataan taman ingin memasang garis pembatas bambu di sepanjang salah satu sisi diagonal taman tersebut. Panjang diagonal taman (d) dapat ditentukan menggunakan Teorema Pythagoras d=sqrt(p^2+l^2).\nPanjang diagonal taman tersebut dalam bentuk akar paling sederhana adalah...\nOpsi Jawaban:\nA. 4sqrt(3)m\nB. 2sqrt(21)m\nC. 6sqrt(3)m\nD. 4sqrt(21)m\nPembahasan:\nHitung kuadrat dari panjang (p) dan lebar (l):\np^2=(4sqrt(6))^2=16×6=96\nl^2=(2sqrt(3))^2=4×3=12\nHitung panjang diagonal (d) menggunakan rumus Teorema Pythagoras:\nd=sqrt(p^2+l^2)\nd=sqrt(96+12)=sqrt(108)\nSederhanakan bentuk akar sqrt(108):\nd=sqrt(36×3)=sqrt(36)×sqrt(3)=6sqrt(3)meter\nAnalisis opsi pilihan jawaban:\nOpsi A (4sqrt(3)m): Salah, muncul jika siswa keliru mengoperasikan pengurangan p-l dari bentuk penyederhanaan lain.\nOpsi B (2sqrt(21)m): Salah, muncul jika siswa keliru menghitung penjumlahan kuadrat $96 + 12 = 84 \\implies \\sqrt{84} = 2\\sqrt{21}$.\nOpsi C (6sqrt(3)m - BENAR): Hasil perhitungan Teorema Pythagoras dan penyederhanaan bentuk akar yang tepat (sqrt(108)=6sqrt(3)).\nOpsi D (4sqrt(21)m): Salah, muncul jika siswa keliru mengalikan faktor di dalam akar.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam mengkuadratkan suku yang memiliki bentuk akar (seperti mengira (4sqrt(6))^2=16+6=22) atau langsung menjumlahkan angka di dalam akar tanpa memperhitungkan pangkat kuadratnya terlebih dahulu.",
     "original_explanation": "Pembahasan:\nHitung kuadrat dari panjang (p) dan lebar (l):\np^2=(4sqrt(6))^2=16×6=96\nl^2=(2sqrt(3))^2=4×3=12\nHitung panjang diagonal (d) menggunakan rumus Teorema Pythagoras:\nd=sqrt(p^2+l^2)\nd=sqrt(96+12)=sqrt(108)\nSederhanakan bentuk akar sqrt(108):\nd=sqrt(36×3)=sqrt(36)×sqrt(3)=6sqrt(3)meter\nAnalisis opsi pilihan jawaban:\nOpsi A (4sqrt(3)m): Salah, muncul jika siswa keliru mengoperasikan pengurangan p-l dari bentuk penyederhanaan lain.\nOpsi B (2sqrt(21)m): Salah, muncul jika siswa keliru menghitung penjumlahan kuadrat $96 + 12 = 84 \\implies \\sqrt{84} = 2\\sqrt{21}$.\nOpsi C (6sqrt(3)m - BENAR): Hasil perhitungan Teorema Pythagoras dan penyederhanaan bentuk akar yang tepat (sqrt(108)=6sqrt(3)).\nOpsi D (4sqrt(21)m): Salah, muncul jika siswa keliru mengalikan faktor di dalam akar.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam mengkuadratkan suku yang memiliki bentuk akar (seperti mengira (4sqrt(6))^2=16+6=22) atau langsung menjumlahkan angka di dalam akar tanpa memperhitungkan pangkat kuadratnya terlebih dahulu.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Diagonal dari stimulus 2sqrt(30), tidak ada pada opsi. Pembahasan mengusulkan beberapa rekonstruksi, bukan original final tunggal.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "pg-2-1-4": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -556,21 +565,22 @@
     "declared_key": "A",
     "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: A\nDalam rangka kegiatan kerja bakti, pengurus kelas membeli 3 kotak kue dan 4 dus minuman kemasan. Harga 1 kotak kue adalah Rp18.000,00 dan harga 1 dus minuman adalah Rp14.000,00. Jika pengurus kelas membayar dengan 3 lembar uang Rp50.000,00 dan mendapatkan potongan harga (diskon) sebesar Rp2.000,00 dari total pembelian, berapa uang kembalian yang diterima pengurus kelas?\nOpsi Jawaban:\nA. Rp42.000,00\nB. Rp38.000,00\nC. Rp32.000,00\nD. Rp28.000,00\nPembahasan:\nHitung total belanja sebelum diskon menggunakan hirarki operasi hitung:\nTotal Belanja=(3×Rp18.000,00)+(4×Rp14.000,00)\nTotal Belanja=Rp54.000,00+Rp56.000,00=Rp110.000,00\nHitung total tagihan setelah mendapat diskon sebesar Rp2.000,00:\nTotal Tagihan=Rp110.000,00-Rp2.000,00=Rp108.000,00\nHitung total uang pembayaran dari 3 lembar uang Rp50.000,00:\nUang Pembayaran=3×Rp50.000,00=Rp150.000,00\nHitung uang kembalian yang diterima:\nUang Kembalian=Uang Pembayaran-Total Tagihan\nUang Kembalian=Rp150.000,00-Rp108.000,00=Rp42.000,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp42.000,00 - BENAR): Hasil perhitungan operasi aritmetika campuran belanja dan kembalian yang tepat (Rp150.000,00-Rp108.000,00).\nOpsi B (Rp38.000,00): Salah, muncul jika siswa lupa memperhitungkan potongan diskon (Rp150.000,00-Rp110.000,00=Rp40.000,00) atau keliru mengoperasikan pengurangan.\nOpsi C (Rp32.000,00): Salah, muncul jika siswa keliru menghitung harga 4 dus minuman menjadi 4×16.000.\nOpsi D (Rp28.000,00): Salah, muncul jika siswa keliru mengasumsikan diskon sebagai biaya tambahan yang memperbesar tagihan.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam mengoperasikan susunan perkalian dan pengurangan pada uang pembayaran, atau lupa mengurangkan diskon dari total belanja awal sebelum menghitung uang kembalian.",
     "original_explanation": "Pembahasan:\nHitung total belanja sebelum diskon menggunakan hirarki operasi hitung:\nTotal Belanja=(3×Rp18.000,00)+(4×Rp14.000,00)\nTotal Belanja=Rp54.000,00+Rp56.000,00=Rp110.000,00\nHitung total tagihan setelah mendapat diskon sebesar Rp2.000,00:\nTotal Tagihan=Rp110.000,00-Rp2.000,00=Rp108.000,00\nHitung total uang pembayaran dari 3 lembar uang Rp50.000,00:\nUang Pembayaran=3×Rp50.000,00=Rp150.000,00\nHitung uang kembalian yang diterima:\nUang Kembalian=Uang Pembayaran-Total Tagihan\nUang Kembalian=Rp150.000,00-Rp108.000,00=Rp42.000,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp42.000,00 - BENAR): Hasil perhitungan operasi aritmetika campuran belanja dan kembalian yang tepat (Rp150.000,00-Rp108.000,00).\nOpsi B (Rp38.000,00): Salah, muncul jika siswa lupa memperhitungkan potongan diskon (Rp150.000,00-Rp110.000,00=Rp40.000,00) atau keliru mengoperasikan pengurangan.\nOpsi C (Rp32.000,00): Salah, muncul jika siswa keliru menghitung harga 4 dus minuman menjadi 4×16.000.\nOpsi D (Rp28.000,00): Salah, muncul jika siswa keliru mengasumsikan diskon sebagai biaya tambahan yang memperbesar tagihan.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam mengoperasikan susunan perkalian dan pengurangan pada uang pembayaran, atau lupa mengurangkan diskon dari total belanja awal sebelum menghitung uang kembalian.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Tagihan setelah diskon 104.000 sedangkan pembayaran 100.000; tidak ada kembalian positif 42.000. Pembahasan mengusulkan perubahan jumlah barang/pembayaran/diskon.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push.",
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
     "source_review_notes": [
       "Alasan distraktor D menyebut diskon sebagai biaya tambahan, yang menghasilkan Rp38.000, bukan Rp28.000. Solusi utama Rp42.000 benar."
-    ]
+    ],
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "mcma-2-1-6": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -650,21 +660,22 @@
     "declared_key": "B",
     "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: B\nSeorang siswa SMP memiliki saldo awal pada kartu perpustakaan digital sebesar Rp45.000,00. Selama satu bulan, ia melakukan transaksi sebagai berikut:\n• Membayar denda keterlambatan buku sebesar Rp8.500,00\n• Menerima isi ulang (top up) saldo dari orang tuanya sebesar Rp25.000,00\n• Membayar biaya cetak tugas sekolah sebesar Rp14.000,00 dan membeli map dokumen seharga Rp6.000,00\n• Mendapatkan pengembalian tunai (cashback) program literasi sebesar Rp10.000,00\nBerapa saldo akhir pada kartu perpustakaan digital siswa tersebut?\nOpsi Jawaban:\nA. Rp19.500,00\nB. Rp51.500,00\nC. Rp41.500,00\nD. Rp53.500,00\nPembahasan:\nIdentifikasi jenis transaksi dengan membedakan pemasukan (bernilai positif) dan pengeluaran (bernilai negatif):\nPemasukan/Penambahan (+): Saldo awal (Rp45.000,00), top up (Rp25.000,00), dan cashback (Rp10.000,00).\nPengeluaran/Pengurangan (-): Denda keterlambatan (Rp8.500,00), biaya cetak (Rp14.000,00), dan map dokumen (Rp6.000,00).\nHitung total pemasukan dan total pengeluaran:\nTotal Pemasukan=45.000+25.000+10.000=Rp80.000,00\nTotal Pengeluaran=8.500+14.000+6.000=Rp28.500,00\nHitung saldo akhir kartu perpustakaan digital:\nSaldo Akhir=Total Pemasukan-Total Pengeluaran\nSaldo Akhir=80.000-28.500=Rp51.500,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp19.500,00): Salah, muncul jika siswa keliru mengabaikan saldo awal (Rp45.000,00) dan hanya mengoperasikan transaksi berjalan (35.000-28.500+13.000).\nOpsi B (Rp51.500,00 - BENAR): Hasil perhitungan operasi campuran bilangan bulat/uang yang tepat dan akurat (Rp80.000,00-Rp28.500,00).\nOpsi C (Rp41.500,00): Salah, muncul jika siswa lupa memasukkan cashback (Rp10.000,00).\nOpsi D (Rp53.500,00): Salah, muncul jika siswa keliru menghitung pengeluaran denda menjadi Rp6.500,00.\nKesalahan umum yang diantisipasi: Siswa sering menjumlahkan seluruh nominal transaksi tanpa membedakan transaksi yang menambah saldo (top up/cashback) dan transaksi yang mengurangi saldo (pembayaran denda/biaya cetak/membeli barang).",
     "original_explanation": "Pembahasan:\nIdentifikasi jenis transaksi dengan membedakan pemasukan (bernilai positif) dan pengeluaran (bernilai negatif):\nPemasukan/Penambahan (+): Saldo awal (Rp45.000,00), top up (Rp25.000,00), dan cashback (Rp10.000,00).\nPengeluaran/Pengurangan (-): Denda keterlambatan (Rp8.500,00), biaya cetak (Rp14.000,00), dan map dokumen (Rp6.000,00).\nHitung total pemasukan dan total pengeluaran:\nTotal Pemasukan=45.000+25.000+10.000=Rp80.000,00\nTotal Pengeluaran=8.500+14.000+6.000=Rp28.500,00\nHitung saldo akhir kartu perpustakaan digital:\nSaldo Akhir=Total Pemasukan-Total Pengeluaran\nSaldo Akhir=80.000-28.500=Rp51.500,00\nAnalisis opsi pilihan jawaban:\nOpsi A (Rp19.500,00): Salah, muncul jika siswa keliru mengabaikan saldo awal (Rp45.000,00) dan hanya mengoperasikan transaksi berjalan (35.000-28.500+13.000).\nOpsi B (Rp51.500,00 - BENAR): Hasil perhitungan operasi campuran bilangan bulat/uang yang tepat dan akurat (Rp80.000,00-Rp28.500,00).\nOpsi C (Rp41.500,00): Salah, muncul jika siswa lupa memasukkan cashback (Rp10.000,00).\nOpsi D (Rp53.500,00): Salah, muncul jika siswa keliru menghitung pengeluaran denda menjadi Rp6.500,00.\nKesalahan umum yang diantisipasi: Siswa sering menjumlahkan seluruh nominal transaksi tanpa membedakan transaksi yang menambah saldo (top up/cashback) dan transaksi yang mengurangi saldo (pembayaran denda/biaya cetak/membeli barang).",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Perhitungan dan opsi B=51.500 cocok, tetapi caption header B menyebut 21.500. Perbedaan klaim kunci sumber harus dicatat/disahkan.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push.",
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
     "source_review_notes": [
       "Alasan distraktor A menggunakan 35.000−28.500+13.000 tanpa asal Rp13.000 pada stimulus. Solusi utama Rp51.500 benar."
-    ]
+    ],
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "pg-2-2-2": {
     "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
@@ -674,18 +685,19 @@
     "declared_key": "A",
     "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\nSoal (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3\nKunci Jawaban: A\nSebuah panggung pertunjukan di SMP berbentuk persegi panjang dengan ukuran panjang 3sqrt(20)meter dan lebar sqrt(45)meter. Untuk dekorasi pentas seni, panitia ingin mengetahui selisih antara panjang dan lebar panggung tersebut.\nSelisih panjang dan lebar panggung pertunjukan dalam bentuk akar paling sederhana adalah...\nOpsi Jawaban:\nA. 3sqrt(5)m\nB. 4sqrt(5)m\nC. 2sqrt(5)m\nD. 5sqrt(5)m\nPembahasan:\nSederhanakan masing-masing bentuk akar terlebih dahulu:\nPanjang (p):\np=3sqrt(20)=3sqrt(4×5)=3×2sqrt(5)=6sqrt(5)meter\nLebar (l):\nl=sqrt(45)=sqrt(9×5)=3sqrt(5)meter\nHitung selisih antara panjang dan lebar (p-l):\nSelisih=p-l=6sqrt(5)-3sqrt(5)=(6-3)sqrt(5)=3sqrt(5)meter\nAnalisis opsi pilihan jawaban:\nOpsi A (3sqrt(5)m - BENAR): Hasil pengurangan bentuk akar paling sederhana yang tepat (6sqrt(5)-3sqrt(5)=3sqrt(5)).\nOpsi B (4sqrt(5)m): Salah, muncul jika siswa keliru menyederhanakan sqrt(45)=2sqrt(5) sehingga 6sqrt(5)-2sqrt(5)=4sqrt(5).\nOpsi C (2sqrt(5)m): Salah, muncul jika siswa keliru mengoperasikan pengurangan koefisien.\nOpsi D (5sqrt(5)m): Salah, muncul jika siswa keliru menyederhanakan 3sqrt(20)=8sqrt(5) atau keliru menjumlahkan alih-alih mengurangkan.\nKesalahan umum yang diantisipasi: Siswa sering mengurangkan langsung bilangan di dalam akar tanpa menyederhanakannya terlebih dahulu (misalnya keliru menghitung 3sqrt(20-45)), atau salah dalam menyederhanakan perkalian koefisien pada 3sqrt(20).",
     "original_explanation": "Pembahasan:\nSederhanakan masing-masing bentuk akar terlebih dahulu:\nPanjang (p):\np=3sqrt(20)=3sqrt(4×5)=3×2sqrt(5)=6sqrt(5)meter\nLebar (l):\nl=sqrt(45)=sqrt(9×5)=3sqrt(5)meter\nHitung selisih antara panjang dan lebar (p-l):\nSelisih=p-l=6sqrt(5)-3sqrt(5)=(6-3)sqrt(5)=3sqrt(5)meter\nAnalisis opsi pilihan jawaban:\nOpsi A (3sqrt(5)m - BENAR): Hasil pengurangan bentuk akar paling sederhana yang tepat (6sqrt(5)-3sqrt(5)=3sqrt(5)).\nOpsi B (4sqrt(5)m): Salah, muncul jika siswa keliru menyederhanakan sqrt(45)=2sqrt(5) sehingga 6sqrt(5)-2sqrt(5)=4sqrt(5).\nOpsi C (2sqrt(5)m): Salah, muncul jika siswa keliru mengoperasikan pengurangan koefisien.\nOpsi D (5sqrt(5)m): Salah, muncul jika siswa keliru menyederhanakan 3sqrt(20)=8sqrt(5) atau keliru menjumlahkan alih-alih mengurangkan.\nKesalahan umum yang diantisipasi: Siswa sering mengurangkan langsung bilangan di dalam akar tanpa menyederhanakannya terlebih dahulu (misalnya keliru menghitung 3sqrt(20-45)), atau salah dalam menyederhanakan perkalian koefisien pada 3sqrt(20).",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "3sqrt(20)-sqrt(45)=3sqrt(5) pada opsi A, bukan header B=4sqrt(5); hasil akhir pembahasan memuat akar kosong.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "pg-2-2-3": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -709,18 +721,19 @@
     "declared_key": "B",
     "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4\nKunci Jawaban: B\nSeorang siswa mencoba menyelesaikan soal kuis aturan KABATAKU/PEMDAS berikut:\nSoal:15-12÷4+2(-4)\nSiswa tersebut mencoba empat langkah pengerjaan sebagai berikut:\n• Langkah I: Mengoperasikan (15-12)÷4+2(-4)=3÷4-8=0,75-8=-7,25\n• Langkah II: Mengoperasikan 15-(12÷4)+2(-4)=15-3+(-8)=12-8=4\n• Langkah III: Mengoperasikan 15-12÷(4+2)(-4)=15-12÷6(-4)=15-2(-4)=15+8=23\n• Langkah IV: Mengoperasikan (15-3+2)(-4)=14(-4)=-56\nManakah langkah pengerjaan yang benar sesuai dengan hirarki operasi hitung KABATAKU/PEMDAS?\nOpsi Jawaban:\nA. Langkah I\nB. Langkah II\nC. Langkah III\nD. Langkah IV\nPembahasan:\nSesuai hirarki operasi hitung KABATAKU/PEMDAS:\nTahap 1: Utamakan operasi perkalian dan pembagian dari kiri ke kanan.\nPembagian: 12÷4=3\nPerkalian: 2(-4)=-8\nTahap 2: Substitusikan hasil perkalian dan pembagian ke bentuk operasi penambahan dan pengurangan dari kiri ke kanan:\n15-3+(-8)=12-8=4\nUrutan pengerjaan yang benar dan akurat ini ditunjukkan secara tepat oleh Langkah II.\nAnalisis kesalahan opsi lainnya:\nLangkah I (A): Salah, mengoperasikan pengurangan (15-12) terlebih dahulu sebelum pembagian.\nLangkah III (C): Salah, mendahulukan penjumlahan (4+2) sebelum pembagian dan perkalian.\nLangkah IV (D): Salah, melakukan penjumlahan (15-3+2) terlebih dahulu sebelum mengalikan dengan (-4).\nKesalahan umum yang diantisipasi: Siswa sering mengerjakan operasi hitung secara berurutan dari kiri ke kanan tanpa mengabaikan/memperhatikan skala prioritas perkalian dan pembagian di atas penjumlahan dan pengurangan.",
     "original_explanation": "Pembahasan:\nSesuai hirarki operasi hitung KABATAKU/PEMDAS:\nTahap 1: Utamakan operasi perkalian dan pembagian dari kiri ke kanan.\nPembagian: 12÷4=3\nPerkalian: 2(-4)=-8\nTahap 2: Substitusikan hasil perkalian dan pembagian ke bentuk operasi penambahan dan pengurangan dari kiri ke kanan:\n15-3+(-8)=12-8=4\nUrutan pengerjaan yang benar dan akurat ini ditunjukkan secara tepat oleh Langkah II.\nAnalisis kesalahan opsi lainnya:\nLangkah I (A): Salah, mengoperasikan pengurangan (15-12) terlebih dahulu sebelum pembagian.\nLangkah III (C): Salah, mendahulukan penjumlahan (4+2) sebelum pembagian dan perkalian.\nLangkah IV (D): Salah, melakukan penjumlahan (15-3+2) terlebih dahulu sebelum mengalikan dengan (-4).\nKesalahan umum yang diantisipasi: Siswa sering mengerjakan operasi hitung secara berurutan dari kiri ke kanan tanpa mengabaikan/memperhatikan skala prioritas perkalian dan pembagian di atas penjumlahan dan pengurangan.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Opsi B dan C sama-sama LangkahII; header C juga memuat ekspresi, bukan nama langkah. PG duplikat.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "pg-2-2-5": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -744,18 +757,19 @@
     "declared_key": "A, B, D",
     "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C3\nKunci Jawaban: A, B, D\nDiberikan empat buah bentuk penyederhanaan eksponen dan bentuk akar sebagai berikut:\n(i) 2^5×2^-2=8\n(ii) sqrt(72)-sqrt(18)=3sqrt(2)\n(iii) (3^2)^3=243\n(iv) sqrt(8×2)=4\nManakah dari pernyataan di atas yang bernilai BENAR? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Pernyataan (i)\n[ ] B. Pernyataan (ii)\n[ ] C. Pernyataan (iii)\n[ ] D. Pernyataan (iv)\nPembahasan:\nPernyataan (i) [BENAR]:\n2^5×2^-2=2^(5+(-2))=2^3=8\nPernyataan (ii) [BENAR]:\nsqrt(72)-sqrt(18)=sqrt(36×2)-sqrt(9×2)=6sqrt(2)-3sqrt(2)=3sqrt(2)\nPernyataan (iii) [SALAH]:\n(3^2)^3=3^(2×3)=3^6=729(bukan 243,243 adalah 3^5)\nPernyataan (iv) [BENAR]:\nsqrt(8×2)=sqrt(16)=4\nAnalisis Kunci Jawaban:\nPernyataan yang benar adalah (i), (ii), dan (iv) yang diwakili oleh Opsi A, B, dan D.\nKesalahan umum yang diantisipasi: Siswa sering keliru menerapkan sifat eksponen berpangkat (a^m)^n=a^(m×n) dengan mengira (3^2)^3=3^(2+3)=3^5=243.",
     "original_explanation": "Pembahasan:\nPernyataan (i) [BENAR]:\n2^5×2^-2=2^(5+(-2))=2^3=8\nPernyataan (ii) [BENAR]:\nsqrt(72)-sqrt(18)=sqrt(36×2)-sqrt(9×2)=6sqrt(2)-3sqrt(2)=3sqrt(2)\nPernyataan (iii) [SALAH]:\n(3^2)^3=3^(2×3)=3^6=729(bukan 243,243 adalah 3^5)\nPernyataan (iv) [BENAR]:\nsqrt(8×2)=sqrt(16)=4\nAnalisis Kunci Jawaban:\nPernyataan yang benar adalah (i), (ii), dan (iv) yang diwakili oleh Opsi A, B, dan D.\nKesalahan umum yang diantisipasi: Siswa sering keliru menerapkan sifat eksponen berpangkat (a^m)^n=a^(m×n) dengan mengira (3^2)^3=3^(2+3)=3^5=243.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Kebenaran i,ii,iv adalah A,B,D, bukan header A,C,D; 3^(2*3)=729 bukan243.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "mcma-2-2-7": {
     "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
@@ -765,18 +779,19 @@
     "declared_key": "A, B",
     "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: A, B\nSeorang bendahara kelas menganalisis dua metode pengerjaan untuk menghitung sisa dana kas kelas:\n• Metode A: (150.000-40.000)-25.000=110.000-25.000=85.000\n• Metode B: 150.000-(40.000+25.000)=150.000-65.000=85.000\nManakah analisis matematika yang benar mengenai kedua metode pengerjaan di atas? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Metode A dan Metode B menghasilkan nilai akhir sisa kas yang ekivalen (sama) yaitu Rp85.000,00\n[ ] B. Metode B membuktikan sifat distributif tanda negatif terhadap bentuk penjumlahan: -(a+b)=-a-b\n[ ] C. Jika bentuk Metode B diubah menjadi 150.000-(40.000-25.000), nilai sisa kas akhirnya akan tetap sama\n[ ] D. Metode A membutuhkan jumlah langkah operasi hitung matematika yang lebih sedikit dibandingkan Metode B\nPembahasan:\nAnalisis hasil perhitungan matematis kedua metode:\nMetode A: Pengurangan dilakukan secara bertahap dari kiri ke kanan.\n(150.000-40.000)-25.000=110.000-25.000=85.000\nMetode B: Mengelompokkan total pengeluaran di dalam kurung terlebih dahulu.\n150.000-(40.000+25.000)=150.000-65.000=85.000\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (BENAR): Kedua metode terbukti menghasilkan nilai akhir sisa kas yang sama persis, yaitu Rp85.000,00.\nOpsi B (BENAR): Bentuk 150.000-(40.000+25.000) jika kurungnya dibuka secara distributif akan menjadi 150.000-40.000-25.000, yang memenuhi sifat -(a+b)=-a-b.\nOpsi C (SALAH): Jika diubah menjadi 150.000-(40.000-25.000)=150.000-15.000=135.000, hasilnya berbeda dengan Rp85.000,00.\nOpsi D (SALAH): Kedua metode sama-sama membutuhkan tepat 2 langkah operasi aritmetika (Metode A: 2 kali pengurangan; Metode B: 1 penjumlahan dan 1 pengurangan), sehingga jumlah langkah operasinya sama banyak.\nKesalahan umum yang diantisipasi: Siswa sering mengira bahwa mengubah tanda di dalam kurung pada operasi pengurangan tidak mempengaruhi hasil akhir, atau keliru menganggap penjumlahkan di dalam kurung akan memperbanyak/mempersingkat jumlah langkah pengerjaan dasar.",
     "original_explanation": "Pembahasan:\nAnalisis hasil perhitungan matematis kedua metode:\nMetode A: Pengurangan dilakukan secara bertahap dari kiri ke kanan.\n(150.000-40.000)-25.000=110.000-25.000=85.000\nMetode B: Mengelompokkan total pengeluaran di dalam kurung terlebih dahulu.\n150.000-(40.000+25.000)=150.000-65.000=85.000\nAnalisis setiap opsi pilihan jawaban:\nOpsi A (BENAR): Kedua metode terbukti menghasilkan nilai akhir sisa kas yang sama persis, yaitu Rp85.000,00.\nOpsi B (BENAR): Bentuk 150.000-(40.000+25.000) jika kurungnya dibuka secara distributif akan menjadi 150.000-40.000-25.000, yang memenuhi sifat -(a+b)=-a-b.\nOpsi C (SALAH): Jika diubah menjadi 150.000-(40.000-25.000)=150.000-15.000=135.000, hasilnya berbeda dengan Rp85.000,00.\nOpsi D (SALAH): Kedua metode sama-sama membutuhkan tepat 2 langkah operasi aritmetika (Metode A: 2 kali pengurangan; Metode B: 1 penjumlahan dan 1 pengurangan), sehingga jumlah langkah operasinya sama banyak.\nKesalahan umum yang diantisipasi: Siswa sering mengira bahwa mengubah tanda di dalam kurung pada operasi pengurangan tidak mempengaruhi hasil akhir, atau keliru menganggap penjumlahkan di dalam kurung akan memperbanyak/mempersingkat jumlah langkah pengerjaan dasar.",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Klaim D metode lebih efisien tidak menentukan ukuran efisiensi; kedua metode memakai dua operasi. Kriteria penilaian perlu disahkan.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "mcma-2-2-8": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
@@ -898,18 +913,19 @@
     "declared_key": "A, B, D",
     "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\nLevel Kognitif: C4\nKunci Jawaban: A, B, D\nDiberikan empat ekspresi penyederhanaan eksponen dan bentuk akar hasil pengerjaan kuis siswa sebagai berikut:\n(i) 3^6×3^-3=27\n(ii) sqrt(98)-sqrt(50)=2sqrt(2)\n(iii) (2^4)^2=128\n(iv) sqrt(18×2)=6\nManakah hasil analisis pernyataan di atas yang bernilai BENAR? (Jawaban boleh lebih dari satu)\nOpsi Jawaban:\n[ ] A. Pernyataan (i)\n[ ] B. Pernyataan (ii)\n[ ] C. Pernyataan (iii)\n[ ] D. Pernyataan (iv)\nPembahasan:\nAnalisis Pernyataan (i) [BENAR]:\n3^6×3^-3=3^(6+(-3))=3^3=27\nAnalisis Pernyataan (ii) [BENAR]:\nsqrt(98)-sqrt(50)=sqrt(49×2)-sqrt(25×2)=7sqrt(2)-5sqrt(2)=2sqrt(2)\nAnalisis Pernyataan (iii) [SALAH]:\n(2^4)^2=2^(4×2)=2^8=256(bukan 128,128 adalah 2^7)\nAnalisis Pernyataan (iv) [BENAR]:\nsqrt(18×2)=sqrt(36)=6\nAnalisis Kunci Jawaban:\nPernyataan yang benar adalah (i), (ii), dan (iv) yang diwakili oleh Opsi A, B, dan D.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam mengoperasikan sifat eksponen berpangkat (a^m)^n=a^(m×n) dengan mengira (2^4)^2=2^(4+2)=2^6=64 atau 2^7=128, alih-alih mengalikan pangkatnya secara tepat (4×2=8).",
     "original_explanation": "Pembahasan:\nAnalisis Pernyataan (i) [BENAR]:\n3^6×3^-3=3^(6+(-3))=3^3=27\nAnalisis Pernyataan (ii) [BENAR]:\nsqrt(98)-sqrt(50)=sqrt(49×2)-sqrt(25×2)=7sqrt(2)-5sqrt(2)=2sqrt(2)\nAnalisis Pernyataan (iii) [SALAH]:\n(2^4)^2=2^(4×2)=2^8=256(bukan 128,128 adalah 2^7)\nAnalisis Pernyataan (iv) [BENAR]:\nsqrt(18×2)=sqrt(36)=6\nAnalisis Kunci Jawaban:\nPernyataan yang benar adalah (i), (ii), dan (iv) yang diwakili oleh Opsi A, B, dan D.\nKesalahan umum yang diantisipasi: Siswa sering keliru dalam mengoperasikan sifat eksponen berpangkat (a^m)^n=a^(m×n) dengan mengira (2^4)^2=2^(4+2)=2^6=64 atau 2^7=128, alih-alih mengalikan pangkatnya secara tepat (4×2=8).",
-    "generation_status": "DEFERRED_CONCEPTUAL",
-    "reason": "Original revisi kurikulum diimpor; generator belum dibuat. Label DEFERRED_CONCEPTUAL merupakan penundaan teknis, bukan klasifikasi soal.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
     "source_document": "source-revision-2026-10-07.docx",
     "source_review_status": "REVISED_CURRICULUM",
-    "generator_status": "NOT_IMPLEMENTED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Header A,C,D bertentangan dengan kebenaran i,ii,iv: A,B,D. Pembahasan menyebut koreksi kunci eksplisit.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Generator config v1 untuk original revisi kurikulum v2; oracle rendered-text dan reproduksi sumber diverifikasi.",
+    "generator_review_audit": "docs/audits/2026-10-07-revised-1-5-generator-audit.md"
   },
   "mcma-2-3-7": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",

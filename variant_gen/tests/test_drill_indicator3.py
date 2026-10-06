@@ -56,7 +56,7 @@ class Indicator3(unittest.TestCase):
             if qid.split('-')[1] != '3': continue
             with self.subTest(qid=qid):
                 path = ROOT/'configs'/qid/'v1.json'
-                if qid in HOLD:
+                if bank.get(qid)['metadata']['generation_status'] != 'ACTIVE':
                     self.assertFalse(path.exists())
                     continue
                 self.assertTrue(path.exists(), 'missing substantive generator')

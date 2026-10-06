@@ -1,0 +1,135 @@
+{
+  "question_id": "pg-2-1-5",
+  "config_version": 1,
+  "original_hash": "961be9e4938b6052",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "18000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "14000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "42000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "38000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "32000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "28000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "50000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "18000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "14000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "2000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "42000*k",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "42000*k",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Dalam rangka kegiatan kerja bakti, pengurus kelas membeli 3 kotak kue dan 4 dus minuman kemasan. Harga 1 kotak kue adalah Rp{v1},00 dan harga 1 dus minuman adalah Rp{v2},00. Jika pengurus kelas membayar dengan 3 lembar uang Rp{v3},00 dan mendapatkan potongan harga (diskon) sebesar Rp{v4},00 dari total pembelian, berapa uang kembalian yang diterima pengurus kelas?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{v5},00",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Rp{v6},00",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Rp{v7},00",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rp{v8},00",
+      "correct": false
+    }
+  ],
+  "explanation": "Terapkan pemasukan sebagai penjumlahan, pengeluaran sebagai pengurangan, diskon mengurangi biaya. Perhitungan 3×{v9}−(3×{v10}+4×{v11}−{v12})={v13}. Opsi lain berbeda dari saldo/kembalian hasil perhitungan.\nHasil pemeriksaan: {v14}."
+}

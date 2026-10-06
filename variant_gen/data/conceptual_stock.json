@@ -6344,6 +6344,282 @@
       "variation_note": "Menguji argumen salah bahwa kesamaan pusat memastikan kesamaan penyebaran.",
       "review_status": "VERIFIED",
       "review_note": "Cross-check 67 original/222 kandidat: review independen isi, kunci, variasi dan beban tugas; perbaikan akhir mendapat self-review terhadap original dan pemeriksaan matematis. Kesetaraan IRT belum diukur."
+    },
+    {
+      "variant_id": "tryout-1-b1-q07:stock-01",
+      "question_id": "tryout-1-b1-q07",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "4c3e1fd52c18e5cb",
+      "original_version": 1,
+      "stem": "Penyelesaian 1: −4 × (6−9)=12. Penyelesaian 2: (−4×6)−(−4×9)=12. Pilih semua pernyataan yang benar.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kedua penyelesaian menghasilkan nilai yang sama."
+        },
+        {
+          "id": "B",
+          "text": "Pada penyelesaian 1, perkalian −4×6 wajib dikerjakan sebelum operasi dalam kurung."
+        },
+        {
+          "id": "C",
+          "text": "Penyelesaian 2 setara dengan penyelesaian 1 karena faktor −4 dikalikan dengan kedua suku di dalam kurung."
+        },
+        {
+          "id": "D",
+          "text": "Kedua penyelesaian tidak setara karena tanda kurung selalu menyebabkan hasil berbeda."
+        }
+      ],
+      "key": "A,C",
+      "explanation": "A benar: 6−9=−3, sehingga −4×(−3)=12; (−24)−(−36)=12. B salah: tanda kurung pada penyelesaian 1 harus diselesaikan dahulu. C benar: sifat distributif a(b−c)=ab−ac diterapkan pada kedua suku. D salah: dua bentuk berbeda dapat setara jika transformasinya sah.",
+      "variation_note": "Mengevaluasi dua bentuk setara melalui distribusi faktor negatif, bukan dua bentuk yang berbeda seperti original.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "tryout-1-b1-q07:stock-02",
+      "question_id": "tryout-1-b1-q07",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "4c3e1fd52c18e5cb",
+      "original_version": 1,
+      "stem": "Penyelesaian 1: 5−(−3+8)=0. Penyelesaian 2: 5−(−3)+8=16. Pilih semua pernyataan yang benar.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kedua penyelesaian menghasilkan nilai yang sama."
+        },
+        {
+          "id": "B",
+          "text": "Penyelesaian 1 benar karena −3+8 diselesaikan dahulu, kemudian hasilnya dikurangkan dari 5."
+        },
+        {
+          "id": "C",
+          "text": "Menghapus tanda kurung pada penyelesaian 1 menghasilkan 5+3+8 tanpa mengubah nilainya."
+        },
+        {
+          "id": "D",
+          "text": "Penyelesaian 2 merupakan bentuk operasi berbeda: tanda negatif sebelum kurung pada penyelesaian 1 harus diterapkan juga pada suku 8."
+        }
+      ],
+      "key": "B,D",
+      "explanation": "A salah: hasilnya 0 dan 16. B benar: −3+8=5, kemudian 5−5=0. C salah: 5−(−3+8)=5+3−8, bukan 5+3+8. D benar: tanda negatif mengubah tanda kedua suku, sedangkan penyelesaian 2 masih menambahkan 8.",
+      "variation_note": "Mengevaluasi penghilangan kurung yang didahului pengurangan; kesalahan distribusi tanda berbeda dari perkalian pada original.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "tryout-1-b1-q07:stock-03",
+      "question_id": "tryout-1-b1-q07",
+      "stock_index": 3,
+      "stock_version": 1,
+      "original_hash": "4c3e1fd52c18e5cb",
+      "original_version": 1,
+      "stem": "Penyelesaian 1: (−8)÷(2−4)=4. Penyelesaian 2: (−8)÷2−4=−8. Pilih semua pernyataan yang benar.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tanda kurung pada penyelesaian 1 menjadikan hasil 2−4 sebagai pembagi."
+        },
+        {
+          "id": "B",
+          "text": "Kedua penyelesaian setara karena pembagian selalu dikerjakan sebelum pengurangan di dalam kurung."
+        },
+        {
+          "id": "C",
+          "text": "Penyelesaian 2 merupakan cara yang benar untuk menghitung (−8)÷(2−4)."
+        },
+        {
+          "id": "D",
+          "text": "Kedua penyelesaian menghasilkan nilai berbeda karena pada penyelesaian 2, angka 4 dikurangkan setelah pembagian."
+        }
+      ],
+      "key": "A,D",
+      "explanation": "A benar: pembagi =2−4=−2, sehingga (−8)÷(−2)=4. B salah: tanda kurung didahulukan. C salah: (−8)÷2−4 adalah bentuk lain, hasilnya −4−4=−8. D benar: angka 4 berada di luar pembagian pada bentuk kedua.",
+      "variation_note": "Menganalisis peran kurung pada pembagi, dengan dua operasi dan hasil bilangan bulat; format C5 tetap berupa evaluasi dua penyelesaian.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "tryout-1-b4-q02:stock-01",
+      "question_id": "tryout-1-b4-q02",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "4d98173d3eeae548",
+      "original_version": 1,
+      "stem": "Sebuah pemutar memiliki empat sektor A, B, C, dan D yang sama luas. Pemutar fair diputar satu kali. Peluang penunjuk berhenti pada sektor C adalah ....",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 dari 4"
+        },
+        {
+          "id": "B",
+          "text": "1 dari 2"
+        },
+        {
+          "id": "C",
+          "text": "3 dari 4"
+        },
+        {
+          "id": "D",
+          "text": "1 dari 8"
+        }
+      ],
+      "key": "A",
+      "explanation": "Empat sektor sama luas memiliki peluang sama. Satu sektor yang diinginkan dari empat kemungkinan memberi 1/4. Opsi lain salah menghitung banyak hasil yang diinginkan atau ruang sampel.",
+      "variation_note": "Mengubah ruang sampel menjadi empat sektor yang setara; satu hasil yang diinginkan, tetap C3 dengan satu langkah rasio.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "tryout-1-b4-q02:stock-02",
+      "question_id": "tryout-1-b4-q02",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "4d98173d3eeae548",
+      "original_version": 1,
+      "stem": "Sebuah dadu fair bersisi delapan, masing-masing bernomor 1 sampai 8, dilempar satu kali. Semua sisi memiliki peluang sama. Peluang munculnya angka 6 adalah ....",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 dari 6"
+        },
+        {
+          "id": "B",
+          "text": "1 dari 2"
+        },
+        {
+          "id": "C",
+          "text": "1 dari 8"
+        },
+        {
+          "id": "D",
+          "text": "3 dari 8"
+        }
+      ],
+      "key": "C",
+      "explanation": "Ada delapan hasil sama mungkin dan satu hasil berupa angka 6. Peluang =1/8. Angka 6 adalah label hasil, bukan banyaknya sisi; 1/6, 1/2, dan 3/8 tidak sesuai ruang sampel.",
+      "variation_note": "Jumlah hasil elementer berubah menjadi delapan, dengan satu kejadian tunggal; tetap satu langkah penerapan peluang.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "tryout-1-b4-q02:stock-03",
+      "question_id": "tryout-1-b4-q02",
+      "stock_index": 3,
+      "stock_version": 1,
+      "original_hash": "4d98173d3eeae548",
+      "original_version": 1,
+      "stem": "Kantong berisi enam bola berukuran sama: dua bola merah dan empat bola putih. Satu bola diambil secara acak; setiap bola memiliki peluang terambil yang sama. Peluang terambil bola merah adalah ....",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 dari 6"
+        },
+        {
+          "id": "B",
+          "text": "1 dari 2"
+        },
+        {
+          "id": "C",
+          "text": "2 dari 3"
+        },
+        {
+          "id": "D",
+          "text": "1 dari 3"
+        }
+      ],
+      "key": "D",
+      "explanation": "Dua bola merah dari enam bola sama mungkin memberi 2/6=1/3. 1/6 hanya menghitung satu bola; 1/2 memperlakukan dua warna seolah sama banyak; 2/3 merupakan peluang bola putih.",
+      "variation_note": "Kejadian mencakup dua hasil elementer dari enam; jumlah langsung diberikan, tanpa kejadian gabungan atau pengambilan berulang.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "tryout-1-b4-q06:stock-01",
+      "question_id": "tryout-1-b4-q06",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "fe81e8f167959949",
+      "original_version": 1,
+      "stem": "Sekolah memiliki 240 siswa dalam enam kelas, masing-masing 40 siswa. Survei menilai layanan perpustakaan. Strategi1: pertanyaan \"Setujukah kamu bahwa layanan perpustakaan sangat baik?\" hanya kepada pengunjung perpustakaan. Strategi2: memilih secara acak lima siswa dari setiap kelas, termasuk yang tidak berkunjung. Strategi3: mencatat genre buku favorit sebagai data kuantitatif kontinu. Tentukan Benar atau Salah.",
+      "options": [
+        {
+          "id": "1",
+          "text": "Strategi1 berpotensi bias karena pertanyaan mengarahkan dan tidak mencakup siswa yang tidak berkunjung."
+        },
+        {
+          "id": "2",
+          "text": "Strategi2 merupakan sampel acak terstrata dengan alokasi proporsional, karena setiap kelas berukuran sama."
+        },
+        {
+          "id": "3",
+          "text": "Strategi3 tepat karena genre buku favorit merupakan data kuantitatif kontinu."
+        }
+      ],
+      "key": "1,2",
+      "explanation": "1 Benar: pemilihan hanya pengunjung menimbulkan bias cakupan dan pertanyaan mengarahkan. 2 Benar: pemilihan dilakukan acak dalam setiap kelas; alokasi lima per 40 siswa sama untuk semua kelas, sehingga proporsional. Ini tidak menjamin sampel selalu identik dengan populasi. 3 Salah: genre berupa kategori/kualitatif nominal, bukan ukuran kontinu.",
+      "variation_note": "Ukuran kelas dinyatakan sama sehingga klaim proporsional dapat diperiksa; tidak mewarisi asumsi proporsional yang tidak didukung sumber.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "tryout-1-b4-q06:stock-02",
+      "question_id": "tryout-1-b4-q06",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "fe81e8f167959949",
+      "original_version": 1,
+      "stem": "Sekolah memiliki tiga kelas berisi 60, 30, dan 30 siswa. Survei menilai fasilitas olahraga. Strategi1: menanyakan \"Bukankah fasilitas olahraga sudah sangat memuaskan?\" hanya kepada anggota klub olahraga. Strategi2: memilih secara acak lima siswa dari setiap kelas. Strategi3: mencatat jenis olahraga favorit sebagai data kualitatif. Tentukan Benar atau Salah.",
+      "options": [
+        {
+          "id": "1",
+          "text": "Strategi1 berpotensi bias karena pertanyaan mengarahkan dan responden hanya anggota klub."
+        },
+        {
+          "id": "2",
+          "text": "Strategi2 mengambil sampel proporsional karena jumlah siswa yang dipilih sama untuk setiap kelas."
+        },
+        {
+          "id": "3",
+          "text": "Strategi3 tepat karena jenis olahraga favorit merupakan kategori, bukan ukuran numerik."
+        }
+      ],
+      "key": "1,3",
+      "explanation": "1 Benar: pertanyaan mengarahkan dan sampel hanya satu kelompok kegiatan. 2 Salah: alokasi sama tidak proporsional pada kelas berbeda ukuran; fraksi sampel 5/60 berbeda dari 5/30. Metodenya tetap terstrata, tetapi alokasinya tidak proporsional. 3 Benar: jenis olahraga adalah data kualitatif nominal.",
+      "variation_note": "Membedakan sampling terstrata dengan alokasi proporsional pada ukuran kelas berbeda; mengubah klaim sampling dan klasifikasi variabel.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "tryout-1-b4-q06:stock-03",
+      "question_id": "tryout-1-b4-q06",
+      "stock_index": 3,
+      "stock_version": 1,
+      "original_hash": "fe81e8f167959949",
+      "original_version": 1,
+      "stem": "Sekolah memiliki 240 siswa dalam tiga kelas, masing-masing 80 siswa. Survei menilai waktu antre di kantin. Strategi1: mengajukan pertanyaan netral \"Berapa lama kamu biasanya mengantre?\" kepada 30 siswa yang dipilih acak dari daftar seluruh siswa. Strategi2: memilih secara acak delapan siswa dari setiap kelas. Strategi3: mengukur waktu antre dalam menit, termasuk pecahan menit. Tentukan Benar atau Salah.",
+      "options": [
+        {
+          "id": "1",
+          "text": "Strategi1 memakai pertanyaan mengarahkan karena menyebut waktu antre."
+        },
+        {
+          "id": "2",
+          "text": "Strategi2 menerapkan sampling acak terstrata dengan alokasi proporsional pada kelas berukuran sama."
+        },
+        {
+          "id": "3",
+          "text": "Data pada Strategi3 termasuk kuantitatif kontinu karena durasi dapat bernilai pecahan."
+        }
+      ],
+      "key": "2,3",
+      "explanation": "1 Salah: pertanyaan meminta durasi tanpa menyarankan jawaban tertentu; penyebutan topik bukan pertanyaan mengarahkan. Pemilihan dari seluruh daftar merupakan acak sederhana. 2 Benar: kelas menjadi strata, dengan fraksi sama 8/80. 3 Benar: durasi adalah ukuran kuantitatif kontinu, berbeda dari jenis makanan atau genre buku yang berupa kategori.",
+      "variation_note": "Pertanyaan netral menggantikan pertanyaan mengarahkan, variabel durasi menggantikan kategori, dengan tiga penilaian C4 dan dua pernyataan benar.",
+      "review_status": "VERIFIED",
+      "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
     }
   ]
 }

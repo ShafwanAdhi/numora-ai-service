@@ -14,8 +14,8 @@ Generator per soal berupa JSON; engine Python dipakai bersama. Tambahkan config 
 | `data/tryout-1/question_metadata.json` | Nomor sumber, difficulty, status/alasan, notes, teks/pembahasan sumber |
 | `data/tryout-1/original_revisions.jsonl` | Koreksi original Tryout |
 | `data/tryout-1/source.docx` | Source verbatim |
-| `data/drill-1-indicators-1-2/` |60 original level1–3,34 config, katalog6 grup, metadata dan DOCX provenance |
-| `data/drill-1-indicators-3-5/` |90 original level1–3,64 config,9 grup, metadata/DOCX provenance |
+| `data/drill-1-indicators-1-2/` |60 original level1–3,50 config, katalog6 grup, metadata dan DOCX provenance |
+| `data/drill-1-indicators-3-5/` |90 original level1–3,88 config,9 grup, metadata/DOCX provenance |
 | `data/drill-1-indicators-6-10/` | 150 original, katalog, metadata, source DOCX |
 | `data/drill-1-indicators-11-15/` | 250 original, katalog, metadata, source DOCX dan audit.json |
 | `data/drill-1-indicators-20-23/` | 120 original Drill tambahan, katalog, metadata, source DOCX; ledger kosong karena belum ada koreksi disetujui |
@@ -30,7 +30,7 @@ Metadata status: `ACTIVE`, `HOLD_SOURCE`, `DEFERRED_CONCEPTUAL`; non-ACTIVE waji
 
 ## Stok konseptual manual
 
-Cakupan lengkap: 67 original Drill/206 stok VERIFIED, masing-masing2–4. Review tugas aktual dan perubahan per varian tercatat pada [audit kesulitan](audits/2026-10-06-conceptual-stock-audit.md). Pewarisan label kognitif tidak membuktikan kesetaraan kesulitan.
+Cakupan lengkap: **70 original/215 stok VERIFIED**: Drill67/206, masing-masing2–4; Tryout3/9, masing-masing3. Review tugas aktual pada [audit Drill](audits/2026-10-06-conceptual-stock-audit.md) dan [audit Tryout](audits/2026-10-07-tryout-conceptual-stock-audit.md). Pewarisan label kognitif tidak membuktikan kesetaraan kesulitan.
 
 `variant_gen/data/conceptual_stock.json` menyimpan konten lengkap yang ditulis offline: maksimum empat varian tambahan per original. Tidak memakai generator/config/seed. `conceptual_stock.py` memvalidasi schema, hash/versi original, opsi, kunci, indeks dan duplikasi; hanya VERIFIED dilayani. DRAFT tetap divalidasi tetapi tidak tersedia. `same_answer_as_original` dikecualikan hanya untuk stok, aturan numerik tetap berlaku.
 
@@ -105,7 +105,7 @@ Drill indikator16–19: 112/120 config, seluruh indikator18–19 tercakup. [Revi
 
 Drill indikator 6–10: 140/150 aktif, 1 HOLD_SOURCE, 9 DEFERRED_CONCEPTUAL dengan stok manual. Sebelas original v2 hasil revisi kini mempunyai config v1; `mcma-6-3-7` tetap ditahan. [Audit revisi](audits/2026-10-07-revised-6-10-generator-audit.md) mencatat pemeriksaan setiap opsi dan batas parameter. Bank `variant_gen/data/drill-1-indicators-6-10` dimuat otomatis oleh UI/CLI; level 4–5 kosong sesuai sumber. Contoh: `python -B variant_gen/cli.py gen pg-6-1-5 s1 --json`. Hasil tidak disimpan; proses UI yang sudah berjalan perlu dimulai ulang untuk memuat metadata baru.
 
-Tryout: 27/30 aktif; deferred `tryout-1-b1-q07` (alasan operasi), `tryout-1-b4-q02` (satu mata dadu), `tryout-1-b4-q06` (bias survei). `DEFERRED_CONCEPTUAL` menolak generasi walaupun config disuplai.
+Tryout:27/30 generator aktif; `tryout-1-b1-q07` (alasan operasi), `tryout-1-b4-q02` (peluang), `tryout-1-b4-q06` (bias/sampling/jenis data) masing-masing memiliki3 stok manual VERIFIED. UI/CLI per soal dapat memilih stok berulang; generate paket tetap memakai original untuk ketiganya. [Audit stok](audits/2026-10-07-tryout-conceptual-stock-audit.md). `DEFERRED_CONCEPTUAL` tetap menolak generator/config.
 
 | Original efektif v2 | Koreksi lokal |
 |---|---|
@@ -116,6 +116,6 @@ Tryout: 27/30 aktif; deferred `tryout-1-b1-q07` (alasan operasi), `tryout-1-b4-q
 
 Normalisasi source dicatat dalam metadata. q06 deferred: jumlah sampel sama per kelas belum tentu proporsional. Kebenaran teknis tidak menggantikan approval kurikulum atau kalibrasi empiris.
 
-Drill indikator11–15: 227/250 generator aktif, tersedia level1–5. [Impor revisi 7 Oktober](audits/2026-10-07-drill-11-15-source-revision.md) memperbarui lima soal menjadi original v2; [empat generator revisi](audits/2026-10-07-revised-11-15-generator-audit.md) kini aktif dan menghasilkan masing-masing 20 varian unik teruji. Satu soal tetap HOLD_SOURCE karena panjang sisi belum cocok dengan sudut; 22 soal tanpa generator memakai stok manual. Status bank saat ini 227 ACTIVE, 1 HOLD_SOURCE, dan 22 DEFERRED_CONCEPTUAL. Penyesuaian otomatis belum aktif; batas angka tidak diperluas otomatis. [Audit awal](audits/2026-10-05-drill-11-15-generator-audit.md) tetap merekam versi sebelum revisi. Indikator1–2 menambah34 config/60 original level1–3. Penghitungan repo lokal 7 Oktober:679 config Drill/790 original; bersama Tryout:706 config/820 original, termasuk pembaruan indikator lain yang tersedia. Ekspor kanonik mensyaratkan satu label kognitif C1–C6; label sumber gabungan tetap disimpan lokal.
+Drill indikator11–15: 227/250 generator aktif, tersedia level1–5. [Impor revisi 7 Oktober](audits/2026-10-07-drill-11-15-source-revision.md) memperbarui lima soal menjadi original v2; [empat generator revisi](audits/2026-10-07-revised-11-15-generator-audit.md) kini aktif dan menghasilkan masing-masing 20 varian unik teruji. Satu soal tetap HOLD_SOURCE karena panjang sisi belum cocok dengan sudut; 22 soal tanpa generator memakai stok manual. Status bank saat ini 227 ACTIVE, 1 HOLD_SOURCE, dan 22 DEFERRED_CONCEPTUAL. Penyesuaian otomatis belum aktif; batas angka tidak diperluas otomatis. [Audit awal](audits/2026-10-05-drill-11-15-generator-audit.md) tetap merekam versi sebelum revisi. Indikator1–2 mempunyai50 config/60 original level1–3. Penghitungan repo lokal 7 Oktober:719 config Drill/790 original; bersama Tryout:746 config/820 original, termasuk pembaruan indikator lain yang tersedia. Ekspor kanonik mensyaratkan satu label kognitif C1–C6; label sumber gabungan tetap disimpan lokal.
 
-Indikator1–2:34 config/60 original;34 ACTIVE,25 DEFERRED_CONCEPTUAL,1 HOLD_SOURCE. Indikator3–5:64 config/90 original;64 ACTIVE,25 DEFERRED_CONCEPTUAL,1 HOLD_SOURCE. [Impor revisi 7 Oktober](audits/2026-10-07-drill-1-5-source-revision.md) memperbarui 41 original menjadi v2 tanpa menambah generator. Empat puluh revisi diterima memakai status penundaan teknis `DEFERRED_CONCEPTUAL`, bukan klasifikasi konseptual. `pg-1-2-1` dan `pg-5-3-3` masih HOLD_SOURCE. [Audit awal indikator3–5](audits/2026-10-06-drill-3-5-generator-audit.md) merekam kondisi sebelum revisi.
+Indikator1–2:50 config/60 original;50 ACTIVE,9 DEFERRED_CONCEPTUAL,1 HOLD_SOURCE. Indikator3–5:88 config/90 original;88 ACTIVE,1 DEFERRED_CONCEPTUAL,1 HOLD_SOURCE. [Audit generator revisi 7 Oktober](audits/2026-10-07-revised-1-5-generator-audit.md) mengaktifkan40 config v1 untuk original v2. Kapasitas unik default25–40 per soal; pemanggilan Generate dapat diulang tanpa batas stok. `pg-1-2-1` dan `pg-5-3-3` masih HOLD_SOURCE. Sepuluh soal konseptual memakai stok manual. [Snapshot impor](audits/2026-10-07-drill-1-5-source-revision.md) dan [audit awal indikator3–5](audits/2026-10-06-drill-3-5-generator-audit.md) merekam kondisi sebelum aktivasi.

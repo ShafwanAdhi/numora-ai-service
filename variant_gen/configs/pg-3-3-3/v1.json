@@ -1,0 +1,153 @@
+{
+  "question_id": "pg-3-3-3",
+  "config_version": 1,
+  "original_hash": "4d7dc8c245a9f33f",
+  "original_values": {
+    "k": 1
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        1,
+        41
+      ],
+      "step": 1,
+      "filters": [
+        "positive",
+        "nodec"
+      ],
+      "min": 1,
+      "max": 41
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "28+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "14850+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "20+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "10000+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "(20+10*(k-1))*(10000+1000*(k-1))",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "25+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "14000+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(25+10*(k-1))*(14000+1000*(k-1))",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "30+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "15000+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "(30+10*(k-1))*(15000+1000*(k-1))",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "30+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "14000+1000*(k-1)",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "(30+10*(k-1))*(14000+1000*(k-1))",
+      "fmt": "id",
+      "decimals": 2
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "30+10*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "15000+1000*(k-1)",
+      "fmt": "raw",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "(30+10*(k-1))*(15000+1000*(k-1))",
+      "fmt": "raw",
+      "decimals": 6
+    }
+  },
+  "max_draws": 1000,
+  "shuffle": false,
+  "constraints": [],
+  "stem": "Seorang pembina pramuka mengecek kewajaran anggaran belanja untuk {v1} paket pasak tenda seharga Rp{v2},00 per paket. Pembina tersebut ingin menyusun estimasi batas atas (upper bound) anggaran yang aman agar dana tidak berisiko kurang, dengan ketentuan kedua komponen (banyak paket dan harga per paket) wajib dibulatkan ke atas masing-masing ke puluhan terdekat dan ke ribuan terdekat.\nModel matematika estimasi yang tepat sesuai ketentuan tersebut adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3}×{v4}={v5}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v6}×{v7}={v8}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v9}×{v10}={v11}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v12}×{v13}={v14}",
+      "correct": false
+    }
+  ],
+  "explanation": "Kedua komponen wajib dibulatkan ke atas: kuantitas {v15} dan harga {v16}. Kalikan untuk batas atas; A, B, D masih menurunkan setidaknya satu komponen.\nHasil pemeriksaan: {v17}."
+}
