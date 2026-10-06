@@ -60,6 +60,7 @@ Original disimpan sebagai CSV dengan ledger revisi. Hasil generator numerik hany
 - [Panduan penggunaan](docs/OPERATIONS.md): UI, CLI, seed, generate, paket, tes, troubleshooting.
 - [Referensi generator](docs/GENERATOR.md): bank, config, variabel, validator, versi, penambahan soal.
 - [Arsitektur dan integrasi](docs/ARCHITECTURE.md): modul, alur data, ekspor Numora, akses DB, batas implementasi.
+- [Integrasi generator HTTP v1](docs/handoffs/NUMORA_GENERATOR_INTEGRATION_V1.md): service compute, kontrak, konfigurasi dan runbook. [Prompt repo pusat](docs/handoffs/NUMORA_CENTRAL_IMPLEMENTATION_PROMPT.md). Service default nonaktif; UI pusat masih perlu implementasi.
 - [Indeks dan arsip](docs/README.md): desain, audit, progres, sumber akademik.
 
 ## Verifikasi
