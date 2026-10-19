@@ -1,0 +1,23 @@
+[Unit]
+Description=Numora generator HTTP compute service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=numora-generator
+Group=numora-generator
+WorkingDirectory=/opt/numora-ai-service
+EnvironmentFile=/etc/numora-generator.env
+ExecStart=/opt/numora-ai-service/.venv/bin/python -B -m numora_service --host 127.0.0.1 --port 8770
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=45
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+Environment=PYTHONDONTWRITEBYTECODE=1
+
+[Install]
+WantedBy=multi-user.target

@@ -8,6 +8,7 @@ Panduan aktif mengikuti kode; arsip menyimpan keputusan pada tanggalnya.
 | UI/CLI, paket, tes, troubleshooting | [OPERATIONS](OPERATIONS.md) |
 | Config, original, validator, versi | [GENERATOR](GENERATOR.md) |
 | Modul, DB, ekspor dan batas integrasi | [ARCHITECTURE](ARCHITECTURE.md) |
+| HTTP compute v1, preview dan Simpan draft | [Handoff integrasi](handoffs/NUMORA_GENERATOR_INTEGRATION_V1.md), [prompt pusat](handoffs/NUMORA_CENTRAL_IMPLEMENTATION_PROMPT.md), [bukti tes](audits/generator-service-v1.md) |
 | 74 soal tanpa generator; 70 mempunyai stok, 4 HOLD | [Review soal skip](../variant_gen/soalskip.md) |
 
 ## Kondisi repo dan generator

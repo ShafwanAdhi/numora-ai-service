@@ -1,0 +1,24 @@
+# Python 3.11+ service runtime; pinned installed dependency closure.
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.13.0
+attrs==26.1.0
+click==8.3.3
+colorama==0.4.6
+fastapi==0.141.1
+h11==0.16.0
+idna==3.13
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+psycopg==3.3.2
+psycopg-binary==3.3.2
+pydantic==2.13.5
+pydantic-core==2.46.5
+python-dotenv==1.2.2
+referencing==0.37.0
+rpds-py==0.30.0
+starlette==1.0.0
+typing-extensions==4.15.0
+typing-inspection==0.4.4
+tzdata==2026.2
+uvicorn==0.46.0
