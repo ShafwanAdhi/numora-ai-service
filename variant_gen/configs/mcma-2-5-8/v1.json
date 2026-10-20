@@ -1,0 +1,153 @@
+{
+  "question_id": "mcma-2-5-8",
+  "config_version": 1,
+  "original_hash": "e22185824e15d38a",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'8.000,00' if k == 0 else (8000+200*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'15.000,00' if k == 0 else (15000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'10.000,00' if k == 0 else (10000+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'8.000' if k == 0 else (8000+200*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'15.000' if k == 0 else (15000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'10.000' if k == 0 else (10000+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'40.000' if k == 0 else (5*(8000+200*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'60.000' if k == 0 else (4*(15000+500*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'90.000' if k == 0 else (5*(8000+200*k)+4*(15000+500*k)-(10000+100*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'8.004' if k == 0 else ((8000+200*k)+4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'600.290.000' if k == 0 else (5*((8000+200*k)+4)*(15000+500*k)-(10000+100*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'90.000,00' if k == 0 else (5*(8000+200*k)+4*(15000+500*k)-(10000+100*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'100.000,00' if k == 0 else (5*(8000+200*k)+4*(15000+500*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "5*(8000+200*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "4*(15000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "5*(8000+200*k)+4*(15000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "10000+100*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "5*(8000+200*k)+4*(15000+500*k)-(10000+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa mengevaluasi laporan belanja perlengkapan modul kelas berikut: \"Membeli 5 buah penggaris seharga Rp{v0} per buah dan 4 buah jangka seharga Rp{v1} per buah, serta mendapat cashback potongan harga sebesar Rp{v2}.\"\nDua bentuk model perhitungan dievaluasi:\nModel I: $(5×{v3})+(4×{v4})-{v5}={v6}+{v7}-{v5}={v8}$\nModel II: $5×({v3}+4)×{v4}-{v5}=5×{v9}×{v4}-{v5}={v10}$\nManakah hasil evaluasi pernyataan yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model II adalah penulisan kalimat matematika yang benar.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Model I adalah penulisan kalimat matematika yang benar sesuai aturan KABATAKU dan urutan transaksi.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Total pengeluaran bersih akhir adalah Rp{v11}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Total pengeluaran bersih akhir adalah Rp{v12}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Belanja pertama = {v13}. Belanja kedua = {v14}. Sebelum potongan = {v15}. Potongan = {v16}. Pengeluaran akhir = {v17}. Model pertama benar; model kedua salah menggabungkan jumlah dan harga. A dan D salah; B dan C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

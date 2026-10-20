@@ -1,0 +1,87 @@
+{
+  "question_id": "mcma-6-4-8",
+  "config_version": 1,
+  "original_hash": "b839d7f45d472ebf",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'240' if k == 0 else (240*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'300' if k == 0 else (300*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (240)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' jam-pekerja per minggu)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "k+1",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "240*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengusaha UMKM kerajinan tangan menganalisis hubungan antara jumlah pekerja, jam kerja harian, dan jumlah produk yang dihasilkan per minggu seperti pada tabel berikut:\nKondisi\nJumlah Pekerja\nJam Kerja/Hari\nHasil Produk/Minggu\nKondisi A\n6 orang\n8 jam\n{v0} unit\nKondisi B\n8 orang\n6 jam\n$X$ unit\nKondisi C\n$Y$ orang\n10 jam\n{v1} unit\nAsumsikan efisiensi setiap pekerja selalu konstan. Manakah analisis evaluatif yang tepat? (Jawaban benar lebih dari satu) Semua kondisi bekerja 5 hari per minggu; produktivitas per jam-pekerja sama.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nilai $X$ pada Kondisi B adalah {v0} unit.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jumlah total jam-pekerja per minggu pada Kondisi A sama dengan Kondisi B.{v2}{v3}{v4}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Nilai $Y$ pada Kondisi C adalah 6 orang.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kondisi B menghasilkan produk lebih banyak daripada Kondisi A karena jumlah pekerjanya lebih banyak.",
+      "correct": false
+    }
+  ],
+  "explanation": "Produktivitas {v5} unit/jam-pekerja. Jam-pekerja mingguan A dan B sama, 240. X={v6}, Y=6. A,B,C benar; D salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

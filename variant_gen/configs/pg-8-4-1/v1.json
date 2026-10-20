@@ -1,0 +1,115 @@
+{
+  "question_id": "pg-8-4-1",
+  "config_version": 1,
+  "original_hash": "08cee99d5d22caf5",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'550.000,00' if k == 0 else (100000+18000*(25+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'100.000,00' if k == 0 else (100000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'18.000,00' if k == 0 else (18000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'18.000' if k == 0 else (18000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'100.000' if k == 0 else (100000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'550.000' if k == 0 else (100000+18000*(25+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'25' if k == 0 else (25+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'36' if k == 0 else (floor((200000+18000*(25+k))/18000))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "100000+18000*(25+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "25+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia acara perpisahan sekolah memiliki anggaran total Rp{v0}. Biaya tetap untuk sewa tempat dan panggung adalah Rp{v1}, sedangkan biaya paket konsumsi adalah Rp{v2} per paket. Jika $n$ menyatakan banyak paket konsumsi yang dibeli, model pertidaksamaan linear satu variabel yang tepat dan jumlah paket konsumsi maksimal yang dapat dibeli panitia adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "${v3}n+{v4}<{v5}$; maksimal {v6} paket",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "${v3}n+{v4}≤{v5}$; maksimal {v7} paket",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "${v3}n-{v4}≤{v5}$; maksimal {v8} paket",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "${v3}n+{v4}≥{v5}$; maksimal {v7} paket",
+      "correct": false
+    }
+  ],
+  "explanation": "Biaya tetap ditambah biaya paket tidak boleh melebihi anggaran: 18000n+100000 ≤ {v9}. Maksimum {v10} paket; paket berikutnya melampaui anggaran. A memakai batas ketat, C mengurangi biaya tetap, D membalik batas; hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

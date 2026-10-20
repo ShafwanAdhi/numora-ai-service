@@ -1,0 +1,3020 @@
+{
+  "summary": {
+    "scope": "Indikator 2 saja, 50 soal",
+    "review_date": "2026-10-20",
+    "entries": 50,
+    "validity": {
+      "VALID": 46,
+      "INVALID": 1,
+      "UNCERTAIN": 3
+    },
+    "answer_status": {
+      "CORRECT": 43,
+      "UNCERTAIN": 4,
+      "INCORRECT": 3
+    },
+    "explanation_status": {
+      "INCORRECT": 11,
+      "CORRECT": 35,
+      "UNCERTAIN": 4
+    },
+    "recommendations": {
+      "REVISE_EXPLANATION": 8,
+      "NO_BLOCKING_ACADEMIC_FINDING": 35,
+      "HOLD_FOR_SOURCE_REVISION": 1,
+      "HOLD_FOR_CLARIFICATION": 3,
+      "REVISE_KEY_AND_EXPLANATION": 3
+    },
+    "source_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "stage1_evidence_sha256": "9f1802c69766167b896bcf070404400536616c3287bb18c9f6e1ebe3ab2a7954",
+    "script_sha256": "9c5f762cc1ff99d3555d4671f38423e78f21d64e76fba817df8e4955a227a680",
+    "protected_files_checked": 859,
+    "protected_hashes_unchanged": true
+  },
+  "exact_calculation_checks": {
+    "balances": true,
+    "score": true,
+    "change": true,
+    "growth_period_boundary": true,
+    "fraction_operations": true,
+    "category_hypotheses": true,
+    "correct_category_expressions": true,
+    "cashflow_l3q1": true,
+    "cashflow_l4q1": true,
+    "cashflow_l5q1": true,
+    "radical_coefficients": true,
+    "exponents": true,
+    "category_roots": true
+  },
+  "methodology": {
+    "scope": "Tidak mengaudit indikator lain atau mencocokkan generator.",
+    "independence": "Derivasi stimulus dan semua opsi disusun sebelum pembacaan kunci/pembahasan; review sementara lama tidak dipakai sebagai bukti.",
+    "semantics": "Klaim hasil hitung hipotesis dibedakan dari klaim prosedur sah; domain pangkat negatif tetap domain asal.",
+    "precision": "Pecahan eksak; tidak membulatkan waktu ke batas periode tanpa instruksi.",
+    "scoring": "Benar/Salah per pernyataan kategori, tanpa menetapkan rubrik skor."
+  },
+  "entries": [
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q1:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2052,
+        "paragraph_end": 2100,
+        "body_block_start": 1910,
+        "body_block_end_exclusive": 1959
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "30000-18000+20000-12500-6000+5000=18500. B satu-satunya nominal yang cocok; A/C/D berbeda.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Rp17.500,00",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Rp18.500,00",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Rp20.500,00",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Rp22.500,00",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "explanation/distractors",
+          "severity": "MINOR",
+          "evidence": "Lupa es krim memberi24500, bukan opsiC20500. Mengganti cashback+5000 menjadi-5000 memberi8500, bukan opsiD22500.",
+          "proposed_correction": "Pertahankan saldo18500 dan kunciB; ganti alasan distractor dengan skenario yang benar-benar menghasilkan nominal opsi, atau hapus atribusi keliru.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q2:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2101,
+        "paragraph_end": 2143,
+        "body_block_start": 1959,
+        "body_block_end_exclusive": 2002
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "Salah=25-16-3=6. Skor=16*4-6*2-3=49, jadi B; A43,C52,D58 tidak cocok.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "43",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "49",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "52",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "58",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "explanation/distractor A",
+          "severity": "MINOR",
+          "evidence": "Tambahan penalti-9 memberi43, tetapi alternatif-6 yang juga disebut dalam alasan A memberi46, bukan43.",
+          "proposed_correction": "Hapus alternatif-6 dari penjelasan opsi43 atau jelaskan hasil46 secara terpisah; kunci49 tetap.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q3:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2144,
+        "paragraph_end": 2184,
+        "body_block_start": 2002,
+        "body_block_end_exclusive": 2043
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "d²=(4sqrt(6))²+(2sqrt(3))²=96+12=108, d positif=6sqrt(3). Kuadrat opsi A48,B84,C108,D336: hanya C.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$4\\sqrt{3}m$",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "$2\\sqrt{21}m$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$6\\sqrt{3}m$",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "$4\\sqrt{21}m$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q4:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2185,
+        "paragraph_end": 2211,
+        "body_block_start": 2043,
+        "body_block_end_exclusive": 2070
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "2,5jam=150menit=5periode. Banyak akhir=2^3*2^5=2^8=256. Eksponen7/9/10 pada A/C/D bukan8.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "${2}^{7}$",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "${2}^{8}$",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "${2}^{9}$",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "${2}^{10}$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. ${2}^{8}$ bakteri"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q5:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2212,
+        "paragraph_end": 2253,
+        "body_block_start": 2070,
+        "body_block_end_exclusive": 2112
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "Belanja=3*18000+4*14000=110000; tagihan108000 setelah diskon; bayar150000; kembali42000. Hanya A.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Rp42.000,00",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Rp38.000,00",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Rp32.000,00",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Rp28.000,00",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "explanation/distractors",
+          "severity": "MINOR",
+          "evidence": "Tanpa diskon kembalian40000, bukanB38000. Diskon dianggap biaya tambahan memberi38000, bukanD28000. Mengganti harga minuman16000 saja dan tetapdiskon memberi34000, bukanC32000.",
+          "proposed_correction": "Koreksi alasanB/C/D; nyatakan semua kesalahan asumsi yang diperlukan. Jawaban42000 tetap.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q6:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2254,
+        "paragraph_end": 2290,
+        "body_block_start": 2112,
+        "body_block_end_exclusive": 2149
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "(i)5sqrt(2)+3sqrt(2)=8sqrt(2); (ii)3^(4-2)=9; (iii)sqrt(36)=6 bukan36; (iv)2^(3*2)=64. A,B,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Pernyataan (i)",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Pernyataan (ii)",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Pernyataan (iii)",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Pernyataan (iv)",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q7:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2291,
+        "paragraph_end": 2319,
+        "body_block_start": 2149,
+        "body_block_end_exclusive": 2178
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Setiap kelompok60/4=15; digunakan(2/3)*15=10 bukan5; sisa5; setiap anggota5/5=1. A,C,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Setiap kelompok menerima 15 lembar kertas karton di awal.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Kertas karton yang digunakan setiap kelompok untuk maket adalah 5 lembar.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Sisa kertas karton yang tidak digunakan untuk maket di setiap kelompok adalah 5 lembar.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Setiap anggota kelompok menerima 1 lembar kertas karton dari sisa kertas tersebut.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q8:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2320,
+        "paragraph_end": 2352,
+        "body_block_start": 2178,
+        "body_block_end_exclusive": 2211
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "12/3=4; 2*(-5)=-10 bukan10. H=24-4-10=10. Kiri-ke-kanan tanpa prioritas: (((24-12)/3)+2)*(-5)=-30, bukan10. A,C benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Hasil dari operasi pembagian $12÷3$ adalah $4$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Hasil dari operasi perkalian $2×(-5)$ adalah $10$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Nilai akhir $H$ yang benar adalah $10$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Jika dikerjakan berurutan dari kiri ke kanan tanpa hirarki KABATAKU, hasilnya adalah $10$.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A dan C"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q9:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2353,
+        "paragraph_end": 2385,
+        "body_block_start": 2211,
+        "body_block_end_exclusive": 2233
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Tepung(7/2)*12000=42000; gula(9/4)*16000=36000<42000; total78000. a,c benar; b salah.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Total harga tepung terigu yang dibeli Ibu adalah Rp42.000,00.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Total harga gula pasir lebih mahal daripada total harga tepung terigu.",
+          "result": "FALSE"
+        },
+        {
+          "label": "c",
+          "text": "Total seluruh uang yang harus dibayar Ibu untuk tepung terigu dan gula pasir adalah Rp78.000,00.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L1:Q10:O1:original",
+      "indicator": 2,
+      "level": 1,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2386,
+        "paragraph_end": 2421,
+        "body_block_start": 2233,
+        "body_block_end_exclusive": 2258
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "P=(4*3)^2=144; Q=12+9=21; selisih123 bukan120. a,b benar; c salah.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Nilai dari $P$ adalah $144$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Nilai dari $Q$ adalah $21$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Selisih antara nilai $P$ dan nilai $Q$ adalah $120$.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q1:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2425,
+        "paragraph_end": 2479,
+        "body_block_start": 2261,
+        "body_block_end_exclusive": 2316
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "45000-8500+25000-14000-6000+10000=51500. Hanya B; tanpa cashback41500 adalah C, bukan saldo sebenarnya.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Rp19.500,00",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Rp51.500,00",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Rp41.500,00",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Rp53.500,00",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "explanation/distractor A",
+          "severity": "MINOR",
+          "evidence": "Mengabaikan saldoawal45000 memberi25000+10000-28500=6500, bukan19500. Pembahasan menyisipkan+13000 tanpa transaksi sumber.",
+          "proposed_correction": "Hapus+13000 dan klaim alasanA; gunakan alasan distractor yang dapat ditelusuri. Saldo51500 tetap.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q2:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2480,
+        "paragraph_end": 2527,
+        "body_block_start": 2316,
+        "body_block_end_exclusive": 2364
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "3sqrt(20)-sqrt(45)=6sqrt(5)-3sqrt(5)=3sqrt(5), jadi A. Koefisien B4,C2,D5 berbeda.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$3\\sqrt{5}m$",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "$4\\sqrt{5}m$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$2\\sqrt{5}m$",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "$5\\sqrt{5}m$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q3:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2528,
+        "paragraph_end": 2555,
+        "body_block_start": 2364,
+        "body_block_end_exclusive": 2392
+      },
+      "format": "PG",
+      "validity": "INVALID",
+      "answer_status": "UNCERTAIN",
+      "explanation_status": "UNCERTAIN",
+      "independent_solution": "Jika tepat7periode:3²*3^7=3^9 sehingga C. Tetapi2,33jam=139,8menit, bukan140; untuk pembelahan diskret20menit baru6periode lengkap sehingga3^8 (tidak ada opsi). Jawaban C bersyarat pada140menit/7periode yang juga eksplisit dalam stem dan pertanyaan.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "${3}^{14}$",
+          "result": "UNCERTAIN"
+        },
+        {
+          "label": "B",
+          "text": "${3}^{11}$",
+          "result": "UNCERTAIN"
+        },
+        {
+          "label": "C",
+          "text": "${3}^{9}$",
+          "result": "UNCERTAIN"
+        },
+        {
+          "label": "D",
+          "text": "${3}^{5}$",
+          "result": "UNCERTAIN"
+        }
+      ],
+      "independently_correct_ids": null,
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. ${3}^{9}$ sel"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "stem/time",
+          "severity": "IMPORTANT",
+          "evidence": "2,33jam=139,8menit, bukan140. Sumber juga menyatakan7periode dan menanyakan setelah7pembelahan. Pembelahan diskret20menit baru6periode pada139,8menit.",
+          "proposed_correction": "Gunakan140menit atau2jam20menit tepat; bila2,33jam dimaksudkan pendekatan, tulis pendekatan dan jangan jadikan batas pembelahan ambigu. C hanya sah untuk7periode.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "HOLD_FOR_SOURCE_REVISION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q4:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2556,
+        "paragraph_end": 2601,
+        "body_block_start": 2392,
+        "body_block_end_exclusive": 2438
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "15-12/4+2*(-4)=15-3-8=4. LangkahII benar; I mengubah prioritas dengan kurung15-12; III menambah kurung4+2; IV mengalikan seluruh jumlah dengan-4. A/C/D bukan ekspresi asal.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Langkah I",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Langkah II",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Langkah III",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Langkah IV",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q5:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2602,
+        "paragraph_end": 2639,
+        "body_block_start": 2438,
+        "body_block_end_exclusive": 2476
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "3*24000+3*16000-5000=115000=3*(24000+16000)-5000. A cocok beserta alasan. B/D merestui model yang kehilangan dua botol; C salah karena diskon tidak dikurangi sebelum perkalian.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Analisis I, karena memfaktorkan angka 3 dengan sifat distributif untuk jumlah barang yang sama",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Analisis II, karena perkalian hanya berlaku pada barang pertama",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Analisis I, karena diskon dikurangi sebelum barang dikalikan",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Analisis II, karena biaya kertas saring dan cairan indikator dihitung terpisah tanpa tanda kurung",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. Analisis I"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q6:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2640,
+        "paragraph_end": 2689,
+        "body_block_start": 2476,
+        "body_block_end_exclusive": 2526
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "2^(5-2)=8; sqrt(72)-sqrt(18)=(6-3)sqrt(2)=3sqrt(2); (3²)^3=3^6=729 bukan243; sqrt(8*2)=4. A,B,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Pernyataan (i)",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Pernyataan (ii)",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Pernyataan (iii)",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Pernyataan (iv)",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q7:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2690,
+        "paragraph_end": 2726,
+        "body_block_start": 2526,
+        "body_block_end_exclusive": 2563
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "A=(150000-40000)-25000=85000; B=150000-(40000+25000)=85000, penerapan -(u+v)=-u-v. Ganti tanda dalam kurung menjadi minus memberi135000, bukan85000. Dua metode masing-masing dua operasi biner, jadi D salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Metode A dan Metode B menghasilkan nilai akhir sisa kas yang ekivalen (sama) yaitu Rp85.000,00",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Metode B membuktikan sifat distributif tanda negatif terhadap bentuk penjumlahan: $-(a+b)=-a-b$",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Jika bentuk Metode B diubah menjadi $150.000-(40.000-25.000)$, nilai sisa kas akhirnya akan tetap sama",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Metode A membutuhkan jumlah langkah operasi hitung matematika yang lebih sedikit dibandingkan Metode B",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q8:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2727,
+        "paragraph_end": 2760,
+        "body_block_start": 2563,
+        "body_block_end_exclusive": 2597
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "16/(-4)=-4, bukan4; 3/2=1,5. M=-4+3/2+2=-1/2=-0,5, bukan-3,5. B,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Hasil operasi pembagian $16÷(-4)$ adalah $4$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Hasil operasi perkalian $3×\\frac{1}{2}$ adalah $1,5$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Nilai akhir dari ekspresi $M$ adalah $-3,5$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Nilai akhir dari ekspresi $M$ adalah $-0,5$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B dan D"
+      ],
+      "parsed_source_key": [
+        "B",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q9:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2761,
+        "paragraph_end": 2793,
+        "body_block_start": 2597,
+        "body_block_end_exclusive": 2619
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Telur(5/2)*28000=70000; daging(5/4)*40000=50000 lebih murah, bukan lebih mahal; total120000. a,c benar.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Total biaya pembelian telur ayam adalah Rp70.000,00.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Total biaya pembelian daging ayam lebih mahal daripada total biaya telur ayam.",
+          "result": "FALSE"
+        },
+        {
+          "label": "c",
+          "text": "Total seluruh uang yang harus dibayar kantin adalah Rp120.000,00.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L2:Q10:O1:original",
+      "indicator": 2,
+      "level": 2,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2794,
+        "paragraph_end": 2832,
+        "body_block_start": 2619,
+        "body_block_end_exclusive": 2647
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "P=(10-5)sqrt(2)=5sqrt(2); Q=(8*3)^2/36=16. Dengan pendekatan tertulis1,414, P≈7,07<16; c mengklaim Q lebih kecil, salah.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Bentuk paling sederhana dari $P$ adalah $5\\sqrt{2}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Nilai dari ekspresi $Q$ adalah $16$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Nilai dari $Q$ lebih kecil daripada nilai pendekatan desimal $P$ (asumsi $\\sqrt{2}≈1,414$).",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q1:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2836,
+        "paragraph_end": 2880,
+        "body_block_start": 2650,
+        "body_block_end_exclusive": 2695
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "Saldo=120000-35000+75000-40000+15000-25000=110000. AnalisisI salah menandai cashback dan memberi80000. B benar; A/C mendukung model salah; D menyebut semua pemasukan di akhir padahal AnalisisII tidak demikian.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Analisis I, karena cashback menambah total biaya pengeluaran sewa alat",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Analisis II, karena cashback bernilai positif (menambah saldo) sehingga tidak dikurangkan",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Analisis I, karena semua transaksi hari III dihitung di dalam tanda kurung",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Analisis II, karena semua penerimaan uang dikelompokkan di akhir perhitungan",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Analisis II"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "explanation/sign",
+          "severity": "IMPORTANT",
+          "evidence": "Baris85.000+75.000-40.000+15.000-25.000 diubah menjadi160.000+40.000+15.000-25.000; tanda-40.000 menjadi+40.000. Baris berikutnya kembali120.000 sehingga rantai kesamaan tidak sah.",
+          "proposed_correction": "Ganti baris menjadi160.000-40.000+15.000-25.000; lanjut120.000+15.000-25.000=110.000. KunciB tetap.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q2:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2881,
+        "paragraph_end": 2908,
+        "body_block_start": 2695,
+        "body_block_end_exclusive": 2723
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "SisiA=sqrt(108)=6sqrt(3); sisiB=sqrt(27)=3sqrt(3); selisih3sqrt(3), C. Koefisien9/6/2 pada A/B/D berbeda.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$9\\sqrt{3}m$",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "$6\\sqrt{3}m$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$3\\sqrt{3}m$",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "$2\\sqrt{3}m$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. $3\\sqrt{3}m$"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q3:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2909,
+        "paragraph_end": 2942,
+        "body_block_start": 2723,
+        "body_block_end_exclusive": 2757
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Yang ditanya kulturY, awal2² dan6pembelahan selama180/30menit. Akhir2^(2+6)=2^8, B. DataX tidak digunakan; A/C/D bukan2^8.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "${2}^{6}$ mikroba",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "${2}^{8}$ mikroba",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "${2}^{12}$ mikroba",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "${2}^{14}$ mikroba",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. ${2}^{8}$ mikroba"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q4:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2943,
+        "paragraph_end": 2984,
+        "body_block_start": 2757,
+        "body_block_end_exclusive": 2799
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "30-18/3+4*(-2)=30-6-8=16, cara siswaC. A mendahulukan30-18, B menambah kurung3+4, D memperluas faktor-2 ke jumlah; ketiganya mengubah ekspresi.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Siswa A",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Siswa B",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Siswa C",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Siswa D",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. $30-18÷3+4×(-2)=16$"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q5:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2985,
+        "paragraph_end": 3021,
+        "body_block_start": 2799,
+        "body_block_end_exclusive": 2836
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "4*(8000+3500)-5000=41000. A tepat model dan alasan; B/D menghilangkan kuantitas pulpen, C salah mendahulukan diskon dibanding perkalian dalam model.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Analisis I, karena menerapkan sifat distributif perkalian terhadap penjumlahan untuk barang dengan kuantitas yang sama",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Analisis II, karena perkalian 4 hanya berlaku untuk barang pertama yang ditulis",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Analisis I, karena diskon Rp5.000,00 dikurangkan sebelum perkalian barang dilakukan",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Analisis II, karena harga pulpen tidak perlu dikalikan dengan kuantitasnya",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. Analisis I, karena menerapkan sifat distributif untuk paket barang yang sama"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q6:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3022,
+        "paragraph_end": 3070,
+        "body_block_start": 2836,
+        "body_block_end_exclusive": 2885
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "3^(6-3)=27; sqrt(98)-sqrt(50)=(7-5)sqrt(2)=2sqrt(2); (2^4)^2=2^8=256 bukan128; sqrt(18*2)=6. A,B,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Pernyataan (i)",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Pernyataan (ii)",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Pernyataan (iii)",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Pernyataan (iv)",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q7:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3071,
+        "paragraph_end": 3101,
+        "body_block_start": 2885,
+        "body_block_end_exclusive": 2916
+      },
+      "format": "MCMA",
+      "validity": "UNCERTAIN",
+      "answer_status": "UNCERTAIN",
+      "explanation_status": "UNCERTAIN",
+      "independent_solution": "Rumus1=100000=Rumus2; -(60000+40000)=-60000-40000. Ganti+ menjadi- di dalam kurung memberi180000, bukan100000. A/B benar dan C salah. D mempermudah rekapitulasi tidak memiliki ukuran objektif yang ditetapkan.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Rumus 1 dan Rumus 2 menghasilkan nilai sisa dana akhir yang sama, yaitu Rp100.000,00.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Kesamaan hasil Rumus 1 dan Rumus 2 membuktikan berlakunya sifat distributif tanda negatif: $-(a+b)=-a-b$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Jika Rumus 2 diubah menjadi $200.000-(60.000-40.000)$, hasilnya akan tetap bernilai sama.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Mengelompokkan total pengeluaran seperti pada Rumus 2 mempermudah rekapitulasi total alokasi biaya.",
+          "result": "UNCERTAIN"
+        }
+      ],
+      "independently_correct_ids": null,
+      "conditionally_proven_ids": [
+        "A",
+        "B"
+      ],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "option D/explanation",
+          "severity": "IMPORTANT",
+          "evidence": "Mempermudah rekapitulasi / lebih praktis secara administrasi tidak memiliki ukuran objektif dalam stimulus.",
+          "proposed_correction": "GantiD dengan klaim terukur, misalnya totalpengeluaran100000, atau tetapkan kriteria Kurikulum; A/B benar,C salah.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "HOLD_FOR_CLARIFICATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q8:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3102,
+        "paragraph_end": 3135,
+        "body_block_start": 2916,
+        "body_block_end_exclusive": 2950
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "20/(-5)=-4 bukan4; 4*(1/2)=2. N=-4+2-(-3)=1, bukan-1. B,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Hasil operasi pembagian $20÷(-5)$ adalah $4$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Hasil operasi perkalian $4×\\frac{1}{2}$ adalah $2$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Nilai akhir $N$ adalah $-1$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Nilai akhir $N$ adalah $1$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B dan D"
+      ],
+      "parsed_source_key": [
+        "B",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q9:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3136,
+        "paragraph_end": 3173,
+        "body_block_start": 2950,
+        "body_block_end_exclusive": 2977
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Beras(9/2)*14000=63000; telur(9/4)*28000=63000 sama mahal, bukan lebih murah; total126000. a,c benar.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Total biaya pengeluaran untuk membeli beras adalah Rp63.000,00.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Total biaya pembelian telur lebih murah daripada total biaya pembelian beras.",
+          "result": "FALSE"
+        },
+        {
+          "label": "c",
+          "text": "Total biaya belanja seluruhnya untuk kedua bahan makanan tersebut adalah Rp126.000,00.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L3:Q10:O1:original",
+      "indicator": 2,
+      "level": 3,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3174,
+        "paragraph_end": 3219,
+        "body_block_start": 2977,
+        "body_block_end_exclusive": 3012
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "P=(10-5)sqrt(3)=5sqrt(3); Q=(9*2)^2/36=9. Dengan pendekatan tertulis1,732,P≈8,66<9, sehingga klaim Q<P salah. a,b benar.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Bentuk sederhana dari ekspresi $P$ adalah $5\\sqrt{3}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Nilai dari ekspresi $Q$ adalah $9$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Nilai dari ekspresi $Q$ lebih kecil daripada nilai pendekatan desimal ekspresi $P$ (asumsi $\\sqrt{3}≈1,732$).",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q1:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3223,
+        "paragraph_end": 3271,
+        "body_block_start": 3015,
+        "body_block_end_exclusive": 3064
+      },
+      "format": "PG",
+      "validity": "UNCERTAIN",
+      "answer_status": "UNCERTAIN",
+      "explanation_status": "UNCERTAIN",
+      "independent_solution": "AnalisisI danII identik secara prioritas: perkalian15*18000=270000 lebih dulu, saldo1080000. Kurung tambahan pada II tidak wajib. III/IV mengubah model transaksi. Tidak ada kriteria terukur untuk mengutamakan II daripada I yang sama-sama sah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Analisis I",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Analisis II",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Analisis III",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Analisis IV",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Analisis II"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "options/selection",
+          "severity": "IMPORTANT",
+          "evidence": "AnalisisI danII sama-sama sah menurut prioritasoperasi dan sama-sama memberi1080000. Kurung pada15×18000 opsional; soal tidak mendefinisikan lebih logis sebagai lebih eksplisit.",
+          "proposed_correction": "Kurikulum memperjelas kriteria, misalnya meminta penulisan yang menandai perkalian dengan kurung, atau ubah opsi sehingga hanya satu model sah. Jangan anggapI salah hanya karena tanpa kurung.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "HOLD_FOR_CLARIFICATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q2:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3272,
+        "paragraph_end": 3305,
+        "body_block_start": 3064,
+        "body_block_end_exclusive": 3098
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "INCORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "sqrt(75)+sqrt(108)-sqrt(27)=(5+6-3)sqrt(3)=8sqrt(3). Hanya B; koefisien A5,C6,D12 salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$5\\sqrt{3}cm$",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "$8\\sqrt{3}cm$",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "$6\\sqrt{3}cm$",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "$12\\sqrt{3}cm$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. $6\\sqrt{3}cm$"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "key/explanation",
+          "severity": "CRITICAL",
+          "evidence": "Pembahasan menulis(5+6-3)sqrt(3)=6sqrt(3). Koefisien yang benar8; opsiB8sqrt(3), bukan kunciC6sqrt(3).",
+          "proposed_correction": "Ubah usulan kunci keB dan hasil pembahasan8sqrt(3); soal dan opsi sumber sudah menyediakan jawaban benar.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_KEY_AND_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q3:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3306,
+        "paragraph_end": 3336,
+        "body_block_start": 3098,
+        "body_block_end_exclusive": 3129
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "(2³)^4*2^-2/2²=2^(12-2-2)=2^8=256, B. A6,C10,D12 bukan eksponen akhir.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "${2}^{6} watt$",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "${2}^{8} watt$",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "${2}^{10} watt$",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "${2}^{12} watt$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. ${2}^{8}$ watt"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "explanation/exponent rule",
+          "severity": "IMPORTANT",
+          "evidence": "Baris sifat pangkat dari pangkat ditulis (a^m)^n × a^(m-n), bukan identitas (a^m)^n=a^(mn). Langkah numerik2^12 dan hasil2^8 benar.",
+          "proposed_correction": "Ganti rumus umum dengan(a^m)^n=a^(m*n) pada domain yang sesuai; tetap2^(3*4)=2^12 dan hasil2^8.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q4:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3337,
+        "paragraph_end": 3374,
+        "body_block_start": 3129,
+        "body_block_end_exclusive": 3167
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "(9/2)/(1/2)+2*(1/4)=9+1/2=9,5. EvaluasiI dan alasan A benar. EvaluasiII=2,75 berasal dari perubahan prioritas, jadi B/D salah; C mengklaim10 juga salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi I, karena operasi pembagian dan perkalian memiliki prioritas lebih tinggi daripada penjumlahan",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi II, karena semua operasi berderajat sama sehingga harus dikerjakan dari kiri ke kanan",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Kedua evaluasi salah, karena hasil akhirnya harus berupa bilangan bulat 10",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Evaluasi II, karena penjumlahan di dalam urutan posisi harus diutamakan",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. Evaluasi I"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q5:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3375,
+        "paragraph_end": 3415,
+        "body_block_start": 3167,
+        "body_block_end_exclusive": 3208
+      },
+      "format": "PG",
+      "validity": "UNCERTAIN",
+      "answer_status": "UNCERTAIN",
+      "explanation_status": "UNCERTAIN",
+      "independent_solution": "9^-1=3^-2 dan27^(2/3)=9=3²; hasil3^(5-2-2)=3. Langkah kedua siswa sah, maka A benar dan B/D salah. C memuji B paling tepat karena lebih rinci; tidak ada kriteria yang membuat langkah A yang ringkas menjadi tidak sah atau kalah sebagai jawaban benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Jawaban Siswa A benar karena $2{7}^{\\frac{2}{3}}=9={3}^{2}$ tanpa perlu menuliskan pecahan pangkat",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Jawaban Siswa B salah karena $({3}^{3}{)}^{\\frac{2}{3}}$ tidak sama dengan ${3}^{2}$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$",
+          "result": "UNCERTAIN"
+        },
+        {
+          "label": "D",
+          "text": "Kedua siswa menghasilkan jawaban yang salah karena hasil akhirnya seharusnya 9",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": null,
+      "conditionally_proven_ids": [
+        "A"
+      ],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Evaluasi B"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "options/selection",
+          "severity": "IMPORTANT",
+          "evidence": "A menyatakan langkah siswaA benar karena27^(2/3)=9, dan pernyataan itu benar. C memuji langkahB lebih rinci. Rincian tambahan tidak membuat langkahA tidak sah; kriteria memilih satu evaluasi belum jelas.",
+          "proposed_correction": "Bedakan kebenaran matematis dan kelengkapan penjabaran; tetapkan pertanyaan/rubrik eksplisit atau ubah opsiA agar tidak menjadi jawaban benar tambahan.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "HOLD_FOR_CLARIFICATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q6:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3416,
+        "paragraph_end": 3446,
+        "body_block_start": 3208,
+        "body_block_end_exclusive": 3239
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "2sqrt(48)=8sqrt(3); sqrt(75)=5sqrt(3) bukan3sqrt(5); sqrt(12)=2sqrt(3); total(8-5+2)sqrt(3)=5sqrt(3). A,C,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Bentuk sederhana dari $2\\sqrt{48}$ adalah $8\\sqrt{3}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Bentuk sederhana dari $\\sqrt{75}$ adalah $3\\sqrt{5}$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Bentuk sederhana dari $\\sqrt{12}$ adalah $2\\sqrt{3}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Hasil akhir penyederhanaan ekspresi tersebut adalah $5\\sqrt{3}$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q7:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3447,
+        "paragraph_end": 3477,
+        "body_block_start": 3239,
+        "body_block_end_exclusive": 3270
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Pada domain asal a≠0,b≠0: a^(3-(-1))*b^(-2-4)=a^4*b^-6=a^4/b^6. A,B,D identitas benar. C bukan identitas (misal a=2,b=1 memberi16 versus4), walau bisa kebetulan sama pada nilai khusus.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Menyederhanakan suku variabel $a$ menghasilkan ${a}^{3-(-1)}={a}^{4}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Menyederhanakan suku variabel $b$ menghasilkan ${b}^{-2-4}={b}^{-6}=\\frac{1}{{b}^{6}}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Hasil akhir ekspresi tersebut dalam pangkat positif adalah $\\frac{{a}^{2}}{{b}^{2}}$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Hasil akhir ekspresi tersebut dalam pangkat positif adalah $\\frac{{a}^{4}}{{b}^{6}}$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "stem/domain",
+          "severity": "MINOR",
+          "evidence": "Pangkatnegatif mensyaratkan variabel bukan nol, tetapi domain tidak ditulis eksplisit. Domain asal ekspresi sudah mengecualikan nol.",
+          "proposed_correction": "Tuliskan a,b≠0 atau x,y≠0. Penyederhanaan berlaku pada domain asal, tidak memperluasnya ke nol.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q8:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3478,
+        "paragraph_end": 3523,
+        "body_block_start": 3270,
+        "body_block_end_exclusive": 3316
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Biaya=4*12500+6*3500-5000=66000;71000 adalah sebelum diskon. Model2 mencampur harga dan kuantitas, bukan model transaksi. B,C benar; A,D salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Model 2 adalah penulisan kalimat matematika yang benar.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Model 1 adalah penulisan kalimat matematika yang benar sesuai dengan urutan transaksi dan kaidah KABATAKU.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Total biaya akhir yang harus dibayar kelompok tersebut adalah Rp66.000,00.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Total biaya akhir yang harus dibayar kelompok tersebut adalah Rp71.000,00.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B",
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B dan C"
+      ],
+      "parsed_source_key": [
+        "B",
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q9:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3524,
+        "paragraph_end": 3563,
+        "body_block_start": 3316,
+        "body_block_end_exclusive": 3342
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "INCORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "Perkalian(5/4)*(2/5)=1/2; ekspresi asal3/4+1/2=5/4. Hipotesis penjumlahan dulu:(3/4+5/4)*(2/5)=2*(2/5)=4/5=0,8. Hipotesis numerik b benar, walaupun prosedur itu tidak sah untuk ekspresi asal. a,b,c semuanya benar menurut teks.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Hasil perkalian $1,25×0,4$ adalah $0,5$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Jika operasi penjumlahan dilakukan terlebih dahulu sebelum perkalian, hasilnya adalah $0,8$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Hasil akhir operasi campuran tersebut adalah $1,25$ atau $\\frac{5}{4}$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "key/explanation/conditional",
+          "severity": "CRITICAL",
+          "evidence": "Pernyataanb berbunyi jika penjumlahan dilakukan terlebih dahulu, hasil0,8; (3/4+1,25)*0,4=0,8 benar. Pembahasan mengakui hitungan benar lalu menilaiSALAH karena prosedur tidak sah.",
+          "proposed_correction": "Untuk teks sekarang, usulkanbBENAR (a,b,cBENAR). Jika inginbSALAH, ubah menjadi klaim bahwa mendahulukan penjumlahan adalah prosedur sah, lalu review ulang. Catatan sumber disepakatiSALAH bukan persetujuan audit atas perubahan makna.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_KEY_AND_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L4:Q10:O1:original",
+      "indicator": 2,
+      "level": 4,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3564,
+        "paragraph_end": 3607,
+        "body_block_start": 3342,
+        "body_block_end_exclusive": 3372
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "sqrt(50)*sqrt(18)=sqrt(900)=30; sqrt(9)=3; hasil30/3=10 bukan10sqrt(2). a,b benar; c salah.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Nilai dari $\\sqrt{50}×\\sqrt{18}$ dapat disederhanakan menjadi $\\sqrt{900}=30$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Nilai dari penyebut/pembagi $\\sqrt{9}$ adalah $3$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Hasil akhir dari seluruh ekspresi tersebut adalah $10\\sqrt{2}$.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "additional_notes/distractor derivation",
+          "severity": "MINOR",
+          "evidence": "Kesalahan antara15sqrt(2) lalu dibagi3 menghasilkan5sqrt(2), bukan10sqrt(2) seperti simpulan catatan.",
+          "proposed_correction": "Koreksi contoh jalur kesalahan atau hapus atribusi10sqrt(2). Jawaban10 dan kategoriTTF tetap.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q1:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3611,
+        "paragraph_end": 3658,
+        "body_block_start": 3375,
+        "body_block_end_exclusive": 3423
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "1500000-20*22500+800000-450000=1400000. HanyaII memodelkan transaksi tepat. I mengurangi kuantitas dari uang sebelum dikali harga; III menyatukan sponsor ke biaya buku; IV membalik tanda penerimaan/pengeluaran.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi I",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi II",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Evaluasi III",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Evaluasi IV",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Evaluasi II"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q2:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3659,
+        "paragraph_end": 3697,
+        "body_block_start": 3423,
+        "body_block_end_exclusive": 3462
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "sqrt(98)+sqrt(50)-sqrt(32)=(7+5-4)sqrt(2)=8sqrt(2). Y benar, C. A memakai aturan akar yang tidak sah; B salah karena sqrt(116)=2sqrt(29) masih dapat disederhanakan; D18sqrt(2) salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi X, karena penjumlahan dan pengurangan di dalam akar bersifat distributif",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi X, karena $\\sqrt{116}$ tidak dapat disederhanakan lagi",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Evaluasi Y, karena suku-suku bentuk akar hanya dapat dijumlahkan/dikurangkan jika memiliki radikan (angka dalam akar) yang sejenis",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Kedua evaluasi salah, karena hasil akhirnya adalah $18\\sqrt{2} m$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Evaluasi Y"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q3:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3698,
+        "paragraph_end": 3735,
+        "body_block_start": 3462,
+        "body_block_end_exclusive": 3500
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "(3²)^3*3^-1/3³=3^(6-1-3)=3²=9. B tepat. A menjumlahkan pangkat bertingkat, C memilih hasil salah berdasarkan efisiensi, D memberi27 bukan9.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi A, karena pangkat dipangkatkan artinya eksponennya dijumlahkan ($2+3=5$)",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi B, karena pangkat dipangkatkan artinya eksponennya dikalikan ($2×3=6$)",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Evaluasi A, karena hasil akhir $3mW$ lebih kecil sehingga lebih efisien",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Evaluasi B, tetapi nilai akhirnya seharusnya $27 mW$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Evaluasi B"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q4:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3736,
+        "paragraph_end": 3772,
+        "body_block_start": 3500,
+        "body_block_end_exclusive": 3537
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "(32/5)/(4/5)+3/2=8+1,5=9,5. A benar; B/D mengubah prioritas; C mengklaim6,4/0,8=0,8 padahal8.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi I benar, karena operasi perkalian dan pembagian berderajat lebih tinggi daripada penjumlahan",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi II benar, karena operasi yang setara harus dikerjakan urut dari kiri",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Evaluasi I salah, karena $6,4:0,8=0,8$",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Evaluasi II benar, karena penjumlahan di tengah harus dikerjakan lebih dulu",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. Evaluasi I"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q5:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3773,
+        "paragraph_end": 3810,
+        "body_block_start": 3537,
+        "body_block_end_exclusive": 3575
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "16^-1=2^-4 dan8^(2/3)=4=2²; hasil2^(6-4-2)=2^0=1. Langkah A dan B keduanya sah. A/B pada opsi menyatakan identitas yang salah, D hasil0 salah; C mendukung derivasiB yang sah, satu-satunya pilihan yang dapat diterima. Penjabaran8=2³ sebaiknya ditulis eksplisit agar alasan C sesuai langkah tampak.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Langkah Siswa A salah karena $1{6}^{-1}≠{2}^{-4}$",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Langkah Siswa B salah karena $({2}^{3}{)}^{\\frac{2}{3}}≠{2}^{2}$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Langkah Siswa B paling tepat karena menjabarkan konversi basis $16={2}^{4}$ dan $8={2}^{3}$ serta sifat $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara runtut dan jelas",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Kedua siswa salah karena hasil akhirnya harus $0$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Evaluasi B"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "explanation/completeness",
+          "severity": "MINOR",
+          "evidence": "Alasan opsiC menyebut konversi8=2³ secara eksplisit, tetapi lembarB sudah langsung menuliskan penyebut2²; pembahasan akhir baru menjabarkan8^(2/3).",
+          "proposed_correction": "Tampilkan konversi8=(2³) pada langkah siswaB agar klaimrinci sesuai teks. Kedua siswa tetap menghasilkan1; opsiA/B/D mengandung klaim salah.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q6:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3811,
+        "paragraph_end": 3841,
+        "body_block_start": 3575,
+        "body_block_end_exclusive": 3606
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "3sqrt(32)=12sqrt(2); sqrt(50)=5sqrt(2) bukan2sqrt(5); sqrt(18)=3sqrt(2); total(12-5+3)sqrt(2)=10sqrt(2). A,C,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Pernyataan \"Bentuk sederhana dari $3\\sqrt{32}$ adalah $12\\sqrt{2}$\" adalah BENAR.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Pernyataan \"Bentuk sederhana dari $\\sqrt{50}$ adalah $2\\sqrt{5}$\" adalah BENAR.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Pernyataan \"Bentuk sederhana dari $\\sqrt{18}$ adalah $3\\sqrt{2}$\" adalah BENAR.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Pernyataan \"Hasil akhir penyederhanaan seluruh ekspresi adalah $10\\sqrt{2}$\" adalah BENAR.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q7:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3842,
+        "paragraph_end": 3872,
+        "body_block_start": 3606,
+        "body_block_end_exclusive": 3637
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Pada domain asal x≠0,y≠0: x^(4-(-2))*y^(-3-2)=x^6/y^5. A,B,D benar sebagai identitas. C bukan identitas (x=2,y=1: hasil64, bukan4); nilai khusus tidak menjadikannya penyederhanaan umum.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Suku variabel $x$ jika disederhanakan menghasilkan ${x}^{4-(-2)}={x}^{6}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Suku variabel $y$ jika disederhanakan menghasilkan ${y}^{-3-2}={y}^{-5}=\\frac{1}{{y}^{5}}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Hasil akhir ekspresi tersebut dalam bentuk pangkat positif adalah $\\frac{{x}^{2}}{{y}^{5}}$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Hasil akhir ekspresi tersebut dalam bentuk pangkat positif adalah $\\frac{{x}^{6}}{{y}^{5}}$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "stem/domain",
+          "severity": "MINOR",
+          "evidence": "Pangkatnegatif mensyaratkan variabel bukan nol, tetapi domain tidak ditulis eksplisit. Domain asal ekspresi sudah mengecualikan nol.",
+          "proposed_correction": "Tuliskan a,b≠0 atau x,y≠0. Penyederhanaan berlaku pada domain asal, tidak memperluasnya ke nol.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q8:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3873,
+        "paragraph_end": 3918,
+        "body_block_start": 3637,
+        "body_block_end_exclusive": 3683
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "5*8000+4*15000=100000; setelahcashback10000 bersih90000. ModelI sah, II salah menggabung harga dan jumlah. B,C benar; A,D salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Model II adalah penulisan kalimat matematika yang benar.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Model I adalah penulisan kalimat matematika yang benar sesuai aturan KABATAKU dan urutan transaksi.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Total pengeluaran bersih akhir adalah Rp90.000,00.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Total pengeluaran bersih akhir adalah Rp100.000,00.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B",
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B dan C"
+      ],
+      "parsed_source_key": [
+        "B",
+        "C"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Langkah penting sesuai pada domain/data soal; catatan redaksional terpisah bila ada.",
+      "issues": [],
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q9:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3919,
+        "paragraph_end": 3957,
+        "body_block_start": 3683,
+        "body_block_end_exclusive": 3708
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "INCORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "Perkalian(3/2)*(1/5)=3/10; ekspresi asal4/5+3/10=11/10. Hipotesis penjumlahan dulu:(4/5+3/2)*(1/5)=23/50=0,46 benar secara hitung. Ketidaksahan prosedur untuk ekspresi asal tidak membuat klaim kondisional b salah. a,b,c benar.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Operasi perkalian $1,5×0,2$ harus dikerjakan terlebih dahulu dan menghasilkan $0,3$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Jika operasi penjumlahan dikerjakan terlebih dahulu, hasilnya adalah $0,46$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Hasil akhir yang benar dari operasi campuran tersebut adalah $1,1$ atau $\\frac{11}{10}$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "key/explanation/conditional",
+          "severity": "CRITICAL",
+          "evidence": "Pernyataanb secara kondisional menyatakan hasil0,46 bila tambah lebih dulu; (4/5+1,5)*0,2=0,46 benar. Pembahasan menolak karena langkah melanggarprioritas, mengubah pertanyaan tentang hasil menjadi keabsahan langkah.",
+          "proposed_correction": "Untuk tekssekarang usulkanbBENAR, atau ubah pernyataanb agar menanyakan keabsahanprosedur; butuhpersetujuan Kurikulum.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_KEY_AND_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I2:L5:Q10:O1:original",
+      "indicator": 2,
+      "level": 5,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 3958,
+        "paragraph_end": 3998,
+        "body_block_start": 3708,
+        "body_block_end_exclusive": 3735
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "sqrt(72)*sqrt(2)=sqrt(144)=12; sqrt(16)=4;12/4=3, bukan3sqrt(2). a,b benar; c salah.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Perkalian pembilang $\\sqrt{72}×\\sqrt{2}$ dapat disederhanakan menjadi $\\sqrt{144}=12$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Penyebut/pembagi $\\sqrt{16}$ nilainya sama dengan $4$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Hasil akhir dari seluruh ekspresi tersebut adalah $3\\sqrt{2}$.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Seluruh pembahasan dan catatan dibandingkan dengan derivasi independen. Masalah atau ketidakpastian terurai pada issues.",
+      "issues": [
+        {
+          "component": "additional_notes/distractor derivation",
+          "severity": "MINOR",
+          "evidence": "Catatan mengabaikan faktor sqrt(2) dan langsung membagi6sqrt(2) dengan4; hasilnya(3/2)sqrt(2), bukan3sqrt(2) yang disebut.",
+          "proposed_correction": "Perbaiki contoh jalur kesalahan; hasil benar tetap3 dan kategoriTTF.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "recommendation": "REVISE_EXPLANATION",
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-16-4-4",
+  "config_version": 1,
+  "original_hash": "c2678c68eb814d7a",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else ((12)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else ((10)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'144' if k == 0 else ((144)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'240' if k == 0 else ((240)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'384' if k == 0 else ((384)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'480' if k == 0 else ((480)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "384*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "144*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "240*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah jaring-jaring limas segi empat beraturan memiliki alas persegi bersisi {v0} cm dan empat sisi tegak segitiga yang masing-masing memiliki tinggi {v1} cm. Luas permukaan bangun ruang yang terbentuk adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4} cm²",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v5} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v6}. Alas={v7}, empat segitiga={v8}. Total{v6}, opsi C.",
+  "shuffle": false,
+  "max_draws": 1000
+}

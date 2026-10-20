@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-10-4-4",
+  "config_version": 1,
+  "original_hash": "109f214522cb05d5",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'{a}' if k == 0 else 'a'"
+    },
+    "y": {
+      "gen": "derived",
+      "expr": "'{y}' if k == 0 else 'y'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else ((3+2*k)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else ((3+2*k)*(2+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(3+2*k)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3+2*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "(3+2*k)*(2+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(3+2*k)/2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menyajikan pengerjaan penyederhanaan bentuk aljabar $\\frac{4{x}^{2}-{v0}}{2{x}^{2}+x-{v1}}$ sebagai berikut:\nLangkah 1: Memfaktorkan pembilang menjadi $(2x-{v2})(2x+{v2})$.\nLangkah 2: Memfaktorkan penyebut menjadi $(2x-{v2})(x+{v3})$.\nLangkah 3: Membagi faktor persekutuan $(2x-{v2})$ pada pembilang dan penyebut.\nLangkah 4: Menyimpulkan hasil akhir adalah $\\frac{2x-{v2}}{x+{v3}}$.\nEvaluasi yang tepat mengenai langkah penyederhanaan siswa tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Langkah 1 salah, seharusnya pembilang difaktorkan menjadi $(4x-{v2})(x+{v2})$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Langkah 2 salah, seharusnya penyebut difaktorkan menjadi $(2x+{v2})(x-2)$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Langkah 3 salah, karena faktor $(2x-{v2})$ tidak boleh dicoret/dibagi",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Langkah 4 salah, seharusnya hasil akhir adalah $\\frac{2x+{v2}}{x+{v3}}$ karena sisa faktor pembilang adalah $(2x+{v2})$",
+      "correct": true
+    }
+  ],
+  "explanation": "Faktorisasi pembilang $4x^2-{v4}=(2x-{v5})(2x+{v5})$. Penyebut $2x^2+x-{v6}=(2x-{v5})(x+{v7})$. Hasil $\\frac{4x^2-{v4}}{2x^2+x-{v6}}=\\frac{2x+{v5}}{x+{v7}}$. Domain asal: x != -{v7} dan x != {v8}. D benar: langkah 4 menyalin faktor yang salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

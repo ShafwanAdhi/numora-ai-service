@@ -1,0 +1,2917 @@
+{
+  "date": "2026-10-21",
+  "source_sha256": "74a6f81a2c65ed9f11fc824f1f999c13fb79faa2887cf5db9311df9b85a19e57",
+  "counts": {
+    "originals": 80,
+    "active": 67,
+    "hold": 13,
+    "generators_added": 0,
+    "stocks_added": 0
+  },
+  "entries": [
+    {
+      "question_id": "pg-20-4-1",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 31,
+      "audit_id": "74a6f81a2c65:I20:L4:Q31:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Seorang peneliti ingin mengetahui hubungan antara durasi belajar mandiri dan nilai matematika siswa kelas IX. Ia mengumpulkan data berupa durasi belajar mandiri setiap hari dan nilai ujian matematika siswa.\n\nPertanyaan penelitian yang paling sesuai adalah ....",
+        "options": [
+          "Berapa jumlah siswa kelas IX di sekolah tersebut?",
+          "Apa mata pelajaran yang paling disukai siswa kelas IX?",
+          "Apakah terdapat hubungan antara durasi belajar mandiri dan nilai matematika siswa?",
+          "Berapa banyak siswa yang mengikuti ujian matematika?"
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Pertanyaan C sesuai dengan tujuan penelitian karena mengkaji hubungan antara dua variabel, yaitu durasi belajar mandiri dan nilai matematika.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Only C relates both measured variables: study duration and mathematics score. A,D count students; B asks preferences.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-4-2",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 32,
+      "audit_id": "74a6f81a2c65:I20:L4:Q32:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Perhatikan data jumlah buku yang dibaca oleh lima siswa selama satu bulan berikut.\n\n| Siswa | Jumlah buku |\n| --- | --- |\n| Andi | 2 |\n| Budi | 4 |\n| Citra | 3 |\n| Dini | 6 |\n| Eka | 5 |\n\nKesimpulan yang paling tepat berdasarkan data tersebut adalah ....",
+        "options": [
+          "Andi membaca buku paling banyak.",
+          "Dini membaca buku paling banyak.",
+          "Eka membaca buku paling sedikit.",
+          "Citra membaca buku lebih banyak daripada Dini."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Dini membaca 6 buku, jumlah tertinggi dibandingkan siswa lainnya.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "Books 2,4,3,6,5: maximum6 belongs to Dini; minimum2 Andi. Citra3<6; only B.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-4-3",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 33,
+      "audit_id": "74a6f81a2c65:I20:L4:Q33:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sekolah melakukan survei terhadap 100 siswa mengenai transportasi yang digunakan untuk berangkat ke sekolah.\n\n| Transportasi | Jumlah siswa |\n| --- | --- |\n| Sepeda motor | 45 |\n| Sepeda | 20 |\n| Jalan kaki | 15 |\n| Angkutan umum | 20 |\n\nPenyajian yang paling tepat untuk membandingkan jumlah siswa pada setiap kategori adalah ....",
+        "options": [
+          "Diagram garis",
+          "Diagram batang",
+          "Diagram pencar",
+          "Diagram garis waktu"
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Diagram batang memudahkan pembaca membandingkan jumlah siswa pada setiap kategori transportasi.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "Transport categories are nominal; counts45,20,15,20 total100. Bars compare category frequencies; no continuous/time/pair relation for other charts.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-4-4",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 34,
+      "audit_id": "74a6f81a2c65:I20:L4:Q34:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Seorang peneliti ingin mengetahui apakah siswa merasa terbantu dengan penggunaan video pembelajaran. Ia mengajukan pertanyaan berikut.\n\n“Apakah kamu setuju bahwa video pembelajaran sangat bermanfaat dan membuat semua siswa lebih pintar?”\n\nKelemahan utama pertanyaan tersebut adalah ....",
+        "options": [
+          "Tidak menyebutkan nama sekolah responden.",
+          "Menggunakan kalimat yang mengarahkan jawaban dan memuat dua klaim sekaligus.",
+          "Tidak menyediakan pilihan jawaban berupa angka.",
+          "Menggunakan kalimat yang terlalu singkat."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Pertanyaan tersebut menggiring responden untuk menyetujui pernyataan positif dan menggabungkan manfaat video dengan peningkatan kemampuan siswa.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "The question leads with praise and combines benefit with making all students smarter; school name/numeric response/length do not fix that bias.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-4-5",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 35,
+      "audit_id": "74a6f81a2c65:I20:L4:Q35:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Data berikut menunjukkan jumlah siswa yang memilih kegiatan ekstrakurikuler di sebuah sekolah.\n\n| Kegiatan | Jumlah siswa |\n| --- | --- |\n| Futsal | 40 |\n| Basket | 25 |\n| Musik | 20 |\n| Pramuka | 15 |\n\nSeorang siswa menyimpulkan bahwa futsal merupakan kegiatan yang paling diminati seluruh siswa di kabupaten tersebut.\n\nEvaluasi yang paling tepat adalah ....",
+        "options": [
+          "Benar, karena futsal memiliki jumlah pemilih tertinggi.",
+          "Benar, karena jumlah seluruh responden mencapai 100 siswa.",
+          "Tidak tepat, karena data hanya mewakili responden di sekolah tersebut dan belum tentu menggambarkan seluruh kabupaten.",
+          "Tidak tepat, karena kegiatan ekstrakurikuler tidak dapat disajikan dalam tabel."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Data hanya berasal dari satu sekolah sehingga tidak cukup untuk menyimpulkan preferensi seluruh siswa di kabupaten tersebut.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Futsal40 is largest among this school sample100; neither largest count nor sample size establishes district representativeness. Tables can present categories.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-20-4-6",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 36,
+      "audit_id": "74a6f81a2c65:I20:L4:Q36:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Seorang peneliti ingin mengetahui kebiasaan membaca siswa kelas IX. Pertanyaan yang sesuai untuk memperoleh data adalah ....",
+        "options": [
+          "Berapa menit rata-rata kamu membaca setiap hari?",
+          "Apa jenis bacaan yang paling sering kamu baca?",
+          "Mengapa siswa yang tidak membaca buku dianggap malas?",
+          "Berapa banyak buku yang kamu selesaikan dalam satu bulan?",
+          "Apakah kamu setuju bahwa semua siswa wajib membaca novel?"
+        ],
+        "key": [
+          "A",
+          "B",
+          "D"
+        ],
+        "explanation": "Pembahasan: Pilihan A, B, dan D mengumpulkan informasi langsung mengenai kebiasaan membaca. Pilihan C mengandung penilaian negatif, sedangkan E menanyakan persetujuan terhadap kewajiban, bukan kebiasaan membaca.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "independent_reasoning": "A measures reading duration, B material type, D completed books. C is judgmental, E measures policy agreement rather than actual reading habits.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-20-4-7",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 37,
+      "audit_id": "74a6f81a2c65:I20:L4:Q37:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Perhatikan data nilai ulangan matematika berikut.\n\n70, 75, 80, 80, 85, 90, 90, 90\n\nPernyataan yang benar berdasarkan data tersebut adalah ....",
+        "options": [
+          "Nilai yang paling sering muncul adalah 90.",
+          "Median data adalah 82,5.",
+          "Rata-rata data adalah 82,5.",
+          "Jangkauan data adalah 20.",
+          "Seluruh siswa memperoleh nilai di atas 75."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "explanation": "Pembahasan: A benar, karena nilai 90 muncul tiga kali.\n\nB benar, karena median = (80 + 85) ÷ 2 = 82,5.\n\nC benar, karena rata-rata = 660 ÷ 8 = 82,5.\n\nD benar, karena jangkauan = 90 − 70 = 20.\n\nE salah, karena terdapat siswa yang memperoleh nilai 70 dan 75.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "independent_reasoning": "Sorted70,75,80,80,85,90,90,90: sum660,n8,mean82.5,median82.5,mode90,range20. Values70,75 refute E.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-20-4-8",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 38,
+      "audit_id": "74a6f81a2c65:I20:L4:Q38:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Sebuah sekolah ingin mengevaluasi kepuasan siswa terhadap kantin. Peneliti memberikan kuesioner kepada 30 siswa yang sedang makan di kantin pada jam istirahat pertama.\n\nEvaluasi yang tepat terhadap metode pengumpulan data tersebut adalah ....",
+        "options": [
+          "Sampel tersebut berpotensi kurang mewakili seluruh siswa sekolah.",
+          "Responden yang sedang menggunakan kantin mungkin memiliki pengalaman berbeda dari siswa yang tidak menggunakannya.",
+          "Hasilnya pasti tidak valid karena jumlah responden hanya 30 siswa.",
+          "Peneliti dapat mempertimbangkan pengambilan sampel dari kelas dan waktu istirahat yang berbeda.",
+          "Peneliti tidak perlu menentukan responden karena semua jawaban pasti sama."
+        ],
+        "key": [
+          "A",
+          "B",
+          "D"
+        ],
+        "explanation": "Pembahasan: Responden yang sedang berada di kantin belum tentu mewakili semua siswa. Pengambilan sampel dari berbagai kelas dan waktu dapat meningkatkan keterwakilan. Jumlah 30 responden tidak otomatis membuat hasil tidak valid.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "independent_reasoning": "Current first-break canteen users can exclude nonusers and other schedules. Broader class/time sampling helps; n30 does not itself prove invalidity, and answers need not be identical.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-20-4-9",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 39,
+      "audit_id": "74a6f81a2c65:I20:L4:Q39:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Perhatikan tabel jumlah pengunjung perpustakaan selama empat hari.\n\n| Hari | Jumlah pengunjung |\n| --- | --- |\n| Senin | 80 |\n| Selasa | 100 |\n| Rabu | 70 |\n| Kamis | 110 |\n\nTentukan kategori yang tepat.",
+        "options": [
+          "Jumlah pengunjung tertinggi terjadi pada hari Kamis.",
+          "Pengunjung hari Selasa lebih banyak 20 orang daripada hari Senin.",
+          "Jumlah pengunjung hari Rabu merupakan yang tertinggi.",
+          "Jumlah pengunjung hari Senin dan Rabu adalah 150 orang."
+        ],
+        "key": [
+          "1",
+          "2",
+          "4"
+        ],
+        "explanation": "Pembahasan: Kamis memiliki 110 pengunjung, jumlah tertinggi. Selasa lebih banyak 20 pengunjung daripada Senin. Rabu hanya memiliki 70 pengunjung, sedangkan Senin dan Rabu jika dijumlahkan menjadi 150 pengunjung.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Benar, B Benar, C Salah, D Benar."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "independent_reasoning": "Mon80,Tue100,Wed70,Thu110: maxThu;100-80=20;Wed not max;80+70=150.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-20-4-10",
+      "indicator": 20,
+      "level": 4,
+      "source_number": 40,
+      "audit_id": "74a6f81a2c65:I20:L4:Q40:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Seorang peneliti ingin mengetahui pendapat siswa tentang kebijakan membawa bekal dari rumah. Ia membuat pertanyaan berikut.\n\n“Apakah kamu setuju bahwa membawa bekal dari rumah lebih sehat, lebih hemat, dan lebih baik daripada membeli makanan di kantin?”\n\nTentukan kategori yang tepat.",
+        "options": [
+          "Pertanyaan tersebut mengandung beberapa aspek yang dapat menghasilkan jawaban berbeda.",
+          "Pertanyaan sebaiknya dipecah menjadi beberapa pertanyaan yang lebih spesifik.",
+          "Pertanyaan tersebut sudah netral karena tidak memuat pilihan jawaban.",
+          "Peneliti dapat menanyakan pendapat tentang kesehatan dan penghematan secara terpisah."
+        ],
+        "key": [
+          "1",
+          "2",
+          "4"
+        ],
+        "explanation": "Pembahasan: Pertanyaan menggabungkan aspek kesehatan, penghematan, dan perbandingan dengan kantin. Aspek-aspek tersebut sebaiknya ditanyakan secara terpisah dengan kalimat netral.",
+        "category_labels": [
+          "Tepat",
+          "Tidak tepat"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Tepat, B Tepat, C Tidak tepat, D Tepat."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "independent_reasoning": "Health, saving and superiority to canteen are distinct claims; split into neutral specific questions. Omitting answer choices does not make wording neutral.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-5-1",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 41,
+      "audit_id": "74a6f81a2c65:I20:L5:Q41:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Seorang peneliti ingin mengetahui tingkat kepuasan siswa terhadap fasilitas olahraga sekolah. Ia memiliki empat rancangan pertanyaan berikut.\n\nRancangan pertanyaan yang paling layak digunakan adalah ....",
+        "options": [
+          "Apakah fasilitas olahraga sekolah sangat bagus dan memuaskan?",
+          "Apakah kamu menyukai sekolahmu?",
+          "Bagaimana tingkat kepuasanmu terhadap fasilitas olahraga sekolah? (Sangat tidak puas, tidak puas, puas, sangat puas)",
+          "Mengapa fasilitas olahraga sekolah lebih baik daripada sekolah lain?"
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Pilihan C secara langsung mengukur tingkat kepuasan terhadap fasilitas olahraga dengan pilihan jawaban yang jelas dan terstruktur.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "C directly measures sports-facility satisfaction on an explicit ordered scale. A,D lead the respondent; B concerns school liking rather than these facilities.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-5-2",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 42,
+      "audit_id": "74a6f81a2c65:I20:L5:Q42:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Data hasil survei pilihan ekstrakurikuler dari 200 siswa disajikan sebagai berikut.\n\n| Ekstrakurikuler | Jumlah siswa |\n| --- | --- |\n| Futsal | 80 |\n| Basket | 50 |\n| Musik | 40 |\n| Tari | 30 |\n\nSeorang siswa menyajikan data tersebut menggunakan diagram garis yang menghubungkan setiap kategori ekstrakurikuler.\n\nEvaluasi terbaik terhadap penyajian tersebut adalah ....",
+        "options": [
+          "Tepat, karena diagram garis selalu menunjukkan perbandingan jumlah.",
+          "Kurang tepat, karena diagram batang lebih sesuai untuk membandingkan jumlah pada kategori yang berbeda.",
+          "Tepat, karena kategori ekstrakurikuler merupakan data kontinu.",
+          "Kurang tepat, karena data kategori hanya dapat disajikan dalam bentuk tabel."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Diagram batang lebih sesuai untuk membandingkan kategori yang tidak memiliki urutan berkesinambungan. Diagram garis biasanya digunakan untuk menunjukkan perubahan data, misalnya dari waktu ke waktu.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "Categories futsal80,basket50,music40,dance30 total200 have no continuous time order. Bars compare them; categories can also use tables or suitable pie charts.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-5-3",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 43,
+      "audit_id": "74a6f81a2c65:I20:L5:Q43:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Seorang peneliti menyurvei 20 siswa yang mengikuti bimbingan belajar dan menemukan bahwa 18 siswa memperoleh nilai matematika di atas 80. Ia menyimpulkan bahwa mengikuti bimbingan belajar pasti menyebabkan nilai matematika meningkat.\n\nPenilaian paling tepat terhadap kesimpulan tersebut adalah ....",
+        "options": [
+          "Tepat, karena mayoritas peserta memperoleh nilai tinggi.",
+          "Tepat, karena jumlah siswa yang memperoleh nilai tinggi lebih dari setengah sampel.",
+          "Belum cukup kuat, karena tidak ada data pembanding dan faktor lain yang mungkin memengaruhi nilai.",
+          "Salah, karena siswa yang mengikuti bimbingan belajar tidak dapat dijadikan responden penelitian."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Nilai tinggi pada peserta bimbingan belajar tidak membuktikan bahwa bimbingan belajar menjadi penyebabnya. Diperlukan data pembanding dan pertimbangan faktor lain yang memengaruhi hasil belajar.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "18/20 high scores in tutoring participants alone give neither baseline/control nor exclusion of confounders. Counts do not establish causation; participants can be surveyed.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-5-4",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 44,
+      "audit_id": "74a6f81a2c65:I20:L5:Q44:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah sekolah ingin menentukan kebijakan penggunaan telepon genggam saat pembelajaran. Peneliti hanya bertanya kepada 15 siswa yang aktif menggunakan telepon genggam di kelas, kemudian menyimpulkan bahwa semua siswa mendukung penggunaan telepon genggam tanpa batas.\n\nPerbaikan paling tepat adalah ....",
+        "options": [
+          "Menggunakan jawaban 15 siswa tersebut karena mereka paling memahami telepon genggam.",
+          "Menambah pertanyaan yang mengarahkan siswa agar menyetujui kebijakan.",
+          "Mengambil sampel yang lebih beragam dan menyusun pertanyaan netral tentang manfaat serta risiko penggunaannya.",
+          "Mengganti semua jawaban responden dengan pendapat guru."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Sampel yang beragam dapat mewakili pendapat siswa dengan lebih baik. Pertanyaan netral juga mengurangi bias dan memungkinkan responden menyampaikan pendapat secara objektif.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "15 active classroom-phone users form a selected sample. Diverse respondents and neutral benefit/risk questions improve it; leading questions or replacing responses do not.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-20-5-5",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 45,
+      "audit_id": "74a6f81a2c65:I20:L5:Q45:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Perhatikan hasil survei durasi penggunaan internet harian 100 siswa.\n\n| Durasi | Jumlah siswa |\n| --- | --- |\n| Kurang dari 2 jam | 20 |\n| 2–4 jam | 45 |\n| Lebih dari 4 jam | 35 |\n\nSeorang siswa menyimpulkan bahwa sebagian besar siswa menggunakan internet lebih dari 4 jam sehari.\n\nEvaluasi yang paling tepat adalah ....",
+        "options": [
+          "Benar, karena 35 siswa merupakan jumlah yang besar.",
+          "Benar, karena jumlah siswa yang menggunakan internet lebih dari 4 jam paling banyak dibandingkan kategori kurang dari 2 jam.",
+          "Salah, karena kategori 2–4 jam memiliki jumlah terbanyak, yaitu 45 siswa.",
+          "Salah, karena data durasi internet tidak dapat disajikan menggunakan tabel."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Sebanyak 35 siswa menggunakan internet lebih dari 4 jam, sedangkan 45 siswa berada pada kategori 2–4 jam. Jadi, kelompok terbesar bukan kategori lebih dari 4 jam.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Counts20,45,35 total100: >4h is35%, neither a majority nor the largest group. 2-4h is largest at45; it is not itself a majority.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-20-5-6",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 46,
+      "audit_id": "74a6f81a2c65:I20:L5:Q46:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Sekolah ingin mengetahui apakah penggunaan perpustakaan perlu ditingkatkan. Peneliti berencana melakukan survei terhadap siswa dari berbagai tingkat kelas.\n\nKeputusan yang paling tepat untuk meningkatkan kualitas data adalah ....",
+        "options": [
+          "Memilih responden dari beberapa tingkat kelas agar variasi pengalaman terwakili.",
+          "Menanyakan frekuensi kunjungan perpustakaan dalam periode yang jelas, misalnya satu bulan terakhir.",
+          "Hanya menyurvei siswa yang sering datang ke perpustakaan agar jawaban lebih terperinci.",
+          "Menggunakan pertanyaan netral yang tidak mengarahkan siswa untuk menyukai perpustakaan.",
+          "Menyimpulkan bahwa seluruh siswa menyukai perpustakaan hanya berdasarkan jawaban beberapa pengunjung."
+        ],
+        "key": [
+          "A",
+          "B",
+          "D"
+        ],
+        "explanation": "Pembahasan: Responden dari berbagai tingkat kelas membantu meningkatkan keterwakilan. Periode pertanyaan yang jelas memudahkan responden memberikan jawaban yang konsisten, sedangkan pertanyaan netral mengurangi bias.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "independent_reasoning": "Multiple grades improve coverage; explicit last-month period improves recall/comparability; neutral wording reduces bias. Frequent visitors alone do not support claims about all students.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-20-5-7",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 47,
+      "audit_id": "74a6f81a2c65:I20:L5:Q47:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Sebuah kelas melakukan survei tentang waktu belajar mandiri. Hasilnya menunjukkan bahwa 60% responden belajar selama 1–2 jam sehari, 25% belajar kurang dari 1 jam, dan 15% belajar lebih dari 2 jam.\n\nPernyataan atau keputusan yang dapat dipertanggungjawabkan berdasarkan data tersebut adalah ....",
+        "options": [
+          "Kelompok durasi belajar 1–2 jam merupakan kelompok terbesar dalam survei.",
+          "Semua siswa di sekolah tersebut belajar selama 1–2 jam setiap hari.",
+          "Diagram batang dapat digunakan untuk membandingkan jumlah atau persentase tiap kategori.",
+          "Data tersebut membuktikan bahwa belajar 1–2 jam menyebabkan nilai siswa lebih tinggi.",
+          "Kesimpulan perlu dibatasi pada responden dan metode pengumpulan data yang digunakan."
+        ],
+        "key": [
+          "A",
+          "C",
+          "E"
+        ],
+        "explanation": "Pembahasan: Data menunjukkan bahwa kategori 1–2 jam merupakan kelompok terbesar di antara responden. Diagram batang dapat membandingkan kategori, tetapi hasil survei tidak membuktikan hubungan sebab-akibat atau mewakili semua siswa secara otomatis.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, C, E"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "C",
+        "E"
+      ],
+      "independent_reasoning": "60% is largest; bars compare categories. Sampling limits generalization; no scores or experiment demonstrate causation and not every student belongs to that group.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-20-5-8",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 48,
+      "audit_id": "74a6f81a2c65:I20:L5:Q48:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Seorang kepala sekolah ingin memilih metode penyajian data hasil survei tentang jenis transportasi siswa. Data terdiri atas sepeda motor 50 siswa, sepeda 25 siswa, berjalan kaki 15 siswa, dan angkutan umum 10 siswa.\n\nPilih semua keputusan yang paling tepat.",
+        "options": [
+          "Menggunakan diagram batang untuk membandingkan jumlah siswa pada setiap jenis transportasi.",
+          "Menggunakan diagram lingkaran jika ingin menunjukkan proporsi setiap jenis transportasi dari keseluruhan responden.",
+          "Menggunakan diagram garis karena jenis transportasi memiliki urutan waktu yang berkesinambungan.",
+          "Memberikan judul dan label yang jelas agar pembaca memahami data.",
+          "Menghilangkan kategori dengan jumlah terkecil agar diagram menunjukkan hasil yang lebih meyakinkan."
+        ],
+        "key": [
+          "A",
+          "B",
+          "D"
+        ],
+        "explanation": "Pembahasan: Diagram batang sesuai untuk membandingkan jumlah, sedangkan diagram lingkaran menunjukkan proporsi terhadap keseluruhan. Judul dan label memperjelas informasi. Menghilangkan kategori tanpa alasan yang tepat dapat membuat penyajian menyesatkan.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "independent_reasoning": "Transport50,25,15,10 total100: bars compare counts,pie shows shares,title/labels aid reading. No time order; removing the smallest category distorts the complete data.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-20-5-9",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 49,
+      "audit_id": "74a6f81a2c65:I20:L5:Q49:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Sebuah penelitian bertujuan mengevaluasi kepuasan siswa terhadap layanan kantin sekolah. Peneliti mempertimbangkan beberapa rancangan pengumpulan dan penyajian data.",
+        "options": [
+          "Menggunakan pertanyaan dengan pilihan tingkat kepuasan yang jelas.",
+          "Hanya meminta pendapat siswa yang menyukai makanan kantin.",
+          "Menyajikan jumlah jawaban setiap kategori dalam diagram batang.",
+          "Mengubah hasil survei yang tidak sesuai harapan agar terlihat lebih baik."
+        ],
+        "key": [
+          "1",
+          "3"
+        ],
+        "explanation": "Pembahasan: Pertanyaan yang jelas dan diagram yang sesuai mendukung pengumpulan serta penyajian data. Memilih responden berdasarkan kesukaan atau mengubah hasil survei dapat menimbulkan bias dan merusak objektivitas.",
+        "category_labels": [
+          "Layak",
+          "Tidak Layak"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Layak, B Tidak Layak, C Layak, D Tidak Layak."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "3"
+      ],
+      "independent_reasoning": "Clear satisfaction scale and category bars support measurement. Selecting only fans biases sampling; altering unwanted responses violates data integrity.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-20-5-10",
+      "indicator": 20,
+      "level": 5,
+      "source_number": 50,
+      "audit_id": "74a6f81a2c65:I20:L5:Q50:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Sebuah survei terhadap 80 siswa menghasilkan data berikut mengenai pendapat mereka tentang penambahan jam olahraga.\n\n| Pendapat | Jumlah siswa |\n| --- | --- |\n| Setuju | 44 |\n| Tidak setuju | 24 |\n| Ragu-ragu | 12 |\n\nSeorang siswa menyimpulkan bahwa seluruh siswa sekolah mendukung penambahan jam olahraga karena jumlah responden yang setuju lebih banyak.\n\nTentukan kategori Tepat atau Tidak Tepat untuk setiap pernyataan evaluasi berikut.",
+        "options": [
+          "Menyatakan bahwa kelompok setuju merupakan kelompok terbesar di antara responden.",
+          "Menyimpulkan bahwa seluruh siswa sekolah mendukung kebijakan tersebut hanya dari sampel ini.",
+          "Menyebutkan jumlah dan persentase setiap kategori untuk memperjelas interpretasi data.",
+          "Mempertimbangkan keterwakilan sampel sebelum menarik kesimpulan untuk seluruh sekolah."
+        ],
+        "key": [
+          "1",
+          "3",
+          "4"
+        ],
+        "explanation": "Pembahasan: Sebanyak 44 dari 80 responden atau 55% menyatakan setuju. Kelompok setuju memang paling besar, tetapi belum mewakili seluruh siswa secara otomatis. Peneliti perlu mempertimbangkan keterwakilan sampel sebelum menarik kesimpulan yang lebih luas.",
+        "category_labels": [
+          "Tepat",
+          "Tidak Tepat"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Tepat, B Tidak Tepat, C Tepat, D Tepat."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "independent_reasoning": "44+24+12=80;44/80=55%,the largest and a majority of respondents. It does not establish all-school support; report counts/percentages and examine sample coverage.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-4-1",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 31,
+      "audit_id": "74a6f81a2c65:I21:L4:Q31:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Nilai ulangan matematika delapan siswa adalah sebagai berikut.\n\n72, 75, 80, 80, 83, 85, 85, 92\n\nSeorang siswa menyatakan bahwa median data tersebut adalah 80. Analisis yang tepat adalah ....",
+        "options": [
+          "Benar, karena 80 merupakan nilai yang muncul dua kali.",
+          "Salah, karena median data adalah 81,5.",
+          "Salah, karena median data adalah 82.",
+          "Benar, karena median merupakan nilai yang paling sering muncul."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Banyak data adalah 8, sehingga median merupakan rata-rata data ke-4 dan ke-5 setelah diurutkan.\n\nMedian = (80 + 83) ÷ 2 = 81,5.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "Eight sorted values72,75,80,80,83,85,85,92: median=(80+83)/2=81.5. Frequency does not define median.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-4-2",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 32,
+      "audit_id": "74a6f81a2c65:I21:L4:Q32:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Data jumlah buku yang dibaca lima siswa dalam satu bulan adalah 3, 4, 5, 5, dan 8 buku.\n\nSeorang siswa menyatakan bahwa rerata data lebih besar daripada median. Pernyataan tersebut ....",
+        "options": [
+          "Benar, karena rerata = 5 dan median = 5.",
+          "Benar, karena rerata = 5 dan median = 4.",
+          "Salah, karena rerata = 5 dan median = 5.",
+          "Salah, karena rerata = 6 dan median = 5."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Rerata = (3 + 4 + 5 + 5 + 8) ÷ 5 = 5. Median adalah data tengah, yaitu 5. Jadi, rerata sama dengan median.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "3+4+5+5+8=25;mean5,median5. Mean is not greater; only C has both correct verdict and numbers.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-4-3",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 33,
+      "audit_id": "74a6f81a2c65:I21:L4:Q33:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Perhatikan data waktu tempuh siswa menuju sekolah dalam menit.\n\n10, 12, 15, 15, 18, 20, 25\n\nKesimpulan yang tepat berdasarkan data tersebut adalah ....",
+        "options": [
+          "Modus = 15 menit dan jangkauan = 15 menit.",
+          "Modus = 18 menit dan jangkauan = 10 menit.",
+          "Median = 15 menit dan jangkauan = 20 menit.",
+          "Rerata = 15 menit dan modus = 20 menit."
+        ],
+        "key": [
+          "A"
+        ],
+        "explanation": "Pembahasan: Nilai 15 muncul paling sering, sehingga modusnya 15. Jangkauan = 25 − 10 = 15 menit.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A"
+        ]
+      },
+      "independent_answer": [
+        "A"
+      ],
+      "independent_reasoning": "10,12,15,15,18,20,25: mode15,range25-10=15,median15,mean115/7. Only A.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-4-4",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 34,
+      "audit_id": "74a6f81a2c65:I21:L4:Q34:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Nilai lima siswa adalah 60, 70, 75, 80, dan 90. Guru kemudian menambahkan satu nilai baru, yaitu 100, ke dalam kumpulan data tersebut.\n\nAnalisis yang tepat mengenai perubahan rerata adalah ....",
+        "options": [
+          "Rerata tetap karena nilai baru tidak mengubah nilai yang sudah ada.",
+          "Rerata meningkat karena nilai baru lebih besar daripada rerata awal.",
+          "Rerata menurun karena jumlah data bertambah.",
+          "Rerata menjadi sama dengan median awal."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Rerata awal = 375 ÷ 5 = 75. Setelah nilai 100 ditambahkan, rerata menjadi 475 ÷ 6 ≈ 79,17. Karena nilai baru lebih besar daripada rerata awal, rerata meningkat.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "Initial sum375,n5,mean75. Add100:475/6=79.166...,greater75; median initial75 does not become new mean.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-4-5",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 35,
+      "audit_id": "74a6f81a2c65:I21:L4:Q35:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua kelompok siswa memiliki data nilai berikut.\n\nKelompok A: 70, 75, 80, 85, 90\n\nKelompok B: 60, 75, 80, 85, 100\n\nSeorang siswa menyatakan bahwa kedua kelompok memiliki rerata dan median yang sama, sehingga penyebaran nilainya juga sama.\n\nEvaluasi yang tepat adalah ....",
+        "options": [
+          "Benar, karena rerata dan median yang sama selalu menunjukkan penyebaran yang sama.",
+          "Benar, karena kedua kelompok mempunyai jumlah siswa yang sama.",
+          "Salah, karena kedua kelompok memiliki jangkauan berbeda meskipun rerata dan median sama.",
+          "Salah, karena rerata kedua kelompok berbeda."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Rerata A = 80 dan rerata B = 80.\n\nMedian kedua kelompok = 80.\n\nJangkauan A = 90 − 70 = 20.\n\nJangkauan B = 100 − 60 = 40.\n\nRerata dan median sama tidak berarti penyebaran data sama.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "A and B sums400,mean80,median80. Ranges20 and40 differ; equal center does not imply equal spread.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-21-4-6",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 36,
+      "audit_id": "74a6f81a2c65:I21:L4:Q36:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Data jumlah soal yang diselesaikan lima siswa adalah 4, 6, 6, 8, dan 11.\n\nPernyataan yang benar adalah ....",
+        "options": [
+          "Rerata data adalah 7.",
+          "Median data adalah 6.",
+          "Modus data adalah 8.",
+          "Jangkauan data adalah 7.",
+          "Rerata lebih kecil daripada median."
+        ],
+        "key": [
+          "A",
+          "B",
+          "D"
+        ],
+        "explanation": "Pembahasan: Rerata = 35 ÷ 5 = 7.\n\nMedian = 6.\n\nModus = 6.\n\nJangkauan = 11 − 4 = 7.\n\nJadi, A, B, dan D benar.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "independent_reasoning": "4,6,6,8,11:sum35,mean7,median6,mode6,range7. C mode8 false; E7<6 false.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-21-4-7",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 37,
+      "audit_id": "74a6f81a2c65:I21:L4:Q37:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Perhatikan data berikut.\n\n65, 70, 75, 80, 80, 85, 95\n\nPernyataan yang benar berdasarkan data tersebut adalah ....",
+        "options": [
+          "Median data adalah 80.",
+          "Modus data adalah 80.",
+          "Jangkauan data adalah 30.",
+          "Rerata data adalah 80.",
+          "Jika nilai 95 dihapus, median data yang tersisa adalah 75."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C"
+        ],
+        "explanation": "Pembahasan: Median = 80.\n\nModus = 80.\n\nJangkauan = 95 − 65 = 30.\n\nRerata = 550 ÷ 7 ≈ 78,57, bukan 80.\n\nSetelah 95 dihapus, data tengah dari enam nilai adalah (75 + 80) ÷ 2 = 77,5, bukan 75.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "independent_reasoning": "65,70,75,80,80,85,95:sum550,mean550/7,median80,mode80,range30. Remove95:median(75+80)/2=77.5,not75.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-21-4-8",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 38,
+      "audit_id": "74a6f81a2c65:I21:L4:Q38:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Dua kelas memiliki data nilai berikut.\n\nKelas A: 70, 75, 80, 85, 90\n\nKelas B: 60, 80, 80, 80, 100\n\nPernyataan yang tepat untuk mengevaluasi kedua kelompok adalah ....",
+        "options": [
+          "Kedua kelas memiliki median yang sama.",
+          "Kelas B memiliki modus yang lebih tinggi daripada kelas A.",
+          "Kelas A memiliki jangkauan lebih kecil daripada kelas B.",
+          "Kedua kelas memiliki rerata yang sama.",
+          "Kelas B pasti memiliki kemampuan seluruh siswa lebih baik karena modusnya 80."
+        ],
+        "key": [
+          "A",
+          "C",
+          "D"
+        ],
+        "explanation": "Pembahasan: Median kedua kelas = 80.\n\nKelas A tidak memiliki modus tunggal karena seluruh nilainya berbeda.\n\nJangkauan A = 20, sedangkan B = 40.\n\nRerata kedua kelas = 80.\n\nModus saja tidak cukup untuk menilai kemampuan seluruh siswa.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, C, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "independent_reasoning": "Both sums400,means80,medians80. A all distinct has no unique mode; B mode80. Ranges20,40; this alone cannot prove every B student is superior.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-21-4-9",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 39,
+      "audit_id": "74a6f81a2c65:I21:L4:Q39:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Data jumlah pengunjung perpustakaan selama lima hari adalah 20, 25, 25, 30, dan 40 orang.",
+        "options": [
+          "Rerata jumlah pengunjung adalah 28 orang.",
+          "Median data adalah 25 orang.",
+          "Modus data adalah 25 orang.",
+          "Jangkauan data adalah 20 orang."
+        ],
+        "key": [
+          "1",
+          "3",
+          "4"
+        ],
+        "explanation": "Pembahasan: Rerata = 140 ÷ 5 = 28.\n\nMedian = 25, sehingga pernyataan B salah.\n\nModus = 25.\n\nJangkauan = 40 − 20 = 20.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Benar, B Salah, C Benar, D Benar."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "independent_reasoning": "20,25,25,30,40:sum140,mean28,median25,mode25,range20. All four statements true, including B despite its false source label.",
+      "answer_is_conditional": false,
+      "issues": [
+        "WRONG_KEY_AND_EXPLANATION: median data adalah25, sehingga B benar. Kunci/tabel memberi B Salah, pembahasan juga menyebut median25 tetapi menyimpulkan B salah. Himpunan benar1234, bukan134."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "kategori-21-4-10",
+      "indicator": 21,
+      "level": 4,
+      "source_number": 40,
+      "audit_id": "74a6f81a2c65:I21:L4:Q40:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Dua kelompok memiliki data waktu belajar harian sebagai berikut.\n\nKelompok A: 1, 2, 2, 3, 7 jam\n\nKelompok B: 2, 2, 3, 4, 4 jam\n\nTentukan apakah evaluasi berikut tepat.",
+        "options": [
+          "Kelompok A memiliki rerata lebih tinggi daripada kelompok B.",
+          "Kedua kelompok memiliki median yang sama.",
+          "Kelompok B memiliki jangkauan lebih besar daripada kelompok A.",
+          "Kelompok A memiliki variasi data lebih besar jika dinilai berdasarkan jangkauan."
+        ],
+        "key": [
+          "1",
+          "2",
+          "4"
+        ],
+        "explanation": "Pembahasan: Rerata A = 15 ÷ 5 = 3 jam.\n\nRerata B = 15 ÷ 5 = 3 jam. Jadi, pernyataan A seharusnya Tidak tepat.\n\nMedian A = 2 jam dan median B = 3 jam. Jadi, pernyataan B seharusnya Tidak tepat.\n\nJangkauan A = 7 − 1 = 6 jam.\n\nJangkauan B = 4 − 2 = 2 jam.\n\nDengan demikian, kunci yang benar adalah A Tidak tepat, B Tidak tepat, C Tidak tepat, D Tepat.",
+        "category_labels": [
+          "Tepat",
+          "Tidak tepat"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Tepat, B Tepat, C Tidak tepat, D Tepat."
+        ]
+      },
+      "independent_answer": [
+        "4"
+      ],
+      "independent_reasoning": "A1,2,2,3,7 and B2,2,3,4,4 both sum15,mean3. Medians2 and3 differ. Ranges6 and2: only D is correct.",
+      "answer_is_conditional": false,
+      "issues": [
+        "CONFLICTING_KEY: rerata kedua kelompok3; median2 dan3; jangkauan6 dan2. Hanya D tepat. Kunci/tabel124 bertentangan dengan data dan koreksi pada pembahasan yang memilih4."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "pg-21-5-1",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 41,
+      "audit_id": "74a6f81a2c65:I21:L5:Q41:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Nilai ulangan enam siswa adalah 60, 70, 75, 80, 85, dan 100. Seorang guru ingin menggunakan ukuran pemusatan data yang paling mewakili nilai tengah siswa dan tidak terlalu terpengaruh nilai ekstrem.\n\nUkuran yang paling tepat adalah ....",
+        "options": [
+          "Rerata",
+          "Median",
+          "Modus",
+          "Jangkauan"
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Median relatif tidak terpengaruh oleh nilai ekstrem. Karena data berjumlah enam, median = (75 + 80) ÷ 2 = 77,5.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "60,70,75,80,85,100:median77.5; mean470/6 is influenced by extremes. No repeated mode; range40 measures spread,not center.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-5-2",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 42,
+      "audit_id": "74a6f81a2c65:I21:L5:Q42:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Data penghasilan harian lima pekerja dalam ribuan rupiah adalah 100, 110, 120, 130, dan 540.\n\nSeorang peneliti ingin menyajikan nilai yang paling mewakili penghasilan tipikal pekerja. Pilihan yang paling tepat adalah ....",
+        "options": [
+          "Rerata, karena selalu mewakili mayoritas data.",
+          "Median, karena lebih tahan terhadap pengaruh nilai ekstrem.",
+          "Modus, karena semua data pasti memiliki nilai yang paling sering muncul.",
+          "Jangkauan, karena menunjukkan nilai tengah data."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Median adalah 120 ribu rupiah. Nilai 540 ribu rupiah menarik rerata ke atas sehingga median lebih mewakili nilai tipikal pada data tersebut.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "100,110,120,130,540:median120,mean200,no mode,range440. Median resists the high540; alternative rationales are false.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-5-3",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 43,
+      "audit_id": "74a6f81a2c65:I21:L5:Q43:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Perhatikan dua kumpulan data berikut.\n\nData P: 10, 10, 10, 10, 10\n\nData Q: 6, 8, 10, 12, 14\n\nSeorang siswa menyatakan bahwa kedua kumpulan data memiliki rerata yang sama, sehingga keduanya tidak memiliki perbedaan karakteristik.\n\nEvaluasi yang tepat adalah ....",
+        "options": [
+          "Benar, karena rerata yang sama selalu berarti data identik.",
+          "Benar, karena kedua data memiliki jumlah nilai yang sama.",
+          "Salah, karena rerata sama tetapi jangkauan dan penyebaran datanya berbeda.",
+          "Salah, karena rerata Data P lebih kecil daripada Data Q."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Rerata P = 10.\n\nRerata Q = 10.\n\nJangkauan P = 0.\n\nJangkauan Q = 14 − 6 = 8.\n\nKedua data memiliki rerata sama, tetapi penyebarannya berbeda.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "P constant10:mean10,range0;Q6,8,10,12,14:mean10,range8. Same mean and count do not imply identical distribution.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-5-4",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 44,
+      "audit_id": "74a6f81a2c65:I21:L5:Q44:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah kelas memiliki data nilai 70, 75, 80, 80, dan 95. Guru ingin menaikkan nilai terendah dari 70 menjadi 80 tanpa mengubah nilai siswa lainnya.\n\nEvaluasi yang tepat terhadap perubahan tersebut adalah ....",
+        "options": [
+          "Rerata meningkat, median tetap, dan jangkauan menurun.",
+          "Rerata menurun, median meningkat, dan jangkauan tetap.",
+          "Rerata tetap, median menurun, dan jangkauan meningkat.",
+          "Rerata meningkat, median meningkat, dan jangkauan tetap."
+        ],
+        "key": [
+          "A"
+        ],
+        "explanation": "Pembahasan: Rerata awal = 400 ÷ 5 = 80. Rerata baru = 410 ÷ 5 = 82. Median tetap 80, sedangkan jangkauan berubah dari 95 − 70 = 25 menjadi 95 − 75 = 20.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A"
+        ]
+      },
+      "independent_answer": [
+        "A"
+      ],
+      "independent_reasoning": "Initial70,75,80,80,95:mean80,median80,range25. Replace70 with80:mean82,median80,range20.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-21-5-5",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 45,
+      "audit_id": "74a6f81a2c65:I21:L5:Q45:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua kelompok memiliki data waktu penyelesaian tugas dalam menit.\n\nKelompok A: 20, 22, 24, 26, 28\n\nKelompok B: 15, 20, 24, 28, 33\n\nJika guru ingin menentukan kelompok dengan waktu penyelesaian yang lebih konsisten berdasarkan jangkauan, keputusan yang paling tepat adalah ....",
+        "options": [
+          "Kelompok A, karena jangkauannya lebih kecil.",
+          "Kelompok B, karena nilai tertingginya lebih besar.",
+          "Kedua kelompok sama konsisten karena median keduanya sama.",
+          "Kelompok B, karena memiliki lebih banyak variasi nilai."
+        ],
+        "key": [
+          "A"
+        ],
+        "explanation": "Pembahasan: Jangkauan A = 28 − 20 = 8 menit.\n\nJangkauan B = 33 − 15 = 18 menit.\n\nJangkauan lebih kecil menunjukkan penyebaran data yang lebih sempit berdasarkan ukuran tersebut.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A"
+        ]
+      },
+      "independent_answer": [
+        "A"
+      ],
+      "independent_reasoning": "Ranges A28-20=8,B33-15=18; both medians24 and means24. Defined consistency uses smaller range,not larger maximum/variation.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-21-5-6",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 46,
+      "audit_id": "74a6f81a2c65:I21:L5:Q46:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Nilai lima siswa adalah 65, 70, 75, 80, dan 110. Seorang guru mempertimbangkan ukuran statistik untuk menggambarkan nilai tipikal kelompok tersebut.\n\nPernyataan yang tepat adalah ....",
+        "options": [
+          "Median data adalah 75.",
+          "Rerata data adalah 80.",
+          "Jangkauan data adalah 45.",
+          "Nilai 110 dapat memengaruhi rerata secara signifikan.",
+          "Modus data adalah 75."
+        ],
+        "key": [
+          "A",
+          "C",
+          "D"
+        ],
+        "explanation": "Pembahasan: Median = 75.\n\nRerata = 400 ÷ 5 = 80, sehingga B sebenarnya benar.\n\nJangkauan = 110 − 65 = 45.\n\nNilai ekstrem dapat menarik rerata ke atas.\n\nTidak ada modus karena semua nilai muncul satu kali.\n\nKunci yang benar: A, B, C, D.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, C, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "independent_reasoning": "65,70,75,80,110:sum400,mean80,median75,range45,no mode.110 shifts mean above75. Source omits true B then acknowledges it in explanation.",
+      "answer_is_conditional": false,
+      "issues": [
+        "CONFLICTING_KEY: jumlah400/5=80, jadi opsi B benar. Kunci awal A,C,D menghilangkan B; pembahasan kemudian mengoreksi menjadi A,B,C,D."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "mcma-21-5-7",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 47,
+      "audit_id": "74a6f81a2c65:I21:L5:Q47:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Dua kelompok siswa memperoleh nilai berikut.\n\nKelompok A: 70, 70, 80, 80, 100\n\nKelompok B: 60, 80, 80, 90, 90\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Median kedua kelompok sama.",
+          "Modus kelompok A adalah 70 dan 80.",
+          "Rerata kelompok A lebih tinggi daripada kelompok B.",
+          "Jangkauan kelompok B lebih kecil daripada kelompok A.",
+          "Kedua kelompok memiliki jangkauan yang sama."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C",
+          "E"
+        ],
+        "explanation": "Pembahasan: Median kedua kelompok = 80.\n\nKelompok A memiliki dua modus, yaitu 70 dan 80.\n\nRerata A = 400 ÷ 5 = 80.\n\nRerata B = 400 ÷ 5 = 80. Jadi, C salah.\n\nJangkauan A = 100 − 70 = 30.\n\nJangkauan B = 90 − 60 = 30.\n\nDengan demikian, kunci yang benar adalah A, B, E.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C, E"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "E"
+      ],
+      "independent_reasoning": "A70,70,80,80,100 and B60,80,80,90,90 both sum400,mean80,median80,range30. A modes70,80; A mean not higher; B range not smaller.",
+      "answer_is_conditional": false,
+      "issues": [
+        "CONFLICTING_KEY: rerata kedua kelompok400/5=80, sehingga C salah. Kunci awal A,B,C,E bertentangan dengan koreksi pembahasan A,B,E."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "mcma-21-5-8",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 48,
+      "audit_id": "74a6f81a2c65:I21:L5:Q48:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Data waktu membaca harian lima siswa adalah 20, 30, 30, 40, dan 80 menit. Seorang peneliti ingin mengevaluasi pengaruh perubahan satu data terhadap ukuran statistik.\n\nJika nilai 80 diganti menjadi 50, pernyataan yang benar adalah ....",
+        "options": [
+          "Rerata menurun.",
+          "Median tetap.",
+          "Modus tetap.",
+          "Jangkauan menurun.",
+          "Median meningkat."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "explanation": "Pembahasan: Rerata awal = 200 ÷ 5 = 40 menit.\n\nRerata baru = 170 ÷ 5 = 34 menit.\n\nMedian tetap 30 menit.\n\nModus tetap 30 menit.\n\nJangkauan turun dari 80 − 20 = 60 menjadi 50 − 20 = 30 menit.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "independent_reasoning": "Replace80 with50 in20,30,30,40,80:mean40 becomes34,median30 and mode30 unchanged,range60 becomes30; E false.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-21-5-9",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 49,
+      "audit_id": "74a6f81a2c65:I21:L5:Q49:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Data jumlah buku yang dibaca siswa adalah 2, 3, 3, 4, dan 8 buku.",
+        "options": [
+          "Rerata data adalah 4 buku.",
+          "Median data adalah 3 buku.",
+          "Modus data adalah 4 buku.",
+          "Jangkauan data adalah 6 buku."
+        ],
+        "key": [
+          "1",
+          "2",
+          "4"
+        ],
+        "explanation": "Pembahasan: Rerata = 20 ÷ 5 = 4.\n\nMedian = 3.\n\nModus = 3.\n\nJangkauan = 8 − 2 = 6.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Benar, B Benar, C Salah, D Benar."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "independent_reasoning": "2,3,3,4,8:sum20,mean4,median3,mode3,range6. C mode4 false.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-21-5-10",
+      "indicator": 21,
+      "level": 5,
+      "source_number": 50,
+      "audit_id": "74a6f81a2c65:I21:L5:Q50:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Dua kelompok memiliki data waktu belajar harian sebagai berikut.\n\nKelompok A: 1, 2, 3, 4, 10 jam\n\nKelompok B: 2, 3, 3, 4, 8 jam\n\nTentukan kategori yang tepat.",
+        "options": [
+          "Rerata kedua kelompok sama.",
+          "Median kelompok A lebih tinggi daripada kelompok B.",
+          "Kelompok A memiliki jangkauan lebih besar daripada kelompok B.",
+          "Modus kelompok B adalah 3 jam."
+        ],
+        "key": [
+          "1",
+          "3",
+          "4"
+        ],
+        "explanation": "Pembahasan: Rerata A = 20 ÷ 5 = 4 jam.\n\nRerata B = 20 ÷ 5 = 4 jam.\n\nMedian A = 3 jam dan median B = 3 jam.\n\nJangkauan A = 10 − 1 = 9 jam.\n\nJangkauan B = 8 − 2 = 6 jam.\n\nModus B = 3 jam.\n\nJadi, kedua kelompok memiliki rerata dan median yang sama, tetapi jangkauan kelompok A lebih besar.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Benar, B Salah, C Benar, D Benar."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "independent_reasoning": "A1,2,3,4,10 and B2,3,3,4,8 both sum20,mean4,median3. Ranges9 and6;B mode3. A median not higher.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-4-1",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 31,
+      "audit_id": "74a6f81a2c65:I22:L4:Q31:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua kelompok siswa memperoleh nilai matematika sebagai berikut.\n\nKelompok A: 70, 75, 80, 85, 90\n\nKelompok B: 60, 75, 80, 85, 100\n\nAnalisis yang tepat berdasarkan data tersebut adalah ....",
+        "options": [
+          "Rerata kelompok A lebih tinggi daripada kelompok B.",
+          "Median kelompok A lebih tinggi daripada kelompok B.",
+          "Rerata dan median kedua kelompok sama, tetapi jangkauannya berbeda.",
+          "Kedua kelompok memiliki jangkauan yang sama."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Rerata A = 80 dan rerata B = 80.\n\nMedian A = 80 dan median B = 80.\n\nJangkauan A = 90 − 70 = 20.\n\nJangkauan B = 100 − 60 = 40.\n\nKedua kelompok memiliki ukuran pemusatan yang sama, tetapi penyebaran datanya berbeda.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Both groups sum400,mean80,median80;A range20,B40. Only C states equal centers and unequal ranges.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-4-2",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 32,
+      "audit_id": "74a6f81a2c65:I22:L4:Q32:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Data waktu penyelesaian tugas dari dua kelompok siswa adalah sebagai berikut.\n\nKelompok P: 20, 22, 24, 26, 28\n\nKelompok Q: 15, 20, 24, 28, 33\n\nKesimpulan yang tepat berdasarkan ukuran penyebaran adalah ....",
+        "options": [
+          "Kelompok P memiliki jangkauan lebih besar daripada kelompok Q.",
+          "Kelompok Q memiliki jangkauan lebih besar sehingga datanya lebih menyebar berdasarkan jangkauan.",
+          "Kedua kelompok memiliki jangkauan yang sama.",
+          "Kelompok P memiliki rerata lebih tinggi daripada kelompok Q."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Jangkauan P = 28 − 20 = 8.\n\nJangkauan Q = 33 − 15 = 18.\n\nRerata kedua kelompok = 24.\n\nKelompok Q mempunyai jangkauan lebih besar sehingga data waktunya lebih menyebar berdasarkan ukuran tersebut.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "P20,22,24,26,28 and Q15,20,24,28,33 both sum120,mean24; ranges8 and18. Only B.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-4-3",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 33,
+      "audit_id": "74a6f81a2c65:I22:L4:Q33:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Perhatikan data jumlah buku yang dibaca siswa selama satu bulan.\n\nKelompok A: 2, 3, 3, 4, 8\n\nKelompok B: 3, 3, 4, 4, 6\n\nPernyataan yang tepat adalah ....",
+        "options": [
+          "Kedua kelompok memiliki median yang sama dan jangkauan yang sama.",
+          "Kelompok A memiliki jangkauan lebih kecil daripada kelompok B.",
+          "Kelompok B memiliki median lebih rendah daripada kelompok A.",
+          "Kelompok A dan B memiliki rerata yang sama."
+        ],
+        "key": [
+          "A"
+        ],
+        "explanation": "Pembahasan: Median A = 3 dan median B = 4. Jadi, median tidak sama.\n\nJangkauan A = 8 − 2 = 6.\n\nJangkauan B = 6 − 3 = 3.\n\nRerata A = 20 ÷ 5 = 4.\n\nRerata B = 20 ÷ 5 = 4.\n\nKoreksi kunci: Tidak ada pilihan yang benar sepenuhnya. Agar soal valid, pilihan A seharusnya berbunyi: “Kedua kelompok memiliki rerata yang sama, tetapi jangkauan kelompok A lebih besar daripada kelompok B.”",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A"
+        ]
+      },
+      "independent_answer": [
+        "D"
+      ],
+      "independent_reasoning": "A2,3,3,4,8:mean4,median3,range6;B3,3,4,4,6:mean4,median4,range3. D is already correct; source key A and explanation saying no option is correct both fail.",
+      "answer_is_conditional": false,
+      "issues": [
+        "WRONG_KEY_AND_CORRECTION: opsi D benar karena rerata kedua kelompok4. Kunci awal A salah; pembahasan salah menyatakan tidak ada opsi benar, lalu mengusulkan perubahan A yang akan menduplikasi D."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "pg-22-4-4",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 34,
+      "audit_id": "74a6f81a2c65:I22:L4:Q34:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua kelas memiliki nilai ulangan berikut.\n\nKelas X: 70, 80, 80, 80, 90\n\nKelas Y: 60, 70, 80, 90, 100\n\nAnalisis yang tepat adalah ....",
+        "options": [
+          "Kelas X memiliki median dan modus lebih tinggi daripada kelas Y.",
+          "Kelas X dan Y memiliki median sama, tetapi jangkauan kelas Y lebih besar.",
+          "Kelas X memiliki jangkauan lebih besar daripada kelas Y.",
+          "Kelas Y memiliki modus 90."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Median X = 80 dan median Y = 80.\n\nJangkauan X = 90 − 70 = 20.\n\nJangkauan Y = 100 − 60 = 40.\n\nModus X = 80, sedangkan kelas Y tidak memiliki modus tunggal karena semua nilai muncul sekali.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "X70,80,80,80,90 and Y60,70,80,90,100:median80 each,ranges20/40. X mode80,Y no unique mode; A wrongly claims higher median.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-4-5",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 35,
+      "audit_id": "74a6f81a2c65:I22:L4:Q35:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua kelompok siswa memperoleh hasil tes berikut.\n\nKelompok A: 75, 78, 80, 82, 85\n\nKelompok B: 60, 75, 80, 85, 100\n\nSeorang guru menyatakan bahwa kelompok B lebih baik karena memiliki nilai tertinggi.\n\nEvaluasi yang paling tepat adalah ....",
+        "options": [
+          "Benar, karena nilai tertinggi menentukan kualitas seluruh kelompok.",
+          "Benar, karena kelompok B memiliki jangkauan lebih besar.",
+          "Tidak tepat, karena perbandingan perlu mempertimbangkan ukuran pemusatan dan penyebaran, bukan hanya nilai tertinggi.",
+          "Tidak tepat, karena nilai tertinggi tidak boleh digunakan dalam analisis data."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Nilai tertinggi saja tidak cukup untuk menentukan kelompok yang lebih baik. Rerata, median, dan penyebaran data juga perlu dipertimbangkan.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Both means/medians80;A range10,B40. Maximum100 versus85 alone does not rank whole groups; maximum remains legitimate data.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-22-4-6",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 36,
+      "audit_id": "74a6f81a2c65:I22:L4:Q36:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Perhatikan dua kelompok data berikut.\n\nKelompok A: 60, 70, 80, 90, 100\n\nKelompok B: 70, 75, 80, 85, 90\n\nPernyataan yang benar adalah ....",
+        "options": [
+          "Rerata kedua kelompok sama.",
+          "Median kedua kelompok sama.",
+          "Jangkauan kelompok A lebih besar daripada kelompok B.",
+          "Kelompok B memiliki rerata lebih tinggi daripada kelompok A.",
+          "Kelompok A memiliki penyebaran lebih kecil berdasarkan jangkauan."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C"
+        ],
+        "explanation": "Pembahasan: Rerata A = 80 dan rerata B = 80.\n\nMedian keduanya = 80.\n\nJangkauan A = 40.\n\nJangkauan B = 20.\n\nDengan demikian, kelompok A memiliki jangkauan lebih besar.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "independent_reasoning": "Means80,medians80;A range40,B20. D falsely higher mean for B; E reverses range comparison.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-22-4-7",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 37,
+      "audit_id": "74a6f81a2c65:I22:L4:Q37:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Dua kelompok siswa memperoleh data berikut.\n\nKelompok P: 5, 5, 5, 5, 5\n\nKelompok Q: 3, 4, 5, 6, 7\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Rerata kedua kelompok sama.",
+          "Median kedua kelompok sama.",
+          "Jangkauan kelompok P lebih besar daripada kelompok Q.",
+          "Kelompok P memiliki penyebaran nol berdasarkan jangkauan.",
+          "Modus kelompok Q adalah 5."
+        ],
+        "key": [
+          "A",
+          "B",
+          "D",
+          "E"
+        ],
+        "explanation": "Pembahasan: Rerata kedua kelompok = 5.\n\nMedian kedua kelompok = 5.\n\nJangkauan P = 0, sedangkan Q = 4.\n\nModus Q tidak tunggal karena semua nilai muncul satu kali.\n\nKoreksi kunci: Jawaban yang benar adalah A, B, D. Pilihan E salah karena tidak ada nilai yang muncul lebih dari sekali pada kelompok Q.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, D, E"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "independent_reasoning": "P constant5:mean5,median5,range0;Q3,4,5,6,7:mean5,median5,range4,no unique mode. E falsely singles out5 as mode.",
+      "answer_is_conditional": false,
+      "issues": [
+        "CONFLICTING_KEY: kelompok Q berisi3,4,5,6,7 tanpa modus tunggal. E salah. Kunci awal A,B,D,E bertentangan dengan koreksi pembahasan A,B,D."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "mcma-22-4-8",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 38,
+      "audit_id": "74a6f81a2c65:I22:L4:Q38:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Data waktu belajar dua kelompok siswa adalah sebagai berikut.\n\nKelompok A: 1, 2, 3, 4, 5 jam\n\nKelompok B: 1, 2, 3, 4, 10 jam\n\nPernyataan yang tepat adalah ....",
+        "options": [
+          "Kelompok B memiliki rerata lebih tinggi daripada kelompok A.",
+          "Median kedua kelompok sama.",
+          "Jangkauan kelompok B lebih besar daripada kelompok A.",
+          "Kelompok A memiliki rerata 3 jam.",
+          "Kelompok B pasti memiliki hasil belajar lebih baik karena waktu belajarnya lebih tinggi."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "explanation": "Pembahasan: Rerata A = 3 jam.\n\nRerata B = 20 ÷ 5 = 4 jam.\n\nMedian keduanya = 3 jam.\n\nJangkauan A = 4 jam dan B = 9 jam.\n\nPilihan E salah karena durasi belajar tidak secara otomatis membuktikan hasil belajar yang lebih baik.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "independent_reasoning": "A1..5 mean3,median3,range4;B1,2,3,4,10 mean4,median3,range9. More study time alone does not prove superior learning.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-22-4-9",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 39,
+      "audit_id": "74a6f81a2c65:I22:L4:Q39:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Dua kelompok memiliki data berikut.\n\nKelompok A: 10, 15, 20, 25, 30\n\nKelompok B: 15, 18, 20, 22, 25",
+        "options": [
+          "Median kedua kelompok sama.",
+          "Rerata kelompok A lebih tinggi daripada kelompok B.",
+          "Jangkauan kelompok A lebih besar daripada kelompok B.",
+          "Kedua kelompok memiliki modus tunggal."
+        ],
+        "key": [
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "Pembahasan: Median A = median B = 20.\n\nRerata A = 20, sedangkan B = 20.\n\nJangkauan A = 20, sedangkan B = 10.\n\nSemua nilai pada kedua kelompok berbeda, sehingga tidak ada modus tunggal.\n\nKoreksi kunci: Pernyataan B seharusnya Salah, karena rerata kedua kelompok sama.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Benar, B Benar, C Benar, D Salah."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "3"
+      ],
+      "independent_reasoning": "Both sums100,means20,medians20. Ranges20 and10. A,C true; B greater mean false; D unique modes false.",
+      "answer_is_conditional": false,
+      "issues": [
+        "CONFLICTING_KEY: rerata kedua kelompok20, sehingga B salah. Kunci/tabel123 bertentangan dengan koreksi pembahasan13."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "kategori-22-4-10",
+      "indicator": 22,
+      "level": 4,
+      "source_number": 40,
+      "audit_id": "74a6f81a2c65:I22:L4:Q40:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Dua kelompok memiliki nilai berikut.\n\nKelompok P: 70, 75, 80, 85, 90\n\nKelompok Q: 60, 80, 80, 80, 100\n\nTentukan kategori yang tepat.",
+        "options": [
+          "Kedua kelompok memiliki rerata yang sama.",
+          "Kedua kelompok memiliki median yang sama.",
+          "Kelompok Q memiliki jangkauan lebih kecil daripada kelompok P.",
+          "Kelompok P memiliki penyebaran lebih kecil berdasarkan jangkauan."
+        ],
+        "key": [
+          "1",
+          "2",
+          "4"
+        ],
+        "explanation": "Pembahasan: Rerata P = 80 dan Q = 80.\n\nMedian P = 80 dan Q = 80.\n\nJangkauan P = 20.\n\nJangkauan Q = 40.\n\nKelompok P memiliki jangkauan lebih kecil sehingga penyebarannya lebih sempit berdasarkan ukuran jangkauan.",
+        "category_labels": [
+          "Tepat",
+          "Tidak tepat"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Tepat, B Tepat, C Tidak tepat, D Tepat."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "independent_reasoning": "P70,75,80,85,90 and Q60,80,80,80,100:means/medians80,ranges20/40. P narrower; Q not narrower.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-5-1",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 41,
+      "audit_id": "74a6f81a2c65:I22:L5:Q41:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua kelompok memiliki hasil tes berikut.\n\nKelompok A: 70, 75, 80, 85, 90\n\nKelompok B: 60, 70, 80, 90, 100\n\nJika guru ingin menentukan kelompok dengan hasil yang lebih konsisten berdasarkan jangkauan, pilihan yang tepat adalah ....",
+        "options": [
+          "Kelompok A, karena jangkauannya lebih kecil.",
+          "Kelompok B, karena nilai tertingginya lebih besar.",
+          "Kedua kelompok sama konsisten karena mediannya sama.",
+          "Kelompok B, karena memiliki nilai yang lebih beragam."
+        ],
+        "key": [
+          "A"
+        ],
+        "explanation": "Pembahasan: Jangkauan A = 20.\n\nJangkauan B = 40.\n\nJangkauan kelompok A lebih kecil sehingga nilai-nilainya lebih berdekatan berdasarkan ukuran jangkauan.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A"
+        ]
+      },
+      "independent_answer": [
+        "A"
+      ],
+      "independent_reasoning": "A70,75,80,85,90 range20;B60,70,80,90,100 range40. Defined consistency uses range; common median80 does not equalize spread.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-5-2",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 42,
+      "audit_id": "74a6f81a2c65:I22:L5:Q42:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Data pendapatan harian dua kelompok pekerja dalam ribuan rupiah adalah sebagai berikut.\n\nKelompok A: 100, 110, 120, 130, 140\n\nKelompok B: 80, 100, 120, 140, 160\n\nKesimpulan yang paling tepat adalah ....",
+        "options": [
+          "Kelompok A dan B memiliki rerata sama, tetapi kelompok B memiliki jangkauan lebih besar.",
+          "Kelompok A memiliki rerata lebih besar daripada kelompok B.",
+          "Kelompok B memiliki median lebih tinggi daripada kelompok A.",
+          "Kelompok A dan B memiliki jangkauan sama."
+        ],
+        "key": [
+          "A"
+        ],
+        "explanation": "Pembahasan: Rerata A = 120 dan B = 120.\n\nMedian A = 120 dan B = 120.\n\nJangkauan A = 40.\n\nJangkauan B = 80.\n\nKeduanya memiliki ukuran pemusatan yang sama, tetapi penyebaran berbeda.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A"
+        ]
+      },
+      "independent_answer": [
+        "A"
+      ],
+      "independent_reasoning": "Both sums600,means120,medians120;A100..140 range40,B80..160 range80. Only A.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-5-3",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 43,
+      "audit_id": "74a6f81a2c65:I22:L5:Q43:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Seorang guru membandingkan hasil ulangan dua kelas.\n\nKelas X: 60, 70, 80, 90, 100\n\nKelas Y: 75, 78, 80, 82, 85\n\nGuru menyatakan bahwa kelas X lebih unggul karena memiliki nilai tertinggi 100.\n\nEvaluasi yang tepat adalah ....",
+        "options": [
+          "Benar, karena nilai tertinggi menentukan hasil keseluruhan kelas.",
+          "Benar, karena kelas X mempunyai jangkauan lebih besar.",
+          "Tidak tepat, karena kelas Y memiliki nilai yang lebih terkonsentrasi di sekitar pusat data meskipun nilai tertingginya lebih rendah.",
+          "Tidak tepat, karena nilai tertinggi harus dihapus sebelum dianalisis."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Kelas X dan Y sama-sama memiliki median 80. Namun, jangkauan X adalah 40, sedangkan Y adalah 10. Penilaian kelompok tidak cukup hanya berdasarkan nilai tertinggi.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "X60,70,80,90,100 and Y75,78,80,82,85:means/medians80,ranges40/10. Y tighter; largest value alone does not imply overall superiority or justify removing it.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-5-4",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 44,
+      "audit_id": "74a6f81a2c65:I22:L5:Q44:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua kelompok siswa memiliki nilai berikut.\n\nKelompok P: 65, 70, 75, 80, 85\n\nKelompok Q: 55, 70, 75, 80, 95\n\nSeorang siswa menyatakan bahwa kelompok Q lebih baik karena nilai tertingginya lebih tinggi.\n\nPenilaian paling tepat adalah ....",
+        "options": [
+          "Benar, karena nilai tertinggi kelompok Q adalah 95.",
+          "Benar, karena kelompok Q mempunyai jangkauan lebih besar.",
+          "Belum cukup tepat, karena kedua kelompok memiliki median yang sama dan perbandingan perlu mempertimbangkan ukuran pemusatan serta penyebaran.",
+          "Salah, karena kelompok P memiliki median lebih tinggi daripada kelompok Q."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Median kedua kelompok = 75.\n\nRerata P = 75.\n\nRerata Q = 75.\n\nJangkauan P = 20.\n\nJangkauan Q = 40.\n\nNilai tertinggi saja tidak cukup untuk menyatakan kelompok Q lebih baik.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "P65,70,75,80,85 and Q55,70,75,80,95:means/medians75,ranges20/40. Highest score alone is insufficient; P median not higher.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-22-5-5",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 45,
+      "audit_id": "74a6f81a2c65:I22:L5:Q45:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua kelompok memiliki data waktu menyelesaikan latihan dalam menit.\n\nKelompok A: 12, 14, 15, 16, 18\n\nKelompok B: 8, 12, 15, 18, 22\n\nJika waktu yang lebih konsisten ditunjukkan oleh jangkauan yang lebih kecil, keputusan yang tepat adalah ....",
+        "options": [
+          "Kelompok A, karena jangkauannya 6 menit.",
+          "Kelompok B, karena jangkauannya 14 menit.",
+          "Kedua kelompok sama konsisten karena mediannya sama.",
+          "Kelompok B, karena nilai terendahnya lebih kecil."
+        ],
+        "key": [
+          "A"
+        ],
+        "explanation": "Pembahasan: Jangkauan A = 18 − 12 = 6 menit.\n\nJangkauan B = 22 − 8 = 14 menit.\n\nKelompok A memiliki jangkauan lebih kecil sehingga waktu penyelesaian lebih konsisten berdasarkan jangkauan.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A"
+        ]
+      },
+      "independent_answer": [
+        "A"
+      ],
+      "independent_reasoning": "A12,14,15,16,18 range6;B8,12,15,18,22 range14. Both median15; the stipulated consistency criterion selects A.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-22-5-6",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 46,
+      "audit_id": "74a6f81a2c65:I22:L5:Q46:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Dua kelompok memiliki nilai berikut.\n\nKelompok A: 70, 75, 80, 85, 90\n\nKelompok B: 60, 80, 80, 80, 100\n\nPernyataan yang benar adalah ....",
+        "options": [
+          "Rerata kedua kelompok sama.",
+          "Median kedua kelompok sama.",
+          "Jangkauan kelompok A lebih besar daripada kelompok B.",
+          "Kelompok B memiliki modus 80.",
+          "Kelompok A memiliki penyebaran lebih besar berdasarkan jangkauan."
+        ],
+        "key": [
+          "A",
+          "B",
+          "D"
+        ],
+        "explanation": "Pembahasan: Rerata kedua kelompok = 80.\n\nMedian kedua kelompok = 80.\n\nJangkauan A = 20, sedangkan B = 40.\n\nModus B = 80.\n\nJadi, C dan E salah karena jangkauan kelompok B justru lebih besar.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "independent_reasoning": "Means/medians80;A range20,B40;B mode80. C,E falsely claim wider A.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-22-5-7",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 47,
+      "audit_id": "74a6f81a2c65:I22:L5:Q47:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Perhatikan data berikut.\n\nKelompok P: 50, 60, 70, 80, 90\n\nKelompok Q: 65, 70, 70, 75, 70\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Rerata kelompok P lebih tinggi daripada kelompok Q.",
+          "Median kelompok P lebih tinggi daripada kelompok Q.",
+          "Jangkauan kelompok P lebih besar daripada kelompok Q.",
+          "Modus kelompok Q adalah 70.",
+          "Kelompok Q memiliki jangkauan 25."
+        ],
+        "key": [
+          "C",
+          "D"
+        ],
+        "explanation": "Pembahasan: Rerata P = 70 dan Q = 70.\n\nMedian P = 70 dan Q = 70.\n\nJangkauan P = 40.\n\nJangkauan Q = 10.\n\nModus Q = 70.\n\nKarena rerata dan median sama, A dan B salah. Jangkauan Q bukan 25, melainkan 10.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C, D"
+        ]
+      },
+      "independent_answer": [
+        "C",
+        "D"
+      ],
+      "independent_reasoning": "P50,60,70,80,90 and Q65,70,70,75,70:sum350 each,means70,medians70,ranges40/10. Q mode70,not range25.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-22-5-8",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 48,
+      "audit_id": "74a6f81a2c65:I22:L5:Q48:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Dua kelompok memiliki data berikut.\n\nKelompok A: 10, 20, 30, 40, 50\n\nKelompok B: 20, 25, 30, 35, 40\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Rerata kedua kelompok sama.",
+          "Median kedua kelompok sama.",
+          "Kelompok A memiliki jangkauan lebih besar daripada kelompok B.",
+          "Kelompok B memiliki modus tunggal 30.",
+          "Kelompok A dan B memiliki penyebaran yang sama berdasarkan jangkauan."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C"
+        ],
+        "explanation": "Pembahasan: Rerata kedua kelompok = 30.\n\nMedian kedua kelompok = 30.\n\nJangkauan A = 40.\n\nJangkauan B = 20.\n\nTidak ada modus tunggal pada kelompok B karena semua nilai muncul sekali.\n\nDengan demikian, A, B, dan C benar.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "independent_reasoning": "Both means/medians30;A range40,B20. B all distinct lacks a unique mode; spreads not equal.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-22-5-9",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 49,
+      "audit_id": "74a6f81a2c65:I22:L5:Q49:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Dua kelompok memiliki data nilai berikut.\n\nKelompok A: 60, 70, 80, 90, 100\n\nKelompok B: 70, 75, 80, 85, 90",
+        "options": [
+          "Rerata kedua kelompok sama.",
+          "Median kedua kelompok sama.",
+          "Jangkauan kelompok A lebih besar daripada kelompok B.",
+          "Kelompok B memiliki jangkauan 40."
+        ],
+        "key": [
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "Pembahasan: Rerata keduanya = 80.\n\nMedian keduanya = 80.\n\nJangkauan A = 40.\n\nJangkauan B = 20.\n\nJadi, kelompok A memiliki penyebaran lebih besar berdasarkan jangkauan.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Benar, B Benar, C Benar, D Salah."
+        ]
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "independent_reasoning": "Both means/medians80;A range40,B20. D wrongly assigns40 to B.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-22-5-10",
+      "indicator": 22,
+      "level": 5,
+      "source_number": 50,
+      "audit_id": "74a6f81a2c65:I22:L5:Q50:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Dua kelompok memiliki data waktu belajar harian dalam jam.\n\nKelompok P: 1, 2, 3, 4, 5\n\nKelompok Q: 2, 2, 3, 3, 5\n\nTentukan kategori yang tepat.",
+        "options": [
+          "Rerata kelompok P lebih tinggi daripada kelompok Q.",
+          "Median kedua kelompok sama.",
+          "Jangkauan kelompok P lebih besar daripada kelompok Q.",
+          "Kelompok Q memiliki dua modus, yaitu 2 dan 3."
+        ],
+        "key": [
+          "2",
+          "3",
+          "4"
+        ],
+        "explanation": "Pembahasan: Rerata P = 3 jam.\n\nRerata Q = 15 ÷ 5 = 3 jam.\n\nMedian kedua kelompok = 3 jam.\n\nJangkauan P = 5 − 1 = 4 jam.\n\nJangkauan Q = 5 − 2 = 3 jam.\n\nModus Q adalah 2 dan 3 karena keduanya muncul dua kali.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A Salah, B Benar, C Benar, D Benar."
+        ]
+      },
+      "independent_answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "independent_reasoning": "P1..5 and Q2,2,3,3,5 both sum15,mean3,median3. Ranges4/3;Q bimodal2,3. A greater mean false.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-23-4-1",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 31,
+      "audit_id": "74a6f81a2c65:I23:L4:Q31:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah dadu bersisi enam dilempar sebanyak 120 kali. Angka 4 muncul sebanyak 18 kali. Frekuensi relatif munculnya angka 4 adalah ....",
+        "options": [
+          "0,12",
+          "0,15",
+          "0,18",
+          "0,20",
+          "0,25"
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Frekuensi relatif = frekuensi kejadian ÷ banyak percobaan = 18 ÷ 120 = 0,15.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "18/120=3/20=0.15; other numerical options differ.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-23-4-2",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 32,
+      "audit_id": "74a6f81a2c65:I23:L4:Q32:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah koin dilempar sebanyak 200 kali. Sisi gambar muncul 108 kali. Berdasarkan percobaan tersebut, frekuensi relatif munculnya sisi angka adalah ....",
+        "options": [
+          "0,36",
+          "0,42",
+          "0,46",
+          "0,54",
+          "0,60"
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Sisi angka muncul sebanyak 200 − 108 = 92 kali. Frekuensi relatif = 92 ÷ 200 = 0,46.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Heads108 of200 means other side92;92/200=0.46,not108/200=0.54.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-23-4-3",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 33,
+      "audit_id": "74a6f81a2c65:I23:L4:Q33:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah kantong berisi bola merah, biru, dan kuning. Satu bola diambil secara acak dan dikembalikan setiap kali pengambilan. Dalam 80 percobaan, bola merah terambil 28 kali. Kesimpulan yang tepat adalah ....",
+        "options": [
+          "Peluang teoretis bola merah pasti 0,35.",
+          "Frekuensi relatif bola merah adalah 0,28.",
+          "Frekuensi relatif bola merah adalah 0,35.",
+          "Peluang bola merah tidak dapat diperkirakan melalui percobaan.",
+          "Bola merah pasti terambil sebanyak 35 kali dalam 100 percobaan berikutnya."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Frekuensi relatif = 28 ÷ 80 = 0,35. Nilai tersebut merupakan hasil percobaan, bukan kepastian peluang teoretis.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "28/80=0.35 is empirical. Composition unknown,so no exact theoretical probability or guaranteed next100 frequency.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-23-4-4",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 34,
+      "audit_id": "74a6f81a2c65:I23:L4:Q34:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah dadu dilempar 150 kali. Frekuensi munculnya angka ganjil adalah 81 kali. Frekuensi relatif munculnya angka genap berdasarkan percobaan tersebut adalah ....",
+        "options": [
+          "0,36",
+          "0,40",
+          "0,46",
+          "0,54",
+          "0,60"
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Frekuensi angka genap = 150 − 81 = 69 kali. Frekuensi relatif = 69 ÷ 150 = 0,46.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Even count150-81=69;69/150=0.46.0.54 is odd frequency.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-23-4-5",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 35,
+      "audit_id": "74a6f81a2c65:I23:L4:Q35:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dalam sebuah percobaan, sebuah koin dilempar 40 kali dan sisi gambar muncul 26 kali. Seorang siswa menyatakan bahwa peluang teoretis munculnya gambar adalah 0,65. Penilaian yang paling tepat terhadap pernyataan tersebut adalah ....",
+        "options": [
+          "Benar, karena frekuensi relatif selalu sama dengan peluang teoretis.",
+          "Benar, karena gambar muncul lebih dari setengah percobaan.",
+          "Salah, karena peluang teoretis munculnya gambar pada koin seimbang adalah 0,5.",
+          "Salah, karena peluang teoretis munculnya gambar adalah 1.",
+          "Tidak dapat dihitung frekuensi relatifnya."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Frekuensi relatif gambar = 26 ÷ 40 = 0,65. Namun, peluang teoretis gambar pada koin seimbang tetap 0,5.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Empirical26/40=0.65. C gives theoretical0.5 only under a fair-coin assumption not stated in stimulus.",
+      "answer_is_conditional": true,
+      "issues": [
+        "MISSING_FAIRNESS: stimulus tidak menyebut koin seimbang. Frekuensi relatif0.65 tidak menetapkan peluang teoretis; opsi C memakai peluang0.5 yang mensyaratkan koin seimbang. Tegaskan asumsi pada stimulus."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "mcma-23-4-6",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 36,
+      "audit_id": "74a6f81a2c65:I23:L4:Q36:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Sebuah dadu dilempar sebanyak 100 kali. Hasil percobaan menunjukkan angka 1 muncul 14 kali, angka 2 muncul 18 kali, angka 3 muncul 16 kali, angka 4 muncul 20 kali, angka 5 muncul 17 kali, dan angka 6 muncul 15 kali.\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Frekuensi relatif munculnya angka 1 adalah 0,14.",
+          "Frekuensi relatif munculnya angka 4 adalah 0,20.",
+          "Frekuensi relatif munculnya angka 6 adalah 0,15.",
+          "Frekuensi relatif munculnya angka 2 adalah 0,20.",
+          "Jumlah seluruh frekuensi relatif adalah 1,5."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C"
+        ],
+        "explanation": "Pembahasan: A benar: 14 ÷ 100 = 0,14.\n\nB benar: 20 ÷ 100 = 0,20.\n\nC benar: 15 ÷ 100 = 0,15.\n\nD salah: 18 ÷ 100 = 0,18.\n\nE salah: jumlah frekuensi relatif seluruh hasil adalah 1.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "independent_reasoning": "Counts14,18,16,20,17,15 sum100;relative1=.14,4=.20,6=.15,2=.18;total1,not1.5.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-23-4-7",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 37,
+      "audit_id": "74a6f81a2c65:I23:L4:Q37:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Sebuah koin dilempar 60 kali. Sisi angka muncul 32 kali dan sisi gambar muncul 28 kali. Pernyataan yang benar adalah ....",
+        "options": [
+          "Frekuensi relatif sisi angka adalah 0,53̅.",
+          "Frekuensi relatif sisi gambar adalah 0,47.",
+          "Jumlah kedua frekuensi relatif adalah 1.",
+          "Peluang teoretis sisi angka pada koin seimbang adalah 32/60.",
+          "Frekuensi relatif sisi gambar lebih besar daripada sisi angka."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C"
+        ],
+        "explanation": "Pembahasan: A benar: 32 ÷ 60 = 0,5333…\n\nB benar: 28 ÷ 60 = 0,4667…, sekitar 0,47.\n\nC benar: 32/60 + 28/60 = 1.\n\nD salah: peluang teoretis sisi angka adalah 0,5.\n\nE salah: frekuensi relatif angka lebih besar.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "C"
+      ],
+      "independent_reasoning": "32/60=0.5333... matches A recurring3;28/60=0.4666... is not exactly0.47 without rounding. C total1 true,D fair probability1/2 not32/60,E reverses comparison.",
+      "answer_is_conditional": false,
+      "issues": [
+        "UNSTATED_ROUNDING:28/60=0.4666..., bukan tepat0.47 pada opsi B. Pembahasan memakai sekitar0.47, stimulus/opsi tidak. KunciABC menganggap pembulatan yang belum dinyatakan; kunci eksakAC."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "mcma-23-4-8",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 38,
+      "audit_id": "74a6f81a2c65:I23:L4:Q38:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Dua siswa melakukan percobaan melempar dadu seimbang. Siswa A melempar 30 kali dan mendapatkan angka 6 sebanyak 8 kali. Siswa B melempar 120 kali dan mendapatkan angka 6 sebanyak 19 kali.\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Frekuensi relatif angka 6 pada percobaan siswa A adalah sekitar 0,267.",
+          "Frekuensi relatif angka 6 pada percobaan siswa B adalah sekitar 0,158.",
+          "Frekuensi relatif siswa A lebih dekat dengan peluang teoretis 1/6 daripada siswa B.",
+          "Peluang teoretis munculnya angka 6 adalah 1/6.",
+          "Hasil percobaan membuktikan bahwa peluang angka 6 pada dadu adalah 8/30."
+        ],
+        "key": [
+          "A",
+          "B",
+          "D"
+        ],
+        "explanation": "Pembahasan: A benar: 8 ÷ 30 ≈ 0,267.\n\nB benar: 19 ÷ 120 ≈ 0,158.\n\nC salah: 0,158 lebih dekat ke 1/6 ≈ 0,167 daripada 0,267.\n\nD benar: satu dari enam sisi dadu adalah angka 6.\n\nE salah: 8/30 merupakan frekuensi relatif percobaan A, bukan peluang teoretis.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "independent_reasoning": "8/30~.267,19/120~.158;theoretical1/6. Absolute errors1/10 and1/120: B is closer. Counts do not redefine theoretical probability.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-23-4-9",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 39,
+      "audit_id": "74a6f81a2c65:I23:L4:Q39:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Sebuah dadu dilempar sebanyak 50 kali. Angka 1 muncul 7 kali, angka 2 muncul 9 kali, angka 3 muncul 8 kali, angka 4 muncul 10 kali, angka 5 muncul 6 kali, dan angka 6 muncul 10 kali.\n\nTentukan kategori Benar atau Salah untuk setiap pernyataan.",
+        "options": [
+          "Frekuensi relatif angka 1 adalah 0,14.",
+          "Frekuensi relatif angka 4 adalah 0,25.",
+          "Frekuensi relatif angka 5 adalah 0,12.",
+          "Frekuensi relatif angka 2 lebih besar daripada angka 3."
+        ],
+        "key": [
+          "1",
+          "3",
+          "4"
+        ],
+        "explanation": "Pembahasan: Frekuensi relatif diperoleh dengan membagi jumlah kemunculan suatu angka dengan 50. Angka 4 memiliki frekuensi relatif 10 ÷ 50 = 0,20, bukan 0,25.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": []
+      },
+      "independent_answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "independent_reasoning": "Counts7,9,8,10,6,10 sum50;1=.14,4=.20 not.25,5=.12;9/50>8/50.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-23-4-10",
+      "indicator": 23,
+      "level": 4,
+      "source_number": 40,
+      "audit_id": "74a6f81a2c65:I23:L4:Q40:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Sebuah koin seimbang dilempar 100 kali. Sisi gambar muncul sebanyak 57 kali.\n\nTentukan kategori Benar atau Salah untuk setiap pernyataan.",
+        "options": [
+          "Frekuensi relatif sisi gambar adalah 0,57.",
+          "Frekuensi relatif sisi angka adalah 0,43.",
+          "Peluang teoretis sisi gambar adalah 0,57.",
+          "Selisih frekuensi kemunculan gambar dan angka adalah 14."
+        ],
+        "key": [
+          "1",
+          "2",
+          "4"
+        ],
+        "explanation": "Pembahasan: Sisi angka muncul 100 − 57 = 43 kali. Peluang teoretis sisi gambar pada koin seimbang adalah 0,5, sedangkan 0,57 merupakan frekuensi relatif hasil percobaan.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": []
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "independent_reasoning": "Fair coin:empirical picture57/100=.57,other43/100=.43;theoretical.5;count difference14.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-23-5-1",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 41,
+      "audit_id": "74a6f81a2c65:I23:L5:Q41:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah dadu dilempar sebanyak 240 kali. Angka 5 muncul sebanyak 44 kali. Seorang siswa menyatakan bahwa frekuensi relatif angka 5 adalah 0,20. Evaluasi yang tepat adalah ....",
+        "options": [
+          "Benar, karena 44 ÷ 240 = 0,20.",
+          "Salah, karena frekuensi relatifnya sekitar 0,183.",
+          "Salah, karena peluang teoretis angka 5 adalah 0,20.",
+          "Benar, karena angka 5 muncul kurang dari 50 kali.",
+          "Tidak dapat ditentukan tanpa mengetahui hasil lemparan lainnya."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Frekuensi relatif = 44 ÷ 240 ≈ 0,183. Jadi, pernyataan siswa tidak tepat.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "44/240=11/60~.18333,not.20. Relative frequency needs only event count and total; unknown remaining outcomes do not prevent it.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-23-5-2",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 42,
+      "audit_id": "74a6f81a2c65:I23:L5:Q42:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dalam 200 kali pengambilan dengan pengembalian dari sebuah kantong, bola merah terambil 72 kali. Seorang siswa menyimpulkan bahwa peluang teoretis bola merah adalah 0,36. Pernyataan yang paling tepat adalah ....",
+        "options": [
+          "Kesimpulan pasti benar karena percobaan dilakukan 200 kali.",
+          "Kesimpulan pasti salah karena frekuensi relatif tidak berguna.",
+          "Nilai 0,36 adalah frekuensi relatif hasil percobaan, tetapi belum tentu sama dengan peluang teoretis.",
+          "Peluang teoretis bola merah selalu 0,5.",
+          "Peluang teoretis bola merah adalah 72."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Frekuensi relatif = 72 ÷ 200 = 0,36. Peluang teoretis memerlukan informasi mengenai komposisi bola dalam kantong.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "72/200=.36 is empirical. Composition unknown; it may equal theoretical probability but the trial does not establish that equality.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "pg-23-5-3",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 43,
+      "audit_id": "74a6f81a2c65:I23:L5:Q43:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah koin dilempar dua kali. Peluang teoretis muncul tepat satu sisi gambar adalah ....",
+        "options": [
+          "1/4",
+          "1/3",
+          "1/2",
+          "3/4",
+          "1"
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Ruang sampel adalah AA, AG, GA, dan GG. Tepat satu gambar terjadi pada AG dan GA, sehingga peluangnya 2/4 = 1/2.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "For independent fair tosses,AA,AG,GA,GG equally likely and exactly one picture2/4=.5. Without fairness/independence,2p(1-p) need not equal.5.",
+      "answer_is_conditional": true,
+      "issues": [
+        "MISSING_MODEL: peluang tepat satu gambar adalah1/2 hanya untuk dua lemparan independen koin seimbang. Stimulus tidak menetapkan kedua asumsi; ruang sampel empat hasil saja tidak menjamin peluang setara."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "pg-23-5-4",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 44,
+      "audit_id": "74a6f81a2c65:I23:L5:Q44:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Sebuah dadu dilempar sebanyak 300 kali. Angka genap muncul 162 kali. Seorang siswa menyatakan bahwa hasil tersebut membuktikan peluang teoretis angka genap adalah 0,54. Penilaian yang paling tepat adalah ....",
+        "options": [
+          "Benar, karena frekuensi relatif selalu menjadi peluang teoretis.",
+          "Benar, karena angka genap muncul lebih dari setengah percobaan.",
+          "Salah, karena peluang teoretis munculnya angka genap pada dadu seimbang adalah 0,5.",
+          "Salah, karena peluang angka genap adalah 1/6.",
+          "Tidak dapat menghitung frekuensi relatif dari data tersebut."
+        ],
+        "key": [
+          "C"
+        ],
+        "explanation": "Pembahasan: Frekuensi relatif = 162 ÷ 300 = 0,54. Namun, peluang teoretis angka genap adalah 3/6 = 0,5.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "C"
+        ]
+      },
+      "independent_answer": [
+        "C"
+      ],
+      "independent_reasoning": "Empirical162/300=.54;theoretical even3/6=.5 only if die is fair,which is not stated in stimulus.",
+      "answer_is_conditional": true,
+      "issues": [
+        "MISSING_FAIRNESS: stimulus tidak menyebut dadu seimbang. Peluang genap0.5 pada opsi C memerlukan asumsi tersebut; frekuensi relatif162/300 tidak menetapkannya."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "pg-23-5-5",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 45,
+      "audit_id": "74a6f81a2c65:I23:L5:Q45:O1:original",
+      "source_projection": {
+        "format": "PG",
+        "stem": "Dua percobaan dilakukan menggunakan dadu seimbang. Percobaan I dilakukan 24 kali dan angka 3 muncul 8 kali. Percobaan II dilakukan 120 kali dan angka 3 muncul 25 kali. Kesimpulan yang paling tepat adalah ....",
+        "options": [
+          "Percobaan I memiliki frekuensi relatif lebih dekat dengan peluang teoretis 1/6.",
+          "Percobaan II memiliki frekuensi relatif lebih dekat dengan peluang teoretis 1/6.",
+          "Kedua percobaan memiliki frekuensi relatif yang sama.",
+          "Peluang teoretis angka 3 berubah karena jumlah percobaan berbeda.",
+          "Percobaan I membuktikan bahwa peluang angka 3 adalah 1/3."
+        ],
+        "key": [
+          "B"
+        ],
+        "explanation": "Pembahasan: Percobaan I: 8 ÷ 24 = 0,333.\n\nPercobaan II: 25 ÷ 120 ≈ 0,208.\n\nPeluang teoretis angka 3 adalah 1/6 ≈ 0,167. Nilai 0,208 lebih dekat ke 0,167.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "B"
+        ]
+      },
+      "independent_answer": [
+        "B"
+      ],
+      "independent_reasoning": "I8/24=1/3,error1/6 from theoretical1/6;II25/120=5/24,error1/24. II closer; underlying fair-die probability unchanged.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-23-5-6",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 46,
+      "audit_id": "74a6f81a2c65:I23:L5:Q46:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Sebuah dadu dilempar 180 kali. Angka 1 muncul 25 kali, angka 2 muncul 29 kali, angka 3 muncul 31 kali, angka 4 muncul 32 kali, angka 5 muncul 30 kali, dan angka 6 muncul 33 kali.\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Frekuensi relatif angka 1 adalah 25/180.",
+          "Frekuensi relatif angka 4 adalah sekitar 0,178.",
+          "Frekuensi relatif angka 6 adalah sekitar 0,183.",
+          "Frekuensi relatif angka 3 lebih besar daripada angka 5.",
+          "Jumlah seluruh frekuensi relatif adalah 6."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "explanation": "Pembahasan: A benar: frekuensi relatif angka 1 = 25/180.\n\nB benar: 32 ÷ 180 ≈ 0,178.\n\nC benar: 33 ÷ 180 ≈ 0,183.\n\nD benar: 31/180 lebih besar daripada 30/180.\n\nE salah: jumlah seluruh frekuensi relatif adalah 1.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C, D"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "independent_reasoning": "Counts25+29+31+32+30+33=180.25/180 exact,32/180~.178,33/180~.183;31/180>30/180;total1,not6.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "mcma-23-5-7",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 47,
+      "audit_id": "74a6f81a2c65:I23:L5:Q47:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Sebuah koin dilempar sebanyak 80 kali. Sisi gambar muncul 46 kali dan sisi angka muncul 34 kali.\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Frekuensi relatif gambar adalah 0,575.",
+          "Frekuensi relatif angka adalah 0,425.",
+          "Jumlah frekuensi relatif kedua sisi adalah 1.",
+          "Peluang teoretis sisi gambar adalah 0,575.",
+          "Frekuensi relatif angka lebih besar daripada gambar."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C"
+        ],
+        "explanation": "Pembahasan: A benar: 46 ÷ 80 = 0,575.\n\nB benar: 34 ÷ 80 = 0,425.\n\nC benar: 0,575 + 0,425 = 1.\n\nD salah: peluang teoretis gambar pada koin seimbang adalah 0,5.\n\nE salah: frekuensi relatif gambar lebih besar.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "independent_reasoning": "46/80=.575,34/80=.425,total1,other side smaller. Excluding theoretical.575 requires fair-coin assumption; an unspecified biased coin could have p=.575.",
+      "answer_is_conditional": true,
+      "issues": [
+        "MISSING_FAIRNESS: stimulus tidak menyebut koin seimbang. A,B,C benar empiris; D tidak dapat dinilai salah secara pasti karena peluang koin yang tidak diketahui dapat saja0.575. Tegaskan model sebelum memakai kunciABC."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "mcma-23-5-8",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 48,
+      "audit_id": "74a6f81a2c65:I23:L5:Q48:O1:original",
+      "source_projection": {
+        "format": "MCMA",
+        "stem": "Sebuah kantong berisi 4 bola merah dan 6 bola biru. Satu bola diambil, dicatat warnanya, lalu dikembalikan. Percobaan dilakukan sebanyak 100 kali dan bola merah muncul 38 kali.\n\nPilih semua pernyataan yang benar.",
+        "options": [
+          "Peluang teoretis terambil bola merah adalah 0,4.",
+          "Frekuensi relatif bola merah adalah 0,38.",
+          "Frekuensi relatif bola biru adalah 0,62.",
+          "Hasil percobaan membuktikan peluang teoretis bola merah tepat 0,38.",
+          "Frekuensi relatif bola merah pasti menjadi 0,4 pada percobaan berikutnya."
+        ],
+        "key": [
+          "A",
+          "B",
+          "C"
+        ],
+        "explanation": "Pembahasan: A benar: 4 ÷ 10 = 0,4.\n\nB benar: 38 ÷ 100 = 0,38.\n\nC benar: bola biru muncul 62 kali, sehingga frekuensi relatifnya 0,62.\n\nD salah: frekuensi relatif tidak harus sama persis dengan peluang teoretis.\n\nE salah: hasil percobaan berikutnya tidak dapat dipastikan.",
+        "category_labels": null,
+        "additional_notes": "",
+        "declared_key_texts": [
+          "A, B, C"
+        ]
+      },
+      "independent_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "independent_reasoning": "Under uniform random draws,p(red)=4/(4+6)=.4. Empiricalred38/100=.38,blue62/100=.62. No guarantee of next-trial frequency; uniform sampling is not explicit in source.",
+      "answer_is_conditional": true,
+      "issues": [
+        "MISSING_RANDOM_DRAW: peluang4/10 pada opsi A membutuhkan pengambilan acak seragam. Stimulus hanya menyebut mengambil satu bola dan pengembalian, belum menyatakan acak/seragam. Frekuensi relatifB,C tetap benar; tegaskan mekanisme untuk kunciABC."
+      ],
+      "generation_status": "HOLD_SOURCE"
+    },
+    {
+      "question_id": "kategori-23-5-9",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 49,
+      "audit_id": "74a6f81a2c65:I23:L5:Q49:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Sebuah dadu seimbang dilempar 120 kali. Angka 1 atau 2 muncul sebanyak 39 kali.\n\nTentukan kategori Benar atau Salah untuk setiap pernyataan.",
+        "options": [
+          "Peluang teoretis muncul angka 1 atau 2 adalah 1/3.",
+          "Frekuensi relatif muncul angka 1 atau 2 adalah 0,325.",
+          "Frekuensi relatif hasil percobaan sama persis dengan peluang teoretis.",
+          "Frekuensi relatif hasil percobaan lebih kecil daripada peluang teoretis."
+        ],
+        "key": [
+          "1",
+          "2",
+          "4"
+        ],
+        "explanation": "Pembahasan: Peluang teoretis = 2/6 = 1/3 ≈ 0,333. Frekuensi relatif = 39 ÷ 120 = 0,325. Jadi, frekuensi relatif lebih kecil daripada peluang teoretis.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": []
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "independent_reasoning": "Fairdie P(1or2)=2/6=1/3;39/120=.325<1/3,not equal.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    },
+    {
+      "question_id": "kategori-23-5-10",
+      "indicator": 23,
+      "level": 5,
+      "source_number": 50,
+      "audit_id": "74a6f81a2c65:I23:L5:Q50:O1:original",
+      "source_projection": {
+        "format": "KATEGORI",
+        "stem": "Sebuah koin seimbang dilempar 200 kali. Sisi angka muncul 96 kali.\n\nTentukan kategori Benar atau Salah untuk setiap pernyataan.",
+        "options": [
+          "Frekuensi relatif sisi angka adalah 0,48.",
+          "Frekuensi relatif sisi gambar adalah 0,52.",
+          "Peluang teoretis sisi angka adalah 0,48.",
+          "Selisih frekuensi relatif sisi angka dan peluang teoretisnya adalah 0,02."
+        ],
+        "key": [
+          "1",
+          "2",
+          "4"
+        ],
+        "explanation": "Pembahasan: Sisi gambar muncul 200 − 96 = 104 kali. Frekuensi relatif gambar = 104 ÷ 200 = 0,52. Peluang teoretis angka adalah 0,5, sehingga selisihnya dengan frekuensi relatif angka adalah |0,48 − 0,5| = 0,02.",
+        "category_labels": [
+          "Benar",
+          "Salah"
+        ],
+        "additional_notes": "",
+        "declared_key_texts": []
+      },
+      "independent_answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "independent_reasoning": "Faircoin:96/200=.48,104/200=.52,theoretical.5;absolute difference.02. Empirical and theoretical values differ.",
+      "answer_is_conditional": false,
+      "issues": [],
+      "generation_status": "ACTIVE"
+    }
+  ]
+}

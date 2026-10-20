@@ -1,0 +1,165 @@
+{
+  "question_id": "pg-2-5-1",
+  "config_version": 1,
+  "original_hash": "703904e43357ad90",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'1.500.000,00' if k == 0 else (1500000+10000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'22.500,00' if k == 0 else (22500+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'800.000,00' if k == 0 else (800000+10000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'450.000,00' if k == 0 else (450000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'1.500.000' if k == 0 else (1500000+10000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'22.500' if k == 0 else (22500+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'800.000' if k == 0 else (800000+10000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'450.000' if k == 0 else (450000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'33.749.900.000' if k == 0 else (((1500000+10000*k)-20)*(22500+500*k)+(800000+10000*k)-(450000+1000*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'1.400.000' if k == 0 else ((1500000+10000*k)-20*(22500+500*k)+(800000+10000*k)-(450000+1000*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'15.400.000' if k == 0 else (-((1500000+10000*k)-20*((22500+500*k)+(800000+10000*k))-(450000+1000*k)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'700.000' if k == 0 else ((1500000+10000*k)+20*(22500+500*k)-(800000+10000*k)-(450000+1000*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'I' if k == 0 else ('II')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'II' if k == 0 else ('I')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "22500+500*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "20*(22500+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "1500000+10000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "800000+10000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "450000+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "(1500000+10000*k)-20*(22500+500*k)+(800000+10000*k)-(450000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang bendahara OSIS mengevaluasi laporan pencatatan keuangan pembekalan LDKS dengan perincian transaksi sebagai berikut:\nUang awal di kas: Rp{v0}\nPembelian 20 pak buku panduan seharga Rp{v1} per pak\nPenerimaan dana pendaftaran dari peserta sebesar Rp{v2}\nPembayaran konsumsi narasumber sebesar Rp{v3}\nDua siswa memberikan laporan evaluasi bentuk kalimat matematika untuk menghitung sisa saldo kas:\nEvaluasi {v12}: $({v4}-20)×{v5}+{v6}-{v7}={v8}$\nEvaluasi {v13}: ${v4}-(20×{v5})+{v6}-{v7}={v9}$\nEvaluasi III: ${v4}-20×({v5}+{v6})-{v7}=-{v10}$\nEvaluasi IV: ${v4}+(20×{v5})-{v6}-{v7}={v11}$\nHasil evaluasi manakah yang pasti benar secara konsep prioritas operasi KABATAKU/PEMDAS dan logika keuangan?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": "k != 0"
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II",
+      "correct": "k == 0"
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi IV",
+      "correct": false
+    }
+  ],
+  "explanation": "Biaya buku = 20 * {v14} = {v15}. Saldo akhir = {v16} - {v15} + {v17} - {v18} = {v19}. Perkalian biaya buku dilakukan sebelum pengurangan; pengeluaran mengurangi kas.",
+  "shuffle": false,
+  "max_draws": 1000
+}

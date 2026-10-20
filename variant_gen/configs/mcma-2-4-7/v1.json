@@ -1,0 +1,65 @@
+{
+  "question_id": "mcma-2-4-7",
+  "config_version": 1,
+  "original_hash": "577b899e9d2579ff",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (k+3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (k+4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "b": {
+      "gen": "derived",
+      "expr": "'{b}' if k == 0 else 'b'"
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'{a}' if k == 0 else 'a'"
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa mengevaluasi penyederhanaan ekspresi eksponen berikut untuk perhitungan skala peta:\n$Ekspresi:\\frac{{a}^{{v0}}⋅{b}^{-2}}{{a}^{-1}⋅{b}^{4}}$\nManakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Menyederhanakan suku variabel $a$ menghasilkan ${a}^{{v0}-(-1)}={a}^{{v1}}$.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Menyederhanakan suku variabel $b$ menghasilkan ${b}^{-2-4}={b}^{-6}=\\frac{1}{{b}^{6}}$.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Hasil akhir ekspresi tersebut dalam pangkat positif adalah $\\frac{{a}^{2}}{{b}^{2}}$.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Hasil akhir ekspresi tersebut dalam pangkat positif adalah $\\frac{{a}^{{v1}}}{{b}^{6}}$.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pembahasan:\nA (Benar): Untuk variabel $a$: $\\frac{{a}^{{v0}}}{{a}^{-1}}={a}^{{v0}-(-1)}={a}^{3+1}={a}^{{v1}}$.\nB (Benar): Untuk variabel $b$: $\\frac{{b}^{-2}}{{b}^{4}}={b}^{-2-4}={b}^{-6}=\\frac{1}{{b}^{6}}$.\nC (Salah): Pernyataan ini salah karena hasil yang tepat adalah $\\frac{{a}^{{v1}}}{{b}^{6}}$.\nD (Benar): Menggabungkan kedua variabel memberikan $\\frac{{a}^{{v1}}}{{b}^{6}}$.",
+  "shuffle": false,
+  "max_draws": 1000
+}

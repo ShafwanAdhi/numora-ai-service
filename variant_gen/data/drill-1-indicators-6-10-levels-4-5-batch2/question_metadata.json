@@ -1,0 +1,3582 @@
+{
+  "pg-6-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 793,
+      "paragraph_end": 815,
+      "body_block_start": 690,
+      "body_block_end_exclusive": 713
+    },
+    "audit_id": "5282d3eb0bdc:I6:L4:Q5:O1:original",
+    "original_explanation": "PEMBAHASAN\nWaktu tempuh masing-masing hingga tujuan:\n$WaktuBusX=\\frac{180}{60}=3jam→Tibapukul10.00$\n$WaktuBusY=\\frac{180}{75}=2,4jam=2jam24menit→Tibapukul09.39$\nAnalisis saat Bus $Y$ menyusul Bus $X$:\nSelisih waktu berangkat Bus $Y=15menit=0,25jam$.\nJarak awal Bus $X$ saat Bus $Y$ berangkat $=60km/jam×0,25jam=15km$.\nKecepatan relatif menyusul $=75-60=15km/jam$.\nWaktu untuk menyusul (${t}_{susul}$) $=\\frac{15km}{15km/jam}=1jam$ setelah Bus $Y$ berangkat.\nBus $Y$ menyusul pada pukul $=07.15+1jam=08.15$.\nJarak penyusulan dari sekolah $=75km/jam×1jam=75km$.",
+    "source_projection": {
+      "stem": "Dua bus pariwisata ($X$ dan $Y$) berangkat dari sekolah menuju tempat studi tur yang berjarak $180km$. Bus $X$ berangkat pukul 07.00 dengan kecepatan konstan $60km/jam$. Bus $Y$ berangkat 15 menit kemudian (pukul 07.15) dengan kecepatan konstan $75km/jam$. Pernyataan evaluatif yang tepat mengenai posisi kedua bus adalah ....",
+      "options": [
+        "Bus $Y$ menyusul Bus $X$ setelah menempuh jarak $45km$",
+        "Bus $Y$ berhasil menyusul Bus $X$ pada pukul 08.15",
+        "Bus $X$ tiba di lokasi tur lebih awal daripada Bus $Y$",
+        "Saat Bus $Y$ tiba di tujuan, Bus $X$ masih tersisa jarak $30km$"
+      ],
+      "key": [
+        "B"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 795,
+          "text": "KUNCI JAWABAN : B"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nWaktu tempuh masing-masing hingga tujuan:\n$WaktuBusX=\\frac{180}{60}=3jam→Tibapukul10.00$\n$WaktuBusY=\\frac{180}{75}=2,4jam=2jam24menit→Tibapukul09.39$\nAnalisis saat Bus $Y$ menyusul Bus $X$:\nSelisih waktu berangkat Bus $Y=15menit=0,25jam$.\nJarak awal Bus $X$ saat Bus $Y$ berangkat $=60km/jam×0,25jam=15km$.\nKecepatan relatif menyusul $=75-60=15km/jam$.\nWaktu untuk menyusul (${t}_{susul}$) $=\\frac{15km}{15km/jam}=1jam$ setelah Bus $Y$ berangkat.\nBus $Y$ menyusul pada pukul $=07.15+1jam=08.15$.\nJarak penyusulan dari sekolah $=75km/jam×1jam=75km$.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 801,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 802,
+          "text": "Waktu tempuh masing-masing hingga tujuan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 804,
+          "text": "$WaktuBusX=\\frac{180}{60}=3jam→Tibapukul10.00$",
+          "math_ids": [
+            "math-0308"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 806,
+          "text": "$WaktuBusY=\\frac{180}{75}=2,4jam=2jam24menit→Tibapukul09.39$",
+          "math_ids": [
+            "math-0309"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 807,
+          "text": "Analisis saat Bus $Y$ menyusul Bus $X$:",
+          "math_ids": [
+            "math-0310",
+            "math-0311"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 808,
+          "text": "Selisih waktu berangkat Bus $Y=15menit=0,25jam$.",
+          "math_ids": [
+            "math-0312"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 809,
+          "text": "Jarak awal Bus $X$ saat Bus $Y$ berangkat $=60km/jam×0,25jam=15km$.",
+          "math_ids": [
+            "math-0313",
+            "math-0314",
+            "math-0315"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 810,
+          "text": "Kecepatan relatif menyusul $=75-60=15km/jam$.",
+          "math_ids": [
+            "math-0316"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 811,
+          "text": "Waktu untuk menyusul (${t}_{susul}$) $=\\frac{15km}{15km/jam}=1jam$ setelah Bus $Y$ berangkat.",
+          "math_ids": [
+            "math-0317",
+            "math-0318",
+            "math-0319"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 812,
+          "text": "Bus $Y$ menyusul pada pukul $=07.15+1jam=08.15$.",
+          "math_ids": [
+            "math-0320",
+            "math-0321"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 813,
+          "text": "Jarak penyusulan dari sekolah $=75km/jam×1jam=75km$.",
+          "math_ids": [
+            "math-0322"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan selisih waktu keberangkatan 15 menit dan langsung membagi total jarak dengan selisih kecepatan.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : B\n\nDua bus pariwisata ($X$ dan $Y$) berangkat dari sekolah menuju tempat studi tur yang berjarak $180km$. Bus $X$ berangkat pukul 07.00 dengan kecepatan konstan $60km/jam$. Bus $Y$ berangkat 15 menit kemudian (pukul 07.15) dengan kecepatan konstan $75km/jam$. Pernyataan evaluatif yang tepat mengenai posisi kedua bus adalah ....\n\nA. Bus $Y$ menyusul Bus $X$ setelah menempuh jarak $45km$\n\nB. Bus $Y$ berhasil menyusul Bus $X$ pada pukul 08.15\n\nC. Bus $X$ tiba di lokasi tur lebih awal daripada Bus $Y$\n\nD. Saat Bus $Y$ tiba di tujuan, Bus $X$ masih tersisa jarak $30km$\n\nPEMBAHASAN\n\nWaktu tempuh masing-masing hingga tujuan:\n\n\n\n$WaktuBusX=\\frac{180}{60}=3jam→Tibapukul10.00$\n\n\n\n$WaktuBusY=\\frac{180}{75}=2,4jam=2jam24menit→Tibapukul09.39$\n\nAnalisis saat Bus $Y$ menyusul Bus $X$:\n\nSelisih waktu berangkat Bus $Y=15menit=0,25jam$.\n\nJarak awal Bus $X$ saat Bus $Y$ berangkat $=60km/jam×0,25jam=15km$.\n\nKecepatan relatif menyusul $=75-60=15km/jam$.\n\nWaktu untuk menyusul (${t}_{susul}$) $=\\frac{15km}{15km/jam}=1jam$ setelah Bus $Y$ berangkat.\n\nBus $Y$ menyusul pada pukul $=07.15+1jam=08.15$.\n\nJarak penyusulan dari sekolah $=75km/jam×1jam=75km$.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengabaikan selisih waktu keberangkatan 15 menit dan langsung membagi total jarak dengan selisih kecepatan.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan selisih waktu keberangkatan 15 menit dan langsung membagi total jarak dengan selisih kecepatan.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-6-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 830,
+      "paragraph_end": 849,
+      "body_block_start": 727,
+      "body_block_end_exclusive": 747
+    },
+    "audit_id": "5282d3eb0bdc:I6:L4:Q7:O1:original",
+    "original_explanation": "PEMBAHASAN\nLaju Mesin Tipe P:\n$Kapasitas3mesin=\\frac{1.500}{4}=375brosur/jam$\n$Laju1mesinTipeP=\\frac{375}{3}=125brosur/jam$\nLaju Mesin Tipe Q:\n$Kapasitas2mesin=\\frac{1.200}{3}=400brosur/jam$\n$Laju1mesinTipeQ=\\frac{400}{2}=200brosur/jam$\n(B Benar, A Salah).\nGabungan 1 Mesin P + 1 Mesin Q:\nLaju gabungan $=125+200=325brosur/jam$ (C Salah).\nGabungan 2 Mesin P + 2 Mesin Q (D):\nLaju $=2(125)+2(200)=250+400=650brosur/jam$.\nDalam 4 jam $=650×4=2.600brosur$ (D Benar).",
+    "source_projection": {
+      "stem": "Sebuah percetakan memiliki dua jenis mesin cetak: Mesin Tipe P (3 unit) dan Mesin Tipe Q (2 unit). Tiga mesin Tipe P bersama-sama dapat menyelesaikan pesanan $1.500$ brosur dalam waktu 4 jam. Dua mesin Tipe Q bersama-sama dapat menyelesaikan pesanan $1.200$ brosur dalam waktu 3 jam. Evaluasilah pernyataan berikut dan pilihlah pernyataan yang benar! (Jawaban benar lebih dari satu)",
+      "options": [
+        "Laju cetak 1 unit Mesin Tipe P lebih cepat daripada 1 unit Mesin Tipe Q.",
+        "Laju cetak 1 unit Mesin Tipe Q adalah $200brosur/jam$.",
+        "Jika 1 mesin Tipe P dan 1 mesin Tipe Q bekerja bersama, mereka dapat mencetak 350 brosur dalam 1 jam.",
+        "Untuk mencetak $2.600$ brosur dalam waktu 4 jam, dibutuhkan gabungan 2 mesin Tipe P dan 2 mesin Tipe Q."
+      ],
+      "key": [
+        "B",
+        "D"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 832,
+          "text": "KUNCI JAWABAN : B, D"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nLaju Mesin Tipe P:\n$Kapasitas3mesin=\\frac{1.500}{4}=375brosur/jam$\n$Laju1mesinTipeP=\\frac{375}{3}=125brosur/jam$\nLaju Mesin Tipe Q:\n$Kapasitas2mesin=\\frac{1.200}{3}=400brosur/jam$\n$Laju1mesinTipeQ=\\frac{400}{2}=200brosur/jam$\n(B Benar, A Salah).\nGabungan 1 Mesin P + 1 Mesin Q:\nLaju gabungan $=125+200=325brosur/jam$ (C Salah).\nGabungan 2 Mesin P + 2 Mesin Q (D):\nLaju $=2(125)+2(200)=250+400=650brosur/jam$.\nDalam 4 jam $=650×4=2.600brosur$ (D Benar).",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 838,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 839,
+          "text": "Laju Mesin Tipe P:",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 840,
+          "text": "$Kapasitas3mesin=\\frac{1.500}{4}=375brosur/jam$",
+          "math_ids": [
+            "math-0349"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 841,
+          "text": "$Laju1mesinTipeP=\\frac{375}{3}=125brosur/jam$",
+          "math_ids": [
+            "math-0350"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 842,
+          "text": "Laju Mesin Tipe Q:",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 843,
+          "text": "$Kapasitas2mesin=\\frac{1.200}{3}=400brosur/jam$",
+          "math_ids": [
+            "math-0351"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 844,
+          "text": "$Laju1mesinTipeQ=\\frac{400}{2}=200brosur/jam$",
+          "math_ids": [
+            "math-0352"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 845,
+          "text": "(B Benar, A Salah).",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 846,
+          "text": "Gabungan 1 Mesin P + 1 Mesin Q:\nLaju gabungan $=125+200=325brosur/jam$ (C Salah).",
+          "math_ids": [
+            "math-0353"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 847,
+          "text": "Gabungan 2 Mesin P + 2 Mesin Q (D):\nLaju $=2(125)+2(200)=250+400=650brosur/jam$.\nDalam 4 jam $=650×4=2.600brosur$ (D Benar).",
+          "math_ids": [
+            "math-0354",
+            "math-0355"
+          ],
+          "native_label": "●",
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa hanya membandingkan total output ($1.500$ vs $1.200$) tanpa memperhitungkan jumlah mesin dan alokasi durasi jam kerja.",
+      "tables": [],
+      "category_labels": null,
+      "format": "MCMA"
+    },
+    "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : B, D\n\nSebuah percetakan memiliki dua jenis mesin cetak: Mesin Tipe P (3 unit) dan Mesin Tipe Q (2 unit). Tiga mesin Tipe P bersama-sama dapat menyelesaikan pesanan $1.500$ brosur dalam waktu 4 jam. Dua mesin Tipe Q bersama-sama dapat menyelesaikan pesanan $1.200$ brosur dalam waktu 3 jam. Evaluasilah pernyataan berikut dan pilihlah pernyataan yang benar! (Jawaban benar lebih dari satu)\n\n[ ] A. Laju cetak 1 unit Mesin Tipe P lebih cepat daripada 1 unit Mesin Tipe Q.\n\n[ ] B. Laju cetak 1 unit Mesin Tipe Q adalah $200brosur/jam$.\n\n[ ] C. Jika 1 mesin Tipe P dan 1 mesin Tipe Q bekerja bersama, mereka dapat mencetak 350 brosur dalam 1 jam.\n\n[ ] D. Untuk mencetak $2.600$ brosur dalam waktu 4 jam, dibutuhkan gabungan 2 mesin Tipe P dan 2 mesin Tipe Q.\n\nPEMBAHASAN\n\nLaju Mesin Tipe P:\n\n$Kapasitas3mesin=\\frac{1.500}{4}=375brosur/jam$\n\n$Laju1mesinTipeP=\\frac{375}{3}=125brosur/jam$\n\nLaju Mesin Tipe Q:\n\n$Kapasitas2mesin=\\frac{1.200}{3}=400brosur/jam$\n\n$Laju1mesinTipeQ=\\frac{400}{2}=200brosur/jam$\n\n(B Benar, A Salah).\n\nGabungan 1 Mesin P + 1 Mesin Q:\nLaju gabungan $=125+200=325brosur/jam$ (C Salah).\n\nGabungan 2 Mesin P + 2 Mesin Q (D):\nLaju $=2(125)+2(200)=250+400=650brosur/jam$.\nDalam 4 jam $=650×4=2.600brosur$ (D Benar).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa hanya membandingkan total output ($1.500$ vs $1.200$) tanpa memperhitungkan jumlah mesin dan alokasi durasi jam kerja.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa hanya membandingkan total output ($1.500$ vs $1.200$) tanpa memperhitungkan jumlah mesin dan alokasi durasi jam kerja.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-7-4-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 1871,
+      "paragraph_end": 1894,
+      "body_block_start": 1628,
+      "body_block_end_exclusive": 1652
+    },
+    "audit_id": "5282d3eb0bdc:I7:L4:Q1:O1:original",
+    "original_explanation": "PEMBAHASAN Misalkan $x$ adalah banyak buku yang terjual.\nBiaya tetap $=Rp120.000,00$\n\nBiaya variabel $=3.000x$\n\nTotal biaya $=Rp345.000,00$\n\nModel matematika PLSV:\n$3.000x+120.000=345.000$\nMenyelesaikan persamaan menggunakan operasi invers:\n$3.000x=345.000-120.000$\n$3.000x=225.000$\n$x=\\frac{225.000}{3.000}=75$\nJadi, model yang tepat adalah $3.000x+120.000=345.000$ dan buku yang terjual sebanyak 75 buku.",
+    "source_projection": {
+      "stem": "Panitia kegiatan bursa buku murah di sekolah menyewa stan dengan biaya tetap Rp120.000,00 dan biaya operasional tambahan Rp3.000,00 untuk setiap buku yang terjual. Jika total biaya yang dikeluarkan panitia untuk stan tersebut adalah Rp345.000,00, model persamaan linear satu variabel dan banyak buku yang terjual adalah ....",
+      "options": [
+        "$120.000x+3.000=345.000$; terjual 75 buku",
+        "$3.000x-120.000=345.000$; terjual 155 buku",
+        "$3.000x+120.000=345.000$; terjual 75 buku",
+        "$3.000x+120.000=345.000$; terjual 115 buku"
+      ],
+      "key": [
+        "C"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 1873,
+          "text": "KUNCI JAWABAN : C"
+        }
+      ],
+      "explanation": "PEMBAHASAN Misalkan $x$ adalah banyak buku yang terjual.\nBiaya tetap $=Rp120.000,00$\n\nBiaya variabel $=3.000x$\n\nTotal biaya $=Rp345.000,00$\n\nModel matematika PLSV:\n$3.000x+120.000=345.000$\nMenyelesaikan persamaan menggunakan operasi invers:\n$3.000x=345.000-120.000$\n$3.000x=225.000$\n$x=\\frac{225.000}{3.000}=75$\nJadi, model yang tepat adalah $3.000x+120.000=345.000$ dan buku yang terjual sebanyak 75 buku.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 1879,
+          "text": "PEMBAHASAN Misalkan $x$ adalah banyak buku yang terjual.",
+          "math_ids": [
+            "math-0595"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1880,
+          "text": "Biaya tetap $=Rp120.000,00$\n",
+          "math_ids": [
+            "math-0596"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1881,
+          "text": "Biaya variabel $=3.000x$\n",
+          "math_ids": [
+            "math-0597"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1882,
+          "text": "Total biaya $=Rp345.000,00$\n",
+          "math_ids": [
+            "math-0598"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1883,
+          "text": "Model matematika PLSV:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1885,
+          "text": "$3.000x+120.000=345.000$",
+          "math_ids": [
+            "math-0599"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1886,
+          "text": "Menyelesaikan persamaan menggunakan operasi invers:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1888,
+          "text": "$3.000x=345.000-120.000$",
+          "math_ids": [
+            "math-0600"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1890,
+          "text": "$3.000x=225.000$",
+          "math_ids": [
+            "math-0601"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1892,
+          "text": "$x=\\frac{225.000}{3.000}=75$",
+          "math_ids": [
+            "math-0602"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1893,
+          "text": "Jadi, model yang tepat adalah $3.000x+120.000=345.000$ dan buku yang terjual sebanyak 75 buku.",
+          "math_ids": [
+            "math-0603"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa sering keliru mengalikan biaya tetap dengan $x$ atau langsung membagi total biaya Rp345.000,00 dengan Rp3.000,00 tanpa mengurangkan biaya tetap terlebih dahulu.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 1 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C4\n\nKUNCI JAWABAN : C\n\nPanitia kegiatan bursa buku murah di sekolah menyewa stan dengan biaya tetap Rp120.000,00 dan biaya operasional tambahan Rp3.000,00 untuk setiap buku yang terjual. Jika total biaya yang dikeluarkan panitia untuk stan tersebut adalah Rp345.000,00, model persamaan linear satu variabel dan banyak buku yang terjual adalah ....\n\nA. $120.000x+3.000=345.000$; terjual 75 buku\n\nB. $3.000x-120.000=345.000$; terjual 155 buku\n\nC. $3.000x+120.000=345.000$; terjual 75 buku\n\nD. $3.000x+120.000=345.000$; terjual 115 buku\n\nPEMBAHASAN Misalkan $x$ adalah banyak buku yang terjual.\n\nBiaya tetap $=Rp120.000,00$\n\n\nBiaya variabel $=3.000x$\n\n\nTotal biaya $=Rp345.000,00$\n\n\nModel matematika PLSV:\n\n\n\n$3.000x+120.000=345.000$\n\nMenyelesaikan persamaan menggunakan operasi invers:\n\n\n\n$3.000x=345.000-120.000$\n\n\n\n$3.000x=225.000$\n\n\n\n$x=\\frac{225.000}{3.000}=75$\n\nJadi, model yang tepat adalah $3.000x+120.000=345.000$ dan buku yang terjual sebanyak 75 buku.\n\nKesalahan Umum yang Diantisipasi: Siswa sering keliru mengalikan biaya tetap dengan $x$ atau langsung membagi total biaya Rp345.000,00 dengan Rp3.000,00 tanpa mengurangkan biaya tetap terlebih dahulu.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa sering keliru mengalikan biaya tetap dengan $x$ atau langsung membagi total biaya Rp345.000,00 dengan Rp3.000,00 tanpa mengurangkan biaya tetap terlebih dahulu.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-7-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 1971,
+      "paragraph_end": 1990,
+      "body_block_start": 1728,
+      "body_block_end_exclusive": 1748
+    },
+    "audit_id": "5282d3eb0bdc:I7:L4:Q5:O1:original",
+    "original_explanation": "PEMBAHASAN\nUji kesamaan dua bentuk aljabar dengan menyederhanakannya:\nFormulasi A:\n\n$4(x+3)-2x=4x+12-2x=2x+12$\nFormulasi B:\n\n$2(x+6)=2x+12$\nKarena kedua formulasi menghasilkan bentuk aljabar yang sama ($2x+12$), maka untuk setiap nilai $x$, nilai dari Formulasi A selalu sama dengan Formulasi B. Jadi, pernyataan pembeli Benar.",
+    "source_projection": {
+      "stem": "Sebuah Toko Alat Tulis memberikan penawaran harga buku tulis. Pengelola toko membuat dua bentuk formulasi harga untuk $x$ buah buku tulis:\n$4(x+3)-2x$\n$2(x+6)$\nSeorang pembeli menyatakan bahwa berapa pun jumlah buku yang dibeli ($x$), total harga pada Formulasi A dan Formulasi B akan selalu sama. Evaluasi terhadap pernyataan pembeli tersebut adalah ....",
+      "options": [
+        "Salah, karena Formulasi A menghasilkan nilai yang lebih besar untuk $x>5$",
+        "Salah, karena Formulasi B tidak memiliki konstanta yang sama",
+        "Benar hanya jika jumlah buku yang dibeli $x=6$",
+        "Benar, karena kedua formulasi dapat disederhanakan menjadi bentuk linear yang sama yaitu $2x+12$"
+      ],
+      "key": [
+        "D"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 1973,
+          "text": "KUNCI JAWABAN : D"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nUji kesamaan dua bentuk aljabar dengan menyederhanakannya:\nFormulasi A:\n\n$4(x+3)-2x=4x+12-2x=2x+12$\nFormulasi B:\n\n$2(x+6)=2x+12$\nKarena kedua formulasi menghasilkan bentuk aljabar yang sama ($2x+12$), maka untuk setiap nilai $x$, nilai dari Formulasi A selalu sama dengan Formulasi B. Jadi, pernyataan pembeli Benar.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 1982,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1983,
+          "text": "Uji kesamaan dua bentuk aljabar dengan menyederhanakannya:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1984,
+          "text": "Formulasi A:\n",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1985,
+          "text": "$4(x+3)-2x=4x+12-2x=2x+12$",
+          "math_ids": [
+            "math-0655"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1986,
+          "text": "Formulasi B:\n",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1987,
+          "text": "$2(x+6)=2x+12$",
+          "math_ids": [
+            "math-0656"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1988,
+          "text": "Karena kedua formulasi menghasilkan bentuk aljabar yang sama ($2x+12$), maka untuk setiap nilai $x$, nilai dari Formulasi A selalu sama dengan Formulasi B. Jadi, pernyataan pembeli Benar.",
+          "math_ids": [
+            "math-0657",
+            "math-0658"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira kedua persamaan hanya sama pada titik tertentu tanpa mengoperasikan bentuk aljabar menggunakan sifat distributif terlebih dahulu.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : D\n\nSebuah Toko Alat Tulis memberikan penawaran harga buku tulis. Pengelola toko membuat dua bentuk formulasi harga untuk $x$ buah buku tulis:\n\nFormulasi A: $4(x+3)-2x$\n\nFormulasi B: $2(x+6)$\n\nSeorang pembeli menyatakan bahwa berapa pun jumlah buku yang dibeli ($x$), total harga pada Formulasi A dan Formulasi B akan selalu sama. Evaluasi terhadap pernyataan pembeli tersebut adalah ....\n\nA. Salah, karena Formulasi A menghasilkan nilai yang lebih besar untuk $x>5$\n\nB. Salah, karena Formulasi B tidak memiliki konstanta yang sama\n\nC. Benar hanya jika jumlah buku yang dibeli $x=6$\n\nD. Benar, karena kedua formulasi dapat disederhanakan menjadi bentuk linear yang sama yaitu $2x+12$\n\nPEMBAHASAN\n\nUji kesamaan dua bentuk aljabar dengan menyederhanakannya:\n\nFormulasi A:\n\n\n$4(x+3)-2x=4x+12-2x=2x+12$\n\nFormulasi B:\n\n\n$2(x+6)=2x+12$\n\nKarena kedua formulasi menghasilkan bentuk aljabar yang sama ($2x+12$), maka untuk setiap nilai $x$, nilai dari Formulasi A selalu sama dengan Formulasi B. Jadi, pernyataan pembeli Benar.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira kedua persamaan hanya sama pada titik tertentu tanpa mengoperasikan bentuk aljabar menggunakan sifat distributif terlebih dahulu.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira kedua persamaan hanya sama pada titik tertentu tanpa mengoperasikan bentuk aljabar menggunakan sifat distributif terlebih dahulu.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-7-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 2006,
+      "paragraph_end": 2027,
+      "body_block_start": 1763,
+      "body_block_end_exclusive": 1785
+    },
+    "audit_id": "5282d3eb0bdc:I7:L4:Q7:O1:original",
+    "original_explanation": "PEMBAHASAN\nSederhanakan ruas kiri:\n$3(2x+4)-2x=6x+12-2x=4x+12$\n(B Benar).\nPersamaan menjadi:\n$4x+12=4x+7$\nKurangkan $4x$ dari kedua ruas:\n$12=7(PernyataanSalah/Kontradiksi)$\nKarena diperoleh pernyataan yang bernilai salah ($12=7$), maka persamaan tersebut tidak memiliki penyelesaian (himpunan penyelesaiannya adalah himpunan kosong) (D Benar, A & C Salah).",
+    "source_projection": {
+      "stem": "Seorang siswa menyederhanakan persamaan $3(2x+4)-2x=4x+7$ dan menyimpulkan beberapa hal. Manakah pernyataan evaluatif berikut yang benar mengenai persamaan tersebut? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Persamaan tersebut memiliki penyelesaian tunggal yaitu $x=5$.",
+        "Setelah disederhanakan, ruas kiri menjadi $4x+12$.",
+        "Persamaan tersebut memiliki tak hingga banyaknya penyelesaian.",
+        "Persamaan tersebut tidak memiliki penyelesaian (kontradiksi $12=7$)."
+      ],
+      "key": [
+        "B",
+        "D"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 2008,
+          "text": "KUNCI JAWABAN : B, D"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nSederhanakan ruas kiri:\n$3(2x+4)-2x=6x+12-2x=4x+12$\n(B Benar).\nPersamaan menjadi:\n$4x+12=4x+7$\nKurangkan $4x$ dari kedua ruas:\n$12=7(PernyataanSalah/Kontradiksi)$\nKarena diperoleh pernyataan yang bernilai salah ($12=7$), maka persamaan tersebut tidak memiliki penyelesaian (himpunan penyelesaiannya adalah himpunan kosong) (D Benar, A & C Salah).",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 2014,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2015,
+          "text": "Sederhanakan ruas kiri:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2017,
+          "text": "$3(2x+4)-2x=6x+12-2x=4x+12$",
+          "math_ids": [
+            "math-0673"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2018,
+          "text": "(B Benar).",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2019,
+          "text": "Persamaan menjadi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2021,
+          "text": "$4x+12=4x+7$",
+          "math_ids": [
+            "math-0674"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2022,
+          "text": "Kurangkan $4x$ dari kedua ruas:",
+          "math_ids": [
+            "math-0675"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2024,
+          "text": "$12=7(PernyataanSalah/Kontradiksi)$",
+          "math_ids": [
+            "math-0676"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2025,
+          "text": "Karena diperoleh pernyataan yang bernilai salah ($12=7$), maka persamaan tersebut tidak memiliki penyelesaian (himpunan penyelesaiannya adalah himpunan kosong) (D Benar, A & C Salah).",
+          "math_ids": [
+            "math-0677"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira hasil $12=7$ berarti $x=12-7=5$, alih-alih menyadari bahwa eliminasi variabel $x$ yang menghasilkan pernyataan salah menandakan tidak adanya solusi.",
+      "tables": [],
+      "category_labels": null,
+      "format": "MCMA"
+    },
+    "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : B, D\n\nSeorang siswa menyederhanakan persamaan $3(2x+4)-2x=4x+7$ dan menyimpulkan beberapa hal. Manakah pernyataan evaluatif berikut yang benar mengenai persamaan tersebut? (Jawaban benar lebih dari satu)\n\n[ ] A. Persamaan tersebut memiliki penyelesaian tunggal yaitu $x=5$.\n\n[ ] B. Setelah disederhanakan, ruas kiri menjadi $4x+12$.\n\n[ ] C. Persamaan tersebut memiliki tak hingga banyaknya penyelesaian.\n\n[ ] D. Persamaan tersebut tidak memiliki penyelesaian (kontradiksi $12=7$).\n\nPEMBAHASAN\n\nSederhanakan ruas kiri:\n\n\n\n$3(2x+4)-2x=6x+12-2x=4x+12$\n\n(B Benar).\n\nPersamaan menjadi:\n\n\n\n$4x+12=4x+7$\n\nKurangkan $4x$ dari kedua ruas:\n\n\n\n$12=7(PernyataanSalah/Kontradiksi)$\n\nKarena diperoleh pernyataan yang bernilai salah ($12=7$), maka persamaan tersebut tidak memiliki penyelesaian (himpunan penyelesaiannya adalah himpunan kosong) (D Benar, A & C Salah).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira hasil $12=7$ berarti $x=12-7=5$, alih-alih menyadari bahwa eliminasi variabel $x$ yang menghasilkan pernyataan salah menandakan tidak adanya solusi.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira hasil $12=7$ berarti $x=12-7=5$, alih-alih menyadari bahwa eliminasi variabel $x$ yang menghasilkan pernyataan salah menandakan tidak adanya solusi.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-7-4-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 2028,
+      "paragraph_end": 2054,
+      "body_block_start": 1785,
+      "body_block_end_exclusive": 1812
+    },
+    "audit_id": "5282d3eb0bdc:I7:L4:Q8:O1:original",
+    "original_explanation": "PEMBAHASAN\nBuat model persamaan dari informasi Tabungan Rani $=$ Tabungan Dion:\n$2x+30.000=4x-10.000$\nGunakan operasi invers:\n$30.000+10.000=4x-2x$\n$$40.000 = 2x \\implies x = 20.000$$\n(A Benar).\nSubstitusikan nilai $x=20.000$ ke masing-masing tabungan:\nTabungan Rani $=2(20.000)+30.000=Rp70.000,00$ (C Benar).\nTabungan Dion $=4(20.000)-10.000=Rp70.000,00$.\nTabungan Sinta $=3(20.000)+10.000=Rp70.000,00$.\nKarena tabungan ketiganya sama-sama Rp70.000,00, maka Tabungan Dion $=$ Tabungan Sinta $=Rp70.000,00$ (D Benar), dan pernyataan B Salah (karena nilainya sama, bukan lebih kecil).",
+    "source_projection": {
+      "stem": "Tiga orang siswa SMP (Rani, Dion, dan Sinta) tabungannya dianalisis:\nTabungan Rani $=(2x+30.000)$ rupiah\nTabungan Dion $=(4x-10.000)$ rupiah\nTabungan Sinta $=(3x+10.000)$ rupiah\nJika diketahui jumlah tabungan Rani dan Dion sama besar, manakah hasil evaluasi berikut yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Nilai $x$ yang memenuhi adalah $20.000$.",
+        "Tabungan Rani lebih kecil daripada tabungan Sinta.",
+        "Besar tabungan Rani adalah Rp70.000,00.",
+        "Tabungan Sinta dan tabungan Dion bernilai sama yaitu Rp70.000,00."
+      ],
+      "key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 2030,
+          "text": "KUNCI JAWABAN : A, C, D"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nBuat model persamaan dari informasi Tabungan Rani $=$ Tabungan Dion:\n$2x+30.000=4x-10.000$\nGunakan operasi invers:\n$30.000+10.000=4x-2x$\n$$40.000 = 2x \\implies x = 20.000$$\n(A Benar).\nSubstitusikan nilai $x=20.000$ ke masing-masing tabungan:\nTabungan Rani $=2(20.000)+30.000=Rp70.000,00$ (C Benar).\nTabungan Dion $=4(20.000)-10.000=Rp70.000,00$.\nTabungan Sinta $=3(20.000)+10.000=Rp70.000,00$.\nKarena tabungan ketiganya sama-sama Rp70.000,00, maka Tabungan Dion $=$ Tabungan Sinta $=Rp70.000,00$ (D Benar), dan pernyataan B Salah (karena nilainya sama, bukan lebih kecil).",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 2040,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2041,
+          "text": "Buat model persamaan dari informasi Tabungan Rani $=$ Tabungan Dion:",
+          "math_ids": [
+            "math-0686"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2043,
+          "text": "$2x+30.000=4x-10.000$",
+          "math_ids": [
+            "math-0687"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2044,
+          "text": "Gunakan operasi invers:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2046,
+          "text": "$30.000+10.000=4x-2x$",
+          "math_ids": [
+            "math-0688"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2047,
+          "text": "$$40.000 = 2x \\implies x = 20.000$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2048,
+          "text": "(A Benar).",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2049,
+          "text": "Substitusikan nilai $x=20.000$ ke masing-masing tabungan:",
+          "math_ids": [
+            "math-0689"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2050,
+          "text": "Tabungan Rani $=2(20.000)+30.000=Rp70.000,00$ (C Benar).",
+          "math_ids": [
+            "math-0690"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2051,
+          "text": "Tabungan Dion $=4(20.000)-10.000=Rp70.000,00$.",
+          "math_ids": [
+            "math-0691"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2052,
+          "text": "Tabungan Sinta $=3(20.000)+10.000=Rp70.000,00$.",
+          "math_ids": [
+            "math-0692"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2053,
+          "text": "Karena tabungan ketiganya sama-sama Rp70.000,00, maka Tabungan Dion $=$ Tabungan Sinta $=Rp70.000,00$ (D Benar), dan pernyataan B Salah (karena nilainya sama, bukan lebih kecil).",
+          "math_ids": [
+            "math-0693",
+            "math-0694"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa salah melakukan operasi pindahtuas dari $4x-2x$ atau $-10.000$ menjadi $+10.000$.",
+      "tables": [],
+      "category_labels": null,
+      "format": "MCMA"
+    },
+    "source_text": "SOAL 8 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : A, C, D\n\nTiga orang siswa SMP (Rani, Dion, dan Sinta) tabungannya dianalisis:\n\nTabungan Rani $=(2x+30.000)$ rupiah\n\nTabungan Dion $=(4x-10.000)$ rupiah\n\nTabungan Sinta $=(3x+10.000)$ rupiah\n\nJika diketahui jumlah tabungan Rani dan Dion sama besar, manakah hasil evaluasi berikut yang benar? (Jawaban benar lebih dari satu)\n\n[ ] A. Nilai $x$ yang memenuhi adalah $20.000$.\n\n[ ] B. Tabungan Rani lebih kecil daripada tabungan Sinta.\n\n[ ] C. Besar tabungan Rani adalah Rp70.000,00.\n\n[ ] D. Tabungan Sinta dan tabungan Dion bernilai sama yaitu Rp70.000,00.\n\nPEMBAHASAN\n\nBuat model persamaan dari informasi Tabungan Rani $=$ Tabungan Dion:\n\n\n\n$2x+30.000=4x-10.000$\n\nGunakan operasi invers:\n\n\n\n$30.000+10.000=4x-2x$\n\n$$40.000 = 2x \\implies x = 20.000$$\n\n(A Benar).\n\nSubstitusikan nilai $x=20.000$ ke masing-masing tabungan:\n\nTabungan Rani $=2(20.000)+30.000=Rp70.000,00$ (C Benar).\n\nTabungan Dion $=4(20.000)-10.000=Rp70.000,00$.\n\nTabungan Sinta $=3(20.000)+10.000=Rp70.000,00$.\n\nKarena tabungan ketiganya sama-sama Rp70.000,00, maka Tabungan Dion $=$ Tabungan Sinta $=Rp70.000,00$ (D Benar), dan pernyataan B Salah (karena nilainya sama, bukan lebih kecil).\n\nKesalahan Umum yang Diantisipasi: Siswa salah melakukan operasi pindahtuas dari $4x-2x$ atau $-10.000$ menjadi $+10.000$.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa salah melakukan operasi pindahtuas dari $4x-2x$ atau $-10.000$ menjadi $+10.000$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-7-5-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 2112,
+      "paragraph_end": 2133,
+      "body_block_start": 1847,
+      "body_block_end_exclusive": 1869
+    },
+    "audit_id": "5282d3eb0bdc:I7:L5:Q1:O1:original",
+    "original_explanation": "PEMBAHASAN Misalkan $b$ adalah harga 1 buah buku tulis.\nEvaluasi Skema A:\nModel PLSV: $3b + 2(2.000) = 22.000 \\implies 3b + 4.000 = 22.000$\n\n\n$3b=22.000-4.000=18.000$\n$b=\\frac{18.000}{3}=Rp6.000,00$\nEvaluasi Skema B:\nModel PLSV: $5b-6.000=24.000$\n\n$5b=24.000+6.000=30.000$\n$b=\\frac{30.000}{5}=Rp6.000,00$\nKedua skema menghasilkan harga satuan buku tulis yang tepat sama, yaitu Rp6.000,00.",
+    "source_projection": {
+      "stem": "Pengelola kantin sekolah mengevaluasi dua skema paket penjualan perlengkapan sekolah:\nSkema A: 3 buah buku tulis dan 2 buah pensil seharga Rp22.000,00, dengan harga 1 buah pensil diketahui Rp2.000,00.\nSkema B: 5 buah buku tulis sejenis diberi diskon potongan harga Rp6.000,00 dari total harga normalnya, sehingga pembeli membayar Rp24.000,00.\nEvaluasi yang tepat mengenai harga satuan 1 buah buku tulis pada kedua skema tersebut adalah ....",
+      "options": [
+        "Harga satuan buku pada Skema A lebih murah Rp1.000,00 dibanding Skema B",
+        "Harga satuan buku pada Skema A dan Skema B nilainya tepat sama yaitu Rp6.000,00",
+        "Harga satuan buku pada Skema B lebih murah Rp2.000,00 dibanding Skema A",
+        "Skema B menawarkan harga satuan buku lebih mahal karena jumlah buku yang dibeli lebih banyak"
+      ],
+      "key": [
+        "B"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 2114,
+          "text": "KUNCI JAWABAN : B"
+        }
+      ],
+      "explanation": "PEMBAHASAN Misalkan $b$ adalah harga 1 buah buku tulis.\nEvaluasi Skema A:\nModel PLSV: $3b + 2(2.000) = 22.000 \\implies 3b + 4.000 = 22.000$\n\n\n$3b=22.000-4.000=18.000$\n$b=\\frac{18.000}{3}=Rp6.000,00$\nEvaluasi Skema B:\nModel PLSV: $5b-6.000=24.000$\n\n$5b=24.000+6.000=30.000$\n$b=\\frac{30.000}{5}=Rp6.000,00$\nKedua skema menghasilkan harga satuan buku tulis yang tepat sama, yaitu Rp6.000,00.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 2123,
+          "text": "PEMBAHASAN Misalkan $b$ adalah harga 1 buah buku tulis.",
+          "math_ids": [
+            "math-0715"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2124,
+          "text": "Evaluasi Skema A:\nModel PLSV: $3b + 2(2.000) = 22.000 \\implies 3b + 4.000 = 22.000$\n\n",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2125,
+          "text": "$3b=22.000-4.000=18.000$",
+          "math_ids": [
+            "math-0716"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2127,
+          "text": "$b=\\frac{18.000}{3}=Rp6.000,00$",
+          "math_ids": [
+            "math-0717"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2128,
+          "text": "Evaluasi Skema B:\nModel PLSV: $5b-6.000=24.000$\n",
+          "math_ids": [
+            "math-0718"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2129,
+          "text": "$5b=24.000+6.000=30.000$",
+          "math_ids": [
+            "math-0719"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2131,
+          "text": "$b=\\frac{30.000}{5}=Rp6.000,00$",
+          "math_ids": [
+            "math-0720"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2132,
+          "text": "Kedua skema menghasilkan harga satuan buku tulis yang tepat sama, yaitu Rp6.000,00.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa sering keliru pada Skema B dengan mengurangkan Rp24.000,00 dengan Rp6.000,00 alih-alih menjumlahkannya saat menerapkan operasi invers.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 1 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : B\n\nPengelola kantin sekolah mengevaluasi dua skema paket penjualan perlengkapan sekolah:\n\nSkema A: 3 buah buku tulis dan 2 buah pensil seharga Rp22.000,00, dengan harga 1 buah pensil diketahui Rp2.000,00.\n\nSkema B: 5 buah buku tulis sejenis diberi diskon potongan harga Rp6.000,00 dari total harga normalnya, sehingga pembeli membayar Rp24.000,00.\n\nEvaluasi yang tepat mengenai harga satuan 1 buah buku tulis pada kedua skema tersebut adalah ....\n\nA. Harga satuan buku pada Skema A lebih murah Rp1.000,00 dibanding Skema B\n\nB. Harga satuan buku pada Skema A dan Skema B nilainya tepat sama yaitu Rp6.000,00\n\nC. Harga satuan buku pada Skema B lebih murah Rp2.000,00 dibanding Skema A\n\nD. Skema B menawarkan harga satuan buku lebih mahal karena jumlah buku yang dibeli lebih banyak\n\nPEMBAHASAN Misalkan $b$ adalah harga 1 buah buku tulis.\n\nEvaluasi Skema A:\nModel PLSV: $3b + 2(2.000) = 22.000 \\implies 3b + 4.000 = 22.000$\n\n\n\n$3b=22.000-4.000=18.000$\n\n\n\n$b=\\frac{18.000}{3}=Rp6.000,00$\n\nEvaluasi Skema B:\nModel PLSV: $5b-6.000=24.000$\n\n\n$5b=24.000+6.000=30.000$\n\n\n\n$b=\\frac{30.000}{5}=Rp6.000,00$\n\nKedua skema menghasilkan harga satuan buku tulis yang tepat sama, yaitu Rp6.000,00.\n\nKesalahan Umum yang Diantisipasi: Siswa sering keliru pada Skema B dengan mengurangkan Rp24.000,00 dengan Rp6.000,00 alih-alih menjumlahkannya saat menerapkan operasi invers.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa sering keliru pada Skema B dengan mengurangkan Rp24.000,00 dengan Rp6.000,00 alih-alih menjumlahkannya saat menerapkan operasi invers.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-7-5-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 2186,
+      "paragraph_end": 2209,
+      "body_block_start": 1921,
+      "body_block_end_exclusive": 1945
+    },
+    "audit_id": "5282d3eb0bdc:I7:L5:Q4:O1:original",
+    "original_explanation": "PEMBAHASAN\nMisalkan $n$ adalah banyak panitia OSIS.\nTotal uang operasional dapat dinyatakan dalam dua kondisi:\nKondisi 1: $15.000n+20.000$\nKondisi 2: $18.000n-16.000$\nKarena total uang operasional sama, buat model PLSV:\n$15.000n+20.000=18.000n-16.000$\nSelesaikan persamaan dengan operasi invers:\n$20.000+16.000=18.000n-15.000n$\n$$36.000 = 3.000n \\implies n = 12\\text{ orang panitia}$$\nSubstitusi $n=12$ ke salah satu kondisi untuk mengetahui total uang:\n$TotalUang=15.000(12)+20.000=180.000+20.000=Rp200.000,00$",
+    "source_projection": {
+      "stem": "Pembina OSIS membagikan sejumlah uang saku operasional untuk panitia. Jika setiap panitia diberi Rp15.000,00, maka uang operasional tersisa Rp20.000,00. Namun, jika setiap panitia hendak diberi Rp18.000,00, pembina OSIS kekurangan uang sebesar Rp16.000,00. Evaluasi terhadap total uang operasional yang dimiliki pembina OSIS adalah ....",
+      "options": [
+        "Rp200.000,00",
+        "Rp180.000,00",
+        "Rp160.000,00",
+        "Rp120.000,00"
+      ],
+      "key": [
+        "A"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 2188,
+          "text": "KUNCI JAWABAN : A"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nMisalkan $n$ adalah banyak panitia OSIS.\nTotal uang operasional dapat dinyatakan dalam dua kondisi:\nKondisi 1: $15.000n+20.000$\nKondisi 2: $18.000n-16.000$\nKarena total uang operasional sama, buat model PLSV:\n$15.000n+20.000=18.000n-16.000$\nSelesaikan persamaan dengan operasi invers:\n$20.000+16.000=18.000n-15.000n$\n$$36.000 = 3.000n \\implies n = 12\\text{ orang panitia}$$\nSubstitusi $n=12$ ke salah satu kondisi untuk mengetahui total uang:\n$TotalUang=15.000(12)+20.000=180.000+20.000=Rp200.000,00$",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 2194,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2195,
+          "text": "Misalkan $n$ adalah banyak panitia OSIS.",
+          "math_ids": [
+            "math-0745"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2196,
+          "text": "Total uang operasional dapat dinyatakan dalam dua kondisi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2197,
+          "text": "Kondisi 1: $15.000n+20.000$",
+          "math_ids": [
+            "math-0746"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2198,
+          "text": "Kondisi 2: $18.000n-16.000$",
+          "math_ids": [
+            "math-0747"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2199,
+          "text": "Karena total uang operasional sama, buat model PLSV:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2201,
+          "text": "$15.000n+20.000=18.000n-16.000$",
+          "math_ids": [
+            "math-0748"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2202,
+          "text": "Selesaikan persamaan dengan operasi invers:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2204,
+          "text": "$20.000+16.000=18.000n-15.000n$",
+          "math_ids": [
+            "math-0749"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2205,
+          "text": "$$36.000 = 3.000n \\implies n = 12\\text{ orang panitia}$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2206,
+          "text": "Substitusi $n=12$ ke salah satu kondisi untuk mengetahui total uang:",
+          "math_ids": [
+            "math-0750"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2208,
+          "text": "$TotalUang=15.000(12)+20.000=180.000+20.000=Rp200.000,00$",
+          "math_ids": [
+            "math-0751"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa berhenti pada tahap menemukan jumlah panitia ($n=12$) dan memilih angka tersebut atau salah memasukkan tanda minus/plus pada sisa dan kekurangan uang.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 4 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : A\n\nPembina OSIS membagikan sejumlah uang saku operasional untuk panitia. Jika setiap panitia diberi Rp15.000,00, maka uang operasional tersisa Rp20.000,00. Namun, jika setiap panitia hendak diberi Rp18.000,00, pembina OSIS kekurangan uang sebesar Rp16.000,00. Evaluasi terhadap total uang operasional yang dimiliki pembina OSIS adalah ....\n\nA. Rp200.000,00\n\nB. Rp180.000,00\n\nC. Rp160.000,00\n\nD. Rp120.000,00\n\nPEMBAHASAN\n\nMisalkan $n$ adalah banyak panitia OSIS.\n\nTotal uang operasional dapat dinyatakan dalam dua kondisi:\n\nKondisi 1: $15.000n+20.000$\n\nKondisi 2: $18.000n-16.000$\n\nKarena total uang operasional sama, buat model PLSV:\n\n\n\n$15.000n+20.000=18.000n-16.000$\n\nSelesaikan persamaan dengan operasi invers:\n\n\n\n$20.000+16.000=18.000n-15.000n$\n\n$$36.000 = 3.000n \\implies n = 12\\text{ orang panitia}$$\n\nSubstitusi $n=12$ ke salah satu kondisi untuk mengetahui total uang:\n\n\n\n$TotalUang=15.000(12)+20.000=180.000+20.000=Rp200.000,00$\n\nKesalahan Umum yang Diantisipasi: Siswa berhenti pada tahap menemukan jumlah panitia ($n=12$) dan memilih angka tersebut atau salah memasukkan tanda minus/plus pada sisa dan kekurangan uang.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa berhenti pada tahap menemukan jumlah panitia ($n=12$) dan memilih angka tersebut atau salah memasukkan tanda minus/plus pada sisa dan kekurangan uang.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-8-4-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3079,
+      "paragraph_end": 3103,
+      "body_block_start": 2726,
+      "body_block_end_exclusive": 2751
+    },
+    "audit_id": "5282d3eb0bdc:I8:L4:Q2:O1:original",
+    "original_explanation": "PEMBAHASAN\nKata \"tidak boleh kurang dari\" berarti sama dengan atau lebih besar dari ($≥$).\nModel PtLSV:\n$2h-40≥220$\nPenyelesaian dengan operasi invers:\n$2h≥220+40$\n$2h≥260$\n$h≥130$\nPada garis bilangan:\nKarena menggunakan tanda $≥$ (memuat batas), titik 130 digambarkan dengan lingkaran penuh (terisi).\nKarena nilai $h$ lebih besar dari atau sama dengan 130, arah panah menuju ke kanan.",
+    "source_projection": {
+      "stem": "Sebuah wahana permainan di taman wisata memiliki aturan batas tinggi badan minimum untuk keselamatan. Dua kali tinggi badan Dion ($h$) dikurangi $40cm$ tidak boleh kurang dari $220cm$. Bentuk penyelesaian pertidaksamaan dan gambaran himpunan penyelesaian tinggi badan Dion pada garis bilangan yang benar adalah ....",
+      "options": [
+        "$h≤130$; garis bilangan menggunakan lingkaran penuh pada 130 dengan panah ke kiri",
+        "$h≥90$; garis bilangan menggunakan lingkaran kosong pada 90 dengan panah ke kanan",
+        "$h≥130$; garis bilangan menggunakan lingkaran penuh pada 130 dengan panah ke kanan",
+        "$h>130$; garis bilangan menggunakan lingkaran kosong pada 130 dengan panah ke kanan"
+      ],
+      "key": [
+        "C"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : C"
+      ],
+      "explanation": "PEMBAHASAN\nKata \"tidak boleh kurang dari\" berarti sama dengan atau lebih besar dari ($≥$).\nModel PtLSV:\n$2h-40≥220$\nPenyelesaian dengan operasi invers:\n$2h≥220+40$\n$2h≥260$\n$h≥130$\nPada garis bilangan:\nKarena menggunakan tanda $≥$ (memuat batas), titik 130 digambarkan dengan lingkaran penuh (terisi).\nKarena nilai $h$ lebih besar dari atau sama dengan 130, arah panah menuju ke kanan.",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengartikan \"tidak kurang dari\" sebagai $<$ atau $>$, serta keliru menggambarkan lingkaran kosong untuk tanda pertidaksamaan yang memuat sama dengan ($≥$).",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3079,
+          "text": "SOAL 2 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3080,
+          "text": "LEVEL KOGNITIF : C4 (Menganalisis)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3081,
+          "text": "KUNCI JAWABAN : C",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3082,
+          "text": "Sebuah wahana permainan di taman wisata memiliki aturan batas tinggi badan minimum untuk keselamatan. Dua kali tinggi badan Dion ($h$) dikurangi $40cm$ tidak boleh kurang dari $220cm$. Bentuk penyelesaian pertidaksamaan dan gambaran himpunan penyelesaian tinggi badan Dion pada garis bilangan yang benar adalah ....",
+          "math_ids": [
+            "math-0851",
+            "math-0852",
+            "math-0853"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3083,
+          "text": "A. $h≤130$; garis bilangan menggunakan lingkaran penuh pada 130 dengan panah ke kiri",
+          "math_ids": [
+            "math-0854"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3084,
+          "text": "B. $h≥90$; garis bilangan menggunakan lingkaran kosong pada 90 dengan panah ke kanan",
+          "math_ids": [
+            "math-0855"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3085,
+          "text": "C. $h≥130$; garis bilangan menggunakan lingkaran penuh pada 130 dengan panah ke kanan",
+          "math_ids": [
+            "math-0856"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3086,
+          "text": "D. $h>130$; garis bilangan menggunakan lingkaran kosong pada 130 dengan panah ke kanan",
+          "math_ids": [
+            "math-0857"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3087,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3088,
+          "text": "Kata \"tidak boleh kurang dari\" berarti sama dengan atau lebih besar dari ($≥$).",
+          "math_ids": [
+            "math-0858"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3089,
+          "text": "Model PtLSV:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3090,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3091,
+          "text": "$2h-40≥220$",
+          "math_ids": [
+            "math-0859"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3092,
+          "text": "Penyelesaian dengan operasi invers:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3093,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3094,
+          "text": "$2h≥220+40$",
+          "math_ids": [
+            "math-0860"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3095,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3096,
+          "text": "$2h≥260$",
+          "math_ids": [
+            "math-0861"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3097,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3098,
+          "text": "$h≥130$",
+          "math_ids": [
+            "math-0862"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3099,
+          "text": "Pada garis bilangan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3100,
+          "text": "Karena menggunakan tanda $≥$ (memuat batas), titik 130 digambarkan dengan lingkaran penuh (terisi).",
+          "math_ids": [
+            "math-0863"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3101,
+          "text": "Karena nilai $h$ lebih besar dari atau sama dengan 130, arah panah menuju ke kanan.",
+          "math_ids": [
+            "math-0864"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3102,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3103,
+          "text": "Siswa mengartikan \"tidak kurang dari\" sebagai $<$ atau $>$, serta keliru menggambarkan lingkaran kosong untuk tanda pertidaksamaan yang memuat sama dengan ($≥$).",
+          "math_ids": [
+            "math-0865",
+            "math-0866",
+            "math-0867"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 2 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C4 (Menganalisis)\n\nKUNCI JAWABAN : C\n\nSebuah wahana permainan di taman wisata memiliki aturan batas tinggi badan minimum untuk keselamatan. Dua kali tinggi badan Dion ($h$) dikurangi $40cm$ tidak boleh kurang dari $220cm$. Bentuk penyelesaian pertidaksamaan dan gambaran himpunan penyelesaian tinggi badan Dion pada garis bilangan yang benar adalah ....\n\nA. $h≤130$; garis bilangan menggunakan lingkaran penuh pada 130 dengan panah ke kiri\n\nB. $h≥90$; garis bilangan menggunakan lingkaran kosong pada 90 dengan panah ke kanan\n\nC. $h≥130$; garis bilangan menggunakan lingkaran penuh pada 130 dengan panah ke kanan\n\nD. $h>130$; garis bilangan menggunakan lingkaran kosong pada 130 dengan panah ke kanan\n\nPEMBAHASAN\n\nKata \"tidak boleh kurang dari\" berarti sama dengan atau lebih besar dari ($≥$).\n\nModel PtLSV:\n\n\n\n$2h-40≥220$\n\nPenyelesaian dengan operasi invers:\n\n\n\n$2h≥220+40$\n\n\n\n$2h≥260$\n\n\n\n$h≥130$\n\nPada garis bilangan:\n\nKarena menggunakan tanda $≥$ (memuat batas), titik 130 digambarkan dengan lingkaran penuh (terisi).\n\nKarena nilai $h$ lebih besar dari atau sama dengan 130, arah panah menuju ke kanan.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengartikan \"tidak kurang dari\" sebagai $<$ atau $>$, serta keliru menggambarkan lingkaran kosong untuk tanda pertidaksamaan yang memuat sama dengan ($≥$).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengartikan \"tidak kurang dari\" sebagai $<$ atau $>$, serta keliru menggambarkan lingkaran kosong untuk tanda pertidaksamaan yang memuat sama dengan ($≥$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-8-4-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3104,
+      "paragraph_end": 3132,
+      "body_block_start": 2751,
+      "body_block_end_exclusive": 2780
+    },
+    "audit_id": "5282d3eb0bdc:I8:L4:Q3:O1:original",
+    "original_explanation": "PEMBAHASAN\nSederhanakan ruas kiri:\n$5-2x-6≥3x+14$\n$-2x-1≥3x+14$\nKelompokkan suku ber-variabel di ruas kiri dan konstanta di ruas kanan:\n$-2x-3x≥14+1$\n$-5x≥15$\nBagi kedua ruas dengan bilangan negatif ($-5$), tanda pertidaksamaan dibalik:\n$x≤\\frac{15}{-5}$\n$x≤-3$",
+    "source_projection": {
+      "stem": "Seorang pengurus perpustakaan sekolah menganalisis batasan nilai $x$ dari pertidaksamaan aljabar berikut:\n$5-2(x+3)≥3x+14$\nHimpunan penyelesaian untuk $x$ anggota bilangan bulat adalah ....",
+      "options": [
+        "$x≤-3$",
+        "$x≥-3$",
+        "$x≤3$",
+        "$x≥3$"
+      ],
+      "key": [
+        "A"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : A"
+      ],
+      "explanation": "PEMBAHASAN\nSederhanakan ruas kiri:\n$5-2x-6≥3x+14$\n$-2x-1≥3x+14$\nKelompokkan suku ber-variabel di ruas kiri dan konstanta di ruas kanan:\n$-2x-3x≥14+1$\n$-5x≥15$\nBagi kedua ruas dengan bilangan negatif ($-5$), tanda pertidaksamaan dibalik:\n$x≤\\frac{15}{-5}$\n$x≤-3$",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa lupa membalik tanda pertidaksamaan dari $≥$ menjadi $≤$ saat membagi kedua ruas dengan bilangan negatif ($-5$).",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3104,
+          "text": "SOAL 3 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3105,
+          "text": "LEVEL KOGNITIF : C4 (Menganalisis)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3106,
+          "text": "KUNCI JAWABAN : A",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3107,
+          "text": "Seorang pengurus perpustakaan sekolah menganalisis batasan nilai $x$ dari pertidaksamaan aljabar berikut:",
+          "math_ids": [
+            "math-0868"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3108,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3109,
+          "text": "$5-2(x+3)≥3x+14$",
+          "math_ids": [
+            "math-0869"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3110,
+          "text": "Himpunan penyelesaian untuk $x$ anggota bilangan bulat adalah ....",
+          "math_ids": [
+            "math-0870"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3111,
+          "text": "A. $x≤-3$",
+          "math_ids": [
+            "math-0871"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3112,
+          "text": "B. $x≥-3$",
+          "math_ids": [
+            "math-0872"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3113,
+          "text": "C. $x≤3$",
+          "math_ids": [
+            "math-0873"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3114,
+          "text": "D. $x≥3$",
+          "math_ids": [
+            "math-0874"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3115,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3116,
+          "text": "Sederhanakan ruas kiri:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3117,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3118,
+          "text": "$5-2x-6≥3x+14$",
+          "math_ids": [
+            "math-0875"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3119,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3120,
+          "text": "$-2x-1≥3x+14$",
+          "math_ids": [
+            "math-0876"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3121,
+          "text": "Kelompokkan suku ber-variabel di ruas kiri dan konstanta di ruas kanan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3122,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3123,
+          "text": "$-2x-3x≥14+1$",
+          "math_ids": [
+            "math-0877"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3124,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3125,
+          "text": "$-5x≥15$",
+          "math_ids": [
+            "math-0878"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3126,
+          "text": "Bagi kedua ruas dengan bilangan negatif ($-5$), tanda pertidaksamaan dibalik:",
+          "math_ids": [
+            "math-0879"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3127,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3128,
+          "text": "$x≤\\frac{15}{-5}$",
+          "math_ids": [
+            "math-0880"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3129,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3130,
+          "text": "$x≤-3$",
+          "math_ids": [
+            "math-0881"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3131,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3132,
+          "text": "Siswa lupa membalik tanda pertidaksamaan dari $≥$ menjadi $≤$ saat membagi kedua ruas dengan bilangan negatif ($-5$).",
+          "math_ids": [
+            "math-0882",
+            "math-0883",
+            "math-0884"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 3 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C4 (Menganalisis)\n\nKUNCI JAWABAN : A\n\nSeorang pengurus perpustakaan sekolah menganalisis batasan nilai $x$ dari pertidaksamaan aljabar berikut:\n\n\n\n$5-2(x+3)≥3x+14$\n\nHimpunan penyelesaian untuk $x$ anggota bilangan bulat adalah ....\n\nA. $x≤-3$\n\nB. $x≥-3$\n\nC. $x≤3$\n\nD. $x≥3$\n\nPEMBAHASAN\n\nSederhanakan ruas kiri:\n\n\n\n$5-2x-6≥3x+14$\n\n\n\n$-2x-1≥3x+14$\n\nKelompokkan suku ber-variabel di ruas kiri dan konstanta di ruas kanan:\n\n\n\n$-2x-3x≥14+1$\n\n\n\n$-5x≥15$\n\nBagi kedua ruas dengan bilangan negatif ($-5$), tanda pertidaksamaan dibalik:\n\n\n\n$x≤\\frac{15}{-5}$\n\n\n\n$x≤-3$\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa lupa membalik tanda pertidaksamaan dari $≥$ menjadi $≤$ saat membagi kedua ruas dengan bilangan negatif ($-5$).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa lupa membalik tanda pertidaksamaan dari $≥$ menjadi $≤$ saat membagi kedua ruas dengan bilangan negatif ($-5$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-8-5-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3305,
+      "paragraph_end": 3322,
+      "body_block_start": 2930,
+      "body_block_end_exclusive": 2948
+    },
+    "audit_id": "5282d3eb0bdc:I8:L5:Q1:O1:original",
+    "original_explanation": "PEMBAHASAN Model PtLSV untuk anggaran (tidak boleh melebihi Rp600.000,00):\n$16.000n+120.000≤600.000$\nSelesaikan menggunakan operasi invers:\n$16.000n≤600.000-120.000$\n$16.000n≤480.000$\n$n≤\\frac{480.000}{16.000}$\n$n≤30$\nKarena nilai $n≤30$, maka banyak paket konsumsi maksimal yang dapat dibeli adalah 30 paket. Pernyataan panitia Benar.",
+    "source_projection": {
+      "stem": "Panitia bazar buku sekolah memiliki anggaran maksimal Rp600.000,00 untuk pengadaan konsumsi relawan. Biaya kebersihan tetap adalah Rp120.000,00 dan harga setiap paket konsumsi adalah Rp16.000,00. Jika $n$ menyatakan banyak paket konsumsi, seorang panitia mengevaluasi bahwa panitia dapat membeli maksimal 30 paket konsumsi. Evaluasi yang tepat terhadap pernyataan panitia tersebut adalah ....",
+      "options": [
+        "Salah, karena panitia dapat membeli maksimal 37 paket konsumsi",
+        "Benar, karena beban total $16.000(30)+120.000=600.000≤600.000$",
+        "Salah, karena batas maksimal yang tepat adalah 28 paket konsumsi",
+        "Benar, karena $600.000÷16.000=37,5$ sehingga dibulatkan ke bawah menjadi 30"
+      ],
+      "key": [
+        "B"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : B"
+      ],
+      "explanation": "PEMBAHASAN Model PtLSV untuk anggaran (tidak boleh melebihi Rp600.000,00):\n$16.000n+120.000≤600.000$\nSelesaikan menggunakan operasi invers:\n$16.000n≤600.000-120.000$\n$16.000n≤480.000$\n$n≤\\frac{480.000}{16.000}$\n$n≤30$\nKarena nilai $n≤30$, maka banyak paket konsumsi maksimal yang dapat dibeli adalah 30 paket. Pernyataan panitia Benar.",
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa membagi langsung total anggaran Rp600.000,00 dengan harga paket Rp16.000,00 tanpa mengurangkan biaya kebersihan tetap Rp120.000,00 terlebih dahulu.",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [
+        {
+          "kind": "explicit_explanation_boundary",
+          "paragraph_index": 3309,
+          "evidence": "PEMBAHASAN Model PtLSV untuk anggaran (tidak boleh melebihi Rp600.000,00):"
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3305,
+          "text": "SOAL 1 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3306,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3307,
+          "text": "KUNCI JAWABAN : B",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3308,
+          "text": "Panitia bazar buku sekolah memiliki anggaran maksimal Rp600.000,00 untuk pengadaan konsumsi relawan. Biaya kebersihan tetap adalah Rp120.000,00 dan harga setiap paket konsumsi adalah Rp16.000,00. Jika $n$ menyatakan banyak paket konsumsi, seorang panitia mengevaluasi bahwa panitia dapat membeli maksimal 30 paket konsumsi. Evaluasi yang tepat terhadap pernyataan panitia tersebut adalah .... A. Salah, karena panitia dapat membeli maksimal 37 paket konsumsi B. Benar, karena beban total $16.000(30)+120.000=600.000≤600.000$ C. Salah, karena batas maksimal yang tepat adalah 28 paket konsumsi D. Benar, karena $600.000÷16.000=37,5$ sehingga dibulatkan ke bawah menjadi 30",
+          "math_ids": [
+            "math-0985",
+            "math-0986",
+            "math-0987"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3309,
+          "text": "PEMBAHASAN Model PtLSV untuk anggaran (tidak boleh melebihi Rp600.000,00):",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3310,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3311,
+          "text": "$16.000n+120.000≤600.000$",
+          "math_ids": [
+            "math-0988"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3312,
+          "text": "Selesaikan menggunakan operasi invers:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3313,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3314,
+          "text": "$16.000n≤600.000-120.000$",
+          "math_ids": [
+            "math-0989"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3315,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3316,
+          "text": "$16.000n≤480.000$",
+          "math_ids": [
+            "math-0990"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3317,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3318,
+          "text": "$n≤\\frac{480.000}{16.000}$",
+          "math_ids": [
+            "math-0991"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3319,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3320,
+          "text": "$n≤30$",
+          "math_ids": [
+            "math-0992"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3321,
+          "text": "Karena nilai $n≤30$, maka banyak paket konsumsi maksimal yang dapat dibeli adalah 30 paket. Pernyataan panitia Benar.",
+          "math_ids": [
+            "math-0993"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3322,
+          "text": "Kesalahan Umum yang Diantisipasi: Siswa membagi langsung total anggaran Rp600.000,00 dengan harga paket Rp16.000,00 tanpa mengurangkan biaya kebersihan tetap Rp120.000,00 terlebih dahulu.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 1 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : B\n\nPanitia bazar buku sekolah memiliki anggaran maksimal Rp600.000,00 untuk pengadaan konsumsi relawan. Biaya kebersihan tetap adalah Rp120.000,00 dan harga setiap paket konsumsi adalah Rp16.000,00. Jika $n$ menyatakan banyak paket konsumsi, seorang panitia mengevaluasi bahwa panitia dapat membeli maksimal 30 paket konsumsi. Evaluasi yang tepat terhadap pernyataan panitia tersebut adalah .... A. Salah, karena panitia dapat membeli maksimal 37 paket konsumsi B. Benar, karena beban total $16.000(30)+120.000=600.000≤600.000$ C. Salah, karena batas maksimal yang tepat adalah 28 paket konsumsi D. Benar, karena $600.000÷16.000=37,5$ sehingga dibulatkan ke bawah menjadi 30\n\nPEMBAHASAN Model PtLSV untuk anggaran (tidak boleh melebihi Rp600.000,00):\n\n\n\n$16.000n+120.000≤600.000$\n\nSelesaikan menggunakan operasi invers:\n\n\n\n$16.000n≤600.000-120.000$\n\n\n\n$16.000n≤480.000$\n\n\n\n$n≤\\frac{480.000}{16.000}$\n\n\n\n$n≤30$\n\nKarena nilai $n≤30$, maka banyak paket konsumsi maksimal yang dapat dibeli adalah 30 paket. Pernyataan panitia Benar.\n\nKesalahan Umum yang Diantisipasi: Siswa membagi langsung total anggaran Rp600.000,00 dengan harga paket Rp16.000,00 tanpa mengurangkan biaya kebersihan tetap Rp120.000,00 terlebih dahulu.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa membagi langsung total anggaran Rp600.000,00 dengan harga paket Rp16.000,00 tanpa mengurangkan biaya kebersihan tetap Rp120.000,00 terlebih dahulu.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-8-5-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3433,
+      "paragraph_end": 3449,
+      "body_block_start": 3058,
+      "body_block_end_exclusive": 3075
+    },
+    "audit_id": "5282d3eb0bdc:I8:L5:Q7:O1:original",
+    "original_explanation": "PEMBAHASAN\nSelesaikan pertidaksamaan:\n$$5 - 2x \\ge 11 \\implies -2x \\ge 11 - 5 \\implies -2x \\ge 6$$\nBagi dengan $-2$ (tanda pertidaksamaan dibalik):\n$$x \\le \\frac{6}{-2} \\implies x \\le -3 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$\nAnalisis Lingkaran pada Titik $-3$ (C):\nTanda $≤$ memuat sama dengan, sehingga digambarkan dengan lingkaran penuh (bukan lingkaran kosong, C Salah).\nAnalisis Angka $-5$ (D):\nKarena $-5≤-3$ bernilai benar, maka $-5$ termasuk ke dalam himpunan penyelesaian (D Benar).",
+    "source_projection": {
+      "stem": "Diketahui pertidaksamaan $5-2x≥11$. Seorang siswa menganalisis penyelesaian dan bentuk grafiknya. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Penyelesaian pertidaksamaan tersebut adalah $x≥-3$.",
+        "Penyelesaian pertidaksamaan tersebut adalah $x≤-3$.",
+        "Titik $-3$ pada garis bilangan digambarkan dengan lingkaran kosong.",
+        "Angka $-5$ termasuk ke dalam himpunan penyelesaian pertidaksamaan tersebut."
+      ],
+      "key": [
+        "B",
+        "D"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : B, D"
+      ],
+      "explanation": "PEMBAHASAN\nSelesaikan pertidaksamaan:\n$$5 - 2x \\ge 11 \\implies -2x \\ge 11 - 5 \\implies -2x \\ge 6$$\nBagi dengan $-2$ (tanda pertidaksamaan dibalik):\n$$x \\le \\frac{6}{-2} \\implies x \\le -3 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$\nAnalisis Lingkaran pada Titik $-3$ (C):\nTanda $≤$ memuat sama dengan, sehingga digambarkan dengan lingkaran penuh (bukan lingkaran kosong, C Salah).\nAnalisis Angka $-5$ (D):\nKarena $-5≤-3$ bernilai benar, maka $-5$ termasuk ke dalam himpunan penyelesaian (D Benar).",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak membalik tanda pertidaksamaan saat membagi dengan $-2$ dan mengira lingkaran kosong digunakan untuk tanda yang memuat sama dengan ($≤$).",
+      "format": "MCMA",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3433,
+          "text": "SOAL 7 (Bentuk Soal: PGK MCMA)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3434,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3435,
+          "text": "KUNCI JAWABAN : B, D",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3436,
+          "text": "Diketahui pertidaksamaan $5-2x≥11$. Seorang siswa menganalisis penyelesaian dan bentuk grafiknya. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+          "math_ids": [
+            "math-1064"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3437,
+          "text": "[ ] A. Penyelesaian pertidaksamaan tersebut adalah $x≥-3$.",
+          "math_ids": [
+            "math-1065"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3438,
+          "text": "[ ] B. Penyelesaian pertidaksamaan tersebut adalah $x≤-3$.",
+          "math_ids": [
+            "math-1066"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3439,
+          "text": "[ ] C. Titik $-3$ pada garis bilangan digambarkan dengan lingkaran kosong.",
+          "math_ids": [
+            "math-1067"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3440,
+          "text": "[ ] D. Angka $-5$ termasuk ke dalam himpunan penyelesaian pertidaksamaan tersebut.",
+          "math_ids": [
+            "math-1068"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3441,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3442,
+          "text": "Selesaikan pertidaksamaan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3443,
+          "text": "$$5 - 2x \\ge 11 \\implies -2x \\ge 11 - 5 \\implies -2x \\ge 6$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3444,
+          "text": "Bagi dengan $-2$ (tanda pertidaksamaan dibalik):",
+          "math_ids": [
+            "math-1069"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3445,
+          "text": "$$x \\le \\frac{6}{-2} \\implies x \\le -3 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3446,
+          "text": "Analisis Lingkaran pada Titik $-3$ (C):\nTanda $≤$ memuat sama dengan, sehingga digambarkan dengan lingkaran penuh (bukan lingkaran kosong, C Salah).",
+          "math_ids": [
+            "math-1070",
+            "math-1071"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3447,
+          "text": "Analisis Angka $-5$ (D):\nKarena $-5≤-3$ bernilai benar, maka $-5$ termasuk ke dalam himpunan penyelesaian (D Benar).",
+          "math_ids": [
+            "math-1072",
+            "math-1073",
+            "math-1074"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3448,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3449,
+          "text": "Siswa tidak membalik tanda pertidaksamaan saat membagi dengan $-2$ dan mengira lingkaran kosong digunakan untuk tanda yang memuat sama dengan ($≤$).",
+          "math_ids": [
+            "math-1075",
+            "math-1076"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : B, D\n\nDiketahui pertidaksamaan $5-2x≥11$. Seorang siswa menganalisis penyelesaian dan bentuk grafiknya. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)\n\n[ ] A. Penyelesaian pertidaksamaan tersebut adalah $x≥-3$.\n\n[ ] B. Penyelesaian pertidaksamaan tersebut adalah $x≤-3$.\n\n[ ] C. Titik $-3$ pada garis bilangan digambarkan dengan lingkaran kosong.\n\n[ ] D. Angka $-5$ termasuk ke dalam himpunan penyelesaian pertidaksamaan tersebut.\n\nPEMBAHASAN\n\nSelesaikan pertidaksamaan:\n\n$$5 - 2x \\ge 11 \\implies -2x \\ge 11 - 5 \\implies -2x \\ge 6$$\n\nBagi dengan $-2$ (tanda pertidaksamaan dibalik):\n\n$$x \\le \\frac{6}{-2} \\implies x \\le -3 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$\n\nAnalisis Lingkaran pada Titik $-3$ (C):\nTanda $≤$ memuat sama dengan, sehingga digambarkan dengan lingkaran penuh (bukan lingkaran kosong, C Salah).\n\nAnalisis Angka $-5$ (D):\nKarena $-5≤-3$ bernilai benar, maka $-5$ termasuk ke dalam himpunan penyelesaian (D Benar).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa tidak membalik tanda pertidaksamaan saat membagi dengan $-2$ dan mengira lingkaran kosong digunakan untuk tanda yang memuat sama dengan ($≤$).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak membalik tanda pertidaksamaan saat membagi dengan $-2$ dan mengira lingkaran kosong digunakan untuk tanda yang memuat sama dengan ($≤$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-9-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 4313,
+      "paragraph_end": 4331,
+      "body_block_start": 3850,
+      "body_block_end_exclusive": 3869
+    },
+    "audit_id": "5282d3eb0bdc:I9:L4:Q5:O1:original",
+    "original_explanation": "PEMBAHASAN\nAnalisis Struktur Soal:\nPersamaan pertama sudah dalam bentuk eksplisit $x=2y-1$ (variabel $x$ terisolasi).\nEvaluasi Efisiensi:\nJika menggunakan Substitusi, kita dapat langsung mengganti $x$ pada persamaan kedua dengan $(2y-1)$:\n$$3(2y - 1) + 4y = 27 \\implies 6y - 3 + 4y = 27 \\implies 10y = 30 \\implies y = 3$$\nLangkah ini jauh lebih cepat karena tidak perlu menyamakan koefisien terlebih dahulu seperti pada metode eliminasi.\nMaka, kesimpulan siswa Benar.",
+    "source_projection": {
+      "stem": "Seorang siswa membandingkan efisiensi metode penyelesaian untuk mencari nilai $y$ dari sistem persamaan linear berikut:\n$x=2y-1$\n$3x+4y=27$\nSiswa tersebut menyimpulkan bahwa Metode Substitusi lebih efisien dan cepat digunakan dibanding Metode Eliminasi. Evaluasi terhadap kesimpulan siswa tersebut adalah ....",
+      "options": [
+        "Salah, karena metode eliminasi selalu lebih cepat untuk semua bentuk SPLDV",
+        "Salah, karena metode grafik lebih mudah digunakan tanpa melakukan perhitungan",
+        "Benar, karena variabel $x$ pada persamaan pertama sudah terisolasi ($x=2y-1$) sehingga dapat langsung digantikan ke persamaan kedua",
+        "Benar, tetapi hanya jika nilai $y$ bernilai positif"
+      ],
+      "key": [
+        "C"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : C"
+      ],
+      "explanation": "PEMBAHASAN\nAnalisis Struktur Soal:\nPersamaan pertama sudah dalam bentuk eksplisit $x=2y-1$ (variabel $x$ terisolasi).\nEvaluasi Efisiensi:\nJika menggunakan Substitusi, kita dapat langsung mengganti $x$ pada persamaan kedua dengan $(2y-1)$:\n$$3(2y - 1) + 4y = 27 \\implies 6y - 3 + 4y = 27 \\implies 10y = 30 \\implies y = 3$$\nLangkah ini jauh lebih cepat karena tidak perlu menyamakan koefisien terlebih dahulu seperti pada metode eliminasi.\nMaka, kesimpulan siswa Benar.",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menganggap metode eliminasi merupakan satu-satunya metode yang paling efisien tanpa memperhatikan bentuk khusus persamaan yang diberikan.",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 4313,
+          "text": "SOAL 5 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4314,
+          "text": "LEVEL KOGNITIF : C5 (Mengevaluasi)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4315,
+          "text": "KUNCI JAWABAN : C",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4316,
+          "text": "Seorang siswa membandingkan efisiensi metode penyelesaian untuk mencari nilai $y$ dari sistem persamaan linear berikut:",
+          "math_ids": [
+            "math-1357"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4317,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4318,
+          "text": "$x=2y-1$",
+          "math_ids": [
+            "math-1358"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4319,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4320,
+          "text": "$3x+4y=27$",
+          "math_ids": [
+            "math-1359"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4321,
+          "text": "Siswa tersebut menyimpulkan bahwa Metode Substitusi lebih efisien dan cepat digunakan dibanding Metode Eliminasi. Evaluasi terhadap kesimpulan siswa tersebut adalah ....",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4322,
+          "text": "A. Salah, karena metode eliminasi selalu lebih cepat untuk semua bentuk SPLDV",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4323,
+          "text": "B. Salah, karena metode grafik lebih mudah digunakan tanpa melakukan perhitungan",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4324,
+          "text": "C. Benar, karena variabel $x$ pada persamaan pertama sudah terisolasi ($x=2y-1$) sehingga dapat langsung digantikan ke persamaan kedua",
+          "math_ids": [
+            "math-1360",
+            "math-1361"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4325,
+          "text": "D. Benar, tetapi hanya jika nilai $y$ bernilai positif",
+          "math_ids": [
+            "math-1362"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4326,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4327,
+          "text": "Analisis Struktur Soal:\nPersamaan pertama sudah dalam bentuk eksplisit $x=2y-1$ (variabel $x$ terisolasi).",
+          "math_ids": [
+            "math-1363",
+            "math-1364"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4328,
+          "text": "Evaluasi Efisiensi:\nJika menggunakan Substitusi, kita dapat langsung mengganti $x$ pada persamaan kedua dengan $(2y-1)$:\n$$3(2y - 1) + 4y = 27 \\implies 6y - 3 + 4y = 27 \\implies 10y = 30 \\implies y = 3$$\nLangkah ini jauh lebih cepat karena tidak perlu menyamakan koefisien terlebih dahulu seperti pada metode eliminasi.",
+          "math_ids": [
+            "math-1365",
+            "math-1366"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4329,
+          "text": "Maka, kesimpulan siswa Benar.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4330,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4331,
+          "text": "Siswa menganggap metode eliminasi merupakan satu-satunya metode yang paling efisien tanpa memperhatikan bentuk khusus persamaan yang diberikan.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : C\n\nSeorang siswa membandingkan efisiensi metode penyelesaian untuk mencari nilai $y$ dari sistem persamaan linear berikut:\n\n\n\n$x=2y-1$\n\n\n\n$3x+4y=27$\n\nSiswa tersebut menyimpulkan bahwa Metode Substitusi lebih efisien dan cepat digunakan dibanding Metode Eliminasi. Evaluasi terhadap kesimpulan siswa tersebut adalah ....\n\nA. Salah, karena metode eliminasi selalu lebih cepat untuk semua bentuk SPLDV\n\nB. Salah, karena metode grafik lebih mudah digunakan tanpa melakukan perhitungan\n\nC. Benar, karena variabel $x$ pada persamaan pertama sudah terisolasi ($x=2y-1$) sehingga dapat langsung digantikan ke persamaan kedua\n\nD. Benar, tetapi hanya jika nilai $y$ bernilai positif\n\nPEMBAHASAN\n\nAnalisis Struktur Soal:\nPersamaan pertama sudah dalam bentuk eksplisit $x=2y-1$ (variabel $x$ terisolasi).\n\nEvaluasi Efisiensi:\nJika menggunakan Substitusi, kita dapat langsung mengganti $x$ pada persamaan kedua dengan $(2y-1)$:\n$$3(2y - 1) + 4y = 27 \\implies 6y - 3 + 4y = 27 \\implies 10y = 30 \\implies y = 3$$\nLangkah ini jauh lebih cepat karena tidak perlu menyamakan koefisien terlebih dahulu seperti pada metode eliminasi.\n\nMaka, kesimpulan siswa Benar.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa menganggap metode eliminasi merupakan satu-satunya metode yang paling efisien tanpa memperhatikan bentuk khusus persamaan yang diberikan.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menganggap metode eliminasi merupakan satu-satunya metode yang paling efisien tanpa memperhatikan bentuk khusus persamaan yang diberikan.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-9-4-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 4332,
+      "paragraph_end": 4349,
+      "body_block_start": 3869,
+      "body_block_end_exclusive": 3887
+    },
+    "audit_id": "5282d3eb0bdc:I9:L4:Q6:O1:original",
+    "original_explanation": "PEMBAHASAN\nModel SPLDV (A):\n$3x+2y=19.000$\n$2x + 4y = 18.000 \\implies x + 2y = 9.000 \\implies 2y = 9.000 - x$ (A Benar)\nSelesaikan SPLDV:\nSubstitusi $2y=9.000-x$ ke persamaan (1):\n$3x+(9.000-x)=19.000$\n$$2x + 9.000 = 19.000 \\implies 2x = 10.000 \\implies x = 5.000$$\n(B Benar).\nSubstitusi $x=5.000$:\n$$2y = 9.000 - 5.000 = 4.000 \\implies y = 2.000$$\n(C Benar).\nPernyataan D:\nHarga buku (Rp5.000) lebih mahal dari pensil (Rp2.000), sehingga D Salah.",
+    "source_projection": {
+      "stem": "Di sebuah koperasi sekolah, harga 3 buku tulis dan 2 pensil adalah Rp19.000,00, sedangkan harga 2 buku tulis dan 4 pensil adalah Rp18.000,00. Misalkan $x$ adalah harga 1 buku tulis dan $y$ adalah harga 1 pensil. Manakah pernyataan analisis berikut yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Model SPLDV yang sesuai adalah $3x+2y=19.000$ dan $2x+4y=18.000$.",
+        "Harga 1 buah buku tulis ($x$) adalah Rp5.000,00.",
+        "Harga 1 buah pensil ($y$) adalah Rp2.000,00.",
+        "Harga 1 buku tulis lebih murah dibanding harga 1 pensil."
+      ],
+      "key": [
+        "A",
+        "B",
+        "C"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : A, B, C"
+      ],
+      "explanation": "PEMBAHASAN\nModel SPLDV (A):\n$3x+2y=19.000$\n$2x + 4y = 18.000 \\implies x + 2y = 9.000 \\implies 2y = 9.000 - x$ (A Benar)\nSelesaikan SPLDV:\nSubstitusi $2y=9.000-x$ ke persamaan (1):\n$3x+(9.000-x)=19.000$\n$$2x + 9.000 = 19.000 \\implies 2x = 10.000 \\implies x = 5.000$$\n(B Benar).\nSubstitusi $x=5.000$:\n$$2y = 9.000 - 5.000 = 4.000 \\implies y = 2.000$$\n(C Benar).\nPernyataan D:\nHarga buku (Rp5.000) lebih mahal dari pensil (Rp2.000), sehingga D Salah.",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah menyederhanakan $2x+4y=18.000$ menjadi $x+y=9.000$ karena lupa membagi koefisien $y$ dengan 2.",
+      "format": "MCMA",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 4332,
+          "text": "SOAL 6 (Bentuk Soal: PGK MCMA)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4333,
+          "text": "LEVEL KOGNITIF : C4 (Menganalisis)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4334,
+          "text": "KUNCI JAWABAN : A, B, C",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4335,
+          "text": "Di sebuah koperasi sekolah, harga 3 buku tulis dan 2 pensil adalah Rp19.000,00, sedangkan harga 2 buku tulis dan 4 pensil adalah Rp18.000,00. Misalkan $x$ adalah harga 1 buku tulis dan $y$ adalah harga 1 pensil. Manakah pernyataan analisis berikut yang benar? (Jawaban benar lebih dari satu)",
+          "math_ids": [
+            "math-1367",
+            "math-1368"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4336,
+          "text": "[ ] A. Model SPLDV yang sesuai adalah $3x+2y=19.000$ dan $2x+4y=18.000$.",
+          "math_ids": [
+            "math-1369",
+            "math-1370"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4337,
+          "text": "[ ] B. Harga 1 buah buku tulis ($x$) adalah Rp5.000,00.",
+          "math_ids": [
+            "math-1371"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4338,
+          "text": "[ ] C. Harga 1 buah pensil ($y$) adalah Rp2.000,00.",
+          "math_ids": [
+            "math-1372"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4339,
+          "text": "[ ] D. Harga 1 buku tulis lebih murah dibanding harga 1 pensil.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4340,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4341,
+          "text": "Model SPLDV (A):",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4342,
+          "text": "$3x+2y=19.000$",
+          "math_ids": [
+            "math-1373"
+          ],
+          "native_label": "1.",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4343,
+          "text": "$2x + 4y = 18.000 \\implies x + 2y = 9.000 \\implies 2y = 9.000 - x$ (A Benar)",
+          "math_ids": [],
+          "native_label": "2.",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4344,
+          "text": "Selesaikan SPLDV:\nSubstitusi $2y=9.000-x$ ke persamaan (1):\n",
+          "math_ids": [
+            "math-1374"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4345,
+          "text": "$3x+(9.000-x)=19.000$",
+          "math_ids": [
+            "math-1375"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4346,
+          "text": "$$2x + 9.000 = 19.000 \\implies 2x = 10.000 \\implies x = 5.000$$\n (B Benar).\n Substitusi $x=5.000$:\n$$2y = 9.000 - 5.000 = 4.000 \\implies y = 2.000$$\n(C Benar).",
+          "math_ids": [
+            "math-1376"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4347,
+          "text": "Pernyataan D:\nHarga buku (Rp5.000) lebih mahal dari pensil (Rp2.000), sehingga D Salah.",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4348,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4349,
+          "text": "Siswa salah menyederhanakan $2x+4y=18.000$ menjadi $x+y=9.000$ karena lupa membagi koefisien $y$ dengan 2.",
+          "math_ids": [
+            "math-1377",
+            "math-1378",
+            "math-1379"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 6 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C4 (Menganalisis)\n\nKUNCI JAWABAN : A, B, C\n\nDi sebuah koperasi sekolah, harga 3 buku tulis dan 2 pensil adalah Rp19.000,00, sedangkan harga 2 buku tulis dan 4 pensil adalah Rp18.000,00. Misalkan $x$ adalah harga 1 buku tulis dan $y$ adalah harga 1 pensil. Manakah pernyataan analisis berikut yang benar? (Jawaban benar lebih dari satu)\n\n[ ] A. Model SPLDV yang sesuai adalah $3x+2y=19.000$ dan $2x+4y=18.000$.\n\n[ ] B. Harga 1 buah buku tulis ($x$) adalah Rp5.000,00.\n\n[ ] C. Harga 1 buah pensil ($y$) adalah Rp2.000,00.\n\n[ ] D. Harga 1 buku tulis lebih murah dibanding harga 1 pensil.\n\nPEMBAHASAN\n\nModel SPLDV (A):\n\n$3x+2y=19.000$\n\n$2x + 4y = 18.000 \\implies x + 2y = 9.000 \\implies 2y = 9.000 - x$ (A Benar)\n\nSelesaikan SPLDV:\nSubstitusi $2y=9.000-x$ ke persamaan (1):\n\n\n$3x+(9.000-x)=19.000$\n\n$$2x + 9.000 = 19.000 \\implies 2x = 10.000 \\implies x = 5.000$$\n (B Benar).\n Substitusi $x=5.000$:\n$$2y = 9.000 - 5.000 = 4.000 \\implies y = 2.000$$\n(C Benar).\n\nPernyataan D:\nHarga buku (Rp5.000) lebih mahal dari pensil (Rp2.000), sehingga D Salah.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah menyederhanakan $2x+4y=18.000$ menjadi $x+y=9.000$ karena lupa membagi koefisien $y$ dengan 2.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah menyederhanakan $2x+4y=18.000$ menjadi $x+y=9.000$ karena lupa membagi koefisien $y$ dengan 2.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-9-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 4350,
+      "paragraph_end": 4375,
+      "body_block_start": 3887,
+      "body_block_end_exclusive": 3913
+    },
+    "audit_id": "5282d3eb0bdc:I9:L4:Q7:O1:original",
+    "original_explanation": "PEMBAHASAN\nEliminasi variabel $y$ dengan mengalikan persamaan pertama dengan 2:\n$4x-2y=8$\n$x+2y=12$\nJumlahkan kedua persamaan:\n$$5x = 20 \\implies x = 4 \\quad \\mathbf{(A\\text{ Benar})}$$\nSubstitusi $x=4$ ke persamaan kedua:\n$$4 + 2y = 12 \\implies 2y = 8 \\implies y = 4 \\quad \\mathbf{(C\\text{ Benar, B Salah})}$$\nKarena $x=4$ dan $y=4$, maka pasangan berurutan titik potong grafik adalah $(4,4)$ (D Benar).",
+    "source_projection": {
+      "stem": "Seorang guru meminta siswa mengevaluasi penyelesaian sistem persamaan linear berikut:\n$2x-y=4$\n$x+2y=12$\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Nilai $x$ yang memenuhi sistem persamaan tersebut adalah $4$.",
+        "Nilai $y$ yang memenuhi sistem persamaan tersebut adalah $2$.",
+        "Nilai $y$ yang memenuhi sistem persamaan tersebut adalah $4$.",
+        "Pasangan berurutan $(x,y)=(4,4)$ merupakan titik potong kedua garis pada grafik Kartesius."
+      ],
+      "key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : A, C, D"
+      ],
+      "explanation": "PEMBAHASAN\nEliminasi variabel $y$ dengan mengalikan persamaan pertama dengan 2:\n$4x-2y=8$\n$x+2y=12$\nJumlahkan kedua persamaan:\n$$5x = 20 \\implies x = 4 \\quad \\mathbf{(A\\text{ Benar})}$$\nSubstitusi $x=4$ ke persamaan kedua:\n$$4 + 2y = 12 \\implies 2y = 8 \\implies y = 4 \\quad \\mathbf{(C\\text{ Benar, B Salah})}$$\nKarena $x=4$ dan $y=4$, maka pasangan berurutan titik potong grafik adalah $(4,4)$ (D Benar).",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah melakukan penjumlahan tanda negatif pada $-2y+2y$ saat mengeliminasi variabel.",
+      "format": "MCMA",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 4350,
+          "text": "SOAL 7 (Bentuk Soal: PGK MCMA)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4351,
+          "text": "LEVEL KOGNITIF : C5 (Mengevaluasi)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4352,
+          "text": "KUNCI JAWABAN : A, C, D",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4353,
+          "text": "Seorang guru meminta siswa mengevaluasi penyelesaian sistem persamaan linear berikut:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4354,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4355,
+          "text": "$2x-y=4$",
+          "math_ids": [
+            "math-1380"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4356,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4357,
+          "text": "$x+2y=12$",
+          "math_ids": [
+            "math-1381"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4358,
+          "text": "Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4359,
+          "text": "[ ] A. Nilai $x$ yang memenuhi sistem persamaan tersebut adalah $4$.",
+          "math_ids": [
+            "math-1382",
+            "math-1383"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4360,
+          "text": "[ ] B. Nilai $y$ yang memenuhi sistem persamaan tersebut adalah $2$.",
+          "math_ids": [
+            "math-1384",
+            "math-1385"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4361,
+          "text": "[ ] C. Nilai $y$ yang memenuhi sistem persamaan tersebut adalah $4$.",
+          "math_ids": [
+            "math-1386",
+            "math-1387"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4362,
+          "text": "[ ] D. Pasangan berurutan $(x,y)=(4,4)$ merupakan titik potong kedua garis pada grafik Kartesius.",
+          "math_ids": [
+            "math-1388"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4363,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4364,
+          "text": "Eliminasi variabel $y$ dengan mengalikan persamaan pertama dengan 2:",
+          "math_ids": [
+            "math-1389"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4365,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4366,
+          "text": "$4x-2y=8$",
+          "math_ids": [
+            "math-1390"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4367,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4368,
+          "text": "$x+2y=12$",
+          "math_ids": [
+            "math-1391"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4369,
+          "text": "Jumlahkan kedua persamaan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4370,
+          "text": "$$5x = 20 \\implies x = 4 \\quad \\mathbf{(A\\text{ Benar})}$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4371,
+          "text": "Substitusi $x=4$ ke persamaan kedua:",
+          "math_ids": [
+            "math-1392"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4372,
+          "text": "$$4 + 2y = 12 \\implies 2y = 8 \\implies y = 4 \\quad \\mathbf{(C\\text{ Benar, B Salah})}$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4373,
+          "text": "Karena $x=4$ dan $y=4$, maka pasangan berurutan titik potong grafik adalah $(4,4)$ (D Benar).",
+          "math_ids": [
+            "math-1393",
+            "math-1394",
+            "math-1395"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4374,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4375,
+          "text": "Siswa salah melakukan penjumlahan tanda negatif pada $-2y+2y$ saat mengeliminasi variabel.",
+          "math_ids": [
+            "math-1396"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : A, C, D\n\nSeorang guru meminta siswa mengevaluasi penyelesaian sistem persamaan linear berikut:\n\n\n\n$2x-y=4$\n\n\n\n$x+2y=12$\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)\n\n[ ] A. Nilai $x$ yang memenuhi sistem persamaan tersebut adalah $4$.\n\n[ ] B. Nilai $y$ yang memenuhi sistem persamaan tersebut adalah $2$.\n\n[ ] C. Nilai $y$ yang memenuhi sistem persamaan tersebut adalah $4$.\n\n[ ] D. Pasangan berurutan $(x,y)=(4,4)$ merupakan titik potong kedua garis pada grafik Kartesius.\n\nPEMBAHASAN\n\nEliminasi variabel $y$ dengan mengalikan persamaan pertama dengan 2:\n\n\n\n$4x-2y=8$\n\n\n\n$x+2y=12$\n\nJumlahkan kedua persamaan:\n\n$$5x = 20 \\implies x = 4 \\quad \\mathbf{(A\\text{ Benar})}$$\n\nSubstitusi $x=4$ ke persamaan kedua:\n\n$$4 + 2y = 12 \\implies 2y = 8 \\implies y = 4 \\quad \\mathbf{(C\\text{ Benar, B Salah})}$$\n\nKarena $x=4$ dan $y=4$, maka pasangan berurutan titik potong grafik adalah $(4,4)$ (D Benar).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah melakukan penjumlahan tanda negatif pada $-2y+2y$ saat mengeliminasi variabel.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah melakukan penjumlahan tanda negatif pada $-2y+2y$ saat mengeliminasi variabel.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "kategori-9-5-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 4633,
+      "paragraph_end": 4660,
+      "body_block_start": 4148,
+      "body_block_end_exclusive": 4165
+    },
+    "audit_id": "5282d3eb0bdc:I9:L5:Q9:O1:original",
+    "original_explanation": "PEMBAHASAN\nPernyataan (a): Model SPLDV sesuai konteks (BENAR).\nPenyelesaian SPLDV:\nDari persamaan (2): $x=16.000-2y$.\nSubstitusi ke (1):\n$2(16.000-2y)+3y=27.000$\n$$32.000 - 4y + 3y = 27.000 \\implies -y = -5.000 \\implies y = 5.000 \\quad \\mathbf{(Pernyataan\\text{ c BENAR})}$$\nSubstitusi $y=5.000$:\n$x=16.000-2(5.000)=16.000-10.000=6.000$\nHarga 1 buku gambar adalah Rp6.000,00 (bukan Rp7.000,00), maka Pernyataan (b) SALAH.",
+    "source_projection": {
+      "stem": "Di sebuah toko buku, harga 2 buku gambar dan 3 pensil warna adalah Rp27.000,00, sedangkan harga 1 buku gambar dan 2 pensil warna adalah Rp16.000,00. Seorang siswa mengevaluasi harga satuan barang tersebut.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Model SPLDV yang tepat adalah $2x+3y=27.000$ dan $x+2y=16.000$.",
+        "Harga 1 buku gambar ($x$) adalah Rp7.000,00.",
+        "Harga 1 pensil warna ($y$) adalah Rp5.000,00."
+      ],
+      "key": [
+        "1",
+        "3"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : (a) BENAR (b) SALAH (c) BENAR"
+      ],
+      "explanation": "PEMBAHASAN\nPernyataan (a): Model SPLDV sesuai konteks (BENAR).\nPenyelesaian SPLDV:\nDari persamaan (2): $x=16.000-2y$.\nSubstitusi ke (1):\n$2(16.000-2y)+3y=27.000$\n$$32.000 - 4y + 3y = 27.000 \\implies -y = -5.000 \\implies y = 5.000 \\quad \\mathbf{(Pernyataan\\text{ c BENAR})}$$\nSubstitusi $y=5.000$:\n$x=16.000-2(5.000)=16.000-10.000=6.000$\nHarga 1 buku gambar adalah Rp6.000,00 (bukan Rp7.000,00), maka Pernyataan (b) SALAH.",
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa salah mengoperasikan tanda minus saat $-4y+3y=-y$.",
+      "format": "KATEGORI",
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 4633,
+          "text": "SOAL 9 (Bentuk Soal: PGK Kategori)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4634,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4635,
+          "text": "KUNCI JAWABAN :",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4636,
+          "text": "(a) BENAR",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4637,
+          "text": "(b) SALAH",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4638,
+          "text": "(c) BENAR",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4639,
+          "text": "Di sebuah toko buku, harga 2 buku gambar dan 3 pensil warna adalah Rp27.000,00, sedangkan harga 1 buku gambar dan 2 pensil warna adalah Rp16.000,00. Seorang siswa mengevaluasi harga satuan barang tersebut.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4640,
+          "text": "Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4641,
+          "text": "Pernyataan Evaluasi",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4642,
+          "text": "Benar",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4643,
+          "text": "Salah",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4644,
+          "text": "(a) Model SPLDV yang tepat adalah $2x+3y=27.000$ dan $x+2y=16.000$.",
+          "math_ids": [
+            "math-1515",
+            "math-1516"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4645,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4646,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4647,
+          "text": "(b) Harga 1 buku gambar ($x$) adalah Rp7.000,00.",
+          "math_ids": [
+            "math-1517"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4648,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4649,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4650,
+          "text": "(c) Harga 1 pensil warna ($y$) adalah Rp5.000,00.",
+          "math_ids": [
+            "math-1518"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4651,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4652,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4653,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4654,
+          "text": "Pernyataan (a): Model SPLDV sesuai konteks (BENAR).",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4655,
+          "text": "Penyelesaian SPLDV:\nDari persamaan (2): $x=16.000-2y$.\nSubstitusi ke (1):\n",
+          "math_ids": [
+            "math-1519"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4656,
+          "text": "$2(16.000-2y)+3y=27.000$",
+          "math_ids": [
+            "math-1520"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4657,
+          "text": "$$32.000 - 4y + 3y = 27.000 \\implies -y = -5.000 \\implies y = 5.000 \\quad \\mathbf{(Pernyataan\\text{ c BENAR})}$$\nSubstitusi $y=5.000$:\n",
+          "math_ids": [
+            "math-1521"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4658,
+          "text": "$x=16.000-2(5.000)=16.000-10.000=6.000$",
+          "math_ids": [
+            "math-1522"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4659,
+          "text": "Harga 1 buku gambar adalah Rp6.000,00 (bukan Rp7.000,00), maka Pernyataan (b) SALAH.",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4660,
+          "text": "Kesalahan Umum yang Diantisipasi: Siswa salah mengoperasikan tanda minus saat $-4y+3y=-y$.",
+          "math_ids": [
+            "math-1523"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": [
+        {
+          "type": "table",
+          "id": "table-045",
+          "rows": [
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4641,
+                    "text": "Pernyataan Evaluasi",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4642,
+                    "text": "Benar",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4643,
+                    "text": "Salah",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4644,
+                    "text": "(a) Model SPLDV yang tepat adalah $2x+3y=27.000$ dan $x+2y=16.000$.",
+                    "math_ids": [
+                      "math-1515",
+                      "math-1516"
+                    ],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4645,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4646,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4647,
+                    "text": "(b) Harga 1 buku gambar ($x$) adalah Rp7.000,00.",
+                    "math_ids": [
+                      "math-1517"
+                    ],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4648,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4649,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4650,
+                    "text": "(c) Harga 1 pensil warna ($y$) adalah Rp5.000,00.",
+                    "math_ids": [
+                      "math-1518"
+                    ],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4651,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4652,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "source_text": "SOAL 9 (Bentuk Soal: PGK Kategori)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN :\n\n(a) BENAR\n\n(b) SALAH\n\n(c) BENAR\n\nDi sebuah toko buku, harga 2 buku gambar dan 3 pensil warna adalah Rp27.000,00, sedangkan harga 1 buku gambar dan 2 pensil warna adalah Rp16.000,00. Seorang siswa mengevaluasi harga satuan barang tersebut.\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n<!-- table-045 -->\n<table>\n<tr><td>Pernyataan Evaluasi</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Model SPLDV yang tepat adalah $2x+3y=27.000$ dan $x+2y=16.000$.</td><td></td><td></td></tr>\n<tr><td>(b) Harga 1 buku gambar ($x$) adalah Rp7.000,00.</td><td></td><td></td></tr>\n<tr><td>(c) Harga 1 pensil warna ($y$) adalah Rp5.000,00.</td><td></td><td></td></tr>\n</table>\n\nPEMBAHASAN\n\nPernyataan (a): Model SPLDV sesuai konteks (BENAR).\n\nPenyelesaian SPLDV:\nDari persamaan (2): $x=16.000-2y$.\nSubstitusi ke (1):\n\n\n$2(16.000-2y)+3y=27.000$\n\n$$32.000 - 4y + 3y = 27.000 \\implies -y = -5.000 \\implies y = 5.000 \\quad \\mathbf{(Pernyataan\\text{ c BENAR})}$$\nSubstitusi $y=5.000$:\n\n\n$x=16.000-2(5.000)=16.000-10.000=6.000$\n\nHarga 1 buku gambar adalah Rp6.000,00 (bukan Rp7.000,00), maka Pernyataan (b) SALAH.\n\nKesalahan Umum yang Diantisipasi: Siswa salah mengoperasikan tanda minus saat $-4y+3y=-y$.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa salah mengoperasikan tanda minus saat $-4y+3y=-y$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-10-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 5388,
+      "paragraph_end": 5409,
+      "body_block_start": 4815,
+      "body_block_end_exclusive": 4837
+    },
+    "audit_id": "5282d3eb0bdc:I10:L4:Q5:O1:original",
+    "original_explanation": "PEMBAHASAN\nSederhanakan masing-masing bentuk aljabar menggunakan sifat distributif:\nBentuk I:\n$3(2x-4)+4(x+1)=6x-12+4x+4$\nKelompokkan suku sejenis: $(6x+4x)+(-12+4)=10x-8$\nBentuk II:\n$2(5x-4)=10x-8$\nKarena kedua bentuk aljabar setelah disederhanakan menghasilkan ekspresi yang tepat sama ($10x-8$), maka kedua bentuk tersebut ekuivalen untuk semua nilai $x$. Jadi, Pendapat Andi benar.",
+    "source_projection": {
+      "format": "PG",
+      "stem": "Dua orang siswa, Andi dan Budi, menganalisis kesetaraan (ekuivalensi) dua bentuk aljabar berikut untuk setiap bilangan real $x$:\nBentuk I: $3(2x-4)+4(x+1)$\nBentuk II: $2(5x-4)$\nAndi menyatakan kedua bentuk aljabar tersebut ekuivalen (setara).\nBudi menyatakan kedua bentuk aljabar tersebut tidak ekuivalen.\nEvaluasi yang tepat mengenai kedua pendapat tersebut adalah ....",
+      "options": [
+        "Pendapat Budi benar, karena Bentuk I menghasilkan $10x-16$ sedangkan Bentuk II adalah $10x-8$",
+        "Pendapat Andi benar, karena kedua bentuk aljabar jika disederhanakan sama-sama menghasilkan $10x-8$",
+        "Pendapat Budi benar, karena nilai konstanta pada Bentuk I adalah $+8$",
+        "Kedua pendapat salah, karena kedua bentuk aljabar hanya sama jika $x=0$"
+      ],
+      "key": [
+        "B"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : B"
+      ],
+      "explanation": "PEMBAHASAN\nSederhanakan masing-masing bentuk aljabar menggunakan sifat distributif:\nBentuk I:\n$3(2x-4)+4(x+1)=6x-12+4x+4$\nKelompokkan suku sejenis: $(6x+4x)+(-12+4)=10x-8$\nBentuk II:\n$2(5x-4)=10x-8$\nKarena kedua bentuk aljabar setelah disederhanakan menghasilkan ekspresi yang tepat sama ($10x-8$), maka kedua bentuk tersebut ekuivalen untuk semua nilai $x$. Jadi, Pendapat Andi benar.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa salah menjumlahkan konstanta $-12+4$ menjadi $-16$ sehingga keliru menganggap kedua bentuk tidak ekuivalen.",
+      "category_labels": null,
+      "parse_flags": []
+    },
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : B\n\nDua orang siswa, Andi dan Budi, menganalisis kesetaraan (ekuivalensi) dua bentuk aljabar berikut untuk setiap bilangan real $x$:\n\nBentuk I: $3(2x-4)+4(x+1)$\n\nBentuk II: $2(5x-4)$\n\nAndi menyatakan kedua bentuk aljabar tersebut ekuivalen (setara).\n\nBudi menyatakan kedua bentuk aljabar tersebut tidak ekuivalen.\n\nEvaluasi yang tepat mengenai kedua pendapat tersebut adalah ....\n\nA. Pendapat Budi benar, karena Bentuk I menghasilkan $10x-16$ sedangkan Bentuk II adalah $10x-8$\n\nB. Pendapat Andi benar, karena kedua bentuk aljabar jika disederhanakan sama-sama menghasilkan $10x-8$\n\nC. Pendapat Budi benar, karena nilai konstanta pada Bentuk I adalah $+8$\n\nD. Kedua pendapat salah, karena kedua bentuk aljabar hanya sama jika $x=0$\n\nPEMBAHASAN\n\nSederhanakan masing-masing bentuk aljabar menggunakan sifat distributif:\n\nBentuk I:\n\n\n$3(2x-4)+4(x+1)=6x-12+4x+4$\n\nKelompokkan suku sejenis: $(6x+4x)+(-12+4)=10x-8$\n\nBentuk II:\n\n\n$2(5x-4)=10x-8$\n\nKarena kedua bentuk aljabar setelah disederhanakan menghasilkan ekspresi yang tepat sama ($10x-8$), maka kedua bentuk tersebut ekuivalen untuk semua nilai $x$. Jadi, Pendapat Andi benar.\n\nKesalahan Umum yang Diantisipasi: Siswa salah menjumlahkan konstanta $-12+4$ menjadi $-16$ sehingga keliru menganggap kedua bentuk tidak ekuivalen.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa salah menjumlahkan konstanta $-12+4$ menjadi $-16$ sehingga keliru menganggap kedua bentuk tidak ekuivalen.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-10-4-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 5450,
+      "paragraph_end": 5469,
+      "body_block_start": 4877,
+      "body_block_end_exclusive": 4897
+    },
+    "audit_id": "5282d3eb0bdc:I10:L4:Q8:O1:original",
+    "original_explanation": "PEMBAHASAN\nHubungan (i): ${a}^{2}-{4}^{2}=(a-4)(a+4)$ (A Benar, Selisih Kuadrat).\nHubungan (ii): ${x}^{2}+2(3)x+{3}^{2}=(x+3{)}^{2}$ (C Benar, Kuadrat Sempurna).\nHubungan (iii): $(2x-1)(x+3)=2{x}^{2}+6x-x-3=2{x}^{2}+5x-3$ (D Benar).\nHubungan (iv): $(x-2)(x+3)={x}^{2}+x-6≠{x}^{2}-5x+6$. Pemfaktoran yang benar dari ${x}^{2}-5x+6$ adalah $(x-2)(x-3)$ (B Salah).",
+    "source_projection": {
+      "format": "MCMA",
+      "stem": "Seorang guru meminta siswa mengevaluasi kebenaran hubungan pemfaktoran aljabar berikut:\n(i) ${a}^{2}-16=(a-4)(a+4)$\n(ii) ${x}^{2}+6x+9=(x+3{)}^{2}$\n(iii) $2{x}^{2}+5x-3=(2x-1)(x+3)$\n(iv) ${x}^{2}-5x+6=(x-2)(x+3)$\nManakah hubungan pemfaktoran yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Hubungan (i) benar karena merupakan bentuk selisih kuadrat.",
+        "Hubungan (iv) benar karena $(-2)×3=-6$.",
+        "Hubungan (ii) benar karena ${x}^{2}+2(3x)+{3}^{2}=(x+3{)}^{2}$.",
+        "Hubungan (iii) benar karena $(2x-1)(x+3)=2{x}^{2}+6x-x-3=2{x}^{2}+5x-3$."
+      ],
+      "key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : A, C, D"
+      ],
+      "explanation": "PEMBAHASAN\nHubungan (i): ${a}^{2}-{4}^{2}=(a-4)(a+4)$ (A Benar, Selisih Kuadrat).\nHubungan (ii): ${x}^{2}+2(3)x+{3}^{2}=(x+3{)}^{2}$ (C Benar, Kuadrat Sempurna).\nHubungan (iii): $(2x-1)(x+3)=2{x}^{2}+6x-x-3=2{x}^{2}+5x-3$ (D Benar).\nHubungan (iv): $(x-2)(x+3)={x}^{2}+x-6≠{x}^{2}-5x+6$. Pemfaktoran yang benar dari ${x}^{2}-5x+6$ adalah $(x-2)(x-3)$ (B Salah).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru memfaktorkan ${x}^{2}-5x+6$ dengan memilih $(x-2)(x+3)$ karena salah memperhitungkan perkalian tanda negatif.",
+      "category_labels": null,
+      "parse_flags": []
+    },
+    "source_text": "SOAL 8 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : A, C, D\n\nSeorang guru meminta siswa mengevaluasi kebenaran hubungan pemfaktoran aljabar berikut:\n\n(i) ${a}^{2}-16=(a-4)(a+4)$\n\n(ii) ${x}^{2}+6x+9=(x+3{)}^{2}$\n\n(iii) $2{x}^{2}+5x-3=(2x-1)(x+3)$\n\n(iv) ${x}^{2}-5x+6=(x-2)(x+3)$\n\nManakah hubungan pemfaktoran yang benar? (Jawaban benar lebih dari satu)\n\n[ ] A. Hubungan (i) benar karena merupakan bentuk selisih kuadrat.\n\n[ ] B. Hubungan (iv) benar karena $(-2)×3=-6$.\n\n[ ] C. Hubungan (ii) benar karena ${x}^{2}+2(3x)+{3}^{2}=(x+3{)}^{2}$.\n\n[ ] D. Hubungan (iii) benar karena $(2x-1)(x+3)=2{x}^{2}+6x-x-3=2{x}^{2}+5x-3$.\n\nPEMBAHASAN\n\nHubungan (i): ${a}^{2}-{4}^{2}=(a-4)(a+4)$ (A Benar, Selisih Kuadrat).\n\nHubungan (ii): ${x}^{2}+2(3)x+{3}^{2}=(x+3{)}^{2}$ (C Benar, Kuadrat Sempurna).\n\nHubungan (iii): $(2x-1)(x+3)=2{x}^{2}+6x-x-3=2{x}^{2}+5x-3$ (D Benar).\n\nHubungan (iv): $(x-2)(x+3)={x}^{2}+x-6≠{x}^{2}-5x+6$. Pemfaktoran yang benar dari ${x}^{2}-5x+6$ adalah $(x-2)(x-3)$ (B Salah).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru memfaktorkan ${x}^{2}-5x+6$ dengan memilih $(x-2)(x+3)$ karena salah memperhitungkan perkalian tanda negatif.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru memfaktorkan ${x}^{2}-5x+6$ dengan memilih $(x-2)(x+3)$ karena salah memperhitungkan perkalian tanda negatif.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-10-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 5576,
+      "paragraph_end": 5594,
+      "body_block_start": 4981,
+      "body_block_end_exclusive": 5000
+    },
+    "audit_id": "5282d3eb0bdc:I10:L5:Q3:O1:original",
+    "original_explanation": "PEMBAHASAN\nBentuk aljabar $4{x}^{2}-12x+9$ dapat dianalisis menggunakan sifat kuadrat sempurna $(a-b{)}^{2}={a}^{2}-2ab+{b}^{2}$:\nSuku pertama: $4x^2 = (2x)^2 \\implies a = 2x$\nSuku ketiga: $9 = 3^2 \\implies b = 3$\nUji suku tengah: $-2ab=-2(2x)(3)=-12x$ (Sesuai dengan suku tengah pada soal)\nMaka, bentuk pemfaktorannya adalah:\n$4{x}^{2}-12x+9=(2x-3{)}^{2}$\nJadi, bentuk tersebut merupakan kuadrat sempurna $(2x-3{)}^{2}$.",
+    "source_projection": {
+      "format": "PG",
+      "stem": "Pengelola laboratorium komputer sekolah mengevaluasi pemfaktoran ekspresi aljabar kuadrat $4{x}^{2}-12x+9$ yang menggambarkan luas area tatakan meja. Evaluasi yang tepat mengenai bentuk pemfaktoran tersebut adalah ....",
+      "options": [
+        "Merupakan bentuk kuadrat sempurna $(2x-3{)}^{2}$",
+        "Merupakan bentuk selisih dua kuadrat $(2x-3)(2x+3)$",
+        "Hasil pemfaktorannya adalah $(4x-3)(x-3)$",
+        "Tidak dapat difaktorkan karena konstantanya bernilai positif"
+      ],
+      "key": [
+        "A"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : A"
+      ],
+      "explanation": "PEMBAHASAN\nBentuk aljabar $4{x}^{2}-12x+9$ dapat dianalisis menggunakan sifat kuadrat sempurna $(a-b{)}^{2}={a}^{2}-2ab+{b}^{2}$:\nSuku pertama: $4x^2 = (2x)^2 \\implies a = 2x$\nSuku ketiga: $9 = 3^2 \\implies b = 3$\nUji suku tengah: $-2ab=-2(2x)(3)=-12x$ (Sesuai dengan suku tengah pada soal)\nMaka, bentuk pemfaktorannya adalah:\n$4{x}^{2}-12x+9=(2x-3{)}^{2}$\nJadi, bentuk tersebut merupakan kuadrat sempurna $(2x-3{)}^{2}$.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar antara bentuk kuadrat sempurna $(2x-3{)}^{2}=4{x}^{2}-12x+9$ dengan bentuk selisih kuadrat $(2x-3)(2x+3)=4{x}^{2}-9$.",
+      "category_labels": null,
+      "parse_flags": []
+    },
+    "source_text": "SOAL 3 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : A\n\nPengelola laboratorium komputer sekolah mengevaluasi pemfaktoran ekspresi aljabar kuadrat $4{x}^{2}-12x+9$ yang menggambarkan luas area tatakan meja. Evaluasi yang tepat mengenai bentuk pemfaktoran tersebut adalah ....\n\nA. Merupakan bentuk kuadrat sempurna $(2x-3{)}^{2}$\n\nB. Merupakan bentuk selisih dua kuadrat $(2x-3)(2x+3)$\n\nC. Hasil pemfaktorannya adalah $(4x-3)(x-3)$\n\nD. Tidak dapat difaktorkan karena konstantanya bernilai positif\n\nPEMBAHASAN\n\nBentuk aljabar $4{x}^{2}-12x+9$ dapat dianalisis menggunakan sifat kuadrat sempurna $(a-b{)}^{2}={a}^{2}-2ab+{b}^{2}$:\n\nSuku pertama: $4x^2 = (2x)^2 \\implies a = 2x$\n\nSuku ketiga: $9 = 3^2 \\implies b = 3$\n\nUji suku tengah: $-2ab=-2(2x)(3)=-12x$ (Sesuai dengan suku tengah pada soal)\n\nMaka, bentuk pemfaktorannya adalah:\n\n\n\n$4{x}^{2}-12x+9=(2x-3{)}^{2}$\n\nJadi, bentuk tersebut merupakan kuadrat sempurna $(2x-3{)}^{2}$.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa tertukar antara bentuk kuadrat sempurna $(2x-3{)}^{2}=4{x}^{2}-12x+9$ dengan bentuk selisih kuadrat $(2x-3)(2x+3)=4{x}^{2}-9$.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar antara bentuk kuadrat sempurna $(2x-3{)}^{2}=4{x}^{2}-12x+9$ dengan bentuk selisih kuadrat $(2x-3)(2x+3)=4{x}^{2}-9$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-10-5-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 5683,
+      "paragraph_end": 5707,
+      "body_block_start": 5088,
+      "body_block_end_exclusive": 5113
+    },
+    "audit_id": "5282d3eb0bdc:I10:L5:Q8:O1:original",
+    "original_explanation": "PEMBAHASAN\nPenjabaran $(2x+3{)}^{2}$:\n$(2x+3{)}^{2}=4{x}^{2}+12x+9(ABenar)$\nPenjabaran $(2x-3{)}^{2}$:\n$(2x-3{)}^{2}=4{x}^{2}-12x+9(BSalah,konstantaseharusnya+9)$\nHitung Bentuk P (Selisih):\n$BentukP=(4{x}^{2}+12x+9)-(4{x}^{2}-12x+9)$\n$BentukP=4{x}^{2}+12x+9-4{x}^{2}+12x-9$\n$BentukP=(4{x}^{2}-4{x}^{2})+(12x+12x)+(9-9)=24x(CBenar)$\nKarena Bentuk P $=24x=$ Bentuk Q, maka kedua bentuk tersebut ekuivalen (D Benar).",
+    "source_projection": {
+      "format": "MCMA",
+      "stem": "Dua bentuk aljabar berikut dievaluasi kesetaraannya untuk setiap nilai $x$:\nBentuk P: $(2x+3{)}^{2}-(2x-3{)}^{2}$\nBentuk Q: $24x$\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Penjabaran dari $(2x+3{)}^{2}$ adalah $4{x}^{2}+12x+9$.",
+        "Penjabaran dari $(2x-3{)}^{2}$ adalah $4{x}^{2}-12x-9$.",
+        "Selisih dari kedua bentuk kuadrat tersebut menghasilkan $24x$.",
+        "Bentuk P dan Bentuk Q terbukti ekuivalen (setara)."
+      ],
+      "key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : A, C, D"
+      ],
+      "explanation": "PEMBAHASAN\nPenjabaran $(2x+3{)}^{2}$:\n$(2x+3{)}^{2}=4{x}^{2}+12x+9(ABenar)$\nPenjabaran $(2x-3{)}^{2}$:\n$(2x-3{)}^{2}=4{x}^{2}-12x+9(BSalah,konstantaseharusnya+9)$\nHitung Bentuk P (Selisih):\n$BentukP=(4{x}^{2}+12x+9)-(4{x}^{2}-12x+9)$\n$BentukP=4{x}^{2}+12x+9-4{x}^{2}+12x-9$\n$BentukP=(4{x}^{2}-4{x}^{2})+(12x+12x)+(9-9)=24x(CBenar)$\nKarena Bentuk P $=24x=$ Bentuk Q, maka kedua bentuk tersebut ekuivalen (D Benar).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $(2x-3{)}^{2}=4{x}^{2}-9$ (lupa suku tengah $-12x$).",
+      "category_labels": null,
+      "parse_flags": []
+    },
+    "source_text": "SOAL 8 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : A, C, D\n\nDua bentuk aljabar berikut dievaluasi kesetaraannya untuk setiap nilai $x$:\n\nBentuk P: $(2x+3{)}^{2}-(2x-3{)}^{2}$\n\nBentuk Q: $24x$\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)\n\n[ ] A. Penjabaran dari $(2x+3{)}^{2}$ adalah $4{x}^{2}+12x+9$.\n\n[ ] B. Penjabaran dari $(2x-3{)}^{2}$ adalah $4{x}^{2}-12x-9$.\n\n[ ] C. Selisih dari kedua bentuk kuadrat tersebut menghasilkan $24x$.\n\n[ ] D. Bentuk P dan Bentuk Q terbukti ekuivalen (setara).\n\nPEMBAHASAN\n\nPenjabaran $(2x+3{)}^{2}$:\n\n\n$(2x+3{)}^{2}=4{x}^{2}+12x+9(ABenar)$\n\nPenjabaran $(2x-3{)}^{2}$:\n\n\n$(2x-3{)}^{2}=4{x}^{2}-12x+9(BSalah,konstantaseharusnya+9)$\n\nHitung Bentuk P (Selisih):\n\n\n$BentukP=(4{x}^{2}+12x+9)-(4{x}^{2}-12x+9)$\n\n\n\n$BentukP=4{x}^{2}+12x+9-4{x}^{2}+12x-9$\n\n\n\n$BentukP=(4{x}^{2}-4{x}^{2})+(12x+12x)+(9-9)=24x(CBenar)$\n\nKarena Bentuk P $=24x=$ Bentuk Q, maka kedua bentuk tersebut ekuivalen (D Benar).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira $(2x-3{)}^{2}=4{x}^{2}-9$ (lupa suku tengah $-12x$).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $(2x-3{)}^{2}=4{x}^{2}-9$ (lupa suku tengah $-12x$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch2",
+    "notes": [
+      "20 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "question_id": "pg-8-4-4",
+  "config_version": 1,
+  "original_hash": "15762cc970e2022a",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'7' if k == 0 else (7+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "-5-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menyajikan langkah penyelesaian pertidaksamaan $3x-{v0}>5x+3$ sebagai berikut:\nLangkah 1: $3x-5x>3+{v0}$\nLangkah 2: $-2x>{v2}$\nLangkah 3: $x>\\frac{{v2}}{-2}$\nLangkah 4: $x>-{v1}$\nEvaluasi yang tepat mengenai langkah penyelesaian siswa tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Langkah 1 salah, seharusnya $3x+5x>3-{v0}$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Langkah 2 salah, seharusnya $-2x>-4$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Penyelesaian siswa sudah benar dari Langkah 1 hingga Langkah 4",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Langkah 3 dan 4 salah, seharusnya tanda pertidaksamaan dibalik menjadi $x<-{v1}$ karena dibagi dengan $-2$",
+      "correct": true
+    }
+  ],
+  "explanation": "Batas atas ketat = {v3}. Langkah 1 dan 2 sah. Pembagian dengan -2 membalik > menjadi <; langkah 3 dan 4 salah. Hanya D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

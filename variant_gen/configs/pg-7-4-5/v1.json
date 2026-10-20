@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-7-4-5",
+  "config_version": 1,
+  "original_hash": "ee211c100c458a7a",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "12+4*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah Toko Alat Tulis memberikan penawaran harga buku tulis. Pengelola toko membuat dua bentuk formulasi harga untuk $x$ buah buku tulis:\n$4(x+{v0})-2x$\n$2(x+{v1})$\nSeorang pembeli menyatakan bahwa berapa pun jumlah buku yang dibeli ($x$), total harga pada Formulasi A dan Formulasi B akan selalu sama. Evaluasi terhadap pernyataan pembeli tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Salah, karena Formulasi A menghasilkan nilai yang lebih besar untuk $x>5$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena Formulasi B tidak memiliki konstanta yang sama",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Benar hanya jika jumlah buku yang dibeli $x={v1}$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Benar, karena kedua formulasi dapat disederhanakan menjadi bentuk linear yang sama yaitu $2x+{v2}$",
+      "correct": true
+    }
+  ],
+  "explanation": "Koefisien setelah penyederhanaan kedua formulasi = {v3}; konstanta keduanya = {v4}. Identik untuk setiap jumlah buku. Hanya D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

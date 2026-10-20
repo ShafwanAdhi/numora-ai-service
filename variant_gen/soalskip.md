@@ -1,5 +1,49 @@
 # Soal tanpa generator
 
+## Status terbaru 21 Oktober 2026: batch kedua generator indikator 20-23
+
+Tambahan **27 generator** (indikator 20=4, 21=8, 22=11, 23=4). Total **54/80 original baru (67,5%)** sudah memiliki generator; tersisa **13 menunggu generator/stok + 13 HOLD**. Seluruh indikator 20-23: **200 original, 156 generator, 18 konseptual/50 stok**. Batch ini lolos 837 input dan regresi 50 tes. Original serta stok tetap; hasil runtime tidak disimpan, database tidak diubah. Pembaruan sebelumnya merupakan snapshot historis.
+
+[Daftar generator dan validasi](../docs/audits/2026-10-21-drill-20-23-level45-batch2/README.md).
+
+## Status terbaru 21 Oktober 2026: 27 generator indikator 20-23 level 4-5
+
+Tahap pertama **27/80 soal (33,75%)** selesai: indikator20=3,21=8,22=6,23=10. Seluruh837 input diuji;810 varian unik valid. Total indikator20-23: **200 original,129 generator,18 konseptual/50 stok,40 menunggu generator/stok,13 HOLD**. Original tidak direvisi, hasil runtime tidak disimpan, database utama tidak diubah. Angka pada pembaruan sebelumnya merupakan snapshot historis.
+
+[Daftar generator dan validasi](../docs/audits/2026-10-21-drill-20-23-level45-batch1/README.md).
+
+## Status terbaru 21 Oktober 2026: impor original indikator 20-23 level 4-5
+
+80 original selesai diaudit dan masuk bank lokal: **67 ACTIVE, 13 HOLD_SOURCE**. Indikator20-23 kini lengkap **200 original**, lima level x sepuluh soal per indikator. Tambahan ini belum mempunyai generator/stok; bank lama tetap102 generator dan18 konseptual/50 stok. Kunci primer serta sumber mentah dipertahankan; database utama tidak diubah. Pembaruan bertanggal sebelumnya merupakan snapshot historis.
+
+[Audit per soal dan daftar HOLD](../docs/audits/2026-10-21-drill-20-23-level45-import/README.md).
+
+## Status terbaru 21 Oktober 2026: indikator 16-19 lengkap
+
+Seluruh 80 original level 4-5 kini terlayani: **65 generator + 15 konseptual dengan 30 stok**, 0 HOLD. Tambahan tahap akhir: 38 generator dan 30 stok; 14 original direvisi lokal v2 dengan sumber mentah tetap tersimpan. Total indikator 16-19: **200 original, 177 generator, 23 konseptual/52 stok**. Generate runtime tidak disimpan; database utama tidak diubah. Angka pada pembaruan sebelumnya merupakan snapshot historis.
+
+[Laporan dan bukti validasi](../docs/audits/2026-10-21-drill-16-19-level45-completion/README.md).
+
+Inventaris lintas aktivitas terbaru: 1.033 original, 944 generator, 86 konseptual/248 stok, 3 HOLD (`pg-1-2-1`, `pg-5-3-3`, `mcma-6-3-7`). Tidak ada antrean pada indikator 16-19.
+
+## Generator indikator 16?19 level 4?5: 27/80 (21 Oktober 2026)
+
+27 generator baru aktif. Sisa tambahan ini53 soal:39 lolos audit belum mempunyai generator/stok,14 HOLD. Status konseptual kelompok39 belum ditetapkan final. Total bank indikator16?19:200 original,139 generator,8 konseptual dengan22 stok,39 menunggu,14 HOLD. [Daftar generator dan validasi](../docs/audits/2026-10-21-drill-16-19-level45-batch1/README.md).
+
+## Tambahan original indikator 16?19 level 4?5 ? 21 Oktober 2026
+
+80 original baru sudah dimuat: 66 lolos validasi sumber tetapi belum mempunyai generator/stok; 14 HOLD_SOURCE. Cakupan ini belum diklasifikasikan final menjadi generator numerik atau stok konseptual. Angka sebelumnya merupakan snapshot sebelum impor. [Daftar 14 HOLD dan derivasi 80 soal](../docs/audits/2026-10-21-drill-16-19-level45-import/README.md).
+
+## Pembaruan indikator 11?15 ? 21 Oktober 2026
+
+`mcma-15-2-8` kini ACTIVE dengan original lokal v3 dan generator v1: 30 varian unik valid. Cakupan indikator 11?15: **228 generator / 250 original**, 22 konseptual tetap ditunda, 0 HOLD. Tiga HOLD lintas repo tersisa: `pg-1-2-1`, `pg-5-3-3`, `mcma-6-3-7`. Stok konseptual tidak diubah. [Audit](../docs/audits/2026-10-21-mcma-15-2-8-generator.md).
+
+## Pembaruan 21 Oktober 2026: indikator 6–10 level 4–5
+
+Seluruh 100 soal level 4–5 kini tersedia: 99 generator dan satu soal konseptual `mcma-7-5-6` dengan **3 stok VERIFIED** yang dapat dipakai ulang. Tidak ada soal antrean pada cakupan ini. Revisi lokal minimum disetujui pengguna; sumber mentah dan rincian koreksi dipertahankan. [Laporan final](../docs/audits/2026-10-21-drill-6-10-level45-batch6/README.md).
+
+Stok lintas aktivitas kini 71 original / 218 varian editorial; 68 original Drill dan 3 Tryout. Empat HOLD historis tetap ada. Stok ditulis offline sebagai inventaris; hasil generate runtime tidak disimpan. Angka pada bagian bertanggal di bawah merupakan snapshot historis.
+
 ## Pembaruan stok konseptual — lengkap 6 Oktober 2026
 
 **67/67 original konseptual Drill telah memiliki 206 varian manual VERIFIED**, bukan generator. Dua puluh soal mempunyai empat varian, 32 mempunyai tiga, 15 mempunyai dua. Semua 67 telah dibandingkan dengan original untuk variasi dan beban tugas; hasil review/perbaikan serta alasan pembatasan: [audit lengkap](../docs/audits/2026-10-06-conceptual-stock-audit.md).

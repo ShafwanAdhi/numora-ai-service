@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-21",
+  "activation_count": 28,
+  "indicator_1_5_originals": 250,
+  "level45_generators": 100,
+  "protected_prior_assets": 1332,
+  "all_prior_assets_unchanged": true,
+  "runs": [
+    {
+      "suite": "focused",
+      "tests": 26,
+      "passed": 26,
+      "skipped": 0,
+      "failures": 0,
+      "log_sha256": "06fa8b9f9452108fa08c5586c5cb1496991e3b2b623bf82a779569c1d1b1e5d8"
+    },
+    {
+      "suite": "workspace",
+      "tests": 7,
+      "passed": 7,
+      "skipped": 0,
+      "failures": 0,
+      "log_sha256": "d7b5c4e2c5de6bff22869a57b812df35ebf86c88d8816e3a92204ec34cf18395"
+    },
+    {
+      "suite": "service",
+      "tests": 25,
+      "passed": 14,
+      "skipped": 11,
+      "failures": 0,
+      "log_sha256": "7d2376856e5a0b45f891fc506cecbccdabf5574460ab3799f8a3f5bf7db4c04b"
+    }
+  ],
+  "review": "All scoped findings closed; final separate review confirms no remaining blocker.",
+  "artifact_sha256": {
+    "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json": "b4db316e54c20c0ca29c2c6c37a4e991afc5e393b16b59b9f41c9ec0cbcfd2e0",
+    "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/q0_bank.csv": "e58d3c7021f013068242e2255ae4910a0f9c4a696ca2e7329edfa892ace3c4a3",
+    "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/question_catalog.json": "329f6eb838f6ea5b5956db6b557d1131e751c2d4ed081b74a8185e9d4bd5b4dd",
+    "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/question_metadata.json": "2ec26094c3be5294d3478b7622858b35bfd89ed4e8600de664d8e038af2a6e86",
+    "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/README.md": "2d42c358e90dd6c5509af6cc3f926910a2997d0eb4f141d3a6214cfa415da9dd",
+    "variant_gen/configs/pg-1-4-1/v1.json": "eeec0a6a8cc1aa799244504b68fff611d0f47ab934a6cb1fd40d20d4affb6e10",
+    "variant_gen/configs/pg-1-5-2/v1.json": "90302d83dcb0c0d5dc0924c2db2fb0366c57c14266127e30b708f375d56f109d",
+    "variant_gen/configs/pg-1-5-5/v1.json": "f64dd44be698ce07acf30dc5c37ad44ca7a2132dbad406d8c3be401cd4e10123",
+    "variant_gen/configs/mcma-1-5-7/v1.json": "8ad73589e50c1a4fdb01232d89bfd3966a1556a69026f5e9f6e779660bd262bf",
+    "variant_gen/configs/pg-2-4-1/v1.json": "018cba91098a2055726895e011af747dac2ce540ac88a03a3934f7a7e8a92f83",
+    "variant_gen/configs/pg-2-4-2/v1.json": "45cc4fdca7b157bfb3ee732c090a037971f43962f9a85e571b622e0d07fdc80f",
+    "variant_gen/configs/pg-2-4-3/v1.json": "2d7f7d60a512c63e6a725eb97e9acbe5edbd17897ffecd960cb8d0c3562327de",
+    "variant_gen/configs/pg-2-4-5/v1.json": "5ace91a983c091e3747f6d49a31e76846dc911420227c6fd3cf0a9a84e95a3a0",
+    "variant_gen/configs/kategori-2-4-9/v1.json": "e4e48e4d95cb9170bbe5c778a2c2315b6aaef4ae66f61112413850abadf3cf9f",
+    "variant_gen/configs/kategori-2-4-10/v1.json": "7872c159ea764227c3b1e80fadfaabd91823052bbd8deca49abd485bd5d69341",
+    "variant_gen/configs/kategori-2-5-9/v1.json": "59ecacd90d0c260fde4baec90475485602424ca0a00efa8fdeb2cd61e24d1586",
+    "variant_gen/configs/kategori-2-5-10/v1.json": "8667c28e5d4dd59a4b04bccd2588dd5d44c3faada44ad09ee9744fd2a655f907",
+    "variant_gen/configs/pg-3-4-5/v1.json": "4fd139b536be6e4a1a6e950506b0e8ce3f53df4edf53cdfba7d1e4d6de6c9e17",
+    "variant_gen/configs/pg-3-5-5/v1.json": "09a77d67afce41a72e22db32faec218e07e9a0c20f2bfae643c92c59298a08c7",
+    "variant_gen/configs/mcma-3-5-7/v1.json": "7729e2dbcbe762ee780c40d63f309ae0749ea17183644b592eade32d89752578",
+    "variant_gen/configs/pg-4-4-4/v1.json": "107bd9896de8cb2c55873f818b0e82a04a6c6a518d9315baf588e3480e19684a",
+    "variant_gen/configs/pg-4-4-5/v1.json": "df1036309ff3553964b9348578f9ca394864c62be5d953873edf8fd6e07643ac",
+    "variant_gen/configs/mcma-4-4-7/v1.json": "f63531591f7665b35bf8f344d9a8fd77971d5a279954728aa10a2d76a429ddce",
+    "variant_gen/configs/mcma-4-4-8/v1.json": "abda311210320ce7e398e7558d5d1996eb31af0f5881d2a7452f90cd706a7854",
+    "variant_gen/configs/pg-4-5-4/v1.json": "5f005b5049bb2f8da57440112a8b7ce5ca7768846a32798ef8a24490b4294ae3",
+    "variant_gen/configs/pg-4-5-5/v1.json": "b5d368e4609ed4f22ca099708ca4941b86e97a8927dd275941dad06923dbe50e",
+    "variant_gen/configs/mcma-4-5-7/v1.json": "2f787094839c31a462e5d75fb0749e916a0cff4f4a9d54f1c3040e91683d8e3f",
+    "variant_gen/configs/mcma-4-5-8/v1.json": "818d70f2ac88a826c2521ab0eb5c1fc5f12cf84be7b6f63c25cfb9067a85e997",
+    "variant_gen/configs/kategori-4-5-9/v1.json": "eb0963cc65f7118a4eef4902eb6313ab9b21d780e004cb6d1dbfe9026f7df4bb",
+    "variant_gen/configs/pg-5-4-3/v1.json": "a0711c94f23c157367162fb225f8b24d3e89893b429d6585b2d1dee2bc823176",
+    "variant_gen/configs/kategori-5-4-10/v1.json": "4b3c62cecb8a32b57c67dd1737f03dcfb4b98c65a2906fb9f40828862a746ed2",
+    "variant_gen/configs/pg-5-5-3/v1.json": "4c0b4f8d39db128063a7e7d460ce3d104e09c29f3608fb6ee15a4532ecfd2cf2",
+    "variant_gen/configs/pg-5-5-4/v1.json": "0887d6989ba520f9cd5d9591fb445d8962e6bd74d0dc1334a7363765ab9e9660"
+  },
+  "code_sha256": {
+    "variant_gen/bank.py": "18196499671645a7a2a20cf82990593e4a1d30f450def45095697c0d77820f8d",
+    "variant_gen/tests/activate_level45_approved.py": "d1dc8941d926b0679e25a3fcbf1bc85f82936baf8204a6b995ead95204a7f8f4",
+    "variant_gen/tests/test_level45_approved.py": "a241181fec83e6a8a56e0e5ec2b6464bd682fe66c0a208a6494394dca3e07051",
+    "variant_gen/tests/test_level45_completion.py": "5bcf017f5248b0ad78e88825b166c4d41a1eb7d9458733574aba46f33bbf80e5",
+    "tests/service/test_api.py": "e17d7d287996c1cd6d4c03ffed32742a093649354cbe47b6f51cdf59cbc6f585"
+  }
+}

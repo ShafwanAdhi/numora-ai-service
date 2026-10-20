@@ -1,0 +1,77 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-6-4-2,PG,C4,"Panitia bazar makanan sekolah memesan 120 porsi konsumsi untuk panitia dan relawan yang diperkirakan habis dalam waktu 6 hari. Setelah berlangsung selama 2 hari, panitia mendapatkan tambahan 20 porsi konsumsi baru setiap hari dari sponsor. Namun, ada 10 relawan tambahan yang mulai bergabung pada hari ke-3 sehingga konsumsi harian meningkat. Jika setiap orang mengonsumsi porsi dengan laju yang tetap sama, persediaan konsumsi tersebut akan habis pada .... Setiap orang mengonsumsi 1 porsi per hari. Pasokan sponsor mulai diterima pada awal hari ke-3 sebelum konsumsi hari tersebut.","[""Hari ke-5"", ""Hari ke-6"", ""Hari ke-10"", ""Hari ke-8""]",C,1
+pg-6-4-4,PG,C5,"Seorang peternak memiliki persediaan pakan yang cukup untuk 40 ekor ayam selama 15 hari. Pada hari ke-6, peternak tersebut membeli lagi 10 ekor ayam. Setelah hari ke-9, peternak menjual 20 ekor ayam karena kebutuhan mendadak. Evaluasi durasi total pakan tersebut bertahan sejak awal pasokan digunakan adalah ....","[""13 hari"", ""14 hari"", ""$\\frac{47}{3}$ hari (15 hari 16 jam)"", ""18 hari""]",C,1
+mcma-6-4-8,MCMA,C5,"Seorang pengusaha UMKM kerajinan tangan menganalisis hubungan antara jumlah pekerja, jam kerja harian, dan jumlah produk yang dihasilkan per minggu seperti pada tabel berikut:
+Kondisi
+Jumlah Pekerja
+Jam Kerja/Hari
+Hasil Produk/Minggu
+Kondisi A
+6 orang
+8 jam
+240 unit
+Kondisi B
+8 orang
+6 jam
+$X$ unit
+Kondisi C
+$Y$ orang
+10 jam
+300 unit
+Asumsikan efisiensi setiap pekerja selalu konstan. Manakah analisis evaluatif yang tepat? (Jawaban benar lebih dari satu) Semua kondisi bekerja 5 hari per minggu; produktivitas per jam-pekerja sama.","[""Nilai $X$ pada Kondisi B adalah 240 unit."", ""Jumlah total jam-pekerja per minggu pada Kondisi A sama dengan Kondisi B."", ""Nilai $Y$ pada Kondisi C adalah 6 orang."", ""Kondisi B menghasilkan produk lebih banyak daripada Kondisi A karena jumlah pekerjanya lebih banyak.""]","A,B,C",1
+kategori-6-4-10,KATEGORI,C5,"Proyek renovasi perpustakaan sekolah diperkirakan selesai dalam waktu 30 hari jika dikerjakan oleh 12 pekerja. Setelah dikerjakan selama 10 hari, pekerjaan dihentikan selama 5 hari karena perbaikan atap yang bocor. Kepala sekolah mengevaluasi beberapa opsi strategi agar proyek tetap selesai tepat waktu sesuai jadwal semula.
+Tentukan status BENAR atau SALAH untuk setiap opsi keputusan strategi berikut!","[""Sisa beban kerja setelah terhenti selama 5 hari setara dengan $240hari-pekerja$."", ""Kontraktor cukup menambah 3 orang pekerja baru agar proyek selesai tepat waktu."", ""Jika tidak ada penambahan pekerja, jam kerja harian 12 pekerja awal harus ditambah sebesar $\\frac{100}{3}\\%$ dari jam kerja normal.""]","1,3",1
+pg-6-5-2,PG,C5,"Panitia kegiatan penanaman pohon menargetkan penanaman 1.200 bibit dalam waktu 8 hari oleh 15 relawan. Setelah 3 hari berjalan, 3 relawan mengundurkan diri karena sakit. Evaluasi mengenai tambahan waktu yang dibutuhkan agar penanaman 1.200 bibit tersebut tetap selesai seluruhnya adalah ....","[""1 hari"", ""1,5 hari"", ""1,25 hari"", ""2 hari""]",C,1
+pg-6-5-4,PG,C5,"Seorang pengusaha konveksi seragam sekolah mengevaluasi hasil produksi dua kelompok penjahit. Kelompok X (4 orang) mampu menyelesaikan 120 potong pakaian dalam 5 hari. Kelompok Y (6 orang) mampu menyelesaikan 180 potong pakaian dalam 4 hari. Jika pengusaha ingin menyelesaikan pesanan 300 potong pakaian dalam waktu 4 hari, komposisi pekerja yang memenuhi target dengan jumlah pekerja paling sedikit adalah .... Penjahit tambahan dapat direkrut tanpa batas ketersediaan, dengan produktivitas sama seperti kelompok asalnya.","[""5 penjahit dari Kelompok X saja"", ""8 penjahit dari Kelompok Y saja"", ""4 penjahit Kelompok X dan 3 penjahit Kelompok Y"", ""10 penjahit dari Kelompok Y saja""]",D,1
+mcma-6-5-8,MCMA,C5,"Seorang peternak mengevaluasi tiga skenario pemberian pakan untuk hewan ternaknya:
+Skenario
+Jumlah Ternak
+Waktu Pakan Habis
+Total Porsi Pakan
+Skenario 1
+30 ekor
+20 hari
+$P$ porsi
+Skenario 2
+40 ekor
+$Q$ hari
+$P$ porsi
+Skenario 3
+$R$ ekor
+12 hari
+$P$ porsi
+Manakah hasil evaluasi yang benar berdasarkan hubungan perbandingan di atas? (Jawaban benar lebih dari satu) Satu porsi adalah jatah konsumsi satu ternak selama satu hari; konsumsi setiap ternak sama dan tetap.","[""Nilai $Q$ pada Skenario 2 adalah 15 hari."", ""Jumlah ternak dan lama pakan habis merupakan perbandingan senilai."", ""Nilai $R$ pada Skenario 3 adalah 50 ekor."", ""Total porsi pakan ($P$) setara dengan 600 porsi.""]","A,C,D",1
+kategori-6-5-10,KATEGORI,C5,"Proyek pembuatan pagar lapangan olahraga sekolah sepanjang $180meter$ ditargetkan selesai dalam 12 hari oleh 6 pekerja. Setelah dikerjakan selama 4 hari, pekerja dihentikan selama 2 hari karena bahan material habis. Kepala sekolah mengevaluasi opsi penyesuaian agar proyek selesai tepat waktu.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Panjang pagar yang selesai dikerjakan pada 4 hari pertama adalah $60meter$."", ""Tambahan minimum pekerja agar selesai tepat waktu adalah 3 orang."", ""Sisa waktu efektif untuk menyelesaikan sisa pekerjaan adalah 6 hari.""]","1,3",1
+pg-7-4-4,PG,C5,"Dua siswa, Andi dan Budi, mencoba menyelesaikan persamaan aljabar berikut:
+$2(3x-5)+4=6x-6$
+Andi menyimpulkan bahwa persamaan tersebut memiliki satu-satunya penyelesaian $x=0$.
+Budi menyimpulkan bahwa persamaan tersebut memiliki tak hingga banyaknya penyelesaian.
+Evaluasi terhadap kedua kesimpulan tersebut yang paling tepat adalah ....","[""Kesimpulan Budi benar, karena setelah disederhanakan kedua ruas bernilai identik ($6x-6=6x-6$)"", ""Kesimpulan Andi benar, karena satu-satunya penyelesaian adalah $x=0$."", ""Kedua kesimpulan salah, karena persamaan tersebut tidak memiliki penyelesaian"", ""Kedua kesimpulan salah, karena penyelesaiannya adalah $x=1$""]",A,1
+mcma-7-5-8,MCMA,C5,Dua toko menjual kaus tim. Toko A memasang harga $3x+15.000$ rupiah per kaus. Toko B memasang harga $5x-25.000$ rupiah per kaus. Harga satu kaus pada kedua toko sama. Manakah evaluasi yang benar? (Jawaban benar lebih dari satu),"[""Nilai $x$ yang memenuhi adalah 20.000."", ""Harga 1 kaus di Toko A adalah Rp75.000,00."", ""Toko B menjual kaus lebih mahal dibanding Toko A."", ""Pembelian 2 kaus di Toko B membutuhkan uang sebesar Rp150.000,00.""]","A,B,D",1
+kategori-7-5-9,KATEGORI,C5,"Di sebuah acara perpustakaan keliling, jumlah buku cerita yang dipinjam oleh siswa kelas VII dinyatakan dalam bentuk persamaan $2n+18=50$, dengan $n$ menyatakan banyak siswa kelompok pertama yang masing-masing meminjam 2 buku cerita.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut! Sebanyak 18 buku dipinjam kelompok lain dan jumlah ini tetap. Empat buku tambahan pada pernyataan ketiga dipinjam siswa baru pada kelompok pertama, masing-masing 2 buku per siswa.","[""Penyelesaian dari persamaan tersebut adalah $n=16$."", ""Jumlah seluruh buku cerita yang dipinjam adalah 32 buku."", ""Jika ada 4 buku cerita tambahan yang dipinjam, maka nilai $n$ menjadi 18.""]","1,3",1
+pg-9-4-1,PG,C4,"Di sebuah kantin sekolah, Bu Sinta membeli 2 porsi nasi dan 3 gelas minuman seharga Rp31.000,00. Pada hari yang sama, Pak Budi membeli 4 porsi nasi dan 1 gelas minuman seharga Rp37.000,00 dengan jenis dan harga yang sama. Jika Bu Rani ingin membeli 1 porsi nasi dan 2 gelas minuman di kantin tersebut, jumlah uang yang harus dibayar Bu Rani adalah ....","[""Rp19.000,00"", ""Rp20.000,00"", ""Rp18.000,00"", ""Rp22.000,00""]",C,1
+pg-9-5-1,PG,C5,"Pengelola tempat wisata mengevaluasi tarif sewa dua paket wahana permainan:
+Paket A: 3 tiket sepeda air dan 2 tiket komidi putar seharga Rp85.000,00.
+Paket B: 2 tiket sepeda air dan 4 tiket komidi putar seharga Rp90.000,00.
+Seorang pengunjung mengevaluasi bahwa harga 1 tiket sepeda air lebih murah dibanding harga 1 tiket komidi putar. Evaluasi yang tepat terhadap pernyataan pengunjung tersebut adalah ....","[""Salah, karena harga tiket sepeda air Rp12.500,00 dan komidi putar Rp20.000,00."", ""Salah, karena harga 1 tiket sepeda air adalah Rp20.000,00 sedangkan tiket komidi putar adalah Rp12.500,00"", ""Benar, karena harga 1 tiket sepeda air adalah Rp15.000,00 sedangkan tiket komidi putar adalah Rp20.000,00"", ""Benar, karena harga tiket sepeda air mendapat potongan khusus dari paket B""]",B,1
+pg-9-5-5,PG,C5,"Taman sekolah berbentuk persegi panjang. Siswa A menyatakan keliling taman 36 meter, sehingga $p+l=18$. Siswa B menyatakan selisih panjang dan lebar 4 meter, sehingga $p-l=4$. Pengelola menyatakan luas taman 80 meter persegi. Evaluasi yang tepat adalah ....","[""Salah, karena luas taman yang benar adalah 72 meter persegi."", ""Salah, karena panjang taman 10 meter dan lebar 8 meter."", ""Salah, karena panjang 11 meter, lebar 7 meter, dan luas 77 meter persegi."", ""Benar, karena panjang taman 12 meter dan lebar 6 meter.""]",C,1
+mcma-9-5-7,MCMA,C5,"Dua toko perlengkapan olahraga menawarkan paket kaus kaki dan sarung tangan:
+Toko Maju: 2 kaus kaki dan 3 sarung tangan seharga Rp70.000,00.
+Toko Jaya: 4 kaus kaki dan 1 sarung tangan seharga Rp65.000,00.
+Seorang pembeli mengevaluasi harga satuan barang dari kedua toko tersebut. Manakah pernyataan evaluatif yang benar? (Jawaban benar lebih dari satu) Harga satuan setiap jenis barang sama pada kedua toko. Semua jumlah kaus kaki dan sarung tangan pada paket dihitung per pasang.","[""Harga 1 pasang kaus kaki adalah Rp15.000,00."", ""Harga 1 pasang kaus kaki adalah Rp12.500,00."", ""Harga 1 pasang sarung tangan lebih murah dibanding kaus kaki."", ""Harga 1 pasang sarung tangan adalah Rp15.000,00.""]","B,D",1
+pg-10-4-2,PG,C4,"Seorang pengurus perpustakaan merapikan dua kelompok buku cerita.
+Kelompok A terdiri dari $4(2a-b+3)$ buku.
+Kelompok B terdiri dari $3(a+2b-1)$ buku.
+Banyak buku Kelompok A dikurangi banyak buku Kelompok B dalam bentuk aljabar paling sederhana adalah ....","[""$5a-10b+9$"", ""$11a+2b+9$"", ""$5a-10b+15$"", ""$5a+2b+15$""]",C,1
+kategori-10-5-9,KATEGORI,C5,"Seorang panitia bazar sekolah menganalisis penerimaan dana dari dua stand penjualan:
+Stand 1 menyumbang dana sebesar $2({x}^{2}+3x-4)$ rupiah.
+Stand 2 menyumbang dana sebesar $3({x}^{2}-2x+2)$ rupiah.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Total dana dari kedua stand dapat disederhanakan menjadi $5{x}^{2}-2$."", ""Koefisien dari variabel $x$ pada total dana adalah $+6$."", ""Untuk $x=3$, total dana yang diperoleh kedua stand adalah 43 rupiah.""]","1,3",1
+mcma-7-5-6,MCMA,C5,"Seorang guru meminta siswa menganalisis dan mengevaluasi empat bentuk persamaan aljabar berikut:
+(i) $3x-5=2x+7$
+(ii) ${x}^{2}-4=0$
+(iii) $\frac{x+4}{2}=3$
+(iv) $2x+y=10$
+Manakah hasil evaluasi yang benar mengenai klasifikasi bentuk persamaan di atas? (Jawaban benar lebih dari satu)","[""Persamaan (i) dan (iii) merupakan Persamaan Linear Satu Variabel (PLSV)."", ""Persamaan (ii) merupakan PLSV karena hanya mengandung satu variabel yaitu $x$."", ""Persamaan (iv) bukan merupakan PLSV karena memiliki dua variabel yaitu $x$ dan $y$."", ""Persamaan (iii) bukan merupakan PLSV karena berbentuk pecahan.""]","A,C",1

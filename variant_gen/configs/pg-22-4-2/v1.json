@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-22-4-2",
+  "config_version": 1,
+  "original_hash": "5930476e01fe47cf",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else ((20)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'22' if k == 0 else ((22)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else ((24)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'26' if k == 0 else ((26)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'28' if k == 0 else ((28)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else ((15)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'33' if k == 0 else ((33)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (24+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' menit, rerata kedua kelompok)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "24+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Data waktu penyelesaian tugas dari dua kelompok siswa adalah sebagai berikut.\n\nKelompok P: {v0}, {v1}, {v2}, {v3}, {v4}\n\nKelompok Q: {v5}, {v0}, {v2}, {v4}, {v6}\n\nKesimpulan yang tepat berdasarkan ukuran penyebaran adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelompok P memiliki jangkauan lebih besar daripada kelompok Q.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kelompok Q memiliki jangkauan lebih besar sehingga datanya lebih menyebar berdasarkan jangkauan.{v7}{v8}{v9}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kedua kelompok memiliki jangkauan yang sama.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kelompok P memiliki rerata lebih tinggi daripada kelompok Q.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v10}. Kedua rerata dan median={v10}. Jangkauan P=8 dan Q=18, sehingga Q lebih menyebar menurut jangkauan. Hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

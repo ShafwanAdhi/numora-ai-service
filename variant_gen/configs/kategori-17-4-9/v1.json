@@ -1,0 +1,87 @@
+{
+  "question_id": "kategori-17-4-9",
+  "config_version": 1,
+  "original_hash": "a523479e20dc9321",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else ((4)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else ((3)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else ((2)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else ((5)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Titik  C({v0}, -{v1}) ditransformasikan. Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Bayangan C oleh translasi T(-{v2}, {v3}) adalah ({v2}, {v2}).",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Bayangan C oleh refleksi terhadap sumbu X adalah ({v0}, {v1}).",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Bayangan C oleh refleksi terhadap garis y = -x adalah ({v1}, -{v0})",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Bayangan C oleh rotasi 90° berlawanan arah jarum jam terhadap pusat (0, 0) adalah ({v1}, -{v0}).",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v4}. C=({v5},-{v6}). Translasi menjadi({v4},{v4}); refleksiX=({v5},{v6}); refleksi y=-x=({v6},-{v5}); CCW90=({v6},{v5}). 1,2,3 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

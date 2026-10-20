@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-1-4-5",
+  "config_version": 1,
+  "original_hash": "289d9c6dc588a58f",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'2,4' if k == 0 else (2.4*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'2,50' if k == 0 else (2.5*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'2,449' if k == 0 else (round(sqrt(6)*(k+1),3))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'2,40' if k == 0 else (2.4*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('; Q=')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (-sqrt(6)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' berada di antara R dan P')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga buah lokasi titik elevasi pengerukan tanah taman sekolah diukur posisinya terhadap permukaan tanah netral ($0m$):\nTitik P: $-\\frac{{v0}}{{v1}}m$\nTitik Q: $-\\sqrt{{v2}}m$\nTitik R: $-{v3}m$\nSeorang siswa menilai kedudukan ketiga titik tersebut pada garis bilangan:\nPenilaian I: Titik R di antara Titik P dan Titik Q.\nPenilaian II: Titik P terletak di sebelah kanan Titik Q.\nPenilaian III: Titik Q terletak di antara Titik R ($-{v3}m$) dan Titik P ($-2,5m$).\nPenilaian manakah yang benar berdasarkan analisis garis bilangan?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Penilaian I",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Penilaian II",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Penilaian III{v7}{v8}{v9}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Penilaian I dan II",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nUbah nilai ke bentuk desimal:\nTitik P: $-\\frac{{v0}}{{v1}}=-{v4}m$\nTitik Q: $-\\sqrt{{v2}}≈-{v5}m$\nTitik R: $-{v6}m$\nUrutkan pada garis bilangan dari terkecil ke terbesar:\n$-{v4}< -{v5}< -{v6} ⇒ Titik P <Titik Q<Titik R $\nMenganalisis posisi: Titik Q ($-{v5} m$) berada di antara Titik P ($-{v4} m$) dan Titik R ($-{v6} m$). Maka, Penilaian III adalah yang paling tepat.",
+  "shuffle": false,
+  "max_draws": 1000
+}

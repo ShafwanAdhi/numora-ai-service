@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-7-5-1",
+  "config_version": 1,
+  "original_hash": "7759cde9ab400649",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'22.000,00' if k == 0 else (22000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'2.000,00' if k == 0 else (2000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'6.000,00' if k == 0 else (6000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'24.000,00' if k == 0 else (24000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'1.000,00' if k == 0 else (1000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola kantin sekolah mengevaluasi dua skema paket penjualan perlengkapan sekolah:\nSkema A: 3 buah buku tulis dan 2 buah pensil seharga Rp{v0}, dengan harga 1 buah pensil diketahui Rp{v1}.\nSkema B: 5 buah buku tulis sejenis diberi diskon potongan harga Rp{v2} dari total harga normalnya, sehingga pembeli membayar Rp{v3}.\nEvaluasi yang tepat mengenai harga satuan 1 buah buku tulis pada kedua skema tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Harga satuan buku pada Skema A lebih murah Rp{v4} dibanding Skema B",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Harga satuan buku pada Skema A dan Skema B nilainya tepat sama yaitu Rp{v2}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Harga satuan buku pada Skema B lebih murah Rp{v1} dibanding Skema A",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Skema B menawarkan harga satuan buku lebih mahal karena jumlah buku yang dibeli lebih banyak",
+      "correct": false
+    }
+  ],
+  "explanation": "Harga buku Skema A = {v5} rupiah; harga buku Skema B = {v5} rupiah. Harga sama, selisih nol. Hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

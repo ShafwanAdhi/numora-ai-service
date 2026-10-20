@@ -1,0 +1,82 @@
+{
+  "question_id": "kategori-9-4-10",
+  "config_version": 1,
+  "original_hash": "b16619374888f6b9",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else (14+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'7' if k == 0 else (7+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "14+2*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "7+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang guru menyajikan dua metode penyelesaian untuk sistem persamaan linear berikut:\n$x+y={v0}$\n$x-y=4$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Metode eliminasi dengan menjumlahkan kedua persamaan langsung memberikan nilai $2x = {v1} \\implies x = {v2}$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Pasangan solusi $({v2},{v3})$ merupakan titik potong kedua garis pada grafik koordinat Kartesius.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika diselesaikan dengan metode grafik, kedua garis tidak akan pernah berpotongan di satu titik.",
+      "correct": false
+    }
+  ],
+  "explanation": "Penjumlahan memberi $2x={v4}$, sehingga x = {v5} dan y = {v6}. Determinan -2 tidak nol; titik potong tunggal. Pernyataan 1 dan 2 benar; 3 salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

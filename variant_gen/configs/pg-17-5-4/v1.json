@@ -1,0 +1,57 @@
+{
+  "question_id": "pg-17-5-4",
+  "config_version": 1,
+  "original_hash": "344b5048d3804252",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else ((3)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "3*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Garis l : 2x - y + {v0} = 0 dicerminkan terhadap garis y = -x. Persamaan bayangan garis l adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "x - 2y + {v0} = 0",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "x + 2y + {v0} = 0",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "-x + 2y + {v0} = 0",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "2x + y - {v0} = 0",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v1}. Refleksi y=-x: substitusi x=-Y,y=-X ke2x-y+c=0. Bayangan X-2Y+c=0 dengan c={v1}, opsi A.",
+  "shuffle": false,
+  "max_draws": 1000
+}

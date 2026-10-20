@@ -1,0 +1,128 @@
+{
+  "question_id": "mcma-23-4-8",
+  "config_version": 1,
+  "original_hash": "690da1cf1e995f55",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'120' if k == 0 else (120+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'19' if k == 0 else (19+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'0,267' if k == 0 else (8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('/')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (30+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'0,158' if k == 0 else (19+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (120+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'8/30' if k == 0 else (8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "8+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "30+6*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "120+6*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua siswa melakukan percobaan melempar dadu seimbang. Siswa A melempar {v0} kali dan mendapatkan angka 6 sebanyak {v1} kali. Siswa B melempar {v2} kali dan mendapatkan angka 6 sebanyak {v3} kali.\n\nPilih semua pernyataan yang benar.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Frekuensi relatif angka 6 pada percobaan siswa A adalah sekitar {v4}{v5}{v6}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Frekuensi relatif angka 6 pada percobaan siswa B adalah sekitar {v7}{v5}{v8}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Frekuensi relatif siswa A lebih dekat dengan peluang teoretis 1/6 daripada siswa B.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Peluang teoretis munculnya angka 6 adalah 1/6.",
+      "correct": true
+    },
+    {
+      "id": "E",
+      "text": "Hasil percobaan membuktikan bahwa peluang angka 6 pada dadu adalah {v9}{v5}{v6}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v10}/{v11}. Peluang teoretis1/6. Jarak frekuensi A dari1/6=3/({v11}), B=1/({v12}); B lebih dekat. A,B,D benar; frekuensi empiris bukan bukti peluang teoretis.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,150 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-1-4-1,PG,C4,"Empat lokasi stasiun pengisian daya sepeda listrik di sepanjang jalan lurus di sekitar sekolah diukur posisinya (dalam km) terhadap gerbang utama sekolah (titik 0 km):
+Stasiun A: $-1,85 km$
+Stasiun B: $-\sqrt{3 }km$
+Stasiun C: $-\frac{7}{4} km$
+Stasiun D: $-1,70 km$
+Empat orang siswa menganalisis urutan posisi stasiun dari yang paling jauh di sebelah kiri (paling kecil) ke yang paling dekat dengan gerbang utama (paling besar):
+Analisis I: Stasiun A, Stasiun B, Stasiun C, Stasiun D
+Analisis II: Stasiun A, Stasiun C, Stasiun B, Stasiun D
+Analisis III: Stasiun A, Stasiun B, Stasiun C, Stasiun D
+Analisis IV: Stasiun D, Stasiun B, Stasiun C, Stasiun A
+Manakah hasil analisis urutan posisi yang pasti benar?","[""Analisis I"", ""Analisis II (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)"", ""Analisis III"", ""Analisis IV""]",B,2
+pg-1-5-2,PG,C5,"Seorang siswa mengevaluasi keanggotaan jenis bilangan real berikut:
+$a=\sqrt{48}-4\sqrt{3}=0$
+$b=0,454545...=\frac{45}{99}=\frac{5}{11}$
+Evaluasi I: ""$a$ irasional dan $b$ rasional.""
+Evaluasi II: ""$a$ rasional dan $b$ irasional.""
+Evaluasi III: ""Keduanya ($a$ dan $b$) adalah bilangan rasional.""
+Evaluasi IV: ""Keduanya ($a$ dan $b$) adalah bilangan irasional.""
+Manakah evaluasi yang benar?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi IV""]",C,2
+pg-1-5-5,PG,C5,"Tiga buah posisi kedalaman lubang biopori taman sekolah dicatat sebagai berikut:
+Lubang A: $-0,85 m$
+Lubang B: $-\frac{4}{5} m$
+Lubang C: $-\sqrt{0,64} m$
+Seorang siswa menyusun evaluasi perbandingan kedudukan ketiga lubang tersebut:
+Evaluasi A: Lubang B dan Lubang C berada pada kedalaman yang berbeda.
+Evaluasi B: Lubang C ($-\sqrt{0,64}=-0,80 m$) dan Lubang B ($-\frac{4}{5}=-0,80 m$) berada pada kedalaman yang persis sama, dan keduanya lebih dangkal daripada Lubang A ($-0,85 m$).
+Evaluasi C: Lubang A adalah lubang yang paling dangkal di antara ketiganya.
+Evaluasi D: Lubang C adalah lubang yang paling dalam di antara ketiganya.
+Evaluasi manakah yang pasti benar?","[""Evaluasi A"", ""Evaluasi B"", ""Evaluasi C"", ""Evaluasi D""]",B,2
+mcma-1-5-7,MCMA,C5,"Seorang pengurus kas kelas mengevaluasi keabsahan dua bentuk penulisan transaksi keuangan:
+Metode X: $(400.000-100.000)-30.000=300.000-30.000=270.000$
+Metode Y: $400.000-(100.000+30.000)=400.000-130.000=270.000$
+Manakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00."", ""Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$."", ""Jika Metode Y diubah menjadi $400.000-(100.000-30.000)$, hasilnya akan tetap sama yaitu Rp270.000,00."", ""Total alokasi dua pengeluaran pada Metode Y adalah Rp130.000,00, sehingga sisa kasnya Rp270.000,00.""]","A,B,D",2
+pg-2-4-1,PG,C4,"Seorang pengurus OSIS menghitung sisa dana kas kegiatan pentas seni sekolah setelah beberapa kali transaksi:
+Saldo awal kas: Rp1.200.000,00
+Pembelian 15 pak kertas dekorasi seharga Rp18.000,00 per pak
+Penerimaan dana bantuan dari sekolah sebesar Rp500.000,00
+Pembayaran sewa alat musik sebesar Rp350.000,00
+Dua orang siswa menganalisis penulisan model matematika untuk menghitung sisa saldo kas:
+Analisis I: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$
+Analisis II: $1.200.000-(15×18.000)+500.000-350.000=1.080.000$
+Analisis III: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$
+Analisis IV: $1.200.000-15×(18.000+500.000)-350.000=-6.920.000$
+Berdasarkan aturan urutan operasi hitung (KABATAKU/PEMDAS), analisis manakah yang memberikan penulisan prioritas operasi yang paling tepat dan logis?","[""Analisis I"", ""Analisis II"", ""Analisis III"", ""Analisis IV""]",B,2
+pg-2-4-2,PG,C4,"Seorang siswa menganalisis penyederhanaan panjang total kerangka besi siku untuk penopang rak laboratorium. Panjang total kerangka dinyatakan dalam bentuk operasi bentuk akar berikut:
+$Panjang Kerangka=\sqrt{75}+\sqrt{108}-\sqrt{27}(dalam cm)$
+Bentuk sederhana dari panjang total kerangka besi siku tersebut adalah ....","[""$5\\sqrt{3}cm$"", ""$8\\sqrt{3}cm$"", ""$6\\sqrt{3}cm$"", ""$12\\sqrt{3}cm$""]",B,2
+pg-2-4-3,PG,C4,"Dalam eksperimen kelistrikan di laboratorium sekolah, daya listrik suatu rangkaian dianalisis menggunakan sifat-sifat operasi eksponen (bilangan berpangkat):
+$Daya Listrik=\frac{({2}^{3}{)}^{4}×{2}^{-2}}{{2}^{2}}(dalam watt)$
+Bentuk sederhana dari ekspresi daya listrik tersebut adalah ....","[""${2}^{6} watt$"", ""${2}^{8} watt$"", ""${2}^{10} watt$"", ""${2}^{12} watt$""]",B,2
+pg-2-4-5,PG,C5,"Seorang guru meminta siswa mengevaluasi penyederhanaan ekspresi bilangan berpangkat berikut:
+$Ekspresi:\frac{{3}^{5}×{9}^{-1}}{2{7}^{\frac{2}{3}}}$
+Dua siswa memberikan lembar jawaban:
+Siswa A: Mengubah semua basis menjadi 3 ⇒ $\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=$ $\frac{{3}^{3}}{{3}^{2}}= {3}^{1}=3$.
+Siswa B: Mengubah semua basis menjadi 3 ⇒ $\frac{{3}^{5}×{3}^{-2}}{({3}^{3}{)}^{\frac{2}{3}}}=\frac{{3}^{3}}{{3}^{2}}=$ ${3}^{1}=3$.
+Manakah evaluasi yang pasti tepat mengenai keabsahan langkah penyederhanaan kedua siswa?","[""Jawaban Siswa A salah karena $2{7}^{\\frac{2}{3}}$ tidak sama dengan $9={3}^{2}$"", ""Jawaban Siswa B salah karena $({3}^{3}{)}^{\\frac{2}{3}}$ tidak sama dengan ${3}^{2}$"", ""Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$"", ""Kedua siswa menghasilkan jawaban yang salah karena hasil akhirnya seharusnya 9""]",C,2
+kategori-2-4-9,KATEGORI,C4,"Seorang siswa menganalisis hasil operasi campuran pecahan dan desimal untuk penakaran cairan di laboratorium:
+$Operasi:\frac{3}{4}+1,25×0,4$
+Tentukan status BENAR or SALAH untuk setiap pernyataan analisis berikut!","[""Hasil perkalian $1,25×0,4$ adalah $0,5$."", ""Jika operasi penjumlahan dilakukan terlebih dahulu sebelum perkalian, hasilnya adalah $0,8$."", ""Hasil akhir operasi campuran tersebut adalah $1,25$ atau $\\frac{5}{4}$.""]","1,2,3",2
+kategori-2-4-10,KATEGORI,C5,"Dua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:
+$Ekspresi:\sqrt{50}×\sqrt{18}:\sqrt{9}$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Nilai dari $\\sqrt{50}×\\sqrt{18}$ dapat disederhanakan menjadi $\\sqrt{900}=30$."", ""Nilai dari penyebut/pembagi $\\sqrt{9}$ adalah $3$."", ""Hasil akhir dari seluruh ekspresi tersebut adalah $10\\sqrt{2}$.""]","1,2",2
+kategori-2-5-9,KATEGORI,C5,"Seorang siswa mengevaluasi langkah pengerjaan operasi campuran pecahan dan desimal untuk resep bahan praktikum:
+$Operasi:\frac{4}{5}+1,5×0,2$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Operasi perkalian $1,5×0,2$ harus dikerjakan terlebih dahulu dan menghasilkan $0,3$."", ""Jika operasi penjumlahan dikerjakan terlebih dahulu, hasilnya adalah $0,46$."", ""Hasil akhir yang benar dari operasi campuran tersebut adalah $1,1$ atau $\\frac{11}{10}$.""]","1,2,3",2
+kategori-2-5-10,KATEGORI,C5,"Dua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:
+$Ekspresi:\sqrt{72}×\sqrt{2}:\sqrt{16}$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Perkalian pembilang $\\sqrt{72}×\\sqrt{2}$ dapat disederhanakan menjadi $\\sqrt{144}=12$."", ""Penyebut/pembagi $\\sqrt{16}$ nilainya sama dengan $4$."", ""Hasil akhir dari seluruh ekspresi tersebut adalah $3\\sqrt{2}$.""]","1,2",2
+pg-3-4-5,PG,C5,"Dua papan nama taman sekolah diukur panjang diagonalnya:
+Papan A: diagonal $=\sqrt{45}meter$
+Papan B: diagonal $=\sqrt{98}meter$
+Seorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:
+Evaluasi I: ""Selisih panjang diagonal adalah $2m$, karena $\sqrt{98}≈10m$ dan $\sqrt{45} \approx 7\text{ m} \implies 10 - 7 = 2\text{ m}$.""
+Evaluasi II: ""Selisih panjang diagonal adalah $7m$, karena dihitung dari $\sqrt{98-45}=\sqrt{53}≈7m$.""
+Evaluasi III: ""Selisih panjang diagonal adalah $3m$, karena $\sqrt{98}≈9,899→10m$ dan $\sqrt{45} \approx 6,708 \rightarrow 7\text{ m} \implies 10 - 7 = 3\text{ m}$.""
+Evaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang paling tepat?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi II dan III sama-sama benar""]",C,2
+pg-3-5-5,PG,C5,"Dua buah papan nama fasilitas sekolah diukur panjang diagonalnya:
+Papan P: diagonal $=\sqrt{35} meter$
+Papan Q: diagonal $=\sqrt{82} meter$
+Seorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:
+Evaluasi I: ""Selisih panjang diagonal adalah $2m$, karena $\sqrt{82}≈9 m$ dan $\sqrt{35} \approx 6\text{ m} \implies 9 - 6 = 2\text{ m}$.""
+Evaluasi II: ""Selisih panjang diagonal adalah $7 m$, karena dihitung dari $\sqrt{82-35}=\sqrt{47}≈7m$.""
+Evaluasi III: ""Selisih panjang diagonal adalah $3 m$, karena $\sqrt{82}≈9,055→9 m$ dan $\sqrt{35} \approx 5,916 \rightarrow 6\text{ m} \implies 9 - 6 = 3\text{ m}$.""
+Evaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang pasti benar?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi II dan III sama-sama benar""]",C,2
+mcma-3-5-7,MCMA,C5,"Seorang peneliti laboratorium sekolah menganalisis hasil aproksimasi dan pembulatan tiga sampel kawat irasional:
+Sampel A: panjang $=\sqrt{18}cm$
+Sampel B: panjang $=\sqrt{38}cm$
+Sampel C: panjang $=\sqrt{70}cm$
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$."", ""Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$."", ""Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$."", ""Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$.""]","A,B,C",2
+pg-4-4-4,PG,C5,"Seorang pembina pramuka mengevaluasi dua klaim dari dua regu mengenai pembentukan kelompok belajar dari $96$ anggota laki-laki dan $120$ anggota perempuan:
+Klaim Regu Elang: ""Kelompok terbanyak yang dapat dibentuk adalah $24$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $1$ orang.""
+Klaim Regu Harimau: ""Kelompok terbanyak yang dapat dibentuk adalah $12$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $2$ orang.""
+Evaluasi manakah yang benar?
+Syarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.","[""Klaim Regu Harimau benar, karena FPB dari $96$ dan $120$ adalah $12$"", ""Klaim Regu Elang benar, karena $FPB(96,120)=24$, dengan isi per kelompok $5$ perempuan dan $4$ laki-laki (selisih $5-4=1$)"", ""Kedua klaim salah, karena jumlah kelompok terbanyak yang dapat dibentuk adalah $48$"", ""Klaim Regu Harimau benar, karena $120$ dan $96$ sama-sama kelipatan $12$""]",B,2
+pg-4-4-5,PG,C5,Balok kecil berukuran $12 cm×15 cm×20 cm$ disusun searah tanpa celah dan tanpa memotong balok untuk membentuk sebuah kubus. Panjang rusuk kubus terkecil yang dapat dibentuk adalah ....,"[""$30 cm$"", ""$40 cm$"", ""$60 cm$"", ""$120 cm$""]",C,2
+mcma-4-4-7,MCMA,C5,"Dua buah bel peringatan laboratorium berbunyi berulang setiap $16$ menit dan $24$ menit. Kedua bel berbunyi bersamaan pada pukul 08.00 WIB. Dua siswa memberikan evaluasi terhadap beberapa pernyataan:
+Manakah evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Kedua bel berbunyi bersamaan kembali setiap 48 menit\"" adalah BENAR."", ""Pernyataan \""Kedua bel akan berbunyi bersamaan untuk kedua kalinya pada pukul 08.48 WIB\"" adalah BENAR."", ""Pernyataan \""Dalam selang waktu 2 jam (120 menit), kedua bel berbunyi bersamaan sebanyak 3 kali (tidak menghitung pukul 08.00 WIB)\"" adalah BENAR."", ""Pernyataan \""Dalam selang waktu 2 jam (120 menit), kedua bel berbunyi bersamaan sebanyak 2 kali (tidak menghitung pukul 08.00 WIB)\"" adalah BENAR.""]","A,B,D",2
+mcma-4-4-8,MCMA,C5,"Seorang pengurus OSIS membagikan $108$ buku agenda dan $135$ pulpen ke dalam beberapa wadah bingkisan pengurus tanpa sisa. Pengurus tersebut mengevaluasi dua alternatif pengemasan:
+Opsi I: Dibagi ke dalam $9$ wadah.
+Opsi II: Dibagi ke dalam $27$ wadah (menggunakan FPB terbanyak).
+Manakah evaluasi pernyataan matematika yang benar? (Jawaban benar dapat lebih dari satu)
+Syarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.","[""Opsi I adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk."", ""Opsi II adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk karena $FPB(108,135)=27$."", ""Pada Opsi II, setiap wadah berisi $4$ buku agenda dan $5$ pulpen."", ""Pada Opsi I, setiap wadah berisi $12$ buku agenda dan $12$ pulpen.""]","B,C",2
+pg-4-5-4,PG,C5,"Seorang pembina regu mengevaluasi jumlah kelompok terbanyak yang dapat dibentuk dari $108$ peserta laki-laki dan $135$ peserta perempuan. Tiga regu memberikan laporan evaluasi:
+Regu A: ""Dapat dibentuk $9$ kelompok, dengan isi tiap kelompok $12$ laki-laki dan $15$ perempuan.""
+Regu B: ""Dapat dibentuk $27$ kelompok, dengan isi tiap kelompok $4$ laki-laki dan $5$ perempuan.""
+Regu C: ""Dapat dibentuk $54$ kelompok, dengan isi tiap kelompok $2$ laki-laki dan $2,5$ perempuan.""
+Manakah evaluasi regu yang paling tepat dan bernilai maksimum?
+Syarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.","[""Laporan Regu A"", ""Laporan Regu C"", ""Laporan Regu B"", ""Laporan Regu A dan Regu B sama-sama maksimum""]",C,2
+pg-4-5-5,PG,C5,"Sebuah pengelola perpustakaan sekolah mengevaluasi dua opsi jadwal pengembalian dua kategori buku pinjaman:
+Kategori Komik: wajib dikembalikan setiap 14 hari
+Kategori Novel: wajib dikembalikan setiap 21 hari
+Pengelola ingin membuat kebijakan agar tanggal jatuh tempo bersamaan terjadi tidak terlalu sering untuk menghindari antrean panjang. Dua usulan kebijakan diajukan:
+Kebijakan I: Mengubah jadwal Komik menjadi 7 hari dan Novel menjadi 14 hari.
+Kebijakan II: Mengubah jadwal Komik menjadi 12 hari dan Novel menjadi 18 hari.
+Evaluasi manakah yang benar jika kedua usulan wajib dibandingkan dengan jadwal awal 42 hari dan kriterianya adalah memperpanjang rentang waktu jatuh tempo bersamaan?","[""Kebijakan I memenuhi kriteria karena $KPK(7,14)=14$ hari"", ""Kebijakan II memenuhi kriteria karena $KPK(12,18)=36$ hari"", ""Kedua kebijakan memenuhi kriteria karena intervalnya positif"", ""Tidak ada kebijakan yang memenuhi kriteria karena $14<42$ dan $36<42$ hari""]",D,2
+mcma-4-5-7,MCMA,C5,"Dua buah lampu penanda praktikum berkedip secara periodik setiap $24$ detik dan $36$ detik. Kedua lampu berkedip bersamaan pada detik ke-0. Seorang siswa melakukan evaluasi terhadap frekuensi kedipan bersama dalam durasi $5$ menit ($300$ detik).
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Kedua lampu berkedip bersamaan setiap 72 detik\"" adalah BENAR."", ""Pernyataan \""$FPB(24,36)=12$\"" adalah BENAR."", ""Pernyataan \""Dalam durasi 300 detik, kedua lampu berkedip bersamaan sebanyak 5 kali (tidak menghitung detik ke-0)\"" adalah BENAR."", ""Pernyataan \""Dalam durasi 300 detik, kedua lampu berkedip bersamaan sebanyak 4 kali (tidak menghitung detik ke-0)\"" adalah BENAR.""]","A,B,D",2
+mcma-4-5-8,MCMA,C5,"Seorang pengurus lab sains mengevaluasi pembagian $96$ tabung reaksi dan $144$ pipet tetes ke dalam beberapa kotak penyimpanan praktikum tanpa tersisa.
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)
+Syarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.","[""Kotak penyimpanan terbanyak yang dapat dibentuk adalah 24 kotak."", ""Kotak penyimpanan terbanyak yang dapat dibentuk adalah 48 kotak."", ""Jika dibentuk 48 kotak, masing-masing kotak berisi 2 tabung reaksi dan 3 pipet tetes."", ""Jika dibentuk 48 kotak, masing-masing kotak berisi 3 tabung reaksi dan 2 pipet tetes.""]","B,C",2
+kategori-4-5-9,KATEGORI,C5,"Sebuah panitia bazar sekolah mengevaluasi dua opsi pengemasan untuk $120$ kotak susu dan $150$ bungkus biskuit.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!
+Syarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.","[""Kantong plastik terbanyak yang dapat digunakan untuk mengemas seluruh makanan tanpa sisa adalah $30$ kantong."", ""Jika dikemas ke dalam $30$ kantong, banyaknya biskuit pada masing-masing kantong adalah $4$ bungkus."", ""Total seluruh kemasan (susu dan biskuit) pada masing-masing kantong jika dibagikan maksimum adalah $9$ kemasan.""]","1,3",2
+pg-5-4-3,PG,C4,"Dua buah selang air digunakan untuk mengalirkan air ke dalam dua kolam ikan hias sekolah yang berukuran berbeda:
+Selang I: Mengisi kolam berkapasitas $360 liter$ sampai penuh dalam waktu $18 menit$.
+Selang II: Mengisi kolam berkapasitas $600 liter$ sampai penuh dalam waktu $24 menit$.
+Seorang siswa menganalisis selisih laju aliran air (debit) antara Selang II dan Selang I. Selisih debit air kedua selang tersebut adalah ....
+Setiap wadah mula-mula kosong, tidak bocor, tidak memiliki aliran lain, dan debit rata-rata dihitung selama pengisian.","[""$3 liter/menit$"", ""$5 liter/menit$"", ""$7 liter/menit$"", ""$10 liter/menit$""]",B,2
+kategori-5-4-10,KATEGORI,C5,"Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim sablon dan banyak kaus olahraga yang selesai disablon:
+Waktu Kerja (jam) | Kaus Selesai (lembar)
+$3$ | $27$
+$5$ | $45$
+$8$ | $72$
+Seorang siswa mengevaluasi proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Laju pencetakan sablon kaus tersebut adalah $9 lembar/jam$."", ""Jika tim bekerja selama $10jam$, maka kaus yang selesai disablon adalah $90 lembar$."", ""Untuk menyelesaikan $108 lembar$ kaus, waktu kerja yang dibutuhkan adalah $14 jam$.""]","1,2",2
+pg-5-5-3,PG,C5,"Dua buah keran digunakan untuk mengisi dua bak air penampungan laboratorium yang berbeda kapasitas:
+Keran A: Mengisi bak $400 liter$ sampai penuh dalam waktu $16 menit$.
+Keran B: Mengisi bak $720 liter$ sampai penuh dalam waktu $24 menit$.
+Dua siswa mengevaluasi perbandingan laju aliran air (debit) kedua keran tersebut:
+Evaluasi A: ""Keran A memiliki debit lebih besar karena waktu pengisiannya lebih cepat ($16 menit<24 menit$).""
+Evaluasi B: ""Keran B memiliki debit lebih besar, karena debit Keran B adalah $30 liter/menit$ sedangkan Keran A adalah $25 liter/menit$ (selisih $5 liter/menit$).""
+Manakah evaluasi yang pasti benar?
+Setiap wadah mula-mula kosong, tidak bocor, tidak memiliki aliran lain, dan debit rata-rata dihitung selama pengisian.","[""Evaluasi A"", ""Evaluasi B"", ""Kedua evaluasi salah"", ""Keran A dan B memiliki debit yang sama""]",B,2
+pg-5-5-4,PG,C5,"Pengurus koperasi sekolah mengevaluasi dua opsi penawaran grosir buku gambar dari dua toko penyedia:
+Toko Alfa: Menjual $1$ pak berisi $15$ buku gambar seharga Rp60.000,00.
+Toko Beta: Menjual $1$ pak berisi $25$ buku gambar seharga Rp92.500,00.
+Dua siswa menyusun evaluasi kelayakan usulan belanja:
+Evaluasi X: ""Toko Alfa lebih efisien untuk dibeli karena total biaya belanja per paknya lebih murah (Rp60.000,00 < Rp92.500,00).""
+Evaluasi Y: ""Toko Beta lebih hemat karena menawarkan harga per unit sebesar Rp3.700,00/buku, sedangkan Toko Alfa sebesar Rp4.000,00/buku (hemat Rp300,00/buku).""
+Evaluasi manakah yang benar berdasarkan analisis laju harga per unit?","[""Evaluasi X"", ""Evaluasi Y"", ""Kedua evaluasi salah"", ""Toko Alfa dan Toko Beta menawarkan harga per unit yang ekuivalen""]",B,2

@@ -1,0 +1,29 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-7-5-3,PG,C5,"Dua orang siswa mengevaluasi penyelesaian dari bentuk persamaan $4(x-1)+2=2(2x-1)$.
+Siswa A menyatakan bahwa persamaan tersebut tidak memiliki penyelesaian sama sekali.
+Siswa B menyatakan bahwa persamaan tersebut memiliki tak hingga banyaknya penyelesaian.
+Evaluasi yang paling tepat mengenai kedua pendapat tersebut adalah ....","[""Siswa A benar, karena diperoleh hubungan $0=4$"", ""Siswa A benar, karena variabel $x$ hilang saat disederhanakan"", ""Siswa B salah, karena penyelesaian tunggalnya adalah $x=0$"", ""Siswa B benar, karena setelah kedua ruas disederhanakan diperoleh bentuk identitas $4x-2=4x-2$""]",D,1
+pg-8-4-5,PG,C5,Sebuah mobil boks angkutan barang memiliki daya angkut tidak lebih dari $800kg$. Sopir mobil memiliki berat badan $60kg$ dan membawa beberapa kotak barang yang masing-masing beratnya $25kg$. Pengelola armada mengevaluasi jumlah kotak barang maksimum yang aman diangkut dalam satu kali jalan. Evaluasi yang tepat adalah ....,"[""Maksimal 30 kotak, karena $25×30+60=810kg$ masih diperbolehkan"", ""Maksimal 32 kotak, karena $800÷25=32$ kotak"", ""Maksimal 29 kotak, karena beban total $25(29)+60=785kg≤800kg$"", ""Maksimal 28 kotak, agar beban tidak mendekati batas maksimum $800kg$""]",C,1
+mcma-8-4-7,MCMA,C4,Diketahui pertidaksamaan $4-3x≥13$. Manakah pernyataan analisis berikut yang benar mengenai penyelesaian dan grafik himpunan penyelesaiannya? (Jawaban benar lebih dari satu),"[""Nilai $x$ yang memenuhi adalah $x≥-3$."", ""Penyelesaian pertidaksamaan tersebut adalah $x≤-3$."", ""Angka $-4$ termasuk ke dalam himpunan penyelesaian."", ""Grafik pada garis bilangan diwakili oleh lingkaran kosong pada titik $-3$ dengan panah ke kiri.""]","B,C",1
+mcma-8-4-8,MCMA,C5,Seorang siswa mengevaluasi penyelesaian dari pertidaksamaan $2(2x-3)-5x<1$. Manakah pernyataan evaluatif berikut yang benar? (Jawaban benar lebih dari satu),"[""Setelah disederhanakan, ruas kiri menjadi $-x-6$."", ""Tanda pertidaksamaan berubah menjadi $>$ saat menyederhanakan ruas kiri."", ""Penyelesaian akhir dari pertidaksamaan tersebut adalah $x>-7$."", ""Nilai $x=0$ merupakan salah satu anggota himpunan penyelesaian.""]","A,C,D",1
+pg-8-5-3,PG,C5,"Seorang siswa menyajikan pengerjaan pertidaksamaan $4-2(x+5)>8$ sebagai berikut:
+Langkah 1: $4-2x-10>8$
+Langkah 2: $-2x-6>8$
+Langkah 3: $-2x>14$
+Langkah 4: $x>-7$
+Evaluasi terhadap langkah penyelesaian siswa tersebut adalah ....","[""Langkah 1 salah, seharusnya $4-2x+10>8$"", ""Langkah 3 salah, seharusnya $-2x>2$"", ""Langkah 4 salah, seharusnya tanda pertidaksamaan dibalik menjadi $x<-7$ karena dibagi dengan $-2$"", ""Seluruh langkah penyelesaian dari Langkah 1 hingga Langkah 4 sudah benar""]",C,1
+pg-8-5-5,PG,C5,"Sebuah mobil bak terbuka memiliki batas aman muatan. Batas beban maksimum dinyatakan oleh pertidaksamaan $30x+50≤500$, di mana $x$ adalah banyak karung beras. Seorang sopir membawa 16 karung beras dan menyatakan bahwa muatannya sudah melebihi batas aman. Evaluasi terhadap pernyataan sopir tersebut adalah ....","[""Salah, karena beban 16 karung beras tepat sama dengan $500kg$"", ""Benar, karena untuk $x=16$, nilai $30(16)+50=530kg>500kg$"", ""Salah, karena kapasitas maksimum mobil bak tersebut adalah 18 karung beras"", ""Benar, karena batas maksimal karung beras yang diperbolehkan adalah 12 karung""]",B,1
+kategori-8-5-9,KATEGORI,C5,"Seorang pengelola katering sekolah mengevaluasi kapasitas pengiriman makanan menggunakan sepeda motor listrik. Kotak makanan yang diangkut memiliki berat masing-masing $3kg$, dan berat pengemudi adalah $65kg$. Sepeda motor listrik tersebut memiliki daya angkut maksimum $140kg$. Misalkan $x$ menyatakan banyak kotak makanan.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Model pertidaksamaan yang tepat adalah $3x+65≤140$."", ""Jumlah kotak makanan maksimum yang dapat diangkut adalah 26 kotak."", ""Pengiriman 25 kotak makanan aman dilakukan dalam sekali jalan.""]","1,3",1
+kategori-8-5-10,KATEGORI,C5,"Seorang guru meminta siswa mengevaluasi perbedaan sifat dasar antara Persamaan Linear Satu Variabel (PLSV) dan Pertidaksamaan Linear Satu Variabel (PtLSV):
+Formulasi I (PLSV): $-2x=8$
+Formulasi II (PtLSV): $-2x≤8$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!","[""Penyelesaian dari Formulasi I adalah nilai tunggal $x=-4$."", ""Penyelesaian dari Formulasi II adalah $x≥-4$ karena tanda berubah arah saat dibagi $-2$."", ""Kedua formulasi di atas memiliki jumlah anggota himpunan penyelesaian yang sama banyak.""]","1,2",1
+kategori-9-4-10,KATEGORI,C5,"Seorang guru menyajikan dua metode penyelesaian untuk sistem persamaan linear berikut:
+$x+y=10$
+$x-y=4$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Metode eliminasi dengan menjumlahkan kedua persamaan langsung memberikan nilai $2x = 14 \\implies x = 7$."", ""Pasangan solusi $(7,3)$ merupakan titik potong kedua garis pada grafik koordinat Kartesius."", ""Jika diselesaikan dengan metode grafik, kedua garis tidak akan pernah berpotongan di satu titik.""]","1,2",1
+pg-10-5-5,PG,C5,"Sebuah aula sekolah memiliki susunan kursi yang dinyatakan dalam ekspresi aljabar.
+Baris pertama memuat $2x+3$ kursi.
+Setiap baris berikutnya bertambah $x-1$ kursi dari baris sebelumnya.
+Seorang panitia mengevaluasi bahwa jumlah kursi pada baris ke-3 dapat dinyatakan oleh bentuk aljabar $4x+1$. Evaluasi yang tepat mengenai hasil analisis panitia tersebut adalah ....","[""Benar, karena baris ke-3 $=(2x+3)+2(x-1)=2x+3+2x-2=4x+1$"", ""Salah, karena baris ke-3 seharusnya $3x+2$"", ""Salah, karena penambahan 2 kali beda seharusnya menghasilkan $4x+5$"", ""Benar, karena baris ke-3 dihitung dengan mengalikan baris pertama dengan 3""]",A,1

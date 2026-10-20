@@ -1,0 +1,133 @@
+{
+  "pg-6-4-1": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "key",
+        "evidence": "KunciB40 menit; hitungan4j40m-3j30m=40menit.",
+        "impact": "Pengurangan salah; jawabanD70 menit.",
+        "proposal": "Ubah kunciD; selisih70 menit."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      "Koreksi kunci ['B'] menjadi ['D'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+    ]
+  },
+  "pg-6-5-1": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "key",
+        "evidence": "KunciB18hari; pembahasan menghasilkan16hari.",
+        "impact": "Kunci salah; opsiA sesuai stimulus.",
+        "proposal": "Ubah kunciA."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      "Koreksi kunci ['B'] menjadi ['A'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+    ]
+  },
+  "pg-6-5-3": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "key",
+        "evidence": "KunciA2.5jam; sisa3/8÷1/4=1.5jam.",
+        "impact": "Total3jam, opsiB; percepatanB tidak ada dalam stimulus.",
+        "proposal": "Ubah kunciB; hapus versi kontradiktif2.5jam."
+      },
+      {
+        "component": "explanation",
+        "evidence": "1.5+1.5=3 lalu1.5+1=2.5 dengan dalihB mempercepat.",
+        "impact": "Memasukkan laju baru tanpa data; dua total saling bertentangan.",
+        "proposal": "Pertahankan1.5+1.5=3jam."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      "Koreksi kunci ['A'] menjadi ['B'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+    ]
+  },
+  "pg-7-4-3": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "key",
+        "evidence": "Header D=117; pembahasan menulis Jawaban benar C dan Kunci disesuaikan ke C.",
+        "impact": "Versi kunci bertentangan; hasil112 mendukung C.",
+        "proposal": "Satukan kunci menjadi C; hapus teks penyuntingan."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      "Koreksi kunci ['D'] menjadi ['C'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+    ]
+  },
+  "pg-7-5-5": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "key",
+        "evidence": "Header C=13m×5m; akhir pembahasan Revisi Kunci ke A=10m×8m.",
+        "impact": "Dua versi kunci; A yang memenuhi rumus pada x=4.",
+        "proposal": "Satukan kunci ke A; hilangkan catatan revisi."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      "Koreksi kunci ['C'] menjadi ['A'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+    ]
+  },
+  "pg-9-5-2": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "key",
+        "evidence": "KunciC menuntut kembali3000;solusi l2500,k4000 memberi pesanan17000 dan kembali1000.",
+        "impact": "Jawaban benarD;C salah.",
+        "proposal": "Ganti kunciD."
+      },
+      {
+        "component": "explanation",
+        "evidence": "5000+12000 ditulis15000,lalu18000−15000=3000.",
+        "impact": "Kesalahan penjumlahan mengubah total belanja dan kembalian.",
+        "proposal": "Tulis5000+12000=17000;18000−17000=1000."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      "Koreksi kunci ['C'] menjadi ['D'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+    ]
+  },
+  "mcma-10-4-7": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "key",
+        "evidence": "Kunci awalB,D, tetapi 2(3x-2y)-3(x-4y)=3x+8y membuatA juga benar; pembahasan akhir sendiri menyatakanA,B,D.",
+        "impact": "Respons lengkapA,B,D akan berbeda dari kunci awal; kontradiksi deklarasi kunci.",
+        "proposal": "Tetapkan deklarasi kunciA,B,D; hapus riwayat revisi dari pembahasan final."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      "Koreksi kunci ['B', 'D'] menjadi ['A', 'B', 'D'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+    ]
+  }
+}

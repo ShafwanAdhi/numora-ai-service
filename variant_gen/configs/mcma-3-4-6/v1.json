@@ -1,0 +1,143 @@
+{
+  "question_id": "mcma-3-4-6",
+  "config_version": 1,
+  "original_hash": "d07802b37ad400be",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'34,853' if k == 0 else (34.853+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'34,9' if k == 0 else (round(34.853+k,1)+(0 if k == 0 else 0.1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else (27+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'5,4' if k == 0 else (round(sqrt(27+k),1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else (60+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'7,7' if k == 0 else (floor(sqrt(60+k)*10)/10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'7,8' if k == 0 else (floor(sqrt(60+k)*10)/10+0.1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'396' if k == 0 else (396+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'204' if k == 0 else (204+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'80.000' if k == 0 else (round((396+100*k)/100)*100*round((204+100*k)/100)*100)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "round(34.853+k,1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "round(sqrt(27+k),1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "floor(sqrt(60+k)*10)/10",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "floor(sqrt(60+k)*10)/10+0.1",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "60+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "round((396+100*k)/100)*100*round((204+100*k)/100)*100",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [
+    "(floor(sqrt(60+k)*10)/10)**2 < 60+k"
+  ],
+  "stem": "Diberikan empat pernyataan analisis pembulatan dan aproksimasi bilangan real:\n(i) Hasil pembulatan ${v0}$ ke satu tempat desimal (persepuluhan terdekat) adalah ${v1}$.\n(ii) Nilai aproksimasi dari $\\sqrt{{v2}}$ ke persepuluhan terdekat adalah ${v3}$.\n(iii) Nilai dari $\\sqrt{{v4}}$ berada di antara ${v5}$ dan ${v6}$.\n(iv) Hasil estimasi dari ${v7}×{v8}$ menggunakan pembulatan ke ratusan terdekat adalah ${v9}$.\nManakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan (i)",
+      "correct": "k == 0"
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan (ii)",
+      "correct": "k != 0"
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan (iii)",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan (iv)",
+      "correct": true
+    }
+  ],
+  "explanation": "(i) Nilai pembulatan yang benar = {v10}. (ii) Aproksimasi akar yang benar = {v11}. (iii) Batas akar = {v12} dan {v13}, kuadrat batas mengapit {v14}. (iv) Hasil estimasi = {v15}. Nilai klaim harus dibandingkan dengan nilai benar tersebut, bukan sekadar mengikuti panjang desimal.",
+  "shuffle": false,
+  "max_draws": 1000
+}

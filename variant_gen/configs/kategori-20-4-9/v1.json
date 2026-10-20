@@ -1,0 +1,87 @@
+{
+  "question_id": "kategori-20-4-9",
+  "config_version": 1,
+  "original_hash": "9ff01a2c2f64194d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else ((70)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'110' if k == 0 else ((110)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'150' if k == 0 else (150+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "110+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "150+2*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan tabel jumlah pengunjung perpustakaan selama empat hari.\n\n| Hari | Jumlah pengunjung |\n| --- | --- |\n| Senin | {v0} |\n| Selasa | {v1} |\n| Rabu | {v2} |\n| Kamis | {v3} |\n\nTentukan kategori yang tepat.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Jumlah pengunjung tertinggi terjadi pada hari Kamis.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Pengunjung hari Selasa lebih banyak 20 orang daripada hari Senin.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jumlah pengunjung hari Rabu merupakan yang tertinggi.",
+      "correct": false
+    },
+    {
+      "id": "4",
+      "text": "Jumlah pengunjung hari Senin dan Rabu adalah {v4} orang.",
+      "correct": true
+    }
+  ],
+  "explanation": "Hasil = {v5}. Pengunjung tertinggi Kamis={v5}. Selasa-Senin=20, Rabu bukan tertinggi, Senin+Rabu={v6}. Pernyataan1,2,4 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

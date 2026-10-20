@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-2-5-4",
+  "config_version": 1,
+  "original_hash": "081b272549222899",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'6,4' if k == 0 else (6.4+0.8*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'0,8' if k == 0 else (0.8)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'0,5' if k == 0 else (0.5)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'1,5' if k == 0 else (1.5+0.5*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'9,5' if k == 0 else (9.5+1.5*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'11' if k == 0 else (11+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'5,5' if k == 0 else (5.5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('; hasilnya ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (9.5+1.5*k)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa mengevaluasi kebenaran pengerjaan kuis operasi campuran desimal dan pecahan berikut:\n$Soal:{v0}:{v1}+{v2}×{v3}$\nEvaluasi I: \"Hasilnya adalah ${v6}$, karena pembagian dan perkalian dikerjakan terlebih dahulu: $({v0}:{v1})+({v2}×{v3})={v4}+{v5}={v6}$.\"\nEvaluasi II: \"Hasilnya adalah ${v8}$, karena dikerjakan dari kiri ke kanan: $({v0}:{v1}+{v2})×{v3}=({v4}+{v2})×{v3}={v7}×{v3}={v8}$.\"\nManakah penjelas evaluasi yang pasti benar berdasarkan aturan KABATAKU/PEMDAS?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I benar, karena operasi perkalian dan pembagian berderajat lebih tinggi daripada penjumlahan{v9}{v10}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II benar, karena operasi yang setara harus dikerjakan urut dari kiri",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi I salah, karena ${v0}:{v1}={v1}$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi II benar, karena penjumlahan di tengah harus dikerjakan lebih dulu",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nMenurut hirarki PEMDAS/KABATAKU, lakukan pembagian dan perkalian terlebih dahulu:\n${v0}:{v1}={v4}$\n${v2}×{v3}={v5}$\nJumlahkan hasilnya:\n${v4}+{v5}={v6}$\nMaka, Evaluasi I adalah yang valid secara aturan matematika.",
+  "shuffle": false,
+  "max_draws": 1000
+}

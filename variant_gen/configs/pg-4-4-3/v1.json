@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-4-4-3",
+  "config_version": 1,
+  "original_hash": "74dce1a03f836f01",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'120' if k == 0 else (120*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'144' if k == 0 else (144*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'48' if k == 0 else (48*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "24*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia pameran sains hendak membagikan ${v0}$ modul praktikum dan ${v1}$ pena sains ke dalam beberapa kantong bingkisan peserta dengan jumlah dan kombinasi isi yang sama tanpa ada sisa.\nDua anggota panitia mengajukan proposal analisis pembagian:\nProposal A: Dibuat ${v2}$ kantong, masing-masing berisi $5$ modul praktikum dan $6$ pena sains.\nProposal B: Dibuat ${v3}$ kantong, masing-masing berisi $2,5$ modul praktikum dan $3$ pena sains.\nManakah proposal analisis yang benar berdasarkan prinsip matematika dan keterbagian barang?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Proposal A, karena FPB dari ${v0}$ dan ${v1}$ adalah ${v2}$ sehingga isi barang bernilai bilangan bulat utuh",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Proposal B, karena semakin banyak kantong membuat distribusi semakin merata",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Proposal A, karena jumlah pena sains harus lebih sedikit dari modul praktikum",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Proposal B, karena ${v3}$ merupakan kelipatan dari ${v2}$",
+      "correct": false
+    }
+  ],
+  "explanation": "Hitung FPB dari dua jumlah yang ditampilkan: FPB = {v4}. Periksa keterbagian, isi tiap kelompok, dan syarat maksimum pada setiap opsi.",
+  "shuffle": false,
+  "max_draws": 1000
+}

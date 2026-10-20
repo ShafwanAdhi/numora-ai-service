@@ -1,0 +1,129 @@
+{
+  "question_id": "pg-2-4-1",
+  "config_version": 1,
+  "original_hash": "e00bcf3341bf9bd1",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'1.200.000,00' if k == 0 else (1200000+10000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'18.000,00' if k == 0 else (18000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'500.000,00' if k == 0 else (500000+10000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'350.000,00' if k == 0 else (350000+5000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'1.200.000' if k == 0 else (1200000+10000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'18.000' if k == 0 else (18000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'500.000' if k == 0 else (500000+10000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'350.000' if k == 0 else (350000+5000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'21.599.730.000' if k == 0 else (((1200000+10000*k)-(15+k))*(18000+500*k)+(500000+10000*k)-(350000+5000*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'1.080.000' if k == 0 else ((1200000+10000*k)-(15+k)*(18000+500*k)+(500000+10000*k)-(350000+5000*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'270.000' if k == 0 else ((15+k)*(18000+500*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('; saldo akhir Rp')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ((1200000+10000*k)-(15+k)*(18000+500*k)+(500000+10000*k)-(350000+5000*k))",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus OSIS menghitung sisa dana kas kegiatan pentas seni sekolah setelah beberapa kali transaksi:\nSaldo awal kas: Rp{v0}\nPembelian {v1} pak kertas dekorasi seharga Rp{v2} per pak\nPenerimaan dana bantuan dari sekolah sebesar Rp{v3}\nPembayaran sewa alat musik sebesar Rp{v4}\nDua orang siswa menganalisis penulisan model matematika untuk menghitung sisa saldo kas:\nAnalisis I: $({v5}-{v1})×{v6}+{v7}-{v8}={v9}$\nAnalisis II: ${v5}-({v1}×{v6})+{v7}-{v8}={v10}$\nAnalisis III: $({v5}-{v1})×{v6}+{v7}-{v8}={v9}$\nAnalisis IV: ${v5}-{v1}×({v6}+{v7})-{v8}=-6.920.000$\nBerdasarkan aturan urutan operasi hitung (KABATAKU/PEMDAS), analisis manakah yang memberikan penulisan prioritas operasi yang paling tepat dan logis?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis I",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Analisis II{v12}{v13}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Analisis III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis IV",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nMenganalisis operasi perkalian biaya kertas dekorasi yang harus dihitung terlebih dahulu sesuai aturan KABATAKU:\n$Biaya Kertas={v1}×{v6}={v11}$\nMenyusun operasi campuran secara berurutan:\n$Saldo Akhir={v5}-({v1}×{v6})+{v7}-{v8}$\n$Saldo Akhir={v5}-{v11}+{v7}-{v8}={v10}$\nPenggunaan tanda kurung pada Analisis II menegaskan prioritas perkalian $({v1}×{v6})$ sebelum melakukan penjumlahan dan pengurangan dari kiri ke kanan.",
+  "shuffle": false,
+  "max_draws": 1000
+}

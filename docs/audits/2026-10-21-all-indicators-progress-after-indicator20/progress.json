@@ -1,0 +1,806 @@
+{
+  "summary": {
+    "date": "2026-10-21",
+    "scope": "Local runtime after indicator20 completion; not main database or new academic audit",
+    "drill": {
+      "originals": 1150,
+      "generator": 1051,
+      "stock": 83,
+      "held": 16,
+      "unavailable": 0
+    },
+    "ready": 1134,
+    "workspace_originals": 1180,
+    "workspace_modes": {
+      "stock": 86,
+      "generator": 1078,
+      "held": 16
+    }
+  },
+  "groups": [
+    {
+      "group": "1-5",
+      "originals": 250,
+      "generator": 238,
+      "stock": 10,
+      "held": 2,
+      "unavailable": 0
+    },
+    {
+      "group": "6-10",
+      "originals": 250,
+      "generator": 239,
+      "stock": 10,
+      "held": 1,
+      "unavailable": 0
+    },
+    {
+      "group": "11-15",
+      "originals": 250,
+      "generator": 228,
+      "stock": 22,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "group": "16-19",
+      "originals": 200,
+      "generator": 177,
+      "stock": 23,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "group": "20-23",
+      "originals": 200,
+      "generator": 169,
+      "stock": 18,
+      "held": 13,
+      "unavailable": 0
+    }
+  ],
+  "indicators": [
+    {
+      "indicator": 1,
+      "originals": 50,
+      "generator": 44,
+      "stock": 5,
+      "held": 1,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 7,
+          "stock": 3
+        },
+        "2": {
+          "held": 1,
+          "generator": 8,
+          "stock": 1
+        },
+        "3": {
+          "generator": 9,
+          "stock": 1
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 2,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "stock": 3,
+          "generator": 7
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 3,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 4,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 5,
+      "originals": 50,
+      "generator": 48,
+      "stock": 1,
+      "held": 1,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "generator": 9,
+          "held": 1
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 6,
+      "originals": 50,
+      "generator": 45,
+      "stock": 4,
+      "held": 1,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 9,
+          "stock": 1
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "generator": 7,
+          "stock": 2,
+          "held": 1
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 7,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 9,
+          "stock": 1
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "stock": 1,
+          "generator": 9
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 9,
+          "stock": 1
+        }
+      }
+    },
+    {
+      "indicator": 8,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 9,
+      "originals": 50,
+      "generator": 49,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 9,
+          "stock": 1
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 10,
+      "originals": 50,
+      "generator": 49,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 11,
+      "originals": 50,
+      "generator": 44,
+      "stock": 6,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "stock": 3,
+          "generator": 7
+        },
+        "2": {
+          "generator": 8,
+          "stock": 2
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 9,
+          "stock": 1
+        }
+      }
+    },
+    {
+      "indicator": 12,
+      "originals": 50,
+      "generator": 48,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "generator": 9,
+          "stock": 1
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 13,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 14,
+      "originals": 50,
+      "generator": 40,
+      "stock": 10,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "stock": 3,
+          "generator": 7
+        },
+        "2": {
+          "stock": 1,
+          "generator": 9
+        },
+        "3": {
+          "stock": 1,
+          "generator": 9
+        },
+        "4": {
+          "stock": 3,
+          "generator": 7
+        },
+        "5": {
+          "stock": 2,
+          "generator": 8
+        }
+      }
+    },
+    {
+      "indicator": 15,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 9,
+          "stock": 1
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "generator": 9,
+          "stock": 1
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 9,
+          "stock": 1
+        }
+      }
+    },
+    {
+      "indicator": 16,
+      "originals": 50,
+      "generator": 33,
+      "stock": 17,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "stock": 4,
+          "generator": 6
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "generator": 9,
+          "stock": 1
+        },
+        "4": {
+          "generator": 3,
+          "stock": 7
+        },
+        "5": {
+          "stock": 4,
+          "generator": 6
+        }
+      }
+    },
+    {
+      "indicator": 17,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 8,
+          "stock": 2
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 8,
+          "stock": 2
+        }
+      }
+    },
+    {
+      "indicator": 18,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 19,
+      "originals": 50,
+      "generator": 48,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 8,
+          "stock": 2
+        }
+      }
+    },
+    {
+      "indicator": 20,
+      "originals": 50,
+      "generator": 41,
+      "stock": 9,
+      "held": 0,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "stock": 4,
+          "generator": 6
+        },
+        "2": {
+          "stock": 3,
+          "generator": 7
+        },
+        "3": {
+          "generator": 8,
+          "stock": 2
+        },
+        "4": {
+          "generator": 10
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 21,
+      "originals": 50,
+      "generator": 45,
+      "stock": 1,
+      "held": 4,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 10
+        },
+        "2": {
+          "generator": 9,
+          "stock": 1
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 8,
+          "held": 2
+        },
+        "5": {
+          "generator": 8,
+          "held": 2
+        }
+      }
+    },
+    {
+      "indicator": 22,
+      "originals": 50,
+      "generator": 41,
+      "stock": 6,
+      "held": 3,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "generator": 8,
+          "stock": 2
+        },
+        "2": {
+          "generator": 7,
+          "stock": 3
+        },
+        "3": {
+          "generator": 9,
+          "stock": 1
+        },
+        "4": {
+          "generator": 7,
+          "held": 3
+        },
+        "5": {
+          "generator": 10
+        }
+      }
+    },
+    {
+      "indicator": 23,
+      "originals": 50,
+      "generator": 42,
+      "stock": 2,
+      "held": 6,
+      "unavailable": 0,
+      "levels": {
+        "1": {
+          "stock": 2,
+          "generator": 8
+        },
+        "2": {
+          "generator": 10
+        },
+        "3": {
+          "generator": 10
+        },
+        "4": {
+          "generator": 8,
+          "held": 2
+        },
+        "5": {
+          "generator": 6,
+          "held": 4
+        }
+      }
+    }
+  ],
+  "pending": [
+    {
+      "indicator": 1,
+      "level": 2,
+      "question_id": "pg-1-2-1",
+      "mode": "held",
+      "reason": "Kunci D dan urutan kerugian telah diperbaiki, tetapi pembahasan masih menulis −58% = 0,58%. Konversi yang benar −0,58; sumber disimpan tanpa koreksi diam-diam."
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "question_id": "pg-5-3-3",
+      "mode": "held",
+      "reason": "Revisi belum mengubah konflik header: B. 24 liter/menit, sedangkan opsi B dan pembahasan selisih debit adalah 4 liter/menit. 24 merupakan debit Q, bukan selisih."
+    },
+    {
+      "indicator": 6,
+      "level": 3,
+      "question_id": "mcma-6-3-7",
+      "mode": "held",
+      "reason": "Revisi masih konflik: pada awal hari ke-3 sisa makanan 48/8=6 hari; setelah tiga hari penuh 42/8=5,25 hari. Pernyataan C menyebut 5 hari dan pembahasan mencampur dua/tiga hari serta menulis 42/8=5; kunci A,B,C belum valid."
+    },
+    {
+      "indicator": 21,
+      "level": 4,
+      "question_id": "kategori-21-4-9",
+      "mode": "held",
+      "reason": "WRONG_KEY_AND_EXPLANATION: median data adalah25, sehingga B benar. Kunci/tabel memberi B Salah, pembahasan juga menyebut median25 tetapi menyimpulkan B salah. Himpunan benar1234, bukan134."
+    },
+    {
+      "indicator": 21,
+      "level": 4,
+      "question_id": "kategori-21-4-10",
+      "mode": "held",
+      "reason": "CONFLICTING_KEY: rerata kedua kelompok3; median2 dan3; jangkauan6 dan2. Hanya D tepat. Kunci/tabel124 bertentangan dengan data dan koreksi pada pembahasan yang memilih4."
+    },
+    {
+      "indicator": 21,
+      "level": 5,
+      "question_id": "mcma-21-5-6",
+      "mode": "held",
+      "reason": "CONFLICTING_KEY: jumlah400/5=80, jadi opsi B benar. Kunci awal A,C,D menghilangkan B; pembahasan kemudian mengoreksi menjadi A,B,C,D."
+    },
+    {
+      "indicator": 21,
+      "level": 5,
+      "question_id": "mcma-21-5-7",
+      "mode": "held",
+      "reason": "CONFLICTING_KEY: rerata kedua kelompok400/5=80, sehingga C salah. Kunci awal A,B,C,E bertentangan dengan koreksi pembahasan A,B,E."
+    },
+    {
+      "indicator": 22,
+      "level": 4,
+      "question_id": "pg-22-4-3",
+      "mode": "held",
+      "reason": "WRONG_KEY_AND_CORRECTION: opsi D benar karena rerata kedua kelompok4. Kunci awal A salah; pembahasan salah menyatakan tidak ada opsi benar, lalu mengusulkan perubahan A yang akan menduplikasi D."
+    },
+    {
+      "indicator": 22,
+      "level": 4,
+      "question_id": "mcma-22-4-7",
+      "mode": "held",
+      "reason": "CONFLICTING_KEY: kelompok Q berisi3,4,5,6,7 tanpa modus tunggal. E salah. Kunci awal A,B,D,E bertentangan dengan koreksi pembahasan A,B,D."
+    },
+    {
+      "indicator": 22,
+      "level": 4,
+      "question_id": "kategori-22-4-9",
+      "mode": "held",
+      "reason": "CONFLICTING_KEY: rerata kedua kelompok20, sehingga B salah. Kunci/tabel123 bertentangan dengan koreksi pembahasan13."
+    },
+    {
+      "indicator": 23,
+      "level": 4,
+      "question_id": "pg-23-4-5",
+      "mode": "held",
+      "reason": "MISSING_FAIRNESS: stimulus tidak menyebut koin seimbang. Frekuensi relatif0.65 tidak menetapkan peluang teoretis; opsi C memakai peluang0.5 yang mensyaratkan koin seimbang. Tegaskan asumsi pada stimulus."
+    },
+    {
+      "indicator": 23,
+      "level": 4,
+      "question_id": "mcma-23-4-7",
+      "mode": "held",
+      "reason": "UNSTATED_ROUNDING:28/60=0.4666..., bukan tepat0.47 pada opsi B. Pembahasan memakai sekitar0.47, stimulus/opsi tidak. KunciABC menganggap pembulatan yang belum dinyatakan; kunci eksakAC."
+    },
+    {
+      "indicator": 23,
+      "level": 5,
+      "question_id": "pg-23-5-3",
+      "mode": "held",
+      "reason": "MISSING_MODEL: peluang tepat satu gambar adalah1/2 hanya untuk dua lemparan independen koin seimbang. Stimulus tidak menetapkan kedua asumsi; ruang sampel empat hasil saja tidak menjamin peluang setara."
+    },
+    {
+      "indicator": 23,
+      "level": 5,
+      "question_id": "pg-23-5-4",
+      "mode": "held",
+      "reason": "MISSING_FAIRNESS: stimulus tidak menyebut dadu seimbang. Peluang genap0.5 pada opsi C memerlukan asumsi tersebut; frekuensi relatif162/300 tidak menetapkannya."
+    },
+    {
+      "indicator": 23,
+      "level": 5,
+      "question_id": "mcma-23-5-7",
+      "mode": "held",
+      "reason": "MISSING_FAIRNESS: stimulus tidak menyebut koin seimbang. A,B,C benar empiris; D tidak dapat dinilai salah secara pasti karena peluang koin yang tidak diketahui dapat saja0.575. Tegaskan model sebelum memakai kunciABC."
+    },
+    {
+      "indicator": 23,
+      "level": 5,
+      "question_id": "mcma-23-5-8",
+      "mode": "held",
+      "reason": "MISSING_RANDOM_DRAW: peluang4/10 pada opsi A membutuhkan pengambilan acak seragam. Stimulus hanya menyebut mengambil satu bola dan pengembalian, belum menyatakan acak/seragam. Frekuensi relatifB,C tetap benar; tegaskan mekanisme untuk kunciABC."
+    }
+  ]
+}

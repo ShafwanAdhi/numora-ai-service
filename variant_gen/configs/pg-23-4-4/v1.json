@@ -1,0 +1,116 @@
+{
+  "question_id": "pg-23-4-4",
+  "config_version": 1,
+  "original_hash": "c286df496785caeb",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'81' if k == 0 else (81-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'0,36' if k == 0 else (54+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('/')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (150)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'0,40' if k == 0 else (60+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'0,46' if k == 0 else (69+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'0,54' if k == 0 else (81+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'0,60' if k == 0 else (90+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "69+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "150",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "81-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah dadu dilempar 150 kali. Frekuensi munculnya angka ganjil adalah {v0} kali. Frekuensi relatif munculnya angka genap berdasarkan percobaan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v1}{v2}{v3}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4}{v2}{v3}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v5}{v2}{v3}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v6}{v2}{v3}",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "{v7}{v2}{v3}",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v8}/{v9}. Angka genap muncul150-{v10}={v8}kali; opsi C. Pecahan eksak menghindari pembulatan implisit.",
+  "shuffle": false,
+  "max_draws": 1000
+}

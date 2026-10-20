@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-22-5-5",
+  "config_version": 1,
+  "original_hash": "61c3d45f2e0eba95",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else ((12)*(1+k/10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else ((14)*(1+k/10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else ((15)*(1+k/10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'16' if k == 0 else ((16)*(1+k/10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else ((18)*(1+k/10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else ((8)*(1+k/10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'22' if k == 0 else ((22)*(1+k/10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else ((6)*(1+k/10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "6*(1+k/10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "14*(1+k/10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "15*(1+k/10)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kelompok memiliki data waktu menyelesaikan latihan dalam menit.\n\nKelompok A: {v0}, {v1}, {v2}, {v3}, {v4}\n\nKelompok B: {v5}, {v0}, {v2}, {v4}, {v6}\n\nJika waktu yang lebih konsisten ditunjukkan oleh jangkauan yang lebih kecil, keputusan yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelompok A, karena jangkauannya {v7} menit.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kelompok B, karena jangkauannya {v1} menit.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kedua kelompok sama konsisten karena mediannya sama.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kelompok B, karena nilai terendahnya lebih kecil.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v8}. Jangkauan A={v8}, B={v9}. Median keduanya={v10}. Konsistensi menurut jangkauan memilih A; hanya A benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

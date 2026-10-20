@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-6-5-2",
+  "config_version": 1,
+  "original_hash": "252a139b182fa496",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'1' if k == 0 else (1+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'1,5' if k == 0 else (1.5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'1,25' if k == 0 else (1.25+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "75+60*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6.25+5*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5+4*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "1.25+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia kegiatan penanaman pohon menargetkan penanaman 1.200 bibit dalam waktu {v0} hari oleh 15 relawan. Setelah 3 hari berjalan, 3 relawan mengundurkan diri karena sakit. Evaluasi mengenai tambahan waktu yang dibutuhkan agar penanaman 1.200 bibit tersebut tetap selesai seluruhnya adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v1} hari",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v2} hari",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v3} hari",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v4} hari",
+      "correct": false
+    }
+  ],
+  "explanation": "Sisa {v5} relawan-hari dikerjakan 12 orang selama {v6} hari. Waktu rencana tersisa {v7} hari. Tambahan {v8} hari kerja. C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

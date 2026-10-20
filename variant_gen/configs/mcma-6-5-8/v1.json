@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-6-5-8",
+  "config_version": 1,
+  "original_hash": "506227e86fe43970",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'40' if k == 0 else (40*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'50' if k == 0 else (50*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'600' if k == 0 else (600*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "600*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "50*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang peternak mengevaluasi tiga skenario pemberian pakan untuk hewan ternaknya:\nSkenario\nJumlah Ternak\nWaktu Pakan Habis\nTotal Porsi Pakan\nSkenario 1\n{v0} ekor\n20 hari\n$P$ porsi\nSkenario 2\n{v1} ekor\n$Q$ hari\n$P$ porsi\nSkenario 3\n$R$ ekor\n12 hari\n$P$ porsi\nManakah hasil evaluasi yang benar berdasarkan hubungan perbandingan di atas? (Jawaban benar lebih dari satu) Satu porsi adalah jatah konsumsi satu ternak selama satu hari; konsumsi setiap ternak sama dan tetap.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nilai $Q$ pada Skenario 2 adalah 15 hari.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jumlah ternak dan lama pakan habis merupakan perbandingan senilai.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Nilai $R$ pada Skenario 3 adalah {v2} ekor.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Total porsi pakan ($P$) setara dengan {v3} porsi.",
+      "correct": true
+    }
+  ],
+  "explanation": "P={v4} porsi; Q=15 hari; R={v5} ekor. Konsumsi satu porsi/ekor/hari. Hubungan berbalik nilai. A,C,D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

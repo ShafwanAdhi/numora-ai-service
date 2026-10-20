@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-2-4-4",
+  "config_version": 1,
+  "original_hash": "301b64723a181d3a",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'4,5' if k == 0 else (4.5+0.5*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'9,5' if k == 0 else (9.5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'2,75' if k == 0 else (2.75+0.25*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'11' if k == 0 else (11+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (9.5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (')')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4.5+0.5*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "9+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "9.5+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "2.75+0.25*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua orang siswa memberikan evaluasi terhadap hasil pengerjaan soal operasi campuran bilangan desimal dan pecahan untuk keperluan pembagian pita ekstrakurikuler:\n$Soal:{v0}:0,5+2×0,25$\nEvaluasi I: \"Hasil yang benar adalah ${v1}$, karena pembagian dan perkalian dikerjakan terlebih dahulu: $({v0}:0,5)+(2×0,25)={v2}+0,5={v1}$.\"\nEvaluasi II: \"Hasil yang benar adalah ${v3}$, karena dikerjakan berurutan dari kiri ke kanan: $({v0}:0,5+2)×0,25=({v2}+2)×0,25={v4}×0,25={v3}$.\"\nEvaluasi manakah yang benar berdasarkan aturan hirarki operasi hitung (PEMDAS/KABATAKU)?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I, karena operasi pembagian dan perkalian memiliki prioritas lebih tinggi daripada penjumlahan{v5}{v6}{v7}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II, karena semua operasi berderajat sama sehingga harus dikerjakan dari kiri ke kanan",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kedua evaluasi salah, karena hasil akhirnya harus berupa bilangan bulat 10",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi II, karena penjumlahan di dalam urutan posisi harus diutamakan",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembagian dan perkalian mendahului penjumlahan. {v8} : 0,5 = {v9}, 2 * 0,25 = 0,5. Hasil benar = {v10}. Hasil cara berurutan yang keliru = {v11}. Hanya Evaluasi I beserta alasannya yang benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

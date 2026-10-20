@@ -1,0 +1,63 @@
+{
+  "question_id": "pg-7-4-4",
+  "config_version": 1,
+  "original_hash": "3c710432948ce129",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "6+2*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua siswa, Andi dan Budi, mencoba menyelesaikan persamaan aljabar berikut:\n$2(3x-{v0})+4=6x-{v1}$\nAndi menyimpulkan bahwa persamaan tersebut memiliki satu-satunya penyelesaian $x=0$.\nBudi menyimpulkan bahwa persamaan tersebut memiliki tak hingga banyaknya penyelesaian.\nEvaluasi terhadap kedua kesimpulan tersebut yang paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kesimpulan Budi benar, karena setelah disederhanakan kedua ruas bernilai identik ($6x-{v1}=6x-{v1}$)",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kesimpulan Andi benar, karena satu-satunya penyelesaian adalah $x=0$.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kedua kesimpulan salah, karena persamaan tersebut tidak memiliki penyelesaian",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kedua kesimpulan salah, karena penyelesaiannya adalah $x=1$",
+      "correct": false
+    }
+  ],
+  "explanation": "Kedua ruas menjadi 6x-{v2}. Konstanta kedua ruas -{v2}. Semua bilangan real memenuhi, sehingga Andi salah mengklaim solusi tunggal. Budi benar; A.",
+  "shuffle": false,
+  "max_draws": 1000
+}

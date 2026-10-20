@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-21-4-2",
+  "config_version": 1,
+  "original_hash": "aff35465771ae3d1",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else ((3)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else ((4)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else ((5)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else ((8)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else ((6)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "25+5*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Data jumlah buku yang dibaca lima siswa dalam satu bulan adalah {v0}, {v1}, {v2}, {v2}, dan {v3} buku.\n\nSeorang siswa menyatakan bahwa rerata data lebih besar daripada median. Pernyataan tersebut ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena rerata = {v2} dan median = {v2}.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Benar, karena rerata = {v2} dan median = {v1}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena rerata = {v2} dan median = {v2}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena rerata = {v4} dan median = {v2}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v5}. Jumlah={v6}, rerata={v5}, median={v5}. Rerata tidak lebih besar; hanya C mempunyai penilaian dan angka yang benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

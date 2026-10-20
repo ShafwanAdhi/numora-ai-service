@@ -1,0 +1,135 @@
+{
+  "question_id": "pg-3-5-3",
+  "config_version": 1,
+  "original_hash": "42bdb1c5e110af80",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'598,2' if k == 0 else ((598.2)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'18185,28' if k == 0 else ((18185.28)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'2.981,19' if k == 0 else ((round(598.2*(k+1)*30.4/6.1,2)/(k+1))*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'500' if k == 0 else ((500)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'15000' if k == 0 else ((15000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'2.500' if k == 0 else ((2500)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'600' if k == 0 else ((600)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'18000' if k == 0 else ((18000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'3.000' if k == 0 else ((3000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "round(598.2*(k+1)*30.4/6.1,2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2500*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "3000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (3000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (estimasi terdekat))')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus OSIS mengevaluasi dua usulan model estimasi cepat untuk mengecek kewajaran jawaban operasi pembagian biaya konsumsi berikut:\n$Hitungan Riil:\\frac{{v0}×30,4}{6,1}=\\frac{{v1}}{6,1}≈{v2}$\nDua model estimasi diajukan:\nModel A: Membulatkan menjadi $\\frac{{v3}×30}{6}=\\frac{{v4}}{6}={v5}$\nModel B: Membulatkan menjadi $\\frac{{v6}×30}{6}=\\frac{{v7}}{6}={v8}$\nManakah evaluasi yang pasti benar mengenai kelayakan kedua model estimasi?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model A lebih baik karena membulatkan ${v0}$ ke bawah membuat anggaran lebih aman",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Model B lebih layak dan akurat, karena ${v6}$ sangat dekat dengan ${v0}$ sehingga hasil estimasi (${v8}$) sangat dekat dengan nilai riil (${v2}$){v12}{v13}{v14}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Model A lebih akurat karena angka ${v3}$ lebih mudah dihitung",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kedua model sama-sama tidak layak digunakan",
+      "correct": false
+    }
+  ],
+  "explanation": "Hitung nilai riil = {v9}. Estimasi bawah = {v10}, estimasi dekat = {v11}. Galat mutlak estimasi dekat lebih kecil, sehingga opsi B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

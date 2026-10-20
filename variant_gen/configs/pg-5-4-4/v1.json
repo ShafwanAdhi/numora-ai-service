@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-5-4-4",
+  "config_version": 1,
+  "original_hash": "66fddb03b58e5d5a",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'42.000,00' if k == 0 else (3500*(12+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else (20+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'66.000,00' if k == 0 else ((3300-10*k)*(20+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'3.300,00' if k == 0 else (3300-10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'3.500,00' if k == 0 else (3500)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'200,00' if k == 0 else (200+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3500",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3300-10*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "200+10*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', dengan hasil ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (200+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' rupiah per pulpen')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus koperasi sekolah mengevaluasi dua penawaran harga pulpen grosir dari dua penyedia toko alat tulis:\nToko Maju: Menjual $1$ pak berisi ${v0}$ pulpen seharga Rp{v1}.\nToko Jaya: Menjual $1$ pak berisi ${v2}$ pulpen seharga Rp{v3}.\nDua siswa memberikan lembar evaluasi kelayakan pembelian:\nEvaluasi A: \"Toko Maju lebih hemat karena total harga per paknya (Rp{v1}) lebih murah daripada Toko Jaya (Rp{v3}).\"\nEvaluasi B: \"Toko Jaya lebih hemat karena menawarkan harga per unit sebesar Rp{v4}/pulpen, sedangkan Toko Maju adalah Rp{v5}/pulpen (hemat Rp{v6}/pulpen).\"\nManakah evaluasi yang pasti benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi A",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi B{v10}{v11}{v12}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kedua evaluasi salah",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Toko Maju dan Toko Jaya menawarkan harga per unit yang ekuivalen",
+      "correct": false
+    }
+  ],
+  "explanation": "Harga per unit pertama = {v7}, kedua = {v8}, selisih = {v9}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

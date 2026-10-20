@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-2-5-3",
+  "config_version": 1,
+  "original_hash": "42ad4ed4172238fd",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (k+3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else ((k+3)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else ((k+3)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('; basisnya ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (k+3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' dan nilainya ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ((k+3)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' mW')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "n": {
+      "gen": "derived",
+      "expr": "'{n}' if k == 0 else 'n'"
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'{a}' if k == 0 else 'a'"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa mengevaluasi penyederhanaan nilai daya pancar sinyal pemancar Wi-Fi perpustakaan yang dirumuskan dengan operasi eksponen:\n$Daya Sinyal=\\frac{({{v0}}^{2}{)}^{3}×{{v0}}^{-1}}{{{v0}}^{3}}(dalam mW)$\nDua orang tim teknisi memberikan lembar penilaian:\nEvaluasi A: \"Nilai daya adalah ${{v0}}^{1}={v0} mW$, karena $({{v0}}^{2}{)}^{3}={{v0}}^{5}$, sehingga $\\frac{{{v0}}^{5}×{{v0}}^{-1}}{{{v0}}^{3}}=\\frac{{{v0}}^{4}}{{{v0}}^{3}}={{v0}}^{1}$.\"\nEvaluasi B: \"Nilai daya adalah ${{v0}}^{2}={v1} mW$, karena $({{v0}}^{2}{)}^{3}={{v0}}^{6}$, sehingga $\\frac{{{v0}}^{6}×{{v0}}^{-1}}{{{v0}}^{3}}=\\frac{{{v0}}^{5}}{{{v0}}^{3}}={{v0}}^{2}$.\"\nHasil evaluasi manakah yang pasti benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi A, karena pangkat dipangkatkan artinya eksponennya dijumlahkan ($2+3=5$)",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi B, karena pangkat dipangkatkan artinya eksponennya dikalikan ($2×3=6$){v3}{v4}{v5}{v6}{v7}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi A, karena hasil akhir $3mW$ lebih kecil sehingga lebih efisien",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi B, tetapi nilai akhirnya seharusnya ${v2} mW$",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nGunakan $({a}^{m}{)}^{n}={a}^{m . n}$  ⇒ $({{v0}}^{2}{)}^{3}={{v0}}^{2×3}={{v0}}^{6}$\nSifat perkalian ${a}^{m}{ .a}^{n}={a}^{m + n} ⇒$${{v0}}^{6}$ $×$ ${{v0}}^{-1}={{v0}}^{6 + (-1)}={{v0}}^{5}$\nSifat pembagian $\\frac{{a}^{m}}{{a}^{n}}={a}^{m - n}⇒\\frac{{{v0}}^{5}}{{{v0}}^{3}}={{v0}}^{5 - 3}={{v0}}^{2}={v1} mW$.\nMaka, Evaluasi B adalah yang tepat.",
+  "shuffle": false,
+  "max_draws": 1000
+}

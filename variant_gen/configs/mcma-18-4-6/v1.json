@@ -1,0 +1,105 @@
+{
+  "question_id": "mcma-18-4-6",
+  "config_version": 1,
+  "original_hash": "c1863158b1ff7437",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else ((14)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'196' if k == 0 else ((196)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'154' if k == 0 else ((154)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'42' if k == 0 else ((42)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'72' if k == 0 else ((72)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "196*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "154*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "42*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "50*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "72*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan bangun datar yang terdiri dari sebuah persegi dengan panjang sisi {v0} cm. Di dalam persegi tersebut terdapat seperempat lingkaran berpusat di salah satu titik sudutnya dengan jari-jari {v0} cm. Pilihlah semua pernyataan yang benar! (Gunakan π = $\\frac{22}{7}$ )",
+  "options": [
+    {
+      "id": "A",
+      "text": "Luas persegi tersebut adalah {v1} cm².",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas seperempat lingkaran tersebut adalah {v2} cm².",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas daerah persegi di luar seperempat lingkaran adalah {v3} cm².",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Keliling daerah yang diarsir (persegi di luar seperempat lingkaran) adalah {v4} cm.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v5}. Persegi={v5}, seperempat lingkaran={v6}, sisa={v7}. Keliling sisa=2s+pi*s/2={v8}, bukan {v9}. A,B,C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-18-5-1",
+  "config_version": 1,
+  "original_hash": "6256433d13ce71da",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'88' if k == 0 else ((88)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'132' if k == 0 else (132*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'176' if k == 0 else (176*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "132*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "484*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "616*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa memiliki kawat sepanjang {v0} cm. Ia ingin membuat sebuah bangun datar tertutup yang utuh dari kawat tersebut. Ia mengevaluasi dua pilihan bentuk, yaitu persegi dan lingkaran. Berdasarkan perhitungan, evaluasi manakah yang paling tepat mengenai luas kedua bangun tersebut? (Gunakan π =$\\frac{22}{7}$)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kandang berbentuk persegi lebih luas {v1} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kandang berbentuk lingkaran lebih luas {v1} cm²",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas kedua bangun tersebut sama besar",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kandang berbentuk lingkaran lebih luas {v2} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v3}. Persegi berluas{v4}; lingkaran berluas{v5}. Selisih{v3}, lingkaran lebih luas. Hanya B; A salah arah, C salah sama besar, D salah selisih.",
+  "shuffle": false,
+  "max_draws": 1000
+}

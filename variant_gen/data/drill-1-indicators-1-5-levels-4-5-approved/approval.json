@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-21",
+  "approved_by": "PROJECT_OWNER_USER",
+  "user_instruction": "aku setuju dengan koreksinya, masukkan dan buat generatornya",
+  "scope": [
+    "SOURCE_CORRECTIONS",
+    "LOCAL_GENERATOR_ACTIVATION"
+  ],
+  "curriculum_institutional_approval_claimed": false,
+  "difficulty_equivalence_approved": false,
+  "self_adjustment_enabled": false,
+  "database_published": false,
+  "reviewed_proposals_sha256": "c9ec2e74e3749ba91382ecdac2c8569091cbac8bc70da691ea2878be677f2964",
+  "prior_assets_baseline_sha256": "6233b5007137d9b35751c35cce356ef1aaaf2a440be9458e85df9f73f4766e0e",
+  "entries": [
+    {
+      "question_id": "pg-1-4-1",
+      "original_version": 2,
+      "original_hash": "277c079a5be47ae0",
+      "config_version": 1,
+      "config_hash": "ba58e7dc3be30857",
+      "config_sha256": "eeec0a6a8cc1aa799244504b68fff611d0f47ab934a6cb1fd40d20d4affb6e10"
+    },
+    {
+      "question_id": "pg-1-5-2",
+      "original_version": 2,
+      "original_hash": "c7d992384a020191",
+      "config_version": 1,
+      "config_hash": "79233830a3db1418",
+      "config_sha256": "90302d83dcb0c0d5dc0924c2db2fb0366c57c14266127e30b708f375d56f109d"
+    },
+    {
+      "question_id": "pg-1-5-5",
+      "original_version": 2,
+      "original_hash": "c059a0c41c13c9a8",
+      "config_version": 1,
+      "config_hash": "ee1d03791fe1fe93",
+      "config_sha256": "f64dd44be698ce07acf30dc5c37ad44ca7a2132dbad406d8c3be401cd4e10123"
+    },
+    {
+      "question_id": "mcma-1-5-7",
+      "original_version": 2,
+      "original_hash": "bc3f9cb954c21c0c",
+      "config_version": 1,
+      "config_hash": "1f492264d96d51bc",
+      "config_sha256": "8ad73589e50c1a4fdb01232d89bfd3966a1556a69026f5e9f6e779660bd262bf"
+    },
+    {
+      "question_id": "pg-2-4-1",
+      "original_version": 2,
+      "original_hash": "e00bcf3341bf9bd1",
+      "config_version": 1,
+      "config_hash": "ac8a0800e7e3c58c",
+      "config_sha256": "018cba91098a2055726895e011af747dac2ce540ac88a03a3934f7a7e8a92f83"
+    },
+    {
+      "question_id": "pg-2-4-2",
+      "original_version": 2,
+      "original_hash": "b2ce142994738701",
+      "config_version": 1,
+      "config_hash": "32ba8cd5c7c0e389",
+      "config_sha256": "45cc4fdca7b157bfb3ee732c090a037971f43962f9a85e571b622e0d07fdc80f"
+    },
+    {
+      "question_id": "pg-2-4-3",
+      "original_version": 2,
+      "original_hash": "e6bf2549ad31a0b4",
+      "config_version": 1,
+      "config_hash": "08bce9519a9ff827",
+      "config_sha256": "2d7f7d60a512c63e6a725eb97e9acbe5edbd17897ffecd960cb8d0c3562327de"
+    },
+    {
+      "question_id": "pg-2-4-5",
+      "original_version": 2,
+      "original_hash": "71f5974ad78d1154",
+      "config_version": 1,
+      "config_hash": "9e30d08ee4959e60",
+      "config_sha256": "5ace91a983c091e3747f6d49a31e76846dc911420227c6fd3cf0a9a84e95a3a0"
+    },
+    {
+      "question_id": "kategori-2-4-9",
+      "original_version": 2,
+      "original_hash": "903272d9afd0cc41",
+      "config_version": 1,
+      "config_hash": "749625067a6d5b71",
+      "config_sha256": "e4e48e4d95cb9170bbe5c778a2c2315b6aaef4ae66f61112413850abadf3cf9f"
+    },
+    {
+      "question_id": "kategori-2-4-10",
+      "original_version": 2,
+      "original_hash": "6de5dbcc9fa43157",
+      "config_version": 1,
+      "config_hash": "f9aa92faae4badf0",
+      "config_sha256": "7872c159ea764227c3b1e80fadfaabd91823052bbd8deca49abd485bd5d69341"
+    },
+    {
+      "question_id": "kategori-2-5-9",
+      "original_version": 2,
+      "original_hash": "93cb71718943a1f8",
+      "config_version": 1,
+      "config_hash": "dec660790cb80d30",
+      "config_sha256": "59ecacd90d0c260fde4baec90475485602424ca0a00efa8fdeb2cd61e24d1586"
+    },
+    {
+      "question_id": "kategori-2-5-10",
+      "original_version": 2,
+      "original_hash": "e3bf854211194e49",
+      "config_version": 1,
+      "config_hash": "d4e307e3b2b4aef5",
+      "config_sha256": "8667c28e5d4dd59a4b04bccd2588dd5d44c3faada44ad09ee9744fd2a655f907"
+    },
+    {
+      "question_id": "pg-3-4-5",
+      "original_version": 2,
+      "original_hash": "9e14db8fb779b86f",
+      "config_version": 1,
+      "config_hash": "15d97dd19fab94d3",
+      "config_sha256": "4fd139b536be6e4a1a6e950506b0e8ce3f53df4edf53cdfba7d1e4d6de6c9e17"
+    },
+    {
+      "question_id": "pg-3-5-5",
+      "original_version": 2,
+      "original_hash": "3fbe0cb09039928a",
+      "config_version": 1,
+      "config_hash": "b6b97c4e65a2d793",
+      "config_sha256": "09a77d67afce41a72e22db32faec218e07e9a0c20f2bfae643c92c59298a08c7"
+    },
+    {
+      "question_id": "mcma-3-5-7",
+      "original_version": 2,
+      "original_hash": "668ba031ecec373d",
+      "config_version": 1,
+      "config_hash": "4654ee14adf53294",
+      "config_sha256": "7729e2dbcbe762ee780c40d63f309ae0749ea17183644b592eade32d89752578"
+    },
+    {
+      "question_id": "pg-4-4-4",
+      "original_version": 2,
+      "original_hash": "8d9317bceaae416e",
+      "config_version": 1,
+      "config_hash": "586166d66320ffac",
+      "config_sha256": "107bd9896de8cb2c55873f818b0e82a04a6c6a518d9315baf588e3480e19684a"
+    },
+    {
+      "question_id": "pg-4-4-5",
+      "original_version": 2,
+      "original_hash": "e967396188447a3b",
+      "config_version": 1,
+      "config_hash": "b5918df471a9fc05",
+      "config_sha256": "df1036309ff3553964b9348578f9ca394864c62be5d953873edf8fd6e07643ac"
+    },
+    {
+      "question_id": "mcma-4-4-7",
+      "original_version": 2,
+      "original_hash": "a4171ff1d19c38b0",
+      "config_version": 1,
+      "config_hash": "02fe35e4509e67f3",
+      "config_sha256": "f63531591f7665b35bf8f344d9a8fd77971d5a279954728aa10a2d76a429ddce"
+    },
+    {
+      "question_id": "mcma-4-4-8",
+      "original_version": 2,
+      "original_hash": "7188f3c704f8002f",
+      "config_version": 1,
+      "config_hash": "ab4f99b816e3b8ea",
+      "config_sha256": "abda311210320ce7e398e7558d5d1996eb31af0f5881d2a7452f90cd706a7854"
+    },
+    {
+      "question_id": "pg-4-5-4",
+      "original_version": 2,
+      "original_hash": "c18b83a9ad84807b",
+      "config_version": 1,
+      "config_hash": "2f58c49f4970cd3b",
+      "config_sha256": "5f005b5049bb2f8da57440112a8b7ce5ca7768846a32798ef8a24490b4294ae3"
+    },
+    {
+      "question_id": "pg-4-5-5",
+      "original_version": 2,
+      "original_hash": "68f73e17370344b0",
+      "config_version": 1,
+      "config_hash": "672742a350cce658",
+      "config_sha256": "b5d368e4609ed4f22ca099708ca4941b86e97a8927dd275941dad06923dbe50e"
+    },
+    {
+      "question_id": "mcma-4-5-7",
+      "original_version": 2,
+      "original_hash": "46ea7df9ce74566a",
+      "config_version": 1,
+      "config_hash": "bd6795d057a2af6c",
+      "config_sha256": "2f787094839c31a462e5d75fb0749e916a0cff4f4a9d54f1c3040e91683d8e3f"
+    },
+    {
+      "question_id": "mcma-4-5-8",
+      "original_version": 2,
+      "original_hash": "126f2293af3d30e1",
+      "config_version": 1,
+      "config_hash": "96d460fc5f66d292",
+      "config_sha256": "818d70f2ac88a826c2521ab0eb5c1fc5f12cf84be7b6f63c25cfb9067a85e997"
+    },
+    {
+      "question_id": "kategori-4-5-9",
+      "original_version": 2,
+      "original_hash": "1c6088747f01ac9e",
+      "config_version": 1,
+      "config_hash": "fe32c6582a865c81",
+      "config_sha256": "eb0963cc65f7118a4eef4902eb6313ab9b21d780e004cb6d1dbfe9026f7df4bb"
+    },
+    {
+      "question_id": "pg-5-4-3",
+      "original_version": 2,
+      "original_hash": "a3ac776291714bcc",
+      "config_version": 1,
+      "config_hash": "c9c14db2a5dee978",
+      "config_sha256": "a0711c94f23c157367162fb225f8b24d3e89893b429d6585b2d1dee2bc823176"
+    },
+    {
+      "question_id": "kategori-5-4-10",
+      "original_version": 2,
+      "original_hash": "9c0e45de68fe4d9d",
+      "config_version": 1,
+      "config_hash": "29d066a864e76911",
+      "config_sha256": "4b3c62cecb8a32b57c67dd1737f03dcfb4b98c65a2906fb9f40828862a746ed2"
+    },
+    {
+      "question_id": "pg-5-5-3",
+      "original_version": 2,
+      "original_hash": "a6c8fdd7647929c4",
+      "config_version": 1,
+      "config_hash": "fcd9f5142491a40b",
+      "config_sha256": "4c0b4f8d39db128063a7e7d460ce3d104e09c29f3608fb6ee15a4532ecfd2cf2"
+    },
+    {
+      "question_id": "pg-5-5-4",
+      "original_version": 2,
+      "original_hash": "262b4cb60752e373",
+      "config_version": 1,
+      "config_hash": "7652aabd8dba3618",
+      "config_sha256": "0887d6989ba520f9cd5d9591fb445d8962e6bd74d0dc1334a7363765ab9e9660"
+    }
+  ]
+}

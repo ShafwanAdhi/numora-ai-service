@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-21-4-1",
+  "config_version": 1,
+  "original_hash": "cd0995b29f9a77ff",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'72' if k == 0 else ((72)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else ((75)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'83' if k == 0 else ((83)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'85' if k == 0 else ((85)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'92' if k == 0 else ((92)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'81,5' if k == 0 else ((163/2)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'82' if k == 0 else ((82)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "81.5-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "80-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "83-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Nilai ulangan matematika delapan siswa adalah sebagai berikut.\n\n{v0}, {v1}, {v2}, {v2}, {v3}, {v4}, {v4}, {v5}\n\nSeorang siswa menyatakan bahwa median data tersebut adalah {v2}. Analisis yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena {v2} merupakan nilai yang muncul dua kali.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena median data adalah {v6}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena median data adalah {v7}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Benar, karena median merupakan nilai yang paling sering muncul.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v8}. Delapan data terurut. Median=({v9}+{v10})/2={v8}, bukan klaim{v9}. Opsi B benar; frekuensi kemunculan tidak menentukan median.",
+  "shuffle": false,
+  "max_draws": 1000
+}

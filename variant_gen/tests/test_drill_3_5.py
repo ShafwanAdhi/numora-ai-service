@@ -24,8 +24,8 @@ class Drill35(unittest.TestCase):
         prior_paths=[p for p in (ROOT/'data').rglob('q0_bank.csv') if p!=default and 'indicators-3-5' not in str(p)]
         old=load_workspace_bank(default,prior_paths)
         bank=load_workspace_bank(default)
-        self.assertEqual(len(bank.ids()),820)
-        self.assertEqual(len(bank.catalog()),109)
+        self.assertEqual(set(bank.ids()), {q for p in (ROOT/'data').rglob('q0_bank.csv') for q in OriginalBank(p).ids()})
+        self.assertEqual(len(bank.catalog()),119)
         for qid in old.ids():self.assertEqual(bank.get(qid),old.get(qid))
         self.assertEqual(len(load_workspace_bank(ROOT/'data/drill-1-indicators-3-5/q0_bank.csv').ids()),90)
 

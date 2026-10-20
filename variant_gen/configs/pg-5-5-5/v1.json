@@ -1,0 +1,135 @@
+{
+  "question_id": "pg-5-5-5",
+  "config_version": 1,
+  "original_hash": "7d8d505bc2ee547b",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'64' if k == 0 else (64*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'48' if k == 0 else (48*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'88' if k == 0 else (88*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'11' if k == 0 else (11*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "11*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', dengan hasil ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (11*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' jam')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tabel berikut menyajikan data hubungan antara jam operasional mesin sablon dan jumlah kaus yang selesai diproduksi:\nWaktu Operasional (jam) | Kaus Diproduksi (lembar)\n${v2}$ | ${v3}$\n${v4}$ | ${v5}$\n${v0}$ | ${v1}$\n$x$ | ${v6}$\nTiga siswa memberikan evaluasi untuk menentukan nilai $x$ (waktu yang dibutuhkan untuk mencetak ${v6}$ lembar kaus):\nEvaluasi I: \"$x={v7} jam$, karena dari ${v1}$ ke ${v6}$ bertambah ${v3}$ lembar sehingga jam operasional bertambah ${v8} jam$ (${v0}+{v8}={v7}$).\"\nEvaluasi II: \"$x={v9} jam$, karena laju konstan produksi adalah $8 lembar/jam$ ($\\frac{{v3}}{{v2}}=\\frac{{v5}}{{v4}}=\\frac{{v1}}{{v0}}=8$), sehingga $x=\\frac{{v6}}{8}={v9} jam$.\"\nEvaluasi III: \"$x={v10} jam$, karena dihitung dari ${v6}÷7,33≈{v10}$.\"\nHasil evaluasi manakah yang pasti benar secara analisis hubungan proporsional?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II{v12}{v13}{v14}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi I dan III",
+      "correct": false
+    }
+  ],
+  "explanation": "Setiap pasangan tabel menghasilkan laju 8 per jam. Waktu target = {v11} jam. Substitusi laju tersebut memverifikasi opsi yang benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

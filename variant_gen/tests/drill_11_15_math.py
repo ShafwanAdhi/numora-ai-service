@@ -176,6 +176,22 @@ def angle_model(qid, c):
 
 def geometry_model(qid,c):
     s,options=c['stem'],c['options']; n=nums(s); v=[nums(o['text']) for o in options]
+    if qid=='mcma-15-2-8':
+        angle_a,angle_b,ab,pq=n
+        assert angle_a>0 and angle_b>0 and angle_a+angle_b<180 and ab>0 and pq>0
+        assert 'BC =' not in s
+        scale=pq/ab; angle_c=180-angle_a-angle_b
+        assert re.fullmatch(r'Panjang QR adalah [\d,]+ kali panjang BC\.',options[1]['text'])
+        assert re.fullmatch(r'Keliling segitiga PQR adalah [\d,]+ kali keliling segitiga ABC\.',options[3]['text'])
+        if 'explanation' in c:
+            explanation=c['explanation'].split('\n\n')[0]
+            ratio=re.search(r'Skala PQ/AB = ([\d,]+)/([\d,]+) = ([\d,]+)',explanation)
+            area=re.search(r'Luas ABC : PQR = ([\d.,]+) : ([\d.,]+)',explanation)
+            assert ratio and area
+            assert [number(x) for x in ratio.groups()]==[pq,ab,scale]
+            assert number(area[1])/number(area[2])==1/scale**2
+            assert nums(explanation.split('sehingga')[0])==[180,angle_a,angle_b,angle_c]
+        return [v[0][0]==angle_c,v[1][0]==scale,v[2][0]/v[2][1]==1/scale**2,v[3][0]==scale]
     suffix='-'.join(qid.split('-')[2:]); pg=qid.startswith('pg')
     if qid == 'pg-15-4-2':
         short, long, angle = map(float, n[:3])

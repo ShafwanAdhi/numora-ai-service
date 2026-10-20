@@ -178,7 +178,18 @@ def load_workspace_bank(path, additional_paths=None):
                             default.parent / "drill-1-indicators-3-5/q0_bank.csv",
                             default.parent / "drill-1-indicators-6-10/q0_bank.csv",
                             default.parent / "drill-1-indicators-11-15/q0_bank.csv",
-                            default.parent / "drill-1-indicators-20-23/q0_bank.csv") if extra.exists()]
+                            default.parent / "drill-1-indicators-16-19-levels-4-5/q0_bank.csv",
+                            default.parent / "drill-1-indicators-20-23/q0_bank.csv",
+                            default.parent / "drill-1-indicators-20-23-levels-4-5/q0_bank.csv",
+                            default.parent / "drill-1-indicators-1-5-levels-4-5-batch1/q0_bank.csv",
+                            default.parent / "drill-1-indicators-1-5-levels-4-5-batch2/q0_bank.csv",
+                            default.parent / "drill-1-indicators-1-5-levels-4-5-approved/q0_bank.csv",
+                            default.parent / "drill-1-indicators-6-10-levels-4-5-batch1/q0_bank.csv",
+                            default.parent / "drill-1-indicators-6-10-levels-4-5-batch2/q0_bank.csv",
+                            default.parent / "drill-1-indicators-6-10-levels-4-5-batch3/q0_bank.csv",
+                            default.parent / "drill-1-indicators-6-10-levels-4-5-batch4/q0_bank.csv",
+                            default.parent / "drill-1-indicators-6-10-levels-4-5-batch5/q0_bank.csv",
+                            default.parent / "drill-1-indicators-6-10-levels-4-5-batch6/q0_bank.csv") if extra.exists()]
                             if Path(path).resolve() == default else [])
     for extra in additional_paths:
         other = OriginalBank(extra)
@@ -187,4 +198,21 @@ def load_workspace_bank(path, additional_paths=None):
             raise BankError(f"duplicate question ids across banks: {sorted(duplicates)}")
         bank._rows.update(other._rows)
         bank._catalog.extend(other._catalog)
+    # Independently authored batches can contribute to the same package/level.
+    # Merge only their catalog membership; individual originals remain unchanged.
+    merged = {}
+    for group in bank._catalog:
+        identity = tuple(group.get(k) for k in
+                         ("activity", "package_id", "indicator", "source_level", "chapter"))
+        if identity not in merged:
+            merged[identity] = deepcopy(group)
+            continue
+        target = merged[identity]
+        target["question_ids"].extend(group["question_ids"])
+        positions = {qid: index for index, qid in enumerate(target["question_ids"])}
+        def source_order(qid):
+            number = bank._rows[qid].get("metadata", {}).get("source_number")
+            return (0, number, positions[qid]) if type(number) is int else (1, positions[qid], 0)
+        target["question_ids"].sort(key=source_order)
+    bank._catalog = list(merged.values())
     return bank

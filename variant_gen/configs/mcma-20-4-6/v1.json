@@ -1,0 +1,332 @@
+{
+  "question_id": "mcma-20-4-6",
+  "config_version": 1,
+  "original_hash": "e624c7c3634a02a7",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'perjalanan ke sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('sarapan pagi' if (k-1) % 6 == 4 else v0)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kunjungan perpustakaan' if (k-1) % 6 == 3 else v1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('penggunaan gawai' if (k-1) % 6 == 2 else v2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('latihan olahraga' if (k-1) % 6 == 1 else v3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kegiatan membaca' if (k-1) % 6 == 0 else v4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'anggota klub sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas IX' if (k-1) // 6 == 2 else v6)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VIII' if (k-1) // 6 == 1 else v7)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VII' if (k-1) // 6 == 0 else v8)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'pada pekan sekolah ini'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('dalam satu bulan terakhir' if (k-1) // 6 == 2 else v10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('selama tujuh hari terakhir' if (k-1) // 6 == 1 else v11)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('setiap hari' if (k-1) // 6 == 0 else v12)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Berapa menit perjalananmu ke sekolah?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa menit yang kamu gunakan untuk sarapan?' if (k-1) % 6 == 4 else v14)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa lama setiap kunjunganmu ke perpustakaan?' if (k-1) % 6 == 3 else v15)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa menit kamu menggunakan gawai setiap hari?' if (k-1) % 6 == 2 else v16)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa menit kamu berolahraga setiap hari?' if (k-1) % 6 == 1 else v17)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa menit kamu membaca setiap hari?' if (k-1) % 6 == 0 else v18)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Moda transportasi apa yang paling sering kamu gunakan?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Menu apa yang paling sering kamu pilih untuk sarapan?' if (k-1) % 6 == 4 else v20)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Jenis layanan perpustakaan apa yang paling sering kamu gunakan?' if (k-1) % 6 == 3 else v21)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Jenis aplikasi apa yang paling sering kamu gunakan?' if (k-1) % 6 == 2 else v22)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Jenis olahraga apa yang paling sering kamu lakukan?' if (k-1) % 6 == 1 else v23)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Jenis bacaan apa yang paling sering kamu baca?' if (k-1) % 6 == 0 else v24)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Berapa hari kamu memakai moda tersebut dalam tujuh hari terakhir?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa hari kamu sarapan dalam tujuh hari terakhir?' if (k-1) % 6 == 4 else v26)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa kali kamu mengunjungi perpustakaan dalam satu bulan terakhir?' if (k-1) % 6 == 3 else v27)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa kali kamu menggunakan gawai untuk belajar dalam tujuh hari terakhir?' if (k-1) % 6 == 2 else v28)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa kali kamu berolahraga dalam tujuh hari terakhir?' if (k-1) % 6 == 1 else v29)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('Berapa kali kamu membaca dalam tujuh hari terakhir?' if (k-1) % 6 == 0 else v30)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Peneliti ingin mengukur kebiasaan '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' pada '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v34": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else '. Pilih pertanyaan yang sesuai.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v35": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Mengapa orang yang jarang melakukannya pantas disebut malas?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v36": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Apakah semua siswa wajib menyukai kegiatan itu?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v37": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Alasan utama: durasi, jenis, dan frekuensi mengukur perilaku secara langsung; cap malas dan kewajiban menyukai adalah pertanyaan menghakimi atau norma'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v38": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'tif.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v39": {
+      "gen": "derived",
+      "expr": "'Seorang peneliti ingin mengetahui kebiasaan membaca siswa kelas IX. Pertanyaan yang sesuai untuk memperoleh data adalah ....' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v40": {
+      "gen": "derived",
+      "expr": "'Berapa menit rata-rata kamu membaca setiap hari?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v41": {
+      "gen": "derived",
+      "expr": "'Apa jenis bacaan yang paling sering kamu baca?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v42": {
+      "gen": "derived",
+      "expr": "'Mengapa siswa yang tidak membaca buku dianggap malas?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v43": {
+      "gen": "derived",
+      "expr": "'Berapa banyak buku yang kamu selesaikan dalam satu bulan?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v44": {
+      "gen": "derived",
+      "expr": "'Apakah kamu setuju bahwa semua siswa wajib membaca novel?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v45": {
+      "gen": "derived",
+      "expr": "'Pembahasan: Pilihan A, B, dan D mengumpulkan informasi langsung mengenai kebiasaan membaca. Pilihan C mengandung penilaian negatif, sedangkan E menany' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v46": {
+      "gen": "derived",
+      "expr": "'akan persetujuan terhadap kewajiban, bukan kebiasaan membaca.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "{v39}{v32}{v5}{v33}{v9}{v34}",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v40}{v19}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v41}{v25}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v42}{v35}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v43}{v31}",
+      "correct": true
+    },
+    {
+      "id": "E",
+      "text": "{v44}{v36}",
+      "correct": false
+    }
+  ],
+  "explanation": "{v45}{v46}{v37}{v38}",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,81 @@
+{
+  "question_id": "kategori-21-5-9",
+  "config_version": 1,
+  "original_hash": "173946ad62a8f8e6",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else ((2)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else ((3)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else ((4)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else ((8)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Data jumlah buku yang dibaca siswa adalah {v0}, {v1}, {v1}, {v2}, dan {v3} buku.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Rerata data adalah {v2} buku.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Median data adalah {v1} buku.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Modus data adalah {v2} buku.",
+      "correct": false
+    },
+    {
+      "id": "4",
+      "text": "Jangkauan data adalah 6 buku.",
+      "correct": true
+    }
+  ],
+  "explanation": "Hasil = {v4}. Rerata={v4}, median dan modus={v5}, jangkauan6. Pernyataan1,2,4 benar; modus bukan{v4}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

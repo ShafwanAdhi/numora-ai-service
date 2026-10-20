@@ -102,8 +102,8 @@ class Drill12(unittest.TestCase):
             ROOT/'data/drill-1-indicators-6-10/q0_bank.csv', ROOT/'data/drill-1-indicators-11-15/q0_bank.csv',
             ROOT/'data/drill-1-indicators-20-23/q0_bank.csv'])
         new=load_workspace_bank(default)
-        self.assertEqual(len(new.ids()),820)
-        self.assertEqual(len(new.catalog()),109)
+        self.assertEqual(set(new.ids()), {q for p in (ROOT/'data').rglob('q0_bank.csv') for q in OriginalBank(p).ids()})
+        self.assertEqual(len(new.catalog()),119)
         for q in old.ids():self.assertEqual(new.get(q),old.get(q))
         self.assertEqual(len(load_workspace_bank(BANK).ids()),60)
         with self.assertRaises(BankError):load_workspace_bank(BANK,[BANK])

@@ -1,0 +1,135 @@
+{
+  "question_id": "pg-9-5-5",
+  "config_version": 1,
+  "original_hash": "7e693d72dfc2c95b",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'36' if k == 0 else (36+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else (80+18*k+k*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'72' if k == 0 else (72+18*k+k*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'11' if k == 0 else (11+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'7' if k == 0 else (7+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'77' if k == 0 else (77+18*k+k*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "11+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "7+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "77+18*k+k*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "80+18*k+k*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Taman sekolah berbentuk persegi panjang. Siswa A menyatakan keliling taman {v0} meter, sehingga $p+l={v1}$. Siswa B menyatakan selisih panjang dan lebar 4 meter, sehingga $p-l=4$. Pengelola menyatakan luas taman {v2} meter persegi. Evaluasi yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Salah, karena luas taman yang benar adalah {v3} meter persegi.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena panjang taman {v4} meter dan lebar {v5} meter.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena panjang {v6} meter, lebar {v7} meter, dan luas {v8} meter persegi.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Benar, karena panjang taman {v9} meter dan lebar {v10} meter.",
+      "correct": false
+    }
+  ],
+  "explanation": "Panjang {v11}, lebar {v12}, luas {v13} meter persegi. Klaim {v14} salah. C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

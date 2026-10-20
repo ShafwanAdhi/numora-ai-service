@@ -1,0 +1,94 @@
+[
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 6,
+    "source_level": 4,
+    "question_ids": [
+      "pg-6-4-5",
+      "mcma-6-4-7"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 7,
+    "source_level": 4,
+    "question_ids": [
+      "pg-7-4-1",
+      "pg-7-4-5",
+      "mcma-7-4-7",
+      "mcma-7-4-8"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 7,
+    "source_level": 5,
+    "question_ids": [
+      "pg-7-5-1",
+      "pg-7-5-4"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 8,
+    "source_level": 4,
+    "question_ids": [
+      "pg-8-4-2",
+      "pg-8-4-3"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 8,
+    "source_level": 5,
+    "question_ids": [
+      "pg-8-5-1",
+      "mcma-8-5-7"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 9,
+    "source_level": 4,
+    "question_ids": [
+      "pg-9-4-5",
+      "mcma-9-4-6",
+      "mcma-9-4-7"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 9,
+    "source_level": 5,
+    "question_ids": [
+      "kategori-9-5-9"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 10,
+    "source_level": 4,
+    "question_ids": [
+      "pg-10-4-5",
+      "mcma-10-4-8"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 10,
+    "source_level": 5,
+    "question_ids": [
+      "pg-10-5-3",
+      "mcma-10-5-8"
+    ]
+  }
+]

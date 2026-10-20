@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-7-4-2",
+  "config_version": 1,
+  "original_hash": "55b203ea0cf1873f",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'80.000,00' if k == 0 else (80000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'140.000,00' if k == 0 else (140000+5000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else (14+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "140000+5000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "60000+5000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "12+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kelompok siswa SMP melakukan penggalangan dana untuk korban bencana. Kelompok A mengumpulkan uang awal Rp{v0} dan berhasil menambah rata-rata Rp15.000,00 setiap hari. Kelompok B mengumpulkan uang awal Rp{v1} dan menambah rata-rata Rp10.000,00 setiap hari. Banyak hari yang dibutuhkan agar jumlah dana yang dikumpulkan kedua kelompok menjadi sama adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} hari",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} hari",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v4} hari",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5} hari",
+      "correct": false
+    }
+  ],
+  "explanation": "Persamaan dana: 80000 + 15000d = {v6} + 10000d. Maka 5000d = {v7}, sehingga d = {v8} hari. B benar; nilai lain tidak menyamakan dana.",
+  "shuffle": false,
+  "max_draws": 1000
+}

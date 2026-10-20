@@ -1,0 +1,103 @@
+{
+  "question_id": "pg-9-5-3",
+  "config_version": 1,
+  "original_hash": "d2c5a262922c6bbd",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+12*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (3+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', x saat y=0 pada sistem I)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3+3*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang guru menyajikan dua sistem persamaan linear dua variabel untuk dievaluasi jenis solusinya:\nSistem I: $2x-3y={v0}$ dan $4x-6y={v1}$\nSistem II: $x+2y={v2}$ dan $x+2y={v3}$\nEvaluasi yang tepat mengenai grafik dan solusi dari kedua sistem persamaan di atas adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sistem I tidak memiliki solusi (sejajar), sedangkan Sistem II memiliki tak hingga solusi (berimpit)",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Sistem I memiliki solusi tunggal, sedangkan Sistem II tidak memiliki solusi",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kedua sistem sama-sama memiliki tak hingga banyaknya solusi",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Sistem I memiliki tak hingga solusi (garis berimpit), sedangkan Sistem II tidak memiliki solusi (garis sejajar){v4}{v5}{v6}",
+      "correct": true
+    }
+  ],
+  "explanation": "Sistem I berimpit karena persamaan kedua dua kali persamaan pertama. Pada y nol, x = {v7}. Sistem II sejajar, selisih konstanta {v8}. Hanya D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

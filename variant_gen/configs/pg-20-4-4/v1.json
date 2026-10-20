@@ -1,0 +1,249 @@
+{
+  "question_id": "pg-20-4-4",
+  "config_version": 1,
+  "original_hash": "090e19b4635e3d00",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'perjalanan ke sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('sarapan pagi' if (k-1) % 6 == 4 else v0)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kunjungan perpustakaan' if (k-1) % 6 == 3 else v1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('penggunaan gawai' if (k-1) % 6 == 2 else v2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('latihan olahraga' if (k-1) % 6 == 1 else v3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kegiatan membaca' if (k-1) % 6 == 0 else v4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'anggota klub sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas IX' if (k-1) // 6 == 2 else v6)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VIII' if (k-1) // 6 == 1 else v7)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VII' if (k-1) // 6 == 0 else v8)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'pada pekan sekolah ini'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('dalam satu bulan terakhir' if (k-1) // 6 == 2 else v10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('selama tujuh hari terakhir' if (k-1) // 6 == 1 else v11)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('setiap hari' if (k-1) // 6 == 0 else v12)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'pasti berprestasi'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('selalu disiplin' if (k-1) // 6 == 2 else v14)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('lebih cerdas' if (k-1) // 6 == 1 else v15)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('lebih sehat' if (k-1) // 6 == 0 else v16)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Survei tentang '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' menanyakan, “Tidakkah kamu setuju bahwa kegiatan ini sangat bermanfaat dan membuat semua peserta '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else '?” Kelemahan utamanya adalah ....'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Nama sekolah tidak ditulis.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Kalimat mengarahkan jawaban sekaligus menggabungkan dua klaim.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Jawaban tidak harus berupa angka.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Kalimatnya terlalu singkat.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Alasan utama: ungkapan “tidakkah setuju” bersifat mengarahkan, sedangkan manfaat dan akibat bagi semua peserta merupakan dua klaim.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "'Seorang peneliti ingin mengetahui apakah siswa merasa terbantu dengan penggunaan video pembelajaran. Ia mengajukan pertanyaan berikut.\\n\\n“Apakah kamu s' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "'etuju bahwa video pembelajaran sangat bermanfaat dan membuat semua siswa lebih pintar?”\\n\\nKelemahan utama pertanyaan tersebut adalah ....' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "'Tidak menyebutkan nama sekolah responden.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "'Menggunakan kalimat yang mengarahkan jawaban dan memuat dua klaim sekaligus.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "'Tidak menyediakan pilihan jawaban berupa angka.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "'Menggunakan kalimat yang terlalu singkat.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "'Pembahasan: Pertanyaan tersebut menggiring responden untuk menyetujui pernyataan positif dan menggabungkan manfaat video dengan peningkatan kemampuan ' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "'siswa.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "{v26}{v27}{v18}{v5}{v19}{v17}{v20}",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v28}{v21}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v29}{v22}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v30}{v23}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v31}{v24}",
+      "correct": false
+    }
+  ],
+  "explanation": "{v32}{v33}{v25}",
+  "shuffle": false,
+  "max_draws": 1000
+}

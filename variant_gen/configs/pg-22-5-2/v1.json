@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-22-5-2",
+  "config_version": 1,
+  "original_hash": "49a0112f5a97d0af",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'110' if k == 0 else ((110)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'120' if k == 0 else ((120)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'130' if k == 0 else ((130)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'140' if k == 0 else ((140)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'160' if k == 0 else ((160)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (120+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' ribu rupiah, rerata kedua kelompok)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "120+10*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Data pendapatan harian dua kelompok pekerja dalam ribuan rupiah adalah sebagai berikut.\n\nKelompok A: {v0}, {v1}, {v2}, {v3}, {v4}\n\nKelompok B: {v5}, {v0}, {v2}, {v4}, {v6}\n\nKesimpulan yang paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelompok A dan B memiliki rerata sama, tetapi kelompok B memiliki jangkauan lebih besar.{v7}{v8}{v9}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kelompok A memiliki rerata lebih besar daripada kelompok B.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kelompok B memiliki median lebih tinggi daripada kelompok A.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kelompok A dan B memiliki jangkauan sama.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v10}. Rerata dan median kedua kelompok={v10}. Jangkauan A40,B80. Hanya A benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

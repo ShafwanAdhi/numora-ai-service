@@ -1,0 +1,1419 @@
+{
+  "pg-1-4-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1217,
+      "paragraph_end": 1272,
+      "body_block_start": 1131,
+      "body_block_end_exclusive": 1187
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q1:O1:original",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: B. Analisis II\n\n\n\nEmpat lokasi stasiun pengisian daya sepeda listrik di sepanjang jalan lurus di sekitar sekolah diukur posisinya (dalam km) terhadap gerbang utama sekolah (titik 0 km):\n\n\n\nStasiun A: $-1,85 km$\n\n\n\nStasiun B: $-\\sqrt{3 }km$\n\n\n\nStasiun C: $-\\frac{7}{4} km$\n\n\n\nStasiun D: $-1,70 km$\n\n\n\nEmpat orang siswa menganalisis urutan posisi stasiun dari yang paling jauh di sebelah kiri (paling kecil) ke yang paling dekat dengan gerbang utama (paling besar):\n\n\n\nAnalisis I: Stasiun A, Stasiun C, Stasiun B, Stasiun D\n\n\n\nAnalisis II: Stasiun A, Stasiun C, Stasiun B, Stasiun D\n\n\n\nAnalisis III: Stasiun A, Stasiun B, Stasiun C, Stasiun D\n\n\n\nAnalisis IV: Stasiun D, Stasiun B, Stasiun C, Stasiun A\n\n\n\nManakah hasil analisis urutan posisi yang pasti benar?\n\n\n\nA. Analisis I\n\n\n\nB. Analisis I (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)\n\n\n\nC. Analisis III\n\n\n\nD. Analisis IV\n\n\n\nPembahasan:\n\n\n\n\nKonversikan seluruh nilai posisi ke desimal pendekatan:\n\n\nStasiun A: $-1,85km$\n\n\n\nStasiun B: $-\\sqrt{3}≈-1,732km$\n\n\n\nStasiun C: $-\\frac{7}{4}=-1,75km$\n\n\n\nStasiun D: $-1,70km$\n\n\n\nBandingkan bilangan desimal negatif pada garis bilangan (makin besar angka negatifnya, nilainya makin kecil/makin ke kiri):\n\n\n\n$-1,85<-1,75<-1,732<-1,70$\n\n\n\n$Stasiun A→Stasiun C→Stasiun B→Stasiun D$\n\nMaka, Analisis I / II (dengan urutan Stasiun A, Stasiun C, Stasiun B, Stasiun D) adalah yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira $-\\sqrt{3}≈-1,5$ sehingga menempatkan Stasiun B paling dekat dengan nol, atau salah membandingkan $-1,85$ dengan $-1,75$ karena lupa aturan bilangan negatif.\n\n",
+    "original_explanation": "Pembahasan:\nKonversikan seluruh nilai posisi ke desimal pendekatan:\nStasiun A: $-1,85km$\nStasiun B: $-\\sqrt{3}≈-1,732km$\nStasiun C: $-\\frac{7}{4}=-1,75km$\nStasiun D: $-1,70km$\nBandingkan bilangan desimal negatif pada garis bilangan (makin besar angka negatifnya, nilainya makin kecil/makin ke kiri):\n$-1,85<-1,75<-1,732<-1,70$\n$Stasiun A→Stasiun C→Stasiun B→Stasiun D$\nMaka, Analisis I / II (dengan urutan Stasiun A, Stasiun C, Stasiun B, Stasiun D) adalah yang tepat.",
+    "source_original_explanation": "Pembahasan:\nKonversikan seluruh nilai posisi ke desimal pendekatan:\nStasiun A: $-1,85km$\nStasiun B: $-\\sqrt{3}≈-1,732km$\nStasiun C: $-\\frac{7}{4}=-1,75km$\nStasiun D: $-1,70km$\nBandingkan bilangan desimal negatif pada garis bilangan (makin besar angka negatifnya, nilainya makin kecil/makin ke kiri):\n$-1,85<-1,75<-1,732<-1,70$\n$Stasiun A→Stasiun C→Stasiun B→Stasiun D$\nMaka, Analisis I / II (dengan urutan Stasiun A, Stasiun C, Stasiun B, Stasiun D) adalah yang tepat.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Analisis II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-\\sqrt{3}≈-1,5$ sehingga menempatkan Stasiun B paling dekat dengan nol, atau salah membandingkan $-1,85$ dengan $-1,75$ karena lupa aturan bilangan negatif.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Membedakan Analisis I dan II serta menyelaraskan opsi B dengan label kunci sumber."
+    ],
+    "reviewed_proposal_explanation_sha256": "4a972a277a6368bbb5359ec91de713317f7c04e5014a6c711ec8d94faa0ea6ce",
+    "approved_key_caption": "B. Analisis II (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-\\sqrt{3}≈-1,5$ sehingga menempatkan Stasiun B paling dekat dengan nol, atau salah membandingkan $-1,85$ dengan $-1,75$ karena lupa aturan bilangan negatif.\nKoreksi disetujui pengguna (belum dipublikasikan): Membedakan Analisis I dan II serta menyelaraskan opsi B dengan label kunci sumber.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-1-5-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1663,
+      "paragraph_end": 1733,
+      "body_block_start": 1549,
+      "body_block_end_exclusive": 1620
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q2:O1:original",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi III\n\n\n\nSeorang siswa mengevaluasi dua klaim mengenai keanggotaan jenis bilangan real dari dua nilai pengukuran laboratorium:\n\n\n\n$a=\\sqrt{32}-2\\sqrt{2}$\n\n\n\n$b=0,454545...$ (desimal berulang)\n\n\n\nDua orang tim penilai memberikan evaluasi sebagai berikut:\n\n\n\nEvaluasi I: \"Nilai $a$ adalah bilangan irasional karena mengandung bentuk akar, dan $b$ adalah bilangan irasional karena desimalnya tak berakhir.\"\n\nEvaluasi II: \"Nilai $a$ dan $b$ keduanya adalah bilangan irasional.\"\n\n\n\nEvaluasi III: \"Nilai $a$ dan $b$ keduanya adalah bilangan rasional, karena $a=2\\sqrt{2}$ yang dihitung dari $4\\sqrt{2}-2\\sqrt{2}=2\\sqrt{2}$ (eh wait, $2\\sqrt{2}$ irasional). Mari cek evaluasi yang tepat.\"\n\n\n\nRekonstruksi nilai agar tepat:\n\n\n\nMisalkan $a=\\sqrt{18}-\\sqrt{2}=3\\sqrt{2}-\\sqrt{2}=2\\sqrt{2}$ (Irasional)\n\n\n\nMisalkan $a=\\sqrt{128}-2\\sqrt{32}=8\\sqrt{2}-8\\sqrt{2}=0$ (Rasional)\n\n\n\nMari buat $a=\\sqrt{50}-\\sqrt{18}=5\\sqrt{2}-3\\sqrt{2}=2\\sqrt{2}$ (Irasional).\n\n\n\nBila $a=\\sqrt{32}-\\sqrt{18}=4\\sqrt{2}-3\\sqrt{2}=\\sqrt{2}$ (Irasional).\n\n\n\nBila $a=\\sqrt{72}-3\\sqrt{8}=6\\sqrt{2}-6\\sqrt{2}=0$ (Rasional).\n\n\n\nDiberikan:\n\n\n\n$a=\\sqrt{48}-4\\sqrt{3}=4\\sqrt{3}-4\\sqrt{3}=0$\n\n\n\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\n\n\n\nPernyataan Evaluasi:\n\n\n\nEvaluasi I: \"$a$ irasional dan $b$ rasional.\"\n\n\n\nEvaluasi II: \"$a$ rasional dan $b$ irasional.\"\n\n\n\nEvaluasi III: \"Keduanya ($a$ dan $b$) adalah bilangan rasional.\"\n\n\n\nEvaluasi IV: \"Keduanya ($a$ dan $b$) adalah bilangan irasional.\"\n\n\n\nManakah evaluasi yang benar?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi IV\n\n\n\nPembahasan:\n\n\n\nMengevaluasi $a$:\n\n\n\n$a=\\sqrt{48}-4\\sqrt{3}=\\sqrt{16×3}-4\\sqrt{3}=4\\sqrt{3}-4\\sqrt{3}=0$\n\nAngka $0$ dapat dituliskan dalam bentuk pecahan $\\frac{0}{1}$, sehingga $a$ tergolong bilangan rasional (bulat).\n\n\n\nMengevaluasi $b$:\n\n\n\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\n\nKarena dapat dinyatakan dalam bentuk pecahan $\\frac{m}{n}$ dengan $m,n∈Z,n≠0$, maka $b$ tergolong bilangan rasional. Maka, Evaluasi III (keduanya bilangan rasional) adalah yang paling tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa tidak menyederhanakan $\\sqrt{48}-4\\sqrt{3}=0$ dan langsung menganggap keberadaan tanda akar membuat $a$ pasti irasional, atau mengira desimal berulang $0,4545...$ sebagai irasional.\n\n",
+    "original_explanation": "Pembahasan:\nMengevaluasi $a$:\n$a=\\sqrt{48}-4\\sqrt{3}=\\sqrt{16×3}-4\\sqrt{3}=4\\sqrt{3}-4\\sqrt{3}=0$\nAngka $0$ dapat dituliskan dalam bentuk pecahan $\\frac{0}{1}$, sehingga $a$ tergolong bilangan rasional (bulat).\nMengevaluasi $b$:\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nKarena dapat dinyatakan dalam bentuk pecahan $\\frac{m}{n}$ dengan $m,n∈Z,n≠0$, maka $b$ tergolong bilangan rasional. Maka, Evaluasi III (keduanya bilangan rasional) adalah yang paling tepat.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi $a$:\n$a=\\sqrt{48}-4\\sqrt{3}=\\sqrt{16×3}-4\\sqrt{3}=4\\sqrt{3}-4\\sqrt{3}=0$\nAngka $0$ dapat dituliskan dalam bentuk pecahan $\\frac{0}{1}$, sehingga $a$ tergolong bilangan rasional (bulat).\nMengevaluasi $b$:\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nKarena dapat dinyatakan dalam bentuk pecahan $\\frac{m}{n}$ dengan $m,n∈Z,n≠0$, maka $b$ tergolong bilangan rasional. Maka, Evaluasi III (keduanya bilangan rasional) adalah yang paling tepat.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi III",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak menyederhanakan $\\sqrt{48}-4\\sqrt{3}=0$ dan langsung menganggap keberadaan tanda akar membuat $a$ pasti irasional, atau mengira desimal berulang $0,4545...$ sebagai irasional.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Memilih blok akhir yang mendukung kunci C dan menghapus rancangan serta label berulang."
+    ],
+    "reviewed_proposal_explanation_sha256": "22df11d9090a11c6ea9384d660d153ef8762692743f453a11e4312a99abf71e3",
+    "approved_key_caption": "C. Evaluasi III",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak menyederhanakan $\\sqrt{48}-4\\sqrt{3}=0$ dan langsung menganggap keberadaan tanda akar membuat $a$ pasti irasional, atau mengira desimal berulang $0,4545...$ sebagai irasional.\nKoreksi disetujui pengguna (belum dipublikasikan): Memilih blok akhir yang mendukung kunci C dan menghapus rancangan serta label berulang.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-1-5-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1809,
+      "paragraph_end": 1858,
+      "body_block_start": 1695,
+      "body_block_end_exclusive": 1745
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi B\n\n\n\nTiga buah posisi kedalaman lubang biopori taman sekolah dicatat sebagai berikut:\n\n\n\nLubang A: $-0,85 m$\n\n\n\nLubang B: $-\\frac{4}{5} m$\n\n\n\nLubang C: $-\\sqrt{0,64} m$\n\n\n\nSeorang siswa menyusun evaluasi perbandingan kedudukan ketiga lubang tersebut:\n\n\n\nEvaluasi A: Lubang B dan Lubang C berada pada kedalaman yang persis sama.\n\n\n\nEvaluasi B: Lubang C ($-\\sqrt{0,64}=-0,80 m$) dan Lubang B ($-\\frac{4}{5}=-0,80 m$) berada pada kedalaman yang persis sama, dan keduanya lebih dangkal daripada Lubang A ($-0,85 m$).\n\n\n\nEvaluasi C: Lubang A adalah lubang yang paling dangkal di antara ketiganya.\n\n\n\nEvaluasi D: Lubang C adalah lubang yang paling dalam di antara ketiganya.\n\n\n\nEvaluasi manakah yang pasti benar?\n\n\n\nA. Evaluasi A\n\n\n\nB. Evaluasi B\n\n\n\nC. Evaluasi C\n\n\n\nD. Evaluasi D\n\n\n\nPembahasan:\n\n\nKonversikan semua nilai ke desimal:\n\n\nLubang A: $-0,85 m$\n\n\n\nLubang B: $-\\frac{4}{5}=-0,80 m$\n\n\n\nLubang C: $-\\sqrt{0,64}=-0,80 m$ (karena $0,{8}^{2}=0,64$)\n\n\n\nMengevaluasi kedudukan:\n\n\n\nLubang B dan C nilainya persis sama ($-0,80 m$).\n\n\n\nBandingkan dengan Lubang A: $-0,85<-0,80$, artinya $-0,85 m$ nilainya lebih kecil (lebih dalam) daripada $-0,80 m$ (lebih dangkal). Maka, Evaluasi B adalah evaluasi yang paling lengkap dan benar secara matematis.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira $-0,85$ lebih besar nilainya (lebih dangkal) dari $-0,80$ karena angka $0,85>0,80$, tanpa memperhatikan tanda negatif.\n\n",
+    "original_explanation": "Pembahasan:\nKonversikan semua nilai ke desimal:\nLubang A: $-0,85 m$\nLubang B: $-\\frac{4}{5}=-0,80 m$\nLubang C: $-\\sqrt{0,64}=-0,80 m$ (karena $0,{8}^{2}=0,64$)\nMengevaluasi kedudukan:\nLubang B dan C nilainya persis sama ($-0,80 m$).\nBandingkan dengan Lubang A: $-0,85<-0,80$, artinya $-0,85 m$ nilainya lebih kecil (lebih dalam) daripada $-0,80 m$ (lebih dangkal). Maka, Evaluasi B adalah evaluasi yang paling lengkap dan benar secara matematis.",
+    "source_original_explanation": "Pembahasan:\nKonversikan semua nilai ke desimal:\nLubang A: $-0,85 m$\nLubang B: $-\\frac{4}{5}=-0,80 m$\nLubang C: $-\\sqrt{0,64}=-0,80 m$ (karena $0,{8}^{2}=0,64$)\nMengevaluasi kedudukan:\nLubang B dan C nilainya persis sama ($-0,80 m$).\nBandingkan dengan Lubang A: $-0,85<-0,80$, artinya $-0,85 m$ nilainya lebih kecil (lebih dalam) daripada $-0,80 m$ (lebih dangkal). Maka, Evaluasi B adalah evaluasi yang paling lengkap dan benar secara matematis.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-0,85$ lebih besar nilainya (lebih dangkal) dari $-0,80$ karena angka $0,85>0,80$, tanpa memperhatikan tanda negatif.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Mengubah opsi A menjadi salah agar Evaluasi B menjadi satu-satunya jawaban PG."
+    ],
+    "reviewed_proposal_explanation_sha256": "15c5e9c5631bb4fa3d9e1c2666e92dd367e7a5be63e6c4621d3b7bab1c20fbf9",
+    "approved_key_caption": "B. Evaluasi B",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-0,85$ lebih besar nilainya (lebih dangkal) dari $-0,80$ karena angka $0,85>0,80$, tanpa memperhatikan tanda negatif.\nKoreksi disetujui pengguna (belum dipublikasikan): Mengubah opsi A menjadi salah agar Evaluasi B menjadi satu-satunya jawaban PG.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "mcma-1-5-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1891,
+      "paragraph_end": 1924,
+      "body_block_start": 1777,
+      "body_block_end_exclusive": 1811
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nSeorang pengurus kas kelas mengevaluasi keabsahan dua bentuk penulisan transaksi keuangan:\n\n\n\nMetode X: $(400.000-100.000)-30.000=300.000-30.000=270.000$\n\n\n\nMetode Y: $400.000-(100.000+30.000)=400.000-130.000=270.000$\n\n\n\nManakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00.\n\n\n\n[ ] B. Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$.\n\n\n\n[ ] C. Jika Metode Y diubah menjadi $400.000-(100.000-30.000)$, hasilnya akan tetap sama yaitu Rp270.000,00.\n\n\n\n[ ] D. Menggabungkan dua pengeluaran di dalam tanda kurung seperti pada Metode Y mempermudah rekapitulasi total alokasi pengeluaran.\n\n\n\nPembahasan:\n\n\n\nA (Benar): Kedua metode menghasilkan sisa kas Rp270.000,00.\n\n\n\nB (Benar): $-(100.000+30.000)=-100.000-30.000$.\n\n\n\nC (Salah): $400.000-(100.000-30.000)=400.000-70.000=330.000≠270.000$.\n\n\n\nD (Benar): Menjumlahkan pengeluaran terlebih dahulu memudahkan audit kas.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira tanda penjumlahan di dalam kurung pada Metode Y berarti menambah saldo kas, padahal tanda minus di depan kurung menguranginya.\n\n",
+    "original_explanation": "Pembahasan:\nA (Benar): Kedua metode menghasilkan sisa kas Rp270.000,00.\nB (Benar): $-(100.000+30.000)=-100.000-30.000$.\nC (Salah): $400.000-(100.000-30.000)=400.000-70.000=330.000≠270.000$.\nD (Benar): Menjumlahkan pengeluaran terlebih dahulu memudahkan audit kas.",
+    "source_original_explanation": "Pembahasan:\nA (Benar): Kedua metode menghasilkan sisa kas Rp270.000,00.\nB (Benar): $-(100.000+30.000)=-100.000-30.000$.\nC (Salah): $400.000-(100.000-30.000)=400.000-70.000=330.000≠270.000$.\nD (Benar): Menjumlahkan pengeluaran terlebih dahulu memudahkan audit kas.",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda penjumlahan di dalam kurung pada Metode Y berarti menambah saldo kas, padahal tanda minus di depan kurung menguranginya.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Mengganti penilaian subjektif kemudahan dengan klaim aritmetika terukur."
+    ],
+    "reviewed_proposal_explanation_sha256": "178b65034cdee77f63923007495a7f91a0de3a8d5202ad62133e007884db0209",
+    "approved_key_caption": "A, B, D. Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00. | Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$. | Total alokasi dua pengeluaran pada Metode Y adalah Rp130.000,00, sehingga sisa kasnya Rp270.000,00.",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda penjumlahan di dalam kurung pada Metode Y berarti menambah saldo kas, padahal tanda minus di depan kurung menguranginya.\nKoreksi disetujui pengguna (belum dipublikasikan): Mengganti penilaian subjektif kemudahan dengan klaim aritmetika terukur.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-2-4-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3223,
+      "paragraph_end": 3271,
+      "body_block_start": 3015,
+      "body_block_end_exclusive": 3064
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q1:O1:original",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: B. Analisis II\n\n\n\nSeorang pengurus OSIS menghitung sisa dana kas kegiatan pentas seni sekolah setelah beberapa kali transaksi:\n\n\n\nSaldo awal kas: Rp1.200.000,00\n\n\n\nPembelian 15 pak kertas dekorasi seharga Rp18.000,00 per pak\n\n\n\nPenerimaan dana bantuan dari sekolah sebesar Rp500.000,00\n\n\n\nPembayaran sewa alat musik sebesar Rp350.000,00\n\n\n\nDua orang siswa menganalisis penulisan model matematika untuk menghitung sisa saldo kas:\n\n\n\nAnalisis I: $1.200.000-15×18.000+500.000-350.000=1.080.000$\n\n\n\nAnalisis II: $1.200.000-(15×18.000)+500.000-350.000=1.080.000$\n\n\n\nAnalisis III: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$\n\n\n\nAnalisis IV: $1.200.000-15×(18.000+500.000)-350.000=-6.920.000$\n\n\n\nBerdasarkan aturan urutan operasi hitung (KABATAKU/PEMDAS), analisis manakah yang memberikan penulisan prioritas operasi yang paling tepat dan logis?\n\n\n\nA. Analisis I\n\n\n\nB. Analisis II\n\n\n\nC. Analisis III\n\n\n\nD. Analisis IV\n\n\n\nPembahasan:\n\n\nMenganalisis operasi perkalian biaya kertas dekorasi yang harus dihitung terlebih dahulu sesuai aturan KABATAKU:\n\n\n\n$Biaya Kertas=15×18.000=270.000$\n\nMenyusun operasi campuran secara berurutan:\n\n\n\n$Saldo Akhir=1.200.000-(15×18.000)+500.000-350.000$\n\n\n\n$Saldo Akhir=1.200.000-270.000+500.000-350.000=1.080.000$\n\nPenggunaan tanda kurung pada Analisis II menegaskan prioritas perkalian $(15×18.000)$ sebelum melakukan penjumlahan dan pengurangan dari kiri ke kanan.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengabaikan hirarki KABATAKU dengan melakukan pengurangan dari kiri ke kanan tanpa mengalikan 15 dengan 18.000 terlebih dahulu, seperti pada Analisis III.\n\n",
+    "original_explanation": "Pembahasan:\nMenganalisis operasi perkalian biaya kertas dekorasi yang harus dihitung terlebih dahulu sesuai aturan KABATAKU:\n$Biaya Kertas=15×18.000=270.000$\nMenyusun operasi campuran secara berurutan:\n$Saldo Akhir=1.200.000-(15×18.000)+500.000-350.000$\n$Saldo Akhir=1.200.000-270.000+500.000-350.000=1.080.000$\nPenggunaan tanda kurung pada Analisis II menegaskan prioritas perkalian $(15×18.000)$ sebelum melakukan penjumlahan dan pengurangan dari kiri ke kanan.",
+    "source_original_explanation": "Pembahasan:\nMenganalisis operasi perkalian biaya kertas dekorasi yang harus dihitung terlebih dahulu sesuai aturan KABATAKU:\n$Biaya Kertas=15×18.000=270.000$\nMenyusun operasi campuran secara berurutan:\n$Saldo Akhir=1.200.000-(15×18.000)+500.000-350.000$\n$Saldo Akhir=1.200.000-270.000+500.000-350.000=1.080.000$\nPenggunaan tanda kurung pada Analisis II menegaskan prioritas perkalian $(15×18.000)$ sebelum melakukan penjumlahan dan pengurangan dari kiri ke kanan.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Analisis II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan hirarki KABATAKU dengan melakukan pengurangan dari kiri ke kanan tanpa mengalikan 15 dengan 18.000 terlebih dahulu, seperti pada Analisis III.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Menghilangkan duplikasi model benar sehingga hanya Analisis II sesuai kunci B."
+    ],
+    "reviewed_proposal_explanation_sha256": "8f38b4d0ec4dc16a20a45b7ac8121287e65d219f7c66f522226319c50273a959",
+    "approved_key_caption": "B. Analisis II",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan hirarki KABATAKU dengan melakukan pengurangan dari kiri ke kanan tanpa mengalikan 15 dengan 18.000 terlebih dahulu, seperti pada Analisis III.\nKoreksi disetujui pengguna (belum dipublikasikan): Menghilangkan duplikasi model benar sehingga hanya Analisis II sesuai kunci B.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-2-4-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3272,
+      "paragraph_end": 3305,
+      "body_block_start": 3064,
+      "body_block_end_exclusive": 3098
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q2:O1:original",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: C. $6\\sqrt{3}cm$\n\n\n\nSeorang siswa menganalisis penyederhanaan panjang total kerangka besi siku untuk penopang rak laboratorium. Panjang total kerangka dinyatakan dalam bentuk operasi bentuk akar berikut:\n\n\n\n$Panjang Kerangka=\\sqrt{75}+\\sqrt{108}-\\sqrt{27}(dalam cm)$\n\nBentuk sederhana dari panjang total kerangka besi siku tersebut adalah ....\n\n\n\nA. $5\\sqrt{3}cm$\n\n\n\nB. $8\\sqrt{3}cm$\n\n\n\nC. $6\\sqrt{3}cm$\n\n\n\nD. $12\\sqrt{3}cm$\n\n\n\nPembahasan:\n\n\nUraikan setiap bentuk akar ke dalam faktor yang memuat bilangan kuadrat sempurna:\n\n\n\n$\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$\n\n\n\n$\\sqrt{108}=\\sqrt{36×3}=6\\sqrt{3}$\n\n\n\n$\\sqrt{27}=\\sqrt{9×3}=3\\sqrt{3}$\n\n\n\nOperasikan suku-suku sejenis:\n\n\n\n$Panjang Total=5\\sqrt{3}+6\\sqrt{3}-3\\sqrt{3}=(5+6-3)\\sqrt{3}=6\\sqrt{3}cm$\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa keliru menjumlahkan dan mengurangkan angka di dalam akar secara langsung ($\\sqrt{75+108-27}=\\sqrt{156}$), yang merupakan kesalahan manipulasi bentuk akar.\n\n",
+    "original_explanation": "Pembahasan:\n$\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$\n$\\sqrt{108}=\\sqrt{36×3}=6\\sqrt{3}$\n$\\sqrt{27}=\\sqrt{9×3}=3\\sqrt{3}$\n$5\\sqrt{3}+6\\sqrt{3}-3\\sqrt{3}=8\\sqrt{3}$, jadi bentuk sederhananya adalah $8\\sqrt{3}$ cm.",
+    "source_original_explanation": "Pembahasan:\nUraikan setiap bentuk akar ke dalam faktor yang memuat bilangan kuadrat sempurna:\n$\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$\n$\\sqrt{108}=\\sqrt{36×3}=6\\sqrt{3}$\n$\\sqrt{27}=\\sqrt{9×3}=3\\sqrt{3}$\nOperasikan suku-suku sejenis:\n$Panjang Total=5\\sqrt{3}+6\\sqrt{3}-3\\sqrt{3}=(5+6-3)\\sqrt{3}=6\\sqrt{3}cm$",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. $6\\sqrt{3}cm$",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menjumlahkan dan mengurangkan angka di dalam akar secara langsung ($\\sqrt{75+108-27}=\\sqrt{156}$), yang merupakan kesalahan manipulasi bentuk akar.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Memperbaiki 5+6-3 menjadi 8 dan memindahkan kunci dari C ke B."
+    ],
+    "reviewed_proposal_explanation_sha256": "5d9d00879ca56fe16ddf974b9f346e7ead3db704965dbb16ade79642d1bad4b1",
+    "approved_key_caption": "B. $8\\sqrt{3}cm$",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menjumlahkan dan mengurangkan angka di dalam akar secara langsung ($\\sqrt{75+108-27}=\\sqrt{156}$), yang merupakan kesalahan manipulasi bentuk akar.\nKoreksi disetujui pengguna (belum dipublikasikan): Memperbaiki 5+6-3 menjadi 8 dan memindahkan kunci dari C ke B.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-2-4-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3306,
+      "paragraph_end": 3336,
+      "body_block_start": 3098,
+      "body_block_end_exclusive": 3129
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: B. ${2}^{8}$ watt\n\n\n\nDalam eksperimen kelistrikan di laboratorium sekolah, daya listrik suatu rangkaian dianalisis menggunakan sifat-sifat operasi eksponen (bilangan berpangkat):\n\n\n\n$Daya Listrik=\\frac{({2}^{3}{)}^{4}×{2}^{-2}}{{2}^{2}}(dalam watt)$\n\nBentuk sederhana dari ekspresi daya listrik tersebut adalah ....\n\n\n\nA. ${2}^{6} watt$\n\n\n\nB. ${2}^{8} watt$\n\n\n\nC. ${2}^{10} watt$\n\n\n\nD. ${2}^{12} watt$\n\n\n\nPembahasan:\n\n\n\nGunakan sifat-sifat eksponen:\n\n\nSifat pangkat dari pangkat: $({a}^{m}{)}^{n}×{a}^{m-n}$ ⇒ $({2}^{3}{)}^{4}$ = ${2}^{12}$.\n\n\n\nSifat perkalian eksponen:${ a}^{m}×{ a}^{n}= {a}^{m+n} ⇒ {2}^{12}×{2}^{-2}={2}^{12+(-2)}={2}^{10}$.\n\n\n\nSifat pembagian eksponen: $\\frac{{a}^{m}}{{a}^{n}}={a}^{m-n} ⇒\\frac{{2}^{10}}{{2}^{2}}={2}^{10-2}={2}^{8} watt$\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa salah menerapkan sifat perpangkatan, misalnya mengalikan pangkat saat penjumlahan basis ($({2}^{3}{)}^{4}={2}^{7}$) atau mengabaikan tanda negatif pada ${2}^{-2}$.\n\n",
+    "original_explanation": "Pembahasan:\nGunakan sifat-sifat eksponen:\nSifat pangkat dari pangkat: $({a}^{m}{)}^{n}={a}^{m×n}$ ⇒ $({2}^{3}{)}^{4}$ = ${2}^{12}$.\nSifat perkalian eksponen:${ a}^{m}×{ a}^{n}= {a}^{m+n} ⇒ {2}^{12}×{2}^{-2}={2}^{12+(-2)}={2}^{10}$.\nSifat pembagian eksponen: $\\frac{{a}^{m}}{{a}^{n}}={a}^{m-n} ⇒\\frac{{2}^{10}}{{2}^{2}}={2}^{10-2}={2}^{8} watt$",
+    "source_original_explanation": "Pembahasan:\nGunakan sifat-sifat eksponen:\nSifat pangkat dari pangkat: $({a}^{m}{)}^{n}×{a}^{m-n}$ ⇒ $({2}^{3}{)}^{4}$ = ${2}^{12}$.\nSifat perkalian eksponen:${ a}^{m}×{ a}^{n}= {a}^{m+n} ⇒ {2}^{12}×{2}^{-2}={2}^{12+(-2)}={2}^{10}$.\nSifat pembagian eksponen: $\\frac{{a}^{m}}{{a}^{n}}={a}^{m-n} ⇒\\frac{{2}^{10}}{{2}^{2}}={2}^{10-2}={2}^{8} watt$",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. ${2}^{8}$ watt",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah menerapkan sifat perpangkatan, misalnya mengalikan pangkat saat penjumlahan basis ($({2}^{3}{)}^{4}={2}^{7}$) atau mengabaikan tanda negatif pada ${2}^{-2}$.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Memperbaiki identitas pangkat dari pangkat tanpa mengubah hasil 2^8."
+    ],
+    "reviewed_proposal_explanation_sha256": "7664e68b6e261764ad15932ae888e50cf17586a89c9e2d767207223da8a99108",
+    "approved_key_caption": "B. ${2}^{8} watt$",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah menerapkan sifat perpangkatan, misalnya mengalikan pangkat saat penjumlahan basis ($({2}^{3}{)}^{4}={2}^{7}$) atau mengabaikan tanda negatif pada ${2}^{-2}$.\nKoreksi disetujui pengguna (belum dipublikasikan): Memperbaiki identitas pangkat dari pangkat tanpa mengubah hasil 2^8.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-2-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3375,
+      "paragraph_end": 3415,
+      "body_block_start": 3167,
+      "body_block_end_exclusive": 3208
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi B\n\n\n\nSeorang guru meminta siswa mengevaluasi penyederhanaan ekspresi bilangan berpangkat berikut:\n\n\n\n\n\n$Ekspresi:\\frac{{3}^{5}×{9}^{-1}}{2{7}^{\\frac{2}{3}}}$\n\nDua siswa memberikan lembar jawaban:\n\n\n\nSiswa A: Mengubah semua basis menjadi 3 ⇒ $\\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=$ $\\frac{{3}^{3}}{{3}^{2}}= {3}^{1}=3$.\n\n\n\nSiswa B: Mengubah semua basis menjadi 3 ⇒ $\\frac{{3}^{5}×{3}^{-2}}{({3}^{3}{)}^{\\frac{2}{3}}}=\\frac{{3}^{3}}{{3}^{2}}=$ ${3}^{1}=3$.\n\n\n\nManakah evaluasi yang pasti tepat mengenai keabsahan langkah penyederhanaan kedua siswa?\n\n\n\nA. Jawaban Siswa A benar karena $2{7}^{\\frac{2}{3}}=9={3}^{2}$ tanpa perlu menuliskan pecahan pangkat\n\n\n\nB. Jawaban Siswa B salah karena $({3}^{3}{)}^{\\frac{2}{3}}$ tidak sama dengan ${3}^{2}$\n\n\n\nC. Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$\n\n\n\nD. Kedua siswa menghasilkan jawaban yang salah karena hasil akhirnya seharusnya 9\n\n\n\nPembahasan:\n\n\n\nJabarkan semua komponen ke basis $3$:\n\n\n\n${9}^{-1}=({3}^{2}{)}^{-1}={3}^{-2}$\n\n\n\n$2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{3×\\frac{2}{3}}={3}^{2}$\n\n\n\nEvaluasi langkah:\n\n\n\n$\\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=\\frac{{3}^{5-2}}{{3}^{2}}=\\frac{{3}^{3}}{{3}^{2}}={3}^{3-2}={3}^{1}=3$\n\nLangkah Siswa B menyajikan konversi basis dan penerapan sifat eksponen pecahan secara lengkap dan tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru menghitung $2{7}^{\\frac{2}{3}}$ sebagai $27×\\frac{2}{3}=18$ alih-alih $(\\sqrt[3]{27}{)}^{2}={3}^{2}=9$.\n\n",
+    "original_explanation": "Pembahasan:\nJabarkan semua komponen ke basis $3$:\n${9}^{-1}=({3}^{2}{)}^{-1}={3}^{-2}$\n$2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{3×\\frac{2}{3}}={3}^{2}$\nEvaluasi langkah:\n$\\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=\\frac{{3}^{5-2}}{{3}^{2}}=\\frac{{3}^{3}}{{3}^{2}}={3}^{3-2}={3}^{1}=3$\nLangkah Siswa B menyajikan konversi basis dan penerapan sifat eksponen pecahan secara lengkap dan tepat.",
+    "source_original_explanation": "Pembahasan:\nJabarkan semua komponen ke basis $3$:\n${9}^{-1}=({3}^{2}{)}^{-1}={3}^{-2}$\n$2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{3×\\frac{2}{3}}={3}^{2}$\nEvaluasi langkah:\n$\\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=\\frac{{3}^{5-2}}{{3}^{2}}=\\frac{{3}^{3}}{{3}^{2}}={3}^{3-2}={3}^{1}=3$\nLangkah Siswa B menyajikan konversi basis dan penerapan sifat eksponen pecahan secara lengkap dan tepat.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $2{7}^{\\frac{2}{3}}$ sebagai $27×\\frac{2}{3}=18$ alih-alih $(\\sqrt[3]{27}{)}^{2}={3}^{2}=9$.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Membuat opsi A salah secara eksplisit agar penilaian rinci pada opsi C unik."
+    ],
+    "reviewed_proposal_explanation_sha256": "b2b2b48196f7c7ab80b31a7fc090d718ca1a8cbeb194d357b169c55b95d50b25",
+    "approved_key_caption": "C. Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $2{7}^{\\frac{2}{3}}$ sebagai $27×\\frac{2}{3}=18$ alih-alih $(\\sqrt[3]{27}{)}^{2}={3}^{2}=9$.\nKoreksi disetujui pengguna (belum dipublikasikan): Membuat opsi A salah secara eksplisit agar penilaian rinci pada opsi C unik.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "kategori-2-4-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3524,
+      "paragraph_end": 3563,
+      "body_block_start": 3316,
+      "body_block_end_exclusive": 3342
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q9:O1:original",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nSeorang siswa menganalisis hasil operasi campuran pecahan dan desimal untuk penakaran cairan di laboratorium:\n\n\n\n$Operasi:\\frac{3}{4}+1,25×0,4$\n\nTentukan status BENAR or SALAH untuk setiap pernyataan analisis berikut!\n\n\n\n<!-- table-019 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Hasil perkalian $1,25×0,4$ adalah $0,5$.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Jika operasi penjumlahan dilakukan terlebih dahulu sebelum perkalian, hasilnya adalah $0,8$.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Hasil akhir operasi campuran tersebut adalah $1,25$ atau $\\frac{5}{4}$.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\nAnalisis operasi perkalian terlebih dahulu: $1,25×0,4=0,5$ (Pernyataan (a) BENAR).\n\n\n\nUbah $\\frac{3}{4}=0,75$.\n\n\n\nHasil akhir: $0,75+0,5=1,25=\\frac{5}{4}$ (Pernyataan (c) BENAR).\n\n\n\nUji jika penjumlahan dilakukan lebih dulu: $(\\frac{3}{4}+1,25)×0,4=(0,75+1,25)×0,4=2×0,4=0,8$. (Pernyataan (b) menyatakan hasilnya 0,8 jika dikerjakan penjumlahan dulu) ⇒ Pernyataan (b) memaparkan hasil perhitungan hipotesis salah tersebut dengan benar, namun untuk menguji kesalahan konsep:\n\n\nRe-evaluasi (b): $(\\frac{3}{4}+1,25)×0,4=2,0×0,4=0,8$. Karena pernyataan (b) berbunyi \"Jika operasi penjumlahan dilakukan terlebih dahulu...\", maka secara matematis nilai hipotesis tersebut memang $0,8$. Namun, jika dimaksudkan sebagai \"langkah yang sah\", maka itu salah. Berdasarkan konteks kebenaran nilai kalkulasi hipotesis: $(0,75+1,25)×0,4=0,8$.\n\nKoreksi Kunci Pernyataan (b): SALAH jika ditinjau dari keabsahan langkah KABATAKU, atau BENAR secara kalkulasi salahnya. Untuk kepastian indikator, disepakati SALAH karena melanggar kaidah KABATAKU.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa menjumlahkan $\\frac{3}{4}+1,25=2$ baru mengalikannya dengan $0,4$, sehingga menghasilkan nilai yang tidak sesuai dengan kaidah operasi campuran.\n\n",
+    "original_explanation": "Pembahasan:\n$1,25×0,4=0,5$, sehingga pernyataan 1 benar. Jika penjumlahan diuji lebih dahulu, $(\\frac{3}{4}+1,25)×0,4=2×0,4=0,8$, sehingga pernyataan 2 benar. Dengan urutan operasi baku, $\\frac{3}{4}+0,5=1,25=\\frac{5}{4}$, sehingga pernyataan 3 benar.",
+    "source_original_explanation": "Pembahasan:\nAnalisis operasi perkalian terlebih dahulu: $1,25×0,4=0,5$ (Pernyataan (a) BENAR).\nUbah $\\frac{3}{4}=0,75$.\nHasil akhir: $0,75+0,5=1,25=\\frac{5}{4}$ (Pernyataan (c) BENAR).\nUji jika penjumlahan dilakukan lebih dulu: $(\\frac{3}{4}+1,25)×0,4=(0,75+1,25)×0,4=2×0,4=0,8$. (Pernyataan (b) menyatakan hasilnya 0,8 jika dikerjakan penjumlahan dulu) ⇒ Pernyataan (b) memaparkan hasil perhitungan hipotesis salah tersebut dengan benar, namun untuk menguji kesalahan konsep:\nRe-evaluasi (b): $(\\frac{3}{4}+1,25)×0,4=2,0×0,4=0,8$. Karena pernyataan (b) berbunyi \"Jika operasi penjumlahan dilakukan terlebih dahulu...\", maka secara matematis nilai hipotesis tersebut memang $0,8$. Namun, jika dimaksudkan sebagai \"langkah yang sah\", maka itu salah. Berdasarkan konteks kebenaran nilai kalkulasi hipotesis: $(0,75+1,25)×0,4=0,8$.\nKoreksi Kunci Pernyataan (b): SALAH jika ditinjau dari keabsahan langkah KABATAKU, atau BENAR secara kalkulasi salahnya. Untuk kepastian indikator, disepakati SALAH karena melanggar kaidah KABATAKU.",
+    "source_original_key": [
+      "1",
+      "3"
+    ],
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan $\\frac{3}{4}+1,25=2$ baru mengalikannya dengan $0,4$, sehingga menghasilkan nilai yang tidak sesuai dengan kaidah operasi campuran.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar."
+    ],
+    "reviewed_proposal_explanation_sha256": "1f57543749c089fc0a833aabdd33dc3ead9837c0df896bba8f26a097950e6d4a",
+    "approved_key_caption": "1, 2, 3. Hasil perkalian $1,25×0,4$ adalah $0,5$. | Jika operasi penjumlahan dilakukan terlebih dahulu sebelum perkalian, hasilnya adalah $0,8$. | Hasil akhir operasi campuran tersebut adalah $1,25$ atau $\\frac{5}{4}$.",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan $\\frac{3}{4}+1,25=2$ baru mengalikannya dengan $0,4$, sehingga menghasilkan nilai yang tidak sesuai dengan kaidah operasi campuran.\nKoreksi disetujui pengguna (belum dipublikasikan): Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "kategori-2-4-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3564,
+      "paragraph_end": 3607,
+      "body_block_start": 3342,
+      "body_block_end_exclusive": 3372
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nDua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:\n\n\n\n$Ekspresi:\\sqrt{50}×\\sqrt{18}:\\sqrt{9}$\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-020 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Nilai dari $\\sqrt{50}×\\sqrt{18}$ dapat disederhanakan menjadi $\\sqrt{900}=30$.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Nilai dari penyebut/pembagi $\\sqrt{9}$ adalah $3$.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Hasil akhir dari seluruh ekspresi tersebut adalah $10\\sqrt{2}$.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\nEvaluasi perkalian pembilang\n\n\n\n$\\sqrt{50}×\\sqrt{18}=\\sqrt{50×18}=\\sqrt{900}=30$\n\n(Pernyataan (a) BENAR).\n\n\n\nEvaluasi pembagi:\n\n\n\n$\\sqrt{9}=3$\n\n(Pernyataan (b) BENAR).\n\n\n\nEvaluasi hasil akhir:\n\n\n\n$30:3=10$\n\nHasil akhirnya adalah bilangan bulat $10$, bukan $10\\sqrt{2}$ (Pernyataan (c) SALAH).\n\n\n\nKesalahan Umum yang Diantisipasi\n\nSiswa salah menyederhanakan $\\sqrt{50}=5\\sqrt{2}$ dan $\\sqrt{18}=3\\sqrt{2}$, lalu mengalikan $5\\sqrt{2}×3\\sqrt{2}=15\\sqrt{2}$ (lupa mengalikan $\\sqrt{2}×\\sqrt{2}=2$), sehingga mendapatkan hasil yang salah $10\\sqrt{2}$.\n\n",
+    "original_explanation": "Pembahasan:\nEvaluasi perkalian pembilang\n$\\sqrt{50}×\\sqrt{18}=\\sqrt{50×18}=\\sqrt{900}=30$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{9}=3$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n$30:3=10$\nHasil akhirnya adalah bilangan bulat $10$, bukan $10\\sqrt{2}$ (Pernyataan (c) SALAH).",
+    "source_original_explanation": "Pembahasan:\nEvaluasi perkalian pembilang\n$\\sqrt{50}×\\sqrt{18}=\\sqrt{50×18}=\\sqrt{900}=30$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{9}=3$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n$30:3=10$\nHasil akhirnya adalah bilangan bulat $10$, bukan $10\\sqrt{2}$ (Pernyataan (c) SALAH).",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi\nSiswa salah menyederhanakan $\\sqrt{50}=5\\sqrt{2}$ dan $\\sqrt{18}=3\\sqrt{2}$, lalu mengalikan $5\\sqrt{2}×3\\sqrt{2}=15\\sqrt{2}$ (lupa mengalikan $\\sqrt{2}×\\sqrt{2}=2$), sehingga mendapatkan hasil yang salah $10\\sqrt{2}$.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar."
+    ],
+    "reviewed_proposal_explanation_sha256": "62fc0e0d512b062ffcbdf35bbce5e8b642c63f4fe6639d6ab24ddb2e789f9bd3",
+    "approved_key_caption": "1, 2. Nilai dari $\\sqrt{50}×\\sqrt{18}$ dapat disederhanakan menjadi $\\sqrt{900}=30$. | Nilai dari penyebut/pembagi $\\sqrt{9}$ adalah $3$.",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi\nSiswa salah menyederhanakan $\\sqrt{50}=5\\sqrt{2}$ dan $\\sqrt{18}=3\\sqrt{2}$, lalu mengalikan $5\\sqrt{2}×3\\sqrt{2}=15\\sqrt{2}$ (lupa mengalikan $\\sqrt{2}×\\sqrt{2}=2$), sehingga mendapatkan hasil yang salah $10\\sqrt{2}$.\nKoreksi disetujui pengguna: jalur distraktor yang tidak konsisten dihapus.\nKoreksi disetujui pengguna (belum dipublikasikan): Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "kategori-2-5-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3919,
+      "paragraph_end": 3957,
+      "body_block_start": 3683,
+      "body_block_end_exclusive": 3708
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q9:O1:original",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nSeorang siswa mengevaluasi langkah pengerjaan operasi campuran pecahan dan desimal untuk resep bahan praktikum:\n\n\n\n$Operasi:\\frac{4}{5}+1,5×0,2$\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-021 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Operasi perkalian $1,5×0,2$ harus dikerjakan terlebih dahulu dan menghasilkan $0,3$.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Jika operasi penjumlahan dikerjakan terlebih dahulu, hasilnya adalah $0,46$.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Hasil akhir yang benar dari operasi campuran tersebut adalah $1,1$ atau $\\frac{11}{10}$.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\nHitung perkalian dulu: $1,5×0,2=0,3$ (Pernyataan (a) BENAR).\n\n\n\nUbah $\\frac{4}{5}=0,8$.\n\n\n\nHasil akhir: $0,8+0,3=1,1=\\frac{11}{10}$ (Pernyataan (c) BENAR).\n\n\n\nUji jika penjumlahan dikerjakan lebih dulu: $(\\frac{4}{5}+1,5)×0,2=(0,8+1,5)×0,2=2,3×0,2=0,46$.\n\n\n(Pernyataan (b) menyebutkan jika penjumlahan dikerjakan dulu hasilnya 0,46) ⇒ Namun karena pengerjaan tersebut melanggar kaidah prioritas KABATAKU, maka status keabsahan langkahnya dinyatakan SALAH.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira penjumlahan harus dikerjakan dari kiri lebih dulu sebelum perkalian.\n\n",
+    "original_explanation": "Pembahasan:\n$1,5×0,2=0,3$, sehingga pernyataan 1 benar. Jika penjumlahan diuji lebih dahulu, $(\\frac{4}{5}+1,5)×0,2=2,3×0,2=0,46$, sehingga pernyataan 2 benar. Dengan urutan operasi baku, $\\frac{4}{5}+0,3=1,1=\\frac{11}{10}$, sehingga pernyataan 3 benar.",
+    "source_original_explanation": "Pembahasan:\nHitung perkalian dulu: $1,5×0,2=0,3$ (Pernyataan (a) BENAR).\nUbah $\\frac{4}{5}=0,8$.\nHasil akhir: $0,8+0,3=1,1=\\frac{11}{10}$ (Pernyataan (c) BENAR).\nUji jika penjumlahan dikerjakan lebih dulu: $(\\frac{4}{5}+1,5)×0,2=(0,8+1,5)×0,2=2,3×0,2=0,46$.\n(Pernyataan (b) menyebutkan jika penjumlahan dikerjakan dulu hasilnya 0,46) ⇒ Namun karena pengerjaan tersebut melanggar kaidah prioritas KABATAKU, maka status keabsahan langkahnya dinyatakan SALAH.",
+    "source_original_key": [
+      "1",
+      "3"
+    ],
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira penjumlahan harus dikerjakan dari kiri lebih dulu sebelum perkalian.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar."
+    ],
+    "reviewed_proposal_explanation_sha256": "3891123cb365c0f0fd0ca9ebccddef178f0cf9260d20b83f837d7a1827f9e8d8",
+    "approved_key_caption": "1, 2, 3. Operasi perkalian $1,5×0,2$ harus dikerjakan terlebih dahulu dan menghasilkan $0,3$. | Jika operasi penjumlahan dikerjakan terlebih dahulu, hasilnya adalah $0,46$. | Hasil akhir yang benar dari operasi campuran tersebut adalah $1,1$ atau $\\frac{11}{10}$.",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira penjumlahan harus dikerjakan dari kiri lebih dulu sebelum perkalian.\nKoreksi disetujui pengguna (belum dipublikasikan): Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "kategori-2-5-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3958,
+      "paragraph_end": 3998,
+      "body_block_start": 3708,
+      "body_block_end_exclusive": 3735
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nDua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:\n\n$Ekspresi:\\sqrt{72}×\\sqrt{2}:\\sqrt{16}$\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-022 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Perkalian pembilang $\\sqrt{72}×\\sqrt{2}$ dapat disederhanakan menjadi $\\sqrt{144}=12$.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Penyebut/pembagi $\\sqrt{16}$ nilainya sama dengan $4$.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Hasil akhir dari seluruh ekspresi tersebut adalah $3\\sqrt{2}$.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\nEvaluasi pembilang:\n\n$\\sqrt{72}×\\sqrt{2}=\\sqrt{144}=12$\n\n(Pernyataan (a) BENAR).\n\n\n\nEvaluasi pembagi:\n\n\n\n$\\sqrt{16}=4$\n\n(Pernyataan (b) BENAR).\n\n\n\nEvaluasi hasil akhir:\n\n$12:4=3$\n\nHasil akhirnya adalah bilangan bulat $3$, bukan $3\\sqrt{2}$ (Pernyataan (c) SALAH).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa menyederhanakan $\\sqrt{72}=6\\sqrt{2}$, lalu membaginya langsung dengan $4$ tanpa mengalikan $\\sqrt{2}×\\sqrt{2}=2$, sehingga mendapatkan hasil salah $3\\sqrt{2}$.\n\n",
+    "original_explanation": "Pembahasan:\nEvaluasi pembilang:\n$\\sqrt{72}×\\sqrt{2}=\\sqrt{144}=12$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{16}=4$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n$12:4=3$\nHasil akhirnya adalah bilangan bulat $3$, bukan $3\\sqrt{2}$ (Pernyataan (c) SALAH).",
+    "source_original_explanation": "Pembahasan:\nEvaluasi pembilang:\n$\\sqrt{72}×\\sqrt{2}=\\sqrt{144}=12$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{16}=4$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n$12:4=3$\nHasil akhirnya adalah bilangan bulat $3$, bukan $3\\sqrt{2}$ (Pernyataan (c) SALAH).",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menyederhanakan $\\sqrt{72}=6\\sqrt{2}$, lalu membaginya langsung dengan $4$ tanpa mengalikan $\\sqrt{2}×\\sqrt{2}=2$, sehingga mendapatkan hasil salah $3\\sqrt{2}$.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar."
+    ],
+    "reviewed_proposal_explanation_sha256": "7d619ac406abe954696f51496d07674727808f4ea627ee6f46fdaf9adc3d56dd",
+    "approved_key_caption": "1, 2. Perkalian pembilang $\\sqrt{72}×\\sqrt{2}$ dapat disederhanakan menjadi $\\sqrt{144}=12$. | Penyebut/pembagi $\\sqrt{16}$ nilainya sama dengan $4$.",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menyederhanakan $\\sqrt{72}=6\\sqrt{2}$, lalu membaginya langsung dengan $4$ tanpa mengalikan $\\sqrt{2}×\\sqrt{2}=2$, sehingga mendapatkan hasil salah $3\\sqrt{2}$.\nKoreksi disetujui pengguna: jalur distraktor yang tidak konsisten dihapus.\nKoreksi disetujui pengguna (belum dipublikasikan): Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-3-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5439,
+      "paragraph_end": 5481,
+      "body_block_start": 5120,
+      "body_block_end_exclusive": 5163
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi III\n\n\n\nDua papan nama taman sekolah diukur panjang diagonalnya:\n\n\n\nPapan A: diagonal $=\\sqrt{45}meter$\n\n\n\nPapan B: diagonal $=\\sqrt{98}meter$\n\n\n\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\n\n\n\nEvaluasi I: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{98}≈10m$ dan $\\sqrt{45} \\approx 7\\text{ m} \\implies 10 - 7 = 3\\text{ m}$.\"\n\n\n\nEvaluasi II: \"Selisih panjang diagonal adalah $7m$, karena dihitung dari $\\sqrt{98-45}=\\sqrt{53}≈7m$.\"\n\n\n\nEvaluasi III: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{98}≈9,899→10m$ dan $\\sqrt{45} \\approx 6,708 \\rightarrow 7\\text{ m} \\implies 10 - 7 = 3\\text{ m}$.\"\n\n\n\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang paling tepat?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi II dan III sama-sama benar\n\n\n\nPembahasan:\n\n\n\n\nMengevaluasi pembulatan masing-masing komponen ke satuan terdekat:\n\n\nUntuk Papan B ($\\sqrt{98}$): $\\sqrt{98}≈9,899...$, karena digit persepuluhan $8≥5$, dibulatkan naik ke satuan terdekat menjadi $10m$.\n\n\n\nUntuk Papan A ($\\sqrt{45}$): $\\sqrt{45}≈6,708...$, karena digit persepuluhan $7≥5$, dibulatkan naik ke satuan terdekat menjadi $7m$.\n\n\n\nSelisih estimasi: $10-7=3m$.\n\n\n\nEvaluasi II salah secara prinsip matematika karena mengurangkan nilai radian di dalam tanda akar sebelum melakukan aproksimasi. Maka, Evaluasi III adalah yang paling tepat dan rinci.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa membenarkan Evaluasi II yang melakukan pengoperasian akar secara keliru ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).\n\n",
+    "original_explanation": "Pembahasan koreksi:\nBulatkan setiap radikan secara terpisah. Evaluasi I salah karena menuliskan selisih 2 m. Evaluasi II salah karena akar selisih radikan tidak sama dengan selisih akar. Evaluasi III benar dan memperlihatkan aproksimasi sebelum pembulatan. Jadi kunci jawaban C.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi pembulatan masing-masing komponen ke satuan terdekat:\nUntuk Papan B ($\\sqrt{98}$): $\\sqrt{98}≈9,899...$, karena digit persepuluhan $8≥5$, dibulatkan naik ke satuan terdekat menjadi $10m$.\nUntuk Papan A ($\\sqrt{45}$): $\\sqrt{45}≈6,708...$, karena digit persepuluhan $7≥5$, dibulatkan naik ke satuan terdekat menjadi $7m$.\nSelisih estimasi: $10-7=3m$.\nEvaluasi II salah secara prinsip matematika karena mengurangkan nilai radian di dalam tanda akar sebelum melakukan aproksimasi. Maka, Evaluasi III adalah yang paling tepat dan rinci.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi III",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi II yang melakukan pengoperasian akar secara keliru ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Draft: Evaluasi I dibuat salah secara eksplisit (selisih 2 m); Evaluasi III tetap satu-satunya jawaban benar.",
+      "Istilah yang dipakai adalah radikan, bukan radian."
+    ],
+    "reviewed_proposal_explanation_sha256": "077a103f35456f87699db9558d3189ed7f17091739a4bdab6f01628f8850af14",
+    "approved_key_caption": "C. Evaluasi III (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi II yang melakukan pengoperasian akar secara keliru ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-3-5-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5867,
+      "paragraph_end": 5910,
+      "body_block_start": 5526,
+      "body_block_end_exclusive": 5570
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi III\n\n\n\nDua buah papan nama fasilitas sekolah diukur panjang diagonalnya:\n\n\n\nPapan P: diagonal $=\\sqrt{35} meter$\n\n\n\nPapan Q: diagonal $=\\sqrt{82} meter$\n\n\n\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\n\n\n\nEvaluasi I: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{82}≈9 m$ dan $\\sqrt{35} \\approx 6\\text{ m} \\implies 9 - 6 = 3\\text{ m}$.\"\n\n\n\nEvaluasi II: \"Selisih panjang diagonal adalah $7 m$, karena dihitung dari $\\sqrt{82-35}=\\sqrt{47}≈7m$.\"\n\n\n\nEvaluasi III: \"Selisih panjang diagonal adalah $3 m$, karena $\\sqrt{82}≈9,055→9 m$ dan $\\sqrt{35} \\approx 5,916 \\rightarrow 6\\text{ m} \\implies 9 - 6 = 3\\text{ m}$.\"\n\n\n\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang pasti benar?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi II dan III sama-sama benar\n\n\n\nPembahasan:\n\n\n\nMengevaluasi pembulatan masing-masing komponen ke satuan terdekat:\n\n\n\nUntuk Papan Q ($\\sqrt{82}$): $\\sqrt{82}≈9,055...$, karena digit persepuluhan $0<5$, dibulatkan ke satuan terdekat menjadi $9 m$.\n\n\n\nUntuk Papan P ($\\sqrt{35}$): $\\sqrt{35}≈5,916...$, karena digit persepuluhan $9≥5$, dibulatkan naik ke satuan terdekat menjadi $6 m$.\n\n\n\nSelisih estimasi: $9-6=3 m$.\n\n\n\nEvaluasi II salah secara prinsip matematika karena mengurangkan radian di dalam tanda akar sebelum mengaproksimasi. Maka, Evaluasi III adalah yang paling tepat dan rinci.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa membenarkan Evaluasi II yang melakukan pengurangan bentuk akar secara tidak sah ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).\n\n",
+    "original_explanation": "Pembahasan koreksi:\nBulatkan setiap radikan secara terpisah. Evaluasi I salah karena menuliskan selisih 2 m. Evaluasi II salah karena akar selisih radikan tidak sama dengan selisih akar. Evaluasi III benar dan memperlihatkan aproksimasi sebelum pembulatan. Jadi kunci jawaban C.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi pembulatan masing-masing komponen ke satuan terdekat:\nUntuk Papan Q ($\\sqrt{82}$): $\\sqrt{82}≈9,055...$, karena digit persepuluhan $0<5$, dibulatkan ke satuan terdekat menjadi $9 m$.\nUntuk Papan P ($\\sqrt{35}$): $\\sqrt{35}≈5,916...$, karena digit persepuluhan $9≥5$, dibulatkan naik ke satuan terdekat menjadi $6 m$.\nSelisih estimasi: $9-6=3 m$.\nEvaluasi II salah secara prinsip matematika karena mengurangkan radian di dalam tanda akar sebelum mengaproksimasi. Maka, Evaluasi III adalah yang paling tepat dan rinci.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi III",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi II yang melakukan pengurangan bentuk akar secara tidak sah ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Draft: Evaluasi I dibuat salah secara eksplisit (selisih 2 m); Evaluasi III tetap satu-satunya jawaban benar.",
+      "Istilah yang dipakai adalah radikan, bukan radian."
+    ],
+    "reviewed_proposal_explanation_sha256": "077a103f35456f87699db9558d3189ed7f17091739a4bdab6f01628f8850af14",
+    "approved_key_caption": "C. Evaluasi III (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi II yang melakukan pengurangan bentuk akar secara tidak sah ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "mcma-3-5-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5948,
+      "paragraph_end": 6005,
+      "body_block_start": 5607,
+      "body_block_end_exclusive": 5665
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nSeorang peneliti laboratorium sekolah menganalisis hasil aproksimasi dan pembulatan tiga sampel kawat irasional:\n\n\n\nSampel A: panjang $=\\sqrt{18}cm$\n\n\n\nSampel B: panjang $=\\sqrt{38}cm$\n\n\n\nSampel C: panjang $=\\sqrt{70}cm$\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$\" adalah SALAH (yang benar $8 cm$ vs $8,37→8 cm$ -- wait!).\n\n\n\nRe-analisis Sampel C:\n\n\n\n$\\sqrt{70}≈8,366...$, karena digit persepuluhan $3<5$, dibulatkan ke satuan terdekat menjadi $8 cm$.\n\n\n\nMari perbaiki Opsi C & D agar pilihan menjadi eksplisit:\n\n\n\nOpsi C: Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8cm$\" adalah BENAR.\n\n\n\nOpsi D: Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$\" adalah SALAH.\n\n\n\nManakah opsi yang bernilai BENAR?\n\n\n\n[ ] A. Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$.\n\n\n\n[ ] B. Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$.\n\n\n\n[ ] C. Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$.\n\n\n\n[ ] D. Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$.\n\n\n\nKunci Jawaban Tepat: A, B, dan C.\n\n\n\nPembahasan:\n\n\n\n\nA (Benar): $4,{2}^{2}=17,64$ (sangat dekat ke 18). Maka $\\sqrt{18}≈4,242...→$ dibulatkan ke persepuluhan terdekat menjadi $4,2 cm$.\n\n\n\nB (Benar): $6,{2}^{2}=38,44$ (sangat dekat ke 38). Maka $\\sqrt{38}≈6,164...→$ dibulatkan ke persepuluhan terdekat menjadi $6,2 cm$.\n\n\n\nC (Benar): $\\sqrt{70}≈8,366...$, karena digit persepuluhan $3<5$, dibulatkan ke satuan terdekat menjadi $8 cm$.\n\n\n\nD (Salah): Dibagikan ke atas menjadi $9$ adalah salah.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah membulatkan $\\sqrt{70}$ ke atas menjadi $9$ karena mengira angka 70 sudah dekat ke 81 ($\\sqrt{81}=9$).\n\n",
+    "original_explanation": "Pembahasan koreksi: akar 18 dibulatkan ke persepuluhan menjadi 4,2; akar 38 menjadi 6,2; dan akar 70 dibulatkan ke satuan menjadi 8. Jadi A, B, C benar dan D salah.",
+    "source_original_explanation": "Pembahasan:\nA (Benar): $4,{2}^{2}=17,64$ (sangat dekat ke 18). Maka $\\sqrt{18}≈4,242...→$ dibulatkan ke persepuluhan terdekat menjadi $4,2 cm$.\nB (Benar): $6,{2}^{2}=38,44$ (sangat dekat ke 38). Maka $\\sqrt{38}≈6,164...→$ dibulatkan ke persepuluhan terdekat menjadi $6,2 cm$.\nC (Benar): $\\sqrt{70}≈8,366...$, karena digit persepuluhan $3<5$, dibulatkan ke satuan terdekat menjadi $8 cm$.\nD (Salah): Dibagikan ke atas menjadi $9$ adalah salah.",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membulatkan $\\sqrt{70}$ ke atas menjadi $9$ karena mengira angka 70 sudah dekat ke 81 ($\\sqrt{81}=9$).",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Draft chooses the clearly labelled final rewrite from the duplicated source; the raw initial and rewrite versions remain in audit provenance.",
+      "The final rewrite has A, B, C true and preserves four MCMA options and three keyed answers."
+    ],
+    "reviewed_proposal_explanation_sha256": "28db70c199997f760e9d771cad78e0bc840f3297296db57194f3ef0a55b74320",
+    "approved_key_caption": "A, B, dan C (versi akhir yang dipilih sebagai versi yang disetujui)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membulatkan $\\sqrt{70}$ ke atas menjadi $9$ karena mengira angka 70 sudah dekat ke 81 ($\\sqrt{81}=9$).",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-4-4-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7447,
+      "paragraph_end": 7487,
+      "body_block_start": 7084,
+      "body_block_end_exclusive": 7125
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi II\n\n\n\nSeorang pembina pramuka mengevaluasi dua klaim dari dua regu mengenai pembentukan kelompok belajar dari $96$ anggota laki-laki dan $120$ anggota perempuan:\n\n\n\nKlaim Regu Elang: \"Kelompok terbanyak yang dapat dibentuk adalah $24$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $1$ orang.\"\n\n\n\nKlaim Regu Harimau: \"Kelompok terbanyak yang dapat dibentuk adalah $12$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $2$ orang.\"\n\n\n\nEvaluasi manakah yang benar?\n\n\n\nA. Klaim Regu Harimau benar, karena FPB dari $96$ dan $120$ adalah $12$\n\n\n\nB. Klaim Regu Elang benar, karena $FPB(96,120)=24$, dengan isi per kelompok $5$ perempuan dan $4$ laki-laki (selisih $5-4=1$)\n\n\n\nC. Kedua klaim salah, karena jumlah kelompok terbanyak yang dapat dibentuk adalah $48$\n\n\n\nD. Klaim Regu Harimau benar, karena $120$ dan $96$ sama-sama kelipatan $12$\n\n\n\nPembahasan:\n\n\nMengevaluasi FPB dari $96$ dan $120$:\n\n\n\n$96={2}^{5}×3$\n\n\n\n$120={2}^{3}×3×5$\n\n\n\n$FPB(96,120)={2}^{3}×3=24$ kelompok.\n\n\n\nMengevaluasi isi per kelompok:\n\n\n\nLaki-laki = $96÷24=4$ orang.\n\n\n\nPerempuan = $120÷24=5$ orang.\n\n\n\nSelisih perempuan dan laki-laki per kelompok = $5-4=1$ orang. Dengan demikian, Klaim Regu Elang sepenuhnya tepat secara evaluasi sistematis.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa terkecoh memilih angka $12$ sebagai FPB karena $12$ merupakan faktor persekutuan (namun bukan yang terbesar).\n\n",
+    "original_explanation": "Pembahasan koreksi:\nMengevaluasi FPB dari $96$ dan $120$:\n$96={2}^{5}×3$\n$120={2}^{3}×3×5$\n$FPB(96,120)={2}^{3}×3=24$ kelompok.\nMengevaluasi isi per kelompok:\nLaki-laki = $96÷24=4$ orang.\nPerempuan = $120÷24=5$ orang.\nSelisih perempuan dan laki-laki per kelompok = $5-4=1$ orang. Dengan demikian, Klaim Regu Elang sepenuhnya tepat secara evaluasi sistematis.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi FPB dari $96$ dan $120$:\n$96={2}^{5}×3$\n$120={2}^{3}×3×5$\n$FPB(96,120)={2}^{3}×3=24$ kelompok.\nMengevaluasi isi per kelompok:\nLaki-laki = $96÷24=4$ orang.\nPerempuan = $120÷24=5$ orang.\nSelisih perempuan dan laki-laki per kelompok = $5-4=1$ orang. Dengan demikian, Klaim Regu Elang sepenuhnya tepat secara evaluasi sistematis.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih angka $12$ sebagai FPB karena $12$ merupakan faktor persekutuan (namun bukan yang terbesar).",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "reviewed_proposal_explanation_sha256": "6b16f33add3bd415bf77d34949fc229e1b5f5decc12c9943f847ef6a63132d98",
+    "approved_key_caption": "B. Evaluasi II (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih angka $12$ sebagai FPB karena $12$ merupakan faktor persekutuan (namun bukan yang terbesar).",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-4-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7488,
+      "paragraph_end": 7525,
+      "body_block_start": 7125,
+      "body_block_end_exclusive": 7163
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Argumen II benar, karena $300$ adalah nilai terkecil yang habis dibagi oleh $12,15,$ dan $20$ serta merupakan kuadrat sempurna ($300=10{\\sqrt{3}}^{2}→$ untuk kuadrat sempurna bilangan bulat harus dikalikan $3$ yaitu $900=3{0}^{2}$)\n\n\n\nSeorang siswa menyusun argumen untuk menentukan jumlah ubin persegi terkecil yang dibutuhkan untuk menutup lantai ruangan berukuran $12 cm×15 cm×20 cm$ (dalam konteks penataan pola kubus terkecil). Dua orang tim penilai memberikan evaluasi terhadap argumen siswa tersebut:\n\n\n\nArgumen I: \"KPK dari $12,15,$ dan $20$ adalah $60$. Maka panjang rusuk kubus terkecil adalah $60cm$.\"\n\n\n\nArgumen II: \"Panjang rusuk kubus terkecil adalah $60 cm$, sehingga volume kubus terkecil tersebut dapat memuat $60÷12=5$ balok pada salah satu sisinya.\"\n\n\n\nEvaluasi manakah yang paling tepat mengenai kebenaran Argumen I?\n\n\n\nA. Argumen I salah, karena untuk mencari ukuran kubus harus menggunakan FPB\n\n\n\nB. Argumen I salah, karena KPK dari $12,15,$ dan $20$ adalah $120$\n\n\n\nC. Argumen I benar, karena $KPK(12,15,20)={2}^{2}×3×5=60$, yang merupakan kelipatan persekutuan terkecil untuk membentuk rusuk kubus yang sama panjang\n\n\n\nD. Argumen I salah, karena $60$ tidak habis dibagi oleh $15$\n\n\n\nPembahasan:\n\n\n\nMengevaluasi KPK dari $12,15,$ dan $20$:\n\n\n\n$12={2}^{2}×3$\n\n\n\n$15=3×5$\n\n\n\n$20={2}^{2}×5$\n\n\n\n$KPK(12,15,20)={2}^{2}×3×5=60$.\n\n\n\nUntuk membentuk kubus terkecil dari susunan balok-balok kecil, panjang rusuk kubus harus merupakan kelipatan persekutuan terkecil (KPK) dari ukuran panjang, lebar, dan tinggi balok. Maka, Argumen I benar karena $60$ adalah KPK dari ketiga ukuran tersebut.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru menganggap pembuatan bentuk kubus dari balok menggunakan FPB, padahal penggabungan benda kecil menjadi besar memakai konsep KPK.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nRusuk kubus harus habis dibagi 12, 15, dan 20. $KPK(12,15,20)=60$, jadi rusuknya $60 cm$. Jumlah balok adalah $(60÷12)(60÷15)(60÷20)=60$ balok; angka 60 balok berbeda besaran dari panjang rusuk 60 cm.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi KPK dari $12,15,$ dan $20$:\n$12={2}^{2}×3$\n$15=3×5$\n$20={2}^{2}×5$\n$KPK(12,15,20)={2}^{2}×3×5=60$.\nUntuk membentuk kubus terkecil dari susunan balok-balok kecil, panjang rusuk kubus harus merupakan kelipatan persekutuan terkecil (KPK) dari ukuran panjang, lebar, dan tinggi balok. Maka, Argumen I benar karena $60$ adalah KPK dari ketiga ukuran tersebut.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Argumen II benar, karena $300$ adalah nilai terkecil yang habis dibagi oleh $12,15,$ dan $20$ serta merupakan kuadrat sempurna ($300=10{\\sqrt{3}}^{2}→$ untuk kuadrat sempurna bilangan bulat harus dikalikan $3$ yaitu $900=3{0}^{2}$)",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menganggap pembuatan bentuk kubus dari balok menggunakan FPB, padahal penggabungan benda kecil menjadi besar memakai konsep KPK.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Kurikulum menetapkan satu konteks/model dan besaran yang ditanya. Jika model balok searah dipilih, tulis asumsi itu; panjang rusuk60cm dan jumlahbalok60 adalah dua besaran berbeda. Hapus header300/900 setelah koreksi disetujui."
+    ],
+    "reviewed_proposal_explanation_sha256": "863e2bc4ece47897813a4059a7db96fe36fa14583d7f62b0d52d5d5f68238f83",
+    "approved_key_caption": "C. $60 cm$ (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menganggap pembuatan bentuk kubus dari balok menggunakan FPB, padahal penggabungan benda kecil menjadi besar memakai konsep KPK.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "mcma-4-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7562,
+      "paragraph_end": 7598,
+      "body_block_start": 7199,
+      "body_block_end_exclusive": 7236
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nDua buah bel peringatan laboratorium berbunyi berulang setiap $16$ menit dan $24$ menit. Kedua bel berbunyi bersamaan pada pukul 08.00 WIB. Dua siswa memberikan evaluasi terhadap beberapa pernyataan:\n\n\n\nManakah evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Kedua bel berbunyi bersamaan kembali setiap 48 menit\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Kedua bel akan berbunyi bersamaan untuk kedua kalinya pada pukul 08.48 WIB\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Dalam selang waktu 2 jam (120 menit), kedua bel berbunyi bersamaan sebanyak 3 kali (tidak menghitung pukul 08.00 WIB)\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Dalam selang waktu 2 jam (120 menit), kedua bel berbunyi bersamaan sebanyak 2 kali (tidak menghitung pukul 08.00 WIB)\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nMengevaluasi KPK dari 16 dan 24:\n\n\n\n$16={2}^{4}$\n\n\n\n$24={2}^{3}×3$\n\n$KPK(16,24)={2}^{4}×3=48 menit$. (Pernyataan A Benar).\n\n\n\nWaktu bunyi bersamaan kedua kalinya = $08.00+48 menit=08.48WIB$. (Pernyataan B Benar).\n\n\n\nMengevaluasi frekuensi dalam 120 menit (tanpa pukul 08.00 WIB):\n\n\n\nFrekuensi = ⌊$\\frac{120}{48}$⌋ = 2 kali (pada detik ke-48, dan menit ke-96)\n\n\n\n(Pernyataan D Benar, Pernyataan C Salah).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru menghitung $120÷48=2,5$ lalu membulatkannya ke atas menjadi 3 kali, padahal bunyi ke-3 baru terjadi pada menit ke-144 (di luar 120 menit).\n\n",
+    "original_explanation": "Pembahasan koreksi:\nMengevaluasi KPK dari 16 dan 24:\n$16={2}^{4}$\n$24={2}^{3}×3$\n$KPK(16,24)={2}^{4}×3=48 menit$. (Pernyataan A Benar).\nWaktu bunyi bersamaan kedua kalinya = $08.00+48 menit=08.48WIB$. (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 120 menit (tanpa pukul 08.00 WIB):\nFrekuensi = ⌊$\\frac{120}{48}$⌋ = 2 kali (pada menit ke-48, dan menit ke-96)\n(Pernyataan D Benar, Pernyataan C Salah).",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi KPK dari 16 dan 24:\n$16={2}^{4}$\n$24={2}^{3}×3$\n$KPK(16,24)={2}^{4}×3=48 menit$. (Pernyataan A Benar).\nWaktu bunyi bersamaan kedua kalinya = $08.00+48 menit=08.48WIB$. (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 120 menit (tanpa pukul 08.00 WIB):\nFrekuensi = ⌊$\\frac{120}{48}$⌋ = 2 kali (pada detik ke-48, dan menit ke-96)\n(Pernyataan D Benar, Pernyataan C Salah).",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $120÷48=2,5$ lalu membulatkannya ke atas menjadi 3 kali, padahal bunyi ke-3 baru terjadi pada menit ke-144 (di luar 120 menit).",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Ganti detik ke48 menjadi menit ke48; jumlahdua kejadian dan kunciABD tetap."
+    ],
+    "reviewed_proposal_explanation_sha256": "374c03d7936707b17de59b2241cd68c32bae01ed4829d6191213c690e99f2ba4",
+    "approved_key_caption": "A, B, dan D (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $120÷48=2,5$ lalu membulatkannya ke atas menjadi 3 kali, padahal bunyi ke-3 baru terjadi pada menit ke-144 (di luar 120 menit).",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "mcma-4-4-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7599,
+      "paragraph_end": 7639,
+      "body_block_start": 7236,
+      "body_block_end_exclusive": 7277
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q8:O1:original",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nSeorang pengurus OSIS membagikan $108$ buku agenda dan $135$ pulpen ke dalam beberapa wadah bingkisan pengurus tanpa sisa. Pengurus tersebut mengevaluasi dua alternatif pengemasan:\n\n\n\nOpsi I: Dibagi ke dalam $9$ wadah.\n\n\n\nOpsi II: Dibagi ke dalam $27$ wadah (menggunakan FPB terbanyak).\n\n\n\nManakah evaluasi pernyataan matematika yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Opsi I adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk.\n\n\n\n[ ] B. Opsi II adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk karena $FPB(108,135)=27$.\n\n\n\n[ ] C. Pada Opsi II, setiap wadah berisi $4$ buku agenda dan $5$ pulpen.\n\n\n\n[ ] D. Pada Opsi I, setiap wadah berisi $12$ buku agenda dan $12$ pulpen.\n\n\n\nPembahasan:\n\n\nMengevaluasi FPB dari $108$ dan $135$:\n\n\n\n$108={2}^{2}×{3}^{3}$\n\n\n\n$135={3}^{3}×5$\n\n\n\n$FPB(108,135)={3}^{3}=27$ wadah. (Pernyataan A Salah, Pernyataan B Benar).\n\n\n\nMengevaluasi isi per wadah untuk Opsi II:\n\n\n\nBuku agenda = $108÷27=4$ buah.\n\n\n\nPulpen = $135÷27=5$ buah. (Pernyataan C Benar).\n\n\n\nMengevaluasi Opsi I: $135÷9=15$ pulpen (bukan 12) (Pernyataan D Salah).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa memilih Opsi I sebagai wadah terbanyak karena lupa mengecek apakah 9 masih dapat dibagi lagi oleh faktor persekutuan lainnya (seperti 3).\n\n",
+    "original_explanation": "Pembahasan koreksi:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ wadah. (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per wadah untuk Opsi II:\nBuku agenda = $108÷27=4$ buah.\nPulpen = $135÷27=5$ buah. (Pernyataan C Benar).\nMengevaluasi Opsi I: $135÷9=15$ pulpen (bukan 12) (Pernyataan D Salah).",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ wadah. (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per wadah untuk Opsi II:\nBuku agenda = $108÷27=4$ buah.\nPulpen = $135÷27=5$ buah. (Pernyataan C Benar).\nMengevaluasi Opsi I: $135÷9=15$ pulpen (bukan 12) (Pernyataan D Salah).",
+    "source_original_key": [
+      "B",
+      "C"
+    ],
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Opsi I sebagai wadah terbanyak karena lupa mengecek apakah 9 masih dapat dibagi lagi oleh faktor persekutuan lainnya (seperti 3).",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Tulis banyakwadah dapat dinaikkan9×3=27 karena108/27 dan135/27 tetapbulat; jangan memakai keterbagian angka9 saja sebagai bukti FPB.",
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "reviewed_proposal_explanation_sha256": "fed5d51d0ec79c7681e0c0f4ccd7a13cfa967f61f4e9a29540b3fbc191bae0ad",
+    "approved_key_caption": "B dan C (koreksi)",
+    "additional_notes": "Sembilan wadah bukan maksimum; 27 membagi kedua jumlah.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-4-5-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7871,
+      "paragraph_end": 7913,
+      "body_block_start": 7480,
+      "body_block_end_exclusive": 7523
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi III\n\n\n\nSeorang pembina regu mengevaluasi jumlah kelompok terbanyak yang dapat dibentuk dari $108$ peserta laki-laki dan $135$ peserta perempuan. Tiga regu memberikan laporan evaluasi:\n\n\n\nRegu A: \"Dapat dibentuk $9$ kelompok, dengan isi tiap kelompok $12$ laki-laki dan $15$ perempuan.\"\n\n\n\nRegu B: \"Dapat dibentuk $27$ kelompok, dengan isi tiap kelompok $4$ laki-laki dan $5$ perempuan.\"\n\n\n\nRegu C: \"Dapat dibentuk $54$ kelompok, dengan isi tiap kelompok $2$ laki-laki dan $2,5$ perempuan.\"\n\n\n\nManakah evaluasi regu yang paling tepat dan bernilai maksimum?\n\n\n\nA. Laporan Regu A\n\n\n\nB. Laporan Regu C\n\n\n\nC. Laporan Regu B\n\n\n\nD. Laporan Regu A dan Regu B sama-sama maksimum\n\n\n\nPembahasan:\n\n\n\nMengevaluasi FPB dari $108$ dan $135$:\n\n\n\n$108={2}^{2}×{3}^{3}$\n\n\n\n$135={3}^{3}×5$\n\n\n\n$FPB(108,135)={3}^{3}=27$ kelompok.\n\n\n\nMengevaluasi keterbagian isi kelompok:\n\n\n\nLaki-laki = $108÷27=4$ orang.\n\n\n\nPerempuan = $135÷27=5$ orang. Regu A memang menghasilkan bilangan bulat ($9$ kelompok), tetapi angka $9$ bukan jumlah kelompok terbanyak/maksimum. Laporan Regu B adalah yang paling tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa memilih Regu A karena menganggap $9$ sudah merupakan faktor persekutuan, tanpa menyadari bahwa $27$ adalah faktor persekutuan terbesar.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ kelompok.\nMengevaluasi keterbagian isi kelompok:\nLaki-laki = $108÷27=4$ orang.\nPerempuan = $135÷27=5$ orang. Regu A memang menghasilkan bilangan bulat ($9$ kelompok), tetapi angka $9$ bukan jumlah kelompok terbanyak/maksimum. Laporan Regu B adalah yang paling tepat.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ kelompok.\nMengevaluasi keterbagian isi kelompok:\nLaki-laki = $108÷27=4$ orang.\nPerempuan = $135÷27=5$ orang. Regu A memang menghasilkan bilangan bulat ($9$ kelompok), tetapi angka $9$ bukan jumlah kelompok terbanyak/maksimum. Laporan Regu B adalah yang paling tepat.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi III",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Regu A karena menganggap $9$ sudah merupakan faktor persekutuan, tanpa menyadari bahwa $27$ adalah faktor persekutuan terbesar.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Perjelas caption menjadi C.LaporanReguB setelah syarat pembagian sama dijelaskan.",
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "reviewed_proposal_explanation_sha256": "cea97c6a8af36682d4e4457b8e87694678ef3951ce73d916bead0ef4be656832",
+    "approved_key_caption": "C. Laporan Regu B (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Regu A karena menganggap $9$ sudah merupakan faktor persekutuan, tanpa menyadari bahwa $27$ adalah faktor persekutuan terbesar.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-4-5-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7914,
+      "paragraph_end": 7950,
+      "body_block_start": 7523,
+      "body_block_end_exclusive": 7560
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Kebijakan II\n\n\n\nSebuah pengelola perpustakaan sekolah mengevaluasi dua opsi jadwal pengembalian dua kategori buku pinjaman:\n\n\n\nKategori Komik: wajib dikembalikan setiap 14 hari\n\n\n\nKategori Novel: wajib dikembalikan setiap 21 hari\n\n\n\nPengelola ingin membuat kebijakan agar tanggal jatuh tempo bersamaan terjadi tidak terlalu sering untuk menghindari antrean panjang. Dua usulan kebijakan diajukan:\n\n\n\nKebijakan I: Mengubah jadwal Komik menjadi 7 hari dan Novel menjadi 14 hari.\n\n\n\nKebijakan II: Mengubah jadwal Komik menjadi 12 hari dan Novel menjadi 18 hari.\n\n\n\nEvaluasi manakah yang benar jika kriteria yang diinginkan adalah memperpanjang rentang waktu jatuh tempo bersamaan?\n\n\n\nA. Kebijakan I lebih baik, karena $KPK(7,14)=28$ hari\n\n\n\nB. Kebijakan II lebih baik, karena $KPK(12,18)=36$ hari (lebih lama dari Kebijakan I)\n\n\n\nC. Kebijakan I lebih baik, karena angka 7 dan 14 lebih kecil sehingga mudah dihitung\n\n\n\nD. Kebijakan II lebih buruk, karena 36 hari lebih cepat daripada rentang awal (42 hari)\n\n\n\nPembahasan:\n\n\n\n\nHitung rentang jadwal awal: $KPK(14,21)=42$ hari.\n\n\n\nHitung rentang Kebijakan I: $KPK(7,14)=14$ hari. (Makin sering terjadi antrian)\n\n\n\nHitung rentang Kebijakan II: $KPK(12,18)=36$ hari. Bila dibandingkan antara usulan Kebijakan I ($14$ hari) dan Kebijakan II ($36$ hari), maka Kebijakan II lebih baik dalam memperpanjang jarak rentang jatuh tempo bersamaan dibanding Kebijakan I.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa terkecoh memilih Kebijakan I karena mengira angka yang lebih kecil pada jadwal harian otomatis menghasilkan kelipatan yang lebih besar.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nJadwal awal: $KPK(14,21)=42$ hari. Kebijakan I: $KPK(7,14)=14$ hari. Kebijakan II: $KPK(12,18)=36$ hari. Karena 14 dan 36 kurang dari 42, tidak ada usulan yang memperpanjang rentang dibandingkan dengan jadwal awal.",
+    "source_original_explanation": "Pembahasan:\nHitung rentang jadwal awal: $KPK(14,21)=42$ hari.\nHitung rentang Kebijakan I: $KPK(7,14)=14$ hari. (Makin sering terjadi antrian)\nHitung rentang Kebijakan II: $KPK(12,18)=36$ hari. Bila dibandingkan antara usulan Kebijakan I ($14$ hari) dan Kebijakan II ($36$ hari), maka Kebijakan II lebih baik dalam memperpanjang jarak rentang jatuh tempo bersamaan dibanding Kebijakan I.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Kebijakan II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih Kebijakan I karena mengira angka yang lebih kecil pada jadwal harian otomatis menghasilkan kelipatan yang lebih besar.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Tegaskan apakah memilih usulan terbaik diantaraI/II atau wajib lebihlama dari42hari. Pada kriteria kedua,takadausulan yangmemenuhi; jangan memilih acuan otomatis."
+    ],
+    "reviewed_proposal_explanation_sha256": "d19e9d7d92d4ec7b38342d6f68ca59ab7439330b3408a2c1e4eeb50a08fbef31",
+    "approved_key_caption": "D. Tidak ada kebijakan yang memenuhi kriteria (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih Kebijakan I karena mengira angka yang lebih kecil pada jadwal harian otomatis menghasilkan kelipatan yang lebih besar.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "mcma-4-5-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7987,
+      "paragraph_end": 8024,
+      "body_block_start": 7596,
+      "body_block_end_exclusive": 7634
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nDua buah lampu penanda praktikum berkedip secara periodik setiap $24$ detik dan $36$ detik. Kedua lampu berkedip bersamaan pada detik ke-0. Seorang siswa melakukan evaluasi terhadap frekuensi kedipan bersama dalam durasi $5$ menit ($300$ detik).\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Kedua lampu berkedip bersamaan setiap 72 detik\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"$FPB(24,36)=12$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Dalam durasi 300 detik, kedua lampu berkedip bersamaan sebanyak 5 kali (tidak menghitung detik ke-0)\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Dalam durasi 300 detik, kedua lampu berkedip bersamaan sebanyak 4 kali (tidak menghitung detik ke-0)\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nMengevaluasi KPK dari 24 dan 36:\n\n\n\n$24={2}^{3}×3$\n\n\n\n$36={2}^{2}×{3}^{2}$\n\n\n\n$KPK(24,36)={2}^{3}×{3}^{2}=8×9=72 detik$ (Pernyataan A Benar).\n\n\n\n$FPB(24,36)={2}^{2}×3=12$ (Pernyataan B Benar).\n\n\n\nMengevaluasi frekuensi dalam 300 detik (tanpa detik ke-0):\n\n\n\nFrekuensi = ⌊$\\frac{300}{72}$⌋ = 4 kali (pada detik ke-72, 144, 216, dan 288)\n\n\n\n(Pernyataan D Benar, Pernyataan C Salah).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa membulatkan hasil bagi $300÷72=4,16$ ke atas menjadi 5 kali, padahal kedipan ke-5 baru terjadi pada detik ke-360.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nMengevaluasi KPK dari 24 dan 36:\n$24={2}^{3}×3$\n$36={2}^{2}×{3}^{2}$\n$KPK(24,36)={2}^{3}×{3}^{2}=8×9=72 detik$ (Pernyataan A Benar).\n$FPB(24,36)={2}^{2}×3=12$ (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 300 detik (tanpa detik ke-0):\nFrekuensi = ⌊$\\frac{300}{72}$⌋ = 4 kali (pada detik ke-72, 144, 216, dan 288)\n(Pernyataan D Benar, Pernyataan C Salah).",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi KPK dari 24 dan 36:\n$24={2}^{3}×3$\n$36={2}^{2}×{3}^{2}$\n$KPK(24,36)={2}^{3}×{3}^{2}=8×9=72 detik$ (Pernyataan A Benar).\n$FPB(24,36)={2}^{2}×3=12$ (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 300 detik (tanpa detik ke-0):\nFrekuensi = ⌊$\\frac{300}{72}$⌋ = 4 kali (pada detik ke-72, 144, 216, dan 288)\n(Pernyataan D Benar, Pernyataan C Salah).",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan hasil bagi $300÷72=4,16$ ke atas menjadi 5 kali, padahal kedipan ke-5 baru terjadi pada detik ke-360.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Tulis300/72=25/6≈4,1667 lalu ambilfloor4. Tidak perlu pembulatan untuk menghitung kejadian."
+    ],
+    "reviewed_proposal_explanation_sha256": "fd49c2ff0a8520cafc950a98deac114ca34cccaba717cf5e7ae0a5aa756b3728",
+    "approved_key_caption": "A, B, dan D (koreksi)",
+    "additional_notes": "Jumlah kejadian memakai floor(300÷72)=4, tanpa pembulatan.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "mcma-4-5-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 8025,
+      "paragraph_end": 8060,
+      "body_block_start": 7634,
+      "body_block_end_exclusive": 7670
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q8:O1:original",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nSeorang pengurus lab sains mengevaluasi pembagian $96$ tabung reaksi dan $144$ pipet tetes ke dalam beberapa kotak penyimpanan praktikum tanpa tersisa.\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Kotak penyimpanan terbanyak yang dapat dibentuk adalah 24 kotak.\n\n\n\n[ ] B. Kotak penyimpanan terbanyak yang dapat dibentuk adalah 48 kotak.\n\n\n\n[ ] C. Jika dibentuk 48 kotak, masing-masing kotak berisi 2 tabung reaksi dan 3 pipet tetes.\n\n\n\n[ ] D. Jika dibentuk 48 kotak, masing-masing kotak berisi 3 tabung reaksi dan 2 pipet tetes.\n\n\n\nPembahasan:\n\nMengevaluasi FPB dari $96$ dan $144$:\n\n\n\n$96={2}^{5}×3$\n\n\n\n$144={2}^{4}×{3}^{2}$\n\n\n\n$FPB(96,144)={2}^{4}×3=16×3=48$ kotak (Pernyataan A Salah, Pernyataan B Benar).\n\n\n\nMengevaluasi isi per kotak:\n\n\n\nTabung reaksi = $96÷48=2$ buah.\n\n\n\nPipet tetes = $144÷48=3$ buah. (Pernyataan C Benar, Pernyataan D Salah).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa memilih angka 24 sebagai FPB karena lupa bahwa $96$ dan $144$ masih bisa dibagi lagi dengan faktor $2$ setelah dibagi 24.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nMengevaluasi FPB dari $96$ dan $144$:\n$96={2}^{5}×3$\n$144={2}^{4}×{3}^{2}$\n$FPB(96,144)={2}^{4}×3=16×3=48$ kotak (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per kotak:\nTabung reaksi = $96÷48=2$ buah.\nPipet tetes = $144÷48=3$ buah. (Pernyataan C Benar, Pernyataan D Salah).",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi FPB dari $96$ dan $144$:\n$96={2}^{5}×3$\n$144={2}^{4}×{3}^{2}$\n$FPB(96,144)={2}^{4}×3=16×3=48$ kotak (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per kotak:\nTabung reaksi = $96÷48=2$ buah.\nPipet tetes = $144÷48=3$ buah. (Pernyataan C Benar, Pernyataan D Salah).",
+    "source_original_key": [
+      "B",
+      "C"
+    ],
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih angka 24 sebagai FPB karena lupa bahwa $96$ dan $144$ masih bisa dibagi lagi dengan faktor $2$ setelah dibagi 24.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "reviewed_proposal_explanation_sha256": "0b1d952f34aeb914c7bb088ee9c30188878761b94863b12ebb1ecd6beeb57a38",
+    "approved_key_caption": "B dan C (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih angka 24 sebagai FPB karena lupa bahwa $96$ dan $144$ masih bisa dibagi lagi dengan faktor $2$ setelah dibagi 24.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "kategori-4-5-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 8061,
+      "paragraph_end": 8103,
+      "body_block_start": 7670,
+      "body_block_end_exclusive": 7699
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q9:O1:original",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nSebuah panitia bazar sekolah mengevaluasi dua opsi pengemasan untuk $120$ kotak susu dan $150$ bungkus biskuit.\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-034 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Kantong plastik terbanyak yang dapat digunakan untuk mengemas seluruh makanan tanpa sisa adalah $30$ kantong.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Jika dikemas ke dalam $30$ kantong, banyaknya biskuit pada masing-masing kantong adalah $4$ bungkus.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Total seluruh kemasan (susu dan biskuit) pada masing-masing kantong jika dibagikan maksimum adalah $9$ kemasan.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\nMengevaluasi FPB dari $120$ dan $150$:\n\n\n$120={2}^{3}×3×5$\n\n\n\n$150=2×3×{5}^{2}$\n\n\n\n$FPB(120,150)=2×3×5=30$ kantong.\n\n\n\nEvaluasi pernyataan:\n\n\n\n(a) BENAR: Kantong terbanyak = FPB = $30$ kantong.\n\n\n\n(b) SALAH: Biskuit per kantong = $150÷30=5$ bungkus (bukan $4$ bungkus; $4$ bungkus adalah susu $120÷30=4$).\n\n\n\n(c) BENAR: Susu per kantong = $4$; Biskuit per kantong = $5$. Total per kantong = $4+5=9$ kemasan.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa tertukar saat membagi jumlah kotak susu ($120÷30=4$) sebagai jumlah bungkus biskuit.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nMengevaluasi FPB dari $120$ dan $150$:\n$120={2}^{3}×3×5$\n$150=2×3×{5}^{2}$\n$FPB(120,150)=2×3×5=30$ kantong.\nEvaluasi pernyataan:\n(a) BENAR: Kantong terbanyak = FPB = $30$ kantong.\n(b) SALAH: Biskuit per kantong = $150÷30=5$ bungkus (bukan $4$ bungkus; $4$ bungkus adalah susu $120÷30=4$).\n(c) BENAR: Susu per kantong = $4$; Biskuit per kantong = $5$. Total per kantong = $4+5=9$ kemasan.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi FPB dari $120$ dan $150$:\n$120={2}^{3}×3×5$\n$150=2×3×{5}^{2}$\n$FPB(120,150)=2×3×5=30$ kantong.\nEvaluasi pernyataan:\n(a) BENAR: Kantong terbanyak = FPB = $30$ kantong.\n(b) SALAH: Biskuit per kantong = $150÷30=5$ bungkus (bukan $4$ bungkus; $4$ bungkus adalah susu $120÷30=4$).\n(c) BENAR: Susu per kantong = $4$; Biskuit per kantong = $5$. Total per kantong = $4+5=9$ kemasan.",
+    "source_original_key": [
+      "1",
+      "3"
+    ],
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar saat membagi jumlah kotak susu ($120÷30=4$) sebagai jumlah bungkus biskuit.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "reviewed_proposal_explanation_sha256": "b7334f6b4add5056765b608c93687eba0cd71c9f72e00790741d8b8620e5b5cf",
+    "approved_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar saat membagi jumlah kotak susu ($120÷30=4$) sebagai jumlah bungkus biskuit.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-5-4-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9352,
+      "paragraph_end": 9389,
+      "body_block_start": 8801,
+      "body_block_end_exclusive": 8839
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: B. $5 liter/menit$\n\n\n\nDua buah selang air digunakan untuk mengalirkan air ke dalam dua kolam ikan hias sekolah yang berukuran berbeda:\n\n\n\nSelang I: Mengisi kolam berkapasitas $360 liter$ sampai penuh dalam waktu $18 menit$.\n\n\n\nSelang II: Mengisi kolam berkapasitas $600 liter$ sampai penuh dalam waktu $24 menit$.\n\n\n\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang II dan Selang I. Selisih debit air kedua selang tersebut adalah ....\n\n\n\nA. $3 liter/menit$\n\n\n\nB. $5 liter/menit$\n\n\n\nC. $7 liter/menit$\n\n\n\nD. $10 liter/menit$\n\n\n\nPembahasan:\n\n\n\n\nHitung debit Selang I (${Q}_{I}$):\n\n\n\n${Q}_{I}=\\frac{360 liter}{18 menit}=20 liter/menit$\n\n\n\nHitung debit Selang II (${Q}_{II}$):\n\n\n\n${Q}_{II}=\\frac{600 liter}{24 menit}=25 liter/menit$\n\n\n\nMenganalisis selisih debit (${Q}_{II}-{Q}_{I}$):\n\n\n\n$Selisih=25-20=5 liter/menit$\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengurangkan volume ($600-360=240$) dan waktu ($24-18=6$) terlebih dahulu, lalu membagi $240÷6=40 liter/menit$.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nHitung debit Selang I (${Q}_{I}$):\n${Q}_{I}=\\frac{360 liter}{18 menit}=20 liter/menit$\nHitung debit Selang II (${Q}_{II}$):\n${Q}_{II}=\\frac{600 liter}{24 menit}=25 liter/menit$\nMenganalisis selisih debit (${Q}_{II}-{Q}_{I}$):\n$Selisih=25-20=5 liter/menit$",
+    "source_original_explanation": "Pembahasan:\nHitung debit Selang I (${Q}_{I}$):\n${Q}_{I}=\\frac{360 liter}{18 menit}=20 liter/menit$\nHitung debit Selang II (${Q}_{II}$):\n${Q}_{II}=\\frac{600 liter}{24 menit}=25 liter/menit$\nMenganalisis selisih debit (${Q}_{II}-{Q}_{I}$):\n$Selisih=25-20=5 liter/menit$",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. $5 liter/menit$",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengurangkan volume ($600-360=240$) dan waktu ($24-18=6$) terlebih dahulu, lalu membagi $240÷6=40 liter/menit$.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Nyatakan bak/kolam/akuarium mula-mula kosong,tanpa kebocoran/aliran lain; untuk debit tetap,tulis konstan,atau minta debit rata-rata. Jangan mengasumsikan kondisi itu sebagai fakta sumber."
+    ],
+    "reviewed_proposal_explanation_sha256": "8a69f58c2b23291604477d31a285fb20387b607034e57dd362f1223d16be4f09",
+    "approved_key_caption": "B. $5 liter/menit$ (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengurangkan volume ($600-360=240$) dan waktu ($24-18=6$) terlebih dahulu, lalu membagi $240÷6=40 liter/menit$.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "kategori-5-4-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9630,
+      "paragraph_end": 9674,
+      "body_block_start": 9056,
+      "body_block_end_exclusive": 9080
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nTabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim sablon dan banyak kaus olahraga yang selesai disablon:\n\n\n\n<!-- table-050 -->\n<table>\n<tr><td>Waktu Kerja (jam)</td><td>Kaus Selesai (lembar)</td></tr>\n<tr><td>$3$</td><td>$27$</td></tr>\n<tr><td>$5$</td><td>$45$</td></tr>\n<tr><td>$8$</td><td>$72$</td></tr>\n</table>\n\nSeorang siswa mengevaluasi proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-051 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Laju pencetakan sablon kaus tersebut adalah $9 lembar/jam$.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Jika tim bekerja selama $10jam$, maka kaus yang selesai disablon adalah $90 lembar$.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Untuk menyelesaikan $108 lembar$ kaus, waktu kerja yang dibutuhkan adalah $14 jam$.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\n(a) BENAR: Laju pencetakan = $\\frac{27}{3}=\\frac{45}{5}=\\frac{72}{8}=9 lembar/jam$.\n\n\n\n(b) BENAR: Dalam $10jam$, kaus selesai = $10×9=90 lembar$.\n\n\n\n(c) SALAH: Untuk $108 lembar$ kaus, waktu yang dibutuhkan = $\\frac{108}{9}=12 jam$ (bukan $14 jam$).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah membagi $108$ dengan angka $8$ alih-alih membagi $108$ dengan laju konstantanya yaitu $9 lembar/jam$.\n\n\n\n\n\n",
+    "original_explanation": "Pembahasan koreksi:\n(a) BENAR: Laju pencetakan = $\\frac{27}{3}=\\frac{45}{5}=\\frac{72}{8}=9 lembar/jam$.\n(b) BENAR: Dalam $10jam$, kaus selesai = $10×9=90 lembar$.\n(c) SALAH: Untuk $108 lembar$ kaus, waktu yang dibutuhkan = $\\frac{108}{9}=12 jam$ (bukan $14 jam$).",
+    "source_original_explanation": "Pembahasan:\n(a) BENAR: Laju pencetakan = $\\frac{27}{3}=\\frac{45}{5}=\\frac{72}{8}=9 lembar/jam$.\n(b) BENAR: Dalam $10jam$, kaus selesai = $10×9=90 lembar$.\n(c) SALAH: Untuk $108 lembar$ kaus, waktu yang dibutuhkan = $\\frac{108}{9}=12 jam$ (bukan $14 jam$).",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membagi $108$ dengan angka $8$ alih-alih membagi $108$ dengan laju konstantanya yaitu $9 lembar/jam$.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Hapus atribusi atau jelaskan kesalahan pembulatan yang dimaksud sebagai kesalahan siswa; jangan menambahkan pembulatan ke solusi benar. Waktu benar12jam."
+    ],
+    "reviewed_proposal_explanation_sha256": "7cffb2123b8789bf11f43c0a0b4c7fb7bc8b3eb89df4c896019dd4e467ab6485",
+    "approved_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH (koreksi)",
+    "additional_notes": "14 jam adalah distraktor; 108÷9=12 jam.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-5-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9761,
+      "paragraph_end": 9805,
+      "body_block_start": 9166,
+      "body_block_end_exclusive": 9211
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi B\n\n\n\nDua buah keran digunakan untuk mengisi dua bak air penampungan laboratorium yang berbeda kapasitas:\n\n\n\nKeran A: Mengisi bak $400 liter$ sampai penuh dalam waktu $16 menit$.\n\n\n\nKeran B: Mengisi bak $720 liter$ sampai penuh dalam waktu $24 menit$.\n\n\n\nDua siswa mengevaluasi perbandingan laju aliran air (debit) kedua keran tersebut:\n\n\n\nEvaluasi A: \"Keran A memiliki debit lebih besar karena waktu pengisiannya lebih cepat ($16 menit<24 menit$).\"\n\n\n\nEvaluasi B: \"Keran B memiliki debit lebih besar, karena debit Keran B adalah $30 liter/menit$ sedangkan Keran A adalah $25 liter/menit$ (selisih $5 liter/menit$).\"\n\n\n\nManakah evaluasi yang pasti benar?\n\n\n\nA. Evaluasi A\n\n\n\nB. Evaluasi B\n\n\n\nC. Kedua evaluasi salah\n\n\n\nD. Keran A dan B memiliki debit yang sama\n\n\n\nPembahasan:\n\n\nMengevaluasi debit Keran A (${Q}_{A}$):\n\n\n\n${Q}_{A}=\\frac{400 liter}{16 menit}=25 liter/menit$\n\n\n\nMengevaluasi debit Keran B (${Q}_{B}$):\n\n\n\n${Q}_{B}=\\frac{720 liter}{24 menit}=30 liter/menit$\n\n\n\nMembandingkan nilai debit:\n\n\n\n$$30\\text{ liter/menit} > 25\\text{ liter/menit} \\implies \\text{Selisih } = 30 - 25 = 5\\text{ liter/menit}$$\n\n\n\nMaka, Evaluasi B adalah yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa memilih Evaluasi A karena hanya melihat variabel waktu tempuh tanpa membaginya dengan kapasitas volume air masing-masing bak.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nMengevaluasi debit Keran A (${Q}_{A}$):\n${Q}_{A}=\\frac{400 liter}{16 menit}=25 liter/menit$\nMengevaluasi debit Keran B (${Q}_{B}$):\n${Q}_{B}=\\frac{720 liter}{24 menit}=30 liter/menit$\nMembandingkan nilai debit:\n$$30\\text{ liter/menit} > 25\\text{ liter/menit} \\implies \\text{Selisih } = 30 - 25 = 5\\text{ liter/menit}$$\nMaka, Evaluasi B adalah yang tepat.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi debit Keran A (${Q}_{A}$):\n${Q}_{A}=\\frac{400 liter}{16 menit}=25 liter/menit$\nMengevaluasi debit Keran B (${Q}_{B}$):\n${Q}_{B}=\\frac{720 liter}{24 menit}=30 liter/menit$\nMembandingkan nilai debit:\n$$30\\text{ liter/menit} > 25\\text{ liter/menit} \\implies \\text{Selisih } = 30 - 25 = 5\\text{ liter/menit}$$\nMaka, Evaluasi B adalah yang tepat.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena hanya melihat variabel waktu tempuh tanpa membaginya dengan kapasitas volume air masing-masing bak.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Nyatakan bak/kolam/akuarium mula-mula kosong,tanpa kebocoran/aliran lain; untuk debit tetap,tulis konstan,atau minta debit rata-rata. Jangan mengasumsikan kondisi itu sebagai fakta sumber."
+    ],
+    "reviewed_proposal_explanation_sha256": "f644cdf720f257084886627ab3daef42cc6c910efdbfb74180076686e91c1065",
+    "approved_key_caption": "B. Evaluasi B (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena hanya melihat variabel waktu tempuh tanpa membaginya dengan kapasitas volume air masing-masing bak.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  },
+  "pg-5-5-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9806,
+      "paragraph_end": 9851,
+      "body_block_start": 9211,
+      "body_block_end_exclusive": 9257
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi Y\n\n\n\nPengurus koperasi sekolah mengevaluasi dua opsi penawaran grosir buku gambar dari dua toko penyedia:\n\n\n\nToko Alfa: Menjual $1$ pak berisi $15$ buku gambar seharga Rp60.000,00.\n\n\n\nToko Beta: Menjual $1$ pak berisi $25$ buku gambar seharga Rp92.500,00.\n\n\n\nDua siswa menyusun evaluasi kelayakan usulan belanja:\n\n\n\nEvaluasi X: \"Toko Alfa lebih efisien untuk dibeli karena total biaya belanja per paknya lebih murah (Rp60.000,00 < Rp92.500,00).\"\n\n\n\nEvaluasi Y: \"Toko Beta lebih hemat karena menawarkan harga per unit sebesar Rp3.700,00/buku, sedangkan Toko Alfa sebesar Rp4.000,00/buku (hemat Rp300,00/buku).\"\n\n\n\nEvaluasi manakah yang benar berdasarkan analisis laju harga per unit?\n\n\n\nA. Evaluasi X\n\n\n\nB. Evaluasi Y\n\n\n\nC. Kedua evaluasi salah\n\n\n\nD. Toko Alfa dan Toko Beta menawarkan harga per unit yang ekuivalen\n\n\n\nPembahasan:\n\n\n\n\nHitung harga per unit Toko Alfa:\n\n\n\n$Harga Alfa=\\frac{Rp60.000,00}{15 buku}=Rp4.000,00/buku$\n\n\n\nHitung harga per unit Toko Beta:\n\n\n\n$HargaBeta=\\frac{Rp92.500,00}{25 buku}=Rp3.700,00/buku$\n\n\n\nMembandingkan harga per unit:\n\n\n\n$Rp4.000,00-Rp3.700,00=Rp300,00/buku$\n\n\n\nMaka, Evaluasi Y divalidasi paling tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa memilih Evaluasi X karena terkecoh pada total pengeluaran absolut per pak tanpa menghitung laju harga per unit barang.\n\n",
+    "original_explanation": "Pembahasan koreksi:\nHitung harga per unit Toko Alfa:\n$Harga Alfa=\\frac{Rp60.000,00}{15 buku}=Rp4.000,00/buku$\nHitung harga per unit Toko Beta:\n$HargaBeta=\\frac{Rp92.500,00}{25 buku}=Rp3.700,00/buku$\nMembandingkan harga per unit:\n$Rp4.000,00-Rp3.700,00=Rp300,00/buku$\nMaka, Evaluasi Y divalidasi paling tepat.",
+    "source_original_explanation": "Pembahasan:\nHitung harga per unit Toko Alfa:\n$Harga Alfa=\\frac{Rp60.000,00}{15 buku}=Rp4.000,00/buku$\nHitung harga per unit Toko Beta:\n$HargaBeta=\\frac{Rp92.500,00}{25 buku}=Rp3.700,00/buku$\nMembandingkan harga per unit:\n$Rp4.000,00-Rp3.700,00=Rp300,00/buku$\nMaka, Evaluasi Y divalidasi paling tepat.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi Y",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi X karena terkecoh pada total pengeluaran absolut per pak tanpa menghitung laju harga per unit barang.",
+    "approval_status": "USER_APPROVED_CORRECTION",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Koreksi dan aktivasi generator lokal disetujui pengguna 21 Oktober 2026.",
+      "Sumber v1 dan arsip draf tetap dipertahankan; tidak memublikasikan database atau mengaktifkan self-adjustment."
+    ],
+    "proposed_original_version": 2,
+    "correction_rationale": [
+      "Usulkan kunciB.EvaluasiY. Pembahasan harga perunit sudahbenar; sumber belum diubah."
+    ],
+    "reviewed_proposal_explanation_sha256": "61af2b224bb4bf81f59526e2f71dde3bcfff8ecc588fb504328bb62b09bdaa2a",
+    "approved_key_caption": "B. Evaluasi Y (koreksi)",
+    "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi X karena terkecoh pada total pengeluaran absolut per pak tanpa menghitung laju harga per unit barang.",
+    "approval_date": "2026-10-21",
+    "approved_by": "PROJECT_OWNER_USER",
+    "approval_scope": [
+      "SOURCE_CORRECTIONS",
+      "LOCAL_GENERATOR_ACTIVATION"
+    ],
+    "difficulty_equivalence_approved": false,
+    "database_publication_approved": false,
+    "proposal_archive": "variant_gen/drafts/2026-10-20-level45-academic",
+    "approval_record": "variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/approval.json"
+  }
+}

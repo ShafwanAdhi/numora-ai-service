@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-21-4-4",
+  "config_version": 1,
+  "original_hash": "8d5f7cb068d6fac9",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else ((60)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else ((70)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else ((75)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else ((90)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (75-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' poin, rerata awal)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "75-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "475-6*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "100-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Nilai lima siswa adalah {v0}, {v1}, {v2}, {v3}, dan {v4}. Guru kemudian menambahkan satu nilai baru, yaitu {v5}, ke dalam kumpulan data tersebut.\n\nAnalisis yang tepat mengenai perubahan rerata adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rerata tetap karena nilai baru tidak mengubah nilai yang sudah ada.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rerata meningkat karena nilai baru lebih besar daripada rerata awal.{v6}{v7}{v8}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Rerata menurun karena jumlah data bertambah.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rerata menjadi sama dengan median awal.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v9}. Rerata awal={v9}. Jumlah baru={v10} untuk6data, nilai baru={v11} lebih besar daripada rerata awal; rerata meningkat. Hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

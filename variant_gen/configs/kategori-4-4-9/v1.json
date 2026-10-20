@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-4-4-9",
+  "config_version": 1,
+  "original_hash": "76066a7fd8842d99",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'84' if k == 0 else (2*(42+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'126' if k == 0 else (3*(42+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'42' if k == 0 else (42+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2*(42+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3*(42+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "42+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah panitia kegiatan sekolah menyediakan ${v0}$ kemasan minuman kotak dan ${v1}$ kemasan makanan ringan. Seluruh konsumsi dikemas ke dalam beberapa kantong plastik dengan komposisi yang persis sama tanpa ada sisa.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Kantong plastik terbanyak yang dapat digunakan untuk mengemas seluruh konsumsi adalah ${v2}$ kantong.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Banyaknya makanan ringan pada masing-masing kantong plastik adalah $2$ kemasan.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Total seluruh kemasan (minuman dan makanan) pada masing-masing kantong plastik adalah $5$ kemasan.",
+      "correct": true
+    }
+  ],
+  "explanation": "FPB({v3},{v4}) = {v5}. Minuman per kantong = 2, makanan per kantong = 3; total = 5. Pernyataan 1 dan 3 benar; 2 salah karena tertukar komponen.",
+  "shuffle": false,
+  "max_draws": 1000
+}

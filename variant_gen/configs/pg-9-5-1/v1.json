@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-9-5-1",
+  "config_version": 1,
+  "original_hash": "c3424f3e9ff8e2ac",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'85.000,00' if k == 0 else (85000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'90.000,00' if k == 0 else (90000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'12.500,00' if k == 0 else (12500*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'20.000,00' if k == 0 else (20000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'15.000,00' if k == 0 else (15000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "20000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "12500*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola tempat wisata mengevaluasi tarif sewa dua paket wahana permainan:\nPaket A: 3 tiket sepeda air dan 2 tiket komidi putar seharga Rp{v0}.\nPaket B: 2 tiket sepeda air dan 4 tiket komidi putar seharga Rp{v1}.\nSeorang pengunjung mengevaluasi bahwa harga 1 tiket sepeda air lebih murah dibanding harga 1 tiket komidi putar. Evaluasi yang tepat terhadap pernyataan pengunjung tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Salah, karena harga tiket sepeda air Rp{v2} dan komidi putar Rp{v3}.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena harga 1 tiket sepeda air adalah Rp{v3} sedangkan tiket komidi putar adalah Rp{v2}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Benar, karena harga 1 tiket sepeda air adalah Rp{v4} sedangkan tiket komidi putar adalah Rp{v3}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Benar, karena harga tiket sepeda air mendapat potongan khusus dari paket B",
+      "correct": false
+    }
+  ],
+  "explanation": "Harga sepeda air {v5}, komidi putar {v6} rupiah. Sepeda air lebih mahal. B benar; A salah harga; C salah hasil; D tanpa data diskon.",
+  "shuffle": false,
+  "max_draws": 1000
+}

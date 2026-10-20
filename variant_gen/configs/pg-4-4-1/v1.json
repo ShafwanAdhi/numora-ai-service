@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-4-4-1",
+  "config_version": 1,
+  "original_hash": "1d7cf1e000db9b44",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        28
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'26' if k == 0 else (2+k+24 if 2+k+24<=31 else 2+k+24-31 if 2+k+24<=61 else 2+k+24-61 if 2+k+24<=92 else 2+k+24-92)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'Mei' if k == 0 else ('Mei' if 2+k+24<=31 else 'Juni' if 2+k+24<=61 else 'Juli' if 2+k+24<=92 else 'Agustus')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'19' if k == 0 else (2+k+48 if 2+k+48<=31 else 2+k+48-31 if 2+k+48<=61 else 2+k+48-61 if 2+k+48<=92 else 2+k+48-92)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'Juni' if k == 0 else ('Mei' if 2+k+48<=31 else 'Juni' if 2+k+48<=61 else 'Juli' if 2+k+48<=92 else 'Agustus')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (2+k+47 if 2+k+47<=31 else 2+k+47-31 if 2+k+47<=61 else 2+k+47-61 if 2+k+47<=92 else 2+k+47-92)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'Juni' if k == 0 else ('Mei' if 2+k+47<=31 else 'Juni' if 2+k+47<=61 else 'Juli' if 2+k+47<=92 else 'Agustus')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'13' if k == 0 else (2+k+72 if 2+k+72<=31 else 2+k+72-31 if 2+k+72<=61 else 2+k+72-61 if 2+k+72<=92 else 2+k+72-92)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'Juli' if k == 0 else ('Mei' if 2+k+72<=31 else 'Juni' if 2+k+72<=61 else 'Juli' if 2+k+72<=92 else 'Agustus')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'I' if k == 0 else ('II')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'II' if k == 0 else ('I')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "2+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga orang siswa memeriksa jadwal penyemprotan disinfektan untuk tiga area ruang di sekolah:\nRuang Kelas: setiap 6 hari sekali\nRuang Laboratorium: setiap 8 hari sekali\nRuang Perpustakaan: setiap 12 hari sekali\nJika penyemprotan bersamaan pertama dilakukan pada tanggal {v0} Mei, siswa menganalisis tanggal berapa penyemprotan bersamaan untuk ketiga kalinya akan dilakukan:\nAnalisis {v9}: Penyemprotan ketiga terjadi 24 hari setelah {v0} Mei, yaitu tanggal {v1} {v2}.\nAnalisis {v10}: Penyemprotan ketiga terjadi $2×24=48$ hari setelah {v0} Mei, yaitu tanggal {v3} {v4} (mengingat bulan Mei memiliki 31 hari).\nAnalisis III: Penyemprotan ketiga terjadi $2×24=48$ hari setelah {v0} Mei, yaitu tanggal {v5} {v6} (menganggap bulan Mei memiliki 30 hari).\nAnalisis IV: Penyemprotan ketiga terjadi 72 hari setelah {v0} Mei, yaitu tanggal {v7} {v8}.\nHasil analisis siapakah yang pasti benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis I",
+      "correct": "k != 0"
+    },
+    {
+      "id": "B",
+      "text": "Analisis II",
+      "correct": "k == 0"
+    },
+    {
+      "id": "C",
+      "text": "Analisis III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis IV",
+      "correct": false
+    }
+  ],
+  "explanation": "KPK(6,8,12) = 24 hari. Kejadian pertama pada hari ke-0; kejadian ketiga setelah (3-1)*24 = 48 hari. Tanggal mulai = {v11} Mei. Bulan Mei 31 hari dan Juni 30 hari. Gunakan tanggal pada klaim 48 hari yang menghitung kalender tersebut secara benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

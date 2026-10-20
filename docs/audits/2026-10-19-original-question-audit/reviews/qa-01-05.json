@@ -1,0 +1,4134 @@
+{
+  "group": "01-05",
+  "checked_count": 250,
+  "checked_tuples": [
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 1,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "FINDING",
+      "finding_ids": [
+        "QA01"
+      ],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "FINDING",
+      "finding_ids": [
+        "QA02"
+      ],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "FINDING",
+      "finding_ids": [
+        "QA03"
+      ],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "FINDING",
+      "finding_ids": [
+        "QA04"
+      ],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "FINDING",
+      "finding_ids": [
+        "QA05"
+      ],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "FINDING",
+      "finding_ids": [
+        "QA06"
+      ],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "FINDING",
+      "finding_ids": [
+        "QA07"
+      ],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 3,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "FINDING",
+      "finding_ids": [
+        "QA08"
+      ],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 6,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 8,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "source_number": 10,
+      "occurrence": 1,
+      "fragment": "original",
+      "qa_status": "NO_ADDITIONAL_FINDING",
+      "finding_ids": [],
+      "checked_components": [
+        "stem",
+        "options",
+        "declared_answer",
+        "explanation"
+      ],
+      "method": "INDEPENDENT_SOURCE_RECALCULATION"
+    }
+  ],
+  "findings": [
+    {
+      "id": "QA01",
+      "indicator": "1",
+      "level": 4,
+      "source_number": 1,
+      "occurrence": 1,
+      "fragment": "original",
+      "severity": "CRITICAL",
+      "component": "options",
+      "evidence": "Analisis I dan Analisis II di stem identik; opsi A dan B juga sama-sama menunjuk urutan A,C,B,D. Perhitungan -1,85 < -1,75 < -sqrt(3)?-1,732 < -1,70 membuat keduanya benar.",
+      "expected": "PG harus memiliki satu opsi unik; hapus duplikasi atau ubah salah satu analisis.",
+      "primary_alignment": "CONFIRMS_PRIMARY"
+    },
+    {
+      "id": "QA02",
+      "indicator": "1",
+      "level": 5,
+      "source_number": 2,
+      "occurrence": 1,
+      "fragment": "original",
+      "severity": "CRITICAL",
+      "component": "stem",
+      "evidence": "Stem mula-mula mendefinisikan a=sqrt(32)-2sqrt(2)=2sqrt(2), lalu menyajikan beberapa rekonstruksi dan akhirnya mendefinisikan ulang a=sqrt(48)-4sqrt(3)=0. Objek yang ditanyakan tidak tunggal.",
+      "expected": "Pertahankan satu definisi a; untuk versi akhir jawaban C, gunakan hanya a=sqrt(48)-4sqrt(3) dan b=5/11.",
+      "primary_alignment": "CONFIRMS_PRIMARY"
+    },
+    {
+      "id": "QA03",
+      "indicator": "1",
+      "level": 5,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "severity": "CRITICAL",
+      "component": "options",
+      "evidence": "A menyatakan B=C, yang benar karena -4/5=-sqrt(0,64)=-0,8. B menambahkan fakta benar bahwa keduanya lebih dangkal dari A=-0,85. Jadi A dan B sama-sama benar.",
+      "expected": "Ubah A menjadi klaim salah atau jadikan MCMA dengan A dan B benar.",
+      "primary_alignment": "CONFIRMS_PRIMARY"
+    },
+    {
+      "id": "QA04",
+      "indicator": "2",
+      "level": 4,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "severity": "CRITICAL",
+      "component": "answer",
+      "evidence": "Secara literal klausa bersyarat (b) benar: jika penjumlahan dipaksakan dahulu, (0,75+1,25)?0,4=0,8. Pelanggaran prioritas operasi tidak membuat implikasi aritmetiknya salah. Maka A,B,C semuanya Benar, bukan B Salah.",
+      "expected": "Ubah bunyi B menjadi klaim bahwa langkah tersebut sah, atau kunci B menjadi Benar.",
+      "primary_alignment": "CONFIRMS_PRIMARY"
+    },
+    {
+      "id": "QA05",
+      "indicator": "2",
+      "level": 5,
+      "source_number": 9,
+      "occurrence": 1,
+      "fragment": "original",
+      "severity": "CRITICAL",
+      "component": "answer",
+      "evidence": "Secara literal (b) benar: (0,8+1,5)?0,2=0,46. Kunci Salah menilai keabsahan prosedur yang tidak dinyatakan dalam proposisi.",
+      "expected": "Tulis ?langkah itu sah? bila hendak menguji prioritas, atau labeli B Benar.",
+      "primary_alignment": "CONFIRMS_PRIMARY"
+    },
+    {
+      "id": "QA06",
+      "indicator": "3",
+      "level": 5,
+      "source_number": 7,
+      "occurrence": 1,
+      "fragment": "original",
+      "severity": "CRITICAL",
+      "component": "answer",
+      "evidence": "sqrt(18)=4,2426?4,2; sqrt(38)=6,1644?6,2; sqrt(70)=8,3666?8. Jadi A,B,C benar dan D salah. Header A,B,D bertentangan dengan opsi final dan pembahasan.",
+      "expected": "Ubah kunci menjadi A,B,C.",
+      "primary_alignment": "CONFIRMS_PRIMARY"
+    },
+    {
+      "id": "QA07",
+      "indicator": "4",
+      "level": 4,
+      "source_number": 5,
+      "occurrence": 1,
+      "fragment": "original",
+      "severity": "IMPORTANT",
+      "component": "stem",
+      "evidence": "Pertanyaan menyebut jumlah ubin persegi/lantai 12?15?20, tetapi penyelesaian sebenarnya menyusun balok 12?15?20 menjadi kubus. KPK=60 membenarkan opsi C, namun konteks dan header kunci memuat fragmen 300/900 yang tak relevan.",
+      "expected": "Ganti konteks menjadi penyusunan balok dan sederhanakan header menjadi C; buang fragmen 300/900.",
+      "primary_alignment": "CONFIRMS_PRIMARY"
+    },
+    {
+      "id": "QA08",
+      "indicator": "5",
+      "level": 5,
+      "source_number": 4,
+      "occurrence": 1,
+      "fragment": "original",
+      "severity": "CRITICAL",
+      "component": "answer",
+      "evidence": "Harga satuan Alfa=60000/15=4000 dan Beta=92500/25=3700, sehingga Evaluasi Y benar. Dalam opsi, Evaluasi Y adalah B, sedangkan header menyebut C dan pembahasan tidak menyebut huruf.",
+      "expected": "Ubah kunci menjadi B.",
+      "primary_alignment": "CONFIRMS_PRIMARY"
+    }
+  ],
+  "summary": {
+    "findings": 8,
+    "critical": 7,
+    "important": 1,
+    "additional_beyond_primary": 0
+  }
+}

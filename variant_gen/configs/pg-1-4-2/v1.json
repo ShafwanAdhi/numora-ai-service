@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-1-4-2",
+  "config_version": 1,
+  "original_hash": "485d95ec75175357",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else (4*(5 if k == 0 else (k+1)**2))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else ((5 if k == 0 else (k+1)**2))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'0,272727' if k == 0 else ((27+k)*10101/1000000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else (27+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(5 if k == 0 else (k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "27+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menganalisis jenis dua buah bilangan real $x$ dan $y$ yang diperoleh dari hasil pengukuran konstanta fisika sederhana di laboratorium:\n$x=\\sqrt{{v0}}-\\sqrt{{v1}}$\n$y=0,{v3}{v3}{v3}...$ (desimal berulang)\nHasil analisis yang pasti benar mengenai jenis kedua bilangan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nilai $x$ dan $y$ keduanya merupakan bilangan irasional",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Nilai $x$ dan $y$ keduanya merupakan bilangan rasional",
+      "correct": "k != 0"
+    },
+    {
+      "id": "C",
+      "text": "Nilai $x$ adalah irasional dan $y$ adalah rasional",
+      "correct": "k == 0"
+    },
+    {
+      "id": "D",
+      "text": "Nilai $x$ adalah rasional dan $y$ adalah irasional",
+      "correct": false
+    }
+  ],
+  "explanation": "Sederhanakan x dengan mengeluarkan faktor kuadrat sempurna. Radikan dasar = {v4}. x = sqrt({v4}). Desimal berulang selalu rasional. Untuk radikan kuadrat sempurna x rasional; selain itu x irasional. Bilangan y rasional karena blok berulang {v5}/99.",
+  "shuffle": false,
+  "max_draws": 1000
+}

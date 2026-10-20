@@ -1,0 +1,105 @@
+{
+  "question_id": "mcma-10-5-8",
+  "config_version": 1,
+  "original_hash": "363eb600728a6bde",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'{a}' if k == 0 else 'a'"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (8*(3+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (4*(3+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else ((3+k)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "4*(3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "(3+k)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "8*(3+k)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua bentuk aljabar berikut dievaluasi kesetaraannya untuk setiap nilai $x$:\nBentuk P: $(2x+{v0}{)}^{2}-(2x-{v0}{)}^{2}$\nBentuk Q: ${v1}x$\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Penjabaran dari $(2x+{v0}{)}^{2}$ adalah $4{x}^{2}+{v2}x+{v3}$.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Penjabaran dari $(2x-{v0}{)}^{2}$ adalah $4{x}^{2}-{v2}x-{v3}$.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Selisih dari kedua bentuk kuadrat tersebut menghasilkan ${v1}x$.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Bentuk P dan Bentuk Q terbukti ekuivalen (setara).",
+      "correct": true
+    }
+  ],
+  "explanation": "Penjabaran pertama: $(2x+{v4})^2=4x^2+{v5}x+{v6}$. Penjabaran kedua: $(2x-{v4})^2=4x^2-{v5}x+{v6}$. Selisih: $(2x+{v4})^2-(2x-{v4})^2={v7}x$. A, C, D benar; B salah karena konstanta kuadrat selalu positif.",
+  "shuffle": false,
+  "max_draws": 1000
+}

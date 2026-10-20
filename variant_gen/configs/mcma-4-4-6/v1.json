@@ -1,0 +1,140 @@
+{
+  "question_id": "mcma-4-4-6",
+  "config_version": 1,
+  "original_hash": "5d0083f200be5e27",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "choice",
+      "values": [
+        0,
+        2,
+        6,
+        8,
+        12,
+        14,
+        18,
+        24,
+        26,
+        32,
+        36,
+        38,
+        42,
+        48,
+        54,
+        56,
+        62,
+        66,
+        68,
+        74,
+        78,
+        84,
+        92,
+        96,
+        98,
+        102,
+        104,
+        108,
+        122,
+        126,
+        132
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'45' if k == 0 else (9*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else (12*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else (18*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (6*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (3*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'180' if k == 0 else (36*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "6*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "36*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan tiga buah bilangan asli: ${v0},{v1},$ dan ${v2}$. Seorang siswa menganalisis hubungan faktorisasi prima, FPB, dan KPK dari ketiga bilangan tersebut.\nManakah hasil analisis berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Faktorisasi prima dari ${v2}$ adalah $2×{3}^{2}×{v3}$.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "FPB dari ketiga bilangan tersebut adalah {v4}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "FPB dari ketiga bilangan tersebut adalah {v5}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "KPK dari ketiga bilangan tersebut adalah {v6}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Faktorisasi bilangan ketiga = 2*3^2*{v7}. FPB = {v8}, bukan {v9}. KPK = {v10}. A, C, D benar; B salah karena tidak membagi bilangan pertama.",
+  "shuffle": false,
+  "max_draws": 1000
+}

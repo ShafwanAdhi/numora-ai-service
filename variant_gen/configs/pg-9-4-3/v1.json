@@ -1,0 +1,85 @@
+{
+  "question_id": "pg-9-4-3",
+  "config_version": 1,
+  "original_hash": "abc6521bb70dd83b",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24+12*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (6+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', x saat y=0)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "6+3*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang guru menyajikan sistem persamaan linear dua variabel berikut untuk dianalisis jenis solusinya berdasarkan grafik koordinat Kartesius:\n$2x+3y={v0}$\n$4x+6y={v1}$\nJenis solusi dari sistem persamaan linear tersebut dan interpretasi grafiknya yang benar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Memiliki tak hingga banyaknya solusi, karena kedua garis saling berimpit{v2}{v3}{v4}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Memiliki satu solusi tunggal, karena kedua garis saling berpotongan di satu titik",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Tidak memiliki solusi, karena kedua garis saling sejajar dan tidak pernah berpotongan",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Memiliki dua solusi, karena kedua garis memotong sumbu-$X$ dan sumbu-$Y$",
+      "correct": false
+    }
+  ],
+  "explanation": "Persamaan kedua tepat dua kali persamaan pertama, sehingga garis berimpit. Pada y nol, x = {v5}. Tak hingga solusi; hanya A benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

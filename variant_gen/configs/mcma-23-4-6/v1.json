@@ -1,0 +1,134 @@
+{
+  "question_id": "mcma-23-4-6",
+  "config_version": 1,
+  "original_hash": "75adc3f85a8869a9",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else (100+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else (14+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'16' if k == 0 else (16+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else (20+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'17' if k == 0 else (17+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'0,14' if k == 0 else (14+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('/')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (100+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'0,20' if k == 0 else (20+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'0,15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "14+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "100+10*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah dadu dilempar sebanyak {v0} kali. Hasil percobaan menunjukkan angka 1 muncul {v1} kali, angka 2 muncul {v2} kali, angka 3 muncul {v3} kali, angka 4 muncul {v4} kali, angka 5 muncul {v5} kali, dan angka 6 muncul {v6} kali.\n\nPilih semua pernyataan yang benar.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Frekuensi relatif munculnya angka 1 adalah {v7}{v8}{v9}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Frekuensi relatif munculnya angka 4 adalah {v10}{v8}{v9}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Frekuensi relatif munculnya angka 6 adalah {v11}{v8}{v9}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Frekuensi relatif munculnya angka 2 adalah 0,20.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Jumlah seluruh frekuensi relatif adalah 1,5.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v12}/{v13}. Semua hitungan berjumlah{v13}. A,B,C benar. Frekuensi angka2 berbeda dari0.20; jumlah frekuensi relatif1,bukan1.5.",
+  "shuffle": false,
+  "max_draws": 1000
+}

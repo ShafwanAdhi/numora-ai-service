@@ -1,0 +1,499 @@
+{
+  "date": "2026-10-21",
+  "scope": "Drill Paket 1 indikator 16-19 level 4-5, remaining 53/80",
+  "added": {
+    "generators": 38,
+    "conceptual_originals": 15,
+    "editorial_stock": 30,
+    "local_original_revisions": 14
+  },
+  "new_bank": {
+    "originals": 80,
+    "generators": 65,
+    "conceptual": 15,
+    "editorial_stock": 30,
+    "hold": 0
+  },
+  "indicators": [
+    {
+      "indicator": 16,
+      "originals": 50,
+      "generators": 33,
+      "conceptual": 17,
+      "stock": 38
+    },
+    {
+      "indicator": 17,
+      "originals": 50,
+      "generators": 46,
+      "conceptual": 4,
+      "stock": 10
+    },
+    {
+      "indicator": 18,
+      "originals": 50,
+      "generators": 50,
+      "conceptual": 0,
+      "stock": 0
+    },
+    {
+      "indicator": 19,
+      "originals": 50,
+      "generators": 48,
+      "conceptual": 2,
+      "stock": 4
+    }
+  ],
+  "workspace": {
+    "originals": 1033,
+    "generators": 944,
+    "conceptual": 86,
+    "editorial_stock": 248,
+    "hold": [
+      "pg-1-2-1",
+      "pg-5-3-3",
+      "mcma-6-3-7"
+    ]
+  },
+  "checks": {
+    "numeric_input_cases": 1178,
+    "unique_valid_numeric_candidates": 1140,
+    "tests_passed": 49,
+    "http_numeric_questions": 38,
+    "http_stock_questions": 15,
+    "stock_selection_sequence": [
+      1,
+      2,
+      1
+    ],
+    "database_calls": 0,
+    "runtime_output_files": 0,
+    "builder_rerun_new_revisions": 0,
+    "builder_rerun_added_stock": 0
+  },
+  "source_sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+  "source_csv_sha256": "ebf38e2bc6fd0b3027f2e126cdcece05bdc550d00a32fff16d694b883fc48d62",
+  "configs": [
+    {
+      "question_id": "pg-16-4-1",
+      "sha256": "0f67b077f6999fa47df0c7e3ff3479b46afdfb6ed94e170942d832c85b109a3c",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-16-4-3",
+      "sha256": "9d90b2258342008f521ea34a0bb0787bd3776e190394ed1d65d2a000fabe4551",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-16-4-4",
+      "sha256": "4803dce5fde8ce1a65a96cd37471f85a2fd03aeaf0a56bf1cfe9156d054a7449",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-16-5-3",
+      "sha256": "7275a4d88af349e834aa289d71b6c5353d7fc8c1aa69ef46acbf923023e564a8",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-16-5-5",
+      "sha256": "af280b7a1256bcf8b3ebb0bae3d75b8bf3ea218aa3f678441f4fa096033e0d15",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-16-5-6",
+      "sha256": "9c5bcf1628a30440b24d9f77dbbc3793c500d29b9548ad01b6bc110944d7f967",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-16-5-9",
+      "sha256": "69938b5a9183061290320128f5a7330377801dd457160febd4dcb790b518db06",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-17-4-6",
+      "sha256": "1e3897daa0b3164b693ac9ce3d6d190aa4f1fa11b254bcd51f1880fcc0132ad8",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-17-4-7",
+      "sha256": "48297a3ef473e01ef06c6a5a6c107e8f12189e6f627e7837d2caf66adcb34501",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-17-4-8",
+      "sha256": "3e3a7617b5d120b0d054eacc92fdb08d30e6ede12ac56497f91aa483367501ec",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-17-4-9",
+      "sha256": "518bee69a8e3bb5b91b67e60d5a6eab143d9990e2f87355b748b2082edd482cb",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-17-4-10",
+      "sha256": "a7fbedcf772a74d30081cf14f8606493494d63e76d1e50adde5d587f442c9dd2",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-17-5-1",
+      "sha256": "c4d1b37a273fbfebfbf3a9394ad9c2bae5c4ff89e76b41d4167ef6d40d493391",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-17-5-6",
+      "sha256": "38f400090d7c73455a592410b570bf2cf6dbe2e4ed31b0495d77bcace256b0fb",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-17-5-8",
+      "sha256": "95188f65a69c56d0bdebbab13e5d743571a2100935eb6427e1cdf0821217ab55",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-17-5-9",
+      "sha256": "f91af72f42ccaa14ea43cbe5de01c700060c0507dc81b6f427800f5f27060882",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-17-5-10",
+      "sha256": "fc5d53d0aefc12fd95584ff18f58b6b1861e4a825263e3ef2b9b8f959262d8a9",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-18-4-3",
+      "sha256": "02ba6f031b39bfb06cd24394d9f0cff2791d02ec8f1e3a0513c952d8a02e613c",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-18-4-7",
+      "sha256": "a06974e8b2511c78a071b7d2eae6473b393475a95e91adcab6606be317cc27a8",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-18-4-8",
+      "sha256": "54776da58408bbf2c83353e08b7a3a135e2d65d0c0dc9242b4a76759d3d18278",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-18-4-9",
+      "sha256": "0dae8110d2537346829fde9afe672a576839c086e7077afcbe81bfc051e8b2db",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-18-4-10",
+      "sha256": "5ca1dc11c2cdac528397552cb4c2c036d9cf3097bae8451b78003e295b351c69",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-18-5-3",
+      "sha256": "963a31dd3889d4955b8ac387ccbd81a1b6e8716cc703fb6b3e6fa3464ae411ac",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-18-5-6",
+      "sha256": "b573f04b517104a0cfb884a652e57f4c32602672fa0cead172af9595b71f1d9f",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-18-5-7",
+      "sha256": "6df42ddd80ace9e0eb627114c097685ccccb4a5b67be3a725967cea21693db6d",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-18-5-8",
+      "sha256": "df97f660eaa8c188aeafb809311f8d87c1142833243966fb25a22c413ccdc532",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-18-5-9",
+      "sha256": "095528c5845aa95082af56d6632b9d5d2264ed0d48d7a313079070cf495ec361",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-18-5-10",
+      "sha256": "cb47e225bc026947d6455dc3f3b8f13dea1df767acb490c94b8280791941d7cb",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-19-4-5",
+      "sha256": "fb83112ab36e679d7ab7f61e0fd9b0d8a08bade648315e1aecd1134bb8aaf082",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-19-4-7",
+      "sha256": "7ff54458a3e1d2acfff97f5b149f55e3420e980ea5af86ad9fa7878c8b2cd5b6",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-19-4-8",
+      "sha256": "22892fd653f4aefd7702630c3e19d41686bce9712ca745836085ad57d9f7125a",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-19-4-9",
+      "sha256": "64033566dfcc26fc3782e0e8cad21cee8ac02e12d4d3b0038bbfb58aaf2afcbe",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-19-4-10",
+      "sha256": "af67cb0912af4de5a1bbfd67e938556e501ff2667752290822258c9c67e3c25b",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-19-5-2",
+      "sha256": "b4c4b81cae8b6c865acba82ca01a406ec525550c259404f17d2b5a1f9e64e957",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "pg-19-5-5",
+      "sha256": "c6fdaca631afd130594f3e3487eca67eba17cf93a07b35e6e011afa0dacfbc37",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "mcma-19-5-8",
+      "sha256": "d89010d8e438c20a8fce2239670cb5e5472c2a52f7a1aa061a0abb61688e1615",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-19-5-9",
+      "sha256": "b3f43262f32c475c025845d7d5d1a20fb55bc87ba6a5f2c6873eb8ca14b4d668",
+      "domain_cases": 31,
+      "unique_variants": 30
+    },
+    {
+      "question_id": "kategori-19-5-10",
+      "sha256": "112da56181ab6845b5a1572d7c5892825f8a7cd3b1b401ded821a084f7a4aad1",
+      "domain_cases": 31,
+      "unique_variants": 30
+    }
+  ],
+  "conceptual": [
+    {
+      "question_id": "kategori-16-4-10",
+      "stock_ids": [
+        "kategori-16-4-10:stock-01",
+        "kategori-16-4-10:stock-02"
+      ]
+    },
+    {
+      "question_id": "kategori-16-4-9",
+      "stock_ids": [
+        "kategori-16-4-9:stock-01",
+        "kategori-16-4-9:stock-02"
+      ]
+    },
+    {
+      "question_id": "mcma-16-4-6",
+      "stock_ids": [
+        "mcma-16-4-6:stock-01",
+        "mcma-16-4-6:stock-02"
+      ]
+    },
+    {
+      "question_id": "mcma-16-4-7",
+      "stock_ids": [
+        "mcma-16-4-7:stock-01",
+        "mcma-16-4-7:stock-02"
+      ]
+    },
+    {
+      "question_id": "mcma-16-4-8",
+      "stock_ids": [
+        "mcma-16-4-8:stock-01",
+        "mcma-16-4-8:stock-02"
+      ]
+    },
+    {
+      "question_id": "mcma-16-5-7",
+      "stock_ids": [
+        "mcma-16-5-7:stock-01",
+        "mcma-16-5-7:stock-02"
+      ]
+    },
+    {
+      "question_id": "mcma-16-5-8",
+      "stock_ids": [
+        "mcma-16-5-8:stock-01",
+        "mcma-16-5-8:stock-02"
+      ]
+    },
+    {
+      "question_id": "mcma-17-5-7",
+      "stock_ids": [
+        "mcma-17-5-7:stock-01",
+        "mcma-17-5-7:stock-02"
+      ]
+    },
+    {
+      "question_id": "mcma-19-5-6",
+      "stock_ids": [
+        "mcma-19-5-6:stock-01",
+        "mcma-19-5-6:stock-02"
+      ]
+    },
+    {
+      "question_id": "mcma-19-5-7",
+      "stock_ids": [
+        "mcma-19-5-7:stock-01",
+        "mcma-19-5-7:stock-02"
+      ]
+    },
+    {
+      "question_id": "pg-16-4-2",
+      "stock_ids": [
+        "pg-16-4-2:stock-01",
+        "pg-16-4-2:stock-02"
+      ]
+    },
+    {
+      "question_id": "pg-16-4-5",
+      "stock_ids": [
+        "pg-16-4-5:stock-01",
+        "pg-16-4-5:stock-02"
+      ]
+    },
+    {
+      "question_id": "pg-16-5-1",
+      "stock_ids": [
+        "pg-16-5-1:stock-01",
+        "pg-16-5-1:stock-02"
+      ]
+    },
+    {
+      "question_id": "pg-16-5-2",
+      "stock_ids": [
+        "pg-16-5-2:stock-01",
+        "pg-16-5-2:stock-02"
+      ]
+    },
+    {
+      "question_id": "pg-17-5-3",
+      "stock_ids": [
+        "pg-17-5-3:stock-01",
+        "pg-17-5-3:stock-02"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "question_id": "pg-16-4-1",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MEDIA_MISMATCH: image4.jpg adalah tabung utuh, stem menyebut gambar jaring-jaring."
+    },
+    {
+      "question_id": "pg-16-4-3",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MEDIA_MISMATCH: image14.png adalah kerucut utuh, bukan jaring-jaring; perhitungan busur tetap benar."
+    },
+    {
+      "question_id": "pg-16-4-4",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: INCONSISTENT_DIMENSIONS: image1.jpg menandai alas segitiga12, sisi miring10 dan tinggi10 sekaligus; seharusnya tinggi8 bila kedua sisi10. Kunci384 hanya berlaku jika tinggi10 diprioritaskan."
+    },
+    {
+      "question_id": "mcma-16-4-6",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: KEY_AND_MEDIA: kunci A,B,D memilih klaim lima titik sudut yang salah. Gambar image9.png menunjukkan limas utuh, bukan net. Opsi C menyebut titik sudut net, sementara pembahasan menghitung titik sudut limas; perlu perjelas sebelum menentukan kunci final."
+    },
+    {
+      "question_id": "mcma-16-4-7",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MEDIA_MISMATCH: image12.png tabung utuh, bukan jaring-jaring yang diminta."
+    },
+    {
+      "question_id": "kategori-16-4-9",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: DOMAIN_AMBIGUITY: limas segi-n tidak selalu mempunyai tepat n bidang segitiga total; n=3 mempunyai4 termasuk alas. Ubah menjadi n sisi tegak segitiga jika itu maksudnya."
+    },
+    {
+      "question_id": "pg-16-5-1",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: INSUFFICIENT_METRIC_DATA: gambar C tampak tidak proporsional tetapi tidak memiliki ukuran; tidak cukup membuktikan panjang selimut tidak sama dengan keliling alas."
+    },
+    {
+      "question_id": "mcma-17-4-6",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MALFORMED_EXPLANATION: koordinat A(-,25), hasil(-,2-5), dan rumus(-y,yx) rusak; kunci A,B,C benar untuk stem."
+    },
+    {
+      "question_id": "kategori-17-4-9",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MALFORMED_OPTION: vektor opsi A ditulis T(-,25), bukan pasangan koordinat valid; pembahasan bermaksud T(-2,5)."
+    },
+    {
+      "question_id": "pg-17-5-1",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MULTIPLE_PG_ANSWERS: stem menanyakan faktor yang mungkin; 3 pada opsi A juga mungkin, sedangkan C memuat3 atau-3. Perlu meminta semua kemungkinan."
+    },
+    {
+      "question_id": "pg-17-5-3",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: UNDERDETERMINED_TRANSFORMATION: satu pasangan titik juga cocok dengan translasi(-6,0); tidak membuktikan refleksiY maupun sifat seluruh bangun."
+    },
+    {
+      "question_id": "kategori-17-5-9",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MALFORMED_OPTIONS_AND_EXPLANATION: opsi A(-,2-2), D(-,102) dan pembahasan tidak membentuk pasangan koordinat yang jelas."
+    },
+    {
+      "question_id": "kategori-17-5-10",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: ORIENTATION_AMBIGUITY: opsi C menyatakan rotasi mengubah orientasi; rotasi mempertahankan orientasi matematis, tetapi mengubah arah gambar. Kunci123 tidak aman tanpa definisi orientasi."
+    },
+    {
+      "question_id": "kategori-19-5-10",
+      "original_version": 1,
+      "replacement_version": 2,
+      "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MISSING_DOMAIN: tinggi awal tidak diketahui; pengurangan5cm memerlukan t>5 agar tetap prisma. Contoh alas200cm2 memberi t=3cm dari V600 sehingga operasi tidak valid."
+    }
+  ]
+}

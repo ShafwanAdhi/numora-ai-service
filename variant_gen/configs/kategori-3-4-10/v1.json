@@ -1,0 +1,94 @@
+{
+  "question_id": "kategori-3-4-10",
+  "config_version": 1,
+  "original_hash": "4ba67b9e1a312487",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'22' if k == 0 else (22*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'68' if k == 0 else (68*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'4,7' if k == 0 else (round(sqrt(22)*(k+1),1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (round(sqrt(68)*(k+1)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else ((round(sqrt(22)*(k+1))+round(sqrt(68)*(k+1)))-1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round(sqrt(22)*(k+1),1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "round(sqrt(68)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "round(sqrt(22)*(k+1))+round(sqrt(68)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(round(sqrt(22)*(k+1))+round(sqrt(68)*(k+1)))-1",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang tim peneliti menganalisis dua ukuran pipa irasional pada instalasi air sekolah:\n$P=\\sqrt{{v0} }meter$\n$Q=\\sqrt{{v1} }meter$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi aproksimasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Nilai aproksimasi $P$ ($\\sqrt{{v0}}$) jika dibulatkan ke persepuluhan terdekat adalah ${v2} m$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Nilai aproksimasi $Q$ ($\\sqrt{{v1}}$) jika dibulatkan ke satuan terdekat adalah ${v3} m$.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Nilai estimasi total panjang $P+Q$ menggunakan pembulatan ke satuan terdekat dari masing-masing komponen adalah ${v4}m$.",
+      "correct": false
+    }
+  ],
+  "explanation": "Akar pertama ke persepuluhan = {v5}, akar kedua ke satuan = {v6}. Jumlah pembulatan satuan = {v7}, bukan {v8}. Pernyataan 1 dan 2 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,139 @@
+{
+  "question_id": "pg-8-5-4",
+  "config_version": 1,
+  "original_hash": "39a8533e069ba748",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'350' if k == 0 else (350+15*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else (14+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'340' if k == 0 else (340+15*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'355' if k == 0 else (355+15*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'23' if k == 0 else (23+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'23,33' if k == 0 else (round((350+15*k)/15,2))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'13' if k == 0 else (13+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'=' if k == 0 else ('=' if k == 0 else 'â‰ˆ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "14+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "340+15*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "355+15*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "350+15*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "round((350+15*k)/15,2)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola lift barang di perpustakaan sekolah menetapkan bahwa kapasitas beban total lift tidak boleh melebihi ${v0}kg$. Dua orang petugas perpustakaan dengan berat total $130kg$ akan membawa beberapa kardus buku yang masing-masing beratnya ${v1}kg$. Evaluasi jumlah kardus buku maksimum yang aman diangkut dalam sekali jalan adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Maksimal {v2} kardus, karena ${v1}({v2})+130={v3}kg≤{v0}kg$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Maksimal {v8} kardus, karena $15({v8})+130={v4}kg$ masih dalam toleransi",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Maksimal {v5} kardus, karena ${v0}÷{v1}{v9}{v6}$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Maksimal {v7} kardus, agar beban lift jauh di bawah batas maksimum",
+      "correct": false
+    }
+  ],
+  "explanation": "Maksimum kardus = {v10}. Beban aman = {v11} kg. Satu tambahan = {v12} kg melebihi kapasitas {v13} kg. Pembagian kapasitas tanpa petugas hanya pendekatan {v14}, bukan kapasitas kardus yang aman. Hanya A benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

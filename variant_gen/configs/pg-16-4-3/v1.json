@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-16-4-3",
+  "config_version": 1,
+  "original_hash": "13ec263f6911a64f",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else ((14)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else ((20)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'44' if k == 0 else ((44)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'88' if k == 0 else ((88)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'154' if k == 0 else ((154)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'176' if k == 0 else ((176)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "88*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah jaring-jaring kerucut terdiri dari sebuah lingkaran dan sebuah juring lingkaran. Jika jari-jari alas kerucut adalah {v0} cm dan panjang garis pelukisnya (s) adalah {v1} cm, maka panjang busur pada juring lingkaran tersebut adalah… (Gunakan $π=\\frac{22}{7}$)",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} cm",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} cm",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v4} cm",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v6}. Busur juring=keliling alas=2*pi*r={v6}cm; opsi B. Garis pelukis tetap lebih besar daripada r.",
+  "shuffle": false,
+  "max_draws": 1000
+}

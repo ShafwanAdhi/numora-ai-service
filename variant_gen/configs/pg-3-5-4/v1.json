@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-3-5-4",
+  "config_version": 1,
+  "original_hash": "f7ca4817f20adcf8",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'24.800,00' if k == 0 else ((24800)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'20.000' if k == 0 else ((20000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'600.000' if k == 0 else ((600000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'25.000' if k == 0 else ((25000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'1.000.000' if k == 0 else ((1000000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'600.000,00' if k == 0 else ((600000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'967.200,00' if k == 0 else ((967200)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "967200*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "600000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "1000000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (1000000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (batas atas))')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pembina pramuka mengevaluasi dua usulan cara penganggaran pengadaan $39$ paket tali temali seharga Rp{v0} per paket:\nUsulan I: Dihitung dengan $30×{v1}={v2}$\nUsulan II: Dihitung dengan $40×{v3}={v4}$\nDua siswa memberikan evaluasi kelayakan usulan:\nEvaluasi I: \"Usulan I lebih layak karena menghasilkan nilai estimasi yang lebih hemat.\"\nEvaluasi II: \"Usulan II lebih layak sebagai batas atas (upper bound) anggaran yang aman, karena Usulan I membulatkan seluruh komponen ke bawah sehingga nilai estimasinya (Rp{v5}) berada jauh di bawah total riil (Rp{v6}) yang berisiko kekurangan dana.\"\nManakah evaluasi yang pasti benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II{v10}{v11}{v12}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kedua evaluasi salah",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi I benar untuk skala penganggaran kecil",
+      "correct": false
+    }
+  ],
+  "explanation": "Total riil = {v7}. Usulan bawah = {v8} dan batas atas = {v9}. Batas atas melebihi total riil dan paling dekat; Evaluasi II (opsi B) benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

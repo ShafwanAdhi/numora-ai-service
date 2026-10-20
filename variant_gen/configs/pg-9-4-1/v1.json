@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-9-4-1",
+  "config_version": 1,
+  "original_hash": "e67f775d8bd30203",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'31.000,00' if k == 0 else (31000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'37.000,00' if k == 0 else (37000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'19.000,00' if k == 0 else (19000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'20.000,00' if k == 0 else (20000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'18.000,00' if k == 0 else (18000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'22.000,00' if k == 0 else (22000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "8000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "18000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Di sebuah kantin sekolah, Bu Sinta membeli 2 porsi nasi dan 3 gelas minuman seharga Rp{v0}. Pada hari yang sama, Pak Budi membeli 4 porsi nasi dan 1 gelas minuman seharga Rp{v1} dengan jenis dan harga yang sama. Jika Bu Rani ingin membeli 1 porsi nasi dan 2 gelas minuman di kantin tersebut, jumlah uang yang harus dibayar Bu Rani adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{v3}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Rp{v4}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rp{v5}",
+      "correct": false
+    }
+  ],
+  "explanation": "Harga nasi {v6}, minuman {v7}. Total pesanan {v8} rupiah. C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

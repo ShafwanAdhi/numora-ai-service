@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-18-4-1",
+  "config_version": 1,
+  "original_hash": "b3e84b28a68d9b74",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'28' if k == 0 else ((28)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else ((14)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'196' if k == 0 else (196*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'420' if k == 0 else (420*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'616' if k == 0 else (616*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'812' if k == 0 else (812*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "420*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "616*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "196*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah taman berbentuk lingkaran dengan diameter {v0} m. Di tengah taman tersebut akan dibuat kolam berbentuk persegi dengan panjang sisi {v1} m. Analisis luas daerah taman yang ditanami rumput (di luar kolam) adalah... (Gunakan $π=\\frac{22}{7}$)",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} m²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} m²",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v4} m²",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5} m²",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v6}. Luas lingkaran={v7}, kolam persegi={v8}. Selisih={v6} m2. Opsi B.",
+  "shuffle": false,
+  "max_draws": 1000
+}

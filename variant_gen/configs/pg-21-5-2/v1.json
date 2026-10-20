@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-21-5-2",
+  "config_version": 1,
+  "original_hash": "f1f8c72dc825df50",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'110' if k == 0 else ((110)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'120' if k == 0 else ((120)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'130' if k == 0 else ((130)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'540' if k == 0 else ((540)+(10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (120+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' ribu rupiah)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "120+10*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "200+10*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "540+10*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Data penghasilan harian lima pekerja dalam ribuan rupiah adalah {v0}, {v1}, {v2}, {v3}, dan {v4}.\n\nSeorang peneliti ingin menyajikan nilai yang paling mewakili penghasilan tipikal pekerja. Pilihan yang paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rerata, karena selalu mewakili mayoritas data.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Median, karena lebih tahan terhadap pengaruh nilai ekstrem.{v5}{v6}{v7}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Modus, karena semua data pasti memiliki nilai yang paling sering muncul.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Jangkauan, karena menunjukkan nilai tengah data.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v8}. Median={v8}, rerata={v9}. Nilai terbesar={v10} menarik rerata ke atas. B benar; median tahan terhadap pencilan.",
+  "shuffle": false,
+  "max_draws": 1000
+}

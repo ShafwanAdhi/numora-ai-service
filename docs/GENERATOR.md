@@ -1,5 +1,45 @@
 # Referensi generator
 
+## Kondisi terbaru indikator 1-5 setelah persetujuan pengguna
+
+**ENGINEERING DECISION - instruksi pengguna:** 28 koreksi dan aktivasi generator lokal telah disetujui. Indikator 1-5 kini memuat **250 original**, dengan **100 generator level 4-5**. Total indikator 1-5: 238 generator, 10 original konseptual dengan stok manual, dan 2 HOLD lama pada level 1-3.
+
+Bank tambahan `variant_gen/data/drill-1-indicators-1-5-levels-4-5-approved/` mempertahankan original v2/config v1 yang sama dengan draf yang direview. Persetujuan dicatat sebagai `USER_APPROVED_CORRECTION`; arsip draf tetap utuh. Penyesuaian otomatis, publikasi database, dan persetujuan kesetaraan kesulitan tidak diaktifkan.
+
+[Laporan aktivasi dan catatan persetujuan](audits/2026-10-21-drill-1-5-level45-approved/README.md). Angka dan status draf pada laporan tahap sebelumnya merupakan snapshot sebelum persetujuan ini. Restart proses lokal yang sudah berjalan untuk memuat bank/config tambahan.
+
+## Status terbaru 21 Oktober 2026: batch kedua generator indikator 20-23
+
+Tambahan **27 generator** (indikator 20=4, 21=8, 22=11, 23=4). Total **54/80 original baru (67,5%)** sudah memiliki generator; tersisa **13 menunggu generator/stok + 13 HOLD**. Seluruh indikator 20-23: **200 original, 156 generator, 18 konseptual/50 stok**. Batch ini lolos 837 input dan regresi 50 tes. Original serta stok tetap; hasil runtime tidak disimpan, database tidak diubah. Pembaruan sebelumnya merupakan snapshot historis.
+
+[Daftar generator dan validasi](audits/2026-10-21-drill-20-23-level45-batch2/README.md).
+
+## Status terbaru 21 Oktober 2026: 27 generator indikator 20-23 level 4-5
+
+Tahap pertama **27/80 soal (33,75%)** selesai: indikator20=3,21=8,22=6,23=10. Seluruh837 input diuji;810 varian unik valid. Total indikator20-23: **200 original,129 generator,18 konseptual/50 stok,40 menunggu generator/stok,13 HOLD**. Original tidak direvisi, hasil runtime tidak disimpan, database utama tidak diubah. Angka pada pembaruan sebelumnya merupakan snapshot historis.
+
+[Daftar generator dan validasi](audits/2026-10-21-drill-20-23-level45-batch1/README.md).
+
+## Status terbaru 21 Oktober 2026: impor original indikator 20-23 level 4-5
+
+80 original selesai diaudit dan masuk bank lokal: **67 ACTIVE, 13 HOLD_SOURCE**. Indikator20-23 kini lengkap **200 original**, lima level x sepuluh soal per indikator. Tambahan ini belum mempunyai generator/stok; bank lama tetap102 generator dan18 konseptual/50 stok. Kunci primer serta sumber mentah dipertahankan; database utama tidak diubah. Pembaruan bertanggal sebelumnya merupakan snapshot historis.
+
+[Audit per soal dan daftar HOLD](audits/2026-10-21-drill-20-23-level45-import/README.md).
+
+## Status terbaru 21 Oktober 2026: indikator 16-19 lengkap
+
+Seluruh 80 original level 4-5 kini terlayani: **65 generator + 15 konseptual dengan 30 stok**, 0 HOLD. Tambahan tahap akhir: 38 generator dan 30 stok; 14 original direvisi lokal v2 dengan sumber mentah tetap tersimpan. Total indikator 16-19: **200 original, 177 generator, 23 konseptual/52 stok**. Generate runtime tidak disimpan; database utama tidak diubah. Angka pada pembaruan sebelumnya merupakan snapshot historis.
+
+[Laporan dan bukti validasi](audits/2026-10-21-drill-16-19-level45-completion/README.md).
+
+## Indikator 16?19 level 4?5: 27 generator pertama (21 Oktober 2026)
+
+27 dari80 original baru sudah mempunyai config v1 (33,75%): indikator16=2,17=8,18=9,19=8. Seluruh837 input diuji; masing-masing30 varian unik valid. Total indikator16?19 kini139 generator/200 original,8 konseptual/22 stok existing,39 menunggu generator/stok,14 HOLD. Original tidak direvisi, metadata generator_status diperbarui. Hasil runtime tidak disimpan. [Laporan dan bukti](audits/2026-10-21-drill-16-19-level45-batch1/README.md).
+
+## Impor original indikator 16?19 level 4?5 (21 Oktober 2026)
+
+Loader default kini memuat `data/drill-1-indicators-16-19-levels-4-5/q0_bank.csv`: 80 original tambahan, 66 ACTIVE dan 14 HOLD_SOURCE. Seluruhnya belum memiliki config maupun stok; generator_status NOT_IMPLEMENTED. Total indikator16?19: 200 original,112 generator existing,8 konseptual/22 stok existing,66 menunggu generator,14 HOLD. Revisi sumber tidak dilakukan. [Validasi per soal](audits/2026-10-21-drill-16-19-level45-import/README.md).
+
 Generator per soal berupa JSON; engine Python dipakai bersama. Tambahkan config sebelum custom function Python. Tidak ada LLM atau `eval` dalam pipeline.
 
 ## Bank dan katalog
@@ -119,3 +159,77 @@ Normalisasi source dicatat dalam metadata. q06 deferred: jumlah sampel sama per 
 Drill indikator11–15: 227/250 generator aktif, tersedia level1–5. [Impor revisi 7 Oktober](audits/2026-10-07-drill-11-15-source-revision.md) memperbarui lima soal menjadi original v2; [empat generator revisi](audits/2026-10-07-revised-11-15-generator-audit.md) kini aktif dan menghasilkan masing-masing 20 varian unik teruji. Satu soal tetap HOLD_SOURCE karena panjang sisi belum cocok dengan sudut; 22 soal tanpa generator memakai stok manual. Status bank saat ini 227 ACTIVE, 1 HOLD_SOURCE, dan 22 DEFERRED_CONCEPTUAL. Penyesuaian otomatis belum aktif; batas angka tidak diperluas otomatis. [Audit awal](audits/2026-10-05-drill-11-15-generator-audit.md) tetap merekam versi sebelum revisi. Indikator1–2 mempunyai50 config/60 original level1–3. Penghitungan repo lokal 7 Oktober:719 config Drill/790 original; bersama Tryout:746 config/820 original, termasuk pembaruan indikator lain yang tersedia. Ekspor kanonik mensyaratkan satu label kognitif C1–C6; label sumber gabungan tetap disimpan lokal.
 
 Indikator1–2:50 config/60 original;50 ACTIVE,9 DEFERRED_CONCEPTUAL,1 HOLD_SOURCE. Indikator3–5:88 config/90 original;88 ACTIVE,1 DEFERRED_CONCEPTUAL,1 HOLD_SOURCE. [Audit generator revisi 7 Oktober](audits/2026-10-07-revised-1-5-generator-audit.md) mengaktifkan40 config v1 untuk original v2. Kapasitas unik default25–40 per soal; pemanggilan Generate dapat diulang tanpa batas stok. `pg-1-2-1` dan `pg-5-3-3` masih HOLD_SOURCE. Sepuluh soal konseptual memakai stok manual. [Snapshot impor](audits/2026-10-07-drill-1-5-source-revision.md) dan [audit awal indikator3–5](audits/2026-10-06-drill-3-5-generator-audit.md) merekam kondisi sebelum aktivasi.
+
+
+## Penambahan indikator 1-5 level 4-5, tahap 1 (20 Oktober 2026)
+
+**ENGINEERING DECISION - instruksi pengguna:** implementasi 33 dari 100 soal sumber baru; menggantikan batas level 1-3 historis hanya untuk 33 ID yang disetujui. Bank tambahan `variant_gen/data/drill-1-indicators-1-5-levels-4-5-batch1/` dimuat eksplisit oleh `load_workspace_bank` pada path default. `OriginalBank` dan custom `--bank` tetap membaca bank tunggal. Katalog tambahan berisi sepuluh kelompok parsial dalam `drill-1`; `source_number` tidak dipadatkan. Tidak mengimpor 67 soal antrean ke bank runtime.
+
+Config memakai bahasa/engine yang sama, tanpa dependensi atau evaluator baru. Parameter `k` dibatasi dalam setiap config; setelah constraints dan validator global, kapasitas dihitung dengan enumerasi seluruh input, bukan jumlah seed. Dua config dengan jawaban berupa alasan kualitatif menyertakan hasil perhitungan pada opsi varian; label evaluasi dan status pernyataan lain mengikuti klaim yang benar. Tidak melonggarkan `same_answer_as_original`, jumlah opsi benar, atau guard hash.
+
+Reproduksi memeriksa stimulus, seluruh opsi dan kunci dengan nilai original. Pembahasan original tersedia verbatim di metadata; pembahasan varian ditulis sebagai penjelasan parametrik tersendiri dan dihitung ulang. Pecahan simbolik LaTeX `a/b` pada satu opsi disajikan sebagai `(a)/(b)` untuk menghindari salah tafsir sebagai placeholder; sumber mentah, kunci tertulis dan catatan tetap disimpan.
+
+**PROPOSED / belum disetujui Kurikulum:** rentang angka dan keluarga varian baru belum merupakan approval publikasi atau kesetaraan kesulitan. `approval_status=NOT_CURRICULUM_APPROVED` dan `self_adjustment_enabled=false`. Beberapa perubahan angka dapat mengubah beban hitung; tidak ada janji bahwa varian setara secara IRT. Rentang lama dan kebijakan penyesuaian otomatis tidak disentuh.
+
+Reproduksi: `python -B variant_gen/tests/build_drill_1_5_level45_batch1.py` (penyusunan asset offline), `python -B variant_gen/tests/audit_drill_1_5_level45_batch1.py` (bukti), dan `python -B -m unittest discover -s variant_gen/tests -p test_drill_1_5_level45_batch1.py -v`. Builder hanya untuk asset v1 batch ini yang belum dirilis; setelah digunakan/dirilis, perubahan isi harus memakai versi baru. [Laporan](audits/2026-10-20-drill-1-5-level45-batch1/README.md).
+
+
+## Indikator 6-10 level 4-5: tahap 1 (20 Oktober 2026)
+
+20 dari 100 soal ditambahkan ke Drill paket 1: setiap indikator memiliki dua soal level 4 dan dua soal level 5. Bank tambahan dimuat oleh load_workspace_bank; custom bank tetap terpisah. Original, sumber, pembahasan, serta nomor soal dipertahankan.
+
+Generator memakai engine yang ada. Hasil varian hanya dikembalikan dalam respons; tidak ditulis ke file atau database. Seluruh domain parameter, reproduksi original, seed, katalog service, dan workbench diuji. Rentang belum dikalibrasi IRT; self-adjustment tetap nonaktif.
+
+[Laporan dan 80 soal antrean](audits/2026-10-20-drill-6-10-level45-batch1/README.md). Uji: python -B -m unittest discover -s variant_gen/tests -p test_drill_6_10_level45_batch1.py
+
+
+## Indikator 6-10 level 4-5: tahap 2 (20 Oktober 2026)
+
+Tambahan 20 generator membawa cakupan menjadi 40/100. Batch kedua memilih soal tanpa temuan audit: indikator 6 (2), 7 (6), 8 (4), 9 (4), 10 (4). Soal yang memerlukan revisi sumber tetap tertahan. Katalog paket Drill 1 menggabungkan kedua batch dengan nomor soal asli.
+
+Original dan konfigurasi batch pertama tidak berubah. Hasil varian tetap hanya di respons; tidak disimpan ke lokal atau database. Rentang numerik belum dikalibrasi IRT. [Laporan tahap kedua dan 60 soal tersisa](audits/2026-10-20-drill-6-10-level45-batch2/README.md).
+
+Uji kedua batch: python -B -m unittest discover -s variant_gen/tests -p test_drill_6_10_level45_batch*.py
+
+
+## Indikator 6-10 level 4-5: tahap 3 (20 Oktober 2026)
+
+Tambahan 10 generator membawa cakupan menjadi 50/100. Tahap ini memuat indikator 7 (1), 8 (7), 9 (1), 10 (1), dipilih dari soal tanpa temuan audit. Katalog Drill paket 1 tetap memakai nomor asli. Original/konfigurasi lama dilindungi hash; hasil varian tetap hanya dalam respons. Database tidak diubah.
+
+[Laporan tahap ketiga dan 50 soal tersisa](audits/2026-10-20-drill-6-10-level45-batch3/README.md). Uji: python -B -m unittest discover -s variant_gen/tests -p test_drill_6_10_level45_batch3.py
+
+## Indikator 6-10 level 4-5: tahap 4 (21 Oktober 2026)
+
+Tambahan 25 generator membawa cakupan menjadi 75/100. Stimulus dan kunci terpilih valid menurut audit akademik; temuan pembahasan, presisi, domain, dan proyeksi ditinjau eksplisit. Proyeksi mentah serta pembahasan original dipertahankan dalam metadata; pembahasan varian memperbaiki temuan tersebut. Deklarasi kunci yang bocor ke stimulus dinormalisasi dengan jejak review.
+
+Setiap generator menghasilkan 30 varian unik valid dalam domain yang diperiksa. Hasil hanya dikembalikan melalui respons API/workbench, tanpa penyimpanan varian atau perubahan database. Self-adjustment tetap nonaktif; rentang belum disetujui kurikulum atau dikalibrasi IRT. [Laporan, tinjauan sumber, dan 25 soal tersisa](audits/2026-10-21-drill-6-10-level45-batch4/README.md).
+
+Uji seluruh tahap: `python -B -m unittest discover -s variant_gen/tests -p 'test_drill_6_10_level45_batch*.py'`.
+
+## Indikator 6-10 level 4-5: tahap 5, koreksi kunci (21 Oktober 2026)
+
+Tujuh generator tambahan membawa cakupan menjadi 82/100. Ketujuh soal mempunyai stimulus valid dan kesalahan kunci yang dapat dibuktikan dari hitungan; stimulus serta opsi original dipertahankan. Kunci lokal dikoreksi dengan jejak review, sumber mentah dan pembahasan original tetap dalam metadata. Pembahasan varian dihitung ulang. Tiap keluarga menyediakan 30 varian unik valid; hasil runtime tidak disimpan.
+
+Sisa 18 belum diaktifkan: 17 memerlukan keputusan revisi sumber, satu soal klasifikasi konseptual memerlukan keputusan stok. [Usulan revisi per soal](audits/2026-10-21-drill-6-10-level45-batch5-source-proposal.md) dan [laporan pengujian](audits/2026-10-21-drill-6-10-level45-batch5/README.md). Status belum disetujui kurikulum; self-adjustment tetap nonaktif.
+
+## Indikator 6-10 level 4-5: selesai (21 Oktober 2026)
+
+Setelah persetujuan revisi lokal minimum, seluruh 100 soal paket 1 tersedia: **99 generator + 1 soal konseptual dengan 3 stok berulang**. Tahap terakhir menambahkan 17 generator. Tiap indikator mempunyai 5 level; level 4 dan 5 kini masing-masing lengkap 10 soal. Indikator 7 memuat stok `mcma-7-5-6`; empat indikator lain masing-masing mempunyai 20 generator level 4-5.
+
+Naskah lokal menampilkan revisi yang konsisten. DOCX, proyeksi mentah, pembahasan sumber, temuan audit dan perubahan sebelum/sesudah tetap terlacak. Seluruh 527 input tahap terakhir diperiksa dari hasil render; tiap generator baru menghasilkan 30 varian unik valid. Stok ditulis offline sebagai inventaris editorial; hasil generate runtime tidak disimpan, tidak ada penghitung pemakaian persisten. Self-adjustment nonaktif; belum approval kurikulum atau kalibrasi IRT.
+
+[Laporan final dan rincian revisi](audits/2026-10-21-drill-6-10-level45-batch6/README.md). Generate melalui API/workbench; stok melalui pemilih varian atau `python -B variant_gen/cli.py stock mcma-7-5-6 --variant 1 --json`. Mulai ulang workbench yang sudah berjalan untuk memuat bank terbaru.
+
+
+## Indikator 11?15: generator nonkonseptual lengkap (21 Oktober 2026)
+
+Cakupan kini **228/250 generator**, 22 konseptual ditunda, 0 HOLD. `mcma-15-2-8` memakai original lokal v3: panjang BC yang bertentangan dengan sudut dihapus; opsi B memakai rasio QR/BC. Generator v1 mempunyai 30 varian unik valid dari 31 input termasuk original. Riwayat v1/v2 dan DOCX dipertahankan; revisi belum disetujui kurikulum, self-adjustment nonaktif. Hasil runtime tidak disimpan. [Audit dan validasi](audits/2026-10-21-mcma-15-2-8-generator.md).
+## Penyelesaian indikator 1–5 level 4–5, 21 Oktober 2026
+
+**ENGINEERING DECISION — instruksi pengguna:** lanjutkan 67 soal tersisa dan pisahkan 28 soal yang membutuhkan koreksi akademik sebagai draf review belum aktif. Bank `variant_gen/data/drill-1-indicators-1-5-levels-4-5-batch2/` menambah 39 original v1/config v1. `load_workspace_bank` menggabungkan keanggotaan katalog berdasarkan paket, indikator, dan level lalu mengurutkan nomor sumber; isi bank tahap pertama tetap dipertahankan. Cakupan 100 keluarga menjadi 72 generator lokal dan 28 generator draf.
+
+**PROPOSED:** `variant_gen/drafts/2026-10-20-level45-academic/` menyimpan 28 usulan original v2, config v1, sumber sebelum koreksi dan perubahan per komponen. `HOLD_SOURCE`, `review_only=true`, `PROPOSED_NOT_APPROVED`; bank dan config default tidak memuatnya. Audit memeriksa salinan sandbox dalam memori tanpa mengaktifkan aset draf. Jangan memindahkan config draf ke direktori runtime sebelum ada persetujuan.
+
+Semua keluarga baru memakai domain eksplisit `k=0..24`; nilai original mereproduksi stimulus, opsi, dan kunci. Setelah validator, kapasitas efektif masing-masing 24 varian. Pembahasan parametrik dihitung terpisah dari pembahasan sumber. Angka FPB/KPK di dalam fungsi, penyebutan satuan waktu, radikan berbeda, langkah perhitungan, dan jawaban diperiksa dari teks hasil render. Rentang baru belum disetujui untuk publikasi atau kesetaraan kesulitan; `self_adjustment_enabled=false`.
+
+[Audit lengkap, CSV dan cara reproduksi](audits/2026-10-20-drill-1-5-level45-completion/README.md). Laporan tahap pertama tetap merupakan snapshot historis. Perubahan versi setelah digunakan harus menambah versi, bukan menimpa aset yang sudah dipakai.

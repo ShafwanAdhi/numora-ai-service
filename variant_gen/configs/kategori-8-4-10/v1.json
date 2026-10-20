@@ -1,0 +1,62 @@
+{
+  "question_id": "kategori-8-4-10",
+  "config_version": 1,
+  "original_hash": "aacd4287c4646479",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang guru meminta siswa mengevaluasi perbedaan antara Persamaan Linear Satu Variabel (PLSV) dan Pertidaksamaan Linear Satu Variabel (PtLSV):\nPersamaan: $2x+6={v0}$\nPertidaksamaan: $2x+6≤{v0}$\nTentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Persamaan $2x+6={v0}$ hanya memiliki satu solusi tunggal yaitu $x={v1}$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Pertidaksamaan $2x+6≤{v0}$ memiliki banyak penyelesaian yaitu seluruh $x≤{v1}$.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika kedua bentuk di atas dikalikan dengan bilangan negatif $-1$, tanda hubungan pada kedua bentuk tersebut akan sama-sama berubah arah.",
+      "correct": false
+    }
+  ],
+  "explanation": "Solusi persamaan = {v2}. Batas atas pertidaksamaan = {v2}. Persamaan tetap memakai = saat dikalikan -1; pertidaksamaan membalik arah. Pernyataan 1 dan 2 benar; 3 salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

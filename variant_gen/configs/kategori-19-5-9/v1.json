@@ -1,0 +1,73 @@
+{
+  "question_id": "kategori-19-5-9",
+  "config_version": 1,
+  "original_hash": "ed6f4a5cec30bed9",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else ((3+k)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "(3+k)**3",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "d": {
+      "gen": "derived",
+      "expr": "'{d}' if k == 0 else 'd'"
+    }
+  },
+  "constraints": [],
+  "stem": "Evaluasi pernyataan-pernyataan berikut mengenai perubahan volume bangun ruang (prisma, limas, dan bola). Tentukan Benar atau Salah untuk setiap pernyataan!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Jika panjang rusuk sebuah kubus diperbesar {v0} kali, volumenya menjadi {v1} kali lipat.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika jari-jari sebuah bola diperkecil menjadi setengahnya, volumenya menjadi seperdelapan volume awal.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jika tinggi sebuah limas digandakan sedangkan luas alasnya tetap, volumenya menjadi dua kali lipat.",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Volume bola dengan diameter $d$ adalah 4 kali volume limas dengan luas alas ${d}^{2}$ dan tinggi $\\frac{d}{2}$.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v2}. Rusuk dikali{v3} memberi volume{v2}. r setengah memberi1/8; tinggi limas dua kali memberi2. Bola:limas pada opsiD=pi:1, bukan4:1. 1,2,3 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

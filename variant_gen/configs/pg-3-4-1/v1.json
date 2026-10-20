@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-3-4-1",
+  "config_version": 1,
+  "original_hash": "49da5ecb0efa1dca",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'28.647' if k == 0 else (28647+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'28.000' if k == 0 else (28000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'28.600' if k == 0 else (28600+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'29.000' if k == 0 else (29000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'28.700' if k == 0 else (28700+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'I' if k == 0 else ('II')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'II' if k == 0 else ('I')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "28647+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "29000+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "28600+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus perpustakaan sekolah mencatat data peminjaman buku selama satu tahun sebanyak {v0} eksemplar. Pengurus tersebut diminta menganalisis hasil pembulatan data untuk dua jenis dokumen penyusunan laporan:\nLaporan Ringkas: Dibulatkan ke ribuan terdekat.\nLaporan Detail: Dibulatkan ke ratusan terdekat.\nEmpat orang staf memberikan hasil analisis pembulatan sebagai berikut:\nAnalisis {v5}: Laporan Ringkas = ${v1}$, Laporan Detail = ${v2}$\nAnalisis {v6}: Laporan Ringkas = ${v3}$, Laporan Detail = ${v2}$\nAnalisis III: Laporan Ringkas = ${v3}$, Laporan Detail = ${v4}$\nAnalisis IV: Laporan Ringkas = ${v1}$, Laporan Detail = ${v4}$\nHasil analisis siapakah yang pasti benar secara matematis?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Analisis I",
+      "correct": "k != 0"
+    },
+    {
+      "id": "B",
+      "text": "Analisis II",
+      "correct": "k == 0"
+    },
+    {
+      "id": "C",
+      "text": "Analisis III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Analisis IV",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembulatan langsung pada data {v7}: ribuan = {v8} (digit ratusan 6); ratusan = {v9} (digit puluhan 4). Jangan membulatkan bertahap.",
+  "shuffle": false,
+  "max_draws": 1000
+}

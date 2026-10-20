@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-7-4-1",
+  "config_version": 1,
+  "original_hash": "b7b98f0e6b5a8af8",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'120.000,00' if k == 0 else (120000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3.000,00' if k == 0 else (3000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'345.000,00' if k == 0 else (345000+3000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'120.000' if k == 0 else (120000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'3.000' if k == 0 else (3000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'345.000' if k == 0 else (345000+3000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else (75+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'155' if k == 0 else (155+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'115' if k == 0 else (115+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "75+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia kegiatan bursa buku murah di sekolah menyewa stan dengan biaya tetap Rp{v0} dan biaya operasional tambahan Rp{v1} untuk setiap buku yang terjual. Jika total biaya yang dikeluarkan panitia untuk stan tersebut adalah Rp{v2}, model persamaan linear satu variabel dan banyak buku yang terjual adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "${v3}x+{v4}={v5}$; terjual {v6} buku",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "${v4}x-{v3}={v5}$; terjual {v7} buku",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "${v4}x+{v3}={v5}$; terjual {v6} buku",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "${v4}x+{v3}={v5}$; terjual {v8} buku",
+      "correct": false
+    }
+  ],
+  "explanation": "Biaya tetap ditambah biaya per buku dikali jumlah buku. Banyak buku = {v9}. Model dan jumlah pada C benar; A menukar koefisien, B salah tanda, D salah jumlah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

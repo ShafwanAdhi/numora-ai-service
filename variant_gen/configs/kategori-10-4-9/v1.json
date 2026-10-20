@@ -1,0 +1,106 @@
+{
+  "question_id": "kategori-10-4-9",
+  "config_version": 1,
+  "original_hash": "1e441d69a2ce3549",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'{a}' if k == 0 else 'a'"
+    },
+    "y": {
+      "gen": "derived",
+      "expr": "'{y}' if k == 0 else 'y'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'5.000' if k == 0 else (5000+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'2.000' if k == 0 else (2000+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'19.000,00' if k == 0 else (19000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (19000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' rupiah untuk belanja Rani)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5000+100*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2000+100*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "19000+500*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Di sebuah minimarket sekolah, harga 1 buah buku adalah $x$ rupiah dan harga 1 buah pensil adalah $y$ rupiah. Rani membeli 3 buku dan 2 pensil, sedangkan Dika membeli 2 buku dan 4 pensil.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Total belanjaan Rani dan Dika dapat dinyatakan dalam bentuk aljabar $5x+6y$.{v3}{v4}{v5}",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Selisih pengeluaran belanja Rani dan Dika adalah $x+2y$ rupiah.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Jika harga $x={v0}$ dan $y={v1}$, total belanjaan Rani adalah Rp{v2}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Total $(3x+2y)+(2x+4y)=5x+6y$. Selisih $(3x+2y)-(2x+4y)=x-2y$. Belanja Rani $3*{v6}+2*{v7}={v8}$. Pernyataan 1 dan 3 benar, 2 salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

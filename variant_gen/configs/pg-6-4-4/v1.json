@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-6-4-4",
+  "config_version": 1,
+  "original_hash": "8bc16ff2def9e9be",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'13' if k == 0 else (13+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else (14+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'47' if k == 0 else (47+12*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "600+120*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "200+120*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "47+12*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "15+4*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang peternak memiliki persediaan pakan yang cukup untuk 40 ekor ayam selama {v0} hari. Pada hari ke-6, peternak tersebut membeli lagi 10 ekor ayam. Setelah hari ke-9, peternak menjual 20 ekor ayam karena kebutuhan mendadak. Evaluasi durasi total pakan tersebut bertahan sejak awal pasokan digunakan adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v1} hari",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v2} hari",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "$\\frac{{v4}}{3}$ hari ({v5} hari 16 jam)",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v3} hari",
+      "correct": false
+    }
+  ],
+  "explanation": "Pakan awal {v6} jatah-harian. Dua fase pertama memakai 400; sisa {v7} untuk 30 ayam. Durasi total tepat {v8}/3 hari = {v9} hari 16 jam. C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

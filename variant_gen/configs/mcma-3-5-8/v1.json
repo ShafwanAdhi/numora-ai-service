@@ -1,0 +1,147 @@
+{
+  "question_id": "mcma-3-5-8",
+  "config_version": 1,
+  "original_hash": "dc9c3179c18237a2",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'19.500,00' if k == 0 else ((19500)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'4.800,00' if k == 0 else ((4800)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'20.000' if k == 0 else ((20000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'5.000' if k == 0 else ((5000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'800.000' if k == 0 else ((800000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'100.000' if k == 0 else ((100000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'900.000' if k == 0 else ((900000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'10.000' if k == 0 else ((10000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'4.000' if k == 0 else ((4000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'300.000' if k == 0 else ((300000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'40.000' if k == 0 else ((40000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'340.000' if k == 0 else ((340000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'900.000,00' if k == 0 else ((900000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'340.000,00' if k == 0 else ((340000)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "851700*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "900000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "340000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan dua model estimasi biaya belanja pembekalan ekstrakurikuler: \"Membeli 39 unit wadah air seharga Rp{v0} per unit dan 19 unit cangkir seharga Rp{v1} per unit.\"\nModel I: $(40×{v2})+(20×{v3})={v4}+{v5}={v6}$\nModel II: $(30×{v7})+(10×{v8})={v9}+{v10}={v11}$\nManakah evaluasi perbandingan kedua model estimasi yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model II menghasilkan nilai estimasi yang lebih aman dan akurat dibanding Model I.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Model I menerapkan pembulatan ke atas pada semua komponen sehingga menghasilkan nilai estimasi batas atas (upper bound) sebesar Rp{v12}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model I (Rp{v12}).",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model II (Rp{v13}).",
+      "correct": false
+    }
+  ],
+  "explanation": "Total riil = {v14}. Model I = {v15} adalah batas atas; Model II = {v16} berada di bawah. B dan C benar; A dan D salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

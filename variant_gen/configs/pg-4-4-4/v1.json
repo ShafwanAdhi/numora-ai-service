@@ -1,0 +1,81 @@
+{
+  "question_id": "pg-4-4-4",
+  "config_version": 1,
+  "original_hash": "8d9317bceaae416e",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'96' if k == 0 else (96*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'120' if k == 0 else (120*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'48' if k == 0 else (48*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "24*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pembina pramuka mengevaluasi dua klaim dari dua regu mengenai pembentukan kelompok belajar dari ${v0}$ anggota laki-laki dan ${v1}$ anggota perempuan:\nKlaim Regu Elang: \"Kelompok terbanyak yang dapat dibentuk adalah ${v2}$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $1$ orang.\"\nKlaim Regu Harimau: \"Kelompok terbanyak yang dapat dibentuk adalah ${v3}$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $2$ orang.\"\nEvaluasi manakah yang benar?\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Klaim Regu Harimau benar, karena FPB dari ${v0}$ dan ${v1}$ adalah ${v3}$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Klaim Regu Elang benar, karena $FPB({v0},{v1})={v2}$, dengan isi per kelompok $5$ perempuan dan $4$ laki-laki (selisih $5-4=1$)",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kedua klaim salah, karena jumlah kelompok terbanyak yang dapat dibentuk adalah ${v4}$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Klaim Regu Harimau benar, karena ${v1}$ dan ${v0}$ sama-sama kelipatan ${v3}$",
+      "correct": false
+    }
+  ],
+  "explanation": "Hitung FPB dari dua jumlah yang ditampilkan: FPB = {v5}. Periksa keterbagian, isi tiap kelompok, dan syarat maksimum pada setiap opsi.",
+  "shuffle": false,
+  "max_draws": 1000
+}

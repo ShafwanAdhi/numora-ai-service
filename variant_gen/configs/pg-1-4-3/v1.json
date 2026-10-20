@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-1-4-3",
+  "config_version": 1,
+  "original_hash": "4c50b5f5bb4483c8",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'20.000,00' if k == 0 else (20000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'2.500,00' if k == 0 else (2500+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'20.000' if k == 0 else (20000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'2.500' if k == 0 else (2500+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "18+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "20000+500*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2500+100*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(18+k)*(22500+600*k)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus OSIS menyusun anggaran pembelian ${v0}$ set perlengkapan olahraga. Setiap set terdiri dari $1$ buah bola seharga Rp{v1} dan $1$ buah pompa portable seharga Rp{v2}.\nPanitia menyederhanakan bentuk perhitungan total biaya dengan memanfaatkan Sifat Distributif perkalian terhadap penjumlahan. Bentuk penyederhanaan yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "${v0}×({v3}+{v4})$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "$({v0}+{v3})×({v0}+{v4})$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "${v0}×({v3}×{v4})$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "$({v0}×{v3})+{v4}$",
+      "correct": false
+    }
+  ],
+  "explanation": "Sifat distributif: a*b+a*c=a*(b+c). Biaya = {v5} * ({v6} + {v7}) = {v8}. Opsi A benar; B, C, D tidak memodelkan kedua pembelian.",
+  "shuffle": false,
+  "max_draws": 1000
+}

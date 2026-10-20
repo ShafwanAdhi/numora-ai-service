@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-18-4-7",
+  "config_version": 1,
+  "original_hash": "9b86ab16641068d5",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'28' if k == 0 else ((28)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'616' if k == 0 else ((616)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else ((14)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'392' if k == 0 else ((392)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'224' if k == 0 else ((224)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "616*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "28*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "392*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "224*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah lingkaran memiliki diameter {v0} cm. Di dalamnya terdapat sebuah persegi yang keempat titik sudutnya terletak tepat pada lingkaran tersebut. Pilihlah semua pernyataan yang benar! (Gunakan π = $\\frac{22}{7}$)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Luas lingkaran adalah {v1} cm².",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Panjang diagonal persegi adalah {v2} cm.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Luas persegi adalah {v3} cm².",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Luas daerah di dalam lingkaran tetapi di luar persegi adalah {v4} cm².",
+      "correct": true
+    }
+  ],
+  "explanation": "Hasil = {v5}. Diagonal persegi=diameter{v6}. Luas lingkaran{v5}, persegi{v7}, sisa{v8}. A,C,D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

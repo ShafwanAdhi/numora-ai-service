@@ -1,0 +1,111 @@
+{
+  "question_id": "kategori-16-5-9",
+  "config_version": 1,
+  "original_hash": "0f74d665c48e93cb",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'150' if k == 0 else ((150)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'155' if k == 0 else ((155)*(k+1)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'64' if k == 0 else ((64)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'40' if k == 0 else ((40)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'224' if k == 0 else ((224)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "224*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "5*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "125*(k+1)**3",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "155*(k+1)**3",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "64*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "40*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Evaluasilah pernyataan-pernyataan berikut terkait hubungan antara jaring-jaring dengan volume atau luas bangun ruangnya!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas jaring-jaring sebuah bangun ruang selalu sama dengan luas permukaan bangun ruang tersebut. (Benar / Salah)",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika sebuah jaring-jaring kubus memiliki total luas {v0} cm², maka volume kubus tersebut adalah {v1} cm³. (Benar / Salah)",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Jaring-jaring tabung dengan jari-jari r dan tinggi t dapat digunakan untuk menghitung volume tabung dengan rumus V = πr²t. (Benar / Salah)",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Sebuah jaring-jaring limas segi empat dengan luas alas {v2} cm² dan luas 4 sisi tegak masing-masing {v3} cm² memiliki luas total {v4} cm². (Benar / Salah)",
+      "correct": true
+    }
+  ],
+  "explanation": "Hasil = {v5}. Luas net sama dengan permukaan. Kubus: s={v6}, volume{v7}, bukan{v8}. Vtabung=pi*r^2*t. Limas={v9}+4*{v10}={v5}. 1,3,4 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-4-5-3",
+  "config_version": 1,
+  "original_hash": "6f22c66dfe59a3e9",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'144' if k == 0 else (144*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'180' if k == 0 else (180*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'36' if k == 0 else (36*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'72' if k == 0 else (72*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "36*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus OSIS menguji dua alternatif cara pembagian ${v0}$ buku tulis dan ${v1}$ pulpen untuk paket bingkisan peserta lomba tanpa tersisa:\nAlternatif I: Dibuat ${v2}$ bingkisan, masing-masing berisi $4$ buku tulis dan $5$ pulpen.\nAlternatif II: Dibuat ${v3}$ bingkisan, masing-masing berisi $2$ buku tulis dan $2,5$ pulpen.\nManakah penilaian yang pasti benar mengenai kelayakan kedua alternatif tersebut?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Alternatif I layak dan valid, karena ${v2}$ adalah $FPB({v0},{v1})$ dan menghasilkan kuantitas barang bernilai bulat utuh",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Alternatif II lebih layak, karena menghasilkan jumlah bingkisan yang lebih banyak",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Alternatif I tidak layak, karena jumlah pulpen lebih banyak daripada buku tulis",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Alternatif II layak, karena angka ${v3}$ habis membagi ${v0}$",
+      "correct": false
+    }
+  ],
+  "explanation": "Hitung FPB dari dua jumlah yang ditampilkan: FPB = {v4}. Periksa keterbagian, isi tiap kelompok, dan syarat maksimum pada setiap opsi.",
+  "shuffle": false,
+  "max_draws": 1000
+}

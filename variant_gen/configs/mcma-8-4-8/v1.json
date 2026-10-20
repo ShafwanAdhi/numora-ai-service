@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-8-4-8",
+  "config_version": 1,
+  "original_hash": "00358ee639c345ed",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'1' if k == 0 else (1+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'-7' if k == 0 else (-7-3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "-6-2*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "-7-3*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa mengevaluasi penyelesaian dari pertidaksamaan $2(2x-{v0})-5x<{v1}$. Manakah pernyataan evaluatif berikut yang benar? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Setelah disederhanakan, ruas kiri menjadi $-x-{v2}$.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Tanda pertidaksamaan berubah menjadi $>$ saat menyederhanakan ruas kiri.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Penyelesaian akhir dari pertidaksamaan tersebut adalah $x>{v3}$.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Nilai $x=0$ merupakan salah satu anggota himpunan penyelesaian.",
+      "correct": true
+    }
+  ],
+  "explanation": "Konstanta ruas kiri = {v4}. Batas bawah = {v5}. Ruas kiri adalah -x ditambah konstanta tersebut. Penyelesaian x lebih besar secara ketat daripada batas bawah. A dan C benar. B salah: penyederhanaan tidak membalik tanda; pembagian dengan bilangan negatif membalik tanda. D benar karena nol lebih besar daripada batas bawah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

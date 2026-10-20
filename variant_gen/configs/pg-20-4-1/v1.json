@@ -1,0 +1,261 @@
+{
+  "question_id": "pg-20-4-1",
+  "config_version": 1,
+  "original_hash": "2626b370a5cbac29",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'perjalanan ke sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('sarapan pagi' if (k-1) % 6 == 4 else v0)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kunjungan perpustakaan' if (k-1) % 6 == 3 else v1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('penggunaan gawai' if (k-1) % 6 == 2 else v2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('latihan olahraga' if (k-1) % 6 == 1 else v3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kegiatan membaca' if (k-1) % 6 == 0 else v4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'anggota klub sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas IX' if (k-1) // 6 == 2 else v6)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VIII' if (k-1) // 6 == 1 else v7)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VII' if (k-1) // 6 == 0 else v8)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'pada pekan sekolah ini'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('dalam satu bulan terakhir' if (k-1) // 6 == 2 else v10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('selama tujuh hari terakhir' if (k-1) // 6 == 1 else v11)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('setiap hari' if (k-1) // 6 == 0 else v12)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'skor proyek'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kehadiran kelas' if (k-1) // 6 == 2 else v14)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('ketepatan tugas' if (k-1) // 6 == 1 else v15)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('nilai kuis' if (k-1) // 6 == 0 else v16)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Peneliti mencatat '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' dan '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' pada '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else '. Pertanyaan penelitian yang paling sesuai adalah ....'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Berapa jumlah responden yang terdaftar?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Apa kegiatan sekolah yang paling disukai responden?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Apakah terdapat hubungan antara '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else '?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Berapa responden yang menyerahkan formulir?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Alasan utama: pertanyaan ketiga menghubungkan kedua variabel yang benar-benar dicatat pada populasi sasaran.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "'Seorang peneliti ingin mengetahui hubungan antara durasi belajar mandiri dan nilai matematika siswa kelas IX. Ia mengumpulkan data berupa durasi belaj' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "'ar mandiri setiap hari dan nilai ujian matematika siswa.\\n\\nPertanyaan penelitian yang paling sesuai adalah ....' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "'Berapa jumlah siswa kelas IX di sekolah tersebut?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "'Apa mata pelajaran yang paling disukai siswa kelas IX?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "'Apakah terdapat hubungan antara durasi belajar mandiri dan nilai matematika siswa?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "'Berapa banyak siswa yang mengikuti ujian matematika?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v34": {
+      "gen": "derived",
+      "expr": "'Pembahasan: Pertanyaan C sesuai dengan tujuan penelitian karena mengkaji hubungan antara dua variabel, yaitu durasi belajar mandiri dan nilai matemati' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v35": {
+      "gen": "derived",
+      "expr": "'ka.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "{v28}{v29}{v18}{v5}{v19}{v17}{v20}{v9}{v21}",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v30}{v22}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v31}{v23}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v32}{v24}{v5}{v19}{v17}{v25}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v33}{v26}",
+      "correct": false
+    }
+  ],
+  "explanation": "{v34}{v35}{v27}",
+  "shuffle": false,
+  "max_draws": 1000
+}

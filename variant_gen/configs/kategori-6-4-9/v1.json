@@ -1,0 +1,112 @@
+{
+  "question_id": "kategori-6-4-9",
+  "config_version": 1,
+  "original_hash": "f92dc7334c37b3cf",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'200' if k == 0 else (200*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'800' if k == 0 else (800*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'300' if k == 0 else (300*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'900' if k == 0 else (900*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'500' if k == 0 else (500*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (1000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' ml total Alpha)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "1000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "1200*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "500*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Terdapat dua resep pembuat minuman sirup buah untuk acara festival sekolah:\nResep Alpha: Menggunakan campuran ${v0}ml$ sirup murni dan ${v1}ml$ air mineral.\nResep Beta: Menggunakan campuran ${v2}ml$ sirup murni dan ${v3}ml$ air mineral.\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis konsentrasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Rasio sirup murni terhadap total minuman pada Resep Alpha adalah $1:5$.{v6}{v7}{v8}",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Resep Alpha rasa buahnya lebih manis daripada Resep Beta karena jumlah airnya lebih sedikit.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Untuk membuat ${v4}liter$ minuman dengan rasa setara Resep Beta, dibutuhkan ${v5}ml$ sirup murni.",
+      "correct": true
+    }
+  ],
+  "explanation": "Total Alpha = {v9} ml; total Beta = {v10} ml. Konsentrasi Alpha = 1/5; Beta = 1/4. Sirup untuk target = {v11} ml. Alpha kurang manis; benar, salah, benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

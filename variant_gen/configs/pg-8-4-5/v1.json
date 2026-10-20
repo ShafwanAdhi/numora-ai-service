@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-8-4-5",
+  "config_version": 1,
+  "original_hash": "caef0c569b62827e",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'800' if k == 0 else (800+25*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'810' if k == 0 else (810+25*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'32' if k == 0 else (32+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'29' if k == 0 else (29+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'785' if k == 0 else (785+25*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'28' if k == 0 else (28+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "29+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "785+25*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "810+25*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "800+25*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah mobil boks angkutan barang memiliki daya angkut tidak lebih dari ${v0}kg$. Sopir mobil memiliki berat badan $60kg$ dan membawa beberapa kotak barang yang masing-masing beratnya $25kg$. Pengelola armada mengevaluasi jumlah kotak barang maksimum yang aman diangkut dalam satu kali jalan. Evaluasi yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Maksimal {v1} kotak, karena $25×{v1}+60={v2}kg$ masih diperbolehkan",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Maksimal {v3} kotak, karena ${v0}÷25={v3}$ kotak",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Maksimal {v4} kotak, karena beban total $25({v4})+60={v5}kg≤{v0}kg$",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Maksimal {v6} kotak, agar beban tidak mendekati batas maksimum ${v0}kg$",
+      "correct": false
+    }
+  ],
+  "explanation": "Maksimum kotak = {v7}. Beban maksimum aman = {v8} kg; satu kotak tambahan memberi {v9} kg, melebihi kapasitas {v10} kg. A melampaui kapasitas; B mengabaikan sopir; C benar; D belum maksimum.",
+  "shuffle": false,
+  "max_draws": 1000
+}

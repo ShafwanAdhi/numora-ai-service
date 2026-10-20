@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-5-4-8",
+  "config_version": 1,
+  "original_hash": "ecbd156f24768ac3",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'120' if k == 0 else ((60+k)*2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'135' if k == 0 else ((60+k)*2.25)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'50' if k == 0 else (60+k-10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else (60+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "60+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua sepeda motor K dan L melakukan perjalanan dari sekolah menuju kompleks tempat berkemah:\nSepeda Motor K menempuh jarak ${v0}km$ dalam waktu $2 jam$.\nSepeda Motor L menempuh jarak ${v1} km$ dalam waktu $2,25 jam$ ($2 jam 15 menit$).\nSeorang siswa mengevaluasi laju kecepatan rata-rata kedua sepeda motor tersebut. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan \"Kecepatan rata-rata Sepeda Motor K adalah ${v2} km/jam$\" adalah BENAR.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan \"Kecepatan rata-rata Sepeda Motor K adalah ${v3} km/jam$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan \"Kecepatan rata-rata Sepeda Motor L adalah ${v3} km/jam$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan \"Sepeda Motor L melaju lebih cepat daripada Sepeda Motor K\" adalah BENAR.",
+      "correct": false
+    }
+  ],
+  "explanation": "Kecepatan pertama = {v4} dan kecepatan kedua = {v4} km/jam; keduanya sama.",
+  "shuffle": false,
+  "max_draws": 1000
+}

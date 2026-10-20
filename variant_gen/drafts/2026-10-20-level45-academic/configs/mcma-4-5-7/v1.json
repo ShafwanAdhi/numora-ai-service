@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-4-5-7",
+  "config_version": 1,
+  "original_hash": "46ea7df9ce74566a",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'36' if k == 0 else (36*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'300' if k == 0 else (300*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'72' if k == 0 else (72*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "72*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "300*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua buah lampu penanda praktikum berkedip secara periodik setiap ${v0}$ detik dan ${v1}$ detik. Kedua lampu berkedip bersamaan pada detik ke-0. Seorang siswa melakukan evaluasi terhadap frekuensi kedipan bersama dalam durasi ${v5}$ menit (${v2}$ detik).\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan \"Kedua lampu berkedip bersamaan setiap {v3} detik\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan \"$FPB({v0},{v1})={v4}$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan \"Dalam durasi {v2} detik, kedua lampu berkedip bersamaan sebanyak 5 kali (tidak menghitung detik ke-0)\" adalah BENAR.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan \"Dalam durasi {v2} detik, kedua lampu berkedip bersamaan sebanyak 4 kali (tidak menghitung detik ke-0)\" adalah BENAR.",
+      "correct": true
+    }
+  ],
+  "explanation": "KPK periode = {v6}. Frekuensi setelah awal = floor({v7}/{v6}) = {v8}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

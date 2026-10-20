@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-7-5-2",
+  "config_version": 1,
+  "original_hash": "993960d493833141",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'10.000,00' if k == 0 else (10000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'160.000,00' if k == 0 else (160000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'25.000,00' if k == 0 else (25000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'40.000,00' if k == 0 else (40000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'50.000,00' if k == 0 else (50000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'20.000,00' if k == 0 else (20000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "10000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "160000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "140000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "20000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "50000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "30000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia pentas seni sekolah menjual dua jenis tiket, yaitu Tiket Reguler dan Tiket VIP. Harga 1 Tiket VIP adalah dua kali harga 1 Tiket Reguler ditambah Rp{v0}. Seorang siswa membeli 3 Tiket Reguler dan 2 Tiket VIP dengan total pembayaran Rp{v1}. Evaluasi terhadap harga tiket tersebut menunjukkan bahwa ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Harga 1 Tiket Reguler adalah Rp{v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Harga 1 Tiket VIP adalah Rp{v3}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Harga 1 Tiket VIP adalah Rp{v4}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Selisih harga 1 Tiket VIP dan 1 Tiket Reguler adalah Rp{v5}",
+      "correct": false
+    }
+  ],
+  "explanation": "Misalkan reguler r; VIP = 2r + {v6}. 3r + 2(2r + {v6}) = {v7}. 7r = {v8}, r = {v9}, VIP = {v10}, selisih = {v11}. Hanya C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

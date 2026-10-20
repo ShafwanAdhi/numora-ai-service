@@ -6620,6 +6620,1062 @@
       "variation_note": "Pertanyaan netral menggantikan pertanyaan mengarahkan, variabel durasi menggantikan kategori, dengan tiga penilaian C4 dan dua pernyataan benar.",
       "review_status": "VERIFIED",
       "review_note": "Review teknis: semua klaim/kunci, variasi substansi, format dan beban tugas dibandingkan dengan original; tanpa klaim kalibrasi IRT atau persetujuan kurikulum."
+    },
+    {
+      "variant_id": "mcma-7-5-6:stock-01",
+      "question_id": "mcma-7-5-6",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "f65c67e2143940cc",
+      "original_version": 1,
+      "stem": "Evaluasi klasifikasi persamaan berikut.\n(i) $4x+3=19$\n(ii) $x^{2}-9=0$\n(iii) $\\frac{x-2}{3}=4$\n(iv) $3x+y=15$\nManakah pernyataan yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Persamaan (i) dan (iii) merupakan Persamaan Linear Satu Variabel (PLSV)."
+        },
+        {
+          "id": "B",
+          "text": "Persamaan (ii) merupakan PLSV karena hanya memiliki satu variabel."
+        },
+        {
+          "id": "C",
+          "text": "Persamaan (iv) bukan PLSV karena melibatkan dua variabel."
+        },
+        {
+          "id": "D",
+          "text": "Persamaan (iii) bukan PLSV karena bentuknya pecahan."
+        }
+      ],
+      "key": "A,C",
+      "explanation": "A benar: (i) dan (iii) memiliki satu variabel berderajat satu setelah penyederhanaan. B salah: (ii) berderajat dua. C benar: (iv) memiliki dua variabel. D salah: penyebut konstan tidak mengubah derajat linear.",
+      "variation_note": "Keluarga klasifikasi 1: linear biasa, kuadrat, pecahan dengan penyebut konstan, serta dua variabel.",
+      "review_status": "VERIFIED",
+      "review_note": "Pemeriksaan rekayasa: jumlah variabel dan derajat polinom diperiksa dari teks render. Belum approval kurikulum atau kalibrasi IRT."
+    },
+    {
+      "variant_id": "mcma-7-5-6:stock-02",
+      "question_id": "mcma-7-5-6",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "f65c67e2143940cc",
+      "original_version": 1,
+      "stem": "Evaluasi klasifikasi persamaan berikut.\n(i) $7x-4=3x+12$\n(ii) $2x^{2}=18$\n(iii) $\\frac{2x+5}{3}=7$\n(iv) $x-2y=6$\nManakah pernyataan yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Persamaan (i) dan (iii) merupakan Persamaan Linear Satu Variabel (PLSV)."
+        },
+        {
+          "id": "B",
+          "text": "Persamaan (ii) merupakan PLSV karena hanya memiliki satu variabel."
+        },
+        {
+          "id": "C",
+          "text": "Persamaan (iv) bukan PLSV karena melibatkan dua variabel."
+        },
+        {
+          "id": "D",
+          "text": "Persamaan (iii) bukan PLSV karena bentuknya pecahan."
+        }
+      ],
+      "key": "A,C",
+      "explanation": "A benar: (i) dan (iii) memiliki satu variabel berderajat satu setelah penyederhanaan. B salah: (ii) berderajat dua. C benar: (iv) memiliki dua variabel. D salah: penyebut konstan tidak mengubah derajat linear.",
+      "variation_note": "Keluarga klasifikasi 2: linear biasa, kuadrat, pecahan dengan penyebut konstan, serta dua variabel.",
+      "review_status": "VERIFIED",
+      "review_note": "Pemeriksaan rekayasa: jumlah variabel dan derajat polinom diperiksa dari teks render. Belum approval kurikulum atau kalibrasi IRT."
+    },
+    {
+      "variant_id": "mcma-7-5-6:stock-03",
+      "question_id": "mcma-7-5-6",
+      "stock_index": 3,
+      "stock_version": 1,
+      "original_hash": "f65c67e2143940cc",
+      "original_version": 1,
+      "stem": "Evaluasi klasifikasi persamaan berikut.\n(i) $5(x-1)=2x+7$\n(ii) $(x-3)(x+3)=0$\n(iii) $\\frac{x+6}{4}=5$\n(iv) $2x+3y=12$\nManakah pernyataan yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Persamaan (i) dan (iii) merupakan Persamaan Linear Satu Variabel (PLSV)."
+        },
+        {
+          "id": "B",
+          "text": "Persamaan (ii) merupakan PLSV karena hanya memiliki satu variabel."
+        },
+        {
+          "id": "C",
+          "text": "Persamaan (iv) bukan PLSV karena melibatkan dua variabel."
+        },
+        {
+          "id": "D",
+          "text": "Persamaan (iii) bukan PLSV karena bentuknya pecahan."
+        }
+      ],
+      "key": "A,C",
+      "explanation": "A benar: (i) dan (iii) memiliki satu variabel berderajat satu setelah penyederhanaan. B salah: (ii) berderajat dua. C benar: (iv) memiliki dua variabel. D salah: penyebut konstan tidak mengubah derajat linear.",
+      "variation_note": "Keluarga klasifikasi 3: linear biasa, kuadrat, pecahan dengan penyebut konstan, serta dua variabel.",
+      "review_status": "VERIFIED",
+      "review_note": "Pemeriksaan rekayasa: jumlah variabel dan derajat polinom diperiksa dari teks render. Belum approval kurikulum atau kalibrasi IRT."
+    },
+    {
+      "stem": "Empat rancangan memiliki sambungan yang sesuai. Rancangan manakah yang kekurangan bidang sehingga tidak membentuk bangun tertutup?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kubus: enam persegi kongruen."
+        },
+        {
+          "id": "B",
+          "text": "Prisma segitiga: dua segitiga kongruen dan tiga persegi panjang sesuai sisi alas."
+        },
+        {
+          "id": "C",
+          "text": "Limas segi empat: satu persegi dan tiga segitiga sisi tegak."
+        },
+        {
+          "id": "D",
+          "text": "Kerucut: satu lingkaran dan satu juring dengan busur sepanjang keliling alas."
+        }
+      ],
+      "key": "C",
+      "explanation": "Limas segi empat memerlukan empat segitiga sisi tegak; C hanya tiga, sehingga satu sisi terbuka. Komponen A,B,D lengkap dengan sambungan yang disyaratkan.",
+      "variation_note": "Menilai bidang yang hilang, bukan segitiga berlebih seperti sumber.",
+      "variant_id": "pg-16-4-2:stock-01",
+      "question_id": "pg-16-4-2",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "e4d8bfa6636c3126",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Setiap rancangan mempunyai sambungan yang sesuai. Rancangan manakah yang gagal menutup karena ukuran sambungannya?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tabung: dua lingkaran kongruen dan selimut persegi panjang sepanjang keliling alas."
+        },
+        {
+          "id": "B",
+          "text": "Limas segi empat: satu persegi dan empat segitiga yang sesuai."
+        },
+        {
+          "id": "C",
+          "text": "Prisma segitiga: dua segitiga kongruen dan tiga persegi panjang sesuai sisi alas."
+        },
+        {
+          "id": "D",
+          "text": "Kerucut: lingkaran alas dan juring yang panjang busurnya lebih pendek daripada keliling alas."
+        }
+      ],
+      "key": "D",
+      "explanation": "D tidak cukup panjang untuk mengelilingi alas; selimut menyisakan celah. A,B,C sudah memenuhi jumlah bidang dan kecocokan sambungan.",
+      "variation_note": "Membedakan kecocokan ukuran dari kelengkapan jumlah bidang.",
+      "variant_id": "pg-16-4-2:stock-02",
+      "question_id": "pg-16-4-2",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "e4d8bfa6636c3126",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Sebuah prisma tegak mempunyai alas segitiga sama sisi. Jika dibuka sepanjang rusuk yang sesuai, komponen jaring-jaring yang benar adalah...",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dua segitiga kongruen dan tiga persegi panjang yang kongruen."
+        },
+        {
+          "id": "B",
+          "text": "Dua segitiga kongruen dan dua persegi panjang."
+        },
+        {
+          "id": "C",
+          "text": "Satu segitiga dan tiga persegi panjang."
+        },
+        {
+          "id": "D",
+          "text": "Tiga segitiga dan tiga persegi panjang."
+        }
+      ],
+      "key": "A",
+      "explanation": "Terdapat dua alas segitiga. Tiga sisi alas sama panjang dan tinggi prisma sama, sehingga ketiga persegi panjang kongruen. B kekurangan sisi tegak; C kekurangan alas; D menambah alas.",
+      "variation_note": "Alas sama sisi mengubah relasi ukuran tiga selimut dari berbeda menjadi kongruen.",
+      "variant_id": "pg-16-4-5:stock-01",
+      "question_id": "pg-16-4-5",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "998cb88f8749c830",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Prisma tegak mempunyai alas segitiga sama kaki yang bukan sama sisi. Hubungan ukuran bidang pada jaring-jaringnya adalah...",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ketiga persegi panjang selimut pasti berbeda ukuran."
+        },
+        {
+          "id": "B",
+          "text": "Dua segitiga alas tidak kongruen."
+        },
+        {
+          "id": "C",
+          "text": "Dua segitiga alas kongruen; tepat dua dari tiga persegi panjang selimut kongruen."
+        },
+        {
+          "id": "D",
+          "text": "Jaring-jaring hanya memerlukan satu segitiga alas."
+        }
+      ],
+      "key": "C",
+      "explanation": "Dua sisi alas sama dan sisi ketiga berbeda. Pada tinggi prisma yang sama, tepat dua selimut kongruen. Alas dan tutup tetap kongruen; A,B,D salah.",
+      "variation_note": "Menguji dua ukuran selimut yang sama, bukan sekadar mengganti ukuran segitiga siku-siku.",
+      "variant_id": "pg-16-4-5:stock-02",
+      "question_id": "pg-16-4-5",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "998cb88f8749c830",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Sebuah tetrahedron dibuka menjadi jaring-jaring, kemudian dilipat kembali. Pilih semua pernyataan benar tentang bangun yang sudah dilipat!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Memiliki empat sisi berbentuk segitiga."
+        },
+        {
+          "id": "B",
+          "text": "Memiliki enam rusuk."
+        },
+        {
+          "id": "C",
+          "text": "Memiliki empat titik sudut."
+        },
+        {
+          "id": "D",
+          "text": "Memiliki lima titik sudut."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Tetrahedron: F=4,E=6,V=4 dan V-E+F=2. A,B,C benar; D salah. Titik sudut dihitung setelah dilipat, bukan pada gambar datar.",
+      "variation_note": "Memisahkan hitungan titik sudut bangun terlipat dari titik pada net.",
+      "variant_id": "mcma-16-4-6:stock-01",
+      "question_id": "mcma-16-4-6",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "8c416bce8a4b0d01",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Sebuah limas segitiga memiliki satu alas dan tiga sisi tegak. Pilih semua hasil pemeriksaan yang benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jumlah seluruh bidangnya empat."
+        },
+        {
+          "id": "B",
+          "text": "Tiga rusuk alas dan tiga rusuk tegak menghasilkan enam rusuk."
+        },
+        {
+          "id": "C",
+          "text": "Tiga titik sudut alas ditambah satu puncak menghasilkan empat titik sudut."
+        },
+        {
+          "id": "D",
+          "text": "Jumlah bidang dikurangi jumlah rusuk ditambah jumlah titik sudut adalah satu."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "A=1+3=4 bidang; B=3+3=6 rusuk; C=3+1=4 titik. Untuk D,4-6+4=2, bukan1.",
+      "variation_note": "Menyusun hitungan dari alas dan puncak serta menguji konsistensi Euler.",
+      "variant_id": "mcma-16-4-6:stock-02",
+      "question_id": "mcma-16-4-6",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "8c416bce8a4b0d01",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Tabung tanpa tutup dengan jari-jari r dan tinggi h dibuka menjadi jaring-jaring. Pilih semua pernyataan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Terdapat satu lingkaran dan satu persegi panjang."
+        },
+        {
+          "id": "B",
+          "text": "Lebar selimut mewakili tinggi h."
+        },
+        {
+          "id": "C",
+          "text": "Jaring-jaring harus memiliki dua lingkaran."
+        },
+        {
+          "id": "D",
+          "text": "Panjang selimut sama dengan 2*pi*r."
+        }
+      ],
+      "key": "A,B,D",
+      "explanation": "Satu tutup dihilangkan, sehingga alas tinggal satu lingkaran. Selimut tetap berukuran2*pi*r kali h. A,B,D benar; C salah.",
+      "variation_note": "Mengubah kelengkapan tutup, tetap menilai struktur net dan sambungan.",
+      "variant_id": "mcma-16-4-7:stock-01",
+      "question_id": "mcma-16-4-7",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "99e5617dc99a0a3f",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Tabung tertutup dipotong sepanjang satu garis tegak dan kedua tepi lingkarannya. Pilih semua pernyataan benar tentang bidang yang dilebarkan!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kedua lingkaran alas dan tutup kongruen."
+        },
+        {
+          "id": "B",
+          "text": "Selimut dapat dilebarkan menjadi persegi panjang."
+        },
+        {
+          "id": "C",
+          "text": "Luas seluruh bidang adalah pi*r*r+2*pi*r*h."
+        },
+        {
+          "id": "D",
+          "text": "Luas kedua lingkaran bersama-sama adalah 2*pi*r*r."
+        }
+      ],
+      "key": "A,B,D",
+      "explanation": "A,B,D benar. Rumus C hanya memasukkan satu lingkaran, padahal tabung tertutup memerlukan dua; luas total2*pi*r*r+2*pi*r*h.",
+      "variation_note": "Memeriksa komponen rumus luas, bukan hanya jumlah bidang.",
+      "variant_id": "mcma-16-4-7:stock-02",
+      "question_id": "mcma-16-4-7",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "99e5617dc99a0a3f",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Sebuah net terdiri dari satu segi lima dan lima segitiga sisi tegak yang sesuai. Pilih semua pernyataan benar mengenai bangun ruangnya!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bangun tersebut adalah limas segi lima."
+        },
+        {
+          "id": "B",
+          "text": "Jumlah rusuknya sepuluh."
+        },
+        {
+          "id": "C",
+          "text": "Jumlah titik sudutnya enam."
+        },
+        {
+          "id": "D",
+          "text": "Jumlah sisi tegaknya enam."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Limas segi lima memiliki5 rusuk alas+5 rusuk tegak=10, serta5 titik alas+1 puncak=6. Sisi tegak hanya5, sehingga D salah.",
+      "variation_note": "Menggeneralisasi hubungan alas, rusuk dan puncak ke segi lima.",
+      "variant_id": "mcma-16-4-8:stock-01",
+      "question_id": "mcma-16-4-8",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "3f14c9c2cbb9a103",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Net sebuah limas mempunyai alas segitiga dan tiga segitiga sisi tegak. Pilih semua pernyataan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bangun memiliki empat bidang."
+        },
+        {
+          "id": "B",
+          "text": "Bangun memiliki enam rusuk."
+        },
+        {
+          "id": "C",
+          "text": "Bangun memiliki lima titik sudut."
+        },
+        {
+          "id": "D",
+          "text": "Bangun memiliki satu puncak di luar tiga titik sudut alas."
+        }
+      ],
+      "key": "A,B,D",
+      "explanation": "F=1+3=4; E=3+3=6; V=3+1=4. A,B,D benar; C salah karena bukan5.",
+      "variation_note": "Mengubah jenis alas sehingga tidak menghafal angka delapan rusuk dari sumber.",
+      "variant_id": "mcma-16-4-8:stock-02",
+      "question_id": "mcma-16-4-8",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "3f14c9c2cbb9a103",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Nilai Benar atau Salah untuk sifat prisma tegak dan limas berikut!",
+      "options": [
+        {
+          "id": "1",
+          "text": "Prisma memiliki dua alas yang kongruen."
+        },
+        {
+          "id": "2",
+          "text": "Limas memiliki satu puncak yang bukan titik sudut alas."
+        },
+        {
+          "id": "3",
+          "text": "Semua sisi tegak prisma berbentuk segitiga."
+        },
+        {
+          "id": "4",
+          "text": "Limas segi-n mempunyai n+1 bidang seluruhnya."
+        }
+      ],
+      "key": "1,2,4",
+      "explanation": "1,2,4 benar: dua alas prisma; satu puncak limas; satu alas+n sisi tegak. 3 salah karena sisi tegak prisma tegak berbentuk persegi panjang.",
+      "variation_note": "Membedakan jumlah seluruh bidang dari jumlah sisi tegak.",
+      "variant_id": "kategori-16-4-9:stock-01",
+      "question_id": "kategori-16-4-9",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "614c6cba18510824",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Bandingkan prisma segitiga dan limas segitiga tertutup. Nilai setiap pernyataan!",
+      "options": [
+        {
+          "id": "1",
+          "text": "Prisma segitiga mempunyai lima bidang."
+        },
+        {
+          "id": "2",
+          "text": "Prisma segitiga mempunyai sembilan rusuk."
+        },
+        {
+          "id": "3",
+          "text": "Prisma segitiga mempunyai enam titik sudut."
+        },
+        {
+          "id": "4",
+          "text": "Limas segitiga mempunyai lima bidang."
+        }
+      ],
+      "key": "1,2,3",
+      "explanation": "Prisma segitiga:F=2+3=5,E=3+3+3=9,V=3+3=6. Limas segitiga:F=1+3=4 sehingga4 salah.",
+      "variation_note": "Menangani kasus n=3 ketika alas limas juga segitiga.",
+      "variant_id": "kategori-16-4-9:stock-02",
+      "question_id": "kategori-16-4-9",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "614c6cba18510824",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Kategorikan karakteristik net sebagai Tabung atau Kerucut. Kategori pertama adalah Tabung.",
+      "options": [
+        {
+          "id": "1",
+          "text": "Luas dua bidang alas dan tutup bersama-sama adalah 2*pi*r*r."
+        },
+        {
+          "id": "2",
+          "text": "Selimut berupa juring yang jari-jarinya sama dengan garis pelukis."
+        },
+        {
+          "id": "3",
+          "text": "Luas satu alas dan selimut adalah pi*r*r+pi*r*s."
+        },
+        {
+          "id": "4",
+          "text": "Selimut persegi panjang mempunyai dua tepi sejajar untuk menyambung dua alas kongruen."
+        }
+      ],
+      "key": "1,4",
+      "explanation": "1,4 Tabung: dua lingkaran dan selimut persegi panjang. 2,3 Kerucut: satu lingkaran dan selimut juring dengan luas pi*r*s.",
+      "variation_note": "Klasifikasi dari relasi luas dan tepi sambungan, bukan daftar bentuk sumber.",
+      "variant_id": "kategori-16-4-10:stock-01",
+      "question_id": "kategori-16-4-10",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "a738ee9e84a45a3f",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Kategorikan proses melipat berikut sebagai Tabung atau Kerucut; setiap rancangan sesuai ukuran sambungannya.",
+      "options": [
+        {
+          "id": "1",
+          "text": "Sebuah juring disatukan pada dua sisi lurusnya hingga mempunyai satu puncak."
+        },
+        {
+          "id": "2",
+          "text": "Dua tepi sejajar sebuah persegi panjang disatukan dan kedua ujungnya ditutup lingkaran kongruen."
+        },
+        {
+          "id": "3",
+          "text": "Satu alas lingkaran disambungkan dengan tepi busur sebuah juring."
+        },
+        {
+          "id": "4",
+          "text": "Tidak ada titik puncak; kedua bidang ujung berupa lingkaran kongruen."
+        }
+      ],
+      "key": "2,4",
+      "explanation": "1,3 Kerucut karena juring menghasilkan puncak dan satu alas. 2,4 Tabung karena selimut persegi panjang dan dua ujung lingkaran tanpa puncak.",
+      "variation_note": "Menggunakan proses pelipatan sebagai representasi baru.",
+      "variant_id": "kategori-16-4-10:stock-02",
+      "question_id": "kategori-16-4-10",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "a738ee9e84a45a3f",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Seluruh bidang penyusun suatu net sudah lengkap. Rancangan manakah tetap gagal menjadi bangun tertutup?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prisma dengan bidang dan tepi sambungan yang kongruen sesuai pasangannya."
+        },
+        {
+          "id": "B",
+          "text": "Tabung dengan panjang selimut tepat sama keliling alas."
+        },
+        {
+          "id": "C",
+          "text": "Kerucut dengan busur selimut lebih pendek daripada keliling alas."
+        },
+        {
+          "id": "D",
+          "text": "Limas dengan setiap tepi segitiga tegak cocok dengan alas dan sisi tetangganya."
+        }
+      ],
+      "key": "C",
+      "explanation": "C menyisakan celah sepanjang sambungan alas-selimut. A,B,D sudah memenuhi kecocokan tepi yang dinyatakan.",
+      "variation_note": "Kelengkapan bidang tidak menjamin kecocokan panjang sambungan.",
+      "variant_id": "pg-16-5-1:stock-01",
+      "question_id": "pg-16-5-1",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "b96132e16389dc9f",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Sebuah tabung tertutup akan dirakit. Dua lingkaran kongruen sudah tersedia. Kondisi selimut manakah yang menjamin sambungan alas dapat menutup tepat tanpa tumpang tindih?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Panjang persegi panjang sama dengan diameter alas."
+        },
+        {
+          "id": "B",
+          "text": "Panjang persegi panjang sama dengan jari-jari alas."
+        },
+        {
+          "id": "C",
+          "text": "Panjang persegi panjang sama dengan keliling alas, lebarnya sama dengan tinggi tabung."
+        },
+        {
+          "id": "D",
+          "text": "Panjang persegi panjang sama dengan setengah keliling alas."
+        }
+      ],
+      "key": "C",
+      "explanation": "Selimut harus mengelilingi seluruh tepi alas satu kali, sehingga panjangnya2*pi*r dan lebarnya h. A,B,D terlalu pendek untuk r>0.",
+      "variation_note": "Mengevaluasi kondisi cukup, bukan memilih gambar berdasarkan proporsi.",
+      "variant_id": "pg-16-5-1:stock-02",
+      "question_id": "pg-16-5-1",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "b96132e16389dc9f",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Jari-jari tabung digandakan, sedangkan tingginya dijadikan setengah. Siswa menyatakan luas permukaan tabung tertutup tetap. Evaluasi yang tepat adalah...",
+      "options": [
+        {
+          "id": "A",
+          "text": "Benar karena luas kedua alas tetap."
+        },
+        {
+          "id": "B",
+          "text": "Salah: luas selimut tetap tetapi luas kedua alas menjadi empat kali."
+        },
+        {
+          "id": "C",
+          "text": "Benar karena semua panjang saling meniadakan."
+        },
+        {
+          "id": "D",
+          "text": "Salah: luas selimut menjadi empat kali."
+        }
+      ],
+      "key": "B",
+      "explanation": "Selimut2*pi*(2r)*(h/2)=2*pi*r*h tetap. Kedua alas2*pi*(2r)^2=8*pi*r*r, empat kali semula. Luas total bertambah; A,C,D salah.",
+      "variation_note": "Menilai perubahan komponen luas ketika alas membesar, kebalikan kasus sumber.",
+      "variant_id": "pg-16-5-2:stock-01",
+      "question_id": "pg-16-5-2",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "3d7b72d8f700547c",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Pada tabung tertutup, jari-jari tetap dan tinggi digandakan. Siswa menyatakan seluruh luas permukaan menjadi dua kali. Evaluasi yang tepat adalah...",
+      "options": [
+        {
+          "id": "A",
+          "text": "Benar karena kedua alas ikut menjadi dua kali."
+        },
+        {
+          "id": "B",
+          "text": "Salah karena luas seluruh permukaan tetap."
+        },
+        {
+          "id": "C",
+          "text": "Salah: hanya luas selimut yang menjadi dua kali; luas kedua alas tetap."
+        },
+        {
+          "id": "D",
+          "text": "Benar karena luas selimut tetap."
+        }
+      ],
+      "key": "C",
+      "explanation": "Lbaru=2*pi*r*r+4*pi*r*h, sedangkan2*Llama=4*pi*r*r+4*pi*r*h. Untuk r>0 keduanya tidak sama. C benar; A,B,D salah.",
+      "variation_note": "Memisahkan perubahan luas selimut dari luas total dengan alas tetap.",
+      "variant_id": "pg-16-5-2:stock-02",
+      "question_id": "pg-16-5-2",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "3d7b72d8f700547c",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Tabung tanpa tutup mempunyai jari-jari r>0 dan tinggi h>0. Pilih semua pernyataan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Selimut menjadi persegi bila h=2*pi*r."
+        },
+        {
+          "id": "B",
+          "text": "Luas alas yang diperlukan adalah pi*r*r."
+        },
+        {
+          "id": "C",
+          "text": "Menggandakan h selalu menggandakan seluruh luas net."
+        },
+        {
+          "id": "D",
+          "text": "Panjang selimut sebelum dilipat adalah 2*pi*r."
+        }
+      ],
+      "key": "A,B,D",
+      "explanation": "A karena kedua ukuran selimut sama; B satu alas; D keliling alas. C salah: alas tetap, hanya selimut yang dua kali.",
+      "variation_note": "Menguji syarat persegi yang tepat dan membedakan luas komponen.",
+      "variant_id": "mcma-16-5-7:stock-01",
+      "question_id": "mcma-16-5-7",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "8ff610d42fa654c3",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Tabung terbuka di kedua ujung dibuat hanya dari selimut, dengan tebal bahan diabaikan. Pilih semua pernyataan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Net cukup berupa satu persegi panjang."
+        },
+        {
+          "id": "B",
+          "text": "Luas bahannya 2*pi*r*h."
+        },
+        {
+          "id": "C",
+          "text": "Jika r dijadikan setengah dan h digandakan, luas bahan tetap."
+        },
+        {
+          "id": "D",
+          "text": "Net tetap membutuhkan dua lingkaran alas."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Tanpa kedua penutup, bahan hanya selimut. L=2*pi*r*h dan Lbaru=2*pi*(r/2)*(2h)=L. D salah karena kedua ujung sengaja terbuka.",
+      "variation_note": "Mengubah kondisi penutup untuk menguji batas berlakunya rumus.",
+      "variant_id": "mcma-16-5-7:stock-02",
+      "question_id": "mcma-16-5-7",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "8ff610d42fa654c3",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Evaluasi hubungan net dan jenis alas pada prisma tegak serta limas. Pilih semua pernyataan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prisma segi empat mempunyai dua bidang alas dan empat bidang selimut."
+        },
+        {
+          "id": "B",
+          "text": "Limas segi lima mempunyai lima segitiga sisi tegak."
+        },
+        {
+          "id": "C",
+          "text": "Prisma dengan alas semua sisinya berbeda dapat mempunyai selimut persegi panjang berbeda ukuran."
+        },
+        {
+          "id": "D",
+          "text": "Setiap limas harus mempunyai alas persegi."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Prisma segi-n memiliki2 alas+n selimut. Limas segi-n memiliki n sisi tegak. Ukuran selimut mengikuti sisi alas pada tinggi tetap. Alas limas dapat berupa poligon selain persegi, sehingga D salah.",
+      "variation_note": "Menguji generalisasi dan satu klaim universal yang berlebihan.",
+      "variant_id": "mcma-16-5-8:stock-01",
+      "question_id": "mcma-16-5-8",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "c230b291510ea104",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Sebuah limas beralas persegi memiliki semua rusuk alas dan rusuk tegak sama panjang. Pilih semua pernyataan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Setiap sisi tegaknya berbentuk segitiga sama sisi."
+        },
+        {
+          "id": "B",
+          "text": "Net mempunyai satu persegi dan empat segitiga."
+        },
+        {
+          "id": "C",
+          "text": "Bangun tersebut mempunyai empat bidang seluruhnya."
+        },
+        {
+          "id": "D",
+          "text": "Jumlah seluruh bidangnya lima."
+        }
+      ],
+      "key": "A,B,D",
+      "explanation": "Masing-masing segitiga memiliki tiga sisi sama panjang. Terdapat1 alas+4 segitiga=5 bidang. A,B,D benar; C salah.",
+      "variation_note": "Menggunakan konstruksi penyangkal klaim bahwa sisi tegak sama sisi mustahil.",
+      "variant_id": "mcma-16-5-8:stock-02",
+      "question_id": "mcma-16-5-8",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "c230b291510ea104",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Refleksi terhadap garis y=x diterapkan pada seluruh segitiga. Sifat bayangannya adalah...",
+      "options": [
+        {
+          "id": "A",
+          "text": "Luas dan panjang sisi tetap, tetapi orientasi matematis terbalik."
+        },
+        {
+          "id": "B",
+          "text": "Luas menjadi dua kali dan orientasi tetap."
+        },
+        {
+          "id": "C",
+          "text": "Panjang sisi berubah namun luas tetap."
+        },
+        {
+          "id": "D",
+          "text": "Luas tetap dan orientasi matematis selalu tetap."
+        }
+      ],
+      "key": "A",
+      "explanation": "Refleksi adalah isometri dengan determinan-1: panjang dan luas tetap, orientasi matematis terbalik. B,C mengubah ukuran; D salah tentang orientasi.",
+      "variation_note": "Jenis transformasi ditetapkan pada seluruh bangun, bukan disimpulkan dari satu pasangan titik.",
+      "variant_id": "pg-17-5-3:stock-01",
+      "question_id": "pg-17-5-3",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "64d61ebcb5f701c0",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Sebuah segitiga dirotasi 90 derajat terhadap suatu pusat, lalu ditranslasi. Pernyataan yang benar mengenai hasil akhirnya adalah...",
+      "options": [
+        {
+          "id": "A",
+          "text": "Luas berubah karena ada dua transformasi."
+        },
+        {
+          "id": "B",
+          "text": "Panjang sisi tetap tetapi orientasi matematis terbalik."
+        },
+        {
+          "id": "C",
+          "text": "Bangun kongruen dan orientasi matematis tetap."
+        },
+        {
+          "id": "D",
+          "text": "Bangun hanya sebangun dengan faktor ukuran yang berbeda."
+        }
+      ],
+      "key": "C",
+      "explanation": "Rotasi dan translasi sama-sama isometri yang mempertahankan orientasi. Komposisinya menjaga panjang, luas dan orientasi; C benar. Banyaknya transformasi tidak menggandakan luas.",
+      "variation_note": "Membandingkan komposisi isometri dengan refleksi sumber.",
+      "variant_id": "pg-17-5-3:stock-02",
+      "question_id": "pg-17-5-3",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "64d61ebcb5f701c0",
+      "original_version": 2,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Pilih semua evaluasi yang benar tentang komposisi transformasi pada bangun datar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rotasi diikuti translasi mempertahankan luas."
+        },
+        {
+          "id": "B",
+          "text": "Dua refleksi berturut-turut mempertahankan orientasi matematis."
+        },
+        {
+          "id": "C",
+          "text": "Refleksi tunggal mempertahankan keliling."
+        },
+        {
+          "id": "D",
+          "text": "Rotasi diikuti translasi selalu menggandakan keliling."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Rotasi, translasi dan refleksi adalah isometri. Dua refleksi membalik orientasi dua kali sehingga tetap. D salah: keliling tetap, bukan dua kali.",
+      "variation_note": "Memeriksa komposisi serta orientasi, bukan hanya transformasi tunggal.",
+      "variant_id": "mcma-17-5-7:stock-01",
+      "question_id": "mcma-17-5-7",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "93004a9263e09b23",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Bangun tak degenerat didilatasi dengan faktor k<0 terhadap satu pusat. Pilih semua pernyataan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perbandingan luas adalah k*k."
+        },
+        {
+          "id": "B",
+          "text": "Perbandingan keliling adalah nilai mutlak k."
+        },
+        {
+          "id": "C",
+          "text": "Untuk k=-1, bangun kongruen dengan bangun awal."
+        },
+        {
+          "id": "D",
+          "text": "Luas bayangan bernilai negatif karena k negatif."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Panjang dikali|k|, luas dikali k^2>0. k=-1 sama dengan rotasi180 sehingga kongruen. Luas tidak negatif; D salah.",
+      "variation_note": "Menguji nilai mutlak faktor panjang dan kuadrat faktor luas.",
+      "variant_id": "mcma-17-5-7:stock-02",
+      "question_id": "mcma-17-5-7",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "93004a9263e09b23",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Prisma dan limas memiliki luas alas sama serta tinggi sama yang positif. Pilih semua evaluasi benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prisma menampung tiga kali volume limas."
+        },
+        {
+          "id": "B",
+          "text": "Limas menampung sepertiga volume prisma."
+        },
+        {
+          "id": "C",
+          "text": "Volume keduanya sama jika tinggi prisma diubah menjadi sepertiga tinggi limas."
+        },
+        {
+          "id": "D",
+          "text": "Volume keduanya sama jika tinggi limas diubah menjadi sepertiga tinggi prisma."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Vp=A*hp, Vl=A*hl/3. Pada tinggi sama Vp=3Vl. Syarat sama volume hp=hl/3. D membalik hubungan itu dan salah.",
+      "variation_note": "Menentukan syarat kesamaan volume, bukan sekadar memperbesar tinggi keduanya.",
+      "variant_id": "mcma-19-5-6:stock-01",
+      "question_id": "mcma-19-5-6",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "af57756e8c846d65",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Sebuah prisma dan limas mempunyai volume sama dan luas alas sama yang positif. Pilih semua hubungan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tinggi limas tiga kali tinggi prisma."
+        },
+        {
+          "id": "B",
+          "text": "Tinggi prisma sepertiga tinggi limas."
+        },
+        {
+          "id": "C",
+          "text": "Jika kedua tinggi digandakan, volume keduanya tetap sama satu sama lain."
+        },
+        {
+          "id": "D",
+          "text": "Tinggi kedua bangun harus sama."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "A*hp=A*hl/3 memberi hl=3hp. Menggandakan kedua tinggi menggandakan kedua volume sehingga tetap sama. D salah untuk tinggi positif.",
+      "variation_note": "Memulai dari volume sama untuk membalik hubungan tinggi.",
+      "variant_id": "mcma-19-5-6:stock-02",
+      "question_id": "mcma-19-5-6",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "af57756e8c846d65",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Bola berjari-jari r>0 dibandingkan dengan limas yang luas alasnya pi*r*r dan tingginya r. Pilih semua pernyataan benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Volume limas adalah pi*r*r*r/3."
+        },
+        {
+          "id": "B",
+          "text": "Volume bola empat kali volume limas."
+        },
+        {
+          "id": "C",
+          "text": "Perbandingan volume bola:limas adalah 4:1."
+        },
+        {
+          "id": "D",
+          "text": "Jika r bola digandakan dengan limas tetap, volume bola menjadi dua kali volume limas."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Vl=pi*r^3/3 dan Vb=4*pi*r^3/3 sehingga rasio4:1. r bola digandakan memberi8*Vb=32*Vl, bukan2*Vl. A,B,C benar.",
+      "variation_note": "Mengganti hubungan luas alas sehingga rasio pi pada sumber menjadi rasio4.",
+      "variant_id": "mcma-19-5-7:stock-01",
+      "question_id": "mcma-19-5-7",
+      "stock_index": 1,
+      "stock_version": 1,
+      "original_hash": "17d14115b5d4cc54",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
+    },
+    {
+      "stem": "Bola berjari-jari r>0 dibandingkan dengan limas beralas persegi bersisi r dan tinggi r. Pilih semua evaluasi benar!",
+      "options": [
+        {
+          "id": "A",
+          "text": "Volume limas adalah r*r*r/3."
+        },
+        {
+          "id": "B",
+          "text": "Volume bola lebih besar daripada volume limas."
+        },
+        {
+          "id": "C",
+          "text": "Perbandingan volume bola:limas adalah 4*pi:1."
+        },
+        {
+          "id": "D",
+          "text": "Menggandakan jari-jari bola membuat volumenya hanya dua kali volume semula."
+        }
+      ],
+      "key": "A,B,C",
+      "explanation": "Vl=r^3/3, Vb=4*pi*r^3/3; r>0 memberi Vb>Vl dan rasio4*pi:1. Volume bola berskala kubik: r dua kali memberi8 kali, bukan2. A,B,C benar.",
+      "variation_note": "Menguji pengaruh sisi alas r, bukan2r, terhadap perbandingan simbolik.",
+      "variant_id": "mcma-19-5-7:stock-02",
+      "question_id": "mcma-19-5-7",
+      "stock_index": 2,
+      "stock_version": 1,
+      "original_hash": "17d14115b5d4cc54",
+      "original_version": 1,
+      "review_status": "VERIFIED",
+      "review_note": "Review engineering isi, tiap opsi, kunci, variasi tugas dan pembahasan; bukan approval kurikulum atau kesetaraan IRT."
     }
   ]
 }

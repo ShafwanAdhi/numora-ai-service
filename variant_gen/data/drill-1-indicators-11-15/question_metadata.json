@@ -3286,7 +3286,7 @@
     "reason": "Definisi/kesimpulan tetap; template konseptual setara belum disepakati."
   },
   "mcma-15-2-8": {
-    "generation_status": "HOLD_SOURCE",
+    "generation_status": "ACTIVE",
     "source_number": 8,
     "source_indicator": 15,
     "source_level": 2,
@@ -3294,16 +3294,27 @@
     "source_cognitive_label": "C3 & C4",
     "source_key": "Pernyataan 2, Pernyataan 4",
     "source_text": "SOAL 8 (Bentuk Soal: PG MCMA)\nKUNCI JAWABAN : Pernyataan 2, Pernyataan 4\nSegitiga ABC sebangun dengan segitiga PQR dengan titik A, B, C berturut-turut bersesuaian dengan P, Q, R. Diketahui ∠A = 75°, ∠B = 65°, AB = 6 cm, BC = 9 cm, dan PQ = 9 cm. Pilihlah semua pernyataan yang benar!\n[  ] Pernyataan 1: ∠R = 65°.\n[  ] Pernyataan 2: Panjang QR = 13,5 cm.\n[  ] Pernyataan 3: Perbandingan luas segitiga ABC dan segitiga PQR adalah 2 : 3.\n[  ] Pernyataan 4: Keliling segitiga PQR adalah 1,5 kali keliling segitiga ABC.\nPembahasan :\n∠C = 180° - 75° - 65° = 40°, sehingga ∠R = ∠C = 40°. Sisi BC berhadapan dengan ∠A (75°) dan sisi AB berhadapan dengan ∠C (40°), sehingga BC > AB. Ini konsisten dengan sudut yang lebih besar berhadapan dengan sisi yang lebih panjang. Perbandingan sisi PQ/AB = 9/6 = 3/2.\nPernyataan 1 salah: ∠R = 40°, bukan 65°.\nPernyataan 2 benar: QR = 3/2 × BC = 3/2 × 9 = 13,5 cm.\nPernyataan 3 salah: perbandingan luas = 2² : 3² = 4 : 9.\nPernyataan 4 benar: keliling sebanding dengan skala 3/2 = 1,5.",
-    "original_explanation": "∠C = 180° - 75° - 65° = 40°, sehingga ∠R = ∠C = 40°. Sisi BC berhadapan dengan ∠A (75°) dan sisi AB berhadapan dengan ∠C (40°), sehingga BC > AB. Ini konsisten dengan sudut yang lebih besar berhadapan dengan sisi yang lebih panjang. Perbandingan sisi PQ/AB = 9/6 = 3/2.\nPernyataan 1 salah: ∠R = 40°, bukan 65°.\nPernyataan 2 benar: QR = 3/2 × BC = 3/2 × 9 = 13,5 cm.\nPernyataan 3 salah: perbandingan luas = 2² : 3² = 4 : 9.\nPernyataan 4 benar: keliling sebanding dengan skala 3/2 = 1,5.",
+    "original_explanation": "∠C = 180° - 75° - 65° = 40°, sehingga ∠R = 40°, bukan 65°. Skala PQ/AB = 9/6 = 1,5. QR = 1,5 kali BC; keliling PQR = 1,5 kali keliling ABC. Luas ABC : PQR = 4 : 9, bukan 2 : 3. B,D benar.",
     "notes": [
       "Formatting: structured OMML and Word run superscript/subscript retained; minus normalized; singleton sets use spaced braces."
     ],
-    "reason": "Revisi masih tidak konsisten: sudut A=75°, B=65°, C=40° dan AB=6 cm mengharuskan BC sekitar 9,0163 cm, bukan tepat 9 cm. Urutan panjang sisi sudah benar, tetapi panjang dan sudut belum cocok persis; sumber belum menyatakan pembulatan.",
-    "source_review_status": "REVISED_NEEDS_REVIEW",
-    "generator_status": "NOT_IMPLEMENTED",
+    "reason": "Revisi lokal saat pengguna meminta generator nonkonseptual: hapus BC=9 yang bertentangan dengan sudut; opsi B memakai rasio QR/BC, sehingga data konsisten tanpa menambahkan trigonometri.",
+    "source_review_status": "LOCAL_REVISION_ENGINEERING_REVIEWED",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "08b30681b07398eaea08331029f8c6934d576aaa31294a6529fd8ac69dff5383",
     "previous_generation_status": "HOLD_SOURCE",
-    "previous_reason": "Sudut40/65/75 derajat tidak konsisten dengan AB6 dan BC10: AB berhadapan75 tetapi lebih pendek daripada BC yang berhadapan40. Usulan sisi/sudut belum dipilih; HOLD."
+    "previous_reason": "Sudut40/65/75 derajat tidak konsisten dengan AB6 dan BC10: AB berhadapan75 tetapi lebih pendek daripada BC yang berhadapan40. Usulan sisi/sudut belum dipilih; HOLD.",
+    "raw_source_explanation": "∠C = 180° - 75° - 65° = 40°, sehingga ∠R = ∠C = 40°. Sisi BC berhadapan dengan ∠A (75°) dan sisi AB berhadapan dengan ∠C (40°), sehingga BC > AB. Ini konsisten dengan sudut yang lebih besar berhadapan dengan sisi yang lebih panjang. Perbandingan sisi PQ/AB = 9/6 = 3/2.\nPernyataan 1 salah: ∠R = 40°, bukan 65°.\nPernyataan 2 benar: QR = 3/2 × BC = 3/2 × 9 = 13,5 cm.\nPernyataan 3 salah: perbandingan luas = 2² : 3² = 4 : 9.\nPernyataan 4 benar: keliling sebanding dengan skala 3/2 = 1,5.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "source_review": {
+      "date": "2026-10-21",
+      "reason": "Revisi lokal saat pengguna meminta generator nonkonseptual: hapus BC=9 yang bertentangan dengan sudut; opsi B memakai rasio QR/BC, sehingga data konsisten tanpa menambahkan trigonometri.",
+      "source_version": 2,
+      "local_version": 3,
+      "source_document_unchanged": true,
+      "source_text_preserved": true
+    }
   },
   "kategori-15-2-9": {
     "generation_status": "ACTIVE",

@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-5-4-9",
+  "config_version": 1,
+  "original_hash": "e7f02bc7f664dec4",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'21.000,00' if k == 0 else (30*(700+10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'32.500,00' if k == 0 else (50*(650+5*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'700,00' if k == 0 else (700+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "700+10*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "650+5*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "50+5*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus OSIS menganalisis dua harga paket kertas karton tebal untuk dekorasi:\nPaket X: berisi $30$ lembar seharga Rp{v0}\nPaket Y: berisi $50$ lembar seharga Rp{v1}\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis laju harga per lembar berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Harga per lembar kertas pada Paket X adalah Rp{v2}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Harga per lembar kertas pada Paket Y adalah Rp{v2}.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Paket Y menawarkan harga per lembar yang lebih murah dibandingkan Paket X.",
+      "correct": true
+    }
+  ],
+  "explanation": "Harga X per lembar = {v3}. Harga Y per lembar = {v4}. Selisih = {v5}, sehingga Y lebih murah. Pernyataan 1 dan 3 benar; 2 salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

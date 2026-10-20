@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-22-4-5",
+  "config_version": 1,
+  "original_hash": "77958cb6e5f022e1",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else ((75)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'78' if k == 0 else ((78)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'82' if k == 0 else ((82)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'85' if k == 0 else ((85)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else ((60)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (80-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' poin, median kedua kelompok)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "80-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kelompok siswa memperoleh hasil tes berikut.\n\nKelompok A: {v0}, {v1}, {v2}, {v3}, {v4}\n\nKelompok B: {v5}, {v0}, {v2}, {v4}, {v6}\n\nSeorang guru menyatakan bahwa kelompok B lebih baik karena memiliki nilai tertinggi.\n\nEvaluasi yang paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena nilai tertinggi menentukan kualitas seluruh kelompok.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Benar, karena kelompok B memiliki jangkauan lebih besar.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Tidak tepat, karena perbandingan perlu mempertimbangkan ukuran pemusatan dan penyebaran, bukan hanya nilai tertinggi.{v7}{v8}{v9}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Tidak tepat, karena nilai tertinggi tidak boleh digunakan dalam analisis data.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v10}. Rerata dan median keduanya={v10}. Jangkauan kelompok dengan rentang lebar40, lainnya10. Nilai tertinggi saja tidak menilai seluruh kelompok. C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

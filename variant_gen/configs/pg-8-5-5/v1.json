@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-8-5-5",
+  "config_version": 1,
+  "original_hash": "eae7fc7b937d8ce5",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'500' if k == 0 else (500+30*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'16' if k == 0 else (16+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'530' if k == 0 else (530+30*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "15+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "16+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "530+30*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "500+30*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah mobil bak terbuka memiliki batas aman muatan. Batas beban maksimum dinyatakan oleh pertidaksamaan $30x+50≤{v0}$, di mana $x$ adalah banyak karung beras. Seorang sopir membawa {v1} karung beras dan menyatakan bahwa muatannya sudah melebihi batas aman. Evaluasi terhadap pernyataan sopir tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Salah, karena beban {v1} karung beras tepat sama dengan ${v0}kg$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Benar, karena untuk $x={v1}$, nilai $30({v1})+50={v2}kg>{v0}kg$",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena kapasitas maksimum mobil bak tersebut adalah {v3} karung beras",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Benar, karena batas maksimal karung beras yang diperbolehkan adalah {v4} karung",
+      "correct": false
+    }
+  ],
+  "explanation": "Maksimum {v5} karung. Beban {v6} karung adalah {v7} kg, melebihi kapasitas {v8} kg. Hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

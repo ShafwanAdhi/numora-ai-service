@@ -1,0 +1,109 @@
+{
+  "question_id": "pg-9-4-4",
+  "config_version": 1,
+  "original_hash": "306adc3030c8319c",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', x sistem II)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "-5",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3+2*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menyajikan dua bentuk SPLDV untuk dievaluasi ketersediaan solusinya:\nSystem I: $x-2y={v0}$ dan $3x-6y={v1}$\nSystem II: $x+y={v2}$ dan $2x-y={v3}$\nEvaluasi yang tepat mengenai jenis solusi kedua sistem persamaan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sistem I memiliki solusi tunggal, sedangkan Sistem II tidak memiliki solusi",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kedua sistem sama-sama memiliki tak hingga banyaknya solusi",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kedua sistem sama-sama tidak memiliki solusi",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Sistem I tidak memiliki solusi (garis sejajar), sedangkan Sistem II memiliki solusi tunggal{v4}{v5}{v6}",
+      "correct": true
+    }
+  ],
+  "explanation": "Sistem I: konstanta kedua dikurangi tiga kali konstanta pertama = {v7}, bukan nol; garis sejajar. Sistem II: x = {v8}, y = {v9}, determinan -3 tidak nol. Hanya D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

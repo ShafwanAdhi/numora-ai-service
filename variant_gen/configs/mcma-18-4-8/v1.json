@@ -1,0 +1,129 @@
+{
+  "question_id": "mcma-18-4-8",
+  "config_version": 1,
+  "original_hash": "232f28b6000e1947",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else ((20)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else ((10)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else ((2)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'200' if k == 0 else ((200)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'336' if k == 0 else ((336)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'136' if k == 0 else ((136)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'1' if k == 0 else ((1)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'68' if k == 0 else ((68)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "136*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "200*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "336*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "k+1",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "64*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "68*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah taman berbentuk persegi panjang berukuran {v0} m × {v1} m. Di sekeliling bagian luar taman tersebut akan dibuat jalan setapak dengan lebar {v2} m. Pilihlah semua pernyataan yang benar terkait evaluasi desain taman tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Luas taman awal adalah {v3} m².",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas total taman beserta jalan setapak adalah {v4} m².",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Luas jalan setapak tersebut adalah {v5} m².",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika lebar jalan diubah menjadi {v6} m, maka luas jalan menjadi {v7} m².",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v8}. Awal{v9}, luar{v10}, jalan{v8}. Lebar alternatif{v11} memberi jalan{v12}, bukan{v13}. A,B,C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

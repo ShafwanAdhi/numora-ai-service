@@ -1,0 +1,92 @@
+{
+  "question_id": "mcma-5-4-7",
+  "config_version": 1,
+  "original_hash": "da90f8c5acafab2b",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'250' if k == 0 else (250*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'35' if k == 0 else (35*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else (20*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'700' if k == 0 else (700*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "35*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "20*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "700*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'",
+      "fmt": "id"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah denah aula pertemuan sekolah digambar dengan skala $1:{v0}$. Pada denah, aula berbentuk persegi panjang memiliki ukuran panjang $14cm$ dan lebar $8cm$. Dua siswa mengevaluasi ukuran sebenarnya aula tersebut.\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan \"Panjang aula sebenarnya adalah ${v1} meter$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan \"Lebar aula sebenarnya adalah ${v2} meter$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan \"Luas aula sebenarnya adalah $280 {m}^{2}$\" adalah BENAR.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan \"Luas aula sebenarnya adalah ${v3} {m}^{2}$\" adalah BENAR.",
+      "correct": true
+    }
+  ],
+  "explanation": "Panjang = {v4} m, lebar = {v5} m, luas = {v6} m^2.",
+  "shuffle": false,
+  "max_draws": 1000
+}

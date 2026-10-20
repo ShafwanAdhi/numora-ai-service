@@ -1,0 +1,69 @@
+{
+  "question_id": "kategori-17-4-10",
+  "config_version": 1,
+  "original_hash": "e844bf656e7e73bd",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else ((12)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'108' if k == 0 else ((108)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else ((24)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah bangun datar memiliki luas {v0} cm². Tentukan Benar atau Salah untuk setiap pernyataan berikut terkait transformasi bangun tersebut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Translasi mempertahankan luas dan menghasilkan bangun yang kongruen dengan bangun asalnya.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Refleksi mengubah orientasi bangun, tetapi luasnya tetap {v0} cm².",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Dilatasi dengan faktor skala 3 mengubah luas bangun menjadi {v1} cm².",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Dilatasi dengan faktor skala -2 membuat luas bangun menjadi {v2} cm².",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v3}. Isometri menjaga luas{v3}. Luas dilatasi=faktor^2*luas; pernyataan4 salah, 1,2,3 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

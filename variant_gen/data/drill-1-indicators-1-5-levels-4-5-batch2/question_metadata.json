@@ -1,0 +1,1376 @@
+{
+  "pg-1-4-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1335,
+      "paragraph_end": 1370,
+      "body_block_start": 1249,
+      "body_block_end_exclusive": 1285
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi II\n\n\n\nDua orang siswa memberikan evaluasi terhadap klaim kuis sifat-sifat operasi pada himpunan bilangan real $R$:\n\n\n\nKlaim Kuis: \"Operasi pengurangan pada bilangan real bersifat komutatif, yaitu $a-b=b-a$ untuk setiap $a,b∈R$.\"\n\n\n\nDua siswa memberikan evaluasi berikut:\n\n\n\nEvaluasi I: \"Klaim tersebut BENAR, karena $5-3=2$ dan $3-5=2$.\"\n\n\n\nEvaluasi II: \"Klaim tersebut SALAH, karena dengan contoh penyangkal (counterexample) $5-3=2$ sedangkan $3-5=-2$, di mana $2≠-2$.\"\n\n\n\nHasil evaluasi manakah yang pasti benar?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Kedua evaluasi salah\n\n\n\nD. Evaluasi I benar untuk bilangan positif saja\n\n\n\nPembahasan:\n\n\n\nOperasi komutatif mensyaratkan hasil tetap sama bila pertukaran posisi dilakukan ($a∘b=b∘a$).\n\n\n\nPada pengurangan: $5-3=2$, sedangkan $3-5=-2$.\n\n\n\nKarena $2≠-2$, maka operasi pengurangan tidak komutatif. Maka, Evaluasi II adalah yang paling tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengabaikan tanda negatif pada hasil $3-5=-2$ dan menganggap hasilnya sama-sama 2.\n\n",
+    "original_explanation": "Pembahasan:\nOperasi komutatif mensyaratkan hasil tetap sama bila pertukaran posisi dilakukan ($a∘b=b∘a$).\nPada pengurangan: $5-3=2$, sedangkan $3-5=-2$.\nKarena $2≠-2$, maka operasi pengurangan tidak komutatif. Maka, Evaluasi II adalah yang paling tepat.",
+    "source_original_explanation": "Pembahasan:\nOperasi komutatif mensyaratkan hasil tetap sama bila pertukaran posisi dilakukan ($a∘b=b∘a$).\nPada pengurangan: $5-3=2$, sedangkan $3-5=-2$.\nKarena $2≠-2$, maka operasi pengurangan tidak komutatif. Maka, Evaluasi II adalah yang paling tepat.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan tanda negatif pada hasil $3-5=-2$ dan menganggap hasilnya sama-sama 2.",
+    "proposed_key_caption": "B. Evaluasi II",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan tanda negatif pada hasil $3-5=-2$ dan menganggap hasilnya sama-sama 2.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-1-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1371,
+      "paragraph_end": 1420,
+      "body_block_start": 1285,
+      "body_block_end_exclusive": 1335
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Penilaian III\n\n\n\nTiga buah lokasi titik elevasi pengerukan tanah taman sekolah diukur posisinya terhadap permukaan tanah netral ($0m$):\n\n\n\nTitik P: $-\\frac{5}{2}m$\n\n\n\nTitik Q: $-\\sqrt{6}m$\n\n\n\nTitik R: $-2,4m$\n\n\n\nSeorang siswa menilai kedudukan ketiga titik tersebut pada garis bilangan:\n\n\n\nPenilaian I: Titik R di antara Titik P dan Titik Q.\n\n\n\nPenilaian II: Titik P terletak di sebelah kanan Titik Q.\n\n\n\nPenilaian III: Titik Q terletak di antara Titik R ($-2,4m$) dan Titik P ($-2,5m$).\n\n\n\nPenilaian manakah yang benar berdasarkan analisis garis bilangan?\n\n\n\nA. Penilaian I\n\n\n\nB. Penilaian II\n\n\n\nC. Penilaian III\n\n\n\nD. Penilaian I dan II\n\n\n\nPembahasan:\n\n\n\nUbah nilai ke bentuk desimal:\n\n\n\nTitik P: $-\\frac{5}{2}=-2,50m$\n\n\n\nTitik Q: $-\\sqrt{6}≈-2,449m$\n\n\n\nTitik R: $-2,40m$\n\n\n\nUrutkan pada garis bilangan dari terkecil ke terbesar:\n\n\n\n$-2,50< -2,449< -2,40 ⇒ Titik P <Titik Q<Titik R $\n\nMenganalisis posisi: Titik Q ($-2,449 m$) berada di antara Titik P ($-2,50 m$) dan Titik R ($-2,40 m$). Maka, Penilaian III adalah yang paling tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa salah mengestimasi $-\\sqrt{6}≈-3$ atau keliru membandingkan $-2,449$ dengan $-2,40$ dan $-2,50$.\n\n",
+    "original_explanation": "Pembahasan:\nUbah nilai ke bentuk desimal:\nTitik P: $-\\frac{5}{2}=-2,50m$\nTitik Q: $-\\sqrt{6}≈-2,449m$\nTitik R: $-2,40m$\nUrutkan pada garis bilangan dari terkecil ke terbesar:\n$-2,50< -2,449< -2,40 ⇒ Titik P <Titik Q<Titik R $\nMenganalisis posisi: Titik Q ($-2,449 m$) berada di antara Titik P ($-2,50 m$) dan Titik R ($-2,40 m$). Maka, Penilaian III adalah yang paling tepat.",
+    "source_original_explanation": "Pembahasan:\nUbah nilai ke bentuk desimal:\nTitik P: $-\\frac{5}{2}=-2,50m$\nTitik Q: $-\\sqrt{6}≈-2,449m$\nTitik R: $-2,40m$\nUrutkan pada garis bilangan dari terkecil ke terbesar:\n$-2,50< -2,449< -2,40 ⇒ Titik P <Titik Q<Titik R $\nMenganalisis posisi: Titik Q ($-2,449 m$) berada di antara Titik P ($-2,50 m$) dan Titik R ($-2,40 m$). Maka, Penilaian III adalah yang paling tepat.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Penilaian III",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengestimasi $-\\sqrt{6}≈-3$ atau keliru membandingkan $-2,449$ dengan $-2,40$ dan $-2,50$.",
+    "proposed_key_caption": "C. Penilaian III",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengestimasi $-\\sqrt{6}≈-3$ atau keliru membandingkan $-2,449$ dengan $-2,40$ dan $-2,50$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-1-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1452,
+      "paragraph_end": 1485,
+      "body_block_start": 1366,
+      "body_block_end_exclusive": 1400
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nSeorang pengurus kas OSIS mengevaluasi dua rumus perhitungan sisa dana kas:\n\n\n\nModel 1: $(600.000-150.000)-50.000=450.000-50.000=400.000$\n\n\n\nModel 2: $600.000-(150.000-50.000)=600.000-100.000=500.000$\n\n\n\nManakah evaluasi matematika berikut yang benar untuk menjelaskan perbedaan hasil di atas? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Perbedaan hasil tersebut membuktikan bahwa operasi pengurangan tidak memenuhi sifat asosiatif.\n\n\n\n[ ] B. Letak tanda kurung mempengaruhi urutan pengerjaan dan hasil akhir perhitungan pengurangan.\n\n\n\n[ ] C. Model 2 menghasilkan nilai yang benar untuk menggambarkan total sisa kas dari dua kali pengeluaran.\n\n\n\n[ ] D. Agar Model 2 bernilai sama dengan Model 1, bentuknya harus diubah menjadi $600.000-(150.000+50.000)$.\n\n\n\nPembahasan:\n\n\n\nA (Benar): $(a-b)-c≠a-(b-c)$ membuktikan ketiadaan sifat asosiatif pada pengurangan.\n\n\n\nB (Benar): Tanda kurung menentukan prioritas pengerjaan.\n\n\n\nC (Salah): Jika ada dua kali pengeluaran ($150.000$ dan $50.000$), sisa kas riil adalah $400.000$ (Model 1), bukan $500.000$ (Model 2).\n\n\n\nD (Benar): $600.000-(150.000+50.000)=600.000-200.000=400.000$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\nSiswa mengira tanda di dalam kurung pada Model 2 adalah pengurangan untuk dua kali pengeluaran, padahal dua kali pengeluaran harus dijumlahkan di dalam kurung.\n\n",
+    "original_explanation": "Pembahasan:\nA (Benar): $(a-b)-c≠a-(b-c)$ membuktikan ketiadaan sifat asosiatif pada pengurangan.\nB (Benar): Tanda kurung menentukan prioritas pengerjaan.\nC (Salah): Jika ada dua kali pengeluaran ($150.000$ dan $50.000$), sisa kas riil adalah $400.000$ (Model 1), bukan $500.000$ (Model 2).\nD (Benar): $600.000-(150.000+50.000)=600.000-200.000=400.000$.",
+    "source_original_explanation": "Pembahasan:\nA (Benar): $(a-b)-c≠a-(b-c)$ membuktikan ketiadaan sifat asosiatif pada pengurangan.\nB (Benar): Tanda kurung menentukan prioritas pengerjaan.\nC (Salah): Jika ada dua kali pengeluaran ($150.000$ dan $50.000$), sisa kas riil adalah $400.000$ (Model 1), bukan $500.000$ (Model 2).\nD (Benar): $600.000-(150.000+50.000)=600.000-200.000=400.000$.",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda di dalam kurung pada Model 2 adalah pengurangan untuk dua kali pengeluaran, padahal dua kali pengeluaran harus dijumlahkan di dalam kurung.",
+    "proposed_key_caption": "A, B, dan D",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda di dalam kurung pada Model 2 adalah pengurangan untuk dua kali pengeluaran, padahal dua kali pengeluaran harus dijumlahkan di dalam kurung.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-1-4-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1486,
+      "paragraph_end": 1523,
+      "body_block_start": 1400,
+      "body_block_end_exclusive": 1438
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q8:O1:original",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan D\n\n\n\nDiberikan empat buah bilangan real $K,L,M,$ dan $N$:\n\n\n\n$K=-2$\n\n\n\n$L=\\sqrt{3}$\n\n\n\n$M=\\frac{4}{3}$\n\n\n\n$N=0$\n\n\n\nManakah hasil evaluasi pernyataan gabungan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Hasil perkalian $K×L$ (yaitu $-2\\sqrt{3}$) merupakan bilangan rasional.\n\n\n\n[ ] B. Hasil perkalian $L×L$ (yaitu $\\sqrt{3}×\\sqrt{3}=3$) tergolong bilangan bulat/rasional.\n\n\n\n[ ] C. Hasil pembagian $\\frac{M}{N}$ ($\\frac{4/3}{0}$) bernilai nol dalam himpunan bilangan real.\n\n\n\n[ ] D. Hasil penjumlahan $K+M$ (yaitu $-2+\\frac{4}{3}=-\\frac{2}{3}$) tergolong bilangan rasional.\n\n\n\nPembahasan:\n\n\n\nA (Salah): $-2×\\sqrt{3}=-2\\sqrt{3}$ adalah bilangan irasional.\n\n\n\nB (Benar): $\\sqrt{3}×\\sqrt{3}=3$ (bilangan bulat/rasional).\n\n\n\nC (Salah): Pembagian dengan nol ($\\frac{4/3}{0}$) tidak terdefinisi (undefined), bukan bernilai nol.\n\n\n\nD (Benar): $-2+\\frac{4}{3}=-\\frac{2}{3}$ (pecahan/rasional).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru membedakan antara pembagian nol dengan suatu angka ($\\frac{0}{a}=0$) dan pembagian suatu angka dengan nol ($\\frac{a}{0}=tidak terdefinisi$).\n\n",
+    "original_explanation": "Pembahasan:\nA (Salah): $-2×\\sqrt{3}=-2\\sqrt{3}$ adalah bilangan irasional.\nB (Benar): $\\sqrt{3}×\\sqrt{3}=3$ (bilangan bulat/rasional).\nC (Salah): Pembagian dengan nol ($\\frac{4/3}{0}$) tidak terdefinisi (undefined), bukan bernilai nol.\nD (Benar): $-2+\\frac{4}{3}=-\\frac{2}{3}$ (pecahan/rasional).",
+    "source_original_explanation": "Pembahasan:\nA (Salah): $-2×\\sqrt{3}=-2\\sqrt{3}$ adalah bilangan irasional.\nB (Benar): $\\sqrt{3}×\\sqrt{3}=3$ (bilangan bulat/rasional).\nC (Salah): Pembagian dengan nol ($\\frac{4/3}{0}$) tidak terdefinisi (undefined), bukan bernilai nol.\nD (Benar): $-2+\\frac{4}{3}=-\\frac{2}{3}$ (pecahan/rasional).",
+    "source_original_key": [
+      "B",
+      "D"
+    ],
+    "source_key_caption": "B dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru membedakan antara pembagian nol dengan suatu angka ($\\frac{0}{a}=0$) dan pembagian suatu angka dengan nol ($\\frac{a}{0}=tidak terdefinisi$).",
+    "proposed_key_caption": "B dan D",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru membedakan antara pembagian nol dengan suatu angka ($\\frac{0}{a}=0$) dan pembagian suatu angka dengan nol ($\\frac{a}{0}=tidak terdefinisi$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "kategori-1-4-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1575,
+      "paragraph_end": 1608,
+      "body_block_start": 1475,
+      "body_block_end_exclusive": 1495
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nSeorang tim peneliti matematika sekolah mengevaluasi tiga buah hipotesis mengenai struktur himpunan bilangan real $R$:\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi hipotesis berikut!\n\n\n\n<!-- table-010 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Jika $a$ adalah bilangan rasional bukan nol dan $b$ adalah bilangan irasional, maka hasil kali $a×b$ pasti berupa bilangan irasional.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Himpunan bilangan bulat $Z$ merupakan himpunan bagian (subset) dari himpunan bilangan rasional $Q$.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Terdapat setidaknya satu bilangan real yang dapat tergolong sebagai bilangan rasional sekaligus bilangan irasional.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n(a) BENAR: Perkalian rasional bukan nol dengan irasional selalu menghasilkan bilangan irasional (contoh: $3×\\sqrt{2}=3\\sqrt{2}$).\n\n\n\n(b) BENAR: Setiap bilangan bulat $z∈Z$ dapat ditulis dalam bentuk pecahan $\\frac{z}{1}$, sehingga $Z⊂Q$.\n\n\n\n(c) SALAH: Himpunan bilangan rasional dan irasional bersifat saling lepas $(Q ∩ I=∅$), sehingga tidak ada bilangan real yang tergolong keduanya sekaligus.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira bilangan seperti $\\frac{22}{7}$ termasuk ke dalam kedua jenis himpunan (rasional dan irasional) karena merupakan pendekatan nilai $π$.\n\n",
+    "original_explanation": "Pembahasan:\n(a) BENAR: Perkalian rasional bukan nol dengan irasional selalu menghasilkan bilangan irasional (contoh: $3×\\sqrt{2}=3\\sqrt{2}$).\n(b) BENAR: Setiap bilangan bulat $z∈Z$ dapat ditulis dalam bentuk pecahan $\\frac{z}{1}$, sehingga $Z⊂Q$.\n(c) SALAH: Himpunan bilangan rasional dan irasional bersifat saling lepas $(Q ∩ I=∅$), sehingga tidak ada bilangan real yang tergolong keduanya sekaligus.",
+    "source_original_explanation": "Pembahasan:\n(a) BENAR: Perkalian rasional bukan nol dengan irasional selalu menghasilkan bilangan irasional (contoh: $3×\\sqrt{2}=3\\sqrt{2}$).\n(b) BENAR: Setiap bilangan bulat $z∈Z$ dapat ditulis dalam bentuk pecahan $\\frac{z}{1}$, sehingga $Z⊂Q$.\n(c) SALAH: Himpunan bilangan rasional dan irasional bersifat saling lepas $(Q ∩ I=∅$), sehingga tidak ada bilangan real yang tergolong keduanya sekaligus.",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira bilangan seperti $\\frac{22}{7}$ termasuk ke dalam kedua jenis himpunan (rasional dan irasional) karena merupakan pendekatan nilai $π$.",
+    "proposed_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira bilangan seperti $\\frac{22}{7}$ termasuk ke dalam kedua jenis himpunan (rasional dan irasional) karena merupakan pendekatan nilai $π$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-1-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1734,
+      "paragraph_end": 1769,
+      "body_block_start": 1620,
+      "body_block_end_exclusive": 1656
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A. Evaluasi I\n\n\n\nSebuah panitia sekolah mengevaluasi penulisan bentuk aljabar untuk menghitung total pengadaan $25$ paket sembako. Setiap paket berisi $1kg$ beras seharga Rp15.000,00 dan $1kg$ gula pasir seharga Rp12.000,00.\n\n\n\nDua usulan penyederhanaan rumus diajukan dengan memanfaatkan Sifat Distributif perkalian terhadap penjumlahan:\n\n\n\nUsulan I: Total = $25×(15.000+12.000)=25×27.000=675.000$\n\n\n\nUsulan II: Total = $(25+15.000)×(25+12.000)=15.025×12.025=180.675.625$\n\n\n\nManakah hasil evaluasi yang benar mengenai keabsahan kedua usulan rumus tersebut?\n\n\n\nA. Usulan I benar, karena menerapkan sifat distributif $a⋅b+a⋅c=a(b+c)$ secara tepat\n\n\n\nB. Usulan II benar, karena mengalikan suku-suku yang ditambahkan\n\n\n\nC. Usulan I dan Usulan II sama-sama salah\n\n\n\nD. Usulan II lebih hemat dalam operasi perkalian\n\n\n\nPembahasan:\n\n\n\nPerhitungan total biaya riil: $(25×15.000)+(25×12.000)$.\n\n\n\nMenggunakan sifat distributif $a⋅b+a⋅c=a(b+c)$:\n\n\n\n$25×(15.000+12.000)=25×27.000=675.000$\n\n\n\nUsulan II salah besar secara konsep matematika dan mengacaukan harga barang. Maka, Usulan I adalah yang valid dan benar.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru memahami sifat distributif dan mengira penambahan angka pengali ke masing-masing suku seperti pada Usulan II adalah sah.\n\n",
+    "original_explanation": "Pembahasan:\nPerhitungan total biaya riil: $(25×15.000)+(25×12.000)$.\nMenggunakan sifat distributif $a⋅b+a⋅c=a(b+c)$:\n$25×(15.000+12.000)=25×27.000=675.000$\nUsulan II salah besar secara konsep matematika dan mengacaukan harga barang. Maka, Usulan I adalah yang valid dan benar.",
+    "source_original_explanation": "Pembahasan:\nPerhitungan total biaya riil: $(25×15.000)+(25×12.000)$.\nMenggunakan sifat distributif $a⋅b+a⋅c=a(b+c)$:\n$25×(15.000+12.000)=25×27.000=675.000$\nUsulan II salah besar secara konsep matematika dan mengacaukan harga barang. Maka, Usulan I adalah yang valid dan benar.",
+    "source_original_key": [
+      "A"
+    ],
+    "source_key_caption": "A. Evaluasi I",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru memahami sifat distributif dan mengira penambahan angka pengali ke masing-masing suku seperti pada Usulan II adalah sah.",
+    "proposed_key_caption": "A. Evaluasi I",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru memahami sifat distributif dan mengira penambahan angka pengali ke masing-masing suku seperti pada Usulan II adalah sah.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-1-5-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1770,
+      "paragraph_end": 1808,
+      "body_block_start": 1656,
+      "body_block_end_exclusive": 1695
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi C\n\n\n\nDua orang siswa mengevaluasi klaim kuis mengenai berlakunya sifat-sifat operasi pada himpunan bilangan real $R$:\n\n\n\nKlaim 1: \"Operasi pembagian pada bilangan real bersifat asosiatif, yaitu $(a÷b)÷c=a÷(b÷c)$ untuk setiap $a,b,c∈R$ dengan $b,c≠0$.\"\n\n\n\nKlaim 2: \"Operasi perkalian pada bilangan real bersifat asosiatif, yaitu $(a×b)×c=a×(b×c)$ untuk setiap $a,b,c∈R$.\"\n\n\n\nManakah evaluasi yang benar mengenai kedua klaim tersebut?\n\n\n\nA. Klaim 1 dan Klaim 2 keduanya BENAR\n\n\n\nB. Klaim 1 BENAR dan Klaim 2 SALAH\n\n\n\nC. Klaim 1 SALAH dan Klaim 2 BENAR\n\n\n\nD. Klaim 1 dan Klaim 2 keduanya SALAH\n\n\n\nPembahasan:\n\n\nMengevaluasi Klaim 1 (Pembagian):\n\n\n\nAmbil contoh angka: $a=16,b=4,c=2$.\n\n\n\nRuas kiri: $(16÷4)÷2=4÷2=2$.\n\n\n\nRuas kanan: $16÷(4÷2)=16÷2=8$.\n\n\n\nKarena $2≠8$, maka pembagian tidak bersifat asosiatif $⇒$ Klaim 1 SALAH.\n\n\n\nMengevaluasi Klaim 2 (Perkalian):\n\n\n\nPerkalian pada bilangan real selalu memenuhi sifat asosiatif $⇒$ Klaim 2 BENAR. Maka, C adalah jawaban yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa menggeneralisasi bahwa jika perkalian bersifat asosiatif, maka pembagian sebagai operasi kebalikannya juga pasti bersifat asosiatif.\n\n",
+    "original_explanation": "Pembahasan:\nMengevaluasi Klaim 1 (Pembagian):\nAmbil contoh angka: $a=16,b=4,c=2$.\nRuas kiri: $(16÷4)÷2=4÷2=2$.\nRuas kanan: $16÷(4÷2)=16÷2=8$.\nKarena $2≠8$, maka pembagian tidak bersifat asosiatif $⇒$ Klaim 1 SALAH.\nMengevaluasi Klaim 2 (Perkalian):\nPerkalian pada bilangan real selalu memenuhi sifat asosiatif $⇒$ Klaim 2 BENAR. Maka, C adalah jawaban yang tepat.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi Klaim 1 (Pembagian):\nAmbil contoh angka: $a=16,b=4,c=2$.\nRuas kiri: $(16÷4)÷2=4÷2=2$.\nRuas kanan: $16÷(4÷2)=16÷2=8$.\nKarena $2≠8$, maka pembagian tidak bersifat asosiatif $⇒$ Klaim 1 SALAH.\nMengevaluasi Klaim 2 (Perkalian):\nPerkalian pada bilangan real selalu memenuhi sifat asosiatif $⇒$ Klaim 2 BENAR. Maka, C adalah jawaban yang tepat.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menggeneralisasi bahwa jika perkalian bersifat asosiatif, maka pembagian sebagai operasi kebalikannya juga pasti bersifat asosiatif.",
+    "proposed_key_caption": "C. Evaluasi C",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menggeneralisasi bahwa jika perkalian bersifat asosiatif, maka pembagian sebagai operasi kebalikannya juga pasti bersifat asosiatif.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-1-5-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1925,
+      "paragraph_end": 1963,
+      "body_block_start": 1811,
+      "body_block_end_exclusive": 1850
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q8:O1:original",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nDiberikan empat buah bilangan real $A,B,C,$ dan $D$:\n\n\n\n$A=-5$\n\n\n\n$B=\\sqrt{7}$\n\n\n\n$C=\\frac{3}{5}$\n\n\n\n$D=0$\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Hasil perkalian $A×B$ (yaitu $-5\\sqrt{7}$) tergolong bilangan rasional.\n\n\n\n[ ] B. Hasil perkalian $B×B$ (yaitu $\\sqrt{7}×\\sqrt{7}=7$) tergolong bilangan bulat/rasional.\n\n\n\n[ ] C. Hasil pembagian $\\frac{D}{C}$ ($\\frac{0}{3/5}$) bernilai $0$ yang merupakan bilangan rasional.\n\n\n\n[ ] D. Hasil pembagian $\\frac{C}{D}$ ($\\frac{3/5}{0}$) bernilai $0$ dalam himpunan bilangan real.\n\n\n\nPembahasan:\n\n\n\nA (Salah): $-5×\\sqrt{7}=-5\\sqrt{7}$ adalah bilangan irasional.\n\n\n\nB (Benar): $\\sqrt{7}×\\sqrt{7}=7$ (bilangan bulat/rasional).\n\n\n\nC (Benar): $\\frac{0}{3/5}=0$, di mana $0$ adalah bilangan bulat/rasional.\n\n\n\nD (Salah): Pembagian dengan nol ($\\frac{3/5}{0}$) tidak terdefinisi (undefined), bukan bernilai $0$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa tertukar antara pembagian nol dengan suatu angka ($\\frac{0}{a}=0$) dan pembagian suatu angka dengan nol ($\\frac{a}{0}=tidak terdefinisi$).\n\n",
+    "original_explanation": "Pembahasan:\nA (Salah): $-5×\\sqrt{7}=-5\\sqrt{7}$ adalah bilangan irasional.\nB (Benar): $\\sqrt{7}×\\sqrt{7}=7$ (bilangan bulat/rasional).\nC (Benar): $\\frac{0}{3/5}=0$, di mana $0$ adalah bilangan bulat/rasional.\nD (Salah): Pembagian dengan nol ($\\frac{3/5}{0}$) tidak terdefinisi (undefined), bukan bernilai $0$.",
+    "source_original_explanation": "Pembahasan:\nA (Salah): $-5×\\sqrt{7}=-5\\sqrt{7}$ adalah bilangan irasional.\nB (Benar): $\\sqrt{7}×\\sqrt{7}=7$ (bilangan bulat/rasional).\nC (Benar): $\\frac{0}{3/5}=0$, di mana $0$ adalah bilangan bulat/rasional.\nD (Salah): Pembagian dengan nol ($\\frac{3/5}{0}$) tidak terdefinisi (undefined), bukan bernilai $0$.",
+    "source_original_key": [
+      "B",
+      "C"
+    ],
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar antara pembagian nol dengan suatu angka ($\\frac{0}{a}=0$) dan pembagian suatu angka dengan nol ($\\frac{a}{0}=tidak terdefinisi$).",
+    "proposed_key_caption": "B dan C",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar antara pembagian nol dengan suatu angka ($\\frac{0}{a}=0$) dan pembagian suatu angka dengan nol ($\\frac{a}{0}=tidak terdefinisi$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "kategori-1-5-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 2015,
+      "paragraph_end": 2048,
+      "body_block_start": 1887,
+      "body_block_end_exclusive": 1907
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nSeorang tim ahli matematika sekolah mengevaluasi tiga buah hipotesis mengenai sifat-sifat himpunan bilangan real $R$:\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi hipotesis berikut!\n\n\n\n<!-- table-012 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Hasil penjumlahan dua bilangan rasional selalu menghasilkan bilangan rasional (Sifat Tertutup Penjumlahan Rasional).<br/></td><td></td><td></td></tr>\n<tr><td>(b) Himpunan bilangan asli $N$ merupakan himpunan bagian (subset) dari himpunan bilangan bulat $Z$ dan bilangan real $R$.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Hasil penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n(a) BENAR: Himpunan bilangan rasional tertutup terhadap penjumlahan ($\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}$, tetap rasional).\n\n\n\n(b) BENAR: Setiap bilangan asli ($1,2,3,...$) adalah bagian dari bilangan bulat ($Z$) dan bilangan real ($R$).\n\n\n\n(c) SALAH: Penjumlahan dua bilangan irasional tidak selalu irasional. Contoh penyangkal (counterexample): $\\sqrt{3}+(-\\sqrt{3})=0$, di mana $\\sqrt{3}$ dan $-\\sqrt{3}$ irasional, tetapi hasilnya $0$ (rasional).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira himpunan bilangan irasional bersifat tertutup terhadap penjumlahan sebagaimana bilangan rasional.\n\n",
+    "original_explanation": "Pembahasan:\n(a) BENAR: Himpunan bilangan rasional tertutup terhadap penjumlahan ($\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}$, tetap rasional).\n(b) BENAR: Setiap bilangan asli ($1,2,3,...$) adalah bagian dari bilangan bulat ($Z$) dan bilangan real ($R$).\n(c) SALAH: Penjumlahan dua bilangan irasional tidak selalu irasional. Contoh penyangkal (counterexample): $\\sqrt{3}+(-\\sqrt{3})=0$, di mana $\\sqrt{3}$ dan $-\\sqrt{3}$ irasional, tetapi hasilnya $0$ (rasional).",
+    "source_original_explanation": "Pembahasan:\n(a) BENAR: Himpunan bilangan rasional tertutup terhadap penjumlahan ($\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}$, tetap rasional).\n(b) BENAR: Setiap bilangan asli ($1,2,3,...$) adalah bagian dari bilangan bulat ($Z$) dan bilangan real ($R$).\n(c) SALAH: Penjumlahan dua bilangan irasional tidak selalu irasional. Contoh penyangkal (counterexample): $\\sqrt{3}+(-\\sqrt{3})=0$, di mana $\\sqrt{3}$ dan $-\\sqrt{3}$ irasional, tetapi hasilnya $0$ (rasional).",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira himpunan bilangan irasional bersifat tertutup terhadap penjumlahan sebagaimana bilangan rasional.",
+    "proposed_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira himpunan bilangan irasional bersifat tertutup terhadap penjumlahan sebagaimana bilangan rasional.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "mcma-2-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3447,
+      "paragraph_end": 3477,
+      "body_block_start": 3239,
+      "body_block_end_exclusive": 3270
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nSeorang siswa mengevaluasi penyederhanaan ekspresi eksponen berikut untuk perhitungan skala peta:\n\n\n\n$Ekspresi:\\frac{{a}^{3}⋅{b}^{-2}}{{a}^{-1}⋅{b}^{4}}$\n\nManakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Menyederhanakan suku variabel $a$ menghasilkan ${a}^{3-(-1)}={a}^{4}$.\n\n\n\n[ ] B. Menyederhanakan suku variabel $b$ menghasilkan ${b}^{-2-4}={b}^{-6}=\\frac{1}{{b}^{6}}$.\n\n\n\n[ ] C. Hasil akhir ekspresi tersebut dalam pangkat positif adalah $\\frac{{a}^{2}}{{b}^{2}}$.\n\n\n\n[ ] D. Hasil akhir ekspresi tersebut dalam pangkat positif adalah $\\frac{{a}^{4}}{{b}^{6}}$.\n\n\n\nPembahasan:\n\n\n\nA (Benar): Untuk variabel $a$: $\\frac{{a}^{3}}{{a}^{-1}}={a}^{3-(-1)}={a}^{3+1}={a}^{4}$.\n\n\n\nB (Benar): Untuk variabel $b$: $\\frac{{b}^{-2}}{{b}^{4}}={b}^{-2-4}={b}^{-6}=\\frac{1}{{b}^{6}}$.\n\n\n\nC (Salah): Pernyataan ini salah karena hasil yang tepat adalah $\\frac{{a}^{4}}{{b}^{6}}$.\n\n\n\nD (Benar): Menggabungkan kedua variabel memberikan $\\frac{{a}^{4}}{{b}^{6}}$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah mengoperasikan pengurusan pangkat negatif pada penyebut, misalnya menghitung $3-1=2$ alih-alih $3-(-1)=4$.\n\n",
+    "original_explanation": "Pembahasan:\nA (Benar): Untuk variabel $a$: $\\frac{{a}^{3}}{{a}^{-1}}={a}^{3-(-1)}={a}^{3+1}={a}^{4}$.\nB (Benar): Untuk variabel $b$: $\\frac{{b}^{-2}}{{b}^{4}}={b}^{-2-4}={b}^{-6}=\\frac{1}{{b}^{6}}$.\nC (Salah): Pernyataan ini salah karena hasil yang tepat adalah $\\frac{{a}^{4}}{{b}^{6}}$.\nD (Benar): Menggabungkan kedua variabel memberikan $\\frac{{a}^{4}}{{b}^{6}}$.",
+    "source_original_explanation": "Pembahasan:\nA (Benar): Untuk variabel $a$: $\\frac{{a}^{3}}{{a}^{-1}}={a}^{3-(-1)}={a}^{3+1}={a}^{4}$.\nB (Benar): Untuk variabel $b$: $\\frac{{b}^{-2}}{{b}^{4}}={b}^{-2-4}={b}^{-6}=\\frac{1}{{b}^{6}}$.\nC (Salah): Pernyataan ini salah karena hasil yang tepat adalah $\\frac{{a}^{4}}{{b}^{6}}$.\nD (Benar): Menggabungkan kedua variabel memberikan $\\frac{{a}^{4}}{{b}^{6}}$.",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan pengurusan pangkat negatif pada penyebut, misalnya menghitung $3-1=2$ alih-alih $3-(-1)=4$.",
+    "proposed_key_caption": "A, B, dan D",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan pengurusan pangkat negatif pada penyebut, misalnya menghitung $3-1=2$ alih-alih $3-(-1)=4$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-2-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3698,
+      "paragraph_end": 3735,
+      "body_block_start": 3462,
+      "body_block_end_exclusive": 3500
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi B\n\n\n\nSeorang siswa mengevaluasi penyederhanaan nilai daya pancar sinyal pemancar Wi-Fi perpustakaan yang dirumuskan dengan operasi eksponen:\n\n\n\n\n\n$Daya Sinyal=\\frac{({3}^{2}{)}^{3}×{3}^{-1}}{{3}^{3}}(dalam mW)$\n\nDua orang tim teknisi memberikan lembar penilaian:\n\n\n\nEvaluasi A: \"Nilai daya adalah ${3}^{1}=3 mW$, karena $({3}^{2}{)}^{3}={3}^{5}$, sehingga $\\frac{{3}^{5}×{3}^{-1}}{{3}^{3}}=\\frac{{3}^{4}}{{3}^{3}}={3}^{1}$.\"\n\n\n\nEvaluasi B: \"Nilai daya adalah ${3}^{2}=9 mW$, karena $({3}^{2}{)}^{3}={3}^{6}$, sehingga $\\frac{{3}^{6}×{3}^{-1}}{{3}^{3}}=\\frac{{3}^{5}}{{3}^{3}}={3}^{2}$.\"\n\n\n\nHasil evaluasi manakah yang pasti benar?\n\n\n\nA. Evaluasi A, karena pangkat dipangkatkan artinya eksponennya dijumlahkan ($2+3=5$)\n\n\n\nB. Evaluasi B, karena pangkat dipangkatkan artinya eksponennya dikalikan ($2×3=6$)\n\n\n\nC. Evaluasi A, karena hasil akhir $3mW$ lebih kecil sehingga lebih efisien\n\n\n\nD. Evaluasi B, tetapi nilai akhirnya seharusnya $27 mW$\n\n\n\nPembahasan:\n\n\n\nGunakan $({a}^{m}{)}^{n}={a}^{m . n}$  ⇒ $({3}^{2}{)}^{3}={3}^{2×3}={3}^{6}$\n\n\n\nSifat perkalian ${a}^{m}{ .a}^{n}={a}^{m + n} ⇒$${3}^{6}$ $×$ ${3}^{-1}={3}^{6 + (-1)}={3}^{5}$\n\n\n\nSifat pembagian $\\frac{{a}^{m}}{{a}^{n}}={a}^{m - n}⇒\\frac{{3}^{5}}{{3}^{3}}={3}^{5 - 3}={3}^{2}=9 mW$.\n\nMaka, Evaluasi B adalah yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa menjumlahkan eksponen saat menemui pangkat dari pangkat ($({3}^{2}{)}^{3}={3}^{2+3}={3}^{5}$), yang memicu kesalahan seperti pada Evaluasi A.\n\n\n\n",
+    "original_explanation": "Pembahasan:\nGunakan $({a}^{m}{)}^{n}={a}^{m . n}$  ⇒ $({3}^{2}{)}^{3}={3}^{2×3}={3}^{6}$\nSifat perkalian ${a}^{m}{ .a}^{n}={a}^{m + n} ⇒$${3}^{6}$ $×$ ${3}^{-1}={3}^{6 + (-1)}={3}^{5}$\nSifat pembagian $\\frac{{a}^{m}}{{a}^{n}}={a}^{m - n}⇒\\frac{{3}^{5}}{{3}^{3}}={3}^{5 - 3}={3}^{2}=9 mW$.\nMaka, Evaluasi B adalah yang tepat.",
+    "source_original_explanation": "Pembahasan:\nGunakan $({a}^{m}{)}^{n}={a}^{m . n}$  ⇒ $({3}^{2}{)}^{3}={3}^{2×3}={3}^{6}$\nSifat perkalian ${a}^{m}{ .a}^{n}={a}^{m + n} ⇒$${3}^{6}$ $×$ ${3}^{-1}={3}^{6 + (-1)}={3}^{5}$\nSifat pembagian $\\frac{{a}^{m}}{{a}^{n}}={a}^{m - n}⇒\\frac{{3}^{5}}{{3}^{3}}={3}^{5 - 3}={3}^{2}=9 mW$.\nMaka, Evaluasi B adalah yang tepat.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan eksponen saat menemui pangkat dari pangkat ($({3}^{2}{)}^{3}={3}^{2+3}={3}^{5}$), yang memicu kesalahan seperti pada Evaluasi A.",
+    "proposed_key_caption": "B. Evaluasi B",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan eksponen saat menemui pangkat dari pangkat ($({3}^{2}{)}^{3}={3}^{2+3}={3}^{5}$), yang memicu kesalahan seperti pada Evaluasi A.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-2-5-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3736,
+      "paragraph_end": 3772,
+      "body_block_start": 3500,
+      "body_block_end_exclusive": 3537
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A. Evaluasi I\n\n\n\nSeorang siswa mengevaluasi kebenaran pengerjaan kuis operasi campuran desimal dan pecahan berikut:\n\n\n\n$Soal:6,4:0,8+3×0,5$\n\nEvaluasi I: \"Hasilnya adalah $9,5$, karena pembagian dan perkalian dikerjakan terlebih dahulu: $(6,4:0,8)+(3×0,5)=8+1,5=9,5$.\"\n\n\n\nEvaluasi II: \"Hasilnya adalah $5,5$, karena dikerjakan dari kiri ke kanan: $(6,4:0,8+3)×0,5=(8+3)×0,5=11×0,5=5,5$.\"\n\n\n\nManakah penjelas evaluasi yang pasti benar berdasarkan aturan KABATAKU/PEMDAS?\n\n\n\nA. Evaluasi I benar, karena operasi perkalian dan pembagian berderajat lebih tinggi daripada penjumlahan\n\n\n\nB. Evaluasi II benar, karena operasi yang setara harus dikerjakan urut dari kiri\n\n\n\nC. Evaluasi I salah, karena $6,4:0,8=0,8$\n\n\n\nD. Evaluasi II benar, karena penjumlahan di tengah harus dikerjakan lebih dulu\n\n\n\nPembahasan:\n\n\n\nMenurut hirarki PEMDAS/KABATAKU, lakukan pembagian dan perkalian terlebih dahulu:\n\n\n\n$6,4:0,8=8$\n\n\n\n$3×0,5=1,5$\n\n\n\nJumlahkan hasilnya:\n\n$8+1,5=9,5$\n\nMaka, Evaluasi I adalah yang valid secara aturan matematika.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa menghitung secara lurus dari kiri ke kanan tanpa mempedulikan hierarki operasi (seperti pada Evaluasi II).\n\n",
+    "original_explanation": "Pembahasan:\nMenurut hirarki PEMDAS/KABATAKU, lakukan pembagian dan perkalian terlebih dahulu:\n$6,4:0,8=8$\n$3×0,5=1,5$\nJumlahkan hasilnya:\n$8+1,5=9,5$\nMaka, Evaluasi I adalah yang valid secara aturan matematika.",
+    "source_original_explanation": "Pembahasan:\nMenurut hirarki PEMDAS/KABATAKU, lakukan pembagian dan perkalian terlebih dahulu:\n$6,4:0,8=8$\n$3×0,5=1,5$\nJumlahkan hasilnya:\n$8+1,5=9,5$\nMaka, Evaluasi I adalah yang valid secara aturan matematika.",
+    "source_original_key": [
+      "A"
+    ],
+    "source_key_caption": "A. Evaluasi I",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menghitung secara lurus dari kiri ke kanan tanpa mempedulikan hierarki operasi (seperti pada Evaluasi II).",
+    "proposed_key_caption": "A. Evaluasi I",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menghitung secara lurus dari kiri ke kanan tanpa mempedulikan hierarki operasi (seperti pada Evaluasi II).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-2-5-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3773,
+      "paragraph_end": 3810,
+      "body_block_start": 3537,
+      "body_block_end_exclusive": 3575
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi B\n\n\n\nSeorang guru meminta siswa mengevaluasi penyederhanaan ekspresi eksponen berikut:\n\n\n\n$Ekspresi:\\frac{{2}^{6}×1{6}^{-1}}{{8}^{\\frac{2}{3}}}$\n\nDua siswa memaparkan langkah penyelesaian:\n\n\n\nSiswa A: Mengubah basis menjadi 2 ⇒$ \\frac{{2}^{6}× {2}^{-4}}{{2}^{2}}=\\frac{ {2}^{2}}{{2}^{2}}={2}^{0}=1$\n\nSiswa B: Mengubah basis menjadi 2 ⇒ $\\frac{{2}^{6}× ({2}^{4}{)}^{-1}}{{2}^{2}}=\\frac{{2}^{6}× {2}^{-4}}{{2}^{2}}=$$\\frac{ {2}^{2}}{{2}^{2}}=1$\n\nEvaluasi manakah yang pasti tepat mengenai keabsahan langkah kedua siswa?\n\n\n\nA. Langkah Siswa A salah karena $1{6}^{-1}≠{2}^{-4}$\n\n\n\nB. Langkah Siswa B salah karena $({2}^{3}{)}^{\\frac{2}{3}}≠{2}^{2}$\n\n\n\nC. Langkah Siswa B paling tepat karena menjabarkan konversi basis $16={2}^{4}$ dan $8={2}^{3}$ serta sifat $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara runtut dan jelas\n\n\n\nD. Kedua siswa salah karena hasil akhirnya harus $0$\n\n\n\nPembahasan:\n\n\n\nJabarkan konversi basis:\n\n\n\n$1{6}^{-1}=({2}^{4}{)}^{-1}={2}^{-4}$\n\n\n\n${8}^{\\frac{2}{3}}=({2}^{3}{)}^{\\frac{2}{3}}={2}^{3×\\frac{2}{3}}={2}^{2}$\n\n\n\nHitung nilai eksponen:\n\n$\\frac{{2}^{6}×{2}^{-4}}{{2}^{2}}=\\frac{{2}^{6-4}}{{2}^{2}}=\\frac{{2}^{2}}{{2}^{2}}={2}^{2-2}={2}^{0}=1$\n\nLangkah Siswa B secara eksplisit menunjukkan sifat-sifat eksponen yang digunakan.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa mengira ${2}^{0}=0$ alih-alih $1$, atau salah mengalikan $8×\\frac{2}{3}$ saat menyederhanakan penyebut.\n\n",
+    "original_explanation": "Pembahasan:\nJabarkan konversi basis:\n$1{6}^{-1}=({2}^{4}{)}^{-1}={2}^{-4}$\n${8}^{\\frac{2}{3}}=({2}^{3}{)}^{\\frac{2}{3}}={2}^{3×\\frac{2}{3}}={2}^{2}$\nHitung nilai eksponen:\n$\\frac{{2}^{6}×{2}^{-4}}{{2}^{2}}=\\frac{{2}^{6-4}}{{2}^{2}}=\\frac{{2}^{2}}{{2}^{2}}={2}^{2-2}={2}^{0}=1$\nLangkah Siswa B secara eksplisit menunjukkan sifat-sifat eksponen yang digunakan.",
+    "source_original_explanation": "Pembahasan:\nJabarkan konversi basis:\n$1{6}^{-1}=({2}^{4}{)}^{-1}={2}^{-4}$\n${8}^{\\frac{2}{3}}=({2}^{3}{)}^{\\frac{2}{3}}={2}^{3×\\frac{2}{3}}={2}^{2}$\nHitung nilai eksponen:\n$\\frac{{2}^{6}×{2}^{-4}}{{2}^{2}}=\\frac{{2}^{6-4}}{{2}^{2}}=\\frac{{2}^{2}}{{2}^{2}}={2}^{2-2}={2}^{0}=1$\nLangkah Siswa B secara eksplisit menunjukkan sifat-sifat eksponen yang digunakan.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira ${2}^{0}=0$ alih-alih $1$, atau salah mengalikan $8×\\frac{2}{3}$ saat menyederhanakan penyebut.",
+    "proposed_key_caption": "C. Evaluasi B",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira ${2}^{0}=0$ alih-alih $1$, atau salah mengalikan $8×\\frac{2}{3}$ saat menyederhanakan penyebut.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-2-5-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3842,
+      "paragraph_end": 3872,
+      "body_block_start": 3606,
+      "body_block_end_exclusive": 3637
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nSeorang siswa mengevaluasi penyederhanaan ekspresi aljabar berpangkat berikut untuk skala maket sekolah:\n\n\n\n$Ekspresi:\\frac{{x}^{4}⋅{y}^{-3}}{{x}^{-2}⋅{y}^{2}}$\n\nManakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Suku variabel $x$ jika disederhanakan menghasilkan ${x}^{4-(-2)}={x}^{6}$.\n\n\n\n[ ] B. Suku variabel $y$ jika disederhanakan menghasilkan ${y}^{-3-2}={y}^{-5}=\\frac{1}{{y}^{5}}$.\n\n\n\n[ ] C. Hasil akhir ekspresi tersebut dalam bentuk pangkat positif adalah $\\frac{{x}^{2}}{{y}^{5}}$.\n\n\n\n[ ] D. Hasil akhir ekspresi tersebut dalam bentuk pangkat positif adalah $\\frac{{x}^{6}}{{y}^{5}}$.\n\n\n\nPembahasan:\n\n\n\nA (Benar): Untuk variabel $x$: $\\frac{{x}^{4}}{{x}^{-2}}={x}^{4-(-2)}={x}^{4+2}={x}^{6}$.\n\n\n\nB (Benar): Untuk variabel $y$: $\\frac{{y}^{-3}}{{y}^{2}}={y}^{-3-2}={y}^{-5}=\\frac{1}{{y}^{5}}$.\n\n\n\nC (Salah): Pernyataan ini salah karena hasil yang benar adalah $\\frac{{x}^{6}}{{y}^{5}}$.\n\n\n\nD (Benar): Gabungan kedua variabel menghasilkan $\\frac{{x}^{6}}{{y}^{5}}$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah mengurangi eksponen negatif pada penyebut $4-(-2)$ menjadi $4-2=2$.\n\n",
+    "original_explanation": "Pembahasan:\nA (Benar): Untuk variabel $x$: $\\frac{{x}^{4}}{{x}^{-2}}={x}^{4-(-2)}={x}^{4+2}={x}^{6}$.\nB (Benar): Untuk variabel $y$: $\\frac{{y}^{-3}}{{y}^{2}}={y}^{-3-2}={y}^{-5}=\\frac{1}{{y}^{5}}$.\nC (Salah): Pernyataan ini salah karena hasil yang benar adalah $\\frac{{x}^{6}}{{y}^{5}}$.\nD (Benar): Gabungan kedua variabel menghasilkan $\\frac{{x}^{6}}{{y}^{5}}$.",
+    "source_original_explanation": "Pembahasan:\nA (Benar): Untuk variabel $x$: $\\frac{{x}^{4}}{{x}^{-2}}={x}^{4-(-2)}={x}^{4+2}={x}^{6}$.\nB (Benar): Untuk variabel $y$: $\\frac{{y}^{-3}}{{y}^{2}}={y}^{-3-2}={y}^{-5}=\\frac{1}{{y}^{5}}$.\nC (Salah): Pernyataan ini salah karena hasil yang benar adalah $\\frac{{x}^{6}}{{y}^{5}}$.\nD (Benar): Gabungan kedua variabel menghasilkan $\\frac{{x}^{6}}{{y}^{5}}$.",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengurangi eksponen negatif pada penyebut $4-(-2)$ menjadi $4-2=2$.",
+    "proposed_key_caption": "A, B, dan D",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengurangi eksponen negatif pada penyebut $4-(-2)$ menjadi $4-2=2$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-3-4-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5358,
+      "paragraph_end": 5400,
+      "body_block_start": 5039,
+      "body_block_end_exclusive": 5082
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: B. Analisis II\n\n\n\nSeorang petugas lab IPA menganalisis kewajaran hasil operasi pembagian desimal untuk konsumsi praktikum:\n\n\n\n\n\n$Operasi Riil:\\frac{498,6×29,7}{5,1}=\\frac{14808,42}{5,1}≈2.903,61$\n\nDua siswa menganalisis model estimasi cepat dengan pembulatan ke satuan/puluhan/ratusan terdekat:\n\n\n\nAnalisis I: Membulatkan menjadi $\\frac{400×30}{5}=\\frac{12000}{5}=2.400$\n\n\n\nAnalisis II: Membulatkan menjadi $\\frac{500×30}{5}=\\frac{15000}{5}=3.000$\n\n\n\nHasil analisis manakah yang memberikan nilai estimasi paling akurat dan mendekati hasil sebenarnya?\n\n\n\nA. Analisis I, karena $498,6$ lebih aman dibulatkan ke bawah\n\n\n\nB. Analisis II, karena $500$ sangat dekat dengan $498,6$ sehingga hasil $3.000$ dekat dengan $2.903,61$\n\n\n\nC. Analisis I, karena perkalian $400$ lebih mudah dihitung tanpa alat bantu\n\n\n\nD. Analisis II, karena semua komponen harus dibulatkan ke atas tanpa memperhatikan posisinya\n\n\n\nPembahasan:\n\n\n\nMenganalisis ketepatan pembulatan komponen:\n\n\n\n$498,6$ sangat dekat ke $500$ (selisih hanya $1,4$), sehingga membulatkannya ke $500$ memberikan penyimpangan minimum.\n\n\n\n$29,7→30$.\n\n\n\n$5,1→5$.\n\n\n\nOperasi estimasi Analisis II:\n\n\n\n$\\frac{500×30}{5}=\\frac{15000}{5}=3.000[cite:12]$\n\nDibandingkan dengan nilai riil $2.903,61$, angka $3.000$ jauh lebih akurat dibanding $2.400$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\nSiswa membulatkan $498,6$ menjadi $400$ secara drastis hanya karena ingin mengambil angka ratusan genap di bawahnya.\n\n",
+    "original_explanation": "Pembahasan:\nMenganalisis ketepatan pembulatan komponen:\n$498,6$ sangat dekat ke $500$ (selisih hanya $1,4$), sehingga membulatkannya ke $500$ memberikan penyimpangan minimum.\n$29,7→30$.\n$5,1→5$.\nOperasi estimasi Analisis II:\n$\\frac{500×30}{5}=\\frac{15000}{5}=3.000[cite:12]$\nDibandingkan dengan nilai riil $2.903,61$, angka $3.000$ jauh lebih akurat dibanding $2.400$.",
+    "source_original_explanation": "Pembahasan:\nMenganalisis ketepatan pembulatan komponen:\n$498,6$ sangat dekat ke $500$ (selisih hanya $1,4$), sehingga membulatkannya ke $500$ memberikan penyimpangan minimum.\n$29,7→30$.\n$5,1→5$.\nOperasi estimasi Analisis II:\n$\\frac{500×30}{5}=\\frac{15000}{5}=3.000[cite:12]$\nDibandingkan dengan nilai riil $2.903,61$, angka $3.000$ jauh lebih akurat dibanding $2.400$.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Analisis II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan $498,6$ menjadi $400$ secara drastis hanya karena ingin mengambil angka ratusan genap di bawahnya.",
+    "proposed_key_caption": "B. Analisis II",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan $498,6$ menjadi $400$ secara drastis hanya karena ingin mengambil angka ratusan genap di bawahnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-3-4-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5401,
+      "paragraph_end": 5438,
+      "body_block_start": 5082,
+      "body_block_end_exclusive": 5120
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi B\n\n\n\nSeorang pembina OSIS mengevaluasi dua usulan model estimasi biaya untuk pengadaan $49$ pak kertas gambar seharga Rp19.800,00 per pak:\n\n\n\nUsulan X: Dihitung dengan $40×10.000=400.000$\n\n\n\nUsulan Y: Dihitung dengan $50×20.000=1.000.000$\n\n\n\nDua siswa memberikan evaluasi kelayakan usulan untuk perencanaan anggaran kas:\n\n\n\nEvaluasi A: \"Usulan X lebih baik karena menghasilkan nilai anggaran yang lebih kecil sehingga menghemat kas OSIS.\"\n\n\n\nEvaluasi B: \"Usulan Y lebih layak digunakan sebagai batas atas (upper bound) anggaran, karena Usulan X membulatkan seluruh angka ke bawah sehingga nilai estimasinya (Rp400.000,00) berada jauh di bawah total riil (Rp970.200,00) yang berisiko kekurangan dana.\"\n\n\n\nManakah evaluasi yang pasti benar?\n\n\n\nA. Evaluasi A\n\n\n\nB. Evaluasi B\n\n\n\nC. Kedua evaluasi salah\n\n\n\nD. Evaluasi A benar untuk skala kecil\n\n\n\nPembahasan:\n\n\n\nHitung biaya riil: $49×19.800=Rp970.200,00$.\n\n\n\nEvaluasi Usulan X: Nilai Rp400.000,00 terlampau jauh di bawah biaya riil (kekurangan dana Rp570.200,00).\n\n\n\nEvaluasi Usulan Y: Pembulatan ke atas ($49→50$ dan $19.800→20.000$) menghasilkan Rp1.000.000,00, yang dapat menjadi batas atas anggaran yang aman dan wajar (upper bound). Maka, Evaluasi B adalah yang bernilai tepat secara logika perencanaan anggaran.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa memilih Evaluasi A karena mengira estimasi anggaran yang baik adalah yang bernilai sekecil mungkin tanpa memeriksa apakah nilai tersebut mencukupi biaya riil.\n\n",
+    "original_explanation": "Pembahasan:\nHitung biaya riil: $49×19.800=Rp970.200,00$.\nEvaluasi Usulan X: Nilai Rp400.000,00 terlampau jauh di bawah biaya riil (kekurangan dana Rp570.200,00).\nEvaluasi Usulan Y: Pembulatan ke atas ($49→50$ dan $19.800→20.000$) menghasilkan Rp1.000.000,00, yang dapat menjadi batas atas anggaran yang aman dan wajar (upper bound). Maka, Evaluasi B adalah yang bernilai tepat secara logika perencanaan anggaran.",
+    "source_original_explanation": "Pembahasan:\nHitung biaya riil: $49×19.800=Rp970.200,00$.\nEvaluasi Usulan X: Nilai Rp400.000,00 terlampau jauh di bawah biaya riil (kekurangan dana Rp570.200,00).\nEvaluasi Usulan Y: Pembulatan ke atas ($49→50$ dan $19.800→20.000$) menghasilkan Rp1.000.000,00, yang dapat menjadi batas atas anggaran yang aman dan wajar (upper bound). Maka, Evaluasi B adalah yang bernilai tepat secara logika perencanaan anggaran.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena mengira estimasi anggaran yang baik adalah yang bernilai sekecil mungkin tanpa memeriksa apakah nilai tersebut mencukupi biaya riil.",
+    "proposed_key_caption": "B. Evaluasi B",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena mengira estimasi anggaran yang baik adalah yang bernilai sekecil mungkin tanpa memeriksa apakah nilai tersebut mencukupi biaya riil.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-3-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5520,
+      "paragraph_end": 5556,
+      "body_block_start": 5201,
+      "body_block_end_exclusive": 5238
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nSeorang peneliti laboratorium sekolah menganalisis hasil aproksimasi dan pembulatan tiga sampel pita kawat irasional:\n\n\n\nSampel 1: panjang $=\\sqrt{15}cm$\n\n\n\nSampel 2: panjang $=\\sqrt{35}cm$\n\n\n\nSampel 3: panjang $=\\sqrt{80}cm$\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Aproksimasi Sampel 1 ($\\sqrt{15}$) ke persepuluhan terdekat adalah $3,9 cm$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Aproksimasi Sampel 2 ($\\sqrt{35}$) ke persepuluhan terdekat adalah $5,9 cm$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Sampel 3 ($\\sqrt{80}$) jika dibulatkan ke satuan terdekat adalah $8 cm$\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Sampel 3 ($\\sqrt{80}$) jika dibulatkan ke satuan terdekat adalah $9 cm$\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\n\nA (Benar): $3,{9}^{2}=15,21$. Maka $\\sqrt{15}≈3,872...→$ dibulatkan ke persepuluhan terdekat menjadi $3,9 cm$.\n\n\n\nB (Benar): $5,{9}^{2}=34,81$. Maka $\\sqrt{35}≈5,916...→$ dibulatkan ke persepuluhan terdekat menjadi $5,9 cm$.\n\n\n\nC (Salah): $\\sqrt{80}≈8,944...$, karena digit persepuluhan $9≥5$, dibulatkan naik ke satuan terdekat menjadi $9 cm$ (bukan $8cm$).\n\n\n\nD (Benar): $\\sqrt{80}≈8,944...→9 cm$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa membulatkan $\\sqrt{80}$ ke bawah menjadi $8$ hanya dengan membuang angka desimal di belakang koma tanpa mengecek digit persepuluhan $9≥5$.\n\n",
+    "original_explanation": "Pembahasan:\nA (Benar): $3,{9}^{2}=15,21$. Maka $\\sqrt{15}≈3,872...→$ dibulatkan ke persepuluhan terdekat menjadi $3,9 cm$.\nB (Benar): $5,{9}^{2}=34,81$. Maka $\\sqrt{35}≈5,916...→$ dibulatkan ke persepuluhan terdekat menjadi $5,9 cm$.\nC (Salah): $\\sqrt{80}≈8,944...$, karena digit persepuluhan $9≥5$, dibulatkan naik ke satuan terdekat menjadi $9 cm$ (bukan $8cm$).\nD (Benar): $\\sqrt{80}≈8,944...→9 cm$.",
+    "source_original_explanation": "Pembahasan:\nA (Benar): $3,{9}^{2}=15,21$. Maka $\\sqrt{15}≈3,872...→$ dibulatkan ke persepuluhan terdekat menjadi $3,9 cm$.\nB (Benar): $5,{9}^{2}=34,81$. Maka $\\sqrt{35}≈5,916...→$ dibulatkan ke persepuluhan terdekat menjadi $5,9 cm$.\nC (Salah): $\\sqrt{80}≈8,944...$, karena digit persepuluhan $9≥5$, dibulatkan naik ke satuan terdekat menjadi $9 cm$ (bukan $8cm$).\nD (Benar): $\\sqrt{80}≈8,944...→9 cm$.",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan $\\sqrt{80}$ ke bawah menjadi $8$ hanya dengan membuang angka desimal di belakang koma tanpa mengecek digit persepuluhan $9≥5$.",
+    "proposed_key_caption": "A, B, dan D",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan $\\sqrt{80}$ ke bawah menjadi $8$ hanya dengan membuang angka desimal di belakang koma tanpa mengecek digit persepuluhan $9≥5$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-3-4-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5557,
+      "paragraph_end": 5593,
+      "body_block_start": 5238,
+      "body_block_end_exclusive": 5275
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q8:O1:original",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nDiberikan dua model estimasi biaya belanja pembekalan kegiatan ekstrakurikuler: \"Membeli 29 unit botol minum seharga Rp14.500,00 per unit dan 19 unit tempat makan seharga Rp9.800,00 per unit.\"\n\n\n\nModel I: $(30×15.000)+(20×10.000)=450.000+200.000=650.000$\n\n\n\nModel II: $(20×10.000)+(10×9.000)=200.000+90.000=290.000$\n\n\n\nManakah evaluasi perbandingan kedua model estimasi yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Model II menghasilkan nilai estimasi yang lebih aman dan akurat dibanding Model I.\n\n\n\n[ ] B. Model I menerapkan pembulatan ke atas pada semua komponen sehingga menghasilkan nilai estimasi batas atas (upper bound) sebesar Rp650.000,00.\n\n\n\n[ ] C. Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model I (Rp650.000,00).\n\n\n\n[ ] D. Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model II (Rp290.000,00).\n\n\n\nPembahasan:\n\n\n\nHitung biaya riil: $(29×14.500)+(19×9.800)=420.500+186.200=606.700$.\n\n\n\nA (Salah): Model II ($290.000$) jauh di bawah nilai riil ($606.700$), berisiko kekurangan dana tinggi.\n\n\n\nB (Benar): Membulatkan $29→30$, $14.500→15.000$, $19→20$, dan $9.800→10.000$ adalah pembulatan ke atas.\n\n\n\nC (Benar): Karena seluruh komponen pada Model I dibulatkan ke atas, maka nilai pembayaran riil ($606.700$) pasti lebih kecil dari $650.000$.\n\n\n\nD (Salah): Nilai riil ($606.700$) lebih besar dari $290.000$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa tidak mengevaluasi dampak arah pembulatan (ke atas vs ke bawah) terhadap nilai riil belanja.\n\n",
+    "original_explanation": "Pembahasan:\nHitung biaya riil: $(29×14.500)+(19×9.800)=420.500+186.200=606.700$.\nA (Salah): Model II ($290.000$) jauh di bawah nilai riil ($606.700$), berisiko kekurangan dana tinggi.\nB (Benar): Membulatkan $29→30$, $14.500→15.000$, $19→20$, dan $9.800→10.000$ adalah pembulatan ke atas.\nC (Benar): Karena seluruh komponen pada Model I dibulatkan ke atas, maka nilai pembayaran riil ($606.700$) pasti lebih kecil dari $650.000$.\nD (Salah): Nilai riil ($606.700$) lebih besar dari $290.000$.",
+    "source_original_explanation": "Pembahasan:\nHitung biaya riil: $(29×14.500)+(19×9.800)=420.500+186.200=606.700$.\nA (Salah): Model II ($290.000$) jauh di bawah nilai riil ($606.700$), berisiko kekurangan dana tinggi.\nB (Benar): Membulatkan $29→30$, $14.500→15.000$, $19→20$, dan $9.800→10.000$ adalah pembulatan ke atas.\nC (Benar): Karena seluruh komponen pada Model I dibulatkan ke atas, maka nilai pembayaran riil ($606.700$) pasti lebih kecil dari $650.000$.\nD (Salah): Nilai riil ($606.700$) lebih besar dari $290.000$.",
+    "source_original_key": [
+      "B",
+      "C"
+    ],
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak mengevaluasi dampak arah pembulatan (ke atas vs ke bawah) terhadap nilai riil belanja.",
+    "proposed_key_caption": "B dan C",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak mengevaluasi dampak arah pembulatan (ke atas vs ke bawah) terhadap nilai riil belanja.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "kategori-3-4-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5639,
+      "paragraph_end": 5680,
+      "body_block_start": 5309,
+      "body_block_end_exclusive": 5340
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nSeorang tim peneliti menganalisis dua ukuran pipa irasional pada instalasi air sekolah:\n\n\n\n$P=\\sqrt{22 }meter$\n\n\n\n$Q=\\sqrt{68 }meter$\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi aproksimasi berikut!\n\n\n\n<!-- table-029 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Nilai aproksimasi $P$ ($\\sqrt{22}$) jika dibulatkan ke persepuluhan terdekat adalah $4,7 m$.</td><td></td><td></td></tr>\n<tr><td>(b) Nilai aproksimasi $Q$ ($\\sqrt{68}$) jika dibulatkan ke satuan terdekat adalah $8 m$.</td><td></td><td></td></tr>\n<tr><td>(c) Nilai estimasi total panjang $P+Q$ menggunakan pembulatan ke satuan terdekat dari masing-masing komponen adalah $12m$.</td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\n(a) BENAR: $\\sqrt{22}≈4,690...$, karena digit persatusan $9≥5$, dibulatkan ke persepuluhan terdekat menjadi $4,7 m$ ($4,{7}^{2}=22,09$).\n\n\n\n(b) BENAR: $\\sqrt{68}≈8,246...$, karena digit persepuluhan $2<5$, dibulatkan ke satuan terdekat menjadi $8 m$.\n\n\n\n(c) SALAH:\n\n\n\nBulatkan $P=\\sqrt{22}≈4,69→5 m$ (ke satuan terdekat karena $6≥5$).\n\n\n\nBulatkan $Q=\\sqrt{68}≈8,25→8 m$ (ke satuan terdekat karena $2<5$).\n\n\n\nTotal estimasi $P+Q=5+8=13 m$ (bukan $12 m$).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah membulatkan $\\sqrt{22}$ ke satuan terdekat menjadi $4$ karena tidak memperhatikan bahwa $4,69$ lebih dekat ke $5$ daripada ke $4$.\n\n",
+    "original_explanation": "Pembahasan:\n(a) BENAR: $\\sqrt{22}≈4,690...$, karena digit persatusan $9≥5$, dibulatkan ke persepuluhan terdekat menjadi $4,7 m$ ($4,{7}^{2}=22,09$).\n(b) BENAR: $\\sqrt{68}≈8,246...$, karena digit persepuluhan $2<5$, dibulatkan ke satuan terdekat menjadi $8 m$.\n(c) SALAH:\nBulatkan $P=\\sqrt{22}≈4,69→5 m$ (ke satuan terdekat karena $6≥5$).\nBulatkan $Q=\\sqrt{68}≈8,25→8 m$ (ke satuan terdekat karena $2<5$).\nTotal estimasi $P+Q=5+8=13 m$ (bukan $12 m$).",
+    "source_original_explanation": "Pembahasan:\n(a) BENAR: $\\sqrt{22}≈4,690...$, karena digit persatusan $9≥5$, dibulatkan ke persepuluhan terdekat menjadi $4,7 m$ ($4,{7}^{2}=22,09$).\n(b) BENAR: $\\sqrt{68}≈8,246...$, karena digit persepuluhan $2<5$, dibulatkan ke satuan terdekat menjadi $8 m$.\n(c) SALAH:\nBulatkan $P=\\sqrt{22}≈4,69→5 m$ (ke satuan terdekat karena $6≥5$).\nBulatkan $Q=\\sqrt{68}≈8,25→8 m$ (ke satuan terdekat karena $2<5$).\nTotal estimasi $P+Q=5+8=13 m$ (bukan $12 m$).",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membulatkan $\\sqrt{22}$ ke satuan terdekat menjadi $4$ karena tidak memperhatikan bahwa $4,69$ lebih dekat ke $5$ daripada ke $4$.",
+    "proposed_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membulatkan $\\sqrt{22}$ ke satuan terdekat menjadi $4$ karena tidak memperhatikan bahwa $4,69$ lebih dekat ke $5$ daripada ke $4$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-3-5-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5736,
+      "paragraph_end": 5787,
+      "body_block_start": 5395,
+      "body_block_end_exclusive": 5447
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q2:O1:original",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Menevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi Y\n\n\n\nDua kabel kawat baja penguat tiang bendera diukur panjangnya secara tidak langsung:\n\n\n\nKawat X: panjang $=\\sqrt{53 }meter$\n\n\n\nKawat Y: panjang $=\\sqrt{54 }meter$\n\n\n\nDua siswa mengevaluasi hasil aproksimasi panjang kedua kawat tersebut jika dibulatkan hingga satu tempat desimal (persepuluhan terdekat):\n\n\n\nEvaluasi X: \"Kawat X $=7,2m$ dan Kawat Y $=7,3m$.\"\n\n\n\nEvaluasi Y: \"Kawat X $=7,3m$ dan Kawat Y $=7,3m$.\"\n\n\n\nEvaluasi manakah yang benar berdasarkan uji kuadrat desimal?\n\n\n\nA. Evaluasi X, karena $\\sqrt{53}$ dan $\\sqrt{54}$ harus menghasilkan desimal yang berbeda\n\n\n\nB. Evaluasi X, karena $7,{2}^{2}=51,84$ yang lebih dekat ke 53\n\n\n\nC. Evaluasi Y, karena $7,{3}^{2}=53,29$ (paling dekat ke 53) dan $7,{3}^{2}=53,29$ juga paling dekat ke 54\n\n\n\nD. Kedua evaluasi salah, karena nilai keduanya dibulatkan menjadi $7,4m$\n\n\n\nPembahasan:\n\n\n\n\nUji kuadrat desimal persepuluhan:\n\n\n\nUntuk Kawat X ($\\sqrt{53}$):\n\n\n\n$7,{2}^{2}=51,84$ (selisih $1,16$ ke 53)\n\n\n\n$7,{3}^{2}=53,29$ (selisih $0,29$ ke 53)\n\n\n\nKarena $53,29$ lebih dekat ke $53$, maka $\\sqrt{53}≈7,280...→$ dibulatkan ke persepuluhan terdekat menjadi $7,3 m$.\n\n\n\nUntuk Kawat Y ($\\sqrt{54}$):\n\n\n\n$7,{3}^{2}=53,29$ (selisih $0,71$ ke 54)\n\n\n\n$7,{4}^{2}=54,76$ (selisih $0,76$ ke 54)\n\n\n\nKarena $53,29$ lebih dekat ke $54$, maka $\\sqrt{54}≈7,348...→$ dibulatkan ke persepuluhan terdekat menjadi $7,3m$.\n\n\n\nMaka, Evaluasi Y (kedua kawat dibulatkan menjadi $7,3m$) adalah yang bernilai tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa beranggapan dua bilangan asli berurutan ($\\sqrt{53}$ dan $\\sqrt{54}$) tidak boleh menghasilkan angka pembulatan desimal yang sama, sehingga salah memilih Evaluasi X.\n\n",
+    "original_explanation": "Pembahasan:\nUji kuadrat desimal persepuluhan:\nUntuk Kawat X ($\\sqrt{53}$):\n$7,{2}^{2}=51,84$ (selisih $1,16$ ke 53)\n$7,{3}^{2}=53,29$ (selisih $0,29$ ke 53)\nKarena $53,29$ lebih dekat ke $53$, maka $\\sqrt{53}≈7,280...→$ dibulatkan ke persepuluhan terdekat menjadi $7,3 m$.\nUntuk Kawat Y ($\\sqrt{54}$):\n$7,{3}^{2}=53,29$ (selisih $0,71$ ke 54)\n$7,{4}^{2}=54,76$ (selisih $0,76$ ke 54)\nKarena $53,29$ lebih dekat ke $54$, maka $\\sqrt{54}≈7,348...→$ dibulatkan ke persepuluhan terdekat menjadi $7,3m$.\nMaka, Evaluasi Y (kedua kawat dibulatkan menjadi $7,3m$) adalah yang bernilai tepat.",
+    "source_original_explanation": "Pembahasan:\nUji kuadrat desimal persepuluhan:\nUntuk Kawat X ($\\sqrt{53}$):\n$7,{2}^{2}=51,84$ (selisih $1,16$ ke 53)\n$7,{3}^{2}=53,29$ (selisih $0,29$ ke 53)\nKarena $53,29$ lebih dekat ke $53$, maka $\\sqrt{53}≈7,280...→$ dibulatkan ke persepuluhan terdekat menjadi $7,3 m$.\nUntuk Kawat Y ($\\sqrt{54}$):\n$7,{3}^{2}=53,29$ (selisih $0,71$ ke 54)\n$7,{4}^{2}=54,76$ (selisih $0,76$ ke 54)\nKarena $53,29$ lebih dekat ke $54$, maka $\\sqrt{54}≈7,348...→$ dibulatkan ke persepuluhan terdekat menjadi $7,3m$.\nMaka, Evaluasi Y (kedua kawat dibulatkan menjadi $7,3m$) adalah yang bernilai tepat.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi Y",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa beranggapan dua bilangan asli berurutan ($\\sqrt{53}$ dan $\\sqrt{54}$) tidak boleh menghasilkan angka pembulatan desimal yang sama, sehingga salah memilih Evaluasi X.",
+    "proposed_key_caption": "C. Evaluasi Y",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa beranggapan dua bilangan asli berurutan ($\\sqrt{53}$ dan $\\sqrt{54}$) tidak boleh menghasilkan angka pembulatan desimal yang sama, sehingga salah memilih Evaluasi X.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-3-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5788,
+      "paragraph_end": 5828,
+      "body_block_start": 5447,
+      "body_block_end_exclusive": 5488
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi B\n\n\n\nSeorang pengurus OSIS mengevaluasi dua usulan model estimasi cepat untuk mengecek kewajaran jawaban operasi pembagian biaya konsumsi berikut:\n\n\n\n\n\n$Hitungan Riil:\\frac{598,2×30,4}{6,1}=\\frac{18185,28}{6,1}≈2.981,19$\n\nDua model estimasi diajukan:\n\n\n\nModel A: Membulatkan menjadi $\\frac{500×30}{6}=\\frac{15000}{6}=2.500$\n\n\n\nModel B: Membulatkan menjadi $\\frac{600×30}{6}=\\frac{18000}{6}=3.000$\n\n\n\nManakah evaluasi yang pasti benar mengenai kelayakan kedua model estimasi?\n\n\n\nA. Model A lebih baik karena membulatkan $598,2$ ke bawah membuat anggaran lebih aman\n\n\n\nB. Model B lebih layak dan akurat, karena $600$ sangat dekat dengan $598,2$ sehingga hasil estimasi ($3.000$) sangat dekat dengan nilai riil ($2.981,19$)\n\n\n\nC. Model A lebih akurat karena angka $500$ lebih mudah dihitung\n\n\n\nD. Kedua model sama-sama tidak layak digunakan\n\n\n\nPembahasan:\n\n\n\n\nMengevaluasi tingkat penyimpangan pembulatan:\n\n\n\n$598,2$ terletak sangat dekat dengan $600$ (selisih hanya $1,8$), sehingga membulatkannya ke $600$ memberikan penyimpangan yang sangat kecil.\n\n\n\n$30,4→30$ dan $6,1→6$.\n\n\n\nHitung estimasi Model B:\n\n\n\n$\\frac{600×30}{6}=\\frac{18000}{6}=3.000$\n\nDibandingkan dengan nilai riil $2.981,19$, angka $3.000$ dari Model B jauh lebih akurat dibanding $2.500$ dari Model A. Maka, Evaluasi B adalah yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah memilih Model A karena membulatkan $598,2$ menjadi $500$ secara drastis hanya demi mendapatkan angka ratusan di bawahnya.\n\n",
+    "original_explanation": "Pembahasan:\nMengevaluasi tingkat penyimpangan pembulatan:\n$598,2$ terletak sangat dekat dengan $600$ (selisih hanya $1,8$), sehingga membulatkannya ke $600$ memberikan penyimpangan yang sangat kecil.\n$30,4→30$ dan $6,1→6$.\nHitung estimasi Model B:\n$\\frac{600×30}{6}=\\frac{18000}{6}=3.000$\nDibandingkan dengan nilai riil $2.981,19$, angka $3.000$ dari Model B jauh lebih akurat dibanding $2.500$ dari Model A. Maka, Evaluasi B adalah yang tepat.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi tingkat penyimpangan pembulatan:\n$598,2$ terletak sangat dekat dengan $600$ (selisih hanya $1,8$), sehingga membulatkannya ke $600$ memberikan penyimpangan yang sangat kecil.\n$30,4→30$ dan $6,1→6$.\nHitung estimasi Model B:\n$\\frac{600×30}{6}=\\frac{18000}{6}=3.000$\nDibandingkan dengan nilai riil $2.981,19$, angka $3.000$ dari Model B jauh lebih akurat dibanding $2.500$ dari Model A. Maka, Evaluasi B adalah yang tepat.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah memilih Model A karena membulatkan $598,2$ menjadi $500$ secara drastis hanya demi mendapatkan angka ratusan di bawahnya.",
+    "proposed_key_caption": "B. Evaluasi B",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah memilih Model A karena membulatkan $598,2$ menjadi $500$ secara drastis hanya demi mendapatkan angka ratusan di bawahnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-3-5-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5829,
+      "paragraph_end": 5866,
+      "body_block_start": 5488,
+      "body_block_end_exclusive": 5526
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Menevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi II\n\n\n\nSeorang pembina pramuka mengevaluasi dua usulan cara penganggaran pengadaan $39$ paket tali temali seharga Rp24.800,00 per paket:\n\n\n\nUsulan I: Dihitung dengan $30×20.000=600.000$\n\n\n\nUsulan II: Dihitung dengan $40×25.000=1.000.000$\n\n\n\nDua siswa memberikan evaluasi kelayakan usulan:\n\n\n\nEvaluasi I: \"Usulan I lebih layak karena menghasilkan nilai estimasi yang lebih hemat.\"\n\n\n\nEvaluasi II: \"Usulan II lebih layak sebagai batas atas (upper bound) anggaran yang aman, karena Usulan I membulatkan seluruh komponen ke bawah sehingga nilai estimasinya (Rp600.000,00) berada jauh di bawah total riil (Rp967.200,00) yang berisiko kekurangan dana.\"\n\n\n\nManakah evaluasi yang pasti benar?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Kedua evaluasi salah\n\n\n\nD. Evaluasi I benar untuk skala penganggaran kecil\n\n\n\nPembahasan:\n\n\n\n\nHitung biaya riil: $39×24.800=Rp967.200,00$.\n\n\n\nEvaluasi Usulan I: Nilai Rp600.000,00 terlampau jauh di bawah biaya riil (kekurangan dana Rp367.200,00).\n\n\n\nEvaluasi Usulan II: Pembulatan ke atas ($39→40$ dan $24.800→25.000$) menghasilkan Rp1.000.000,00, yang menjadi batas atas anggaran yang aman dan wajar (upper bound). Maka, Evaluasi II adalah yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa memilih Evaluasi I karena mengira estimasi anggaran yang baik adalah yang bernilai sekecil mungkin tanpa memperhitungkan kecukupan terhadap biaya riil.\n\n",
+    "original_explanation": "Pembahasan:\nHitung biaya riil: $39×24.800=Rp967.200,00$.\nEvaluasi Usulan I: Nilai Rp600.000,00 terlampau jauh di bawah biaya riil (kekurangan dana Rp367.200,00).\nEvaluasi Usulan II: Pembulatan ke atas ($39→40$ dan $24.800→25.000$) menghasilkan Rp1.000.000,00, yang menjadi batas atas anggaran yang aman dan wajar (upper bound). Maka, Evaluasi II adalah yang tepat.",
+    "source_original_explanation": "Pembahasan:\nHitung biaya riil: $39×24.800=Rp967.200,00$.\nEvaluasi Usulan I: Nilai Rp600.000,00 terlampau jauh di bawah biaya riil (kekurangan dana Rp367.200,00).\nEvaluasi Usulan II: Pembulatan ke atas ($39→40$ dan $24.800→25.000$) menghasilkan Rp1.000.000,00, yang menjadi batas atas anggaran yang aman dan wajar (upper bound). Maka, Evaluasi II adalah yang tepat.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi I karena mengira estimasi anggaran yang baik adalah yang bernilai sekecil mungkin tanpa memperhitungkan kecukupan terhadap biaya riil.",
+    "proposed_key_caption": "B. Evaluasi II",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi I karena mengira estimasi anggaran yang baik adalah yang bernilai sekecil mungkin tanpa memperhitungkan kecukupan terhadap biaya riil.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-3-5-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 6006,
+      "paragraph_end": 6041,
+      "body_block_start": 5665,
+      "body_block_end_exclusive": 5701
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q8:O1:original",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nDiberikan dua model estimasi biaya belanja pembekalan ekstrakurikuler: \"Membeli 39 unit wadah air seharga Rp19.500,00 per unit dan 19 unit cangkir seharga Rp4.800,00 per unit.\"\n\n\n\nModel I: $(40×20.000)+(20×5.000)=800.000+100.000=900.000$\n\n\n\nModel II: $(30×10.000)+(10×4.000)=300.000+40.000=340.000$\n\n\n\nManakah evaluasi perbandingan kedua model estimasi yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Model II menghasilkan nilai estimasi yang lebih aman dan akurat dibanding Model I.\n\n\n\n[ ] B. Model I menerapkan pembulatan ke atas pada semua komponen sehingga menghasilkan nilai estimasi batas atas (upper bound) sebesar Rp900.000,00.\n\n\n\n[ ] C. Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model I (Rp900.000,00).\n\n\n\n[ ] D. Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model II (Rp340.000,00).\n\n\n\nPembahasan:\n\n\n\nHitung biaya riil: $(39×19.500)+(19×4.800)=760.500+91.200=851.700$.\n\n\n\nA (Salah): Model II ($340.000$) berada jauh di bawah nilai riil ($851.700$), berisiko tinggi kekurangan dana.\n\n\n\nB (Benar): Membulatkan $39→40$, $19.500→20.000$, $19→20$, dan $4.800→5.000$ adalah pembulatan ke atas.\n\n\n\nC (Benar): Karena seluruh komponen pada Model I dibulatkan ke atas, maka nilai pembayaran riil ($851.700$) pasti lebih kecil dari $900.000$.\n\n\n\nD (Salah): Nilai riil ($851.700$) lebih besar dari $340.000$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa tidak mengevaluasi dampak arah pembulatan (ke atas vs ke bawah) terhadap posisi nilai belanja riil.\n\n",
+    "original_explanation": "Pembahasan:\nHitung biaya riil: $(39×19.500)+(19×4.800)=760.500+91.200=851.700$.\nA (Salah): Model II ($340.000$) berada jauh di bawah nilai riil ($851.700$), berisiko tinggi kekurangan dana.\nB (Benar): Membulatkan $39→40$, $19.500→20.000$, $19→20$, dan $4.800→5.000$ adalah pembulatan ke atas.\nC (Benar): Karena seluruh komponen pada Model I dibulatkan ke atas, maka nilai pembayaran riil ($851.700$) pasti lebih kecil dari $900.000$.\nD (Salah): Nilai riil ($851.700$) lebih besar dari $340.000$.",
+    "source_original_explanation": "Pembahasan:\nHitung biaya riil: $(39×19.500)+(19×4.800)=760.500+91.200=851.700$.\nA (Salah): Model II ($340.000$) berada jauh di bawah nilai riil ($851.700$), berisiko tinggi kekurangan dana.\nB (Benar): Membulatkan $39→40$, $19.500→20.000$, $19→20$, dan $4.800→5.000$ adalah pembulatan ke atas.\nC (Benar): Karena seluruh komponen pada Model I dibulatkan ke atas, maka nilai pembayaran riil ($851.700$) pasti lebih kecil dari $900.000$.\nD (Salah): Nilai riil ($851.700$) lebih besar dari $340.000$.",
+    "source_original_key": [
+      "B",
+      "C"
+    ],
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak mengevaluasi dampak arah pembulatan (ke atas vs ke bawah) terhadap posisi nilai belanja riil.",
+    "proposed_key_caption": "B dan C",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak mengevaluasi dampak arah pembulatan (ke atas vs ke bawah) terhadap posisi nilai belanja riil.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "kategori-3-5-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 6088,
+      "paragraph_end": 6130,
+      "body_block_start": 5736,
+      "body_block_end_exclusive": 5768
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nDua pipa air berbentuk irasional diukur panjangnya pada area taman sekolah:\n\n\n\n$R=\\sqrt{27 }meter$\n\n\n\n$S=\\sqrt{75} meter$\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi aproksimasi berikut!\n\n\n\n<!-- table-031 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Nilai aproksimasi $R$ ($\\sqrt{27}$) jika dibulatkan ke persepuluhan terdekat adalah $5,2 m$.</td><td></td><td></td></tr>\n<tr><td>(b) Nilai aproksimasi $S$ ($\\sqrt{75}$) jika dibulatkan ke satuan terdekat adalah $9 m$.</td><td></td><td></td></tr>\n<tr><td>(c) Nilai estimasi total panjang $R+S$ menggunakan pembulatan ke satuan terdekat dari masing-masing komponen adalah $13 m$.</td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\n(a) BENAR: $\\sqrt{27}≈5,196...$, karena digit persatusan $9≥5$, dibulatkan ke persepuluhan terdekat menjadi $5,2 m$ ($5,{2}^{2}=27,04$).\n\n\n\n(b) BENAR: $\\sqrt{75}≈8,660...$, karena digit persepuluhan $6≥5$, dibulatkan ke satuan terdekat menjadi $9 m$.\n\n\n\n(c) SALAH:\n\n\n\nBulatkan $R=\\sqrt{27}≈5,196→5 m$ (ke satuan terdekat karena $1<5$).\n\n\n\nBulatkan $S=\\sqrt{75}≈8,660→9 m$ (ke satuan terdekat karena $6≥5$).\n\n\n\nTotal estimasi $R+S=5+9=14m$ (bukan $13 m$).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa salah mengoperasikan pembulatan $5+9=14$ menjadi $13$ karena salah membulatkan $\\sqrt{75}$ menjadi $8$.\n\n",
+    "original_explanation": "Pembahasan:\n(a) BENAR: $\\sqrt{27}≈5,196...$, karena digit persatusan $9≥5$, dibulatkan ke persepuluhan terdekat menjadi $5,2 m$ ($5,{2}^{2}=27,04$).\n(b) BENAR: $\\sqrt{75}≈8,660...$, karena digit persepuluhan $6≥5$, dibulatkan ke satuan terdekat menjadi $9 m$.\n(c) SALAH:\nBulatkan $R=\\sqrt{27}≈5,196→5 m$ (ke satuan terdekat karena $1<5$).\nBulatkan $S=\\sqrt{75}≈8,660→9 m$ (ke satuan terdekat karena $6≥5$).\nTotal estimasi $R+S=5+9=14m$ (bukan $13 m$).",
+    "source_original_explanation": "Pembahasan:\n(a) BENAR: $\\sqrt{27}≈5,196...$, karena digit persatusan $9≥5$, dibulatkan ke persepuluhan terdekat menjadi $5,2 m$ ($5,{2}^{2}=27,04$).\n(b) BENAR: $\\sqrt{75}≈8,660...$, karena digit persepuluhan $6≥5$, dibulatkan ke satuan terdekat menjadi $9 m$.\n(c) SALAH:\nBulatkan $R=\\sqrt{27}≈5,196→5 m$ (ke satuan terdekat karena $1<5$).\nBulatkan $S=\\sqrt{75}≈8,660→9 m$ (ke satuan terdekat karena $6≥5$).\nTotal estimasi $R+S=5+9=14m$ (bukan $13 m$).",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan pembulatan $5+9=14$ menjadi $13$ karena salah membulatkan $\\sqrt{75}$ menjadi $8$.",
+    "proposed_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan pembulatan $5+9=14$ menjadi $13$ karena salah membulatkan $\\sqrt{75}$ menjadi $8$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-4-4-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7368,
+      "paragraph_end": 7404,
+      "body_block_start": 7005,
+      "body_block_end_exclusive": 7042
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q2:O1:original",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: C. ${2}^{2}×{3}^{2}$\n\n\n\nDiberikan dua bilangan asli $M$ dan $N$ yang dinyatakan dalam bentuk perkalian faktor prima:\n\n\n\n$M={2}^{3}×{3}^{3}×5$\n\n\n\n$N={2}^{2}×{3}^{2}×7$\n\n\n\nSeorang siswa menganalisis bentuk faktorisasi prima dari pembagi persekutuan terbesar (FPB) kedua bilangan tersebut. Bentuk faktorisasi prima dari FPB($M,N$) yang tepat adalah ....\n\n\n\nA. ${2}^{3}×{3}^{3}$\n\n\n\nB. ${2}^{3}×{3}^{3}×5×7$\n\n\n\nC. ${2}^{2}×{3}^{2}$\n\n\n\nD. ${2}^{2}×3$\n\n\n\nPembahasan:\n\n\n\nMenganalisis penentuan FPB dari dua bilangan berpangkat faktorisasi prima:\n\n\nIdentifikasi faktor prima sekutu (faktor yang ada pada kedua bilangan), yaitu $2$ dan $3$.\n\n\n\nPilih pangkat terkecil untuk setiap faktor sekutu tersebut:\n\n\n\nUntuk faktor $2$: pilih ${2}^{2}$ (karena ${2}^{2}<{2}^{3}$).\n\n\n\nUntuk faktor $3$: pilih ${3}^{2}$ (karena ${3}^{2}<{3}^{3}$).\n\n\n\nMaka, $FPB(M,N)={2}^{2}×{3}^{2}=4×9=36$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa tertukar mengambil pangkat terbesar (konsep KPK) atau ikut mengalikan faktor $5$ dan $7$ ke dalam rumus FPB.\n\n",
+    "original_explanation": "Pembahasan:\nMenganalisis penentuan FPB dari dua bilangan berpangkat faktorisasi prima:\nIdentifikasi faktor prima sekutu (faktor yang ada pada kedua bilangan), yaitu $2$ dan $3$.\nPilih pangkat terkecil untuk setiap faktor sekutu tersebut:\nUntuk faktor $2$: pilih ${2}^{2}$ (karena ${2}^{2}<{2}^{3}$).\nUntuk faktor $3$: pilih ${3}^{2}$ (karena ${3}^{2}<{3}^{3}$).\nMaka, $FPB(M,N)={2}^{2}×{3}^{2}=4×9=36$.",
+    "source_original_explanation": "Pembahasan:\nMenganalisis penentuan FPB dari dua bilangan berpangkat faktorisasi prima:\nIdentifikasi faktor prima sekutu (faktor yang ada pada kedua bilangan), yaitu $2$ dan $3$.\nPilih pangkat terkecil untuk setiap faktor sekutu tersebut:\nUntuk faktor $2$: pilih ${2}^{2}$ (karena ${2}^{2}<{2}^{3}$).\nUntuk faktor $3$: pilih ${3}^{2}$ (karena ${3}^{2}<{3}^{3}$).\nMaka, $FPB(M,N)={2}^{2}×{3}^{2}=4×9=36$.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. ${2}^{2}×{3}^{2}$",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar mengambil pangkat terbesar (konsep KPK) atau ikut mengalikan faktor $5$ dan $7$ ke dalam rumus FPB.",
+    "proposed_key_caption": "C. ${2}^{2}×{3}^{2}$",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar mengambil pangkat terbesar (konsep KPK) atau ikut mengalikan faktor $5$ dan $7$ ke dalam rumus FPB.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-4-4-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7405,
+      "paragraph_end": 7446,
+      "body_block_start": 7042,
+      "body_block_end_exclusive": 7084
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: A. Analisis A\n\n\n\nPanitia pameran sains hendak membagikan $120$ modul praktikum dan $144$ pena sains ke dalam beberapa kantong bingkisan peserta dengan jumlah dan kombinasi isi yang sama tanpa ada sisa.\n\n\n\nDua anggota panitia mengajukan proposal analisis pembagian:\n\n\n\nProposal A: Dibuat $24$ kantong, masing-masing berisi $5$ modul praktikum dan $6$ pena sains.\n\n\n\nProposal B: Dibuat $48$ kantong, masing-masing berisi $2,5$ modul praktikum dan $3$ pena sains.\n\n\n\nManakah proposal analisis yang benar berdasarkan prinsip matematika dan keterbagian barang?\n\n\n\nA. Proposal A, karena FPB dari $120$ dan $144$ adalah $24$ sehingga isi barang bernilai bilangan bulat utuh\n\n\n\nB. Proposal B, karena semakin banyak kantong membuat distribusi semakin merata\n\n\n\nC. Proposal A, karena jumlah pena sains harus lebih sedikit dari modul praktikum\n\n\n\nD. Proposal B, karena $48$ merupakan kelipatan dari $24$\n\n\n\nPembahasan:\n\n\n\nMenganalisis FPB dari $120$ dan $144$:\n\n\n\n$120={2}^{3}×3×5$\n\n\n\n$144={2}^{4}×{3}^{2}$\n\n\n\n$FPB(120,144)={2}^{3}×3=8×3=24$ kantong.\n\n\n\nMenganalisis pembagian barang per kantong:\n\n\n\nModul praktikum = $120÷24=5$ buah.\n\n\n\nPena sains = $144÷24=6$ buah. Proposal B tidak valid karena menghasilkan barang bernilai desimal ($2,5$ modul), yang tidak nyata dalam pengemasan barang utuh. Maka, Proposal A adalah yang benar.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa memilih Proposal B hanya karena membagi dua angka FPB ($24×2=48$) tanpa memeriksa keutuhan jumlah barang hasil pembagian.\n\n",
+    "original_explanation": "Pembahasan:\nMenganalisis FPB dari $120$ dan $144$:\n$120={2}^{3}×3×5$\n$144={2}^{4}×{3}^{2}$\n$FPB(120,144)={2}^{3}×3=8×3=24$ kantong.\nMenganalisis pembagian barang per kantong:\nModul praktikum = $120÷24=5$ buah.\nPena sains = $144÷24=6$ buah. Proposal B tidak valid karena menghasilkan barang bernilai desimal ($2,5$ modul), yang tidak nyata dalam pengemasan barang utuh. Maka, Proposal A adalah yang benar.",
+    "source_original_explanation": "Pembahasan:\nMenganalisis FPB dari $120$ dan $144$:\n$120={2}^{3}×3×5$\n$144={2}^{4}×{3}^{2}$\n$FPB(120,144)={2}^{3}×3=8×3=24$ kantong.\nMenganalisis pembagian barang per kantong:\nModul praktikum = $120÷24=5$ buah.\nPena sains = $144÷24=6$ buah. Proposal B tidak valid karena menghasilkan barang bernilai desimal ($2,5$ modul), yang tidak nyata dalam pengemasan barang utuh. Maka, Proposal A adalah yang benar.",
+    "source_original_key": [
+      "A"
+    ],
+    "source_key_caption": "A. Analisis A",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Proposal B hanya karena membagi dua angka FPB ($24×2=48$) tanpa memeriksa keutuhan jumlah barang hasil pembagian.",
+    "proposed_key_caption": "A. Analisis A",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Proposal B hanya karena membagi dua angka FPB ($24×2=48$) tanpa memeriksa keutuhan jumlah barang hasil pembagian.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "kategori-4-4-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7684,
+      "paragraph_end": 7743,
+      "body_block_start": 7307,
+      "body_block_end_exclusive": 7353
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nDua tali pramuka masing-masing berukuran $90cm$ dan $120cm$ dipotong menjadi beberapa bagian yang sama panjang tanpa sisa. Dua orang siswa mengevaluasi hasil pemotongan tersebut.\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-033 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Ukuran panjang potongan tali terpanjang yang dapat dibuat adalah $30 cm$.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Jumlah seluruh potongan tali yang diperoleh dari kedua tali tersebut adalah $7$ potongan.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Jumlah potongan dari tali $120 cm$ adalah dua kali lipat dari jumlah potongan tali $9 0 cm$.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\nMengevaluasi FPB dari $90$ dan $120$:\n\n$90=2×{3}^{2}×5$\n\n\n\n$120={2}^{3}×3×5$\n\n\n\n$FPB(90,120)=2×3×5=30 cm$.\n\n\n\nEvaluasi pernyataan:\n\n\n\n(a) BENAR: Potongan terpanjang = FPB = $30 cm$.\n\n\n\n(b) BENAR:\n\n\n\nPotongan tali $90cm=90÷30=3$ potongan.\n\n\n\nPotongan tali $120cm=120÷30=4$ potongan.\n\n\n\nTotal potongan = $3+4=7$ potongan.\n\n\n\n(c) SALAH: Perbandingan potongan tali $120 cm$ ($4$ potongan) dan $90 cm$ ($3$ potongan) adalah $4:3$, bukan dua kali lipat ($2:1$).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru mengevaluasi rasio $4:3$ sebagai rasio $2:1$ (dua kali lipat).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "original_explanation": "Pembahasan:\nMengevaluasi FPB dari $90$ dan $120$:\n$90=2×{3}^{2}×5$\n$120={2}^{3}×3×5$\n$FPB(90,120)=2×3×5=30 cm$.\nEvaluasi pernyataan:\n(a) BENAR: Potongan terpanjang = FPB = $30 cm$.\n(b) BENAR:\nPotongan tali $90cm=90÷30=3$ potongan.\nPotongan tali $120cm=120÷30=4$ potongan.\nTotal potongan = $3+4=7$ potongan.\n(c) SALAH: Perbandingan potongan tali $120 cm$ ($4$ potongan) dan $90 cm$ ($3$ potongan) adalah $4:3$, bukan dua kali lipat ($2:1$).",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi FPB dari $90$ dan $120$:\n$90=2×{3}^{2}×5$\n$120={2}^{3}×3×5$\n$FPB(90,120)=2×3×5=30 cm$.\nEvaluasi pernyataan:\n(a) BENAR: Potongan terpanjang = FPB = $30 cm$.\n(b) BENAR:\nPotongan tali $90cm=90÷30=3$ potongan.\nPotongan tali $120cm=120÷30=4$ potongan.\nTotal potongan = $3+4=7$ potongan.\n(c) SALAH: Perbandingan potongan tali $120 cm$ ($4$ potongan) dan $90 cm$ ($3$ potongan) adalah $4:3$, bukan dua kali lipat ($2:1$).",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru mengevaluasi rasio $4:3$ sebagai rasio $2:1$ (dua kali lipat).",
+    "proposed_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru mengevaluasi rasio $4:3$ sebagai rasio $2:1$ (dua kali lipat).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-4-5-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7792,
+      "paragraph_end": 7829,
+      "body_block_start": 7401,
+      "body_block_end_exclusive": 7439
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q2:O1:original",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A. Evaluasi A\n\n\n\nDiberikan dua buah bilangan berpangkat faktorisasi prima $P={2}^{4}×{3}^{2}$ dan $Q={2}^{3}×{3}^{3}×5$. Dua orang siswa memberikan penilaian mengenai pernyataan bentuk FPB dari kedua bilangan tersebut:\n\n\n\nEvaluasi A: \"Bentuk $FPB(P,Q)={2}^{3}×{3}^{2}$ adalah BENAR, karena memilih faktor sekutu berpangkat terkecil.\"\n\n\n\nEvaluasi B: \"Bentuk $FPB(P,Q)={2}^{4}×{3}^{3}×5$ adalah BENAR, karena mengambil semua faktor berpangkat terbesar.\"\n\n\n\nPenilaian manakah yang benar berdasarkan konsep dasar FPB?\n\n\n\nA. Evaluasi A, karena FPB mensyaratkan perkalian faktor sekutu dengan pangkat terkecil\n\n\n\nB. Evaluasi B, karena FPB harus mencakup seluruh faktor prima yang ada\n\n\n\nC. Evaluasi A, tetapi nilainya harus ditambahkan dengan angka 5\n\n\n\nD. Evaluasi B, karena pangkat terbesar menghasilkan nilai terbesar\n\n\n\nPembahasan:\n\n\n\nMengevaluasi penentuan FPB dari bentuk faktorisasi prima:\n\n\n\n\nFaktor sekutu yang ada pada $P$ dan $Q$ adalah $2$ dan $3$.\n\n\n\nPangkat terkecil untuk faktor $2$ adalah ${2}^{3}$.\n\n\n\nPangkat terkecil untuk faktor $3$ adalah ${3}^{2}$.\n\n\n\n$FPB(P,Q)={2}^{3}×{3}^{2}=8×9=72$\n\n\n\nEvaluasi B sebenarnya memaparkan rumus untuk menentukan KPK, bukan FPB. Maka, Evaluasi A adalah yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa tertukar antara definisi FPB dan KPK, mengira FPB dihitung dengan mengambil pangkat terbesar dari seluruh faktor.\n\n",
+    "original_explanation": "Pembahasan:\nMengevaluasi penentuan FPB dari bentuk faktorisasi prima:\nFaktor sekutu yang ada pada $P$ dan $Q$ adalah $2$ dan $3$.\nPangkat terkecil untuk faktor $2$ adalah ${2}^{3}$.\nPangkat terkecil untuk faktor $3$ adalah ${3}^{2}$.\n$FPB(P,Q)={2}^{3}×{3}^{2}=8×9=72$\nEvaluasi B sebenarnya memaparkan rumus untuk menentukan KPK, bukan FPB. Maka, Evaluasi A adalah yang tepat.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi penentuan FPB dari bentuk faktorisasi prima:\nFaktor sekutu yang ada pada $P$ dan $Q$ adalah $2$ dan $3$.\nPangkat terkecil untuk faktor $2$ adalah ${2}^{3}$.\nPangkat terkecil untuk faktor $3$ adalah ${3}^{2}$.\n$FPB(P,Q)={2}^{3}×{3}^{2}=8×9=72$\nEvaluasi B sebenarnya memaparkan rumus untuk menentukan KPK, bukan FPB. Maka, Evaluasi A adalah yang tepat.",
+    "source_original_key": [
+      "A"
+    ],
+    "source_key_caption": "A. Evaluasi A",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar antara definisi FPB dan KPK, mengira FPB dihitung dengan mengambil pangkat terbesar dari seluruh faktor.",
+    "proposed_key_caption": "A. Evaluasi A",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar antara definisi FPB dan KPK, mengira FPB dihitung dengan mengambil pangkat terbesar dari seluruh faktor.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-4-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7830,
+      "paragraph_end": 7870,
+      "body_block_start": 7439,
+      "body_block_end_exclusive": 7480
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q3:O1:original",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A. Penilaian I\n\n\n\nSeorang pengurus OSIS menguji dua alternatif cara pembagian $144$ buku tulis dan $180$ pulpen untuk paket bingkisan peserta lomba tanpa tersisa:\n\n\n\nAlternatif I: Dibuat $36$ bingkisan, masing-masing berisi $4$ buku tulis dan $5$ pulpen.\n\n\n\nAlternatif II: Dibuat $72$ bingkisan, masing-masing berisi $2$ buku tulis dan $2,5$ pulpen.\n\n\n\nManakah penilaian yang pasti benar mengenai kelayakan kedua alternatif tersebut?\n\n\n\nA. Alternatif I layak dan valid, karena $36$ adalah $FPB(144,180)$ dan menghasilkan kuantitas barang bernilai bulat utuh\n\n\n\nB. Alternatif II lebih layak, karena menghasilkan jumlah bingkisan yang lebih banyak\n\n\n\nC. Alternatif I tidak layak, karena jumlah pulpen lebih banyak daripada buku tulis\n\n\n\nD. Alternatif II layak, karena angka $72$ habis membagi $144$\n\n\n\nPembahasan:\n\n\n\nMengevaluasi FPB dari $144$ dan $180$:\n\n\n\n$144={2}^{4}×{3}^{2}$\n\n\n\n$180={2}^{2}×{3}^{2}×5$\n\n\n\n$FPB(144,180)={2}^{2}×{3}^{2}=4×9=36$ bingkisan.\n\n\n\nMengevaluasi jumlah barang per bingkisan pada Alternatif I:\n\n\nBuku tulis = $144÷36=4$ buah.\n\n\n\nPulpen = $180÷36=5$ buah.\n\n\n\nAlternatif II menghasilkan $2,5$ pulpen yang secara fisik tidak mungkin dibagikan secara utuh. Maka, Penilaian I adalah yang benar.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru menganggap pembagi yang lebih besar (72) selalu menjadi FPB tanpa menguji keutuhan bilangan bulat dari hasil pembagian semua komponen barang.\n\n",
+    "original_explanation": "Pembahasan:\nMengevaluasi FPB dari $144$ dan $180$:\n$144={2}^{4}×{3}^{2}$\n$180={2}^{2}×{3}^{2}×5$\n$FPB(144,180)={2}^{2}×{3}^{2}=4×9=36$ bingkisan.\nMengevaluasi jumlah barang per bingkisan pada Alternatif I:\nBuku tulis = $144÷36=4$ buah.\nPulpen = $180÷36=5$ buah.\nAlternatif II menghasilkan $2,5$ pulpen yang secara fisik tidak mungkin dibagikan secara utuh. Maka, Penilaian I adalah yang benar.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi FPB dari $144$ dan $180$:\n$144={2}^{4}×{3}^{2}$\n$180={2}^{2}×{3}^{2}×5$\n$FPB(144,180)={2}^{2}×{3}^{2}=4×9=36$ bingkisan.\nMengevaluasi jumlah barang per bingkisan pada Alternatif I:\nBuku tulis = $144÷36=4$ buah.\nPulpen = $180÷36=5$ buah.\nAlternatif II menghasilkan $2,5$ pulpen yang secara fisik tidak mungkin dibagikan secara utuh. Maka, Penilaian I adalah yang benar.",
+    "source_original_key": [
+      "A"
+    ],
+    "source_key_caption": "A. Penilaian I",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menganggap pembagi yang lebih besar (72) selalu menjadi FPB tanpa menguji keutuhan bilangan bulat dari hasil pembagian semua komponen barang.",
+    "proposed_key_caption": "A. Penilaian I",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menganggap pembagi yang lebih besar (72) selalu menjadi FPB tanpa menguji keutuhan bilangan bulat dari hasil pembagian semua komponen barang.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-5-4-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9320,
+      "paragraph_end": 9351,
+      "body_block_start": 8769,
+      "body_block_end_exclusive": 8801
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q2:O1:original",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: C. $1:300$\n\n\n\nSeorang siswa menggambar ulang peta denah lapangan olahraga sekolah. Pada denah asli bertuliskan skala $1:600$, panjang lapangan terukur $5cm$. Siswa tersebut ingin menggambar ulang denah pada kertas berukuran lebih besar sehingga panjang lapangan menjadi $10cm$.\n\n\n\nBerapakah skala baru pada denah pengganti tersebut?\n\n\n\nA. $1:1.200$\n\n\n\nB. $1:600$\n\n\n\nC. $1:300$\n\n\n\nD. $1:150$\n\n\n\nPembahasan:\n\n\n\nHitung panjang lapangan sebenarnya ($S$):\n\n\n\n$S=5 cm×600=3.000 cm=30 meter$\n\n\n\nMenganalisis skala baru ($Skala Baru$) dengan panjang gambar baru $10 cm$:\n\n\n\n$Skala Baru=\\frac{Panjang Gambar Baru}{Panjang Sebenarnya}=\\frac{10 cm}{3.000 cm}=\\frac{1}{300}$\n\n\n\nJadi, skala baru denah tersebut adalah $1:300$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengalikan angka skala dengan 2 ($600×2=1.200$) sehingga mendapatkan skala $1:1.200$, padahal gambar yang diperbesar 2 kali membuat nilai pembanding skala menjadi setengahnya ($600÷2=300$).\n\n",
+    "original_explanation": "Pembahasan:\nHitung panjang lapangan sebenarnya ($S$):\n$S=5 cm×600=3.000 cm=30 meter$\nMenganalisis skala baru ($Skala Baru$) dengan panjang gambar baru $10 cm$:\n$Skala Baru=\\frac{Panjang Gambar Baru}{Panjang Sebenarnya}=\\frac{10 cm}{3.000 cm}=\\frac{1}{300}$\nJadi, skala baru denah tersebut adalah $1:300$.",
+    "source_original_explanation": "Pembahasan:\nHitung panjang lapangan sebenarnya ($S$):\n$S=5 cm×600=3.000 cm=30 meter$\nMenganalisis skala baru ($Skala Baru$) dengan panjang gambar baru $10 cm$:\n$Skala Baru=\\frac{Panjang Gambar Baru}{Panjang Sebenarnya}=\\frac{10 cm}{3.000 cm}=\\frac{1}{300}$\nJadi, skala baru denah tersebut adalah $1:300$.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. $1:300$",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengalikan angka skala dengan 2 ($600×2=1.200$) sehingga mendapatkan skala $1:1.200$, padahal gambar yang diperbesar 2 kali membuat nilai pembanding skala menjadi setengahnya ($600÷2=300$).",
+    "proposed_key_caption": "C. $1:300$",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengalikan angka skala dengan 2 ($600×2=1.200$) sehingga mendapatkan skala $1:1.200$, padahal gambar yang diperbesar 2 kali membuat nilai pembanding skala menjadi setengahnya ($600÷2=300$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-5-4-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9390,
+      "paragraph_end": 9434,
+      "body_block_start": 8839,
+      "body_block_end_exclusive": 8884
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q4:O1:original",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi B\n\n\n\nSeorang pengurus koperasi sekolah mengevaluasi dua penawaran harga pulpen grosir dari dua penyedia toko alat tulis:\n\n\n\nToko Maju: Menjual $1$ pak berisi $12$ pulpen seharga Rp42.000,00.\n\n\n\nToko Jaya: Menjual $1$ pak berisi $20$ pulpen seharga Rp66.000,00.\n\n\n\nDua siswa memberikan lembar evaluasi kelayakan pembelian:\n\n\n\nEvaluasi A: \"Toko Maju lebih hemat karena total harga per paknya (Rp42.000,00) lebih murah daripada Toko Jaya (Rp66.000,00).\"\n\n\n\nEvaluasi B: \"Toko Jaya lebih hemat karena menawarkan harga per unit sebesar Rp3.300,00/pulpen, sedangkan Toko Maju adalah Rp3.500,00/pulpen (hemat Rp200,00/pulpen).\"\n\n\n\nManakah evaluasi yang pasti benar?\n\n\n\nA. Evaluasi A\n\n\n\nB. Evaluasi B\n\n\n\nC. Kedua evaluasi salah\n\n\n\nD. Toko Maju dan Toko Jaya menawarkan harga per unit yang ekuivalen\n\n\n\nPembahasan:\n\n\n\nHitung harga per pulpen Toko Maju:\n\n\n\n$Harga Toko Maju=\\frac{Rp42.000,00}{12 pulpen}=Rp3.500,00/pulpen$\n\n\n\nHitung harga per pulpen Toko Jaya:\n\n\n\n$Harga TokoJaya=\\frac{Rp66.000,00}{20 pulpen}=Rp3.300,00/pulpen$\n\n\n\nMengevaluasi selisih harga per unit:\n\n\n\n$Rp3.500,00-Rp3.300,00=Rp200,00/pulpen$\n\n\nMaka, Evaluasi B adalah yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa memilih Evaluasi A karena hanya membandingkan total harga keseluruhan per pak tanpa menguji laju harga per unit (harga satuan) barang.\n\n",
+    "original_explanation": "Pembahasan:\nHitung harga per pulpen Toko Maju:\n$Harga Toko Maju=\\frac{Rp42.000,00}{12 pulpen}=Rp3.500,00/pulpen$\nHitung harga per pulpen Toko Jaya:\n$Harga TokoJaya=\\frac{Rp66.000,00}{20 pulpen}=Rp3.300,00/pulpen$\nMengevaluasi selisih harga per unit:\n$Rp3.500,00-Rp3.300,00=Rp200,00/pulpen$\nMaka, Evaluasi B adalah yang tepat.",
+    "source_original_explanation": "Pembahasan:\nHitung harga per pulpen Toko Maju:\n$Harga Toko Maju=\\frac{Rp42.000,00}{12 pulpen}=Rp3.500,00/pulpen$\nHitung harga per pulpen Toko Jaya:\n$Harga TokoJaya=\\frac{Rp66.000,00}{20 pulpen}=Rp3.300,00/pulpen$\nMengevaluasi selisih harga per unit:\n$Rp3.500,00-Rp3.300,00=Rp200,00/pulpen$\nMaka, Evaluasi B adalah yang tepat.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena hanya membandingkan total harga keseluruhan per pak tanpa menguji laju harga per unit (harga satuan) barang.",
+    "proposed_key_caption": "B. Evaluasi B",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena hanya membandingkan total harga keseluruhan per pak tanpa menguji laju harga per unit (harga satuan) barang.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-5-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9435,
+      "paragraph_end": 9484,
+      "body_block_start": 8884,
+      "body_block_end_exclusive": 8925
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi III\n\n\n\nTabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim konveksi dan banyak seragam pramuka yang selesai dijahit:\n\n\n\n<!-- table-048 -->\n<table>\n<tr><td>Waktu Kerja (jam)</td><td>Seragam Selesai (stel)</td></tr>\n<tr><td>$2$</td><td>$16$</td></tr>\n<tr><td>$5$</td><td>$40$</td></tr>\n<tr><td>$7$</td><td>$56$</td></tr>\n<tr><td>$t$</td><td>$72$</td></tr>\n</table>\n\nSeorang siswa menyusun evaluasi waktu kerja $t$ untuk menghasilkan $72 stel$ seragam:\n\n\n\nEvaluasi I: \"$t=10jam$, karena dari $56$ ke $72$ bertambah $16 stel$ sehingga jam kerja bertambah $3 jam$ ($7+3=10$).\"\n\n\n\nEvaluasi II: \"$t=8 jam$, karena dihitung dari $72÷8=9 stel/jam$.\"\n\n\n\nEvaluasi III: \"$t=9jam$, karena konstanta laju penjahitan adalah $8stel/jam$ ($\\frac{16}{2}=\\frac{40}{5}=\\frac{56}{7}=8$), sehingga $t=\\frac{72}{8}=9 jam$.\"\n\n\n\nEvaluasi manakah yang benar berdasarkan analisis hubungan proporsional tabel?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi I dan II\n\n\n\nPembahasan:\n\n\n\nMengevaluasi laju penjahitan konstan (konstanta proporsionalitas):\n\n\n\n$Laju=\\frac{16}{2}=\\frac{40}{5}=\\frac{56}{7}=8stel/jam$\n\n\n\nHitung waktu $t$ untuk $72stel$ seragam:\n\n\n\n$t=\\frac{72stel}{8stel/jam}=9jam$\n\n\n\nMaka, Evaluasi III adalah yang memuat analisis paling tepat dan logis.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah memprediksi selisih linier tak konstan seperti pada Evaluasi I tanpa menguji rasio konstantanya terlebih dahulu.\n\n",
+    "original_explanation": "Pembahasan:\nMengevaluasi laju penjahitan konstan (konstanta proporsionalitas):\n$Laju=\\frac{16}{2}=\\frac{40}{5}=\\frac{56}{7}=8stel/jam$\nHitung waktu $t$ untuk $72stel$ seragam:\n$t=\\frac{72stel}{8stel/jam}=9jam$\nMaka, Evaluasi III adalah yang memuat analisis paling tepat dan logis.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi laju penjahitan konstan (konstanta proporsionalitas):\n$Laju=\\frac{16}{2}=\\frac{40}{5}=\\frac{56}{7}=8stel/jam$\nHitung waktu $t$ untuk $72stel$ seragam:\n$t=\\frac{72stel}{8stel/jam}=9jam$\nMaka, Evaluasi III adalah yang memuat analisis paling tepat dan logis.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi III",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah memprediksi selisih linier tak konstan seperti pada Evaluasi I tanpa menguji rasio konstantanya terlebih dahulu.",
+    "proposed_key_caption": "C. Evaluasi III",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah memprediksi selisih linier tak konstan seperti pada Evaluasi I tanpa menguji rasio konstantanya terlebih dahulu.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-5-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9519,
+      "paragraph_end": 9548,
+      "body_block_start": 8959,
+      "body_block_end_exclusive": 8989
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nSebuah denah aula pertemuan sekolah digambar dengan skala $1:250$. Pada denah, aula berbentuk persegi panjang memiliki ukuran panjang $14cm$ dan lebar $8cm$. Dua siswa mengevaluasi ukuran sebenarnya aula tersebut.\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Panjang aula sebenarnya adalah $35 meter$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Lebar aula sebenarnya adalah $20 meter$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Luas aula sebenarnya adalah $280 {m}^{2}$\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Luas aula sebenarnya adalah $700 {m}^{2}$\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nA (Benar): $Panjang Sebenarnya=14 cm×250=3.500cm=35m$.\n\n\n\nB (Benar): $Lebar Sebenarnya=8 cm×250=2.000cm=20m$.\n\n\n\nC (Salah): Luas sebenarnya dihitung dari $35 m×20 m=700{ m}^{2}$ (bukan $280{ m}^{2}$).\n\n\n\nD (Benar): $Luas Sebenarnya=35m×20m=700 {m}^{2}$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengalikan luas gambar ($112 c{m}^{2}$) langsung dengan skala $250→28.000 c{m}^{2}=2,8{m}^{2}$ atau $280 {m}^{2}$, alih-alih mengalikan dimensi panjang dan lebar sebenarnya.\n\n",
+    "original_explanation": "Pembahasan:\nA (Benar): $Panjang Sebenarnya=14 cm×250=3.500cm=35m$.\nB (Benar): $Lebar Sebenarnya=8 cm×250=2.000cm=20m$.\nC (Salah): Luas sebenarnya dihitung dari $35 m×20 m=700{ m}^{2}$ (bukan $280{ m}^{2}$).\nD (Benar): $Luas Sebenarnya=35m×20m=700 {m}^{2}$.",
+    "source_original_explanation": "Pembahasan:\nA (Benar): $Panjang Sebenarnya=14 cm×250=3.500cm=35m$.\nB (Benar): $Lebar Sebenarnya=8 cm×250=2.000cm=20m$.\nC (Salah): Luas sebenarnya dihitung dari $35 m×20 m=700{ m}^{2}$ (bukan $280{ m}^{2}$).\nD (Benar): $Luas Sebenarnya=35m×20m=700 {m}^{2}$.",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengalikan luas gambar ($112 c{m}^{2}$) langsung dengan skala $250→28.000 c{m}^{2}=2,8{m}^{2}$ atau $280 {m}^{2}$, alih-alih mengalikan dimensi panjang dan lebar sebenarnya.",
+    "proposed_key_caption": "A, B, dan D",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengalikan luas gambar ($112 c{m}^{2}$) langsung dengan skala $250→28.000 c{m}^{2}=2,8{m}^{2}$ atau $280 {m}^{2}$, alih-alih mengalikan dimensi panjang dan lebar sebenarnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-5-4-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9549,
+      "paragraph_end": 9582,
+      "body_block_start": 8989,
+      "body_block_end_exclusive": 9023
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q8:O1:original",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nDua sepeda motor K dan L melakukan perjalanan dari sekolah menuju kompleks tempat berkemah:\n\n\n\nSepeda Motor K menempuh jarak $120km$ dalam waktu $2 jam$.\n\n\n\nSepeda Motor L menempuh jarak $135 km$ dalam waktu $2,25 jam$ ($2 jam 15 menit$).\n\n\n\nSeorang siswa mengevaluasi laju kecepatan rata-rata kedua sepeda motor tersebut. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Kecepatan rata-rata Sepeda Motor K adalah $50 km/jam$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Kecepatan rata-rata Sepeda Motor K adalah $60 km/jam$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Kecepatan rata-rata Sepeda Motor L adalah $60 km/jam$\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Sepeda Motor L melaju lebih cepat daripada Sepeda Motor K\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nHitung laju kecepatan masing-masing sepeda motor ($v=\\frac{s}{t}$):\n\n\n\nMotor K: ${v}_{K}=\\frac{120 km}{2 jam}=60km/jam$ (Pernyataan A Salah, B Benar).\n\n\n\nMotor L: ${v}_{L}=\\frac{135 km}{2,25 jam}=60km/jam$ (Pernyataan C Benar).\n\n\n\nKarena $60 km/jam=60 km/jam$, maka kedua sepeda motor melaju dengan kecepatan rata-rata yang sama/ekuivalen (Pernyataan D Salah).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira Sepeda Motor L lebih cepat hanya melihat jarak tempuhnya yang lebih jauh ($135 km>120 km$) tanpa membaginya dengan total durasi waktu tempuhnya.\n\n",
+    "original_explanation": "Pembahasan:\nHitung laju kecepatan masing-masing sepeda motor ($v=\\frac{s}{t}$):\nMotor K: ${v}_{K}=\\frac{120 km}{2 jam}=60km/jam$ (Pernyataan A Salah, B Benar).\nMotor L: ${v}_{L}=\\frac{135 km}{2,25 jam}=60km/jam$ (Pernyataan C Benar).\nKarena $60 km/jam=60 km/jam$, maka kedua sepeda motor melaju dengan kecepatan rata-rata yang sama/ekuivalen (Pernyataan D Salah).",
+    "source_original_explanation": "Pembahasan:\nHitung laju kecepatan masing-masing sepeda motor ($v=\\frac{s}{t}$):\nMotor K: ${v}_{K}=\\frac{120 km}{2 jam}=60km/jam$ (Pernyataan A Salah, B Benar).\nMotor L: ${v}_{L}=\\frac{135 km}{2,25 jam}=60km/jam$ (Pernyataan C Benar).\nKarena $60 km/jam=60 km/jam$, maka kedua sepeda motor melaju dengan kecepatan rata-rata yang sama/ekuivalen (Pernyataan D Salah).",
+    "source_original_key": [
+      "B",
+      "C"
+    ],
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira Sepeda Motor L lebih cepat hanya melihat jarak tempuhnya yang lebih jauh ($135 km>120 km$) tanpa membaginya dengan total durasi waktu tempuhnya.",
+    "proposed_key_caption": "B dan C",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira Sepeda Motor L lebih cepat hanya melihat jarak tempuhnya yang lebih jauh ($135 km>120 km$) tanpa membaginya dengan total durasi waktu tempuhnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-5-5-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9721,
+      "paragraph_end": 9760,
+      "body_block_start": 9126,
+      "body_block_end_exclusive": 9166
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q2:O1:original",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi III\n\n\n\nSeorang siswa mengevaluasi keakuratan penggambaran ulang denah panggung seni sekolah. Pada denah awal bertuliskan skala $1:400$, lebar panggung terukur $6cm$. Siswa tersebut membuat denah baru dengan lebar panggung menjadi $12cm$.\n\n\n\nTiga siswa memberikan penilaian mengenai nilai skala baru denah tersebut:\n\n\n\nEvaluasi I: \"Skala baru adalah $1:800$, karena nilai pembanding skala dikalikan dua ($400×2=800$).\"\n\n\n\nEvaluasi II: \"Skala baru tetap $1:400$, karena ukuran panggung sebenarnya tidak berubah.\"\n\n\n\nEvaluasi III: \"Skala baru adalah $1:200$, karena ukuran gambar yang diperbesar dua kali lipat membuat faktor pemecah skala berkurang menjadi setengahnya ($400÷2=200$).\"\n\n\n\nEvaluasi manakah yang benar secara matematis?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi I dan II\n\n\n\nPembahasan:\n\n\n\nHitung lebar panggung sebenarnya ($L$):\n\n\n\n$L=6 cm×400=2.400 cm=24 meter$\n\n\n\nMengevaluasi skala baru dengan lebar gambar $12cm$:\n\n\n\n$Skala Baru=\\frac{Lebar Gambar Baru}{Lebar Sebenarnya}=\\frac{12 cm}{2.400 cm}=\\frac{1}{200}$\n\n\n\n\nMaka, Evaluasi III divalidasi tepat secara kaidah perbandingan skala.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa membenarkan Evaluasi I karena beranggapan jika gambar diperbesar $2$ kali, maka bilangan penyebut skala juga harus dikalikan $2$ ($400×2=800$), padahal nilainya harus dibagi $2$ ($400÷2=200$).\n\n",
+    "original_explanation": "Pembahasan:\nHitung lebar panggung sebenarnya ($L$):\n$L=6 cm×400=2.400 cm=24 meter$\nMengevaluasi skala baru dengan lebar gambar $12cm$:\n$Skala Baru=\\frac{Lebar Gambar Baru}{Lebar Sebenarnya}=\\frac{12 cm}{2.400 cm}=\\frac{1}{200}$\nMaka, Evaluasi III divalidasi tepat secara kaidah perbandingan skala.",
+    "source_original_explanation": "Pembahasan:\nHitung lebar panggung sebenarnya ($L$):\n$L=6 cm×400=2.400 cm=24 meter$\nMengevaluasi skala baru dengan lebar gambar $12cm$:\n$Skala Baru=\\frac{Lebar Gambar Baru}{Lebar Sebenarnya}=\\frac{12 cm}{2.400 cm}=\\frac{1}{200}$\nMaka, Evaluasi III divalidasi tepat secara kaidah perbandingan skala.",
+    "source_original_key": [
+      "C"
+    ],
+    "source_key_caption": "C. Evaluasi III",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi I karena beranggapan jika gambar diperbesar $2$ kali, maka bilangan penyebut skala juga harus dikalikan $2$ ($400×2=800$), padahal nilainya harus dibagi $2$ ($400÷2=200$).",
+    "proposed_key_caption": "C. Evaluasi III",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi I karena beranggapan jika gambar diperbesar $2$ kali, maka bilangan penyebut skala juga harus dikalikan $2$ ($400×2=800$), padahal nilainya harus dibagi $2$ ($400÷2=200$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "pg-5-5-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9852,
+      "paragraph_end": 9902,
+      "body_block_start": 9257,
+      "body_block_end_exclusive": 9299
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q5:O1:original",
+    "source_text": "Soal 5 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi II\n\n\n\nTabel berikut menyajikan data hubungan antara jam operasional mesin sablon dan jumlah kaus yang selesai diproduksi:\n\n\n\n<!-- table-052 -->\n<table>\n<tr><td>Waktu Operasional (jam)</td><td>Kaus Diproduksi (lembar)</td></tr>\n<tr><td>$3$</td><td>$24$</td></tr>\n<tr><td>$6$</td><td>$48$</td></tr>\n<tr><td>$8$</td><td>$64$</td></tr>\n<tr><td>$x$</td><td>$88$</td></tr>\n</table>\n\nTiga siswa memberikan evaluasi untuk menentukan nilai $x$ (waktu yang dibutuhkan untuk mencetak $88$ lembar kaus):\n\n\n\nEvaluasi I: \"$x=10 jam$, karena dari $64$ ke $88$ bertambah $24$ lembar sehingga jam operasional bertambah $2 jam$ ($8+2=10$).\"\n\n\n\nEvaluasi II: \"$x=11 jam$, karena laju konstan produksi adalah $8 lembar/jam$ ($\\frac{24}{3}=\\frac{48}{6}=\\frac{64}{8}=8$), sehingga $x=\\frac{88}{8}=11 jam$.\"\n\n\n\nEvaluasi III: \"$x=12 jam$, karena dihitung dari $88÷7,33≈12$.\"\n\n\n\nHasil evaluasi manakah yang pasti benar secara analisis hubungan proporsional?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi I dan III\n\n\n\nPembahasan:\n\n\n\nMengevaluasi konstanta proporsionalitas (laju produksi per jam):\n\n\n\n$Laju=\\frac{24}{3}=\\frac{48}{6}=\\frac{64}{8}=8 lembar/jam$\n\n\n\nHitung waktu $x$ untuk $88 lembar$ kaus:\n\n\n\n$x=\\frac{88 lembar}{8 lembar/jam}=11 jam$\n\n\n\nMaka, Evaluasi II adalah yang paling tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa memilih Evaluasi I karena menggunakan asumsi pertambahan linier tanpa membagi angka dengan rasio konstantanya.\n\n",
+    "original_explanation": "Pembahasan:\nMengevaluasi konstanta proporsionalitas (laju produksi per jam):\n$Laju=\\frac{24}{3}=\\frac{48}{6}=\\frac{64}{8}=8 lembar/jam$\nHitung waktu $x$ untuk $88 lembar$ kaus:\n$x=\\frac{88 lembar}{8 lembar/jam}=11 jam$\nMaka, Evaluasi II adalah yang paling tepat.",
+    "source_original_explanation": "Pembahasan:\nMengevaluasi konstanta proporsionalitas (laju produksi per jam):\n$Laju=\\frac{24}{3}=\\frac{48}{6}=\\frac{64}{8}=8 lembar/jam$\nHitung waktu $x$ untuk $88 lembar$ kaus:\n$x=\\frac{88 lembar}{8 lembar/jam}=11 jam$\nMaka, Evaluasi II adalah yang paling tepat.",
+    "source_original_key": [
+      "B"
+    ],
+    "source_key_caption": "B. Evaluasi II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi I karena menggunakan asumsi pertambahan linier tanpa membagi angka dengan rasio konstantanya.",
+    "proposed_key_caption": "B. Evaluasi II",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi I karena menggunakan asumsi pertambahan linier tanpa membagi angka dengan rasio konstantanya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-5-5-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9937,
+      "paragraph_end": 9966,
+      "body_block_start": 9333,
+      "body_block_end_exclusive": 9363
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q7:O1:original",
+    "source_text": "Soal 7 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, B, dan D\n\n\n\nSebuah denah ruang serbaguna kompleks sekolah digambar menggunakan skala $1:300$. Pada denah, ruang tersebut berbentuk persegi panjang dengan ukuran panjang $12cm$ dan lebar $8cm$. Dua siswa mengevaluasi dimensi sebenarnya ruang tersebut.\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Panjang ruang serbaguna sebenarnya adalah $36 meter$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Lebar ruang serbaguna sebenarnya adalah $24 meter$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Luas ruang serbaguna sebenarnya adalah $288{ m}^{2}$\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Luas ruang serbaguna sebenarnya adalah $864 {m}^{2}$\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nA (Benar): $Panjang Sebenarnya=12 cm×300=3.600 cm=36 m$.\n\n\n\nB (Benar): $Lebar Sebenarnya=8 cm×300=2.400 cm=24 m$.\n\n\n\nC (Salah): Luas sebenarnya dihitung dari $36 m×24 m=864 {m}^{2}$ (bukan $288 {m}^{2}$).\n\n\n\nD (Benar): $Luas Sebenarnya=36 m×24 m=864{ m}^{2}$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa langsung mengalikan luas gambar ($96 c{m}^{2}$) dengan skala $300→28.800 c{m}^{2}=2,88 {m}^{2}$ atau $288{ m}^{2}$, alih-alih mengalikan dimensi panjang dan lebar sebenarnya.\n\n",
+    "original_explanation": "Pembahasan:\nA (Benar): $Panjang Sebenarnya=12 cm×300=3.600 cm=36 m$.\nB (Benar): $Lebar Sebenarnya=8 cm×300=2.400 cm=24 m$.\nC (Salah): Luas sebenarnya dihitung dari $36 m×24 m=864 {m}^{2}$ (bukan $288 {m}^{2}$).\nD (Benar): $Luas Sebenarnya=36 m×24 m=864{ m}^{2}$.",
+    "source_original_explanation": "Pembahasan:\nA (Benar): $Panjang Sebenarnya=12 cm×300=3.600 cm=36 m$.\nB (Benar): $Lebar Sebenarnya=8 cm×300=2.400 cm=24 m$.\nC (Salah): Luas sebenarnya dihitung dari $36 m×24 m=864 {m}^{2}$ (bukan $288 {m}^{2}$).\nD (Benar): $Luas Sebenarnya=36 m×24 m=864{ m}^{2}$.",
+    "source_original_key": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source_key_caption": "A, B, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa langsung mengalikan luas gambar ($96 c{m}^{2}$) dengan skala $300→28.800 c{m}^{2}=2,88 {m}^{2}$ atau $288{ m}^{2}$, alih-alih mengalikan dimensi panjang dan lebar sebenarnya.",
+    "proposed_key_caption": "A, B, dan D",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa langsung mengalikan luas gambar ($96 c{m}^{2}$) dengan skala $300→28.800 c{m}^{2}=2,88 {m}^{2}$ atau $288{ m}^{2}$, alih-alih mengalikan dimensi panjang dan lebar sebenarnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "mcma-5-5-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9967,
+      "paragraph_end": 10000,
+      "body_block_start": 9363,
+      "body_block_end_exclusive": 9397
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q8:O1:original",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nDua mobil jemputan sekolah P dan Q menempuh rute jalan yang sama dari sekolah menuju lokasi perkemahan:\n\n\n\nMobil P menempuh jarak $140 km$ dalam waktu $2 jam$.\n\n\n\nMobil Q menempuh jarak $175 km$ dalam waktu $2,5 jam$ ($2 jam 30 menit$).\n\n\n\nSeorang siswa mengevaluasi laju kecepatan rata-rata kedua mobil tersebut. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Kecepatan rata-rata Mobil P adalah $60 km/jam$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Kecepatan rata-rata Mobil P adalah $70 km/jam$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Kecepatan rata-rata Mobil Q adalah $70 km/jam$\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Mobil Q melaju lebih cepat daripada Mobil P\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nHitung laju kecepatan masing-masing mobil ($v=\\frac{s}{t}$):\n\n\n\n\nMobil P: ${v}_{P}=\\frac{140 km}{2 jam}=70km/jam$ (Pernyataan A Salah, B Benar).\n\n\n\nMobil Q: ${v}_{Q}=\\frac{175 km}{2,5 jam}=70km/jam$ (Pernyataan C Benar).\n\n\n\nKarena $70km/jam=70km/jam$, maka kedua mobil melaju dengan kecepatan rata-rata yang sama/ekuivalen (Pernyataan D Salah).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\nSiswa mengira Mobil Q lebih cepat hanya melihat jarak tempuhnya yang lebih jauh ($175 km>140 km$) tanpa membaginya dengan total durasi waktu tempuhnya.\n\n",
+    "original_explanation": "Pembahasan:\nHitung laju kecepatan masing-masing mobil ($v=\\frac{s}{t}$):\nMobil P: ${v}_{P}=\\frac{140 km}{2 jam}=70km/jam$ (Pernyataan A Salah, B Benar).\nMobil Q: ${v}_{Q}=\\frac{175 km}{2,5 jam}=70km/jam$ (Pernyataan C Benar).\nKarena $70km/jam=70km/jam$, maka kedua mobil melaju dengan kecepatan rata-rata yang sama/ekuivalen (Pernyataan D Salah).",
+    "source_original_explanation": "Pembahasan:\nHitung laju kecepatan masing-masing mobil ($v=\\frac{s}{t}$):\nMobil P: ${v}_{P}=\\frac{140 km}{2 jam}=70km/jam$ (Pernyataan A Salah, B Benar).\nMobil Q: ${v}_{Q}=\\frac{175 km}{2,5 jam}=70km/jam$ (Pernyataan C Benar).\nKarena $70km/jam=70km/jam$, maka kedua mobil melaju dengan kecepatan rata-rata yang sama/ekuivalen (Pernyataan D Salah).",
+    "source_original_key": [
+      "B",
+      "C"
+    ],
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira Mobil Q lebih cepat hanya melihat jarak tempuhnya yang lebih jauh ($175 km>140 km$) tanpa membaginya dengan total durasi waktu tempuhnya.",
+    "proposed_key_caption": "B dan C",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira Mobil Q lebih cepat hanya melihat jarak tempuhnya yang lebih jauh ($175 km>140 km$) tanpa membaginya dengan total durasi waktu tempuhnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ]
+  },
+  "kategori-5-5-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 10049,
+      "paragraph_end": 10091,
+      "body_block_start": 9431,
+      "body_block_end_exclusive": 9453
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q10:O1:original",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nTabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim percetakan dan banyak majalah dinding sekolah yang selesai dijilid:\n\n\n\n<!-- table-054 -->\n<table>\n<tr><td>Waktu Kerja (jam)</td><td>Majalah Selesai (eksemplar)</td></tr>\n<tr><td>$2$</td><td>$18$</td></tr>\n<tr><td>$5$</td><td>$45$</td></tr>\n<tr><td>$7$</td><td>$63$</td></tr>\n</table>\n\nSeorang siswa mengevaluasi proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-055 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Laju penjilidan majalah tersebut adalah $9 eksemplar/jam$.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Jika tim bekerja selama $10 jam$, maka majalah yang selesai dijilid adalah $90 eksemplar$.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Untuk menyelesaikan $117 eksemplar$ majalah, waktu kerja yang dibutuhkan adalah $15 jam$.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\n(a) BENAR: Laju penjilidan = $\\frac{18}{2}=\\frac{45}{5}=\\frac{63}{7}=9 eksemplar/jam$.\n\n\n\n(b) BENAR: Dalam $10jam$, majalah selesai = $10×9=90 eksemplar$.\n\n\n\n(c) SALAH: Untuk $117 eksemplar$ majalah, waktu yang dibutuhkan = $\\frac{117}{9}=13 jam$ (bukan $15 jam$).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah membagi $117$ dengan angka $7,8$ alih-alih membagi $117$ dengan laju konstantanya yaitu $9 eksemplar/jam$.\n\n",
+    "original_explanation": "Pembahasan:\n(a) BENAR: Laju penjilidan = $\\frac{18}{2}=\\frac{45}{5}=\\frac{63}{7}=9 eksemplar/jam$.\n(b) BENAR: Dalam $10jam$, majalah selesai = $10×9=90 eksemplar$.\n(c) SALAH: Untuk $117 eksemplar$ majalah, waktu yang dibutuhkan = $\\frac{117}{9}=13 jam$ (bukan $15 jam$).",
+    "source_original_explanation": "Pembahasan:\n(a) BENAR: Laju penjilidan = $\\frac{18}{2}=\\frac{45}{5}=\\frac{63}{7}=9 eksemplar/jam$.\n(b) BENAR: Dalam $10jam$, majalah selesai = $10×9=90 eksemplar$.\n(c) SALAH: Untuk $117 eksemplar$ majalah, waktu yang dibutuhkan = $\\frac{117}{9}=13 jam$ (bukan $15 jam$).",
+    "source_original_key": [
+      "1",
+      "2"
+    ],
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membagi $117$ dengan angka $7,8$ alih-alih membagi $117$ dengan laju konstantanya yaitu $9 eksemplar/jam$.",
+    "proposed_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "proposed_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membagi $117$ dengan angka $7,8$ alih-alih membagi $117$ dengan laju konstantanya yaitu $9 eksemplar/jam$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "review_only": false,
+    "source_original_version": 1,
+    "batch": "2026-10-20-level45-completion",
+    "notes": [
+      "Nomor dan posisi sumber dipertahankan. Tidak ada publikasi database.",
+      "Generator lokal, bukan approval kesetaraan kesulitan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  }
+}

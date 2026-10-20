@@ -1,0 +1,196 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-1-4-4,PG,C5,"Dua orang siswa memberikan evaluasi terhadap klaim kuis sifat-sifat operasi pada himpunan bilangan real $R$:
+Klaim Kuis: ""Operasi pengurangan pada bilangan real bersifat komutatif, yaitu $a-b=b-a$ untuk setiap $a,b∈R$.""
+Dua siswa memberikan evaluasi berikut:
+Evaluasi I: ""Klaim tersebut BENAR, karena $5-3=2$ dan $3-5=2$.""
+Evaluasi II: ""Klaim tersebut SALAH, karena dengan contoh penyangkal (counterexample) $5-3=2$ sedangkan $3-5=-2$, di mana $2≠-2$.""
+Hasil evaluasi manakah yang pasti benar?","[""Evaluasi I"", ""Evaluasi II"", ""Kedua evaluasi salah"", ""Evaluasi I benar untuk bilangan positif saja""]",B,1
+pg-1-4-5,PG,C5,"Tiga buah lokasi titik elevasi pengerukan tanah taman sekolah diukur posisinya terhadap permukaan tanah netral ($0m$):
+Titik P: $-\frac{5}{2}m$
+Titik Q: $-\sqrt{6}m$
+Titik R: $-2,4m$
+Seorang siswa menilai kedudukan ketiga titik tersebut pada garis bilangan:
+Penilaian I: Titik R di antara Titik P dan Titik Q.
+Penilaian II: Titik P terletak di sebelah kanan Titik Q.
+Penilaian III: Titik Q terletak di antara Titik R ($-2,4m$) dan Titik P ($-2,5m$).
+Penilaian manakah yang benar berdasarkan analisis garis bilangan?","[""Penilaian I"", ""Penilaian II"", ""Penilaian III"", ""Penilaian I dan II""]",C,1
+mcma-1-4-7,MCMA,C5,"Seorang pengurus kas OSIS mengevaluasi dua rumus perhitungan sisa dana kas:
+Model 1: $(600.000-150.000)-50.000=450.000-50.000=400.000$
+Model 2: $600.000-(150.000-50.000)=600.000-100.000=500.000$
+Manakah evaluasi matematika berikut yang benar untuk menjelaskan perbedaan hasil di atas? (Jawaban benar dapat lebih dari satu)","[""Perbedaan hasil tersebut membuktikan bahwa operasi pengurangan tidak memenuhi sifat asosiatif."", ""Letak tanda kurung mempengaruhi urutan pengerjaan dan hasil akhir perhitungan pengurangan."", ""Model 2 menghasilkan nilai yang benar untuk menggambarkan total sisa kas dari dua kali pengeluaran."", ""Agar Model 2 bernilai sama dengan Model 1, bentuknya harus diubah menjadi $600.000-(150.000+50.000)$.""]","A,B,D",1
+mcma-1-4-8,MCMA,C5,"Diberikan empat buah bilangan real $K,L,M,$ dan $N$:
+$K=-2$
+$L=\sqrt{3}$
+$M=\frac{4}{3}$
+$N=0$
+Manakah hasil evaluasi pernyataan gabungan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Hasil perkalian $K×L$ (yaitu $-2\\sqrt{3}$) merupakan bilangan rasional."", ""Hasil perkalian $L×L$ (yaitu $\\sqrt{3}×\\sqrt{3}=3$) tergolong bilangan bulat/rasional."", ""Hasil pembagian $\\frac{M}{N}$ ($\\frac{4/3}{0}$) bernilai nol dalam himpunan bilangan real."", ""Hasil penjumlahan $K+M$ (yaitu $-2+\\frac{4}{3}=-\\frac{2}{3}$) tergolong bilangan rasional.""]","B,D",1
+kategori-1-4-10,KATEGORI,C5,"Seorang tim peneliti matematika sekolah mengevaluasi tiga buah hipotesis mengenai struktur himpunan bilangan real $R$:
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi hipotesis berikut!","[""Jika $a$ adalah bilangan rasional bukan nol dan $b$ adalah bilangan irasional, maka hasil kali $a×b$ pasti berupa bilangan irasional."", ""Himpunan bilangan bulat $Z$ merupakan himpunan bagian (subset) dari himpunan bilangan rasional $Q$."", ""Terdapat setidaknya satu bilangan real yang dapat tergolong sebagai bilangan rasional sekaligus bilangan irasional.""]","1,2",1
+pg-1-5-3,PG,C5,"Sebuah panitia sekolah mengevaluasi penulisan bentuk aljabar untuk menghitung total pengadaan $25$ paket sembako. Setiap paket berisi $1kg$ beras seharga Rp15.000,00 dan $1kg$ gula pasir seharga Rp12.000,00.
+Dua usulan penyederhanaan rumus diajukan dengan memanfaatkan Sifat Distributif perkalian terhadap penjumlahan:
+Usulan I: Total = $25×(15.000+12.000)=25×27.000=675.000$
+Usulan II: Total = $(25+15.000)×(25+12.000)=15.025×12.025=180.675.625$
+Manakah hasil evaluasi yang benar mengenai keabsahan kedua usulan rumus tersebut?","[""Usulan I benar, karena menerapkan sifat distributif $a⋅b+a⋅c=a(b+c)$ secara tepat"", ""Usulan II benar, karena mengalikan suku-suku yang ditambahkan"", ""Usulan I dan Usulan II sama-sama salah"", ""Usulan II lebih hemat dalam operasi perkalian""]",A,1
+pg-1-5-4,PG,C5,"Dua orang siswa mengevaluasi klaim kuis mengenai berlakunya sifat-sifat operasi pada himpunan bilangan real $R$:
+Klaim 1: ""Operasi pembagian pada bilangan real bersifat asosiatif, yaitu $(a÷b)÷c=a÷(b÷c)$ untuk setiap $a,b,c∈R$ dengan $b,c≠0$.""
+Klaim 2: ""Operasi perkalian pada bilangan real bersifat asosiatif, yaitu $(a×b)×c=a×(b×c)$ untuk setiap $a,b,c∈R$.""
+Manakah evaluasi yang benar mengenai kedua klaim tersebut?","[""Klaim 1 dan Klaim 2 keduanya BENAR"", ""Klaim 1 BENAR dan Klaim 2 SALAH"", ""Klaim 1 SALAH dan Klaim 2 BENAR"", ""Klaim 1 dan Klaim 2 keduanya SALAH""]",C,1
+mcma-1-5-8,MCMA,C5,"Diberikan empat buah bilangan real $A,B,C,$ dan $D$:
+$A=-5$
+$B=\sqrt{7}$
+$C=\frac{3}{5}$
+$D=0$
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Hasil perkalian $A×B$ (yaitu $-5\\sqrt{7}$) tergolong bilangan rasional."", ""Hasil perkalian $B×B$ (yaitu $\\sqrt{7}×\\sqrt{7}=7$) tergolong bilangan bulat/rasional."", ""Hasil pembagian $\\frac{D}{C}$ ($\\frac{0}{3/5}$) bernilai $0$ yang merupakan bilangan rasional."", ""Hasil pembagian $\\frac{C}{D}$ ($\\frac{3/5}{0}$) bernilai $0$ dalam himpunan bilangan real.""]","B,C",1
+kategori-1-5-10,KATEGORI,C5,"Seorang tim ahli matematika sekolah mengevaluasi tiga buah hipotesis mengenai sifat-sifat himpunan bilangan real $R$:
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi hipotesis berikut!","[""Hasil penjumlahan dua bilangan rasional selalu menghasilkan bilangan rasional (Sifat Tertutup Penjumlahan Rasional)."", ""Himpunan bilangan asli $N$ merupakan himpunan bagian (subset) dari himpunan bilangan bulat $Z$ dan bilangan real $R$."", ""Hasil penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional.""]","1,2",1
+mcma-2-4-7,MCMA,C5,"Seorang siswa mengevaluasi penyederhanaan ekspresi eksponen berikut untuk perhitungan skala peta:
+$Ekspresi:\frac{{a}^{3}⋅{b}^{-2}}{{a}^{-1}⋅{b}^{4}}$
+Manakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Menyederhanakan suku variabel $a$ menghasilkan ${a}^{3-(-1)}={a}^{4}$."", ""Menyederhanakan suku variabel $b$ menghasilkan ${b}^{-2-4}={b}^{-6}=\\frac{1}{{b}^{6}}$."", ""Hasil akhir ekspresi tersebut dalam pangkat positif adalah $\\frac{{a}^{2}}{{b}^{2}}$."", ""Hasil akhir ekspresi tersebut dalam pangkat positif adalah $\\frac{{a}^{4}}{{b}^{6}}$.""]","A,B,D",1
+pg-2-5-3,PG,C5,"Seorang siswa mengevaluasi penyederhanaan nilai daya pancar sinyal pemancar Wi-Fi perpustakaan yang dirumuskan dengan operasi eksponen:
+$Daya Sinyal=\frac{({3}^{2}{)}^{3}×{3}^{-1}}{{3}^{3}}(dalam mW)$
+Dua orang tim teknisi memberikan lembar penilaian:
+Evaluasi A: ""Nilai daya adalah ${3}^{1}=3 mW$, karena $({3}^{2}{)}^{3}={3}^{5}$, sehingga $\frac{{3}^{5}×{3}^{-1}}{{3}^{3}}=\frac{{3}^{4}}{{3}^{3}}={3}^{1}$.""
+Evaluasi B: ""Nilai daya adalah ${3}^{2}=9 mW$, karena $({3}^{2}{)}^{3}={3}^{6}$, sehingga $\frac{{3}^{6}×{3}^{-1}}{{3}^{3}}=\frac{{3}^{5}}{{3}^{3}}={3}^{2}$.""
+Hasil evaluasi manakah yang pasti benar?","[""Evaluasi A, karena pangkat dipangkatkan artinya eksponennya dijumlahkan ($2+3=5$)"", ""Evaluasi B, karena pangkat dipangkatkan artinya eksponennya dikalikan ($2×3=6$)"", ""Evaluasi A, karena hasil akhir $3mW$ lebih kecil sehingga lebih efisien"", ""Evaluasi B, tetapi nilai akhirnya seharusnya $27 mW$""]",B,1
+pg-2-5-4,PG,C5,"Seorang siswa mengevaluasi kebenaran pengerjaan kuis operasi campuran desimal dan pecahan berikut:
+$Soal:6,4:0,8+3×0,5$
+Evaluasi I: ""Hasilnya adalah $9,5$, karena pembagian dan perkalian dikerjakan terlebih dahulu: $(6,4:0,8)+(3×0,5)=8+1,5=9,5$.""
+Evaluasi II: ""Hasilnya adalah $5,5$, karena dikerjakan dari kiri ke kanan: $(6,4:0,8+3)×0,5=(8+3)×0,5=11×0,5=5,5$.""
+Manakah penjelas evaluasi yang pasti benar berdasarkan aturan KABATAKU/PEMDAS?","[""Evaluasi I benar, karena operasi perkalian dan pembagian berderajat lebih tinggi daripada penjumlahan"", ""Evaluasi II benar, karena operasi yang setara harus dikerjakan urut dari kiri"", ""Evaluasi I salah, karena $6,4:0,8=0,8$"", ""Evaluasi II benar, karena penjumlahan di tengah harus dikerjakan lebih dulu""]",A,1
+pg-2-5-5,PG,C5,"Seorang guru meminta siswa mengevaluasi penyederhanaan ekspresi eksponen berikut:
+$Ekspresi:\frac{{2}^{6}×1{6}^{-1}}{{8}^{\frac{2}{3}}}$
+Dua siswa memaparkan langkah penyelesaian:
+Siswa A: Mengubah basis menjadi 2 ⇒$ \frac{{2}^{6}× {2}^{-4}}{{2}^{2}}=\frac{ {2}^{2}}{{2}^{2}}={2}^{0}=1$
+Siswa B: Mengubah basis menjadi 2 ⇒ $\frac{{2}^{6}× ({2}^{4}{)}^{-1}}{{2}^{2}}=\frac{{2}^{6}× {2}^{-4}}{{2}^{2}}=$$\frac{ {2}^{2}}{{2}^{2}}=1$
+Evaluasi manakah yang pasti tepat mengenai keabsahan langkah kedua siswa?","[""Langkah Siswa A salah karena $1{6}^{-1}≠{2}^{-4}$"", ""Langkah Siswa B salah karena $({2}^{3}{)}^{\\frac{2}{3}}≠{2}^{2}$"", ""Langkah Siswa B paling tepat karena menjabarkan konversi basis $16={2}^{4}$ dan $8={2}^{3}$ serta sifat $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara runtut dan jelas"", ""Kedua siswa salah karena hasil akhirnya harus $0$""]",C,1
+mcma-2-5-7,MCMA,C5,"Seorang siswa mengevaluasi penyederhanaan ekspresi aljabar berpangkat berikut untuk skala maket sekolah:
+$Ekspresi:\frac{{x}^{4}⋅{y}^{-3}}{{x}^{-2}⋅{y}^{2}}$
+Manakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Suku variabel $x$ jika disederhanakan menghasilkan ${x}^{4-(-2)}={x}^{6}$."", ""Suku variabel $y$ jika disederhanakan menghasilkan ${y}^{-3-2}={y}^{-5}=\\frac{1}{{y}^{5}}$."", ""Hasil akhir ekspresi tersebut dalam bentuk pangkat positif adalah $\\frac{{x}^{2}}{{y}^{5}}$."", ""Hasil akhir ekspresi tersebut dalam bentuk pangkat positif adalah $\\frac{{x}^{6}}{{y}^{5}}$.""]","A,B,D",1
+pg-3-4-3,PG,C4,"Seorang petugas lab IPA menganalisis kewajaran hasil operasi pembagian desimal untuk konsumsi praktikum:
+$Operasi Riil:\frac{498,6×29,7}{5,1}=\frac{14808,42}{5,1}≈2.903,61$
+Dua siswa menganalisis model estimasi cepat dengan pembulatan ke satuan/puluhan/ratusan terdekat:
+Analisis I: Membulatkan menjadi $\frac{400×30}{5}=\frac{12000}{5}=2.400$
+Analisis II: Membulatkan menjadi $\frac{500×30}{5}=\frac{15000}{5}=3.000$
+Hasil analisis manakah yang memberikan nilai estimasi paling akurat dan mendekati hasil sebenarnya?","[""Analisis I, karena $498,6$ lebih aman dibulatkan ke bawah"", ""Analisis II, karena $500$ sangat dekat dengan $498,6$ sehingga hasil $3.000$ dekat dengan $2.903,61$"", ""Analisis I, karena perkalian $400$ lebih mudah dihitung tanpa alat bantu"", ""Analisis II, karena semua komponen harus dibulatkan ke atas tanpa memperhatikan posisinya""]",B,1
+pg-3-4-4,PG,C5,"Seorang pembina OSIS mengevaluasi dua usulan model estimasi biaya untuk pengadaan $49$ pak kertas gambar seharga Rp19.800,00 per pak:
+Usulan X: Dihitung dengan $40×10.000=400.000$
+Usulan Y: Dihitung dengan $50×20.000=1.000.000$
+Dua siswa memberikan evaluasi kelayakan usulan untuk perencanaan anggaran kas:
+Evaluasi A: ""Usulan X lebih baik karena menghasilkan nilai anggaran yang lebih kecil sehingga menghemat kas OSIS.""
+Evaluasi B: ""Usulan Y lebih layak digunakan sebagai batas atas (upper bound) anggaran, karena Usulan X membulatkan seluruh angka ke bawah sehingga nilai estimasinya (Rp400.000,00) berada jauh di bawah total riil (Rp970.200,00) yang berisiko kekurangan dana.""
+Manakah evaluasi yang pasti benar?","[""Evaluasi A"", ""Evaluasi B"", ""Kedua evaluasi salah"", ""Evaluasi A benar untuk skala kecil""]",B,1
+mcma-3-4-7,MCMA,C5,"Seorang peneliti laboratorium sekolah menganalisis hasil aproksimasi dan pembulatan tiga sampel pita kawat irasional:
+Sampel 1: panjang $=\sqrt{15}cm$
+Sampel 2: panjang $=\sqrt{35}cm$
+Sampel 3: panjang $=\sqrt{80}cm$
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Aproksimasi Sampel 1 ($\\sqrt{15}$) ke persepuluhan terdekat adalah $3,9 cm$\"" adalah BENAR."", ""Pernyataan \""Aproksimasi Sampel 2 ($\\sqrt{35}$) ke persepuluhan terdekat adalah $5,9 cm$\"" adalah BENAR."", ""Pernyataan \""Sampel 3 ($\\sqrt{80}$) jika dibulatkan ke satuan terdekat adalah $8 cm$\"" adalah BENAR."", ""Pernyataan \""Sampel 3 ($\\sqrt{80}$) jika dibulatkan ke satuan terdekat adalah $9 cm$\"" adalah BENAR.""]","A,B,D",1
+mcma-3-4-8,MCMA,C5,"Diberikan dua model estimasi biaya belanja pembekalan kegiatan ekstrakurikuler: ""Membeli 29 unit botol minum seharga Rp14.500,00 per unit dan 19 unit tempat makan seharga Rp9.800,00 per unit.""
+Model I: $(30×15.000)+(20×10.000)=450.000+200.000=650.000$
+Model II: $(20×10.000)+(10×9.000)=200.000+90.000=290.000$
+Manakah evaluasi perbandingan kedua model estimasi yang benar? (Jawaban benar dapat lebih dari satu)","[""Model II menghasilkan nilai estimasi yang lebih aman dan akurat dibanding Model I."", ""Model I menerapkan pembulatan ke atas pada semua komponen sehingga menghasilkan nilai estimasi batas atas (upper bound) sebesar Rp650.000,00."", ""Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model I (Rp650.000,00)."", ""Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model II (Rp290.000,00).""]","B,C",1
+kategori-3-4-10,KATEGORI,C5,"Seorang tim peneliti menganalisis dua ukuran pipa irasional pada instalasi air sekolah:
+$P=\sqrt{22 }meter$
+$Q=\sqrt{68 }meter$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi aproksimasi berikut!","[""Nilai aproksimasi $P$ ($\\sqrt{22}$) jika dibulatkan ke persepuluhan terdekat adalah $4,7 m$."", ""Nilai aproksimasi $Q$ ($\\sqrt{68}$) jika dibulatkan ke satuan terdekat adalah $8 m$."", ""Nilai estimasi total panjang $P+Q$ menggunakan pembulatan ke satuan terdekat dari masing-masing komponen adalah $12m$.""]","1,2",1
+pg-3-5-2,PG,C5,"Dua kabel kawat baja penguat tiang bendera diukur panjangnya secara tidak langsung:
+Kawat X: panjang $=\sqrt{53 }meter$
+Kawat Y: panjang $=\sqrt{54 }meter$
+Dua siswa mengevaluasi hasil aproksimasi panjang kedua kawat tersebut jika dibulatkan hingga satu tempat desimal (persepuluhan terdekat):
+Evaluasi X: ""Kawat X $=7,2m$ dan Kawat Y $=7,3m$.""
+Evaluasi Y: ""Kawat X $=7,3m$ dan Kawat Y $=7,3m$.""
+Evaluasi manakah yang benar berdasarkan uji kuadrat desimal?","[""Evaluasi X, karena $\\sqrt{53}$ dan $\\sqrt{54}$ harus menghasilkan desimal yang berbeda"", ""Evaluasi X, karena $7,{2}^{2}=51,84$ yang lebih dekat ke 53"", ""Evaluasi Y, karena $7,{3}^{2}=53,29$ (paling dekat ke 53) dan $7,{3}^{2}=53,29$ juga paling dekat ke 54"", ""Kedua evaluasi salah, karena nilai keduanya dibulatkan menjadi $7,4m$""]",C,1
+pg-3-5-3,PG,C5,"Seorang pengurus OSIS mengevaluasi dua usulan model estimasi cepat untuk mengecek kewajaran jawaban operasi pembagian biaya konsumsi berikut:
+$Hitungan Riil:\frac{598,2×30,4}{6,1}=\frac{18185,28}{6,1}≈2.981,19$
+Dua model estimasi diajukan:
+Model A: Membulatkan menjadi $\frac{500×30}{6}=\frac{15000}{6}=2.500$
+Model B: Membulatkan menjadi $\frac{600×30}{6}=\frac{18000}{6}=3.000$
+Manakah evaluasi yang pasti benar mengenai kelayakan kedua model estimasi?","[""Model A lebih baik karena membulatkan $598,2$ ke bawah membuat anggaran lebih aman"", ""Model B lebih layak dan akurat, karena $600$ sangat dekat dengan $598,2$ sehingga hasil estimasi ($3.000$) sangat dekat dengan nilai riil ($2.981,19$)"", ""Model A lebih akurat karena angka $500$ lebih mudah dihitung"", ""Kedua model sama-sama tidak layak digunakan""]",B,1
+pg-3-5-4,PG,C5,"Seorang pembina pramuka mengevaluasi dua usulan cara penganggaran pengadaan $39$ paket tali temali seharga Rp24.800,00 per paket:
+Usulan I: Dihitung dengan $30×20.000=600.000$
+Usulan II: Dihitung dengan $40×25.000=1.000.000$
+Dua siswa memberikan evaluasi kelayakan usulan:
+Evaluasi I: ""Usulan I lebih layak karena menghasilkan nilai estimasi yang lebih hemat.""
+Evaluasi II: ""Usulan II lebih layak sebagai batas atas (upper bound) anggaran yang aman, karena Usulan I membulatkan seluruh komponen ke bawah sehingga nilai estimasinya (Rp600.000,00) berada jauh di bawah total riil (Rp967.200,00) yang berisiko kekurangan dana.""
+Manakah evaluasi yang pasti benar?","[""Evaluasi I"", ""Evaluasi II"", ""Kedua evaluasi salah"", ""Evaluasi I benar untuk skala penganggaran kecil""]",B,1
+mcma-3-5-8,MCMA,C5,"Diberikan dua model estimasi biaya belanja pembekalan ekstrakurikuler: ""Membeli 39 unit wadah air seharga Rp19.500,00 per unit dan 19 unit cangkir seharga Rp4.800,00 per unit.""
+Model I: $(40×20.000)+(20×5.000)=800.000+100.000=900.000$
+Model II: $(30×10.000)+(10×4.000)=300.000+40.000=340.000$
+Manakah evaluasi perbandingan kedua model estimasi yang benar? (Jawaban benar dapat lebih dari satu)","[""Model II menghasilkan nilai estimasi yang lebih aman dan akurat dibanding Model I."", ""Model I menerapkan pembulatan ke atas pada semua komponen sehingga menghasilkan nilai estimasi batas atas (upper bound) sebesar Rp900.000,00."", ""Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model I (Rp900.000,00)."", ""Total pembayaran riil dipastikan lebih kecil dari hasil estimasi Model II (Rp340.000,00).""]","B,C",1
+kategori-3-5-10,KATEGORI,C5,"Dua pipa air berbentuk irasional diukur panjangnya pada area taman sekolah:
+$R=\sqrt{27 }meter$
+$S=\sqrt{75} meter$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi aproksimasi berikut!","[""Nilai aproksimasi $R$ ($\\sqrt{27}$) jika dibulatkan ke persepuluhan terdekat adalah $5,2 m$."", ""Nilai aproksimasi $S$ ($\\sqrt{75}$) jika dibulatkan ke satuan terdekat adalah $9 m$."", ""Nilai estimasi total panjang $R+S$ menggunakan pembulatan ke satuan terdekat dari masing-masing komponen adalah $13 m$.""]","1,2",1
+pg-4-4-2,PG,C4,"Diberikan dua bilangan asli $M$ dan $N$ yang dinyatakan dalam bentuk perkalian faktor prima:
+$M={2}^{3}×{3}^{3}×5$
+$N={2}^{2}×{3}^{2}×7$
+Seorang siswa menganalisis bentuk faktorisasi prima dari pembagi persekutuan terbesar (FPB) kedua bilangan tersebut. Bentuk faktorisasi prima dari FPB($M,N$) yang tepat adalah ....","[""${2}^{3}×{3}^{3}$"", ""${2}^{3}×{3}^{3}×5×7$"", ""${2}^{2}×{3}^{2}$"", ""${2}^{2}×3$""]",C,1
+pg-4-4-3,PG,C4,"Panitia pameran sains hendak membagikan $120$ modul praktikum dan $144$ pena sains ke dalam beberapa kantong bingkisan peserta dengan jumlah dan kombinasi isi yang sama tanpa ada sisa.
+Dua anggota panitia mengajukan proposal analisis pembagian:
+Proposal A: Dibuat $24$ kantong, masing-masing berisi $5$ modul praktikum dan $6$ pena sains.
+Proposal B: Dibuat $48$ kantong, masing-masing berisi $2,5$ modul praktikum dan $3$ pena sains.
+Manakah proposal analisis yang benar berdasarkan prinsip matematika dan keterbagian barang?","[""Proposal A, karena FPB dari $120$ dan $144$ adalah $24$ sehingga isi barang bernilai bilangan bulat utuh"", ""Proposal B, karena semakin banyak kantong membuat distribusi semakin merata"", ""Proposal A, karena jumlah pena sains harus lebih sedikit dari modul praktikum"", ""Proposal B, karena $48$ merupakan kelipatan dari $24$""]",A,1
+kategori-4-4-10,KATEGORI,C5,"Dua tali pramuka masing-masing berukuran $90cm$ dan $120cm$ dipotong menjadi beberapa bagian yang sama panjang tanpa sisa. Dua orang siswa mengevaluasi hasil pemotongan tersebut.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Ukuran panjang potongan tali terpanjang yang dapat dibuat adalah $30 cm$."", ""Jumlah seluruh potongan tali yang diperoleh dari kedua tali tersebut adalah $7$ potongan."", ""Jumlah potongan dari tali $120 cm$ adalah dua kali lipat dari jumlah potongan tali $9 0 cm$.""]","1,2",1
+pg-4-5-2,PG,C5,"Diberikan dua buah bilangan berpangkat faktorisasi prima $P={2}^{4}×{3}^{2}$ dan $Q={2}^{3}×{3}^{3}×5$. Dua orang siswa memberikan penilaian mengenai pernyataan bentuk FPB dari kedua bilangan tersebut:
+Evaluasi A: ""Bentuk $FPB(P,Q)={2}^{3}×{3}^{2}$ adalah BENAR, karena memilih faktor sekutu berpangkat terkecil.""
+Evaluasi B: ""Bentuk $FPB(P,Q)={2}^{4}×{3}^{3}×5$ adalah BENAR, karena mengambil semua faktor berpangkat terbesar.""
+Penilaian manakah yang benar berdasarkan konsep dasar FPB?","[""Evaluasi A, karena FPB mensyaratkan perkalian faktor sekutu dengan pangkat terkecil"", ""Evaluasi B, karena FPB harus mencakup seluruh faktor prima yang ada"", ""Evaluasi A, tetapi nilainya harus ditambahkan dengan angka 5"", ""Evaluasi B, karena pangkat terbesar menghasilkan nilai terbesar""]",A,1
+pg-4-5-3,PG,C5,"Seorang pengurus OSIS menguji dua alternatif cara pembagian $144$ buku tulis dan $180$ pulpen untuk paket bingkisan peserta lomba tanpa tersisa:
+Alternatif I: Dibuat $36$ bingkisan, masing-masing berisi $4$ buku tulis dan $5$ pulpen.
+Alternatif II: Dibuat $72$ bingkisan, masing-masing berisi $2$ buku tulis dan $2,5$ pulpen.
+Manakah penilaian yang pasti benar mengenai kelayakan kedua alternatif tersebut?","[""Alternatif I layak dan valid, karena $36$ adalah $FPB(144,180)$ dan menghasilkan kuantitas barang bernilai bulat utuh"", ""Alternatif II lebih layak, karena menghasilkan jumlah bingkisan yang lebih banyak"", ""Alternatif I tidak layak, karena jumlah pulpen lebih banyak daripada buku tulis"", ""Alternatif II layak, karena angka $72$ habis membagi $144$""]",A,1
+pg-5-4-2,PG,C4,"Seorang siswa menggambar ulang peta denah lapangan olahraga sekolah. Pada denah asli bertuliskan skala $1:600$, panjang lapangan terukur $5cm$. Siswa tersebut ingin menggambar ulang denah pada kertas berukuran lebih besar sehingga panjang lapangan menjadi $10cm$.
+Berapakah skala baru pada denah pengganti tersebut?","[""$1:1.200$"", ""$1:600$"", ""$1:300$"", ""$1:150$""]",C,1
+pg-5-4-4,PG,C5,"Seorang pengurus koperasi sekolah mengevaluasi dua penawaran harga pulpen grosir dari dua penyedia toko alat tulis:
+Toko Maju: Menjual $1$ pak berisi $12$ pulpen seharga Rp42.000,00.
+Toko Jaya: Menjual $1$ pak berisi $20$ pulpen seharga Rp66.000,00.
+Dua siswa memberikan lembar evaluasi kelayakan pembelian:
+Evaluasi A: ""Toko Maju lebih hemat karena total harga per paknya (Rp42.000,00) lebih murah daripada Toko Jaya (Rp66.000,00).""
+Evaluasi B: ""Toko Jaya lebih hemat karena menawarkan harga per unit sebesar Rp3.300,00/pulpen, sedangkan Toko Maju adalah Rp3.500,00/pulpen (hemat Rp200,00/pulpen).""
+Manakah evaluasi yang pasti benar?","[""Evaluasi A"", ""Evaluasi B"", ""Kedua evaluasi salah"", ""Toko Maju dan Toko Jaya menawarkan harga per unit yang ekuivalen""]",B,1
+pg-5-4-5,PG,C5,"Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim konveksi dan banyak seragam pramuka yang selesai dijahit:
+Waktu Kerja (jam) | Seragam Selesai (stel)
+$2$ | $16$
+$5$ | $40$
+$7$ | $56$
+$t$ | $72$
+Seorang siswa menyusun evaluasi waktu kerja $t$ untuk menghasilkan $72 stel$ seragam:
+Evaluasi I: ""$t=10jam$, karena dari $56$ ke $72$ bertambah $16 stel$ sehingga jam kerja bertambah $3 jam$ ($7+3=10$).""
+Evaluasi II: ""$t=8 jam$, karena dihitung dari $72÷8=9 stel/jam$.""
+Evaluasi III: ""$t=9jam$, karena konstanta laju penjahitan adalah $8stel/jam$ ($\frac{16}{2}=\frac{40}{5}=\frac{56}{7}=8$), sehingga $t=\frac{72}{8}=9 jam$.""
+Evaluasi manakah yang benar berdasarkan analisis hubungan proporsional tabel?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi I dan II""]",C,1
+mcma-5-4-7,MCMA,C5,"Sebuah denah aula pertemuan sekolah digambar dengan skala $1:250$. Pada denah, aula berbentuk persegi panjang memiliki ukuran panjang $14cm$ dan lebar $8cm$. Dua siswa mengevaluasi ukuran sebenarnya aula tersebut.
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Panjang aula sebenarnya adalah $35 meter$\"" adalah BENAR."", ""Pernyataan \""Lebar aula sebenarnya adalah $20 meter$\"" adalah BENAR."", ""Pernyataan \""Luas aula sebenarnya adalah $280 {m}^{2}$\"" adalah BENAR."", ""Pernyataan \""Luas aula sebenarnya adalah $700 {m}^{2}$\"" adalah BENAR.""]","A,B,D",1
+mcma-5-4-8,MCMA,C5,"Dua sepeda motor K dan L melakukan perjalanan dari sekolah menuju kompleks tempat berkemah:
+Sepeda Motor K menempuh jarak $120km$ dalam waktu $2 jam$.
+Sepeda Motor L menempuh jarak $135 km$ dalam waktu $2,25 jam$ ($2 jam 15 menit$).
+Seorang siswa mengevaluasi laju kecepatan rata-rata kedua sepeda motor tersebut. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Kecepatan rata-rata Sepeda Motor K adalah $50 km/jam$\"" adalah BENAR."", ""Pernyataan \""Kecepatan rata-rata Sepeda Motor K adalah $60 km/jam$\"" adalah BENAR."", ""Pernyataan \""Kecepatan rata-rata Sepeda Motor L adalah $60 km/jam$\"" adalah BENAR."", ""Pernyataan \""Sepeda Motor L melaju lebih cepat daripada Sepeda Motor K\"" adalah BENAR.""]","B,C",1
+pg-5-5-2,PG,C5,"Seorang siswa mengevaluasi keakuratan penggambaran ulang denah panggung seni sekolah. Pada denah awal bertuliskan skala $1:400$, lebar panggung terukur $6cm$. Siswa tersebut membuat denah baru dengan lebar panggung menjadi $12cm$.
+Tiga siswa memberikan penilaian mengenai nilai skala baru denah tersebut:
+Evaluasi I: ""Skala baru adalah $1:800$, karena nilai pembanding skala dikalikan dua ($400×2=800$).""
+Evaluasi II: ""Skala baru tetap $1:400$, karena ukuran panggung sebenarnya tidak berubah.""
+Evaluasi III: ""Skala baru adalah $1:200$, karena ukuran gambar yang diperbesar dua kali lipat membuat faktor pemecah skala berkurang menjadi setengahnya ($400÷2=200$).""
+Evaluasi manakah yang benar secara matematis?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi I dan II""]",C,1
+pg-5-5-5,PG,C5,"Tabel berikut menyajikan data hubungan antara jam operasional mesin sablon dan jumlah kaus yang selesai diproduksi:
+Waktu Operasional (jam) | Kaus Diproduksi (lembar)
+$3$ | $24$
+$6$ | $48$
+$8$ | $64$
+$x$ | $88$
+Tiga siswa memberikan evaluasi untuk menentukan nilai $x$ (waktu yang dibutuhkan untuk mencetak $88$ lembar kaus):
+Evaluasi I: ""$x=10 jam$, karena dari $64$ ke $88$ bertambah $24$ lembar sehingga jam operasional bertambah $2 jam$ ($8+2=10$).""
+Evaluasi II: ""$x=11 jam$, karena laju konstan produksi adalah $8 lembar/jam$ ($\frac{24}{3}=\frac{48}{6}=\frac{64}{8}=8$), sehingga $x=\frac{88}{8}=11 jam$.""
+Evaluasi III: ""$x=12 jam$, karena dihitung dari $88÷7,33≈12$.""
+Hasil evaluasi manakah yang pasti benar secara analisis hubungan proporsional?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi I dan III""]",B,1
+mcma-5-5-7,MCMA,C5,"Sebuah denah ruang serbaguna kompleks sekolah digambar menggunakan skala $1:300$. Pada denah, ruang tersebut berbentuk persegi panjang dengan ukuran panjang $12cm$ dan lebar $8cm$. Dua siswa mengevaluasi dimensi sebenarnya ruang tersebut.
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Panjang ruang serbaguna sebenarnya adalah $36 meter$\"" adalah BENAR."", ""Pernyataan \""Lebar ruang serbaguna sebenarnya adalah $24 meter$\"" adalah BENAR."", ""Pernyataan \""Luas ruang serbaguna sebenarnya adalah $288{ m}^{2}$\"" adalah BENAR."", ""Pernyataan \""Luas ruang serbaguna sebenarnya adalah $864 {m}^{2}$\"" adalah BENAR.""]","A,B,D",1
+mcma-5-5-8,MCMA,C5,"Dua mobil jemputan sekolah P dan Q menempuh rute jalan yang sama dari sekolah menuju lokasi perkemahan:
+Mobil P menempuh jarak $140 km$ dalam waktu $2 jam$.
+Mobil Q menempuh jarak $175 km$ dalam waktu $2,5 jam$ ($2 jam 30 menit$).
+Seorang siswa mengevaluasi laju kecepatan rata-rata kedua mobil tersebut. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Kecepatan rata-rata Mobil P adalah $60 km/jam$\"" adalah BENAR."", ""Pernyataan \""Kecepatan rata-rata Mobil P adalah $70 km/jam$\"" adalah BENAR."", ""Pernyataan \""Kecepatan rata-rata Mobil Q adalah $70 km/jam$\"" adalah BENAR."", ""Pernyataan \""Mobil Q melaju lebih cepat daripada Mobil P\"" adalah BENAR.""]","B,C",1
+kategori-5-5-10,KATEGORI,C5,"Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim percetakan dan banyak majalah dinding sekolah yang selesai dijilid:
+Waktu Kerja (jam) | Majalah Selesai (eksemplar)
+$2$ | $18$
+$5$ | $45$
+$7$ | $63$
+Seorang siswa mengevaluasi proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Laju penjilidan majalah tersebut adalah $9 eksemplar/jam$."", ""Jika tim bekerja selama $10 jam$, maka majalah yang selesai dijilid adalah $90 eksemplar$."", ""Untuk menyelesaikan $117 eksemplar$ majalah, waktu kerja yang dibutuhkan adalah $15 jam$.""]","1,2",1

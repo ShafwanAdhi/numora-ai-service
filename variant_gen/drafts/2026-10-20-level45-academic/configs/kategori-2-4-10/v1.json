@@ -1,0 +1,82 @@
+{
+  "question_id": "kategori-2-4-10",
+  "config_version": 1,
+  "original_hash": "6de5dbcc9fa43157",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'50' if k == 0 else (50*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'900' if k == 0 else (900*(k+1)**2*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:\n$Ekspresi:\\sqrt{{v0}}×\\sqrt{{v1}}:\\sqrt{{v2}}$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Nilai dari $\\sqrt{{v0}}×\\sqrt{{v1}}$ dapat disederhanakan menjadi $\\sqrt{{v3}}={v4}$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Nilai dari penyebut/pembagi $\\sqrt{{v2}}$ adalah ${v5}$.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Hasil akhir dari seluruh ekspresi tersebut adalah ${v6}\\sqrt{2}$.",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nEvaluasi perkalian pembilang\n$\\sqrt{{v0}}×\\sqrt{{v1}}=\\sqrt{{v0}×{v1}}=\\sqrt{{v3}}={v4}$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{{v2}}={v5}$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n${v4}:{v5}={v6}$\nHasil akhirnya adalah bilangan bulat ${v6}$, bukan ${v6}\\sqrt{2}$ (Pernyataan (c) SALAH).",
+  "shuffle": false,
+  "max_draws": 1000
+}

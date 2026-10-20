@@ -1,0 +1,97 @@
+{
+  "question_id": "pg-16-5-4",
+  "config_version": 1,
+  "original_hash": "c947bb34daf0ee0d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'412' if k == 0 else ((412)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else ((12)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else ((8)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'4,5' if k == 0 else (9/2*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'5,5' if k == 0 else (11/2*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'6,5' if k == 0 else (13/2*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'7,5' if k == 0 else (15/2*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5.5*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah jaring-jaring balok terdiri dari 6 buah persegi panjang. Jika luas total jaring-jaring balok tersebut adalah ${v0}c{m}^{2}$ dan diketahui panjang balok ${v1}cm$ serta lebarnya ${v2}cm$, evaluasilah tinggi balok tersebut!",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v3} cm",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v4} cm",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v5} cm",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v6} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v7}. L=2(pl+pt+lt). Tinggi = (L/2-pl)/(p+l) = {v7} cm. Hanya opsi B memenuhi persamaan luas permukaan.",
+  "shuffle": false,
+  "max_draws": 1000
+}

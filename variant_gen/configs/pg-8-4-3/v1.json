@@ -1,0 +1,63 @@
+{
+  "question_id": "pg-8-4-3",
+  "config_version": 1,
+  "original_hash": "6c28644b8c00cbae",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else (14+5*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "-3-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus perpustakaan sekolah menganalisis batasan nilai $x$ dari pertidaksamaan aljabar berikut:\n$5-2(x+3)≥3x+{v0}$\nHimpunan penyelesaian untuk $x$ anggota bilangan bulat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "$x≤-{v1}$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "$x≥-{v1}$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "$x≤{v1}$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "$x≥{v1}$",
+      "correct": false
+    }
+  ],
+  "explanation": "Batas maksimum = {v2}. Membagi dengan -5 membalik ≥ menjadi ≤. Hanya A benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

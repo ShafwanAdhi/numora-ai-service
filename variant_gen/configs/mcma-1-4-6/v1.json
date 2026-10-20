@@ -1,0 +1,93 @@
+{
+  "question_id": "mcma-1-4-6",
+  "config_version": 1,
+  "original_hash": "73d137c7a45c655f",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'16' if k == 0 else ((4+k)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3,75' if k == 0 else ((15+k)/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (4+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "(4+k)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "15+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "(15+k)/4",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan empat buah bilangan real hasil pengukuran sampel lingkungan:\n$\\left\\{-{v3};\\sqrt{{v0}};\\frac{{v1}}{4};π\\right\\}$\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "$-{v3}$ merupakan bilangan bulat negatif yang juga tergolong bilangan rasional.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "$\\sqrt{{v0}}$ merupakan bilangan irasional karena menggunakan tanda akar.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "$\\frac{{v1}}{4}$ dapat dinyatakan dalam bentuk desimal berhenti ${v2}$ (bilangan rasional).",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "$π$ tergolong bilangan irasional karena memiliki desimal tak berulang dan tak berakhir.",
+      "correct": true
+    }
+  ],
+  "explanation": "A benar: -{v4} = -{v4}/1, bilangan bulat rasional. B salah: sqrt({v5}) = {v4}, rasional. C benar: {v6}/4 = {v7}, desimal berhenti. D benar: pi irasional.",
+  "shuffle": false,
+  "max_draws": 1000
+}

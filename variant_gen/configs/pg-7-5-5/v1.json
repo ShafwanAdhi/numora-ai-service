@@ -1,0 +1,115 @@
+{
+  "question_id": "pg-7-5-5",
+  "config_version": 1,
+  "original_hash": "656e3c990e3a23f5",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'36' if k == 0 else (36+8*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'96' if k == 0 else (96+34*k+3*k*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'13' if k == 0 else (13+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "18+4*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "10+3*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "8+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "(10+3*k)*(8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah taman sekolah berbentuk persegi panjang dengan ukuran panjang $(3x-2)meter$ dan lebar $(x+4)meter$. Pengelola sekolah mengevaluasi rencana pemagaran di sekeliling taman. Jika keliling taman tersebut adalah ${v0}meter$, hasil evaluasi ukuran taman yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Panjang taman ${v1}meter$ dan lebar ${v2}meter$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas taman adalah ${v3}{m}^{2}$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Panjang taman ${v4}meter$ dan lebar ${v5}meter$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Taman tersebut berbentuk persegi karena panjang dan lebarnya sama",
+      "correct": false
+    }
+  ],
+  "explanation": "Keliling memberi 4x+2 = {v6}, sehingga x = {v7}. Panjang {v8} meter, lebar {v9} meter. Luas {v10} meter kuadrat. A benar; panjang berbeda dari lebar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

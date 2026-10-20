@@ -1,0 +1,95 @@
+{
+  "question_id": "pg-1-5-2",
+  "config_version": 1,
+  "original_hash": "c7d992384a020191",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'48' if k == 0 else (3*(k+4)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (k+4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('; karena √')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (3*(k+4)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('=')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (k+4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('√3 sehingga a=0')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "n": {
+      "gen": "derived",
+      "expr": "'{n}' if k == 0 else 'n'"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa mengevaluasi keanggotaan jenis bilangan real berikut:\n$a=\\sqrt{{v0}}-{v1}\\sqrt{3}=0$\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nEvaluasi I: \"$a$ irasional dan $b$ rasional.\"\nEvaluasi II: \"$a$ rasional dan $b$ irasional.\"\nEvaluasi III: \"Keduanya ($a$ dan $b$) adalah bilangan rasional.\"\nEvaluasi IV: \"Keduanya ($a$ dan $b$) adalah bilangan irasional.\"\nManakah evaluasi yang benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi III{v2}{v3}{v4}{v5}{v6}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi IV",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nMengevaluasi $a$:\n$a=\\sqrt{{v0}}-{v1}\\sqrt{3}=\\sqrt{16×3}-{v1}\\sqrt{3}={v1}\\sqrt{3}-{v1}\\sqrt{3}=0$\nAngka $0$ dapat dituliskan dalam bentuk pecahan $\\frac{0}{1}$, sehingga $a$ tergolong bilangan rasional (bulat).\nMengevaluasi $b$:\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nKarena dapat dinyatakan dalam bentuk pecahan $\\frac{m}{n}$ dengan $m,n∈Z,n≠0$, maka $b$ tergolong bilangan rasional. Maka, Evaluasi III (keduanya bilangan rasional) adalah yang paling tepat.",
+  "shuffle": false,
+  "max_draws": 1000
+}

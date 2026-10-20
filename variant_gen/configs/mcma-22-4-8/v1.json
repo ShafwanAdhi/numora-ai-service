@@ -1,0 +1,98 @@
+{
+  "question_id": "mcma-22-4-8",
+  "config_version": 1,
+  "original_hash": "0f5406ac65fc4e94",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'1' if k == 0 else ((1)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else ((2)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else ((3)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else ((4)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else ((5)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else ((10)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "4+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Data waktu belajar dua kelompok siswa adalah sebagai berikut.\n\nKelompok A: {v0}, {v1}, {v2}, {v3}, {v4} jam\n\nKelompok B: {v0}, {v1}, {v2}, {v3}, {v5} jam\n\nPernyataan yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelompok B memiliki rerata lebih tinggi daripada kelompok A.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Median kedua kelompok sama.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jangkauan kelompok B lebih besar daripada kelompok A.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kelompok A memiliki rerata {v2} jam.",
+      "correct": true
+    },
+    {
+      "id": "E",
+      "text": "Kelompok B pasti memiliki hasil belajar lebih baik karena waktu belajarnya lebih tinggi.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v6}. Rerata A={v7}, B={v6}. Median keduanya{v7}, jangkauan A4 dan B9. A,B,C,D benar; durasi lebih lama tidak membuktikan hasil belajar lebih baik.",
+  "shuffle": false,
+  "max_draws": 1000
+}

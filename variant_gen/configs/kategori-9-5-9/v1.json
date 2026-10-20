@@ -1,0 +1,88 @@
+{
+  "question_id": "kategori-9-5-9",
+  "config_version": 1,
+  "original_hash": "117aeacf06674dfa",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'27.000,00' if k == 0 else (27000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'16.000,00' if k == 0 else (16000+300*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'27.000' if k == 0 else (27000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'16.000' if k == 0 else (16000+300*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'7.000,00' if k == 0 else (7000+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'5.000,00' if k == 0 else (5000+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6000+100*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5000+100*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Di sebuah toko buku, harga 2 buku gambar dan 3 pensil warna adalah Rp{v0}, sedangkan harga 1 buku gambar dan 2 pensil warna adalah Rp{v1}. Seorang siswa mengevaluasi harga satuan barang tersebut.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Model SPLDV yang tepat adalah $2x+3y={v2}$ dan $x+2y={v3}$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Harga 1 buku gambar ($x$) adalah Rp{v4}.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Harga 1 pensil warna ($y$) adalah Rp{v5}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Solusi: x = {v6}, y = {v7}. Model sesuai pembelian. Pernyataan 1 dan 3 benar; 2 salah karena harga buku yang diklaim terlalu tinggi.",
+  "shuffle": false,
+  "max_draws": 1000
+}

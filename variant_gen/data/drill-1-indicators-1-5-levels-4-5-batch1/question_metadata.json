@@ -1,0 +1,958 @@
+{
+  "pg-1-4-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1273,
+      "paragraph_end": 1307,
+      "body_block_start": 1187,
+      "body_block_end_exclusive": 1222
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q2:O1:original",
+    "original_explanation": "Pembahasan:\nMenganalisis $x$:\n$x=\\sqrt{20}-\\sqrt{5}=\\sqrt{4×5}-\\sqrt{5}=2\\sqrt{5}-\\sqrt{5}=\\sqrt{5}$\nKarena $\\sqrt{5}≈2,2360679...$ merupakan desimal tak berulang dan tak berakhir, maka $x$ tergolong bilangan irasional.\nMenganalisis $y$:\n$y=0,272727...=\\frac{27}{99}=\\frac{3}{11}$\nKarena dapat dinyatakan dalam bentuk pecahan biasa $\\frac{a}{b}$ dengan $a,b∈Z,b≠0$, maka $y$ tergolong bilangan rasional. Maka, $x$ adalah irasional dan $y$ adalah rasional.",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: C. Nilai $x$ adalah irasional dan $y$ adalah rasional.\n\n\n\nSeorang siswa menganalisis jenis dua buah bilangan real $x$ dan $y$ yang diperoleh dari hasil pengukuran konstanta fisika sederhana di laboratorium:\n\n\n\n$x=\\sqrt{20}-\\sqrt{5}$\n\n\n\n$y=0,272727...$ (desimal berulang)\n\n\n\nHasil analisis yang pasti benar mengenai jenis kedua bilangan tersebut adalah ....\n\n\n\nA. Nilai $x$ dan $y$ keduanya merupakan bilangan irasional\n\n\n\nB. Nilai $x$ dan $y$ keduanya merupakan bilangan rasional\n\n\n\nC. Nilai $x$ adalah irasional dan $y$ adalah rasional\n\n\n\nD. Nilai $x$ adalah rasional dan $y$ adalah irasional\n\n\n\nPembahasan:\n\n\nMenganalisis $x$:\n\n\n\n$x=\\sqrt{20}-\\sqrt{5}=\\sqrt{4×5}-\\sqrt{5}=2\\sqrt{5}-\\sqrt{5}=\\sqrt{5}$\n\nKarena $\\sqrt{5}≈2,2360679...$ merupakan desimal tak berulang dan tak berakhir, maka $x$ tergolong bilangan irasional.\n\n\n\nMenganalisis $y$:\n\n\n\n$y=0,272727...=\\frac{27}{99}=\\frac{3}{11}$\n\nKarena dapat dinyatakan dalam bentuk pecahan biasa $\\frac{a}{b}$ dengan $a,b∈Z,b≠0$, maka $y$ tergolong bilangan rasional. Maka, $x$ adalah irasional dan $y$ adalah rasional.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah mengoperasikan $\\sqrt{20}-\\sqrt{5}=\\sqrt{15}$ atau menganggap desimal berulang $0,2727...$ sebagai bilangan irasional karena deret angkanya panjang.\n\n",
+    "source_key_caption": "C. Nilai $x$ adalah irasional dan $y$ adalah rasional.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengoperasikan $\\sqrt{20}-\\sqrt{5}=\\sqrt{15}$ atau menganggap desimal berulang $0,2727...$ sebagai bilangan irasional karena deret angkanya panjang.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "pg-1-4-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1308,
+      "paragraph_end": 1334,
+      "body_block_start": 1222,
+      "body_block_end_exclusive": 1249
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q3:O1:original",
+    "original_explanation": "Pembahasan:\nTotal biaya secara terpisah: $(18×20.000)+(18×2.500)$.\nMenganalisis sifat distributif perkalian terhadap penjumlahan: $a⋅b+a⋅c=a⋅(b+c)$.\nMenyederhanakan menjadi: $18×(20.000+2.500)$.",
+    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: A. $18×(20.000+2.500)$\n\n\n\nPengurus OSIS menyusun anggaran pembelian $18$ set perlengkapan olahraga. Setiap set terdiri dari $1$ buah bola seharga Rp20.000,00 dan $1$ buah pompa portable seharga Rp2.500,00.\n\n\n\nPanitia menyederhanakan bentuk perhitungan total biaya dengan memanfaatkan Sifat Distributif perkalian terhadap penjumlahan. Bentuk penyederhanaan yang tepat adalah ....\n\n\n\nA. $18×(20.000+2.500)$\n\n\n\nB. $(18+20.000)×(18+2.500)$\n\n\n\nC. $18×(20.000×2.500)$\n\n\n\nD. $(18×20.000)+2.500$\n\n\n\nPembahasan:\n\nTotal biaya secara terpisah: $(18×20.000)+(18×2.500)$.\n\n\n\nMenganalisis sifat distributif perkalian terhadap penjumlahan: $a⋅b+a⋅c=a⋅(b+c)$.\n\n\n\nMenyederhanakan menjadi: $18×(20.000+2.500)$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa memilih opsi D karena mengira angka $18$ cukup dikalikan dengan barang pertama saja tanpa didistribusikan ke barang kedua.\n\n",
+    "source_key_caption": "A. $18×(20.000+2.500)$",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih opsi D karena mengira angka $18$ cukup dikalikan dengan barang pertama saja tanpa didistribusikan ke barang kedua.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-1-4-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1421,
+      "paragraph_end": 1451,
+      "body_block_start": 1335,
+      "body_block_end_exclusive": 1366
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q6:O1:original",
+    "original_explanation": "Pembahasan:\nA (Benar): $-4=-\\frac{4}{1}$, sehingga termasuk bilangan bulat sekaligus rasional.\nB (Salah): $\\sqrt{16}=4$, merupakan bilangan bulat/rasional (bukan irasional).\nC (Benar): $\\frac{15}{4}=3,75$ (rasional).\nD (Benar): $π≈3,14159...$ adalah bilangan irasional.",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: A, C, dan D\n\nDiberikan empat buah bilangan real hasil pengukuran sampel lingkungan:\n\n\n\n$\\left\\{-4;\\sqrt{16};\\frac{15}{4};π\\right\\}$\n\n\n\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. $-4$ merupakan bilangan bulat negatif yang juga tergolong bilangan rasional.\n\n\n\n[ ] B. $\\sqrt{16}$ merupakan bilangan irasional karena menggunakan tanda akar.\n\n\n\n[ ] C. $\\frac{15}{4}$ dapat dinyatakan dalam bentuk desimal berhenti $3,75$ (bilangan rasional).\n\n\n\n[ ] D. $π$ tergolong bilangan irasional karena memiliki desimal tak berulang dan tak berakhir.\n\n\n\nPembahasan:\n\n\n\nA (Benar): $-4=-\\frac{4}{1}$, sehingga termasuk bilangan bulat sekaligus rasional.\n\n\n\nB (Salah): $\\sqrt{16}=4$, merupakan bilangan bulat/rasional (bukan irasional).\n\n\n\nC (Benar): $\\frac{15}{4}=3,75$ (rasional).\n\n\n\nD (Benar): $π≈3,14159...$ adalah bilangan irasional.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira semua bilangan di dalam tanda akar (seperti $\\sqrt{16}$) pasti merupakan bilangan irasional.\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira semua bilangan di dalam tanda akar (seperti $\\sqrt{16}$) pasti merupakan bilangan irasional.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "kategori-1-4-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1524,
+      "paragraph_end": 1574,
+      "body_block_start": 1438,
+      "body_block_end_exclusive": 1475
+    },
+    "audit_id": "0e868995fdeb:I1:L4:Q9:O1:original",
+    "original_explanation": "Pembahasan:\nKonversikan ke desimal:\nLarutan A: $ -1,75$°C\nLarutan B: $-\\frac{9}{5}= -1,80°C$\nLarutan C: $-\\sqrt{3}$$ ≈$$ -1,732$°C.\nEvaluasi per baris:\n(a) BENAR: $-\\frac{9}{5}= -1,80°C$\n(b) SALAH: $-1,75>-1,80$, maka Larutan A justru lebih hangat (nilai lebih besar) daripada B.\n(c) BENAR: Urutan dari terkecil (paling dingin) ke terbesar (paling hangat): $-1,80<-1,75<-1,732 ⇒ Larutan B, Larutan A, Larutan C$.",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nTiga sampel larutan kimia diukur suhu pembekuannya (dalam $^\\circ\\text{C}$):\n\n\n\nLarutan A:$ -1,75$°C\n\n\n\nLarutan B:$-\\frac{9}{5}°C$\n\n\n\nLarutan C: $-\\sqrt{3}$°C\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\n\n\n\n<!-- table-009 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Suhu pembekuan Larutan B ($-\\frac{9}{5}°C$) jika diubah ke desimal adalah $ -1,80$°C.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Larutan A ($ -1,75$°C) memiliki suhu pembekuan yang lebih dingin daripada Larutan B ($ -1,80$°C).<br/></td><td></td><td></td></tr>\n<tr><td>(c) Urutan larutan dari yang memiliki suhu paling dingin ke paling hangat adalah Larutan B, Larutan A, Larutan C.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\nKonversikan ke desimal:\n\n\n\nLarutan A: $ -1,75$°C\n\n\n\nLarutan B: $-\\frac{9}{5}= -1,80°C$\n\n\n\nLarutan C: $-\\sqrt{3}$$ ≈$$ -1,732$°C.\n\n\n\nEvaluasi per baris:\n\n\n\n(a) BENAR: $-\\frac{9}{5}= -1,80°C$\n\n\n\n(b) SALAH: $-1,75>-1,80$, maka Larutan A justru lebih hangat (nilai lebih besar) daripada B.\n\n\n\n(c) BENAR: Urutan dari terkecil (paling dingin) ke terbesar (paling hangat): $-1,80<-1,75<-1,732 ⇒ Larutan B, Larutan A, Larutan C$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira $-1,75$ lebih kecil dari $-1,80$ karena membandingkan $1,75$ dan $1,80$ tanpa memperhatikan tanda negatif.\n\n",
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-1,75$ lebih kecil dari $-1,80$ karena membandingkan $1,75$ dan $1,80$ tanpa memperhatikan tanda negatif.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-1-5-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1612,
+      "paragraph_end": 1662,
+      "body_block_start": 1498,
+      "body_block_end_exclusive": 1549
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q1:O1:original",
+    "original_explanation": "Pembahasan:\nKonversikan seluruh nilai elevasi ke desimal pendekatan:\nSaluran P: $-1,95 m$\nSaluran Q: $-\\sqrt{3}≈-1,732 m$\nSaluran R: $-\\frac{9}{5}=-1,80 m$\nMengevaluasi posisi pada garis bilangan (makin besar angka negatifnya, nilainya makin kecil/makin di kiri):\n$-1,95<-1,80<-1,732$\n$Saluran P→Saluran R→Saluran Q$\nMaka, urutan dari yang paling dalam (terkecil) ke paling dangkal (terbesar) adalah Saluran P, Saluran R, Saluran Q, yang divalidasi secara tepat oleh Evaluasi II.",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi II\n\n\n\nTiga orang siswa mengevaluasi hasil pengukuran elevasi dasar saluran air di area kebun sekolah terhadap permukaan tanah netral ($0 m$):\n\n\n\nSaluran P: $-1,95 m$\n\n\n\nSaluran Q: $-\\sqrt{3 }m$\n\n\n\nSaluran R: $-\\frac{9}{5} m$\n\n\n\nKetiga siswa memberikan laporan evaluasi urutan kedalaman saluran dari yang paling dalam (paling kecil/paling kiri di garis bilangan) ke yang paling dangkal (paling besar):\n\n\n\nEvaluasi I: Saluran Q ($-\\sqrt{3} m$), Saluran R ($-\\frac{9}{5} m$), Saluran P ($-1,95 m$)\n\n\n\nEvaluasi II: Saluran P ($-1,95 m$), Saluran R ($-\\frac{9}{5} m$), Saluran Q ($-\\sqrt{3 }m$)\n\n\n\nEvaluasi III: Saluran R ($-\\frac{9}{5} m$), Saluran Q ($-\\sqrt{3} m$), Saluran P ($-1,95 m$)\n\n\n\nEvaluasi IV: Saluran P ($-1,95 m$), Saluran Q ($-\\sqrt{3 }m$), Saluran R ($-\\frac{9}{5} m$)\n\n\n\nHasil evaluasi manakah yang pasti benar secara matematis?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi IV\n\n\n\nPembahasan:\n\n\nKonversikan seluruh nilai elevasi ke desimal pendekatan:\n\n\n\nSaluran P: $-1,95 m$\n\n\n\nSaluran Q: $-\\sqrt{3}≈-1,732 m$\n\n\n\nSaluran R: $-\\frac{9}{5}=-1,80 m$\n\n\n\nMengevaluasi posisi pada garis bilangan (makin besar angka negatifnya, nilainya makin kecil/makin di kiri):\n\n\n\n$-1,95<-1,80<-1,732$\n\n\n\n$Saluran P→Saluran R→Saluran Q$\n\nMaka, urutan dari yang paling dalam (terkecil) ke paling dangkal (terbesar) adalah Saluran P, Saluran R, Saluran Q, yang divalidasi secara tepat oleh Evaluasi II.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira $-\\sqrt{3}≈-3$ atau $-1,5$ sehingga menempatkan Saluran Q sebagai saluran paling dalam, atau tertukar membandingkan bilangan negatif $-1,95$ dan $-1,80$.",
+    "source_key_caption": "B. Evaluasi II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-\\sqrt{3}≈-3$ atau $-1,5$ sehingga menempatkan Saluran Q sebagai saluran paling dalam, atau tertukar membandingkan bilangan negatif $-1,95$ dan $-1,80$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-1-5-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1859,
+      "paragraph_end": 1890,
+      "body_block_start": 1745,
+      "body_block_end_exclusive": 1777
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q6:O1:original",
+    "original_explanation": "Pembahasan:\nA (Benar): $-6=-\\frac{6}{1}$, yang merupakan bilangan bulat sekaligus rasional.\nB (Salah): $\\sqrt{25}=5$, di mana $5$ adalah bilangan bulat/rasional (bukan irasional).\nC (Benar): $\\frac{22}{7}$ adalah bentuk pecahan rasional (meskipun sering dipakai sebagai pendekatan nilai $π$).\nD (Benar): $\\sqrt{2}≈1,414...$ adalah bentuk akar murni yang tergolong irasional.",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, C, dan D\n\n\n\nDiberikan empat buah nilai hasil pengamatan fisik lingkungan sekolah:\n\n\n\n$\\left\\{-6;\\sqrt{25};\\frac{22}{7};\\sqrt{2}\\right\\}$\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. $-6$ tergolong bilangan bulat negatif yang merupakan bagian dari bilangan rasional.\n\n\n\n[ ] B. $\\sqrt{25}$ tergolong bilangan irasional karena dituliskan dalam bentuk akar.\n\n\n\n[ ] C. $\\frac{22}{7}$ tergolong bilangan rasional karena berbentuk pecahan biasa $\\frac{a}{b}$.\n\n\n\n[ ] D. $\\sqrt{2}$ tergolong bilangan irasional karena bentuk desimalnya tak berulang dan tak berakhir ($≈1,41421...$).\n\n\n\nPembahasan:\n\n\n\nA (Benar): $-6=-\\frac{6}{1}$, yang merupakan bilangan bulat sekaligus rasional.\n\n\n\nB (Salah): $\\sqrt{25}=5$, di mana $5$ adalah bilangan bulat/rasional (bukan irasional).\n\n\n\nC (Benar): $\\frac{22}{7}$ adalah bentuk pecahan rasional (meskipun sering dipakai sebagai pendekatan nilai $π$).\n\n\n\nD (Benar): $\\sqrt{2}≈1,414...$ adalah bentuk akar murni yang tergolong irasional.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira $\\frac{22}{7}$ irasional karena menyamakannya dengan $π$, atau mengira $\\sqrt{25}$ irasional hanya karena memakai tanda akar.\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $\\frac{22}{7}$ irasional karena menyamakannya dengan $π$, atau mengira $\\sqrt{25}$ irasional hanya karena memakai tanda akar.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "kategori-1-5-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1964,
+      "paragraph_end": 2014,
+      "body_block_start": 1850,
+      "body_block_end_exclusive": 1887
+    },
+    "audit_id": "0e868995fdeb:I1:L5:Q9:O1:original",
+    "original_explanation": "Pembahasan:\nData desimal:\nSampel 1: $ -2,25$°C\nSampel 2: $-\\frac{9}{4}$ = $-2,25°$C\nSampel 3: $-\\sqrt{5 }$ $≈ -2,236$°C\nEvaluasi per baris:\n(a) BENAR: $-2,25=-\\frac{9}{4}$.\n(b) SALAH: $-2,236>-2,25$, sehingga Sampel 3 justru lebih hangat (nilai lebih besar) daripada Sampel 1.\n(c) BENAR: Urutan dari terkecil (paling dingin) ke terbesar (paling hangat): $-2,25$ (Sampel 1 & 2) $<-2,236$ (Sampel 3).",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nTiga buah sampel bahan masakan laboratorium diukur posisinya pada skala perubahan suhu penyajian (dalam °C):\n\n\n\nSampel 1: $ -2,25$°C.\n\n\n\nSampel 2: $-\\frac{9}{4}$°C\n\n\n\nSampel 3: $-\\sqrt{5}$°C\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-011 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Sampel 1 ($ -2,25$°C) dan Sampel 2 ($-\\frac{9}{4}$°C) berada pada titik suhu yang persis sama.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Sampel 3 ($-\\sqrt{5 }$ $≈ -2,236$°C) memiliki suhu yang lebih dingin (lebih kecil) daripada Sampel 1 ($ -2,25$°C).<br/></td><td></td><td></td></tr>\n<tr><td>(c) Urutan sampel dari yang paling dingin ke paling hangat adalah Sampel 1, Sampel 2 (sejajar), lalu Sampel 3.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\nData desimal:\n\n\n\nSampel 1: $ -2,25$°C\n\n\n\nSampel 2: $-\\frac{9}{4}$ = $-2,25°$C\n\n\n\nSampel 3: $-\\sqrt{5 }$ $≈ -2,236$°C\n\n\n\nEvaluasi per baris:\n\n\n\n(a) BENAR: $-2,25=-\\frac{9}{4}$.\n\n\n\n(b) SALAH: $-2,236>-2,25$, sehingga Sampel 3 justru lebih hangat (nilai lebih besar) daripada Sampel 1.\n\n\n\n(c) BENAR: Urutan dari terkecil (paling dingin) ke terbesar (paling hangat): $-2,25$ (Sampel 1 & 2) $<-2,236$ (Sampel 3).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira $-2,236$ lebih kecil dari $-2,25$ karena angka $2,236<2,250$ secara absolut, tanpa memperhitungkan tanda negatif.\n\n",
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-2,236$ lebih kecil dari $-2,25$ karena angka $2,236<2,250$ secara absolut, tanpa memperhitungkan tanda negatif.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-2-4-4": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 4,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3337,
+      "paragraph_end": 3374,
+      "body_block_start": 3129,
+      "body_block_end_exclusive": 3167
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q4:O1:original",
+    "original_explanation": "Pembahasan:\nMenurut hirarki KABATAKU/PEMDAS, pembagian ($:$) dan perkalian ($×$) dikerjakan terlebih dahulu sebelum penjumlahan ($+$):\n$4,5:0,5=9$\n$2×0,25=0,5$\nJumlahkan kedua hasil tersebut:\n$9+0,5=9,5$\nMaka, Evaluasi I adalah yang bernilai tepat secara kaidah matematika.",
+    "source_text": "Soal 4 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A. Evaluasi I\n\n\n\nDua orang siswa memberikan evaluasi terhadap hasil pengerjaan soal operasi campuran bilangan desimal dan pecahan untuk keperluan pembagian pita ekstrakurikuler:\n\n\n\n$Soal:4,5:0,5+2×0,25$\n\nEvaluasi I: \"Hasil yang benar adalah $9,5$, karena pembagian dan perkalian dikerjakan terlebih dahulu: $(4,5:0,5)+(2×0,25)=9+0,5=9,5$.\"\n\n\n\nEvaluasi II: \"Hasil yang benar adalah $2,75$, karena dikerjakan berurutan dari kiri ke kanan: $(4,5:0,5+2)×0,25=(9+2)×0,25=11×0,25=2,75$.\"\n\n\n\nEvaluasi manakah yang benar berdasarkan aturan hirarki operasi hitung (PEMDAS/KABATAKU)?\n\n\n\nA. Evaluasi I, karena operasi pembagian dan perkalian memiliki prioritas lebih tinggi daripada penjumlahan\n\n\n\nB. Evaluasi II, karena semua operasi berderajat sama sehingga harus dikerjakan dari kiri ke kanan\n\n\n\nC. Kedua evaluasi salah, karena hasil akhirnya harus berupa bilangan bulat 10\n\n\n\nD. Evaluasi II, karena penjumlahan di dalam urutan posisi harus diutamakan\n\n\n\nPembahasan:\n\n\n\nMenurut hirarki KABATAKU/PEMDAS, pembagian ($:$) dan perkalian ($×$) dikerjakan terlebih dahulu sebelum penjumlahan ($+$):\n\n\n\n$4,5:0,5=9$\n\n\n\n$2×0,25=0,5$\n\n\n\nJumlahkan kedua hasil tersebut:\n\n\n\n$9+0,5=9,5$\n\nMaka, Evaluasi I adalah yang bernilai tepat secara kaidah matematika.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengabaikan tingkat prioritas perkalian/pembagian dan menghitung secara runtut dari kiri ke kanan seperti pada Evaluasi II.\n\n",
+    "source_key_caption": "A. Evaluasi I",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan tingkat prioritas perkalian/pembagian dan menghitung secara runtut dari kiri ke kanan seperti pada Evaluasi II.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-2-4-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3416,
+      "paragraph_end": 3446,
+      "body_block_start": 3208,
+      "body_block_end_exclusive": 3239
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q6:O1:original",
+    "original_explanation": "Pembahasan:\nA (Benar): $2\\sqrt{48}=2\\sqrt{16×3}=2×4\\sqrt{3}=8\\sqrt{3}$.\nB (Salah): $\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$ (bukan $3\\sqrt{5}$).\nC (Benar): $\\sqrt{12}=\\sqrt{4×3}=2\\sqrt{3}$.\nD (Benar): $8\\sqrt{3}-5\\sqrt{3}+2\\sqrt{3}=(8-5+2)\\sqrt{3}=5\\sqrt{3}$.",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: A, C, dan D\n\n\n\nDiberikan sebuah ekspresi operasi bentuk akar hasil pengukuran luas penampang kisi-kisi ventilasi sekolah:\n\n\n\n$Ekspresi:2\\sqrt{48}-\\sqrt{75}+\\sqrt{12}$\n\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n[ ] A. Bentuk sederhana dari $2\\sqrt{48}$ adalah $8\\sqrt{3}$.\n\n\n\n[ ] B. Bentuk sederhana dari $\\sqrt{75}$ adalah $3\\sqrt{5}$.\n\n\n\n[ ] C. Bentuk sederhana dari $\\sqrt{12}$ adalah $2\\sqrt{3}$.\n\n\n\n[ ] D. Hasil akhir penyederhanaan ekspresi tersebut adalah $5\\sqrt{3}$.\n\n\n\nPembahasan:\n\n\n\nA (Benar): $2\\sqrt{48}=2\\sqrt{16×3}=2×4\\sqrt{3}=8\\sqrt{3}$.\n\n\n\nB (Salah): $\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$ (bukan $3\\sqrt{5}$).\n\n\n\nC (Benar): $\\sqrt{12}=\\sqrt{4×3}=2\\sqrt{3}$.\n\n\n\nD (Benar): $8\\sqrt{3}-5\\sqrt{3}+2\\sqrt{3}=(8-5+2)\\sqrt{3}=5\\sqrt{3}$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa terbalik menuliskan faktor luar dan dalam pada bentuk akar $\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$ menjadi $3\\sqrt{5}$.\n\n\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terbalik menuliskan faktor luar dan dalam pada bentuk akar $\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$ menjadi $3\\sqrt{5}$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-2-4-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3478,
+      "paragraph_end": 3523,
+      "body_block_start": 3270,
+      "body_block_end_exclusive": 3316
+    },
+    "audit_id": "0e868995fdeb:I2:L4:Q8:O1:original",
+    "original_explanation": "Pembahasan:\nHitung total belanja riil:\nPita = $4×12.500=50.000$\nKarton = $6×3.500=21.000$\nTotal sebelum diskon = $50.000+21.000=71.000$\nSetelah diskon = $71.000-5.000=66.000$\nA (Salah): Model 2 menggabungkan kuantitas dan harga secara salah.\nB (Benar): Model 1 secara tepat memisahkan komponen belanja dan pengurangan diskon.\nC (Benar): Biaya akhir riil adalah Rp66.000,00.\nD (Salah): Rp71.000,00 adalah total sebelum diskon.",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nSeorang siswa mengevaluasi kebenaran pengerjaan transaksi belanja kelompok prakarya berikut: \"Membeli 4 gulung pita seharga Rp12.500,00 per gulung dan 6 lembar kertas karton seharga Rp3.500,00 per lembar, lalu mendapat potongan diskon total sebesar Rp5.000,00.\"\n\n\n\nDua bentuk model perhitungan dievaluasi:\n\n\n\nModel 1: $(4×12.500)+(6×3.500)-5.000=50.000+21.000-5.000=66.000$\n\n\n\nModel 2: $4×(12.500+6)×3.500-5.000=4×12.506×3.500-5.000=175.079.000$\n\n\n\nManakah hasil evaluasi pernyataan yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Model 2 adalah penulisan kalimat matematika yang benar.\n\n\n\n[ ] B. Model 1 adalah penulisan kalimat matematika yang benar sesuai dengan urutan transaksi dan kaidah KABATAKU.\n\n\n\n[ ] C. Total biaya akhir yang harus dibayar kelompok tersebut adalah Rp66.000,00.\n\n\n\n[ ] D. Total biaya akhir yang harus dibayar kelompok tersebut adalah Rp71.000,00.\n\n\n\nPembahasan:\n\n\n\nHitung total belanja riil:\n\n\n\nPita = $4×12.500=50.000$\n\n\n\nKarton = $6×3.500=21.000$\n\n\n\nTotal sebelum diskon = $50.000+21.000=71.000$\n\n\n\nSetelah diskon = $71.000-5.000=66.000$\n\n\n\nA (Salah): Model 2 menggabungkan kuantitas dan harga secara salah.\n\n\n\nB (Benar): Model 1 secara tepat memisahkan komponen belanja dan pengurangan diskon.\n\n\n\nC (Benar): Biaya akhir riil adalah Rp66.000,00.\n\n\n\nD (Salah): Rp71.000,00 adalah total sebelum diskon.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa lupa mengurangkan diskon Rp5.000,00 sehingga memilih Rp71.000,00 sebagai hasil akhir.\n\n",
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa lupa mengurangkan diskon Rp5.000,00 sehingga memilih Rp71.000,00 sebagai hasil akhir.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "pg-2-5-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3611,
+      "paragraph_end": 3658,
+      "body_block_start": 3375,
+      "body_block_end_exclusive": 3423
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q1:O1:original",
+    "original_explanation": "Pembahasan:\nMengevaluasi prioritas operasi perkalian biaya buku panduan sesuai kaidah KABATAKU:\n$Total Biaya Buku=20×22.500=450.000$\nSusun operasi penjumlahan dan pengurangan berdasarkan arus kas masuk/keluar:\n$Saldo Akhir=1.500.000-(20×22.500)+800.000-450.000$\n$Saldo Akhir=1.500.000-450.000+800.000-450.000=1.400.000$\nPenggunaan tanda kurung pada Evaluasi II menegaskan bahwa $20×22.500$ dihitung terlebih dahulu sebelum dikurangkan dari saldo awal, sehingga nilainya valid.",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi II\n\n\n\nSeorang bendahara OSIS mengevaluasi laporan pencatatan keuangan pembekalan LDKS dengan perincian transaksi sebagai berikut:\n\n\n\nUang awal di kas: Rp1.500.000,00\n\n\n\nPembelian 20 pak buku panduan seharga Rp22.500,00 per pak\n\n\n\nPenerimaan dana pendaftaran dari peserta sebesar Rp800.000,00\n\n\n\nPembayaran konsumsi narasumber sebesar Rp450.000,00\n\n\n\nDua siswa memberikan laporan evaluasi bentuk kalimat matematika untuk menghitung sisa saldo kas:\n\n\n\nEvaluasi I: $(1.500.000-20)×22.500+800.000-450.000=33.749.900.000$\n\n\n\nEvaluasi II: $1.500.000-(20×22.500)+800.000-450.000=1.400.000$\n\n\n\nEvaluasi III: $1.500.000-20×(22.500+800.000)-450.000=-15.400.000$\n\n\n\nEvaluasi IV: $1.500.000+(20×22.500)-800.000-450.000=700.000$\n\n\n\nHasil evaluasi manakah yang pasti benar secara konsep prioritas operasi KABATAKU/PEMDAS dan logika keuangan?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi IV\n\n\n\nPembahasan:\n\n\nMengevaluasi prioritas operasi perkalian biaya buku panduan sesuai kaidah KABATAKU:\n\n$Total Biaya Buku=20×22.500=450.000$\n\nSusun operasi penjumlahan dan pengurangan berdasarkan arus kas masuk/keluar:\n\n\n\n$Saldo Akhir=1.500.000-(20×22.500)+800.000-450.000$\n\n\n\n$Saldo Akhir=1.500.000-450.000+800.000-450.000=1.400.000$\n\nPenggunaan tanda kurung pada Evaluasi II menegaskan bahwa $20×22.500$ dihitung terlebih dahulu sebelum dikurangkan dari saldo awal, sehingga nilainya valid.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengabaikan tanda kurung/prioritas KABATAKU sehingga mengurangkan $20$ langsung dari $1.500.000$ (seperti pada Evaluasi I) atau menambahkan biaya pengeluaran buku ke dalam kas (seperti pada Evaluasi IV).\n\n",
+    "source_key_caption": "B. Evaluasi II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan tanda kurung/prioritas KABATAKU sehingga mengurangkan $20$ langsung dari $1.500.000$ (seperti pada Evaluasi I) atau menambahkan biaya pengeluaran buku ke dalam kas (seperti pada Evaluasi IV).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "pg-2-5-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3659,
+      "paragraph_end": 3697,
+      "body_block_start": 3423,
+      "body_block_end_exclusive": 3462
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q2:O1:original",
+    "original_explanation": "Pembahasan:\nUraikan radikan ke faktor yang memuat kuadrat sempurna:\n$\\sqrt{98}=\\sqrt{49×2}=7\\sqrt{2}$\n$\\sqrt{50}=\\sqrt{25×2}=5\\sqrt{2}$\n$\\sqrt{32}=\\sqrt{16×2}=4\\sqrt{2}$\nOperasikan koefisien dari suku sejenis $\\sqrt{2}$:\n$Panjang Pipa=(7+5-4)\\sqrt{2}=8\\sqrt{2 }m$\nMaka, Evaluasi Y adalah yang bernilai tepat.",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: C. Evaluasi Y\n\n\n\nDua siswa mengevaluasi hasil penyederhanaan total panjang dua batang pipa penyangga antena radio sekolah yang dinyatakan dalam bentuk akar berikut:\n\n\n\n$Panjang Pipa=\\sqrt{98}+\\sqrt{50}-\\sqrt{32 }(dalam meter)$\n\nEvaluasi X: \"Hasil akhirnya adalah $\\sqrt{116 }m$, karena dijumlahkan langsung: $\\sqrt{98+50-32}=\\sqrt{116}$.\"\n\n\n\nEvaluasi Y: \"Hasil akhirnya adalah $8\\sqrt{2 }m$, karena diuraikan menjadi $7\\sqrt{2}+5\\sqrt{2}-4\\sqrt{2}=8\\sqrt{2}$.\"\n\n\n\nManakah evaluasi yang benar berdasarkan kaidah penyederhanaan bentuk akar?\n\n\n\nA. Evaluasi X, karena penjumlahan dan pengurangan di dalam akar bersifat distributif\n\n\n\nB. Evaluasi X, karena $\\sqrt{116}$ tidak dapat disederhanakan lagi\n\n\n\nC. Evaluasi Y, karena suku-suku bentuk akar hanya dapat dijumlahkan/dikurangkan jika memiliki radikan (angka dalam akar) yang sejenis\n\n\n\nD. Kedua evaluasi salah, karena hasil akhirnya adalah $18\\sqrt{2} m$\n\n\n\nPembahasan:\n\n\n\nUraikan radikan ke faktor yang memuat kuadrat sempurna:\n\n\n\n$\\sqrt{98}=\\sqrt{49×2}=7\\sqrt{2}$\n\n\n\n$\\sqrt{50}=\\sqrt{25×2}=5\\sqrt{2}$\n\n\n\n$\\sqrt{32}=\\sqrt{16×2}=4\\sqrt{2}$\n\n\n\nOperasikan koefisien dari suku sejenis $\\sqrt{2}$:\n\n$Panjang Pipa=(7+5-4)\\sqrt{2}=8\\sqrt{2 }m$\n\nMaka, Evaluasi Y adalah yang bernilai tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah mengira bahwa bentuk akar bisa dijumlahkan langsung angkanya di dalam tanda akar ($\\sqrt{a}+\\sqrt{b}=\\sqrt{a+b}$), seperti pada Evaluasi X.\n\n",
+    "source_key_caption": "C. Evaluasi Y",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengira bahwa bentuk akar bisa dijumlahkan langsung angkanya di dalam tanda akar ($\\sqrt{a}+\\sqrt{b}=\\sqrt{a+b}$), seperti pada Evaluasi X.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-2-5-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3811,
+      "paragraph_end": 3841,
+      "body_block_start": 3575,
+      "body_block_end_exclusive": 3606
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q6:O1:original",
+    "original_explanation": "Pembahasan:\nA (Benar): $3\\sqrt{32}=3\\sqrt{16×2}=3×4\\sqrt{2}=12\\sqrt{2}$.\nB (Salah): $\\sqrt{50}=\\sqrt{25×2}=5\\sqrt{2}$ (bukan $2\\sqrt{5}$).\nC (Benar): $\\sqrt{18}=\\sqrt{9×2}=3\\sqrt{2}$.\nD (Benar): $12\\sqrt{2}-5\\sqrt{2}+3\\sqrt{2}=(12-5+3)\\sqrt{2}=10\\sqrt{2}$.",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, C, dan D\n\n\n\nDiberikan sebuah ekspresi operasi bentuk akar hasil pengukuran luas bingkai foto pahlawan di ruang guru:\n\n\n\n$Ekspresi:3\\sqrt{32}-\\sqrt{50}+\\sqrt{18}$\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Bentuk sederhana dari $3\\sqrt{32}$ adalah $12\\sqrt{2}$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Bentuk sederhana dari $\\sqrt{50}$ adalah $2\\sqrt{5}$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Bentuk sederhana dari $\\sqrt{18}$ adalah $3\\sqrt{2}$\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Hasil akhir penyederhanaan seluruh ekspresi adalah $10\\sqrt{2}$\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nA (Benar): $3\\sqrt{32}=3\\sqrt{16×2}=3×4\\sqrt{2}=12\\sqrt{2}$.\n\n\n\nB (Salah): $\\sqrt{50}=\\sqrt{25×2}=5\\sqrt{2}$ (bukan $2\\sqrt{5}$).\n\n\n\nC (Benar): $\\sqrt{18}=\\sqrt{9×2}=3\\sqrt{2}$.\n\n\n\nD (Benar): $12\\sqrt{2}-5\\sqrt{2}+3\\sqrt{2}=(12-5+3)\\sqrt{2}=10\\sqrt{2}$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa terbalik menuliskan faktor luar dan dalam pada bentuk akar $\\sqrt{50}=5\\sqrt{2}$ menjadi $2\\sqrt{5}$.\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terbalik menuliskan faktor luar dan dalam pada bentuk akar $\\sqrt{50}=5\\sqrt{2}$ menjadi $2\\sqrt{5}$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-2-5-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3873,
+      "paragraph_end": 3918,
+      "body_block_start": 3637,
+      "body_block_end_exclusive": 3683
+    },
+    "audit_id": "0e868995fdeb:I2:L5:Q8:O1:original",
+    "original_explanation": "Pembahasan:\nHitung pengeluaran riil:\nPenggaris = $5×8.000=40.000$\nJangka = $4×15.000=60.000$\nTotal sebelum cashback = $40.000+60.000=100.000$\nSetelah cashback = $100.000-10.000=90.000$\nA (Salah): Model II salah secara kaidah matematika dan logika transaksi.\nB (Benar): Model I benar mengelompokkan barang dan cashback.\nC (Benar): Pengeluaran bersih = Rp90.000,00.\nD (Salah): Rp100.000,00 adalah total sebelum cashback.",
+    "source_text": "Soal 8 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B dan C\n\n\n\nSeorang siswa mengevaluasi laporan belanja perlengkapan modul kelas berikut: \"Membeli 5 buah penggaris seharga Rp8.000,00 per buah dan 4 buah jangka seharga Rp15.000,00 per buah, serta mendapat cashback potongan harga sebesar Rp10.000,00.\"\n\n\n\nDua bentuk model perhitungan dievaluasi:\n\n\n\nModel I: $(5×8.000)+(4×15.000)-10.000=40.000+60.000-10.000=90.000$\n\n\n\nModel II: $5×(8.000+4)×15.000-10.000=5×8.004×15.000-10.000=600.290.000$\n\n\n\nManakah hasil evaluasi pernyataan yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Model II adalah penulisan kalimat matematika yang benar.\n\n\n\n[ ] B. Model I adalah penulisan kalimat matematika yang benar sesuai aturan KABATAKU dan urutan transaksi.\n\n\n\n[ ] C. Total pengeluaran bersih akhir adalah Rp90.000,00.\n\n\n\n[ ] D. Total pengeluaran bersih akhir adalah Rp100.000,00.\n\n\n\nPembahasan:\n\n\n\nHitung pengeluaran riil:\n\n\n\nPenggaris = $5×8.000=40.000$\n\n\n\nJangka = $4×15.000=60.000$\n\n\n\nTotal sebelum cashback = $40.000+60.000=100.000$\n\n\n\nSetelah cashback = $100.000-10.000=90.000$\n\n\n\nA (Salah): Model II salah secara kaidah matematika dan logika transaksi.\n\n\n\nB (Benar): Model I benar mengelompokkan barang dan cashback.\n\n\n\nC (Benar): Pengeluaran bersih = Rp90.000,00.\n\n\n\nD (Salah): Rp100.000,00 adalah total sebelum cashback.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa lupa mengurangi cashback Rp10.000,00 sehingga memilih jawaban Rp100.000,00.\n\n",
+    "source_key_caption": "B dan C",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa lupa mengurangi cashback Rp10.000,00 sehingga memilih jawaban Rp100.000,00.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "pg-3-4-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5260,
+      "paragraph_end": 5311,
+      "body_block_start": 4941,
+      "body_block_end_exclusive": 4993
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q1:O1:original",
+    "original_explanation": "Pembahasan:\nMenganalisis aturan pembulatan untuk bilangan $28.647$:\nPembulatan ke ribuan terdekat:\nPerhatikan digit ratusan (yaitu $6$).\nKarena $6≥5$, maka digit ribuan dibulatkan ke atas ($8+1=9$) menjadi $29.000$.\nPembulatan ke ratusan terdekat:\nPerhatikan digit puluhan (yaitu $4$).\nKarena $4<5$, maka digit ratusan dibulatkan ke bawah menjadi $28.600$.\nDengan demikian, pasangannya adalah $29.000$ dan $28.600$, yang divalidasi tepat oleh Analisis II.",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: B. Analisis II\n\n\n\nSeorang pengurus perpustakaan sekolah mencatat data peminjaman buku selama satu tahun sebanyak 28.647 eksemplar. Pengurus tersebut diminta menganalisis hasil pembulatan data untuk dua jenis dokumen penyusunan laporan:\n\n\n\nLaporan Ringkas: Dibulatkan ke ribuan terdekat.\n\n\n\nLaporan Detail: Dibulatkan ke ratusan terdekat.\n\n\n\nEmpat orang staf memberikan hasil analisis pembulatan sebagai berikut:\n\n\n\nAnalisis I: Laporan Ringkas = $28.000$, Laporan Detail = $28.600$\n\n\n\nAnalisis II: Laporan Ringkas = $29.000$, Laporan Detail = $28.600$\n\n\n\nAnalisis III: Laporan Ringkas = $29.000$, Laporan Detail = $28.700$\n\n\n\nAnalisis IV: Laporan Ringkas = $28.000$, Laporan Detail = $28.700$\n\n\n\nHasil analisis siapakah yang pasti benar secara matematis?\n\n\n\nA. Analisis I\n\n\n\nB. Analisis II\n\n\n\nC. Analisis III\n\n\n\nD. Analisis IV\n\n\n\nPembahasan:\n\n\n\nMenganalisis aturan pembulatan untuk bilangan $28.647$:\n\n\n\n\nPembulatan ke ribuan terdekat:\n\n\n\nPerhatikan digit ratusan (yaitu $6$).\n\n\n\nKarena $6≥5$, maka digit ribuan dibulatkan ke atas ($8+1=9$) menjadi $29.000$.\n\n\n\nPembulatan ke ratusan terdekat:\n\n\n\nPerhatikan digit puluhan (yaitu $4$).\n\n\n\nKarena $4<5$, maka digit ratusan dibulatkan ke bawah menjadi $28.600$.\n\n\n\nDengan demikian, pasangannya adalah $29.000$ dan $28.600$, yang divalidasi tepat oleh Analisis II.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru membulatkan $28.647$ ke ratusan terdekat menjadi $28.700$ karena membulatkan bertahap dari digit satuan $7→5→7$, padahal pembulatan ke ratusan harus melihat langsung digit puluhan asli ($4<5→28.600$).\n\n",
+    "source_key_caption": "B. Analisis II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru membulatkan $28.647$ ke ratusan terdekat menjadi $28.700$ karena membulatkan bertahap dari digit satuan $7→5→7$, padahal pembulatan ke ratusan harus melihat langsung digit puluhan asli ($4<5→28.600$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "pg-3-4-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5312,
+      "paragraph_end": 5357,
+      "body_block_start": 4993,
+      "body_block_end_exclusive": 5039
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q2:O1:original",
+    "original_explanation": "Pembahasan:\nUji kuadrat desimal persepuluhan untuk menganalisis nilai aproksimasi:\nUntuk Kawat A ($\\sqrt{58}$):\n$7,{6}^{2}=57,76$ (selisih $0,24$ ke $58$)\n$7,{7}^{2}=59,29$ (selisih $1,29$ ke $58$)\nKarena $57,76$ paling dekat ke $58$, maka $\\sqrt{58}≈7,615...→$ dibulatkan ke persepuluhan terdekat menjadi $7,6m$.\nUntuk Kawat B ($\\sqrt{59}$):\n$7,{6}^{2}=57,76$ (selisih $1,24$ ke $59$)\n$7,{7}^{2}=59,29$ (selisih $0,29$ ke $59$)\nKarena $59,29$ paling dekat ke $59$, maka $\\sqrt{59}≈7,681...→$ dibulatkan ke persepuluhan terdekat menjadi $7,7m$.\nPasangan aproksimasi yang benar adalah $7,6m$ dan $7,7m$.",
+    "source_text": "Soal 2 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: C. $7,6m$ dan $7,7m$\n\n\n\nDua buah kawat baja penyangga tiang bendera di lapangan sekolah diukur panjangnya secara tidak langsung:\n\n\n\nKawat A: panjang $=\\sqrt{58}meter$\n\n\n\nKawat B: panjang $=\\sqrt{59}meter$\n\n\n\nSeorang siswa menganalisis nilai aproksimasi panjang kedua kawat tersebut pada mistar dengan ketelitian persepuluhan meter ($0,1m$). Hasil analisis aproksimasi yang benar jika dibulatkan ke persepuluhan terdekat adalah ....\n\n\n\nA. $7,5m$ dan $7,6m$\n\n\n\nB. $7,6m$ dan $7,6m$\n\n\n\nC. $7,6m$ dan $7,7m$\n\n\n\nD. $7,7m$ dan $7,8m$\n\n\n\nPembahasan:\n\n\n\nUji kuadrat desimal persepuluhan untuk menganalisis nilai aproksimasi:\n\n\n\n\nUntuk Kawat A ($\\sqrt{58}$):\n\n\n\n$7,{6}^{2}=57,76$ (selisih $0,24$ ke $58$)\n\n\n\n$7,{7}^{2}=59,29$ (selisih $1,29$ ke $58$)\n\n\n\nKarena $57,76$ paling dekat ke $58$, maka $\\sqrt{58}≈7,615...→$ dibulatkan ke persepuluhan terdekat menjadi $7,6m$.\n\n\n\nUntuk Kawat B ($\\sqrt{59}$):\n\n\n\n\n$7,{6}^{2}=57,76$ (selisih $1,24$ ke $59$)\n\n\n\n$7,{7}^{2}=59,29$ (selisih $0,29$ ke $59$)\n\n\n\nKarena $59,29$ paling dekat ke $59$, maka $\\sqrt{59}≈7,681...→$ dibulatkan ke persepuluhan terdekat menjadi $7,7m$.\n\n\n\nPasangan aproksimasi yang benar adalah $7,6m$ dan $7,7m$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\nSiswa salah mengira nilai $\\sqrt{58}$ dan $\\sqrt{59}$ dibulatkan ke desimal yang sama ($7,6m$) karena menganggap selisih $58$ dan $59$ sangat tipis tanpa menguji perkalian kuadrat desimalnya.\n\n",
+    "source_key_caption": "C. $7,6m$ dan $7,7m$",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengira nilai $\\sqrt{58}$ dan $\\sqrt{59}$ dibulatkan ke desimal yang sama ($7,6m$) karena menganggap selisih $58$ dan $59$ sangat tipis tanpa menguji perkalian kuadrat desimalnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-3-4-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5482,
+      "paragraph_end": 5519,
+      "body_block_start": 5163,
+      "body_block_end_exclusive": 5201
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q6:O1:original",
+    "original_explanation": "Pembahasan:\n(i) Benar: Perhatikan digit persatusan ($5≥5$), maka digit persepuluhan $8$ dibulatkan naik menjadi $9 \\implies 34,9$.\n(ii) Salah: $5,{2}^{2}=27,04$ (sangat dekat dengan 27). Maka $\\sqrt{27}≈5,2$, bukan $5,4$.\n(iii) Benar: $7,{7}^{2}=59,29$ dan $7,{8}^{2}=60,84$. Karena $59,29<60<60,84$, maka $\\sqrt{60}$ terletak di antara $7,7$ dan $7,8$.\n(iv) Benar: Bulatkan $396→400$ dan $204→200$. Hasil estimasi = $400×200=80.000$.",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: A, C, dan D\n\n\n\nDiberikan empat pernyataan analisis pembulatan dan aproksimasi bilangan real:\n\n\n\n(i) Hasil pembulatan $34,853$ ke satu tempat desimal (persepuluhan terdekat) adalah $34,9$.\n\n\n\n(ii) Nilai aproksimasi dari $\\sqrt{27}$ ke persepuluhan terdekat adalah $5,4$.\n\n\n\n(iii) Nilai dari $\\sqrt{60}$ berada di antara $7,7$ dan $7,8$.\n\n\n\n(iv) Hasil estimasi dari $396×204$ menggunakan pembulatan ke ratusan terdekat adalah $80.000$.\n\n\n\nManakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan (i)\n\n\n\n[ ] B. Pernyataan (ii)\n\n\n\n[ ] C. Pernyataan (iii)\n\n\n\n[ ] D. Pernyataan (iv)\n\n\n\nPembahasan:\n\n\n\n(i) Benar: Perhatikan digit persatusan ($5≥5$), maka digit persepuluhan $8$ dibulatkan naik menjadi $9 \\implies 34,9$.\n\n\n\n(ii) Salah: $5,{2}^{2}=27,04$ (sangat dekat dengan 27). Maka $\\sqrt{27}≈5,2$, bukan $5,4$.\n\n\n\n(iii) Benar: $7,{7}^{2}=59,29$ dan $7,{8}^{2}=60,84$. Karena $59,29<60<60,84$, maka $\\sqrt{60}$ terletak di antara $7,7$ dan $7,8$.\n\n\n\n(iv) Benar: Bulatkan $396→400$ dan $204→200$. Hasil estimasi = $400×200=80.000$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah mengira $\\sqrt{27}≈5,4$ hanya karena membagi $27$ dengan $5$, tanpa melakukan pengujian perkalian kuadrat desimal.\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengira $\\sqrt{27}≈5,4$ hanya karena membagi $27$ dengan $5$, tanpa melakukan pengujian perkalian kuadrat desimal.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "kategori-3-4-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5594,
+      "paragraph_end": 5638,
+      "body_block_start": 5275,
+      "body_block_end_exclusive": 5309
+    },
+    "audit_id": "0e868995fdeb:I3:L4:Q9:O1:original",
+    "original_explanation": "Pembahasan:\n(a) BENAR: Perhatikan digit persatusan Bahan X ($6$). Karena $6≥5$, dibulatkan naik menjadi $5,5 gram$.\n(b) SALAH: Perhatikan digit persepuluhan Bahan Y ($7$). Karena $7≥5$, dibulatkan naik ke satuan terdekat menjadi $4gram$ (bukan $3 gram$).\n(c) BENAR: Bulatkan masing-masing ke persepuluhan terdekat:\nBahan X: $5,5 gram$ ($6≥5$)\nBahan Y: $3,8 gram$ ($5≥5$)\nBahan Z: $1,2 gram$ ($4<5$)\nTotal estimasi = $5,5+3,8+1,2=10,5 gram$.",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C4 (Menganalisis)\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nTiga bahan kimia kering di laboratorium ditimbang massanya:\n\n\n\nBahan X: $5,46 gram$\n\n\n\nBahan Y: $3,75 gram$\n\n\n\nBahan Z: $1,24 gram$\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis pembulatan berikut!\n\n\n\n<!-- table-028 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Massa Bahan X ($5,46 gram$) jika dibulatkan ke persepuluhan terdekat adalah $5,5 gram$.</td><td></td><td></td></tr>\n<tr><td>(b) Massa Bahan Y ($3,75gram$) jika dibulatkan ke satuan terdekat adalah $3 gram$.</td><td></td><td></td></tr>\n<tr><td>(c) Estimasi total massa ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah $10,5 gram$.</td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\n(a) BENAR: Perhatikan digit persatusan Bahan X ($6$). Karena $6≥5$, dibulatkan naik menjadi $5,5 gram$.\n\n\n\n(b) SALAH: Perhatikan digit persepuluhan Bahan Y ($7$). Karena $7≥5$, dibulatkan naik ke satuan terdekat menjadi $4gram$ (bukan $3 gram$).\n\n\n\n(c) BENAR: Bulatkan masing-masing ke persepuluhan terdekat:\n\n\n\n\nBahan X: $5,5 gram$ ($6≥5$)\n\n\n\nBahan Y: $3,8 gram$ ($5≥5$)\n\n\n\nBahan Z: $1,2 gram$ ($4<5$)\n\n\n\nTotal estimasi = $5,5+3,8+1,2=10,5 gram$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa membulatkan $3,75$ ke satuan terdekat dengan membuang desimalnya tanpa mengecek digit persepuluhan $7≥5→4$.\n\n",
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan $3,75$ ke satuan terdekat dengan membuang desimalnya tanpa mengecek digit persepuluhan $7≥5→4$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-3-5-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5684,
+      "paragraph_end": 5735,
+      "body_block_start": 5343,
+      "body_block_end_exclusive": 5395
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q1:O1:original",
+    "original_explanation": "Pembahasan:\nMengevaluasi aturan pembulatan pada bilangan $19.482$:\nLaporan A (Ribuan Terdekat):\nPerhatikan digit ratusan (yaitu $4$).\nKarena $4<5$, maka angka ribuan dibulatkan ke bawah menjadi $19.000$ orang.\nLaporan B (Ratusan Terdekat):\nPerhatikan digit puluhan (yaitu $8$).\nKarena $8≥5$, maka angka ratusan dibulatkan ke atas ($4+1=5$) menjadi $19.500$ orang.\nMaka, pasangan pembulatan yang tepat adalah $19.000$ orang dan $19.500$ orang, yang ditunjukkan oleh Evaluasi II.",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi II\n\n\n\nSeorang pengurus perpustakaan sekolah mengevaluasi dua laporan hasil pembulatan data pengunjung bulanan sebanyak $19.482$ orang:\n\n\n\nLaporan A: Dibulatkan ke ribuan terdekat.\n\n\n\nLaporan B: Dibulatkan ke ratusan terdekat.\n\n\n\nDua orang staf mengajukan lembar evaluasi hasil pembulatan:\n\n\n\nEvaluasi I: Laporan A = $20.000$ orang, Laporan B = $19.500$ orang\n\n\n\nEvaluasi II: Laporan A = $19.000$ orang, Laporan B = $19.500$ orang\n\n\n\nEvaluasi III: Laporan A = $19.000$ orang, Laporan B = $19.400$ orang\n\n\n\nEvaluasi IV: Laporan A = $20.000$ orang, Laporan B = $19.400$ orang\n\n\n\nEvaluasi manakah yang pasti benar secara aturan matematis?\n\n\n\nA. Evaluasi I\n\n\n\nB. Evaluasi II\n\n\n\nC. Evaluasi III\n\n\n\nD. Evaluasi IV\n\n\n\nPembahasan:\n\n\n\nMengevaluasi aturan pembulatan pada bilangan $19.482$:\n\n\n\nLaporan A (Ribuan Terdekat):\n\n\n\nPerhatikan digit ratusan (yaitu $4$).\n\n\n\nKarena $4<5$, maka angka ribuan dibulatkan ke bawah menjadi $19.000$ orang.\n\n\n\nLaporan B (Ratusan Terdekat):\n\n\n\n\nPerhatikan digit puluhan (yaitu $8$).\n\n\n\nKarena $8≥5$, maka angka ratusan dibulatkan ke atas ($4+1=5$) menjadi $19.500$ orang.\n\n\n\nMaka, pasangan pembulatan yang tepat adalah $19.000$ orang dan $19.500$ orang, yang ditunjukkan oleh Evaluasi II.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa melakukan pembulatan beruntun (membulatkan $19.482$ ke ratusan menjadi $19.500$, lalu membulatkan $19.500$ ke ribuan menjadi $20.000$), padahal pembulatan ke ribuan harus mengecek digit ratusan asli ($4<5→19.000$).\n\n",
+    "source_key_caption": "B. Evaluasi II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa melakukan pembulatan beruntun (membulatkan $19.482$ ke ratusan menjadi $19.500$, lalu membulatkan $19.500$ ke ribuan menjadi $20.000$), padahal pembulatan ke ribuan harus mengecek digit ratusan asli ($4<5→19.000$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-3-5-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5911,
+      "paragraph_end": 5947,
+      "body_block_start": 5570,
+      "body_block_end_exclusive": 5607
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q6:O1:original",
+    "original_explanation": "Pembahasan:\n(i) Benar: Perhatikan digit persatusan ($4<5$), maka digit persepuluhan $7$ tetap $\\implies 45,7$.\n(ii) Salah: $5,{5}^{2}=30,25$ (sangat dekat dengan 30). Maka $\\sqrt{30}≈5,5$, bukan $5,8$.\n(iii) Benar: $7,{0}^{2}=49,0$ dan $7,{1}^{2}=50,41$. Karena $49,0<50<50,41$, maka $\\sqrt{50}$ terletak di antara $7,0$ dan $7,1$.\n(iv) Benar: Bulatkan $497→500$ dan $302→300$. Hasil estimasi = $500×300=150.000$.",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\nKunci Jawaban: A, C, dan D\n\n\n\nDiberikan empat pernyataan evaluasi pembulatan dan aproksimasi bilangan real:\n\n\n\n(i) Hasil pembulatan $45,748$ ke satu tempat desimal (persepuluhan terdekat) adalah $45,7$.\n\n\n\n(ii) Nilai aproksimasi dari $\\sqrt{30}$ ke persepuluhan terdekat adalah $5,8$.\n\n\n\n(iii) Nilai dari $\\sqrt{50}$ berada di antara $7,0$ dan $7,1$.\n\n\n\n(iv) Hasil estimasi dari $497×302$ menggunakan pembulatan ke ratusan terdekat adalah $150.000$.\n\n\n\nManakah pernyataan evaluasi di atas yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan (i)\n\n\n\n[ ] B. Pernyataan (ii)\n\n\n\n[ ] C. Pernyataan (iii)\n\n\n\n[ ] D. Pernyataan (iv)\n\n\n\nPembahasan:\n\n\n\n(i) Benar: Perhatikan digit persatusan ($4<5$), maka digit persepuluhan $7$ tetap $\\implies 45,7$.\n\n\n\n(ii) Salah: $5,{5}^{2}=30,25$ (sangat dekat dengan 30). Maka $\\sqrt{30}≈5,5$, bukan $5,8$.\n\n\n\n(iii) Benar: $7,{0}^{2}=49,0$ dan $7,{1}^{2}=50,41$. Karena $49,0<50<50,41$, maka $\\sqrt{50}$ terletak di antara $7,0$ dan $7,1$.\n\n\n\n(iv) Benar: Bulatkan $497→500$ dan $302→300$. Hasil estimasi = $500×300=150.000$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa melakukan pembulatan bertahap pada pernyataan (i) (membulatkan $8→4$ menjadi $5$, lalu membulatkan $5→7$ menjadi $8$), padahal pembulatan harus mengecek langsung digit persatusan asli ($4<5→45,7$).\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa melakukan pembulatan bertahap pada pernyataan (i) (membulatkan $8→4$ menjadi $5$, lalu membulatkan $5→7$ menjadi $8$), padahal pembulatan harus mengecek langsung digit persatusan asli ($4<5→45,7$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "kategori-3-5-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 6042,
+      "paragraph_end": 6087,
+      "body_block_start": 5701,
+      "body_block_end_exclusive": 5736
+    },
+    "audit_id": "0e868995fdeb:I3:L5:Q9:O1:original",
+    "original_explanation": "Pembahasan:\n(a) BENAR: Perhatikan digit persatusan Bahan A ($6$). Karena $6≥5$, dibulatkan naik menjadi $6,5 gram$.\n(b) SALAH: Perhatikan digit persepuluhan Bahan B ($7$). Karena $7≥5$, dibulatkan naik ke satuan terdekat menjadi $5 gram$ (bukan $4 gram$).\n(c) BENAR: Bulatkan masing-masing ke persepuluhan terdekat:\nBahan A: $6,5 gram$ ($6≥5$)\nBahan B: $4,8 gram$ ($5≥5$)\nBahan C: $1,2 gram$ ($4<5$)\nTotal estimasi = $6,5+4,8+1,2=12,5 gram$.",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nTiga bahan masakan di kantin sekolah ditimbang massanya:\n\n\n\nBahan A: $6,46 gram$\n\n\n\nBahan B: $4,75 gram$\n\n\n\nBahan C: $1,24 gram$\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi pembulatan berikut!\n\n\n\n<!-- table-030 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Massa Bahan A ($6,46 gram$) jika dibulatkan ke persepuluhan terdekat adalah $6,5 gram$.</td><td></td><td></td></tr>\n<tr><td>(b) Massa Bahan B ($4,75 gram$) jika dibulatkan ke satuan terdekat adalah $4gram$.</td><td></td><td></td></tr>\n<tr><td>(c) Estimasi total massa ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah $12,5 gram$.</td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\n\n(a) BENAR: Perhatikan digit persatusan Bahan A ($6$). Karena $6≥5$, dibulatkan naik menjadi $6,5 gram$.\n\n\n\n(b) SALAH: Perhatikan digit persepuluhan Bahan B ($7$). Karena $7≥5$, dibulatkan naik ke satuan terdekat menjadi $5 gram$ (bukan $4 gram$).\n\n\n\n(c) BENAR: Bulatkan masing-masing ke persepuluhan terdekat:\n\n\n\n\nBahan A: $6,5 gram$ ($6≥5$)\n\n\n\nBahan B: $4,8 gram$ ($5≥5$)\n\n\n\nBahan C: $1,2 gram$ ($4<5$)\n\n\n\nTotal estimasi = $6,5+4,8+1,2=12,5 gram$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa membulatkan $4,75$ ke satuan terdekat dengan membuang desimalnya tanpa mengecek digit persepuluhan $7≥5→5$.\n\n",
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan $4,75$ ke satuan terdekat dengan membuang desimalnya tanpa mengecek digit persepuluhan $7≥5→5$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-4-4-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7306,
+      "paragraph_end": 7367,
+      "body_block_start": 6943,
+      "body_block_end_exclusive": 7005
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q1:O1:original",
+    "original_explanation": "Pembahasan:\nMenganalisis KPK dari 6, 8, dan 12:\n$6=2×3$\n$8={2}^{3}$\n$12={2}^{2}×3$\n$KPK(6,8,12)={2}^{3}×3=24 hari$\nMenganalisis interval penyemprotan:\nBersamaan ke-1: Tanggal 2 Mei (detik/hari ke-0).\nBersamaan ke-2: $24$ hari setelah 2 Mei.\nBersamaan ke-3: $2×24=48$ hari setelah 2 Mei.\nMenganalisis penanggalan:\nBulan Mei memiliki $31$ hari. Sisa hari di bulan Mei setelah tanggal 2 Mei adalah $31-2=29$ hari.\nSisa hari yang dihitung di bulan Juni: $48-29=19$ hari.\nMaka, penyemprotan ketiga jatuh pada tanggal 19 Juni. Alasan ini memvalidasi Analisis II.",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: B. Analisis II\n\n\n\nTiga orang siswa memeriksa jadwal penyemprotan disinfektan untuk tiga area ruang di sekolah:\n\n\n\nRuang Kelas: setiap 6 hari sekali\n\n\n\nRuang Laboratorium: setiap 8 hari sekali\n\n\n\nRuang Perpustakaan: setiap 12 hari sekali\n\n\n\nJika penyemprotan bersamaan pertama dilakukan pada tanggal 2 Mei, siswa menganalisis tanggal berapa penyemprotan bersamaan untuk ketiga kalinya akan dilakukan:\n\n\n\nAnalisis I: Penyemprotan ketiga terjadi 24 hari setelah 2 Mei, yaitu tanggal 26 Mei.\n\n\n\nAnalisis II: Penyemprotan ketiga terjadi $2×24=48$ hari setelah 2 Mei, yaitu tanggal 19 Juni (mengingat bulan Mei memiliki 31 hari).\n\n\n\nAnalisis III: Penyemprotan ketiga terjadi $2×24=48$ hari setelah 2 Mei, yaitu tanggal 18 Juni (menganggap bulan Mei memiliki 30 hari).\n\n\n\nAnalisis IV: Penyemprotan ketiga terjadi 72 hari setelah 2 Mei, yaitu tanggal 13 Juli.\n\n\n\nHasil analisis siapakah yang pasti benar?\n\n\n\nA. Analisis I\n\n\n\nB. Analisis II\n\n\n\nC. Analisis III\n\n\n\nD. Analisis IV\n\n\n\nPembahasan:\n\n\nMenganalisis KPK dari 6, 8, dan 12:\n\n\n\n$6=2×3$\n\n\n\n$8={2}^{3}$\n\n\n\n$12={2}^{2}×3$\n\n\n\n$KPK(6,8,12)={2}^{3}×3=24 hari$\n\n\n\nMenganalisis interval penyemprotan:\n\n\nBersamaan ke-1: Tanggal 2 Mei (detik/hari ke-0).\n\n\n\nBersamaan ke-2: $24$ hari setelah 2 Mei.\n\n\n\nBersamaan ke-3: $2×24=48$ hari setelah 2 Mei.\n\n\n\nMenganalisis penanggalan:\n\n\n\nBulan Mei memiliki $31$ hari. Sisa hari di bulan Mei setelah tanggal 2 Mei adalah $31-2=29$ hari.\n\n\n\nSisa hari yang dihitung di bulan Juni: $48-29=19$ hari.\n\n\n\nMaka, penyemprotan ketiga jatuh pada tanggal 19 Juni. Alasan ini memvalidasi Analisis II.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira penyemprotan \"ketiga kalinya\" dihitung dengan mengalikan $3×24=72$ hari, atau salah menganggap bulan Mei berumur 30 hari.\n\n",
+    "source_key_caption": "B. Analisis II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira penyemprotan \"ketiga kalinya\" dihitung dengan mengalikan $3×24=72$ hari, atau salah menganggap bulan Mei berumur 30 hari.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-4-4-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7526,
+      "paragraph_end": 7561,
+      "body_block_start": 7163,
+      "body_block_end_exclusive": 7199
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q6:O1:original",
+    "original_explanation": "Pembahasan:\nMenganalisis faktorisasi prima:\n$45={3}^{2}×5$\n$60={2}^{2}×3×5$\n$90=2×{3}^{2}×5$ (Pernyataan A Benar)\nMenganalisis FPB dan KPK:\n$FPB(45,60,90)={3}^{1}×{5}^{1}=15$ (Pernyataan B Salah, Pernyataan C Benar).\n$KPK(45,60,90)={2}^{2}×{3}^{2}×5=4×9×5=180$ (Pernyataan D Benar).",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: A, C, dan D\n\n\n\nDiberikan tiga buah bilangan asli: $45,60,$ dan $90$. Seorang siswa menganalisis hubungan faktorisasi prima, FPB, dan KPK dari ketiga bilangan tersebut.\n\n\n\nManakah hasil analisis berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Faktorisasi prima dari $90$ adalah $2×{3}^{2}×5$.\n\n\n\n[ ] B. FPB dari ketiga bilangan tersebut adalah 30.\n\n\n\n[ ] C. FPB dari ketiga bilangan tersebut adalah 15.\n\n\n\n[ ] D. KPK dari ketiga bilangan tersebut adalah 180.\n\n\n\nPembahasan:\n\n\n\nMenganalisis faktorisasi prima:\n\n\n\n$45={3}^{2}×5$\n\n\n\n$60={2}^{2}×3×5$\n\n\n\n$90=2×{3}^{2}×5$ (Pernyataan A Benar)\n\n\n\nMenganalisis FPB dan KPK:\n\n\n\n$FPB(45,60,90)={3}^{1}×{5}^{1}=15$ (Pernyataan B Salah, Pernyataan C Benar).\n\n\n\n$KPK(45,60,90)={2}^{2}×{3}^{2}×5=4×9×5=180$ (Pernyataan D Benar).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru mengira FPB adalah 30 karena 30 membagi 60 dan 90, namun mengabaikan bahwa 45 tidak habis dibagi 30.\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru mengira FPB adalah 30 karena 30 membagi 60 dan 90, namun mengabaikan bahwa 45 tidak habis dibagi 30.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "kategori-4-4-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7640,
+      "paragraph_end": 7683,
+      "body_block_start": 7277,
+      "body_block_end_exclusive": 7307
+    },
+    "audit_id": "0e868995fdeb:I4:L4:Q9:O1:original",
+    "original_explanation": "Pembahasan:\nMenganalisis FPB dari $84$ dan $126$:\n$84={2}^{2}×3×7$\n$126=2×{3}^{2}×7$\n$FPB(84,126)=2×3×7=42$ kantong.\nEvaluasi pernyataan:\n(a) BENAR: Kantong terbanyak = FPB = $42$ kantong.\n(b) SALAH: Makanan ringan per kantong = $126÷42=3$ kemasan (bukan $2$ kemasan; $2$ kemasan adalah minuman $84÷42=2$).\n(c) BENAR: Minuman per kantong = $2$ kemasan; Makanan per kantong = $3$ kemasan. Total per kantong = $2+3=5$ kemasan.",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nSebuah panitia kegiatan sekolah menyediakan $84$ kemasan minuman kotak dan $126$ kemasan makanan ringan. Seluruh konsumsi dikemas ke dalam beberapa kantong plastik dengan komposisi yang persis sama tanpa ada sisa.\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!\n\n\n\n<!-- table-032 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Kantong plastik terbanyak yang dapat digunakan untuk mengemas seluruh konsumsi adalah $42$ kantong.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Banyaknya makanan ringan pada masing-masing kantong plastik adalah $2$ kemasan.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Total seluruh kemasan (minuman dan makanan) pada masing-masing kantong plastik adalah $5$ kemasan.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\nMenganalisis FPB dari $84$ dan $126$:\n\n\n\n$84={2}^{2}×3×7$\n\n\n\n$126=2×{3}^{2}×7$\n\n\n\n$FPB(84,126)=2×3×7=42$ kantong.\n\n\n\nEvaluasi pernyataan:\n\n\n\n(a) BENAR: Kantong terbanyak = FPB = $42$ kantong.\n\n\n\n(b) SALAH: Makanan ringan per kantong = $126÷42=3$ kemasan (bukan $2$ kemasan; $2$ kemasan adalah minuman $84÷42=2$).\n\n\n\n(c) BENAR: Minuman per kantong = $2$ kemasan; Makanan per kantong = $3$ kemasan. Total per kantong = $2+3=5$ kemasan.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa tertukar membagi jumlah minuman kotak ($84÷42=2$) sebagai jumlah makanan ringan.\n\n",
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar membagi jumlah minuman kotak ($84÷42=2$) sebagai jumlah makanan ringan.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-4-5-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7747,
+      "paragraph_end": 7791,
+      "body_block_start": 7356,
+      "body_block_end_exclusive": 7401
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q1:O1:original",
+    "original_explanation": "Pembahasan:\nMengevaluasi KPK dari 10, 15, dan 20:\n$10=2×5$\n$15=3×5$\n$20={2}^{2}×5$\n$KPK(10,15,20)={2}^{2}×3×5=4×15=60 detik$\nEvaluasi I salah karena angka 30 tidak habis dibagi oleh 20 ($30÷20=1,5$).\nMaka, Evaluasi II adalah yang bernilai benar secara matematis.",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi II\n\n\n\nTiga buah sistem lampu otomatis di area taman sekolah menyala secara berkala:\n\n\n\nLampu Merah: setiap 10 detik\n\n\n\nLampu Kuning: setiap 15 detik\n\n\n\nLampu Hijau: setiap 20 detik\n\n\n\nKetiga lampu menyala bersamaan untuk pertama kalinya pada detik ke-0. Dua orang siswa mengevaluasi klaim waktu menyala bersama berikutnya:\n\n\n\nEvaluasi I: \"Ketiga lampu akan menyala bersamaan kembali untuk kedua kalinya pada detik ke-30.\"\n\n\n\nEvaluasi II: \"Ketiga lampu akan menyala bersamaan kembali untuk kedua kalinya pada detik ke-60, karena $KPK(10,15,20)=60$.\"\n\n\n\nHasil evaluasi manakah yang pasti benar?\n\n\n\nA. Evaluasi I, karena 30 adalah kelipatan dari 10 dan 15\n\n\n\nB. Evaluasi II, karena 60 merupakan kelipatan persekutuan terkecil dari 10, 15, dan 20\n\n\n\nC. Evaluasi I, karena 30 merupakan hasil kali $10+20$\n\n\n\nD. Evaluasi II, karena $10×15×20=3.000$\n\n\n\nPembahasan:\n\n\n\nMengevaluasi KPK dari 10, 15, dan 20:\n\n\n$10=2×5$\n\n$15=3×5$\n\n\n\n$20={2}^{2}×5$\n\n\n$KPK(10,15,20)={2}^{2}×3×5=4×15=60 detik$\n\n\n\nEvaluasi I salah karena angka 30 tidak habis dibagi oleh 20 ($30÷20=1,5$).\n\n\n\nMaka, Evaluasi II adalah yang bernilai benar secara matematis.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa terkecoh memilih angka 30 hanya karena 30 merupakan kelipatan dari dua angka pertama (10 dan 15), tanpa memeriksa apakah 30 juga merupakan kelipatan dari angka ketiga (20).\n\n",
+    "source_key_caption": "B. Evaluasi II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih angka 30 hanya karena 30 merupakan kelipatan dari dua angka pertama (10 dan 15), tanpa memeriksa apakah 30 juga merupakan kelipatan dari angka ketiga (20).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-4-5-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7951,
+      "paragraph_end": 7986,
+      "body_block_start": 7560,
+      "body_block_end_exclusive": 7596
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q6:O1:original",
+    "original_explanation": "Pembahasan:\nEvaluasi faktorisasi prima:\n$54=2×{3}^{3}$ (Pernyataan A Benar)\n$72={2}^{3}×{3}^{2}$\n$90=2×{3}^{2}×5$\nEvaluasi FPB dan KPK:\n$FPB(54,72,90)={2}^{1}×{3}^{2}=18$ (Pernyataan B Salah, Pernyataan C Benar).\n$KPK(54,72,90)={2}^{3}×{3}^{3}×5=8×27×5=1.080$ (Pernyataan D Benar).",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, C, dan D\n\n\n\nDiberikan tiga buah bilangan asli: $54,72,$ dan $90$. Seorang siswa menyusun evaluasi terhadap faktorisasi prima, FPB, dan KPK dari ketiga bilangan tersebut.\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Faktorisasi prima dari $54$ adalah $2×{3}^{3}$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"$FPB(54,72,90)=36$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"$FPB(54,72,90)=18$\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"$KPK(54,72,90)=1.080$\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nEvaluasi faktorisasi prima:\n\n\n\n$54=2×{3}^{3}$ (Pernyataan A Benar)\n\n\n\n$72={2}^{3}×{3}^{2}$\n\n\n\n$90=2×{3}^{2}×5$\n\n\n\nEvaluasi FPB dan KPK:\n\n\n\n$FPB(54,72,90)={2}^{1}×{3}^{2}=18$ (Pernyataan B Salah, Pernyataan C Benar).\n\n\n\n$KPK(54,72,90)={2}^{3}×{3}^{3}×5=8×27×5=1.080$ (Pernyataan D Benar).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah mengira FPB adalah 36 hanya karena 36 membagi 72, tanpa mengecek bahwa 54 tidak habis dibagi 36.\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah mengira FPB adalah 36 hanya karena 36 membagi 72, tanpa mengecek bahwa 54 tidak habis dibagi 36.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "kategori-4-5-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 8104,
+      "paragraph_end": 8154,
+      "body_block_start": 7699,
+      "body_block_end_exclusive": 7736
+    },
+    "audit_id": "0e868995fdeb:I4:L5:Q10:O1:original",
+    "original_explanation": "Pembahasan:\nMengevaluasi FPB dari $105$ dan $135$:\n$105=3×5×7$\n$135={3}^{3}×5$\n$FPB(105,135)=3×5=15cm$.\nEvaluasi pernyataan:\n(a) BENAR: Potongan terpanjang = FPB = $15cm$.\n(b) BENAR:\nPotongan kawat $105cm=105÷15=7$ potongan.\nPotongan kawat $135cm=135÷15=9$ potongan.\nTotal potongan = $7+9=16$ potongan.\n(c) SALAH: Perbandingan potongan kawat $135 cm$ ($9$ potongan) dan $105cm$ ($7$ potongan) adalah $9:7$, bukan dua kali lipat ($2:1$).",
+    "source_text": "Soal 10 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH\n\n\n\nDua kawat praktikum berukuran $105 cm$ dan $135 cm$ dipotong menjadi beberapa bagian sama panjang tanpa sisa. Seorang siswa mengevaluasi klaim hasil pemotongan kawat tersebut.\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n\n\n<!-- table-035 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Ukuran potongan kawat terpanjang yang dapat dibuat adalah $15 cm$.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Jumlah seluruh potongan kawat yang diperoleh dari kedua kawat tersebut adalah $16$ potongan.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Jumlah potongan dari kawat $135 cm$ adalah dua kali lipat dari jumlah potongan kawat $105 cm$.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\nMengevaluasi FPB dari $105$ dan $135$:\n\n\n\n$105=3×5×7$\n\n\n\n$135={3}^{3}×5$\n\n\n\n$FPB(105,135)=3×5=15cm$.\n\n\n\nEvaluasi pernyataan:\n\n(a) BENAR: Potongan terpanjang = FPB = $15cm$.\n\n\n\n(b) BENAR:\n\n\n\nPotongan kawat $105cm=105÷15=7$ potongan.\n\n\n\nPotongan kawat $135cm=135÷15=9$ potongan.\n\n\n\nTotal potongan = $7+9=16$ potongan.\n\n\n\n(c) SALAH: Perbandingan potongan kawat $135 cm$ ($9$ potongan) dan $105cm$ ($7$ potongan) adalah $9:7$, bukan dua kali lipat ($2:1$).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\nSiswa keliru mengaitkan rasio potongan $9:7$ dengan rasio dua kali lipat.\n\n\n\n",
+    "source_key_caption": "(a) BENAR, (b) BENAR, (c) SALAH",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru mengaitkan rasio potongan $9:7$ dengan rasio dua kali lipat.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-5-4-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9272,
+      "paragraph_end": 9319,
+      "body_block_start": 8721,
+      "body_block_end_exclusive": 8769
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q1:O1:original",
+    "original_explanation": "Pembahasan:\nMenganalisis rasio Campuran A (sirup : air):\n$Rasio A=15:45=\\frac{15}{15}:\\frac{45}{15}=1:3$\nMenganalisis rasio Campuran B (sirup : air):\n$Rasio B=20:60=\\frac{20}{20}:\\frac{60}{20}=1:3$\nKarena kedua campuran menghasilkan bentuk rasio paling sederhana yang sama ($1:3$), maka kedua campuran bersifat ekuivalen dan memiliki rasa manis yang sama.\nMaka, Analisis II adalah yang bernilai benar.",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: B. Analisis II\n\n\n\nSeorang pengurus OSIS menganalisis dua resep campuran sirup rasa buah untuk kegiatan jalan sehat sekolah:\n\n\n\nCampuran A: $15ml$ sirup dicampur dengan $45ml$ air mineral.\n\n\n\nCampuran B: $20ml$ sirup dicampur dengan $60ml$ air mineral.\n\n\n\nDua siswa memberikan laporan analisis bentuk rasio paling sederhana antara volume sirup dan air mineral pada kedua campuran tersebut:\n\n\n\nAnalisis I: Campuran A memiliki rasio $1:3$, sedangkan Campuran B memiliki rasio $1:4$, sehingga Campuran A lebih manis.\n\n\n\nAnalisis II: Campuran A dan Campuran B keduanya memiliki rasio ekuivalen $1:3$, sehingga tingkat rasa manis kedua campuran tersebut persis sama.\n\n\n\nAnalisis III: Campuran A memiliki rasio $15:45$ dan Campuran B memiliki rasio $20:60$, sehingga keduanya tidak ekuivalen.\n\n\n\nAnalisis IV: Campuran B lebih manis karena volume sirupnya lebih banyak ($20ml>15ml$).\n\n\n\nHasil analisis siapakah yang pasti benar secara matematis?\n\n\n\nA. Analisis I\n\n\n\nB. Analisis II\n\n\n\nC. Analisis III\n\n\n\nD. Analisis IV\n\n\n\nPembahasan:\n\n\n\n\nMenganalisis rasio Campuran A (sirup : air):\n\n\n\n$Rasio A=15:45=\\frac{15}{15}:\\frac{45}{15}=1:3$\n\n\n\nMenganalisis rasio Campuran B (sirup : air):\n\n\n\n$Rasio B=20:60=\\frac{20}{20}:\\frac{60}{20}=1:3$\n\n\n\nKarena kedua campuran menghasilkan bentuk rasio paling sederhana yang sama ($1:3$), maka kedua campuran bersifat ekuivalen dan memiliki rasa manis yang sama.\n\n\n\nMaka, Analisis II adalah yang bernilai benar.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa langsung menyimpulkan Campuran B lebih manis hanya karena volume sirupnya lebih banyak ($20>15$) tanpa membandingkannya terhadap total volume air pelarutnya.\n\n",
+    "source_key_caption": "B. Analisis II",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa langsung menyimpulkan Campuran B lebih manis hanya karena volume sirupnya lebih banyak ($20>15$) tanpa membandingkannya terhadap total volume air pelarutnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-5-4-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9485,
+      "paragraph_end": 9518,
+      "body_block_start": 8925,
+      "body_block_end_exclusive": 8959
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q6:O1:original",
+    "original_explanation": "Pembahasan:\nA (Benar): Kotak A = $36:24=\\frac{36}{12}:\\frac{24}{12}=3:2$.\nB (Salah): Kotak B = $54:36=\\frac{54}{18}:\\frac{36}{18}=3:2$ (bukan $4:3$).\nC (Benar): Kedua kotak memiliki bentuk rasio paling sederhana yang sama yaitu $3:2$, sehingga ekuivalen.\nD (Benar): Total bola Kotak A = $36+24=60$. Rasio merah ke total = $36:60=3:5$.",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: A, C, dan D\n\n\n\nDua buah kotak penyimpanan alat olahraga di sekolah dianalisis komposisi bola pelastik warna merah dan hijau:\n\n\n\nKotak A: berisi $36$ bola merah dan $24$ bola hijau.\n\n\n\nKotak B: berisi $54$ bola merah dan $36$ bola hijau.\n\n\n\nManakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Rasio paling sederhana antara bola merah dan bola hijau pada Kotak A adalah $3:2$.\n\n\n\n[ ] B. Rasio paling sederhana antara bola merah dan bola hijau pada Kotak B adalah $4:3$.\n\n\n\n[ ] C. Komposisi bola merah dan hijau pada Kotak A ekuivalen (senilai) dengan Kotak B.\n\n\n\n[ ] D. Rasio bola merah terhadap seluruh bola pada Kotak A adalah $3:5$.\n\n\n\nPembahasan:\n\n\n\nA (Benar): Kotak A = $36:24=\\frac{36}{12}:\\frac{24}{12}=3:2$.\n\n\n\nB (Salah): Kotak B = $54:36=\\frac{54}{18}:\\frac{36}{18}=3:2$ (bukan $4:3$).\n\n\n\nC (Benar): Kedua kotak memiliki bentuk rasio paling sederhana yang sama yaitu $3:2$, sehingga ekuivalen.\n\n\n\nD (Benar): Total bola Kotak A = $36+24=60$. Rasio merah ke total = $36:60=3:5$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa keliru menyederhanakan $54:36$ menjadi $4:3$ karena salah membagi dengan angka pembagi FPB.\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menyederhanakan $54:36$ menjadi $4:3$ karena salah membagi dengan angka pembagi FPB.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "kategori-5-4-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9583,
+      "paragraph_end": 9629,
+      "body_block_start": 9023,
+      "body_block_end_exclusive": 9056
+    },
+    "audit_id": "0e868995fdeb:I5:L4:Q9:O1:original",
+    "original_explanation": "Pembahasan:\nHitung harga per lembar Paket X:\n$Harga X=\\frac{Rp21.000,00}{30 lembar}=Rp700,00/lembar(Pernyataan(a)BENAR)$\nHitung harga per lembar Paket Y:\n$Harga Y=\\frac{Rp32.500,00}{50 lembar}=Rp650,00/lembar(Pernyataan(b)SALAH)$\nBandingkan harga per lembar:\n$Rp650,00<Rp700,00$\nMaka, Paket Y memang lebih murah Rp50,00 per lembar (Pernyataan (c) BENAR).",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C4 (Menganalisis)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nPengurus OSIS menganalisis dua harga paket kertas karton tebal untuk dekorasi:\n\n\n\nPaket X: berisi $30$ lembar seharga Rp21.000,00\n\n\n\nPaket Y: berisi $50$ lembar seharga Rp32.500,00\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis laju harga per lembar berikut!\n\n\n\n<!-- table-049 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Harga per lembar kertas pada Paket X adalah Rp700,00.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Harga per lembar kertas pada Paket Y adalah Rp700,00.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Paket Y menawarkan harga per lembar yang lebih murah dibandingkan Paket X.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\nHitung harga per lembar Paket X:\n\n\n\n$Harga X=\\frac{Rp21.000,00}{30 lembar}=Rp700,00/lembar(Pernyataan(a)BENAR)$\n\n\n\nHitung harga per lembar Paket Y:\n\n\n\n$Harga Y=\\frac{Rp32.500,00}{50 lembar}=Rp650,00/lembar(Pernyataan(b)SALAH)$\n\n\n\nBandingkan harga per lembar:\n\n\n\n$Rp650,00<Rp700,00$\n\nMaka, Paket Y memang lebih murah Rp50,00 per lembar (Pernyataan (c) BENAR).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\nSiswa mengira harga per lembar Paket Y sama dengan Paket X (Rp700,00) karena membulatkan hasil pembagian $32.500÷50$ secara ceroboh.\n\n",
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira harga per lembar Paket Y sama dengan Paket X (Rp700,00) karena membulatkan hasil pembagian $32.500÷50$ secara ceroboh.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-5-5-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9678,
+      "paragraph_end": 9720,
+      "body_block_start": 9083,
+      "body_block_end_exclusive": 9126
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q1:O1:original",
+    "original_explanation": "Pembahasan:\nMengevaluasi rasio Racikan X (sirup : air):\n$Rasio X=16:48=\\frac{16}{16}:\\frac{48}{16}=1:3$\nMengevaluasi rasio Racikan Y (sirup : air):\n$Rasio Y=25:75=\\frac{25}{25}:\\frac{75}{25}=1:3$\nKarena bentuk rasio paling sederhana dari kedua racikan bernilai identik ($1:3$), maka kedua larutan memiliki proporsi kepekatan dan rasa manis yang persis sama (ekuivalen).\nMaka, Evaluasi B adalah yang tepat.",
+    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: B. Evaluasi B\n\n\n\nSeorang pengurus OSIS mengevaluasi dua alternatif resep racikan sirup manis untuk penyegaran peserta kegiatan bakti sosial sekolah:\n\n\n\nRacikan X: $16ml$ sirup pekat dilarutkan dalam $48 ml$ air mineral.\n\n\n\nRacikan Y: $25ml$ sirup pekat dilarutkan dalam $75 ml$ air mineral.\n\n\n\nDua anggota panitia memberikan evaluasi terhadap tingkat kemanisan kedua racikan tersebut:\n\n\n\nEvaluasi A: \"Racikan Y lebih manis daripada Racikan X, karena volume sirup pekat yang digunakan pada Racikan Y lebih banyak ($25 ml>16 ml$).\"\n\n\n\nEvaluasi B: \"Racikan X dan Racikan Y memiliki tingkat kemanisan yang persis sama, karena nilai rasio sederhana antara sirup pekat dan air pada kedua racikan tersebut sama-sama ekuivalen ($1:3$).\"\n\n\n\nManakah evaluasi yang pasti benar secara matematis?\n\n\n\nA. Evaluasi A\n\n\n\nB. Evaluasi B\n\n\n\nC. Kedua evaluasi salah\n\n\n\nD. Racikan X lebih manis karena pembanding airnya lebih sedikit\n\n\n\nPembahasan:\n\n\n\n\nMengevaluasi rasio Racikan X (sirup : air):\n\n\n\n$Rasio X=16:48=\\frac{16}{16}:\\frac{48}{16}=1:3$\n\n\n\nMengevaluasi rasio Racikan Y (sirup : air):\n\n\n\n$Rasio Y=25:75=\\frac{25}{25}:\\frac{75}{25}=1:3$\n\n\n\nKarena bentuk rasio paling sederhana dari kedua racikan bernilai identik ($1:3$), maka kedua larutan memiliki proporsi kepekatan dan rasa manis yang persis sama (ekuivalen).\n\n\nMaka, Evaluasi B adalah yang tepat.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\nSiswa terkecoh memilih Evaluasi A karena membandingkan angka absolut sirup ($25 ml>16 ml$) tanpa memperhitungkan perbandingan proporsional terhadap pelarut airnya.\n\n",
+    "source_key_caption": "B. Evaluasi B",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih Evaluasi A karena membandingkan angka absolut sirup ($25 ml>16 ml$) tanpa memperhitungkan perbandingan proporsional terhadap pelarut airnya.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "mcma-5-5-6": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 6,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9903,
+      "paragraph_end": 9936,
+      "body_block_start": 9299,
+      "body_block_end_exclusive": 9333
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q6:O1:original",
+    "original_explanation": "Pembahasan:\nA (Benar): Tempat I = $45:30=\\frac{45}{15}:\\frac{30}{15}=3:2$.\nB (Salah): Tempat II = $60:40=\\frac{60}{20}:\\frac{40}{20}=3:2$ (bukan $4:3$).\nC (Benar): Karena kedua tempat bernilai rasio paling sederhana $3:2$, maka keduanya ekuivalen.\nD (Benar): Total cat Tempat I = $45+30=75$. Rasio merah ke total = $45:75=3:5$.",
+    "source_text": "Soal 6 (Bentuk Soal: PGK Multiple Choice Multiple Answer)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: A, C, dan D\n\n\n\nDua buah tempat penyimpanan perlengkapan prakarya sekolah dianalisis komposisi cat warna merah dan putih:\n\n\n\nTempat I: memuat $45$ botol cat merah dan $30$ botol cat putih.\n\n\n\nTempat II: memuat $60$ botol cat merah dan $40$ botol cat putih.\n\n\n\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\n\n\n\n[ ] A. Pernyataan \"Rasio paling sederhana antara cat merah dan cat putih di Tempat I adalah $3:2$\" adalah BENAR.\n\n\n\n[ ] B. Pernyataan \"Rasio paling sederhana antara cat merah dan cat putih di Tempat II adalah $4:3$\" adalah BENAR.\n\n\n\n[ ] C. Pernyataan \"Komposisi cat merah dan cat putih di Tempat I ekuivalen (senilai) dengan Tempat II\" adalah BENAR.\n\n\n\n[ ] D. Pernyataan \"Rasio cat merah terhadap seluruh cat di Tempat I adalah $3:5$\" adalah BENAR.\n\n\n\nPembahasan:\n\n\n\nA (Benar): Tempat I = $45:30=\\frac{45}{15}:\\frac{30}{15}=3:2$.\n\n\n\nB (Salah): Tempat II = $60:40=\\frac{60}{20}:\\frac{40}{20}=3:2$ (bukan $4:3$).\n\n\n\nC (Benar): Karena kedua tempat bernilai rasio paling sederhana $3:2$, maka keduanya ekuivalen.\n\n\n\nD (Benar): Total cat Tempat I = $45+30=75$. Rasio merah ke total = $45:75=3:5$.\n\n\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa menyederhanakan $60:40$ secara keliru menjadi $4:3$ sehingga mengabaikan fakta ekuivalensi kedua tempat tersebut.\n\n",
+    "source_key_caption": "A, C, dan D",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menyederhanakan $60:40$ secara keliru menjadi $4:3$ sehingga mengabaikan fakta ekuivalensi kedua tempat tersebut.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ]
+  },
+  "kategori-5-5-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+    "source_document_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 10001,
+      "paragraph_end": 10048,
+      "body_block_start": 9397,
+      "body_block_end_exclusive": 9431
+    },
+    "audit_id": "0e868995fdeb:I5:L5:Q9:O1:original",
+    "original_explanation": "Pembahasan:\nHitung harga per kotak Paket A:\n$Harga A=\\frac{Rp36.000,00}{20kotak}=Rp1.800,00/kotak(Pernyataan(a)BENAR)$\nHitung harga per kotak Paket B:\n$Harga B=\\frac{Rp59.500,00}{35 kotak}=Rp1.700,00/kotak(Pernyataan(b)SALAH)$\nMembandingkan harga per kotak:\n$Rp1.700,00<Rp1.800,00$\nMaka, Paket B memang lebih murah Rp100,00 per kotak (Pernyataan (c) BENAR).",
+    "source_text": "Soal 9 (Bentuk Soal: PGK Kategori - Benar/Salah)\n\nLevel Kognitif: C5 (Mengevaluasi)\n\n\n\nKunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR\n\n\n\nPengurus OSIS mengevaluasi dua pilihan paket kemasan minuman kotak untuk konsumsi pentas seni:\n\n\n\nPaket A: berisi $20$ kotak seharga Rp36.000,00\n\n\n\nPaket B: berisi $35$ kotak seharga Rp59.500,00\n\n\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi laju harga per kotak berikut!\n\n\n\n<!-- table-053 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Harga per kotak minuman pada Paket A adalah Rp1.800,00.<br/></td><td></td><td></td></tr>\n<tr><td>(b) Harga per kotak minuman pada Paket B adalah Rp1.800,00.<br/></td><td></td><td></td></tr>\n<tr><td>(c) Paket B menawarkan harga per kotak yang lebih murah dibandingkan Paket A.<br/></td><td></td><td></td></tr>\n</table>\n\nPembahasan:\n\n\n\n\nHitung harga per kotak Paket A:\n\n\n\n$Harga A=\\frac{Rp36.000,00}{20kotak}=Rp1.800,00/kotak(Pernyataan(a)BENAR)$\n\n\n\nHitung harga per kotak Paket B:\n\n\n\n$Harga B=\\frac{Rp59.500,00}{35 kotak}=Rp1.700,00/kotak(Pernyataan(b)SALAH)$\n\n\n\nMembandingkan harga per kotak:\n\n\n\n\n\n$Rp1.700,00<Rp1.800,00$\n\nMaka, Paket B memang lebih murah Rp100,00 per kotak (Pernyataan (c) BENAR).\n\n\n\nKesalahan Umum yang Diantisipasi:\n\n\n\n\nSiswa mengira harga per kotak Paket B sama dengan Paket A (Rp1.800,00) karena melakukan pembulatan tanpa menghitung harga pasti.\n\n",
+    "source_key_caption": "(a) BENAR, (b) SALAH, (c) BENAR",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira harga per kotak Paket B sama dengan Paket A (Rp1.800,00) karena melakukan pembulatan tanpa menghitung harga pasti.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-level45-batch1",
+    "notes": [
+      "Generator lokal, bukan persetujuan publikasi atau kesetaraan kesulitan/IRT.",
+      "Nomor sumber dipertahankan; penomoran tidak dipadatkan untuk batch parsial.",
+      "Pecahan simbolik LaTeX a/b dinormalisasi ke (a)/(b) untuk menghindari placeholder template; teks sumber mentah tetap disimpan."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  }
+}

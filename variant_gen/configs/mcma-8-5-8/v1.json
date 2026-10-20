@@ -1,0 +1,127 @@
+{
+  "question_id": "mcma-8-5-8",
+  "config_version": 1,
+  "original_hash": "b9fb834ecd4dc3a2",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else (70+k/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else (75+k/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else (80+k/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'78' if k == 0 else (78+k/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'225' if k == 0 else (225+3*k/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'87' if k == 0 else (87+k/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else (90+k/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'85' if k == 0 else (85+k/4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "225+3*k/4",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "78+k/4",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "87+k/4",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "90+k/4",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "85+k/4",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa SMP mengikuti ujian modul matematika sebanyak 4 kali. Nilai dari 3 ujian pertama adalah {v0}, {v1}, dan {v2}. Agar nilai rata-rata dari 4 kali ujian tidak kurang dari {v3}, siswa tersebut mengevaluasi nilai ujian ke-4 ($x$). Manakah pernyataan evaluatif berikut yang benar? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Model pertidaksamaan yang sesuai adalah $\\frac{{v4}+x}{4}≥{v3}$.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Nilai ujian ke-4 yang harus diperoleh siswa tersebut minimal {v5}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika siswa tersebut memperoleh nilai {v6} pada ujian ke-4, syarat rata-rata akan terpenuhi.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Nilai ujian ke-4 sebesar {v7} sudah cukup untuk memenuhi syarat rata-rata.",
+      "correct": false
+    }
+  ],
+  "explanation": "Total tiga nilai {v8}. Syarat (total+x)/4 ≥ {v9} memberi x ≥ {v10}. Nilai {v11} memenuhi batas; {v12} tidak. A, B, C benar; D salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

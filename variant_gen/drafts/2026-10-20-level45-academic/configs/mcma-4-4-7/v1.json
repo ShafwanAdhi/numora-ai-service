@@ -1,0 +1,111 @@
+{
+  "question_id": "mcma-4-4-7",
+  "config_version": 1,
+  "original_hash": "a4171ff1d19c38b0",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'16' if k == 0 else (8*(k+2))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (12*(k+2))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'48' if k == 0 else (24*(k+2))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'120' if k == 0 else (120 if k==0 else 72*(k+2)-1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'08' if k == 0 else ('08' if 8+floor(24*(k+2)/60)==8 else '09' if 8+floor(24*(k+2)/60)==9 else 8+floor(24*(k+2)/60))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'48' if k == 0 else ('00' if (24*(k+2))%60==0 else (24*(k+2))%60)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'2 jam (' if k == 0 else ('')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "')' if k == 0 else ('')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "24*(k+2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "120 if k==0 else 72*(k+2)-1",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua buah bel peringatan laboratorium berbunyi berulang setiap ${v0}$ menit dan ${v1}$ menit. Kedua bel berbunyi bersamaan pada pukul 08.00 WIB. Dua siswa memberikan evaluasi terhadap beberapa pernyataan:\nManakah evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan \"Kedua bel berbunyi bersamaan kembali setiap {v2} menit\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan \"Kedua bel akan berbunyi bersamaan untuk kedua kalinya pada pukul {v4}.{v5} WIB\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan \"Dalam selang waktu {v6}{v3} menit{v7}, kedua bel berbunyi bersamaan sebanyak 3 kali (tidak menghitung pukul 08.00 WIB)\" adalah BENAR.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan \"Dalam selang waktu {v6}{v3} menit{v7}, kedua bel berbunyi bersamaan sebanyak 2 kali (tidak menghitung pukul 08.00 WIB)\" adalah BENAR.",
+      "correct": true
+    }
+  ],
+  "explanation": "KPK periode = {v8}. Frekuensi setelah awal = floor({v9}/{v8}) = {v10}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

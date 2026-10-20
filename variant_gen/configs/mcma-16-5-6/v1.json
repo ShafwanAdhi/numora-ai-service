@@ -1,0 +1,87 @@
+{
+  "question_id": "mcma-16-5-6",
+  "config_version": 1,
+  "original_hash": "b65be846613b5219",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else ((3+k)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (6*(3+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else ((3+k)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(3+k)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "(3+k)**3",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah kubus memiliki jaring-jaring yang terdiri dari 6 persegi. Jika panjang rusuk kubus tersebut diperbesar menjadi {v0} kali lipat dari ukuran semula, evaluasilah pernyataan-pernyataan berikut terkait perubahan jaring-jaringnya!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Luas setiap persegi pada jaring-jaring menjadi {v1} kali lipat.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Total luas jaring-jaring menjadi {v1} kali lipat.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jumlah persegi pada jaring-jaring bertambah menjadi {v2} buah.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Volume kubus yang terbentuk dari jaring-jaring tersebut menjadi {v3} kali lipat.",
+      "correct": true
+    }
+  ],
+  "explanation": "Hasil = {v4}. Faktor panjang{v5} memberi luas{v4}, volume{v6}. Jumlah persegi tetap6; A,B,D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

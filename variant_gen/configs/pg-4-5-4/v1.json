@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-4-5-4",
+  "config_version": 1,
+  "original_hash": "c18b83a9ad84807b",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'108' if k == 0 else (108*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'135' if k == 0 else (135*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else (27*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'54' if k == 0 else (54*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "27*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', dengan hasil ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (27*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' kelompok')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pembina regu mengevaluasi jumlah kelompok terbanyak yang dapat dibentuk dari ${v0}$ peserta laki-laki dan ${v1}$ peserta perempuan. Tiga regu memberikan laporan evaluasi:\nRegu A: \"Dapat dibentuk ${v2}$ kelompok, dengan isi tiap kelompok ${v3}$ laki-laki dan ${v4}$ perempuan.\"\nRegu B: \"Dapat dibentuk ${v5}$ kelompok, dengan isi tiap kelompok $4$ laki-laki dan $5$ perempuan.\"\nRegu C: \"Dapat dibentuk ${v6}$ kelompok, dengan isi tiap kelompok $2$ laki-laki dan $2,5$ perempuan.\"\nManakah evaluasi regu yang paling tepat dan bernilai maksimum?\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Laporan Regu A",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Laporan Regu C",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Laporan Regu B{v8}{v9}{v10}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Laporan Regu A dan Regu B sama-sama maksimum",
+      "correct": false
+    }
+  ],
+  "explanation": "Hitung FPB dari dua jumlah yang ditampilkan: FPB = {v7}. Periksa keterbagian, isi tiap kelompok, dan syarat maksimum pada setiap opsi.",
+  "shuffle": false,
+  "max_draws": 1000
+}

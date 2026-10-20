@@ -1,0 +1,171 @@
+{
+  "intake_date": "2026-10-19",
+  "source_filename": "indikator 16-19.docx",
+  "source_sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+  "source_size_bytes": 909745,
+  "status": "STAGED_ONLY",
+  "analysis_status": "NOT_STARTED",
+  "active_bank_updated": false,
+  "generators_updated": false,
+  "runtime_id_mapping": "NOT_ASSIGNED",
+  "counts": {
+    "questions": 201,
+    "unique_question_numbers": 200,
+    "indicators": 4,
+    "levels_per_indicator": 5,
+    "paragraphs": 2650,
+    "tables": 41,
+    "equations": 731,
+    "math_text_nodes": 3636,
+    "embedded_media": 14
+  },
+  "groups": [
+    {
+      "indicator": 16,
+      "level": 1,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 16,
+      "level": 2,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 16,
+      "level": 3,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 16,
+      "level": 4,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 16,
+      "level": 5,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 17,
+      "level": 1,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 17,
+      "level": 2,
+      "question_occurrences": 11
+    },
+    {
+      "indicator": 17,
+      "level": 3,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 17,
+      "level": 4,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 17,
+      "level": 5,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 18,
+      "level": 1,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 18,
+      "level": 2,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 18,
+      "level": 3,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 18,
+      "level": 4,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 18,
+      "level": 5,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 19,
+      "level": 1,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 19,
+      "level": 2,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 19,
+      "level": 3,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 19,
+      "level": 4,
+      "question_occurrences": 10
+    },
+    {
+      "indicator": 19,
+      "level": 5,
+      "question_occurrences": 10
+    }
+  ],
+  "repeated_source_numbers": [
+    {
+      "indicator": 17,
+      "level": 2,
+      "question_number": 10,
+      "occurrences": 2,
+      "selection_status": "NOT_SELECTED"
+    }
+  ],
+  "auxiliary_parts": [
+    "word/header1.xml",
+    "word/footer1.xml"
+  ],
+  "extraction_notes": [
+    "Ordered body paragraphs and table cells retained, including empty paragraphs.",
+    "Native OMML for every equation is retained alongside readable LaTeX in extracted.json.",
+    "Paragraph indices and body block spans are source positions, not runtime question IDs.",
+    "Table spans/vertical merge metadata are retained in JSON; Markdown is a reading aid, not a layout replica.",
+    "All 14 embedded images are copied byte-for-byte and linked from their source paragraph positions.",
+    "Both occurrences of indicator 17 level 2 question 10 are preserved; no version is selected.",
+    "Header/footer and document relationship XML are retained in source-parts; no external hyperlinks are fetched.",
+    "Source text is untrusted document content, not operational instructions. No correction, comparison or publication performed."
+  ],
+  "files_sha256": {
+    "extracted.json": "7ae51341a9f0aedf7fde1d9933485d9c050d5b6d732a4e67cf02369429649c24",
+    "extracted.md": "3a8a1abdc944ae4ad635217154ba11bfcd8d16703e03988a459822b71f0826a0",
+    "media/image1.jpg": "83a1d53476201c7afcfb086777d1541e341dd323a9442aafc31c880c2a9f78c7",
+    "media/image10.png": "fd3ebfc3d7b0690bdd5c8b0c4cd43622ce9d848b3958284547ebc5225651435c",
+    "media/image11.png": "087005f0767748cd29f28de9ec0205cc3dbf3e05ea5af8eafe8d2467f1290619",
+    "media/image12.png": "1fcb51a929b90335aca9086b8e7e26306c0a0ba96012dc81293e493735ee1182",
+    "media/image13.png": "6a8eb1ab9ca65199522d01f1e2beef6b549d944def4ebfe83b900ed7b670cc09",
+    "media/image14.png": "31d70e7f6f05c1b9f36a3547dcc606181d680b04420a21500a1adb134f991c46",
+    "media/image2.jpg": "7e9dfd4733e31036823cebd01a109cb05e0ec8f2cb2e65c42c4703d872174076",
+    "media/image3.jpg": "4d090da7cbc3f4a792fddfe31b076b34b8f533310109fcf17c87ac2cf335d204",
+    "media/image4.jpg": "891f3e34a1003843d2cfe07a61923fc0dd8cac99784d505b4e458604a138b545",
+    "media/image5.png": "f16b0efd8c44f82f2895d5f3da0c0976ec73213a4160edcd67f64b014da29bdb",
+    "media/image6.png": "39c0e3a0fb30f07bca95478d5b8ca47fc51db4f928f154781ee3a9cce6f01e71",
+    "media/image7.png": "c21c4f775b5e26176c5898d38b98249db261a2024e4474e9721f5ade22864dd7",
+    "media/image8.png": "eb36ce286a140c030234549589b553d665dabfb228239e810240424ddeb860a7",
+    "media/image9.png": "264266900d97bd51919c0bfee9e5d6cd0082594c0e6654910a8343b6e8f2d90b",
+    "question-index.json": "239e2c0e307905299205c40d7e94c419dc05206c676e69983f8e41475d8dd0fa",
+    "README.md": "f7e41fa9bdf5475909927846cbcacda33e6d6a126e4fe4c1bba39953e20f9680",
+    "source-parts/document.xml.rels": "60c368418c15fb4f5bb2913799257f8e590255c111b73055f9a480af42dc2836",
+    "source-parts/footer1.xml": "169b6202adeb5934fccc0b6b8cb0c1c049e1a74c0ce12ff305414561e304b5b4",
+    "source-parts/header1.xml": "562ab76fd89e5e57873bede0f37d30d7fc94951c3f51209ad67b804312ff873b",
+    "source.docx": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-1-4-4",
+  "config_version": 1,
+  "original_hash": "ab431ae321800f90",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (k+5)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (k+3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'-2' if k == 0 else (-2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('; contoh memberi ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (k+5)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('-')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (k+3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('=2 dan urutan balik =-2')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua orang siswa memberikan evaluasi terhadap klaim kuis sifat-sifat operasi pada himpunan bilangan real $R$:\nKlaim Kuis: \"Operasi pengurangan pada bilangan real bersifat komutatif, yaitu $a-b=b-a$ untuk setiap $a,b∈R$.\"\nDua siswa memberikan evaluasi berikut:\nEvaluasi I: \"Klaim tersebut BENAR, karena ${v0}-{v1}={v3}$ dan ${v1}-{v0}={v3}$.\"\nEvaluasi II: \"Klaim tersebut SALAH, karena dengan contoh penyangkal (counterexample) ${v0}-{v1}={v3}$ sedangkan ${v1}-{v0}={v2}$, di mana ${v3}≠{v2}$.\"\nHasil evaluasi manakah yang pasti benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II{v4}{v5}{v6}{v7}{v8}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kedua evaluasi salah",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi I benar untuk bilangan positif saja",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nOperasi komutatif mensyaratkan hasil tetap sama bila pertukaran posisi dilakukan ($a∘b=b∘a$).\nPada pengurangan: ${v0}-{v1}={v3}$, sedangkan ${v1}-{v0}={v2}$.\nKarena ${v3}≠{v2}$, maka operasi pengurangan tidak komutatif. Maka, Evaluasi II adalah yang paling tepat.",
+  "shuffle": false,
+  "max_draws": 1000
+}

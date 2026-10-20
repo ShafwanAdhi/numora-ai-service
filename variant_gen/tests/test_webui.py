@@ -78,7 +78,10 @@ class WebUI(unittest.TestCase):
         self.assertEqual({q['classification']['package_id'] for q in questions}, {'drill-1','tryout-1'})
         status, catalog = self.request('GET', '/api/catalog')
         self.assertEqual(status, 200)
-        self.assertEqual(len(catalog), sum(len(json.loads(p.read_text(encoding='utf8'))) for p in (ROOT/'data').rglob('question_catalog.json')))
+        groups = [g for p in (ROOT/'data').rglob('question_catalog.json') for g in json.loads(p.read_text(encoding='utf8'))]
+        identities = {tuple(g.get(k) for k in ('activity','package_id','indicator','source_level','chapter')) for g in groups}
+        self.assertEqual(len(catalog), len(identities))
+        self.assertEqual({q for g in catalog for q in g['question_ids']}, {q for g in groups for q in g['question_ids']})
         status, data = self.request("GET", "/api/question?id=pg-16-1-1&seed=1")
         self.assertEqual(status, 200)
         self.assertEqual(data["original"]["seed"], 0)
@@ -286,7 +289,7 @@ class WebUI(unittest.TestCase):
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
             for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-15-2-8',seed=11,config={}))[0],400)
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config={}))[0],400)
             self.assertFalse(self.store.exists())
 
 

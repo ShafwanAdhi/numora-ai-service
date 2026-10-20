@@ -1,0 +1,98 @@
+{
+  "question_id": "mcma-21-4-6",
+  "config_version": 1,
+  "original_hash": "5c2ed2e99b7d4c1d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else ((4)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else ((6)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else ((8)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'11' if k == 0 else ((11)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'7' if k == 0 else ((7)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "7+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "8+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Data jumlah soal yang diselesaikan lima siswa adalah {v0}, {v1}, {v1}, {v2}, dan {v3}.\n\nPernyataan yang benar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rerata data adalah {v4}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Median data adalah {v1}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Modus data adalah {v2}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Jangkauan data adalah 7.",
+      "correct": true
+    },
+    {
+      "id": "E",
+      "text": "Rerata lebih kecil daripada median.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v5}. Rerata={v5}, median dan modus={v6}, jangkauan7. A,B,D benar; modus bukan{v7}, dan rerata tidak lebih kecil daripada median.",
+  "shuffle": false,
+  "max_draws": 1000
+}

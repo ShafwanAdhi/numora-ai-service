@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-6-5-5",
+  "config_version": 1,
+  "original_hash": "fefd48e7c6043d6e",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "24*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "36*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "30*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "6*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola bus sekolah mengevaluasi dua rute perjalanan menuju sekolah. Rute 1 berjarak ${v0}km$ dengan kecepatan rata-rata bus $40km/jam$. Rute 2 berjarak ${v1}km$, tetapi karena jalanan lebih lengang, bus dapat melaju dengan kecepatan rata-rata $60km/jam$. Jika bus melewati Rute 2, efisiensi waktu yang diperoleh dibanding Rute 1 adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Lebih cepat {v2} menit",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Lebih cepat {v3} menit",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Lebih lambat {v2} menit",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Lebih lambat {v3} menit",
+      "correct": false
+    }
+  ],
+  "explanation": "Waktu Rute 1 = {v4}/40*60 = {v5} menit. Waktu Rute 2 = {v6}/60*60 = {v6} menit. Rute 2 lebih cepat {v7} menit, bukan lebih lambat atau setengah selisih itu. B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,105 @@
+{
+  "question_id": "mcma-1-5-7",
+  "config_version": 1,
+  "original_hash": "bc3f9cb954c21c0c",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'400.000' if k == 0 else (400000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'100.000' if k == 0 else (100000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'30.000' if k == 0 else (30000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'300.000' if k == 0 else (300000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'270.000' if k == 0 else (270000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'130.000' if k == 0 else (130000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'270.000,00' if k == 0 else (270000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'130.000,00' if k == 0 else (130000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'70.000' if k == 0 else (70000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'330.000' if k == 0 else (330000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus kas kelas mengevaluasi keabsahan dua bentuk penulisan transaksi keuangan:\nMetode X: $({v0}-{v1})-{v2}={v3}-{v2}={v4}$\nMetode Y: ${v0}-({v1}+{v2})={v0}-{v5}={v4}$\nManakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp{v6}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika Metode Y diubah menjadi ${v0}-({v1}-{v2})$, hasilnya akan tetap sama yaitu Rp{v6}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Total alokasi dua pengeluaran pada Metode Y adalah Rp{v7}, sehingga sisa kasnya Rp{v6}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Pembahasan:\nA (Benar): Kedua metode menghasilkan sisa kas Rp{v6}.\nB (Benar): $-({v1}+{v2})=-{v1}-{v2}$.\nC (Salah): ${v0}-({v1}-{v2})={v0}-{v8}={v9}≠{v4}$.\nD (Benar): Menjumlahkan pengeluaran terlebih dahulu memudahkan audit kas.",
+  "shuffle": false,
+  "max_draws": 1000
+}

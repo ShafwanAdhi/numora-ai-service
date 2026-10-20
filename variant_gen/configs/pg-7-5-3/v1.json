@@ -1,0 +1,69 @@
+{
+  "question_id": "pg-7-5-3",
+  "config_version": 1,
+  "original_hash": "5ef2547c6d0ba0c2",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (4+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "4+2*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "2+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua orang siswa mengevaluasi penyelesaian dari bentuk persamaan ${v0}(x-1)+{v1}={v1}(2x-1)$.\nSiswa A menyatakan bahwa persamaan tersebut tidak memiliki penyelesaian sama sekali.\nSiswa B menyatakan bahwa persamaan tersebut memiliki tak hingga banyaknya penyelesaian.\nEvaluasi yang paling tepat mengenai kedua pendapat tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Siswa A benar, karena diperoleh hubungan $0={v0}$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Siswa A benar, karena variabel $x$ hilang saat disederhanakan",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Siswa B salah, karena penyelesaian tunggalnya adalah $x=0$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Siswa B benar, karena setelah kedua ruas disederhanakan diperoleh bentuk identitas ${v0}x-{v1}={v0}x-{v1}$",
+      "correct": true
+    }
+  ],
+  "explanation": "Kedua ruas menjadi ${v2}x-{v3}$. Identitas berlaku untuk semua bilangan real x; hanya Siswa B benar, opsi D.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-4-4-2",
+  "config_version": 1,
+  "original_hash": "327b1397d7715c96",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (2+k%10+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k%10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (2+k//10+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k//10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "2+k%10",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "2+k//10",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2**(2+k%10)*3**(2+k//10)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan dua bilangan asli $M$ dan $N$ yang dinyatakan dalam bentuk perkalian faktor prima:\n$M={2}^{{v0}}×{3}^{{v2}}×5$\n$N={2}^{{v1}}×{3}^{{v3}}×7$\nSeorang siswa menganalisis bentuk faktorisasi prima dari pembagi persekutuan terbesar (FPB) kedua bilangan tersebut. Bentuk faktorisasi prima dari FPB($M,N$) yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "${2}^{{v0}}×{3}^{{v2}}$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "${2}^{{v0}}×{3}^{{v2}}×5×7$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "${2}^{{v1}}×{3}^{{v3}}$",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "${2}^{{v1}}×3$",
+      "correct": false
+    }
+  ],
+  "explanation": "Faktor sekutu 2 dan 3 memakai pangkat terkecil {v4} dan {v5}. FPB = 2^{v4} × 3^{v5} = {v6}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-10-5-5",
+  "config_version": 1,
+  "original_hash": "6cb5788ea9352c9e",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (4+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah aula sekolah memiliki susunan kursi yang dinyatakan dalam ekspresi aljabar.\nBaris pertama memuat ${v0}x+3$ kursi.\nSetiap baris berikutnya bertambah $x-1$ kursi dari baris sebelumnya.\nSeorang panitia mengevaluasi bahwa jumlah kursi pada baris ke-3 dapat dinyatakan oleh bentuk aljabar ${v1}x+1$. Evaluasi yang tepat mengenai hasil analisis panitia tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena baris ke-3 $=({v0}x+3)+2(x-1)={v0}x+3+2x-2={v1}x+1$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena baris ke-3 seharusnya ${v2}x+2$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena penambahan 2 kali beda seharusnya menghasilkan ${v1}x+5$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Benar, karena baris ke-3 dihitung dengan mengalikan baris pertama dengan 3",
+      "correct": false
+    }
+  ],
+  "explanation": "Baris ketiga = baris pertama + 2 kali beda = ${v3}x+1$. Baris kedua = ${v4}x+2$. Untuk x bilangan bulat minimal 2, jumlah kursi positif dan bertambah. Hanya A benar; mengalikan baris pertama dengan 3 bukan rumus baris ketiga.",
+  "shuffle": false,
+  "max_draws": 1000
+}

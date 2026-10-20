@@ -1,0 +1,2910 @@
+{
+  "pg-7-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 2162,
+      "paragraph_end": 2185,
+      "body_block_start": 1897,
+      "body_block_end_exclusive": 1921
+    },
+    "audit_id": "5282d3eb0bdc:I7:L5:Q3:O1:original",
+    "original_explanation": "PEMBAHASAN\nSederhanakan kedua ruas persamaan:\nRuas Kiri: $4(x-1)+2=4x-4+2=4x-2$\nRuas Kanan: $2(2x-1)=4x-2$\nPersamaan menjadi:\n$4x-2=4x-2$\nJika kedua ruas dikurangi $4x$:\n$-2=-2atau0=0(selalubenaruntuksemuanilaix)$\nKarena kedua ruas identik, persamaan ini berlaku untuk seluruh nilai bilangan real $x$, sehingga memiliki tak hingga banyaknya penyelesaian. Maka, pendapat Siswa B benar.",
+    "source_projection": {
+      "stem": "Dua orang siswa mengevaluasi penyelesaian dari bentuk persamaan $4(x-1)+2=2(2x-1)$.\nSiswa A menyatakan bahwa persamaan tersebut tidak memiliki penyelesaian sama sekali.\nSiswa B menyatakan bahwa persamaan tersebut memiliki tak hingga banyaknya penyelesaian.\nEvaluasi yang paling tepat mengenai kedua pendapat tersebut adalah ....",
+      "options": [
+        "Siswa A benar, karena diperoleh hubungan $0=4$",
+        "Siswa A benar, karena variabel $x$ hilang saat disederhanakan",
+        "Siswa B salah, karena penyelesaian tunggalnya adalah $x=0$",
+        "Siswa B benar, karena setelah kedua ruas disederhanakan diperoleh bentuk identitas $4x-2=4x-2$"
+      ],
+      "key": [
+        "D"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 2164,
+          "text": "KUNCI JAWABAN : D"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nSederhanakan kedua ruas persamaan:\nRuas Kiri: $4(x-1)+2=4x-4+2=4x-2$\nRuas Kanan: $2(2x-1)=4x-2$\nPersamaan menjadi:\n$4x-2=4x-2$\nJika kedua ruas dikurangi $4x$:\n$-2=-2atau0=0(selalubenaruntuksemuanilaix)$\nKarena kedua ruas identik, persamaan ini berlaku untuk seluruh nilai bilangan real $x$, sehingga memiliki tak hingga banyaknya penyelesaian. Maka, pendapat Siswa B benar.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 2173,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2174,
+          "text": "Sederhanakan kedua ruas persamaan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2175,
+          "text": "Ruas Kiri: $4(x-1)+2=4x-4+2=4x-2$",
+          "math_ids": [
+            "math-0738"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2176,
+          "text": "Ruas Kanan: $2(2x-1)=4x-2$",
+          "math_ids": [
+            "math-0739"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2177,
+          "text": "Persamaan menjadi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2179,
+          "text": "$4x-2=4x-2$",
+          "math_ids": [
+            "math-0740"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2180,
+          "text": "Jika kedua ruas dikurangi $4x$:",
+          "math_ids": [
+            "math-0741"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2182,
+          "text": "$-2=-2atau0=0(selalubenaruntuksemuanilaix)$",
+          "math_ids": [
+            "math-0742"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2183,
+          "text": "Karena kedua ruas identik, persamaan ini berlaku untuk seluruh nilai bilangan real $x$, sehingga memiliki tak hingga banyaknya penyelesaian. Maka, pendapat Siswa B benar.",
+          "math_ids": [
+            "math-0743"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tereliminasinya variabel $x$ secara otomatis berarti persamaan tidak memiliki penyelesaian, tanpa memeriksa apakah konstanta sisa di kedua ruas bernilai sama (identitas) atau berbeda (kontradiksi).",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 3 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : D\n\nDua orang siswa mengevaluasi penyelesaian dari bentuk persamaan $4(x-1)+2=2(2x-1)$.\n\nSiswa A menyatakan bahwa persamaan tersebut tidak memiliki penyelesaian sama sekali.\n\nSiswa B menyatakan bahwa persamaan tersebut memiliki tak hingga banyaknya penyelesaian.\n\nEvaluasi yang paling tepat mengenai kedua pendapat tersebut adalah ....\n\nA. Siswa A benar, karena diperoleh hubungan $0=4$\n\nB. Siswa A benar, karena variabel $x$ hilang saat disederhanakan\n\nC. Siswa B salah, karena penyelesaian tunggalnya adalah $x=0$\n\nD. Siswa B benar, karena setelah kedua ruas disederhanakan diperoleh bentuk identitas $4x-2=4x-2$\n\nPEMBAHASAN\n\nSederhanakan kedua ruas persamaan:\n\nRuas Kiri: $4(x-1)+2=4x-4+2=4x-2$\n\nRuas Kanan: $2(2x-1)=4x-2$\n\nPersamaan menjadi:\n\n\n\n$4x-2=4x-2$\n\nJika kedua ruas dikurangi $4x$:\n\n\n\n$-2=-2atau0=0(selalubenaruntuksemuanilaix)$\n\nKarena kedua ruas identik, persamaan ini berlaku untuk seluruh nilai bilangan real $x$, sehingga memiliki tak hingga banyaknya penyelesaian. Maka, pendapat Siswa B benar.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira tereliminasinya variabel $x$ secara otomatis berarti persamaan tidak memiliki penyelesaian, tanpa memeriksa apakah konstanta sisa di kedua ruas bernilai sama (identitas) atau berbeda (kontradiksi).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tereliminasinya variabel $x$ secara otomatis berarti persamaan tidak memiliki penyelesaian, tanpa memeriksa apakah konstanta sisa di kedua ruas bernilai sama (identitas) atau berbeda (kontradiksi).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-8-4-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3153,
+      "paragraph_end": 3178,
+      "body_block_start": 2800,
+      "body_block_end_exclusive": 2826
+    },
+    "audit_id": "5282d3eb0bdc:I8:L4:Q5:O1:original",
+    "original_explanation": "PEMBAHASAN\nMisalkan $k$ adalah banyak kotak barang.\nModel PtLSV (daya angkut tidak lebih dari $800kg$):\n$25k+60≤800$\nSelesaikan dengan operasi invers:\n$25k≤800-60$\n$25k≤740$\n$k≤\\frac{740}{25}$\n$k≤29,6$\nKarena banyak kotak harus bilangan bulat dan tidak boleh melebihi kapasitas, maka nilai bulat terbesar yang memenuhi adalah $k=29$ kotak.\nBeban total $=25(29)+60=725+60=785kg≤800kg$.",
+    "source_projection": {
+      "stem": "Sebuah mobil boks angkutan barang memiliki daya angkut tidak lebih dari $800kg$. Sopir mobil memiliki berat badan $60kg$ dan membawa beberapa kotak barang yang masing-masing beratnya $25kg$. Pengelola armada mengevaluasi jumlah kotak barang maksimum yang aman diangkut dalam satu kali jalan. Evaluasi yang tepat adalah ....",
+      "options": [
+        "Maksimal 30 kotak, karena $25×30+60=810kg$ masih diperbolehkan",
+        "Maksimal 32 kotak, karena $800÷25=32$ kotak",
+        "Maksimal 29 kotak, karena beban total $25(29)+60=785kg≤800kg$",
+        "Maksimal 28 kotak, agar beban tidak mendekati batas maksimum $800kg$"
+      ],
+      "key": [
+        "C"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : C"
+      ],
+      "explanation": "PEMBAHASAN\nMisalkan $k$ adalah banyak kotak barang.\nModel PtLSV (daya angkut tidak lebih dari $800kg$):\n$25k+60≤800$\nSelesaikan dengan operasi invers:\n$25k≤800-60$\n$25k≤740$\n$k≤\\frac{740}{25}$\n$k≤29,6$\nKarena banyak kotak harus bilangan bulat dan tidak boleh melebihi kapasitas, maka nilai bulat terbesar yang memenuhi adalah $k=29$ kotak.\nBeban total $=25(29)+60=725+60=785kg≤800kg$.",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan $29,6$ ke atas menjadi 30 kotak, padahal 30 kotak membuat beban melebihi kapasitas ($810kg>800kg$).",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3153,
+          "text": "SOAL 5 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3154,
+          "text": "LEVEL KOGNITIF : C5 (Mengevaluasi)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3155,
+          "text": "KUNCI JAWABAN : C",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3156,
+          "text": "Sebuah mobil boks angkutan barang memiliki daya angkut tidak lebih dari $800kg$. Sopir mobil memiliki berat badan $60kg$ dan membawa beberapa kotak barang yang masing-masing beratnya $25kg$. Pengelola armada mengevaluasi jumlah kotak barang maksimum yang aman diangkut dalam satu kali jalan. Evaluasi yang tepat adalah ....",
+          "math_ids": [
+            "math-0898",
+            "math-0899",
+            "math-0900"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3157,
+          "text": "A. Maksimal 30 kotak, karena $25×30+60=810kg$ masih diperbolehkan",
+          "math_ids": [
+            "math-0901"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3158,
+          "text": "B. Maksimal 32 kotak, karena $800÷25=32$ kotak",
+          "math_ids": [
+            "math-0902"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3159,
+          "text": "C. Maksimal 29 kotak, karena beban total $25(29)+60=785kg≤800kg$",
+          "math_ids": [
+            "math-0903"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3160,
+          "text": "D. Maksimal 28 kotak, agar beban tidak mendekati batas maksimum $800kg$",
+          "math_ids": [
+            "math-0904"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3161,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3162,
+          "text": "Misalkan $k$ adalah banyak kotak barang.",
+          "math_ids": [
+            "math-0905"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3163,
+          "text": "Model PtLSV (daya angkut tidak lebih dari $800kg$):",
+          "math_ids": [
+            "math-0906"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3164,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3165,
+          "text": "$25k+60≤800$",
+          "math_ids": [
+            "math-0907"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3166,
+          "text": "Selesaikan dengan operasi invers:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3167,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3168,
+          "text": "$25k≤800-60$",
+          "math_ids": [
+            "math-0908"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3169,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3170,
+          "text": "$25k≤740$",
+          "math_ids": [
+            "math-0909"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3171,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3172,
+          "text": "$k≤\\frac{740}{25}$",
+          "math_ids": [
+            "math-0910"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3173,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3174,
+          "text": "$k≤29,6$",
+          "math_ids": [
+            "math-0911"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3175,
+          "text": "Karena banyak kotak harus bilangan bulat dan tidak boleh melebihi kapasitas, maka nilai bulat terbesar yang memenuhi adalah $k=29$ kotak.",
+          "math_ids": [
+            "math-0912"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3176,
+          "text": "Beban total $=25(29)+60=725+60=785kg≤800kg$.",
+          "math_ids": [
+            "math-0913"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3177,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3178,
+          "text": "Siswa membulatkan $29,6$ ke atas menjadi 30 kotak, padahal 30 kotak membuat beban melebihi kapasitas ($810kg>800kg$).",
+          "math_ids": [
+            "math-0914",
+            "math-0915"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : C\n\nSebuah mobil boks angkutan barang memiliki daya angkut tidak lebih dari $800kg$. Sopir mobil memiliki berat badan $60kg$ dan membawa beberapa kotak barang yang masing-masing beratnya $25kg$. Pengelola armada mengevaluasi jumlah kotak barang maksimum yang aman diangkut dalam satu kali jalan. Evaluasi yang tepat adalah ....\n\nA. Maksimal 30 kotak, karena $25×30+60=810kg$ masih diperbolehkan\n\nB. Maksimal 32 kotak, karena $800÷25=32$ kotak\n\nC. Maksimal 29 kotak, karena beban total $25(29)+60=785kg≤800kg$\n\nD. Maksimal 28 kotak, agar beban tidak mendekati batas maksimum $800kg$\n\nPEMBAHASAN\n\nMisalkan $k$ adalah banyak kotak barang.\n\nModel PtLSV (daya angkut tidak lebih dari $800kg$):\n\n\n\n$25k+60≤800$\n\nSelesaikan dengan operasi invers:\n\n\n\n$25k≤800-60$\n\n\n\n$25k≤740$\n\n\n\n$k≤\\frac{740}{25}$\n\n\n\n$k≤29,6$\n\nKarena banyak kotak harus bilangan bulat dan tidak boleh melebihi kapasitas, maka nilai bulat terbesar yang memenuhi adalah $k=29$ kotak.\n\nBeban total $=25(29)+60=725+60=785kg≤800kg$.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa membulatkan $29,6$ ke atas menjadi 30 kotak, padahal 30 kotak membuat beban melebihi kapasitas ($810kg>800kg$).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan $29,6$ ke atas menjadi 30 kotak, padahal 30 kotak membuat beban melebihi kapasitas ($810kg>800kg$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-8-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3194,
+      "paragraph_end": 3215,
+      "body_block_start": 2841,
+      "body_block_end_exclusive": 2863
+    },
+    "audit_id": "5282d3eb0bdc:I8:L4:Q7:O1:original",
+    "original_explanation": "PEMBAHASAN\nSelesaikan pertidaksamaan:\n$4-3x≥13$\n$-3x≥13-4$\n$-3x≥9$\nBagi dengan $-3$ (tanda dibalik):\n$$x \\le \\frac{9}{-3} \\implies x \\le -3 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$\nAnalisis Angka $-4$ (C):\nKarena $-4≤-3$ bernilai benar, maka $-4$ termasuk himpunan penyelesaian (C Benar).\nAnalisis Garis Bilangan (D):\nKarena mengandung tanda $≤$, titik $-3$ harus digambarkan dengan lingkaran penuh, bukan lingkaran kosong (D Salah).",
+    "source_projection": {
+      "stem": "Diketahui pertidaksamaan $4-3x≥13$. Manakah pernyataan analisis berikut yang benar mengenai penyelesaian dan grafik himpunan penyelesaiannya? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Nilai $x$ yang memenuhi adalah $x≥-3$.",
+        "Penyelesaian pertidaksamaan tersebut adalah $x≤-3$.",
+        "Angka $-4$ termasuk ke dalam himpunan penyelesaian.",
+        "Grafik pada garis bilangan diwakili oleh lingkaran kosong pada titik $-3$ dengan panah ke kiri."
+      ],
+      "key": [
+        "B",
+        "C"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : B, C"
+      ],
+      "explanation": "PEMBAHASAN\nSelesaikan pertidaksamaan:\n$4-3x≥13$\n$-3x≥13-4$\n$-3x≥9$\nBagi dengan $-3$ (tanda dibalik):\n$$x \\le \\frac{9}{-3} \\implies x \\le -3 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$\nAnalisis Angka $-4$ (C):\nKarena $-4≤-3$ bernilai benar, maka $-4$ termasuk himpunan penyelesaian (C Benar).\nAnalisis Garis Bilangan (D):\nKarena mengandung tanda $≤$, titik $-3$ harus digambarkan dengan lingkaran penuh, bukan lingkaran kosong (D Salah).",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa lupa membalik tanda pertidaksamaan saat membagi dengan $-3$, sehingga salah memilih $x≥-3$.",
+      "format": "MCMA",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3194,
+          "text": "SOAL 7 (Bentuk Soal: PGK MCMA)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3195,
+          "text": "LEVEL KOGNITIF : C4 (Menganalisis)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3196,
+          "text": "KUNCI JAWABAN : B, C",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3197,
+          "text": "Diketahui pertidaksamaan $4-3x≥13$. Manakah pernyataan analisis berikut yang benar mengenai penyelesaian dan grafik himpunan penyelesaiannya? (Jawaban benar lebih dari satu)",
+          "math_ids": [
+            "math-0930"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3198,
+          "text": "[ ] A. Nilai $x$ yang memenuhi adalah $x≥-3$.",
+          "math_ids": [
+            "math-0931",
+            "math-0932"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3199,
+          "text": "[ ] B. Penyelesaian pertidaksamaan tersebut adalah $x≤-3$.",
+          "math_ids": [
+            "math-0933"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3200,
+          "text": "[ ] C. Angka $-4$ termasuk ke dalam himpunan penyelesaian.",
+          "math_ids": [
+            "math-0934"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3201,
+          "text": "[ ] D. Grafik pada garis bilangan diwakili oleh lingkaran kosong pada titik $-3$ dengan panah ke kiri.",
+          "math_ids": [
+            "math-0935"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3202,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3203,
+          "text": "Selesaikan pertidaksamaan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3204,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3205,
+          "text": "$4-3x≥13$",
+          "math_ids": [
+            "math-0936"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3206,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3207,
+          "text": "$-3x≥13-4$",
+          "math_ids": [
+            "math-0937"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3208,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3209,
+          "text": "$-3x≥9$",
+          "math_ids": [
+            "math-0938"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3210,
+          "text": "Bagi dengan $-3$ (tanda dibalik):",
+          "math_ids": [
+            "math-0939"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3211,
+          "text": "$$x \\le \\frac{9}{-3} \\implies x \\le -3 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3212,
+          "text": "Analisis Angka $-4$ (C):\nKarena $-4≤-3$ bernilai benar, maka $-4$ termasuk himpunan penyelesaian (C Benar).",
+          "math_ids": [
+            "math-0940",
+            "math-0941",
+            "math-0942"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3213,
+          "text": "Analisis Garis Bilangan (D):\nKarena mengandung tanda $≤$, titik $-3$ harus digambarkan dengan lingkaran penuh, bukan lingkaran kosong (D Salah).",
+          "math_ids": [
+            "math-0943",
+            "math-0944"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3214,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3215,
+          "text": "Siswa lupa membalik tanda pertidaksamaan saat membagi dengan $-3$, sehingga salah memilih $x≥-3$.",
+          "math_ids": [
+            "math-0945",
+            "math-0946"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C4 (Menganalisis)\n\nKUNCI JAWABAN : B, C\n\nDiketahui pertidaksamaan $4-3x≥13$. Manakah pernyataan analisis berikut yang benar mengenai penyelesaian dan grafik himpunan penyelesaiannya? (Jawaban benar lebih dari satu)\n\n[ ] A. Nilai $x$ yang memenuhi adalah $x≥-3$.\n\n[ ] B. Penyelesaian pertidaksamaan tersebut adalah $x≤-3$.\n\n[ ] C. Angka $-4$ termasuk ke dalam himpunan penyelesaian.\n\n[ ] D. Grafik pada garis bilangan diwakili oleh lingkaran kosong pada titik $-3$ dengan panah ke kiri.\n\nPEMBAHASAN\n\nSelesaikan pertidaksamaan:\n\n\n\n$4-3x≥13$\n\n\n\n$-3x≥13-4$\n\n\n\n$-3x≥9$\n\nBagi dengan $-3$ (tanda dibalik):\n\n$$x \\le \\frac{9}{-3} \\implies x \\le -3 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$\n\nAnalisis Angka $-4$ (C):\nKarena $-4≤-3$ bernilai benar, maka $-4$ termasuk himpunan penyelesaian (C Benar).\n\nAnalisis Garis Bilangan (D):\nKarena mengandung tanda $≤$, titik $-3$ harus digambarkan dengan lingkaran penuh, bukan lingkaran kosong (D Salah).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa lupa membalik tanda pertidaksamaan saat membagi dengan $-3$, sehingga salah memilih $x≥-3$.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa lupa membalik tanda pertidaksamaan saat membagi dengan $-3$, sehingga salah memilih $x≥-3$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "mcma-8-4-8": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 8,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3216,
+      "paragraph_end": 3240,
+      "body_block_start": 2863,
+      "body_block_end_exclusive": 2888
+    },
+    "audit_id": "5282d3eb0bdc:I8:L4:Q8:O1:original",
+    "original_explanation": "PEMBAHASAN\nSederhanakan ruas kiri:\n$2(2x-3)-5x=4x-6-5x=-x-6(ABenar)$\nPertidaksamaan menjadi:\n$-x-6<1$\n$-x<1+6$\n$-x<7$\nKalikan/bagi dengan $-1$ (tanda dibalik):\n$x>-7(CBenar,BSalah)$\nUji $x=0$ (D):\nKarena $0>-7$ bernilai benar, maka $x=0$ termasuk anggota penyelesaian (D Benar).",
+    "source_projection": {
+      "stem": "Seorang siswa mengevaluasi penyelesaian dari pertidaksamaan $2(2x-3)-5x<1$. Manakah pernyataan evaluatif berikut yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Setelah disederhanakan, ruas kiri menjadi $-x-6$.",
+        "Tanda pertidaksamaan berubah menjadi $>$ saat menyederhanakan ruas kiri.",
+        "Penyelesaian akhir dari pertidaksamaan tersebut adalah $x>-7$.",
+        "Nilai $x=0$ merupakan salah satu anggota himpunan penyelesaian."
+      ],
+      "key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : A, C, D"
+      ],
+      "explanation": "PEMBAHASAN\nSederhanakan ruas kiri:\n$2(2x-3)-5x=4x-6-5x=-x-6(ABenar)$\nPertidaksamaan menjadi:\n$-x-6<1$\n$-x<1+6$\n$-x<7$\nKalikan/bagi dengan $-1$ (tanda dibalik):\n$x>-7(CBenar,BSalah)$\nUji $x=0$ (D):\nKarena $0>-7$ bernilai benar, maka $x=0$ termasuk anggota penyelesaian (D Benar).",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda pertidaksamaan membalik saat melakukan penjumlahan/pengurangan, padahal tanda hanya membalik jika dikali/dibagi bilangan negatif.",
+      "format": "MCMA",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3216,
+          "text": "SOAL 8 (Bentuk Soal: PGK MCMA)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3217,
+          "text": "LEVEL KOGNITIF : C5 (Mengevaluasi)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3218,
+          "text": "KUNCI JAWABAN : A, C, D",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3219,
+          "text": "Seorang siswa mengevaluasi penyelesaian dari pertidaksamaan $2(2x-3)-5x<1$. Manakah pernyataan evaluatif berikut yang benar? (Jawaban benar lebih dari satu)",
+          "math_ids": [
+            "math-0947"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3220,
+          "text": "[ ] A. Setelah disederhanakan, ruas kiri menjadi $-x-6$.",
+          "math_ids": [
+            "math-0948"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3221,
+          "text": "[ ] B. Tanda pertidaksamaan berubah menjadi $>$ saat menyederhanakan ruas kiri.",
+          "math_ids": [
+            "math-0949"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3222,
+          "text": "[ ] C. Penyelesaian akhir dari pertidaksamaan tersebut adalah $x>-7$.",
+          "math_ids": [
+            "math-0950"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3223,
+          "text": "[ ] D. Nilai $x=0$ merupakan salah satu anggota himpunan penyelesaian.",
+          "math_ids": [
+            "math-0951"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3224,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3225,
+          "text": "Sederhanakan ruas kiri:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3226,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3227,
+          "text": "$2(2x-3)-5x=4x-6-5x=-x-6(ABenar)$",
+          "math_ids": [
+            "math-0952"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3228,
+          "text": "Pertidaksamaan menjadi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3229,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3230,
+          "text": "$-x-6<1$",
+          "math_ids": [
+            "math-0953"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3231,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3232,
+          "text": "$-x<1+6$",
+          "math_ids": [
+            "math-0954"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3233,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3234,
+          "text": "$-x<7$",
+          "math_ids": [
+            "math-0955"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3235,
+          "text": "Kalikan/bagi dengan $-1$ (tanda dibalik):",
+          "math_ids": [
+            "math-0956"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3236,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3237,
+          "text": "$x>-7(CBenar,BSalah)$",
+          "math_ids": [
+            "math-0957"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3238,
+          "text": "Uji $x=0$ (D):\nKarena $0>-7$ bernilai benar, maka $x=0$ termasuk anggota penyelesaian (D Benar).",
+          "math_ids": [
+            "math-0958",
+            "math-0959",
+            "math-0960"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3239,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3240,
+          "text": "Siswa mengira tanda pertidaksamaan membalik saat melakukan penjumlahan/pengurangan, padahal tanda hanya membalik jika dikali/dibagi bilangan negatif.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 8 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : A, C, D\n\nSeorang siswa mengevaluasi penyelesaian dari pertidaksamaan $2(2x-3)-5x<1$. Manakah pernyataan evaluatif berikut yang benar? (Jawaban benar lebih dari satu)\n\n[ ] A. Setelah disederhanakan, ruas kiri menjadi $-x-6$.\n\n[ ] B. Tanda pertidaksamaan berubah menjadi $>$ saat menyederhanakan ruas kiri.\n\n[ ] C. Penyelesaian akhir dari pertidaksamaan tersebut adalah $x>-7$.\n\n[ ] D. Nilai $x=0$ merupakan salah satu anggota himpunan penyelesaian.\n\nPEMBAHASAN\n\nSederhanakan ruas kiri:\n\n\n\n$2(2x-3)-5x=4x-6-5x=-x-6(ABenar)$\n\nPertidaksamaan menjadi:\n\n\n\n$-x-6<1$\n\n\n\n$-x<1+6$\n\n\n\n$-x<7$\n\nKalikan/bagi dengan $-1$ (tanda dibalik):\n\n\n\n$x>-7(CBenar,BSalah)$\n\nUji $x=0$ (D):\nKarena $0>-7$ bernilai benar, maka $x=0$ termasuk anggota penyelesaian (D Benar).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira tanda pertidaksamaan membalik saat melakukan penjumlahan/pengurangan, padahal tanda hanya membalik jika dikali/dibagi bilangan negatif.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda pertidaksamaan membalik saat melakukan penjumlahan/pengurangan, padahal tanda hanya membalik jika dikali/dibagi bilangan negatif.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-8-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3350,
+      "paragraph_end": 3370,
+      "body_block_start": 2975,
+      "body_block_end_exclusive": 2996
+    },
+    "audit_id": "5282d3eb0bdc:I8:L5:Q3:O1:original",
+    "original_explanation": "PEMBAHASAN\nLangkah 1: $4 - 2(x + 5) > 8 \\implies 4 - 2x - 10 > 8$ (Benar).\nLangkah 2: $-2x-6>8$ (Benar).\nLangkah 3: $-2x > 8 + 6 \\implies -2x > 14$ (Benar).\nLangkah 4: Ketika membagi kedua ruas dengan $-2$, tanda pertidaksamaan harus dibalik dari $>$ menjadi $<$.\nSeharusnya: $x < \\frac{14}{-2} \\implies x < -7$.\nJadi, Langkah 4 salah karena siswa tidak membalik tanda pertidaksamaan.",
+    "source_projection": {
+      "stem": "Seorang siswa menyajikan pengerjaan pertidaksamaan $4-2(x+5)>8$ sebagai berikut:\nLangkah 1: $4-2x-10>8$\nLangkah 2: $-2x-6>8$\nLangkah 3: $-2x>14$\nLangkah 4: $x>-7$\nEvaluasi terhadap langkah penyelesaian siswa tersebut adalah ....",
+      "options": [
+        "Langkah 1 salah, seharusnya $4-2x+10>8$",
+        "Langkah 3 salah, seharusnya $-2x>2$",
+        "Langkah 4 salah, seharusnya tanda pertidaksamaan dibalik menjadi $x<-7$ karena dibagi dengan $-2$",
+        "Seluruh langkah penyelesaian dari Langkah 1 hingga Langkah 4 sudah benar"
+      ],
+      "key": [
+        "C"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : C"
+      ],
+      "explanation": "PEMBAHASAN\nLangkah 1: $4 - 2(x + 5) > 8 \\implies 4 - 2x - 10 > 8$ (Benar).\nLangkah 2: $-2x-6>8$ (Benar).\nLangkah 3: $-2x > 8 + 6 \\implies -2x > 14$ (Benar).\nLangkah 4: Ketika membagi kedua ruas dengan $-2$, tanda pertidaksamaan harus dibalik dari $>$ menjadi $<$.\nSeharusnya: $x < \\frac{14}{-2} \\implies x < -7$.\nJadi, Langkah 4 salah karena siswa tidak membalik tanda pertidaksamaan.",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira pembagian dengan bilangan negatif tidak mengubah arah tanda pertidaksamaan seperti pada penyelesaian persamaan linear.",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3350,
+          "text": "SOAL 3 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3351,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3352,
+          "text": "KUNCI JAWABAN : C",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3353,
+          "text": "Seorang siswa menyajikan pengerjaan pertidaksamaan $4-2(x+5)>8$ sebagai berikut:",
+          "math_ids": [
+            "math-1011"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3354,
+          "text": "Langkah 1: $4-2x-10>8$",
+          "math_ids": [
+            "math-1012"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3355,
+          "text": "Langkah 2: $-2x-6>8$",
+          "math_ids": [
+            "math-1013"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3356,
+          "text": "Langkah 3: $-2x>14$",
+          "math_ids": [
+            "math-1014"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3357,
+          "text": "Langkah 4: $x>-7$",
+          "math_ids": [
+            "math-1015"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3358,
+          "text": "Evaluasi terhadap langkah penyelesaian siswa tersebut adalah ....",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3359,
+          "text": "A. Langkah 1 salah, seharusnya $4-2x+10>8$",
+          "math_ids": [
+            "math-1016"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3360,
+          "text": "B. Langkah 3 salah, seharusnya $-2x>2$",
+          "math_ids": [
+            "math-1017"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3361,
+          "text": "C. Langkah 4 salah, seharusnya tanda pertidaksamaan dibalik menjadi $x<-7$ karena dibagi dengan $-2$",
+          "math_ids": [
+            "math-1018",
+            "math-1019"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3362,
+          "text": "D. Seluruh langkah penyelesaian dari Langkah 1 hingga Langkah 4 sudah benar",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3363,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3364,
+          "text": "Langkah 1: $4 - 2(x + 5) > 8 \\implies 4 - 2x - 10 > 8$ (Benar).",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3365,
+          "text": "Langkah 2: $-2x-6>8$ (Benar).",
+          "math_ids": [
+            "math-1020"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3366,
+          "text": "Langkah 3: $-2x > 8 + 6 \\implies -2x > 14$ (Benar).",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3367,
+          "text": "Langkah 4: Ketika membagi kedua ruas dengan $-2$, tanda pertidaksamaan harus dibalik dari $>$ menjadi $<$.\nSeharusnya: $x < \\frac{14}{-2} \\implies x < -7$.",
+          "math_ids": [
+            "math-1021",
+            "math-1022",
+            "math-1023"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3368,
+          "text": "Jadi, Langkah 4 salah karena siswa tidak membalik tanda pertidaksamaan.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3369,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3370,
+          "text": "Siswa mengira pembagian dengan bilangan negatif tidak mengubah arah tanda pertidaksamaan seperti pada penyelesaian persamaan linear.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 3 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : C\n\nSeorang siswa menyajikan pengerjaan pertidaksamaan $4-2(x+5)>8$ sebagai berikut:\n\nLangkah 1: $4-2x-10>8$\n\nLangkah 2: $-2x-6>8$\n\nLangkah 3: $-2x>14$\n\nLangkah 4: $x>-7$\n\nEvaluasi terhadap langkah penyelesaian siswa tersebut adalah ....\n\nA. Langkah 1 salah, seharusnya $4-2x+10>8$\n\nB. Langkah 3 salah, seharusnya $-2x>2$\n\nC. Langkah 4 salah, seharusnya tanda pertidaksamaan dibalik menjadi $x<-7$ karena dibagi dengan $-2$\n\nD. Seluruh langkah penyelesaian dari Langkah 1 hingga Langkah 4 sudah benar\n\nPEMBAHASAN\n\nLangkah 1: $4 - 2(x + 5) > 8 \\implies 4 - 2x - 10 > 8$ (Benar).\n\nLangkah 2: $-2x-6>8$ (Benar).\n\nLangkah 3: $-2x > 8 + 6 \\implies -2x > 14$ (Benar).\n\nLangkah 4: Ketika membagi kedua ruas dengan $-2$, tanda pertidaksamaan harus dibalik dari $>$ menjadi $<$.\nSeharusnya: $x < \\frac{14}{-2} \\implies x < -7$.\n\nJadi, Langkah 4 salah karena siswa tidak membalik tanda pertidaksamaan.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira pembagian dengan bilangan negatif tidak mengubah arah tanda pertidaksamaan seperti pada penyelesaian persamaan linear.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira pembagian dengan bilangan negatif tidak mengubah arah tanda pertidaksamaan seperti pada penyelesaian persamaan linear.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "pg-8-5-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3394,
+      "paragraph_end": 3413,
+      "body_block_start": 3019,
+      "body_block_end_exclusive": 3039
+    },
+    "audit_id": "5282d3eb0bdc:I8:L5:Q5:O1:original",
+    "original_explanation": "PEMBAHASAN\nSelesaikan pertidaksamaan batas aman:\n$30x+50≤500$\n$$30x \\le 450 \\implies x \\le 15$$\nBatas maksimal karung beras yang aman adalah 15 karung.\nUji pernyataan sopir untuk $x=16$:\n$Bebantotal=30(16)+50=480+50=530kg$\nKarena $530kg>500kg$, muatan 16 karung beras memang telah melebihi batas aman. Maka, pernyataan sopir Benar.",
+    "source_projection": {
+      "stem": "Sebuah mobil bak terbuka memiliki batas aman muatan. Batas beban maksimum dinyatakan oleh pertidaksamaan $30x+50≤500$, di mana $x$ adalah banyak karung beras. Seorang sopir membawa 16 karung beras dan menyatakan bahwa muatannya sudah melebihi batas aman. Evaluasi terhadap pernyataan sopir tersebut adalah ....",
+      "options": [
+        "Salah, karena beban 16 karung beras tepat sama dengan $500kg$",
+        "Benar, karena untuk $x=16$, nilai $30(16)+50=530kg>500kg$",
+        "Salah, karena kapasitas maksimum mobil bak tersebut adalah 18 karung beras",
+        "Benar, karena batas maksimal karung beras yang diperbolehkan adalah 12 karung"
+      ],
+      "key": [
+        "B"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : B"
+      ],
+      "explanation": "PEMBAHASAN\nSelesaikan pertidaksamaan batas aman:\n$30x+50≤500$\n$$30x \\le 450 \\implies x \\le 15$$\nBatas maksimal karung beras yang aman adalah 15 karung.\nUji pernyataan sopir untuk $x=16$:\n$Bebantotal=30(16)+50=480+50=530kg$\nKarena $530kg>500kg$, muatan 16 karung beras memang telah melebihi batas aman. Maka, pernyataan sopir Benar.",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa lupa menambahkan beban awal 50 kg dan hanya mengalikan $30×16=480kg$ sehingga mengira muatan masih aman ($≤500kg$).",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3394,
+          "text": "SOAL 5 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3395,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3396,
+          "text": "KUNCI JAWABAN : B",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3397,
+          "text": "Sebuah mobil bak terbuka memiliki batas aman muatan. Batas beban maksimum dinyatakan oleh pertidaksamaan $30x+50≤500$, di mana $x$ adalah banyak karung beras. Seorang sopir membawa 16 karung beras dan menyatakan bahwa muatannya sudah melebihi batas aman. Evaluasi terhadap pernyataan sopir tersebut adalah ....",
+          "math_ids": [
+            "math-1040",
+            "math-1041"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3398,
+          "text": "A. Salah, karena beban 16 karung beras tepat sama dengan $500kg$",
+          "math_ids": [
+            "math-1042"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3399,
+          "text": "B. Benar, karena untuk $x=16$, nilai $30(16)+50=530kg>500kg$",
+          "math_ids": [
+            "math-1043",
+            "math-1044"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3400,
+          "text": "C. Salah, karena kapasitas maksimum mobil bak tersebut adalah 18 karung beras",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3401,
+          "text": "D. Benar, karena batas maksimal karung beras yang diperbolehkan adalah 12 karung",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3402,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3403,
+          "text": "Selesaikan pertidaksamaan batas aman:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3404,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3405,
+          "text": "$30x+50≤500$",
+          "math_ids": [
+            "math-1045"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3406,
+          "text": "$$30x \\le 450 \\implies x \\le 15$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3407,
+          "text": "Batas maksimal karung beras yang aman adalah 15 karung.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3408,
+          "text": "Uji pernyataan sopir untuk $x=16$:",
+          "math_ids": [
+            "math-1046"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3409,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3410,
+          "text": "$Bebantotal=30(16)+50=480+50=530kg$",
+          "math_ids": [
+            "math-1047"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3411,
+          "text": "Karena $530kg>500kg$, muatan 16 karung beras memang telah melebihi batas aman. Maka, pernyataan sopir Benar.",
+          "math_ids": [
+            "math-1048"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3412,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3413,
+          "text": "Siswa lupa menambahkan beban awal 50 kg dan hanya mengalikan $30×16=480kg$ sehingga mengira muatan masih aman ($≤500kg$).",
+          "math_ids": [
+            "math-1049",
+            "math-1050"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : B\n\nSebuah mobil bak terbuka memiliki batas aman muatan. Batas beban maksimum dinyatakan oleh pertidaksamaan $30x+50≤500$, di mana $x$ adalah banyak karung beras. Seorang sopir membawa 16 karung beras dan menyatakan bahwa muatannya sudah melebihi batas aman. Evaluasi terhadap pernyataan sopir tersebut adalah ....\n\nA. Salah, karena beban 16 karung beras tepat sama dengan $500kg$\n\nB. Benar, karena untuk $x=16$, nilai $30(16)+50=530kg>500kg$\n\nC. Salah, karena kapasitas maksimum mobil bak tersebut adalah 18 karung beras\n\nD. Benar, karena batas maksimal karung beras yang diperbolehkan adalah 12 karung\n\nPEMBAHASAN\n\nSelesaikan pertidaksamaan batas aman:\n\n\n\n$30x+50≤500$\n\n$$30x \\le 450 \\implies x \\le 15$$\n\nBatas maksimal karung beras yang aman adalah 15 karung.\n\nUji pernyataan sopir untuk $x=16$:\n\n\n\n$Bebantotal=30(16)+50=480+50=530kg$\n\nKarena $530kg>500kg$, muatan 16 karung beras memang telah melebihi batas aman. Maka, pernyataan sopir Benar.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa lupa menambahkan beban awal 50 kg dan hanya mengalikan $30×16=480kg$ sehingga mengira muatan masih aman ($≤500kg$).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa lupa menambahkan beban awal 50 kg dan hanya mengalikan $30×16=480kg$ sehingga mengira muatan masih aman ($≤500kg$).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  },
+  "kategori-8-5-9": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 9,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3475,
+      "paragraph_end": 3500,
+      "body_block_start": 3100,
+      "body_block_end_exclusive": 3115
+    },
+    "audit_id": "5282d3eb0bdc:I8:L5:Q9:O1:original",
+    "original_explanation": "PEMBAHASAN\nPernyataan (a):\nBeban total $=3x+65≤140$ (BENAR).\nPernyataan (b):\n$$3x \\le 140 - 65 \\implies 3x \\le 75 \\implies x \\le 25$$\nJumlah maksimum adalah 25 kotak (bukan 26 kotak), maka (SALAH).\nPernyataan (c):\nKarena $x≤25$, pengiriman 25 kotak makanan bernilai tepat pada batas maksimum ($3(25)+65=140kg≤140kg$), sehingga aman dilakukan (BENAR).",
+    "source_projection": {
+      "stem": "Seorang pengelola katering sekolah mengevaluasi kapasitas pengiriman makanan menggunakan sepeda motor listrik. Kotak makanan yang diangkut memiliki berat masing-masing $3kg$, dan berat pengemudi adalah $65kg$. Sepeda motor listrik tersebut memiliki daya angkut maksimum $140kg$. Misalkan $x$ menyatakan banyak kotak makanan.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Model pertidaksamaan yang tepat adalah $3x+65≤140$.",
+        "Jumlah kotak makanan maksimum yang dapat diangkut adalah 26 kotak.",
+        "Pengiriman 25 kotak makanan aman dilakukan dalam sekali jalan."
+      ],
+      "key": [
+        "1",
+        "3"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : (a) BENAR (b) SALAH (c) BENAR"
+      ],
+      "explanation": "PEMBAHASAN\nPernyataan (a):\nBeban total $=3x+65≤140$ (BENAR).\nPernyataan (b):\n$$3x \\le 140 - 65 \\implies 3x \\le 75 \\implies x \\le 25$$\nJumlah maksimum adalah 25 kotak (bukan 26 kotak), maka (SALAH).\nPernyataan (c):\nKarena $x≤25$, pengiriman 25 kotak makanan bernilai tepat pada batas maksimum ($3(25)+65=140kg≤140kg$), sehingga aman dilakukan (BENAR).",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan nilai pembagian ke atas atau lupa memperhitungkan berat pengemudi $65kg$.",
+      "format": "KATEGORI",
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3475,
+          "text": "SOAL 9 (Bentuk Soal: PGK Kategori)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3476,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3477,
+          "text": "KUNCI JAWABAN :",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3478,
+          "text": "(a) BENAR",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3479,
+          "text": "(b) SALAH",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3480,
+          "text": "(c) BENAR",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3481,
+          "text": "Seorang pengelola katering sekolah mengevaluasi kapasitas pengiriman makanan menggunakan sepeda motor listrik. Kotak makanan yang diangkut memiliki berat masing-masing $3kg$, dan berat pengemudi adalah $65kg$. Sepeda motor listrik tersebut memiliki daya angkut maksimum $140kg$. Misalkan $x$ menyatakan banyak kotak makanan.",
+          "math_ids": [
+            "math-1095",
+            "math-1096",
+            "math-1097",
+            "math-1098"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3482,
+          "text": "Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3483,
+          "text": "Pernyataan Evaluasi",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3484,
+          "text": "Benar",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3485,
+          "text": "Salah",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3486,
+          "text": "(a) Model pertidaksamaan yang tepat adalah $3x+65≤140$.",
+          "math_ids": [
+            "math-1099"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3487,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3488,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3489,
+          "text": "(b) Jumlah kotak makanan maksimum yang dapat diangkut adalah 26 kotak.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3490,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3491,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3492,
+          "text": "(c) Pengiriman 25 kotak makanan aman dilakukan dalam sekali jalan.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3493,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3494,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3495,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3496,
+          "text": "Pernyataan (a):\nBeban total $=3x+65≤140$ (BENAR).",
+          "math_ids": [
+            "math-1100"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3497,
+          "text": "Pernyataan (b):\n$$3x \\le 140 - 65 \\implies 3x \\le 75 \\implies x \\le 25$$\nJumlah maksimum adalah 25 kotak (bukan 26 kotak), maka (SALAH).",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3498,
+          "text": "Pernyataan (c):\nKarena $x≤25$, pengiriman 25 kotak makanan bernilai tepat pada batas maksimum ($3(25)+65=140kg≤140kg$), sehingga aman dilakukan (BENAR).",
+          "math_ids": [
+            "math-1101",
+            "math-1102"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3499,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3500,
+          "text": "Siswa membulatkan nilai pembagian ke atas atau lupa memperhitungkan berat pengemudi $65kg$.",
+          "math_ids": [
+            "math-1103"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": [
+        {
+          "type": "table",
+          "id": "table-035",
+          "rows": [
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3483,
+                    "text": "Pernyataan Evaluasi",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3484,
+                    "text": "Benar",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3485,
+                    "text": "Salah",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3486,
+                    "text": "(a) Model pertidaksamaan yang tepat adalah $3x+65≤140$.",
+                    "math_ids": [
+                      "math-1099"
+                    ],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3487,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3488,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3489,
+                    "text": "(b) Jumlah kotak makanan maksimum yang dapat diangkut adalah 26 kotak.",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3490,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3491,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3492,
+                    "text": "(c) Pengiriman 25 kotak makanan aman dilakukan dalam sekali jalan.",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3493,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3494,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "source_text": "SOAL 9 (Bentuk Soal: PGK Kategori)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN :\n\n(a) BENAR\n\n(b) SALAH\n\n(c) BENAR\n\nSeorang pengelola katering sekolah mengevaluasi kapasitas pengiriman makanan menggunakan sepeda motor listrik. Kotak makanan yang diangkut memiliki berat masing-masing $3kg$, dan berat pengemudi adalah $65kg$. Sepeda motor listrik tersebut memiliki daya angkut maksimum $140kg$. Misalkan $x$ menyatakan banyak kotak makanan.\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n<!-- table-035 -->\n<table>\n<tr><td>Pernyataan Evaluasi</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Model pertidaksamaan yang tepat adalah $3x+65≤140$.</td><td></td><td></td></tr>\n<tr><td>(b) Jumlah kotak makanan maksimum yang dapat diangkut adalah 26 kotak.</td><td></td><td></td></tr>\n<tr><td>(c) Pengiriman 25 kotak makanan aman dilakukan dalam sekali jalan.</td><td></td><td></td></tr>\n</table>\n\nPEMBAHASAN\n\nPernyataan (a):\nBeban total $=3x+65≤140$ (BENAR).\n\nPernyataan (b):\n$$3x \\le 140 - 65 \\implies 3x \\le 75 \\implies x \\le 25$$\nJumlah maksimum adalah 25 kotak (bukan 26 kotak), maka (SALAH).\n\nPernyataan (c):\nKarena $x≤25$, pengiriman 25 kotak makanan bernilai tepat pada batas maksimum ($3(25)+65=140kg≤140kg$), sehingga aman dilakukan (BENAR).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa membulatkan nilai pembagian ke atas atau lupa memperhitungkan berat pengemudi $65kg$.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan nilai pembagian ke atas atau lupa memperhitungkan berat pengemudi $65kg$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "kategori-8-5-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 3501,
+      "paragraph_end": 3528,
+      "body_block_start": 3115,
+      "body_block_end_exclusive": 3132
+    },
+    "audit_id": "5282d3eb0bdc:I8:L5:Q10:O1:original",
+    "original_explanation": "PEMBAHASAN\nPernyataan (a):\n$-2x = 8 \\implies x = \\frac{8}{-2} = -4$ (Solusi tunggal $x=-4$) (BENAR).\nPernyataan (b):\n$-2x \\le 8 \\implies x \\ge \\frac{8}{-2} \\implies x \\ge -4$ (Tanda dibalik karena dibagi bilangan negatif) (BENAR).\nPernyataan (c):\nFormulasi I hanya memiliki 1 solusi ($x=-4$), sedangkan Formulasi II memiliki tak hingga banyak solusi ($x≥-4$). Maka pernyataan c (SALAH).",
+    "source_projection": {
+      "stem": "Seorang guru meminta siswa mengevaluasi perbedaan sifat dasar antara Persamaan Linear Satu Variabel (PLSV) dan Pertidaksamaan Linear Satu Variabel (PtLSV):\nFormulasi I (PLSV): $-2x=8$\nFormulasi II (PtLSV): $-2x≤8$\nTentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!",
+      "options": [
+        "Penyelesaian dari Formulasi I adalah nilai tunggal $x=-4$.",
+        "Penyelesaian dari Formulasi II adalah $x≥-4$ karena tanda berubah arah saat dibagi $-2$.",
+        "Kedua formulasi di atas memiliki jumlah anggota himpunan penyelesaian yang sama banyak."
+      ],
+      "key": [
+        "1",
+        "2"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : (a) BENAR (b) BENAR (c) SALAH"
+      ],
+      "explanation": "PEMBAHASAN\nPernyataan (a):\n$-2x = 8 \\implies x = \\frac{8}{-2} = -4$ (Solusi tunggal $x=-4$) (BENAR).\nPernyataan (b):\n$-2x \\le 8 \\implies x \\ge \\frac{8}{-2} \\implies x \\ge -4$ (Tanda dibalik karena dibagi bilangan negatif) (BENAR).\nPernyataan (c):\nFormulasi I hanya memiliki 1 solusi ($x=-4$), sedangkan Formulasi II memiliki tak hingga banyak solusi ($x≥-4$). Maka pernyataan c (SALAH).",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira himpunan penyelesaian pertidaksamaan sama jumlahnya dengan persamaan (hanya satu nilai).",
+      "format": "KATEGORI",
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 3501,
+          "text": "SOAL 10 (Bentuk Soal: PGK Kategori)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3502,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3503,
+          "text": "KUNCI JAWABAN :",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3504,
+          "text": "(a) BENAR",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3505,
+          "text": "(b) BENAR",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3506,
+          "text": "(c) SALAH",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3507,
+          "text": "Seorang guru meminta siswa mengevaluasi perbedaan sifat dasar antara Persamaan Linear Satu Variabel (PLSV) dan Pertidaksamaan Linear Satu Variabel (PtLSV):",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3508,
+          "text": "Formulasi I (PLSV): $-2x=8$",
+          "math_ids": [
+            "math-1104"
+          ],
+          "native_label": "1.",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3509,
+          "text": "Formulasi II (PtLSV): $-2x≤8$",
+          "math_ids": [
+            "math-1105"
+          ],
+          "native_label": "2.",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3510,
+          "text": "Tentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3511,
+          "text": "Pernyataan Hasil Evaluasi",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3512,
+          "text": "Benar",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3513,
+          "text": "Salah",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3514,
+          "text": "(a) Penyelesaian dari Formulasi I adalah nilai tunggal $x=-4$.",
+          "math_ids": [
+            "math-1106"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3515,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3516,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3517,
+          "text": "(b) Penyelesaian dari Formulasi II adalah $x≥-4$ karena tanda berubah arah saat dibagi $-2$.",
+          "math_ids": [
+            "math-1107",
+            "math-1108"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3518,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3519,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3520,
+          "text": "(c) Kedua formulasi di atas memiliki jumlah anggota himpunan penyelesaian yang sama banyak.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3521,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3522,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3523,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3524,
+          "text": "Pernyataan (a):\n$-2x = 8 \\implies x = \\frac{8}{-2} = -4$ (Solusi tunggal $x=-4$) (BENAR).",
+          "math_ids": [
+            "math-1109"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3525,
+          "text": "Pernyataan (b):\n$-2x \\le 8 \\implies x \\ge \\frac{8}{-2} \\implies x \\ge -4$ (Tanda dibalik karena dibagi bilangan negatif) (BENAR).",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3526,
+          "text": "Pernyataan (c):\nFormulasi I hanya memiliki 1 solusi ($x=-4$), sedangkan Formulasi II memiliki tak hingga banyak solusi ($x≥-4$). Maka pernyataan c (SALAH).",
+          "math_ids": [
+            "math-1110",
+            "math-1111"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3527,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 3528,
+          "text": "Siswa mengira himpunan penyelesaian pertidaksamaan sama jumlahnya dengan persamaan (hanya satu nilai).",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": [
+        {
+          "type": "table",
+          "id": "table-036",
+          "rows": [
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3511,
+                    "text": "Pernyataan Hasil Evaluasi",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3512,
+                    "text": "Benar",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3513,
+                    "text": "Salah",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3514,
+                    "text": "(a) Penyelesaian dari Formulasi I adalah nilai tunggal $x=-4$.",
+                    "math_ids": [
+                      "math-1106"
+                    ],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3515,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3516,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3517,
+                    "text": "(b) Penyelesaian dari Formulasi II adalah $x≥-4$ karena tanda berubah arah saat dibagi $-2$.",
+                    "math_ids": [
+                      "math-1107",
+                      "math-1108"
+                    ],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3518,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3519,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3520,
+                    "text": "(c) Kedua formulasi di atas memiliki jumlah anggota himpunan penyelesaian yang sama banyak.",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3521,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 3522,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "source_text": "SOAL 10 (Bentuk Soal: PGK Kategori)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN :\n\n(a) BENAR\n\n(b) BENAR\n\n(c) SALAH\n\nSeorang guru meminta siswa mengevaluasi perbedaan sifat dasar antara Persamaan Linear Satu Variabel (PLSV) dan Pertidaksamaan Linear Satu Variabel (PtLSV):\n\nFormulasi I (PLSV): $-2x=8$\n\nFormulasi II (PtLSV): $-2x≤8$\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!\n\n<!-- table-036 -->\n<table>\n<tr><td>Pernyataan Hasil Evaluasi</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Penyelesaian dari Formulasi I adalah nilai tunggal $x=-4$.</td><td></td><td></td></tr>\n<tr><td>(b) Penyelesaian dari Formulasi II adalah $x≥-4$ karena tanda berubah arah saat dibagi $-2$.</td><td></td><td></td></tr>\n<tr><td>(c) Kedua formulasi di atas memiliki jumlah anggota himpunan penyelesaian yang sama banyak.</td><td></td><td></td></tr>\n</table>\n\nPEMBAHASAN\n\nPernyataan (a):\n$-2x = 8 \\implies x = \\frac{8}{-2} = -4$ (Solusi tunggal $x=-4$) (BENAR).\n\nPernyataan (b):\n$-2x \\le 8 \\implies x \\ge \\frac{8}{-2} \\implies x \\ge -4$ (Tanda dibalik karena dibagi bilangan negatif) (BENAR).\n\nPernyataan (c):\nFormulasi I hanya memiliki 1 solusi ($x=-4$), sedangkan Formulasi II memiliki tak hingga banyak solusi ($x≥-4$). Maka pernyataan c (SALAH).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira himpunan penyelesaian pertidaksamaan sama jumlahnya dengan persamaan (hanya satu nilai).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira himpunan penyelesaian pertidaksamaan sama jumlahnya dengan persamaan (hanya satu nilai).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "kategori-9-4-10": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 10,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 4418,
+      "paragraph_end": 4447,
+      "body_block_start": 3944,
+      "body_block_end_exclusive": 3963
+    },
+    "audit_id": "5282d3eb0bdc:I9:L4:Q10:O1:original",
+    "original_explanation": "PEMBAHASAN\nPernyataan (a):\n$(x + y) + (x - y) = 10 + 4 \\implies 2x = 14 \\implies x = 7$ (BENAR).\nPernyataan (b):\nSubstitusi $x = 7 \\implies 7 + y = 10 \\implies y = 3$. Titik potong $(7,3)$ (BENAR).\nPernyataan (c):\nKarena memiliki solusi tunggal $(7,3)$, kedua garis pasti berpotongan di titik $(7,3)$. Maka pernyataan c (SALAH).",
+    "source_projection": {
+      "stem": "Seorang guru menyajikan dua metode penyelesaian untuk sistem persamaan linear berikut:\n$x+y=10$\n$x-y=4$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Metode eliminasi dengan menjumlahkan kedua persamaan langsung memberikan nilai $2x = 14 \\implies x = 7$.",
+        "Pasangan solusi $(7,3)$ merupakan titik potong kedua garis pada grafik koordinat Kartesius.",
+        "Jika diselesaikan dengan metode grafik, kedua garis tidak akan pernah berpotongan di satu titik."
+      ],
+      "key": [
+        "1",
+        "2"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : (a) BENAR (b) BENAR (c) SALAH"
+      ],
+      "explanation": "PEMBAHASAN\nPernyataan (a):\n$(x + y) + (x - y) = 10 + 4 \\implies 2x = 14 \\implies x = 7$ (BENAR).\nPernyataan (b):\nSubstitusi $x = 7 \\implies 7 + y = 10 \\implies y = 3$. Titik potong $(7,3)$ (BENAR).\nPernyataan (c):\nKarena memiliki solusi tunggal $(7,3)$, kedua garis pasti berpotongan di titik $(7,3)$. Maka pernyataan c (SALAH).",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira garis dengan koefisien sederhana tidak berpotongan pada grafik Kartesius.",
+      "format": "KATEGORI",
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "projection_adjustments": [],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 4418,
+          "text": "SOAL 10 (Bentuk Soal: PGK Kategori)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4419,
+          "text": "LEVEL KOGNITIF : C5 (Mengevaluasi)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4420,
+          "text": "KUNCI JAWABAN :",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4421,
+          "text": "(a) BENAR",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4422,
+          "text": "(b) BENAR",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4423,
+          "text": "(c) SALAH",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4424,
+          "text": "Seorang guru menyajikan dua metode penyelesaian untuk sistem persamaan linear berikut:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4425,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4426,
+          "text": "$x+y=10$",
+          "math_ids": [
+            "math-1427"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4427,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4428,
+          "text": "$x-y=4$",
+          "math_ids": [
+            "math-1428"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4429,
+          "text": "Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4430,
+          "text": "Pernyataan Evaluasi",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4431,
+          "text": "Benar",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4432,
+          "text": "Salah",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4433,
+          "text": "(a) Metode eliminasi dengan menjumlahkan kedua persamaan langsung memberikan nilai $2x = 14 \\implies x = 7$.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4434,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4435,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4436,
+          "text": "(b) Pasangan solusi $(7,3)$ merupakan titik potong kedua garis pada grafik koordinat Kartesius.",
+          "math_ids": [
+            "math-1429"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4437,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4438,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4439,
+          "text": "(c) Jika diselesaikan dengan metode grafik, kedua garis tidak akan pernah berpotongan di satu titik.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4440,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4441,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4442,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4443,
+          "text": "Pernyataan (a):\n$(x + y) + (x - y) = 10 + 4 \\implies 2x = 14 \\implies x = 7$ (BENAR).",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4444,
+          "text": "Pernyataan (b):\nSubstitusi $x = 7 \\implies 7 + y = 10 \\implies y = 3$. Titik potong $(7,3)$ (BENAR).",
+          "math_ids": [
+            "math-1430"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4445,
+          "text": "Pernyataan (c):\nKarena memiliki solusi tunggal $(7,3)$, kedua garis pasti berpotongan di titik $(7,3)$. Maka pernyataan c (SALAH).",
+          "math_ids": [
+            "math-1431",
+            "math-1432"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4446,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4447,
+          "text": "Siswa mengira garis dengan koefisien sederhana tidak berpotongan pada grafik Kartesius.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": [
+        {
+          "type": "table",
+          "id": "table-044",
+          "rows": [
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4430,
+                    "text": "Pernyataan Evaluasi",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4431,
+                    "text": "Benar",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4432,
+                    "text": "Salah",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4433,
+                    "text": "(a) Metode eliminasi dengan menjumlahkan kedua persamaan langsung memberikan nilai $2x = 14 \\implies x = 7$.",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4434,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4435,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4436,
+                    "text": "(b) Pasangan solusi $(7,3)$ merupakan titik potong kedua garis pada grafik koordinat Kartesius.",
+                    "math_ids": [
+                      "math-1429"
+                    ],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4437,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4438,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4439,
+                    "text": "(c) Jika diselesaikan dengan metode grafik, kedua garis tidak akan pernah berpotongan di satu titik.",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4440,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              },
+              {
+                "col_span": 1,
+                "vertical_merge": null,
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "paragraph_index": 4441,
+                    "text": "",
+                    "math_ids": [],
+                    "native_label": null,
+                    "images": []
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "source_text": "SOAL 10 (Bentuk Soal: PGK Kategori)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN :\n\n(a) BENAR\n\n(b) BENAR\n\n(c) SALAH\n\nSeorang guru menyajikan dua metode penyelesaian untuk sistem persamaan linear berikut:\n\n\n\n$x+y=10$\n\n\n\n$x-y=4$\n\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\n\n<!-- table-044 -->\n<table>\n<tr><td>Pernyataan Evaluasi</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>(a) Metode eliminasi dengan menjumlahkan kedua persamaan langsung memberikan nilai $2x = 14 \\implies x = 7$.</td><td></td><td></td></tr>\n<tr><td>(b) Pasangan solusi $(7,3)$ merupakan titik potong kedua garis pada grafik koordinat Kartesius.</td><td></td><td></td></tr>\n<tr><td>(c) Jika diselesaikan dengan metode grafik, kedua garis tidak akan pernah berpotongan di satu titik.</td><td></td><td></td></tr>\n</table>\n\nPEMBAHASAN\n\nPernyataan (a):\n$(x + y) + (x - y) = 10 + 4 \\implies 2x = 14 \\implies x = 7$ (BENAR).\n\nPernyataan (b):\nSubstitusi $x = 7 \\implies 7 + y = 10 \\implies y = 3$. Titik potong $(7,3)$ (BENAR).\n\nPernyataan (c):\nKarena memiliki solusi tunggal $(7,3)$, kedua garis pasti berpotongan di titik $(7,3)$. Maka pernyataan c (SALAH).\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa mengira garis dengan koefisien sederhana tidak berpotongan pada grafik Kartesius.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira garis dengan koefisien sederhana tidak berpotongan pada grafik Kartesius.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "category_labels": [
+      "Benar",
+      "Salah"
+    ]
+  },
+  "pg-10-5-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 5616,
+      "paragraph_end": 5642,
+      "body_block_start": 5021,
+      "body_block_end_exclusive": 5048
+    },
+    "audit_id": "5282d3eb0bdc:I10:L5:Q5:O1:original",
+    "original_explanation": "PEMBAHASAN\nBaris ke-1 (${U}_{1}$) $=2x+3$\nBeda antarbaris ($b$) $=x-1$\nBerdasarkan pola barisan aritmetika, suku/baris ke-3 (${U}_{3}$) adalah:\n${U}_{3}={U}_{1}+2b$\n${U}_{3}=(2x+3)+2(x-1)$\nGunakan sifat distributif untuk menjabarkan $2(x-1)$:\n${U}_{3}=2x+3+2x-2$\nKelompokkan suku-suku sejenis:\n${U}_{3}=(2x+2x)+(3-2)=4x+1$\nJadi, evaluasi menunjukkan bahwa pernyataan panitia Benar.",
+    "source_projection": {
+      "format": "PG",
+      "stem": "Sebuah aula sekolah memiliki susunan kursi yang dinyatakan dalam ekspresi aljabar.\nBaris pertama memuat $2x+3$ kursi.\nSetiap baris berikutnya bertambah $x-1$ kursi dari baris sebelumnya.\nSeorang panitia mengevaluasi bahwa jumlah kursi pada baris ke-3 dapat dinyatakan oleh bentuk aljabar $4x+1$. Evaluasi yang tepat mengenai hasil analisis panitia tersebut adalah ....",
+      "options": [
+        "Benar, karena baris ke-3 $=(2x+3)+2(x-1)=2x+3+2x-2=4x+1$",
+        "Salah, karena baris ke-3 seharusnya $3x+2$",
+        "Salah, karena penambahan 2 kali beda seharusnya menghasilkan $4x+5$",
+        "Benar, karena baris ke-3 dihitung dengan mengalikan baris pertama dengan 3"
+      ],
+      "key": [
+        "A"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : A"
+      ],
+      "explanation": "PEMBAHASAN\nBaris ke-1 (${U}_{1}$) $=2x+3$\nBeda antarbaris ($b$) $=x-1$\nBerdasarkan pola barisan aritmetika, suku/baris ke-3 (${U}_{3}$) adalah:\n${U}_{3}={U}_{1}+2b$\n${U}_{3}=(2x+3)+2(x-1)$\nGunakan sifat distributif untuk menjabarkan $2(x-1)$:\n${U}_{3}=2x+3+2x-2$\nKelompokkan suku-suku sejenis:\n${U}_{3}=(2x+2x)+(3-2)=4x+1$\nJadi, evaluasi menunjukkan bahwa pernyataan panitia Benar.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa hanya menambahkan beda sebanyak 1 kali $({U}_{1}+b=3x+2)$ alih-alih 2 kali untuk mencapai baris ke-3.",
+      "category_labels": null,
+      "parse_flags": []
+    },
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : A\n\nSebuah aula sekolah memiliki susunan kursi yang dinyatakan dalam ekspresi aljabar.\n\nBaris pertama memuat $2x+3$ kursi.\n\nSetiap baris berikutnya bertambah $x-1$ kursi dari baris sebelumnya.\n\nSeorang panitia mengevaluasi bahwa jumlah kursi pada baris ke-3 dapat dinyatakan oleh bentuk aljabar $4x+1$. Evaluasi yang tepat mengenai hasil analisis panitia tersebut adalah ....\n\nA. Benar, karena baris ke-3 $=(2x+3)+2(x-1)=2x+3+2x-2=4x+1$\n\nB. Salah, karena baris ke-3 seharusnya $3x+2$\n\nC. Salah, karena penambahan 2 kali beda seharusnya menghasilkan $4x+5$\n\nD. Benar, karena baris ke-3 dihitung dengan mengalikan baris pertama dengan 3\n\nPEMBAHASAN\n\nBaris ke-1 (${U}_{1}$) $=2x+3$\n\nBeda antarbaris ($b$) $=x-1$\n\nBerdasarkan pola barisan aritmetika, suku/baris ke-3 (${U}_{3}$) adalah:\n\n\n\n${U}_{3}={U}_{1}+2b$\n\n\n\n${U}_{3}=(2x+3)+2(x-1)$\n\nGunakan sifat distributif untuk menjabarkan $2(x-1)$:\n\n\n\n${U}_{3}=2x+3+2x-2$\n\nKelompokkan suku-suku sejenis:\n\n\n\n${U}_{3}=(2x+2x)+(3-2)=4x+1$\n\nJadi, evaluasi menunjukkan bahwa pernyataan panitia Benar.\n\nKesalahan Umum yang Diantisipasi: Siswa hanya menambahkan beda sebanyak 1 kali $({U}_{1}+b=3x+2)$ alih-alih 2 kali untuk mencapai baris ke-3.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa hanya menambahkan beda sebanyak 1 kali $({U}_{1}+b=3x+2)$ alih-alih 2 kali untuk mencapai baris ke-3.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-20-indicators6-10-level45-batch3",
+    "notes": [
+      "10 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ]
+  }
+}

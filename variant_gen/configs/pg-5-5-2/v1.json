@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-5-5-2",
+  "config_version": 1,
+  "original_hash": "40446ccfbd51daaf",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'400' if k == 0 else (400+20*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (2*(6+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'800' if k == 0 else (2*(400+20*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'200' if k == 0 else ((400+20*k)/2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "(6+k)*(400+20*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "(400+20*k)/2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', dengan hasil ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ((400+20*k)/2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' sebagai penyebut skala')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa mengevaluasi keakuratan penggambaran ulang denah panggung seni sekolah. Pada denah awal bertuliskan skala $1:{v0}$, lebar panggung terukur ${v1}cm$. Siswa tersebut membuat denah baru dengan lebar panggung menjadi ${v2}cm$.\nTiga siswa memberikan penilaian mengenai nilai skala baru denah tersebut:\nEvaluasi I: \"Skala baru adalah $1:{v3}$, karena nilai pembanding skala dikalikan dua (${v0}×2={v3}$).\"\nEvaluasi II: \"Skala baru tetap $1:{v0}$, karena ukuran panggung sebenarnya tidak berubah.\"\nEvaluasi III: \"Skala baru adalah $1:{v4}$, karena ukuran gambar yang diperbesar dua kali lipat membuat faktor pemecah skala berkurang menjadi setengahnya (${v0}÷2={v4}$).\"\nEvaluasi manakah yang benar secara matematis?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi III{v7}{v8}{v9}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi I dan II",
+      "correct": false
+    }
+  ],
+  "explanation": "Ukuran nyata = {v5}. Gambar baru dua kali lebih besar, sehingga penyebut skala baru = {v6}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

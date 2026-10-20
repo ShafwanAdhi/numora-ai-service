@@ -1,0 +1,115 @@
+{
+  "question_id": "mcma-9-5-6",
+  "config_version": 1,
+  "original_hash": "9e1d668a1dddaaae",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5 + 2 * k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'11' if k == 0 else (11 + 3 * k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3 + k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (4 + k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (4+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "21+7*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "4+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "2+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang guru meminta siswa mengevaluasi sistem persamaan linear dua variabel berikut:\n$3x-y={v0}$\n$x+2y={v1}$\nManakah pernyataan evaluatif berikut yang benar mengenai penyelesaian sistem persamaan tersebut? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nilai $x$ yang memenuhi sistem persamaan adalah ${v4}$.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Nilai $y$ yang memenuhi sistem persamaan adalah ${v5}$.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Nilai $y$ yang memenuhi sistem persamaan adalah ${v6}$.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pasangan penyelesaian $(x,y)=({v2},{v3})$ merupakan titik potong kedua garis pada bidang Kartesius.",
+      "correct": true
+    }
+  ],
+  "explanation": "Eliminasi y menghasilkan 7x={v7}, jadi x={v8}. Substitusi memberi y={v9}, bukan {v10}. Determinan 7 tidak nol, pasangan ({v8},{v9}) titik potong tunggal. A, C, D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

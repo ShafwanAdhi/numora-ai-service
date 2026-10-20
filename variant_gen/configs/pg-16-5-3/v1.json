@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-16-5-3",
+  "config_version": 1,
+  "original_hash": "2c1385d7f9ecbfa5",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'![Source image rId14](media/image7.png)' if k == 0 else ('![Source image rId14](media/image7.png)' if k == 0 else '')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('' if k == 0 else 'Jari-jari juring ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('' if k == 0 else 12*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('' if k == 0 else ' cm, sudut pusat 150 derajat.')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'Perhatikan gambar jaring-jaring kerucut di bawah ini!' if k == 0 else ('Perhatikan gambar jaring-jaring kerucut di bawah ini!' if k == 0 else 'Perhatikan data jaring-jaring kerucut berikut.')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else ((5)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else ((10)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "5*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "10*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "{v5}\n{v1}{v2}{v3}{v4}\nSeorang siswa menyimpulkan bahwa jari-jari lingkaran alas kerucut tersebut adalah {v6} cm. Evaluasi kebenaran dari kesimpulan siswa tersebut berdasarkan data pada gambar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kesimpulan siswa BENAR, karena panjang busur juring sama dengan keliling alas ($2πr={v7}π$).",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kesimpulan siswa SALAH, karena jari-jari seharusnya {v8} cm.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kesimpulan siswa SALAH, karena sudut pusat tidak digunakan dalam perhitungan.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kesimpulan siswa BENAR, karena jari-jari alas selalu setengah dari jari-jari juring.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v9}. Busur=150/360*2*pi*s={v10}pi. Maka r=busur/(2*pi)={v9}. Opsi A; r bukan setengah s karena sudutnya150, bukan180.",
+  "shuffle": false,
+  "max_draws": 1000
+}

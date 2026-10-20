@@ -1,0 +1,135 @@
+{
+  "question_id": "pg-3-5-2",
+  "config_version": 1,
+  "original_hash": "2c647e264a1da500",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'53' if k == 0 else ((53 if k==0 else round((10.3+k)**2)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'54' if k == 0 else ((54 if k==0 else round((10.3+k)**2)+(1 if round((10.3+k)**2)<(10.3+k)**2 else -1)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'7,2' if k == 0 else (round(sqrt((53 if k==0 else round((10.3+k)**2))),1)-0.1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'7,3' if k == 0 else (round(sqrt((54 if k==0 else round((10.3+k)**2)+(1 if round((10.3+k)**2)<(10.3+k)**2 else -1))),1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'7,{2}' if k == 0 else (round(sqrt((53 if k==0 else round((10.3+k)**2))),1)-0.1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'7,{3}' if k == 0 else (round(sqrt((54 if k==0 else round((10.3+k)**2)+(1 if round((10.3+k)**2)<(10.3+k)**2 else -1))),1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'7,{4}' if k == 0 else (round(sqrt((54 if k==0 else round((10.3+k)**2)+(1 if round((10.3+k)**2)<(10.3+k)**2 else -1))),1)+0.1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'51,84' if k == 0 else ((round(sqrt((53 if k==0 else round((10.3+k)**2))),1)-0.1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'53,29' if k == 0 else ((round(sqrt((54 if k==0 else round((10.3+k)**2)+(1 if round((10.3+k)**2)<(10.3+k)**2 else -1))),1))**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'7,4' if k == 0 else (round(sqrt((54 if k==0 else round((10.3+k)**2)+(1 if round((10.3+k)**2)<(10.3+k)**2 else -1))),1)+0.1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "round(sqrt((53 if k==0 else round((10.3+k)**2))),1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "round(sqrt((54 if k==0 else round((10.3+k)**2)+(1 if round((10.3+k)**2)<(10.3+k)**2 else -1))),1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (round(sqrt((54 if k==0 else round((10.3+k)**2)+(1 if round((10.3+k)**2)<(10.3+k)**2 else -1))),1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' m)')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kabel kawat baja penguat tiang bendera diukur panjangnya secara tidak langsung:\nKawat X: panjang $=\\sqrt{{v0} }meter$\nKawat Y: panjang $=\\sqrt{{v1} }meter$\nDua siswa mengevaluasi hasil aproksimasi panjang kedua kawat tersebut jika dibulatkan hingga satu tempat desimal (persepuluhan terdekat):\nEvaluasi X: \"Kawat X $={v2}m$ dan Kawat Y $={v3}m$.\"\nEvaluasi Y: \"Kawat X $={v3}m$ dan Kawat Y $={v3}m$.\"\nEvaluasi manakah yang benar berdasarkan uji kuadrat desimal?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi X, karena $\\sqrt{{v0}}$ dan $\\sqrt{{v1}}$ harus menghasilkan desimal yang berbeda",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi X, karena ${v4}^{2}={v7}$ yang lebih dekat ke {v0}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi Y, karena ${v5}^{2}={v8}$ (paling dekat ke {v0}) dan ${v5}^{2}={v8}$ juga paling dekat ke {v1}{v12}{v13}{v14}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kedua evaluasi salah, karena nilai keduanya dibulatkan menjadi ${v9}m$",
+      "correct": false
+    }
+  ],
+  "explanation": "Gunakan batas tengah pembulatan, bukan jarak nilai kuadrat: sqrt({v0}) = {v10} dan sqrt({v1}) = {v11} ke persepuluhan. Evaluasi Y, opsi C, benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

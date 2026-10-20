@@ -1,0 +1,80 @@
+{
+  "question_id": "mcma-20-4-8",
+  "config_version": 1,
+  "original_hash": "fcef27e070fba957",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (30+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' responden kantin pada istirahat pertama)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "30+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah sekolah ingin mengevaluasi kepuasan siswa terhadap kantin. Peneliti memberikan kuesioner kepada {v0} siswa yang sedang makan di kantin pada jam istirahat pertama.\n\nEvaluasi yang tepat terhadap metode pengumpulan data tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sampel tersebut berpotensi kurang mewakili seluruh siswa sekolah.{v1}{v2}{v3}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Responden yang sedang menggunakan kantin mungkin memiliki pengalaman berbeda dari siswa yang tidak menggunakannya.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Hasilnya pasti tidak valid karena jumlah responden hanya {v0} siswa.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Peneliti dapat mempertimbangkan pengambilan sampel dari kelas dan waktu istirahat yang berbeda.",
+      "correct": true
+    },
+    {
+      "id": "E",
+      "text": "Peneliti tidak perlu menentukan responden karena semua jawaban pasti sama.",
+      "correct": false
+    }
+  ],
+  "explanation": "Jumlah sampel = {v4}. Responden hanya pengguna kantin pada istirahat pertama, sehingga pengalaman nonpengguna dan waktu lain dapat tidak terwakili. Sampel lintas kelas dan waktu memperluas cakupan. Jumlah responden saja tidak menetapkan hasil pasti tidak valid; jawaban siswa tidak selalu sama.",
+  "shuffle": false,
+  "max_draws": 1000
+}

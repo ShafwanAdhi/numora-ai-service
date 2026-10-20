@@ -1,0 +1,104 @@
+{
+  "question_id": "mcma-20-5-7",
+  "config_version": 1,
+  "original_hash": "6b570187aa179a96",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else (60+k/2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'25' if k == 0 else (25-k/5)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15-3*k/10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (60+k/2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('%, kelompok durasi tersebut)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "60+k/2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "25-k/5",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "15-3*k/10",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah kelas melakukan survei tentang waktu belajar mandiri. Hasilnya menunjukkan bahwa {v0}% responden belajar selama 1–2 jam sehari, {v1}% belajar kurang dari 1 jam, dan {v2}% belajar lebih dari 2 jam.\n\nPernyataan atau keputusan yang dapat dipertanggungjawabkan berdasarkan data tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelompok durasi belajar 1–2 jam merupakan kelompok terbesar dalam survei.{v3}{v4}{v5}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Semua siswa di sekolah tersebut belajar selama 1–2 jam setiap hari.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Diagram batang dapat digunakan untuk membandingkan jumlah atau persentase tiap kategori.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Data tersebut membuktikan bahwa belajar 1–2 jam menyebabkan nilai siswa lebih tinggi.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Kesimpulan perlu dibatasi pada responden dan metode pengumpulan data yang digunakan.",
+      "correct": true
+    }
+  ],
+  "explanation": "Hasil = {v6}. Persentase berjumlah100. Kategori1-2jam={v6}%, kurang dari1jam={v7}%, lebih dari2jam={v8}%. Kelompok1-2jam terbesar. A,C,E benar; tidak membuktikan sebab-akibat atau berlaku bagi semua siswa.",
+  "shuffle": false,
+  "max_draws": 1000
+}

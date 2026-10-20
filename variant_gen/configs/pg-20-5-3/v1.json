@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-20-5-3",
+  "config_version": 1,
+  "original_hash": "ff31aa4bddc0dcf1",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else (20+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (18+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' siswa bernilai tinggi dalam kelompok yang diamati)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "20+2*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "18+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang peneliti menyurvei {v0} siswa yang mengikuti bimbingan belajar dan menemukan bahwa {v1} siswa memperoleh nilai matematika di atas 80. Ia menyimpulkan bahwa mengikuti bimbingan belajar pasti menyebabkan nilai matematika meningkat.\n\nPenilaian paling tepat terhadap kesimpulan tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tepat, karena mayoritas peserta memperoleh nilai tinggi.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Tepat, karena jumlah siswa yang memperoleh nilai tinggi lebih dari setengah sampel.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Belum cukup kuat, karena tidak ada data pembanding dan faktor lain yang mungkin memengaruhi nilai.{v2}{v3}{v4}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena siswa yang mengikuti bimbingan belajar tidak dapat dijadikan responden penelitian.",
+      "correct": false
+    }
+  ],
+  "explanation": "Sampel = {v5}. Nilai tinggi = {v6}. Kelompok bernilai tinggi memang lebih dari setengah sampel, tetapi penelitian hanya mengamati peserta bimbingan. Tidak ada data pembanding, nilai sebelum perlakuan, atau pengendalian faktor lain. Mayoritas tidak membuktikan sebab-akibat; peserta tetap boleh menjadi responden.",
+  "shuffle": false,
+  "max_draws": 1000
+}

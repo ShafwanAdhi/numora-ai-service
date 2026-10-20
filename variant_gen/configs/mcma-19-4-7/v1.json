@@ -1,0 +1,87 @@
+{
+  "question_id": "mcma-19-4-7",
+  "config_version": 1,
+  "original_hash": "1117782aac2e693d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else ((6)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else ((12)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else ((8)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'288' if k == 0 else ((288)*(k+1)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'384' if k == 0 else ((384)*(k+1)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "384*(k+1)**3",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "288*(k+1)**3",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui sebuah bola dengan jari-jari {v0} cm dan sebuah limas dengan alas persegi bersisi {v1} cm serta tinggi {v2} cm. Pilihlah semua pernyataan yang benar hasil evaluasi perbandingan kedua bangun ruang tersebut! (Gunakan $π≈3,14$ atau biarkan dalam bentuk $π$)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Volume bola tersebut adalah ${v3}π$ cm³.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Volume limas tersebut adalah {v4} cm³.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Perbandingan volume limas terhadap bola adalah $4:3π$.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika jari-jari bola diperbesar menjadi 2 kali lipat, volume bola menjadi lebih kecil dari volume limas.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v5}. Bola={v6}pi, limas={v5}. Rasio limas:bola=4:3pi. Menggandakan r membuat bola8 kali, tetap lebih besar. A,B,C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

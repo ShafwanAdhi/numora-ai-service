@@ -1,0 +1,115 @@
+{
+  "question_id": "mcma-9-5-8",
+  "config_version": 1,
+  "original_hash": "265aaed5287665ef",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2 + k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (4 + 2 * k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5 + k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9 + k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'7' if k == 0 else (7 + 3 * k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'-7' if k == 0 else (-7 - 2 * k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3 + k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "5+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "9+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "2+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa mengevaluasi hubungan koefisien dari tiga pasang SPLDV berikut:\nPasangan I: $x-y={v0}$ dan $2x-2y={v1}$\nPasangan II: $x+y={v2}$ dan $x+y={v3}$\nPasangan III: $2x+y={v4}$ dan $x-3y={v5}$\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pasangan I memiliki tak hingga banyaknya penyelesaian karena kedua garis berimpit.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pasangan II memiliki satu solusi tunggal yaitu $({v2},{v3})$.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Pasangan II tidak memiliki penyelesaian karena kedua garis sejajar.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pasangan III memiliki solusi tunggal yaitu $({v0},{v6})$.",
+      "correct": true
+    }
+  ],
+  "explanation": "I: persamaan kedua dua kali persamaan pertama, sehingga berimpit dan solusi tak hingga. II: ruas kiri sama tetapi konstanta {v7} dan {v8} berbeda, maka sejajar tanpa solusi. III: determinan -7 tidak nol, solusi ({v9},{v10}) memenuhi kedua persamaan. A, C, D benar; B salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

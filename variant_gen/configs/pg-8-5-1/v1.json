@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-8-5-1",
+  "config_version": 1,
+  "original_hash": "2fd1459b6579d709",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'600.000,00' if k == 0 else (600000+16000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'37' if k == 0 else (floor((600000+16000*k)/16000))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'600.000' if k == 0 else (600000+16000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'28' if k == 0 else (28+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'37,5' if k == 0 else ((600000+16000*k)/16000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "30+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "16000*(30+k)+120000",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia bazar buku sekolah memiliki anggaran maksimal Rp{v0} untuk pengadaan konsumsi relawan. Biaya kebersihan tetap adalah Rp120.000,00 dan harga setiap paket konsumsi adalah Rp16.000,00. Jika $n$ menyatakan banyak paket konsumsi, seorang panitia mengevaluasi bahwa panitia dapat membeli maksimal {v1} paket konsumsi. Evaluasi yang tepat terhadap pernyataan panitia tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Salah, karena panitia dapat membeli maksimal {v2} paket konsumsi",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Benar, karena beban total $16.000({v1})+120.000={v3}≤{v3}$",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena batas maksimal yang tepat adalah {v4} paket konsumsi",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Benar, karena ${v3}÷16.000={v5}$ sehingga dibulatkan ke bawah menjadi {v1}",
+      "correct": false
+    }
+  ],
+  "explanation": "Maksimum paket = {v6}. Biaya total = {v7}, sama dengan anggaran. Biaya tetap wajib dihitung; hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,68 @@
+{
+  "question_id": "kategori-6-5-9",
+  "config_version": 1,
+  "original_hash": "b3cfcf6b4446a77e",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else (60*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else (90*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "5*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola kolam renang mengevaluasi pengisian dua kolam (Kolam X dan Kolam Y) menggunakan kran air otomatis.\nKolam X: Berkapasitas ${v0}{m}^{3}$, diisi dengan 3 kran identik dan penuh dalam waktu 4 jam.\nKolam Y: Berkapasitas ${v1}{m}^{3}$, diisi dengan 4 kran yang sama.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Debit aliran 1 kran air adalah ${v2}{m}^{3}/jam$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Kolam Y akan terisi penuh dalam waktu kurang dari 4 jam.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Jika Kolam X diisi hanya dengan 2 kran, waktu pengisian menjadi 6 jam.",
+      "correct": true
+    }
+  ],
+  "explanation": "Debit satu kran = {v3}. Waktu Kolam Y = 4,5 jam; waktu Kolam X dengan dua kran = 6 jam. Benar, salah, benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

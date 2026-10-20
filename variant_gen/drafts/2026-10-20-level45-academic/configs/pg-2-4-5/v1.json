@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-2-4-5",
+  "config_version": 1,
+  "original_hash": "71f5974ad78d1154",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else ((k+3)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'2{7}' if k == 0 else ((k+3)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (k+3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "n": {
+      "gen": "derived",
+      "expr": "'{n}' if k == 0 else 'n'"
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'{a}' if k == 0 else 'a'"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang guru meminta siswa mengevaluasi penyederhanaan ekspresi bilangan berpangkat berikut:\n$Ekspresi:\\frac{{{v2}}^{5}×{{v0}}^{-1}}{{v1}^{\\frac{2}{3}}}$\nDua siswa memberikan lembar jawaban:\nSiswa A: Mengubah semua basis menjadi {v2} ⇒ $\\frac{{{v2}}^{5}×{{v2}}^{-2}}{{{v2}}^{2}}=$ $\\frac{{{v2}}^{3}}{{{v2}}^{2}}= {{v2}}^{1}={v2}$.\nSiswa B: Mengubah semua basis menjadi {v2} ⇒ $\\frac{{{v2}}^{5}×{{v2}}^{-2}}{({{v2}}^{3}{)}^{\\frac{2}{3}}}=\\frac{{{v2}}^{3}}{{{v2}}^{2}}=$ ${{v2}}^{1}={v2}$.\nManakah evaluasi yang pasti tepat mengenai keabsahan langkah penyederhanaan kedua siswa?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jawaban Siswa A salah karena ${v1}^{\\frac{2}{3}}$ tidak sama dengan ${v0}={{v2}}^{2}$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Jawaban Siswa B salah karena $({{v2}}^{3}{)}^{\\frac{2}{3}}$ tidak sama dengan ${{v2}}^{2}$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk ${v1}^{\\frac{2}{3}}=({{v2}}^{3}{)}^{\\frac{2}{3}}={{v2}}^{2}$",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kedua siswa menghasilkan jawaban yang salah karena hasil akhirnya seharusnya {v0}",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nJabarkan semua komponen ke basis ${v2}$:\n${{v0}}^{-1}=({{v2}}^{2}{)}^{-1}={{v2}}^{-2}$\n${v1}^{\\frac{2}{3}}=({{v2}}^{3}{)}^{\\frac{2}{3}}={{v2}}^{3×\\frac{2}{3}}={{v2}}^{2}$\nEvaluasi langkah:\n$\\frac{{{v2}}^{5}×{{v2}}^{-2}}{{{v2}}^{2}}=\\frac{{{v2}}^{5-2}}{{{v2}}^{2}}=\\frac{{{v2}}^{3}}{{{v2}}^{2}}={{v2}}^{3-2}={{v2}}^{1}={v2}$\nLangkah Siswa B menyajikan konversi basis dan penerapan sifat eksponen pecahan secara lengkap dan tepat.",
+  "shuffle": false,
+  "max_draws": 1000
+}

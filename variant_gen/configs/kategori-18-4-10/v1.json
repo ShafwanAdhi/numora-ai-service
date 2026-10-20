@@ -1,0 +1,105 @@
+{
+  "question_id": "kategori-18-4-10",
+  "config_version": 1,
+  "original_hash": "c865d5d9c4e35c2d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'28' if k == 0 else ((28)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3,5' if k == 0 else ((7/2)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else ((14)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'616' if k == 0 else ((616)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'17,5' if k == 0 else ((35/2)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'462' if k == 0 else ((462)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "346.5*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "14*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "17.5*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "462*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah kolam renang berbentuk lingkaran dengan diameter {v0} m. Di sekeliling bagian luar kolam akan dibangun jalan setapak dengan lebar {v1} m. Tentukan Benar atau Salah untuk setiap pernyataan berikut! (Gunakan π = $\\frac{22}{7}$)",
+  "options": [
+    {
+      "id": "1",
+      "text": "Jari-jari kolam renang tersebut adalah {v2} m.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas kolam renang tersebut adalah {v3} m²",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jari-jari daerah terluar (kolam + jalan) adalah {v4} m",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Luas jalan setapak tersebut adalah {v5} m².",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v6}. r={v7}, R={v8}. Luas jalan=pi*(R^2-r^2)={v6}, bukan{v9}. 1,2,3 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

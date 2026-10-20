@@ -1,0 +1,17 @@
+indicator,level,question_id,mode,reason
+1,2,pg-1-2-1,held,"Kunci D dan urutan kerugian telah diperbaiki, tetapi pembahasan masih menulis −58% = 0,58%. Konversi yang benar −0,58; sumber disimpan tanpa koreksi diam-diam."
+5,3,pg-5-3-3,held,"Revisi belum mengubah konflik header: B. 24 liter/menit, sedangkan opsi B dan pembahasan selisih debit adalah 4 liter/menit. 24 merupakan debit Q, bukan selisih."
+6,3,mcma-6-3-7,held,"Revisi masih konflik: pada awal hari ke-3 sisa makanan 48/8=6 hari; setelah tiga hari penuh 42/8=5,25 hari. Pernyataan C menyebut 5 hari dan pembahasan mencampur dua/tiga hari serta menulis 42/8=5; kunci A,B,C belum valid."
+21,4,kategori-21-4-9,held,"WRONG_KEY_AND_EXPLANATION: median data adalah25, sehingga B benar. Kunci/tabel memberi B Salah, pembahasan juga menyebut median25 tetapi menyimpulkan B salah. Himpunan benar1234, bukan134."
+21,4,kategori-21-4-10,held,CONFLICTING_KEY: rerata kedua kelompok3; median2 dan3; jangkauan6 dan2. Hanya D tepat. Kunci/tabel124 bertentangan dengan data dan koreksi pada pembahasan yang memilih4.
+21,5,mcma-21-5-6,held,"CONFLICTING_KEY: jumlah400/5=80, jadi opsi B benar. Kunci awal A,C,D menghilangkan B; pembahasan kemudian mengoreksi menjadi A,B,C,D."
+21,5,mcma-21-5-7,held,"CONFLICTING_KEY: rerata kedua kelompok400/5=80, sehingga C salah. Kunci awal A,B,C,E bertentangan dengan koreksi pembahasan A,B,E."
+22,4,pg-22-4-3,held,"WRONG_KEY_AND_CORRECTION: opsi D benar karena rerata kedua kelompok4. Kunci awal A salah; pembahasan salah menyatakan tidak ada opsi benar, lalu mengusulkan perubahan A yang akan menduplikasi D."
+22,4,mcma-22-4-7,held,"CONFLICTING_KEY: kelompok Q berisi3,4,5,6,7 tanpa modus tunggal. E salah. Kunci awal A,B,D,E bertentangan dengan koreksi pembahasan A,B,D."
+22,4,kategori-22-4-9,held,"CONFLICTING_KEY: rerata kedua kelompok20, sehingga B salah. Kunci/tabel123 bertentangan dengan koreksi pembahasan13."
+23,4,pg-23-4-5,held,MISSING_FAIRNESS: stimulus tidak menyebut koin seimbang. Frekuensi relatif0.65 tidak menetapkan peluang teoretis; opsi C memakai peluang0.5 yang mensyaratkan koin seimbang. Tegaskan asumsi pada stimulus.
+23,4,mcma-23-4-7,held,"UNSTATED_ROUNDING:28/60=0.4666..., bukan tepat0.47 pada opsi B. Pembahasan memakai sekitar0.47, stimulus/opsi tidak. KunciABC menganggap pembulatan yang belum dinyatakan; kunci eksakAC."
+23,5,pg-23-5-3,held,MISSING_MODEL: peluang tepat satu gambar adalah1/2 hanya untuk dua lemparan independen koin seimbang. Stimulus tidak menetapkan kedua asumsi; ruang sampel empat hasil saja tidak menjamin peluang setara.
+23,5,pg-23-5-4,held,MISSING_FAIRNESS: stimulus tidak menyebut dadu seimbang. Peluang genap0.5 pada opsi C memerlukan asumsi tersebut; frekuensi relatif162/300 tidak menetapkannya.
+23,5,mcma-23-5-7,held,"MISSING_FAIRNESS: stimulus tidak menyebut koin seimbang. A,B,C benar empiris; D tidak dapat dinilai salah secara pasti karena peluang koin yang tidak diketahui dapat saja0.575. Tegaskan model sebelum memakai kunciABC."
+23,5,mcma-23-5-8,held,"MISSING_RANDOM_DRAW: peluang4/10 pada opsi A membutuhkan pengambilan acak seragam. Stimulus hanya menyebut mengambil satu bola dan pengembalian, belum menyatakan acak/seragam. Frekuensi relatifB,C tetap benar; tegaskan mekanisme untuk kunciABC."

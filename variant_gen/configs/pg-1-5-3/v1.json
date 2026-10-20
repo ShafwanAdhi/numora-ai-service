@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-1-5-3",
+  "config_version": 1,
+  "original_hash": "121d6ede64148974",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'25' if k == 0 else (25+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'15.000,00' if k == 0 else (15000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'12.000,00' if k == 0 else (12000+400*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'15.000' if k == 0 else (15000+500*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'12.000' if k == 0 else (12000+400*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'27.000' if k == 0 else (27000+900*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'675.000' if k == 0 else ((25+k)*(27000+900*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'15.025' if k == 0 else ((25+k)+(15000+500*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'12.025' if k == 0 else ((25+k)+(12000+400*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'180.675.625' if k == 0 else (((25+k)+(15000+500*k))*((25+k)+(12000+400*k)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('; total benar Rp')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ((25+k)*(27000+900*k))",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah panitia sekolah mengevaluasi penulisan bentuk aljabar untuk menghitung total pengadaan ${v0}$ paket sembako. Setiap paket berisi $1kg$ beras seharga Rp{v1} dan $1kg$ gula pasir seharga Rp{v2}.\nDua usulan penyederhanaan rumus diajukan dengan memanfaatkan Sifat Distributif perkalian terhadap penjumlahan:\nUsulan I: Total = ${v0}×({v3}+{v4})={v0}×{v5}={v6}$\nUsulan II: Total = $({v0}+{v3})×({v0}+{v4})={v7}×{v8}={v9}$\nManakah hasil evaluasi yang benar mengenai keabsahan kedua usulan rumus tersebut?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Usulan I benar, karena menerapkan sifat distributif $a⋅b+a⋅c=a(b+c)$ secara tepat{v10}{v11}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Usulan II benar, karena mengalikan suku-suku yang ditambahkan",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Usulan I dan Usulan II sama-sama salah",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Usulan II lebih hemat dalam operasi perkalian",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\nPerhitungan total biaya riil: $({v0}×{v3})+({v0}×{v4})$.\nMenggunakan sifat distributif $a⋅b+a⋅c=a(b+c)$:\n${v0}×({v3}+{v4})={v0}×{v5}={v6}$\nUsulan II salah besar secara konsep matematika dan mengacaukan harga barang. Maka, Usulan I adalah yang valid dan benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

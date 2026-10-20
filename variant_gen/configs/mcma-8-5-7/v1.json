@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-8-5-7",
+  "config_version": 1,
+  "original_hash": "b7f0aa0461a2d57a",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'11' if k == 0 else (11+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'-3' if k == 0 else (-3-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'-5' if k == 0 else (-5-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "-3-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "-5-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diketahui pertidaksamaan $5-2x≥{v0}$. Seorang siswa menganalisis penyelesaian dan bentuk grafiknya. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Penyelesaian pertidaksamaan tersebut adalah $x≥{v1}$.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Penyelesaian pertidaksamaan tersebut adalah $x≤{v1}$.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Titik ${v1}$ pada garis bilangan digambarkan dengan lingkaran kosong.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Angka ${v2}$ termasuk ke dalam himpunan penyelesaian pertidaksamaan tersebut.",
+      "correct": true
+    }
+  ],
+  "explanation": "Batas maksimum = {v3}. Tanda ≤ memakai lingkaran penuh. Nilai {v4} memenuhi pertidaksamaan. B dan D benar; A dan C salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

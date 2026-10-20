@@ -1,4 +1,4 @@
-"""Revised sources stay readable; the unresolved geometry source remains blocked."""
+"""Revised sources stay readable; local v3 geometry repair retains the v2 source."""
 import hashlib
 import math
 import sys
@@ -17,7 +17,7 @@ FOLDER = ROOT / 'data/drill-1-indicators-11-15'
 
 
 class SourceRevision1115(unittest.TestCase):
-    def test_archive_versions_and_unresolved_source_remains_blocked(self):
+    def test_archive_versions_and_current_generators(self):
         archive = FOLDER / 'source-revision-2026-10-07.docx'
         self.assertTrue(archive.exists())
         self.assertEqual(hashlib.sha256(archive.read_bytes()).hexdigest(),
@@ -29,23 +29,18 @@ class SourceRevision1115(unittest.TestCase):
         for qid in IDS:
             with self.subTest(question=qid):
                 original = bank.get(qid)
-                self.assertEqual(original['version'], 2)
-                blocked = qid == 'mcma-15-2-8'
-                self.assertEqual(configs.versions(qid), [] if blocked else [1])
-                self.assertEqual(original['metadata']['generator_status'], 'NOT_IMPLEMENTED' if blocked else 'IMPLEMENTED')
+                self.assertEqual(original['version'], 3 if qid=='mcma-15-2-8' else 2)
+                self.assertEqual(configs.versions(qid), [1])
+                self.assertEqual(original['metadata']['generator_status'], 'IMPLEMENTED')
                 self.assertTrue(original['metadata']['source_text'])
                 self.assertTrue(original['metadata']['original_explanation'])
                 self.assertTrue(original['metadata']['reason'])
-                if blocked:
-                    with self.assertRaises(ConfigError):
-                        generate(original, {}, 1, [])
-                else:
-                    cfg, _ = configs.load(qid)
-                    self.assertTrue(generate(original, cfg, 1, []).cand['explanation'])
+                cfg, _ = configs.load(qid)
+                self.assertTrue(generate(original, cfg, 1, []).cand['explanation'])
         workspace = load_workspace_bank(ROOT / 'data/q0_bank.csv')
         stocks = load_stock(ROOT / 'data/conceptual_stock.json', workspace)
-        stocks = {q:items for q,items in stocks.items() if workspace.get(q)['classification']['activity']=='DRILL'}
-        self.assertEqual((len(stocks), sum(map(len, stocks.values()))), (67, 206))
+        stocks = {q:items for q,items in stocks.items() if q in bank.ids()}
+        self.assertEqual((len(stocks), sum(map(len, stocks.values()))), (22, 71))
         for qid in IDS:
             self.assertEqual(workspace.get(qid), bank.get(qid))
 
@@ -68,8 +63,14 @@ class SourceRevision1115(unittest.TestCase):
         self.assertIn('y² = x', original['options'][0]['text'])
 
     def test_geometry_issue_is_retained_without_silent_correction(self):
+        import json
         bank = OriginalBank(FOLDER / 'q0_bank.csv')
-        original = bank.get('mcma-15-2-8')
+        current=bank.get('mcma-15-2-8')
+        revision=next(r for r in map(json.loads,(FOLDER/'original_revisions.jsonl').read_text(encoding='utf8').splitlines()) if r['question_id']==current['id'] and r['original_version']==2)
+        original=dict(revision['original_row'],metadata=revision['original_metadata'])
+        original['options']=[dict(text=t) for t in json.loads(original['options_json'])]
+        self.assertEqual(current['version'],3)
+        self.assertEqual(current['metadata']['generation_status'],'ACTIVE')
         self.assertIn('∠A = 75°', original['stem'])
         self.assertIn('BC = 9 cm', original['stem'])
         self.assertIn('13,5', original['options'][1]['text'])

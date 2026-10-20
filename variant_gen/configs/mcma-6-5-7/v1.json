@@ -1,0 +1,85 @@
+{
+  "question_id": "mcma-6-5-7",
+  "config_version": 1,
+  "original_hash": "aa80cce2f07b1da1",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'150.000,00' if k == 0 else (150000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'250.000,00' if k == 0 else (250000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'450.000,00' if k == 0 else (450000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "15000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "250000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "450000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah penyedia jasa cetak foto menawarkan dua pilihan paket spanduk sekolah:\nCetak $10{m}^{2}$ membutuhkan waktu 2 jam dengan biaya Rp{v0}.\nCetak $15{m}^{2}$ membutuhkan waktu 2 jam dengan biaya Rp{v1}.\nEvaluasilah pernyataan berikut dan pilihlah pernyataan yang tepat! (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tarif per meter persegi Paket Hemat lebih mahal daripada Paket Cepat.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kecepatan cetak Paket Cepat adalah $7,5{m}^{2}/jam$.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Untuk mencetak $30{m}^{2}$ spanduk, Paket Hemat memerlukan biaya Rp{v2}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika menggunakan Paket Cepat, mencetak $45{m}^{2}$ spanduk dapat selesai dalam waktu 4 jam.",
+      "correct": false
+    }
+  ],
+  "explanation": "Tarif Hemat = {v3} rupiah per meter persegi. Tarif Cepat tepat = {v4}/15 rupiah per meter persegi, lebih mahal. Kecepatan Cepat = 7,5 meter persegi per jam. Biaya target Hemat = {v5}. Waktu target Cepat = 6 jam. B dan C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

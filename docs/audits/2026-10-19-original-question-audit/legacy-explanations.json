@@ -1,0 +1,4013 @@
+{
+  "schema_version": 1,
+  "scope": "workspace originals without metadata loaded by load_workspace_bank",
+  "matching_policy": "Recovery requires one unique archived section with exact normalized stem containment, every option, the complete answer key, and a non-empty source explanation. Question position and generated explanations are not used.",
+  "source": {
+    "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+    "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83"
+  },
+  "summary": {
+    "target_count": 118,
+    "recovered_count": 69,
+    "unavailable_count": 49
+  },
+  "questions": [
+    {
+      "question_id": "pg-16-1-1",
+      "question_hash": "6ab224000a25cdc8",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Jaring-jaring bangun ruang yang memiliki komponen:\n2 buah lingkaran kongruen, dan\n1 buah persegi panjang\nadalah jaring-jaring tabung.\nAlasannya:\n2 lingkaran kongruen tersebut merupakan alas dan tutup tabung.\nPersegi panjang tersebut merupakan selimut tabung. Jika tabung dibuka, selimutnya berbentuk persegi panjang yang panjangnya sama dengan keliling lingkaran alas dan lebarnya sama dengan tinggi tabung.\nCiri-ciri ini tidak dimiliki oleh:\nKerucut, karena hanya memiliki 1 lingkaran dan 1 selimut berbentuk juring lingkaran.\nLimas segi empat, karena tersusun dari bangun segi empat dan segitiga.\nPrisma segitiga, karena tersusun dari segitiga dan persegi panjang, tanpa lingkaran.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 1  (Bentuk Soal: PG)",
+        "document_block_start": 5,
+        "document_block_end_exclusive": 22,
+        "document_xml_index_start": 8,
+        "document_xml_index_end": 24
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "36cf721cadd01fbfeb87a47ca21862f8235e5beccb6fdfed80d680d53be4e7b7",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "6319cbac7301a267031b15d3a20da7d652d4257890f1ee4384ed3553880b02b5",
+          "bfd76989f1ae3441acefcd9f2627146283e07d6b364370e65490bf4a49bd9e1a",
+          "c040d63a5f6b984527694c00cb6587dc2f1cb1fbe55bae51399a7ceface72888",
+          "3e19291b692700172c64c4da84ff60c374aa6acd191bae11ef274c5449f64416"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-1-2",
+      "question_hash": "d8ae06a2381f3a67",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Jaring-jaring limas segi empat terdiri dari:\n1 buah persegi sebagai alas, dan\n4 buah segitiga sebagai sisi tegak.\nKarena bangun tersebut memiliki 1 persegi dan 4 segitiga sama kaki, maka bangun ruang yang dimaksud adalah limas segi empat.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 22,
+        "document_block_end_exclusive": 35,
+        "document_xml_index_start": 26,
+        "document_xml_index_end": 38
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "227dbbc55bd8739f7aa836fa790636e2985297ece23f63c134c460f4531dd6eb",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "fbe0c975f1f5367984f5d219e01efa1bc5ecf3c3a3e018ae1ed3da71ef43bd9a",
+          "4a7af319907aeff85636c7b0e842678223e4ac015261def7c65977c3dc7dd985",
+          "c040d63a5f6b984527694c00cb6587dc2f1cb1fbe55bae51399a7ceface72888",
+          "6319cbac7301a267031b15d3a20da7d652d4257890f1ee4384ed3553880b02b5"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-1-3",
+      "question_hash": "f4902ada44e308d4",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Jaring-jaring kubus terdiri dari 6 buah persegi.Panjang sisi persegi = 5 cm.\nLuas 1 persegi: 5×5=25cm2\nLuas total jaring-jaring kubus: 6×25=150cm2",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 3 (Bentuk Soal: PG)",
+        "document_block_start": 35,
+        "document_block_end_exclusive": 41,
+        "document_xml_index_start": 40,
+        "document_xml_index_end": 45
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "f8ef36198954eafaa450e211d637e389b5bf67164447feaff9e1ef964748b620",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "798949c991c34f4c8b1d946a8d6959177b5dcc4a074ccbdd592ce76309b0bc73",
+          "717a7580b4c0a54e040c1a545669d6551e29e5f9294382ea3d805e3794ef52cb",
+          "e38d0f3b42c53059d4617bb90d8e94ed9ad44cc521cc3b8e289e3cfc40cd7aa3",
+          "61a801c89b7086a385c1f14ef8ac83432faa5590b3044154c1d1d93ef2a332a3"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-1-4",
+      "question_hash": "ea4356999ae4d6ba",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas permukaan limas segi empat = luas alas + jumlah luas sisi tegak.\nDiketahui:\nLuas alas = 36 cm²\nLuas 1 sisi tegak = 24 cm²\nBanyak sisi tegak = 4\nMaka:\nLuas Permukaan = 36 + (4 x 24)\n= 36 + 96 = 132 cm²",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 4 (Bentuk Soal: PG)",
+        "document_block_start": 41,
+        "document_block_end_exclusive": 52,
+        "document_xml_index_start": 47,
+        "document_xml_index_end": 57
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "139514f4926e1611f50b65117198d6502adbf50956408afe84247f87342832de",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "1265a2d68c64c54764df6e9075b8a81d0c69e42fd4b4313c263a9e5446df3ea4",
+          "330419dd9acce5e04d091f3c511fecb1de40eb5c2bde54ff60403b8e74f515c4",
+          "a1da174618b69326b234301778de294052e80027bee88c062a18682f49897742",
+          "39fe2278382ffd5902f1359760fa93035948b374bed8dae6a997ba4bc701ab04"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-1-5",
+      "question_hash": "22c987f935d13d7f",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas permukaan prisma segitiga = luas total 2 segitiga + luas total 3 persegi panjang.\nDiketahui:\nLuas total kedua segitiga = 24 cm²\nLuas total ketiga persegi panjang = 120 cm²\nMaka:\nLuas Permukaan = 24 + 120 = 144 cm²",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 52,
+        "document_block_end_exclusive": 66,
+        "document_xml_index_start": 60,
+        "document_xml_index_end": 73
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "a0390c2b292326fe789f6f164e7e10414aefe28d7e992e59485f7522a1dea7d4",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "5e476f812496f5129c977057767cd1c1472fa3a4e0a9c4edb536821aff4c3d99",
+          "494eab2d3b8be97438856c112c4783f7834526ba0f9ae9588210a64ccb54a95e",
+          "a1da174618b69326b234301778de294052e80027bee88c062a18682f49897742",
+          "edbf8d1b2ee9c36862312aff6f10d7cce37ac9a4ab9fb4282245e9f993e9bcfd"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-2-1",
+      "question_hash": "005899340ada1dd6",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-16-2-2",
+      "question_hash": "892ec8372dd947ce",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas permukaan limas = Luas alas + Luas 4 sisi tegak.\nLuas alas = 12×12=144 cm2\nLuas 1 sisi tegak = 12×12×10=60 cm2\nLuas 4 sisi tegak = 4×60=240 cm2\nLuas permukaan total = 144+240=384 cm2",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 2 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 135,
+        "document_block_end_exclusive": 140,
+        "document_xml_index_start": 153,
+        "document_xml_index_end": 157
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "5867e676dee14507f507fcdee1ceb16f3b34ffa13467230a8cf42063ba565ff9",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "60769d576a993ba487a5c70caaedb618abc449c6e6c3f63629e8e8d3dc420224",
+          "c2189c79eab91177534634f219b33eca53e902f354979938b8d9186f7094c65a",
+          "b64087322975aa59f0ea3c53ae6bc0c901b029c500eb2835754cdca0b33e8a13",
+          "917db25ba93b42e730bfccc5b01c4405de23ab58ce00906d2186f5c82df1843a"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-2-3",
+      "question_hash": "22c987f935d13d7f",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas permukaan prisma segitiga = luas total 2 segitiga + luas total 3 persegi panjang.\nDiketahui:\nLuas total kedua segitiga = 24 cm²\nLuas total ketiga persegi panjang = 120 cm²\nMaka:\nLuas Permukaan = 24 + 120 = 144 cm²",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 52,
+        "document_block_end_exclusive": 66,
+        "document_xml_index_start": 60,
+        "document_xml_index_end": 73
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "a0390c2b292326fe789f6f164e7e10414aefe28d7e992e59485f7522a1dea7d4",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "5e476f812496f5129c977057767cd1c1472fa3a4e0a9c4edb536821aff4c3d99",
+          "494eab2d3b8be97438856c112c4783f7834526ba0f9ae9588210a64ccb54a95e",
+          "a1da174618b69326b234301778de294052e80027bee88c062a18682f49897742",
+          "edbf8d1b2ee9c36862312aff6f10d7cce37ac9a4ab9fb4282245e9f993e9bcfd"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-2-4",
+      "question_hash": "1d783368b4e41828",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-16-2-5",
+      "question_hash": "369ef399cc81cc49",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas 1 persegi = s×s=6×6=36cm2. Luas total jaring-jaring (6 persegi) = 6×36=216cm2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 2 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 156,
+        "document_block_end_exclusive": 157,
+        "document_xml_index_start": 179,
+        "document_xml_index_end": 179
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "f833138cbc37c415fb74363c53164905af53bfe19ea4e3f2fbc425b079195890",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "b752e5e4677c02299e4d780e055607944954648fd384a1dc459da6d58fc3e385",
+          "a1da174618b69326b234301778de294052e80027bee88c062a18682f49897742",
+          "be7c791e934679742147d553bedd1766b2267ad9d05b242b60b7b199c981ace1",
+          "b964b2fac2d9d21fe62f7e1ebe8609a83f6d8f8de01ff52976bdb47a8e4e028a"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-3-1",
+      "question_hash": "e8c1c72c228fb377",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas permukaan kubus awal s=26×22=24cm2.  Luas permukaan kubus baru s=66×62=216cm2. Perbandingan = 216:24=9 kali lipat. Analisis: Karena rusuk diperbesar 3 kali ( 6:2=3 ), maka luas permukaan diperbesar 32=9 kali lipat.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 3 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 185,
+        "document_block_end_exclusive": 186,
+        "document_xml_index_start": 214,
+        "document_xml_index_end": 214
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "ca635e8ac01df75c7515ed2b4d0a877d754cf09e78ab315b7618be5de2bb901c",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "b84d1c21f932c298954fd4f89eabca0708b6e26614492756d4b9777ff5ae2756",
+          "eb5f70b3bf56b5ffb7a99b24df26fe49e24515b0e80cd80a14602f2bf3a93b28",
+          "28178e7c1d616a2169c82748a4e13569e027df898edab1f02374c290a56f4634",
+          "6b3526bbf72c0f1e3cf8db8e74e84726a459c725ca2dcc18d5968e578ad34262"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-3-2",
+      "question_hash": "6252d480a4f1df3e",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Tabung tanpa tutup hanya memiliki 1 sisi alas (lingkaran) dan 1 sisi selimut (persegi panjang). Jika tabung utuh, komponennya adalah 2 lingkaran dan 1 persegi panjang.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 3 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 186,
+        "document_block_end_exclusive": 187,
+        "document_xml_index_start": 217,
+        "document_xml_index_end": 217
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "03d67f7dc23c7057f940ea75d3a4ac3a484ab20c8c8dc6ec3663c48eb3a795fe",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "f47aa3294bc1162ab48f34fa440af631b1817ebc19567aaef271823dc72ef17a",
+          "0f4578f8038df1ddbf693cdf53f9ea9a98cbfc4078580adf881d100a0673db24",
+          "f9871e385bdd8ff3df78d09de981a1466a3fb71f80065094d2fd3ebd34b057d4",
+          "4db968039d85f8bde29f49d54a480c5ede4a87b2dcdd7b3ae9c52b3624e6f004"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-3-3",
+      "question_hash": "0e2ca3dedd094b64",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas permukaan Kubus A = 6×32=54cm2. Luas permukaan Kubus B = 6×62=216cm2. Perbandingan = 54:216=1:4Analisis: Perbandingan luas permukaan sama dengan kuadrat perbandingan rusuknya ( 32:62=9:36=1:4 ).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 3 / Soal 3 (Bentuk Soal: PG)",
+        "document_block_start": 187,
+        "document_block_end_exclusive": 188,
+        "document_xml_index_start": 219,
+        "document_xml_index_end": 219
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "ea95c666f00b7c0a555fb72c54b8443cfaca2e49ac0f02bfa658cb1337ffacf7",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+          "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+          "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+          "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-16-3-4",
+      "question_hash": "7c4c66aa6c057e90",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-16-3-5",
+      "question_hash": "f15581f6fb5a0fb0",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-17-1-1",
+      "question_hash": "f61fa7a260d619dd",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Rumus translasi: A(x,y)→A'(x+a,y+b)\nDiketahui:\nTitik awal A(2,3)\nVektor translasi T(4,-1)\nPenyelesaian:\nA'(x+a,y+b)=A'(2+4,3+(-1))\nA'=(6,2)\nJadi, koordinat bayangan titik A adalah (6, 2).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 1 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 224,
+        "document_block_end_exclusive": 234,
+        "document_xml_index_start": 268,
+        "document_xml_index_end": 278
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "e02c95c69a66ace27558ef483e549712bda436fa621633a10c21afe8cf4b6009",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "a68b412c4282555f15546cf6e1fc42893b7e07f271557ceb021821098dd66c1b",
+          "81b8a03f97e8787c53fe1a86bda042b6f0de9b0ec9c09357e107c99ba4d6948a",
+          "c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c5319db",
+          "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-1-2",
+      "question_hash": "b49c8ea4d1ea5a54",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Refleksi terhadap sumbu X:\nB(x,y)→B'(x,-y)\nB(-,35)→B'(-,3-5).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 1 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 234,
+        "document_block_end_exclusive": 237,
+        "document_xml_index_start": 280,
+        "document_xml_index_end": 284
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "9754d78d6411b1ae3909737f04dbbd6f79988f2e6ba26acf628796d25998ed77",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953",
+          "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953",
+          "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953",
+          "2858dcd1057d3eae7f7d5f782167e24b61153c01551450a628cee722509f6529"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-1-3",
+      "question_hash": "9975e7c39798473f",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui:\nTitik awal C(4,2)\nRotasi 90∘ berlawanan arah jarum jam terhadap titik pusat (0,0)\nRumus Rotasi:\n(x,y)→(-y,x)\nPenyelesaian:\nC(x,y)→C'(-y,x)\nC(4,2)→C'(-2,4)\nJadi, koordinat bayangan titik C adalah (-2, 4).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 1 / Soal 3 (Bentuk Soal: PG)",
+        "document_block_start": 237,
+        "document_block_end_exclusive": 247,
+        "document_xml_index_start": 286,
+        "document_xml_index_end": 295
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "72cbd564f4f83d1477f23fd2ffcf6ece3d9ad59073768f9ba311cb3be7ff6d75",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c5319db",
+          "c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c5319db",
+          "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049",
+          "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-1-4",
+      "question_hash": "678951faa3408cdb",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "STEM_AND_OPTIONS_MATCHED_BUT_KEY_DIFFERED",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 1,
+        "exact_stem_and_all_options_candidate_count": 1,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-17-1-5",
+      "question_hash": "4ebc8e1cf6a37deb",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui: Titik awal E(1,6) dicerminkan terhadap garis y=x.\nRumus: E(x,y)→E'(y,x)\nPenyelesaian: E(1,6)→E'(6,1)\nJadi, koordinat bayangan titik E adalah (6, 1).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 1 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 252,
+        "document_block_end_exclusive": 257,
+        "document_xml_index_start": 303,
+        "document_xml_index_end": 307
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "f20b27a683a2ece5d0ecf5c24f79d6348870f37bb2c3a813ee7950ef79327ca4",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+          "d029fa3a95e174a19934857f535eb9427d967218a36ea014b70ad704bc6c8d1c",
+          "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+          "d029fa3a95e174a19934857f535eb9427d967218a36ea014b70ad704bc6c8d1c"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-2-1",
+      "question_hash": "17d9ff7a6a7511ab",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui: Titik awal A(4,-2) ditranslasikan oleh T(-3,5).\nRumus Translasi: A(x,y)→A'(x+a,y+b)\nPenyelesaian: A(4,-2)→A'(4+(-3),-2+5)=A'(1,3)\nJadi, koordinat bayangan titik A adalah (1, 3).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 2 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 303,
+        "document_block_end_exclusive": 307,
+        "document_xml_index_start": 366,
+        "document_xml_index_end": 369
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "60a3d3b6d2a20c6522560fd4abcb712f66ae2e982cc50c2cba5fa1d9cdd3eb34",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+          "4523540f1504cd17100c4835e85b7eefd49911580f8efff0599a8f283be6b9e3",
+          "96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864",
+          "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-2-2",
+      "question_hash": "daaee8c815e45874",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": ".\nRefleksi terhadap garis y=-x : B(x,y)→B'(-,y-x).\nB(-,53)→B'(-,35).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 2 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 307,
+        "document_block_end_exclusive": 310,
+        "document_xml_index_start": 371,
+        "document_xml_index_end": 373
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "6d7ac6d296080a16282ea6c3078eafb4fee6631da82cbbd4e91885b47b0108cd",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "2858dcd1057d3eae7f7d5f782167e24b61153c01551450a628cee722509f6529",
+          "2858dcd1057d3eae7f7d5f782167e24b61153c01551450a628cee722509f6529",
+          "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953",
+          "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-2-3",
+      "question_hash": "4b08bdc179f61f0e",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Rotasi 90 derajat searah jarum jam terhadap (0,0):\nC(x,y)→C'(y,-x)\nC(2,-3)→C'(-,3-2)",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 2 / Soal 3 (Bentuk Soal: PG)",
+        "document_block_start": 310,
+        "document_block_end_exclusive": 313,
+        "document_xml_index_start": 375,
+        "document_xml_index_end": 379
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "83bfc859c2132ee43ac23955d1c22531dd93f5f220110d48ff485709ebe2dc83",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "e29c9c180c6279b0b02abd6a1801c7c04082cf486ec027aa13515e4f3884bb6b",
+          "e29c9c180c6279b0b02abd6a1801c7c04082cf486ec027aa13515e4f3884bb6b",
+          "535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790",
+          "535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-2-4",
+      "question_hash": "f400e1044474c606",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui: Titik awal D(-3,6), faktor skala k=-2, dan pusat (0,0).\nRumus: D(x,y)→D'(kx,ky)\nPenyelesaian: D(-3,6)→D'((-2)×(-3),(-2)×6)=D'(6,-12)\nJadi, koordinat bayangan titik D adalah (6, -12).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 2 / Soal 4 (Bentuk Soal: PG)",
+        "document_block_start": 313,
+        "document_block_end_exclusive": 318,
+        "document_xml_index_start": 382,
+        "document_xml_index_end": 386
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "c71ef2a6f99fe06fbba402a9c50d922e969c7e0440b225171018a97e7f881817",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "55f0124bb79f5c53d868ca45bbb0f4d04da15eea4fb29c6b95087fe8801bf0a3",
+          "55f0124bb79f5c53d868ca45bbb0f4d04da15eea4fb29c6b95087fe8801bf0a3",
+          "55f0124bb79f5c53d868ca45bbb0f4d04da15eea4fb29c6b95087fe8801bf0a3",
+          "55f0124bb79f5c53d868ca45bbb0f4d04da15eea4fb29c6b95087fe8801bf0a3"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-2-5",
+      "question_hash": "4be3f0d8e629fe3e",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Translasi berturut-turut dapat dijumlahkan: Ttotal=T1+T2=(3,+(-1)2+(-5))=(2,-3).\nE(-,14)→E'(-,1+24+(-3))=E'(1,1). (Translasi T(2, -3))",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 2 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 318,
+        "document_block_end_exclusive": 321,
+        "document_xml_index_start": 388,
+        "document_xml_index_end": 390
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "6856236c810be5136769d857d2d6209b8fb1cf9b1de36ceef249faabd8ed804a",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+          "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+          "eb1e33e8a81b697b75855af6bfcdbcbf7cbbde9f94962ceaec1ed8af21f5a50f",
+          "eb1e33e8a81b697b75855af6bfcdbcbf7cbbde9f94962ceaec1ed8af21f5a50f"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-3-1",
+      "question_hash": "40b0348545350bbd",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui: Titik awal A(2,3), Translasi T(3,-1), dan Dilatasi skala 2 terhadap pusat (0,0).\nLangkah 1: Translasi\nA(2,3)→A'(2+3,3+(-1))=A'(5,2)\nLangkah 2: Dilatasi\nA'(5,2)→A''(2×5,2×2)=A''(10,4)\nJadi, koordinat bayangan akhir titik A adalah (10, 4).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 359,
+        "document_block_end_exclusive": 366,
+        "document_xml_index_start": 437,
+        "document_xml_index_end": 443
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "d29ff3c43bf824b181f4c249ec58501c058195c1b248d0bddded68d21427f6ef",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "41cfc0d1f2d127b04555b7246d84019b4d27710a3f3aff6e7764375b1e06e05d",
+          "37834f2f25762f23e1f74a531cbe445db73d6765ebe60878a7dfbecd7d4af6e1",
+          "5ef6fdf32513aa7cd11f72beccf132b9224d33f271471fff402742887a171edf",
+          "2fca346db656187102ce806ac732e06a62df0dbb2829e511a770556d398e1a6e"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-3-2",
+      "question_hash": "e54bd61921168ab6",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Refleksi sumbu X: B(x,y)→B'(x,-y)\nRefleksi sumbu Y: B'(x,-y)→B''(-,x-y)\nHasil akhir (-,x-y) sama dengan rotasi 180∘ terhadap titik pusat (0,0).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 366,
+        "document_block_end_exclusive": 374,
+        "document_xml_index_start": 445,
+        "document_xml_index_end": 452
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "73f847519bd8bb497fd033b5f144e7072db340e9e67311d4c0bce45a7c528cd5",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "92206752dbb87fea69c23afe7d224042d7fac1c32b68a99eb8121d9e6729ade3",
+          "da5465cf3911255aa6d506781116863a84594a3758ad8337226bb2d96622d6ad",
+          "92206752dbb87fea69c23afe7d224042d7fac1c32b68a99eb8121d9e6729ade3",
+          "3607943eddb4c72dc4071a91c980c28990c511271770e894f2a937dc92c54585"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-3-3",
+      "question_hash": "bee7ea7e28feb2b1",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Rumus rotasi 90∘ berlawanan arah jarum jam: C(x,y)→C'(-,yx).\nC(2,1)→C'(-,12). (Sesuai).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 3 (Bentuk Soal: PG)",
+        "document_block_start": 374,
+        "document_block_end_exclusive": 377,
+        "document_xml_index_start": 455,
+        "document_xml_index_end": 457
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "074f2845a30bfb1861ed44d67b3512cb46f78f71108a61ec5ce0a22a0a7844e9",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "9c477f12eb242a30a3b9f72828c9f58744dedeeaf8fc73a73067ce421151a0d9",
+          "3dc339bad92951a3486de8fae659da5f77d9d452d6b7c8a46b9d5a9452c61280",
+          "4fb4eb23e39a5d86786bc36582d3a4262a72b5b495e90c6feffefd4dd55de494",
+          "e619a7dbda7588ed6d60b48d3ae5478843f6be83d90ab39470f44227ec885e4e"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-3-4",
+      "question_hash": "0b7915d404767119",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pada dilatasi dengan faktor skala k, luas bayangan menjadi k2 kali luas awal.\nLuas bayangan = 32×15=9×15=135cm2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 4 (Bentuk Soal: PG)",
+        "document_block_start": 377,
+        "document_block_end_exclusive": 388,
+        "document_xml_index_start": 459,
+        "document_xml_index_end": 469
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "57b127163f427ec65f41d9771c2ee69fc3e1c2885a93743545a420139b4b3a02",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "4132476ad7055d3b78ca83dd42cac3756c0ce195e30a8ea532fe00751fb6d716",
+          "1265a2d68c64c54764df6e9075b8a81d0c69e42fd4b4313c263a9e5446df3ea4",
+          "deffb9aca21612529300f3c8d4c0fc662d7d7b22ebeae85cd3507ca779d2ebd5",
+          "def0f8cd356058762a335f905a6cadd0c39e35f52301a152a85f9c906af86797"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-17-3-5",
+      "question_hash": "5c654375ef903b34",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Refleksi y=-x: P(4,-2)→P'(-,(-2)-(4))=P'(2,-4)\nTranslasi T(-1, 3): P'(2,-4)→P''(2,+(-1)-4+3)=P''(1,-1).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 388,
+        "document_block_end_exclusive": 391,
+        "document_xml_index_start": 471,
+        "document_xml_index_end": 473
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "297af185d86c43cc579e5874078c165fcbcc3138e333c5f4a722780e44faca37",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+          "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+          "eb1e33e8a81b697b75855af6bfcdbcbf7cbbde9f94962ceaec1ed8af21f5a50f",
+          "eb1e33e8a81b697b75855af6bfcdbcbf7cbbde9f94962ceaec1ed8af21f5a50f"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-18-1-1",
+      "question_hash": "d8a3d52271cbfa93",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas segitiga = 12×alas×tinggi\nLuas = 12×12×10=60cm2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 1 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 426,
+        "document_block_end_exclusive": 429,
+        "document_xml_index_start": 517,
+        "document_xml_index_end": 519
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "833926e9dc9ab121cdd80bec81646215246575c49e294b08cee7bb42ea8506ff",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "47113cd03c1908b29349fb586b193d837602bb30e58e199548770dd40e57c5d8",
+          "1265a2d68c64c54764df6e9075b8a81d0c69e42fd4b4313c263a9e5446df3ea4",
+          "494eab2d3b8be97438856c112c4783f7834526ba0f9ae9588210a64ccb54a95e",
+          "60769d576a993ba487a5c70caaedb618abc449c6e6c3f63629e8e8d3dc420224"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-18-1-2",
+      "question_hash": "a8128fb9c692d9d0",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-18-1-3",
+      "question_hash": "18c078492da66b12",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas persegi panjang = panjang × lebar\nLuas = 12×8=96m2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 1 / Soal 3 (Bentuk Soal: PG)",
+        "document_block_start": 431,
+        "document_block_end_exclusive": 434,
+        "document_xml_index_start": 525,
+        "document_xml_index_end": 527
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "ec413c6eab0b9e9120c5f35d6f86b3a67cbdccee4268e2f83d9df31f5fa59b11",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "bc55365c7c2fd40c5ba7c5c917f0a5e62281c338ff1d15f4bd227d23a078241b",
+          "b24bb1549676cfbcdfafc34955489f24bf798413d14b026d38117a374088dc9d",
+          "96e0b21f9fde1ee78a4793017c745ac5450c30261e67a544b2a5fc9d8b1d9816",
+          "6a9325273c4d0fed85fc402e1f3570568de007a5856d8482e76c2571e286c445"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-18-1-4",
+      "question_hash": "18d30f95d8d94f46",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-18-1-5",
+      "question_hash": "d06dba20615f944d",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-18-2-1",
+      "question_hash": "3038771cd549df2e",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-18-2-2",
+      "question_hash": "d7cb4f77cbb06510",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas trapesium = 12×(sisisejajar1+sisisejajar2)×tinggi\nLuas = 12×(12+18)×8=12×30×8=120cm2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 2 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 479,
+        "document_block_end_exclusive": 490,
+        "document_xml_index_start": 582,
+        "document_xml_index_end": 592
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "c27bc7d76084d803c2b69adb503df942e5daf3244cb05e8976dfb0fe550d6b61",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "5e476f812496f5129c977057767cd1c1472fa3a4e0a9c4edb536821aff4c3d99",
+          "494eab2d3b8be97438856c112c4783f7834526ba0f9ae9588210a64ccb54a95e",
+          "60769d576a993ba487a5c70caaedb618abc449c6e6c3f63629e8e8d3dc420224",
+          "b64087322975aa59f0ea3c53ae6bc0c901b029c500eb2835754cdca0b33e8a13"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-18-2-3",
+      "question_hash": "c86a3db5ee870503",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-18-2-4",
+      "question_hash": "3eb69cd6dbb7dde4",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas persegi = s×s=14×14=196cm2.\nLuas segitiga = 12×alas×tinggi=12×14×6=42cm2.\nLuas total = 196+42=238cm2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 2 / Soal 4 (Bentuk Soal: PG)",
+        "document_block_start": 493,
+        "document_block_end_exclusive": 496,
+        "document_xml_index_start": 598,
+        "document_xml_index_end": 600
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "abbf7fcc0855961b502b44fadb8e791b26df1fa52e2eded134283991d984bc3a",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "2c48e27741e97a249390b90120c6564167ba7d1e037a104108c1aecbbf53d96b",
+          "1da9250d3d1df259d386f57d8efbf4c51793072c8c9024ab402da042bd98c4a3",
+          "306c892c9a1cef8e353542dee66fa5ea4166224146dc0704abe44c6699c2f31c",
+          "1073da0da9e4fa37333159472c4b0bd96f1e190ce473b664485e544ca1bab0c9"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-18-2-5",
+      "question_hash": "d5841ceb70600d47",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas taman = 25×12=300m2.\nTotal biaya = 300×Rp15.000=Rp4.500.000,00.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 2 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 496,
+        "document_block_end_exclusive": 507,
+        "document_xml_index_start": 602,
+        "document_xml_index_end": 612
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "4399a523eb07304c09bcc1fde2a557f5cef39fea11846625a1e0e03f46e56c02",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "43c142d7c4d586d826d24b91bf67d297a39c7716a023b0d9c6f75e77a47459e7",
+          "a492b8ef2c2c523c9100529f03718e09781e28b04ea23c64cf73e68f974b5c6f",
+          "61aadecf415471bc00ea20eef72d047e5f5b896c639d81fb4063233e5763e272",
+          "09e54b6f9c567c8c2ace485bc13cfda743111753d563db224e3c573096ca2bdd"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-18-3-1",
+      "question_hash": "e1be0781c1daecbd",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas awal = π×72=154cm2.\nLuas baru = π×212=1386cm2.\nPerbandingan = 1386:154=9 kali lipat.\nAnalisis: Karena jari-jari diperbesar 3 kali, maka luas diperbesar 32=9 kali lipat.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 3 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 535,
+        "document_block_end_exclusive": 540,
+        "document_xml_index_start": 650,
+        "document_xml_index_end": 654
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "243d1e89389e0b212ab6fb631d7eb807995ff3a527da45481ff4d93fc337445e",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "dafb2f98ad46af7d4c193c5a9626483dabbd461def4e4e4ca54215307b18ea3b",
+          "6e737befb26068de04297e94365e8c1f694a2ed8afb6180f1d8c067c2fb1f50d",
+          "145df96edd69af17c65ea0ba7d5e936f42060022404d235fe406df53b59005f9",
+          "ff13621eef0693d29e29d1293b3154438ef4110c2fc3c97af719117b965d30db"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-18-3-2",
+      "question_hash": "d5943bf344dc3b7f",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-18-3-3",
+      "question_hash": "1f88f4be92fb95b2",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-18-3-4",
+      "question_hash": "1e2ecd10ee7f0580",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-18-3-5",
+      "question_hash": "c7eb6696e491f899",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Sisi belah ketupat dapat dicari menggunakan teorema Pythagoras dari setengah diagonalnya.Sisi = 1222+1622=62+82=36+64=100=10cm.\nKeliling = 4×sisi=4×10=40cm.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 3 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 569,
+        "document_block_end_exclusive": 571,
+        "document_xml_index_start": 687,
+        "document_xml_index_end": 688
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "37d51d0cf8e3d7699cd2725d1aadd965cb9e924323e9ca4d3f630a7b7f00c7dc",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "3bed29e54972c873f674778b4a38bc02d8489670f425cddfd6798580939f758e",
+          "ec8930f2ead8a557e6358d9f90b1ac8ada45cb7a063146b2b20c2d455dcfd2be",
+          "55c4900b2ae231ba76471b5955e4e86f5c3f16043aa5698b19a275d4b3373401",
+          "c8cf0cae4f49486bea5b886d04ef4dd699d1f98d32941ec68b68f3e51f832fa8"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-1-1",
+      "question_hash": "f5c92e813c35306b",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas alas segitiga = 12×6×8=24cm2.\nVolume prisma = Luas alas × tinggi prisma = 24×10=240cm3.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 1 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 609,
+        "document_block_end_exclusive": 612,
+        "document_xml_index_start": 736,
+        "document_xml_index_end": 738
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "d727479853eaf5ba48d97843bf0b189da44572cb688e00d5b136b0fbb25a088c",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "badbff754167a2acf845eace28ae9b2260343ec24b37b9f4e47c82b8ce55fe61",
+          "33c4c2def144336b01f4c1dc71a917e465bdb562bae2668d3532c4c122ddbf8c",
+          "7a785f75a36ffbbb7d5b5f6b8e1dcc1887fe639e919d9570fda588e9117d169f",
+          "2f051b27b67e182c5991770903f69cb4ed0ced05bd2d3734264e4701ad9c139b"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-1-2",
+      "question_hash": "7709ea213c3daff7",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-19-1-3",
+      "question_hash": "6638dd5edbaebc5f",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas alas persegi = 10×10=100 cm2.\nVolume limas = 13× Luas alas × tinggi = 13×100×12=400 cm3.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 1 / Soal 3 (Bentuk Soal: PG)",
+        "document_block_start": 614,
+        "document_block_end_exclusive": 616,
+        "document_xml_index_start": 743,
+        "document_xml_index_end": 744
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "6a3933defdf9ce4e0d9245bbbcdfcc70b80b14574a413d23b50844de3441d9d8",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "261e61f2a9cb84d8b104d46f46c112062505d64e9243bbf69c2d332dc9c986b6",
+          "255476d9fb2bb53bcea7f69d962a18055d56b153de1102d98b4bf782463305f2",
+          "7915ffeca9b203d0cf70f543925473d1e70cf637a43bd23e8e6c03e8f0868067",
+          "680b55c7390e3076cf90a8bf68028666480f394d3fe878c2b2760512df24fe7a"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-1-4",
+      "question_hash": "94632bd5dfabe9e2",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-19-1-5",
+      "question_hash": "f27690a4659691f8",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Volume balok = p×l×t=1×0,5×0,8=0,4m3.\nIngat: 1m3 = 1.000 liter.\nMaka, 0,4m3=0,4×1.000=400 liter.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 1 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 618,
+        "document_block_end_exclusive": 622,
+        "document_xml_index_start": 749,
+        "document_xml_index_end": 752
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "6d6249457d0635bd59907873c6aeaa631ae45974f1eab5f26d5426d256cffe0f",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "26b35b1dc0f8e521420115894b9d364278a30ea764092f1c7c580757fa09be1d",
+          "1bbb8cd39517bdf69ff4cef4bb1de62451bdcaeacde15a9487918052f74f1f5b",
+          "bfc59ba6e2df91a855d92919b86de4e9a1fc49c61bb01f527594058ba1489660",
+          "bfc59ba6e2df91a855d92919b86de4e9a1fc49c61bb01f527594058ba1489660"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-2-1",
+      "question_hash": "d862c475238e99ea",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas alas segitiga = 12×8×6=24 cm2.\nVolume prisma = Luas alas × tinggi prisma = 24×12=288 cm3.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 2 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 650,
+        "document_block_end_exclusive": 652,
+        "document_xml_index_start": 789,
+        "document_xml_index_end": 790
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "3840fab5d768d9c6bc214a231fd23ad842da9b4faeba013c0f07409554ce41e6",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "7e268d047ec387ff4f3a1eea8aad00abaaf424df2b643a783485be2bcb5849e2",
+          "fb1d71652aeb1915773bdcdffd325c40e28a67a77b260b87af7dcc040b88897b",
+          "01c24be2a03c46601dbb21f4bdea1209521f817e305fc9093780245e10f6bc41",
+          "7628920fc514cd7f96bce83e50d76c91044ecc83651772b70b8d7a5343959578"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-2-2",
+      "question_hash": "7c8d7916743e418b",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Luas alas persegi = 14×14=196cm2.\nVolume limas = 13×Luas alas×tinggi=13×196×18=196×6=1.176cm3.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 2 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 652,
+        "document_block_end_exclusive": 654,
+        "document_xml_index_start": 792,
+        "document_xml_index_end": 793
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "83ad03b8b8257c24620f86da25a3f9d235e7fd0e123ddc650c5df14c70c6aa27",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "25213df54b144f9be22b3aaf3d181fb70c4fe2eec01af38fec0832b4046ff64e",
+          "c9e31a4098cf643a7145f5b892fd7c6535ba24a06a9ecae0e7b5777eea0c0715",
+          "29e2573c942783bfd8450035864c44a1d267467a875198576b7f1c65e8d0971d",
+          "2be2978a48c96b00cac05ccdadf9f0c58b2d8db5c488652eadaa9105fd3e0a6b"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-2-3",
+      "question_hash": "4d15438fdeddb007",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-19-2-4",
+      "question_hash": "f20be8f92590e36b",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-19-2-5",
+      "question_hash": "8e53e1055e20c38a",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "pg-19-3-1",
+      "question_hash": "70e6b5689b52938a",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Volume Tabung A = π×72×10=490πcm3.\nVolume Tabung B = π×142×5=980πcm3.\nPerbandingan = 490π:980π=1:2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 3 / Soal 1 (Bentuk Soal: PG)",
+        "document_block_start": 701,
+        "document_block_end_exclusive": 713,
+        "document_xml_index_start": 851,
+        "document_xml_index_end": 862
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "2c65cc282f98c303773ff3dc7d1387141a416eb9c90b5cdb05ab5f0dbb697b9f",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+          "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+          "6f4b6612125fb3a0daecd2799dfd6c9c299424fd920f9b308110a2c1fbd8f443",
+          "3d914f9348c9cc0ff8a79716700b9fcd4d2f3e711608004eb8f138bcba7f14d9"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-3-2",
+      "question_hash": "b2a5d87bca13f8f4",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Volume limas berbanding lurus dengan tingginya (V=13×Luas alas×t).\nJika tinggi menjadi 3 kali, maka volume menjadi 3×400=1.200cm3.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 3 / Soal 2 (Bentuk Soal: PG)",
+        "document_block_start": 713,
+        "document_block_end_exclusive": 715,
+        "document_xml_index_start": 864,
+        "document_xml_index_end": 865
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "43d5e97972ef05dee25520b7dcc1c1c44ca4af9edfeb20fdfc020ca9019bb8af",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "96f5d6e370be34c09472aa4bdc76bd610e92553d4830bb1af0076ef0943dc4c3",
+          "b4867637212bc1c12407c17d342773caf4235a2c7d51a55317d146d25654aed8",
+          "255476d9fb2bb53bcea7f69d962a18055d56b153de1102d98b4bf782463305f2",
+          "ccee92b86dfcf10d855d6e13c3222f954780d3918ad7245577dc26ba39641f4d"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-3-3",
+      "question_hash": "b956b04a1bc40ad5",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Volume bola berbanding lurus dengan pangkat tiga jari-jarinya (V=43πr3).\nJika jari-jari diperbesar 2 kali, volume menjadi 23=8 kali lipat.\nVolume baru = 8×288π=2.304πcm3.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 3 / Soal 3 (Bentuk Soal: PG)",
+        "document_block_start": 715,
+        "document_block_end_exclusive": 722,
+        "document_xml_index_start": 867,
+        "document_xml_index_end": 873
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "b81b90700dadcedc424a80985dd1e8a6cf0b33e2a99681530c26a233f7165e1d",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "4a2f50b1072448efd118a924a6b2cc64f9f7e20a37ddde55e1af965533bf8760",
+          "725c68f1d9651ef9726b9d8ab9df3892a21c3dbf9490c22ad4042d92aa8bc2ec",
+          "1763722ef7315c3a09f06b0e3e46cfa7078856250cf1018bef5cd99b80e95699",
+          "273d4de797716a1e497e9802cbc9c6d824881ddeddaf3999322634ab3ae2c28a"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-3-4",
+      "question_hash": "6de2b4f83e17555e",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Volume kolam = 4×3×2=24m3=24.000 liter.\nWaktu = Volume / Debit = 24.000/200=120 menit.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 3 / Soal 4 (Bentuk Soal: PG)",
+        "document_block_start": 722,
+        "document_block_end_exclusive": 724,
+        "document_xml_index_start": 875,
+        "document_xml_index_end": 876
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "8eac9b6ddc7d987cdb8c7ac21d252870a8e135a88fcb2cd9325ae0fc725d2521",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "1e58d635a6cc0eb617ed00350a8ead9b222667119011eafcdc5e0fe509a926ab",
+          "c0a8e4b9da15b936d65745235a97742b9e58388e665f445d5bfa4436c4c6ff66",
+          "3ac18bd453fd13767b13f0f2d69def46bb8b0d21f2ec7c7640bbd4b4fdc7383c",
+          "b998fef66ad07c0ae05acb103010d9f781d8f38ec197da1cf5204b0fa88b487e"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "B"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "pg-19-3-5",
+      "question_hash": "b59c2e60a65711a5",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Volume awal = L×t=600.\nVolume baru = (2L)×(0,5t)=L×t=600cm3. (Volume tetap sama).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 3 / Soal 5 (Bentuk Soal: PG)",
+        "document_block_start": 724,
+        "document_block_end_exclusive": 726,
+        "document_xml_index_start": 878,
+        "document_xml_index_end": 879
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "9b6bac8107644b9638380f2fad75562808f4d8c099edb66800c552ac24f513a5",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "ccee92b86dfcf10d855d6e13c3222f954780d3918ad7245577dc26ba39641f4d",
+          "7915ffeca9b203d0cf70f543925473d1e70cf637a43bd23e8e6c03e8f0868067",
+          "255476d9fb2bb53bcea7f69d962a18055d56b153de1102d98b4bf782463305f2",
+          "96f5d6e370be34c09472aa4bdc76bd610e92553d4830bb1af0076ef0943dc4c3"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-16-1-6",
+      "question_hash": "0405232cce724b89",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Jaring-jaring prisma segitiga tersusun dari:\n2 buah segitiga kongruen sebagai alas dan tutup.\n3 buah persegi panjang sebagai sisi-sisi tegak/selimut prisma.\nMaka:\nPernyataan 1: Benar.\nPernyataan 2: Benar.\nPernyataan 3: Salah, karena persegi panjangnya ada 3, bukan 4.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 6 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 66,
+        "document_block_end_exclusive": 76,
+        "document_xml_index_start": 75,
+        "document_xml_index_end": 84
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "fa6c7dee474f057ab24a81748b893be36e1f59fc4f35672949c376f8d410cea7",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "e25f4a5937d718041950c5609a0f410e0a981e0cec81adf2def47ffeb7fbd240",
+          "f3927186fac77081f0a0323c9dc9d00ca480fe547e88a9f42a4b72e771a29adf",
+          "f5bf52da47b3367c49cb71198c0fbbb06c7cc01499b32306688cfe72677d4d74",
+          "1e47e9c6e45edeafb15c33179a37276c0ed0b5316eeec1409957e42a925ce106"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-16-1-7",
+      "question_hash": "e2607c91d68ce79f",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui limas segi empat dengan:\nAlas berbentuk persegi, sisi = 10 cm.\nTinggi sisi tegak = 8 cm.\nHitung:\nLuas alas : 10 x 10 = 100 cm²\nPernyataan 1: Benar.\nLuas 1 sisi tegak berbentuk segitiga : 12×10×8=40cm2\nPernyataan 2: Benar.\nLuas seluruh sisi tegak Ada 4 sisi tegak, sehingga: 4× 40=160cm2\nPernyataan 3: Benar.\nLuas permukaan total limas\nLuas alas + Luas seluruh sisi tegak : 100+160=260cm2\nPernyataan 4 menyebut 200 cm², sehingga Salah.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 7 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 76,
+        "document_block_end_exclusive": 92,
+        "document_xml_index_start": 86,
+        "document_xml_index_end": 101
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "6db67d5483f83bf59569376220bbea0a0b06808ba5af412b4c55e6126310a92a",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "76aa39c831be2973b60b2e357cd0959d1509fc54ac61925052987a030eb2af36",
+          "43895dd8d3e06737b70ab770827098c5ac80ccd28455b5375756c6468db5ad6b",
+          "e052383c932da821f4f22f8f4665299b6984b9608558402114a6163d71b5753d",
+          "f70e73ab678c8910e5e5005aa6d2e683e091cd72796308d8d9eb3cd0f033ac12"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-16-1-8",
+      "question_hash": "65a60fc8e9f3bab5",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-16-2-6",
+      "question_hash": "d7326727a93d4ed3",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Komponen jaring-jaring prisma segitiga adalah 2 segitiga (alas dan tutup) dan 3 persegi panjang (selimut).\nPernyataan 2: Benar. Luas 1 persegi panjang = sisi segitiga x tinggi prisma = 6×10=60 cm².\nPernyataan 3: Salah. Luas segitiga sama sisi = 14s23=14(36)3=93cm2. Luas total 2 segitiga =183 cm2 (bukan 36).\nPernyataan 4: Benar. Luas permukaan = Luas 2 segitiga + Luas 3 persegi panjang = 183+3(60)=180+183cm2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 2 / Soal 6 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 157,
+        "document_block_end_exclusive": 162,
+        "document_xml_index_start": 181,
+        "document_xml_index_end": 185
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "2a239c6639fbf6faac901c0e41f9d7788329ff673830863665e27e11cd301d5c",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "8711c6922f3da01495559290b2c8626992b16733c6a0d51a15817b0078d84475",
+          "3a89f5f34c38e49a2a8489190431bc102f57cfdf6a2375c14e127e117b708d1a",
+          "c38cd3f3c465eaac2eca020079a1d7c67fd2ad4c82f6ad7930bb58c074a0e67b",
+          "67d09753232cd33ceaa9923a23259c552ea52556d7a07f10b87aecbac0bb961d"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-16-2-7",
+      "question_hash": "6f047f35095bc5b5",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "STEM_MATCHED_BUT_NOT_ALL_OPTIONS_MATCHED_EXACTLY",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 1,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-16-2-8",
+      "question_hash": "8f9f6fc0ab008241",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-16-3-6",
+      "question_hash": "5ac7a61eb0e8084b",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Kubus memiliki 6 sisi berbentuk persegi kongruen.\nPernyataan 2: Benar. Luas permukaan kubus berbanding lurus dengan kuadrat rusuknya (L=6s2).\nPernyataan 3: Benar. Luas jaring-jaring adalah jumlah luas seluruh bangun datar penyusunnya, yang merepresentasikan luas permukaan bangun ruang.\nPernyataan 4: Salah. Kubus tidak memiliki sisi persegi panjang.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 3 / Soal 6 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 193,
+        "document_block_end_exclusive": 198,
+        "document_xml_index_start": 227,
+        "document_xml_index_end": 231
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "5b3c9b7486be077521d39a8e83c254522298b850694e7e3943113fbeda89a6ca",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "fdce9341291bb8e6bae044166050d667b6fe095291d71e6adb0e76e8081fac31",
+          "ac61eb87d64222b8d7bde97569f1b9d9f76a5f3eb6d6baa875ad697b22f601f6",
+          "8aa522b5ea30595bc2e20dd9474543285a53acb7fc89a418518ed92cab33618d",
+          "344925fef5f561185e7dc611614581a6ba0b3590962627187b05f4792f23d54c"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-16-3-7",
+      "question_hash": "132686dc1b9fda18",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-16-3-8",
+      "question_hash": "0e044fdd718827d5",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Luas alas = 14×14=196cm2.\nPernyataan 2: Benar. Luas 1 sisi tegak = 12×14×25=175cm2.\nPernyataan 3: Benar. Luas 4 sisi tegak = 4×175=700cm2.\nPernyataan 4: Salah. Luas permukaan total = 196+700=896cm2. (Jika 896, maka Benar. Mari kita buat salah dengan mengubah angkanya).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 3 / Soal 8 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 203,
+        "document_block_end_exclusive": 208,
+        "document_xml_index_start": 239,
+        "document_xml_index_end": 243
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "bd672187c0cfd3040dcddff5585b6a9d2124b3eba16014271af1e2223b549ed1",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "85af7a6c9a2f95a17a6db9e29be7ae32e13657d8b660167fedfb27c6cf805955",
+          "4fe190d970880d214ce36c8e0dfefc8ac3b18211ffa5285d3d32ce47eb1e4175",
+          "fa3cb1e343ab0e726073f501798b5563494cbea1f47e8a51f15ca7bd5e4f077b",
+          "36bfc4a1890fe5f7e3e5886bfab32eda475f8231fadea96a350780fad4974aef"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-17-1-6",
+      "question_hash": "788c481be50edb3e",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui: Titik awal P(3,-2).\nPernyataan 1: Benar.\nTranslasi: P(3,-2)→P'(3+(-1),-2+4)=P'(2,2).\nPernyataan 2: Benar.\nRefleksi sumbu Y: P(x,y)→P'(-x,y)=P'(-3,-2).\nPernyataan 3: Benar.\nRefleksi sumbu X: P(x,y)→P'(x,-y)=P'(3,2).\nPernyataan 4: Salah.\nRotasi 180∘: P(x,y)→P'(-x,-y)=P'(-3,2). (Bukan (-3, -2)).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 1 / Soal 6 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 257,
+        "document_block_end_exclusive": 267,
+        "document_xml_index_start": 309,
+        "document_xml_index_end": 319
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "009e6e924f0e73144dafcb11a0c7291730d55c10eb834e833373950533e48041",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "879dc17fe0a9e7126f63eb184ccc2e07d7a0c0206d60c48abf306de5a26a81b5",
+          "b46aec169e616f5e9df2191caf4fbcc92a84019060d86e9018ab2d6e8c1a06f6",
+          "d10fa87448382368febad03a129e305bad3aef6314548fae235e47a87bc2ec31",
+          "939f7d65373a1744cf15faa6e671a7b91037a1bcf72fc54142c0484f593826c0"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-17-1-7",
+      "question_hash": "98e2b9be197acd13",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui: Titik awal Q(-2,4).\nPernyataan 1: Benar.\nDilatasi skala 2: Q(-2,4)→Q'(2×(-2),2×4)=Q'(-4,8).\nPernyataan 2: Benar.\nRotasi 90∘  searah jarum jam: Q(x,y)→Q'(y,-x)=Q'(4,2).\nPernyataan 3: Benar.\nRotasi 90∘: Q(x,y)→Q'(-x,-y)=Q'(2,-4).\nPernyataan 4: Salah.\nDilatasi skala -1: Q(x,y)→Q'(-x,-y)=Q'(2,-4). (Bukan (2, 4)).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 1 / Soal 7 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 267,
+        "document_block_end_exclusive": 277,
+        "document_xml_index_start": 322,
+        "document_xml_index_end": 331
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "a073cabecb3ffe8b8231d1262fc7d180b72f5e1bb81f0d6d7c03404c346caf30",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "be6039a4ec980d79de4af5a62e0754df5e8a62f3d1200bd71948968b37089702",
+          "18f2fb2353a157b017c46f426156cdd34e83fa391385ccd72d986cffe13f91e7",
+          "befabc28c793af816a68b6502f544d7b8d6cd2708190a0bde671b32edcbf63e1",
+          "5e8fd0cc3d4d90e41f35e610aae7d742ba8848bf2e85be931365e1f65157614b"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-17-2-6",
+      "question_hash": "a1e720ca5eba50c6",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui titik A(2, 3).\nPernyataan 1: Benar. Translasi T(3, -1): A'(x,+ay+b)=(2,+33+(-1))=(5,2).\nPernyataan 2: Benar. Refleksi terhadap sumbu Y: A'(-,xy)=(-,23).\nPernyataan 3: Salah. Rotasi 180° terhadap titik pusat (0,0): A'(-,x-y)=(-,2-3). Jadi, seharusnya (-2, -3), bukan (2, -3).\nPernyataan 4: Benar. Dilatasi dengan faktor skala 2 terhadap titik pusat (0,0): A'(k,xky)=(2,×22×3)=(4,6).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 2 / Soal 6 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 321,
+        "document_block_end_exclusive": 329,
+        "document_xml_index_start": 392,
+        "document_xml_index_end": 399
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "cf17e92fc101a73ffc50550b085a9fab2da60bbd8b17893e1fa5224c9a249d71",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "afb1e02d0a62f612412bef2a2da587138715556704b13ae0d8c7de5776e13f42",
+          "52389e82776484169aaef91acc6c27bddc618d5a5f6a7dde57ce65f276818d60",
+          "e962979eefe3af2c511ba2904868d38921b3d800c6fa186287be4e1e59184d79",
+          "7732b7787ebba6cb8837262c8e49a5a7e34de8bf90efdb82f8e91c1776ab1435"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-17-2-7",
+      "question_hash": "1de0d4876ebc75fd",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Translasi mempertahankan bentuk dan ukuran (kongruen).\nPernyataan 2: Benar. Refleksi mempertahankan bentuk dan ukuran (kongruen).\nPernyataan 3: Salah. Dilatasi dengan faktor skala k mengubah luas menjadi k²kali lipat. Maka luasnya menjadi 3² x 20 = 180 cm².\nPernyataan 4: Benar. Rotasi mempertahankan bentuk dan ukuran (kongruen).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 2 / Soal 7 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 329,
+        "document_block_end_exclusive": 334,
+        "document_xml_index_start": 401,
+        "document_xml_index_end": 405
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "526d0efd257568d2ca5a634712b6dd3cc53aee730e00b0eed03c61cdbf1addd1",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "ee46048204d02b77b1f95520faaf350d018f29a00d4172e567e8448ca442f4fe",
+          "79087a2f7ce9b3d6c8bca835a47dadeda9e1ebe9e759a480e31bb614dc8acda5",
+          "454dfd7e969ee63d7b092aa2ce148d02c577e056ae18696b0ffb2efdd487ebde",
+          "78c3f7341556901b07461adf3d97d3dc2a2372d181e493357ca81aeb38ff34a7"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-17-2-8",
+      "question_hash": "a3e2a2f9892d77cc",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Mencari titik B: x+(-3)=-1⇒x=2 \\quad y+2=5⇒y=3. Jadi B(2, 3).\nPernyataan 1: Benar. x+y=2+3=5.\nPernyataan 2: Salah. Titik B(2, 3) terletak di Kuadran I, bukan Kuadran II.\nPernyataan 3: Benar. Refleksi sumbu X: B(2,3)→B'(2,-3).\nPernyataan 4: Benar. Rotasi 180∘: B(2,3)→B'(-,2-3).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 2 / Soal 8 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 334,
+        "document_block_end_exclusive": 340,
+        "document_xml_index_start": 407,
+        "document_xml_index_end": 412
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "c568bfc98d0779a8cfc0a8fdd8313c06433646c9cf4991d8361912fa83453f88",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "e3d5f30331089709b630aff330c3481e7b3f773671af4282dbb0dc5d9c25b827",
+          "ec868caa0409e8d0194f8f77abee265d9dbe215511692505e11cc493078636ac",
+          "7eab5a17358e2f69e5fca6e5b1a4bb79f896f7794108a2a7506c2ba0fe987e8f",
+          "2be6bf622bfb0fbd77dc5a3d7333c8e502b804b30d3ad855737dbfb7e198b025"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-17-3-6",
+      "question_hash": "baebd898fc77d54e",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Refleksi sumbu Y: A(x,y)→A'(-,xy)=A'(-,3-4).\nPernyataan 2: Salah. Rotasi 180∘: A(x,y)→A'(-,x-y)=A'(-,34). (Bukan (3,4)).\nPernyataan 3: Benar. Translasi T(2,5): A(3,-4)→A'(3,+2-4+5)=A'(5,1).\nPernyataan 4: Benar. Dilatasi skala -2: A(x,y)→A'(-,2x-2y)=A'(-,68).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 6 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 391,
+        "document_block_end_exclusive": 396,
+        "document_xml_index_start": 475,
+        "document_xml_index_end": 479
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "466df2041a6207642613781eae98f550179577976c9c61c9076991659a6707d6",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "15c33ed0f6c9d43ccafaa92e19895fedbaf52a5db9188ea932939e24fa1abb05",
+          "4a739e113756ec609861a31883b8d07faedc1ea822d2746fec84a91561234d87",
+          "b857235a8840e9ac6a63067599a44e7b36ffec8e3911b9cb9ab44e4291fb6b33",
+          "8fca1aa36d31e92b54020c6297797fbb959b5c26e110789dde471177dedecba2"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-17-3-7",
+      "question_hash": "fc94423db9de8a21",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "STEM_MATCHED_BUT_NOT_ALL_OPTIONS_MATCHED_EXACTLY",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 1,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-17-3-8",
+      "question_hash": "e5305293f6fb6582",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Refleksi y=x : B(x,y)→B'(y,x)=B'(5,-2).\nPernyataan 2: Benar. Refleksi y=-x : B(x,y)→B'(-,y-x)=B'(-,52).\nPernyataan 3: Salah. Rotasi 90∘ searah jarum jam: B(x,y)→B'(y,-x)=B'(5,2). (Bukan (-5,-2)).\nPernyataan 4: Benar. Rotasi 90∘ berlawanan arah jarum jam: B(x,y)→B'(-,yx)=B'(-,5-2)",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 8 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 402,
+        "document_block_end_exclusive": 412,
+        "document_xml_index_start": 488,
+        "document_xml_index_end": 497
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "0b201608e4fada857f52b5ec51b28820731d7c2a66d29387625eb7ac17261ad0",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "764897c3f0414369ef170b0592cd52d896666e480e65ed65cd9b98e34b61ff7b",
+          "764897c3f0414369ef170b0592cd52d896666e480e65ed65cd9b98e34b61ff7b",
+          "dd74a56fea148af2679d7edb9b8873fea4efb6ed01b69726c1fb7b33fe01b281",
+          "5f48c6b0bcc8f28e0594746524d5f03b24a9a6df03de720111a7154d92f3395e"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-18-1-6",
+      "question_hash": "e6abbf0d43ef6a10",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-18-1-7",
+      "question_hash": "a68cacb41838197c",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-18-1-8",
+      "question_hash": "bdb227a9096ef928",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Keliling = 2×(20+15)=70m.\nPernyataan 2: Benar. Luas = 20 x 15 = 300 m².\nPernyataan 3: Benar. Biaya = 300 x 10.000 = 3.000.000\nPernyataan 4: Benar. Panjang baru = 25 m. Luas baru = 25 x 15 = 375 m².",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 1 / Soal 8 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 450,
+        "document_block_end_exclusive": 455,
+        "document_xml_index_start": 549,
+        "document_xml_index_end": 553
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "a70fc7a5db35442679f7aae886cb4b3e9f2d6f99669007a7d2525de80c507600",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "375c9a22a377f94372abe7f58deebe2f5c91cfcb6dd5941d5c06837fd85b2287",
+          "8f60314dc532bad2545b30314784b9335d2f91a79d144bd2c591c3de73a88b5c",
+          "f7132755274a9dcfab66635f6cac824b8bea8b6de9f0f8e288a8d629e499b505",
+          "3d0dbbf3b547aeb9cac90c9fee4860c625096671f745492bd7a14286858b09d5"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-18-2-6",
+      "question_hash": "45fd0042c3e078f2",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-18-2-7",
+      "question_hash": "460ff25b440e5ae1",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-18-2-8",
+      "question_hash": "ca495688653061ba",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Luas awal = 96. Jika panjang \\& lebar 2x, luas = (2×12)×(2×8)=24×16=384384=4×96.\nPernyataan 2: Salah. Panjang baru = 15, lebar baru = 5. Luas = 75cm2 (berubah dari 96).\nPernyataan 3: Benar. Panjang baru = 14, lebar baru = 10. Luas = 14×10=140cm2.\nPernyataan 4: Benar. Panjang baru = 24, lebar tetap 8. Luas = 24×8=192cm2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 2 / Soal 8 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 517,
+        "document_block_end_exclusive": 522,
+        "document_xml_index_start": 628,
+        "document_xml_index_end": 632
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "0b5b4271c3d673ca177aee1fedc826b4fcf99cccd4e6a7a853d8a08079790f27",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "a0a8ec1b2113de19e70722362c9df688dd6c20ee60c324acf3b383afd643e6e4",
+          "7abef873e55a467839fcf32e706d75b3b16d2d205967bef6542f20847a42a6d6",
+          "9696738c31ca7fee78919d04cfffb79ff9610dc90dd69108f012ae500bf55d63",
+          "0b08b99cf5a9a0ea6fec71d0935078081d30195ea49c62aae3929b3192501a38"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-18-3-6",
+      "question_hash": "3883e0506de4aea2",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-18-3-7",
+      "question_hash": "65dd8cfd43c2cff0",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-18-3-8",
+      "question_hash": "ca495688653061ba",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Luas awal = 96. Jika panjang \\& lebar 2x, luas = (2×12)×(2×8)=24×16=384384=4×96.\nPernyataan 2: Salah. Panjang baru = 15, lebar baru = 5. Luas = 75cm2 (berubah dari 96).\nPernyataan 3: Benar. Panjang baru = 14, lebar baru = 10. Luas = 14×10=140cm2.\nPernyataan 4: Benar. Panjang baru = 24, lebar tetap 8. Luas = 24×8=192cm2.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 2 / Soal 8 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 517,
+        "document_block_end_exclusive": 522,
+        "document_xml_index_start": 628,
+        "document_xml_index_end": 632
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "0b5b4271c3d673ca177aee1fedc826b4fcf99cccd4e6a7a853d8a08079790f27",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "a0a8ec1b2113de19e70722362c9df688dd6c20ee60c324acf3b383afd643e6e4",
+          "7abef873e55a467839fcf32e706d75b3b16d2d205967bef6542f20847a42a6d6",
+          "9696738c31ca7fee78919d04cfffb79ff9610dc90dd69108f012ae500bf55d63",
+          "0b08b99cf5a9a0ea6fec71d0935078081d30195ea49c62aae3929b3192501a38"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-19-1-6",
+      "question_hash": "2c4121a87e3824c8",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-19-1-7",
+      "question_hash": "ef741d87c90ea803",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "AMBIGUOUS_MULTIPLE_EXACT_CORE_MATCHES",
+      "candidate_count": 2,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 2,
+        "exact_stem_and_all_options_candidate_count": 2,
+        "exact_stem_options_key_candidate_count": 2,
+        "exact_core_with_explanation_candidate_sections": [
+          {
+            "section": "INDIKATOR 19 / LEVEL 1 / Soal 7 (Bentuk Soal: PG MCMA)",
+            "document_block_start": 627,
+            "document_block_end_exclusive": 632
+          },
+          {
+            "section": "INDIKATOR 19 / LEVEL 2 / Soal 7 (Bentuk Soal: PG MCMA)",
+            "document_block_start": 677,
+            "document_block_end_exclusive": 682
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "mcma-19-1-8",
+      "question_hash": "172a21969e206ec3",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-19-2-6",
+      "question_hash": "965b1039a0d2c9a3",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-19-2-7",
+      "question_hash": "ef741d87c90ea803",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "AMBIGUOUS_MULTIPLE_EXACT_CORE_MATCHES",
+      "candidate_count": 2,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 2,
+        "exact_stem_and_all_options_candidate_count": 2,
+        "exact_stem_options_key_candidate_count": 2,
+        "exact_core_with_explanation_candidate_sections": [
+          {
+            "section": "INDIKATOR 19 / LEVEL 1 / Soal 7 (Bentuk Soal: PG MCMA)",
+            "document_block_start": 627,
+            "document_block_end_exclusive": 632
+          },
+          {
+            "section": "INDIKATOR 19 / LEVEL 2 / Soal 7 (Bentuk Soal: PG MCMA)",
+            "document_block_start": 677,
+            "document_block_end_exclusive": 682
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "mcma-19-2-8",
+      "question_hash": "0ccb35b92bed8468",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-19-3-6",
+      "question_hash": "d86a1312d6970dcd",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "mcma-19-3-7",
+      "question_hash": "7507025a8266a142",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan 1: Benar. Volume bola = 43π×63=288πcm3.\nPernyataan 2: Benar. Volume kerucut = 13π×62×12=144πcm3.\nPernyataan 3: Benar. 288π=2×144π.\nPernyataan 4: Salah. Jika t=24, Volume kerucut = 13π×36×24=288πcm3. Volumenya sama dengan volume bola, bukan 2 kali lipat.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 3 / Soal 7 (Bentuk Soal: PG MCMA)",
+        "document_block_start": 731,
+        "document_block_end_exclusive": 740,
+        "document_xml_index_start": 887,
+        "document_xml_index_end": 895
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "749ec038e54fdd35253d52c3d383f45af20cd7d68186f02e8573b01f1e53a624",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "0ab0c0544a89474f843688323196f043f23d86900f6b3a11d9896ac83a83e3e8",
+          "2ae8f53e6c81a3605aa66447188e0332d5a5f126dfed4382ffcb859ae9f38a41",
+          "eb42c8973d780ecb0123aecc028923181dd6bf8d2b02ffb89b1fc89893f701d6",
+          "1da3b235a2b9740097221fae47e2e43e6ed20042a4e7ce85c1ce97afdb2b0002"
+        ],
+        "bank_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "source_key": {
+          "kind": "option_ids",
+          "value": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "mcma-19-3-8",
+      "question_hash": "07cf49a7b4e980a8",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-16-1-9",
+      "question_hash": "59f1c9c6873c4838",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Bangun ruang yang memiliki jaring-jaring terdiri dari 1 buah persegi dan 4 buah segitiga sama kaki adalah limas segi empat.\nMari kita periksa setiap pernyataan:\nPernyataan A: Bangun ruang tersebut adalah limas segi empat. Ini sesuai dengan ciri jaring-jaring yang diberikan (1 persegi sebagai alas dan 4 segitiga sebagai sisi tegak). Jawaban: Benar\nPernyataan B: Bangun ruang tersebut memiliki 5 buah titik sudut. Limas segi empat memiliki 4 titik sudut pada alas (persegi) dan 1 titik puncak di atas. Total titik sudutnya adalah 4 + 1 = 5. Jawaban: Benar\nPernyataan C: Bangun ruang tersebut memiliki 6 buah sisi. Limas segi empat memiliki 1 sisi alas (persegi) dan 4 sisi tegak (segitiga). Total sisinya adalah 1 + 4 = 5 sisi, bukan 6. Jawaban: Salah",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 9 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 109,
+        "document_block_end_exclusive": 120,
+        "document_xml_index_start": 121,
+        "document_xml_index_end": 131
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "132b52e0bedf8b09195e82610def2158f9df21e4e937f74931ad59ddcc24de8c",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "bf6705eb6113f7efead15acdca143ac68832903b848d823725c38d7d0edec55b",
+          "323f742604f011569da5371871a1260cc4c2bf025051096ff15fbc480dc3725e",
+          "ed2c3ae43f5e8dfb464d54ab1ff4d61181b917d90d95880625da2990e889ef1b"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-16-1-10",
+      "question_hash": "dca40aeaa2a30ff6",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Diketahui sebuah kubus dengan panjang rusuk S = 4 cm. Jaring-jaringnya terdiri dari 6 buah persegi.\nMari kita periksa setiap pernyataan:\nPernyataan A: Luas 1 buah persegi pada jaring-jaring adalah 16 cm². Luas 1 persegi = s×s=4cm×4cm=16cm2. Jawaban: Benar\nPernyataan B: Luas permukaan kubus dapat dihitung dengan rumus 6 × 4 × 4. Rumus luas permukaan kubus adalah 6×s2 atau 6×s×s. Dengan s = 4, maka rumusnya menjadi 6 x 4 x 4. Jawaban: Benar\nPernyataan C: Luas permukaan kubus tersebut adalah 64 cm². Luas permukaan kubus = 6×Luas Satu Persegi=6×16cm2=96cm2.\nAngka 64 cm² adalah volume kubus (4×4×4), bukan luas permukaannya. Jawaban: Salah\nLEVEL 2",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 1 / Soal 10 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 120,
+        "document_block_end_exclusive": 131,
+        "document_xml_index_start": 136,
+        "document_xml_index_end": 147
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "1abe99a325319d863390122b8885b057f9fdd5acef294e36f2b4c196e6781aa9",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "e0e9322858e7b30f62aed028d95742d9d8b2cfec95f58b98b035c6f05b40cc9e",
+          "480d65866829db5934893a9555a41174d18c1888a01a7dce830b00efb739a9d5",
+          "768c2724896e4d3ff7e742ff22687c50db8a86153a15add1643f84e2796d7376"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-16-2-9",
+      "question_hash": "80ab3859a5bc0ba2",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Bangun ruang yang dimaksud adalah limas segi empat.\nPernyataan A: Benar. Sesuai ciri jaring-jaringnya.\nPernyataan B: Salah. Limas segi empat memiliki 5 titik sudut (4 di alas + 1 puncak).\nPernyataan C: Benar. Limas segi empat memiliki 5 sisi (1 alas + 4 sisi tegak).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 2 / Soal 9 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 172,
+        "document_block_end_exclusive": 178,
+        "document_xml_index_start": 199,
+        "document_xml_index_end": 204
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "132b52e0bedf8b09195e82610def2158f9df21e4e937f74931ad59ddcc24de8c",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "bf6705eb6113f7efead15acdca143ac68832903b848d823725c38d7d0edec55b",
+          "1323af4ff477125d556139ccb94acc6bde7ad2628001100a7c5ff8a0e7f9dfc7",
+          "6ac501e99db9f05db2b33650623793fc70789b00e3c0352bc5e95ec6a799447d"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "SALAH",
+            "BENAR"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "SALAH",
+            "BENAR"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-16-2-10",
+      "question_hash": "49d70f8e9060d046",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "STEM_MATCHED_BUT_NOT_ALL_OPTIONS_MATCHED_EXACTLY",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 2,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-16-3-9",
+      "question_hash": "5ef50158f73a57d4",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan A: Benar. Luas 1 persegi panjang = sisi segitiga x tinggi prisma = 8 x 12 cm².\nPernyataan B: Salah. Luas 1 segitiga sama sisi = 14s23=14(64)3=163cm2. Luas 2 segitiga = 323cm2 (bukan 64).\nPernyataan C: Benar. Luas permukaan adalah jumlah seluruh luas bangun datar penyusun jaring-jaring.",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 16 / LEVEL 3 / Soal 9 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 208,
+        "document_block_end_exclusive": 214,
+        "document_xml_index_start": 245,
+        "document_xml_index_end": 250
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "2e3bde94dc4f615f18561936ebc45211be19adc13fb3dc4123db4c9edd2793bd",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "b75b396cbc01850777e1f6f7e41c77fcd63c4c755ccc080decc00eb5c106bd22",
+          "6164a16de44bf6f5117fcf53bdb34d695e45d580640fa216887f7d37b6680705",
+          "90e0ef6652f0027f54fcb5f4f08a2db70a1f19a7adc5c410ad0ae90d749f97eb"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "SALAH",
+            "BENAR"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "SALAH",
+            "BENAR"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-16-3-10",
+      "question_hash": "fc77e40f5fe035d7",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-17-1-9",
+      "question_hash": "06f74b1e95a5c5aa",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan A: Benar. A(5,-3)→A'(5,-2-3+1)=A'(3,-2). (Translasi T(-, 21))\nPernyataan B: Benar. Refleksi sumbu X: A(x,y)→A'(x,-y)=A'(5,3).\nPernyataan C: Salah. Refleksi garis y=-x : A(x,y)→A'(-,y-x)=A'(3,-5). (Bukan (3, 5)).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 1 / Soal 9 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 290,
+        "document_block_end_exclusive": 296,
+        "document_xml_index_start": 349,
+        "document_xml_index_end": 354
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "f8401abb7df2e6a796575f4d4c9d508ea5a886ac353c35f87b604d595600dbfe",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "120685029b824cd8301618602fd0c14c019ad33039fb85348f6ff23ad0c225bc",
+          "ceabffd4281803580ddd194aa8a8b8346a4a0104df0a3f1caa460da0b425a9a6",
+          "fede1868f8165b04c00a7c192515e0a9457025a2e0eaadc72f830852b43b56cf"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-17-1-10",
+      "question_hash": "609e2fe720a1a4bf",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan A: Benar. Rotasi 90° berlawanan arah jarum jam: B(x,y)→B'(-,yx)=B'(-,6-4).\nPernyataan B: Benar. Dilatasi faktor skala 12 : B(x,y)→B'12,x12y=B'(-,23).\nPernyataan C: Salah. Rotasi 90 searah jarum jam: B(x,y)→B'(y,-x)=B'(6,4). (Bukan (-6, 4)).\nLEVEL 2",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 1 / Soal 10 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 296,
+        "document_block_end_exclusive": 303,
+        "document_xml_index_start": 356,
+        "document_xml_index_end": 365
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "e94d417528ef25b49dfbb32d0917ed7c2a5f6123a1564245aad30bf1a4febe42",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "8ced00b8799bc40364f88da49345b3b96e76ce3324f0e7b4371f4ff505f13650",
+          "de868ed9dba288beb1e5c3073a832ba2da57aeecd01a5de129edf528a0be7a8b",
+          "ffafea877ecb8975c621e5acd876e2f75621e9025f96876bf4adacdff14af0ba"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-17-2-9",
+      "question_hash": "a7cb885475a7b024",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "STEM_MATCHED_BUT_NOT_ALL_OPTIONS_MATCHED_EXACTLY",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 1,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-17-3-9",
+      "question_hash": "53710a57251a7346",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan A: Benar. C(3,-2)→C'(3,-1-2+4)=C'(2,2). (Translasi T(-,14))\nPernyataan B: Benar. Refleksi sumbu X: C(x,y)→C'(x,-y)=C'(3,2).\nPernyataan C: Salah. Dilatasi skala -2: C(x,y)→C'(-,2x-2y)=C'(-,64). (Bukan (-6, -4)).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 9 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 412,
+        "document_block_end_exclusive": 418,
+        "document_xml_index_start": 499,
+        "document_xml_index_end": 504
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "3c459962a012db2489a7052ff747b706326442f5428eec40afb6bd8511a84a67",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "8ad0d1a23c91d6e7655fda25ab96e4b17249b0c8fb3f512c646d2fa142b52f68",
+          "7cebf2743b3f593cf0424cf230b3a9099378d9fea72b9aeb26995f32de77f12b",
+          "84217f666d15a49c3671b1b8173d16e91e34273e800512b45eebde3374fdef14"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-17-3-10",
+      "question_hash": "7b4657602b32a576",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan A: Benar. Translasi dan rotasi mempertahankan bentuk dan ukuran (kongruen).\nPernyataan B: Salah. Dilatasi dengan faktor skala k mengubah luas menjadi k2 kali lipat. Jika skala 3, luas menjadi 32=9 kali lipat.\nPernyataan C: Benar. Refleksi y=x : A(x,y)→A'(y,x).\nINDIKATOR 18. Keliling dan luas bangun datar (daerah segi banyak dan daerah lingkaran, serta daerah gabungannya)\nLEVEL 1",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 17 / LEVEL 3 / Soal 10 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 418,
+        "document_block_end_exclusive": 426,
+        "document_xml_index_start": 506,
+        "document_xml_index_end": 516
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "09e2bb88f60196c11b54677e8a843c8de309c039d0194003b966de7d9975a712",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "4d08ab20a4dacb6770358440d5422b11c69cd97858e83a642e64d19c4abb9459",
+          "c3d67feda0033e7781a3a156587e959c629572991d428b13eaf9c86f340c3715",
+          "61106a5c6f22190c1d7b265f31772fbb66b1e3752a5622216b9bcf85ca6c6e5b"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "SALAH",
+            "BENAR"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "SALAH",
+            "BENAR"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-18-1-9",
+      "question_hash": "8d7733ab5776f67c",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan A: Benar. Keliling = 4×s=4×8=32cm.\nPernyataan B: Benar. Luas = s×s=8×8=64cm2.\nPernyataan C: Benar. Jika sisi diperbesar 2 kali (s = 16), luas menjadi 16 x 26 = 256 cm². Luas awal 64 cm². 256 = 4 x 64. (Benar).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 18 / LEVEL 1 / Soal 9 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 455,
+        "document_block_end_exclusive": 461,
+        "document_xml_index_start": 555,
+        "document_xml_index_end": 560
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "862c86773073bbba2d9dd3215c0a1f574d7c2592298d8d0a3563a1fe28eee260",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "20d042a4b3c2bd92f8e8189fe1c76fbadb87b0297ba361b4d5f7c371146a83d8",
+          "14775cfd890371aa2ea43f104e3980ba8320d4404c7c5755eb373a6712d7ddfe",
+          "4fc7d77f9d27b78f75f17b95b7312eb1564d77d0601cedd30245e18904214c1c"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "SALAH",
+            "BENAR"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "SALAH",
+            "BENAR"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-18-1-10",
+      "question_hash": "233f6f8e9fa93aa1",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-18-2-9",
+      "question_hash": "d6bd185e6fe7632c",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-18-2-10",
+      "question_hash": "a68c3ee3e362f6e3",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-18-3-9",
+      "question_hash": "0d202d902d1a6809",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-18-3-10",
+      "question_hash": "695b5fcf78358257",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-19-1-9",
+      "question_hash": "bbc665116c459992",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan A: Benar. Luas alas = 12×8×15=60cm2.\nPernyataan B: Benar. Volume = Luas alas ×t=60×20=1.200cm3.\nPernyataan C: Salah. Jika tinggi = 10 cm, Volume = 60×10=600cm3. (Pernyataan tertulis 1.200 cm³, sehingga salah).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 1 / Soal 9 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 637,
+        "document_block_end_exclusive": 643,
+        "document_xml_index_start": 772,
+        "document_xml_index_end": 777
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "9e39def28b4653ff0a54e59f9b6ee46678cf6ed4c8b1e344e4e20cb133be1cd6",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "0bf1c03214d6a0ee6209245e187993ce6fb5b887677104b258321b7ede2e244e",
+          "3631340e07ec68eb557c67e9ae4b2779f889f9ce5114f45116aa5e15b27d3b01",
+          "6df115e13211bc35d436022d2f04eaa1ada61f5e24da924d28209832b8a5fad4"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-19-1-10",
+      "question_hash": "6a069cd5ceea24b2",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-19-2-9",
+      "question_hash": "be081f86c71bd8c9",
+      "status": "RECOVERED_EXACT_CORE_MATCH",
+      "explanation": "Pernyataan A: Benar. Volume = 1×0,5×1=0,5m3=500 liter.\nPernyataan B: Benar. Volume awal = p×l×t. Jika p dan l masing-masing 2x, Volume menjadi 2×2=4 kali lipat.\nPernyataan C: Salah. Waktu = Volume / Debit = 500/10=50 menit. (Pernyataan tertulis 100 menit, sehingga salah).",
+      "provenance": {
+        "path": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+        "sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+        "section": "INDIKATOR 19 / LEVEL 2 / Soal 9 (Bentuk Soal: PGK Kategori)",
+        "document_block_start": 687,
+        "document_block_end_exclusive": 693,
+        "document_xml_index_start": 834,
+        "document_xml_index_end": 839
+      },
+      "core_match_evidence": {
+        "normalization": "NFKC_CASEFOLD_ALNUM_LIST_MARKERS_NUMBER_WORDS",
+        "stem_exact_normalized_substring": true,
+        "stem_normalized_sha256": "93586617bd682209bfa3f4d99eacc7c18f0b93f5a66f0c89825c79eb44ec1959",
+        "options_exact_normalized_substrings": [
+          true,
+          true,
+          true
+        ],
+        "option_normalized_sha256": [
+          "829e3d624fe67189ff460df8695f7fa1b503616793f3ef9d849e82f59c11d2a5",
+          "8eae824b6c8fea1ec741f19e89730e6bde534ff8a0f64a91c4b34b817faac472",
+          "092d688898e67dff908f1ec53d1cf56708ec3ca0472aa46738580c96256ec519"
+        ],
+        "bank_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "source_key": {
+          "kind": "category_labels",
+          "value": [
+            "BENAR",
+            "BENAR",
+            "SALAH"
+          ]
+        },
+        "key_exact": true
+      }
+    },
+    {
+      "question_id": "kategori-19-2-10",
+      "question_hash": "e4a495ebb1ea399b",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-19-3-9",
+      "question_hash": "5345ab19090ad810",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    },
+    {
+      "question_id": "kategori-19-3-10",
+      "question_hash": "7beedbe24afe4827",
+      "status": "UNAVAILABLE",
+      "explanation": null,
+      "provenance": null,
+      "core_match_evidence": null,
+      "unavailable_reason": "NO_EXACT_NORMALIZED_STEM_MATCH_IN_ARCHIVE",
+      "candidate_count": 0,
+      "rejection_evidence": {
+        "exact_stem_candidate_count": 0,
+        "exact_stem_and_all_options_candidate_count": 0,
+        "exact_stem_options_key_candidate_count": 0,
+        "exact_core_with_explanation_candidate_sections": []
+      }
+    }
+  ]
+}

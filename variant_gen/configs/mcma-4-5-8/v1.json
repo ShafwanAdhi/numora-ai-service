@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-4-5-8",
+  "config_version": 1,
+  "original_hash": "126f2293af3d30e1",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'96' if k == 0 else (96*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'144' if k == 0 else (144*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'48' if k == 0 else (48*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "48*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus lab sains mengevaluasi pembagian ${v0}$ tabung reaksi dan ${v1}$ pipet tetes ke dalam beberapa kotak penyimpanan praktikum tanpa tersisa.\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kotak penyimpanan terbanyak yang dapat dibentuk adalah {v2} kotak.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kotak penyimpanan terbanyak yang dapat dibentuk adalah {v3} kotak.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika dibentuk {v3} kotak, masing-masing kotak berisi 2 tabung reaksi dan 3 pipet tetes.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Jika dibentuk {v3} kotak, masing-masing kotak berisi 3 tabung reaksi dan 2 pipet tetes.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hitung FPB dari dua jumlah yang ditampilkan: FPB = {v4}. Periksa keterbagian, isi tiap kelompok, dan syarat maksimum pada setiap opsi.",
+  "shuffle": false,
+  "max_draws": 1000
+}

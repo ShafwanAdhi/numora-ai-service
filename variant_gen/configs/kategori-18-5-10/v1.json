@@ -1,0 +1,111 @@
+{
+  "question_id": "kategori-18-5-10",
+  "config_version": 1,
+  "original_hash": "398d191d65b40032",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else ((20)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else ((14)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'280' if k == 0 else ((280)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'77' if k == 0 else ((77)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'203' if k == 0 else ((203)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'88' if k == 0 else ((88)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "203*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "280*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "77*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "76*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "88*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah kertas karton berbentuk persegi panjang berukuran {v0} cm × {v1} cm. Pada salah satu sisi lebarnya, dipotong sebuah setengah lingkaran dengan diameter {v1} cm. Tentukan Benar atau Salah untuk setiap pernyataan berikut! (Gunakan π = $\\frac{22}{7}$)",
+  "options": [
+    {
+      "id": "1",
+      "text": "Luas kertas karton mula-mula adalah {v2} cm²",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Luas setengah lingkaran yang dipotong adalah {v3} cm².",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Luas sisa kertas karton adalah {v4} cm².",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Keliling bangun yang tersisa adalah {v5} cm",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v6}. Awal{v7}, potongan{v8}, sisa{v6}. Keliling{v9}, bukan{v10}. 1,2,3 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

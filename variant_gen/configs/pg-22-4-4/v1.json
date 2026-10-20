@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-22-4-4",
+  "config_version": 1,
+  "original_hash": "67e4637071054178",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else ((70)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else ((90)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else ((60)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (80-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' poin, median kedua kelas)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "80-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kelas memiliki nilai ulangan berikut.\n\nKelas X: {v0}, {v1}, {v1}, {v1}, {v2}\n\nKelas Y: {v3}, {v0}, {v1}, {v2}, {v4}\n\nAnalisis yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelas X memiliki median dan modus lebih tinggi daripada kelas Y.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kelas X dan Y memiliki median sama, tetapi jangkauan kelas Y lebih besar.{v5}{v6}{v7}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kelas X memiliki jangkauan lebih besar daripada kelas Y.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kelas Y memiliki modus {v2}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v8}. Median kedua kelas={v8}. Jangkauan X=20,Y=40. Modus X={v8}, kelas Y tidak mempunyai modus tunggal. Hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

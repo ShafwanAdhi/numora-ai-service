@@ -1,0 +1,393 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-20-4-1,PG,C4,"Seorang peneliti ingin mengetahui hubungan antara durasi belajar mandiri dan nilai matematika siswa kelas IX. Ia mengumpulkan data berupa durasi belajar mandiri setiap hari dan nilai ujian matematika siswa.
+
+Pertanyaan penelitian yang paling sesuai adalah ....","[""Berapa jumlah siswa kelas IX di sekolah tersebut?"", ""Apa mata pelajaran yang paling disukai siswa kelas IX?"", ""Apakah terdapat hubungan antara durasi belajar mandiri dan nilai matematika siswa?"", ""Berapa banyak siswa yang mengikuti ujian matematika?""]",C,1
+pg-20-4-2,PG,C4,"Perhatikan data jumlah buku yang dibaca oleh lima siswa selama satu bulan berikut.
+
+| Siswa | Jumlah buku |
+| --- | --- |
+| Andi | 2 |
+| Budi | 4 |
+| Citra | 3 |
+| Dini | 6 |
+| Eka | 5 |
+
+Kesimpulan yang paling tepat berdasarkan data tersebut adalah ....","[""Andi membaca buku paling banyak."", ""Dini membaca buku paling banyak."", ""Eka membaca buku paling sedikit."", ""Citra membaca buku lebih banyak daripada Dini.""]",B,1
+pg-20-4-3,PG,C4,"Sekolah melakukan survei terhadap 100 siswa mengenai transportasi yang digunakan untuk berangkat ke sekolah.
+
+| Transportasi | Jumlah siswa |
+| --- | --- |
+| Sepeda motor | 45 |
+| Sepeda | 20 |
+| Jalan kaki | 15 |
+| Angkutan umum | 20 |
+
+Penyajian yang paling tepat untuk membandingkan jumlah siswa pada setiap kategori adalah ....","[""Diagram garis"", ""Diagram batang"", ""Diagram pencar"", ""Diagram garis waktu""]",B,1
+pg-20-4-4,PG,C4,"Seorang peneliti ingin mengetahui apakah siswa merasa terbantu dengan penggunaan video pembelajaran. Ia mengajukan pertanyaan berikut.
+
+“Apakah kamu setuju bahwa video pembelajaran sangat bermanfaat dan membuat semua siswa lebih pintar?”
+
+Kelemahan utama pertanyaan tersebut adalah ....","[""Tidak menyebutkan nama sekolah responden."", ""Menggunakan kalimat yang mengarahkan jawaban dan memuat dua klaim sekaligus."", ""Tidak menyediakan pilihan jawaban berupa angka."", ""Menggunakan kalimat yang terlalu singkat.""]",B,1
+pg-20-4-5,PG,C5,"Data berikut menunjukkan jumlah siswa yang memilih kegiatan ekstrakurikuler di sebuah sekolah.
+
+| Kegiatan | Jumlah siswa |
+| --- | --- |
+| Futsal | 40 |
+| Basket | 25 |
+| Musik | 20 |
+| Pramuka | 15 |
+
+Seorang siswa menyimpulkan bahwa futsal merupakan kegiatan yang paling diminati seluruh siswa di kabupaten tersebut.
+
+Evaluasi yang paling tepat adalah ....","[""Benar, karena futsal memiliki jumlah pemilih tertinggi."", ""Benar, karena jumlah seluruh responden mencapai 100 siswa."", ""Tidak tepat, karena data hanya mewakili responden di sekolah tersebut dan belum tentu menggambarkan seluruh kabupaten."", ""Tidak tepat, karena kegiatan ekstrakurikuler tidak dapat disajikan dalam tabel.""]",C,1
+mcma-20-4-6,MCMA,C4,Seorang peneliti ingin mengetahui kebiasaan membaca siswa kelas IX. Pertanyaan yang sesuai untuk memperoleh data adalah ....,"[""Berapa menit rata-rata kamu membaca setiap hari?"", ""Apa jenis bacaan yang paling sering kamu baca?"", ""Mengapa siswa yang tidak membaca buku dianggap malas?"", ""Berapa banyak buku yang kamu selesaikan dalam satu bulan?"", ""Apakah kamu setuju bahwa semua siswa wajib membaca novel?""]","A,B,D",1
+mcma-20-4-7,MCMA,C4,"Perhatikan data nilai ulangan matematika berikut.
+
+70, 75, 80, 80, 85, 90, 90, 90
+
+Pernyataan yang benar berdasarkan data tersebut adalah ....","[""Nilai yang paling sering muncul adalah 90."", ""Median data adalah 82,5."", ""Rata-rata data adalah 82,5."", ""Jangkauan data adalah 20."", ""Seluruh siswa memperoleh nilai di atas 75.""]","A,B,C,D",1
+mcma-20-4-8,MCMA,C5,"Sebuah sekolah ingin mengevaluasi kepuasan siswa terhadap kantin. Peneliti memberikan kuesioner kepada 30 siswa yang sedang makan di kantin pada jam istirahat pertama.
+
+Evaluasi yang tepat terhadap metode pengumpulan data tersebut adalah ....","[""Sampel tersebut berpotensi kurang mewakili seluruh siswa sekolah."", ""Responden yang sedang menggunakan kantin mungkin memiliki pengalaman berbeda dari siswa yang tidak menggunakannya."", ""Hasilnya pasti tidak valid karena jumlah responden hanya 30 siswa."", ""Peneliti dapat mempertimbangkan pengambilan sampel dari kelas dan waktu istirahat yang berbeda."", ""Peneliti tidak perlu menentukan responden karena semua jawaban pasti sama.""]","A,B,D",1
+kategori-20-4-9,KATEGORI,C4,"Perhatikan tabel jumlah pengunjung perpustakaan selama empat hari.
+
+| Hari | Jumlah pengunjung |
+| --- | --- |
+| Senin | 80 |
+| Selasa | 100 |
+| Rabu | 70 |
+| Kamis | 110 |
+
+Tentukan kategori yang tepat.","[""Jumlah pengunjung tertinggi terjadi pada hari Kamis."", ""Pengunjung hari Selasa lebih banyak 20 orang daripada hari Senin."", ""Jumlah pengunjung hari Rabu merupakan yang tertinggi."", ""Jumlah pengunjung hari Senin dan Rabu adalah 150 orang.""]","1,2,4",1
+kategori-20-4-10,KATEGORI,C5,"Seorang peneliti ingin mengetahui pendapat siswa tentang kebijakan membawa bekal dari rumah. Ia membuat pertanyaan berikut.
+
+“Apakah kamu setuju bahwa membawa bekal dari rumah lebih sehat, lebih hemat, dan lebih baik daripada membeli makanan di kantin?”
+
+Tentukan kategori yang tepat.","[""Pertanyaan tersebut mengandung beberapa aspek yang dapat menghasilkan jawaban berbeda."", ""Pertanyaan sebaiknya dipecah menjadi beberapa pertanyaan yang lebih spesifik."", ""Pertanyaan tersebut sudah netral karena tidak memuat pilihan jawaban."", ""Peneliti dapat menanyakan pendapat tentang kesehatan dan penghematan secara terpisah.""]","1,2,4",1
+pg-20-5-1,PG,C5,"Seorang peneliti ingin mengetahui tingkat kepuasan siswa terhadap fasilitas olahraga sekolah. Ia memiliki empat rancangan pertanyaan berikut.
+
+Rancangan pertanyaan yang paling layak digunakan adalah ....","[""Apakah fasilitas olahraga sekolah sangat bagus dan memuaskan?"", ""Apakah kamu menyukai sekolahmu?"", ""Bagaimana tingkat kepuasanmu terhadap fasilitas olahraga sekolah? (Sangat tidak puas, tidak puas, puas, sangat puas)"", ""Mengapa fasilitas olahraga sekolah lebih baik daripada sekolah lain?""]",C,1
+pg-20-5-2,PG,C5,"Data hasil survei pilihan ekstrakurikuler dari 200 siswa disajikan sebagai berikut.
+
+| Ekstrakurikuler | Jumlah siswa |
+| --- | --- |
+| Futsal | 80 |
+| Basket | 50 |
+| Musik | 40 |
+| Tari | 30 |
+
+Seorang siswa menyajikan data tersebut menggunakan diagram garis yang menghubungkan setiap kategori ekstrakurikuler.
+
+Evaluasi terbaik terhadap penyajian tersebut adalah ....","[""Tepat, karena diagram garis selalu menunjukkan perbandingan jumlah."", ""Kurang tepat, karena diagram batang lebih sesuai untuk membandingkan jumlah pada kategori yang berbeda."", ""Tepat, karena kategori ekstrakurikuler merupakan data kontinu."", ""Kurang tepat, karena data kategori hanya dapat disajikan dalam bentuk tabel.""]",B,1
+pg-20-5-3,PG,C5,"Seorang peneliti menyurvei 20 siswa yang mengikuti bimbingan belajar dan menemukan bahwa 18 siswa memperoleh nilai matematika di atas 80. Ia menyimpulkan bahwa mengikuti bimbingan belajar pasti menyebabkan nilai matematika meningkat.
+
+Penilaian paling tepat terhadap kesimpulan tersebut adalah ....","[""Tepat, karena mayoritas peserta memperoleh nilai tinggi."", ""Tepat, karena jumlah siswa yang memperoleh nilai tinggi lebih dari setengah sampel."", ""Belum cukup kuat, karena tidak ada data pembanding dan faktor lain yang mungkin memengaruhi nilai."", ""Salah, karena siswa yang mengikuti bimbingan belajar tidak dapat dijadikan responden penelitian.""]",C,1
+pg-20-5-4,PG,C5,"Sebuah sekolah ingin menentukan kebijakan penggunaan telepon genggam saat pembelajaran. Peneliti hanya bertanya kepada 15 siswa yang aktif menggunakan telepon genggam di kelas, kemudian menyimpulkan bahwa semua siswa mendukung penggunaan telepon genggam tanpa batas.
+
+Perbaikan paling tepat adalah ....","[""Menggunakan jawaban 15 siswa tersebut karena mereka paling memahami telepon genggam."", ""Menambah pertanyaan yang mengarahkan siswa agar menyetujui kebijakan."", ""Mengambil sampel yang lebih beragam dan menyusun pertanyaan netral tentang manfaat serta risiko penggunaannya."", ""Mengganti semua jawaban responden dengan pendapat guru.""]",C,1
+pg-20-5-5,PG,C5,"Perhatikan hasil survei durasi penggunaan internet harian 100 siswa.
+
+| Durasi | Jumlah siswa |
+| --- | --- |
+| Kurang dari 2 jam | 20 |
+| 2–4 jam | 45 |
+| Lebih dari 4 jam | 35 |
+
+Seorang siswa menyimpulkan bahwa sebagian besar siswa menggunakan internet lebih dari 4 jam sehari.
+
+Evaluasi yang paling tepat adalah ....","[""Benar, karena 35 siswa merupakan jumlah yang besar."", ""Benar, karena jumlah siswa yang menggunakan internet lebih dari 4 jam paling banyak dibandingkan kategori kurang dari 2 jam."", ""Salah, karena kategori 2–4 jam memiliki jumlah terbanyak, yaitu 45 siswa."", ""Salah, karena data durasi internet tidak dapat disajikan menggunakan tabel.""]",C,1
+mcma-20-5-6,MCMA,C5,"Sekolah ingin mengetahui apakah penggunaan perpustakaan perlu ditingkatkan. Peneliti berencana melakukan survei terhadap siswa dari berbagai tingkat kelas.
+
+Keputusan yang paling tepat untuk meningkatkan kualitas data adalah ....","[""Memilih responden dari beberapa tingkat kelas agar variasi pengalaman terwakili."", ""Menanyakan frekuensi kunjungan perpustakaan dalam periode yang jelas, misalnya satu bulan terakhir."", ""Hanya menyurvei siswa yang sering datang ke perpustakaan agar jawaban lebih terperinci."", ""Menggunakan pertanyaan netral yang tidak mengarahkan siswa untuk menyukai perpustakaan."", ""Menyimpulkan bahwa seluruh siswa menyukai perpustakaan hanya berdasarkan jawaban beberapa pengunjung.""]","A,B,D",1
+mcma-20-5-7,MCMA,C5,"Sebuah kelas melakukan survei tentang waktu belajar mandiri. Hasilnya menunjukkan bahwa 60% responden belajar selama 1–2 jam sehari, 25% belajar kurang dari 1 jam, dan 15% belajar lebih dari 2 jam.
+
+Pernyataan atau keputusan yang dapat dipertanggungjawabkan berdasarkan data tersebut adalah ....","[""Kelompok durasi belajar 1–2 jam merupakan kelompok terbesar dalam survei."", ""Semua siswa di sekolah tersebut belajar selama 1–2 jam setiap hari."", ""Diagram batang dapat digunakan untuk membandingkan jumlah atau persentase tiap kategori."", ""Data tersebut membuktikan bahwa belajar 1–2 jam menyebabkan nilai siswa lebih tinggi."", ""Kesimpulan perlu dibatasi pada responden dan metode pengumpulan data yang digunakan.""]","A,C,E",1
+mcma-20-5-8,MCMA,C5,"Seorang kepala sekolah ingin memilih metode penyajian data hasil survei tentang jenis transportasi siswa. Data terdiri atas sepeda motor 50 siswa, sepeda 25 siswa, berjalan kaki 15 siswa, dan angkutan umum 10 siswa.
+
+Pilih semua keputusan yang paling tepat.","[""Menggunakan diagram batang untuk membandingkan jumlah siswa pada setiap jenis transportasi."", ""Menggunakan diagram lingkaran jika ingin menunjukkan proporsi setiap jenis transportasi dari keseluruhan responden."", ""Menggunakan diagram garis karena jenis transportasi memiliki urutan waktu yang berkesinambungan."", ""Memberikan judul dan label yang jelas agar pembaca memahami data."", ""Menghilangkan kategori dengan jumlah terkecil agar diagram menunjukkan hasil yang lebih meyakinkan.""]","A,B,D",1
+kategori-20-5-9,KATEGORI,C5,Sebuah penelitian bertujuan mengevaluasi kepuasan siswa terhadap layanan kantin sekolah. Peneliti mempertimbangkan beberapa rancangan pengumpulan dan penyajian data.,"[""Menggunakan pertanyaan dengan pilihan tingkat kepuasan yang jelas."", ""Hanya meminta pendapat siswa yang menyukai makanan kantin."", ""Menyajikan jumlah jawaban setiap kategori dalam diagram batang."", ""Mengubah hasil survei yang tidak sesuai harapan agar terlihat lebih baik.""]","1,3",1
+kategori-20-5-10,KATEGORI,C5,"Sebuah survei terhadap 80 siswa menghasilkan data berikut mengenai pendapat mereka tentang penambahan jam olahraga.
+
+| Pendapat | Jumlah siswa |
+| --- | --- |
+| Setuju | 44 |
+| Tidak setuju | 24 |
+| Ragu-ragu | 12 |
+
+Seorang siswa menyimpulkan bahwa seluruh siswa sekolah mendukung penambahan jam olahraga karena jumlah responden yang setuju lebih banyak.
+
+Tentukan kategori Tepat atau Tidak Tepat untuk setiap pernyataan evaluasi berikut.","[""Menyatakan bahwa kelompok setuju merupakan kelompok terbesar di antara responden."", ""Menyimpulkan bahwa seluruh siswa sekolah mendukung kebijakan tersebut hanya dari sampel ini."", ""Menyebutkan jumlah dan persentase setiap kategori untuk memperjelas interpretasi data."", ""Mempertimbangkan keterwakilan sampel sebelum menarik kesimpulan untuk seluruh sekolah.""]","1,3,4",1
+pg-21-4-1,PG,C4,"Nilai ulangan matematika delapan siswa adalah sebagai berikut.
+
+72, 75, 80, 80, 83, 85, 85, 92
+
+Seorang siswa menyatakan bahwa median data tersebut adalah 80. Analisis yang tepat adalah ....","[""Benar, karena 80 merupakan nilai yang muncul dua kali."", ""Salah, karena median data adalah 81,5."", ""Salah, karena median data adalah 82."", ""Benar, karena median merupakan nilai yang paling sering muncul.""]",B,1
+pg-21-4-2,PG,C4,"Data jumlah buku yang dibaca lima siswa dalam satu bulan adalah 3, 4, 5, 5, dan 8 buku.
+
+Seorang siswa menyatakan bahwa rerata data lebih besar daripada median. Pernyataan tersebut ....","[""Benar, karena rerata = 5 dan median = 5."", ""Benar, karena rerata = 5 dan median = 4."", ""Salah, karena rerata = 5 dan median = 5."", ""Salah, karena rerata = 6 dan median = 5.""]",C,1
+pg-21-4-3,PG,C4,"Perhatikan data waktu tempuh siswa menuju sekolah dalam menit.
+
+10, 12, 15, 15, 18, 20, 25
+
+Kesimpulan yang tepat berdasarkan data tersebut adalah ....","[""Modus = 15 menit dan jangkauan = 15 menit."", ""Modus = 18 menit dan jangkauan = 10 menit."", ""Median = 15 menit dan jangkauan = 20 menit."", ""Rerata = 15 menit dan modus = 20 menit.""]",A,1
+pg-21-4-4,PG,C4,"Nilai lima siswa adalah 60, 70, 75, 80, dan 90. Guru kemudian menambahkan satu nilai baru, yaitu 100, ke dalam kumpulan data tersebut.
+
+Analisis yang tepat mengenai perubahan rerata adalah ....","[""Rerata tetap karena nilai baru tidak mengubah nilai yang sudah ada."", ""Rerata meningkat karena nilai baru lebih besar daripada rerata awal."", ""Rerata menurun karena jumlah data bertambah."", ""Rerata menjadi sama dengan median awal.""]",B,1
+pg-21-4-5,PG,C5,"Dua kelompok siswa memiliki data nilai berikut.
+
+Kelompok A: 70, 75, 80, 85, 90
+
+Kelompok B: 60, 75, 80, 85, 100
+
+Seorang siswa menyatakan bahwa kedua kelompok memiliki rerata dan median yang sama, sehingga penyebaran nilainya juga sama.
+
+Evaluasi yang tepat adalah ....","[""Benar, karena rerata dan median yang sama selalu menunjukkan penyebaran yang sama."", ""Benar, karena kedua kelompok mempunyai jumlah siswa yang sama."", ""Salah, karena kedua kelompok memiliki jangkauan berbeda meskipun rerata dan median sama."", ""Salah, karena rerata kedua kelompok berbeda.""]",C,1
+mcma-21-4-6,MCMA,C4,"Data jumlah soal yang diselesaikan lima siswa adalah 4, 6, 6, 8, dan 11.
+
+Pernyataan yang benar adalah ....","[""Rerata data adalah 7."", ""Median data adalah 6."", ""Modus data adalah 8."", ""Jangkauan data adalah 7."", ""Rerata lebih kecil daripada median.""]","A,B,D",1
+mcma-21-4-7,MCMA,C4,"Perhatikan data berikut.
+
+65, 70, 75, 80, 80, 85, 95
+
+Pernyataan yang benar berdasarkan data tersebut adalah ....","[""Median data adalah 80."", ""Modus data adalah 80."", ""Jangkauan data adalah 30."", ""Rerata data adalah 80."", ""Jika nilai 95 dihapus, median data yang tersisa adalah 75.""]","A,B,C",1
+mcma-21-4-8,MCMA,C5,"Dua kelas memiliki data nilai berikut.
+
+Kelas A: 70, 75, 80, 85, 90
+
+Kelas B: 60, 80, 80, 80, 100
+
+Pernyataan yang tepat untuk mengevaluasi kedua kelompok adalah ....","[""Kedua kelas memiliki median yang sama."", ""Kelas B memiliki modus yang lebih tinggi daripada kelas A."", ""Kelas A memiliki jangkauan lebih kecil daripada kelas B."", ""Kedua kelas memiliki rerata yang sama."", ""Kelas B pasti memiliki kemampuan seluruh siswa lebih baik karena modusnya 80.""]","A,C,D",1
+kategori-21-4-9,KATEGORI,C4,"Data jumlah pengunjung perpustakaan selama lima hari adalah 20, 25, 25, 30, dan 40 orang.","[""Rerata jumlah pengunjung adalah 28 orang."", ""Median data adalah 25 orang."", ""Modus data adalah 25 orang."", ""Jangkauan data adalah 20 orang.""]","1,3,4",1
+kategori-21-4-10,KATEGORI,C5,"Dua kelompok memiliki data waktu belajar harian sebagai berikut.
+
+Kelompok A: 1, 2, 2, 3, 7 jam
+
+Kelompok B: 2, 2, 3, 4, 4 jam
+
+Tentukan apakah evaluasi berikut tepat.","[""Kelompok A memiliki rerata lebih tinggi daripada kelompok B."", ""Kedua kelompok memiliki median yang sama."", ""Kelompok B memiliki jangkauan lebih besar daripada kelompok A."", ""Kelompok A memiliki variasi data lebih besar jika dinilai berdasarkan jangkauan.""]","1,2,4",1
+pg-21-5-1,PG,C5,"Nilai ulangan enam siswa adalah 60, 70, 75, 80, 85, dan 100. Seorang guru ingin menggunakan ukuran pemusatan data yang paling mewakili nilai tengah siswa dan tidak terlalu terpengaruh nilai ekstrem.
+
+Ukuran yang paling tepat adalah ....","[""Rerata"", ""Median"", ""Modus"", ""Jangkauan""]",B,1
+pg-21-5-2,PG,C5,"Data penghasilan harian lima pekerja dalam ribuan rupiah adalah 100, 110, 120, 130, dan 540.
+
+Seorang peneliti ingin menyajikan nilai yang paling mewakili penghasilan tipikal pekerja. Pilihan yang paling tepat adalah ....","[""Rerata, karena selalu mewakili mayoritas data."", ""Median, karena lebih tahan terhadap pengaruh nilai ekstrem."", ""Modus, karena semua data pasti memiliki nilai yang paling sering muncul."", ""Jangkauan, karena menunjukkan nilai tengah data.""]",B,1
+pg-21-5-3,PG,C5,"Perhatikan dua kumpulan data berikut.
+
+Data P: 10, 10, 10, 10, 10
+
+Data Q: 6, 8, 10, 12, 14
+
+Seorang siswa menyatakan bahwa kedua kumpulan data memiliki rerata yang sama, sehingga keduanya tidak memiliki perbedaan karakteristik.
+
+Evaluasi yang tepat adalah ....","[""Benar, karena rerata yang sama selalu berarti data identik."", ""Benar, karena kedua data memiliki jumlah nilai yang sama."", ""Salah, karena rerata sama tetapi jangkauan dan penyebaran datanya berbeda."", ""Salah, karena rerata Data P lebih kecil daripada Data Q.""]",C,1
+pg-21-5-4,PG,C5,"Sebuah kelas memiliki data nilai 70, 75, 80, 80, dan 95. Guru ingin menaikkan nilai terendah dari 70 menjadi 80 tanpa mengubah nilai siswa lainnya.
+
+Evaluasi yang tepat terhadap perubahan tersebut adalah ....","[""Rerata meningkat, median tetap, dan jangkauan menurun."", ""Rerata menurun, median meningkat, dan jangkauan tetap."", ""Rerata tetap, median menurun, dan jangkauan meningkat."", ""Rerata meningkat, median meningkat, dan jangkauan tetap.""]",A,1
+pg-21-5-5,PG,C5,"Dua kelompok memiliki data waktu penyelesaian tugas dalam menit.
+
+Kelompok A: 20, 22, 24, 26, 28
+
+Kelompok B: 15, 20, 24, 28, 33
+
+Jika guru ingin menentukan kelompok dengan waktu penyelesaian yang lebih konsisten berdasarkan jangkauan, keputusan yang paling tepat adalah ....","[""Kelompok A, karena jangkauannya lebih kecil."", ""Kelompok B, karena nilai tertingginya lebih besar."", ""Kedua kelompok sama konsisten karena median keduanya sama."", ""Kelompok B, karena memiliki lebih banyak variasi nilai.""]",A,1
+mcma-21-5-6,MCMA,C5,"Nilai lima siswa adalah 65, 70, 75, 80, dan 110. Seorang guru mempertimbangkan ukuran statistik untuk menggambarkan nilai tipikal kelompok tersebut.
+
+Pernyataan yang tepat adalah ....","[""Median data adalah 75."", ""Rerata data adalah 80."", ""Jangkauan data adalah 45."", ""Nilai 110 dapat memengaruhi rerata secara signifikan."", ""Modus data adalah 75.""]","A,C,D",1
+mcma-21-5-7,MCMA,C5,"Dua kelompok siswa memperoleh nilai berikut.
+
+Kelompok A: 70, 70, 80, 80, 100
+
+Kelompok B: 60, 80, 80, 90, 90
+
+Pilih semua pernyataan yang benar.","[""Median kedua kelompok sama."", ""Modus kelompok A adalah 70 dan 80."", ""Rerata kelompok A lebih tinggi daripada kelompok B."", ""Jangkauan kelompok B lebih kecil daripada kelompok A."", ""Kedua kelompok memiliki jangkauan yang sama.""]","A,B,C,E",1
+mcma-21-5-8,MCMA,C5,"Data waktu membaca harian lima siswa adalah 20, 30, 30, 40, dan 80 menit. Seorang peneliti ingin mengevaluasi pengaruh perubahan satu data terhadap ukuran statistik.
+
+Jika nilai 80 diganti menjadi 50, pernyataan yang benar adalah ....","[""Rerata menurun."", ""Median tetap."", ""Modus tetap."", ""Jangkauan menurun."", ""Median meningkat.""]","A,B,C,D",1
+kategori-21-5-9,KATEGORI,C5,"Data jumlah buku yang dibaca siswa adalah 2, 3, 3, 4, dan 8 buku.","[""Rerata data adalah 4 buku."", ""Median data adalah 3 buku."", ""Modus data adalah 4 buku."", ""Jangkauan data adalah 6 buku.""]","1,2,4",1
+kategori-21-5-10,KATEGORI,C5,"Dua kelompok memiliki data waktu belajar harian sebagai berikut.
+
+Kelompok A: 1, 2, 3, 4, 10 jam
+
+Kelompok B: 2, 3, 3, 4, 8 jam
+
+Tentukan kategori yang tepat.","[""Rerata kedua kelompok sama."", ""Median kelompok A lebih tinggi daripada kelompok B."", ""Kelompok A memiliki jangkauan lebih besar daripada kelompok B."", ""Modus kelompok B adalah 3 jam.""]","1,3,4",1
+pg-22-4-1,PG,C4,"Dua kelompok siswa memperoleh nilai matematika sebagai berikut.
+
+Kelompok A: 70, 75, 80, 85, 90
+
+Kelompok B: 60, 75, 80, 85, 100
+
+Analisis yang tepat berdasarkan data tersebut adalah ....","[""Rerata kelompok A lebih tinggi daripada kelompok B."", ""Median kelompok A lebih tinggi daripada kelompok B."", ""Rerata dan median kedua kelompok sama, tetapi jangkauannya berbeda."", ""Kedua kelompok memiliki jangkauan yang sama.""]",C,1
+pg-22-4-2,PG,C4,"Data waktu penyelesaian tugas dari dua kelompok siswa adalah sebagai berikut.
+
+Kelompok P: 20, 22, 24, 26, 28
+
+Kelompok Q: 15, 20, 24, 28, 33
+
+Kesimpulan yang tepat berdasarkan ukuran penyebaran adalah ....","[""Kelompok P memiliki jangkauan lebih besar daripada kelompok Q."", ""Kelompok Q memiliki jangkauan lebih besar sehingga datanya lebih menyebar berdasarkan jangkauan."", ""Kedua kelompok memiliki jangkauan yang sama."", ""Kelompok P memiliki rerata lebih tinggi daripada kelompok Q.""]",B,1
+pg-22-4-3,PG,C4,"Perhatikan data jumlah buku yang dibaca siswa selama satu bulan.
+
+Kelompok A: 2, 3, 3, 4, 8
+
+Kelompok B: 3, 3, 4, 4, 6
+
+Pernyataan yang tepat adalah ....","[""Kedua kelompok memiliki median yang sama dan jangkauan yang sama."", ""Kelompok A memiliki jangkauan lebih kecil daripada kelompok B."", ""Kelompok B memiliki median lebih rendah daripada kelompok A."", ""Kelompok A dan B memiliki rerata yang sama.""]",A,1
+pg-22-4-4,PG,C4,"Dua kelas memiliki nilai ulangan berikut.
+
+Kelas X: 70, 80, 80, 80, 90
+
+Kelas Y: 60, 70, 80, 90, 100
+
+Analisis yang tepat adalah ....","[""Kelas X memiliki median dan modus lebih tinggi daripada kelas Y."", ""Kelas X dan Y memiliki median sama, tetapi jangkauan kelas Y lebih besar."", ""Kelas X memiliki jangkauan lebih besar daripada kelas Y."", ""Kelas Y memiliki modus 90.""]",B,1
+pg-22-4-5,PG,C5,"Dua kelompok siswa memperoleh hasil tes berikut.
+
+Kelompok A: 75, 78, 80, 82, 85
+
+Kelompok B: 60, 75, 80, 85, 100
+
+Seorang guru menyatakan bahwa kelompok B lebih baik karena memiliki nilai tertinggi.
+
+Evaluasi yang paling tepat adalah ....","[""Benar, karena nilai tertinggi menentukan kualitas seluruh kelompok."", ""Benar, karena kelompok B memiliki jangkauan lebih besar."", ""Tidak tepat, karena perbandingan perlu mempertimbangkan ukuran pemusatan dan penyebaran, bukan hanya nilai tertinggi."", ""Tidak tepat, karena nilai tertinggi tidak boleh digunakan dalam analisis data.""]",C,1
+mcma-22-4-6,MCMA,C4,"Perhatikan dua kelompok data berikut.
+
+Kelompok A: 60, 70, 80, 90, 100
+
+Kelompok B: 70, 75, 80, 85, 90
+
+Pernyataan yang benar adalah ....","[""Rerata kedua kelompok sama."", ""Median kedua kelompok sama."", ""Jangkauan kelompok A lebih besar daripada kelompok B."", ""Kelompok B memiliki rerata lebih tinggi daripada kelompok A."", ""Kelompok A memiliki penyebaran lebih kecil berdasarkan jangkauan.""]","A,B,C",1
+mcma-22-4-7,MCMA,C4,"Dua kelompok siswa memperoleh data berikut.
+
+Kelompok P: 5, 5, 5, 5, 5
+
+Kelompok Q: 3, 4, 5, 6, 7
+
+Pilih semua pernyataan yang benar.","[""Rerata kedua kelompok sama."", ""Median kedua kelompok sama."", ""Jangkauan kelompok P lebih besar daripada kelompok Q."", ""Kelompok P memiliki penyebaran nol berdasarkan jangkauan."", ""Modus kelompok Q adalah 5.""]","A,B,D,E",1
+mcma-22-4-8,MCMA,C5,"Data waktu belajar dua kelompok siswa adalah sebagai berikut.
+
+Kelompok A: 1, 2, 3, 4, 5 jam
+
+Kelompok B: 1, 2, 3, 4, 10 jam
+
+Pernyataan yang tepat adalah ....","[""Kelompok B memiliki rerata lebih tinggi daripada kelompok A."", ""Median kedua kelompok sama."", ""Jangkauan kelompok B lebih besar daripada kelompok A."", ""Kelompok A memiliki rerata 3 jam."", ""Kelompok B pasti memiliki hasil belajar lebih baik karena waktu belajarnya lebih tinggi.""]","A,B,C,D",1
+kategori-22-4-9,KATEGORI,C4,"Dua kelompok memiliki data berikut.
+
+Kelompok A: 10, 15, 20, 25, 30
+
+Kelompok B: 15, 18, 20, 22, 25","[""Median kedua kelompok sama."", ""Rerata kelompok A lebih tinggi daripada kelompok B."", ""Jangkauan kelompok A lebih besar daripada kelompok B."", ""Kedua kelompok memiliki modus tunggal.""]","1,2,3",1
+kategori-22-4-10,KATEGORI,C5,"Dua kelompok memiliki nilai berikut.
+
+Kelompok P: 70, 75, 80, 85, 90
+
+Kelompok Q: 60, 80, 80, 80, 100
+
+Tentukan kategori yang tepat.","[""Kedua kelompok memiliki rerata yang sama."", ""Kedua kelompok memiliki median yang sama."", ""Kelompok Q memiliki jangkauan lebih kecil daripada kelompok P."", ""Kelompok P memiliki penyebaran lebih kecil berdasarkan jangkauan.""]","1,2,4",1
+pg-22-5-1,PG,C5,"Dua kelompok memiliki hasil tes berikut.
+
+Kelompok A: 70, 75, 80, 85, 90
+
+Kelompok B: 60, 70, 80, 90, 100
+
+Jika guru ingin menentukan kelompok dengan hasil yang lebih konsisten berdasarkan jangkauan, pilihan yang tepat adalah ....","[""Kelompok A, karena jangkauannya lebih kecil."", ""Kelompok B, karena nilai tertingginya lebih besar."", ""Kedua kelompok sama konsisten karena mediannya sama."", ""Kelompok B, karena memiliki nilai yang lebih beragam.""]",A,1
+pg-22-5-2,PG,C5,"Data pendapatan harian dua kelompok pekerja dalam ribuan rupiah adalah sebagai berikut.
+
+Kelompok A: 100, 110, 120, 130, 140
+
+Kelompok B: 80, 100, 120, 140, 160
+
+Kesimpulan yang paling tepat adalah ....","[""Kelompok A dan B memiliki rerata sama, tetapi kelompok B memiliki jangkauan lebih besar."", ""Kelompok A memiliki rerata lebih besar daripada kelompok B."", ""Kelompok B memiliki median lebih tinggi daripada kelompok A."", ""Kelompok A dan B memiliki jangkauan sama.""]",A,1
+pg-22-5-3,PG,C5,"Seorang guru membandingkan hasil ulangan dua kelas.
+
+Kelas X: 60, 70, 80, 90, 100
+
+Kelas Y: 75, 78, 80, 82, 85
+
+Guru menyatakan bahwa kelas X lebih unggul karena memiliki nilai tertinggi 100.
+
+Evaluasi yang tepat adalah ....","[""Benar, karena nilai tertinggi menentukan hasil keseluruhan kelas."", ""Benar, karena kelas X mempunyai jangkauan lebih besar."", ""Tidak tepat, karena kelas Y memiliki nilai yang lebih terkonsentrasi di sekitar pusat data meskipun nilai tertingginya lebih rendah."", ""Tidak tepat, karena nilai tertinggi harus dihapus sebelum dianalisis.""]",C,1
+pg-22-5-4,PG,C5,"Dua kelompok siswa memiliki nilai berikut.
+
+Kelompok P: 65, 70, 75, 80, 85
+
+Kelompok Q: 55, 70, 75, 80, 95
+
+Seorang siswa menyatakan bahwa kelompok Q lebih baik karena nilai tertingginya lebih tinggi.
+
+Penilaian paling tepat adalah ....","[""Benar, karena nilai tertinggi kelompok Q adalah 95."", ""Benar, karena kelompok Q mempunyai jangkauan lebih besar."", ""Belum cukup tepat, karena kedua kelompok memiliki median yang sama dan perbandingan perlu mempertimbangkan ukuran pemusatan serta penyebaran."", ""Salah, karena kelompok P memiliki median lebih tinggi daripada kelompok Q.""]",C,1
+pg-22-5-5,PG,C5,"Dua kelompok memiliki data waktu menyelesaikan latihan dalam menit.
+
+Kelompok A: 12, 14, 15, 16, 18
+
+Kelompok B: 8, 12, 15, 18, 22
+
+Jika waktu yang lebih konsisten ditunjukkan oleh jangkauan yang lebih kecil, keputusan yang tepat adalah ....","[""Kelompok A, karena jangkauannya 6 menit."", ""Kelompok B, karena jangkauannya 14 menit."", ""Kedua kelompok sama konsisten karena mediannya sama."", ""Kelompok B, karena nilai terendahnya lebih kecil.""]",A,1
+mcma-22-5-6,MCMA,C5,"Dua kelompok memiliki nilai berikut.
+
+Kelompok A: 70, 75, 80, 85, 90
+
+Kelompok B: 60, 80, 80, 80, 100
+
+Pernyataan yang benar adalah ....","[""Rerata kedua kelompok sama."", ""Median kedua kelompok sama."", ""Jangkauan kelompok A lebih besar daripada kelompok B."", ""Kelompok B memiliki modus 80."", ""Kelompok A memiliki penyebaran lebih besar berdasarkan jangkauan.""]","A,B,D",1
+mcma-22-5-7,MCMA,C5,"Perhatikan data berikut.
+
+Kelompok P: 50, 60, 70, 80, 90
+
+Kelompok Q: 65, 70, 70, 75, 70
+
+Pilih semua pernyataan yang benar.","[""Rerata kelompok P lebih tinggi daripada kelompok Q."", ""Median kelompok P lebih tinggi daripada kelompok Q."", ""Jangkauan kelompok P lebih besar daripada kelompok Q."", ""Modus kelompok Q adalah 70."", ""Kelompok Q memiliki jangkauan 25.""]","C,D",1
+mcma-22-5-8,MCMA,C5,"Dua kelompok memiliki data berikut.
+
+Kelompok A: 10, 20, 30, 40, 50
+
+Kelompok B: 20, 25, 30, 35, 40
+
+Pilih semua pernyataan yang benar.","[""Rerata kedua kelompok sama."", ""Median kedua kelompok sama."", ""Kelompok A memiliki jangkauan lebih besar daripada kelompok B."", ""Kelompok B memiliki modus tunggal 30."", ""Kelompok A dan B memiliki penyebaran yang sama berdasarkan jangkauan.""]","A,B,C",1
+kategori-22-5-9,KATEGORI,C5,"Dua kelompok memiliki data nilai berikut.
+
+Kelompok A: 60, 70, 80, 90, 100
+
+Kelompok B: 70, 75, 80, 85, 90","[""Rerata kedua kelompok sama."", ""Median kedua kelompok sama."", ""Jangkauan kelompok A lebih besar daripada kelompok B."", ""Kelompok B memiliki jangkauan 40.""]","1,2,3",1
+kategori-22-5-10,KATEGORI,C5,"Dua kelompok memiliki data waktu belajar harian dalam jam.
+
+Kelompok P: 1, 2, 3, 4, 5
+
+Kelompok Q: 2, 2, 3, 3, 5
+
+Tentukan kategori yang tepat.","[""Rerata kelompok P lebih tinggi daripada kelompok Q."", ""Median kedua kelompok sama."", ""Jangkauan kelompok P lebih besar daripada kelompok Q."", ""Kelompok Q memiliki dua modus, yaitu 2 dan 3.""]","2,3,4",1
+pg-23-4-1,PG,C4,Sebuah dadu bersisi enam dilempar sebanyak 120 kali. Angka 4 muncul sebanyak 18 kali. Frekuensi relatif munculnya angka 4 adalah ....,"[""0,12"", ""0,15"", ""0,18"", ""0,20"", ""0,25""]",B,1
+pg-23-4-2,PG,C4,"Sebuah koin dilempar sebanyak 200 kali. Sisi gambar muncul 108 kali. Berdasarkan percobaan tersebut, frekuensi relatif munculnya sisi angka adalah ....","[""0,36"", ""0,42"", ""0,46"", ""0,54"", ""0,60""]",C,1
+pg-23-4-3,PG,C4,"Sebuah kantong berisi bola merah, biru, dan kuning. Satu bola diambil secara acak dan dikembalikan setiap kali pengambilan. Dalam 80 percobaan, bola merah terambil 28 kali. Kesimpulan yang tepat adalah ....","[""Peluang teoretis bola merah pasti 0,35."", ""Frekuensi relatif bola merah adalah 0,28."", ""Frekuensi relatif bola merah adalah 0,35."", ""Peluang bola merah tidak dapat diperkirakan melalui percobaan."", ""Bola merah pasti terambil sebanyak 35 kali dalam 100 percobaan berikutnya.""]",C,1
+pg-23-4-4,PG,C4,Sebuah dadu dilempar 150 kali. Frekuensi munculnya angka ganjil adalah 81 kali. Frekuensi relatif munculnya angka genap berdasarkan percobaan tersebut adalah ....,"[""0,36"", ""0,40"", ""0,46"", ""0,54"", ""0,60""]",C,1
+pg-23-4-5,PG,C5,"Dalam sebuah percobaan, sebuah koin dilempar 40 kali dan sisi gambar muncul 26 kali. Seorang siswa menyatakan bahwa peluang teoretis munculnya gambar adalah 0,65. Penilaian yang paling tepat terhadap pernyataan tersebut adalah ....","[""Benar, karena frekuensi relatif selalu sama dengan peluang teoretis."", ""Benar, karena gambar muncul lebih dari setengah percobaan."", ""Salah, karena peluang teoretis munculnya gambar pada koin seimbang adalah 0,5."", ""Salah, karena peluang teoretis munculnya gambar adalah 1."", ""Tidak dapat dihitung frekuensi relatifnya.""]",C,1
+mcma-23-4-6,MCMA,C4,"Sebuah dadu dilempar sebanyak 100 kali. Hasil percobaan menunjukkan angka 1 muncul 14 kali, angka 2 muncul 18 kali, angka 3 muncul 16 kali, angka 4 muncul 20 kali, angka 5 muncul 17 kali, dan angka 6 muncul 15 kali.
+
+Pilih semua pernyataan yang benar.","[""Frekuensi relatif munculnya angka 1 adalah 0,14."", ""Frekuensi relatif munculnya angka 4 adalah 0,20."", ""Frekuensi relatif munculnya angka 6 adalah 0,15."", ""Frekuensi relatif munculnya angka 2 adalah 0,20."", ""Jumlah seluruh frekuensi relatif adalah 1,5.""]","A,B,C",1
+mcma-23-4-7,MCMA,C4,Sebuah koin dilempar 60 kali. Sisi angka muncul 32 kali dan sisi gambar muncul 28 kali. Pernyataan yang benar adalah ....,"[""Frekuensi relatif sisi angka adalah 0,53̅."", ""Frekuensi relatif sisi gambar adalah 0,47."", ""Jumlah kedua frekuensi relatif adalah 1."", ""Peluang teoretis sisi angka pada koin seimbang adalah 32/60."", ""Frekuensi relatif sisi gambar lebih besar daripada sisi angka.""]","A,B,C",1
+mcma-23-4-8,MCMA,C5,"Dua siswa melakukan percobaan melempar dadu seimbang. Siswa A melempar 30 kali dan mendapatkan angka 6 sebanyak 8 kali. Siswa B melempar 120 kali dan mendapatkan angka 6 sebanyak 19 kali.
+
+Pilih semua pernyataan yang benar.","[""Frekuensi relatif angka 6 pada percobaan siswa A adalah sekitar 0,267."", ""Frekuensi relatif angka 6 pada percobaan siswa B adalah sekitar 0,158."", ""Frekuensi relatif siswa A lebih dekat dengan peluang teoretis 1/6 daripada siswa B."", ""Peluang teoretis munculnya angka 6 adalah 1/6."", ""Hasil percobaan membuktikan bahwa peluang angka 6 pada dadu adalah 8/30.""]","A,B,D",1
+kategori-23-4-9,KATEGORI,C4,"Sebuah dadu dilempar sebanyak 50 kali. Angka 1 muncul 7 kali, angka 2 muncul 9 kali, angka 3 muncul 8 kali, angka 4 muncul 10 kali, angka 5 muncul 6 kali, dan angka 6 muncul 10 kali.
+
+Tentukan kategori Benar atau Salah untuk setiap pernyataan.","[""Frekuensi relatif angka 1 adalah 0,14."", ""Frekuensi relatif angka 4 adalah 0,25."", ""Frekuensi relatif angka 5 adalah 0,12."", ""Frekuensi relatif angka 2 lebih besar daripada angka 3.""]","1,3,4",1
+kategori-23-4-10,KATEGORI,C5,"Sebuah koin seimbang dilempar 100 kali. Sisi gambar muncul sebanyak 57 kali.
+
+Tentukan kategori Benar atau Salah untuk setiap pernyataan.","[""Frekuensi relatif sisi gambar adalah 0,57."", ""Frekuensi relatif sisi angka adalah 0,43."", ""Peluang teoretis sisi gambar adalah 0,57."", ""Selisih frekuensi kemunculan gambar dan angka adalah 14.""]","1,2,4",1
+pg-23-5-1,PG,C5,"Sebuah dadu dilempar sebanyak 240 kali. Angka 5 muncul sebanyak 44 kali. Seorang siswa menyatakan bahwa frekuensi relatif angka 5 adalah 0,20. Evaluasi yang tepat adalah ....","[""Benar, karena 44 ÷ 240 = 0,20."", ""Salah, karena frekuensi relatifnya sekitar 0,183."", ""Salah, karena peluang teoretis angka 5 adalah 0,20."", ""Benar, karena angka 5 muncul kurang dari 50 kali."", ""Tidak dapat ditentukan tanpa mengetahui hasil lemparan lainnya.""]",B,1
+pg-23-5-2,PG,C5,"Dalam 200 kali pengambilan dengan pengembalian dari sebuah kantong, bola merah terambil 72 kali. Seorang siswa menyimpulkan bahwa peluang teoretis bola merah adalah 0,36. Pernyataan yang paling tepat adalah ....","[""Kesimpulan pasti benar karena percobaan dilakukan 200 kali."", ""Kesimpulan pasti salah karena frekuensi relatif tidak berguna."", ""Nilai 0,36 adalah frekuensi relatif hasil percobaan, tetapi belum tentu sama dengan peluang teoretis."", ""Peluang teoretis bola merah selalu 0,5."", ""Peluang teoretis bola merah adalah 72.""]",C,1
+pg-23-5-3,PG,C5,Sebuah koin dilempar dua kali. Peluang teoretis muncul tepat satu sisi gambar adalah ....,"[""1/4"", ""1/3"", ""1/2"", ""3/4"", ""1""]",C,1
+pg-23-5-4,PG,C5,"Sebuah dadu dilempar sebanyak 300 kali. Angka genap muncul 162 kali. Seorang siswa menyatakan bahwa hasil tersebut membuktikan peluang teoretis angka genap adalah 0,54. Penilaian yang paling tepat adalah ....","[""Benar, karena frekuensi relatif selalu menjadi peluang teoretis."", ""Benar, karena angka genap muncul lebih dari setengah percobaan."", ""Salah, karena peluang teoretis munculnya angka genap pada dadu seimbang adalah 0,5."", ""Salah, karena peluang angka genap adalah 1/6."", ""Tidak dapat menghitung frekuensi relatif dari data tersebut.""]",C,1
+pg-23-5-5,PG,C5,Dua percobaan dilakukan menggunakan dadu seimbang. Percobaan I dilakukan 24 kali dan angka 3 muncul 8 kali. Percobaan II dilakukan 120 kali dan angka 3 muncul 25 kali. Kesimpulan yang paling tepat adalah ....,"[""Percobaan I memiliki frekuensi relatif lebih dekat dengan peluang teoretis 1/6."", ""Percobaan II memiliki frekuensi relatif lebih dekat dengan peluang teoretis 1/6."", ""Kedua percobaan memiliki frekuensi relatif yang sama."", ""Peluang teoretis angka 3 berubah karena jumlah percobaan berbeda."", ""Percobaan I membuktikan bahwa peluang angka 3 adalah 1/3.""]",B,1
+mcma-23-5-6,MCMA,C5,"Sebuah dadu dilempar 180 kali. Angka 1 muncul 25 kali, angka 2 muncul 29 kali, angka 3 muncul 31 kali, angka 4 muncul 32 kali, angka 5 muncul 30 kali, dan angka 6 muncul 33 kali.
+
+Pilih semua pernyataan yang benar.","[""Frekuensi relatif angka 1 adalah 25/180."", ""Frekuensi relatif angka 4 adalah sekitar 0,178."", ""Frekuensi relatif angka 6 adalah sekitar 0,183."", ""Frekuensi relatif angka 3 lebih besar daripada angka 5."", ""Jumlah seluruh frekuensi relatif adalah 6.""]","A,B,C,D",1
+mcma-23-5-7,MCMA,C5,"Sebuah koin dilempar sebanyak 80 kali. Sisi gambar muncul 46 kali dan sisi angka muncul 34 kali.
+
+Pilih semua pernyataan yang benar.","[""Frekuensi relatif gambar adalah 0,575."", ""Frekuensi relatif angka adalah 0,425."", ""Jumlah frekuensi relatif kedua sisi adalah 1."", ""Peluang teoretis sisi gambar adalah 0,575."", ""Frekuensi relatif angka lebih besar daripada gambar.""]","A,B,C",1
+mcma-23-5-8,MCMA,C5,"Sebuah kantong berisi 4 bola merah dan 6 bola biru. Satu bola diambil, dicatat warnanya, lalu dikembalikan. Percobaan dilakukan sebanyak 100 kali dan bola merah muncul 38 kali.
+
+Pilih semua pernyataan yang benar.","[""Peluang teoretis terambil bola merah adalah 0,4."", ""Frekuensi relatif bola merah adalah 0,38."", ""Frekuensi relatif bola biru adalah 0,62."", ""Hasil percobaan membuktikan peluang teoretis bola merah tepat 0,38."", ""Frekuensi relatif bola merah pasti menjadi 0,4 pada percobaan berikutnya.""]","A,B,C",1
+kategori-23-5-9,KATEGORI,C5,"Sebuah dadu seimbang dilempar 120 kali. Angka 1 atau 2 muncul sebanyak 39 kali.
+
+Tentukan kategori Benar atau Salah untuk setiap pernyataan.","[""Peluang teoretis muncul angka 1 atau 2 adalah 1/3."", ""Frekuensi relatif muncul angka 1 atau 2 adalah 0,325."", ""Frekuensi relatif hasil percobaan sama persis dengan peluang teoretis."", ""Frekuensi relatif hasil percobaan lebih kecil daripada peluang teoretis.""]","1,2,4",1
+kategori-23-5-10,KATEGORI,C5,"Sebuah koin seimbang dilempar 200 kali. Sisi angka muncul 96 kali.
+
+Tentukan kategori Benar atau Salah untuk setiap pernyataan.","[""Frekuensi relatif sisi angka adalah 0,48."", ""Frekuensi relatif sisi gambar adalah 0,52."", ""Peluang teoretis sisi angka adalah 0,48."", ""Selisih frekuensi relatif sisi angka dan peluang teoretisnya adalah 0,02.""]","1,2,4",1

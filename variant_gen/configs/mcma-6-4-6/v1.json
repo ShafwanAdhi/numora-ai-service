@@ -1,0 +1,93 @@
+{
+  "question_id": "mcma-6-4-6",
+  "config_version": 1,
+  "original_hash": "b2fc53f10f0072e7",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'500' if k == 0 else (500+100*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else (4*4*(500+100*k)/100)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'900' if k == 0 else (2*6*3*((500+100*k)/100)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'400' if k == 0 else ((4*(500+100*k)/100)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(500+100*k)/100",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "16*(500+100*k)/100",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "16*((500+100*k)/100)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "18*((500+100*k)/100)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah denah tempat wisata digambar dengan skala $1:{v0}$. Pada denah tersebut, terdapat dua kolam renang: Kolam A berbentuk persegi dengan panjang sisi $4cm$, dan Kolam B berbentuk persegi panjang berukuran $6cm×3cm$. Manakah pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Keliling sebenarnya dari Kolam A adalah ${v1}meter$.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Luas sebenarnya dari Kolam B adalah ${v2}meterpersegi$.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Perbandingan keliling Kolam A dan Kolam B pada peta sama dengan perbandingan keliling sebenarnya.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Luas sebenarnya Kolam A adalah ${v3}meterpersegi$.",
+      "correct": true
+    }
+  ],
+  "explanation": "Faktor panjang ke meter = {v4}. Keliling A = {v5} meter; luas A = {v6} meter persegi. Luas B = {v7} meter persegi, setengah klaim B. Rasio keliling tetap 16:18 = 8:9 karena semua panjang dikali faktor sama. A, C, D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

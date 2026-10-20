@@ -1,0 +1,172 @@
+id,format,cognitive_level,stem,options_json,key,version
+pg-1-4-2,PG,C4,"Seorang siswa menganalisis jenis dua buah bilangan real $x$ dan $y$ yang diperoleh dari hasil pengukuran konstanta fisika sederhana di laboratorium:
+$x=\sqrt{20}-\sqrt{5}$
+$y=0,272727...$ (desimal berulang)
+Hasil analisis yang pasti benar mengenai jenis kedua bilangan tersebut adalah ....","[""Nilai $x$ dan $y$ keduanya merupakan bilangan irasional"", ""Nilai $x$ dan $y$ keduanya merupakan bilangan rasional"", ""Nilai $x$ adalah irasional dan $y$ adalah rasional"", ""Nilai $x$ adalah rasional dan $y$ adalah irasional""]",C,1
+pg-1-4-3,PG,C4,"Pengurus OSIS menyusun anggaran pembelian $18$ set perlengkapan olahraga. Setiap set terdiri dari $1$ buah bola seharga Rp20.000,00 dan $1$ buah pompa portable seharga Rp2.500,00.
+Panitia menyederhanakan bentuk perhitungan total biaya dengan memanfaatkan Sifat Distributif perkalian terhadap penjumlahan. Bentuk penyederhanaan yang tepat adalah ....","[""$18×(20.000+2.500)$"", ""$(18+20.000)×(18+2.500)$"", ""$18×(20.000×2.500)$"", ""$(18×20.000)+2.500$""]",A,1
+mcma-1-4-6,MCMA,C4,"Diberikan empat buah bilangan real hasil pengukuran sampel lingkungan:
+$\left\{-4;\sqrt{16};\frac{15}{4};π\right\}$
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""$-4$ merupakan bilangan bulat negatif yang juga tergolong bilangan rasional."", ""$\\sqrt{16}$ merupakan bilangan irasional karena menggunakan tanda akar."", ""$\\frac{15}{4}$ dapat dinyatakan dalam bentuk desimal berhenti $3,75$ (bilangan rasional)."", ""$π$ tergolong bilangan irasional karena memiliki desimal tak berulang dan tak berakhir.""]","A,C,D",1
+kategori-1-4-9,KATEGORI,C4,"Tiga sampel larutan kimia diukur suhu pembekuannya (dalam $^\circ\text{C}$):
+Larutan A:$ -1,75$°C
+Larutan B:$-\frac{9}{5}°C$
+Larutan C: $-\sqrt{3}$°C
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Suhu pembekuan Larutan B ($-\\frac{9}{5}°C$) jika diubah ke desimal adalah $ -1,80$°C."", ""Larutan A ($ -1,75$°C) memiliki suhu pembekuan yang lebih dingin daripada Larutan B ($ -1,80$°C)."", ""Urutan larutan dari yang memiliki suhu paling dingin ke paling hangat adalah Larutan B, Larutan A, Larutan C.""]","1,3",1
+pg-1-5-1,PG,C5,"Tiga orang siswa mengevaluasi hasil pengukuran elevasi dasar saluran air di area kebun sekolah terhadap permukaan tanah netral ($0 m$):
+Saluran P: $-1,95 m$
+Saluran Q: $-\sqrt{3 }m$
+Saluran R: $-\frac{9}{5} m$
+Ketiga siswa memberikan laporan evaluasi urutan kedalaman saluran dari yang paling dalam (paling kecil/paling kiri di garis bilangan) ke yang paling dangkal (paling besar):
+Evaluasi I: Saluran Q ($-\sqrt{3} m$), Saluran R ($-\frac{9}{5} m$), Saluran P ($-1,95 m$)
+Evaluasi II: Saluran P ($-1,95 m$), Saluran R ($-\frac{9}{5} m$), Saluran Q ($-\sqrt{3 }m$)
+Evaluasi III: Saluran R ($-\frac{9}{5} m$), Saluran Q ($-\sqrt{3} m$), Saluran P ($-1,95 m$)
+Evaluasi IV: Saluran P ($-1,95 m$), Saluran Q ($-\sqrt{3 }m$), Saluran R ($-\frac{9}{5} m$)
+Hasil evaluasi manakah yang pasti benar secara matematis?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi IV""]",B,1
+mcma-1-5-6,MCMA,C5,"Diberikan empat buah nilai hasil pengamatan fisik lingkungan sekolah:
+$\left\{-6;\sqrt{25};\frac{22}{7};\sqrt{2}\right\}$
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""$-6$ tergolong bilangan bulat negatif yang merupakan bagian dari bilangan rasional."", ""$\\sqrt{25}$ tergolong bilangan irasional karena dituliskan dalam bentuk akar."", ""$\\frac{22}{7}$ tergolong bilangan rasional karena berbentuk pecahan biasa $(a)/(b)$."", ""$\\sqrt{2}$ tergolong bilangan irasional karena bentuk desimalnya tak berulang dan tak berakhir ($≈1,41421...$).""]","A,C,D",1
+kategori-1-5-9,KATEGORI,C5,"Tiga buah sampel bahan masakan laboratorium diukur posisinya pada skala perubahan suhu penyajian (dalam °C):
+Sampel 1: $ -2,25$°C.
+Sampel 2: $-\frac{9}{4}$°C
+Sampel 3: $-\sqrt{5}$°C
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Sampel 1 ($ -2,25$°C) dan Sampel 2 ($-\\frac{9}{4}$°C) berada pada titik suhu yang persis sama."", ""Sampel 3 ($-\\sqrt{5 }$ $≈ -2,236$°C) memiliki suhu yang lebih dingin (lebih kecil) daripada Sampel 1 ($ -2,25$°C)."", ""Urutan sampel dari yang paling dingin ke paling hangat adalah Sampel 1, Sampel 2 (sejajar), lalu Sampel 3.""]","1,3",1
+pg-2-4-4,PG,C5,"Dua orang siswa memberikan evaluasi terhadap hasil pengerjaan soal operasi campuran bilangan desimal dan pecahan untuk keperluan pembagian pita ekstrakurikuler:
+$Soal:4,5:0,5+2×0,25$
+Evaluasi I: ""Hasil yang benar adalah $9,5$, karena pembagian dan perkalian dikerjakan terlebih dahulu: $(4,5:0,5)+(2×0,25)=9+0,5=9,5$.""
+Evaluasi II: ""Hasil yang benar adalah $2,75$, karena dikerjakan berurutan dari kiri ke kanan: $(4,5:0,5+2)×0,25=(9+2)×0,25=11×0,25=2,75$.""
+Evaluasi manakah yang benar berdasarkan aturan hirarki operasi hitung (PEMDAS/KABATAKU)?","[""Evaluasi I, karena operasi pembagian dan perkalian memiliki prioritas lebih tinggi daripada penjumlahan"", ""Evaluasi II, karena semua operasi berderajat sama sehingga harus dikerjakan dari kiri ke kanan"", ""Kedua evaluasi salah, karena hasil akhirnya harus berupa bilangan bulat 10"", ""Evaluasi II, karena penjumlahan di dalam urutan posisi harus diutamakan""]",A,1
+mcma-2-4-6,MCMA,C4,"Diberikan sebuah ekspresi operasi bentuk akar hasil pengukuran luas penampang kisi-kisi ventilasi sekolah:
+$Ekspresi:2\sqrt{48}-\sqrt{75}+\sqrt{12}$
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Bentuk sederhana dari $2\\sqrt{48}$ adalah $8\\sqrt{3}$."", ""Bentuk sederhana dari $\\sqrt{75}$ adalah $3\\sqrt{5}$."", ""Bentuk sederhana dari $\\sqrt{12}$ adalah $2\\sqrt{3}$."", ""Hasil akhir penyederhanaan ekspresi tersebut adalah $5\\sqrt{3}$.""]","A,C,D",1
+mcma-2-4-8,MCMA,C5,"Seorang siswa mengevaluasi kebenaran pengerjaan transaksi belanja kelompok prakarya berikut: ""Membeli 4 gulung pita seharga Rp12.500,00 per gulung dan 6 lembar kertas karton seharga Rp3.500,00 per lembar, lalu mendapat potongan diskon total sebesar Rp5.000,00.""
+Dua bentuk model perhitungan dievaluasi:
+Model 1: $(4×12.500)+(6×3.500)-5.000=50.000+21.000-5.000=66.000$
+Model 2: $4×(12.500+6)×3.500-5.000=4×12.506×3.500-5.000=175.079.000$
+Manakah hasil evaluasi pernyataan yang benar? (Jawaban benar dapat lebih dari satu)","[""Model 2 adalah penulisan kalimat matematika yang benar."", ""Model 1 adalah penulisan kalimat matematika yang benar sesuai dengan urutan transaksi dan kaidah KABATAKU."", ""Total biaya akhir yang harus dibayar kelompok tersebut adalah Rp66.000,00."", ""Total biaya akhir yang harus dibayar kelompok tersebut adalah Rp71.000,00.""]","B,C",1
+pg-2-5-1,PG,C5,"Seorang bendahara OSIS mengevaluasi laporan pencatatan keuangan pembekalan LDKS dengan perincian transaksi sebagai berikut:
+Uang awal di kas: Rp1.500.000,00
+Pembelian 20 pak buku panduan seharga Rp22.500,00 per pak
+Penerimaan dana pendaftaran dari peserta sebesar Rp800.000,00
+Pembayaran konsumsi narasumber sebesar Rp450.000,00
+Dua siswa memberikan laporan evaluasi bentuk kalimat matematika untuk menghitung sisa saldo kas:
+Evaluasi I: $(1.500.000-20)×22.500+800.000-450.000=33.749.900.000$
+Evaluasi II: $1.500.000-(20×22.500)+800.000-450.000=1.400.000$
+Evaluasi III: $1.500.000-20×(22.500+800.000)-450.000=-15.400.000$
+Evaluasi IV: $1.500.000+(20×22.500)-800.000-450.000=700.000$
+Hasil evaluasi manakah yang pasti benar secara konsep prioritas operasi KABATAKU/PEMDAS dan logika keuangan?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi IV""]",B,1
+pg-2-5-2,PG,C5,"Dua siswa mengevaluasi hasil penyederhanaan total panjang dua batang pipa penyangga antena radio sekolah yang dinyatakan dalam bentuk akar berikut:
+$Panjang Pipa=\sqrt{98}+\sqrt{50}-\sqrt{32 }(dalam meter)$
+Evaluasi X: ""Hasil akhirnya adalah $\sqrt{116 }m$, karena dijumlahkan langsung: $\sqrt{98+50-32}=\sqrt{116}$.""
+Evaluasi Y: ""Hasil akhirnya adalah $8\sqrt{2 }m$, karena diuraikan menjadi $7\sqrt{2}+5\sqrt{2}-4\sqrt{2}=8\sqrt{2}$.""
+Manakah evaluasi yang benar berdasarkan kaidah penyederhanaan bentuk akar?","[""Evaluasi X, karena penjumlahan dan pengurangan di dalam akar bersifat distributif"", ""Evaluasi X, karena $\\sqrt{116}$ tidak dapat disederhanakan lagi"", ""Evaluasi Y, karena suku-suku bentuk akar hanya dapat dijumlahkan/dikurangkan jika memiliki radikan (angka dalam akar) yang sejenis"", ""Kedua evaluasi salah, karena hasil akhirnya adalah $18\\sqrt{2} m$""]",C,1
+mcma-2-5-6,MCMA,C5,"Diberikan sebuah ekspresi operasi bentuk akar hasil pengukuran luas bingkai foto pahlawan di ruang guru:
+$Ekspresi:3\sqrt{32}-\sqrt{50}+\sqrt{18}$
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Bentuk sederhana dari $3\\sqrt{32}$ adalah $12\\sqrt{2}$\"" adalah BENAR."", ""Pernyataan \""Bentuk sederhana dari $\\sqrt{50}$ adalah $2\\sqrt{5}$\"" adalah BENAR."", ""Pernyataan \""Bentuk sederhana dari $\\sqrt{18}$ adalah $3\\sqrt{2}$\"" adalah BENAR."", ""Pernyataan \""Hasil akhir penyederhanaan seluruh ekspresi adalah $10\\sqrt{2}$\"" adalah BENAR.""]","A,C,D",1
+mcma-2-5-8,MCMA,C5,"Seorang siswa mengevaluasi laporan belanja perlengkapan modul kelas berikut: ""Membeli 5 buah penggaris seharga Rp8.000,00 per buah dan 4 buah jangka seharga Rp15.000,00 per buah, serta mendapat cashback potongan harga sebesar Rp10.000,00.""
+Dua bentuk model perhitungan dievaluasi:
+Model I: $(5×8.000)+(4×15.000)-10.000=40.000+60.000-10.000=90.000$
+Model II: $5×(8.000+4)×15.000-10.000=5×8.004×15.000-10.000=600.290.000$
+Manakah hasil evaluasi pernyataan yang benar? (Jawaban benar dapat lebih dari satu)","[""Model II adalah penulisan kalimat matematika yang benar."", ""Model I adalah penulisan kalimat matematika yang benar sesuai aturan KABATAKU dan urutan transaksi."", ""Total pengeluaran bersih akhir adalah Rp90.000,00."", ""Total pengeluaran bersih akhir adalah Rp100.000,00.""]","B,C",1
+pg-3-4-1,PG,C4,"Seorang pengurus perpustakaan sekolah mencatat data peminjaman buku selama satu tahun sebanyak 28.647 eksemplar. Pengurus tersebut diminta menganalisis hasil pembulatan data untuk dua jenis dokumen penyusunan laporan:
+Laporan Ringkas: Dibulatkan ke ribuan terdekat.
+Laporan Detail: Dibulatkan ke ratusan terdekat.
+Empat orang staf memberikan hasil analisis pembulatan sebagai berikut:
+Analisis I: Laporan Ringkas = $28.000$, Laporan Detail = $28.600$
+Analisis II: Laporan Ringkas = $29.000$, Laporan Detail = $28.600$
+Analisis III: Laporan Ringkas = $29.000$, Laporan Detail = $28.700$
+Analisis IV: Laporan Ringkas = $28.000$, Laporan Detail = $28.700$
+Hasil analisis siapakah yang pasti benar secara matematis?","[""Analisis I"", ""Analisis II"", ""Analisis III"", ""Analisis IV""]",B,1
+pg-3-4-2,PG,C4,"Dua buah kawat baja penyangga tiang bendera di lapangan sekolah diukur panjangnya secara tidak langsung:
+Kawat A: panjang $=\sqrt{58}meter$
+Kawat B: panjang $=\sqrt{59}meter$
+Seorang siswa menganalisis nilai aproksimasi panjang kedua kawat tersebut pada mistar dengan ketelitian persepuluhan meter ($0,1m$). Hasil analisis aproksimasi yang benar jika dibulatkan ke persepuluhan terdekat adalah ....","[""$7,5m$ dan $7,6m$"", ""$7,6m$ dan $7,6m$"", ""$7,6m$ dan $7,7m$"", ""$7,7m$ dan $7,8m$""]",C,1
+mcma-3-4-6,MCMA,C4,"Diberikan empat pernyataan analisis pembulatan dan aproksimasi bilangan real:
+(i) Hasil pembulatan $34,853$ ke satu tempat desimal (persepuluhan terdekat) adalah $34,9$.
+(ii) Nilai aproksimasi dari $\sqrt{27}$ ke persepuluhan terdekat adalah $5,4$.
+(iii) Nilai dari $\sqrt{60}$ berada di antara $7,7$ dan $7,8$.
+(iv) Hasil estimasi dari $396×204$ menggunakan pembulatan ke ratusan terdekat adalah $80.000$.
+Manakah pernyataan di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan (i)"", ""Pernyataan (ii)"", ""Pernyataan (iii)"", ""Pernyataan (iv)""]","A,C,D",1
+kategori-3-4-9,KATEGORI,C4,"Tiga bahan kimia kering di laboratorium ditimbang massanya:
+Bahan X: $5,46 gram$
+Bahan Y: $3,75 gram$
+Bahan Z: $1,24 gram$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis pembulatan berikut!","[""Massa Bahan X ($5,46 gram$) jika dibulatkan ke persepuluhan terdekat adalah $5,5 gram$."", ""Massa Bahan Y ($3,75gram$) jika dibulatkan ke satuan terdekat adalah $3 gram$."", ""Estimasi total massa ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah $10,5 gram$.""]","1,3",1
+pg-3-5-1,PG,C5,"Seorang pengurus perpustakaan sekolah mengevaluasi dua laporan hasil pembulatan data pengunjung bulanan sebanyak $19.482$ orang:
+Laporan A: Dibulatkan ke ribuan terdekat.
+Laporan B: Dibulatkan ke ratusan terdekat.
+Dua orang staf mengajukan lembar evaluasi hasil pembulatan:
+Evaluasi I: Laporan A = $20.000$ orang, Laporan B = $19.500$ orang
+Evaluasi II: Laporan A = $19.000$ orang, Laporan B = $19.500$ orang
+Evaluasi III: Laporan A = $19.000$ orang, Laporan B = $19.400$ orang
+Evaluasi IV: Laporan A = $20.000$ orang, Laporan B = $19.400$ orang
+Evaluasi manakah yang pasti benar secara aturan matematis?","[""Evaluasi I"", ""Evaluasi II"", ""Evaluasi III"", ""Evaluasi IV""]",B,1
+mcma-3-5-6,MCMA,C5,"Diberikan empat pernyataan evaluasi pembulatan dan aproksimasi bilangan real:
+(i) Hasil pembulatan $45,748$ ke satu tempat desimal (persepuluhan terdekat) adalah $45,7$.
+(ii) Nilai aproksimasi dari $\sqrt{30}$ ke persepuluhan terdekat adalah $5,8$.
+(iii) Nilai dari $\sqrt{50}$ berada di antara $7,0$ dan $7,1$.
+(iv) Hasil estimasi dari $497×302$ menggunakan pembulatan ke ratusan terdekat adalah $150.000$.
+Manakah pernyataan evaluasi di atas yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan (i)"", ""Pernyataan (ii)"", ""Pernyataan (iii)"", ""Pernyataan (iv)""]","A,C,D",1
+kategori-3-5-9,KATEGORI,C5,"Tiga bahan masakan di kantin sekolah ditimbang massanya:
+Bahan A: $6,46 gram$
+Bahan B: $4,75 gram$
+Bahan C: $1,24 gram$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi pembulatan berikut!","[""Massa Bahan A ($6,46 gram$) jika dibulatkan ke persepuluhan terdekat adalah $6,5 gram$."", ""Massa Bahan B ($4,75 gram$) jika dibulatkan ke satuan terdekat adalah $4gram$."", ""Estimasi total massa ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah $12,5 gram$.""]","1,3",1
+pg-4-4-1,PG,C4,"Tiga orang siswa memeriksa jadwal penyemprotan disinfektan untuk tiga area ruang di sekolah:
+Ruang Kelas: setiap 6 hari sekali
+Ruang Laboratorium: setiap 8 hari sekali
+Ruang Perpustakaan: setiap 12 hari sekali
+Jika penyemprotan bersamaan pertama dilakukan pada tanggal 2 Mei, siswa menganalisis tanggal berapa penyemprotan bersamaan untuk ketiga kalinya akan dilakukan:
+Analisis I: Penyemprotan ketiga terjadi 24 hari setelah 2 Mei, yaitu tanggal 26 Mei.
+Analisis II: Penyemprotan ketiga terjadi $2×24=48$ hari setelah 2 Mei, yaitu tanggal 19 Juni (mengingat bulan Mei memiliki 31 hari).
+Analisis III: Penyemprotan ketiga terjadi $2×24=48$ hari setelah 2 Mei, yaitu tanggal 18 Juni (menganggap bulan Mei memiliki 30 hari).
+Analisis IV: Penyemprotan ketiga terjadi 72 hari setelah 2 Mei, yaitu tanggal 13 Juli.
+Hasil analisis siapakah yang pasti benar?","[""Analisis I"", ""Analisis II"", ""Analisis III"", ""Analisis IV""]",B,1
+mcma-4-4-6,MCMA,C4,"Diberikan tiga buah bilangan asli: $45,60,$ dan $90$. Seorang siswa menganalisis hubungan faktorisasi prima, FPB, dan KPK dari ketiga bilangan tersebut.
+Manakah hasil analisis berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Faktorisasi prima dari $90$ adalah $2×{3}^{2}×5$."", ""FPB dari ketiga bilangan tersebut adalah 30."", ""FPB dari ketiga bilangan tersebut adalah 15."", ""KPK dari ketiga bilangan tersebut adalah 180.""]","A,C,D",1
+kategori-4-4-9,KATEGORI,C4,"Sebuah panitia kegiatan sekolah menyediakan $84$ kemasan minuman kotak dan $126$ kemasan makanan ringan. Seluruh konsumsi dikemas ke dalam beberapa kantong plastik dengan komposisi yang persis sama tanpa ada sisa.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Kantong plastik terbanyak yang dapat digunakan untuk mengemas seluruh konsumsi adalah $42$ kantong."", ""Banyaknya makanan ringan pada masing-masing kantong plastik adalah $2$ kemasan."", ""Total seluruh kemasan (minuman dan makanan) pada masing-masing kantong plastik adalah $5$ kemasan.""]","1,3",1
+pg-4-5-1,PG,C5,"Tiga buah sistem lampu otomatis di area taman sekolah menyala secara berkala:
+Lampu Merah: setiap 10 detik
+Lampu Kuning: setiap 15 detik
+Lampu Hijau: setiap 20 detik
+Ketiga lampu menyala bersamaan untuk pertama kalinya pada detik ke-0. Dua orang siswa mengevaluasi klaim waktu menyala bersama berikutnya:
+Evaluasi I: ""Ketiga lampu akan menyala bersamaan kembali untuk kedua kalinya pada detik ke-30.""
+Evaluasi II: ""Ketiga lampu akan menyala bersamaan kembali untuk kedua kalinya pada detik ke-60, karena $KPK(10,15,20)=60$.""
+Hasil evaluasi manakah yang pasti benar?","[""Evaluasi I, karena 30 adalah kelipatan dari 10 dan 15"", ""Evaluasi II, karena 60 merupakan kelipatan persekutuan terkecil dari 10, 15, dan 20"", ""Evaluasi I, karena 30 merupakan hasil kali $10+20$"", ""Evaluasi II, karena $10×15×20=3.000$""]",B,1
+mcma-4-5-6,MCMA,C5,"Diberikan tiga buah bilangan asli: $54,72,$ dan $90$. Seorang siswa menyusun evaluasi terhadap faktorisasi prima, FPB, dan KPK dari ketiga bilangan tersebut.
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Faktorisasi prima dari $54$ adalah $2×{3}^{3}$\"" adalah BENAR."", ""Pernyataan \""$FPB(54,72,90)=36$\"" adalah BENAR."", ""Pernyataan \""$FPB(54,72,90)=18$\"" adalah BENAR."", ""Pernyataan \""$KPK(54,72,90)=1.080$\"" adalah BENAR.""]","A,C,D",1
+kategori-4-5-10,KATEGORI,C5,"Dua kawat praktikum berukuran $105 cm$ dan $135 cm$ dipotong menjadi beberapa bagian sama panjang tanpa sisa. Seorang siswa mengevaluasi klaim hasil pemotongan kawat tersebut.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Ukuran potongan kawat terpanjang yang dapat dibuat adalah $15 cm$."", ""Jumlah seluruh potongan kawat yang diperoleh dari kedua kawat tersebut adalah $16$ potongan."", ""Jumlah potongan dari kawat $135 cm$ adalah dua kali lipat dari jumlah potongan kawat $105 cm$.""]","1,2",1
+pg-5-4-1,PG,C4,"Seorang pengurus OSIS menganalisis dua resep campuran sirup rasa buah untuk kegiatan jalan sehat sekolah:
+Campuran A: $15ml$ sirup dicampur dengan $45ml$ air mineral.
+Campuran B: $20ml$ sirup dicampur dengan $60ml$ air mineral.
+Dua siswa memberikan laporan analisis bentuk rasio paling sederhana antara volume sirup dan air mineral pada kedua campuran tersebut:
+Analisis I: Campuran A memiliki rasio $1:3$, sedangkan Campuran B memiliki rasio $1:4$, sehingga Campuran A lebih manis.
+Analisis II: Campuran A dan Campuran B keduanya memiliki rasio ekuivalen $1:3$, sehingga tingkat rasa manis kedua campuran tersebut persis sama.
+Analisis III: Campuran A memiliki rasio $15:45$ dan Campuran B memiliki rasio $20:60$, sehingga keduanya tidak ekuivalen.
+Analisis IV: Campuran B lebih manis karena volume sirupnya lebih banyak ($20ml>15ml$).
+Hasil analisis siapakah yang pasti benar secara matematis?","[""Analisis I"", ""Analisis II"", ""Analisis III"", ""Analisis IV""]",B,1
+mcma-5-4-6,MCMA,C4,"Dua buah kotak penyimpanan alat olahraga di sekolah dianalisis komposisi bola pelastik warna merah dan hijau:
+Kotak A: berisi $36$ bola merah dan $24$ bola hijau.
+Kotak B: berisi $54$ bola merah dan $36$ bola hijau.
+Manakah hasil analisis pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Rasio paling sederhana antara bola merah dan bola hijau pada Kotak A adalah $3:2$."", ""Rasio paling sederhana antara bola merah dan bola hijau pada Kotak B adalah $4:3$."", ""Komposisi bola merah dan hijau pada Kotak A ekuivalen (senilai) dengan Kotak B."", ""Rasio bola merah terhadap seluruh bola pada Kotak A adalah $3:5$.""]","A,C,D",1
+kategori-5-4-9,KATEGORI,C4,"Pengurus OSIS menganalisis dua harga paket kertas karton tebal untuk dekorasi:
+Paket X: berisi $30$ lembar seharga Rp21.000,00
+Paket Y: berisi $50$ lembar seharga Rp32.500,00
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis laju harga per lembar berikut!","[""Harga per lembar kertas pada Paket X adalah Rp700,00."", ""Harga per lembar kertas pada Paket Y adalah Rp700,00."", ""Paket Y menawarkan harga per lembar yang lebih murah dibandingkan Paket X.""]","1,3",1
+pg-5-5-1,PG,C5,"Seorang pengurus OSIS mengevaluasi dua alternatif resep racikan sirup manis untuk penyegaran peserta kegiatan bakti sosial sekolah:
+Racikan X: $16ml$ sirup pekat dilarutkan dalam $48 ml$ air mineral.
+Racikan Y: $25ml$ sirup pekat dilarutkan dalam $75 ml$ air mineral.
+Dua anggota panitia memberikan evaluasi terhadap tingkat kemanisan kedua racikan tersebut:
+Evaluasi A: ""Racikan Y lebih manis daripada Racikan X, karena volume sirup pekat yang digunakan pada Racikan Y lebih banyak ($25 ml>16 ml$).""
+Evaluasi B: ""Racikan X dan Racikan Y memiliki tingkat kemanisan yang persis sama, karena nilai rasio sederhana antara sirup pekat dan air pada kedua racikan tersebut sama-sama ekuivalen ($1:3$).""
+Manakah evaluasi yang pasti benar secara matematis?","[""Evaluasi A"", ""Evaluasi B"", ""Kedua evaluasi salah"", ""Racikan X lebih manis karena pembanding airnya lebih sedikit""]",B,1
+mcma-5-5-6,MCMA,C5,"Dua buah tempat penyimpanan perlengkapan prakarya sekolah dianalisis komposisi cat warna merah dan putih:
+Tempat I: memuat $45$ botol cat merah dan $30$ botol cat putih.
+Tempat II: memuat $60$ botol cat merah dan $40$ botol cat putih.
+Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)","[""Pernyataan \""Rasio paling sederhana antara cat merah dan cat putih di Tempat I adalah $3:2$\"" adalah BENAR."", ""Pernyataan \""Rasio paling sederhana antara cat merah dan cat putih di Tempat II adalah $4:3$\"" adalah BENAR."", ""Pernyataan \""Komposisi cat merah dan cat putih di Tempat I ekuivalen (senilai) dengan Tempat II\"" adalah BENAR."", ""Pernyataan \""Rasio cat merah terhadap seluruh cat di Tempat I adalah $3:5$\"" adalah BENAR.""]","A,C,D",1
+kategori-5-5-9,KATEGORI,C5,"Pengurus OSIS mengevaluasi dua pilihan paket kemasan minuman kotak untuk konsumsi pentas seni:
+Paket A: berisi $20$ kotak seharga Rp36.000,00
+Paket B: berisi $35$ kotak seharga Rp59.500,00
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi laju harga per kotak berikut!","[""Harga per kotak minuman pada Paket A adalah Rp1.800,00."", ""Harga per kotak minuman pada Paket B adalah Rp1.800,00."", ""Paket B menawarkan harga per kotak yang lebih murah dibandingkan Paket A.""]","1,3",1

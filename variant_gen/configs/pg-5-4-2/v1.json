@@ -1,0 +1,87 @@
+{
+  "question_id": "pg-5-4-2",
+  "config_version": 1,
+  "original_hash": "1ea925563540e71d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'600' if k == 0 else (600+20*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (2*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'1.200' if k == 0 else (2*(600+20*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'300' if k == 0 else ((600+20*k)/2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "(5+k)*(600+20*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "(600+20*k)/2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menggambar ulang peta denah lapangan olahraga sekolah. Pada denah asli bertuliskan skala $1:{v0}$, panjang lapangan terukur ${v1}cm$. Siswa tersebut ingin menggambar ulang denah pada kertas berukuran lebih besar sehingga panjang lapangan menjadi ${v2}cm$.\nBerapakah skala baru pada denah pengganti tersebut?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$1:{v3}$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "$1:{v0}$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "$1:{v4}$",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "$1:150$",
+      "correct": false
+    }
+  ],
+  "explanation": "Ukuran nyata = {v5}. Gambar baru dua kali lebih besar, sehingga penyebut skala baru = {v6}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

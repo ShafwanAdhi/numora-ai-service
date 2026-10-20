@@ -1,0 +1,92 @@
+{
+  "question_id": "mcma-5-5-7",
+  "config_version": 1,
+  "original_hash": "e325aa8280eeab81",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'300' if k == 0 else (300*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'36' if k == 0 else (36*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'864' if k == 0 else (864*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "36*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "24*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "864*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'",
+      "fmt": "id"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah denah ruang serbaguna kompleks sekolah digambar menggunakan skala $1:{v0}$. Pada denah, ruang tersebut berbentuk persegi panjang dengan ukuran panjang $12cm$ dan lebar $8cm$. Dua siswa mengevaluasi dimensi sebenarnya ruang tersebut.\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan \"Panjang ruang serbaguna sebenarnya adalah ${v1} meter$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan \"Lebar ruang serbaguna sebenarnya adalah ${v2} meter$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan \"Luas ruang serbaguna sebenarnya adalah $288{ m}^{2}$\" adalah BENAR.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan \"Luas ruang serbaguna sebenarnya adalah ${v3} {m}^{2}$\" adalah BENAR.",
+      "correct": true
+    }
+  ],
+  "explanation": "Panjang = {v4} m, lebar = {v5} m, luas = {v6} m^2.",
+  "shuffle": false,
+  "max_draws": 1000
+}

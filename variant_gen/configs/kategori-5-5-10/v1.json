@@ -1,0 +1,82 @@
+{
+  "question_id": "kategori-5-5-10",
+  "config_version": 1,
+  "original_hash": "e0e7aa79f594fe52",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'45' if k == 0 else (45*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'63' if k == 0 else (63*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else (90*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'117' if k == 0 else (117*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "9*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim percetakan dan banyak majalah dinding sekolah yang selesai dijilid:\nWaktu Kerja (jam) | Majalah Selesai (eksemplar)\n$2$ | ${v0}$\n$5$ | ${v1}$\n$7$ | ${v2}$\nSeorang siswa mengevaluasi proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Laju penjilidan majalah tersebut adalah ${v3} eksemplar/jam$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika tim bekerja selama $10 jam$, maka majalah yang selesai dijilid adalah ${v4} eksemplar$.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Untuk menyelesaikan ${v5} eksemplar$ majalah, waktu kerja yang dibutuhkan adalah $15 jam$.",
+      "correct": false
+    }
+  ],
+  "explanation": "Semua pasangan tabel menghasilkan laju yang sama, {v6} per jam. Substitusi laju tersebut memverifikasi opsi yang benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

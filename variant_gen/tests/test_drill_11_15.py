@@ -52,11 +52,8 @@ class Drill1115Tests(unittest.TestCase):
 
     def test_workspace_merge_and_isolation(self):
         self.assertTrue(BANK.exists(), 'Drill 11–15 original bank is missing')
-        old = load_workspace_bank(ROOT/'data/q0_bank.csv', additional_paths=[
-            ROOT/'data/drill-1-indicators-1-2/q0_bank.csv',
-                 ROOT/'data/drill-1-indicators-3-5/q0_bank.csv',
-            ROOT/'data/tryout-1/q0_bank.csv', ROOT/'data/drill-1-indicators-20-23/q0_bank.csv',
-            ROOT/'data/drill-1-indicators-6-10/q0_bank.csv'])
+        default = ROOT/'data/q0_bank.csv'
+        old = load_workspace_bank(default, additional_paths=[p for p in (ROOT/'data').rglob('q0_bank.csv') if p not in (default, BANK)])
         merged = load_workspace_bank(ROOT/'data/q0_bank.csv')
         self.assertEqual(set(merged.ids()), set(old.ids()) | set(OriginalBank(BANK).ids()))
         self.assertEqual(len(load_workspace_bank(BANK).ids()), 250)
@@ -160,8 +157,9 @@ class Drill1115Tests(unittest.TestCase):
     def test_saved_audit_matches_configs_and_replays_math(self):
         bank, configs = OriginalBank(BANK), ConfigStore(ROOT/'configs')
         report=json.loads(BANK.with_name('audit.json').read_text(encoding='utf8'))
-        revisions = {r['question_id']: r for r in map(json.loads,
-            BANK.with_name('original_revisions.jsonl').read_text(encoding='utf8').splitlines())}
+        revisions = {}
+        for r in map(json.loads, BANK.with_name('original_revisions.jsonl').read_text(encoding='utf8').splitlines()):
+            revisions.setdefault(r['question_id'],r)
         self.assertEqual({r['question_id'] for r in report['rows']},set(bank.ids()))
         self.assertEqual(report['summary'],dict(Counter(r['sampling_status'] for r in report['rows'])))
         for row in report['rows']:

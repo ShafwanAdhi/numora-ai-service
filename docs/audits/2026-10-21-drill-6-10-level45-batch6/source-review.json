@@ -1,0 +1,718 @@
+{
+  "pg-6-4-2": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "stem",
+        "evidence": "120 porsi untuk6hari;10 relawan baru; tidak ada porsi/orang/hari.",
+        "impact": "Durasi2+8/r tak tunggal; kunciC tak dapat dipastikan.",
+        "proposal": "Tetapkan konsumsi/orang, saat pasokan; bila1porsi/orang/hari tambahkan opsi hari10."
+      },
+      {
+        "component": "explanation",
+        "evidence": "120porsi/6hari=20orang; akhir2+8=10 lalu hari8 operasional tambahan; kunciC hari7.",
+        "impact": "Salah dimensi porsi/hari menjadiorang; mengganti acuan hari; hasil pun tak cocok kunci.",
+        "proposal": "Gunakanr eksplisit; jika r1 total10hari, jangan ganti acuan."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Panitia bazar makanan sekolah memesan 120 porsi konsumsi untuk panitia dan relawan yang diperkirakan habis dalam waktu 6 hari. Setelah berlangsung selama 2 hari, panitia mendapatkan tambahan 20 porsi konsumsi baru setiap hari dari sponsor. Namun, ada 10 relawan tambahan yang mulai bergabung pada hari ke-3 sehingga konsumsi harian meningkat. Jika setiap orang mengonsumsi porsi dengan laju yang tetap sama, persediaan konsumsi tersebut akan habis pada ....",
+        "after": "Panitia bazar makanan sekolah memesan 120 porsi konsumsi untuk panitia dan relawan yang diperkirakan habis dalam waktu 6 hari. Setelah berlangsung selama 2 hari, panitia mendapatkan tambahan 20 porsi konsumsi baru setiap hari dari sponsor. Namun, ada 10 relawan tambahan yang mulai bergabung pada hari ke-3 sehingga konsumsi harian meningkat. Jika setiap orang mengonsumsi porsi dengan laju yang tetap sama, persediaan konsumsi tersebut akan habis pada .... Setiap orang mengonsumsi 1 porsi per hari. Pasokan sponsor mulai diterima pada awal hari ke-3 sebelum konsumsi hari tersebut."
+      },
+      {
+        "component": "options",
+        "before": [
+          "Hari ke-5",
+          "Hari ke-6",
+          "Hari ke-7",
+          "Hari ke-8"
+        ],
+        "after": [
+          "Hari ke-5",
+          "Hari ke-6",
+          "Hari ke-10",
+          "Hari ke-8"
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN \nJumlah anggota awal $=\\frac{120porsi}{6hari}=20orang$.\nKonsumsi selama 2 hari pertama $=2hari×20porsi/hari=40porsi$.\nSisa porsi awal pada akhir hari ke-2 $=120-40=80porsi$.\nMulai hari ke-3:\nJumlah orang menjadi $=20+10=30orang$.\nKebutuhan konsumsi harian $=30porsi/hari$.\nSetiap hari ada pasokan sponsor $=20porsi/hari$.\nPengurangan bersih porsi per hari $=30-20=10porsi/hari$.\nLama sisa porsi bertahan $=\\frac{80porsi}{10porsi/hari}=8hari$.\nTotal waktu pengerjaan/kegiatan tidak terhenti, namun persediaan habis setelah $2hari+8hari=10hari$ dari awal. Jika dihitung sejak hari ke-3, sisa makanan bertahan selama $8hari$ lagi, sehingga secara akumulatif sejak hari ke-3 sisa persediaan akan tepat habis pada hari ke-8 operasional tambahan.",
+        "after": "Konsumsi awal 20 porsi/hari. Sisa akhir hari kedua 80 porsi. Konsumsi mulai hari ketiga 30 porsi/hari dengan pasokan 20 porsi/hari. Sisa bertahan 8 hari; habis akhir hari ke-10. C benar."
+      }
+    ]
+  },
+  "pg-6-4-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "options",
+        "evidence": "Opsi13,14,16,18hari; hasil durasi47/3hari.",
+        "impact": "Tidak ada opsi eksak; membulatkan ke16 tidak diminta.",
+        "proposal": "Sediakan15⅔hari atau tanyakan pada hari keberapa stok habis."
+      },
+      {
+        "component": "explanation",
+        "evidence": "200/30=6,67hari≈6hari16jam; lalu5+4+7=16.",
+        "impact": "Mengganti durasi20/3 dengan7 tanpa aturan pembulatan.",
+        "proposal": "Total47/3hari; jika yang dimaksud nomor hari, nyatakan hari ke16."
+      },
+      {
+        "component": "key",
+        "evidence": "Kunci asli['C']; himpunan benar independen[].",
+        "impact": "Kunci tidak mencakup tepat semua opsi benar.",
+        "proposal": "Sesuaikan opsi/pertanyaan dahulu; himpunan benar pada teks sekarang[]."
+      }
+    ],
+    "source_validity": "INVALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      {
+        "component": "options",
+        "before": [
+          "13 hari",
+          "14 hari",
+          "16 hari",
+          "18 hari"
+        ],
+        "after": [
+          "13 hari",
+          "14 hari",
+          "$\\frac{47}{3}$ hari (15 hari 16 jam)",
+          "18 hari"
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN Total porsi pakan $=40ayam×15hari=600porsi-hari$.\nTahap 1 (Hari 1 s.d. 5 = 5 hari):\nPenggunaan $=40ayam×5hari=200porsi-hari$.\nSisa pakan $=600-200=400porsi-hari$.\nTahap 2 (Hari 6 s.d. 9 = 4 hari):\nJumlah ayam $=40+10=50ekor$.\nPenggunaan $=50ayam×4hari=200porsi-hari$.\nSisa pakan $=400-200=200porsi-hari$.\nTahap 3 (Mulai hari ke-10):\nJumlah ayam $=50-20=30ekor$.\nSisa hari yang dapat bertahan $=\\frac{200porsi-hari}{30ayam}=6,67hari≈6hari16jam$.\nTotal durasi pakan bertahan $=5hari+4hari+7hari(dibulatkankeharipenuhpenuhsisaporsi)=16hari$.",
+        "after": "Pakan awal 600 jatah-harian. Lima hari pertama memakai 200, empat hari berikutnya memakai 200. Sisa 200 untuk 30 ayam bertahan 20/3 hari; total 47/3 hari. C benar."
+      }
+    ]
+  },
+  "mcma-6-4-8": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "stem",
+        "evidence": "Jam kerja/hari dibanding hasil/minggu; jumlah hari kerja tidak diberikan.",
+        "impact": "A,B,C bergantung kesamaan hari kerja tiap kondisi.",
+        "proposal": "Tetapkan jumlah hari kerja mingguan sama."
+      },
+      {
+        "component": "explanation",
+        "evidence": "240produk/minggu dibagi48jam-orang/hari=5unit/jam-orang.",
+        "impact": "Mengabaikan faktor hari/minggu; produktivitas aktual5/dA.",
+        "proposal": "Gunakan240/(48dA); simpulkan rasio hanya setelah dA=dB=dC."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Seorang pengusaha UMKM kerajinan tangan menganalisis hubungan antara jumlah pekerja, jam kerja harian, dan jumlah produk yang dihasilkan per minggu seperti pada tabel berikut:\nKondisi\nJumlah Pekerja\nJam Kerja/Hari\nHasil Produk/Minggu\nKondisi A\n6 orang\n8 jam\n240 unit\nKondisi B\n8 orang\n6 jam\n$X$ unit\nKondisi C\n$Y$ orang\n10 jam\n300 unit\nAsumsikan efisiensi setiap pekerja selalu konstan. Manakah analisis evaluatif yang tepat? (Jawaban benar lebih dari satu)",
+        "after": "Seorang pengusaha UMKM kerajinan tangan menganalisis hubungan antara jumlah pekerja, jam kerja harian, dan jumlah produk yang dihasilkan per minggu seperti pada tabel berikut:\nKondisi\nJumlah Pekerja\nJam Kerja/Hari\nHasil Produk/Minggu\nKondisi A\n6 orang\n8 jam\n240 unit\nKondisi B\n8 orang\n6 jam\n$X$ unit\nKondisi C\n$Y$ orang\n10 jam\n300 unit\nAsumsikan efisiensi setiap pekerja selalu konstan. Manakah analisis evaluatif yang tepat? (Jawaban benar lebih dari satu) Semua kondisi bekerja 5 hari per minggu; produktivitas per jam-pekerja sama."
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN\nTotal jam-pekerja harian Kondisi A $=6orang×8jam=48jam-orang$.\nProduktivitas per jam-orang $=\\frac{240}{48}=5unit/jam-orang$.\nKondisi B:\nTotal jam-pekerja harian $=8orang×6jam=48jam-orang$.\nKarena total jam-pekerja sama, nilai $X=48×5=240unit$ (A & B Benar, D Salah).\nKondisi C:\nKebutuhan total jam-pekerja $=\\frac{300unit}{5unit/jam-orang}=60jam-orang$.\n\n$Jumlahpekerja(Y)=\\frac{60jam-orang}{10jam}=6orang(CBenar)$",
+        "after": "Produktivitas 240/(6*8*5)=1 unit/jam-pekerja. Kondisi B 8*6*5=240 jam-pekerja sehingga X=240; Y=300/(10*5)=6. A,B,C benar; D salah."
+      }
+    ]
+  },
+  "kategori-6-4-10": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "key",
+        "evidence": "C BENAR untuk kenaikan33,3%.",
+        "impact": "Nilai eksak33⅓%;33.3% sedikit kurang untuk tepat waktu.",
+        "proposal": "Tulis33⅓% atau sekitar33,3% dengan toleransi eksplisit."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "(a) BENAR\n(b) SALAH\n(c) BENAR\nProyek renovasi perpustakaan sekolah diperkirakan selesai dalam waktu 30 hari jika dikerjakan oleh 12 pekerja. Setelah dikerjakan selama 10 hari, pekerjaan dihentikan selama 5 hari karena perbaikan atap yang bocor. Kepala sekolah mengevaluasi beberapa opsi strategi agar proyek tetap selesai tepat waktu sesuai jadwal semula.\nTentukan status BENAR atau SALAH untuk setiap opsi keputusan strategi berikut!",
+        "after": "Proyek renovasi perpustakaan sekolah diperkirakan selesai dalam waktu 30 hari jika dikerjakan oleh 12 pekerja. Setelah dikerjakan selama 10 hari, pekerjaan dihentikan selama 5 hari karena perbaikan atap yang bocor. Kepala sekolah mengevaluasi beberapa opsi strategi agar proyek tetap selesai tepat waktu sesuai jadwal semula.\nTentukan status BENAR atau SALAH untuk setiap opsi keputusan strategi berikut!"
+      },
+      {
+        "component": "options",
+        "before": [
+          "Sisa beban kerja setelah terhenti selama 5 hari setara dengan $240hari-pekerja$.",
+          "Kontraktor cukup menambah 3 orang pekerja baru agar proyek selesai tepat waktu.",
+          "Jika tidak ada penambahan pekerja, jam kerja harian 12 pekerja awal harus ditambah sebesar $33,3\\%$ dari jam kerja normal."
+        ],
+        "after": [
+          "Sisa beban kerja setelah terhenti selama 5 hari setara dengan $240hari-pekerja$.",
+          "Kontraktor cukup menambah 3 orang pekerja baru agar proyek selesai tepat waktu.",
+          "Jika tidak ada penambahan pekerja, jam kerja harian 12 pekerja awal harus ditambah sebesar $\\frac{100}{3}\\%$ dari jam kerja normal."
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN Total beban kerja $=30hari×12pekerja=360hari-pekerja$.\nBeban terkerjakan (10 hari) $=10×12=120hari-pekerja$.\nSisa beban kerja $=360-120=240hari-pekerja$. (Pernyataan a BENAR).\nSisa waktu awal $=30-10=20hari$.\nTerhenti 5 hari, maka sisa waktu efektif $=20-5=15hari$.\nEvaluasi Opsi Pekerja (b):\nPekerja yang dibutuhkan ($P$) $=\\frac{240hari-pekerja}{15hari}=16pekerja$.\n Tambahan pekerja $=16-12=4orang$.\n (Menambah 3 orang tidak cukup, maka Pernyataan b SALAH).\nEvaluasi Opsi Jam Kerja (c):\nRasio sisa waktu efektif dibanding waktu normal $=\\frac{15}{20}=\\frac{3}{4}$.\nAgar output konstan, kapasitas jam kerja harus menjadi $\\frac{4}{3}$ dari normal ($133,3\\%$).\nPeningkatan jam kerja $= 133,3\\% - 100\\% = 33,3\\%$ (Pernyataan c BENAR).",
+        "after": "Beban tersisa 240 hari-pekerja; waktu efektif 15 hari; kebutuhan 16 pekerja, tambahan 4. Kenaikan jam tepat 100/3 persen. Pernyataan 1 dan 3 benar."
+      }
+    ]
+  },
+  "pg-6-5-2": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "options",
+        "evidence": "B1,25hari danC1,25hari(1hari6jam).",
+        "impact": "Dua opsi setara dalam PG; konversi jam juga memerlukan definisi hari.",
+        "proposal": "Ganti salah satu distraktor; pertahankan1,25hari sebagai jawaban tunggal."
+      },
+      {
+        "component": "key",
+        "evidence": "Kunci asli['C']; himpunan benar independen['B', 'C'].",
+        "impact": "Kunci tidak mencakup tepat semua opsi benar.",
+        "proposal": "Sesuaikan opsi/pertanyaan dahulu; himpunan benar pada teks sekarang['B', 'C']."
+      }
+    ],
+    "source_validity": "INVALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      {
+        "component": "options",
+        "before": [
+          "1 hari",
+          "1,25 hari",
+          "1,25 hari (1 hari 6 jam)",
+          "2 hari"
+        ],
+        "after": [
+          "1 hari",
+          "1,5 hari",
+          "1,25 hari",
+          "2 hari"
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN\nKapasitas kerja 1 relawan per hari:\n$$\\text{Kapasitas} = \\frac{1.200\\text{ bibit}}{8\\text{ hari} \\times 15\\text{ relawan}} = 10\\text{ bibit/(relawan}\\cdot\\text{hari)}$$\n3 hari pertama:\nBibit tertanam $=3hari×15relawan×10=450bibit$.\nSisa bibit $=1.200-450=750bibit$.\nSisa pekerjaan:\nJumlah relawan tersisa $=15-3=12relawan$.\nWaktu yang dibutuhkan $=\\frac{750bibit}{12relawan×10}=6,25hari$.\nSisa waktu normal awal $=8-3=5hari$.\nTambahan waktu yang dibutuhkan $=6,25-5=1,25hari$ (atau 1 hari 6 jam).",
+        "after": "Sisa pekerjaan 15*(8-3)=75 relawan-hari; 12 relawan memerlukan 6,25 hari kerja. Tambahan 6,25-5=1,25 hari kerja. C benar."
+      }
+    ]
+  },
+  "pg-6-5-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "options",
+        "evidence": "Keluaran4hariA120,B240,C186,D168; target300.",
+        "impact": "Tidak ada opsi memenuhi; D salah.",
+        "proposal": "Tentukan ketersediaan pekerja tambahan; sediakan komposisi yang memenuhi300."
+      },
+      {
+        "component": "explanation",
+        "evidence": "D2X+4Y diganti5Y+5X lalu10Y atau5X+6Y.",
+        "impact": "Menyebut beberapa versiD yang tidak ada pada opsi;5Y+5X hanya67.5/hari.",
+        "proposal": "Jangan mengganti opsi dalam pembahasan; hitung keempat opsi asli."
+      },
+      {
+        "component": "key",
+        "evidence": "Kunci asli['D']; himpunan benar independen[].",
+        "impact": "Kunci tidak mencakup tepat semua opsi benar.",
+        "proposal": "Sesuaikan opsi/pertanyaan dahulu; himpunan benar pada teks sekarang[]."
+      }
+    ],
+    "source_validity": "INVALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Seorang pengusaha konveksi seragam sekolah mengevaluasi hasil produksi dua kelompok penjahit. Kelompok X (4 orang) mampu menyelesaikan 120 potong pakaian dalam 5 hari. Kelompok Y (6 orang) mampu menyelesaikan 180 potong pakaian dalam 4 hari. Jika pengusaha ingin menyelesaikan pesanan 300 potong pakaian dalam waktu 4 hari, pilihan komposisi pekerja yang paling tepat dan efisien adalah ....",
+        "after": "Seorang pengusaha konveksi seragam sekolah mengevaluasi hasil produksi dua kelompok penjahit. Kelompok X (4 orang) mampu menyelesaikan 120 potong pakaian dalam 5 hari. Kelompok Y (6 orang) mampu menyelesaikan 180 potong pakaian dalam 4 hari. Jika pengusaha ingin menyelesaikan pesanan 300 potong pakaian dalam waktu 4 hari, komposisi pekerja yang memenuhi target dengan jumlah pekerja paling sedikit adalah .... Penjahit tambahan dapat direkrut tanpa batas ketersediaan, dengan produktivitas sama seperti kelompok asalnya."
+      },
+      {
+        "component": "options",
+        "before": [
+          "5 penjahit dari Kelompok X saja",
+          "8 penjahit dari Kelompok Y saja",
+          "4 penjahit Kelompok X dan 3 penjahit Kelompok Y",
+          "2 penjahit Kelompok X dan 4 penjahit Kelompok Y"
+        ],
+        "after": [
+          "5 penjahit dari Kelompok X saja",
+          "8 penjahit dari Kelompok Y saja",
+          "4 penjahit Kelompok X dan 3 penjahit Kelompok Y",
+          "10 penjahit dari Kelompok Y saja"
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN\nLaju produksi per orang per hari:\nKelompok X: $\\frac{120}{4 \\times 5} = 6\\text{ potong/(orang}\\cdot\\text{hari)}$\nKelompok Y: $\\frac{180}{6 \\times 4} = 7,5\\text{ potong/(orang}\\cdot\\text{hari)}$\nKebutuhan produksi total per hari $=\\frac{300potong}{4hari}=75potong/hari$.\nEvaluasi Opsi D:\n2 penjahit X $=2×6=12potong/hari$\n4 penjahit Y $=4×7,5=30potong/hari$\nTotal $=42potong/hari$ (kurang).\nEvaluasi opsi yang tepat untuk memenuhi 75 potong/hari:\n10 penjahit Y $=10×7,5=75potong/hari$.\nJika mengombinasikan: 5 penjahit X ($30$) + 6 penjahit Y ($45$) $=75potong/hari$.\nEvaluasi Opsi D pada proporsi efisiensi: 5 penjahit Kelompok Y ($37,5$) dan 5 penjahit Kelompok X ($30$).\nDari kriteria kecepatan, penjahit Kelompok Y lebih produktif ($7,5>6$). Opsi D dengan 10 orang Y atau kombinasi 5X + 6Y memberikan output $75potong/hari$.",
+        "after": "Produktivitas X=120/(4*5)=6 dan Y=180/(6*4)=7,5 potong/orang/hari. Satu Y menghasilkan 30 potong dalam 4 hari. Minimum 300/30=10 pekerja Y; opsi lain tidak memenuhi target. D benar."
+      }
+    ]
+  },
+  "mcma-6-5-8": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "units",
+        "evidence": "P diberi satuan porsi tetapiD600porsi-hari tanpa konsumsi per ternak.",
+        "impact": "Nilai numerik P bergantung definisi porsi; kunciD bersyarat.",
+        "proposal": "Definisikan satu porsi sebagai jatah harian satu ternak; pakai600jatah-harian."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Seorang peternak mengevaluasi tiga skenario pemberian pakan untuk hewan ternaknya:\nSkenario\nJumlah Ternak\nWaktu Pakan Habis\nTotal Porsi Pakan\nSkenario 1\n30 ekor\n20 hari\n$P$ porsi\nSkenario 2\n40 ekor\n$Q$ hari\n$P$ porsi\nSkenario 3\n$R$ ekor\n12 hari\n$P$ porsi\nManakah hasil evaluasi yang benar berdasarkan hubungan perbandingan di atas? (Jawaban benar lebih dari satu)",
+        "after": "Seorang peternak mengevaluasi tiga skenario pemberian pakan untuk hewan ternaknya:\nSkenario\nJumlah Ternak\nWaktu Pakan Habis\nTotal Porsi Pakan\nSkenario 1\n30 ekor\n20 hari\n$P$ porsi\nSkenario 2\n40 ekor\n$Q$ hari\n$P$ porsi\nSkenario 3\n$R$ ekor\n12 hari\n$P$ porsi\nManakah hasil evaluasi yang benar berdasarkan hubungan perbandingan di atas? (Jawaban benar lebih dari satu) Satu porsi adalah jatah konsumsi satu ternak selama satu hari; konsumsi setiap ternak sama dan tetap."
+      },
+      {
+        "component": "options",
+        "before": [
+          "Nilai $Q$ pada Skenario 2 adalah 15 hari.",
+          "Jumlah ternak dan lama pakan habis merupakan perbandingan senilai.",
+          "Nilai $R$ pada Skenario 3 adalah 50 ekor.",
+          "Total porsi pakan ($P$) setara dengan 600 porsi-hari."
+        ],
+        "after": [
+          "Nilai $Q$ pada Skenario 2 adalah 15 hari.",
+          "Jumlah ternak dan lama pakan habis merupakan perbandingan senilai.",
+          "Nilai $R$ pada Skenario 3 adalah 50 ekor.",
+          "Total porsi pakan ($P$) setara dengan 600 porsi."
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN\nHubungan antara jumlah ternak dan waktu pakan habis adalah perbandingan berbalik nilai (makin banyak ternak, pakan makin cepat habis) (B Salah).\nTotal Porsi ($P$): $30×20=600porsi-hari$ (D Benar).\nNilai $Q$ (Skenario 2): $Q=\\frac{600}{40}=15hari$ (A Benar).\nNilai $R$ (Skenario 3): $R=\\frac{600}{12}=50ekor$ (C Benar).",
+        "after": "P=30*20=600 porsi. Q=600/40=15 hari; R=600/12=50 ekor. Jumlah ternak dan durasi berbanding terbalik. A,C,D benar."
+      }
+    ]
+  },
+  "kategori-6-5-10": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "option B",
+        "evidence": "Dibutuhkan tambahan3 pekerja.",
+        "impact": "Minimum2;3 cukup tetapi bukan perlu; status bergantung makna dibutuhkan.",
+        "proposal": "Tulis minimum tambahan3 (SALAH), atau tambahan3 cukup (BENAR)."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "(a) BENAR\n(b) SALAH\n(c) BENAR\nProyek pembuatan pagar lapangan olahraga sekolah sepanjang $180meter$ ditargetkan selesai dalam 12 hari oleh 6 pekerja. Setelah dikerjakan selama 4 hari, pekerja dihentikan selama 2 hari karena bahan material habis. Kepala sekolah mengevaluasi opsi penyesuaian agar proyek selesai tepat waktu.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+        "after": "Proyek pembuatan pagar lapangan olahraga sekolah sepanjang $180meter$ ditargetkan selesai dalam 12 hari oleh 6 pekerja. Setelah dikerjakan selama 4 hari, pekerja dihentikan selama 2 hari karena bahan material habis. Kepala sekolah mengevaluasi opsi penyesuaian agar proyek selesai tepat waktu.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!"
+      },
+      {
+        "component": "options",
+        "before": [
+          "Panjang pagar yang selesai dikerjakan pada 4 hari pertama adalah $60meter$.",
+          "Agar selesai tepat waktu, dibutuhkan tambahan 3 orang pekerja.",
+          "Sisa waktu efektif untuk menyelesaikan sisa pekerjaan adalah 6 hari."
+        ],
+        "after": [
+          "Panjang pagar yang selesai dikerjakan pada 4 hari pertama adalah $60meter$.",
+          "Tambahan minimum pekerja agar selesai tepat waktu adalah 3 orang.",
+          "Sisa waktu efektif untuk menyelesaikan sisa pekerjaan adalah 6 hari."
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN Total beban $=12hari×6pekerja=72hari-pekerja$.\nPekerjaan 4 hari pertama (a):\nBeban selesai $=4×6=24hari-pekerja$.\nPanjang pagar $=\\frac{24}{72}×180m=60m$ (BENAR).\nSisa Waktu Efektif (c):\nSisa waktu awal $=12-4=8hari$.\n Terhenti 2 hari, maka sisa waktu efektif $=8-2=6hari$ (BENAR).\nKebutuhan Tambahan Pekerja (b):\nSisa beban $=72-24=48hari-pekerja$.\n Pekerja dibutuhkan $=\\frac{48}{6hari}=8pekerja$.\n Tambahan pekerja $=8-6=2orang$ (bukan 3 orang, maka SALAH).",
+        "after": "Empat dari 12 hari menyelesaikan 60 meter. Waktu efektif 12-4-2=6 hari; sisa 120 meter membutuhkan 8 pekerja. Tambahan minimum 2, bukan 3. Pernyataan 1 dan 3 benar."
+      }
+    ]
+  },
+  "pg-7-4-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "stem",
+        "evidence": "Andi menyatakan \"memilikipenyelesaianx=0\",tanpakatatunggal/hanya.",
+        "impact": "AndidanBudi benarsecaraliteral;penjelasanmenambahklaimhanya x0.",
+        "proposal": "UbahAndimenjadi\"satu-satunyapenyelesaianx=0\"atausediakanopsikeduanya benar."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Dua siswa, Andi dan Budi, mencoba menyelesaikan persamaan aljabar berikut:\n$2(3x-5)+4=6x-6$\nAndi menyimpulkan bahwa persamaan tersebut memiliki penyelesaian $x=0$.\nBudi menyimpulkan bahwa persamaan tersebut memiliki tak hingga banyaknya penyelesaian.\nEvaluasi terhadap kedua kesimpulan tersebut yang paling tepat adalah ....",
+        "after": "Dua siswa, Andi dan Budi, mencoba menyelesaikan persamaan aljabar berikut:\n$2(3x-5)+4=6x-6$\nAndi menyimpulkan bahwa persamaan tersebut memiliki satu-satunya penyelesaian $x=0$.\nBudi menyimpulkan bahwa persamaan tersebut memiliki tak hingga banyaknya penyelesaian.\nEvaluasi terhadap kedua kesimpulan tersebut yang paling tepat adalah ...."
+      },
+      {
+        "component": "options",
+        "before": [
+          "Kesimpulan Budi benar, karena setelah disederhanakan kedua ruas bernilai identik ($6x-6=6x-6$)",
+          "Kesimpulan Andi benar, karena nilai $x=0$ memenuhi persamaan tersebut",
+          "Kedua kesimpulan salah, karena persamaan tersebut tidak memiliki penyelesaian",
+          "Kedua kesimpulan salah, karena penyelesaiannya adalah $x=1$"
+        ],
+        "after": [
+          "Kesimpulan Budi benar, karena setelah disederhanakan kedua ruas bernilai identik ($6x-6=6x-6$)",
+          "Kesimpulan Andi benar, karena satu-satunya penyelesaian adalah $x=0$.",
+          "Kedua kesimpulan salah, karena persamaan tersebut tidak memiliki penyelesaian",
+          "Kedua kesimpulan salah, karena penyelesaiannya adalah $x=1$"
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN\nSederhanakan ruas kiri persamaan:\n$2(3x-5)+4=6x-10+4=6x-6$\nPersamaan menjadi:\n$6x-6=6x-6$\nJika kedua ruas dikurangi $6x$:\n$-6=-6atau0=0(selalubenaruntuksemuanilaix)$\nKarena kedua ruas identik, persamaan ini merupakan identitas dan memiliki tak hingga banyaknya penyelesaian. Nilai $x=0$ memang memenuhi, tetapi menyatakan bahwa solusi hanya $x=0$ kurang tepat; kesimpulan Budi bahwa penyelesaiannya ada tak hingga banyaknya adalah kesimpulan yang tepat dan menyeluruh.",
+        "after": "Kedua ruas menyederhana menjadi 6x-6 sehingga setiap bilangan real memenuhi. x=0 adalah salah satu solusi, bukan satu-satunya. Kesimpulan Budi benar; A."
+      }
+    ]
+  },
+  "mcma-7-5-8": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "stem/options/explanation",
+        "evidence": "Paragraf2282–2296memuatformulaulangtigakali,PDF,opsiAxxxdan20.00020.00020.000.",
+        "impact": "NotasimatematikadanopsiArusak;himpunanABDbaruberlakusetelahnormalisasiyangharusdinyatakan.",
+        "proposal": "Bersihkanduplikat;Aharusx=20000;pertahankansalinanrawuntukjejak."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Dua toko perlengkapan olahraga menjual kaus tim dengan harga yang dievaluasi:\nToko A: Memasang harga 1 kaus=(3x+15.000) rupiah1\\text{ kaus} = (3x + 15.000)\\text{ rupiah}1 kaus=(3x+15.000) rupiah.\nToko B: Memasang harga 1 kaus=(5x−25.000) rupiah1\\text{ kaus} = (5x - 25.000)\\text{ rupiah}1 kaus=(5x−25.000) rupiah.\nJika diketahui harga 1 kaus di Toko A dan Toko B adalah sama, manakah hasil evaluasi berikut yang benar? (Jawaban benar lebih dari satu)",
+        "after": "Dua toko menjual kaus tim. Toko A memasang harga $3x+15.000$ rupiah per kaus. Toko B memasang harga $5x-25.000$ rupiah per kaus. Harga satu kaus pada kedua toko sama. Manakah evaluasi yang benar? (Jawaban benar lebih dari satu)"
+      },
+      {
+        "component": "options",
+        "before": [
+          "Nilai xxx yang memenuhi adalah 20.00020.00020.000.",
+          "Harga 1 kaus di Toko A adalah Rp75.000,00.",
+          "Toko B menjual kaus lebih mahal dibanding Toko A.",
+          "Pembelian 2 kaus di Toko B membutuhkan uang sebesar Rp150.000,00."
+        ],
+        "after": [
+          "Nilai $x$ yang memenuhi adalah 20.000.",
+          "Harga 1 kaus di Toko A adalah Rp75.000,00.",
+          "Toko B menjual kaus lebih mahal dibanding Toko A.",
+          "Pembelian 2 kaus di Toko B membutuhkan uang sebesar Rp150.000,00."
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN Buat model PLSV karena harga di kedua toko sama:\n3x+15.000=5x−25.0003x + 15.000 = 5x - 25.0003x+15.000=5x−25.000\nGunakan operasi invers:\n15.000+25.000=5x−3x15.000 + 25.000 = 5x - 3x15.000+25.000=5x−3x\nPDF\n40.000=2x  ⟹  x=20.00040.000 = 2x \\implies x = 20.00040.000=2x⟹x=20.000\n(A Benar).\nSubstitusi nilai x=20.000x = 20.000x=20.000:\nHarga 1 kaus di Toko A =3(20.000)+15.000=Rp75.000,00= 3(20.000) + 15.000 = \\text{Rp}75.000,00=3(20.000)+15.000=Rp75.000,00 (B Benar).\nHarga 1 kaus di Toko B =5(20.000)−25.000=Rp75.000,00= 5(20.000) - 25.000 = \\text{Rp}75.000,00=5(20.000)−25.000=Rp75.000,00.\nKarena harganya sama, C Salah.\nPembelian 2 kaus di Toko B =2×75.000=Rp150.000,00= 2 \\times 75.000 = \\text{Rp}150.000,00=2×75.000=Rp150.000,00 (D Benar).",
+        "after": "3x+15000=5x-25000 memberi x=20000. Harga satu kaus Rp75000, dua kaus Rp150000. Harga kedua toko sama. A,B,D benar."
+      }
+    ]
+  },
+  "kategori-7-5-9": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "stem",
+        "evidence": "2n+18=50diberitanpamakna18;Cmenambah4bukulangsungn18.",
+        "impact": "BdanCmemerlukanasumsipinjamanlain18tetapdanbukubaruuntuksiswabaru.",
+        "proposal": "Jelaskan18bukuuntukkelompoklain;4bukubaruuntuk2siswabarumasing-masing2."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "(a) BENAR\n(b) SALAH\n(c) BENAR\nDi sebuah acara perpustakaan keliling, jumlah buku cerita yang dipinjam oleh siswa kelas VII dinyatakan dalam bentuk persamaan $2n+18=50$, dengan $n$ menyatakan banyak siswa yang meminjam masing-masing 2 buku cerita.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+        "after": "Di sebuah acara perpustakaan keliling, jumlah buku cerita yang dipinjam oleh siswa kelas VII dinyatakan dalam bentuk persamaan $2n+18=50$, dengan $n$ menyatakan banyak siswa kelompok pertama yang masing-masing meminjam 2 buku cerita.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut! Sebanyak 18 buku dipinjam kelompok lain dan jumlah ini tetap. Empat buku tambahan pada pernyataan ketiga dipinjam siswa baru pada kelompok pertama, masing-masing 2 buku per siswa."
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN\nPernyataan (a):\n$$2n + 18 = 50 \\implies 2n = 50 - 18 = 32 \\implies n = 16$$\n(BENAR).\nPernyataan (b):\nTotal buku cerita yang dipinjam tercantum jelas pada ruas kanan yaitu 50 buku (bukan 32 buku; 32 adalah $2n$), maka (SALAH).\nPernyataan (c):\nJika ada tambahan 4 buku, total dipinjam $=50+4=54$.\n$$2n + 18 = 54 \\implies 2n = 36 \\implies n = 18$$\n(BENAR).",
+        "after": "2n+18=50 memberi n=16. Total seluruh buku 50, bukan 32. Empat buku tambahan berarti dua siswa baru sehingga n=18. Pernyataan 1 dan 3 benar."
+      }
+    ]
+  },
+  "pg-9-4-1": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "options",
+        "evidence": "A=Rp18000,C=Rp18000 ditambah revisi8000+2(5000)=18000.",
+        "impact": "PG memiliki dua jawaban benarA,C;kunci tunggalC tidak lengkap.",
+        "proposal": "Pertahankan satu18000;ganti opsi duplikat dengan nilai salah dan hapus catatan revisi."
+      }
+    ],
+    "source_validity": "INVALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      {
+        "component": "options",
+        "before": [
+          "Rp18.000,00",
+          "Rp20.000,00",
+          "Rp18.000,00 (Revisi hitung: Rp8.000 + 2(Rp5.000) = Rp18.000,00)",
+          "Rp22.000,00"
+        ],
+        "after": [
+          "Rp19.000,00",
+          "Rp20.000,00",
+          "Rp18.000,00",
+          "Rp22.000,00"
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN Misalkan $x=harga1porsinasi$ dan $y=harga1gelasminuman$. Model SPLDV:\n$2x+3y=31.000$\n$4x + y = 37.000 \\implies y = 37.000 - 4x$\nSubstitusikan persamaan (2) ke persamaan (1):\n$2x+3(37.000-4x)=31.000$\n$2x+111.000-12x=31.000$\n$-10x=31.000-111.000$\n$$-10x = -80.000 \\implies x = 8.000$$\nSubstitusi $x=8.000$ ke persamaan $y$:\n$y=37.000-4(8.000)=37.000-32.000=5.000$\nHarga 1 porsi nasi $=Rp8.000,00$ dan 1 gelas minuman $=Rp5.000,00$. Total pembelian Bu Rani ($1x+2y$):\n$1(8.000)+2(5.000)=8.000+10.000=Rp18.000,00$",
+        "after": "Sistem 2n+3m=31000 dan 4n+m=37000 memberi n=8000 dan m=5000. Harga n+2m=18000. C benar."
+      }
+    ]
+  },
+  "pg-9-5-1": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "options",
+        "evidence": "A danB sama-sama menyatakan pengunjung salah,harga sepeda air20000 dan komidi12500.",
+        "impact": "PG memiliki dua jawaban benarA,B;kunciB tidak unik.",
+        "proposal": "Ganti salah satu duplikat dengan harga atau evaluasi yang salah."
+      }
+    ],
+    "source_validity": "INVALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      {
+        "component": "options",
+        "before": [
+          "Salah, karena harga 1 tiket sepeda air (Rp20.000,00) lebih mahal dari tiket komidi putar (Rp12.500,00)",
+          "Salah, karena harga 1 tiket sepeda air adalah Rp20.000,00 sedangkan tiket komidi putar adalah Rp12.500,00",
+          "Benar, karena harga 1 tiket sepeda air adalah Rp15.000,00 sedangkan tiket komidi putar adalah Rp20.000,00",
+          "Benar, karena harga tiket sepeda air mendapat potongan khusus dari paket B"
+        ],
+        "after": [
+          "Salah, karena harga tiket sepeda air Rp12.500,00 dan komidi putar Rp20.000,00.",
+          "Salah, karena harga 1 tiket sepeda air adalah Rp20.000,00 sedangkan tiket komidi putar adalah Rp12.500,00",
+          "Benar, karena harga 1 tiket sepeda air adalah Rp15.000,00 sedangkan tiket komidi putar adalah Rp20.000,00",
+          "Benar, karena harga tiket sepeda air mendapat potongan khusus dari paket B"
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN Misalkan $x=harga1tiketsepedaair$ dan $y=harga1tiketkomidiputar$. Model SPLDV:\n$3x+2y=85.000$\n$2x + 4y = 90.000 \\implies x + 2y = 45.000 \\implies 2y = 45.000 - x$\nSubstitusi $2y=45.000-x$ ke persamaan (1):\n$3x+(45.000-x)=85.000$\n$2x+45.000=85.000$\n$$2x = 40.000 \\implies x = 20.000$$\nSubstitusi $x=20.000$ ke persamaan $2y$:\n$$2y = 45.000 - 20.000 = 25.000 \\implies y = 12.500$$\nHarga 1 tiket sepeda air $=Rp20.000,00$\nHarga 1 tiket komidi putar $=Rp12.500,00$\nKarena Rp20.000,00 > Rp12.500,00, harga tiket sepeda air justru lebih mahal daripada tiket komidi putar. Maka, pernyataan pengunjung tersebut Salah.",
+        "after": "Sistem 3s+2k=85000 dan 2s+4k=90000 memberi s=20000, k=12500. Sepeda air lebih mahal; alasan B tepat. A salah harga, C salah hasil, D mengasumsikan diskon tanpa data."
+      }
+    ]
+  },
+  "pg-9-5-5": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "options",
+        "evidence": "C dimulaiBenar denganluas77 lalu catatan revisi mengatakan klaim80SALAH;A masih menyatakan luas72.",
+        "impact": "Tidak ada opsi lengkap konsisten yang sesuai hasil77;memilih versiC atauA diam-diam mengubah naskah.",
+        "proposal": "Tetapkan satu versi final;buat satu opsiSalah,karena luas77m²."
+      },
+      {
+        "component": "key",
+        "evidence": "MetadataC;akhir pembahasan menyebutKunci Jawaban disesuaikan keA.",
+        "impact": "Dua kunci berbeda dalam satu sumber;A yang ada salah danC kontradiktif.",
+        "proposal": "Sesuaikan satu kunci hanya setelah satu opsi final valid dipasang."
+      },
+      {
+        "component": "explanation",
+        "evidence": "Perhitunganp11,l7,luas77 benar,tetapi instruksi penyesuaian kunciA menunjuk opsi72 yang salah.",
+        "impact": "Kesimpulan akademik benar tidak menyelesaikan konflik versi/kunci.",
+        "proposal": "Hapus catatan revisi,ulang pembahasan final77 dengan opsi/key yang konsisten."
+      },
+      {
+        "component": "formatting",
+        "evidence": "Paragraf4552–4564 mengulang bentuk teks+LaTeX+teks,termasuk36 meter36\\text{ meter}36 meter.",
+        "impact": "Besaran dan persamaan sulit dibaca;jejak edit bocor ke soal.",
+        "proposal": "Sisakan satu representasi setiap besaran/persamaan."
+      }
+    ],
+    "source_validity": "INVALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Taman sekolah berbentuk persegi panjang. Dua orang siswa membuat penyataan mengenai ukuran taman tersebut:\nSiswa A: \"Keliling taman adalah 36 meter36\\text{ meter}36 meter, sehingga p+l=18p + l = 18p+l=18.\"\nSiswa B: \"Selisih panjang dan lebarnya adalah 4 meter4\\text{ meter}4 meter, sehingga p−l=4p - l = 4p−l=4.\"\nPengelola sekolah mengevaluasi bahwa luas taman sekolah tersebut adalah 80 m280\\text{ m}^280 m2. Evaluasi terhadap hasil perhitungan pengelola sekolah tersebut adalah ....",
+        "after": "Taman sekolah berbentuk persegi panjang. Siswa A menyatakan keliling taman 36 meter, sehingga $p+l=18$. Siswa B menyatakan selisih panjang dan lebar 4 meter, sehingga $p-l=4$. Pengelola menyatakan luas taman 80 meter persegi. Evaluasi yang tepat adalah ...."
+      },
+      {
+        "component": "options",
+        "before": [
+          "Salah, karena luas taman yang benar adalah 72 m272\\text{ m}^272 m2",
+          "Salah, karena panjang taman 10 meter10\\text{ meter}10 meter dan lebar 8 meter8\\text{ meter}8 meter",
+          "Benar, karena dari SPLDV diperoleh panjang 11 meter11\\text{ meter}11 meter dan lebar 7 meter7\\text{ meter}7 meter, sehingga luas =77 m2= 77\\text{ m}^2=77 m2 (Revisi: Evaluasi nilai riil dari model p+l=18p+l=18p+l=18 dan p−l=4p-l=4p−l=4 menghasilkan p=11,l=7p=11, l=7p=11,l=7, maka luas =77 m2= 77\\text{ m}^2=77 m2, sehingga pernyataan pengelola senilai 80 m2\\text{m}^2m2 bernilai SALAH).",
+          "Benar, karena panjang taman 12 meter12\\text{ meter}12 meter dan lebar 6 meter6\\text{ meter}6 meter"
+        ],
+        "after": [
+          "Salah, karena luas taman yang benar adalah 72 meter persegi.",
+          "Salah, karena panjang taman 10 meter dan lebar 8 meter.",
+          "Salah, karena panjang 11 meter, lebar 7 meter, dan luas 77 meter persegi.",
+          "Benar, karena panjang taman 12 meter dan lebar 6 meter."
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN (Revisi Opsi Jawaban C & Hitungan): Selesaikan SPLDV dari pernyataan Siswa A dan B:\nPDF\np+l=18p + l = 18p+l=18\np−l=4p - l = 4p−l=4\nJumlahkan kedua persamaan:\n2p=22  ⟹  p=11 meter2p = 22 \\implies p = 11\\text{ meter}2p=22⟹p=11 meter\nSubstitusi p=11p = 11p=11:\n11+l=18  ⟹  l=7 meter11 + l = 18 \\implies l = 7\\text{ meter}11+l=18⟹l=7 meter\nLuas taman sebenarnya =p×l=11×7=77 m2= p \\times l = 11 \\times 7 = 77\\text{ m}^2=p×l=11×7=77 m2. Pengelola menyatakan luasnya 80 m280\\text{ m}^280 m2. Maka hasil evaluasi menunjukkan bahwa pernyataan pengelola Salah, karena luas sebenarnya adalah 77 m277\\text{ m}^277 m2.\n(Kunci Jawaban disesuaikan ke A setelah revisi narasi evaluasi tepat: Salah, karena luas sebenarnya adalah 77 m277\\text{ m}^277 m2).",
+        "after": "p+l=18 dan p-l=4 memberi p=11, l=7. Luas 77 meter persegi, bukan 80. C benar."
+      }
+    ]
+  },
+  "mcma-9-5-7": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "stem",
+        "evidence": "Data berasal dariTokoMaju danTokoJaya tanpa pernyataan harga satuan sama;data hanya menyebutkaus kaki/sarung tangan,opsi menyebut1pasang.",
+        "impact": "Ada empat harga toko yang independen,dua persamaan saja;harga12500/15000 tidak teridentifikasi tanpa asumsi tambahan,unitpasang juga tidak pasti.",
+        "proposal": "Nyatakan harga satuan sama di kedua toko dan semua jumlah dihitung perpasang;atau gunakan satu toko yang sama."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Dua toko perlengkapan olahraga menawarkan paket kaus kaki dan sarung tangan:\nToko Maju: 2 kaus kaki dan 3 sarung tangan seharga Rp70.000,00.\nToko Jaya: 4 kaus kaki dan 1 sarung tangan seharga Rp65.000,00.\nSeorang pembeli mengevaluasi harga satuan barang dari kedua toko tersebut. Manakah pernyataan evaluatif yang benar? (Jawaban benar lebih dari satu)",
+        "after": "Dua toko perlengkapan olahraga menawarkan paket kaus kaki dan sarung tangan:\nToko Maju: 2 kaus kaki dan 3 sarung tangan seharga Rp70.000,00.\nToko Jaya: 4 kaus kaki dan 1 sarung tangan seharga Rp65.000,00.\nSeorang pembeli mengevaluasi harga satuan barang dari kedua toko tersebut. Manakah pernyataan evaluatif yang benar? (Jawaban benar lebih dari satu) Harga satuan setiap jenis barang sama pada kedua toko. Semua jumlah kaus kaki dan sarung tangan pada paket dihitung per pasang."
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN Misalkan $k=kauskaki$ dan $s=sarungtangan$. Model SPLDV:\n$2k+3s=70.000$\n$4k + s = 65.000 \\implies s = 65.000 - 4k$\nSubstitusi $s$ ke persamaan (1):\n$2k+3(65.000-4k)=70.000$\n$2k+195.000-12k=70.000$\n$$-10k = -125.000 \\implies k = 12.500 \\quad \\mathbf{(B\\text{ Benar, A Salah})}$$\nSubstitusi $k=12.500$:\n$s=65.000-4(12.500)=65.000-50.000=15.000(DBenar)$\nKarena Rp15.000,00 > Rp12.500,00, harga sarung tangan lebih mahal daripada kaus kaki (C Salah).",
+        "after": "Sistem 2k+3s=70000 dan 4k+s=65000 memberi k=12500 dan s=15000 rupiah per pasang. Sarung tangan lebih mahal. B,D benar."
+      }
+    ]
+  },
+  "pg-10-4-2": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "options",
+        "evidence": "OpsiA=5a-10b+15 dan opsiC=5a-10b+15 (Revisi hitung:5a-10b+15) identik sebagai polinom.",
+        "impact": "PG mempunyai dua opsi benar pada pembacaanA-B; kunci tunggalC tidak cukup.",
+        "proposal": "Ganti salah satu opsi duplikat dengan distraktor berbeda; buang catatan editorialRevisi hitung."
+      },
+      {
+        "component": "stem",
+        "evidence": "A-B=5a-10b+15; pada a=1,b=3 banyak bukuA=8,B=18, besar selisih10 sedangkan bentuk opsiA,C=-10.",
+        "impact": "Selisih antara dapat berarti nilai mutlak; tidak ada syarat A>=B.",
+        "proposal": "Ganti dengan KelompokA dikurangi KelompokB, atau minta|5a-10b+15| untuk besar selisih."
+      }
+    ],
+    "source_validity": "INVALID",
+    "source_answer_status": "INCORRECT",
+    "actions": [
+      {
+        "component": "stem",
+        "before": "Seorang pengurus perpustakaan merapikan dua kelompok buku cerita.\nKelompok A terdiri dari $4(2a-b+3)$ buku.\nKelompok B terdiri dari $3(a+2b-1)$ buku.\nSelisih banyak buku antara Kelompok A dan Kelompok B dalam bentuk aljabar paling sederhana adalah ....",
+        "after": "Seorang pengurus perpustakaan merapikan dua kelompok buku cerita.\nKelompok A terdiri dari $4(2a-b+3)$ buku.\nKelompok B terdiri dari $3(a+2b-1)$ buku.\nBanyak buku Kelompok A dikurangi banyak buku Kelompok B dalam bentuk aljabar paling sederhana adalah ...."
+      },
+      {
+        "component": "options",
+        "before": [
+          "$5a-10b+15$",
+          "$11a+2b+9$",
+          "$5a-10b+15$ (Revisi hitung: $5a-10b+15$)",
+          "$5a+2b+15$"
+        ],
+        "after": [
+          "$5a-10b+9$",
+          "$11a+2b+9$",
+          "$5a-10b+15$",
+          "$5a+2b+15$"
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN\nJabarkan masing-masing bentuk aljabar menggunakan sifat distributif:\nKelompok A $=4(2a-b+3)=8a-4b+12$\nKelompok B $=3(a+2b-1)=3a+6b-3$\nHitung selisih (Kelompok A $-$ Kelompok B):\n$Selisih=(8a-4b+12)-(3a+6b-3)$\n$Selisih=8a-4b+12-3a-6b+3$\nKelompokkan suku-suku sejenis:\n$Selisih=(8a-3a)+(-4b-6b)+(12+3)$\n$Selisih=5a-10b+15$",
+        "after": "Kelompok A=8a-4b+12, kelompok B=3a+6b-3. A dikurangi B=5a-10b+15. C benar."
+      }
+    ]
+  },
+  "kategori-10-5-9": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "findings": [
+      {
+        "component": "source_projection",
+        "evidence": "Tiga paragraf(a)/(b)/(c) setelahKUNCI JAWABAN masuk ke awalstem parser, padahal paragraf sumber jelas berada di bagian kunci.",
+        "impact": "Jika proyeksi ini ditampilkan, jawaban sudah terbaca sebelum stimulus. Ini artefak pemisahan komponen, bukan bagian soal yang dimaksud penulis.",
+        "proposal": "Buang baris deklarasi kunci dari proyeksistem; tetap simpan dalamdeclared_key_texts."
+      },
+      {
+        "component": "units",
+        "evidence": "Stimulus2(x^2+3x-4) rupiah dan3(x^2-2x+2) rupiah memberi padax=3 jumlah28+15=43 rupiah=43/1000 ribu rupiah. Opsi3 menulis43 rupiah(dalam ribuan).",
+        "impact": "Angka43 benar tetapi skala ribuan tidak didukung; status opsi3 dan kunci bergantung interpretasi satuan.",
+        "proposal": "Pilih satu: hapus(dalam ribuan), atau ubah satuan stimulus menjadi ribu rupiah secara konsisten."
+      }
+    ],
+    "source_validity": "UNCERTAIN",
+    "source_answer_status": "UNCERTAIN",
+    "actions": [
+      {
+        "component": "options",
+        "before": [
+          "Total dana dari kedua stand dapat disederhanakan menjadi $5{x}^{2}-2$.",
+          "Koefisien dari variabel $x$ pada total dana adalah $+6$.",
+          "Untuk $x=3$, total dana yang diperoleh kedua stand adalah 43 rupiah (dalam ribuan)."
+        ],
+        "after": [
+          "Total dana dari kedua stand dapat disederhanakan menjadi $5{x}^{2}-2$.",
+          "Koefisien dari variabel $x$ pada total dana adalah $+6$.",
+          "Untuk $x=3$, total dana yang diperoleh kedua stand adalah 43 rupiah."
+        ]
+      },
+      {
+        "component": "explanation",
+        "before": "PEMBAHASAN\nJabarkan masing-masing bentuk aljabar:\nStand 1 $=2{x}^{2}+6x-8$\nStand 2 $=3{x}^{2}-6x+6$\nHitung Total Dana:\n$Total=(2{x}^{2}+6x-8)+(3{x}^{2}-6x+6)$\n$Total=(2{x}^{2}+3{x}^{2})+(6x-6x)+(-8+6)$\n$Total=5{x}^{2}+0x-2=5{x}^{2}-2$\nPernyataan (a): Total dana $=5{x}^{2}-2$ (BENAR).\nPernyataan (b): Koefisien variabel $x$ adalah $0$ (suku $x$ saling menghilangkan, $6x-6x=0$), bukan $+6$. Maka (SALAH).\nPernyataan (c):\nSubstitusi $x = 3 \\implies 5(3)^2 - 2 = 5(9) - 2 = 45 - 2 = 43$ (BENAR).",
+        "after": "2(x^2+3x-4)+3(x^2-2x+2)=5x^2-2. Koefisien x nol. Pada x=3 total 43 rupiah. Pernyataan 1 dan 3 benar."
+      }
+    ]
+  },
+  "mcma-7-5-6": {
+    "authorization": "USER_APPROVED_MINIMUM_LOCAL_REVISION",
+    "actions": [
+      "Sumber valid dipertahankan; tiga stok klasifikasi PLSV ditulis dan diperiksa secara matematis."
+    ]
+  }
+}

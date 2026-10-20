@@ -1,0 +1,85 @@
+{
+  "question_id": "mcma-10-5-6",
+  "config_version": 1,
+  "original_hash": "cf6e63014f43896b",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "5+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "6+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "8+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang guru meminta siswa mengevaluasi penyederhanaan bentuk aljabar ${v0}a-2b+3(a-4b)-(2a-5b)$. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Setelah kurang/kurung dibuka, suku ber-variabel $a$ menjadi ${v0}a+3a-2a$.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Suku ber-variabel $b$ setelah disederhanakan bernilai $-9b$.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Bentuk aljabar paling sederhana dari ekspresi tersebut adalah ${v1}a-9b$.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Koefisien dari variabel $a$ pada bentuk paling sederhana adalah ${v2}$.",
+      "correct": false
+    }
+  ],
+  "explanation": "Buka kurung dengan perubahan tanda: ${v3}a-2b+3(a-4b)-(2a-5b)={v4}a-9b$. Suku a adalah ${v3}a+3a-2a$, suku b adalah $-9b$. Koefisien a ${v4}$, bukan ${v5}$. A, B, C benar; D salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

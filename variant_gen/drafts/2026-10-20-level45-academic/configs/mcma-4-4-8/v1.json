@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-4-4-8",
+  "config_version": 1,
+  "original_hash": "7188f3c704f8002f",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'108' if k == 0 else (108*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'135' if k == 0 else (135*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else (27*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (12*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "27*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus OSIS membagikan ${v0}$ buku agenda dan ${v1}$ pulpen ke dalam beberapa wadah bingkisan pengurus tanpa sisa. Pengurus tersebut mengevaluasi dua alternatif pengemasan:\nOpsi I: Dibagi ke dalam ${v2}$ wadah.\nOpsi II: Dibagi ke dalam ${v3}$ wadah (menggunakan FPB terbanyak).\nManakah evaluasi pernyataan matematika yang benar? (Jawaban benar dapat lebih dari satu)\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Opsi I adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Opsi II adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk karena $FPB({v0},{v1})={v3}$.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Pada Opsi II, setiap wadah berisi $4$ buku agenda dan $5$ pulpen.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pada Opsi I, setiap wadah berisi ${v4}$ buku agenda dan ${v4}$ pulpen.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hitung FPB dari dua jumlah yang ditampilkan: FPB = {v5}. Periksa keterbagian, isi tiap kelompok, dan syarat maksimum pada setiap opsi.",
+  "shuffle": false,
+  "max_draws": 1000
+}

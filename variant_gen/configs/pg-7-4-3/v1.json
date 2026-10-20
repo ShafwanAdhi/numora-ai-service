@@ -1,0 +1,109 @@
+{
+  "question_id": "pg-7-4-3",
+  "config_version": 1,
+  "original_hash": "00628fa369a6ec24",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'44' if k == 0 else (44+8*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'96' if k == 0 else (96+38*k+3*k*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'105' if k == 0 else (105+38*k+3*k*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'112' if k == 0 else (112+38*k+3*k*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'117' if k == 0 else (117+38*k+3*k*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "22+4*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "6+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "14+3*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "8+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "(14+3*k)*(8+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah persegi panjang memiliki ukuran panjang $(3x-4)cm$ dan lebar $(x+2)cm$. Jika keliling persegi panjang tersebut adalah ${v0}cm$, luas persegi panjang tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "${v1}c{m}^{2}$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "${v2}c{m}^{2}$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "${v3}c{m}^{2}$",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "${v4}c{m}^{2}$",
+      "correct": false
+    }
+  ],
+  "explanation": "Keliling memberi 4x-2 = {v5}, sehingga x = {v6}. Panjang {v7} cm, lebar {v8} cm. Luas = {v9} cm kuadrat. C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,65 @@
+{
+  "question_id": "mcma-15-2-8",
+  "config_version": 1,
+  "original_hash": "915f0418f570fe4f",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ]
+    },
+    "pq": {
+      "gen": "derived",
+      "expr": "9+3*k",
+      "fmt": "id"
+    },
+    "ratio": {
+      "gen": "derived",
+      "expr": "(3+k)/2",
+      "fmt": "id",
+      "decimals": 1
+    },
+    "denominator": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id"
+    },
+    "area_denominator": {
+      "gen": "derived",
+      "expr": "(3+k)**2",
+      "fmt": "id"
+    }
+  },
+  "constraints": [],
+  "stem": "Segitiga ABC sebangun dengan segitiga PQR dengan titik A, B, C berturut-turut bersesuaian dengan P, Q, R. Diketahui ∠A = 75°, ∠B = 65°, AB = 6 cm, dan PQ = {pq} cm. Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "∠R = 65°.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Panjang QR adalah {ratio} kali panjang BC.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Perbandingan luas segitiga ABC dan segitiga PQR adalah 2 : {denominator}.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Keliling segitiga PQR adalah {ratio} kali keliling segitiga ABC.",
+      "correct": true
+    }
+  ],
+  "explanation": "∠C = 180° - 75° - 65° = 40°, sehingga ∠R = 40°, bukan 65°. Skala PQ/AB = {pq}/6 = {ratio}. QR = {ratio} kali BC; keliling PQR = {ratio} kali keliling ABC. Luas ABC : PQR = 4 : {area_denominator}, bukan 2 : {denominator}. B,D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

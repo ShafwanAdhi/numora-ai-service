@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-5-5-9",
+  "config_version": 1,
+  "original_hash": "4422f7f3b41509cb",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'36.000,00' if k == 0 else (20*(1800+10*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'59.500,00' if k == 0 else (35*(1700+5*k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'1.800,00' if k == 0 else (1800+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "1800+10*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "1700+5*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "100+5*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus OSIS mengevaluasi dua pilihan paket kemasan minuman kotak untuk konsumsi pentas seni:\nPaket A: berisi $20$ kotak seharga Rp{v0}\nPaket B: berisi $35$ kotak seharga Rp{v1}\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi laju harga per kotak berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Harga per kotak minuman pada Paket A adalah Rp{v2}.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Harga per kotak minuman pada Paket B adalah Rp{v2}.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Paket B menawarkan harga per kotak yang lebih murah dibandingkan Paket A.",
+      "correct": true
+    }
+  ],
+  "explanation": "Harga A per kotak = {v3}. Harga B per kotak = {v4}. Selisih = {v5}, sehingga B lebih murah. Pernyataan 1 dan 3 benar; 2 salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

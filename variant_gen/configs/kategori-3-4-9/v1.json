@@ -1,0 +1,100 @@
+{
+  "question_id": "kategori-3-4-9",
+  "config_version": 1,
+  "original_hash": "689d27268554b811",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'5,46' if k == 0 else (5.46+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3,75' if k == 0 else (3.75+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'5,5' if k == 0 else (round(5.46+k,1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'10,5' if k == 0 else (10.5+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round(5.46+k,1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "round(3.75+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "floor(3.75+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "round(3.75+k,1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "10.5+2*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga bahan kimia kering di laboratorium ditimbang massanya:\nBahan X: ${v0} gram$\nBahan Y: ${v1} gram$\nBahan Z: $1,24 gram$\nTentukan status BENAR atau SALAH untuk setiap pernyataan analisis pembulatan berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Massa Bahan X (${v0} gram$) jika dibulatkan ke persepuluhan terdekat adalah ${v2} gram$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Massa Bahan Y (${v1}gram$) jika dibulatkan ke satuan terdekat adalah ${v3} gram$.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Estimasi total massa ketiga bahan jika masing-masing dibulatkan ke persepuluhan terdekat adalah ${v4} gram$.",
+      "correct": true
+    }
+  ],
+  "explanation": "Massa pertama ke persepuluhan = {v5}. Massa kedua ke satuan = {v6}, bukan {v7}. Massa kedua ke persepuluhan = {v8}. Massa ketiga ke persepuluhan = 1,2. Total estimasi = {v9}. Pernyataan 1 dan 3 benar; 2 salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

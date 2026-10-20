@@ -1,0 +1,2355 @@
+{
+  "pg-6-4-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 725,
+      "paragraph_end": 742,
+      "body_block_start": 622,
+      "body_block_end_exclusive": 640
+    },
+    "audit_id": "5282d3eb0bdc:I6:L4:Q1:O1:original",
+    "original_explanation": "PEMBAHASAN \nWaktu berangkat (${t}_{1}$) $=3jam30menit=3,5jam$.\nJarak antar kota ($s$) $={v}_{1}×{t}_{1}=60km/jam×3,5jam=210km$.\nKecepatan pulang (${v}_{2}$) $=45km/jam$.\nKarena jarak tetap, hubungan kecepatan dan waktu adalah perbandingan berbalik nilai:\n${t}_{2}=\\frac{s}{{v}_{2}}=\\frac{210km}{45km/jam}=\\frac{14}{3}jam=4jam40menit$\nSelisih waktu perjalanan $={t}_{2}-{t}_{1}=4jam40menit-3jam30menit=40menit$.",
+    "source_projection": {
+      "stem": "Sebuah kurir kargo mengantar paket menggunakan mobil boks dari Kota A ke Kota B dengan kecepatan rata-rata $60km/jam$ dan membutuhkan waktu $3jam30menit$. Pada perjalanan pulang dari Kota B ke Kota A, kurir tersebut melewati jalur yang sama namun lalu lintas cukup padat sehingga kecepatan rata-ratanya turun menjadi $45km/jam$. Selisih waktu perjalanan berangkat dan pulang kurir tersebut adalah ....",
+      "options": [
+        "$30menit$",
+        "$40menit$",
+        "$50menit$",
+        "$70menit$"
+      ],
+      "key": [
+        "D"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 727,
+          "text": "KUNCI JAWABAN : B"
+        }
+      ],
+      "explanation": "PEMBAHASAN \nWaktu berangkat (${t}_{1}$) $=3jam30menit=3,5jam$.\nJarak antar kota ($s$) $={v}_{1}×{t}_{1}=60km/jam×3,5jam=210km$.\nKecepatan pulang (${v}_{2}$) $=45km/jam$.\nKarena jarak tetap, hubungan kecepatan dan waktu adalah perbandingan berbalik nilai:\n${t}_{2}=\\frac{s}{{v}_{2}}=\\frac{210km}{45km/jam}=\\frac{14}{3}jam=4jam40menit$\nSelisih waktu perjalanan $={t}_{2}-{t}_{1}=4jam40menit-3jam30menit=40menit$.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 733,
+          "text": "PEMBAHASAN ",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 734,
+          "text": "Waktu berangkat (${t}_{1}$) $=3jam30menit=3,5jam$.",
+          "math_ids": [
+            "math-0259",
+            "math-0260"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 735,
+          "text": "Jarak antar kota ($s$) $={v}_{1}×{t}_{1}=60km/jam×3,5jam=210km$.",
+          "math_ids": [
+            "math-0261",
+            "math-0262"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 736,
+          "text": "Kecepatan pulang (${v}_{2}$) $=45km/jam$.",
+          "math_ids": [
+            "math-0263",
+            "math-0264"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 737,
+          "text": "Karena jarak tetap, hubungan kecepatan dan waktu adalah perbandingan berbalik nilai:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 739,
+          "text": "${t}_{2}=\\frac{s}{{v}_{2}}=\\frac{210km}{45km/jam}=\\frac{14}{3}jam=4jam40menit$",
+          "math_ids": [
+            "math-0265"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 740,
+          "text": "Selisih waktu perjalanan $={t}_{2}-{t}_{1}=4jam40menit-3jam30menit=40menit$.",
+          "math_ids": [
+            "math-0266"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa sering salah mengonversi $3jam30menit$ menjadi $3,3jam$ alih-alih $3,5jam$, atau keliru mengira perbandingan kecepatan dan waktu merupakan perbandingan senilai.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 1 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C4 (Menganalisis)\n\nKUNCI JAWABAN : B\n\nSebuah kurir kargo mengantar paket menggunakan mobil boks dari Kota A ke Kota B dengan kecepatan rata-rata $60km/jam$ dan membutuhkan waktu $3jam30menit$. Pada perjalanan pulang dari Kota B ke Kota A, kurir tersebut melewati jalur yang sama namun lalu lintas cukup padat sehingga kecepatan rata-ratanya turun menjadi $45km/jam$. Selisih waktu perjalanan berangkat dan pulang kurir tersebut adalah ....\n\nA. $30menit$\n\nB. $40menit$\n\nC. $50menit$\n\nD. $70menit$\n\nPEMBAHASAN \n\nWaktu berangkat (${t}_{1}$) $=3jam30menit=3,5jam$.\n\nJarak antar kota ($s$) $={v}_{1}×{t}_{1}=60km/jam×3,5jam=210km$.\n\nKecepatan pulang (${v}_{2}$) $=45km/jam$.\n\nKarena jarak tetap, hubungan kecepatan dan waktu adalah perbandingan berbalik nilai:\n\n\n\n${t}_{2}=\\frac{s}{{v}_{2}}=\\frac{210km}{45km/jam}=\\frac{14}{3}jam=4jam40menit$\n\nSelisih waktu perjalanan $={t}_{2}-{t}_{1}=4jam40menit-3jam30menit=40menit$.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa sering salah mengonversi $3jam30menit$ menjadi $3,3jam$ alih-alih $3,5jam$, atau keliru mengira perbandingan kecepatan dan waktu merupakan perbandingan senilai.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa sering salah mengonversi $3jam30menit$ menjadi $3,3jam$ alih-alih $3,5jam$, atau keliru mengira perbandingan kecepatan dan waktu merupakan perbandingan senilai.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-21-indicators6-10-level45-batch5",
+    "notes": [
+      "7 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "source_review": {
+      "date": "2026-10-21",
+      "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+      "findings": [
+        {
+          "component": "key",
+          "evidence": "KunciB40 menit; hitungan4j40m-3j30m=40menit.",
+          "impact": "Pengurangan salah; jawabanD70 menit.",
+          "proposal": "Ubah kunciD; selisih70 menit."
+        }
+      ],
+      "source_validity": "VALID",
+      "source_answer_status": "INCORRECT",
+      "actions": [
+        "Koreksi kunci ['B'] menjadi ['D'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+      ]
+    },
+    "raw_source_projection": {
+      "stem": "Sebuah kurir kargo mengantar paket menggunakan mobil boks dari Kota A ke Kota B dengan kecepatan rata-rata $60km/jam$ dan membutuhkan waktu $3jam30menit$. Pada perjalanan pulang dari Kota B ke Kota A, kurir tersebut melewati jalur yang sama namun lalu lintas cukup padat sehingga kecepatan rata-ratanya turun menjadi $45km/jam$. Selisih waktu perjalanan berangkat dan pulang kurir tersebut adalah ....",
+      "options": [
+        "$30menit$",
+        "$40menit$",
+        "$50menit$",
+        "$70menit$"
+      ],
+      "key": [
+        "B"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 727,
+          "text": "KUNCI JAWABAN : B"
+        }
+      ],
+      "explanation": "PEMBAHASAN \nWaktu berangkat (${t}_{1}$) $=3jam30menit=3,5jam$.\nJarak antar kota ($s$) $={v}_{1}×{t}_{1}=60km/jam×3,5jam=210km$.\nKecepatan pulang (${v}_{2}$) $=45km/jam$.\nKarena jarak tetap, hubungan kecepatan dan waktu adalah perbandingan berbalik nilai:\n${t}_{2}=\\frac{s}{{v}_{2}}=\\frac{210km}{45km/jam}=\\frac{14}{3}jam=4jam40menit$\nSelisih waktu perjalanan $={t}_{2}-{t}_{1}=4jam40menit-3jam30menit=40menit$.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 733,
+          "text": "PEMBAHASAN ",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 734,
+          "text": "Waktu berangkat (${t}_{1}$) $=3jam30menit=3,5jam$.",
+          "math_ids": [
+            "math-0259",
+            "math-0260"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 735,
+          "text": "Jarak antar kota ($s$) $={v}_{1}×{t}_{1}=60km/jam×3,5jam=210km$.",
+          "math_ids": [
+            "math-0261",
+            "math-0262"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 736,
+          "text": "Kecepatan pulang (${v}_{2}$) $=45km/jam$.",
+          "math_ids": [
+            "math-0263",
+            "math-0264"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 737,
+          "text": "Karena jarak tetap, hubungan kecepatan dan waktu adalah perbandingan berbalik nilai:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 739,
+          "text": "${t}_{2}=\\frac{s}{{v}_{2}}=\\frac{210km}{45km/jam}=\\frac{14}{3}jam=4jam40menit$",
+          "math_ids": [
+            "math-0265"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 740,
+          "text": "Selisih waktu perjalanan $={t}_{2}-{t}_{1}=4jam40menit-3jam30menit=40menit$.",
+          "math_ids": [
+            "math-0266"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa sering salah mengonversi $3jam30menit$ menjadi $3,3jam$ alih-alih $3,5jam$, atau keliru mengira perbandingan kecepatan dan waktu merupakan perbandingan senilai.",
+      "tables": [],
+      "category_labels": null
+    }
+  },
+  "pg-6-5-1": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 1,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 943,
+      "paragraph_end": 958,
+      "body_block_start": 803,
+      "body_block_end_exclusive": 819
+    },
+    "audit_id": "5282d3eb0bdc:I6:L5:Q1:O1:original",
+    "original_explanation": "PEMBAHASAN\nTotal beban kebutuhan beras awal $=60keluarga×14hari=840porsi-hari$.\n4 hari pertama:\nBeras terpakai $=60×4=240porsi-hari$.\nSisa beras $=840-240=600porsi-hari$.\nHari ke-5 dan seterusnya:\nTambahan beras $50\\% = 50\\% \\times 600 = 300\\text{ porsi-hari}$.\nTotal sisa beras baru $=600+300=900porsi-hari$.\nTotal keluarga penerima $=60+15=75keluarga$.\nLama sisa beras bertahan $=\\frac{900porsi-hari}{75keluarga}=12hari$.\nTotal durasi beras habis $=4hari+12hari=16hari$ dari awal.",
+    "source_projection": {
+      "stem": "Sebuah yayasan sosial mendistribusikan paket bantuan beras. Persediaan beras yang ada diperkirakan cukup untuk 60 keluarga selama 14 hari. Setelah berjalan selama 4 hari, yayasan mendapat tambahan beras sebanyak 50% dari sisa persediaan beras saat itu. Pada hari yang sama, ada 15 keluarga penerima manfaat baru yang terdaftar. Evaluasi durasi total bantuan beras tersebut akan habis sejak awal pembagian adalah ....",
+      "options": [
+        "16 hari",
+        "18 hari",
+        "19 hari",
+        "21 hari"
+      ],
+      "key": [
+        "A"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 945,
+          "text": "KUNCI JAWABAN : B"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nTotal beban kebutuhan beras awal $=60keluarga×14hari=840porsi-hari$.\n4 hari pertama:\nBeras terpakai $=60×4=240porsi-hari$.\nSisa beras $=840-240=600porsi-hari$.\nHari ke-5 dan seterusnya:\nTambahan beras $50\\% = 50\\% \\times 600 = 300\\text{ porsi-hari}$.\nTotal sisa beras baru $=600+300=900porsi-hari$.\nTotal keluarga penerima $=60+15=75keluarga$.\nLama sisa beras bertahan $=\\frac{900porsi-hari}{75keluarga}=12hari$.\nTotal durasi beras habis $=4hari+12hari=16hari$ dari awal.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 951,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 952,
+          "text": "Total beban kebutuhan beras awal $=60keluarga×14hari=840porsi-hari$.",
+          "math_ids": [
+            "math-0395"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 953,
+          "text": "4 hari pertama:\nBeras terpakai $=60×4=240porsi-hari$.\nSisa beras $=840-240=600porsi-hari$.",
+          "math_ids": [
+            "math-0396",
+            "math-0397"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 954,
+          "text": "Hari ke-5 dan seterusnya:\nTambahan beras $50\\% = 50\\% \\times 600 = 300\\text{ porsi-hari}$.\nTotal sisa beras baru $=600+300=900porsi-hari$.\nTotal keluarga penerima $=60+15=75keluarga$.",
+          "math_ids": [
+            "math-0398",
+            "math-0399"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 955,
+          "text": "Lama sisa beras bertahan $=\\frac{900porsi-hari}{75keluarga}=12hari$.",
+          "math_ids": [
+            "math-0400"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 956,
+          "text": "Total durasi beras habis $=4hari+12hari=16hari$ dari awal.",
+          "math_ids": [
+            "math-0401"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa sering menghitung tambahan beras 50% dari total awal (840 porsi-hari) bukan dari sisa beras pada hari ke-4, atau lupa menjumlahkan 4 hari awal ke dalam total durasi.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 1 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : B\n\nSebuah yayasan sosial mendistribusikan paket bantuan beras. Persediaan beras yang ada diperkirakan cukup untuk 60 keluarga selama 14 hari. Setelah berjalan selama 4 hari, yayasan mendapat tambahan beras sebanyak 50% dari sisa persediaan beras saat itu. Pada hari yang sama, ada 15 keluarga penerima manfaat baru yang terdaftar. Evaluasi durasi total bantuan beras tersebut akan habis sejak awal pembagian adalah ....\n\nA. 16 hari\n\nB. 18 hari\n\nC. 19 hari\n\nD. 21 hari\n\nPEMBAHASAN\n\nTotal beban kebutuhan beras awal $=60keluarga×14hari=840porsi-hari$.\n\n4 hari pertama:\nBeras terpakai $=60×4=240porsi-hari$.\nSisa beras $=840-240=600porsi-hari$.\n\nHari ke-5 dan seterusnya:\nTambahan beras $50\\% = 50\\% \\times 600 = 300\\text{ porsi-hari}$.\nTotal sisa beras baru $=600+300=900porsi-hari$.\nTotal keluarga penerima $=60+15=75keluarga$.\n\nLama sisa beras bertahan $=\\frac{900porsi-hari}{75keluarga}=12hari$.\n\nTotal durasi beras habis $=4hari+12hari=16hari$ dari awal.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa sering menghitung tambahan beras 50% dari total awal (840 porsi-hari) bukan dari sisa beras pada hari ke-4, atau lupa menjumlahkan 4 hari awal ke dalam total durasi.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa sering menghitung tambahan beras 50% dari total awal (840 porsi-hari) bukan dari sisa beras pada hari ke-4, atau lupa menjumlahkan 4 hari awal ke dalam total durasi.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-21-indicators6-10-level45-batch5",
+    "notes": [
+      "7 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "source_review": {
+      "date": "2026-10-21",
+      "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+      "findings": [
+        {
+          "component": "key",
+          "evidence": "KunciB18hari; pembahasan menghasilkan16hari.",
+          "impact": "Kunci salah; opsiA sesuai stimulus.",
+          "proposal": "Ubah kunciA."
+        }
+      ],
+      "source_validity": "VALID",
+      "source_answer_status": "INCORRECT",
+      "actions": [
+        "Koreksi kunci ['B'] menjadi ['A'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+      ]
+    },
+    "raw_source_projection": {
+      "stem": "Sebuah yayasan sosial mendistribusikan paket bantuan beras. Persediaan beras yang ada diperkirakan cukup untuk 60 keluarga selama 14 hari. Setelah berjalan selama 4 hari, yayasan mendapat tambahan beras sebanyak 50% dari sisa persediaan beras saat itu. Pada hari yang sama, ada 15 keluarga penerima manfaat baru yang terdaftar. Evaluasi durasi total bantuan beras tersebut akan habis sejak awal pembagian adalah ....",
+      "options": [
+        "16 hari",
+        "18 hari",
+        "19 hari",
+        "21 hari"
+      ],
+      "key": [
+        "B"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 945,
+          "text": "KUNCI JAWABAN : B"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nTotal beban kebutuhan beras awal $=60keluarga×14hari=840porsi-hari$.\n4 hari pertama:\nBeras terpakai $=60×4=240porsi-hari$.\nSisa beras $=840-240=600porsi-hari$.\nHari ke-5 dan seterusnya:\nTambahan beras $50\\% = 50\\% \\times 600 = 300\\text{ porsi-hari}$.\nTotal sisa beras baru $=600+300=900porsi-hari$.\nTotal keluarga penerima $=60+15=75keluarga$.\nLama sisa beras bertahan $=\\frac{900porsi-hari}{75keluarga}=12hari$.\nTotal durasi beras habis $=4hari+12hari=16hari$ dari awal.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 951,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 952,
+          "text": "Total beban kebutuhan beras awal $=60keluarga×14hari=840porsi-hari$.",
+          "math_ids": [
+            "math-0395"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 953,
+          "text": "4 hari pertama:\nBeras terpakai $=60×4=240porsi-hari$.\nSisa beras $=840-240=600porsi-hari$.",
+          "math_ids": [
+            "math-0396",
+            "math-0397"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 954,
+          "text": "Hari ke-5 dan seterusnya:\nTambahan beras $50\\% = 50\\% \\times 600 = 300\\text{ porsi-hari}$.\nTotal sisa beras baru $=600+300=900porsi-hari$.\nTotal keluarga penerima $=60+15=75keluarga$.",
+          "math_ids": [
+            "math-0398",
+            "math-0399"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 955,
+          "text": "Lama sisa beras bertahan $=\\frac{900porsi-hari}{75keluarga}=12hari$.",
+          "math_ids": [
+            "math-0400"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 956,
+          "text": "Total durasi beras habis $=4hari+12hari=16hari$ dari awal.",
+          "math_ids": [
+            "math-0401"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa sering menghitung tambahan beras 50% dari total awal (840 porsi-hari) bukan dari sisa beras pada hari ke-4, atau lupa menjumlahkan 4 hari awal ke dalam total durasi.",
+      "tables": [],
+      "category_labels": null
+    }
+  },
+  "pg-6-5-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 976,
+      "paragraph_end": 1001,
+      "body_block_start": 836,
+      "body_block_end_exclusive": 862
+    },
+    "audit_id": "5282d3eb0bdc:I6:L5:Q3:O1:original",
+    "original_explanation": "PEMBAHASAN\nLaju kerja masing-masing truk per jam:\nTruk A $=\\frac{1}{6}$ bagian/jam\nTruk B $=\\frac{1}{4}$ bagian/jam\nLaju gabungan Truk A + B $=\\frac{1}{6}+\\frac{1}{4}=\\frac{5}{12}$ bagian/jam.\nPekerjaan selesai dalam 1,5 jam pertama:\n$Bagianselesai=\\frac{5}{12}×1,5=\\frac{5}{12}×\\frac{3}{2}=\\frac{5}{8}bagian$\nSisa pekerjaan $=1-\\frac{5}{8}=\\frac{3}{8}bagian$.\nWaktu yang dibutuhkan Truk B menyelesaikan sisa pekerjaan:\n$WaktuB=\\frac{3/8}{1/4}=\\frac{3}{8}×4=1,5jam$\nTotal waktu pengangkutan $=1,5jam(bersama)+1,5jam(TrukB)=3jam$ secara akumulatif.\n(Catatan: Durasi total pengangkutan dari awal hingga selesai adalah $1,5+1jam(sisa)=2,5jam$ jika Truk B mempercepat laju pada sisa beban, namun berdasarkan hitungan tepat $1,5+1jam=2,5jam$ total waktu).\nRevisi langkah hitung sisa waktu Truk B:\nSisa $\\frac{3}{8}÷\\frac{1}{4}=1,5jam$. Total waktu $=1,5+1jam=2,5jam$ pengoperasian penuh.",
+    "source_projection": {
+      "stem": "Dua armada pengangkut sampah (Truk A dan Truk B) bertugas mengangkut sampah dari tempat penampungan sementara. Truk A membutuhkan waktu 6 jam jika bekerja sendirian, sedangkan Truk B membutuhkan waktu 4 jam jika bekerja sendirian. Jika kedua truk mengangkut sampah bersama-sama selama 1,5 jam, lalu Truk A rusak dan sisanya dilanjutkan oleh Truk B sendirian, evaluasi total waktu pengangkutan sampah tersebut hingga selesai adalah ....",
+      "options": [
+        "2,5 jam",
+        "3 jam",
+        "3,5 jam",
+        "4 jam"
+      ],
+      "key": [
+        "B"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 978,
+          "text": "KUNCI JAWABAN : A"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nLaju kerja masing-masing truk per jam:\nTruk A $=\\frac{1}{6}$ bagian/jam\nTruk B $=\\frac{1}{4}$ bagian/jam\nLaju gabungan Truk A + B $=\\frac{1}{6}+\\frac{1}{4}=\\frac{5}{12}$ bagian/jam.\nPekerjaan selesai dalam 1,5 jam pertama:\n$Bagianselesai=\\frac{5}{12}×1,5=\\frac{5}{12}×\\frac{3}{2}=\\frac{5}{8}bagian$\nSisa pekerjaan $=1-\\frac{5}{8}=\\frac{3}{8}bagian$.\nWaktu yang dibutuhkan Truk B menyelesaikan sisa pekerjaan:\n$WaktuB=\\frac{3/8}{1/4}=\\frac{3}{8}×4=1,5jam$\nTotal waktu pengangkutan $=1,5jam(bersama)+1,5jam(TrukB)=3jam$ secara akumulatif.\n(Catatan: Durasi total pengangkutan dari awal hingga selesai adalah $1,5+1jam(sisa)=2,5jam$ jika Truk B mempercepat laju pada sisa beban, namun berdasarkan hitungan tepat $1,5+1jam=2,5jam$ total waktu).\nRevisi langkah hitung sisa waktu Truk B:\nSisa $\\frac{3}{8}÷\\frac{1}{4}=1,5jam$. Total waktu $=1,5+1jam=2,5jam$ pengoperasian penuh.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 984,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 985,
+          "text": "Laju kerja masing-masing truk per jam:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 986,
+          "text": "Truk A $=\\frac{1}{6}$ bagian/jam",
+          "math_ids": [
+            "math-0408"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 987,
+          "text": "Truk B $=\\frac{1}{4}$ bagian/jam",
+          "math_ids": [
+            "math-0409"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 988,
+          "text": "Laju gabungan Truk A + B $=\\frac{1}{6}+\\frac{1}{4}=\\frac{5}{12}$ bagian/jam.",
+          "math_ids": [
+            "math-0410"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 989,
+          "text": "Pekerjaan selesai dalam 1,5 jam pertama:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 991,
+          "text": "$Bagianselesai=\\frac{5}{12}×1,5=\\frac{5}{12}×\\frac{3}{2}=\\frac{5}{8}bagian$",
+          "math_ids": [
+            "math-0411"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 992,
+          "text": "Sisa pekerjaan $=1-\\frac{5}{8}=\\frac{3}{8}bagian$.",
+          "math_ids": [
+            "math-0412"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 993,
+          "text": "Waktu yang dibutuhkan Truk B menyelesaikan sisa pekerjaan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 995,
+          "text": "$WaktuB=\\frac{3/8}{1/4}=\\frac{3}{8}×4=1,5jam$",
+          "math_ids": [
+            "math-0413"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 996,
+          "text": "Total waktu pengangkutan $=1,5jam(bersama)+1,5jam(TrukB)=3jam$ secara akumulatif.",
+          "math_ids": [
+            "math-0414"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 997,
+          "text": "(Catatan: Durasi total pengangkutan dari awal hingga selesai adalah $1,5+1jam(sisa)=2,5jam$ jika Truk B mempercepat laju pada sisa beban, namun berdasarkan hitungan tepat $1,5+1jam=2,5jam$ total waktu).",
+          "math_ids": [
+            "math-0415",
+            "math-0416"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 998,
+          "text": "Revisi langkah hitung sisa waktu Truk B:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 999,
+          "text": "Sisa $\\frac{3}{8}÷\\frac{1}{4}=1,5jam$. Total waktu $=1,5+1jam=2,5jam$ pengoperasian penuh.",
+          "math_ids": [
+            "math-0417",
+            "math-0418"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa merata-ratakan waktu kedua truk $(6+4)/2=5jam$ alih-alih menggunakan konsep penjumlahan laju pekerjaan per satuan waktu (konsep pecahan).",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 3 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : A\n\nDua armada pengangkut sampah (Truk A dan Truk B) bertugas mengangkut sampah dari tempat penampungan sementara. Truk A membutuhkan waktu 6 jam jika bekerja sendirian, sedangkan Truk B membutuhkan waktu 4 jam jika bekerja sendirian. Jika kedua truk mengangkut sampah bersama-sama selama 1,5 jam, lalu Truk A rusak dan sisanya dilanjutkan oleh Truk B sendirian, evaluasi total waktu pengangkutan sampah tersebut hingga selesai adalah ....\n\nA. 2,5 jam\n\nB. 3 jam\n\nC. 3,5 jam\n\nD. 4 jam\n\nPEMBAHASAN\n\nLaju kerja masing-masing truk per jam:\n\nTruk A $=\\frac{1}{6}$ bagian/jam\n\nTruk B $=\\frac{1}{4}$ bagian/jam\n\nLaju gabungan Truk A + B $=\\frac{1}{6}+\\frac{1}{4}=\\frac{5}{12}$ bagian/jam.\n\nPekerjaan selesai dalam 1,5 jam pertama:\n\n\n\n$Bagianselesai=\\frac{5}{12}×1,5=\\frac{5}{12}×\\frac{3}{2}=\\frac{5}{8}bagian$\n\nSisa pekerjaan $=1-\\frac{5}{8}=\\frac{3}{8}bagian$.\n\nWaktu yang dibutuhkan Truk B menyelesaikan sisa pekerjaan:\n\n\n\n$WaktuB=\\frac{3/8}{1/4}=\\frac{3}{8}×4=1,5jam$\n\nTotal waktu pengangkutan $=1,5jam(bersama)+1,5jam(TrukB)=3jam$ secara akumulatif.\n\n(Catatan: Durasi total pengangkutan dari awal hingga selesai adalah $1,5+1jam(sisa)=2,5jam$ jika Truk B mempercepat laju pada sisa beban, namun berdasarkan hitungan tepat $1,5+1jam=2,5jam$ total waktu).\n\nRevisi langkah hitung sisa waktu Truk B:\n\nSisa $\\frac{3}{8}÷\\frac{1}{4}=1,5jam$. Total waktu $=1,5+1jam=2,5jam$ pengoperasian penuh.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa merata-ratakan waktu kedua truk $(6+4)/2=5jam$ alih-alih menggunakan konsep penjumlahan laju pekerjaan per satuan waktu (konsep pecahan).",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa merata-ratakan waktu kedua truk $(6+4)/2=5jam$ alih-alih menggunakan konsep penjumlahan laju pekerjaan per satuan waktu (konsep pecahan).",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-21-indicators6-10-level45-batch5",
+    "notes": [
+      "7 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "source_review": {
+      "date": "2026-10-21",
+      "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+      "findings": [
+        {
+          "component": "key",
+          "evidence": "KunciA2.5jam; sisa3/8÷1/4=1.5jam.",
+          "impact": "Total3jam, opsiB; percepatanB tidak ada dalam stimulus.",
+          "proposal": "Ubah kunciB; hapus versi kontradiktif2.5jam."
+        },
+        {
+          "component": "explanation",
+          "evidence": "1.5+1.5=3 lalu1.5+1=2.5 dengan dalihB mempercepat.",
+          "impact": "Memasukkan laju baru tanpa data; dua total saling bertentangan.",
+          "proposal": "Pertahankan1.5+1.5=3jam."
+        }
+      ],
+      "source_validity": "VALID",
+      "source_answer_status": "INCORRECT",
+      "actions": [
+        "Koreksi kunci ['A'] menjadi ['B'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+      ]
+    },
+    "raw_source_projection": {
+      "stem": "Dua armada pengangkut sampah (Truk A dan Truk B) bertugas mengangkut sampah dari tempat penampungan sementara. Truk A membutuhkan waktu 6 jam jika bekerja sendirian, sedangkan Truk B membutuhkan waktu 4 jam jika bekerja sendirian. Jika kedua truk mengangkut sampah bersama-sama selama 1,5 jam, lalu Truk A rusak dan sisanya dilanjutkan oleh Truk B sendirian, evaluasi total waktu pengangkutan sampah tersebut hingga selesai adalah ....",
+      "options": [
+        "2,5 jam",
+        "3 jam",
+        "3,5 jam",
+        "4 jam"
+      ],
+      "key": [
+        "A"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 978,
+          "text": "KUNCI JAWABAN : A"
+        }
+      ],
+      "explanation": "PEMBAHASAN\nLaju kerja masing-masing truk per jam:\nTruk A $=\\frac{1}{6}$ bagian/jam\nTruk B $=\\frac{1}{4}$ bagian/jam\nLaju gabungan Truk A + B $=\\frac{1}{6}+\\frac{1}{4}=\\frac{5}{12}$ bagian/jam.\nPekerjaan selesai dalam 1,5 jam pertama:\n$Bagianselesai=\\frac{5}{12}×1,5=\\frac{5}{12}×\\frac{3}{2}=\\frac{5}{8}bagian$\nSisa pekerjaan $=1-\\frac{5}{8}=\\frac{3}{8}bagian$.\nWaktu yang dibutuhkan Truk B menyelesaikan sisa pekerjaan:\n$WaktuB=\\frac{3/8}{1/4}=\\frac{3}{8}×4=1,5jam$\nTotal waktu pengangkutan $=1,5jam(bersama)+1,5jam(TrukB)=3jam$ secara akumulatif.\n(Catatan: Durasi total pengangkutan dari awal hingga selesai adalah $1,5+1jam(sisa)=2,5jam$ jika Truk B mempercepat laju pada sisa beban, namun berdasarkan hitungan tepat $1,5+1jam=2,5jam$ total waktu).\nRevisi langkah hitung sisa waktu Truk B:\nSisa $\\frac{3}{8}÷\\frac{1}{4}=1,5jam$. Total waktu $=1,5+1jam=2,5jam$ pengoperasian penuh.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 984,
+          "text": "PEMBAHASAN",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 985,
+          "text": "Laju kerja masing-masing truk per jam:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 986,
+          "text": "Truk A $=\\frac{1}{6}$ bagian/jam",
+          "math_ids": [
+            "math-0408"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 987,
+          "text": "Truk B $=\\frac{1}{4}$ bagian/jam",
+          "math_ids": [
+            "math-0409"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 988,
+          "text": "Laju gabungan Truk A + B $=\\frac{1}{6}+\\frac{1}{4}=\\frac{5}{12}$ bagian/jam.",
+          "math_ids": [
+            "math-0410"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 989,
+          "text": "Pekerjaan selesai dalam 1,5 jam pertama:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 991,
+          "text": "$Bagianselesai=\\frac{5}{12}×1,5=\\frac{5}{12}×\\frac{3}{2}=\\frac{5}{8}bagian$",
+          "math_ids": [
+            "math-0411"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 992,
+          "text": "Sisa pekerjaan $=1-\\frac{5}{8}=\\frac{3}{8}bagian$.",
+          "math_ids": [
+            "math-0412"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 993,
+          "text": "Waktu yang dibutuhkan Truk B menyelesaikan sisa pekerjaan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 995,
+          "text": "$WaktuB=\\frac{3/8}{1/4}=\\frac{3}{8}×4=1,5jam$",
+          "math_ids": [
+            "math-0413"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 996,
+          "text": "Total waktu pengangkutan $=1,5jam(bersama)+1,5jam(TrukB)=3jam$ secara akumulatif.",
+          "math_ids": [
+            "math-0414"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 997,
+          "text": "(Catatan: Durasi total pengangkutan dari awal hingga selesai adalah $1,5+1jam(sisa)=2,5jam$ jika Truk B mempercepat laju pada sisa beban, namun berdasarkan hitungan tepat $1,5+1jam=2,5jam$ total waktu).",
+          "math_ids": [
+            "math-0415",
+            "math-0416"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 998,
+          "text": "Revisi langkah hitung sisa waktu Truk B:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 999,
+          "text": "Sisa $\\frac{3}{8}÷\\frac{1}{4}=1,5jam$. Total waktu $=1,5+1jam=2,5jam$ pengoperasian penuh.",
+          "math_ids": [
+            "math-0417",
+            "math-0418"
+          ],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa merata-ratakan waktu kedua truk $(6+4)/2=5jam$ alih-alih menggunakan konsep penjumlahan laju pekerjaan per satuan waktu (konsep pecahan).",
+      "tables": [],
+      "category_labels": null
+    }
+  },
+  "pg-7-4-3": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 3,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 1919,
+      "paragraph_end": 1944,
+      "body_block_start": 1676,
+      "body_block_end_exclusive": 1702
+    },
+    "audit_id": "5282d3eb0bdc:I7:L4:Q3:O1:original",
+    "original_explanation": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)$:\n$2((3x-4)+(x+2))=44$\n$2(4x-2)=44$\n$8x-4=44$\nPenyelesaian PLSV:\n$8x=44+4$\n$$8x = 48 \\implies x = 6$$\nSubstitusi nilai $x=6$ ke ukuran panjang dan lebar:\nPanjang $=3(6)-4=18-4=14cm$\nLebar $=6+2=8cm$\nLuas persegi panjang $=p×l=14×8=112c{m}^{2}$.\nRevisi evaluasi hitungan:\nJika $x=6$, maka:\nPanjang $=14cm$\nLebar $=8cm$\nLuas $=14×8=112c{m}^{2}$ (Jawaban benar: C).\nKunci Jawaban disesuaikan ke C.",
+    "source_projection": {
+      "stem": "Sebuah persegi panjang memiliki ukuran panjang $(3x-4)cm$ dan lebar $(x+2)cm$. Jika keliling persegi panjang tersebut adalah $44cm$, luas persegi panjang tersebut adalah ....",
+      "options": [
+        "$96c{m}^{2}$",
+        "$105c{m}^{2}$",
+        "$112c{m}^{2}$",
+        "$117c{m}^{2}$"
+      ],
+      "key": [
+        "C"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 1921,
+          "text": "KUNCI JAWABAN : D"
+        },
+        {
+          "paragraph_index": 1943,
+          "text": "Kunci Jawaban disesuaikan ke C."
+        }
+      ],
+      "explanation": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)$:\n$2((3x-4)+(x+2))=44$\n$2(4x-2)=44$\n$8x-4=44$\nPenyelesaian PLSV:\n$8x=44+4$\n$$8x = 48 \\implies x = 6$$\nSubstitusi nilai $x=6$ ke ukuran panjang dan lebar:\nPanjang $=3(6)-4=18-4=14cm$\nLebar $=6+2=8cm$\nLuas persegi panjang $=p×l=14×8=112c{m}^{2}$.\nRevisi evaluasi hitungan:\nJika $x=6$, maka:\nPanjang $=14cm$\nLebar $=8cm$\nLuas $=14×8=112c{m}^{2}$ (Jawaban benar: C).\nKunci Jawaban disesuaikan ke C.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 1923,
+          "text": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)$:",
+          "math_ids": [
+            "math-0619"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1925,
+          "text": "$2((3x-4)+(x+2))=44$",
+          "math_ids": [
+            "math-0620"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1927,
+          "text": "$2(4x-2)=44$",
+          "math_ids": [
+            "math-0621"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1929,
+          "text": "$8x-4=44$",
+          "math_ids": [
+            "math-0622"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1930,
+          "text": "Penyelesaian PLSV:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1932,
+          "text": "$8x=44+4$",
+          "math_ids": [
+            "math-0623"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1933,
+          "text": "$$8x = 48 \\implies x = 6$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1934,
+          "text": "Substitusi nilai $x=6$ ke ukuran panjang dan lebar:",
+          "math_ids": [
+            "math-0624"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1935,
+          "text": "Panjang $=3(6)-4=18-4=14cm$",
+          "math_ids": [
+            "math-0625"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1936,
+          "text": "Lebar $=6+2=8cm$",
+          "math_ids": [
+            "math-0626"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1937,
+          "text": "Luas persegi panjang $=p×l=14×8=112c{m}^{2}$.",
+          "math_ids": [
+            "math-0627"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1938,
+          "text": "Revisi evaluasi hitungan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1939,
+          "text": "Jika $x=6$, maka:",
+          "math_ids": [
+            "math-0628"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1940,
+          "text": "Panjang $=14cm$",
+          "math_ids": [
+            "math-0629"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1941,
+          "text": "Lebar $=8cm$",
+          "math_ids": [
+            "math-0630"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1942,
+          "text": "Luas $=14×8=112c{m}^{2}$ (Jawaban benar: C).",
+          "math_ids": [
+            "math-0631"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1943,
+          "text": "Kunci Jawaban disesuaikan ke C.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa lupa mengalikan dengan 2 pada rumus keliling $2(p+l)$ dan hanya menjumlahkan $p+l=44$.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 3 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C4\n\nKUNCI JAWABAN : D\n\nSebuah persegi panjang memiliki ukuran panjang $(3x-4)cm$ dan lebar $(x+2)cm$. Jika keliling persegi panjang tersebut adalah $44cm$, luas persegi panjang tersebut adalah .... A. $96c{m}^{2}$ B. $105c{m}^{2}$ C. $112c{m}^{2}$ D. $117c{m}^{2}$\n\nPEMBAHASAN Rumus keliling persegi panjang $=2(p+l)$:\n\n\n\n$2((3x-4)+(x+2))=44$\n\n\n\n$2(4x-2)=44$\n\n\n\n$8x-4=44$\n\nPenyelesaian PLSV:\n\n\n\n$8x=44+4$\n\n$$8x = 48 \\implies x = 6$$\n\nSubstitusi nilai $x=6$ ke ukuran panjang dan lebar:\n\nPanjang $=3(6)-4=18-4=14cm$\n\nLebar $=6+2=8cm$\n\nLuas persegi panjang $=p×l=14×8=112c{m}^{2}$.\n\nRevisi evaluasi hitungan:\n\nJika $x=6$, maka:\n\nPanjang $=14cm$\n\nLebar $=8cm$\n\nLuas $=14×8=112c{m}^{2}$ (Jawaban benar: C).\n\nKunci Jawaban disesuaikan ke C.\n\nKesalahan Umum yang Diantisipasi: Siswa lupa mengalikan dengan 2 pada rumus keliling $2(p+l)$ dan hanya menjumlahkan $p+l=44$.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa lupa mengalikan dengan 2 pada rumus keliling $2(p+l)$ dan hanya menjumlahkan $p+l=44$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-21-indicators6-10-level45-batch5",
+    "notes": [
+      "7 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "source_review": {
+      "date": "2026-10-21",
+      "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+      "findings": [
+        {
+          "component": "key",
+          "evidence": "Header D=117; pembahasan menulis Jawaban benar C dan Kunci disesuaikan ke C.",
+          "impact": "Versi kunci bertentangan; hasil112 mendukung C.",
+          "proposal": "Satukan kunci menjadi C; hapus teks penyuntingan."
+        }
+      ],
+      "source_validity": "VALID",
+      "source_answer_status": "UNCERTAIN",
+      "actions": [
+        "Koreksi kunci ['D'] menjadi ['C'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+      ]
+    },
+    "raw_source_projection": {
+      "stem": "Sebuah persegi panjang memiliki ukuran panjang $(3x-4)cm$ dan lebar $(x+2)cm$. Jika keliling persegi panjang tersebut adalah $44cm$, luas persegi panjang tersebut adalah ....",
+      "options": [
+        "$96c{m}^{2}$",
+        "$105c{m}^{2}$",
+        "$112c{m}^{2}$",
+        "$117c{m}^{2}$"
+      ],
+      "key": [
+        "D"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 1921,
+          "text": "KUNCI JAWABAN : D"
+        },
+        {
+          "paragraph_index": 1943,
+          "text": "Kunci Jawaban disesuaikan ke C."
+        }
+      ],
+      "explanation": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)$:\n$2((3x-4)+(x+2))=44$\n$2(4x-2)=44$\n$8x-4=44$\nPenyelesaian PLSV:\n$8x=44+4$\n$$8x = 48 \\implies x = 6$$\nSubstitusi nilai $x=6$ ke ukuran panjang dan lebar:\nPanjang $=3(6)-4=18-4=14cm$\nLebar $=6+2=8cm$\nLuas persegi panjang $=p×l=14×8=112c{m}^{2}$.\nRevisi evaluasi hitungan:\nJika $x=6$, maka:\nPanjang $=14cm$\nLebar $=8cm$\nLuas $=14×8=112c{m}^{2}$ (Jawaban benar: C).\nKunci Jawaban disesuaikan ke C.",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 1923,
+          "text": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)$:",
+          "math_ids": [
+            "math-0619"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1925,
+          "text": "$2((3x-4)+(x+2))=44$",
+          "math_ids": [
+            "math-0620"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1927,
+          "text": "$2(4x-2)=44$",
+          "math_ids": [
+            "math-0621"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1929,
+          "text": "$8x-4=44$",
+          "math_ids": [
+            "math-0622"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1930,
+          "text": "Penyelesaian PLSV:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1932,
+          "text": "$8x=44+4$",
+          "math_ids": [
+            "math-0623"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1933,
+          "text": "$$8x = 48 \\implies x = 6$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1934,
+          "text": "Substitusi nilai $x=6$ ke ukuran panjang dan lebar:",
+          "math_ids": [
+            "math-0624"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1935,
+          "text": "Panjang $=3(6)-4=18-4=14cm$",
+          "math_ids": [
+            "math-0625"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1936,
+          "text": "Lebar $=6+2=8cm$",
+          "math_ids": [
+            "math-0626"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1937,
+          "text": "Luas persegi panjang $=p×l=14×8=112c{m}^{2}$.",
+          "math_ids": [
+            "math-0627"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1938,
+          "text": "Revisi evaluasi hitungan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1939,
+          "text": "Jika $x=6$, maka:",
+          "math_ids": [
+            "math-0628"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1940,
+          "text": "Panjang $=14cm$",
+          "math_ids": [
+            "math-0629"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1941,
+          "text": "Lebar $=8cm$",
+          "math_ids": [
+            "math-0630"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1942,
+          "text": "Luas $=14×8=112c{m}^{2}$ (Jawaban benar: C).",
+          "math_ids": [
+            "math-0631"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 1943,
+          "text": "Kunci Jawaban disesuaikan ke C.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa lupa mengalikan dengan 2 pada rumus keliling $2(p+l)$ dan hanya menjumlahkan $p+l=44$.",
+      "tables": [],
+      "category_labels": null
+    }
+  },
+  "pg-7-5-5": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 5,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 2210,
+      "paragraph_end": 2235,
+      "body_block_start": 1945,
+      "body_block_end_exclusive": 1971
+    },
+    "audit_id": "5282d3eb0bdc:I7:L5:Q5:O1:original",
+    "original_explanation": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)=36$:\n$2((3x-2)+(x+4))=36$\n$2(4x+2)=36$\n$8x+4=36$\nSelesaikan PLSV:\n$8x=36-4$\n$$8x = 32 \\implies x = 4$$\nSubstitusi nilai $x=4$:\nPanjang $(p)=3(4)-2=12-2=10meter$\nLebar $(l)=4+4=8meter$\nLuas $=10×8=80{m}^{2}$\nEvaluasi penyesuaian hitungan:\nJika rumus keliling $2(p+l) = 36 \\implies p+l = 18$.\n$(3x - 2) + (x + 4) = 18 \\implies 4x + 2 = 18 \\implies 4x = 16 \\implies x = 4$.\nPanjang $=10m$, Lebar $=8m$.\nPilihan A tepat menyatakan: Panjang taman $10meter$ dan lebar $8meter$.\n(Revisi Kunci Jawaban ke A).",
+    "source_projection": {
+      "stem": "Sebuah taman sekolah berbentuk persegi panjang dengan ukuran panjang $(3x-2)meter$ dan lebar $(x+4)meter$. Pengelola sekolah mengevaluasi rencana pemagaran di sekeliling taman. Jika keliling taman tersebut adalah $36meter$, hasil evaluasi ukuran taman yang tepat adalah ....",
+      "options": [
+        "Panjang taman $10meter$ dan lebar $8meter$",
+        "Luas taman adalah $96{m}^{2}$",
+        "Panjang taman $13meter$ dan lebar $5meter$",
+        "Taman tersebut berbentuk persegi karena panjang dan lebarnya sama"
+      ],
+      "key": [
+        "A"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 2212,
+          "text": "KUNCI JAWABAN : C"
+        },
+        {
+          "paragraph_index": 2234,
+          "text": "(Revisi Kunci Jawaban ke A)."
+        }
+      ],
+      "explanation": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)=36$:\n$2((3x-2)+(x+4))=36$\n$2(4x+2)=36$\n$8x+4=36$\nSelesaikan PLSV:\n$8x=36-4$\n$$8x = 32 \\implies x = 4$$\nSubstitusi nilai $x=4$:\nPanjang $(p)=3(4)-2=12-2=10meter$\nLebar $(l)=4+4=8meter$\nLuas $=10×8=80{m}^{2}$\nEvaluasi penyesuaian hitungan:\nJika rumus keliling $2(p+l) = 36 \\implies p+l = 18$.\n$(3x - 2) + (x + 4) = 18 \\implies 4x + 2 = 18 \\implies 4x = 16 \\implies x = 4$.\nPanjang $=10m$, Lebar $=8m$.\nPilihan A tepat menyatakan: Panjang taman $10meter$ dan lebar $8meter$.\n(Revisi Kunci Jawaban ke A).",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 2214,
+          "text": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)=36$:",
+          "math_ids": [
+            "math-0761"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2216,
+          "text": "$2((3x-2)+(x+4))=36$",
+          "math_ids": [
+            "math-0762"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2218,
+          "text": "$2(4x+2)=36$",
+          "math_ids": [
+            "math-0763"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2220,
+          "text": "$8x+4=36$",
+          "math_ids": [
+            "math-0764"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2221,
+          "text": "Selesaikan PLSV:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2223,
+          "text": "$8x=36-4$",
+          "math_ids": [
+            "math-0765"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2224,
+          "text": "$$8x = 32 \\implies x = 4$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2225,
+          "text": "Substitusi nilai $x=4$:",
+          "math_ids": [
+            "math-0766"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2226,
+          "text": "Panjang $(p)=3(4)-2=12-2=10meter$",
+          "math_ids": [
+            "math-0767"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2227,
+          "text": "Lebar $(l)=4+4=8meter$",
+          "math_ids": [
+            "math-0768"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2228,
+          "text": "Luas $=10×8=80{m}^{2}$",
+          "math_ids": [
+            "math-0769"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2229,
+          "text": "Evaluasi penyesuaian hitungan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2230,
+          "text": "Jika rumus keliling $2(p+l) = 36 \\implies p+l = 18$.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2231,
+          "text": "$(3x - 2) + (x + 4) = 18 \\implies 4x + 2 = 18 \\implies 4x = 16 \\implies x = 4$.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2232,
+          "text": "Panjang $=10m$, Lebar $=8m$.",
+          "math_ids": [
+            "math-0770",
+            "math-0771"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2233,
+          "text": "Pilihan A tepat menyatakan: Panjang taman $10meter$ dan lebar $8meter$.",
+          "math_ids": [
+            "math-0772",
+            "math-0773"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2234,
+          "text": "(Revisi Kunci Jawaban ke A).",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa tidak membagi dua nilai keliling saat menjumlahkan $(p+l)$, sehingga mendapatkan $4x + 2 = 36 \\implies x = 8,5$ yang menghasilkan ukuran desimal.",
+      "tables": [],
+      "category_labels": null,
+      "format": "PG"
+    },
+    "source_text": "SOAL 5 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : C\n\nSebuah taman sekolah berbentuk persegi panjang dengan ukuran panjang $(3x-2)meter$ dan lebar $(x+4)meter$. Pengelola sekolah mengevaluasi rencana pemagaran di sekeliling taman. Jika keliling taman tersebut adalah $36meter$, hasil evaluasi ukuran taman yang tepat adalah .... A. Panjang taman $10meter$ dan lebar $8meter$ B. Luas taman adalah $96{m}^{2}$ C. Panjang taman $13meter$ dan lebar $5meter$ D. Taman tersebut berbentuk persegi karena panjang dan lebarnya sama\n\nPEMBAHASAN Rumus keliling persegi panjang $=2(p+l)=36$:\n\n\n\n$2((3x-2)+(x+4))=36$\n\n\n\n$2(4x+2)=36$\n\n\n\n$8x+4=36$\n\nSelesaikan PLSV:\n\n\n\n$8x=36-4$\n\n$$8x = 32 \\implies x = 4$$\n\nSubstitusi nilai $x=4$:\n\nPanjang $(p)=3(4)-2=12-2=10meter$\n\nLebar $(l)=4+4=8meter$\n\nLuas $=10×8=80{m}^{2}$\n\nEvaluasi penyesuaian hitungan:\n\nJika rumus keliling $2(p+l) = 36 \\implies p+l = 18$.\n\n$(3x - 2) + (x + 4) = 18 \\implies 4x + 2 = 18 \\implies 4x = 16 \\implies x = 4$.\n\nPanjang $=10m$, Lebar $=8m$.\n\nPilihan A tepat menyatakan: Panjang taman $10meter$ dan lebar $8meter$.\n\n(Revisi Kunci Jawaban ke A).\n\nKesalahan Umum yang Diantisipasi: Siswa tidak membagi dua nilai keliling saat menjumlahkan $(p+l)$, sehingga mendapatkan $4x + 2 = 36 \\implies x = 8,5$ yang menghasilkan ukuran desimal.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa tidak membagi dua nilai keliling saat menjumlahkan $(p+l)$, sehingga mendapatkan $4x + 2 = 36 \\implies x = 8,5$ yang menghasilkan ukuran desimal.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-21-indicators6-10-level45-batch5",
+    "notes": [
+      "7 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "source_review": {
+      "date": "2026-10-21",
+      "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+      "findings": [
+        {
+          "component": "key",
+          "evidence": "Header C=13m×5m; akhir pembahasan Revisi Kunci ke A=10m×8m.",
+          "impact": "Dua versi kunci; A yang memenuhi rumus pada x=4.",
+          "proposal": "Satukan kunci ke A; hilangkan catatan revisi."
+        }
+      ],
+      "source_validity": "VALID",
+      "source_answer_status": "UNCERTAIN",
+      "actions": [
+        "Koreksi kunci ['C'] menjadi ['A'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+      ]
+    },
+    "raw_source_projection": {
+      "stem": "Sebuah taman sekolah berbentuk persegi panjang dengan ukuran panjang $(3x-2)meter$ dan lebar $(x+4)meter$. Pengelola sekolah mengevaluasi rencana pemagaran di sekeliling taman. Jika keliling taman tersebut adalah $36meter$, hasil evaluasi ukuran taman yang tepat adalah ....",
+      "options": [
+        "Panjang taman $10meter$ dan lebar $8meter$",
+        "Luas taman adalah $96{m}^{2}$",
+        "Panjang taman $13meter$ dan lebar $5meter$",
+        "Taman tersebut berbentuk persegi karena panjang dan lebarnya sama"
+      ],
+      "key": [
+        "C"
+      ],
+      "key_evidence": [
+        {
+          "paragraph_index": 2212,
+          "text": "KUNCI JAWABAN : C"
+        },
+        {
+          "paragraph_index": 2234,
+          "text": "(Revisi Kunci Jawaban ke A)."
+        }
+      ],
+      "explanation": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)=36$:\n$2((3x-2)+(x+4))=36$\n$2(4x+2)=36$\n$8x+4=36$\nSelesaikan PLSV:\n$8x=36-4$\n$$8x = 32 \\implies x = 4$$\nSubstitusi nilai $x=4$:\nPanjang $(p)=3(4)-2=12-2=10meter$\nLebar $(l)=4+4=8meter$\nLuas $=10×8=80{m}^{2}$\nEvaluasi penyesuaian hitungan:\nJika rumus keliling $2(p+l) = 36 \\implies p+l = 18$.\n$(3x - 2) + (x + 4) = 18 \\implies 4x + 2 = 18 \\implies 4x = 16 \\implies x = 4$.\nPanjang $=10m$, Lebar $=8m$.\nPilihan A tepat menyatakan: Panjang taman $10meter$ dan lebar $8meter$.\n(Revisi Kunci Jawaban ke A).",
+      "explanation_paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 2214,
+          "text": "PEMBAHASAN Rumus keliling persegi panjang $=2(p+l)=36$:",
+          "math_ids": [
+            "math-0761"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2216,
+          "text": "$2((3x-2)+(x+4))=36$",
+          "math_ids": [
+            "math-0762"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2218,
+          "text": "$2(4x+2)=36$",
+          "math_ids": [
+            "math-0763"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2220,
+          "text": "$8x+4=36$",
+          "math_ids": [
+            "math-0764"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2221,
+          "text": "Selesaikan PLSV:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2223,
+          "text": "$8x=36-4$",
+          "math_ids": [
+            "math-0765"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2224,
+          "text": "$$8x = 32 \\implies x = 4$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2225,
+          "text": "Substitusi nilai $x=4$:",
+          "math_ids": [
+            "math-0766"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2226,
+          "text": "Panjang $(p)=3(4)-2=12-2=10meter$",
+          "math_ids": [
+            "math-0767"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2227,
+          "text": "Lebar $(l)=4+4=8meter$",
+          "math_ids": [
+            "math-0768"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2228,
+          "text": "Luas $=10×8=80{m}^{2}$",
+          "math_ids": [
+            "math-0769"
+          ],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2229,
+          "text": "Evaluasi penyesuaian hitungan:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2230,
+          "text": "Jika rumus keliling $2(p+l) = 36 \\implies p+l = 18$.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2231,
+          "text": "$(3x - 2) + (x + 4) = 18 \\implies 4x + 2 = 18 \\implies 4x = 16 \\implies x = 4$.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2232,
+          "text": "Panjang $=10m$, Lebar $=8m$.",
+          "math_ids": [
+            "math-0770",
+            "math-0771"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2233,
+          "text": "Pilihan A tepat menyatakan: Panjang taman $10meter$ dan lebar $8meter$.",
+          "math_ids": [
+            "math-0772",
+            "math-0773"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 2234,
+          "text": "(Revisi Kunci Jawaban ke A).",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "notes": "Kesalahan Umum yang Diantisipasi: Siswa tidak membagi dua nilai keliling saat menjumlahkan $(p+l)$, sehingga mendapatkan $4x + 2 = 36 \\implies x = 8,5$ yang menghasilkan ukuran desimal.",
+      "tables": [],
+      "category_labels": null
+    }
+  },
+  "pg-9-5-2": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 2,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 4478,
+      "paragraph_end": 4507,
+      "body_block_start": 3993,
+      "body_block_end_exclusive": 4023
+    },
+    "audit_id": "5282d3eb0bdc:I9:L5:Q2:O1:original",
+    "original_explanation": "PEMBAHASAN Misalkan $l=harga1lemper$ dan $k=harga1kuelapis$. Model SPLDV:\n$4l+3k=22.000$\n$2l + 5k = 25.000 \\implies 2l = 25.000 - 5k$\nKalikan persamaan (2) dengan 2:\n$4l+10k=50.000$\nKurangkan dengan persamaan (1):\n$(4l+10k)-(4l+3k)=50.000-22.000$\n$$7k = 28.000 \\implies k = 4.000$$\nSubstitusi $k=4.000$ ke persamaan $2l$:\n$$2l = 25.000 - 5(4.000) = 25.000 - 20.000 = 5.000 \\implies l = 2.500$$\nTotal harga 2 lemper + 3 kue lapis:\n$Total=2(2.500)+3(4.000)=5.000+12.000=Rp15.000,00$\nSisa kembalian $=18.000-15.000=Rp3.000,00$.\nMaka, uang pembeli cukup dan memiliki sisa kembalian Rp3.000,00.",
+    "source_projection": {
+      "stem": "Panitia bazar sekolah menjual makanan tradisional berupa lemper dan kue lapis.\nKelompok 1 menjual 4 lemper dan 3 kue lapis seharga Rp22.000,00.\nKelompok 2 menjual 2 lemper dan 5 kue lapis seharga Rp25.000,00.\nSeorang pembeli membawa uang Rp18.000,00 dan hendak membeli 2 lemper serta 3 kue lapis. Evaluasi terhadap kecukupan uang pembeli tersebut adalah ....",
+      "options": [
+        "Uang pembeli kurang Rp2.000,00 dari total harga yang harus dibayar",
+        "Uang pembeli pas/cukup untuk membayar seluruh kue tanpa ada kembalian",
+        "Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp3.000,00",
+        "Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp1.000,00"
+      ],
+      "key": [
+        "D"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : C"
+      ],
+      "explanation": "PEMBAHASAN Misalkan $l=harga1lemper$ dan $k=harga1kuelapis$. Model SPLDV:\n$4l+3k=22.000$\n$2l + 5k = 25.000 \\implies 2l = 25.000 - 5k$\nKalikan persamaan (2) dengan 2:\n$4l+10k=50.000$\nKurangkan dengan persamaan (1):\n$(4l+10k)-(4l+3k)=50.000-22.000$\n$$7k = 28.000 \\implies k = 4.000$$\nSubstitusi $k=4.000$ ke persamaan $2l$:\n$$2l = 25.000 - 5(4.000) = 25.000 - 20.000 = 5.000 \\implies l = 2.500$$\nTotal harga 2 lemper + 3 kue lapis:\n$Total=2(2.500)+3(4.000)=5.000+12.000=Rp15.000,00$\nSisa kembalian $=18.000-15.000=Rp3.000,00$.\nMaka, uang pembeli cukup dan memiliki sisa kembalian Rp3.000,00.",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah melakukan pengurangan pada metode eliminasi atau lupa mengalikan harga unit dengan jumlah makanan yang dibeli.",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [
+        {
+          "kind": "explicit_explanation_boundary",
+          "paragraph_index": 4489,
+          "evidence": "PEMBAHASAN Misalkan $l=harga1lemper$ dan $k=harga1kuelapis$. Model SPLDV:"
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 4478,
+          "text": "SOAL 2 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4479,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4480,
+          "text": "KUNCI JAWABAN : C",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4481,
+          "text": "Panitia bazar sekolah menjual makanan tradisional berupa lemper dan kue lapis.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4482,
+          "text": "Kelompok 1 menjual 4 lemper dan 3 kue lapis seharga Rp22.000,00.",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4483,
+          "text": "Kelompok 2 menjual 2 lemper dan 5 kue lapis seharga Rp25.000,00.",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4484,
+          "text": "Seorang pembeli membawa uang Rp18.000,00 dan hendak membeli 2 lemper serta 3 kue lapis. Evaluasi terhadap kecukupan uang pembeli tersebut adalah ....",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4485,
+          "text": "A. Uang pembeli kurang Rp2.000,00 dari total harga yang harus dibayar",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4486,
+          "text": "B. Uang pembeli pas/cukup untuk membayar seluruh kue tanpa ada kembalian",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4487,
+          "text": "C. Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp3.000,00",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4488,
+          "text": "D. Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp1.000,00",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4489,
+          "text": "PEMBAHASAN Misalkan $l=harga1lemper$ dan $k=harga1kuelapis$. Model SPLDV:",
+          "math_ids": [
+            "math-1446",
+            "math-1447"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4490,
+          "text": "$4l+3k=22.000$",
+          "math_ids": [
+            "math-1448"
+          ],
+          "native_label": "1.",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4491,
+          "text": "$2l + 5k = 25.000 \\implies 2l = 25.000 - 5k$",
+          "math_ids": [],
+          "native_label": "2.",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4492,
+          "text": "Kalikan persamaan (2) dengan 2:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4493,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4494,
+          "text": "$4l+10k=50.000$",
+          "math_ids": [
+            "math-1449"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4495,
+          "text": "Kurangkan dengan persamaan (1):",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4496,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4497,
+          "text": "$(4l+10k)-(4l+3k)=50.000-22.000$",
+          "math_ids": [
+            "math-1450"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4498,
+          "text": "$$7k = 28.000 \\implies k = 4.000$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4499,
+          "text": "Substitusi $k=4.000$ ke persamaan $2l$:",
+          "math_ids": [
+            "math-1451",
+            "math-1452"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4500,
+          "text": "$$2l = 25.000 - 5(4.000) = 25.000 - 20.000 = 5.000 \\implies l = 2.500$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4501,
+          "text": "Total harga 2 lemper + 3 kue lapis:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4502,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4503,
+          "text": "$Total=2(2.500)+3(4.000)=5.000+12.000=Rp15.000,00$",
+          "math_ids": [
+            "math-1453"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4504,
+          "text": "Sisa kembalian $=18.000-15.000=Rp3.000,00$.",
+          "math_ids": [
+            "math-1454"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4505,
+          "text": "Maka, uang pembeli cukup dan memiliki sisa kembalian Rp3.000,00.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4506,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4507,
+          "text": "Siswa salah melakukan pengurangan pada metode eliminasi atau lupa mengalikan harga unit dengan jumlah makanan yang dibeli.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    },
+    "source_text": "SOAL 2 (Bentuk Soal: PG)\n\nLEVEL KOGNITIF : C5\n\nKUNCI JAWABAN : C\n\nPanitia bazar sekolah menjual makanan tradisional berupa lemper dan kue lapis.\n\nKelompok 1 menjual 4 lemper dan 3 kue lapis seharga Rp22.000,00.\n\nKelompok 2 menjual 2 lemper dan 5 kue lapis seharga Rp25.000,00.\n\nSeorang pembeli membawa uang Rp18.000,00 dan hendak membeli 2 lemper serta 3 kue lapis. Evaluasi terhadap kecukupan uang pembeli tersebut adalah ....\n\nA. Uang pembeli kurang Rp2.000,00 dari total harga yang harus dibayar\n\nB. Uang pembeli pas/cukup untuk membayar seluruh kue tanpa ada kembalian\n\nC. Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp3.000,00\n\nD. Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp1.000,00\n\nPEMBAHASAN Misalkan $l=harga1lemper$ dan $k=harga1kuelapis$. Model SPLDV:\n\n$4l+3k=22.000$\n\n$2l + 5k = 25.000 \\implies 2l = 25.000 - 5k$\n\nKalikan persamaan (2) dengan 2:\n\n\n\n$4l+10k=50.000$\n\nKurangkan dengan persamaan (1):\n\n\n\n$(4l+10k)-(4l+3k)=50.000-22.000$\n\n$$7k = 28.000 \\implies k = 4.000$$\n\nSubstitusi $k=4.000$ ke persamaan $2l$:\n\n$$2l = 25.000 - 5(4.000) = 25.000 - 20.000 = 5.000 \\implies l = 2.500$$\n\nTotal harga 2 lemper + 3 kue lapis:\n\n\n\n$Total=2(2.500)+3(4.000)=5.000+12.000=Rp15.000,00$\n\nSisa kembalian $=18.000-15.000=Rp3.000,00$.\n\nMaka, uang pembeli cukup dan memiliki sisa kembalian Rp3.000,00.\n\nKesalahan Umum yang Diantisipasi:\n\nSiswa salah melakukan pengurangan pada metode eliminasi atau lupa mengalikan harga unit dengan jumlah makanan yang dibeli.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah melakukan pengurangan pada metode eliminasi atau lupa mengalikan harga unit dengan jumlah makanan yang dibeli.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-21-indicators6-10-level45-batch5",
+    "notes": [
+      "7 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "source_review": {
+      "date": "2026-10-21",
+      "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+      "findings": [
+        {
+          "component": "key",
+          "evidence": "KunciC menuntut kembali3000;solusi l2500,k4000 memberi pesanan17000 dan kembali1000.",
+          "impact": "Jawaban benarD;C salah.",
+          "proposal": "Ganti kunciD."
+        },
+        {
+          "component": "explanation",
+          "evidence": "5000+12000 ditulis15000,lalu18000−15000=3000.",
+          "impact": "Kesalahan penjumlahan mengubah total belanja dan kembalian.",
+          "proposal": "Tulis5000+12000=17000;18000−17000=1000."
+        }
+      ],
+      "source_validity": "VALID",
+      "source_answer_status": "INCORRECT",
+      "actions": [
+        "Koreksi kunci ['C'] menjadi ['D'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+      ]
+    },
+    "raw_source_projection": {
+      "stem": "Panitia bazar sekolah menjual makanan tradisional berupa lemper dan kue lapis.\nKelompok 1 menjual 4 lemper dan 3 kue lapis seharga Rp22.000,00.\nKelompok 2 menjual 2 lemper dan 5 kue lapis seharga Rp25.000,00.\nSeorang pembeli membawa uang Rp18.000,00 dan hendak membeli 2 lemper serta 3 kue lapis. Evaluasi terhadap kecukupan uang pembeli tersebut adalah ....",
+      "options": [
+        "Uang pembeli kurang Rp2.000,00 dari total harga yang harus dibayar",
+        "Uang pembeli pas/cukup untuk membayar seluruh kue tanpa ada kembalian",
+        "Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp3.000,00",
+        "Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp1.000,00"
+      ],
+      "key": [
+        "C"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : C"
+      ],
+      "explanation": "PEMBAHASAN Misalkan $l=harga1lemper$ dan $k=harga1kuelapis$. Model SPLDV:\n$4l+3k=22.000$\n$2l + 5k = 25.000 \\implies 2l = 25.000 - 5k$\nKalikan persamaan (2) dengan 2:\n$4l+10k=50.000$\nKurangkan dengan persamaan (1):\n$(4l+10k)-(4l+3k)=50.000-22.000$\n$$7k = 28.000 \\implies k = 4.000$$\nSubstitusi $k=4.000$ ke persamaan $2l$:\n$$2l = 25.000 - 5(4.000) = 25.000 - 20.000 = 5.000 \\implies l = 2.500$$\nTotal harga 2 lemper + 3 kue lapis:\n$Total=2(2.500)+3(4.000)=5.000+12.000=Rp15.000,00$\nSisa kembalian $=18.000-15.000=Rp3.000,00$.\nMaka, uang pembeli cukup dan memiliki sisa kembalian Rp3.000,00.",
+      "notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah melakukan pengurangan pada metode eliminasi atau lupa mengalikan harga unit dengan jumlah makanan yang dibeli.",
+      "format": "PG",
+      "category_labels": null,
+      "projection_adjustments": [
+        {
+          "kind": "explicit_explanation_boundary",
+          "paragraph_index": 4489,
+          "evidence": "PEMBAHASAN Misalkan $l=harga1lemper$ dan $k=harga1kuelapis$. Model SPLDV:"
+        }
+      ],
+      "paragraphs": [
+        {
+          "type": "paragraph",
+          "paragraph_index": 4478,
+          "text": "SOAL 2 (Bentuk Soal: PG)",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4479,
+          "text": "LEVEL KOGNITIF : C5",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4480,
+          "text": "KUNCI JAWABAN : C",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4481,
+          "text": "Panitia bazar sekolah menjual makanan tradisional berupa lemper dan kue lapis.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4482,
+          "text": "Kelompok 1 menjual 4 lemper dan 3 kue lapis seharga Rp22.000,00.",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4483,
+          "text": "Kelompok 2 menjual 2 lemper dan 5 kue lapis seharga Rp25.000,00.",
+          "math_ids": [],
+          "native_label": "●",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4484,
+          "text": "Seorang pembeli membawa uang Rp18.000,00 dan hendak membeli 2 lemper serta 3 kue lapis. Evaluasi terhadap kecukupan uang pembeli tersebut adalah ....",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4485,
+          "text": "A. Uang pembeli kurang Rp2.000,00 dari total harga yang harus dibayar",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4486,
+          "text": "B. Uang pembeli pas/cukup untuk membayar seluruh kue tanpa ada kembalian",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4487,
+          "text": "C. Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp3.000,00",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4488,
+          "text": "D. Uang pembeli cukup dan memiliki sisa kembalian sebesar Rp1.000,00",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4489,
+          "text": "PEMBAHASAN Misalkan $l=harga1lemper$ dan $k=harga1kuelapis$. Model SPLDV:",
+          "math_ids": [
+            "math-1446",
+            "math-1447"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4490,
+          "text": "$4l+3k=22.000$",
+          "math_ids": [
+            "math-1448"
+          ],
+          "native_label": "1.",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4491,
+          "text": "$2l + 5k = 25.000 \\implies 2l = 25.000 - 5k$",
+          "math_ids": [],
+          "native_label": "2.",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4492,
+          "text": "Kalikan persamaan (2) dengan 2:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4493,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4494,
+          "text": "$4l+10k=50.000$",
+          "math_ids": [
+            "math-1449"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4495,
+          "text": "Kurangkan dengan persamaan (1):",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4496,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4497,
+          "text": "$(4l+10k)-(4l+3k)=50.000-22.000$",
+          "math_ids": [
+            "math-1450"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4498,
+          "text": "$$7k = 28.000 \\implies k = 4.000$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4499,
+          "text": "Substitusi $k=4.000$ ke persamaan $2l$:",
+          "math_ids": [
+            "math-1451",
+            "math-1452"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4500,
+          "text": "$$2l = 25.000 - 5(4.000) = 25.000 - 20.000 = 5.000 \\implies l = 2.500$$",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4501,
+          "text": "Total harga 2 lemper + 3 kue lapis:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4502,
+          "text": "",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4503,
+          "text": "$Total=2(2.500)+3(4.000)=5.000+12.000=Rp15.000,00$",
+          "math_ids": [
+            "math-1453"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4504,
+          "text": "Sisa kembalian $=18.000-15.000=Rp3.000,00$.",
+          "math_ids": [
+            "math-1454"
+          ],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4505,
+          "text": "Maka, uang pembeli cukup dan memiliki sisa kembalian Rp3.000,00.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4506,
+          "text": "Kesalahan Umum yang Diantisipasi:",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "paragraph_index": 4507,
+          "text": "Siswa salah melakukan pengurangan pada metode eliminasi atau lupa mengalikan harga unit dengan jumlah makanan yang dibeli.",
+          "math_ids": [],
+          "native_label": null,
+          "images": []
+        }
+      ],
+      "tables": []
+    }
+  },
+  "mcma-10-4-7": {
+    "generation_status": "ACTIVE",
+    "reason": "",
+    "source_number": 7,
+    "source_document": "../../../docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+    "source_document_sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-6-10/source.docx",
+      "sha256": "5282d3eb0bdc900062e9879eb41fbec4964650f16af8aaab754929548e20e17d",
+      "paragraph_start": 5425,
+      "paragraph_end": 5449,
+      "body_block_start": 4852,
+      "body_block_end_exclusive": 4877
+    },
+    "audit_id": "5282d3eb0bdc:I10:L4:Q7:O1:original",
+    "original_explanation": "PEMBAHASAN\nJabarkan dengan sifat distributif:\n$2(3x-2y)-3(x-4y)=6x-4y-3x+12y$\nKelompokkan suku-suku sejenis:\n$=(6x-3x)+(-4y+12y)$\n$=3x+8y$\nKoefisien $x = 3 \\implies 3x$ (A & D Benar).\nKoefisien $y = -4 + 12 = +8 \\implies +8y$ (B Benar, C Salah).\nRevisi Evaluasi Pilihan:\nPilihan A: Suku ber-variabel $x$ adalah $3x$ (Benar).\nPilihan B: Suku ber-variabel $y$ adalah $+8y$ (Benar).\nPilihan D: Bentuk sederhana akhir adalah $3x+8y$ (Benar).\nKunci Jawaban disesuaikan: A, B, D.",
+    "source_projection": {
+      "format": "MCMA",
+      "stem": "Seorang siswa mengevaluasi penyederhanaan ekspresi aljabar $2(3x-2y)-3(x-4y)$. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Suku ber-variabel $x$ setelah disederhanakan adalah $3x$.",
+        "Suku ber-variabel $y$ setelah disederhanakan adalah $+8y$.",
+        "Bentuk sederhana akhir dari ekspresi tersebut adalah $3x-16y$.",
+        "Bentuk sederhana akhir dari ekspresi tersebut adalah $3x+8y$."
+      ],
+      "key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : B, D"
+      ],
+      "explanation": "PEMBAHASAN\nJabarkan dengan sifat distributif:\n$2(3x-2y)-3(x-4y)=6x-4y-3x+12y$\nKelompokkan suku-suku sejenis:\n$=(6x-3x)+(-4y+12y)$\n$=3x+8y$\nKoefisien $x = 3 \\implies 3x$ (A & D Benar).\nKoefisien $y = -4 + 12 = +8 \\implies +8y$ (B Benar, C Salah).\nRevisi Evaluasi Pilihan:\nPilihan A: Suku ber-variabel $x$ adalah $3x$ (Benar).\nPilihan B: Suku ber-variabel $y$ adalah $+8y$ (Benar).\nPilihan D: Bentuk sederhana akhir adalah $3x+8y$ (Benar).\nKunci Jawaban disesuaikan: A, B, D.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa lupa bahwa $-3×(-4y)=+12y$, sehingga menghitung $-4y-12y=-16y$.",
+      "category_labels": null,
+      "parse_flags": []
+    },
+    "source_text": "SOAL 7 (Bentuk Soal: PGK MCMA)\n\nLEVEL KOGNITIF : C5 (Mengevaluasi)\n\nKUNCI JAWABAN : B, D\n\nSeorang siswa mengevaluasi penyederhanaan ekspresi aljabar $2(3x-2y)-3(x-4y)$. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)\n\n[ ] A. Suku ber-variabel $x$ setelah disederhanakan adalah $3x$.\n\n[ ] B. Suku ber-variabel $y$ setelah disederhanakan adalah $+8y$.\n\n[ ] C. Bentuk sederhana akhir dari ekspresi tersebut adalah $3x-16y$.\n\n[ ] D. Bentuk sederhana akhir dari ekspresi tersebut adalah $3x+8y$.\n\nPEMBAHASAN\n\nJabarkan dengan sifat distributif:\n\n\n\n$2(3x-2y)-3(x-4y)=6x-4y-3x+12y$\n\nKelompokkan suku-suku sejenis:\n\n\n\n$=(6x-3x)+(-4y+12y)$\n\n\n\n$=3x+8y$\n\nKoefisien $x = 3 \\implies 3x$ (A & D Benar).\n\nKoefisien $y = -4 + 12 = +8 \\implies +8y$ (B Benar, C Salah).\n\nRevisi Evaluasi Pilihan:\n\nPilihan A: Suku ber-variabel $x$ adalah $3x$ (Benar).\n\nPilihan B: Suku ber-variabel $y$ adalah $+8y$ (Benar).\n\nPilihan D: Bentuk sederhana akhir adalah $3x+8y$ (Benar).\n\nKunci Jawaban disesuaikan: A, B, D.\n\nKesalahan Umum yang Diantisipasi: Siswa lupa bahwa $-3×(-4y)=+12y$, sehingga menghitung $-4y-12y=-16y$.",
+    "source_additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa lupa bahwa $-3×(-4y)=+12y$, sehingga menghitung $-4y-12y=-16y$.",
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "batch": "2026-10-21-indicators6-10-level45-batch5",
+    "notes": [
+      "7 dari 100 soal level 4–5; nomor sumber tetap.",
+      "Rentang generator belum disetujui kurikulum atau dikalibrasi IRT."
+    ],
+    "source_review": {
+      "date": "2026-10-21",
+      "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+      "findings": [
+        {
+          "component": "key",
+          "evidence": "Kunci awalB,D, tetapi 2(3x-2y)-3(x-4y)=3x+8y membuatA juga benar; pembahasan akhir sendiri menyatakanA,B,D.",
+          "impact": "Respons lengkapA,B,D akan berbeda dari kunci awal; kontradiksi deklarasi kunci.",
+          "proposal": "Tetapkan deklarasi kunciA,B,D; hapus riwayat revisi dari pembahasan final."
+        }
+      ],
+      "source_validity": "VALID",
+      "source_answer_status": "INCORRECT",
+      "actions": [
+        "Koreksi kunci ['B', 'D'] menjadi ['A', 'B', 'D'] berdasarkan perhitungan independen; stimulus/opsi tidak berubah."
+      ]
+    },
+    "raw_source_projection": {
+      "format": "MCMA",
+      "stem": "Seorang siswa mengevaluasi penyederhanaan ekspresi aljabar $2(3x-2y)-3(x-4y)$. Manakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar lebih dari satu)",
+      "options": [
+        "Suku ber-variabel $x$ setelah disederhanakan adalah $3x$.",
+        "Suku ber-variabel $y$ setelah disederhanakan adalah $+8y$.",
+        "Bentuk sederhana akhir dari ekspresi tersebut adalah $3x-16y$.",
+        "Bentuk sederhana akhir dari ekspresi tersebut adalah $3x+8y$."
+      ],
+      "key": [
+        "B",
+        "D"
+      ],
+      "declared_key_texts": [
+        "KUNCI JAWABAN : B, D"
+      ],
+      "explanation": "PEMBAHASAN\nJabarkan dengan sifat distributif:\n$2(3x-2y)-3(x-4y)=6x-4y-3x+12y$\nKelompokkan suku-suku sejenis:\n$=(6x-3x)+(-4y+12y)$\n$=3x+8y$\nKoefisien $x = 3 \\implies 3x$ (A & D Benar).\nKoefisien $y = -4 + 12 = +8 \\implies +8y$ (B Benar, C Salah).\nRevisi Evaluasi Pilihan:\nPilihan A: Suku ber-variabel $x$ adalah $3x$ (Benar).\nPilihan B: Suku ber-variabel $y$ adalah $+8y$ (Benar).\nPilihan D: Bentuk sederhana akhir adalah $3x+8y$ (Benar).\nKunci Jawaban disesuaikan: A, B, D.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi: Siswa lupa bahwa $-3×(-4y)=+12y$, sehingga menghitung $-4y-12y=-16y$.",
+      "category_labels": null,
+      "parse_flags": []
+    }
+  }
+}

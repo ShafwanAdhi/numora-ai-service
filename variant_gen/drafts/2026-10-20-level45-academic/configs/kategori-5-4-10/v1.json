@@ -1,0 +1,82 @@
+{
+  "question_id": "kategori-5-4-10",
+  "config_version": 1,
+  "original_hash": "9c0e45de68fe4d9d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else (27*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'45' if k == 0 else (45*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'72' if k == 0 else (72*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else (90*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'108' if k == 0 else (108*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "9*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim sablon dan banyak kaus olahraga yang selesai disablon:\nWaktu Kerja (jam) | Kaus Selesai (lembar)\n$3$ | ${v0}$\n$5$ | ${v1}$\n$8$ | ${v2}$\nSeorang siswa mengevaluasi proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Laju pencetakan sablon kaus tersebut adalah ${v3} lembar/jam$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika tim bekerja selama $10jam$, maka kaus yang selesai disablon adalah ${v4} lembar$.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Untuk menyelesaikan ${v5} lembar$ kaus, waktu kerja yang dibutuhkan adalah $14 jam$.",
+      "correct": false
+    }
+  ],
+  "explanation": "Semua pasangan tabel menghasilkan laju yang sama, {v6} per jam. Substitusi laju tersebut memverifikasi opsi yang benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-10-5-2",
+  "config_version": 1,
+  "original_hash": "27cc3348b74f2325",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'{a}' if k == 0 else 'a'"
+    },
+    "y": {
+      "gen": "derived",
+      "expr": "'{y}' if k == 0 else 'y'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (11+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' saat a=b=1)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "3+3*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "9+6*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3+2*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "11+6*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus koperasi sekolah mengevaluasi tiga formulasi bentuk aljabar untuk menghitung nilai total keuntungan barang:\nFormulasi 1: $2({v0}a+4b)+3(a-2b)$\nFormulasi 2: ${v2}a+2b$\nFormulasi 3: $3({v1}a+b)-b$\nFormulasi yang saling ekuivalen (menghasilkan nilai yang sama untuk setiap variabel $a$ dan $b$) adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Formulasi 1 dan Formulasi 2 saja",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Formulasi 2 dan Formulasi 3 saja",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Ketiga formulasi (1, 2, dan 3) saling ekuivalen{v3}{v4}{v5}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Tidak ada formulasi yang saling ekuivalen",
+      "correct": false
+    }
+  ],
+  "explanation": "Formulasi 1 $2({v6}a+4b)+3(a-2b)={v7}a+2b$. Formulasi 3 $3({v8}a+b)-b={v7}a+2b$. Ketiganya identik. Pada a=b=1 nilainya {v9}. C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

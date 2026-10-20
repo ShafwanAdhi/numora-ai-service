@@ -1,0 +1,116 @@
+{
+  "question_id": "mcma-22-4-6",
+  "config_version": 1,
+  "original_hash": "3e60e6e9c82548cf",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else ((60)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else ((70)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else ((90)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else ((75)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'85' if k == 0 else ((85)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (80-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' poin, rerata kedua kelompok)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "80-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan dua kelompok data berikut.\n\nKelompok A: {v0}, {v1}, {v2}, {v3}, {v4}\n\nKelompok B: {v1}, {v5}, {v2}, {v6}, {v3}\n\nPernyataan yang benar adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rerata kedua kelompok sama.{v7}{v8}{v9}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Median kedua kelompok sama.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jangkauan kelompok A lebih besar daripada kelompok B.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kelompok B memiliki rerata lebih tinggi daripada kelompok A.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Kelompok A memiliki penyebaran lebih kecil berdasarkan jangkauan.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v10}. Rerata dan median kedua kelompok={v10}. Jangkauan kelompok A=40, B=20; pusat sama tidak menyamakan penyebaran.",
+  "shuffle": false,
+  "max_draws": 1000
+}

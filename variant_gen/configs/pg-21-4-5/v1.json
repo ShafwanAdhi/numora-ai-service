@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-21-4-5",
+  "config_version": 1,
+  "original_hash": "3d2afdfb40173910",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else ((70)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else ((75)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'85' if k == 0 else ((85)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else ((90)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else ((60)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (80-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' poin, rerata kedua kelompok)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "80-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kelompok siswa memiliki data nilai berikut.\n\nKelompok A: {v0}, {v1}, {v2}, {v3}, {v4}\n\nKelompok B: {v5}, {v1}, {v2}, {v3}, {v6}\n\nSeorang siswa menyatakan bahwa kedua kelompok memiliki rerata dan median yang sama, sehingga penyebaran nilainya juga sama.\n\nEvaluasi yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena rerata dan median yang sama selalu menunjukkan penyebaran yang sama.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Benar, karena kedua kelompok mempunyai jumlah siswa yang sama.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena kedua kelompok memiliki jangkauan berbeda meskipun rerata dan median sama.{v7}{v8}{v9}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena rerata kedua kelompok berbeda.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v10}. Rerata dan median kedua kelompok={v10}. Jangkauan kelompok A=20, B=40; pusat sama tidak menyamakan penyebaran.",
+  "shuffle": false,
+  "max_draws": 1000
+}

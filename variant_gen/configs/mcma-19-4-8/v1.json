@@ -1,0 +1,73 @@
+{
+  "question_id": "mcma-19-4-8",
+  "config_version": 1,
+  "original_hash": "a52ced0b1899168d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else ((3+k)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "(3+k)**3",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "d": {
+      "gen": "derived",
+      "expr": "'{d}' if k == 0 else 'd'"
+    }
+  },
+  "constraints": [],
+  "stem": "Evaluasi pernyataan-pernyataan berikut mengenai volume bangun ruang (prisma, limas, dan bola). Pilihlah semua pernyataan yang benar!",
+  "options": [
+    {
+      "id": "A",
+      "text": "Volume prisma dengan alas dan tinggi yang sama dengan sebuah limas adalah 3 kali volume limas tersebut.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Jika dua buah bola memiliki perbandingan jari-jari 1 : {v0}, maka perbandingan volumenya adalah 1 : {v1}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Volume bola dengan diameter $d$ sama dengan volume limas dengan luas alas ${d}^{2}$ dan tinggi $d$.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Volume sebuah bola yang memiliki diameter $d$ dapat dinyatakan dengan rumus $\\frac{1}{6}π{d}^{3}$.",
+      "correct": true
+    }
+  ],
+  "explanation": "Hasil = {v2}. Rasio jari-jari1:{v3} memberi volume1:{v2}. Prisma3 kali limas pada alas/tinggi sama. Bola diameterd=pi*d^3/6, tidak sama dengan limas d^3/3. A,B,D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

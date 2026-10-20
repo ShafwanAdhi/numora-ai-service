@@ -1,0 +1,74 @@
+{
+  "question_id": "pg-23-5-2",
+  "config_version": 1,
+  "original_hash": "23cd9aa90cd784db",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'72' if k == 0 else (72+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'0,36' if k == 0 else ((72+2*k)/200)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "72+2*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "200",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dalam 200 kali pengambilan dengan pengembalian dari sebuah kantong, bola merah terambil {v0} kali. Seorang siswa menyimpulkan bahwa peluang teoretis bola merah adalah {v1}. Pernyataan yang paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kesimpulan pasti benar karena percobaan dilakukan 200 kali.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Kesimpulan pasti salah karena frekuensi relatif tidak berguna.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Nilai {v1} adalah frekuensi relatif hasil percobaan, tetapi belum tentu sama dengan peluang teoretis.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Peluang teoretis bola merah selalu 0,5.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Peluang teoretis bola merah adalah {v0}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v2}/{v3}. Nilai hasil percobaan adalah frekuensi relatif. Peluang teoretis memerlukan komposisi kantong, tidak otomatis sama dengan frekuensi relatif. Hanya C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-1-5-1",
+  "config_version": 1,
+  "original_hash": "6755c77d0d997ed7",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'1,95' if k == 0 else (1.95*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'I' if k == 0 else ('II')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'II' if k == 0 else ('I')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "-1.95*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "9*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga orang siswa mengevaluasi hasil pengukuran elevasi dasar saluran air di area kebun sekolah terhadap permukaan tanah netral ($0 m$):\nSaluran P: $-{v0} m$\nSaluran Q: $-\\sqrt{{v2} }m$\nSaluran R: $-\\frac{{v1}}{5} m$\nKetiga siswa memberikan laporan evaluasi urutan kedalaman saluran dari yang paling dalam (paling kecil/paling kiri di garis bilangan) ke yang paling dangkal (paling besar):\nEvaluasi {v3}: Saluran Q ($-\\sqrt{{v2}} m$), Saluran R ($-\\frac{{v1}}{5} m$), Saluran P ($-{v0} m$)\nEvaluasi {v4}: Saluran P ($-{v0} m$), Saluran R ($-\\frac{{v1}}{5} m$), Saluran Q ($-\\sqrt{{v2} }m$)\nEvaluasi III: Saluran R ($-\\frac{{v1}}{5} m$), Saluran Q ($-\\sqrt{{v2}} m$), Saluran P ($-{v0} m$)\nEvaluasi IV: Saluran P ($-{v0} m$), Saluran Q ($-\\sqrt{{v2} }m$), Saluran R ($-\\frac{{v1}}{5} m$)\nHasil evaluasi manakah yang pasti benar secara matematis?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": "k != 0"
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II",
+      "correct": "k == 0"
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi IV",
+      "correct": false
+    }
+  ],
+  "explanation": "P = {v5}, R = -{v6}/5, Q = -sqrt({v7}). Karena 1,95 > 1,8 > sqrt(3), untuk skala positif urutannya P < R < Q. Evaluasi yang memuat urutan P, R, Q adalah yang benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,98 @@
+id,format,cognitive_level,stem,options_json,key,version
+kategori-6-4-9,KATEGORI,C4,"Terdapat dua resep pembuat minuman sirup buah untuk acara festival sekolah:
+Resep Alpha: Menggunakan campuran $200ml$ sirup murni dan $800ml$ air mineral.
+Resep Beta: Menggunakan campuran $300ml$ sirup murni dan $900ml$ air mineral.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis konsentrasi berikut!","[""Rasio sirup murni terhadap total minuman pada Resep Alpha adalah $1:5$."", ""Resep Alpha rasa buahnya lebih manis daripada Resep Beta karena jumlah airnya lebih sedikit."", ""Untuk membuat $2liter$ minuman dengan rasa setara Resep Beta, dibutuhkan $500ml$ sirup murni.""]","1,3",1
+mcma-6-5-7,MCMA,C5,"Sebuah penyedia jasa cetak foto menawarkan dua pilihan paket spanduk sekolah:
+Cetak $10{m}^{2}$ membutuhkan waktu 2 jam dengan biaya Rp150.000,00.
+Cetak $15{m}^{2}$ membutuhkan waktu 2 jam dengan biaya Rp250.000,00.
+Evaluasilah pernyataan berikut dan pilihlah pernyataan yang tepat! (Jawaban benar lebih dari satu)","[""Tarif per meter persegi Paket Hemat lebih mahal daripada Paket Cepat."", ""Kecepatan cetak Paket Cepat adalah $7,5{m}^{2}/jam$."", ""Untuk mencetak $30{m}^{2}$ spanduk, Paket Hemat memerlukan biaya Rp450.000,00."", ""Jika menggunakan Paket Cepat, mencetak $45{m}^{2}$ spanduk dapat selesai dalam waktu 4 jam.""]","B,C",1
+kategori-6-5-9,KATEGORI,C5,"Pengelola kolam renang mengevaluasi pengisian dua kolam (Kolam X dan Kolam Y) menggunakan kran air otomatis.
+Kolam X: Berkapasitas $60{m}^{3}$, diisi dengan 3 kran identik dan penuh dalam waktu 4 jam.
+Kolam Y: Berkapasitas $90{m}^{3}$, diisi dengan 4 kran yang sama.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Debit aliran 1 kran air adalah $5{m}^{3}/jam$."", ""Kolam Y akan terisi penuh dalam waktu kurang dari 4 jam."", ""Jika Kolam X diisi hanya dengan 2 kran, waktu pengisian menjadi 6 jam.""]","1,3",1
+mcma-7-4-6,MCMA,C4,"Di antara pilihan persamaan-persamaan berikut, manakah yang dapat diubah menjadi bentuk Persamaan Linear Satu Variabel (PLSV) berderajat satu setelah disederhanakan? (Jawaban benar lebih dari satu)","[""$3(x-2)+5=2x+9$"", ""${x}^{2}+4x-5={x}^{2}-3$"", ""$\\frac{2x+6}{4}=5$"", ""$2x+3y=12$""]","A,B,C",1
+kategori-7-4-10,KATEGORI,C5,"Seorang guru memberikan tiga bentuk persamaan kepada siswanya untuk dievaluasi jenis solusinya:
+Persamaan I: $2(x+3)=2x+6$
+Persamaan II: $3x+5=3x-2$
+Persamaan III: $4x-8=0$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Persamaan I memiliki tak hingga banyaknya penyelesaian."", ""Persamaan II tidak memiliki penyelesaian sama sekali."", ""Persamaan III memiliki dua solusi yaitu $x=2$ dan $x=-2$.""]","1,2",1
+kategori-7-5-10,KATEGORI,C5,"Seorang guru matematika menyajikan tiga buah persamaan linear untuk dievaluasi oleh siswanya:
+Persamaan I: $5(x-2)=5x-10$
+Persamaan II: $2x+7=2x-3$
+Persamaan III: $3x-12=0$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!","[""Persamaan I berlaku untuk semua nilai $x$ bilangan real (tak hingga solusi)."", ""Persamaan II tidak dapat diselesaikan karena menghasilkan $7=-3$ (tidak ada solusi)."", ""Persamaan III tidak memiliki nilai $x$ yang memenuhi.""]","1,2",1
+pg-8-4-4,PG,C5,"Seorang siswa menyajikan langkah penyelesaian pertidaksamaan $3x-7>5x+3$ sebagai berikut:
+Langkah 1: $3x-5x>3+7$
+Langkah 2: $-2x>10$
+Langkah 3: $x>\frac{10}{-2}$
+Langkah 4: $x>-5$
+Evaluasi yang tepat mengenai langkah penyelesaian siswa tersebut adalah ....","[""Langkah 1 salah, seharusnya $3x+5x>3-7$"", ""Langkah 2 salah, seharusnya $-2x>-4$"", ""Penyelesaian siswa sudah benar dari Langkah 1 hingga Langkah 4"", ""Langkah 3 dan 4 salah, seharusnya tanda pertidaksamaan dibalik menjadi $x<-5$ karena dibagi dengan $-2$""]",D,1
+mcma-8-4-6,MCMA,C4,Manakah di antara bentuk-bentuk hubungan aljabar berikut yang termasuk ke dalam Pertidaksamaan Linear Satu Variabel (PtLSV)? (Jawaban benar lebih dari satu),"[""$2x-5<9$"", ""$\\frac{x+3}{4}≥2$"", ""${x}^{2}-3x≤10$"", ""$4(y-1)≤2y+8$""]","A,B,D",1
+kategori-8-4-10,KATEGORI,C5,"Seorang guru meminta siswa mengevaluasi perbedaan antara Persamaan Linear Satu Variabel (PLSV) dan Pertidaksamaan Linear Satu Variabel (PtLSV):
+Persamaan: $2x+6=12$
+Pertidaksamaan: $2x+6≤12$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!","[""Persamaan $2x+6=12$ hanya memiliki satu solusi tunggal yaitu $x=3$."", ""Pertidaksamaan $2x+6≤12$ memiliki banyak penyelesaian yaitu seluruh $x≤3$."", ""Jika kedua bentuk di atas dikalikan dengan bilangan negatif $-1$, tanda hubungan pada kedua bentuk tersebut akan sama-sama berubah arah.""]","1,2",1
+pg-8-5-4,PG,C5,Pengelola lift barang di perpustakaan sekolah menetapkan bahwa kapasitas beban total lift tidak boleh melebihi $350kg$. Dua orang petugas perpustakaan dengan berat total $130kg$ akan membawa beberapa kardus buku yang masing-masing beratnya $15kg$. Evaluasi jumlah kardus buku maksimum yang aman diangkut dalam sekali jalan adalah ....,"[""Maksimal 14 kardus, karena $15(14)+130=340kg≤350kg$"", ""Maksimal 15 kardus, karena $15(15)+130=355kg$ masih dalam toleransi"", ""Maksimal 23 kardus, karena $350÷15=23,33$"", ""Maksimal 13 kardus, agar beban lift jauh di bawah batas maksimum""]",A,1
+mcma-8-5-6,MCMA,C5,"Seorang guru meminta siswa mengevaluasi empat bentuk hubungan aljabar berikut:
+(i) $2x-7<9$
+(ii) $3x+2y≤12$
+(iii) $\frac{x-2}{3}≥4$
+(iv) $5-4x>17$
+Manakah hasil evaluasi yang benar mengenai klasifikasi bentuk Pertidaksamaan Linear Satu Variabel (PtLSV)? (Jawaban benar lebih dari satu)","[""Formulasi (i) merupakan PtLSV karena memiliki satu variabel berderajat satu dan menggunakan tanda $<$."", ""Formulasi (ii) merupakan PtLSV karena pangkat tertinggi variabelnya adalah satu."", ""Formulasi (iii) merupakan PtLSV yang ekuivalen dengan $x≥14$."", ""Formulasi (iv) merupakan PtLSV dengan himpunan penyelesaian $x<-3$.""]","A,C,D",1
+pg-9-4-3,PG,C4,"Seorang guru menyajikan sistem persamaan linear dua variabel berikut untuk dianalisis jenis solusinya berdasarkan grafik koordinat Kartesius:
+$2x+3y=12$
+$4x+6y=24$
+Jenis solusi dari sistem persamaan linear tersebut dan interpretasi grafiknya yang benar adalah ....","[""Memiliki tak hingga banyaknya solusi, karena kedua garis saling berimpit"", ""Memiliki satu solusi tunggal, karena kedua garis saling berpotongan di satu titik"", ""Tidak memiliki solusi, karena kedua garis saling sejajar dan tidak pernah berpotongan"", ""Memiliki dua solusi, karena kedua garis memotong sumbu-$X$ dan sumbu-$Y$""]",A,1
+pg-9-4-4,PG,C5,"Seorang siswa menyajikan dua bentuk SPLDV untuk dievaluasi ketersediaan solusinya:
+System I: $x-2y=5$ dan $3x-6y=10$
+System II: $x+y=6$ dan $2x-y=3$
+Evaluasi yang tepat mengenai jenis solusi kedua sistem persamaan tersebut adalah ....","[""Sistem I memiliki solusi tunggal, sedangkan Sistem II tidak memiliki solusi"", ""Kedua sistem sama-sama memiliki tak hingga banyaknya solusi"", ""Kedua sistem sama-sama tidak memiliki solusi"", ""Sistem I tidak memiliki solusi (garis sejajar), sedangkan Sistem II memiliki solusi tunggal""]",D,1
+mcma-9-4-8,MCMA,C5,"Seorang siswa menganalisis hubungan koefisien dari tiga pasang SPLDV berikut:
+pasangan I: $2x+y=5$ dan $4x+2y=10$
+Pasangan II: $3x-y=4$ dan $3x-y=8$
+Pasangan III: $x+2y=6$ dan $2x-y=2$
+Manakah pernyataan evaluatif yang benar mengenai ketiga pasangan di atas? (Jawaban benar lebih dari satu)","[""Pasangan I tidak memiliki solusi karena koefisiennya merupakan kelipatan."", ""Pasangan I memiliki tak hingga banyaknya solusi karena kedua persamaan identik."", ""Pasangan II memiliki satu solusi tunggal."", ""Pasangan II tidak memiliki solusi karena kedua garis sejajar.""]","B,D",1
+pg-9-5-3,PG,C5,"Seorang guru menyajikan dua sistem persamaan linear dua variabel untuk dievaluasi jenis solusinya:
+Sistem I: $2x-3y=6$ dan $4x-6y=12$
+Sistem II: $x+2y=8$ dan $x+2y=12$
+Evaluasi yang tepat mengenai grafik dan solusi dari kedua sistem persamaan di atas adalah ....","[""Sistem I tidak memiliki solusi (sejajar), sedangkan Sistem II memiliki tak hingga solusi (berimpit)"", ""Sistem I memiliki solusi tunggal, sedangkan Sistem II tidak memiliki solusi"", ""Kedua sistem sama-sama memiliki tak hingga banyaknya solusi"", ""Sistem I memiliki tak hingga solusi (garis berimpit), sedangkan Sistem II tidak memiliki solusi (garis sejajar)""]",D,1
+pg-9-5-4,PG,C5,"Seorang siswa memilih metode penyelesaian untuk menyelesaikan SPLDV berikut:
+$y=3x-2$
+$2x+5y=24$
+Siswa tersebut berpendapat bahwa Metode Substitusi jauh lebih efisien dibandingkan Metode Eliminasi. Evaluasi terhadap pendapat siswa tersebut adalah ....","[""Benar, karena nilai $y$ sudah terisolasi pada persamaan pertama sehingga dapat langsung dimasukkan ke persamaan kedua"", ""Salah, karena metode eliminasi selalu lebih cepat dan tidak membutuhkan substitusi variabel"", ""Benar, tetapi hanya berlaku jika koefisien $x$ pada persamaan kedua bernilai negatif"", ""Salah, karena kedua metode memerlukan jumlah langkah perhitungan yang sama persis""]",A,1
+kategori-9-5-10,KATEGORI,C5,"Seorang guru meminta siswa mengevaluasi efisiensi tiga jenis metode penyelesaian untuk bentuk SPLDV berikut:
+$x=4$
+$2x+y=11$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!","[""Metode substitusi langsung memberikan nilai $y=3$ hanya dalam 1 langkah perhitungan."", ""Pasangan $(4,3)$ merupakan solusi tunggal dari sistem persamaan tersebut."", ""Metode eliminasi lebih cepat digunakan daripada metode substitusi untuk soal ini.""]","1,2",1
+pg-10-4-1,PG,C4,Sebuah kebun sekolah berbentuk persegi panjang memiliki ukuran panjang $(3x+5)meter$ dan lebar $(2x-1)meter$. Panitia penataan taman ingin menganalisis keliling kebun dan luas kebun dalam bentuk aljabar yang paling sederhana. Bentuk aljabar untuk keliling kebun tersebut adalah ....,"[""$(5x+4)meter$"", ""$(10x+8)meter$"", ""$(6{x}^{2}-5)meter$"", ""$(10x+4)meter$""]",B,1
+pg-10-4-4,PG,C5,"Seorang siswa menyajikan pengerjaan penyederhanaan bentuk aljabar $\frac{4{x}^{2}-9}{2{x}^{2}+x-6}$ sebagai berikut:
+Langkah 1: Memfaktorkan pembilang menjadi $(2x-3)(2x+3)$.
+Langkah 2: Memfaktorkan penyebut menjadi $(2x-3)(x+2)$.
+Langkah 3: Membagi faktor persekutuan $(2x-3)$ pada pembilang dan penyebut.
+Langkah 4: Menyimpulkan hasil akhir adalah $\frac{2x-3}{x+2}$.
+Evaluasi yang tepat mengenai langkah penyederhanaan siswa tersebut adalah ....","[""Langkah 1 salah, seharusnya pembilang difaktorkan menjadi $(4x-3)(x+3)$"", ""Langkah 2 salah, seharusnya penyebut difaktorkan menjadi $(2x+3)(x-2)$"", ""Langkah 3 salah, karena faktor $(2x-3)$ tidak boleh dicoret/dibagi"", ""Langkah 4 salah, seharusnya hasil akhir adalah $\\frac{2x+3}{x+2}$ karena sisa faktor pembilang adalah $(2x+3)$""]",D,1
+kategori-10-4-9,KATEGORI,C4,"Di sebuah minimarket sekolah, harga 1 buah buku adalah $x$ rupiah dan harga 1 buah pensil adalah $y$ rupiah. Rani membeli 3 buku dan 2 pensil, sedangkan Dika membeli 2 buku dan 4 pensil.
+Tentukan status BENAR atau SALAH untuk setiap pernyataan analisis berikut!","[""Total belanjaan Rani dan Dika dapat dinyatakan dalam bentuk aljabar $5x+6y$."", ""Selisih pengeluaran belanja Rani dan Dika adalah $x+2y$ rupiah."", ""Jika harga $x=5.000$ dan $y=2.000$, total belanjaan Rani adalah Rp19.000,00.""]","1,3",1
+kategori-10-4-10,KATEGORI,C5,"Seorang guru meminta siswa mengevaluasi kebenaran penerapan sifat-sifat operasi aljabar berikut:
+Sifat Komutatif: $3a+5b=5b+3a$
+Sifat Distributif: $4(2x-3y)=8x-12y$
+Sifat Asosiatif: $(2x×3y)×4z=2x×(12yz)=24xyz$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!","[""Sifat komutatif berlaku pada penjumlahan suku $3a+5b=5b+3a$."", ""Penerapan sifat distributif pada $4(2x-3y)$ menghasilkan $8x-12y$."", ""Sifat komutatif dan asosiatif juga berlaku penuh pada operasi pengurangan aljabar $(a-b=b-a)$.""]","1,2",1
+pg-10-5-2,PG,C5,"Seorang pengurus koperasi sekolah mengevaluasi tiga formulasi bentuk aljabar untuk menghitung nilai total keuntungan barang:
+Formulasi 1: $2(3a+4b)+3(a-2b)$
+Formulasi 2: $9a+2b$
+Formulasi 3: $3(3a+b)-b$
+Formulasi yang saling ekuivalen (menghasilkan nilai yang sama untuk setiap variabel $a$ dan $b$) adalah ....","[""Formulasi 1 dan Formulasi 2 saja"", ""Formulasi 2 dan Formulasi 3 saja"", ""Ketiga formulasi (1, 2, dan 3) saling ekuivalen"", ""Tidak ada formulasi yang saling ekuivalen""]",C,1
+pg-10-5-4,PG,C5,"Seorang siswa menyajikan pengerjaan penyederhanaan pecahan aljabar $\frac{{x}^{2}-5x+6}{{x}^{2}-9}$ sebagai berikut:
+Langkah 1: Memfaktorkan pembilang menjadi $(x-2)(x-3)$.
+Langkah 2: Memfaktorkan penyebut menjadi $(x-3)(x+3)$.
+Langkah 3: Membagi faktor persekutuan $(x-3)$ sehingga tersisa $\frac{x-2}{x+3}$.
+Langkah 4: Menyederhanakan lagi dengan mencoret $x$ pada pembilang dan penyebut menjadi $\frac{-2}{3}=-\frac{2}{3}$.
+Evaluasi yang tepat terhadap langkah pengerjaan siswa tersebut adalah ....","[""Langkah 1 salah, seharusnya pembilang difaktorkan menjadi $(x-1)(x-6)$"", ""Langkah 2 salah, seharusnya penyebut difaktorkan menjadi $(x-3{)}^{2}$"", ""Langkah 3 salah, faktor $(x-3)$ tidak boleh dibagi"", ""Langkah 4 salah, karena $x$ pada $\\frac{x-2}{x+3}$ merupakan suku (penjumlahan/pengurangan), bukan faktor perkalian sehingga tidak boleh dicoret""]",D,1
+mcma-10-5-7,MCMA,C5,Seorang siswa mengevaluasi pemfaktoran dari ekspresi kuadrat $2{x}^{2}+7x-15$. Manakah pernyataan evaluatif berikut yang benar? (Jawaban benar lebih dari satu),"[""Hasil pemfaktorannya adalah $(2x-3)(x-5)$."", ""Hasil pemfaktorannya adalah $(2x-3)(x+5)$."", ""Jika dijabarkan kembali, perkalian suku dalam menghasilkan $+10x$ dan suku luar $-3x$."", ""Perkalian $(2x-3)(x+5)$ terbukti ekuivalen dengan $2{x}^{2}+7x-15$.""]","B,D",1
+kategori-10-5-10,KATEGORI,C5,"Seorang guru meminta siswa mengevaluasi kebenaran identitas aljabar berikut:
+Identitas I: $(x+y{)}^{2}={x}^{2}+2xy+{y}^{2}$
+Identitas II: $(x-y{)}^{2}={x}^{2}-2xy+{y}^{2}$
+Identitas III: $(x+y)(x-y)={x}^{2}-{y}^{2}$
+Tentukan status BENAR atau SALAH untuk setiap pernyataan hasil evaluasi berikut!","[""Identitas I dan II terbukti benar untuk semua pasangan bilangan real $x$ dan $y$."", ""Identitas III dikenal sebagai bentuk selisih dua kuadrat."", ""Ekspresi $(x-y{)}^{2}$ ekuivalen dengan ${x}^{2}-{y}^{2}$.""]","1,2",1

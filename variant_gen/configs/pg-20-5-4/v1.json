@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-20-5-4",
+  "config_version": 1,
+  "original_hash": "f656a9a444bfca77",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' pengguna aktif pada sampel awal)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "15+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah sekolah ingin menentukan kebijakan penggunaan telepon genggam saat pembelajaran. Peneliti hanya bertanya kepada {v0} siswa yang aktif menggunakan telepon genggam di kelas, kemudian menyimpulkan bahwa semua siswa mendukung penggunaan telepon genggam tanpa batas.\n\nPerbaikan paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Menggunakan jawaban {v0} siswa tersebut karena mereka paling memahami telepon genggam.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Menambah pertanyaan yang mengarahkan siswa agar menyetujui kebijakan.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Mengambil sampel yang lebih beragam dan menyusun pertanyaan netral tentang manfaat serta risiko penggunaannya.{v1}{v2}{v3}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Mengganti semua jawaban responden dengan pendapat guru.",
+      "correct": false
+    }
+  ],
+  "explanation": "Sampel awal = {v4}. Pemilihan hanya pengguna aktif dapat mengabaikan pendapat kelompok lain. Sampel beragam dan pertanyaan netral memperbaiki pengumpulan data. Memperbanyak pertanyaan menggiring atau mengganti jawaban siswa dengan pendapat guru tidak memperbaiki bias.",
+  "shuffle": false,
+  "max_draws": 1000
+}

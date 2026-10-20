@@ -1,0 +1,123 @@
+{
+  "question_id": "pg-5-5-4",
+  "config_version": 1,
+  "original_hash": "262b4cb60752e373",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'60.000,00' if k == 0 else (4000*(15+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'25' if k == 0 else (25+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'92.500,00' if k == 0 else ((3700-10*k)*(25+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'3.700,00' if k == 0 else (3700-10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'4.000,00' if k == 0 else (4000)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'300,00' if k == 0 else (300+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "4000",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "3700-10*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "300+10*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', dengan hasil ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (300+10*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' rupiah per buku')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengurus koperasi sekolah mengevaluasi dua opsi penawaran grosir buku gambar dari dua toko penyedia:\nToko Alfa: Menjual $1$ pak berisi ${v0}$ buku gambar seharga Rp{v1}.\nToko Beta: Menjual $1$ pak berisi ${v2}$ buku gambar seharga Rp{v3}.\nDua siswa menyusun evaluasi kelayakan usulan belanja:\nEvaluasi X: \"Toko Alfa lebih efisien untuk dibeli karena total biaya belanja per paknya lebih murah (Rp{v1} < Rp{v3}).\"\nEvaluasi Y: \"Toko Beta lebih hemat karena menawarkan harga per unit sebesar Rp{v4}/buku, sedangkan Toko Alfa sebesar Rp{v5}/buku (hemat Rp{v6}/buku).\"\nEvaluasi manakah yang benar berdasarkan analisis laju harga per unit?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi X",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi Y{v10}{v11}{v12}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Kedua evaluasi salah",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Toko Alfa dan Toko Beta menawarkan harga per unit yang ekuivalen",
+      "correct": false
+    }
+  ],
+  "explanation": "Harga per unit pertama = {v7}, kedua = {v8}, selisih = {v9}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

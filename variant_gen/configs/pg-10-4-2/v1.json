@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-10-4-2",
+  "config_version": 1,
+  "original_hash": "74e9e5abb1af18e4",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "12+4*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "15+4*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus perpustakaan merapikan dua kelompok buku cerita.\nKelompok A terdiri dari $4(2a-b+{v0})$ buku.\nKelompok B terdiri dari $3(a+2b-1)$ buku.\nBanyak buku Kelompok A dikurangi banyak buku Kelompok B dalam bentuk aljabar paling sederhana adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "$5a-10b+{v1}$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "$11a+2b+{v1}$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "$5a-10b+{v2}$",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "$5a+2b+{v2}$",
+      "correct": false
+    }
+  ],
+  "explanation": "A = 8a-4b+{v3}, B = 3a+6b-3. A-B = 5a-10b+{v4}. C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

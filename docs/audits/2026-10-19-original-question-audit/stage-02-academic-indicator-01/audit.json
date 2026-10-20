@@ -1,0 +1,3052 @@
+{
+  "summary": {
+    "scope": "Indikator 1, level 1–5, soal 1–10: 50 entri",
+    "review_date": "2026-10-20",
+    "entries": 50,
+    "validity": {
+      "VALID": 46,
+      "INVALID": 3,
+      "UNCERTAIN": 1
+    },
+    "answer_status": {
+      "CORRECT": 46,
+      "INCORRECT": 2,
+      "UNCERTAIN": 2
+    },
+    "explanation_status": {
+      "CORRECT": 46,
+      "INCORRECT": 2,
+      "UNCERTAIN": 2
+    },
+    "recommendations": {
+      "NO_BLOCKING_ACADEMIC_FINDING": 45,
+      "REVISE_EXPLANATION": 1,
+      "HOLD_FOR_SOURCE_REVISION": 3,
+      "HOLD_FOR_CLARIFICATION": 1
+    },
+    "protected_files_checked": 859,
+    "protected_hashes_unchanged": true,
+    "source_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+    "stage1_evidence_sha256": "9f1802c69766167b896bcf070404400536616c3287bb18c9f6e1ebe3ab2a7954",
+    "review_script_sha256": "f1875d4a6eaf6fc93a1553b487ffa3518abfb7533ad715fa01049f095751a609"
+  },
+  "exact_calculation_checks": {
+    "distributive_l1q4": true,
+    "distributive_l2q2": true,
+    "distributive_l3q2": true,
+    "distributive_l4q3": true,
+    "l5q3_both_numeric_products": true,
+    "l2q7_models": true,
+    "l3q7_models": true,
+    "l4q7_models": true,
+    "l5q7_models": true,
+    "l5q4_counterexample": true,
+    "repeating_decimals": true
+  },
+  "exact_radical_bounds": [
+    {
+      "radicand": 3,
+      "positive_lower": "8/5",
+      "positive_upper": "7/4",
+      "lower_squared": "64/25",
+      "upper_squared": "49/16",
+      "status": "PASS"
+    },
+    {
+      "radicand": 12,
+      "positive_lower": "13/4",
+      "positive_upper": "7/2",
+      "lower_squared": "169/16",
+      "upper_squared": "49/4",
+      "status": "PASS"
+    },
+    {
+      "radicand": 6,
+      "positive_lower": "12/5",
+      "positive_upper": "5/2",
+      "lower_squared": "144/25",
+      "upper_squared": "25/4",
+      "status": "PASS"
+    },
+    {
+      "radicand": 8,
+      "positive_lower": "11/4",
+      "positive_upper": "29/10",
+      "lower_squared": "121/16",
+      "upper_squared": "841/100",
+      "status": "PASS"
+    },
+    {
+      "radicand": 7,
+      "positive_lower": "13/5",
+      "positive_upper": "53/20",
+      "lower_squared": "169/25",
+      "upper_squared": "2809/400",
+      "status": "PASS"
+    },
+    {
+      "radicand": 5,
+      "positive_lower": "2",
+      "positive_upper": "9/4",
+      "lower_squared": "4",
+      "upper_squared": "81/16",
+      "status": "PASS"
+    },
+    {
+      "radicand": 10,
+      "positive_lower": "78/25",
+      "positive_upper": "16/5",
+      "lower_squared": "6084/625",
+      "upper_squared": "256/25",
+      "status": "PASS"
+    },
+    {
+      "radicand": 2,
+      "positive_lower": "7/5",
+      "positive_upper": "3/2",
+      "lower_squared": "49/25",
+      "upper_squared": "9/4",
+      "status": "PASS"
+    },
+    {
+      "radicand": 3,
+      "positive_lower": "17/10",
+      "positive_upper": "7/4",
+      "lower_squared": "289/100",
+      "upper_squared": "49/16",
+      "status": "PASS"
+    }
+  ],
+  "methodology": {
+    "independence": "Solusi dan vektor semua opsi diturunkan dari stimulus sebelum membaca kunci/pembahasan; tidak memakai jawaban generator atau review sementara lama.",
+    "category_scoring": "Hanya nilai Benar/Salah per pernyataan; tidak membuat rubrik skor.",
+    "precision": "Perbandingan utama memakai pecahan eksak dan batas kuadrat; perkiraan desimal sumber bukan nilai eksak baru.",
+    "status": "Kunci nonunik PG diberi INCORRECT walaupun huruf terpilih menunjuk salah satu pernyataan benar. Kebenaran soal, kunci, dan pembahasan terpisah.",
+    "unresolved": "Versi bercampur dan pernyataan subjektif tetap tertahan. Proposal belum diterapkan/disetujui."
+  },
+  "entries": [
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q1:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 29,
+        "paragraph_end": 71,
+        "body_block_start": 9,
+        "body_block_end_exclusive": 52
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "3/4, sqrt(5), -4, 4: hanya sqrt(5) irasional; 5 bukan kuadrat bilangan bulat.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Rian",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Siti",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Budi",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Dewi",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Siti"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q2:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 72,
+        "paragraph_end": 124,
+        "body_block_start": 52,
+        "body_block_end_exclusive": 105
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "A=-9/5 < B=-7/4 < 0 < D=8/5 < C=sqrt(3); 3>(8/5)^2=64/25. A tidak di kanan B; C tidak di kiri D; D bukan paling kanan.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Kedai A berada di sebelah kanan Kedai B",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Kedai B berada di antara Kedai A dan titik stasiun utama (0)",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Kedai C berada di sebelah kiri Kedai D",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Kedai D berada paling kanan di antara semua kedai",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Kedai B berada di antara Kedai A dan titik stasiun utama (0)"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q3:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 125,
+        "paragraph_end": 168,
+        "body_block_start": 105,
+        "body_block_end_exclusive": 149
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Perubahan proporsional: Kuning=-38/100 < Merah=-3/8 < Hijau=-36/100 < Biru=-35/100. Besar penurunan berurutan 38%,37,5%,36%,35%; hanya urutan A cocok.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Toko Kuning, Toko Merah, Toko Hijau, Toko Biru",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Toko Merah, Toko Kuning, Toko Hijau, Toko Biru",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Toko Biru, Toko Hijau, Toko Merah, Toko Kuning",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Toko Kuning, Toko Hijau, Toko Biru, Toko Merah",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. Toko Kuning, Toko Merah, Toko Hijau, Toko Biru"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q4:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 169,
+        "paragraph_end": 199,
+        "body_block_start": 149,
+        "body_block_end_exclusive": 180
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "15*18000+15*4000=330000=15*(18000+4000). Menggabungkan faktor yang sama adalah distributif; bukan pertukaran faktor, pengelompokan perkalian, atau sekadar tertutup.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Sifat Komutatif",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Sifat Asosiatif",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Sifat Distributif",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Sifat Tertutup",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Sifat Distributif"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q5:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 200,
+        "paragraph_end": 243,
+        "body_block_start": 180,
+        "body_block_end_exclusive": 224
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "(13/4)^2=169/16 < 12 < (7/2)^2=49/4, maka -7/2 < -sqrt(12) < -13/4. Urutan X,Y,Z; B membalik X/Y, C membalik Y/Z, D menaruh Z di depan X.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Wadah X, Wadah Y, Wadah Z",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Wadah Y, Wadah X, Wadah Z",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Wadah X, Wadah Z, Wadah Y",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Wadah Z, Wadah X, Wadah Y",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Masalah/ketidakpastian dijelaskan pada issues.",
+      "issues": [
+        {
+          "component": "explanation/distractor D",
+          "severity": "MINOR",
+          "evidence": "Pembahasan menyebut opsi D (Z,X,Y) muncul jika urutan dibalik. Kebalikan urutan yang benar X,Y,Z ialah Z,Y,X, bukan Z,X,Y. Hitung suhu, opsi A, dan kunci tetap benar.",
+          "proposed_correction": "Ganti alasan opsi D: salah karena menempatkan Z sebelum X serta X sebelum Y dalam urutan yang diminta; urutan kebalikan sebenarnya Z,Y,X.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "REVISE_EXPLANATION",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q6:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 244,
+        "paragraph_end": 275,
+        "body_block_start": 224,
+        "body_block_end_exclusive": 256
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "-5=-5/1 rasional dan bulat; sqrt(9)=3 bukan irasional; 22/7 rasional dengan penyebut bukan nol; pi irasional. Semua empat opsi dievaluasi.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$-5$ termasuk bilangan bulat dan juga bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{9}$ merupakan bilangan irasional karena menggunakan tanda akar.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{22}{7}$ merupakan bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "$π$ merupakan bilangan irasional.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q7:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 276,
+        "paragraph_end": 323,
+        "body_block_start": 256,
+        "body_block_end_exclusive": 304
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "D=-13/5 < A=-5/2 < C=-sqrt(6) < B=-12/5 sebab (12/5)^2<6<(5/2)^2. A>D, bukan A<D. B pengurangan terkecil; C di antara -2,5/-2,4; besar pengurangan D,A,C,B.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Perubahan volume air pada Kelompok A lebih kecil nilainya daripada Kelompok D.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Kelompok B mengalami pengurangan volume paling sedikit di antara Kelompok A, B, dan D.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Nilai $-\\sqrt{6}$ berada di antara $-2,4$ dan $-2,5$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Urutan perubahan volume dari yang paling banyak berkurang ke paling sedikit berkurang adalah D, A, C, B.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B, C, dan D"
+      ],
+      "parsed_source_key": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q8:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 324,
+        "paragraph_end": 352,
+        "body_block_start": 304,
+        "body_block_end_exclusive": 333
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Untuk p/q+r/s=(ps+rq)/(qs), q,s bukan nol: hasil rasional. 5-3=2 tetapi 3-5=-2 membantah komutatif pengurangan. a(b+c)=ab+ac distributif; (ab)c=a(bc) asosiatif perkalian real.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Hasil penjumlahan dua bilangan rasional selalu menghasilkan bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Pengurangan pada bilangan real berlaku sifat komutatif, yaitu $a-b=b-a$ untuk setiap $a,b∈R$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Bentuk $a×(b+c)=(a×b)+(a×c)$ menunjukkan sifat distributif perkalian terhadap penjumlahan.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Operasi perkalian bilangan real memenuhi sifat asosiatif, yaitu $(a×b)×c=a×(b×c)$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q9:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 353,
+        "paragraph_end": 395,
+        "body_block_start": 333,
+        "body_block_end_exclusive": 365
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "-3/2=-1,5<-7/5=-1,4; sqrt(2)<3/2 karena 2<9/4; |-7/5|=7/5<3/2. Maka (a) benar,(b) salah,(c) benar.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Posisi elevasi Siswa 1 ($-\\frac{3}{2} m$) berada di sebelah kiri elevasi Siswa 2 ($-1,4 m$) pada garis bilangan.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Nilai elevasi Siswa 3 ($\\sqrt{2} m$) lebih besar daripada $1,5 m$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "c",
+          "text": "Jarak elevasi Siswa 2 ke titik netral (0 m) lebih dekat dibandingkan jarak elevasi Siswa 1 ke titik netral (0 m).",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L1:Q10:O1:original",
+      "indicator": 1,
+      "level": 1,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 396,
+        "paragraph_end": 443,
+        "body_block_start": 365,
+        "body_block_end_exclusive": 402
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "25*40000+25*10000=1250000=25*50000 merupakan penerapan distributif; 25*50000=50000*25 komutatif. Pengurangan tidak komutatif: 5-3 != 3-5. Contoh numerik mengilustrasikan hukum distributif, bukan pembuktian universal tersendiri.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Kesamaan hasil dari Cara I dan Cara II membuktikan berlakunya sifat distributif perkalian terhadap penjumlahan.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Jika urutan perkalian $25×50.000$ diubah menjadi $50.000×25$, hasilnya tetap sama karena berlaku sifat komutatif.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Operasi pengurangan pada perhitungan dana tunai koperasi juga berlaku sifat komutatif.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "explanation/generalization",
+          "severity": "MINOR",
+          "evidence": "Notasi ketidaksamaan umum pada pengurangan harus dibaca dalam konteks contoh. a-b=b-a saat a=b; (a-b)-c=a-(b-c) saat c=0. Satu contoh kesamaan distributif adalah ilustrasi, bukan pembuktian universal.",
+          "proposed_correction": "Tulis tidak selalu sama atau gunakan counterexample bernilai eksplisit. Sebut contoh kesamaan sebagai penerapan/ilustrasi hukum distributif. Jawaban pada data soal tetap benar.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q1:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 447,
+        "paragraph_end": 494,
+        "body_block_start": 405,
+        "body_block_end_exclusive": 453
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Kelompok3=-31/50 < Dimas=-3/5 < Kelompok2=-29/50 < Kelompok1=-11/20. -58%=-29/50=-0,58, bukan 0,58%. Pilihan D paling kecil; A,B,C bukan minimum.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Kelompok 1",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Pak Dimas",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Kelompok 2",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Kelompok 3",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: D. Kelompok 3"
+      ],
+      "parsed_source_key": [
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q2:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 495,
+        "paragraph_end": 520,
+        "body_block_start": 453,
+        "body_block_end_exclusive": 479
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "12*(25000+3000)=336000. A=25012*3012, B=12*75000000, D=303000; ketiganya bukan total dua belas paket. Hanya C mendistribusikan 12 ke kedua komponen.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$(12+25.000)×(12+3.000)$",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "$12×(25.000×3.000)$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$12×(25.000+3.000)$",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "$(12×25.000)+3.000$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. $12×(25.000+3.000)$"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q3:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 521,
+        "paragraph_end": 565,
+        "body_block_start": 479,
+        "body_block_end_exclusive": 524
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "C=-4/3 < D=-13/10 < A=-5/4 < 0 < B=sqrt(2). Jadi A salah (C kiri A), B benar, C salah (A kanan D), D salah (minimum C).",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Patok C berada di sebelah kanan Patok A",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Posisi Patok B berada di sebelah kanan titik nol (0)",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Patok A berada di sebelah kiri Patok D",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Patok A berada di posisi paling kiri di antara semua patok",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q4:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 566,
+        "paragraph_end": 590,
+        "body_block_start": 524,
+        "body_block_end_exclusive": 549
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "sqrt(5)+(-sqrt(5))=0: dua irasional menghasilkan rasional, membantah klaim universal A. 3*4=12 tetap bulat; 0,5=1/2 mendukung rasional; 2+3=3+2 mendukung komutatif. B,C,D bukan penyangkal klaim asal.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Pernyataan \"Penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional\" adalah SALAH, karena $\\sqrt{5}+(-\\sqrt{5})=0$ (bilangan rasional).",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Pernyataan \"Perkalian dua bilangan bulat selalu menghasilkan bilangan bulat\" adalah SALAH, karena $3×4=12$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Pernyataan \"Setiap bilangan rasional dapat ditulis dalam bentuk pecahan $\\frac{a}{b}$\" adalah SALAH, karena $0,5=\\frac{1}{2}$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Pernyataan \"Sifat komutatif berlaku pada penjumlahan bilangan real\" adalah SALAH, karena $2+3=3+2$.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. Penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional."
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q5:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 591,
+        "paragraph_end": 621,
+        "body_block_start": 549,
+        "body_block_end_exclusive": 580
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "p=7-6/2=4, q=1/3 dari 10q-q=3. Keduanya rasional: C. A,D masing-masing salah pada salah satu jenis; B salah pada keduanya.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Nilai $p$ adalah irasional dan $q$ adalah rasional",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Nilai $p$ dan $q$ keduanya merupakan bilangan irasional",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Nilai $p$ dan $q$ keduanya merupakan bilangan rasional",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Nilai $p$ adalah rasional dan $q$ adalah irasional",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Nilai $p$ dan $q$ keduanya merupakan bilangan rasional."
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q6:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 622,
+        "paragraph_end": 668,
+        "body_block_start": 580,
+        "body_block_end_exclusive": 627
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "B=-sqrt(8) < C=-11/4 < D=-27/10 < A=-5/2; 8>(11/4)^2. C=-2,75 benar; paling dingin B bukan C; (27/10)^2<8<(29/10)^2 membuktikan -2,9<B<-2,7; urutan hangat ke dingin A,D,C,B bukan C,D,B,A.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Suhu Ruang C jika diubah ke bentuk desimal adalah $-2,75^\\circ\\text{C}$",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Ruang C memiliki suhu yang paling dingin di antara semua ruangan",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Nilai $-\\sqrt{8}^\\circ\\text{C}$ berada di antara $-2,7^\\circ\\text{C}$ dan $-2,9^\\circ\\text{C}$",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Urutan ruangan dari yang terhangat ke yang terdingin adalah C, D, B, A",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q7:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 669,
+        "paragraph_end": 702,
+        "body_block_start": 627,
+        "body_block_end_exclusive": 661
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "(500000-120000)-80000=300000; 500000-(120000-80000)=460000. Counterexample menolak asosiatif, pengelompokan memengaruhi hasil. Komutatif tidak bisa menyamakan. Mengubah tanda dalam kurung menjadi + memberi 500000-200000=300000.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Perbedaan hasil tersebut membuktikan bahwa operasi pengurangan tidak bersifat asosiatif.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Pengelompokan tanda kurung pada operasi pengurangan mempengaruhi hasil akhir perhitungan.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Hasil Rumus 1 dan Rumus 2 bernilai sama jika dihitung menggunakan sifat komutatif.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Agar Rumus 2 menghasilkan nilai yang sama dengan Rumus 1 (Rp300.000,00), bentuknya harus diubah menjadi $500.000-(120.000+80.000)$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "explanation/generalization",
+          "severity": "MINOR",
+          "evidence": "Notasi ketidaksamaan umum pada pengurangan harus dibaca dalam konteks contoh. a-b=b-a saat a=b; (a-b)-c=a-(b-c) saat c=0. Satu contoh kesamaan distributif adalah ilustrasi, bukan pembuktian universal.",
+          "proposed_correction": "Tulis tidak selalu sama atau gunakan counterexample bernilai eksplisit. Sebut contoh kesamaan sebagai penerapan/ilustrasi hukum distributif. Jawaban pada data soal tetap benar.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q8:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 703,
+        "paragraph_end": 740,
+        "body_block_start": 661,
+        "body_block_end_exclusive": 699
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "-3*sqrt(2) irasional: andaikan rasional, dibagi -3 akan membuat sqrt(2) rasional. -3+5/2=-1/2 rasional. (5/2)/0 tidak terdefinisi karena 0*x tidak mungkin 5/2. sqrt(2)^2=2 bulat.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Hasil perkalian $K×L$ (yaitu $-3\\sqrt{2}$) tergolong bilangan rasional.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Hasil penjumlahan $K+M$ (yaitu $-3+2,5=-0,5$) tergolong bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Operasi pembagian $\\frac{M}{N}$ ($\\frac{2,5}{0}$) menghasilkan bilangan real bernilai nol.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Hasil perkalian $L×L$ (yaitu $\\sqrt{2}×\\sqrt{2}=2$) tergolong bilangan bulat/rasional.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B dan D"
+      ],
+      "parsed_source_key": [
+        "B",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "additional_notes/domain",
+          "severity": "MINOR",
+          "evidence": "Catatan umum menulis 0/a=0 tanpa mengulang syarat a bukan nol. Semua penyebut pada opsi 0/a yang dinilai di soal sudah diketahui bukan nol.",
+          "proposed_correction": "Tambahkan syarat a bukan nol pada rumus umum 0/a=0; ini klarifikasi catatan, tidak mengubah jawaban soal.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q9:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 741,
+        "paragraph_end": 790,
+        "body_block_start": 699,
+        "body_block_end_exclusive": 738
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Kuning=-7/4=-1,75; Merah=-9/5=-1,8 lebih dingin, bukan lebih hangat. 3<(7/4)^2 membuktikan -sqrt(3)>-7/4. Urutan Merah,Kuning,Hijau.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Suhu Kedai Kuning ($-$ $\\frac{7}{4}$°C) jika dinyatakan dalam desimal adalah $-$ 1,75°C.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Kedai Merah ($-$ 1,8°C) memiliki suhu penyajian yang lebih hangat daripada Kedai Kuning ($-$ 1,75°C)",
+          "result": "FALSE"
+        },
+        {
+          "label": "c",
+          "text": "Urutan kedai dari yang memiliki suhu penyajian paling dingin ke paling hangat adalah Kedai Merah, Kedai Kuning, Kedai Hijau.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L2:Q10:O1:original",
+      "indicator": 1,
+      "level": 2,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 791,
+        "paragraph_end": 823,
+        "body_block_start": 738,
+        "body_block_end_exclusive": 760
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Jika x rasional bukan nol dan xy rasional, y=(xy)/x rasional: kontradiksi, jadi (a) benar. Irasional didefinisikan R\\Q, maka R=Q union (R\\Q) dan Q intersection (R\\Q)=kosong: (b) benar,(c) salah.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Jika $x$ adalah bilangan rasional dan $y$ adalah bilangan irasional, maka hasil kali $x×y$ (dengan $x≠0$) pasti berupa bilangan irasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Himpunan bilangan real $R$ merupakan gabungan dari himpunan bilangan rasional dan himpunan bilangan irasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Terdapat sebuah bilangan real yang dapat tergolong sebagai bilangan rasional sekaligus bilangan irasional.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q1:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 827,
+        "paragraph_end": 873,
+        "body_block_start": 763,
+        "body_block_end_exclusive": 810
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "(13/5)^2=6,76 < 7 < (53/20)^2=7,0225; maka -2,65 < -sqrt(7) < -2,6 < -2,4. Hanya Analisis II cocok; I/III/IV melanggar rantai ini.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Analisis I",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Analisis II",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Analisis III",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Analisis IV",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q2:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 874,
+        "paragraph_end": 908,
+        "body_block_start": 810,
+        "body_block_end_exclusive": 845
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "16*35000+16*5000=640000=16*(35000+5000). C sesuai distributif. A menambah pengali pada harga; B mengalikan kedua harga; D hanya menambah satu pita.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$(16+35.000)×(16+5.000)$",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "$16×(35.000×5.000)$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$16×(35.000+5.000)$",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "$(16×35.000)+5.000$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. $16×(35.000+5.000)$"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q3:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 909,
+        "paragraph_end": 930,
+        "body_block_start": 845,
+        "body_block_end_exclusive": 867
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "sqrt(3)*sqrt(3)=3 rasional membantah tertutupnya perkalian irasional. 5-8=-3 masih bulat; 1 asli; 4+2=2+4. Contoh B,C,D tidak menyangkal klaim yang ditulis.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Klaim \"Perkalian dua bilangan irasional selalu menghasilkan bilangan irasional\" adalah SALAH, karena $\\sqrt{3}×\\sqrt{3}=3$ (bilangan rasional).",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Klaim \"Pengurangan dua bilangan bulat selalu menghasilkan bilangan bulat\" adalah SALAH, karena $5-8=-3$.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Klaim \"Setiap bilangan bulat positif termasuk bilangan asli\" adalah SALAH, karena $1$ adalah bilangan asli.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Klaim \"Operasi penjumlahan bilangan real memenuhi sifat komutatif\" adalah SALAH, karena $4+2=2+4$.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. Pernyataan kuis \"Perkalian dua bilangan irasional selalu menghasilkan bilangan irasional\" adalah SALAH, karena $\\sqrt{3}×\\sqrt{3}=3$ (bilangan rasional)."
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q4:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 931,
+        "paragraph_end": 960,
+        "body_block_start": 867,
+        "body_block_end_exclusive": 897
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "a=3sqrt(2)-sqrt(2)=2sqrt(2) irasional (jika rasional maka dibagi 2 juga rasional); 99b=12 jadi b=4/33 rasional. Hanya B cocok.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Bilangan $a$ dan $b$ keduanya merupakan bilangan irasional.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Bilangan $a$ adalah irasional dan $b$ adalah rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Bilangan $a$ dan $b$ keduanya merupakan bilangan rasional.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Bilangan $a$ adalah rasional dan $b$ adalah irasional.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Bilangan $a$ adalah irasional dan $b$ adalah rasional."
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q5:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 961,
+        "paragraph_end": 1004,
+        "body_block_start": 897,
+        "body_block_end_exclusive": 941
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "r=-47/20 < p=-9/4 < q=-sqrt(5), karena (9/4)^2=81/16>5. r paling kiri, q kanan r, p kanan r, dan r<p<q. Maka A,B,C salah; D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Pos $r$ berada paling kanan di antara semua pos",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Pos $q$ terletak di sebelah kiri Pos $r$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Pos $p$ terletak di sebelah kiri Pos $r$",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Pos $p$ berada di antara Pos $r$ dan Pos $q$ pada garis bilangan",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: D"
+      ],
+      "parsed_source_key": [
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q6:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1005,
+        "paragraph_end": 1049,
+        "body_block_start": 941,
+        "body_block_end_exclusive": 986
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "W=Y=-16/5; (78/25)^2=9,7344 < 10 < (16/5)^2=10,24, sehingga W=Y<X=-sqrt(10)<Z=-78/25. W/Y paling dalam, Z paling dangkal. A dan C benar; B dan urutan D salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Posisi saluran W dan Y berada pada titik elevasi yang persis sama",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Saluran X memiliki posisi paling dalam (paling jauh di sebelah kiri titik 0)",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Nilai elevasi Z ($-3,12m$) lebih besar daripada nilai elevasi W ($-3,2m$)",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Urutan saluran dari yang paling dangkal (terbesar) ke paling dalam (terkecil) adalah X, W, Y, Z",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q7:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1050,
+        "paragraph_end": 1082,
+        "body_block_start": 986,
+        "body_block_end_exclusive": 1019
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "ModelI=650000; ModelII=950000. Perbedaan ini counterexample asosiatif, dan mengubah pengelompokan berpengaruh. Komutatif pengurangan tidak berlaku. -(400000-150000)=-400000+150000 memberi ModelII=950000.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Ketidaksamaan tersebut membuktikan bahwa operasi pengurangan pada bilangan real tidak memenuhi sifat asosiatif.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Perubahan posisi tanda kurung pada operasi pengurangan mengubah makna dan hasil perhitungan.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Model I dan Model II akan menghasilkan nilai yang sama jika dihitung menggunakan sifat komutatif.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Bentuk Model II ekuivalen dengan $1.200.000-400.000+150.000=950.000$ sesuai sifat distributif tanda negatif.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "explanation/generalization",
+          "severity": "MINOR",
+          "evidence": "Notasi ketidaksamaan umum pada pengurangan harus dibaca dalam konteks contoh. a-b=b-a saat a=b; (a-b)-c=a-(b-c) saat c=0. Satu contoh kesamaan distributif adalah ilustrasi, bukan pembuktian universal.",
+          "proposed_correction": "Tulis tidak selalu sama atau gunakan counterexample bernilai eksplisit. Sebut contoh kesamaan sebagai penerapan/ilustrasi hukum distributif. Jawaban pada data soal tetap benar.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q8:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1083,
+        "paragraph_end": 1119,
+        "body_block_start": 1019,
+        "body_block_end_exclusive": 1056
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "-4sqrt(5) irasional dengan argumen pembagian -4; (3/2)/0 tidak terdefinisi; -4+3/2=-5/2 rasional; sqrt(5)^2=5 bulat. Semua empat opsi diperiksa.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Hasil perkalian $K×L$ (yaitu $-4\\sqrt{5}$) merupakan bilangan irasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Pembagian $\\frac{M}{N}$ ($\\frac{1,5}{0}$) menghasilkan nilai nol dalam himpunan bilangan real.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Penjumlahan $K+M$ (yaitu $-4+1,5=-2,5$) tergolong bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Perkalian $L×L$ (yaitu $\\sqrt{5}×\\sqrt{5}=5$) menghasilkan bilangan bulat/rasional.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "additional_notes/domain",
+          "severity": "MINOR",
+          "evidence": "Catatan umum menulis 0/a=0 tanpa mengulang syarat a bukan nol. Semua penyebut pada opsi 0/a yang dinilai di soal sudah diketahui bukan nol.",
+          "proposed_correction": "Tambahkan syarat a bukan nol pada rumus umum 0/a=0; ini klarifikasi catatan, tidak mengubah jawaban soal.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q9:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1120,
+        "paragraph_end": 1166,
+        "body_block_start": 1056,
+        "body_block_end_exclusive": 1092
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Beta=-5/3=-1,666... < Alpha=-8/5 < Gamma=-sqrt(2), karena 2<(8/5)^2. (a) benar; Alpha lebih hangat dari Beta sehingga (b) salah; urutan Beta,Alpha,Gamma benar.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Suhu pembekuan Tim Beta ($-\\frac{5}{3}$ °C) jika dinyatakan dalam desimal berulang adalah (-1,666...°C).",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Batas pembekuan Tim Alpha (-1,6°C) lebih dingin (lebih kecil) daripada Tim Beta (-1,666...°C).",
+          "result": "FALSE"
+        },
+        {
+          "label": "c",
+          "text": "Urutan tim dari yang memiliki batas pembekuan paling dingin ke paling hangat adalah Tim Beta, Tim Alpha, Tim Gamma.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L3:Q10:O1:original",
+      "indicator": 1,
+      "level": 3,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1167,
+        "paragraph_end": 1213,
+        "body_block_start": 1092,
+        "body_block_end_exclusive": 1128
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Untuk x dalam Q bukan nol, xy dalam Q akan memaksa y=(xy)/x dalam Q, kontradiksi. Setiap n asli juga bulat dan n=n/1 rasional. Pecahan dua bilangan bulat dengan penyebut bukan nol tidak dapat memiliki ekspansi desimal tak berakhir nonperiodik.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Jika $x$ adalah bilangan rasional bukan nol dan $y$ adalah bilangan irasional, maka $x×y$ tidak pernah menghasilkan bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Himpunan bilangan asli $N$ merupakan himpunan bagian (subset) dari himpunan bilangan bulat $Z$ dan himpunan bilangan rasional $Q$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Terdapat setidaknya satu bilangan real yang dapat dinyatakan sebagai pecahan biasa $\\frac{a}{b}$ sekaligus memiliki bentuk desimal tak berakhir dan tak berulang.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q1:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1217,
+        "paragraph_end": 1272,
+        "body_block_start": 1131,
+        "body_block_end_exclusive": 1187
+      },
+      "format": "PG",
+      "validity": "INVALID",
+      "answer_status": "INCORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "A=-37/20 < C=-7/4 < B=-sqrt(3) < D=-17/10; batas (17/10)^2<3<(7/4)^2. Analisis I dan II identik dan benar; opsi A dan B sama-sama menunjuk Analisis I. C dan D bukan urutan naik. PG tidak memiliki tepat satu pilihan benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Analisis I",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Analisis I (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Analisis III",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Analisis IV",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Analisis II"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "options/key",
+          "severity": "CRITICAL",
+          "evidence": "Analisis I dan II sama-sama berurutan A,C,B,D; opsi A=Analisis I dan B=Analisis I (dengan urutan). Header kunci B. Analisis II berbeda dari teks opsi B.",
+          "proposed_correction": "Bedakan empat urutan analisis dan empat opsi; samakan rujukan label kunci. Pastikan hanya satu opsi benar, lalu ajukan ulang ke Kurikulum.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "HOLD_FOR_SOURCE_REVISION",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q2:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1273,
+        "paragraph_end": 1307,
+        "body_block_start": 1187,
+        "body_block_end_exclusive": 1222
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "x=2sqrt(5)-sqrt(5)=sqrt(5) irasional; 99y=27 sehingga y=3/11 rasional. C benar, A/B/D salah menurut jenis kedua nilai.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Nilai $x$ dan $y$ keduanya merupakan bilangan irasional",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Nilai $x$ dan $y$ keduanya merupakan bilangan rasional",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Nilai $x$ adalah irasional dan $y$ adalah rasional",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Nilai $x$ adalah rasional dan $y$ adalah irasional",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Nilai $x$ adalah irasional dan $y$ adalah rasional."
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q3:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1308,
+        "paragraph_end": 1334,
+        "body_block_start": 1222,
+        "body_block_end_exclusive": 1249
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "18*20000+18*2500=405000=18*(20000+2500). A satu-satunya bentuk sesuai total. B mencampur pengali dengan harga; C mengalikan harga; D hanya menghitung satu pompa.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$18×(20.000+2.500)$",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "$(18+20.000)×(18+2.500)$",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$18×(20.000×2.500)$",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "$(18×20.000)+2.500$",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. $18×(20.000+2.500)$"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q4:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1335,
+        "paragraph_end": 1370,
+        "body_block_start": 1249,
+        "body_block_end_exclusive": 1285
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "5-3=2 sedangkan 3-5=-2: Evaluasi I salah, II benar. Jadi B; C salah karena II benar. D salah sebab 5 dan 3 sama-sama positif namun hasil pengurangannya berbeda.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi I",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi II",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Kedua evaluasi salah",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Evaluasi I benar untuk bilangan positif saja",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Evaluasi II"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q5:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1371,
+        "paragraph_end": 1420,
+        "body_block_start": 1285,
+        "body_block_end_exclusive": 1335
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "(12/5)^2<6<(5/2)^2 memberi P=-5/2<Q=-sqrt(6)<R=-12/5. Penilaian I salah (R bukan di tengah), II salah (P di kiri Q), III benar. Hanya C; D menggabungkan dua penilaian salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Penilaian I",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Penilaian II",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Penilaian III",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Penilaian I dan II",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Penilaian III"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q6:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1421,
+        "paragraph_end": 1451,
+        "body_block_start": 1335,
+        "body_block_end_exclusive": 1366
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "-4=-4/1 bulat rasional; sqrt(16)=4 bukan irasional; 15/4=3,75 rasional; pi irasional. Nilai dan jenis semua opsi sudah diperiksa.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$-4$ merupakan bilangan bulat negatif yang juga tergolong bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{16}$ merupakan bilangan irasional karena menggunakan tanda akar.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{15}{4}$ dapat dinyatakan dalam bentuk desimal berhenti $3,75$ (bilangan rasional).",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "$π$ tergolong bilangan irasional karena memiliki desimal tak berulang dan tak berakhir.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q7:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1452,
+        "paragraph_end": 1485,
+        "body_block_start": 1366,
+        "body_block_end_exclusive": 1400
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Model1=(600000-150000)-50000=400000; Model2=600000-100000=500000. Counterexample asosiatif dan pengelompokan berpengaruh. Dua pengeluaran total200000 berarti sisa400000, bukan Model2. Penggantian menjadi 600000-(150000+50000) benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Perbedaan hasil tersebut membuktikan bahwa operasi pengurangan tidak memenuhi sifat asosiatif.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Letak tanda kurung mempengaruhi urutan pengerjaan dan hasil akhir perhitungan pengurangan.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Model 2 menghasilkan nilai yang benar untuk menggambarkan total sisa kas dari dua kali pengeluaran.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Agar Model 2 bernilai sama dengan Model 1, bentuknya harus diubah menjadi $600.000-(150.000+50.000)$.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "explanation/generalization",
+          "severity": "MINOR",
+          "evidence": "Notasi ketidaksamaan umum pada pengurangan harus dibaca dalam konteks contoh. a-b=b-a saat a=b; (a-b)-c=a-(b-c) saat c=0. Satu contoh kesamaan distributif adalah ilustrasi, bukan pembuktian universal.",
+          "proposed_correction": "Tulis tidak selalu sama atau gunakan counterexample bernilai eksplisit. Sebut contoh kesamaan sebagai penerapan/ilustrasi hukum distributif. Jawaban pada data soal tetap benar.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q8:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1486,
+        "paragraph_end": 1523,
+        "body_block_start": 1400,
+        "body_block_end_exclusive": 1438
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "-2sqrt(3) irasional; sqrt(3)^2=3 bulat; (4/3)/0 tidak terdefinisi karena 0*x tak dapat sama4/3; -2+4/3=-2/3 rasional. Kunci konseptual B,D.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Hasil perkalian $K×L$ (yaitu $-2\\sqrt{3}$) merupakan bilangan rasional.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Hasil perkalian $L×L$ (yaitu $\\sqrt{3}×\\sqrt{3}=3$) tergolong bilangan bulat/rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Hasil pembagian $\\frac{M}{N}$ ($\\frac{4/3}{0}$) bernilai nol dalam himpunan bilangan real.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Hasil penjumlahan $K+M$ (yaitu $-2+\\frac{4}{3}=-\\frac{2}{3}$) tergolong bilangan rasional.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B dan D"
+      ],
+      "parsed_source_key": [
+        "B",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "additional_notes/domain",
+          "severity": "MINOR",
+          "evidence": "Catatan umum menulis 0/a=0 tanpa mengulang syarat a bukan nol. Semua penyebut pada opsi 0/a yang dinilai di soal sudah diketahui bukan nol.",
+          "proposed_correction": "Tambahkan syarat a bukan nol pada rumus umum 0/a=0; ini klarifikasi catatan, tidak mengubah jawaban soal.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q9:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1524,
+        "paragraph_end": 1574,
+        "body_block_start": 1438,
+        "body_block_end_exclusive": 1475
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "B=-9/5=-1,8 < A=-7/4=-1,75 < C=-sqrt(3), sebab 3<49/16. (a) benar,(b) salah karena A lebih hangat,(c) benar.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Suhu pembekuan Larutan B ($-\\frac{9}{5}°C$) jika diubah ke desimal adalah $ -1,80$°C.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Larutan A ($ -1,75$°C) memiliki suhu pembekuan yang lebih dingin daripada Larutan B ($ -1,80$°C).",
+          "result": "FALSE"
+        },
+        {
+          "label": "c",
+          "text": "Urutan larutan dari yang memiliki suhu paling dingin ke paling hangat adalah Larutan B, Larutan A, Larutan C.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L4:Q10:O1:original",
+      "indicator": 1,
+      "level": 4,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1575,
+        "paragraph_end": 1608,
+        "body_block_start": 1475,
+        "body_block_end_exclusive": 1495
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Rasional bukan nol kali irasional tetap irasional: andaikan hasil rasional, bagi faktor rasional bukan nol untuk kontradiksi. Setiap z bulat=z/1 rasional. Q dan R\\Q saling lepas sehingga (c) salah.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Jika $a$ adalah bilangan rasional bukan nol dan $b$ adalah bilangan irasional, maka hasil kali $a×b$ pasti berupa bilangan irasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Himpunan bilangan bulat $Z$ merupakan himpunan bagian (subset) dari himpunan bilangan rasional $Q$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Terdapat setidaknya satu bilangan real yang dapat tergolong sebagai bilangan rasional sekaligus bilangan irasional.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q1:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 1,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1612,
+        "paragraph_end": 1662,
+        "body_block_start": 1498,
+        "body_block_end_exclusive": 1549
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "P=-39/20 < R=-9/5 < Q=-sqrt(3), sebab 3<(9/5)^2=81/25. Hanya Evaluasi II menyusun P,R,Q; I/III/IV salah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi I",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi II",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Evaluasi III",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Evaluasi IV",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Evaluasi II"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q2:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 2,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1663,
+        "paragraph_end": 1733,
+        "body_block_start": 1549,
+        "body_block_end_exclusive": 1620
+      },
+      "format": "PG",
+      "validity": "INVALID",
+      "answer_status": "UNCERTAIN",
+      "explanation_status": "UNCERTAIN",
+      "independent_solution": "Definisi awal a=sqrt(32)-2sqrt(2)=2sqrt(2) irasional, b=45/99=5/11 rasional. Definisi akhir a=sqrt(48)-4sqrt(3)=0 rasional, b sama rasional. Keduanya muncul bersama sejumlah rancangan lain dan label Evaluasi I–III dipakai ulang. Pada blok akhir saja vektor F,F,T,F dan C benar; itu hasil kondisional, bukan pemilihan versi resmi.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi I",
+          "result": "UNCERTAIN"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi II",
+          "result": "UNCERTAIN"
+        },
+        {
+          "label": "C",
+          "text": "Evaluasi III",
+          "result": "UNCERTAIN"
+        },
+        {
+          "label": "D",
+          "text": "Evaluasi IV",
+          "result": "UNCERTAIN"
+        }
+      ],
+      "independently_correct_ids": null,
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Evaluasi III"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Masalah/ketidakpastian dijelaskan pada issues.",
+      "issues": [
+        {
+          "component": "stem/key/explanation",
+          "severity": "CRITICAL",
+          "evidence": "Stem mendefinisikan a berulang kali: sqrt(32)-2sqrt(2)=2sqrt(2) irasional, tetapi blok akhir sqrt(48)-4sqrt(3)=0 rasional; Evaluasi I–III juga didefinisikan ulang. Pembahasan memakai blok akhir saja.",
+          "proposed_correction": "Kurikulum menetapkan satu versi. Jika blok akhir yang dipilih, hapus seluruh rancangan awal dan catatan eh wait; C baru sah untuk versi tunggal itu. Jangan pilih otomatis.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "HOLD_FOR_SOURCE_REVISION",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q3:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 3,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1734,
+        "paragraph_end": 1769,
+        "body_block_start": 1620,
+        "body_block_end_exclusive": 1656
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "UsulanI=25*27000=675000, tepat total25paket. UsulanII=15025*12025=180675625 memang hasil kali numerik yang tertulis, tetapi tidak memodelkan total paket atau distributif. Jadi A benar; B/C salah. Dua usulan masing-masing mempunyai satu operasi kali utama; II bukan lebih hemat perkalian sehingga D tidak benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Usulan I benar, karena menerapkan sifat distributif $a⋅b+a⋅c=a(b+c)$ secara tepat",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Usulan II benar, karena mengalikan suku-suku yang ditambahkan",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Usulan I dan Usulan II sama-sama salah",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Usulan II lebih hemat dalam operasi perkalian",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A. Evaluasi I"
+      ],
+      "parsed_source_key": [
+        "A"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q4:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 4,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1770,
+        "paragraph_end": 1808,
+        "body_block_start": 1656,
+        "body_block_end_exclusive": 1695
+      },
+      "format": "PG",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Contoh a=16,b=4,c=2 memenuhi domain: (16/4)/2=2, sedangkan 16/(4/2)=8; Klaim1 salah. Asosiativitas perkalian real adalah hukum aljabar: Klaim2 benar. Kombinasi salah/benar hanya C.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Klaim 1 dan Klaim 2 keduanya BENAR",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Klaim 1 BENAR dan Klaim 2 SALAH",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "Klaim 1 SALAH dan Klaim 2 BENAR",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Klaim 1 dan Klaim 2 keduanya SALAH",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: C. Evaluasi C"
+      ],
+      "parsed_source_key": [
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q5:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 5,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1809,
+        "paragraph_end": 1858,
+        "body_block_start": 1695,
+        "body_block_end_exclusive": 1745
+      },
+      "format": "PG",
+      "validity": "INVALID",
+      "answer_status": "INCORRECT",
+      "explanation_status": "INCORRECT",
+      "independent_solution": "B=-4/5=-0,8 dan C=-sqrt(16/25)=-4/5; A=-17/20=-0,85 lebih dalam. Evaluasi A benar tentang kesamaan, Evaluasi B benar tentang kesamaan plus perbandingan A. Evaluasi C/D salah. Pertanyaan meminta evaluasi yang benar, bukan yang paling lengkap; A dan B keduanya sah.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Evaluasi A",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Evaluasi B",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Evaluasi C",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Evaluasi D",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "B"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B. Evaluasi B"
+      ],
+      "parsed_source_key": [
+        "B"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Masalah/ketidakpastian dijelaskan pada issues.",
+      "issues": [
+        {
+          "component": "options/key/explanation",
+          "severity": "CRITICAL",
+          "evidence": "Evaluasi A dan B sama-sama benar. Pembahasan memilih B karena paling lengkap, sementara pertanyaan hanya meminta evaluasi yang pasti benar.",
+          "proposed_correction": "Ubah salah satu opsi agar salah, atau nyatakan kriteria jawaban paling lengkap secara eksplisit dan review ulang. Jangan menganggap A salah hanya karena lebih singkat.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "HOLD_FOR_SOURCE_REVISION",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q6:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 6,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1859,
+        "paragraph_end": 1890,
+        "body_block_start": 1745,
+        "body_block_end_exclusive": 1777
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "-6 bulat rasional; sqrt(25)=5 rasional sehingga B salah; 22/7 rasional dan berbeda dari pi; sqrt(2) irasional. A,C,D benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "$-6$ tergolong bilangan bulat negatif yang merupakan bagian dari bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{25}$ tergolong bilangan irasional karena dituliskan dalam bentuk akar.",
+          "result": "FALSE"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{22}{7}$ tergolong bilangan rasional karena berbentuk pecahan biasa $\\frac{a}{b}$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{2}$ tergolong bilangan irasional karena bentuk desimalnya tak berulang dan tak berakhir ($≈1,41421...$).",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "A",
+        "C",
+        "D"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, C, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q7:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 7,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1891,
+        "paragraph_end": 1924,
+        "body_block_start": 1777,
+        "body_block_end_exclusive": 1811
+      },
+      "format": "MCMA",
+      "validity": "UNCERTAIN",
+      "answer_status": "UNCERTAIN",
+      "explanation_status": "UNCERTAIN",
+      "independent_solution": "X=270000 dan Y=270000; -(100000+30000)=-100000-30000, jadi A/B benar sebagai penerapan hukum distributif. Bentuk 400000-(100000-30000)=330000 membantah C. D memakai kata mempermudah tanpa ukuran/formal kriteria, sehingga tidak dapat dipastikan sebagai pernyataan matematika benar/salah dari stimulus saja.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00.",
+          "result": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Jika Metode Y diubah menjadi $400.000-(100.000-30.000)$, hasilnya akan tetap sama yaitu Rp270.000,00.",
+          "result": "FALSE"
+        },
+        {
+          "label": "D",
+          "text": "Menggabungkan dua pengeluaran di dalam tanda kurung seperti pada Metode Y mempermudah rekapitulasi total alokasi pengeluaran.",
+          "result": "UNCERTAIN"
+        }
+      ],
+      "independently_correct_ids": null,
+      "conditionally_proven_ids": [
+        "A",
+        "B"
+      ],
+      "declared_key_texts": [
+        "Kunci Jawaban: A, B, dan D"
+      ],
+      "parsed_source_key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Masalah/ketidakpastian dijelaskan pada issues.",
+      "issues": [
+        {
+          "component": "option D/explanation",
+          "severity": "IMPORTANT",
+          "evidence": "Mempermudah rekapitulasi / memudahkan audit kas merupakan penilaian proses tanpa kriteria ukur; perhitungan membuktikan A/B benar dan C salah, tetapi tidak menetapkan D secara objektif.",
+          "proposed_correction": "Ganti D dengan klaim terukur, misalnya total alokasi pengeluaran pada Y adalah Rp130.000,00, atau minta Kurikulum menyatakan kriteria penilaian D.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "HOLD_FOR_CLARIFICATION",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q8:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 8,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1925,
+        "paragraph_end": 1963,
+        "body_block_start": 1811,
+        "body_block_end_exclusive": 1850
+      },
+      "format": "MCMA",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "-5sqrt(7) irasional, bukan rasional; sqrt(7)^2=7 bulat; 0/(3/5)=0 rasional karena penyebut bukan nol; (3/5)/0 tidak terdefinisi. Hanya B,C benar.",
+      "option_evaluations": [
+        {
+          "label": "A",
+          "text": "Hasil perkalian $A×B$ (yaitu $-5\\sqrt{7}$) tergolong bilangan rasional.",
+          "result": "FALSE"
+        },
+        {
+          "label": "B",
+          "text": "Hasil perkalian $B×B$ (yaitu $\\sqrt{7}×\\sqrt{7}=7$) tergolong bilangan bulat/rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "C",
+          "text": "Hasil pembagian $\\frac{D}{C}$ ($\\frac{0}{3/5}$) bernilai $0$ yang merupakan bilangan rasional.",
+          "result": "TRUE"
+        },
+        {
+          "label": "D",
+          "text": "Hasil pembagian $\\frac{C}{D}$ ($\\frac{3/5}{0}$) bernilai $0$ dalam himpunan bilangan real.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "B",
+        "C"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: B dan C"
+      ],
+      "parsed_source_key": [
+        "B",
+        "C"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [
+        {
+          "component": "additional_notes/domain",
+          "severity": "MINOR",
+          "evidence": "Catatan umum menulis 0/a=0 tanpa mengulang syarat a bukan nol. Semua penyebut pada opsi 0/a yang dinilai di soal sudah diketahui bukan nol.",
+          "proposed_correction": "Tambahkan syarat a bukan nol pada rumus umum 0/a=0; ini klarifikasi catatan, tidak mengubah jawaban soal.",
+          "correction_status": "PROPOSED_NOT_APPLIED"
+        }
+      ],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q9:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 9,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 1964,
+        "paragraph_end": 2014,
+        "body_block_start": 1850,
+        "body_block_end_exclusive": 1887
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "Sampel1=-9/4=Sampel2; (9/4)^2>5 berarti -9/4<-sqrt(5)=Sampel3. (a) benar,(b) salah karena Sampel3 lebih hangat,(c) benar dengan ikatan Sampel1/2 dipertahankan.",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Sampel 1 ($ -2,25$°C) dan Sampel 2 ($-\\frac{9}{4}$°C) berada pada titik suhu yang persis sama.",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Sampel 3 ($-\\sqrt{5 }$ $≈ -2,236$°C) memiliki suhu yang lebih dingin (lebih kecil) daripada Sampel 1 ($ -2,25$°C).",
+          "result": "FALSE"
+        },
+        {
+          "label": "c",
+          "text": "Urutan sampel dari yang paling dingin ke paling hangat adalah Sampel 1, Sampel 2 (sejajar), lalu Sampel 3.",
+          "result": "TRUE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "3"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) SALAH, (c) BENAR"
+      ],
+      "parsed_source_key": [
+        "1",
+        "3"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    },
+    {
+      "audit_id": "0e868995fdeb:I1:L5:Q10:O1:original",
+      "indicator": 1,
+      "level": 5,
+      "source_number": 10,
+      "source": {
+        "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+        "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+        "paragraph_start": 2015,
+        "paragraph_end": 2048,
+        "body_block_start": 1887,
+        "body_block_end_exclusive": 1907
+      },
+      "format": "KATEGORI",
+      "validity": "VALID",
+      "answer_status": "CORRECT",
+      "explanation_status": "CORRECT",
+      "independent_solution": "p/q+r/s=(ps+rq)/(qs) dengan q,s bukan nol membuktikan tertutupnya Q terhadap tambah. Setiap n asli ada dalam Z dan R. sqrt(3)+(-sqrt(3))=0 rasional menjadi counterexample (c).",
+      "option_evaluations": [
+        {
+          "label": "a",
+          "text": "Hasil penjumlahan dua bilangan rasional selalu menghasilkan bilangan rasional (Sifat Tertutup Penjumlahan Rasional).",
+          "result": "TRUE"
+        },
+        {
+          "label": "b",
+          "text": "Himpunan bilangan asli $N$ merupakan himpunan bagian (subset) dari himpunan bilangan bulat $Z$ dan bilangan real $R$.",
+          "result": "TRUE"
+        },
+        {
+          "label": "c",
+          "text": "Hasil penjumlahan dua bilangan irasional selalu menghasilkan bilangan irasional.",
+          "result": "FALSE"
+        }
+      ],
+      "independently_correct_ids": [
+        "1",
+        "2"
+      ],
+      "conditionally_proven_ids": [],
+      "declared_key_texts": [
+        "Kunci Jawaban: (a) BENAR, (b) BENAR, (c) SALAH"
+      ],
+      "parsed_source_key": [
+        "1",
+        "2"
+      ],
+      "explanation_review": "Perhitungan, urutan, jenis bilangan, alasan opsi dan catatan sumber dibaca seluruhnya; penilaian dibandingkan dengan solusi independen di atas. Langkah penting dan kesimpulan sesuai pada konteks data; klarifikasi redaksional terpisah bila ada.",
+      "issues": [],
+      "approval_status": "NOT_CURRICULUM_APPROVED",
+      "recommendation": "NO_BLOCKING_ACADEMIC_FINDING",
+      "generator_matching_status": "NOT_EVALUATED_IN_THIS_STAGE"
+    }
+  ]
+}

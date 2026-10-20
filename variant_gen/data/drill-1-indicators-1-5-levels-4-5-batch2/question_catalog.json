@@ -1,0 +1,121 @@
+[
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 1,
+    "source_level": 4,
+    "question_ids": [
+      "pg-1-4-4",
+      "pg-1-4-5",
+      "mcma-1-4-7",
+      "mcma-1-4-8",
+      "kategori-1-4-10"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 1,
+    "source_level": 5,
+    "question_ids": [
+      "pg-1-5-3",
+      "pg-1-5-4",
+      "mcma-1-5-8",
+      "kategori-1-5-10"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 2,
+    "source_level": 4,
+    "question_ids": [
+      "mcma-2-4-7"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 2,
+    "source_level": 5,
+    "question_ids": [
+      "pg-2-5-3",
+      "pg-2-5-4",
+      "pg-2-5-5",
+      "mcma-2-5-7"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 3,
+    "source_level": 4,
+    "question_ids": [
+      "pg-3-4-3",
+      "pg-3-4-4",
+      "mcma-3-4-7",
+      "mcma-3-4-8",
+      "kategori-3-4-10"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 3,
+    "source_level": 5,
+    "question_ids": [
+      "pg-3-5-2",
+      "pg-3-5-3",
+      "pg-3-5-4",
+      "mcma-3-5-8",
+      "kategori-3-5-10"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 4,
+    "source_level": 4,
+    "question_ids": [
+      "pg-4-4-2",
+      "pg-4-4-3",
+      "kategori-4-4-10"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 4,
+    "source_level": 5,
+    "question_ids": [
+      "pg-4-5-2",
+      "pg-4-5-3"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 5,
+    "source_level": 4,
+    "question_ids": [
+      "pg-5-4-2",
+      "pg-5-4-4",
+      "pg-5-4-5",
+      "mcma-5-4-7",
+      "mcma-5-4-8"
+    ]
+  },
+  {
+    "activity": "DRILL",
+    "package_id": "drill-1",
+    "indicator": 5,
+    "source_level": 5,
+    "question_ids": [
+      "pg-5-5-2",
+      "pg-5-5-5",
+      "mcma-5-5-7",
+      "mcma-5-5-8",
+      "kategori-5-5-10"
+    ]
+  }
+]

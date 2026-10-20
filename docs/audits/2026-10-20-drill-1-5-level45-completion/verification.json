@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-21",
+  "audit_summary": {
+    "date": "2026-10-21",
+    "started_date": "2026-10-20",
+    "target": 100,
+    "previous_generators": 33,
+    "new_local_generators": 39,
+    "quarantined_draft_generators": 28,
+    "covered_families": 100,
+    "local_generator_total": 72,
+    "awaiting_curriculum_review": 28,
+    "self_adjustment_enabled": false,
+    "exhaustive_parameter_tuples": 1675,
+    "exact_new_family_variant_capacity": 1608,
+    "min_family_capacity": 24,
+    "unique_samples": 1340,
+    "additional_deterministic_samples": 3350,
+    "workspace_originals": 1072,
+    "runtime_configs": 983,
+    "quarantined_configs": 28,
+    "protected_prior_files": 1203,
+    "protected_prior_files_unchanged": true,
+    "source_numbering_preserved": true,
+    "quarantine_boundary_verified": true
+  },
+  "latest_recipe_matches_all_67_config_files": true,
+  "source_and_previous_asset_hashes_unchanged": true,
+  "report_csv_json_consistent": true,
+  "focused_run": {
+    "command": "python -B -m unittest discover -s variant_gen/tests -p test_level45*completion.py -v",
+    "tests": 23,
+    "failures": 0
+  },
+  "service_run": {
+    "command": "python -B -m unittest discover -s tests/service -v",
+    "tests": 25,
+    "passed": 14,
+    "skipped_postgres": 11,
+    "failures": 0
+  },
+  "broad_run_before_final_adapter_fix": {
+    "command": "python -B -m unittest discover -s variant_gen/tests -v",
+    "tests": 273,
+    "failing_methods": [
+      "test_workbench_exposes_39_local_generators_and_rejects_28_drafts"
+    ],
+    "failed_subtests": 25,
+    "reason": "HTTP records append an answer recap. Test adapter now separates it from the strict math explanation; all 23 focused tests pass after this fix. Full broad suite was not repeated after the adapter-only fix."
+  },
+  "code_sha256": {
+    "variant_gen/tests/build_level45_completion.py": "a2186308faa41fc2b4fb3a6722bddf480674c47077a95edc50a08a6a3a127db7",
+    "variant_gen/tests/audit_level45_completion.py": "6ce5915944a0df9afdba561695a6b13d69121a9c67ed8a7e030856e9c4beb072",
+    "variant_gen/tests/level45_completion_common.py": "9a66b483dea471b3f67196f71e8faa8a4c2f5e918fd44c646e464e728ddba1c5",
+    "variant_gen/tests/test_level45_completion.py": "31bef02d5c99302ef7c752046bd04462c50a96ef6012b5d5bb3b13dfd800905b",
+    "variant_gen/tests/author_level45_i12_completion.py": "1d6a7addb3732cde9b3fad91910d2cbf98235f8ac0ffdd78dfe705b918857702",
+    "variant_gen/tests/author_level45_i3_completion.py": "8c19a9140dc6eb82b7ad941edb91985b6747ab55deb27c9c3d119cced96a52cf",
+    "variant_gen/tests/author_level45_i45_completion.py": "7c44234b7a9f64902e92b0a9aa879b99707ae74eda3d6b9b73e69a9e6b95f9bf",
+    "variant_gen/tests/oracle_level45_i12_completion.py": "096725fadcc8f7c9366221ba7bb34c195179d13915d08c792fb50f2ef812086a",
+    "variant_gen/tests/oracle_level45_i3_completion.py": "fb5ec302854a5b99679daf13fdd23bf5c0ea1a22140c91dccf35b53589c03e0b",
+    "variant_gen/tests/oracle_level45_i45_completion.py": "a7e492e34739550d498a276b024b607c5fcb2ce9659bd122faef591c836fea83",
+    "variant_gen/tests/test_level45_i12_completion.py": "2811083d09fa873aebaa97219cebb75bcb182d96d0f2b640e3f79a746902756b",
+    "variant_gen/tests/test_level45_i3_completion.py": "ab84312f844c5d8ad0fd4712a5d070b2382bc24dd464bf9a166d5112e3d3808c",
+    "variant_gen/tests/test_level45_i45_completion.py": "7e330a2dfacaa02b82249dda95abf01d9ecd34554e04123b5289e28b41ca9ec2"
+  },
+  "log_sha256": {
+    "level45-final-engine.log": "f73948f694073b5995578746a7bd066127f3f7af91b51989620478dd27370923",
+    "level45-final-focused.log": "bad38b51ae3eaa58a2cf62827df2d9d10bced0303c5648ae56019db0198b34fa",
+    "level45-final-service.log": "c3c68f69803d6d5f177b3490aa1baaf8af918819ebf23636e813f3972d1a7f81"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-18-5-2",
+  "config_version": 1,
+  "original_hash": "c40fa50853f4d948",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else ((20)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else ((14)*(k+1)**1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'154' if k == 0 else (154*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'203' if k == 0 else (203*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'126' if k == 0 else (126*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'77' if k == 0 else (77*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "126*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "280*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "154*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah karton berbentuk persegi panjang berukuran {v0} cm × {v1} cm. Pada kedua sisi lebarnya, dipotong masing-masing setengah lingkaran dengan diameter {v1} cm. Evaluasi luas sisa karton yang tidak terpotong adalah... (Gunakan π = $\\frac{22}{7}$)",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} cm²",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} cm²",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v4} cm²",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v5} cm²",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v6}. Luas awal{v7}, dua setengah lingkaran berjumlah satu lingkaran luas{v8}. Sisa{v6}, opsi C.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-4-5-2",
+  "config_version": 1,
+  "original_hash": "35f0e12b28908167",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k%10+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k%10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (2+k//10+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2+k//10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (3+k%10+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3+k%10",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2+k//10",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "2**(3+k%10)*3**(2+k//10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (', dengan hasil ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (2**(3+k%10)*3**(2+k//10))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' sebagai nilai FPB')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan dua buah bilangan berpangkat faktorisasi prima $P={2}^{{v4}}×{3}^{{v3}}$ dan $Q={2}^{{v1}}×{3}^{{v2}}×5$. Dua orang siswa memberikan penilaian mengenai pernyataan bentuk FPB dari kedua bilangan tersebut:\nEvaluasi A: \"Bentuk $FPB(P,Q)={2}^{{v1}}×{3}^{{v3}}$ adalah BENAR, karena memilih faktor sekutu berpangkat terkecil.\"\nEvaluasi B: \"Bentuk $FPB(P,Q)={2}^{4}×{3}^{3}×5$ adalah BENAR, karena mengambil semua faktor berpangkat terbesar.\"\nPenilaian manakah yang benar berdasarkan konsep dasar FPB?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi A, karena FPB mensyaratkan perkalian faktor sekutu dengan pangkat terkecil{v8}{v9}{v10}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi B, karena FPB harus mencakup seluruh faktor prima yang ada",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi A, tetapi nilainya harus ditambahkan dengan angka 5",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi B, karena pangkat terbesar menghasilkan nilai terbesar",
+      "correct": false
+    }
+  ],
+  "explanation": "Faktor sekutu 2 dan 3 memakai pangkat terkecil {v5} dan {v6}. FPB = 2^{v5} × 3^{v6} = {v7}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

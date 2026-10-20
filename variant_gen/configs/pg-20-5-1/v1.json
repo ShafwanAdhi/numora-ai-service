@@ -1,0 +1,261 @@
+{
+  "question_id": "pg-20-5-1",
+  "config_version": 1,
+  "original_hash": "bd6d7e9b287f2e54",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'perjalanan ke sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('sarapan pagi' if (k-1) % 6 == 4 else v0)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kunjungan perpustakaan' if (k-1) % 6 == 3 else v1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('penggunaan gawai' if (k-1) % 6 == 2 else v2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('latihan olahraga' if (k-1) % 6 == 1 else v3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kegiatan membaca' if (k-1) % 6 == 0 else v4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'anggota klub sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas IX' if (k-1) // 6 == 2 else v6)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VIII' if (k-1) // 6 == 1 else v7)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VII' if (k-1) // 6 == 0 else v8)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'pada pekan sekolah ini'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('dalam satu bulan terakhir' if (k-1) // 6 == 2 else v10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('selama tujuh hari terakhir' if (k-1) // 6 == 1 else v11)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('setiap hari' if (k-1) // 6 == 0 else v12)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'kegiatan ekstrakurikuler'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('angkutan sekolah' if (k-1) % 6 == 4 else v14)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('koleksi perpustakaan' if (k-1) % 6 == 3 else v15)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('layanan kantin' if (k-1) % 6 == 2 else v16)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('lapangan olahraga' if (k-1) % 6 == 1 else v17)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('ruang belajar' if (k-1) % 6 == 0 else v18)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Peneliti hendak mengukur tingkat kepuasan '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' terhadap '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else '. Rancangan pertanyaan yang paling layak adalah ....'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Bukankah layanan ini sangat bagus dan memuaskan?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Apakah kamu menyukai sekolahmu?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Bagaimana tingkat kepuasanmu terhadap '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else '? (Sangat tidak puas, tidak puas, puas, sangat puas)'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Mengapa layanan ini pasti lebih baik daripada milik sekolah lain?'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Alasan utama: pertanyaan ketiga langsung mengukur kepuasan terhadap objek sasaran memakai skala berurutan yang jelas dan netral.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "'Seorang peneliti ingin mengetahui tingkat kepuasan siswa terhadap fasilitas olahraga sekolah. Ia memiliki empat rancangan pertanyaan berikut.\\n\\nRancang' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "'an pertanyaan yang paling layak digunakan adalah ....' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "'Apakah fasilitas olahraga sekolah sangat bagus dan memuaskan?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "'Apakah kamu menyukai sekolahmu?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "'Bagaimana tingkat kepuasanmu terhadap fasilitas olahraga sekolah? (Sangat tidak puas, tidak puas, puas, sangat puas)' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v34": {
+      "gen": "derived",
+      "expr": "'Mengapa fasilitas olahraga sekolah lebih baik daripada sekolah lain?' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v35": {
+      "gen": "derived",
+      "expr": "'Pembahasan: Pilihan C secara langsung mengukur tingkat kepuasan terhadap fasilitas olahraga dengan pilihan jawaban yang jelas dan terstruktur.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "{v29}{v30}{v20}{v9}{v21}{v19}{v22}",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v31}{v23}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v32}{v24}",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v33}{v25}{v19}{v26}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "{v34}{v27}",
+      "correct": false
+    }
+  ],
+  "explanation": "{v35}{v28}",
+  "shuffle": false,
+  "max_draws": 1000
+}

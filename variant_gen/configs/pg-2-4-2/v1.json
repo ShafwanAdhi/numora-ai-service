@@ -1,0 +1,75 @@
+{
+  "question_id": "pg-2-4-2",
+  "config_version": 1,
+  "original_hash": "b2ce142994738701",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else (3*(k+5)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (k+8)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (k+12)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'25' if k == 0 else ((k+5)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (k+5)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang siswa menganalisis penyederhanaan panjang total kerangka besi siku untuk penopang rak laboratorium. Panjang total kerangka dinyatakan dalam bentuk operasi bentuk akar berikut:\n$Panjang Kerangka=\\sqrt{{v0}}+\\sqrt{108}-\\sqrt{27}(dalam cm)$\nBentuk sederhana dari panjang total kerangka besi siku tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "$5\\sqrt{3}cm$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "${v1}\\sqrt{3}cm$",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "$6\\sqrt{3}cm$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "${v2}\\sqrt{3}cm$",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembahasan:\n$\\sqrt{{v0}}=\\sqrt{{v3}×3}={v4}\\sqrt{3}$\n$\\sqrt{108}=\\sqrt{36×3}=6\\sqrt{3}$\n$\\sqrt{27}=\\sqrt{9×3}=3\\sqrt{3}$\n${v4}\\sqrt{3}+6\\sqrt{3}-3\\sqrt{3}={v1}\\sqrt{3}$, jadi bentuk sederhananya adalah ${v1}\\sqrt{3}$ cm.",
+  "shuffle": false,
+  "max_draws": 1000
+}

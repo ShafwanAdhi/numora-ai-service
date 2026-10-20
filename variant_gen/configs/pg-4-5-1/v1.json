@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-4-5-1",
+  "config_version": 1,
+  "original_hash": "99cb1fa221bb6a35",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (2*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (3*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else (4*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (6*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else (12*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'3.000' if k == 0 else (24*(5+k)**3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "3*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "12*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "6*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga buah sistem lampu otomatis di area taman sekolah menyala secara berkala:\nLampu Merah: setiap {v0} detik\nLampu Kuning: setiap {v1} detik\nLampu Hijau: setiap {v2} detik\nKetiga lampu menyala bersamaan untuk pertama kalinya pada detik ke-0. Dua orang siswa mengevaluasi klaim waktu menyala bersama berikutnya:\nEvaluasi I: \"Ketiga lampu akan menyala bersamaan kembali untuk kedua kalinya pada detik ke-{v3}.\"\nEvaluasi II: \"Ketiga lampu akan menyala bersamaan kembali untuk kedua kalinya pada detik ke-{v4}, karena $KPK({v0},{v1},{v2})={v4}$.\"\nHasil evaluasi manakah yang pasti benar?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I, karena {v3} adalah kelipatan dari {v0} dan {v1}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II, karena {v4} merupakan kelipatan persekutuan terkecil dari {v0}, {v1}, dan {v2}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi I, karena {v3} merupakan hasil kali ${v0}+{v2}$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi II, karena ${v0}×{v1}×{v2}={v5}$",
+      "correct": false
+    }
+  ],
+  "explanation": "KPK dari {v6}, {v7}, {v8} = {v9} detik. Klaim {v10} salah karena tidak habis dibagi {v8}. Hanya opsi B memberi waktu dan alasan KPK yang benar; hasil kali ketiganya bukan KPK.",
+  "shuffle": false,
+  "max_draws": 1000
+}

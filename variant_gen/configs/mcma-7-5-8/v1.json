@@ -1,0 +1,93 @@
+{
+  "question_id": "mcma-7-5-8",
+  "config_version": 1,
+  "original_hash": "1d03c58041b3978c",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'15.000' if k == 0 else (15000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'25.000' if k == 0 else (25000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'20.000' if k == 0 else (20000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'75.000,00' if k == 0 else (75000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'150.000,00' if k == 0 else (150000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "20000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "75000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "150000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua toko menjual kaus tim. Toko A memasang harga $3x+{v0}$ rupiah per kaus. Toko B memasang harga $5x-{v1}$ rupiah per kaus. Harga satu kaus pada kedua toko sama. Manakah evaluasi yang benar? (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nilai $x$ yang memenuhi adalah {v2}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Harga 1 kaus di Toko A adalah Rp{v3}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Toko B menjual kaus lebih mahal dibanding Toko A.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Pembelian 2 kaus di Toko B membutuhkan uang sebesar Rp{v4}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Persamaan harga memberi x={v5}. Harga satu kaus {v6} rupiah; dua kaus {v7}. Harga kedua toko sama. A,B,D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

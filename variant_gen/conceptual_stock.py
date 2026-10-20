@@ -13,6 +13,7 @@ pg-1-1-4 mcma-1-1-8 kategori-1-1-10 kategori-1-2-10 kategori-1-3-10
 pg-2-2-5 pg-2-3-1 pg-2-3-4 pg-2-3-5 pg-5-2-4
 mcma-6-1-6 mcma-6-2-6 mcma-6-3-6 kategori-6-3-9
 kategori-7-1-10 kategori-7-2-10 pg-7-3-1 kategori-9-1-10 kategori-10-2-10
+mcma-7-5-6
 pg-11-1-1 mcma-11-1-8 kategori-11-1-9 mcma-11-2-6 kategori-11-2-9 mcma-11-5-6
 pg-12-2-4 kategori-12-3-10
 pg-14-1-1 mcma-14-1-6 kategori-14-1-9 pg-14-2-1 pg-14-3-1 pg-14-4-1
@@ -20,6 +21,9 @@ pg-14-4-3 kategori-14-4-10 pg-14-5-1 kategori-14-5-10
 pg-15-1-3 mcma-15-2-7 pg-15-3-3 pg-15-5-3
 pg-16-1-1 pg-16-1-2 mcma-16-1-6 kategori-16-1-9 kategori-16-2-9 pg-16-3-2
 pg-17-3-2 kategori-17-3-10
+pg-16-4-2 pg-16-4-5 mcma-16-4-6 mcma-16-4-7 mcma-16-4-8
+kategori-16-4-9 kategori-16-4-10 pg-16-5-1 pg-16-5-2 mcma-16-5-7 mcma-16-5-8
+pg-17-5-3 mcma-17-5-7 mcma-19-5-6 mcma-19-5-7
 pg-20-1-1 mcma-20-1-6 kategori-20-1-9 kategori-20-1-10 pg-20-2-1 mcma-20-2-7
 kategori-20-2-10 pg-20-3-5 mcma-20-3-8 pg-21-2-5
 pg-22-1-4 mcma-22-1-8 pg-22-2-3 pg-22-2-5 mcma-22-2-8 pg-22-3-5

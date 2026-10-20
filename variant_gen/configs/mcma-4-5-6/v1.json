@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-4-5-6",
+  "config_version": 1,
+  "original_hash": "c5ccd38123bf9fcd",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'72' if k == 0 else (18*(4+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else (18*(5+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'1.080' if k == 0 else ((54*(18*(4+k))/gcd(54,(18*(4+k))))*(18*(5+k))/gcd((54*(18*(4+k))/gcd(54,(18*(4+k)))),(18*(5+k))))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "18*(4+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "18*(5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "(54*(18*(4+k))/gcd(54,(18*(4+k))))*(18*(5+k))/gcd((54*(18*(4+k))/gcd(54,(18*(4+k)))),(18*(5+k)))",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan tiga buah bilangan asli: $54,{v0},$ dan ${v1}$. Seorang siswa menyusun evaluasi terhadap faktorisasi prima, FPB, dan KPK dari ketiga bilangan tersebut.\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan \"Faktorisasi prima dari $54$ adalah $2×{3}^{3}$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan \"$FPB(54,{v0},{v1})=36$\" adalah BENAR.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan \"$FPB(54,{v0},{v1})=18$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan \"$KPK(54,{v0},{v1})={v2}$\" adalah BENAR.",
+      "correct": true
+    }
+  ],
+  "explanation": "Faktorisasi 54 = 2*3^3. FPB(54,{v3},{v4}) = 18 karena dua faktor skala berurutan koprima. KPK = {v5}. A, C, D benar; B salah karena 36 tidak membagi 54.",
+  "shuffle": false,
+  "max_draws": 1000
+}

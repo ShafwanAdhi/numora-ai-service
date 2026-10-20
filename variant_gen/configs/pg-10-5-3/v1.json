@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-10-5-3",
+  "config_version": 1,
+  "original_hash": "6850dbac7f32dff7",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "a": {
+      "gen": "derived",
+      "expr": "'{a}' if k == 0 else 'a'"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (4*(3+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else ((3+k)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*(3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(3+k)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola laboratorium komputer sekolah mengevaluasi pemfaktoran ekspresi aljabar kuadrat $4{x}^{2}-{v0}x+{v1}$ yang menggambarkan luas area tatakan meja. Evaluasi yang tepat mengenai bentuk pemfaktoran tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Merupakan bentuk kuadrat sempurna $(2x-{v2}{)}^{2}$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Merupakan bentuk selisih dua kuadrat $(2x-{v2})(2x+{v2})$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Hasil pemfaktorannya adalah $(4x-{v2})(x-{v2})$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Tidak dapat difaktorkan karena konstantanya bernilai positif",
+      "correct": false
+    }
+  ],
+  "explanation": "Kuadrat sempurna: $4x^2-{v3}x+{v4}=(2x-{v5})^2$. Suku tengah sama dengan dua kali hasil kali 2x dan -{v5}. A benar. B menghasilkan selisih kuadrat tanpa suku tengah; C memiliki koefisien x berbeda; D salah karena faktorisasi tersedia.",
+  "shuffle": false,
+  "max_draws": 1000
+}

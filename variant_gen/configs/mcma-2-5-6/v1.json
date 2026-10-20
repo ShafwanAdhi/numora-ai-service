@@ -1,0 +1,75 @@
+{
+  "question_id": "mcma-2-5-6",
+  "config_version": 1,
+  "original_hash": "5b8de2addec8daa7",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'12' if k == 0 else (4*(3+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (4*(3+k)-2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "4*(3+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "4*(3+k)-2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan sebuah ekspresi operasi bentuk akar hasil pengukuran luas bingkai foto pahlawan di ruang guru:\n$Ekspresi:{v0}\\sqrt{32}-\\sqrt{50}+\\sqrt{18}$\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pernyataan \"Bentuk sederhana dari ${v0}\\sqrt{32}$ adalah ${v1}\\sqrt{2}$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Pernyataan \"Bentuk sederhana dari $\\sqrt{50}$ adalah $2\\sqrt{5}$\" adalah BENAR.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Pernyataan \"Bentuk sederhana dari $\\sqrt{18}$ adalah $3\\sqrt{2}$\" adalah BENAR.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Pernyataan \"Hasil akhir penyederhanaan seluruh ekspresi adalah ${v2}\\sqrt{2}$\" adalah BENAR.",
+      "correct": true
+    }
+  ],
+  "explanation": "sqrt(32)=4*sqrt(2), sqrt(50)=5*sqrt(2), sqrt(18)=3*sqrt(2). Koefisien suku pertama = {v3}. Koefisien akhir = {v3} - 5 + 3 = {v4}. A, C, D benar; B salah karena sqrt(50) bukan 2*sqrt(5).",
+  "shuffle": false,
+  "max_draws": 1000
+}

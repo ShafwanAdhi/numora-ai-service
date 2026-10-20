@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-21",
+  "runs": [
+    {
+      "log": "indicator20-completion-tests.log",
+      "tests": 7,
+      "passed": 7,
+      "skipped": 0,
+      "failures": 0,
+      "log_sha256": "5e7b792ace00992b6e6881418531164d17334d2c1c3c97c19717f7276523838c"
+    },
+    {
+      "log": "indicator20-legacy-tests.log",
+      "tests": 11,
+      "passed": 11,
+      "skipped": 0,
+      "failures": 0,
+      "log_sha256": "cca4eacd6c0ade12095192de425807fbbdb8c3d05d4776bdf0bb8e816141fb12"
+    },
+    {
+      "log": "indicator20-service-tests.log",
+      "tests": 25,
+      "passed": 14,
+      "skipped": 11,
+      "failures": 0,
+      "log_sha256": "5387c1034d6fee2536741ebc798d1b45e274130066113683c466a3de957e6097"
+    }
+  ],
+  "global_smoke": {
+    "generator_count": 1078,
+    "config_validation_errors": 0,
+    "original_reproduction_errors": 0,
+    "single_seed_generation_errors": 0
+  },
+  "review_findings_closed": true,
+  "originals_unchanged": true,
+  "code_sha256": {
+    "variant_gen/tests/author_drill_20_level45_conceptual.py": "78bb4d4520c06841771983a0a37d7933d9194faa6984068a238e94587084d163",
+    "variant_gen/tests/author_drill_20_level45_numeric.py": "5b323760ab1005a175cc52f4f79e67ea511e8f7e357259f4f7d201c60578f689",
+    "variant_gen/tests/build_drill_20_level45_completion.py": "be66364b75790ba74254da665c0d9892e14be065bea7b15c3c57c8fa52915416",
+    "variant_gen/tests/oracle_drill_20_level45_conceptual.py": "c4dbacb36ce4708aa3f469d0d7d47bf26e64e5080f95db2ab138278835ea7028",
+    "variant_gen/tests/oracle_drill_20_level45_numeric.py": "651bb18048479dcb79dea337d5f4a60e26fbf62199721b5d5999141aca753a45",
+    "variant_gen/tests/test_drill_20_level45_completion.py": "c2fc84f786f7b82313cd5fde9a8be75a8cae3d2ed23c7e739d94df34f3cbb120",
+    "variant_gen/tests/test_drill_20_level45_conceptual.py": "d048c1b1a2df9610933f6c27101962def1bc93a9211494adc1b3f00fe7841fc0",
+    "variant_gen/tests/test_drill_20_level45_numeric.py": "73f81d2dd097c6cc45d43aca09eb059dc73d9a40ccf29b55f8b79b92d5c2b597"
+  }
+}

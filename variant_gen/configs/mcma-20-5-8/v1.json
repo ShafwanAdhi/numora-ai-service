@@ -1,0 +1,116 @@
+{
+  "question_id": "mcma-20-5-8",
+  "config_version": 1,
+  "original_hash": "73c464e34e8a3393",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'50' if k == 0 else (50+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'25' if k == 0 else (25+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (proporsi sepeda motor: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (50+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('/')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (100+7*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (')')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "100+7*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "50+3*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang kepala sekolah ingin memilih metode penyajian data hasil survei tentang jenis transportasi siswa. Data terdiri atas sepeda motor {v0} siswa, sepeda {v1} siswa, berjalan kaki {v2} siswa, dan angkutan umum {v3} siswa.\n\nPilih semua keputusan yang paling tepat.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Menggunakan diagram batang untuk membandingkan jumlah siswa pada setiap jenis transportasi.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Menggunakan diagram lingkaran jika ingin menunjukkan proporsi setiap jenis transportasi dari keseluruhan responden.{v4}{v5}{v6}{v7}{v8}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Menggunakan diagram garis karena jenis transportasi memiliki urutan waktu yang berkesinambungan.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Memberikan judul dan label yang jelas agar pembaca memahami data.",
+      "correct": true
+    },
+    {
+      "id": "E",
+      "text": "Menghilangkan kategori dengan jumlah terkecil agar diagram menunjukkan hasil yang lebih meyakinkan.",
+      "correct": false
+    }
+  ],
+  "explanation": "Total = {v9}. Sepeda motor = {v10}. Semua frekuensi positif dan tiap siswa tercatat pada satu kategori. Diagram batang membandingkan jumlah, lingkaran menunjukkan proporsi dari keseluruhan, dan judul serta label memperjelas data. Jenis transportasi bukan urutan waktu. Menghapus kategori terkecil mengubah representasi keseluruhan.",
+  "shuffle": false,
+  "max_draws": 1000
+}

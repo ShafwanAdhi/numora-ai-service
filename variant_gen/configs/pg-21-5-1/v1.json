@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-21-5-1",
+  "config_version": 1,
+  "original_hash": "950e6a13b8982c6c",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else ((60)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else ((70)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else ((75)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'85' if k == 0 else ((85)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (77.5-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' poin)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "77.5-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "75-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "80-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Nilai ulangan enam siswa adalah {v0}, {v1}, {v2}, {v3}, {v4}, dan {v5}. Seorang guru ingin menggunakan ukuran pemusatan data yang paling mewakili nilai tengah siswa dan tidak terlalu terpengaruh nilai ekstrem.\n\nUkuran yang paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rerata",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Median{v6}{v7}{v8}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Modus",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Jangkauan",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v9}. Median=({v10}+{v11})/2={v9}, lebih tahan terhadap nilai ekstrem. Jangkauan bukan ukuran pusat; tidak ada modus tunggal. B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

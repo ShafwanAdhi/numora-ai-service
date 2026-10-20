@@ -1,0 +1,139 @@
+{
+  "question_id": "pg-16-5-5",
+  "config_version": 1,
+  "original_hash": "ab2a92aedb0e6035",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'![Source image rId15](media/image3.jpg)' if k == 0 else ('![Source image rId15](media/image3.jpg)' if k == 0 else '')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('' if k == 0 else 'Sisi alas persegi ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('' if k == 0 else 10*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('' if k == 0 else ' cm; tinggi setiap segitiga sisi tegak ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('' if k == 0 else 13*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('' if k == 0 else ' cm.')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'Perhatikan gambar jaring-jaring limas segi empat beraturan di bawah ini!' if k == 0 else ('Perhatikan gambar jaring-jaring limas segi empat beraturan di bawah ini!' if k == 0 else 'Perhatikan data jaring-jaring limas segi empat beraturan berikut.')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'65' if k == 0 else ((65)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'13' if k == 0 else (13 if k == 0 else 12*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'360' if k == 0 else (360 if k == 0 else 400*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "360*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "100*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "65*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "12*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    }
+  },
+  "constraints": [],
+  "stem": "{v6}\n{v0}{v1}{v2}{v3}{v4}{v5}\nBerdasarkan gambar tersebut, evaluasilah pernyataan-pernyataan berikut!\n(1) Luas alas limas adalah ${v7}c{m}^{2}$.\n(2) Luas satu sisi tegak adalah ${v8}c{m}^{2}$.\n(3) Tinggi limas (jarak titik puncak ke alas) adalah ${v9}cm$.\n(4) Luas total jaring-jaring adalah ${v10}c{m}^{2}$.\nPernyataan yang BENAR adalah...",
+  "options": [
+    {
+      "id": "A",
+      "text": "(1) dan (3)",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "(2) dan (4)",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "(1), (2), dan (3)",
+      "correct": "k != 0"
+    },
+    {
+      "id": "D",
+      "text": "(1), (2), dan (4)",
+      "correct": "k == 0"
+    }
+  ],
+  "explanation": "Hasil = {v11}. Alas={v12}, tiap sisi tegak={v13}, tinggi limas={v14}, total{v11}. Pada original(1),(2),(4) benar; pada varian(1),(2),(3) benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

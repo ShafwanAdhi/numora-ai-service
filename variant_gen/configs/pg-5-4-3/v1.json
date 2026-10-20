@@ -1,0 +1,111 @@
+{
+  "question_id": "pg-5-4-3",
+  "config_version": 1,
+  "original_hash": "a3ac776291714bcc",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else (5+k-2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'7' if k == 0 else (5+k+2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (5+k+5)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'360' if k == 0 else (20*(18+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'600' if k == 0 else ((25+k)*(24+k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'24' if k == 0 else (24+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "20",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "25+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "5+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua buah selang air digunakan untuk mengalirkan air ke dalam dua kolam ikan hias sekolah yang berukuran berbeda:\nSelang I: Mengisi kolam berkapasitas ${v4} liter$ sampai penuh dalam waktu ${v5} menit$.\nSelang II: Mengisi kolam berkapasitas ${v6} liter$ sampai penuh dalam waktu ${v7} menit$.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang II dan Selang I. Selisih debit air kedua selang tersebut adalah ....\nSetiap wadah mula-mula kosong, tidak bocor, tidak memiliki aliran lain, dan debit rata-rata dihitung selama pengisian.",
+  "options": [
+    {
+      "id": "A",
+      "text": "${v0} liter/menit$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "${v1} liter/menit$",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "${v2} liter/menit$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "${v3} liter/menit$",
+      "correct": false
+    }
+  ],
+  "explanation": "Debit pertama = {v8}, debit kedua = {v9}, selisih = {v10} liter/menit.",
+  "shuffle": false,
+  "max_draws": 1000
+}

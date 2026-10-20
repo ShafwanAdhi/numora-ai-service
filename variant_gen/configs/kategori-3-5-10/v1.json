@@ -1,0 +1,94 @@
+{
+  "question_id": "kategori-3-5-10",
+  "config_version": 1,
+  "original_hash": "704f1f2f3b328095",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'27' if k == 0 else (27*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else (75*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'5,2' if k == 0 else (round(sqrt(27)*(k+1),1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (round(sqrt(75)*(k+1)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'13' if k == 0 else ((round(sqrt(27)*(k+1))+round(sqrt(75)*(k+1)))-1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "round(sqrt(27)*(k+1),1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "round(sqrt(75)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "round(sqrt(27)*(k+1))+round(sqrt(75)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "(round(sqrt(27)*(k+1))+round(sqrt(75)*(k+1)))-1",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua pipa air berbentuk irasional diukur panjangnya pada area taman sekolah:\n$R=\\sqrt{{v0} }meter$\n$S=\\sqrt{{v1}} meter$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi aproksimasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Nilai aproksimasi $R$ ($\\sqrt{{v0}}$) jika dibulatkan ke persepuluhan terdekat adalah ${v2} m$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Nilai aproksimasi $S$ ($\\sqrt{{v1}}$) jika dibulatkan ke satuan terdekat adalah ${v3} m$.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Nilai estimasi total panjang $R+S$ menggunakan pembulatan ke satuan terdekat dari masing-masing komponen adalah ${v4} m$.",
+      "correct": false
+    }
+  ],
+  "explanation": "Akar pertama ke persepuluhan = {v5}, akar kedua ke satuan = {v6}. Jumlah pembulatan satuan = {v7}, bukan {v8}. Pernyataan 1 dan 2 benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

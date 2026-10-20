@@ -1,0 +1,64 @@
+{
+  "question_id": "kategori-4-5-9",
+  "config_version": 1,
+  "original_hash": "1c6088747f01ac9e",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'120' if k == 0 else (120*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'150' if k == 0 else (150*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "30*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah panitia bazar sekolah mengevaluasi dua opsi pengemasan untuk ${v0}$ kotak susu dan ${v1}$ bungkus biskuit.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Kantong plastik terbanyak yang dapat digunakan untuk mengemas seluruh makanan tanpa sisa adalah ${v2}$ kantong.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jika dikemas ke dalam ${v2}$ kantong, banyaknya biskuit pada masing-masing kantong adalah $4$ bungkus.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Total seluruh kemasan (susu dan biskuit) pada masing-masing kantong jika dibagikan maksimum adalah $9$ kemasan.",
+      "correct": true
+    }
+  ],
+  "explanation": "Hitung FPB dari dua jumlah yang ditampilkan: FPB = {v3}. Periksa keterbagian, isi tiap kelompok, dan syarat maksimum pada setiap opsi.",
+  "shuffle": false,
+  "max_draws": 1000
+}

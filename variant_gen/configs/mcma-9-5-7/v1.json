@@ -1,0 +1,81 @@
+{
+  "question_id": "mcma-9-5-7",
+  "config_version": 1,
+  "original_hash": "bbad63b153867c67",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'70.000,00' if k == 0 else (70000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'65.000,00' if k == 0 else (65000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'15.000,00' if k == 0 else (15000*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'12.500,00' if k == 0 else (12500*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "12500*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "15000*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua toko perlengkapan olahraga menawarkan paket kaus kaki dan sarung tangan:\nToko Maju: 2 kaus kaki dan 3 sarung tangan seharga Rp{v0}.\nToko Jaya: 4 kaus kaki dan 1 sarung tangan seharga Rp{v1}.\nSeorang pembeli mengevaluasi harga satuan barang dari kedua toko tersebut. Manakah pernyataan evaluatif yang benar? (Jawaban benar lebih dari satu) Harga satuan setiap jenis barang sama pada kedua toko. Semua jumlah kaus kaki dan sarung tangan pada paket dihitung per pasang.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Harga 1 pasang kaus kaki adalah Rp{v2}.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Harga 1 pasang kaus kaki adalah Rp{v3}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Harga 1 pasang sarung tangan lebih murah dibanding kaus kaki.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Harga 1 pasang sarung tangan adalah Rp{v2}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Harga kaus kaki {v4}, sarung tangan {v5} rupiah per pasang. Sarung tangan lebih mahal. B,D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

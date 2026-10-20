@@ -1,0 +1,309 @@
+{
+  "question_id": "kategori-20-4-10",
+  "config_version": 1,
+  "original_hash": "3555734b53442aa2",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'perjalanan ke sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('sarapan pagi' if (k-1) % 6 == 4 else v0)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kunjungan perpustakaan' if (k-1) % 6 == 3 else v1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('penggunaan gawai' if (k-1) % 6 == 2 else v2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('latihan olahraga' if (k-1) % 6 == 1 else v3)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('kegiatan membaca' if (k-1) % 6 == 0 else v4)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'anggota klub sekolah'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas IX' if (k-1) // 6 == 2 else v6)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VIII' if (k-1) // 6 == 1 else v7)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('siswa kelas VII' if (k-1) // 6 == 0 else v8)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'pada pekan sekolah ini'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('dalam satu bulan terakhir' if (k-1) // 6 == 2 else v10)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('selama tujuh hari terakhir' if (k-1) // 6 == 1 else v11)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('setiap hari' if (k-1) // 6 == 0 else v12)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'praktis'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('aman' if (k-1) // 6 == 2 else v14)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v16": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('nyaman' if (k-1) // 6 == 1 else v15)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v17": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('hemat' if (k-1) // 6 == 0 else v16)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v18": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'bermanfaat'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v19": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('ramah lingkungan' if (k-1) % 6 == 4 else v18)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v20": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('menyenangkan' if (k-1) % 6 == 3 else v19)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v21": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('adil' if (k-1) % 6 == 2 else v20)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v22": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('cepat' if (k-1) % 6 == 1 else v21)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v23": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('sehat' if (k-1) % 6 == 0 else v22)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v24": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Survei tentang '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v25": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' bertanya, “Apakah kamu setuju bahwa kebiasaan ini lebih '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v26": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ', lebih '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v27": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ', dan pasti lebih baik?” Tentukan kategori yang tepat.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v28": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Pertanyaan memuat beberapa aspek yang mungkin dijawab berbeda.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v29": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Setiap aspek sebaiknya ditanyakan secara terpisah dan spesifik.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v30": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Pertanyaan sudah netral hanya karena tidak menampilkan pilihan jawaban.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v31": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Aspek '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v32": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' dan '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v33": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' dapat ditanyakan secara terpisah.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v34": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else 'Alasan utama: pertanyaan menggabungkan aspek '",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v35": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ' serta memakai arah “lebih baik”; pisahkan aspek dengan kalimat netral.'",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v36": {
+      "gen": "derived",
+      "expr": "'Seorang peneliti ingin mengetahui pendapat siswa tentang kebijakan membawa bekal dari rumah. Ia membuat pertanyaan berikut.\\n\\n“Apakah kamu setuju bahwa' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v37": {
+      "gen": "derived",
+      "expr": "' membawa bekal dari rumah lebih sehat, lebih hemat, dan lebih baik daripada membeli makanan di kantin?”\\n\\nTentukan kategori yang tepat.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v38": {
+      "gen": "derived",
+      "expr": "'Pertanyaan tersebut mengandung beberapa aspek yang dapat menghasilkan jawaban berbeda.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v39": {
+      "gen": "derived",
+      "expr": "'Pertanyaan sebaiknya dipecah menjadi beberapa pertanyaan yang lebih spesifik.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v40": {
+      "gen": "derived",
+      "expr": "'Pertanyaan tersebut sudah netral karena tidak memuat pilihan jawaban.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v41": {
+      "gen": "derived",
+      "expr": "'Peneliti dapat menanyakan pendapat tentang kesehatan dan penghematan secara terpisah.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v42": {
+      "gen": "derived",
+      "expr": "'Pembahasan: Pertanyaan menggabungkan aspek kesehatan, penghematan, dan perbandingan dengan kantin. Aspek-aspek tersebut sebaiknya ditanyakan secara te' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v43": {
+      "gen": "derived",
+      "expr": "'rpisah dengan kalimat netral.' if k == 0 else ''",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "{v36}{v37}{v24}{v5}{v25}{v17}{v26}{v23}{v27}",
+  "options": [
+    {
+      "id": "1",
+      "text": "{v38}{v28}",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "{v39}{v29}",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "{v40}{v30}",
+      "correct": false
+    },
+    {
+      "id": "4",
+      "text": "{v41}{v31}{v17}{v32}{v23}{v33}",
+      "correct": true
+    }
+  ],
+  "explanation": "{v42}{v43}{v34}{v17}{v32}{v23}{v35}",
+  "shuffle": false,
+  "max_draws": 1000
+}

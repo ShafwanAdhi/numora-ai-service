@@ -1,0 +1,354 @@
+{
+  "kategori-6-4-9": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Deklarasi kunci di awal proyeksi stimulus dihapus; salinan mentah dipertahankan."
+    ]
+  },
+  "mcma-6-5-7": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "explanation",
+        "evidence": "250000/15=Rp16.667/m².",
+        "impact": "50000/3 rupiah bukan16667 eksak, walau urutan tarif benar.",
+        "proposal": "Gunakan≈Rp16.666,67/m²."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "INCORRECT",
+    "actions": [
+      "Pembahasan varian menggunakan rasio biaya tepat; 250000/15 bukan 16667 eksak."
+    ]
+  },
+  "kategori-6-5-9": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Deklarasi kunci di awal proyeksi stimulus dihapus; salinan mentah dipertahankan."
+    ]
+  },
+  "mcma-7-4-6": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "kategori-7-4-10": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Deklarasi kunci di awal proyeksi stimulus dihapus; salinan mentah dipertahankan."
+    ]
+  },
+  "kategori-7-5-10": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Deklarasi kunci di awal proyeksi stimulus dihapus; salinan mentah dipertahankan."
+    ]
+  },
+  "pg-8-4-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "mcma-8-4-6": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "kategori-8-4-10": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "pg-8-5-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "precision",
+        "evidence": "Sumber menulis k≤220/15 \\implies k≤14,67;tidak menulis persamaan220/15=14,67.",
+        "impact": "Implikasi sah karena44/3<14,67;untuk domain integer kedua batas memberi maksimum14 yang sama.Tidak ada kesalahan matematis;nilai pecahan tepat44/3 lebih jelas.",
+        "proposal": "Opsional:pertahankan k≤44/3;catat44/3≈14,67 lalu ambil lantai14."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Batas kardus dihitung dengan lantai pecahan tepat; pembulatan desimal diberi tanda pendekatan."
+    ]
+  },
+  "mcma-8-5-6": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "pg-9-4-3": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "pg-9-4-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "mcma-9-4-8": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "pg-9-5-3": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "pg-9-5-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "explanation",
+        "evidence": "Eliminasi dinyatakan harus mengubahy3x−2 menjadi−3x+y−2 terlebih dahulu.",
+        "impact": "Tidak wajib:kalikan persamaan1 dengan5,lalu kurangkan langsung dari persamaan2 menghasilkan17x34.Hasil substitusi/keyA benar.",
+        "proposal": "Tulis substitusi merupakan pilihan langsung karena y terisolasi;hapus keharusan bentuk baku dan klaim tepat2 langkah tanpa konvensi hitungan."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "INCORRECT",
+    "actions": [
+      "Substitusi langsung tersedia; eliminasi tidak wajib mengubah persamaan ke bentuk baku."
+    ]
+  },
+  "kategori-9-5-10": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "explanation",
+        "evidence": "Eliminasi dinyatakan membutuhkan pengubahan menjadi x+0y4.",
+        "impact": "Eliminasi dapat langsung(2x+y)−2x=11−8,y3;menulis0y tidak wajib.Kunci1,2 tetap wajar.",
+        "proposal": "Pertahankan substitusi langsung sebagai pilihan sederhana;hapus klaim pengubahan bentuk0y wajib dan definisikan cara menghitung langkah bila diuji."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "INCORRECT",
+    "actions": [
+      "Substitusi langsung sederhana; eliminasi tidak wajib menambahkan suku 0y."
+    ]
+  },
+  "pg-10-4-1": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "source_projection",
+        "evidence": "Paragraf5303 dimulai PEMBAHASAN Ukuran panjang, tanpa titik dua. Parser menggabungkan5303-5313 ke opsiD dan menandai explanation=null.",
+        "impact": "Pembahasan sebenarnya tersedia dan benar; opsiD proyeksi terkontaminasi. Bukan pembahasan sumber yang hilang.",
+        "proposal": "Pisahkan pembahasan berdasarkan paragraf5303, pertahankan opsiD hanya(10x+4)meter."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Proyeksi audit sudah memisahkan opsi D dari pembahasan sumber."
+    ]
+  },
+  "pg-10-4-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "explanation",
+        "evidence": "Pembatalan faktor menggunakan domain asal x!=-2 dan x!=3/2; pembahasan tidak menuliskan pembatasan itu.",
+        "impact": "Hasil aljabar benar pada domain asal; tanpa catatan domain, pembaca dapat mengisi titik yang semula tidak terdefinisi.",
+        "proposal": "Tambahkan syarat x!=-2 dan x!=3/2 pada hasil akhir."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Pembahasan varian mempertahankan domain penyebut asal, termasuk faktor yang dibatalkan."
+    ]
+  },
+  "kategori-10-4-9": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "source_projection",
+        "evidence": "Tiga paragraf(a)/(b)/(c) setelahKUNCI JAWABAN masuk ke awalstem parser, padahal paragraf sumber jelas berada di bagian kunci.",
+        "impact": "Jika proyeksi ini ditampilkan, jawaban sudah terbaca sebelum stimulus. Ini artefak pemisahan komponen, bukan bagian soal yang dimaksud penulis.",
+        "proposal": "Buang baris deklarasi kunci dari proyeksistem; tetap simpan dalamdeclared_key_texts."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "kategori-10-4-10": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "source_projection",
+        "evidence": "Tiga paragraf(a)/(b)/(c) setelahKUNCI JAWABAN masuk ke awalstem parser, padahal paragraf sumber jelas berada di bagian kunci.",
+        "impact": "Jika proyeksi ini ditampilkan, jawaban sudah terbaca sebelum stimulus. Ini artefak pemisahan komponen, bukan bagian soal yang dimaksud penulis.",
+        "proposal": "Buang baris deklarasi kunci dari proyeksistem; tetap simpan dalamdeclared_key_texts."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "pg-10-5-2": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  },
+  "pg-10-5-4": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "explanation",
+        "evidence": "Pembatalan faktor menggunakan domain asal x!=-3 dan x!=3; pembahasan tidak menuliskan pembatasan itu.",
+        "impact": "Hasil aljabar benar pada domain asal; tanpa catatan domain, pembaca dapat mengisi titik yang semula tidak terdefinisi.",
+        "proposal": "Tambahkan syarat x!=-3 dan x!=3 pada hasil akhir."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Pembahasan varian mempertahankan domain penyebut asal sebelum pembatalan faktor."
+    ]
+  },
+  "mcma-10-5-7": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "explanation",
+        "evidence": "Pembahasan mula-mula menulis(C & D Benar), kemudian membatalkanC karena luar=10x,dalam=-3x. OpsiC justru menyebut dalam+10x,luar-3x.",
+        "impact": "Pembahasan memuat evaluasiC yang saling bertentangan; kesimpulan akhirB,D benar.",
+        "proposal": "Hapus(C & D Benar), tulisC Salah,D Benar sejak evaluasi pertama; hapus riwayat revisi."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "INCORRECT",
+    "actions": [
+      "Suku dalam dan luar dihitung sesuai urutan faktor; klaim C salah, B dan D benar."
+    ]
+  },
+  "kategori-10-5-10": {
+    "date": "2026-10-21",
+    "status": "ENGINEERING_REVIEWED_NOT_CURRICULUM_APPROVED",
+    "findings": [
+      {
+        "component": "source_projection",
+        "evidence": "Tiga paragraf(a)/(b)/(c) setelahKUNCI JAWABAN masuk ke awalstem parser, padahal paragraf sumber jelas berada di bagian kunci.",
+        "impact": "Jika proyeksi ini ditampilkan, jawaban sudah terbaca sebelum stimulus. Ini artefak pemisahan komponen, bukan bagian soal yang dimaksud penulis.",
+        "proposal": "Buang baris deklarasi kunci dari proyeksistem; tetap simpan dalamdeclared_key_texts."
+      }
+    ],
+    "source_validity": "VALID",
+    "source_answer_status": "CORRECT",
+    "source_explanation_status": "CORRECT",
+    "actions": [
+      "Stimulus, opsi, dan kunci sumber dipertahankan; pembahasan varian dihitung ulang."
+    ]
+  }
+}

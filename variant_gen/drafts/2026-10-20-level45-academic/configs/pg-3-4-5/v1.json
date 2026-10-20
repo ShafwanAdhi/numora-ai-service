@@ -1,0 +1,141 @@
+{
+  "question_id": "pg-3-4-5",
+  "config_version": 1,
+  "original_hash": "9e14db8fb779b86f",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        24
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'45' if k == 0 else (45*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'98' if k == 0 else (98*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'53' if k == 0 else ((98-45)*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (((round(sqrt(98)*(k+1)))-(round(sqrt(45)*(k+1))))-1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (round(sqrt(98)*(k+1)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'7' if k == 0 else (round(sqrt(45)*(k+1)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else ((round(sqrt(98)*(k+1)))-(round(sqrt(45)*(k+1))))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'9,899' if k == 0 else (sqrt(98)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'6,708' if k == 0 else (sqrt(45)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "round(sqrt(45)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "round(sqrt(98)*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "(round(sqrt(98)*(k+1)))-(round(sqrt(45)*(k+1)))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v12": {
+      "gen": "derived",
+      "expr": "((round(sqrt(98)*(k+1)))-(round(sqrt(45)*(k+1))))-1",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v13": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v14": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ((round(sqrt(98)*(k+1)))-(round(sqrt(45)*(k+1))))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v15": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' m)')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua papan nama taman sekolah diukur panjang diagonalnya:\nPapan A: diagonal $=\\sqrt{{v0}}meter$\nPapan B: diagonal $=\\sqrt{{v1}}meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah ${v3}m$, karena $\\sqrt{{v1}}≈{v4}m$ dan $\\sqrt{{v0}} \\approx {v5}\\text{ m} \\implies {v4} - {v5} = {v3}\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah ${v5}m$, karena dihitung dari $\\sqrt{{v1}-{v0}}=\\sqrt{{v2}}≈{v5}m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah ${v6}m$, karena $\\sqrt{{v1}}≈{v7}→{v4}m$ dan $\\sqrt{{v0}} \\approx {v8} \\rightarrow {v5}\\text{ m} \\implies {v4} - {v5} = {v6}\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang paling tepat?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi III{v13}{v14}{v15}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi II dan III sama-sama benar",
+      "correct": false
+    }
+  ],
+  "explanation": "Bulatkan setiap akar secara terpisah: akar pertama = {v9} m dan akar kedua = {v10} m. Selisih benar = {v11} m. Evaluasi I menyatakan {v12} m dan salah; Evaluasi III benar. Radikan tidak boleh dikurangkan sebelum diakar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

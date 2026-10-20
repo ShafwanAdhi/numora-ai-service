@@ -1,0 +1,110 @@
+{
+  "question_id": "mcma-21-4-7",
+  "config_version": 1,
+  "original_hash": "66973524d1af860d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'65' if k == 0 else ((65)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else ((70)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else ((75)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'85' if k == 0 else ((85)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'95' if k == 0 else ((95)+(-1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "550-7*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "80-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "77.5-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "75-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Perhatikan data berikut.\n\n{v0}, {v1}, {v2}, {v3}, {v3}, {v4}, {v5}\n\nPernyataan yang benar berdasarkan data tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Median data adalah {v3}.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Modus data adalah {v3}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jangkauan data adalah 30.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Rerata data adalah {v3}.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Jika nilai {v5} dihapus, median data yang tersisa adalah {v2}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v7}. Median dan modus={v7}, jangkauan30. Rerata=({v6})/7, bukan{v7}. Hapus nilai terbesar: median={v8}, bukan{v9}. A,B,C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

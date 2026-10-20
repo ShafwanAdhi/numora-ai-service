@@ -1,0 +1,105 @@
+{
+  "question_id": "pg-3-5-1",
+  "config_version": 1,
+  "original_hash": "bb456f5ef435bc39",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'19.482' if k == 0 else (19482+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'20.000' if k == 0 else (20000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'19.500' if k == 0 else (19500+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'19.000' if k == 0 else (19000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'19.400' if k == 0 else (19400+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'I' if k == 0 else ('II')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'II' if k == 0 else ('I')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "19482+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "19000+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "19500+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengurus perpustakaan sekolah mengevaluasi dua laporan hasil pembulatan data pengunjung bulanan sebanyak ${v0}$ orang:\nLaporan A: Dibulatkan ke ribuan terdekat.\nLaporan B: Dibulatkan ke ratusan terdekat.\nDua orang staf mengajukan lembar evaluasi hasil pembulatan:\nEvaluasi {v5}: Laporan A = ${v1}$ orang, Laporan B = ${v2}$ orang\nEvaluasi {v6}: Laporan A = ${v3}$ orang, Laporan B = ${v2}$ orang\nEvaluasi III: Laporan A = ${v3}$ orang, Laporan B = ${v4}$ orang\nEvaluasi IV: Laporan A = ${v1}$ orang, Laporan B = ${v4}$ orang\nEvaluasi manakah yang pasti benar secara aturan matematis?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Evaluasi I",
+      "correct": "k != 0"
+    },
+    {
+      "id": "B",
+      "text": "Evaluasi II",
+      "correct": "k == 0"
+    },
+    {
+      "id": "C",
+      "text": "Evaluasi III",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Evaluasi IV",
+      "correct": false
+    }
+  ],
+  "explanation": "Pembulatan langsung pada data {v7}: ribuan = {v8} (digit ratusan 4); ratusan = {v9} (digit puluhan 8). Jangan membulatkan bertahap.",
+  "shuffle": false,
+  "max_draws": 1000
+}

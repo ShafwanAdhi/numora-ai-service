@@ -1,0 +1,86 @@
+{
+  "question_id": "pg-23-5-1",
+  "config_version": 1,
+  "original_hash": "8a0ea30ccd5bd084",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'44' if k == 0 else (44-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'0,183' if k == 0 else (44-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('/')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (240)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "44-k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "240",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah dadu dilempar sebanyak 240 kali. Angka 5 muncul sebanyak {v0} kali. Seorang siswa menyatakan bahwa frekuensi relatif angka 5 adalah 0,20. Evaluasi yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena {v0} ÷ 240 = 0,20.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Salah, karena frekuensi relatifnya sekitar {v1}{v2}{v3}.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena peluang teoretis angka 5 adalah 0,20.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Benar, karena angka 5 muncul kurang dari 50 kali.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Tidak dapat ditentukan tanpa mengetahui hasil lemparan lainnya.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v4}/{v5}. Frekuensi relatif kurang dari0.20; opsi B sesuai. Banyak kemunculan tetap positif. Pecahan varian eksak, angka sumber sekitar0.183.",
+  "shuffle": false,
+  "max_draws": 1000
+}

@@ -1,0 +1,99 @@
+{
+  "question_id": "mcma-6-4-7",
+  "config_version": 1,
+  "original_hash": "93dffc9c2076c92c",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'1.500' if k == 0 else (1500*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'1.200' if k == 0 else (1200*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'200' if k == 0 else (200*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'350' if k == 0 else (350*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'2.600' if k == 0 else (2600*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "125*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "200*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "325*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "2600*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah percetakan memiliki dua jenis mesin cetak: Mesin Tipe P (3 unit) dan Mesin Tipe Q (2 unit). Tiga mesin Tipe P bersama-sama dapat menyelesaikan pesanan ${v0}$ brosur dalam waktu 4 jam. Dua mesin Tipe Q bersama-sama dapat menyelesaikan pesanan ${v1}$ brosur dalam waktu 3 jam. Evaluasilah pernyataan berikut dan pilihlah pernyataan yang benar! (Jawaban benar lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "Laju cetak 1 unit Mesin Tipe P lebih cepat daripada 1 unit Mesin Tipe Q.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Laju cetak 1 unit Mesin Tipe Q adalah ${v2}brosur/jam$.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jika 1 mesin Tipe P dan 1 mesin Tipe Q bekerja bersama, mereka dapat mencetak {v3} brosur dalam 1 jam.",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Untuk mencetak ${v4}$ brosur dalam waktu 4 jam, dibutuhkan gabungan 2 mesin Tipe P dan 2 mesin Tipe Q.",
+      "correct": true
+    }
+  ],
+  "explanation": "Laju satu mesin P = {v5} brosur/jam; Q = {v6} brosur/jam. Laju gabungan satu P dan satu Q = {v7}. Hasil dua P dan dua Q selama empat jam = {v8}. B dan D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

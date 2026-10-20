@@ -1,0 +1,85 @@
+{
+  "question_id": "pg-10-4-3",
+  "config_version": 1,
+  "original_hash": "f07f194b382fff74",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "x": {
+      "gen": "derived",
+      "expr": "'{x}' if k == 0 else 'x'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'11' if k == 0 else (11+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'10' if k == 0 else (10+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "11+3*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "10+2*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Pengelola koperasi sekolah mengevaluasi bentuk pemfaktoran dari ekspresi kuadrat $6{x}^{2}-{v0}x-{v1}$ yang menyatakan selisih pendapatan operasional harian. Bentuk pemfaktoran yang benar dari bentuk aljabar tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "$(2x-{v2})(3x+2)$",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "$(3x-{v2})(2x+2)$",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "$(2x+{v2})(3x-2)$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "$(6x-{v2})(x+2)$",
+      "correct": false
+    }
+  ],
+  "explanation": "Perkalian faktor memberikan $6x^2-{v3}x-{v4}=(2x-{v5})(3x+2)$. Hanya A sesuai; perluas setiap opsi untuk membandingkan koefisien.",
+  "shuffle": false,
+  "max_draws": 1000
+}

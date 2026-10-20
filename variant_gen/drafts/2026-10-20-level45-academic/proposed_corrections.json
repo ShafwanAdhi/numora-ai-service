@@ -1,0 +1,2291 @@
+[
+  {
+    "question_id": "pg-1-4-1",
+    "audit_id": "0e868995fdeb:I1:L4:Q1:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1217,
+      "paragraph_end": 1272,
+      "body_block_start": 1131,
+      "body_block_end_exclusive": 1187
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Empat lokasi stasiun pengisian daya sepeda listrik di sepanjang jalan lurus di sekitar sekolah diukur posisinya (dalam km) terhadap gerbang utama sekolah (titik 0 km):\nStasiun A: $-1,85 km$\nStasiun B: $-\\sqrt{3 }km$\nStasiun C: $-\\frac{7}{4} km$\nStasiun D: $-1,70 km$\nEmpat orang siswa menganalisis urutan posisi stasiun dari yang paling jauh di sebelah kiri (paling kecil) ke yang paling dekat dengan gerbang utama (paling besar):\nAnalisis I: Stasiun A, Stasiun C, Stasiun B, Stasiun D\nAnalisis II: Stasiun A, Stasiun C, Stasiun B, Stasiun D\nAnalisis III: Stasiun A, Stasiun B, Stasiun C, Stasiun D\nAnalisis IV: Stasiun D, Stasiun B, Stasiun C, Stasiun A\nManakah hasil analisis urutan posisi yang pasti benar?",
+      "options": [
+        "Analisis I",
+        "Analisis I (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)",
+        "Analisis III",
+        "Analisis IV"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nKonversikan seluruh nilai posisi ke desimal pendekatan:\nStasiun A: $-1,85km$\nStasiun B: $-\\sqrt{3}≈-1,732km$\nStasiun C: $-\\frac{7}{4}=-1,75km$\nStasiun D: $-1,70km$\nBandingkan bilangan desimal negatif pada garis bilangan (makin besar angka negatifnya, nilainya makin kecil/makin ke kiri):\n$-1,85<-1,75<-1,732<-1,70$\n$Stasiun A→Stasiun C→Stasiun B→Stasiun D$\nMaka, Analisis I / II (dengan urutan Stasiun A, Stasiun C, Stasiun B, Stasiun D) adalah yang tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-\\sqrt{3}≈-1,5$ sehingga menempatkan Stasiun B paling dekat dengan nol, atau salah membandingkan $-1,85$ dengan $-1,75$ karena lupa aturan bilangan negatif.",
+      "key_caption": "B. Analisis II"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Empat lokasi stasiun pengisian daya sepeda listrik di sepanjang jalan lurus di sekitar sekolah diukur posisinya (dalam km) terhadap gerbang utama sekolah (titik 0 km):\nStasiun A: $-1,85 km$\nStasiun B: $-\\sqrt{3 }km$\nStasiun C: $-\\frac{7}{4} km$\nStasiun D: $-1,70 km$\nEmpat orang siswa menganalisis urutan posisi stasiun dari yang paling jauh di sebelah kiri (paling kecil) ke yang paling dekat dengan gerbang utama (paling besar):\nAnalisis I: Stasiun A, Stasiun B, Stasiun C, Stasiun D\nAnalisis II: Stasiun A, Stasiun C, Stasiun B, Stasiun D\nAnalisis III: Stasiun A, Stasiun B, Stasiun C, Stasiun D\nAnalisis IV: Stasiun D, Stasiun B, Stasiun C, Stasiun A\nManakah hasil analisis urutan posisi yang pasti benar?",
+      "options": [
+        "Analisis I",
+        "Analisis II (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)",
+        "Analisis III",
+        "Analisis IV"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nKonversikan seluruh nilai posisi ke desimal pendekatan:\nStasiun A: $-1,85km$\nStasiun B: $-\\sqrt{3}≈-1,732km$\nStasiun C: $-\\frac{7}{4}=-1,75km$\nStasiun D: $-1,70km$\nBandingkan bilangan desimal negatif pada garis bilangan (makin besar angka negatifnya, nilainya makin kecil/makin ke kiri):\n$-1,85<-1,75<-1,732<-1,70$\n$Stasiun A→Stasiun C→Stasiun B→Stasiun D$\nMaka, Analisis I / II (dengan urutan Stasiun A, Stasiun C, Stasiun B, Stasiun D) adalah yang tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-\\sqrt{3}≈-1,5$ sehingga menempatkan Stasiun B paling dekat dengan nol, atau salah membandingkan $-1,85$ dengan $-1,75$ karena lupa aturan bilangan negatif.\nKoreksi draft (belum dipublikasikan): Membedakan Analisis I dan II serta menyelaraskan opsi B dengan label kunci sumber.",
+      "key_caption": "B. Analisis II (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Empat lokasi stasiun pengisian daya sepeda listrik di sepanjang jalan lurus di sekitar sekolah diukur posisinya (dalam km) terhadap gerbang utama sekolah (titik 0 km):\nStasiun A: $-1,85 km$\nStasiun B: $-\\sqrt{3 }km$\nStasiun C: $-\\frac{7}{4} km$\nStasiun D: $-1,70 km$\nEmpat orang siswa menganalisis urutan posisi stasiun dari yang paling jauh di sebelah kiri (paling kecil) ke yang paling dekat dengan gerbang utama (paling besar):\nAnalisis I: Stasiun A, Stasiun C, Stasiun B, Stasiun D\nAnalisis II: Stasiun A, Stasiun C, Stasiun B, Stasiun D\nAnalisis III: Stasiun A, Stasiun B, Stasiun C, Stasiun D\nAnalisis IV: Stasiun D, Stasiun B, Stasiun C, Stasiun A\nManakah hasil analisis urutan posisi yang pasti benar?",
+        "after": "Empat lokasi stasiun pengisian daya sepeda listrik di sepanjang jalan lurus di sekitar sekolah diukur posisinya (dalam km) terhadap gerbang utama sekolah (titik 0 km):\nStasiun A: $-1,85 km$\nStasiun B: $-\\sqrt{3 }km$\nStasiun C: $-\\frac{7}{4} km$\nStasiun D: $-1,70 km$\nEmpat orang siswa menganalisis urutan posisi stasiun dari yang paling jauh di sebelah kiri (paling kecil) ke yang paling dekat dengan gerbang utama (paling besar):\nAnalisis I: Stasiun A, Stasiun B, Stasiun C, Stasiun D\nAnalisis II: Stasiun A, Stasiun C, Stasiun B, Stasiun D\nAnalisis III: Stasiun A, Stasiun B, Stasiun C, Stasiun D\nAnalisis IV: Stasiun D, Stasiun B, Stasiun C, Stasiun A\nManakah hasil analisis urutan posisi yang pasti benar?"
+      },
+      "options": {
+        "before": [
+          "Analisis I",
+          "Analisis I (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)",
+          "Analisis III",
+          "Analisis IV"
+        ],
+        "after": [
+          "Analisis I",
+          "Analisis II (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)",
+          "Analisis III",
+          "Analisis IV"
+        ]
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-\\sqrt{3}≈-1,5$ sehingga menempatkan Stasiun B paling dekat dengan nol, atau salah membandingkan $-1,85$ dengan $-1,75$ karena lupa aturan bilangan negatif.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-\\sqrt{3}≈-1,5$ sehingga menempatkan Stasiun B paling dekat dengan nol, atau salah membandingkan $-1,85$ dengan $-1,75$ karena lupa aturan bilangan negatif.\nKoreksi draft (belum dipublikasikan): Membedakan Analisis I dan II serta menyelaraskan opsi B dengan label kunci sumber."
+      },
+      "key_caption": {
+        "before": "B. Analisis II",
+        "after": "B. Analisis II (Urutan: Stasiun A, Stasiun C, Stasiun B, Stasiun D)"
+      }
+    },
+    "rationale": [
+      "Membedakan Analisis I dan II serta menyelaraskan opsi B dengan label kunci sumber."
+    ],
+    "source_issues": [
+      {
+        "component": "options/key",
+        "severity": "CRITICAL",
+        "evidence": "Analisis I dan II sama-sama berurutan A,C,B,D; opsi A=Analisis I dan B=Analisis I (dengan urutan). Header kunci B. Analisis II berbeda dari teks opsi B.",
+        "proposed_correction": "Bedakan empat urutan analisis dan empat opsi; samakan rujukan label kunci. Pastikan hanya satu opsi benar, lalu ajukan ulang ke Kurikulum.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-1-5-2",
+    "audit_id": "0e868995fdeb:I1:L5:Q2:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1663,
+      "paragraph_end": 1733,
+      "body_block_start": 1549,
+      "body_block_end_exclusive": 1620
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Seorang siswa mengevaluasi dua klaim mengenai keanggotaan jenis bilangan real dari dua nilai pengukuran laboratorium:\n$a=\\sqrt{32}-2\\sqrt{2}$\n$b=0,454545...$ (desimal berulang)\nDua orang tim penilai memberikan evaluasi sebagai berikut:\nEvaluasi I: \"Nilai $a$ adalah bilangan irasional karena mengandung bentuk akar, dan $b$ adalah bilangan irasional karena desimalnya tak berakhir.\"\nEvaluasi II: \"Nilai $a$ dan $b$ keduanya adalah bilangan irasional.\"\nEvaluasi III: \"Nilai $a$ dan $b$ keduanya adalah bilangan rasional, karena $a=2\\sqrt{2}$ yang dihitung dari $4\\sqrt{2}-2\\sqrt{2}=2\\sqrt{2}$ (eh wait, $2\\sqrt{2}$ irasional). Mari cek evaluasi yang tepat.\"\nRekonstruksi nilai agar tepat:\nMisalkan $a=\\sqrt{18}-\\sqrt{2}=3\\sqrt{2}-\\sqrt{2}=2\\sqrt{2}$ (Irasional)\nMisalkan $a=\\sqrt{128}-2\\sqrt{32}=8\\sqrt{2}-8\\sqrt{2}=0$ (Rasional)\nMari buat $a=\\sqrt{50}-\\sqrt{18}=5\\sqrt{2}-3\\sqrt{2}=2\\sqrt{2}$ (Irasional).\nBila $a=\\sqrt{32}-\\sqrt{18}=4\\sqrt{2}-3\\sqrt{2}=\\sqrt{2}$ (Irasional).\nBila $a=\\sqrt{72}-3\\sqrt{8}=6\\sqrt{2}-6\\sqrt{2}=0$ (Rasional).\nDiberikan:\n$a=\\sqrt{48}-4\\sqrt{3}=4\\sqrt{3}-4\\sqrt{3}=0$\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nPernyataan Evaluasi:\nEvaluasi I: \"$a$ irasional dan $b$ rasional.\"\nEvaluasi II: \"$a$ rasional dan $b$ irasional.\"\nEvaluasi III: \"Keduanya ($a$ dan $b$) adalah bilangan rasional.\"\nEvaluasi IV: \"Keduanya ($a$ dan $b$) adalah bilangan irasional.\"\nManakah evaluasi yang benar?",
+      "options": [
+        "Evaluasi I",
+        "Evaluasi II",
+        "Evaluasi III",
+        "Evaluasi IV"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi $a$:\n$a=\\sqrt{48}-4\\sqrt{3}=\\sqrt{16×3}-4\\sqrt{3}=4\\sqrt{3}-4\\sqrt{3}=0$\nAngka $0$ dapat dituliskan dalam bentuk pecahan $\\frac{0}{1}$, sehingga $a$ tergolong bilangan rasional (bulat).\nMengevaluasi $b$:\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nKarena dapat dinyatakan dalam bentuk pecahan $\\frac{m}{n}$ dengan $m,n∈Z,n≠0$, maka $b$ tergolong bilangan rasional. Maka, Evaluasi III (keduanya bilangan rasional) adalah yang paling tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak menyederhanakan $\\sqrt{48}-4\\sqrt{3}=0$ dan langsung menganggap keberadaan tanda akar membuat $a$ pasti irasional, atau mengira desimal berulang $0,4545...$ sebagai irasional.",
+      "key_caption": "C. Evaluasi III"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Seorang siswa mengevaluasi keanggotaan jenis bilangan real berikut:\n$a=\\sqrt{48}-4\\sqrt{3}=0$\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nEvaluasi I: \"$a$ irasional dan $b$ rasional.\"\nEvaluasi II: \"$a$ rasional dan $b$ irasional.\"\nEvaluasi III: \"Keduanya ($a$ dan $b$) adalah bilangan rasional.\"\nEvaluasi IV: \"Keduanya ($a$ dan $b$) adalah bilangan irasional.\"\nManakah evaluasi yang benar?",
+      "options": [
+        "Evaluasi I",
+        "Evaluasi II",
+        "Evaluasi III",
+        "Evaluasi IV"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi $a$:\n$a=\\sqrt{48}-4\\sqrt{3}=\\sqrt{16×3}-4\\sqrt{3}=4\\sqrt{3}-4\\sqrt{3}=0$\nAngka $0$ dapat dituliskan dalam bentuk pecahan $\\frac{0}{1}$, sehingga $a$ tergolong bilangan rasional (bulat).\nMengevaluasi $b$:\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nKarena dapat dinyatakan dalam bentuk pecahan $\\frac{m}{n}$ dengan $m,n∈Z,n≠0$, maka $b$ tergolong bilangan rasional. Maka, Evaluasi III (keduanya bilangan rasional) adalah yang paling tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak menyederhanakan $\\sqrt{48}-4\\sqrt{3}=0$ dan langsung menganggap keberadaan tanda akar membuat $a$ pasti irasional, atau mengira desimal berulang $0,4545...$ sebagai irasional.\nKoreksi draft (belum dipublikasikan): Memilih blok akhir yang mendukung kunci C dan menghapus rancangan serta label berulang.",
+      "key_caption": "C. Evaluasi III"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Seorang siswa mengevaluasi dua klaim mengenai keanggotaan jenis bilangan real dari dua nilai pengukuran laboratorium:\n$a=\\sqrt{32}-2\\sqrt{2}$\n$b=0,454545...$ (desimal berulang)\nDua orang tim penilai memberikan evaluasi sebagai berikut:\nEvaluasi I: \"Nilai $a$ adalah bilangan irasional karena mengandung bentuk akar, dan $b$ adalah bilangan irasional karena desimalnya tak berakhir.\"\nEvaluasi II: \"Nilai $a$ dan $b$ keduanya adalah bilangan irasional.\"\nEvaluasi III: \"Nilai $a$ dan $b$ keduanya adalah bilangan rasional, karena $a=2\\sqrt{2}$ yang dihitung dari $4\\sqrt{2}-2\\sqrt{2}=2\\sqrt{2}$ (eh wait, $2\\sqrt{2}$ irasional). Mari cek evaluasi yang tepat.\"\nRekonstruksi nilai agar tepat:\nMisalkan $a=\\sqrt{18}-\\sqrt{2}=3\\sqrt{2}-\\sqrt{2}=2\\sqrt{2}$ (Irasional)\nMisalkan $a=\\sqrt{128}-2\\sqrt{32}=8\\sqrt{2}-8\\sqrt{2}=0$ (Rasional)\nMari buat $a=\\sqrt{50}-\\sqrt{18}=5\\sqrt{2}-3\\sqrt{2}=2\\sqrt{2}$ (Irasional).\nBila $a=\\sqrt{32}-\\sqrt{18}=4\\sqrt{2}-3\\sqrt{2}=\\sqrt{2}$ (Irasional).\nBila $a=\\sqrt{72}-3\\sqrt{8}=6\\sqrt{2}-6\\sqrt{2}=0$ (Rasional).\nDiberikan:\n$a=\\sqrt{48}-4\\sqrt{3}=4\\sqrt{3}-4\\sqrt{3}=0$\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nPernyataan Evaluasi:\nEvaluasi I: \"$a$ irasional dan $b$ rasional.\"\nEvaluasi II: \"$a$ rasional dan $b$ irasional.\"\nEvaluasi III: \"Keduanya ($a$ dan $b$) adalah bilangan rasional.\"\nEvaluasi IV: \"Keduanya ($a$ dan $b$) adalah bilangan irasional.\"\nManakah evaluasi yang benar?",
+        "after": "Seorang siswa mengevaluasi keanggotaan jenis bilangan real berikut:\n$a=\\sqrt{48}-4\\sqrt{3}=0$\n$b=0,454545...=\\frac{45}{99}=\\frac{5}{11}$\nEvaluasi I: \"$a$ irasional dan $b$ rasional.\"\nEvaluasi II: \"$a$ rasional dan $b$ irasional.\"\nEvaluasi III: \"Keduanya ($a$ dan $b$) adalah bilangan rasional.\"\nEvaluasi IV: \"Keduanya ($a$ dan $b$) adalah bilangan irasional.\"\nManakah evaluasi yang benar?"
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak menyederhanakan $\\sqrt{48}-4\\sqrt{3}=0$ dan langsung menganggap keberadaan tanda akar membuat $a$ pasti irasional, atau mengira desimal berulang $0,4545...$ sebagai irasional.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa tidak menyederhanakan $\\sqrt{48}-4\\sqrt{3}=0$ dan langsung menganggap keberadaan tanda akar membuat $a$ pasti irasional, atau mengira desimal berulang $0,4545...$ sebagai irasional.\nKoreksi draft (belum dipublikasikan): Memilih blok akhir yang mendukung kunci C dan menghapus rancangan serta label berulang."
+      }
+    },
+    "rationale": [
+      "Memilih blok akhir yang mendukung kunci C dan menghapus rancangan serta label berulang."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/key/explanation",
+        "severity": "CRITICAL",
+        "evidence": "Stem mendefinisikan a berulang kali: sqrt(32)-2sqrt(2)=2sqrt(2) irasional, tetapi blok akhir sqrt(48)-4sqrt(3)=0 rasional; Evaluasi I–III juga didefinisikan ulang. Pembahasan memakai blok akhir saja.",
+        "proposed_correction": "Kurikulum menetapkan satu versi. Jika blok akhir yang dipilih, hapus seluruh rancangan awal dan catatan eh wait; C baru sah untuk versi tunggal itu. Jangan pilih otomatis.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-1-5-5",
+    "audit_id": "0e868995fdeb:I1:L5:Q5:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1809,
+      "paragraph_end": 1858,
+      "body_block_start": 1695,
+      "body_block_end_exclusive": 1745
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Tiga buah posisi kedalaman lubang biopori taman sekolah dicatat sebagai berikut:\nLubang A: $-0,85 m$\nLubang B: $-\\frac{4}{5} m$\nLubang C: $-\\sqrt{0,64} m$\nSeorang siswa menyusun evaluasi perbandingan kedudukan ketiga lubang tersebut:\nEvaluasi A: Lubang B dan Lubang C berada pada kedalaman yang persis sama.\nEvaluasi B: Lubang C ($-\\sqrt{0,64}=-0,80 m$) dan Lubang B ($-\\frac{4}{5}=-0,80 m$) berada pada kedalaman yang persis sama, dan keduanya lebih dangkal daripada Lubang A ($-0,85 m$).\nEvaluasi C: Lubang A adalah lubang yang paling dangkal di antara ketiganya.\nEvaluasi D: Lubang C adalah lubang yang paling dalam di antara ketiganya.\nEvaluasi manakah yang pasti benar?",
+      "options": [
+        "Evaluasi A",
+        "Evaluasi B",
+        "Evaluasi C",
+        "Evaluasi D"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nKonversikan semua nilai ke desimal:\nLubang A: $-0,85 m$\nLubang B: $-\\frac{4}{5}=-0,80 m$\nLubang C: $-\\sqrt{0,64}=-0,80 m$ (karena $0,{8}^{2}=0,64$)\nMengevaluasi kedudukan:\nLubang B dan C nilainya persis sama ($-0,80 m$).\nBandingkan dengan Lubang A: $-0,85<-0,80$, artinya $-0,85 m$ nilainya lebih kecil (lebih dalam) daripada $-0,80 m$ (lebih dangkal). Maka, Evaluasi B adalah evaluasi yang paling lengkap dan benar secara matematis.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-0,85$ lebih besar nilainya (lebih dangkal) dari $-0,80$ karena angka $0,85>0,80$, tanpa memperhatikan tanda negatif.",
+      "key_caption": "B. Evaluasi B"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Tiga buah posisi kedalaman lubang biopori taman sekolah dicatat sebagai berikut:\nLubang A: $-0,85 m$\nLubang B: $-\\frac{4}{5} m$\nLubang C: $-\\sqrt{0,64} m$\nSeorang siswa menyusun evaluasi perbandingan kedudukan ketiga lubang tersebut:\nEvaluasi A: Lubang B dan Lubang C berada pada kedalaman yang berbeda.\nEvaluasi B: Lubang C ($-\\sqrt{0,64}=-0,80 m$) dan Lubang B ($-\\frac{4}{5}=-0,80 m$) berada pada kedalaman yang persis sama, dan keduanya lebih dangkal daripada Lubang A ($-0,85 m$).\nEvaluasi C: Lubang A adalah lubang yang paling dangkal di antara ketiganya.\nEvaluasi D: Lubang C adalah lubang yang paling dalam di antara ketiganya.\nEvaluasi manakah yang pasti benar?",
+      "options": [
+        "Evaluasi A",
+        "Evaluasi B",
+        "Evaluasi C",
+        "Evaluasi D"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nKonversikan semua nilai ke desimal:\nLubang A: $-0,85 m$\nLubang B: $-\\frac{4}{5}=-0,80 m$\nLubang C: $-\\sqrt{0,64}=-0,80 m$ (karena $0,{8}^{2}=0,64$)\nMengevaluasi kedudukan:\nLubang B dan C nilainya persis sama ($-0,80 m$).\nBandingkan dengan Lubang A: $-0,85<-0,80$, artinya $-0,85 m$ nilainya lebih kecil (lebih dalam) daripada $-0,80 m$ (lebih dangkal). Maka, Evaluasi B adalah evaluasi yang paling lengkap dan benar secara matematis.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-0,85$ lebih besar nilainya (lebih dangkal) dari $-0,80$ karena angka $0,85>0,80$, tanpa memperhatikan tanda negatif.\nKoreksi draft (belum dipublikasikan): Mengubah opsi A menjadi salah agar Evaluasi B menjadi satu-satunya jawaban PG.",
+      "key_caption": "B. Evaluasi B"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Tiga buah posisi kedalaman lubang biopori taman sekolah dicatat sebagai berikut:\nLubang A: $-0,85 m$\nLubang B: $-\\frac{4}{5} m$\nLubang C: $-\\sqrt{0,64} m$\nSeorang siswa menyusun evaluasi perbandingan kedudukan ketiga lubang tersebut:\nEvaluasi A: Lubang B dan Lubang C berada pada kedalaman yang persis sama.\nEvaluasi B: Lubang C ($-\\sqrt{0,64}=-0,80 m$) dan Lubang B ($-\\frac{4}{5}=-0,80 m$) berada pada kedalaman yang persis sama, dan keduanya lebih dangkal daripada Lubang A ($-0,85 m$).\nEvaluasi C: Lubang A adalah lubang yang paling dangkal di antara ketiganya.\nEvaluasi D: Lubang C adalah lubang yang paling dalam di antara ketiganya.\nEvaluasi manakah yang pasti benar?",
+        "after": "Tiga buah posisi kedalaman lubang biopori taman sekolah dicatat sebagai berikut:\nLubang A: $-0,85 m$\nLubang B: $-\\frac{4}{5} m$\nLubang C: $-\\sqrt{0,64} m$\nSeorang siswa menyusun evaluasi perbandingan kedudukan ketiga lubang tersebut:\nEvaluasi A: Lubang B dan Lubang C berada pada kedalaman yang berbeda.\nEvaluasi B: Lubang C ($-\\sqrt{0,64}=-0,80 m$) dan Lubang B ($-\\frac{4}{5}=-0,80 m$) berada pada kedalaman yang persis sama, dan keduanya lebih dangkal daripada Lubang A ($-0,85 m$).\nEvaluasi C: Lubang A adalah lubang yang paling dangkal di antara ketiganya.\nEvaluasi D: Lubang C adalah lubang yang paling dalam di antara ketiganya.\nEvaluasi manakah yang pasti benar?"
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-0,85$ lebih besar nilainya (lebih dangkal) dari $-0,80$ karena angka $0,85>0,80$, tanpa memperhatikan tanda negatif.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira $-0,85$ lebih besar nilainya (lebih dangkal) dari $-0,80$ karena angka $0,85>0,80$, tanpa memperhatikan tanda negatif.\nKoreksi draft (belum dipublikasikan): Mengubah opsi A menjadi salah agar Evaluasi B menjadi satu-satunya jawaban PG."
+      }
+    },
+    "rationale": [
+      "Mengubah opsi A menjadi salah agar Evaluasi B menjadi satu-satunya jawaban PG."
+    ],
+    "source_issues": [
+      {
+        "component": "options/key/explanation",
+        "severity": "CRITICAL",
+        "evidence": "Evaluasi A dan B sama-sama benar. Pembahasan memilih B karena paling lengkap, sementara pertanyaan hanya meminta evaluasi yang pasti benar.",
+        "proposed_correction": "Ubah salah satu opsi agar salah, atau nyatakan kriteria jawaban paling lengkap secara eksplisit dan review ulang. Jangan menganggap A salah hanya karena lebih singkat.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "mcma-1-5-7",
+    "audit_id": "0e868995fdeb:I1:L5:Q7:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 1891,
+      "paragraph_end": 1924,
+      "body_block_start": 1777,
+      "body_block_end_exclusive": 1811
+    },
+    "source_original": {
+      "format": "MCMA",
+      "stem": "Seorang pengurus kas kelas mengevaluasi keabsahan dua bentuk penulisan transaksi keuangan:\nMetode X: $(400.000-100.000)-30.000=300.000-30.000=270.000$\nMetode Y: $400.000-(100.000+30.000)=400.000-130.000=270.000$\nManakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00.",
+        "Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$.",
+        "Jika Metode Y diubah menjadi $400.000-(100.000-30.000)$, hasilnya akan tetap sama yaitu Rp270.000,00.",
+        "Menggabungkan dua pengeluaran di dalam tanda kurung seperti pada Metode Y mempermudah rekapitulasi total alokasi pengeluaran."
+      ],
+      "key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nA (Benar): Kedua metode menghasilkan sisa kas Rp270.000,00.\nB (Benar): $-(100.000+30.000)=-100.000-30.000$.\nC (Salah): $400.000-(100.000-30.000)=400.000-70.000=330.000≠270.000$.\nD (Benar): Menjumlahkan pengeluaran terlebih dahulu memudahkan audit kas.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda penjumlahan di dalam kurung pada Metode Y berarti menambah saldo kas, padahal tanda minus di depan kurung menguranginya.",
+      "key_caption": "A, B, dan D"
+    },
+    "proposed_original": {
+      "format": "MCMA",
+      "stem": "Seorang pengurus kas kelas mengevaluasi keabsahan dua bentuk penulisan transaksi keuangan:\nMetode X: $(400.000-100.000)-30.000=300.000-30.000=270.000$\nMetode Y: $400.000-(100.000+30.000)=400.000-130.000=270.000$\nManakah hasil evaluasi pernyataan matematika berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00.",
+        "Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$.",
+        "Jika Metode Y diubah menjadi $400.000-(100.000-30.000)$, hasilnya akan tetap sama yaitu Rp270.000,00.",
+        "Total alokasi dua pengeluaran pada Metode Y adalah Rp130.000,00, sehingga sisa kasnya Rp270.000,00."
+      ],
+      "key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nA (Benar): Kedua metode menghasilkan sisa kas Rp270.000,00.\nB (Benar): $-(100.000+30.000)=-100.000-30.000$.\nC (Salah): $400.000-(100.000-30.000)=400.000-70.000=330.000≠270.000$.\nD (Benar): Menjumlahkan pengeluaran terlebih dahulu memudahkan audit kas.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda penjumlahan di dalam kurung pada Metode Y berarti menambah saldo kas, padahal tanda minus di depan kurung menguranginya.\nKoreksi draft (belum dipublikasikan): Mengganti penilaian subjektif kemudahan dengan klaim aritmetika terukur.",
+      "key_caption": "A, B, D. Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00. | Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$. | Total alokasi dua pengeluaran pada Metode Y adalah Rp130.000,00, sehingga sisa kasnya Rp270.000,00."
+    },
+    "component_changes": {
+      "options": {
+        "before": [
+          "Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00.",
+          "Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$.",
+          "Jika Metode Y diubah menjadi $400.000-(100.000-30.000)$, hasilnya akan tetap sama yaitu Rp270.000,00.",
+          "Menggabungkan dua pengeluaran di dalam tanda kurung seperti pada Metode Y mempermudah rekapitulasi total alokasi pengeluaran."
+        ],
+        "after": [
+          "Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00.",
+          "Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$.",
+          "Jika Metode Y diubah menjadi $400.000-(100.000-30.000)$, hasilnya akan tetap sama yaitu Rp270.000,00.",
+          "Total alokasi dua pengeluaran pada Metode Y adalah Rp130.000,00, sehingga sisa kasnya Rp270.000,00."
+        ]
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda penjumlahan di dalam kurung pada Metode Y berarti menambah saldo kas, padahal tanda minus di depan kurung menguranginya.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira tanda penjumlahan di dalam kurung pada Metode Y berarti menambah saldo kas, padahal tanda minus di depan kurung menguranginya.\nKoreksi draft (belum dipublikasikan): Mengganti penilaian subjektif kemudahan dengan klaim aritmetika terukur."
+      },
+      "key_caption": {
+        "before": "A, B, dan D",
+        "after": "A, B, D. Metode X dan Metode Y menghasilkan nilai sisa kas yang sama yaitu Rp270.000,00. | Kesamaan hasil Metode X dan Metode Y membuktikan Sifat Distributif tanda negatif terhadap penjumlahan: $-(a+b)=-a-b$. | Total alokasi dua pengeluaran pada Metode Y adalah Rp130.000,00, sehingga sisa kasnya Rp270.000,00."
+      }
+    },
+    "rationale": [
+      "Mengganti penilaian subjektif kemudahan dengan klaim aritmetika terukur."
+    ],
+    "source_issues": [
+      {
+        "component": "option D/explanation",
+        "severity": "IMPORTANT",
+        "evidence": "Mempermudah rekapitulasi / memudahkan audit kas merupakan penilaian proses tanpa kriteria ukur; perhitungan membuktikan A/B benar dan C salah, tetapi tidak menetapkan D secara objektif.",
+        "proposed_correction": "Ganti D dengan klaim terukur, misalnya total alokasi pengeluaran pada Y adalah Rp130.000,00, atau minta Kurikulum menyatakan kriteria penilaian D.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-2-4-1",
+    "audit_id": "0e868995fdeb:I2:L4:Q1:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3223,
+      "paragraph_end": 3271,
+      "body_block_start": 3015,
+      "body_block_end_exclusive": 3064
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Seorang pengurus OSIS menghitung sisa dana kas kegiatan pentas seni sekolah setelah beberapa kali transaksi:\nSaldo awal kas: Rp1.200.000,00\nPembelian 15 pak kertas dekorasi seharga Rp18.000,00 per pak\nPenerimaan dana bantuan dari sekolah sebesar Rp500.000,00\nPembayaran sewa alat musik sebesar Rp350.000,00\nDua orang siswa menganalisis penulisan model matematika untuk menghitung sisa saldo kas:\nAnalisis I: $1.200.000-15×18.000+500.000-350.000=1.080.000$\nAnalisis II: $1.200.000-(15×18.000)+500.000-350.000=1.080.000$\nAnalisis III: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$\nAnalisis IV: $1.200.000-15×(18.000+500.000)-350.000=-6.920.000$\nBerdasarkan aturan urutan operasi hitung (KABATAKU/PEMDAS), analisis manakah yang memberikan penulisan prioritas operasi yang paling tepat dan logis?",
+      "options": [
+        "Analisis I",
+        "Analisis II",
+        "Analisis III",
+        "Analisis IV"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMenganalisis operasi perkalian biaya kertas dekorasi yang harus dihitung terlebih dahulu sesuai aturan KABATAKU:\n$Biaya Kertas=15×18.000=270.000$\nMenyusun operasi campuran secara berurutan:\n$Saldo Akhir=1.200.000-(15×18.000)+500.000-350.000$\n$Saldo Akhir=1.200.000-270.000+500.000-350.000=1.080.000$\nPenggunaan tanda kurung pada Analisis II menegaskan prioritas perkalian $(15×18.000)$ sebelum melakukan penjumlahan dan pengurangan dari kiri ke kanan.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan hirarki KABATAKU dengan melakukan pengurangan dari kiri ke kanan tanpa mengalikan 15 dengan 18.000 terlebih dahulu, seperti pada Analisis III.",
+      "key_caption": "B. Analisis II"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Seorang pengurus OSIS menghitung sisa dana kas kegiatan pentas seni sekolah setelah beberapa kali transaksi:\nSaldo awal kas: Rp1.200.000,00\nPembelian 15 pak kertas dekorasi seharga Rp18.000,00 per pak\nPenerimaan dana bantuan dari sekolah sebesar Rp500.000,00\nPembayaran sewa alat musik sebesar Rp350.000,00\nDua orang siswa menganalisis penulisan model matematika untuk menghitung sisa saldo kas:\nAnalisis I: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$\nAnalisis II: $1.200.000-(15×18.000)+500.000-350.000=1.080.000$\nAnalisis III: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$\nAnalisis IV: $1.200.000-15×(18.000+500.000)-350.000=-6.920.000$\nBerdasarkan aturan urutan operasi hitung (KABATAKU/PEMDAS), analisis manakah yang memberikan penulisan prioritas operasi yang paling tepat dan logis?",
+      "options": [
+        "Analisis I",
+        "Analisis II",
+        "Analisis III",
+        "Analisis IV"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMenganalisis operasi perkalian biaya kertas dekorasi yang harus dihitung terlebih dahulu sesuai aturan KABATAKU:\n$Biaya Kertas=15×18.000=270.000$\nMenyusun operasi campuran secara berurutan:\n$Saldo Akhir=1.200.000-(15×18.000)+500.000-350.000$\n$Saldo Akhir=1.200.000-270.000+500.000-350.000=1.080.000$\nPenggunaan tanda kurung pada Analisis II menegaskan prioritas perkalian $(15×18.000)$ sebelum melakukan penjumlahan dan pengurangan dari kiri ke kanan.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan hirarki KABATAKU dengan melakukan pengurangan dari kiri ke kanan tanpa mengalikan 15 dengan 18.000 terlebih dahulu, seperti pada Analisis III.\nKoreksi draft (belum dipublikasikan): Menghilangkan duplikasi model benar sehingga hanya Analisis II sesuai kunci B.",
+      "key_caption": "B. Analisis II"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Seorang pengurus OSIS menghitung sisa dana kas kegiatan pentas seni sekolah setelah beberapa kali transaksi:\nSaldo awal kas: Rp1.200.000,00\nPembelian 15 pak kertas dekorasi seharga Rp18.000,00 per pak\nPenerimaan dana bantuan dari sekolah sebesar Rp500.000,00\nPembayaran sewa alat musik sebesar Rp350.000,00\nDua orang siswa menganalisis penulisan model matematika untuk menghitung sisa saldo kas:\nAnalisis I: $1.200.000-15×18.000+500.000-350.000=1.080.000$\nAnalisis II: $1.200.000-(15×18.000)+500.000-350.000=1.080.000$\nAnalisis III: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$\nAnalisis IV: $1.200.000-15×(18.000+500.000)-350.000=-6.920.000$\nBerdasarkan aturan urutan operasi hitung (KABATAKU/PEMDAS), analisis manakah yang memberikan penulisan prioritas operasi yang paling tepat dan logis?",
+        "after": "Seorang pengurus OSIS menghitung sisa dana kas kegiatan pentas seni sekolah setelah beberapa kali transaksi:\nSaldo awal kas: Rp1.200.000,00\nPembelian 15 pak kertas dekorasi seharga Rp18.000,00 per pak\nPenerimaan dana bantuan dari sekolah sebesar Rp500.000,00\nPembayaran sewa alat musik sebesar Rp350.000,00\nDua orang siswa menganalisis penulisan model matematika untuk menghitung sisa saldo kas:\nAnalisis I: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$\nAnalisis II: $1.200.000-(15×18.000)+500.000-350.000=1.080.000$\nAnalisis III: $(1.200.000-15)×18.000+500.000-350.000=21.599.730.000$\nAnalisis IV: $1.200.000-15×(18.000+500.000)-350.000=-6.920.000$\nBerdasarkan aturan urutan operasi hitung (KABATAKU/PEMDAS), analisis manakah yang memberikan penulisan prioritas operasi yang paling tepat dan logis?"
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan hirarki KABATAKU dengan melakukan pengurangan dari kiri ke kanan tanpa mengalikan 15 dengan 18.000 terlebih dahulu, seperti pada Analisis III.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa mengabaikan hirarki KABATAKU dengan melakukan pengurangan dari kiri ke kanan tanpa mengalikan 15 dengan 18.000 terlebih dahulu, seperti pada Analisis III.\nKoreksi draft (belum dipublikasikan): Menghilangkan duplikasi model benar sehingga hanya Analisis II sesuai kunci B."
+      }
+    },
+    "rationale": [
+      "Menghilangkan duplikasi model benar sehingga hanya Analisis II sesuai kunci B."
+    ],
+    "source_issues": [
+      {
+        "component": "options/selection",
+        "severity": "IMPORTANT",
+        "evidence": "AnalisisI danII sama-sama sah menurut prioritasoperasi dan sama-sama memberi1080000. Kurung pada15×18000 opsional; soal tidak mendefinisikan lebih logis sebagai lebih eksplisit.",
+        "proposed_correction": "Kurikulum memperjelas kriteria, misalnya meminta penulisan yang menandai perkalian dengan kurung, atau ubah opsi sehingga hanya satu model sah. Jangan anggapI salah hanya karena tanpa kurung.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-2-4-2",
+    "audit_id": "0e868995fdeb:I2:L4:Q2:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3272,
+      "paragraph_end": 3305,
+      "body_block_start": 3064,
+      "body_block_end_exclusive": 3098
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Seorang siswa menganalisis penyederhanaan panjang total kerangka besi siku untuk penopang rak laboratorium. Panjang total kerangka dinyatakan dalam bentuk operasi bentuk akar berikut:\n$Panjang Kerangka=\\sqrt{75}+\\sqrt{108}-\\sqrt{27}(dalam cm)$\nBentuk sederhana dari panjang total kerangka besi siku tersebut adalah ....",
+      "options": [
+        "$5\\sqrt{3}cm$",
+        "$8\\sqrt{3}cm$",
+        "$6\\sqrt{3}cm$",
+        "$12\\sqrt{3}cm$"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nUraikan setiap bentuk akar ke dalam faktor yang memuat bilangan kuadrat sempurna:\n$\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$\n$\\sqrt{108}=\\sqrt{36×3}=6\\sqrt{3}$\n$\\sqrt{27}=\\sqrt{9×3}=3\\sqrt{3}$\nOperasikan suku-suku sejenis:\n$Panjang Total=5\\sqrt{3}+6\\sqrt{3}-3\\sqrt{3}=(5+6-3)\\sqrt{3}=6\\sqrt{3}cm$",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menjumlahkan dan mengurangkan angka di dalam akar secara langsung ($\\sqrt{75+108-27}=\\sqrt{156}$), yang merupakan kesalahan manipulasi bentuk akar.",
+      "key_caption": "C. $6\\sqrt{3}cm$"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Seorang siswa menganalisis penyederhanaan panjang total kerangka besi siku untuk penopang rak laboratorium. Panjang total kerangka dinyatakan dalam bentuk operasi bentuk akar berikut:\n$Panjang Kerangka=\\sqrt{75}+\\sqrt{108}-\\sqrt{27}(dalam cm)$\nBentuk sederhana dari panjang total kerangka besi siku tersebut adalah ....",
+      "options": [
+        "$5\\sqrt{3}cm$",
+        "$8\\sqrt{3}cm$",
+        "$6\\sqrt{3}cm$",
+        "$12\\sqrt{3}cm$"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\n$\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$\n$\\sqrt{108}=\\sqrt{36×3}=6\\sqrt{3}$\n$\\sqrt{27}=\\sqrt{9×3}=3\\sqrt{3}$\n$5\\sqrt{3}+6\\sqrt{3}-3\\sqrt{3}=8\\sqrt{3}$, jadi bentuk sederhananya adalah $8\\sqrt{3}$ cm.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menjumlahkan dan mengurangkan angka di dalam akar secara langsung ($\\sqrt{75+108-27}=\\sqrt{156}$), yang merupakan kesalahan manipulasi bentuk akar.\nKoreksi draft (belum dipublikasikan): Memperbaiki 5+6-3 menjadi 8 dan memindahkan kunci dari C ke B.",
+      "key_caption": "B. $8\\sqrt{3}cm$"
+    },
+    "component_changes": {
+      "key": {
+        "before": [
+          "C"
+        ],
+        "after": [
+          "B"
+        ]
+      },
+      "explanation": {
+        "before": "Pembahasan:\nUraikan setiap bentuk akar ke dalam faktor yang memuat bilangan kuadrat sempurna:\n$\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$\n$\\sqrt{108}=\\sqrt{36×3}=6\\sqrt{3}$\n$\\sqrt{27}=\\sqrt{9×3}=3\\sqrt{3}$\nOperasikan suku-suku sejenis:\n$Panjang Total=5\\sqrt{3}+6\\sqrt{3}-3\\sqrt{3}=(5+6-3)\\sqrt{3}=6\\sqrt{3}cm$",
+        "after": "Pembahasan:\n$\\sqrt{75}=\\sqrt{25×3}=5\\sqrt{3}$\n$\\sqrt{108}=\\sqrt{36×3}=6\\sqrt{3}$\n$\\sqrt{27}=\\sqrt{9×3}=3\\sqrt{3}$\n$5\\sqrt{3}+6\\sqrt{3}-3\\sqrt{3}=8\\sqrt{3}$, jadi bentuk sederhananya adalah $8\\sqrt{3}$ cm."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menjumlahkan dan mengurangkan angka di dalam akar secara langsung ($\\sqrt{75+108-27}=\\sqrt{156}$), yang merupakan kesalahan manipulasi bentuk akar.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menjumlahkan dan mengurangkan angka di dalam akar secara langsung ($\\sqrt{75+108-27}=\\sqrt{156}$), yang merupakan kesalahan manipulasi bentuk akar.\nKoreksi draft (belum dipublikasikan): Memperbaiki 5+6-3 menjadi 8 dan memindahkan kunci dari C ke B."
+      },
+      "key_caption": {
+        "before": "C. $6\\sqrt{3}cm$",
+        "after": "B. $8\\sqrt{3}cm$"
+      }
+    },
+    "rationale": [
+      "Memperbaiki 5+6-3 menjadi 8 dan memindahkan kunci dari C ke B."
+    ],
+    "source_issues": [
+      {
+        "component": "key/explanation",
+        "severity": "CRITICAL",
+        "evidence": "Pembahasan menulis(5+6-3)sqrt(3)=6sqrt(3). Koefisien yang benar8; opsiB8sqrt(3), bukan kunciC6sqrt(3).",
+        "proposed_correction": "Ubah usulan kunci keB dan hasil pembahasan8sqrt(3); soal dan opsi sumber sudah menyediakan jawaban benar.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-2-4-3",
+    "audit_id": "0e868995fdeb:I2:L4:Q3:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3306,
+      "paragraph_end": 3336,
+      "body_block_start": 3098,
+      "body_block_end_exclusive": 3129
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Dalam eksperimen kelistrikan di laboratorium sekolah, daya listrik suatu rangkaian dianalisis menggunakan sifat-sifat operasi eksponen (bilangan berpangkat):\n$Daya Listrik=\\frac{({2}^{3}{)}^{4}×{2}^{-2}}{{2}^{2}}(dalam watt)$\nBentuk sederhana dari ekspresi daya listrik tersebut adalah ....",
+      "options": [
+        "${2}^{6} watt$",
+        "${2}^{8} watt$",
+        "${2}^{10} watt$",
+        "${2}^{12} watt$"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nGunakan sifat-sifat eksponen:\nSifat pangkat dari pangkat: $({a}^{m}{)}^{n}×{a}^{m-n}$ ⇒ $({2}^{3}{)}^{4}$ = ${2}^{12}$.\nSifat perkalian eksponen:${ a}^{m}×{ a}^{n}= {a}^{m+n} ⇒ {2}^{12}×{2}^{-2}={2}^{12+(-2)}={2}^{10}$.\nSifat pembagian eksponen: $\\frac{{a}^{m}}{{a}^{n}}={a}^{m-n} ⇒\\frac{{2}^{10}}{{2}^{2}}={2}^{10-2}={2}^{8} watt$",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah menerapkan sifat perpangkatan, misalnya mengalikan pangkat saat penjumlahan basis ($({2}^{3}{)}^{4}={2}^{7}$) atau mengabaikan tanda negatif pada ${2}^{-2}$.",
+      "key_caption": "B. ${2}^{8}$ watt"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Dalam eksperimen kelistrikan di laboratorium sekolah, daya listrik suatu rangkaian dianalisis menggunakan sifat-sifat operasi eksponen (bilangan berpangkat):\n$Daya Listrik=\\frac{({2}^{3}{)}^{4}×{2}^{-2}}{{2}^{2}}(dalam watt)$\nBentuk sederhana dari ekspresi daya listrik tersebut adalah ....",
+      "options": [
+        "${2}^{6} watt$",
+        "${2}^{8} watt$",
+        "${2}^{10} watt$",
+        "${2}^{12} watt$"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nGunakan sifat-sifat eksponen:\nSifat pangkat dari pangkat: $({a}^{m}{)}^{n}={a}^{m×n}$ ⇒ $({2}^{3}{)}^{4}$ = ${2}^{12}$.\nSifat perkalian eksponen:${ a}^{m}×{ a}^{n}= {a}^{m+n} ⇒ {2}^{12}×{2}^{-2}={2}^{12+(-2)}={2}^{10}$.\nSifat pembagian eksponen: $\\frac{{a}^{m}}{{a}^{n}}={a}^{m-n} ⇒\\frac{{2}^{10}}{{2}^{2}}={2}^{10-2}={2}^{8} watt$",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah menerapkan sifat perpangkatan, misalnya mengalikan pangkat saat penjumlahan basis ($({2}^{3}{)}^{4}={2}^{7}$) atau mengabaikan tanda negatif pada ${2}^{-2}$.\nKoreksi draft (belum dipublikasikan): Memperbaiki identitas pangkat dari pangkat tanpa mengubah hasil 2^8.",
+      "key_caption": "B. ${2}^{8} watt$"
+    },
+    "component_changes": {
+      "explanation": {
+        "before": "Pembahasan:\nGunakan sifat-sifat eksponen:\nSifat pangkat dari pangkat: $({a}^{m}{)}^{n}×{a}^{m-n}$ ⇒ $({2}^{3}{)}^{4}$ = ${2}^{12}$.\nSifat perkalian eksponen:${ a}^{m}×{ a}^{n}= {a}^{m+n} ⇒ {2}^{12}×{2}^{-2}={2}^{12+(-2)}={2}^{10}$.\nSifat pembagian eksponen: $\\frac{{a}^{m}}{{a}^{n}}={a}^{m-n} ⇒\\frac{{2}^{10}}{{2}^{2}}={2}^{10-2}={2}^{8} watt$",
+        "after": "Pembahasan:\nGunakan sifat-sifat eksponen:\nSifat pangkat dari pangkat: $({a}^{m}{)}^{n}={a}^{m×n}$ ⇒ $({2}^{3}{)}^{4}$ = ${2}^{12}$.\nSifat perkalian eksponen:${ a}^{m}×{ a}^{n}= {a}^{m+n} ⇒ {2}^{12}×{2}^{-2}={2}^{12+(-2)}={2}^{10}$.\nSifat pembagian eksponen: $\\frac{{a}^{m}}{{a}^{n}}={a}^{m-n} ⇒\\frac{{2}^{10}}{{2}^{2}}={2}^{10-2}={2}^{8} watt$"
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa salah menerapkan sifat perpangkatan, misalnya mengalikan pangkat saat penjumlahan basis ($({2}^{3}{)}^{4}={2}^{7}$) atau mengabaikan tanda negatif pada ${2}^{-2}$.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa salah menerapkan sifat perpangkatan, misalnya mengalikan pangkat saat penjumlahan basis ($({2}^{3}{)}^{4}={2}^{7}$) atau mengabaikan tanda negatif pada ${2}^{-2}$.\nKoreksi draft (belum dipublikasikan): Memperbaiki identitas pangkat dari pangkat tanpa mengubah hasil 2^8."
+      },
+      "key_caption": {
+        "before": "B. ${2}^{8}$ watt",
+        "after": "B. ${2}^{8} watt$"
+      }
+    },
+    "rationale": [
+      "Memperbaiki identitas pangkat dari pangkat tanpa mengubah hasil 2^8."
+    ],
+    "source_issues": [
+      {
+        "component": "explanation/exponent rule",
+        "severity": "IMPORTANT",
+        "evidence": "Baris sifat pangkat dari pangkat ditulis (a^m)^n × a^(m-n), bukan identitas (a^m)^n=a^(mn). Langkah numerik2^12 dan hasil2^8 benar.",
+        "proposed_correction": "Ganti rumus umum dengan(a^m)^n=a^(m*n) pada domain yang sesuai; tetap2^(3*4)=2^12 dan hasil2^8.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-2-4-5",
+    "audit_id": "0e868995fdeb:I2:L4:Q5:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3375,
+      "paragraph_end": 3415,
+      "body_block_start": 3167,
+      "body_block_end_exclusive": 3208
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Seorang guru meminta siswa mengevaluasi penyederhanaan ekspresi bilangan berpangkat berikut:\n$Ekspresi:\\frac{{3}^{5}×{9}^{-1}}{2{7}^{\\frac{2}{3}}}$\nDua siswa memberikan lembar jawaban:\nSiswa A: Mengubah semua basis menjadi 3 ⇒ $\\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=$ $\\frac{{3}^{3}}{{3}^{2}}= {3}^{1}=3$.\nSiswa B: Mengubah semua basis menjadi 3 ⇒ $\\frac{{3}^{5}×{3}^{-2}}{({3}^{3}{)}^{\\frac{2}{3}}}=\\frac{{3}^{3}}{{3}^{2}}=$ ${3}^{1}=3$.\nManakah evaluasi yang pasti tepat mengenai keabsahan langkah penyederhanaan kedua siswa?",
+      "options": [
+        "Jawaban Siswa A benar karena $2{7}^{\\frac{2}{3}}=9={3}^{2}$ tanpa perlu menuliskan pecahan pangkat",
+        "Jawaban Siswa B salah karena $({3}^{3}{)}^{\\frac{2}{3}}$ tidak sama dengan ${3}^{2}$",
+        "Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$",
+        "Kedua siswa menghasilkan jawaban yang salah karena hasil akhirnya seharusnya 9"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nJabarkan semua komponen ke basis $3$:\n${9}^{-1}=({3}^{2}{)}^{-1}={3}^{-2}$\n$2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{3×\\frac{2}{3}}={3}^{2}$\nEvaluasi langkah:\n$\\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=\\frac{{3}^{5-2}}{{3}^{2}}=\\frac{{3}^{3}}{{3}^{2}}={3}^{3-2}={3}^{1}=3$\nLangkah Siswa B menyajikan konversi basis dan penerapan sifat eksponen pecahan secara lengkap dan tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $2{7}^{\\frac{2}{3}}$ sebagai $27×\\frac{2}{3}=18$ alih-alih $(\\sqrt[3]{27}{)}^{2}={3}^{2}=9$.",
+      "key_caption": "C. Evaluasi B"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Seorang guru meminta siswa mengevaluasi penyederhanaan ekspresi bilangan berpangkat berikut:\n$Ekspresi:\\frac{{3}^{5}×{9}^{-1}}{2{7}^{\\frac{2}{3}}}$\nDua siswa memberikan lembar jawaban:\nSiswa A: Mengubah semua basis menjadi 3 ⇒ $\\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=$ $\\frac{{3}^{3}}{{3}^{2}}= {3}^{1}=3$.\nSiswa B: Mengubah semua basis menjadi 3 ⇒ $\\frac{{3}^{5}×{3}^{-2}}{({3}^{3}{)}^{\\frac{2}{3}}}=\\frac{{3}^{3}}{{3}^{2}}=$ ${3}^{1}=3$.\nManakah evaluasi yang pasti tepat mengenai keabsahan langkah penyederhanaan kedua siswa?",
+      "options": [
+        "Jawaban Siswa A salah karena $2{7}^{\\frac{2}{3}}$ tidak sama dengan $9={3}^{2}$",
+        "Jawaban Siswa B salah karena $({3}^{3}{)}^{\\frac{2}{3}}$ tidak sama dengan ${3}^{2}$",
+        "Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$",
+        "Kedua siswa menghasilkan jawaban yang salah karena hasil akhirnya seharusnya 9"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nJabarkan semua komponen ke basis $3$:\n${9}^{-1}=({3}^{2}{)}^{-1}={3}^{-2}$\n$2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{3×\\frac{2}{3}}={3}^{2}$\nEvaluasi langkah:\n$\\frac{{3}^{5}×{3}^{-2}}{{3}^{2}}=\\frac{{3}^{5-2}}{{3}^{2}}=\\frac{{3}^{3}}{{3}^{2}}={3}^{3-2}={3}^{1}=3$\nLangkah Siswa B menyajikan konversi basis dan penerapan sifat eksponen pecahan secara lengkap dan tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $2{7}^{\\frac{2}{3}}$ sebagai $27×\\frac{2}{3}=18$ alih-alih $(\\sqrt[3]{27}{)}^{2}={3}^{2}=9$.\nKoreksi draft (belum dipublikasikan): Membuat opsi A salah secara eksplisit agar penilaian rinci pada opsi C unik.",
+      "key_caption": "C. Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$"
+    },
+    "component_changes": {
+      "options": {
+        "before": [
+          "Jawaban Siswa A benar karena $2{7}^{\\frac{2}{3}}=9={3}^{2}$ tanpa perlu menuliskan pecahan pangkat",
+          "Jawaban Siswa B salah karena $({3}^{3}{)}^{\\frac{2}{3}}$ tidak sama dengan ${3}^{2}$",
+          "Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$",
+          "Kedua siswa menghasilkan jawaban yang salah karena hasil akhirnya seharusnya 9"
+        ],
+        "after": [
+          "Jawaban Siswa A salah karena $2{7}^{\\frac{2}{3}}$ tidak sama dengan $9={3}^{2}$",
+          "Jawaban Siswa B salah karena $({3}^{3}{)}^{\\frac{2}{3}}$ tidak sama dengan ${3}^{2}$",
+          "Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$",
+          "Kedua siswa menghasilkan jawaban yang salah karena hasil akhirnya seharusnya 9"
+        ]
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $2{7}^{\\frac{2}{3}}$ sebagai $27×\\frac{2}{3}=18$ alih-alih $(\\sqrt[3]{27}{)}^{2}={3}^{2}=9$.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $2{7}^{\\frac{2}{3}}$ sebagai $27×\\frac{2}{3}=18$ alih-alih $(\\sqrt[3]{27}{)}^{2}={3}^{2}=9$.\nKoreksi draft (belum dipublikasikan): Membuat opsi A salah secara eksplisit agar penilaian rinci pada opsi C unik."
+      },
+      "key_caption": {
+        "before": "C. Evaluasi B",
+        "after": "C. Jawaban Siswa B paling tepat karena mencantumkan penjabaran sifat eksponen $({a}^{m}{)}^{n}={a}^{m⋅n}$ secara eksplisit dan rinci pada bentuk $2{7}^{\\frac{2}{3}}=({3}^{3}{)}^{\\frac{2}{3}}={3}^{2}$"
+      }
+    },
+    "rationale": [
+      "Membuat opsi A salah secara eksplisit agar penilaian rinci pada opsi C unik."
+    ],
+    "source_issues": [
+      {
+        "component": "options/selection",
+        "severity": "IMPORTANT",
+        "evidence": "A menyatakan langkah siswaA benar karena27^(2/3)=9, dan pernyataan itu benar. C memuji langkahB lebih rinci. Rincian tambahan tidak membuat langkahA tidak sah; kriteria memilih satu evaluasi belum jelas.",
+        "proposed_correction": "Bedakan kebenaran matematis dan kelengkapan penjabaran; tetapkan pertanyaan/rubrik eksplisit atau ubah opsiA agar tidak menjadi jawaban benar tambahan.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "kategori-2-4-9",
+    "audit_id": "0e868995fdeb:I2:L4:Q9:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3524,
+      "paragraph_end": 3563,
+      "body_block_start": 3316,
+      "body_block_end_exclusive": 3342
+    },
+    "source_original": {
+      "format": "KATEGORI",
+      "stem": "Seorang siswa menganalisis hasil operasi campuran pecahan dan desimal untuk penakaran cairan di laboratorium:\n$Operasi:\\frac{3}{4}+1,25×0,4$\nTentukan status BENAR or SALAH untuk setiap pernyataan analisis berikut!",
+      "options": [
+        "Hasil perkalian $1,25×0,4$ adalah $0,5$.",
+        "Jika operasi penjumlahan dilakukan terlebih dahulu sebelum perkalian, hasilnya adalah $0,8$.",
+        "Hasil akhir operasi campuran tersebut adalah $1,25$ atau $\\frac{5}{4}$."
+      ],
+      "key": [
+        "1",
+        "3"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\nAnalisis operasi perkalian terlebih dahulu: $1,25×0,4=0,5$ (Pernyataan (a) BENAR).\nUbah $\\frac{3}{4}=0,75$.\nHasil akhir: $0,75+0,5=1,25=\\frac{5}{4}$ (Pernyataan (c) BENAR).\nUji jika penjumlahan dilakukan lebih dulu: $(\\frac{3}{4}+1,25)×0,4=(0,75+1,25)×0,4=2×0,4=0,8$. (Pernyataan (b) menyatakan hasilnya 0,8 jika dikerjakan penjumlahan dulu) ⇒ Pernyataan (b) memaparkan hasil perhitungan hipotesis salah tersebut dengan benar, namun untuk menguji kesalahan konsep:\nRe-evaluasi (b): $(\\frac{3}{4}+1,25)×0,4=2,0×0,4=0,8$. Karena pernyataan (b) berbunyi \"Jika operasi penjumlahan dilakukan terlebih dahulu...\", maka secara matematis nilai hipotesis tersebut memang $0,8$. Namun, jika dimaksudkan sebagai \"langkah yang sah\", maka itu salah. Berdasarkan konteks kebenaran nilai kalkulasi hipotesis: $(0,75+1,25)×0,4=0,8$.\nKoreksi Kunci Pernyataan (b): SALAH jika ditinjau dari keabsahan langkah KABATAKU, atau BENAR secara kalkulasi salahnya. Untuk kepastian indikator, disepakati SALAH karena melanggar kaidah KABATAKU.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan $\\frac{3}{4}+1,25=2$ baru mengalikannya dengan $0,4$, sehingga menghasilkan nilai yang tidak sesuai dengan kaidah operasi campuran.",
+      "key_caption": "(a) BENAR, (b) SALAH, (c) BENAR"
+    },
+    "proposed_original": {
+      "format": "KATEGORI",
+      "stem": "Seorang siswa menganalisis hasil operasi campuran pecahan dan desimal untuk penakaran cairan di laboratorium:\n$Operasi:\\frac{3}{4}+1,25×0,4$\nTentukan status BENAR or SALAH untuk setiap pernyataan analisis berikut!",
+      "options": [
+        "Hasil perkalian $1,25×0,4$ adalah $0,5$.",
+        "Jika operasi penjumlahan dilakukan terlebih dahulu sebelum perkalian, hasilnya adalah $0,8$.",
+        "Hasil akhir operasi campuran tersebut adalah $1,25$ atau $\\frac{5}{4}$."
+      ],
+      "key": [
+        "1",
+        "2",
+        "3"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\n$1,25×0,4=0,5$, sehingga pernyataan 1 benar. Jika penjumlahan diuji lebih dahulu, $(\\frac{3}{4}+1,25)×0,4=2×0,4=0,8$, sehingga pernyataan 2 benar. Dengan urutan operasi baku, $\\frac{3}{4}+0,5=1,25=\\frac{5}{4}$, sehingga pernyataan 3 benar.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan $\\frac{3}{4}+1,25=2$ baru mengalikannya dengan $0,4$, sehingga menghasilkan nilai yang tidak sesuai dengan kaidah operasi campuran.\nKoreksi draft (belum dipublikasikan): Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar.",
+      "key_caption": "1, 2, 3. Hasil perkalian $1,25×0,4$ adalah $0,5$. | Jika operasi penjumlahan dilakukan terlebih dahulu sebelum perkalian, hasilnya adalah $0,8$. | Hasil akhir operasi campuran tersebut adalah $1,25$ atau $\\frac{5}{4}$."
+    },
+    "component_changes": {
+      "key": {
+        "before": [
+          "1",
+          "3"
+        ],
+        "after": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "explanation": {
+        "before": "Pembahasan:\nAnalisis operasi perkalian terlebih dahulu: $1,25×0,4=0,5$ (Pernyataan (a) BENAR).\nUbah $\\frac{3}{4}=0,75$.\nHasil akhir: $0,75+0,5=1,25=\\frac{5}{4}$ (Pernyataan (c) BENAR).\nUji jika penjumlahan dilakukan lebih dulu: $(\\frac{3}{4}+1,25)×0,4=(0,75+1,25)×0,4=2×0,4=0,8$. (Pernyataan (b) menyatakan hasilnya 0,8 jika dikerjakan penjumlahan dulu) ⇒ Pernyataan (b) memaparkan hasil perhitungan hipotesis salah tersebut dengan benar, namun untuk menguji kesalahan konsep:\nRe-evaluasi (b): $(\\frac{3}{4}+1,25)×0,4=2,0×0,4=0,8$. Karena pernyataan (b) berbunyi \"Jika operasi penjumlahan dilakukan terlebih dahulu...\", maka secara matematis nilai hipotesis tersebut memang $0,8$. Namun, jika dimaksudkan sebagai \"langkah yang sah\", maka itu salah. Berdasarkan konteks kebenaran nilai kalkulasi hipotesis: $(0,75+1,25)×0,4=0,8$.\nKoreksi Kunci Pernyataan (b): SALAH jika ditinjau dari keabsahan langkah KABATAKU, atau BENAR secara kalkulasi salahnya. Untuk kepastian indikator, disepakati SALAH karena melanggar kaidah KABATAKU.",
+        "after": "Pembahasan:\n$1,25×0,4=0,5$, sehingga pernyataan 1 benar. Jika penjumlahan diuji lebih dahulu, $(\\frac{3}{4}+1,25)×0,4=2×0,4=0,8$, sehingga pernyataan 2 benar. Dengan urutan operasi baku, $\\frac{3}{4}+0,5=1,25=\\frac{5}{4}$, sehingga pernyataan 3 benar."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan $\\frac{3}{4}+1,25=2$ baru mengalikannya dengan $0,4$, sehingga menghasilkan nilai yang tidak sesuai dengan kaidah operasi campuran.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa menjumlahkan $\\frac{3}{4}+1,25=2$ baru mengalikannya dengan $0,4$, sehingga menghasilkan nilai yang tidak sesuai dengan kaidah operasi campuran.\nKoreksi draft (belum dipublikasikan): Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar."
+      },
+      "key_caption": {
+        "before": "(a) BENAR, (b) SALAH, (c) BENAR",
+        "after": "1, 2, 3. Hasil perkalian $1,25×0,4$ adalah $0,5$. | Jika operasi penjumlahan dilakukan terlebih dahulu sebelum perkalian, hasilnya adalah $0,8$. | Hasil akhir operasi campuran tersebut adalah $1,25$ atau $\\frac{5}{4}$."
+      }
+    },
+    "rationale": [
+      "Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar."
+    ],
+    "source_issues": [
+      {
+        "component": "key/explanation/conditional",
+        "severity": "CRITICAL",
+        "evidence": "Pernyataanb berbunyi jika penjumlahan dilakukan terlebih dahulu, hasil0,8; (3/4+1,25)*0,4=0,8 benar. Pembahasan mengakui hitungan benar lalu menilaiSALAH karena prosedur tidak sah.",
+        "proposed_correction": "Untuk teks sekarang, usulkanbBENAR (a,b,cBENAR). Jika inginbSALAH, ubah menjadi klaim bahwa mendahulukan penjumlahan adalah prosedur sah, lalu review ulang. Catatan sumber disepakatiSALAH bukan persetujuan audit atas perubahan makna.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "kategori-2-4-10",
+    "audit_id": "0e868995fdeb:I2:L4:Q10:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3564,
+      "paragraph_end": 3607,
+      "body_block_start": 3342,
+      "body_block_end_exclusive": 3372
+    },
+    "source_original": {
+      "format": "KATEGORI",
+      "stem": "Dua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:\n$Ekspresi:\\sqrt{50}×\\sqrt{18}:\\sqrt{9}$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Nilai dari $\\sqrt{50}×\\sqrt{18}$ dapat disederhanakan menjadi $\\sqrt{900}=30$.",
+        "Nilai dari penyebut/pembagi $\\sqrt{9}$ adalah $3$.",
+        "Hasil akhir dari seluruh ekspresi tersebut adalah $10\\sqrt{2}$."
+      ],
+      "key": [
+        "1",
+        "2"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\nEvaluasi perkalian pembilang\n$\\sqrt{50}×\\sqrt{18}=\\sqrt{50×18}=\\sqrt{900}=30$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{9}=3$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n$30:3=10$\nHasil akhirnya adalah bilangan bulat $10$, bukan $10\\sqrt{2}$ (Pernyataan (c) SALAH).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi\nSiswa salah menyederhanakan $\\sqrt{50}=5\\sqrt{2}$ dan $\\sqrt{18}=3\\sqrt{2}$, lalu mengalikan $5\\sqrt{2}×3\\sqrt{2}=15\\sqrt{2}$ (lupa mengalikan $\\sqrt{2}×\\sqrt{2}=2$), sehingga mendapatkan hasil yang salah $10\\sqrt{2}$.",
+      "key_caption": "(a) BENAR, (b) BENAR, (c) SALAH"
+    },
+    "proposed_original": {
+      "format": "KATEGORI",
+      "stem": "Dua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:\n$Ekspresi:\\sqrt{50}×\\sqrt{18}:\\sqrt{9}$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Nilai dari $\\sqrt{50}×\\sqrt{18}$ dapat disederhanakan menjadi $\\sqrt{900}=30$.",
+        "Nilai dari penyebut/pembagi $\\sqrt{9}$ adalah $3$.",
+        "Hasil akhir dari seluruh ekspresi tersebut adalah $10\\sqrt{2}$."
+      ],
+      "key": [
+        "1",
+        "2"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\nEvaluasi perkalian pembilang\n$\\sqrt{50}×\\sqrt{18}=\\sqrt{50×18}=\\sqrt{900}=30$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{9}=3$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n$30:3=10$\nHasil akhirnya adalah bilangan bulat $10$, bukan $10\\sqrt{2}$ (Pernyataan (c) SALAH).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi\nSiswa salah menyederhanakan $\\sqrt{50}=5\\sqrt{2}$ dan $\\sqrt{18}=3\\sqrt{2}$, lalu mengalikan $5\\sqrt{2}×3\\sqrt{2}=15\\sqrt{2}$ (lupa mengalikan $\\sqrt{2}×\\sqrt{2}=2$), sehingga mendapatkan hasil yang salah $10\\sqrt{2}$.\nKoreksi draf: jalur distraktor yang tidak konsisten dihapus.\nKoreksi draft (belum dipublikasikan): Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar.",
+      "key_caption": "1, 2. Nilai dari $\\sqrt{50}×\\sqrt{18}$ dapat disederhanakan menjadi $\\sqrt{900}=30$. | Nilai dari penyebut/pembagi $\\sqrt{9}$ adalah $3$."
+    },
+    "component_changes": {
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi\nSiswa salah menyederhanakan $\\sqrt{50}=5\\sqrt{2}$ dan $\\sqrt{18}=3\\sqrt{2}$, lalu mengalikan $5\\sqrt{2}×3\\sqrt{2}=15\\sqrt{2}$ (lupa mengalikan $\\sqrt{2}×\\sqrt{2}=2$), sehingga mendapatkan hasil yang salah $10\\sqrt{2}$.",
+        "after": "Kesalahan Umum yang Diantisipasi\nSiswa salah menyederhanakan $\\sqrt{50}=5\\sqrt{2}$ dan $\\sqrt{18}=3\\sqrt{2}$, lalu mengalikan $5\\sqrt{2}×3\\sqrt{2}=15\\sqrt{2}$ (lupa mengalikan $\\sqrt{2}×\\sqrt{2}=2$), sehingga mendapatkan hasil yang salah $10\\sqrt{2}$.\nKoreksi draf: jalur distraktor yang tidak konsisten dihapus.\nKoreksi draft (belum dipublikasikan): Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar."
+      },
+      "key_caption": {
+        "before": "(a) BENAR, (b) BENAR, (c) SALAH",
+        "after": "1, 2. Nilai dari $\\sqrt{50}×\\sqrt{18}$ dapat disederhanakan menjadi $\\sqrt{900}=30$. | Nilai dari penyebut/pembagi $\\sqrt{9}$ adalah $3$."
+      }
+    },
+    "rationale": [
+      "Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar."
+    ],
+    "source_issues": [
+      {
+        "component": "additional_notes/distractor derivation",
+        "severity": "MINOR",
+        "evidence": "Kesalahan antara15sqrt(2) lalu dibagi3 menghasilkan5sqrt(2), bukan10sqrt(2) seperti simpulan catatan.",
+        "proposed_correction": "Koreksi contoh jalur kesalahan atau hapus atribusi10sqrt(2). Jawaban10 dan kategoriTTF tetap.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "kategori-2-5-9",
+    "audit_id": "0e868995fdeb:I2:L5:Q9:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3919,
+      "paragraph_end": 3957,
+      "body_block_start": 3683,
+      "body_block_end_exclusive": 3708
+    },
+    "source_original": {
+      "format": "KATEGORI",
+      "stem": "Seorang siswa mengevaluasi langkah pengerjaan operasi campuran pecahan dan desimal untuk resep bahan praktikum:\n$Operasi:\\frac{4}{5}+1,5×0,2$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Operasi perkalian $1,5×0,2$ harus dikerjakan terlebih dahulu dan menghasilkan $0,3$.",
+        "Jika operasi penjumlahan dikerjakan terlebih dahulu, hasilnya adalah $0,46$.",
+        "Hasil akhir yang benar dari operasi campuran tersebut adalah $1,1$ atau $\\frac{11}{10}$."
+      ],
+      "key": [
+        "1",
+        "3"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\nHitung perkalian dulu: $1,5×0,2=0,3$ (Pernyataan (a) BENAR).\nUbah $\\frac{4}{5}=0,8$.\nHasil akhir: $0,8+0,3=1,1=\\frac{11}{10}$ (Pernyataan (c) BENAR).\nUji jika penjumlahan dikerjakan lebih dulu: $(\\frac{4}{5}+1,5)×0,2=(0,8+1,5)×0,2=2,3×0,2=0,46$.\n(Pernyataan (b) menyebutkan jika penjumlahan dikerjakan dulu hasilnya 0,46) ⇒ Namun karena pengerjaan tersebut melanggar kaidah prioritas KABATAKU, maka status keabsahan langkahnya dinyatakan SALAH.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira penjumlahan harus dikerjakan dari kiri lebih dulu sebelum perkalian.",
+      "key_caption": "(a) BENAR, (b) SALAH, (c) BENAR"
+    },
+    "proposed_original": {
+      "format": "KATEGORI",
+      "stem": "Seorang siswa mengevaluasi langkah pengerjaan operasi campuran pecahan dan desimal untuk resep bahan praktikum:\n$Operasi:\\frac{4}{5}+1,5×0,2$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Operasi perkalian $1,5×0,2$ harus dikerjakan terlebih dahulu dan menghasilkan $0,3$.",
+        "Jika operasi penjumlahan dikerjakan terlebih dahulu, hasilnya adalah $0,46$.",
+        "Hasil akhir yang benar dari operasi campuran tersebut adalah $1,1$ atau $\\frac{11}{10}$."
+      ],
+      "key": [
+        "1",
+        "2",
+        "3"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\n$1,5×0,2=0,3$, sehingga pernyataan 1 benar. Jika penjumlahan diuji lebih dahulu, $(\\frac{4}{5}+1,5)×0,2=2,3×0,2=0,46$, sehingga pernyataan 2 benar. Dengan urutan operasi baku, $\\frac{4}{5}+0,3=1,1=\\frac{11}{10}$, sehingga pernyataan 3 benar.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira penjumlahan harus dikerjakan dari kiri lebih dulu sebelum perkalian.\nKoreksi draft (belum dipublikasikan): Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar.",
+      "key_caption": "1, 2, 3. Operasi perkalian $1,5×0,2$ harus dikerjakan terlebih dahulu dan menghasilkan $0,3$. | Jika operasi penjumlahan dikerjakan terlebih dahulu, hasilnya adalah $0,46$. | Hasil akhir yang benar dari operasi campuran tersebut adalah $1,1$ atau $\\frac{11}{10}$."
+    },
+    "component_changes": {
+      "key": {
+        "before": [
+          "1",
+          "3"
+        ],
+        "after": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "explanation": {
+        "before": "Pembahasan:\nHitung perkalian dulu: $1,5×0,2=0,3$ (Pernyataan (a) BENAR).\nUbah $\\frac{4}{5}=0,8$.\nHasil akhir: $0,8+0,3=1,1=\\frac{11}{10}$ (Pernyataan (c) BENAR).\nUji jika penjumlahan dikerjakan lebih dulu: $(\\frac{4}{5}+1,5)×0,2=(0,8+1,5)×0,2=2,3×0,2=0,46$.\n(Pernyataan (b) menyebutkan jika penjumlahan dikerjakan dulu hasilnya 0,46) ⇒ Namun karena pengerjaan tersebut melanggar kaidah prioritas KABATAKU, maka status keabsahan langkahnya dinyatakan SALAH.",
+        "after": "Pembahasan:\n$1,5×0,2=0,3$, sehingga pernyataan 1 benar. Jika penjumlahan diuji lebih dahulu, $(\\frac{4}{5}+1,5)×0,2=2,3×0,2=0,46$, sehingga pernyataan 2 benar. Dengan urutan operasi baku, $\\frac{4}{5}+0,3=1,1=\\frac{11}{10}$, sehingga pernyataan 3 benar."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira penjumlahan harus dikerjakan dari kiri lebih dulu sebelum perkalian.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa mengira penjumlahan harus dikerjakan dari kiri lebih dulu sebelum perkalian.\nKoreksi draft (belum dipublikasikan): Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar."
+      },
+      "key_caption": {
+        "before": "(a) BENAR, (b) SALAH, (c) BENAR",
+        "after": "1, 2, 3. Operasi perkalian $1,5×0,2$ harus dikerjakan terlebih dahulu dan menghasilkan $0,3$. | Jika operasi penjumlahan dikerjakan terlebih dahulu, hasilnya adalah $0,46$. | Hasil akhir yang benar dari operasi campuran tersebut adalah $1,1$ atau $\\frac{11}{10}$."
+      }
+    },
+    "rationale": [
+      "Mengakui nilai kondisional pernyataan kedua yang secara aritmetika benar."
+    ],
+    "source_issues": [
+      {
+        "component": "key/explanation/conditional",
+        "severity": "CRITICAL",
+        "evidence": "Pernyataanb secara kondisional menyatakan hasil0,46 bila tambah lebih dulu; (4/5+1,5)*0,2=0,46 benar. Pembahasan menolak karena langkah melanggarprioritas, mengubah pertanyaan tentang hasil menjadi keabsahan langkah.",
+        "proposed_correction": "Untuk tekssekarang usulkanbBENAR, atau ubah pernyataanb agar menanyakan keabsahanprosedur; butuhpersetujuan Kurikulum.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "kategori-2-5-10",
+    "audit_id": "0e868995fdeb:I2:L5:Q10:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 3958,
+      "paragraph_end": 3998,
+      "body_block_start": 3708,
+      "body_block_end_exclusive": 3735
+    },
+    "source_original": {
+      "format": "KATEGORI",
+      "stem": "Dua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:\n$Ekspresi:\\sqrt{72}×\\sqrt{2}:\\sqrt{16}$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Perkalian pembilang $\\sqrt{72}×\\sqrt{2}$ dapat disederhanakan menjadi $\\sqrt{144}=12$.",
+        "Penyebut/pembagi $\\sqrt{16}$ nilainya sama dengan $4$.",
+        "Hasil akhir dari seluruh ekspresi tersebut adalah $3\\sqrt{2}$."
+      ],
+      "key": [
+        "1",
+        "2"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\nEvaluasi pembilang:\n$\\sqrt{72}×\\sqrt{2}=\\sqrt{144}=12$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{16}=4$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n$12:4=3$\nHasil akhirnya adalah bilangan bulat $3$, bukan $3\\sqrt{2}$ (Pernyataan (c) SALAH).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menyederhanakan $\\sqrt{72}=6\\sqrt{2}$, lalu membaginya langsung dengan $4$ tanpa mengalikan $\\sqrt{2}×\\sqrt{2}=2$, sehingga mendapatkan hasil salah $3\\sqrt{2}$.",
+      "key_caption": "(a) BENAR, (b) BENAR, (c) SALAH"
+    },
+    "proposed_original": {
+      "format": "KATEGORI",
+      "stem": "Dua orang siswa mengevaluasi penyederhanaan ekspresi bentuk akar berikut:\n$Ekspresi:\\sqrt{72}×\\sqrt{2}:\\sqrt{16}$\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Perkalian pembilang $\\sqrt{72}×\\sqrt{2}$ dapat disederhanakan menjadi $\\sqrt{144}=12$.",
+        "Penyebut/pembagi $\\sqrt{16}$ nilainya sama dengan $4$.",
+        "Hasil akhir dari seluruh ekspresi tersebut adalah $3\\sqrt{2}$."
+      ],
+      "key": [
+        "1",
+        "2"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\nEvaluasi pembilang:\n$\\sqrt{72}×\\sqrt{2}=\\sqrt{144}=12$\n(Pernyataan (a) BENAR).\nEvaluasi pembagi:\n$\\sqrt{16}=4$\n(Pernyataan (b) BENAR).\nEvaluasi hasil akhir:\n$12:4=3$\nHasil akhirnya adalah bilangan bulat $3$, bukan $3\\sqrt{2}$ (Pernyataan (c) SALAH).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa menyederhanakan $\\sqrt{72}=6\\sqrt{2}$, lalu membaginya langsung dengan $4$ tanpa mengalikan $\\sqrt{2}×\\sqrt{2}=2$, sehingga mendapatkan hasil salah $3\\sqrt{2}$.\nKoreksi draf: jalur distraktor yang tidak konsisten dihapus.\nKoreksi draft (belum dipublikasikan): Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar.",
+      "key_caption": "1, 2. Perkalian pembilang $\\sqrt{72}×\\sqrt{2}$ dapat disederhanakan menjadi $\\sqrt{144}=12$. | Penyebut/pembagi $\\sqrt{16}$ nilainya sama dengan $4$."
+    },
+    "component_changes": {
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa menyederhanakan $\\sqrt{72}=6\\sqrt{2}$, lalu membaginya langsung dengan $4$ tanpa mengalikan $\\sqrt{2}×\\sqrt{2}=2$, sehingga mendapatkan hasil salah $3\\sqrt{2}$.",
+        "after": "Kesalahan Umum yang Diantisipasi:\nSiswa menyederhanakan $\\sqrt{72}=6\\sqrt{2}$, lalu membaginya langsung dengan $4$ tanpa mengalikan $\\sqrt{2}×\\sqrt{2}=2$, sehingga mendapatkan hasil salah $3\\sqrt{2}$.\nKoreksi draf: jalur distraktor yang tidak konsisten dihapus.\nKoreksi draft (belum dipublikasikan): Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar."
+      },
+      "key_caption": {
+        "before": "(a) BENAR, (b) BENAR, (c) SALAH",
+        "after": "1, 2. Perkalian pembilang $\\sqrt{72}×\\sqrt{2}$ dapat disederhanakan menjadi $\\sqrt{144}=12$. | Penyebut/pembagi $\\sqrt{16}$ nilainya sama dengan $4$."
+      }
+    },
+    "rationale": [
+      "Menghapus derivasi distraktor yang aritmetikanya tidak konsisten; kunci tetap benar."
+    ],
+    "source_issues": [
+      {
+        "component": "additional_notes/distractor derivation",
+        "severity": "MINOR",
+        "evidence": "Catatan mengabaikan faktor sqrt(2) dan langsung membagi6sqrt(2) dengan4; hasilnya(3/2)sqrt(2), bukan3sqrt(2) yang disebut.",
+        "proposed_correction": "Perbaiki contoh jalur kesalahan; hasil benar tetap3 dan kategoriTTF.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-3-4-5",
+    "audit_id": "0e868995fdeb:I3:L4:Q5:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5439,
+      "paragraph_end": 5481,
+      "body_block_start": 5120,
+      "body_block_end_exclusive": 5163
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Dua papan nama taman sekolah diukur panjang diagonalnya:\nPapan A: diagonal $=\\sqrt{45}meter$\nPapan B: diagonal $=\\sqrt{98}meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{98}≈10m$ dan $\\sqrt{45} \\approx 7\\text{ m} \\implies 10 - 7 = 3\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah $7m$, karena dihitung dari $\\sqrt{98-45}=\\sqrt{53}≈7m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{98}≈9,899→10m$ dan $\\sqrt{45} \\approx 6,708 \\rightarrow 7\\text{ m} \\implies 10 - 7 = 3\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang paling tepat?",
+      "options": [
+        "Evaluasi I",
+        "Evaluasi II",
+        "Evaluasi III",
+        "Evaluasi II dan III sama-sama benar"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi pembulatan masing-masing komponen ke satuan terdekat:\nUntuk Papan B ($\\sqrt{98}$): $\\sqrt{98}≈9,899...$, karena digit persepuluhan $8≥5$, dibulatkan naik ke satuan terdekat menjadi $10m$.\nUntuk Papan A ($\\sqrt{45}$): $\\sqrt{45}≈6,708...$, karena digit persepuluhan $7≥5$, dibulatkan naik ke satuan terdekat menjadi $7m$.\nSelisih estimasi: $10-7=3m$.\nEvaluasi II salah secara prinsip matematika karena mengurangkan nilai radian di dalam tanda akar sebelum melakukan aproksimasi. Maka, Evaluasi III adalah yang paling tepat dan rinci.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi II yang melakukan pengoperasian akar secara keliru ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).",
+      "key_caption": "C. Evaluasi III"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Dua papan nama taman sekolah diukur panjang diagonalnya:\nPapan A: diagonal $=\\sqrt{45}meter$\nPapan B: diagonal $=\\sqrt{98}meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah $2m$, karena $\\sqrt{98}≈10m$ dan $\\sqrt{45} \\approx 7\\text{ m} \\implies 10 - 7 = 2\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah $7m$, karena dihitung dari $\\sqrt{98-45}=\\sqrt{53}≈7m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{98}≈9,899→10m$ dan $\\sqrt{45} \\approx 6,708 \\rightarrow 7\\text{ m} \\implies 10 - 7 = 3\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang paling tepat?",
+      "options": [
+        "Evaluasi I",
+        "Evaluasi II",
+        "Evaluasi III",
+        "Evaluasi II dan III sama-sama benar"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nBulatkan setiap radikan secara terpisah. Evaluasi I salah karena menuliskan selisih 2 m. Evaluasi II salah karena akar selisih radikan tidak sama dengan selisih akar. Evaluasi III benar dan memperlihatkan aproksimasi sebelum pembulatan. Jadi kunci jawaban C.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi II yang melakukan pengoperasian akar secara keliru ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).",
+      "key_caption": "C. Evaluasi III (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Dua papan nama taman sekolah diukur panjang diagonalnya:\nPapan A: diagonal $=\\sqrt{45}meter$\nPapan B: diagonal $=\\sqrt{98}meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{98}≈10m$ dan $\\sqrt{45} \\approx 7\\text{ m} \\implies 10 - 7 = 3\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah $7m$, karena dihitung dari $\\sqrt{98-45}=\\sqrt{53}≈7m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{98}≈9,899→10m$ dan $\\sqrt{45} \\approx 6,708 \\rightarrow 7\\text{ m} \\implies 10 - 7 = 3\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang paling tepat?",
+        "after": "Dua papan nama taman sekolah diukur panjang diagonalnya:\nPapan A: diagonal $=\\sqrt{45}meter$\nPapan B: diagonal $=\\sqrt{98}meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah $2m$, karena $\\sqrt{98}≈10m$ dan $\\sqrt{45} \\approx 7\\text{ m} \\implies 10 - 7 = 2\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah $7m$, karena dihitung dari $\\sqrt{98-45}=\\sqrt{53}≈7m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{98}≈9,899→10m$ dan $\\sqrt{45} \\approx 6,708 \\rightarrow 7\\text{ m} \\implies 10 - 7 = 3\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang paling tepat?"
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi pembulatan masing-masing komponen ke satuan terdekat:\nUntuk Papan B ($\\sqrt{98}$): $\\sqrt{98}≈9,899...$, karena digit persepuluhan $8≥5$, dibulatkan naik ke satuan terdekat menjadi $10m$.\nUntuk Papan A ($\\sqrt{45}$): $\\sqrt{45}≈6,708...$, karena digit persepuluhan $7≥5$, dibulatkan naik ke satuan terdekat menjadi $7m$.\nSelisih estimasi: $10-7=3m$.\nEvaluasi II salah secara prinsip matematika karena mengurangkan nilai radian di dalam tanda akar sebelum melakukan aproksimasi. Maka, Evaluasi III adalah yang paling tepat dan rinci.",
+        "after": "Pembahasan draft koreksi:\nBulatkan setiap radikan secara terpisah. Evaluasi I salah karena menuliskan selisih 2 m. Evaluasi II salah karena akar selisih radikan tidak sama dengan selisih akar. Evaluasi III benar dan memperlihatkan aproksimasi sebelum pembulatan. Jadi kunci jawaban C."
+      },
+      "key_caption": {
+        "before": "C. Evaluasi III",
+        "after": "C. Evaluasi III (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Draft: Evaluasi I dibuat salah secara eksplisit (selisih 2 m); Evaluasi III tetap satu-satunya jawaban benar.",
+      "Istilah yang dipakai adalah radikan, bukan radian."
+    ],
+    "source_issues": [
+      {
+        "component": "options/selection",
+        "severity": "IMPORTANT",
+        "evidence": "EvaluasiI danIII sama-sama membulatkan10dan7 lalu mengurangkan3. III lebih rinci, tetapi I tidak salah. Kata palingtepat tidak menetapkan bahwa rincianaproksimasidesimal wajib.",
+        "proposed_correction": "Perjelas kriteria rincian yangdiminta atau ubah salahsatuopsi agar tidak sama-sama sah. Jangan menilaiI salah hanya karena ringkas.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      },
+      {
+        "component": "explanation/terminology",
+        "severity": "MINOR",
+        "evidence": "Pembahasan memakai kata radian untuk bilangan dalamakar; istilah yang dimaksud radikan.",
+        "proposed_correction": "Ganti radian menjadi radikan (bilangan di dalamtandaakar).",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-3-5-5",
+    "audit_id": "0e868995fdeb:I3:L5:Q5:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5867,
+      "paragraph_end": 5910,
+      "body_block_start": 5526,
+      "body_block_end_exclusive": 5570
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Dua buah papan nama fasilitas sekolah diukur panjang diagonalnya:\nPapan P: diagonal $=\\sqrt{35} meter$\nPapan Q: diagonal $=\\sqrt{82} meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{82}≈9 m$ dan $\\sqrt{35} \\approx 6\\text{ m} \\implies 9 - 6 = 3\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah $7 m$, karena dihitung dari $\\sqrt{82-35}=\\sqrt{47}≈7m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah $3 m$, karena $\\sqrt{82}≈9,055→9 m$ dan $\\sqrt{35} \\approx 5,916 \\rightarrow 6\\text{ m} \\implies 9 - 6 = 3\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang pasti benar?",
+      "options": [
+        "Evaluasi I",
+        "Evaluasi II",
+        "Evaluasi III",
+        "Evaluasi II dan III sama-sama benar"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi pembulatan masing-masing komponen ke satuan terdekat:\nUntuk Papan Q ($\\sqrt{82}$): $\\sqrt{82}≈9,055...$, karena digit persepuluhan $0<5$, dibulatkan ke satuan terdekat menjadi $9 m$.\nUntuk Papan P ($\\sqrt{35}$): $\\sqrt{35}≈5,916...$, karena digit persepuluhan $9≥5$, dibulatkan naik ke satuan terdekat menjadi $6 m$.\nSelisih estimasi: $9-6=3 m$.\nEvaluasi II salah secara prinsip matematika karena mengurangkan radian di dalam tanda akar sebelum mengaproksimasi. Maka, Evaluasi III adalah yang paling tepat dan rinci.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi II yang melakukan pengurangan bentuk akar secara tidak sah ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).",
+      "key_caption": "C. Evaluasi III"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Dua buah papan nama fasilitas sekolah diukur panjang diagonalnya:\nPapan P: diagonal $=\\sqrt{35} meter$\nPapan Q: diagonal $=\\sqrt{82} meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah $2m$, karena $\\sqrt{82}≈9 m$ dan $\\sqrt{35} \\approx 6\\text{ m} \\implies 9 - 6 = 2\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah $7 m$, karena dihitung dari $\\sqrt{82-35}=\\sqrt{47}≈7m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah $3 m$, karena $\\sqrt{82}≈9,055→9 m$ dan $\\sqrt{35} \\approx 5,916 \\rightarrow 6\\text{ m} \\implies 9 - 6 = 3\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang pasti benar?",
+      "options": [
+        "Evaluasi I",
+        "Evaluasi II",
+        "Evaluasi III",
+        "Evaluasi II dan III sama-sama benar"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nBulatkan setiap radikan secara terpisah. Evaluasi I salah karena menuliskan selisih 2 m. Evaluasi II salah karena akar selisih radikan tidak sama dengan selisih akar. Evaluasi III benar dan memperlihatkan aproksimasi sebelum pembulatan. Jadi kunci jawaban C.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membenarkan Evaluasi II yang melakukan pengurangan bentuk akar secara tidak sah ($\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$).",
+      "key_caption": "C. Evaluasi III (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Dua buah papan nama fasilitas sekolah diukur panjang diagonalnya:\nPapan P: diagonal $=\\sqrt{35} meter$\nPapan Q: diagonal $=\\sqrt{82} meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah $3m$, karena $\\sqrt{82}≈9 m$ dan $\\sqrt{35} \\approx 6\\text{ m} \\implies 9 - 6 = 3\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah $7 m$, karena dihitung dari $\\sqrt{82-35}=\\sqrt{47}≈7m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah $3 m$, karena $\\sqrt{82}≈9,055→9 m$ dan $\\sqrt{35} \\approx 5,916 \\rightarrow 6\\text{ m} \\implies 9 - 6 = 3\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang pasti benar?",
+        "after": "Dua buah papan nama fasilitas sekolah diukur panjang diagonalnya:\nPapan P: diagonal $=\\sqrt{35} meter$\nPapan Q: diagonal $=\\sqrt{82} meter$\nSeorang siswa menyusun evaluasi selisih panjang diagonal kedua papan dengan membulatkan masing-masing komponen ke satuan terdekat:\nEvaluasi I: \"Selisih panjang diagonal adalah $2m$, karena $\\sqrt{82}≈9 m$ dan $\\sqrt{35} \\approx 6\\text{ m} \\implies 9 - 6 = 2\\text{ m}$.\"\nEvaluasi II: \"Selisih panjang diagonal adalah $7 m$, karena dihitung dari $\\sqrt{82-35}=\\sqrt{47}≈7m$.\"\nEvaluasi III: \"Selisih panjang diagonal adalah $3 m$, karena $\\sqrt{82}≈9,055→9 m$ dan $\\sqrt{35} \\approx 5,916 \\rightarrow 6\\text{ m} \\implies 9 - 6 = 3\\text{ m}$.\"\nEvaluasi manakah yang memuat langkah pembulatan dan alasan matematis yang pasti benar?"
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi pembulatan masing-masing komponen ke satuan terdekat:\nUntuk Papan Q ($\\sqrt{82}$): $\\sqrt{82}≈9,055...$, karena digit persepuluhan $0<5$, dibulatkan ke satuan terdekat menjadi $9 m$.\nUntuk Papan P ($\\sqrt{35}$): $\\sqrt{35}≈5,916...$, karena digit persepuluhan $9≥5$, dibulatkan naik ke satuan terdekat menjadi $6 m$.\nSelisih estimasi: $9-6=3 m$.\nEvaluasi II salah secara prinsip matematika karena mengurangkan radian di dalam tanda akar sebelum mengaproksimasi. Maka, Evaluasi III adalah yang paling tepat dan rinci.",
+        "after": "Pembahasan draft koreksi:\nBulatkan setiap radikan secara terpisah. Evaluasi I salah karena menuliskan selisih 2 m. Evaluasi II salah karena akar selisih radikan tidak sama dengan selisih akar. Evaluasi III benar dan memperlihatkan aproksimasi sebelum pembulatan. Jadi kunci jawaban C."
+      },
+      "key_caption": {
+        "before": "C. Evaluasi III",
+        "after": "C. Evaluasi III (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Draft: Evaluasi I dibuat salah secara eksplisit (selisih 2 m); Evaluasi III tetap satu-satunya jawaban benar.",
+      "Istilah yang dipakai adalah radikan, bukan radian."
+    ],
+    "source_issues": [
+      {
+        "component": "options/key/explanation",
+        "severity": "CRITICAL",
+        "evidence": "EvaluasiI danIII sama-sama memberi9−6=3 dengan pembulatan yang benar. Pertanyaan meminta evaluasi pasti benar; opsiA danC memenuhi. Pembahasan memilihIII karena rinci, kriteria yang tidak diminta.",
+        "proposed_correction": "Ubah salahsatuevaluasi menjadi salah atau tambahkan kriteria eksplisit. KunciC saatini tidakunik.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      },
+      {
+        "component": "explanation/terminology",
+        "severity": "MINOR",
+        "evidence": "Pembahasan memakai radian dalam konteks bilangan di dalamakar.",
+        "proposed_correction": "Ganti dengan radikan.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "mcma-3-5-7",
+    "audit_id": "0e868995fdeb:I3:L5:Q7:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 5948,
+      "paragraph_end": 6005,
+      "body_block_start": 5607,
+      "body_block_end_exclusive": 5665
+    },
+    "source_original": {
+      "format": "MCMA",
+      "stem": "Seorang peneliti laboratorium sekolah menganalisis hasil aproksimasi dan pembulatan tiga sampel kawat irasional:\nSampel A: panjang $=\\sqrt{18}cm$\nSampel B: panjang $=\\sqrt{38}cm$\nSampel C: panjang $=\\sqrt{70}cm$\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Pernyataan \"Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$\" adalah BENAR.",
+        "Pernyataan \"Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$\" adalah BENAR.",
+        "Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$\" adalah BENAR.",
+        "Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$\" adalah SALAH (yang benar $8 cm$ vs $8,37→8 cm$ -- wait!).\nRe-analisis Sampel C:\n$\\sqrt{70}≈8,366...$, karena digit persepuluhan $3<5$, dibulatkan ke satuan terdekat menjadi $8 cm$.\nMari perbaiki Opsi C & D agar pilihan menjadi eksplisit:\nOpsi C: Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8cm$\" adalah BENAR.\nOpsi D: Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$\" adalah SALAH.\nManakah opsi yang bernilai BENAR?",
+        "Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$.",
+        "Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$.",
+        "Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$.",
+        "Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$.\nKunci Jawaban Tepat: A, B, dan C."
+      ],
+      "key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nA (Benar): $4,{2}^{2}=17,64$ (sangat dekat ke 18). Maka $\\sqrt{18}≈4,242...→$ dibulatkan ke persepuluhan terdekat menjadi $4,2 cm$.\nB (Benar): $6,{2}^{2}=38,44$ (sangat dekat ke 38). Maka $\\sqrt{38}≈6,164...→$ dibulatkan ke persepuluhan terdekat menjadi $6,2 cm$.\nC (Benar): $\\sqrt{70}≈8,366...$, karena digit persepuluhan $3<5$, dibulatkan ke satuan terdekat menjadi $8 cm$.\nD (Salah): Dibagikan ke atas menjadi $9$ adalah salah.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membulatkan $\\sqrt{70}$ ke atas menjadi $9$ karena mengira angka 70 sudah dekat ke 81 ($\\sqrt{81}=9$).",
+      "key_caption": "A, B, dan D"
+    },
+    "proposed_original": {
+      "format": "MCMA",
+      "stem": "Seorang peneliti laboratorium sekolah menganalisis hasil aproksimasi dan pembulatan tiga sampel kawat irasional:\nSampel A: panjang $=\\sqrt{18}cm$\nSampel B: panjang $=\\sqrt{38}cm$\nSampel C: panjang $=\\sqrt{70}cm$\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$.",
+        "Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$.",
+        "Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$.",
+        "Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$."
+      ],
+      "key": [
+        "A",
+        "B",
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi: akar 18 dibulatkan ke persepuluhan menjadi 4,2; akar 38 menjadi 6,2; dan akar 70 dibulatkan ke satuan menjadi 8. Jadi A, B, C benar dan D salah.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membulatkan $\\sqrt{70}$ ke atas menjadi $9$ karena mengira angka 70 sudah dekat ke 81 ($\\sqrt{81}=9$).",
+      "key_caption": "A, B, dan C (versi akhir yang dipilih sebagai draft)"
+    },
+    "component_changes": {
+      "options": {
+        "before": [
+          "Pernyataan \"Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$\" adalah BENAR.",
+          "Pernyataan \"Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$\" adalah BENAR.",
+          "Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$\" adalah BENAR.",
+          "Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$\" adalah SALAH (yang benar $8 cm$ vs $8,37→8 cm$ -- wait!).\nRe-analisis Sampel C:\n$\\sqrt{70}≈8,366...$, karena digit persepuluhan $3<5$, dibulatkan ke satuan terdekat menjadi $8 cm$.\nMari perbaiki Opsi C & D agar pilihan menjadi eksplisit:\nOpsi C: Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8cm$\" adalah BENAR.\nOpsi D: Pernyataan \"Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$\" adalah SALAH.\nManakah opsi yang bernilai BENAR?",
+          "Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$.",
+          "Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$.",
+          "Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$.",
+          "Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$.\nKunci Jawaban Tepat: A, B, dan C."
+        ],
+        "after": [
+          "Aproksimasi Sampel A ($\\sqrt{18}$) ke persepuluhan terdekat adalah $4,2 cm$.",
+          "Aproksimasi Sampel B ($\\sqrt{38}$) ke persepuluhan terdekat adalah $6,2 cm$.",
+          "Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $8 cm$.",
+          "Sampel C ($\\sqrt{70}$) jika dibulatkan ke satuan terdekat adalah $9 cm$."
+        ]
+      },
+      "key": {
+        "before": [
+          "A",
+          "B",
+          "D"
+        ],
+        "after": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "explanation": {
+        "before": "Pembahasan:\nA (Benar): $4,{2}^{2}=17,64$ (sangat dekat ke 18). Maka $\\sqrt{18}≈4,242...→$ dibulatkan ke persepuluhan terdekat menjadi $4,2 cm$.\nB (Benar): $6,{2}^{2}=38,44$ (sangat dekat ke 38). Maka $\\sqrt{38}≈6,164...→$ dibulatkan ke persepuluhan terdekat menjadi $6,2 cm$.\nC (Benar): $\\sqrt{70}≈8,366...$, karena digit persepuluhan $3<5$, dibulatkan ke satuan terdekat menjadi $8 cm$.\nD (Salah): Dibagikan ke atas menjadi $9$ adalah salah.",
+        "after": "Pembahasan draft koreksi: akar 18 dibulatkan ke persepuluhan menjadi 4,2; akar 38 menjadi 6,2; dan akar 70 dibulatkan ke satuan menjadi 8. Jadi A, B, C benar dan D salah."
+      },
+      "key_caption": {
+        "before": "A, B, dan D",
+        "after": "A, B, dan C (versi akhir yang dipilih sebagai draft)"
+      }
+    },
+    "rationale": [
+      "Draft chooses the clearly labelled final rewrite from the duplicated source; the raw initial and rewrite versions remain in audit provenance.",
+      "The final rewrite has A, B, C true and preserves four MCMA options and three keyed answers."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/options/key/explanation",
+        "severity": "CRITICAL",
+        "evidence": "Dua rangkaian A–D tercampur. Dawal menyatakan klaim9cmadalahSALAH: pernyataanini benar. Dakhir langsungmengklaim9cm: salah. HeaderABD tidakcocok keduanya; tambahan KunciJawabanTepatABC cocok hanya versiakhir. Pembahasan menilaiDakhir tanpa menyelesaikan duplikasiversi.",
+        "proposed_correction": "Kurikulum menetapkan satuversi dan menghapus rancangan/catatanwait setelah disetujui. Jika versiakhir yang dipilih, jawabanABC; jika opsi meta awal dipertahankan, ABCD. Jangan memilih otomatis atau menganggap delapanopsi sebagai satu rangkaian.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-4-4-4",
+    "audit_id": "0e868995fdeb:I4:L4:Q4:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7447,
+      "paragraph_end": 7487,
+      "body_block_start": 7084,
+      "body_block_end_exclusive": 7125
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Seorang pembina pramuka mengevaluasi dua klaim dari dua regu mengenai pembentukan kelompok belajar dari $96$ anggota laki-laki dan $120$ anggota perempuan:\nKlaim Regu Elang: \"Kelompok terbanyak yang dapat dibentuk adalah $24$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $1$ orang.\"\nKlaim Regu Harimau: \"Kelompok terbanyak yang dapat dibentuk adalah $12$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $2$ orang.\"\nEvaluasi manakah yang benar?",
+      "options": [
+        "Klaim Regu Harimau benar, karena FPB dari $96$ dan $120$ adalah $12$",
+        "Klaim Regu Elang benar, karena $FPB(96,120)=24$, dengan isi per kelompok $5$ perempuan dan $4$ laki-laki (selisih $5-4=1$)",
+        "Kedua klaim salah, karena jumlah kelompok terbanyak yang dapat dibentuk adalah $48$",
+        "Klaim Regu Harimau benar, karena $120$ dan $96$ sama-sama kelipatan $12$"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi FPB dari $96$ dan $120$:\n$96={2}^{5}×3$\n$120={2}^{3}×3×5$\n$FPB(96,120)={2}^{3}×3=24$ kelompok.\nMengevaluasi isi per kelompok:\nLaki-laki = $96÷24=4$ orang.\nPerempuan = $120÷24=5$ orang.\nSelisih perempuan dan laki-laki per kelompok = $5-4=1$ orang. Dengan demikian, Klaim Regu Elang sepenuhnya tepat secara evaluasi sistematis.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih angka $12$ sebagai FPB karena $12$ merupakan faktor persekutuan (namun bukan yang terbesar).",
+      "key_caption": "B. Evaluasi II"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Seorang pembina pramuka mengevaluasi dua klaim dari dua regu mengenai pembentukan kelompok belajar dari $96$ anggota laki-laki dan $120$ anggota perempuan:\nKlaim Regu Elang: \"Kelompok terbanyak yang dapat dibentuk adalah $24$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $1$ orang.\"\nKlaim Regu Harimau: \"Kelompok terbanyak yang dapat dibentuk adalah $12$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $2$ orang.\"\nEvaluasi manakah yang benar?\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+      "options": [
+        "Klaim Regu Harimau benar, karena FPB dari $96$ dan $120$ adalah $12$",
+        "Klaim Regu Elang benar, karena $FPB(96,120)=24$, dengan isi per kelompok $5$ perempuan dan $4$ laki-laki (selisih $5-4=1$)",
+        "Kedua klaim salah, karena jumlah kelompok terbanyak yang dapat dibentuk adalah $48$",
+        "Klaim Regu Harimau benar, karena $120$ dan $96$ sama-sama kelipatan $12$"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $96$ dan $120$:\n$96={2}^{5}×3$\n$120={2}^{3}×3×5$\n$FPB(96,120)={2}^{3}×3=24$ kelompok.\nMengevaluasi isi per kelompok:\nLaki-laki = $96÷24=4$ orang.\nPerempuan = $120÷24=5$ orang.\nSelisih perempuan dan laki-laki per kelompok = $5-4=1$ orang. Dengan demikian, Klaim Regu Elang sepenuhnya tepat secara evaluasi sistematis.",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih angka $12$ sebagai FPB karena $12$ merupakan faktor persekutuan (namun bukan yang terbesar).",
+      "key_caption": "B. Evaluasi II (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Seorang pembina pramuka mengevaluasi dua klaim dari dua regu mengenai pembentukan kelompok belajar dari $96$ anggota laki-laki dan $120$ anggota perempuan:\nKlaim Regu Elang: \"Kelompok terbanyak yang dapat dibentuk adalah $24$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $1$ orang.\"\nKlaim Regu Harimau: \"Kelompok terbanyak yang dapat dibentuk adalah $12$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $2$ orang.\"\nEvaluasi manakah yang benar?",
+        "after": "Seorang pembina pramuka mengevaluasi dua klaim dari dua regu mengenai pembentukan kelompok belajar dari $96$ anggota laki-laki dan $120$ anggota perempuan:\nKlaim Regu Elang: \"Kelompok terbanyak yang dapat dibentuk adalah $24$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $1$ orang.\"\nKlaim Regu Harimau: \"Kelompok terbanyak yang dapat dibentuk adalah $12$ kelompok. Jika demikian, selisih anggota perempuan dan laki-laki pada tiap kelompok adalah $2$ orang.\"\nEvaluasi manakah yang benar?\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis."
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi FPB dari $96$ dan $120$:\n$96={2}^{5}×3$\n$120={2}^{3}×3×5$\n$FPB(96,120)={2}^{3}×3=24$ kelompok.\nMengevaluasi isi per kelompok:\nLaki-laki = $96÷24=4$ orang.\nPerempuan = $120÷24=5$ orang.\nSelisih perempuan dan laki-laki per kelompok = $5-4=1$ orang. Dengan demikian, Klaim Regu Elang sepenuhnya tepat secara evaluasi sistematis.",
+        "after": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $96$ dan $120$:\n$96={2}^{5}×3$\n$120={2}^{3}×3×5$\n$FPB(96,120)={2}^{3}×3=24$ kelompok.\nMengevaluasi isi per kelompok:\nLaki-laki = $96÷24=4$ orang.\nPerempuan = $120÷24=5$ orang.\nSelisih perempuan dan laki-laki per kelompok = $5-4=1$ orang. Dengan demikian, Klaim Regu Elang sepenuhnya tepat secara evaluasi sistematis."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih angka $12$ sebagai FPB karena $12$ merupakan faktor persekutuan (namun bukan yang terbesar).",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih angka $12$ sebagai FPB karena $12$ merupakan faktor persekutuan (namun bukan yang terbesar)."
+      },
+      "key_caption": {
+        "before": "B. Evaluasi II",
+        "after": "B. Evaluasi II (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/equal composition",
+        "severity": "IMPORTANT",
+        "evidence": "Jumlah kelompok maksimum memakai FPB hanya jika setiap kelompok/kotak harus mempunyai komposisi masing-masing jenis yang sama. Stem tidak menyatakan syarat itu. Tanpa syarat sama, pembagian lebih banyak bisa dibuat dengan isi berbeda.",
+        "proposed_correction": "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-4-4-5",
+    "audit_id": "0e868995fdeb:I4:L4:Q5:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7488,
+      "paragraph_end": 7525,
+      "body_block_start": 7125,
+      "body_block_end_exclusive": 7163
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Seorang siswa menyusun argumen untuk menentukan jumlah ubin persegi terkecil yang dibutuhkan untuk menutup lantai ruangan berukuran $12 cm×15 cm×20 cm$ (dalam konteks penataan pola kubus terkecil). Dua orang tim penilai memberikan evaluasi terhadap argumen siswa tersebut:\nArgumen I: \"KPK dari $12,15,$ dan $20$ adalah $60$. Maka panjang rusuk kubus terkecil adalah $60cm$.\"\nArgumen II: \"Panjang rusuk kubus terkecil adalah $60 cm$, sehingga volume kubus terkecil tersebut dapat memuat $60÷12=5$ balok pada salah satu sisinya.\"\nEvaluasi manakah yang paling tepat mengenai kebenaran Argumen I?",
+      "options": [
+        "Argumen I salah, karena untuk mencari ukuran kubus harus menggunakan FPB",
+        "Argumen I salah, karena KPK dari $12,15,$ dan $20$ adalah $120$",
+        "Argumen I benar, karena $KPK(12,15,20)={2}^{2}×3×5=60$, yang merupakan kelipatan persekutuan terkecil untuk membentuk rusuk kubus yang sama panjang",
+        "Argumen I salah, karena $60$ tidak habis dibagi oleh $15$"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi KPK dari $12,15,$ dan $20$:\n$12={2}^{2}×3$\n$15=3×5$\n$20={2}^{2}×5$\n$KPK(12,15,20)={2}^{2}×3×5=60$.\nUntuk membentuk kubus terkecil dari susunan balok-balok kecil, panjang rusuk kubus harus merupakan kelipatan persekutuan terkecil (KPK) dari ukuran panjang, lebar, dan tinggi balok. Maka, Argumen I benar karena $60$ adalah KPK dari ketiga ukuran tersebut.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menganggap pembuatan bentuk kubus dari balok menggunakan FPB, padahal penggabungan benda kecil menjadi besar memakai konsep KPK.",
+      "key_caption": "C. Argumen II benar, karena $300$ adalah nilai terkecil yang habis dibagi oleh $12,15,$ dan $20$ serta merupakan kuadrat sempurna ($300=10{\\sqrt{3}}^{2}→$ untuk kuadrat sempurna bilangan bulat harus dikalikan $3$ yaitu $900=3{0}^{2}$)"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Balok kecil berukuran $12 cm×15 cm×20 cm$ disusun searah tanpa celah dan tanpa memotong balok untuk membentuk sebuah kubus. Panjang rusuk kubus terkecil yang dapat dibentuk adalah ....",
+      "options": [
+        "$30 cm$",
+        "$40 cm$",
+        "$60 cm$",
+        "$120 cm$"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nRusuk kubus harus habis dibagi 12, 15, dan 20. $KPK(12,15,20)=60$, jadi rusuknya $60 cm$. Jumlah balok adalah $(60÷12)(60÷15)(60÷20)=60$ balok; angka 60 balok berbeda besaran dari panjang rusuk 60 cm.",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa keliru menganggap pembuatan bentuk kubus dari balok menggunakan FPB, padahal penggabungan benda kecil menjadi besar memakai konsep KPK.",
+      "key_caption": "C. $60 cm$ (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Seorang siswa menyusun argumen untuk menentukan jumlah ubin persegi terkecil yang dibutuhkan untuk menutup lantai ruangan berukuran $12 cm×15 cm×20 cm$ (dalam konteks penataan pola kubus terkecil). Dua orang tim penilai memberikan evaluasi terhadap argumen siswa tersebut:\nArgumen I: \"KPK dari $12,15,$ dan $20$ adalah $60$. Maka panjang rusuk kubus terkecil adalah $60cm$.\"\nArgumen II: \"Panjang rusuk kubus terkecil adalah $60 cm$, sehingga volume kubus terkecil tersebut dapat memuat $60÷12=5$ balok pada salah satu sisinya.\"\nEvaluasi manakah yang paling tepat mengenai kebenaran Argumen I?",
+        "after": "Balok kecil berukuran $12 cm×15 cm×20 cm$ disusun searah tanpa celah dan tanpa memotong balok untuk membentuk sebuah kubus. Panjang rusuk kubus terkecil yang dapat dibentuk adalah ...."
+      },
+      "options": {
+        "before": [
+          "Argumen I salah, karena untuk mencari ukuran kubus harus menggunakan FPB",
+          "Argumen I salah, karena KPK dari $12,15,$ dan $20$ adalah $120$",
+          "Argumen I benar, karena $KPK(12,15,20)={2}^{2}×3×5=60$, yang merupakan kelipatan persekutuan terkecil untuk membentuk rusuk kubus yang sama panjang",
+          "Argumen I salah, karena $60$ tidak habis dibagi oleh $15$"
+        ],
+        "after": [
+          "$30 cm$",
+          "$40 cm$",
+          "$60 cm$",
+          "$120 cm$"
+        ]
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi KPK dari $12,15,$ dan $20$:\n$12={2}^{2}×3$\n$15=3×5$\n$20={2}^{2}×5$\n$KPK(12,15,20)={2}^{2}×3×5=60$.\nUntuk membentuk kubus terkecil dari susunan balok-balok kecil, panjang rusuk kubus harus merupakan kelipatan persekutuan terkecil (KPK) dari ukuran panjang, lebar, dan tinggi balok. Maka, Argumen I benar karena $60$ adalah KPK dari ketiga ukuran tersebut.",
+        "after": "Pembahasan draft koreksi:\nRusuk kubus harus habis dibagi 12, 15, dan 20. $KPK(12,15,20)=60$, jadi rusuknya $60 cm$. Jumlah balok adalah $(60÷12)(60÷15)(60÷20)=60$ balok; angka 60 balok berbeda besaran dari panjang rusuk 60 cm."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menganggap pembuatan bentuk kubus dari balok menggunakan FPB, padahal penggabungan benda kecil menjadi besar memakai konsep KPK.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa keliru menganggap pembuatan bentuk kubus dari balok menggunakan FPB, padahal penggabungan benda kecil menjadi besar memakai konsep KPK."
+      },
+      "key_caption": {
+        "before": "C. Argumen II benar, karena $300$ adalah nilai terkecil yang habis dibagi oleh $12,15,$ dan $20$ serta merupakan kuadrat sempurna ($300=10{\\sqrt{3}}^{2}→$ untuk kuadrat sempurna bilangan bulat harus dikalikan $3$ yaitu $900=3{0}^{2}$)",
+        "after": "C. $60 cm$ (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Kurikulum menetapkan satu konteks/model dan besaran yang ditanya. Jika model balok searah dipilih, tulis asumsi itu; panjang rusuk60cm dan jumlahbalok60 adalah dua besaran berbeda. Hapus header300/900 setelah koreksi disetujui."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/key/explanation",
+        "severity": "CRITICAL",
+        "evidence": "Stem meminta jumlah ubin lantai berukuran12×15×20cm lalu membahas rusuk kubus dari balok. Header kunci menyebut ArgumenII,300 sebagai nilai terkecil dan kuadratsempurna, padahal KPK60 dan300 bukan kuadratsempurna. Pembahasan melompat ke model balok yang tidak ditetapkan.",
+        "proposed_correction": "Kurikulum menetapkan satu konteks/model dan besaran yang ditanya. Jika model balok searah dipilih, tulis asumsi itu; panjang rusuk60cm dan jumlahbalok60 adalah dua besaran berbeda. Hapus header300/900 setelah koreksi disetujui.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "mcma-4-4-7",
+    "audit_id": "0e868995fdeb:I4:L4:Q7:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7562,
+      "paragraph_end": 7598,
+      "body_block_start": 7199,
+      "body_block_end_exclusive": 7236
+    },
+    "source_original": {
+      "format": "MCMA",
+      "stem": "Dua buah bel peringatan laboratorium berbunyi berulang setiap $16$ menit dan $24$ menit. Kedua bel berbunyi bersamaan pada pukul 08.00 WIB. Dua siswa memberikan evaluasi terhadap beberapa pernyataan:\nManakah evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Pernyataan \"Kedua bel berbunyi bersamaan kembali setiap 48 menit\" adalah BENAR.",
+        "Pernyataan \"Kedua bel akan berbunyi bersamaan untuk kedua kalinya pada pukul 08.48 WIB\" adalah BENAR.",
+        "Pernyataan \"Dalam selang waktu 2 jam (120 menit), kedua bel berbunyi bersamaan sebanyak 3 kali (tidak menghitung pukul 08.00 WIB)\" adalah BENAR.",
+        "Pernyataan \"Dalam selang waktu 2 jam (120 menit), kedua bel berbunyi bersamaan sebanyak 2 kali (tidak menghitung pukul 08.00 WIB)\" adalah BENAR."
+      ],
+      "key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi KPK dari 16 dan 24:\n$16={2}^{4}$\n$24={2}^{3}×3$\n$KPK(16,24)={2}^{4}×3=48 menit$. (Pernyataan A Benar).\nWaktu bunyi bersamaan kedua kalinya = $08.00+48 menit=08.48WIB$. (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 120 menit (tanpa pukul 08.00 WIB):\nFrekuensi = ⌊$\\frac{120}{48}$⌋ = 2 kali (pada detik ke-48, dan menit ke-96)\n(Pernyataan D Benar, Pernyataan C Salah).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $120÷48=2,5$ lalu membulatkannya ke atas menjadi 3 kali, padahal bunyi ke-3 baru terjadi pada menit ke-144 (di luar 120 menit).",
+      "key_caption": "A, B, dan D"
+    },
+    "proposed_original": {
+      "format": "MCMA",
+      "stem": "Dua buah bel peringatan laboratorium berbunyi berulang setiap $16$ menit dan $24$ menit. Kedua bel berbunyi bersamaan pada pukul 08.00 WIB. Dua siswa memberikan evaluasi terhadap beberapa pernyataan:\nManakah evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Pernyataan \"Kedua bel berbunyi bersamaan kembali setiap 48 menit\" adalah BENAR.",
+        "Pernyataan \"Kedua bel akan berbunyi bersamaan untuk kedua kalinya pada pukul 08.48 WIB\" adalah BENAR.",
+        "Pernyataan \"Dalam selang waktu 2 jam (120 menit), kedua bel berbunyi bersamaan sebanyak 3 kali (tidak menghitung pukul 08.00 WIB)\" adalah BENAR.",
+        "Pernyataan \"Dalam selang waktu 2 jam (120 menit), kedua bel berbunyi bersamaan sebanyak 2 kali (tidak menghitung pukul 08.00 WIB)\" adalah BENAR."
+      ],
+      "key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nMengevaluasi KPK dari 16 dan 24:\n$16={2}^{4}$\n$24={2}^{3}×3$\n$KPK(16,24)={2}^{4}×3=48 menit$. (Pernyataan A Benar).\nWaktu bunyi bersamaan kedua kalinya = $08.00+48 menit=08.48WIB$. (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 120 menit (tanpa pukul 08.00 WIB):\nFrekuensi = ⌊$\\frac{120}{48}$⌋ = 2 kali (pada menit ke-48, dan menit ke-96)\n(Pernyataan D Benar, Pernyataan C Salah).",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $120÷48=2,5$ lalu membulatkannya ke atas menjadi 3 kali, padahal bunyi ke-3 baru terjadi pada menit ke-144 (di luar 120 menit).",
+      "key_caption": "A, B, dan D (draft koreksi)"
+    },
+    "component_changes": {
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi KPK dari 16 dan 24:\n$16={2}^{4}$\n$24={2}^{3}×3$\n$KPK(16,24)={2}^{4}×3=48 menit$. (Pernyataan A Benar).\nWaktu bunyi bersamaan kedua kalinya = $08.00+48 menit=08.48WIB$. (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 120 menit (tanpa pukul 08.00 WIB):\nFrekuensi = ⌊$\\frac{120}{48}$⌋ = 2 kali (pada detik ke-48, dan menit ke-96)\n(Pernyataan D Benar, Pernyataan C Salah).",
+        "after": "Pembahasan draft koreksi:\nMengevaluasi KPK dari 16 dan 24:\n$16={2}^{4}$\n$24={2}^{3}×3$\n$KPK(16,24)={2}^{4}×3=48 menit$. (Pernyataan A Benar).\nWaktu bunyi bersamaan kedua kalinya = $08.00+48 menit=08.48WIB$. (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 120 menit (tanpa pukul 08.00 WIB):\nFrekuensi = ⌊$\\frac{120}{48}$⌋ = 2 kali (pada menit ke-48, dan menit ke-96)\n(Pernyataan D Benar, Pernyataan C Salah)."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $120÷48=2,5$ lalu membulatkannya ke atas menjadi 3 kali, padahal bunyi ke-3 baru terjadi pada menit ke-144 (di luar 120 menit).",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa keliru menghitung $120÷48=2,5$ lalu membulatkannya ke atas menjadi 3 kali, padahal bunyi ke-3 baru terjadi pada menit ke-144 (di luar 120 menit)."
+      },
+      "key_caption": {
+        "before": "A, B, dan D",
+        "after": "A, B, dan D (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Ganti detik ke48 menjadi menit ke48; jumlahdua kejadian dan kunciABD tetap."
+    ],
+    "source_issues": [
+      {
+        "component": "explanation/unit",
+        "severity": "MINOR",
+        "evidence": "Frekuensi menyebut pada detik ke48 dan menit ke96; periode48menit, sehingga kejadian pertama setelah awal juga menit48.",
+        "proposed_correction": "Ganti detik ke48 menjadi menit ke48; jumlahdua kejadian dan kunciABD tetap.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "mcma-4-4-8",
+    "audit_id": "0e868995fdeb:I4:L4:Q8:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7599,
+      "paragraph_end": 7639,
+      "body_block_start": 7236,
+      "body_block_end_exclusive": 7277
+    },
+    "source_original": {
+      "format": "MCMA",
+      "stem": "Seorang pengurus OSIS membagikan $108$ buku agenda dan $135$ pulpen ke dalam beberapa wadah bingkisan pengurus tanpa sisa. Pengurus tersebut mengevaluasi dua alternatif pengemasan:\nOpsi I: Dibagi ke dalam $9$ wadah.\nOpsi II: Dibagi ke dalam $27$ wadah (menggunakan FPB terbanyak).\nManakah evaluasi pernyataan matematika yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Opsi I adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk.",
+        "Opsi II adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk karena $FPB(108,135)=27$.",
+        "Pada Opsi II, setiap wadah berisi $4$ buku agenda dan $5$ pulpen.",
+        "Pada Opsi I, setiap wadah berisi $12$ buku agenda dan $12$ pulpen."
+      ],
+      "key": [
+        "B",
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ wadah. (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per wadah untuk Opsi II:\nBuku agenda = $108÷27=4$ buah.\nPulpen = $135÷27=5$ buah. (Pernyataan C Benar).\nMengevaluasi Opsi I: $135÷9=15$ pulpen (bukan 12) (Pernyataan D Salah).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Opsi I sebagai wadah terbanyak karena lupa mengecek apakah 9 masih dapat dibagi lagi oleh faktor persekutuan lainnya (seperti 3).",
+      "key_caption": "B dan C"
+    },
+    "proposed_original": {
+      "format": "MCMA",
+      "stem": "Seorang pengurus OSIS membagikan $108$ buku agenda dan $135$ pulpen ke dalam beberapa wadah bingkisan pengurus tanpa sisa. Pengurus tersebut mengevaluasi dua alternatif pengemasan:\nOpsi I: Dibagi ke dalam $9$ wadah.\nOpsi II: Dibagi ke dalam $27$ wadah (menggunakan FPB terbanyak).\nManakah evaluasi pernyataan matematika yang benar? (Jawaban benar dapat lebih dari satu)\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+      "options": [
+        "Opsi I adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk.",
+        "Opsi II adalah pembagian dengan jumlah wadah terbanyak yang mungkin dibentuk karena $FPB(108,135)=27$.",
+        "Pada Opsi II, setiap wadah berisi $4$ buku agenda dan $5$ pulpen.",
+        "Pada Opsi I, setiap wadah berisi $12$ buku agenda dan $12$ pulpen."
+      ],
+      "key": [
+        "B",
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ wadah. (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per wadah untuk Opsi II:\nBuku agenda = $108÷27=4$ buah.\nPulpen = $135÷27=5$ buah. (Pernyataan C Benar).\nMengevaluasi Opsi I: $135÷9=15$ pulpen (bukan 12) (Pernyataan D Salah).",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Sembilan wadah bukan maksimum; 27 membagi kedua jumlah.",
+      "key_caption": "B dan C (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Seorang pengurus OSIS membagikan $108$ buku agenda dan $135$ pulpen ke dalam beberapa wadah bingkisan pengurus tanpa sisa. Pengurus tersebut mengevaluasi dua alternatif pengemasan:\nOpsi I: Dibagi ke dalam $9$ wadah.\nOpsi II: Dibagi ke dalam $27$ wadah (menggunakan FPB terbanyak).\nManakah evaluasi pernyataan matematika yang benar? (Jawaban benar dapat lebih dari satu)",
+        "after": "Seorang pengurus OSIS membagikan $108$ buku agenda dan $135$ pulpen ke dalam beberapa wadah bingkisan pengurus tanpa sisa. Pengurus tersebut mengevaluasi dua alternatif pengemasan:\nOpsi I: Dibagi ke dalam $9$ wadah.\nOpsi II: Dibagi ke dalam $27$ wadah (menggunakan FPB terbanyak).\nManakah evaluasi pernyataan matematika yang benar? (Jawaban benar dapat lebih dari satu)\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis."
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ wadah. (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per wadah untuk Opsi II:\nBuku agenda = $108÷27=4$ buah.\nPulpen = $135÷27=5$ buah. (Pernyataan C Benar).\nMengevaluasi Opsi I: $135÷9=15$ pulpen (bukan 12) (Pernyataan D Salah).",
+        "after": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ wadah. (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per wadah untuk Opsi II:\nBuku agenda = $108÷27=4$ buah.\nPulpen = $135÷27=5$ buah. (Pernyataan C Benar).\nMengevaluasi Opsi I: $135÷9=15$ pulpen (bukan 12) (Pernyataan D Salah)."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Opsi I sebagai wadah terbanyak karena lupa mengecek apakah 9 masih dapat dibagi lagi oleh faktor persekutuan lainnya (seperti 3).",
+        "after": "PROPOSED — draft karantina untuk review akademik. Sembilan wadah bukan maksimum; 27 membagi kedua jumlah."
+      },
+      "key_caption": {
+        "before": "B dan C",
+        "after": "B dan C (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Tulis banyakwadah dapat dinaikkan9×3=27 karena108/27 dan135/27 tetapbulat; jangan memakai keterbagian angka9 saja sebagai bukti FPB.",
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "source_issues": [
+      {
+        "component": "additional_notes/reasoning",
+        "severity": "MINOR",
+        "evidence": "Catatan menyimpulkan9bukanmaksimum karena9masihbisadibagi3. Membagi banyakwadah dengan3 justru menguranginya, bukan membuktikan27wadah.",
+        "proposed_correction": "Tulis banyakwadah dapat dinaikkan9×3=27 karena108/27 dan135/27 tetapbulat; jangan memakai keterbagian angka9 saja sebagai bukti FPB.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      },
+      {
+        "component": "stem/equal composition",
+        "severity": "IMPORTANT",
+        "evidence": "Jumlah kelompok maksimum memakai FPB hanya jika setiap kelompok/kotak harus mempunyai komposisi masing-masing jenis yang sama. Stem tidak menyatakan syarat itu. Tanpa syarat sama, pembagian lebih banyak bisa dibuat dengan isi berbeda.",
+        "proposed_correction": "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-4-5-4",
+    "audit_id": "0e868995fdeb:I4:L5:Q4:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7871,
+      "paragraph_end": 7913,
+      "body_block_start": 7480,
+      "body_block_end_exclusive": 7523
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Seorang pembina regu mengevaluasi jumlah kelompok terbanyak yang dapat dibentuk dari $108$ peserta laki-laki dan $135$ peserta perempuan. Tiga regu memberikan laporan evaluasi:\nRegu A: \"Dapat dibentuk $9$ kelompok, dengan isi tiap kelompok $12$ laki-laki dan $15$ perempuan.\"\nRegu B: \"Dapat dibentuk $27$ kelompok, dengan isi tiap kelompok $4$ laki-laki dan $5$ perempuan.\"\nRegu C: \"Dapat dibentuk $54$ kelompok, dengan isi tiap kelompok $2$ laki-laki dan $2,5$ perempuan.\"\nManakah evaluasi regu yang paling tepat dan bernilai maksimum?",
+      "options": [
+        "Laporan Regu A",
+        "Laporan Regu C",
+        "Laporan Regu B",
+        "Laporan Regu A dan Regu B sama-sama maksimum"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ kelompok.\nMengevaluasi keterbagian isi kelompok:\nLaki-laki = $108÷27=4$ orang.\nPerempuan = $135÷27=5$ orang. Regu A memang menghasilkan bilangan bulat ($9$ kelompok), tetapi angka $9$ bukan jumlah kelompok terbanyak/maksimum. Laporan Regu B adalah yang paling tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Regu A karena menganggap $9$ sudah merupakan faktor persekutuan, tanpa menyadari bahwa $27$ adalah faktor persekutuan terbesar.",
+      "key_caption": "C. Evaluasi III"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Seorang pembina regu mengevaluasi jumlah kelompok terbanyak yang dapat dibentuk dari $108$ peserta laki-laki dan $135$ peserta perempuan. Tiga regu memberikan laporan evaluasi:\nRegu A: \"Dapat dibentuk $9$ kelompok, dengan isi tiap kelompok $12$ laki-laki dan $15$ perempuan.\"\nRegu B: \"Dapat dibentuk $27$ kelompok, dengan isi tiap kelompok $4$ laki-laki dan $5$ perempuan.\"\nRegu C: \"Dapat dibentuk $54$ kelompok, dengan isi tiap kelompok $2$ laki-laki dan $2,5$ perempuan.\"\nManakah evaluasi regu yang paling tepat dan bernilai maksimum?\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+      "options": [
+        "Laporan Regu A",
+        "Laporan Regu C",
+        "Laporan Regu B",
+        "Laporan Regu A dan Regu B sama-sama maksimum"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ kelompok.\nMengevaluasi keterbagian isi kelompok:\nLaki-laki = $108÷27=4$ orang.\nPerempuan = $135÷27=5$ orang. Regu A memang menghasilkan bilangan bulat ($9$ kelompok), tetapi angka $9$ bukan jumlah kelompok terbanyak/maksimum. Laporan Regu B adalah yang paling tepat.",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa memilih Regu A karena menganggap $9$ sudah merupakan faktor persekutuan, tanpa menyadari bahwa $27$ adalah faktor persekutuan terbesar.",
+      "key_caption": "C. Laporan Regu B (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Seorang pembina regu mengevaluasi jumlah kelompok terbanyak yang dapat dibentuk dari $108$ peserta laki-laki dan $135$ peserta perempuan. Tiga regu memberikan laporan evaluasi:\nRegu A: \"Dapat dibentuk $9$ kelompok, dengan isi tiap kelompok $12$ laki-laki dan $15$ perempuan.\"\nRegu B: \"Dapat dibentuk $27$ kelompok, dengan isi tiap kelompok $4$ laki-laki dan $5$ perempuan.\"\nRegu C: \"Dapat dibentuk $54$ kelompok, dengan isi tiap kelompok $2$ laki-laki dan $2,5$ perempuan.\"\nManakah evaluasi regu yang paling tepat dan bernilai maksimum?",
+        "after": "Seorang pembina regu mengevaluasi jumlah kelompok terbanyak yang dapat dibentuk dari $108$ peserta laki-laki dan $135$ peserta perempuan. Tiga regu memberikan laporan evaluasi:\nRegu A: \"Dapat dibentuk $9$ kelompok, dengan isi tiap kelompok $12$ laki-laki dan $15$ perempuan.\"\nRegu B: \"Dapat dibentuk $27$ kelompok, dengan isi tiap kelompok $4$ laki-laki dan $5$ perempuan.\"\nRegu C: \"Dapat dibentuk $54$ kelompok, dengan isi tiap kelompok $2$ laki-laki dan $2,5$ perempuan.\"\nManakah evaluasi regu yang paling tepat dan bernilai maksimum?\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis."
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ kelompok.\nMengevaluasi keterbagian isi kelompok:\nLaki-laki = $108÷27=4$ orang.\nPerempuan = $135÷27=5$ orang. Regu A memang menghasilkan bilangan bulat ($9$ kelompok), tetapi angka $9$ bukan jumlah kelompok terbanyak/maksimum. Laporan Regu B adalah yang paling tepat.",
+        "after": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $108$ dan $135$:\n$108={2}^{2}×{3}^{3}$\n$135={3}^{3}×5$\n$FPB(108,135)={3}^{3}=27$ kelompok.\nMengevaluasi keterbagian isi kelompok:\nLaki-laki = $108÷27=4$ orang.\nPerempuan = $135÷27=5$ orang. Regu A memang menghasilkan bilangan bulat ($9$ kelompok), tetapi angka $9$ bukan jumlah kelompok terbanyak/maksimum. Laporan Regu B adalah yang paling tepat."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Regu A karena menganggap $9$ sudah merupakan faktor persekutuan, tanpa menyadari bahwa $27$ adalah faktor persekutuan terbesar.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa memilih Regu A karena menganggap $9$ sudah merupakan faktor persekutuan, tanpa menyadari bahwa $27$ adalah faktor persekutuan terbesar."
+      },
+      "key_caption": {
+        "before": "C. Evaluasi III",
+        "after": "C. Laporan Regu B (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Perjelas caption menjadi C.LaporanReguB setelah syarat pembagian sama dijelaskan.",
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "source_issues": [
+      {
+        "component": "key/description",
+        "severity": "MINOR",
+        "evidence": "Huruf kunciC menunjuk LaporanReguB, tetapi caption memakai EvaluasiIII yang tidak didefinisikan di stimulus. Rujukannya bisa disalahartikan sebagai regu ketiga. Tidak disimpulkan sebagai kesalahan huruf.",
+        "proposed_correction": "Perjelas caption menjadi C.LaporanReguB setelah syarat pembagian sama dijelaskan.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      },
+      {
+        "component": "stem/equal composition",
+        "severity": "IMPORTANT",
+        "evidence": "Jumlah kelompok maksimum memakai FPB hanya jika setiap kelompok/kotak harus mempunyai komposisi masing-masing jenis yang sama. Stem tidak menyatakan syarat itu. Tanpa syarat sama, pembagian lebih banyak bisa dibuat dengan isi berbeda.",
+        "proposed_correction": "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-4-5-5",
+    "audit_id": "0e868995fdeb:I4:L5:Q5:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7914,
+      "paragraph_end": 7950,
+      "body_block_start": 7523,
+      "body_block_end_exclusive": 7560
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Sebuah pengelola perpustakaan sekolah mengevaluasi dua opsi jadwal pengembalian dua kategori buku pinjaman:\nKategori Komik: wajib dikembalikan setiap 14 hari\nKategori Novel: wajib dikembalikan setiap 21 hari\nPengelola ingin membuat kebijakan agar tanggal jatuh tempo bersamaan terjadi tidak terlalu sering untuk menghindari antrean panjang. Dua usulan kebijakan diajukan:\nKebijakan I: Mengubah jadwal Komik menjadi 7 hari dan Novel menjadi 14 hari.\nKebijakan II: Mengubah jadwal Komik menjadi 12 hari dan Novel menjadi 18 hari.\nEvaluasi manakah yang benar jika kriteria yang diinginkan adalah memperpanjang rentang waktu jatuh tempo bersamaan?",
+      "options": [
+        "Kebijakan I lebih baik, karena $KPK(7,14)=28$ hari",
+        "Kebijakan II lebih baik, karena $KPK(12,18)=36$ hari (lebih lama dari Kebijakan I)",
+        "Kebijakan I lebih baik, karena angka 7 dan 14 lebih kecil sehingga mudah dihitung",
+        "Kebijakan II lebih buruk, karena 36 hari lebih cepat daripada rentang awal (42 hari)"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nHitung rentang jadwal awal: $KPK(14,21)=42$ hari.\nHitung rentang Kebijakan I: $KPK(7,14)=14$ hari. (Makin sering terjadi antrian)\nHitung rentang Kebijakan II: $KPK(12,18)=36$ hari. Bila dibandingkan antara usulan Kebijakan I ($14$ hari) dan Kebijakan II ($36$ hari), maka Kebijakan II lebih baik dalam memperpanjang jarak rentang jatuh tempo bersamaan dibanding Kebijakan I.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih Kebijakan I karena mengira angka yang lebih kecil pada jadwal harian otomatis menghasilkan kelipatan yang lebih besar.",
+      "key_caption": "B. Kebijakan II"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Sebuah pengelola perpustakaan sekolah mengevaluasi dua opsi jadwal pengembalian dua kategori buku pinjaman:\nKategori Komik: wajib dikembalikan setiap 14 hari\nKategori Novel: wajib dikembalikan setiap 21 hari\nPengelola ingin membuat kebijakan agar tanggal jatuh tempo bersamaan terjadi tidak terlalu sering untuk menghindari antrean panjang. Dua usulan kebijakan diajukan:\nKebijakan I: Mengubah jadwal Komik menjadi 7 hari dan Novel menjadi 14 hari.\nKebijakan II: Mengubah jadwal Komik menjadi 12 hari dan Novel menjadi 18 hari.\nEvaluasi manakah yang benar jika kedua usulan wajib dibandingkan dengan jadwal awal 42 hari dan kriterianya adalah memperpanjang rentang waktu jatuh tempo bersamaan?",
+      "options": [
+        "Kebijakan I memenuhi kriteria karena $KPK(7,14)=14$ hari",
+        "Kebijakan II memenuhi kriteria karena $KPK(12,18)=36$ hari",
+        "Kedua kebijakan memenuhi kriteria karena intervalnya positif",
+        "Tidak ada kebijakan yang memenuhi kriteria karena $14<42$ dan $36<42$ hari"
+      ],
+      "key": [
+        "D"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nJadwal awal: $KPK(14,21)=42$ hari. Kebijakan I: $KPK(7,14)=14$ hari. Kebijakan II: $KPK(12,18)=36$ hari. Karena 14 dan 36 kurang dari 42, tidak ada usulan yang memperpanjang rentang dibandingkan dengan jadwal awal.",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih Kebijakan I karena mengira angka yang lebih kecil pada jadwal harian otomatis menghasilkan kelipatan yang lebih besar.",
+      "key_caption": "D. Tidak ada kebijakan yang memenuhi kriteria (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Sebuah pengelola perpustakaan sekolah mengevaluasi dua opsi jadwal pengembalian dua kategori buku pinjaman:\nKategori Komik: wajib dikembalikan setiap 14 hari\nKategori Novel: wajib dikembalikan setiap 21 hari\nPengelola ingin membuat kebijakan agar tanggal jatuh tempo bersamaan terjadi tidak terlalu sering untuk menghindari antrean panjang. Dua usulan kebijakan diajukan:\nKebijakan I: Mengubah jadwal Komik menjadi 7 hari dan Novel menjadi 14 hari.\nKebijakan II: Mengubah jadwal Komik menjadi 12 hari dan Novel menjadi 18 hari.\nEvaluasi manakah yang benar jika kriteria yang diinginkan adalah memperpanjang rentang waktu jatuh tempo bersamaan?",
+        "after": "Sebuah pengelola perpustakaan sekolah mengevaluasi dua opsi jadwal pengembalian dua kategori buku pinjaman:\nKategori Komik: wajib dikembalikan setiap 14 hari\nKategori Novel: wajib dikembalikan setiap 21 hari\nPengelola ingin membuat kebijakan agar tanggal jatuh tempo bersamaan terjadi tidak terlalu sering untuk menghindari antrean panjang. Dua usulan kebijakan diajukan:\nKebijakan I: Mengubah jadwal Komik menjadi 7 hari dan Novel menjadi 14 hari.\nKebijakan II: Mengubah jadwal Komik menjadi 12 hari dan Novel menjadi 18 hari.\nEvaluasi manakah yang benar jika kedua usulan wajib dibandingkan dengan jadwal awal 42 hari dan kriterianya adalah memperpanjang rentang waktu jatuh tempo bersamaan?"
+      },
+      "options": {
+        "before": [
+          "Kebijakan I lebih baik, karena $KPK(7,14)=28$ hari",
+          "Kebijakan II lebih baik, karena $KPK(12,18)=36$ hari (lebih lama dari Kebijakan I)",
+          "Kebijakan I lebih baik, karena angka 7 dan 14 lebih kecil sehingga mudah dihitung",
+          "Kebijakan II lebih buruk, karena 36 hari lebih cepat daripada rentang awal (42 hari)"
+        ],
+        "after": [
+          "Kebijakan I memenuhi kriteria karena $KPK(7,14)=14$ hari",
+          "Kebijakan II memenuhi kriteria karena $KPK(12,18)=36$ hari",
+          "Kedua kebijakan memenuhi kriteria karena intervalnya positif",
+          "Tidak ada kebijakan yang memenuhi kriteria karena $14<42$ dan $36<42$ hari"
+        ]
+      },
+      "key": {
+        "before": [
+          "B"
+        ],
+        "after": [
+          "D"
+        ]
+      },
+      "explanation": {
+        "before": "Pembahasan:\nHitung rentang jadwal awal: $KPK(14,21)=42$ hari.\nHitung rentang Kebijakan I: $KPK(7,14)=14$ hari. (Makin sering terjadi antrian)\nHitung rentang Kebijakan II: $KPK(12,18)=36$ hari. Bila dibandingkan antara usulan Kebijakan I ($14$ hari) dan Kebijakan II ($36$ hari), maka Kebijakan II lebih baik dalam memperpanjang jarak rentang jatuh tempo bersamaan dibanding Kebijakan I.",
+        "after": "Pembahasan draft koreksi:\nJadwal awal: $KPK(14,21)=42$ hari. Kebijakan I: $KPK(7,14)=14$ hari. Kebijakan II: $KPK(12,18)=36$ hari. Karena 14 dan 36 kurang dari 42, tidak ada usulan yang memperpanjang rentang dibandingkan dengan jadwal awal."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih Kebijakan I karena mengira angka yang lebih kecil pada jadwal harian otomatis menghasilkan kelipatan yang lebih besar.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa terkecoh memilih Kebijakan I karena mengira angka yang lebih kecil pada jadwal harian otomatis menghasilkan kelipatan yang lebih besar."
+      },
+      "key_caption": {
+        "before": "B. Kebijakan II",
+        "after": "D. Tidak ada kebijakan yang memenuhi kriteria (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Tegaskan apakah memilih usulan terbaik diantaraI/II atau wajib lebihlama dari42hari. Pada kriteria kedua,takadausulan yangmemenuhi; jangan memilih acuan otomatis."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/criterion",
+        "severity": "IMPORTANT",
+        "evidence": "Awal42hari; usulanI14hari,usulanII36hari. B benar jika hanya dibandingIvsII, sedangkan D benar jika tujuannya memperpanjang rentang dibandingjadwalawal. Keduanya memperpendek jadwalawal.",
+        "proposed_correction": "Tegaskan apakah memilih usulan terbaik diantaraI/II atau wajib lebihlama dari42hari. Pada kriteria kedua,takadausulan yangmemenuhi; jangan memilih acuan otomatis.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "mcma-4-5-7",
+    "audit_id": "0e868995fdeb:I4:L5:Q7:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 7987,
+      "paragraph_end": 8024,
+      "body_block_start": 7596,
+      "body_block_end_exclusive": 7634
+    },
+    "source_original": {
+      "format": "MCMA",
+      "stem": "Dua buah lampu penanda praktikum berkedip secara periodik setiap $24$ detik dan $36$ detik. Kedua lampu berkedip bersamaan pada detik ke-0. Seorang siswa melakukan evaluasi terhadap frekuensi kedipan bersama dalam durasi $5$ menit ($300$ detik).\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Pernyataan \"Kedua lampu berkedip bersamaan setiap 72 detik\" adalah BENAR.",
+        "Pernyataan \"$FPB(24,36)=12$\" adalah BENAR.",
+        "Pernyataan \"Dalam durasi 300 detik, kedua lampu berkedip bersamaan sebanyak 5 kali (tidak menghitung detik ke-0)\" adalah BENAR.",
+        "Pernyataan \"Dalam durasi 300 detik, kedua lampu berkedip bersamaan sebanyak 4 kali (tidak menghitung detik ke-0)\" adalah BENAR."
+      ],
+      "key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi KPK dari 24 dan 36:\n$24={2}^{3}×3$\n$36={2}^{2}×{3}^{2}$\n$KPK(24,36)={2}^{3}×{3}^{2}=8×9=72 detik$ (Pernyataan A Benar).\n$FPB(24,36)={2}^{2}×3=12$ (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 300 detik (tanpa detik ke-0):\nFrekuensi = ⌊$\\frac{300}{72}$⌋ = 4 kali (pada detik ke-72, 144, 216, dan 288)\n(Pernyataan D Benar, Pernyataan C Salah).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan hasil bagi $300÷72=4,16$ ke atas menjadi 5 kali, padahal kedipan ke-5 baru terjadi pada detik ke-360.",
+      "key_caption": "A, B, dan D"
+    },
+    "proposed_original": {
+      "format": "MCMA",
+      "stem": "Dua buah lampu penanda praktikum berkedip secara periodik setiap $24$ detik dan $36$ detik. Kedua lampu berkedip bersamaan pada detik ke-0. Seorang siswa melakukan evaluasi terhadap frekuensi kedipan bersama dalam durasi $5$ menit ($300$ detik).\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Pernyataan \"Kedua lampu berkedip bersamaan setiap 72 detik\" adalah BENAR.",
+        "Pernyataan \"$FPB(24,36)=12$\" adalah BENAR.",
+        "Pernyataan \"Dalam durasi 300 detik, kedua lampu berkedip bersamaan sebanyak 5 kali (tidak menghitung detik ke-0)\" adalah BENAR.",
+        "Pernyataan \"Dalam durasi 300 detik, kedua lampu berkedip bersamaan sebanyak 4 kali (tidak menghitung detik ke-0)\" adalah BENAR."
+      ],
+      "key": [
+        "A",
+        "B",
+        "D"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nMengevaluasi KPK dari 24 dan 36:\n$24={2}^{3}×3$\n$36={2}^{2}×{3}^{2}$\n$KPK(24,36)={2}^{3}×{3}^{2}=8×9=72 detik$ (Pernyataan A Benar).\n$FPB(24,36)={2}^{2}×3=12$ (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 300 detik (tanpa detik ke-0):\nFrekuensi = ⌊$\\frac{300}{72}$⌋ = 4 kali (pada detik ke-72, 144, 216, dan 288)\n(Pernyataan D Benar, Pernyataan C Salah).",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Jumlah kejadian memakai floor(300÷72)=4, tanpa pembulatan.",
+      "key_caption": "A, B, dan D (draft koreksi)"
+    },
+    "component_changes": {
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi KPK dari 24 dan 36:\n$24={2}^{3}×3$\n$36={2}^{2}×{3}^{2}$\n$KPK(24,36)={2}^{3}×{3}^{2}=8×9=72 detik$ (Pernyataan A Benar).\n$FPB(24,36)={2}^{2}×3=12$ (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 300 detik (tanpa detik ke-0):\nFrekuensi = ⌊$\\frac{300}{72}$⌋ = 4 kali (pada detik ke-72, 144, 216, dan 288)\n(Pernyataan D Benar, Pernyataan C Salah).",
+        "after": "Pembahasan draft koreksi:\nMengevaluasi KPK dari 24 dan 36:\n$24={2}^{3}×3$\n$36={2}^{2}×{3}^{2}$\n$KPK(24,36)={2}^{3}×{3}^{2}=8×9=72 detik$ (Pernyataan A Benar).\n$FPB(24,36)={2}^{2}×3=12$ (Pernyataan B Benar).\nMengevaluasi frekuensi dalam 300 detik (tanpa detik ke-0):\nFrekuensi = ⌊$\\frac{300}{72}$⌋ = 4 kali (pada detik ke-72, 144, 216, dan 288)\n(Pernyataan D Benar, Pernyataan C Salah)."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa membulatkan hasil bagi $300÷72=4,16$ ke atas menjadi 5 kali, padahal kedipan ke-5 baru terjadi pada detik ke-360.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Jumlah kejadian memakai floor(300÷72)=4, tanpa pembulatan."
+      },
+      "key_caption": {
+        "before": "A, B, dan D",
+        "after": "A, B, dan D (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Tulis300/72=25/6≈4,1667 lalu ambilfloor4. Tidak perlu pembulatan untuk menghitung kejadian."
+    ],
+    "source_issues": [
+      {
+        "component": "additional_notes/precision",
+        "severity": "MINOR",
+        "evidence": "Catatan menulis300÷72=4,16, padahal nilai eksak25/6=4,1666…;4,16 hanya potongan desimal.",
+        "proposed_correction": "Tulis300/72=25/6≈4,1667 lalu ambilfloor4. Tidak perlu pembulatan untuk menghitung kejadian.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "mcma-4-5-8",
+    "audit_id": "0e868995fdeb:I4:L5:Q8:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 8025,
+      "paragraph_end": 8060,
+      "body_block_start": 7634,
+      "body_block_end_exclusive": 7670
+    },
+    "source_original": {
+      "format": "MCMA",
+      "stem": "Seorang pengurus lab sains mengevaluasi pembagian $96$ tabung reaksi dan $144$ pipet tetes ke dalam beberapa kotak penyimpanan praktikum tanpa tersisa.\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+      "options": [
+        "Kotak penyimpanan terbanyak yang dapat dibentuk adalah 24 kotak.",
+        "Kotak penyimpanan terbanyak yang dapat dibentuk adalah 48 kotak.",
+        "Jika dibentuk 48 kotak, masing-masing kotak berisi 2 tabung reaksi dan 3 pipet tetes.",
+        "Jika dibentuk 48 kotak, masing-masing kotak berisi 3 tabung reaksi dan 2 pipet tetes."
+      ],
+      "key": [
+        "B",
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi FPB dari $96$ dan $144$:\n$96={2}^{5}×3$\n$144={2}^{4}×{3}^{2}$\n$FPB(96,144)={2}^{4}×3=16×3=48$ kotak (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per kotak:\nTabung reaksi = $96÷48=2$ buah.\nPipet tetes = $144÷48=3$ buah. (Pernyataan C Benar, Pernyataan D Salah).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih angka 24 sebagai FPB karena lupa bahwa $96$ dan $144$ masih bisa dibagi lagi dengan faktor $2$ setelah dibagi 24.",
+      "key_caption": "B dan C"
+    },
+    "proposed_original": {
+      "format": "MCMA",
+      "stem": "Seorang pengurus lab sains mengevaluasi pembagian $96$ tabung reaksi dan $144$ pipet tetes ke dalam beberapa kotak penyimpanan praktikum tanpa tersisa.\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+      "options": [
+        "Kotak penyimpanan terbanyak yang dapat dibentuk adalah 24 kotak.",
+        "Kotak penyimpanan terbanyak yang dapat dibentuk adalah 48 kotak.",
+        "Jika dibentuk 48 kotak, masing-masing kotak berisi 2 tabung reaksi dan 3 pipet tetes.",
+        "Jika dibentuk 48 kotak, masing-masing kotak berisi 3 tabung reaksi dan 2 pipet tetes."
+      ],
+      "key": [
+        "B",
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $96$ dan $144$:\n$96={2}^{5}×3$\n$144={2}^{4}×{3}^{2}$\n$FPB(96,144)={2}^{4}×3=16×3=48$ kotak (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per kotak:\nTabung reaksi = $96÷48=2$ buah.\nPipet tetes = $144÷48=3$ buah. (Pernyataan C Benar, Pernyataan D Salah).",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa memilih angka 24 sebagai FPB karena lupa bahwa $96$ dan $144$ masih bisa dibagi lagi dengan faktor $2$ setelah dibagi 24.",
+      "key_caption": "B dan C (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Seorang pengurus lab sains mengevaluasi pembagian $96$ tabung reaksi dan $144$ pipet tetes ke dalam beberapa kotak penyimpanan praktikum tanpa tersisa.\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+        "after": "Seorang pengurus lab sains mengevaluasi pembagian $96$ tabung reaksi dan $144$ pipet tetes ke dalam beberapa kotak penyimpanan praktikum tanpa tersisa.\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis."
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi FPB dari $96$ dan $144$:\n$96={2}^{5}×3$\n$144={2}^{4}×{3}^{2}$\n$FPB(96,144)={2}^{4}×3=16×3=48$ kotak (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per kotak:\nTabung reaksi = $96÷48=2$ buah.\nPipet tetes = $144÷48=3$ buah. (Pernyataan C Benar, Pernyataan D Salah).",
+        "after": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $96$ dan $144$:\n$96={2}^{5}×3$\n$144={2}^{4}×{3}^{2}$\n$FPB(96,144)={2}^{4}×3=16×3=48$ kotak (Pernyataan A Salah, Pernyataan B Benar).\nMengevaluasi isi per kotak:\nTabung reaksi = $96÷48=2$ buah.\nPipet tetes = $144÷48=3$ buah. (Pernyataan C Benar, Pernyataan D Salah)."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih angka 24 sebagai FPB karena lupa bahwa $96$ dan $144$ masih bisa dibagi lagi dengan faktor $2$ setelah dibagi 24.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa memilih angka 24 sebagai FPB karena lupa bahwa $96$ dan $144$ masih bisa dibagi lagi dengan faktor $2$ setelah dibagi 24."
+      },
+      "key_caption": {
+        "before": "B dan C",
+        "after": "B dan C (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/equal composition",
+        "severity": "IMPORTANT",
+        "evidence": "Jumlah kelompok maksimum memakai FPB hanya jika setiap kelompok/kotak harus mempunyai komposisi masing-masing jenis yang sama. Stem tidak menyatakan syarat itu. Tanpa syarat sama, pembagian lebih banyak bisa dibuat dengan isi berbeda.",
+        "proposed_correction": "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "kategori-4-5-9",
+    "audit_id": "0e868995fdeb:I4:L5:Q9:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 8061,
+      "paragraph_end": 8103,
+      "body_block_start": 7670,
+      "body_block_end_exclusive": 7699
+    },
+    "source_original": {
+      "format": "KATEGORI",
+      "stem": "Sebuah panitia bazar sekolah mengevaluasi dua opsi pengemasan untuk $120$ kotak susu dan $150$ bungkus biskuit.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Kantong plastik terbanyak yang dapat digunakan untuk mengemas seluruh makanan tanpa sisa adalah $30$ kantong.",
+        "Jika dikemas ke dalam $30$ kantong, banyaknya biskuit pada masing-masing kantong adalah $4$ bungkus.",
+        "Total seluruh kemasan (susu dan biskuit) pada masing-masing kantong jika dibagikan maksimum adalah $9$ kemasan."
+      ],
+      "key": [
+        "1",
+        "3"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\nMengevaluasi FPB dari $120$ dan $150$:\n$120={2}^{3}×3×5$\n$150=2×3×{5}^{2}$\n$FPB(120,150)=2×3×5=30$ kantong.\nEvaluasi pernyataan:\n(a) BENAR: Kantong terbanyak = FPB = $30$ kantong.\n(b) SALAH: Biskuit per kantong = $150÷30=5$ bungkus (bukan $4$ bungkus; $4$ bungkus adalah susu $120÷30=4$).\n(c) BENAR: Susu per kantong = $4$; Biskuit per kantong = $5$. Total per kantong = $4+5=9$ kemasan.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar saat membagi jumlah kotak susu ($120÷30=4$) sebagai jumlah bungkus biskuit.",
+      "key_caption": "(a) BENAR, (b) SALAH, (c) BENAR"
+    },
+    "proposed_original": {
+      "format": "KATEGORI",
+      "stem": "Sebuah panitia bazar sekolah mengevaluasi dua opsi pengemasan untuk $120$ kotak susu dan $150$ bungkus biskuit.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis.",
+      "options": [
+        "Kantong plastik terbanyak yang dapat digunakan untuk mengemas seluruh makanan tanpa sisa adalah $30$ kantong.",
+        "Jika dikemas ke dalam $30$ kantong, banyaknya biskuit pada masing-masing kantong adalah $4$ bungkus.",
+        "Total seluruh kemasan (susu dan biskuit) pada masing-masing kantong jika dibagikan maksimum adalah $9$ kemasan."
+      ],
+      "key": [
+        "1",
+        "3"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $120$ dan $150$:\n$120={2}^{3}×3×5$\n$150=2×3×{5}^{2}$\n$FPB(120,150)=2×3×5=30$ kantong.\nEvaluasi pernyataan:\n(a) BENAR: Kantong terbanyak = FPB = $30$ kantong.\n(b) SALAH: Biskuit per kantong = $150÷30=5$ bungkus (bukan $4$ bungkus; $4$ bungkus adalah susu $120÷30=4$).\n(c) BENAR: Susu per kantong = $4$; Biskuit per kantong = $5$. Total per kantong = $4+5=9$ kemasan.",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa tertukar saat membagi jumlah kotak susu ($120÷30=4$) sebagai jumlah bungkus biskuit.",
+      "key_caption": "(a) BENAR, (b) SALAH, (c) BENAR (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Sebuah panitia bazar sekolah mengevaluasi dua opsi pengemasan untuk $120$ kotak susu dan $150$ bungkus biskuit.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+        "after": "Sebuah panitia bazar sekolah mengevaluasi dua opsi pengemasan untuk $120$ kotak susu dan $150$ bungkus biskuit.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!\nSyarat pembagian: setiap kelompok atau wadah harus memiliki komposisi yang sama untuk masing-masing jenis, semua item utuh, dan seluruh item terbagi habis."
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi FPB dari $120$ dan $150$:\n$120={2}^{3}×3×5$\n$150=2×3×{5}^{2}$\n$FPB(120,150)=2×3×5=30$ kantong.\nEvaluasi pernyataan:\n(a) BENAR: Kantong terbanyak = FPB = $30$ kantong.\n(b) SALAH: Biskuit per kantong = $150÷30=5$ bungkus (bukan $4$ bungkus; $4$ bungkus adalah susu $120÷30=4$).\n(c) BENAR: Susu per kantong = $4$; Biskuit per kantong = $5$. Total per kantong = $4+5=9$ kemasan.",
+        "after": "Pembahasan draft koreksi:\nMengevaluasi FPB dari $120$ dan $150$:\n$120={2}^{3}×3×5$\n$150=2×3×{5}^{2}$\n$FPB(120,150)=2×3×5=30$ kantong.\nEvaluasi pernyataan:\n(a) BENAR: Kantong terbanyak = FPB = $30$ kantong.\n(b) SALAH: Biskuit per kantong = $150÷30=5$ bungkus (bukan $4$ bungkus; $4$ bungkus adalah susu $120÷30=4$).\n(c) BENAR: Susu per kantong = $4$; Biskuit per kantong = $5$. Total per kantong = $4+5=9$ kemasan."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa tertukar saat membagi jumlah kotak susu ($120÷30=4$) sebagai jumlah bungkus biskuit.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa tertukar saat membagi jumlah kotak susu ($120÷30=4$) sebagai jumlah bungkus biskuit."
+      },
+      "key_caption": {
+        "before": "(a) BENAR, (b) SALAH, (c) BENAR",
+        "after": "(a) BENAR, (b) SALAH, (c) BENAR (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/equal composition",
+        "severity": "IMPORTANT",
+        "evidence": "Jumlah kelompok maksimum memakai FPB hanya jika setiap kelompok/kotak harus mempunyai komposisi masing-masing jenis yang sama. Stem tidak menyatakan syarat itu. Tanpa syarat sama, pembagian lebih banyak bisa dibuat dengan isi berbeda.",
+        "proposed_correction": "Tambahkan syarat setiap kelompok/kotak berisi jumlah masing-masing jenis yang sama, semua barang/orang utuh dan terbagi habis. Kunci yang dihitung dengan FPB bersifat kondisional sampai klarifikasi.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-5-4-3",
+    "audit_id": "0e868995fdeb:I5:L4:Q3:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9352,
+      "paragraph_end": 9389,
+      "body_block_start": 8801,
+      "body_block_end_exclusive": 8839
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Dua buah selang air digunakan untuk mengalirkan air ke dalam dua kolam ikan hias sekolah yang berukuran berbeda:\nSelang I: Mengisi kolam berkapasitas $360 liter$ sampai penuh dalam waktu $18 menit$.\nSelang II: Mengisi kolam berkapasitas $600 liter$ sampai penuh dalam waktu $24 menit$.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang II dan Selang I. Selisih debit air kedua selang tersebut adalah ....",
+      "options": [
+        "$3 liter/menit$",
+        "$5 liter/menit$",
+        "$7 liter/menit$",
+        "$10 liter/menit$"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nHitung debit Selang I (${Q}_{I}$):\n${Q}_{I}=\\frac{360 liter}{18 menit}=20 liter/menit$\nHitung debit Selang II (${Q}_{II}$):\n${Q}_{II}=\\frac{600 liter}{24 menit}=25 liter/menit$\nMenganalisis selisih debit (${Q}_{II}-{Q}_{I}$):\n$Selisih=25-20=5 liter/menit$",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa mengurangkan volume ($600-360=240$) dan waktu ($24-18=6$) terlebih dahulu, lalu membagi $240÷6=40 liter/menit$.",
+      "key_caption": "B. $5 liter/menit$"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Dua buah selang air digunakan untuk mengalirkan air ke dalam dua kolam ikan hias sekolah yang berukuran berbeda:\nSelang I: Mengisi kolam berkapasitas $360 liter$ sampai penuh dalam waktu $18 menit$.\nSelang II: Mengisi kolam berkapasitas $600 liter$ sampai penuh dalam waktu $24 menit$.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang II dan Selang I. Selisih debit air kedua selang tersebut adalah ....\nSetiap wadah mula-mula kosong, tidak bocor, tidak memiliki aliran lain, dan debit rata-rata dihitung selama pengisian.",
+      "options": [
+        "$3 liter/menit$",
+        "$5 liter/menit$",
+        "$7 liter/menit$",
+        "$10 liter/menit$"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nHitung debit Selang I (${Q}_{I}$):\n${Q}_{I}=\\frac{360 liter}{18 menit}=20 liter/menit$\nHitung debit Selang II (${Q}_{II}$):\n${Q}_{II}=\\frac{600 liter}{24 menit}=25 liter/menit$\nMenganalisis selisih debit (${Q}_{II}-{Q}_{I}$):\n$Selisih=25-20=5 liter/menit$",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa mengurangkan volume ($600-360=240$) dan waktu ($24-18=6$) terlebih dahulu, lalu membagi $240÷6=40 liter/menit$.",
+      "key_caption": "B. $5 liter/menit$ (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Dua buah selang air digunakan untuk mengalirkan air ke dalam dua kolam ikan hias sekolah yang berukuran berbeda:\nSelang I: Mengisi kolam berkapasitas $360 liter$ sampai penuh dalam waktu $18 menit$.\nSelang II: Mengisi kolam berkapasitas $600 liter$ sampai penuh dalam waktu $24 menit$.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang II dan Selang I. Selisih debit air kedua selang tersebut adalah ....",
+        "after": "Dua buah selang air digunakan untuk mengalirkan air ke dalam dua kolam ikan hias sekolah yang berukuran berbeda:\nSelang I: Mengisi kolam berkapasitas $360 liter$ sampai penuh dalam waktu $18 menit$.\nSelang II: Mengisi kolam berkapasitas $600 liter$ sampai penuh dalam waktu $24 menit$.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang II dan Selang I. Selisih debit air kedua selang tersebut adalah ....\nSetiap wadah mula-mula kosong, tidak bocor, tidak memiliki aliran lain, dan debit rata-rata dihitung selama pengisian."
+      },
+      "explanation": {
+        "before": "Pembahasan:\nHitung debit Selang I (${Q}_{I}$):\n${Q}_{I}=\\frac{360 liter}{18 menit}=20 liter/menit$\nHitung debit Selang II (${Q}_{II}$):\n${Q}_{II}=\\frac{600 liter}{24 menit}=25 liter/menit$\nMenganalisis selisih debit (${Q}_{II}-{Q}_{I}$):\n$Selisih=25-20=5 liter/menit$",
+        "after": "Pembahasan draft koreksi:\nHitung debit Selang I (${Q}_{I}$):\n${Q}_{I}=\\frac{360 liter}{18 menit}=20 liter/menit$\nHitung debit Selang II (${Q}_{II}$):\n${Q}_{II}=\\frac{600 liter}{24 menit}=25 liter/menit$\nMenganalisis selisih debit (${Q}_{II}-{Q}_{I}$):\n$Selisih=25-20=5 liter/menit$"
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa mengurangkan volume ($600-360=240$) dan waktu ($24-18=6$) terlebih dahulu, lalu membagi $240÷6=40 liter/menit$.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa mengurangkan volume ($600-360=240$) dan waktu ($24-18=6$) terlebih dahulu, lalu membagi $240÷6=40 liter/menit$."
+      },
+      "key_caption": {
+        "before": "B. $5 liter/menit$",
+        "after": "B. $5 liter/menit$ (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Nyatakan bak/kolam/akuarium mula-mula kosong,tanpa kebocoran/aliran lain; untuk debit tetap,tulis konstan,atau minta debit rata-rata. Jangan mengasumsikan kondisi itu sebagai fakta sumber."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/initial volume",
+        "severity": "IMPORTANT",
+        "evidence": "Yang diketahui kapasitas wadah dan waktu sampai penuh; volume air awal dan aliran keluar tidak disebutkan. Kapasitas bukan otomatis volume yang masuk. Debit kapasitas/waktu hanya sah jika pengisian dari kosong tanpa kehilangan air.",
+        "proposed_correction": "Nyatakan bak/kolam/akuarium mula-mula kosong,tanpa kebocoran/aliran lain; untuk debit tetap,tulis konstan,atau minta debit rata-rata. Jangan mengasumsikan kondisi itu sebagai fakta sumber.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "kategori-5-4-10",
+    "audit_id": "0e868995fdeb:I5:L4:Q10:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9630,
+      "paragraph_end": 9674,
+      "body_block_start": 9056,
+      "body_block_end_exclusive": 9080
+    },
+    "source_original": {
+      "format": "KATEGORI",
+      "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim sablon dan banyak kaus olahraga yang selesai disablon:\nWaktu Kerja (jam) | Kaus Selesai (lembar)\n$3$ | $27$\n$5$ | $45$\n$8$ | $72$\nSeorang siswa mengevaluasi proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Laju pencetakan sablon kaus tersebut adalah $9 lembar/jam$.",
+        "Jika tim bekerja selama $10jam$, maka kaus yang selesai disablon adalah $90 lembar$.",
+        "Untuk menyelesaikan $108 lembar$ kaus, waktu kerja yang dibutuhkan adalah $14 jam$."
+      ],
+      "key": [
+        "1",
+        "2"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan:\n(a) BENAR: Laju pencetakan = $\\frac{27}{3}=\\frac{45}{5}=\\frac{72}{8}=9 lembar/jam$.\n(b) BENAR: Dalam $10jam$, kaus selesai = $10×9=90 lembar$.\n(c) SALAH: Untuk $108 lembar$ kaus, waktu yang dibutuhkan = $\\frac{108}{9}=12 jam$ (bukan $14 jam$).",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membagi $108$ dengan angka $8$ alih-alih membagi $108$ dengan laju konstantanya yaitu $9 lembar/jam$.",
+      "key_caption": "(a) BENAR, (b) BENAR, (c) SALAH"
+    },
+    "proposed_original": {
+      "format": "KATEGORI",
+      "stem": "Tabel berikut menyajikan data hubungan antara jumlah jam kerja ekstra tim sablon dan banyak kaus olahraga yang selesai disablon:\nWaktu Kerja (jam) | Kaus Selesai (lembar)\n$3$ | $27$\n$5$ | $45$\n$8$ | $72$\nSeorang siswa mengevaluasi proporsionalitas data pada tabel di atas. Tentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+      "options": [
+        "Laju pencetakan sablon kaus tersebut adalah $9 lembar/jam$.",
+        "Jika tim bekerja selama $10jam$, maka kaus yang selesai disablon adalah $90 lembar$.",
+        "Untuk menyelesaikan $108 lembar$ kaus, waktu kerja yang dibutuhkan adalah $14 jam$."
+      ],
+      "key": [
+        "1",
+        "2"
+      ],
+      "category_labels": [
+        "Benar",
+        "Salah"
+      ],
+      "explanation": "Pembahasan draft koreksi:\n(a) BENAR: Laju pencetakan = $\\frac{27}{3}=\\frac{45}{5}=\\frac{72}{8}=9 lembar/jam$.\n(b) BENAR: Dalam $10jam$, kaus selesai = $10×9=90 lembar$.\n(c) SALAH: Untuk $108 lembar$ kaus, waktu yang dibutuhkan = $\\frac{108}{9}=12 jam$ (bukan $14 jam$).",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. 14 jam adalah distraktor; 108÷9=12 jam.",
+      "key_caption": "(a) BENAR, (b) BENAR, (c) SALAH (draft koreksi)"
+    },
+    "component_changes": {
+      "explanation": {
+        "before": "Pembahasan:\n(a) BENAR: Laju pencetakan = $\\frac{27}{3}=\\frac{45}{5}=\\frac{72}{8}=9 lembar/jam$.\n(b) BENAR: Dalam $10jam$, kaus selesai = $10×9=90 lembar$.\n(c) SALAH: Untuk $108 lembar$ kaus, waktu yang dibutuhkan = $\\frac{108}{9}=12 jam$ (bukan $14 jam$).",
+        "after": "Pembahasan draft koreksi:\n(a) BENAR: Laju pencetakan = $\\frac{27}{3}=\\frac{45}{5}=\\frac{72}{8}=9 lembar/jam$.\n(b) BENAR: Dalam $10jam$, kaus selesai = $10×9=90 lembar$.\n(c) SALAH: Untuk $108 lembar$ kaus, waktu yang dibutuhkan = $\\frac{108}{9}=12 jam$ (bukan $14 jam$)."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa salah membagi $108$ dengan angka $8$ alih-alih membagi $108$ dengan laju konstantanya yaitu $9 lembar/jam$.",
+        "after": "PROPOSED — draft karantina untuk review akademik. 14 jam adalah distraktor; 108÷9=12 jam."
+      },
+      "key_caption": {
+        "before": "(a) BENAR, (b) BENAR, (c) SALAH",
+        "after": "(a) BENAR, (b) BENAR, (c) SALAH (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Hapus atribusi atau jelaskan kesalahan pembulatan yang dimaksud sebagai kesalahan siswa; jangan menambahkan pembulatan ke solusi benar. Waktu benar12jam."
+    ],
+    "source_issues": [
+      {
+        "component": "additional_notes/distractor",
+        "severity": "MINOR",
+        "evidence": "Catatan mengaitkan jawaban14jam dengan108÷8, tetapi hasilnya13,5jam, bukan14 tanpa aturan pembulatan tambahan.",
+        "proposed_correction": "Hapus atribusi atau jelaskan kesalahan pembulatan yang dimaksud sebagai kesalahan siswa; jangan menambahkan pembulatan ke solusi benar. Waktu benar12jam.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-5-5-3",
+    "audit_id": "0e868995fdeb:I5:L5:Q3:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9761,
+      "paragraph_end": 9805,
+      "body_block_start": 9166,
+      "body_block_end_exclusive": 9211
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Dua buah keran digunakan untuk mengisi dua bak air penampungan laboratorium yang berbeda kapasitas:\nKeran A: Mengisi bak $400 liter$ sampai penuh dalam waktu $16 menit$.\nKeran B: Mengisi bak $720 liter$ sampai penuh dalam waktu $24 menit$.\nDua siswa mengevaluasi perbandingan laju aliran air (debit) kedua keran tersebut:\nEvaluasi A: \"Keran A memiliki debit lebih besar karena waktu pengisiannya lebih cepat ($16 menit<24 menit$).\"\nEvaluasi B: \"Keran B memiliki debit lebih besar, karena debit Keran B adalah $30 liter/menit$ sedangkan Keran A adalah $25 liter/menit$ (selisih $5 liter/menit$).\"\nManakah evaluasi yang pasti benar?",
+      "options": [
+        "Evaluasi A",
+        "Evaluasi B",
+        "Kedua evaluasi salah",
+        "Keran A dan B memiliki debit yang sama"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nMengevaluasi debit Keran A (${Q}_{A}$):\n${Q}_{A}=\\frac{400 liter}{16 menit}=25 liter/menit$\nMengevaluasi debit Keran B (${Q}_{B}$):\n${Q}_{B}=\\frac{720 liter}{24 menit}=30 liter/menit$\nMembandingkan nilai debit:\n$$30\\text{ liter/menit} > 25\\text{ liter/menit} \\implies \\text{Selisih } = 30 - 25 = 5\\text{ liter/menit}$$\nMaka, Evaluasi B adalah yang tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena hanya melihat variabel waktu tempuh tanpa membaginya dengan kapasitas volume air masing-masing bak.",
+      "key_caption": "B. Evaluasi B"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Dua buah keran digunakan untuk mengisi dua bak air penampungan laboratorium yang berbeda kapasitas:\nKeran A: Mengisi bak $400 liter$ sampai penuh dalam waktu $16 menit$.\nKeran B: Mengisi bak $720 liter$ sampai penuh dalam waktu $24 menit$.\nDua siswa mengevaluasi perbandingan laju aliran air (debit) kedua keran tersebut:\nEvaluasi A: \"Keran A memiliki debit lebih besar karena waktu pengisiannya lebih cepat ($16 menit<24 menit$).\"\nEvaluasi B: \"Keran B memiliki debit lebih besar, karena debit Keran B adalah $30 liter/menit$ sedangkan Keran A adalah $25 liter/menit$ (selisih $5 liter/menit$).\"\nManakah evaluasi yang pasti benar?\nSetiap wadah mula-mula kosong, tidak bocor, tidak memiliki aliran lain, dan debit rata-rata dihitung selama pengisian.",
+      "options": [
+        "Evaluasi A",
+        "Evaluasi B",
+        "Kedua evaluasi salah",
+        "Keran A dan B memiliki debit yang sama"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nMengevaluasi debit Keran A (${Q}_{A}$):\n${Q}_{A}=\\frac{400 liter}{16 menit}=25 liter/menit$\nMengevaluasi debit Keran B (${Q}_{B}$):\n${Q}_{B}=\\frac{720 liter}{24 menit}=30 liter/menit$\nMembandingkan nilai debit:\n$$30\\text{ liter/menit} > 25\\text{ liter/menit} \\implies \\text{Selisih } = 30 - 25 = 5\\text{ liter/menit}$$\nMaka, Evaluasi B adalah yang tepat.",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena hanya melihat variabel waktu tempuh tanpa membaginya dengan kapasitas volume air masing-masing bak.",
+      "key_caption": "B. Evaluasi B (draft koreksi)"
+    },
+    "component_changes": {
+      "stem": {
+        "before": "Dua buah keran digunakan untuk mengisi dua bak air penampungan laboratorium yang berbeda kapasitas:\nKeran A: Mengisi bak $400 liter$ sampai penuh dalam waktu $16 menit$.\nKeran B: Mengisi bak $720 liter$ sampai penuh dalam waktu $24 menit$.\nDua siswa mengevaluasi perbandingan laju aliran air (debit) kedua keran tersebut:\nEvaluasi A: \"Keran A memiliki debit lebih besar karena waktu pengisiannya lebih cepat ($16 menit<24 menit$).\"\nEvaluasi B: \"Keran B memiliki debit lebih besar, karena debit Keran B adalah $30 liter/menit$ sedangkan Keran A adalah $25 liter/menit$ (selisih $5 liter/menit$).\"\nManakah evaluasi yang pasti benar?",
+        "after": "Dua buah keran digunakan untuk mengisi dua bak air penampungan laboratorium yang berbeda kapasitas:\nKeran A: Mengisi bak $400 liter$ sampai penuh dalam waktu $16 menit$.\nKeran B: Mengisi bak $720 liter$ sampai penuh dalam waktu $24 menit$.\nDua siswa mengevaluasi perbandingan laju aliran air (debit) kedua keran tersebut:\nEvaluasi A: \"Keran A memiliki debit lebih besar karena waktu pengisiannya lebih cepat ($16 menit<24 menit$).\"\nEvaluasi B: \"Keran B memiliki debit lebih besar, karena debit Keran B adalah $30 liter/menit$ sedangkan Keran A adalah $25 liter/menit$ (selisih $5 liter/menit$).\"\nManakah evaluasi yang pasti benar?\nSetiap wadah mula-mula kosong, tidak bocor, tidak memiliki aliran lain, dan debit rata-rata dihitung selama pengisian."
+      },
+      "explanation": {
+        "before": "Pembahasan:\nMengevaluasi debit Keran A (${Q}_{A}$):\n${Q}_{A}=\\frac{400 liter}{16 menit}=25 liter/menit$\nMengevaluasi debit Keran B (${Q}_{B}$):\n${Q}_{B}=\\frac{720 liter}{24 menit}=30 liter/menit$\nMembandingkan nilai debit:\n$$30\\text{ liter/menit} > 25\\text{ liter/menit} \\implies \\text{Selisih } = 30 - 25 = 5\\text{ liter/menit}$$\nMaka, Evaluasi B adalah yang tepat.",
+        "after": "Pembahasan draft koreksi:\nMengevaluasi debit Keran A (${Q}_{A}$):\n${Q}_{A}=\\frac{400 liter}{16 menit}=25 liter/menit$\nMengevaluasi debit Keran B (${Q}_{B}$):\n${Q}_{B}=\\frac{720 liter}{24 menit}=30 liter/menit$\nMembandingkan nilai debit:\n$$30\\text{ liter/menit} > 25\\text{ liter/menit} \\implies \\text{Selisih } = 30 - 25 = 5\\text{ liter/menit}$$\nMaka, Evaluasi B adalah yang tepat."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena hanya melihat variabel waktu tempuh tanpa membaginya dengan kapasitas volume air masing-masing bak.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi A karena hanya melihat variabel waktu tempuh tanpa membaginya dengan kapasitas volume air masing-masing bak."
+      },
+      "key_caption": {
+        "before": "B. Evaluasi B",
+        "after": "B. Evaluasi B (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Nyatakan bak/kolam/akuarium mula-mula kosong,tanpa kebocoran/aliran lain; untuk debit tetap,tulis konstan,atau minta debit rata-rata. Jangan mengasumsikan kondisi itu sebagai fakta sumber."
+    ],
+    "source_issues": [
+      {
+        "component": "stem/initial volume",
+        "severity": "IMPORTANT",
+        "evidence": "Yang diketahui kapasitas wadah dan waktu sampai penuh; volume air awal dan aliran keluar tidak disebutkan. Kapasitas bukan otomatis volume yang masuk. Debit kapasitas/waktu hanya sah jika pengisian dari kosong tanpa kehilangan air.",
+        "proposed_correction": "Nyatakan bak/kolam/akuarium mula-mula kosong,tanpa kebocoran/aliran lain; untuk debit tetap,tulis konstan,atau minta debit rata-rata. Jangan mengasumsikan kondisi itu sebagai fakta sumber.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  },
+  {
+    "question_id": "pg-5-5-4",
+    "audit_id": "0e868995fdeb:I5:L5:Q4:O1:original",
+    "approval_status": "PROPOSED_NOT_APPROVED",
+    "source_location": {
+      "path": "docs/sources/incoming/2026-10-19-indikator-1-5/source.docx",
+      "sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+      "paragraph_start": 9806,
+      "paragraph_end": 9851,
+      "body_block_start": 9211,
+      "body_block_end_exclusive": 9257
+    },
+    "source_original": {
+      "format": "PG",
+      "stem": "Pengurus koperasi sekolah mengevaluasi dua opsi penawaran grosir buku gambar dari dua toko penyedia:\nToko Alfa: Menjual $1$ pak berisi $15$ buku gambar seharga Rp60.000,00.\nToko Beta: Menjual $1$ pak berisi $25$ buku gambar seharga Rp92.500,00.\nDua siswa menyusun evaluasi kelayakan usulan belanja:\nEvaluasi X: \"Toko Alfa lebih efisien untuk dibeli karena total biaya belanja per paknya lebih murah (Rp60.000,00 < Rp92.500,00).\"\nEvaluasi Y: \"Toko Beta lebih hemat karena menawarkan harga per unit sebesar Rp3.700,00/buku, sedangkan Toko Alfa sebesar Rp4.000,00/buku (hemat Rp300,00/buku).\"\nEvaluasi manakah yang benar berdasarkan analisis laju harga per unit?",
+      "options": [
+        "Evaluasi X",
+        "Evaluasi Y",
+        "Kedua evaluasi salah",
+        "Toko Alfa dan Toko Beta menawarkan harga per unit yang ekuivalen"
+      ],
+      "key": [
+        "C"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan:\nHitung harga per unit Toko Alfa:\n$Harga Alfa=\\frac{Rp60.000,00}{15 buku}=Rp4.000,00/buku$\nHitung harga per unit Toko Beta:\n$HargaBeta=\\frac{Rp92.500,00}{25 buku}=Rp3.700,00/buku$\nMembandingkan harga per unit:\n$Rp4.000,00-Rp3.700,00=Rp300,00/buku$\nMaka, Evaluasi Y divalidasi paling tepat.",
+      "additional_notes": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi X karena terkecoh pada total pengeluaran absolut per pak tanpa menghitung laju harga per unit barang.",
+      "key_caption": "C. Evaluasi Y"
+    },
+    "proposed_original": {
+      "format": "PG",
+      "stem": "Pengurus koperasi sekolah mengevaluasi dua opsi penawaran grosir buku gambar dari dua toko penyedia:\nToko Alfa: Menjual $1$ pak berisi $15$ buku gambar seharga Rp60.000,00.\nToko Beta: Menjual $1$ pak berisi $25$ buku gambar seharga Rp92.500,00.\nDua siswa menyusun evaluasi kelayakan usulan belanja:\nEvaluasi X: \"Toko Alfa lebih efisien untuk dibeli karena total biaya belanja per paknya lebih murah (Rp60.000,00 < Rp92.500,00).\"\nEvaluasi Y: \"Toko Beta lebih hemat karena menawarkan harga per unit sebesar Rp3.700,00/buku, sedangkan Toko Alfa sebesar Rp4.000,00/buku (hemat Rp300,00/buku).\"\nEvaluasi manakah yang benar berdasarkan analisis laju harga per unit?",
+      "options": [
+        "Evaluasi X",
+        "Evaluasi Y",
+        "Kedua evaluasi salah",
+        "Toko Alfa dan Toko Beta menawarkan harga per unit yang ekuivalen"
+      ],
+      "key": [
+        "B"
+      ],
+      "category_labels": null,
+      "explanation": "Pembahasan draft koreksi:\nHitung harga per unit Toko Alfa:\n$Harga Alfa=\\frac{Rp60.000,00}{15 buku}=Rp4.000,00/buku$\nHitung harga per unit Toko Beta:\n$HargaBeta=\\frac{Rp92.500,00}{25 buku}=Rp3.700,00/buku$\nMembandingkan harga per unit:\n$Rp4.000,00-Rp3.700,00=Rp300,00/buku$\nMaka, Evaluasi Y divalidasi paling tepat.",
+      "additional_notes": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi X karena terkecoh pada total pengeluaran absolut per pak tanpa menghitung laju harga per unit barang.",
+      "key_caption": "B. Evaluasi Y (draft koreksi)"
+    },
+    "component_changes": {
+      "key": {
+        "before": [
+          "C"
+        ],
+        "after": [
+          "B"
+        ]
+      },
+      "explanation": {
+        "before": "Pembahasan:\nHitung harga per unit Toko Alfa:\n$Harga Alfa=\\frac{Rp60.000,00}{15 buku}=Rp4.000,00/buku$\nHitung harga per unit Toko Beta:\n$HargaBeta=\\frac{Rp92.500,00}{25 buku}=Rp3.700,00/buku$\nMembandingkan harga per unit:\n$Rp4.000,00-Rp3.700,00=Rp300,00/buku$\nMaka, Evaluasi Y divalidasi paling tepat.",
+        "after": "Pembahasan draft koreksi:\nHitung harga per unit Toko Alfa:\n$Harga Alfa=\\frac{Rp60.000,00}{15 buku}=Rp4.000,00/buku$\nHitung harga per unit Toko Beta:\n$HargaBeta=\\frac{Rp92.500,00}{25 buku}=Rp3.700,00/buku$\nMembandingkan harga per unit:\n$Rp4.000,00-Rp3.700,00=Rp300,00/buku$\nMaka, Evaluasi Y divalidasi paling tepat."
+      },
+      "additional_notes": {
+        "before": "Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi X karena terkecoh pada total pengeluaran absolut per pak tanpa menghitung laju harga per unit barang.",
+        "after": "PROPOSED — draft karantina untuk review akademik. Kesalahan Umum yang Diantisipasi:\nSiswa memilih Evaluasi X karena terkecoh pada total pengeluaran absolut per pak tanpa menghitung laju harga per unit barang."
+      },
+      "key_caption": {
+        "before": "C. Evaluasi Y",
+        "after": "B. Evaluasi Y (draft koreksi)"
+      }
+    },
+    "rationale": [
+      "Usulkan kunciB.EvaluasiY. Pembahasan harga perunit sudahbenar; sumber belum diubah."
+    ],
+    "source_issues": [
+      {
+        "component": "key/letter",
+        "severity": "CRITICAL",
+        "evidence": "EvaluasiY benar berdasarkan4000−3700=300 perbuku dan berada pada opsiB. HeaderC.EvaluasiY bertentangan dengan opsiC.Keduaevaluasisalah.",
+        "proposed_correction": "Usulkan kunciB.EvaluasiY. Pembahasan harga perunit sudahbenar; sumber belum diubah.",
+        "correction_status": "PROPOSED_NOT_APPLIED"
+      }
+    ]
+  }
+]

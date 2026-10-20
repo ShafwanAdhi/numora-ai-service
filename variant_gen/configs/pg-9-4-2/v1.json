@@ -1,0 +1,115 @@
+{
+  "question_id": "pg-9-4-2",
+  "config_version": 1,
+  "original_hash": "6b9ec8e8558d0dcf",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "m": {
+      "gen": "derived",
+      "expr": "'{m}' if k == 0 else 'm'"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'190.000,00' if k == 0 else (190000+7000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'220.000,00' if k == 0 else (220000+9000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'10.000,00' if k == 0 else (10000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'15.000,00' if k == 0 else (15000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'20.000,00' if k == 0 else (20000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'25.000,00' if k == 0 else (25000+1000*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "190000+7000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "220000+9000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "47000+2000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "32000+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "15000+1000*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Panitia pentas seni sekolah menjual dua jenis tiket masuk: Tiket Dewasa dan Tiket Anak. Harga tiket untuk 2 dewasa dan 3 anak adalah Rp{v0}, sedangkan untuk 4 dewasa dan 1 anak adalah Rp{v1}. Seorang panitia menganalisis selisih harga antara 1 tiket dewasa dan 1 tiket anak. Hasil analisis selisih harga yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Rp{v2}",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Rp{v3}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Rp{v4}",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Rp{v5}",
+      "correct": false
+    }
+  ],
+  "explanation": "Dengan d harga dewasa dan a harga anak: 2d+3a={v6}, 4d+a={v7}. Eliminasi memberi d={v8}, a={v9}. Selisih {v10}, hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

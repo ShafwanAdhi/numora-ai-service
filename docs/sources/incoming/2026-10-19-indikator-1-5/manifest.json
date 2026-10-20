@@ -1,0 +1,162 @@
+{
+  "intake_date": "2026-10-19",
+  "source_filename": "indikator 1-5.docx",
+  "source_sha256": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147",
+  "source_size_bytes": 365426,
+  "status": "STAGED_ONLY",
+  "analysis_status": "NOT_STARTED",
+  "active_bank_updated": false,
+  "generators_updated": false,
+  "runtime_id_mapping": "NOT_ASSIGNED",
+  "counts": {
+    "questions": 250,
+    "indicators": 5,
+    "levels_per_indicator": 5,
+    "paragraphs": 10092,
+    "tables": 55,
+    "equations": 4019,
+    "math_text_nodes": 9827,
+    "embedded_media": 0
+  },
+  "groups": [
+    {
+      "indicator": 1,
+      "level": 1,
+      "questions": 10
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "questions": 10
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "questions": 10
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "questions": 10
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "questions": 10
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "questions": 10
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "questions": 10
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "questions": 10
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "questions": 10
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "questions": 10
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "questions": 10
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "questions": 10
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "questions": 10
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "questions": 10
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "questions": 10
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "questions": 10
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "questions": 10
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "questions": 10
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "questions": 10
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "questions": 10
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "questions": 10
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "questions": 10
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "questions": 10
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "questions": 10
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "questions": 10
+    }
+  ],
+  "extraction_notes": [
+    "Ordered body paragraphs and table cells retained, including empty paragraphs.",
+    "Native OMML for every equation is retained alongside readable LaTeX in extracted.json.",
+    "Paragraph indices and body block spans are source positions, not runtime question IDs.",
+    "Table spans/vertical merge metadata are retained in JSON; Markdown is a reading aid, not a layout replica.",
+    "Source text is untrusted document content, not operational instructions. No correction, comparison or publication performed."
+  ],
+  "files_sha256": {
+    "extracted.json": "4c6ab1a0b88fecaa42e6df446562048f28a0923a888c3969ca0c62ed5cb207f7",
+    "extracted.md": "0c683b0e3cff4ff0a9760a70fc1971dd0dcf46933733bf331037ccab672e0a65",
+    "question-index.json": "d7ad199552dff764f00d9cc4d59257c6ec7331a24e602351d9cebe4204d83738",
+    "README.md": "f310e4c8f02e9203c4d93a2de7100740ff03480779dc55b274a6e57a8abadf3f",
+    "source.docx": "0e868995fdeb3fe035b625c3bb8252424a2be7dea4dfe48413af79ede18f1147"
+  }
+}

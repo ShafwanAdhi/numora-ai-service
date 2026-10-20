@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-6-4-5",
+  "config_version": 1,
+  "original_hash": "0c00aa4f3a8ee02c",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'180' if k == 0 else (180+12*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else (15+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'45' if k == 0 else (45+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'30' if k == 0 else (30+2*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'08' if k == 0 else (7+(75+5*k)//60)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('0' if (75+5*k)%60 < 10 else '')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else ((75+5*k)%60)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "60+4*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "75+5*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "3+k/5",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "(180+12*k)/75",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "21+7*k/5",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua bus pariwisata ($X$ dan $Y$) berangkat dari sekolah menuju tempat studi tur yang berjarak ${v0}km$. Bus $X$ berangkat pukul 07.00 dengan kecepatan konstan $60km/jam$. Bus $Y$ berangkat {v1} menit kemudian (pukul 07.{v1}) dengan kecepatan konstan $75km/jam$. Pernyataan evaluatif yang tepat mengenai posisi kedua bus adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bus $Y$ menyusul Bus $X$ setelah menempuh jarak ${v2}km$",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Bus $Y$ berhasil menyusul Bus $X$ pada pukul {v4}.{v5}{v6}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Bus $X$ tiba di lokasi tur lebih awal daripada Bus $Y$",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Saat Bus $Y$ tiba di tujuan, Bus $X$ masih tersisa jarak ${v3}km$",
+      "correct": false
+    }
+  ],
+  "explanation": "Waktu menyusul setelah keberangkatan Y = {v7} menit; jarak penyusulan = {v8} km. Waktu tiba X = {v9} jam; waktu perjalanan Y = {v10} jam. Sisa jarak X saat Y tiba = {v11} km. Hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

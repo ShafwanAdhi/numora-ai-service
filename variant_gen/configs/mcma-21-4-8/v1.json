@@ -1,0 +1,116 @@
+{
+  "question_id": "mcma-21-4-8",
+  "config_version": 1,
+  "original_hash": "cf10e6a194443355",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'70' if k == 0 else ((70)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'75' if k == 0 else ((75)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else ((80)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'85' if k == 0 else ((85)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'90' if k == 0 else ((90)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'60' if k == 0 else ((60)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else ((100)+(-k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (80-k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' poin, median kedua kelas)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "80-k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kelas memiliki data nilai berikut.\n\nKelas A: {v0}, {v1}, {v2}, {v3}, {v4}\n\nKelas B: {v5}, {v2}, {v2}, {v2}, {v6}\n\nPernyataan yang tepat untuk mengevaluasi kedua kelompok adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kedua kelas memiliki median yang sama.{v7}{v8}{v9}",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Kelas B memiliki modus yang lebih tinggi daripada kelas A.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kelas A memiliki jangkauan lebih kecil daripada kelas B.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Kedua kelas memiliki rerata yang sama.",
+      "correct": true
+    },
+    {
+      "id": "E",
+      "text": "Kelas B pasti memiliki kemampuan seluruh siswa lebih baik karena modusnya {v2}.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v10}. Rerata dan median kedua kelas={v10}. Jangkauan A20,B40. A tidak mempunyai modus tunggal, modus B={v10}. A,C,D benar; modus tidak membuktikan seluruh kemampuan lebih baik.",
+  "shuffle": false,
+  "max_draws": 1000
+}

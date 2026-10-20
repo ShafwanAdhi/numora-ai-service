@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-6-5-1",
+  "config_version": 1,
+  "original_hash": "4e9370c7cd4193cd",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'14' if k == 0 else (14+5*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'16' if k == 0 else (16+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'18' if k == 0 else (18+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'19' if k == 0 else (19+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'21' if k == 0 else (21+6*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "60*(10+5*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "90*(10+5*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "12+6*k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "16+6*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah yayasan sosial mendistribusikan paket bantuan beras. Persediaan beras yang ada diperkirakan cukup untuk 60 keluarga selama {v0} hari. Setelah berjalan selama 4 hari, yayasan mendapat tambahan beras sebanyak 50% dari sisa persediaan beras saat itu. Pada hari yang sama, ada 15 keluarga penerima manfaat baru yang terdaftar. Evaluasi durasi total bantuan beras tersebut akan habis sejak awal pembagian adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v1} hari",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "{v2} hari",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "{v3} hari",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v4} hari",
+      "correct": false
+    }
+  ],
+  "explanation": "Sisa awal = {v5} jatah keluarga-hari. Setelah tambahan 50% = {v6}. Penerima menjadi 75 keluarga. Sisa waktu = {v7} hari; total = {v8} hari. A benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

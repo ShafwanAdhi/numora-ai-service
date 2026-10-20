@@ -1,0 +1,70 @@
+{
+  "question_id": "kategori-8-5-9",
+  "config_version": 1,
+  "original_hash": "c26a60983276421d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'140' if k == 0 else (140+3*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'26' if k == 0 else (26+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'25' if k == 0 else (25+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "25+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "140+3*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Seorang pengelola katering sekolah mengevaluasi kapasitas pengiriman makanan menggunakan sepeda motor listrik. Kotak makanan yang diangkut memiliki berat masing-masing $3kg$, dan berat pengemudi adalah $65kg$. Sepeda motor listrik tersebut memiliki daya angkut maksimum ${v0}kg$. Misalkan $x$ menyatakan banyak kotak makanan.\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Model pertidaksamaan yang tepat adalah $3x+65≤{v0}$.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Jumlah kotak makanan maksimum yang dapat diangkut adalah {v1} kotak.",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Pengiriman {v2} kotak makanan aman dilakukan dalam sekali jalan.",
+      "correct": true
+    }
+  ],
+  "explanation": "Maksimum {v3} kotak; beban pada maksimum {v4} kg. Model 3x+65≤{v4} benar. Pernyataan 1 dan 3 benar; pernyataan 2 salah.",
+  "shuffle": false,
+  "max_draws": 1000
+}

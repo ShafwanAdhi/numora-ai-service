@@ -1,0 +1,87 @@
+{
+  "question_id": "kategori-22-5-10",
+  "config_version": 1,
+  "original_hash": "3006e801c0684fbc",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'1' if k == 0 else ((1)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else ((2)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'3' if k == 0 else ((3)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else ((4)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else ((5)+(1)*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "3+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "2+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua kelompok memiliki data waktu belajar harian dalam jam.\n\nKelompok P: {v0}, {v1}, {v2}, {v3}, {v4}\n\nKelompok Q: {v1}, {v1}, {v2}, {v2}, {v4}\n\nTentukan kategori yang tepat.",
+  "options": [
+    {
+      "id": "1",
+      "text": "Rerata kelompok P lebih tinggi daripada kelompok Q.",
+      "correct": false
+    },
+    {
+      "id": "2",
+      "text": "Median kedua kelompok sama.",
+      "correct": true
+    },
+    {
+      "id": "3",
+      "text": "Jangkauan kelompok P lebih besar daripada kelompok Q.",
+      "correct": true
+    },
+    {
+      "id": "4",
+      "text": "Kelompok Q memiliki dua modus, yaitu {v1} dan {v2}.",
+      "correct": true
+    }
+  ],
+  "explanation": "Hasil = {v5}. Rerata dan median kedua kelompok={v5}. Jangkauan P4,Q3; modus Q={v6} dan{v5}. Pernyataan2,3,4 benar; rerata P tidak lebih besar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

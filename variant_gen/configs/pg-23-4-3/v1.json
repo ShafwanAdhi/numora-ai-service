@@ -1,0 +1,86 @@
+{
+  "question_id": "pg-23-4-3",
+  "config_version": 1,
+  "original_hash": "89355e479b56a9fe",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'28' if k == 0 else (28+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'0,35' if k == 0 else ((28+k)/80)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'0,28' if k == 0 else ((28+k)/100)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'35' if k == 0 else (35+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "28+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "80",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah kantong berisi bola merah, biru, dan kuning. Satu bola diambil secara acak dan dikembalikan setiap kali pengambilan. Dalam 80 percobaan, bola merah terambil {v0} kali. Kesimpulan yang tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Peluang teoretis bola merah pasti {v1}.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Frekuensi relatif bola merah adalah {v2}.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Frekuensi relatif bola merah adalah {v1}.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Peluang bola merah tidak dapat diperkirakan melalui percobaan.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Bola merah pasti terambil sebanyak {v3} kali dalam 100 percobaan berikutnya.",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v4}/{v5}. Ini frekuensi relatif empiris, bukan kepastian peluang teoretis atau jumlah kejadian percobaan berikutnya. Hanya C benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

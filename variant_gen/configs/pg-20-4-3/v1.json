@@ -1,0 +1,93 @@
+{
+  "question_id": "pg-20-4-3",
+  "config_version": 1,
+  "original_hash": "9c070a6ea192c13d",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'100' if k == 0 else (100+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'45' if k == 0 else ((45)+(k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'20' if k == 0 else ((20)+(k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'15' if k == 0 else ((15)+(k))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (100+4*k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' siswa, total responden)')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "100+4*k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sekolah melakukan survei terhadap {v0} siswa mengenai transportasi yang digunakan untuk berangkat ke sekolah.\n\n| Transportasi | Jumlah siswa |\n| --- | --- |\n| Sepeda motor | {v1} |\n| Sepeda | {v2} |\n| Jalan kaki | {v3} |\n| Angkutan umum | {v2} |\n\nPenyajian yang paling tepat untuk membandingkan jumlah siswa pada setiap kategori adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Diagram garis",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Diagram batang{v4}{v5}{v6}",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Diagram pencar",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Diagram garis waktu",
+      "correct": false
+    }
+  ],
+  "explanation": "Hasil = {v7}. Total keempat kategori={v7}. Diagram batang membandingkan jumlah antarjenis transportasi; kategori bukan urutan waktu atau pasangan dua variabel numerik.",
+  "shuffle": false,
+  "max_draws": 1000
+}

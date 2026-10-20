@@ -1,0 +1,87 @@
+{
+  "question_id": "mcma-1-5-6",
+  "config_version": 1,
+  "original_hash": "f35617752f348f89",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'25' if k == 0 else ((5+k)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'22' if k == 0 else (22+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "6+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "(5+k)**2",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "22+k",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Diberikan empat buah nilai hasil pengamatan fisik lingkungan sekolah:\n$\\left\\{-{v0};\\sqrt{{v1}};\\frac{{v2}}{7};\\sqrt{2}\\right\\}$\nManakah hasil evaluasi pernyataan berikut yang benar? (Jawaban benar dapat lebih dari satu)",
+  "options": [
+    {
+      "id": "A",
+      "text": "$-{v0}$ tergolong bilangan bulat negatif yang merupakan bagian dari bilangan rasional.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "$\\sqrt{{v1}}$ tergolong bilangan irasional karena dituliskan dalam bentuk akar.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "$\\frac{{v2}}{7}$ tergolong bilangan rasional karena berbentuk pecahan biasa $(a)/(b)$.",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "$\\sqrt{2}$ tergolong bilangan irasional karena bentuk desimalnya tak berulang dan tak berakhir ($≈1,41421...$).",
+      "correct": true
+    }
+  ],
+  "explanation": "A benar: -{v3} adalah bilangan bulat rasional. B salah: sqrt({v4}) = {v5}, bukan irasional. C benar: {v6}/7 adalah pecahan rasional. D benar: sqrt(2) irasional.",
+  "shuffle": false,
+  "max_draws": 1000
+}

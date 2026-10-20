@@ -1,0 +1,76 @@
+{
+  "question_id": "kategori-1-5-9",
+  "config_version": 1,
+  "original_hash": "db3104fce9bbe079",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'2,25' if k == 0 else (2.25*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'9' if k == 0 else (9*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'2,236' if k == 0 else (round(sqrt(5)*(k+1),3))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'5' if k == 0 else (5*(k+1)**2)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "-2.25*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "5*(k+1)**2",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Tiga buah sampel bahan masakan laboratorium diukur posisinya pada skala perubahan suhu penyajian (dalam °C):\nSampel 1: $ -{v0}$°C.\nSampel 2: $-\\frac{{v1}}{4}$°C\nSampel 3: $-\\sqrt{{v3}}$°C\nTentukan status BENAR atau SALAH untuk setiap pernyataan evaluasi berikut!",
+  "options": [
+    {
+      "id": "1",
+      "text": "Sampel 1 ($ -{v0}$°C) dan Sampel 2 ($-\\frac{{v1}}{4}$°C) berada pada titik suhu yang persis sama.",
+      "correct": true
+    },
+    {
+      "id": "2",
+      "text": "Sampel 3 ($-\\sqrt{{v3} }$ $≈ -{v2}$°C) memiliki suhu yang lebih dingin (lebih kecil) daripada Sampel 1 ($ -{v0}$°C).",
+      "correct": false
+    },
+    {
+      "id": "3",
+      "text": "Urutan sampel dari yang paling dingin ke paling hangat adalah Sampel 1, Sampel 2 (sejajar), lalu Sampel 3.",
+      "correct": true
+    }
+  ],
+  "explanation": "Sampel 1 = Sampel 2 = {v4}. Sampel 3 = -sqrt({v5}). Karena (9/4)^2 > 5 dan skala positif, Sampel 1 = Sampel 2 < Sampel 3. Pernyataan 1 dan 3 benar; 2 salah, Sampel 3 lebih hangat.",
+  "shuffle": false,
+  "max_draws": 1000
+}
