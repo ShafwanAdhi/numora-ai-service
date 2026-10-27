@@ -16,7 +16,7 @@ class Drill35(unittest.TestCase):
                 for qid in ['pg-3-1-1', 'mcma-4-1-7', 'kategori-5-1-9']:
                     for command in ['gen','gen','view']:
                         self.assertEqual(cli.main([command,qid,'s11']+args),0)
-                self.assertEqual(cli.main(['gen','pg-5-3-3','s1']+args),1)
+                self.assertEqual(cli.main(['gen','pg-5-3-3','s1']+args),0)
             self.assertFalse(path.exists())
 
     def test_workspace_registration_preserves_existing(self):

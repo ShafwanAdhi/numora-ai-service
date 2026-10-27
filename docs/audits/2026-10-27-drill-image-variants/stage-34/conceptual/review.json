@@ -1,0 +1,3205 @@
+{
+  "scenarios": 12,
+  "unique_pngs": 8,
+  "entries": [
+    {
+      "question_id": "pg-16-4-2",
+      "scenario": "original",
+      "record": {
+        "record_id": "pg-16-4-2:s0",
+        "question_id": "pg-16-4-2",
+        "seed": 0,
+        "variant_ver": null,
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "metadata": {
+          "generation_status": "DEFERRED_CONCEPTUAL",
+          "reason": "Soal konseptual memakai dua stok editorial VERIFIED yang dapat dipilih dan dipakai ulang; tidak memakai generator numerik.",
+          "generator_status": "FINITE_STOCK",
+          "source_number": 2,
+          "source_document": "docs/sources/incoming/2026-10-19-indikator-16-19/source.docx",
+          "source_document_sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+          "source_location": {
+            "path": "docs/sources/incoming/2026-10-19-indikator-16-19/source.docx",
+            "sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+            "paragraph_start": 376,
+            "paragraph_end": 379,
+            "body_block_start": 266,
+            "body_block_end_exclusive": 270
+          },
+          "source_text": "Soal 2 (Bentuk Soal: PG)\n Level Kognitif: (C5 Mengevaluasi)\n Kunci Jawaban: C. Jaring-jaring C\n Perhatikan empat gambar jaring-jaring bangun ruang di bawah ini!\n\n\n![Source image rId8](media/image10.png)\n\n\nBerdasarkan analisis Anda, jaring-jaring manakah yang TIDAK DAPAT dilipat menjadi sebuah bangun ruang yang utuh dan tertutup?\nA. Jaring-jaring A\nB. Jaring-jaring B\nC. Jaring-jaring C\nD. Jaring-jaring D\nPembahasan:\nJaring-jaring C merupakan jaring-jaring limas segi empat, namun memiliki 5 buah segitiga sebagai sisi tegak. Limas segi empat hanya membutuhkan 4 buah sisi tegak yang menempel pada 4 sisi persegi alasnya. Jika dilipat, satu sisi tegak akan tumpang tindih (tidak valid).\n\n",
+          "source_projection": {
+            "format": "PG",
+            "stem": "Perhatikan empat gambar jaring-jaring bangun ruang di bawah ini!\n![Source image rId8](media/image10.png)\nBerdasarkan analisis Anda, jaring-jaring manakah yang TIDAK DAPAT dilipat menjadi sebuah bangun ruang yang utuh dan tertutup?",
+            "options": [
+              "Jaring-jaring A",
+              "Jaring-jaring B",
+              "Jaring-jaring C",
+              "Jaring-jaring D"
+            ],
+            "key": [
+              "C"
+            ],
+            "explanation": "Pembahasan:\nJaring-jaring C merupakan jaring-jaring limas segi empat, namun memiliki 5 buah segitiga sebagai sisi tegak. Limas segi empat hanya membutuhkan 4 buah sisi tegak yang menempel pada 4 sisi persegi alasnya. Jika dilipat, satu sisi tegak akan tumpang tindih (tidak valid).",
+            "additional_notes": "",
+            "category_labels": null
+          },
+          "original_explanation": "Pembahasan:\nJaring-jaring C merupakan jaring-jaring limas segi empat, namun memiliki 5 buah segitiga sebagai sisi tegak. Limas segi empat hanya membutuhkan 4 buah sisi tegak yang menempel pada 4 sisi persegi alasnya. Jika dilipat, satu sisi tegak akan tumpang tindih (tidak valid).",
+          "source_additional_notes": "",
+          "source_media": [
+            {
+              "path": "docs/sources/incoming/2026-10-19-indikator-16-19/media/image10.png",
+              "sha256": "fd3ebfc3d7b0690bdd5c8b0c4cd43622ce9d848b3958284547ebc5225651435c"
+            }
+          ],
+          "approval_status": "NOT_CURRICULUM_APPROVED",
+          "self_adjustment_enabled": false,
+          "source_review": {
+            "date": "2026-10-21",
+            "audit_id": "8182d606d4a2:I16:L4:Q2:O1:original",
+            "issues": [],
+            "independent_reasoning": "Gambar C mempunyai persegi dan lima segitiga; limas segiempat hanya empat sisi tegak. A empat segitiga, B prisma segitiga, D kerucut.",
+            "original_unchanged": true
+          },
+          "batch": "2026-10-21-indicators16-19-level45-source-only"
+        },
+        "config_ver": null,
+        "draws_used": null,
+        "format": "PG",
+        "cognitive_level": "C5",
+        "values_used": {},
+        "stem": "Perhatikan empat gambar jaring-jaring bangun ruang di bawah ini!\n![Source image rId8](media/image10.png)\nBerdasarkan analisis Anda, jaring-jaring manakah yang TIDAK DAPAT dilipat menjadi sebuah bangun ruang yang utuh dan tertutup?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jaring-jaring A"
+          },
+          {
+            "id": "B",
+            "text": "Jaring-jaring B"
+          },
+          {
+            "id": "C",
+            "text": "Jaring-jaring C"
+          },
+          {
+            "id": "D",
+            "text": "Jaring-jaring D"
+          }
+        ],
+        "key": "C",
+        "original_hash": "e4d8bfa6636c3126",
+        "original_version": 1,
+        "explanation": "Pembahasan:\nJaring-jaring C merupakan jaring-jaring limas segi empat, namun memiliki 5 buah segitiga sebagai sisi tegak. Limas segi empat hanya membutuhkan 4 buah sisi tegak yang menempel pada 4 sisi persegi alasnya. Jika dilipat, satu sisi tegak akan tumpang tindih (tidak valid)."
+      },
+      "geometry": {
+        "kind": "preserved-source",
+        "source_file": "media/image3.png",
+        "panels": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D"
+          }
+        ]
+      },
+      "image": {
+        "path": "images/pg-16-4-2-original.png",
+        "sha256": "4a1dd7406845d4174bf64a17f53bb3130bb9911c61e3ae0257ca36f177501001",
+        "alt_text": "Panel A: persegi dengan empat segitiga. B: tiga persegi panjang dan dua segitiga. C: persegi dengan lima segitiga. D: lingkaran dan juring.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "pg-16-4-2",
+          "template_version": 1,
+          "template_sha256": "9bc7d449b32296983f73f82516cfd88fc86c864b758d83fa58cd59e067b2712e",
+          "source_sha256": "fd3ebfc3d7b0690bdd5c8b0c4cd43622ce9d848b3958284547ebc5225651435c",
+          "base_sha256": "a5b77a5fefd60ce0f0612204d88d50fcdb9addfe491bb2676e31ad45d3001447",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "49b639f912598b2b769e6685b1fdba99768c52020ceac02b1771d00bc22d8ed6",
+          "png_sha256": "4a1dd7406845d4174bf64a17f53bb3130bb9911c61e3ae0257ca36f177501001",
+          "byte_length": 114363,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Panel A: persegi dengan empat segitiga. B: tiga persegi panjang dan dua segitiga. C: persegi dengan lima segitiga. D: lingkaran dan juring.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "cd2ad8cecfde73f144982794e07fe72cd6da871f8e47e20ce9651abfe861fbbe",
+          "content": {
+            "mode": "original",
+            "record_id": "pg-16-4-2:s0",
+            "record_sha256": "af2e63a79fdd29685a61b72cc97587df0af3a6a434e3dd2aef1982193e01cc52",
+            "original_version": 1,
+            "original_hash": "e4d8bfa6636c3126",
+            "original_full_sha256": "5ceb7acb92cb2ff6aa5b8274faf7cedfeb8cb79a76cdc44470266fb98d40a9d0",
+            "stock_variant_id": null,
+            "stock_version": null,
+            "stock_content_sha256": null
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "d20359e711229335db004089dc7bc6aa1a7b3f2947d373945f43a5707d037815"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "pg-16-4-2",
+      "scenario": "stock-01",
+      "record": {
+        "record_id": "pg-16-4-2:stock-01:v1",
+        "question_id": "pg-16-4-2",
+        "source_kind": "conceptual_stock",
+        "variant_id": "pg-16-4-2:stock-01",
+        "stock_index": 1,
+        "seed": null,
+        "variant_ver": 1,
+        "config_ver": null,
+        "config_hash": null,
+        "draws_used": null,
+        "values_used": {},
+        "format": "PG",
+        "cognitive_level": "C5",
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "original_hash": "e4d8bfa6636c3126",
+        "original_version": 1,
+        "stem": "Empat rancangan memiliki sambungan yang sesuai. Rancangan manakah yang kekurangan bidang sehingga tidak membentuk bangun tertutup?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Kubus: enam persegi kongruen."
+          },
+          {
+            "id": "B",
+            "text": "Prisma segitiga: dua segitiga kongruen dan tiga persegi panjang sesuai sisi alas."
+          },
+          {
+            "id": "C",
+            "text": "Limas segi empat: satu persegi dan tiga segitiga sisi tegak."
+          },
+          {
+            "id": "D",
+            "text": "Kerucut: satu lingkaran dan satu juring dengan busur sepanjang keliling alas."
+          }
+        ],
+        "key": "C",
+        "explanation": "Limas segi empat memerlukan empat segitiga sisi tegak; C hanya tiga, sehingga satu sisi terbuka. Komponen A,B,D lengkap dengan sambungan yang disyaratkan.",
+        "variation_note": "Menilai bidang yang hilang, bukan segitiga berlebih seperti sumber."
+      },
+      "geometry": {
+        "kind": "four-panels",
+        "panels": [
+          {
+            "id": "A",
+            "kind": "cube",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    178,
+                    140
+                  ],
+                  [
+                    216,
+                    140
+                  ],
+                  [
+                    216,
+                    178
+                  ],
+                  [
+                    178,
+                    178
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    140,
+                    178
+                  ],
+                  [
+                    178,
+                    178
+                  ],
+                  [
+                    178,
+                    216
+                  ],
+                  [
+                    140,
+                    216
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    178,
+                    178
+                  ],
+                  [
+                    216,
+                    178
+                  ],
+                  [
+                    216,
+                    216
+                  ],
+                  [
+                    178,
+                    216
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    216,
+                    178
+                  ],
+                  [
+                    254,
+                    178
+                  ],
+                  [
+                    254,
+                    216
+                  ],
+                  [
+                    216,
+                    216
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    254,
+                    178
+                  ],
+                  [
+                    292,
+                    178
+                  ],
+                  [
+                    292,
+                    216
+                  ],
+                  [
+                    254,
+                    216
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    178,
+                    216
+                  ],
+                  [
+                    216,
+                    216
+                  ],
+                  [
+                    216,
+                    254
+                  ],
+                  [
+                    178,
+                    254
+                  ]
+                ]
+              }
+            ],
+            "rectangle_count": 6,
+            "triangle_count": 0,
+            "circle_count": 0
+          },
+          {
+            "id": "B",
+            "kind": "prism",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    625,
+                    160
+                  ],
+                  [
+                    675,
+                    160
+                  ],
+                  [
+                    675,
+                    235
+                  ],
+                  [
+                    625,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    675,
+                    160
+                  ],
+                  [
+                    725,
+                    160
+                  ],
+                  [
+                    725,
+                    235
+                  ],
+                  [
+                    675,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    725,
+                    160
+                  ],
+                  [
+                    775,
+                    160
+                  ],
+                  [
+                    775,
+                    235
+                  ],
+                  [
+                    725,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    675,
+                    160
+                  ],
+                  [
+                    725,
+                    160
+                  ],
+                  [
+                    700,
+                    116.69872981077808
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    675,
+                    235
+                  ],
+                  [
+                    725,
+                    235
+                  ],
+                  [
+                    700,
+                    278.3012701892219
+                  ]
+                ]
+              }
+            ],
+            "rectangle_count": 3,
+            "triangle_count": 2,
+            "circle_count": 0
+          },
+          {
+            "id": "C",
+            "kind": "missing-pyramid",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    217,
+                    420
+                  ],
+                  [
+                    277,
+                    420
+                  ],
+                  [
+                    277,
+                    480
+                  ],
+                  [
+                    217,
+                    480
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    217,
+                    420
+                  ],
+                  [
+                    277,
+                    420
+                  ],
+                  [
+                    247,
+                    368
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    277,
+                    480
+                  ],
+                  [
+                    217,
+                    480
+                  ],
+                  [
+                    247,
+                    532
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    217,
+                    480
+                  ],
+                  [
+                    217,
+                    420
+                  ],
+                  [
+                    165,
+                    450
+                  ]
+                ]
+              }
+            ],
+            "rectangle_count": 1,
+            "triangle_count": 3,
+            "circle_count": 0
+          },
+          {
+            "id": "D",
+            "kind": "cone",
+            "faces": [
+              {
+                "kind": "sector",
+                "center": [
+                  655,
+                  435
+                ],
+                "radius": 70,
+                "sweep_degrees": 180
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  795,
+                  460
+                ],
+                "radius": 35
+              }
+            ],
+            "rectangle_count": 0,
+            "triangle_count": 0,
+            "circle_count": 1,
+            "arc_relation": "equal"
+          }
+        ]
+      },
+      "image": {
+        "path": "images/pg-16-4-2-stock-01.png",
+        "sha256": "5abf4054a22e11e7f34c23259b4400472f96e139e6fe2cab5da69f06c22fc57e",
+        "alt_text": "Empat panel A sampai D: A: kubus; B: prisma segitiga; C: persegi dan tiga segitiga; D: kerucut, busur = keliling alas. Gambar skematis.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "pg-16-4-2",
+          "template_version": 1,
+          "template_sha256": "48d0cf7e6000a3911d7c2e5ddfbc504eaa724a5a2856ec281cf27abf51647561",
+          "source_sha256": "fd3ebfc3d7b0690bdd5c8b0c4cd43622ce9d848b3958284547ebc5225651435c",
+          "base_sha256": "c399af69a54bf357e8cc73c9500bd59769f382080c12ade4f87ffddf66d7cecb",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "3a7700d6f7675120f643d28b0496a0a133921e03ef3d02d691414de8220c244f",
+          "png_sha256": "5abf4054a22e11e7f34c23259b4400472f96e139e6fe2cab5da69f06c22fc57e",
+          "byte_length": 46396,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Empat panel A sampai D: A: kubus; B: prisma segitiga; C: persegi dan tiga segitiga; D: kerucut, busur = keliling alas. Gambar skematis.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "02294e2a2c0b3fe1e495fce9ede0c9ee351dd114ff64a6e7c153c1bc9ac2787b",
+          "content": {
+            "mode": "stock",
+            "record_id": "pg-16-4-2:stock-01:v1",
+            "record_sha256": "c0974680a8da7734a03df308edb7959f994bf881e3a30701ee00e1fad7184ee8",
+            "original_version": 1,
+            "original_hash": "e4d8bfa6636c3126",
+            "original_full_sha256": "5ceb7acb92cb2ff6aa5b8274faf7cedfeb8cb79a76cdc44470266fb98d40a9d0",
+            "stock_variant_id": "pg-16-4-2:stock-01",
+            "stock_version": 1,
+            "stock_content_sha256": "42a87ad7fd9c06139fbbc01d238935ac94f5ddc3720c70f9ea87673c2069d03f"
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "5f0cba84bed8388c6e90a7528974613f3a4e6fd0dd8a1cbbeb3cc84f58d358f0"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "pg-16-4-2",
+      "scenario": "stock-02",
+      "record": {
+        "record_id": "pg-16-4-2:stock-02:v1",
+        "question_id": "pg-16-4-2",
+        "source_kind": "conceptual_stock",
+        "variant_id": "pg-16-4-2:stock-02",
+        "stock_index": 2,
+        "seed": null,
+        "variant_ver": 1,
+        "config_ver": null,
+        "config_hash": null,
+        "draws_used": null,
+        "values_used": {},
+        "format": "PG",
+        "cognitive_level": "C5",
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "original_hash": "e4d8bfa6636c3126",
+        "original_version": 1,
+        "stem": "Setiap rancangan mempunyai sambungan yang sesuai. Rancangan manakah yang gagal menutup karena ukuran sambungannya?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tabung: dua lingkaran kongruen dan selimut persegi panjang sepanjang keliling alas."
+          },
+          {
+            "id": "B",
+            "text": "Limas segi empat: satu persegi dan empat segitiga yang sesuai."
+          },
+          {
+            "id": "C",
+            "text": "Prisma segitiga: dua segitiga kongruen dan tiga persegi panjang sesuai sisi alas."
+          },
+          {
+            "id": "D",
+            "text": "Kerucut: lingkaran alas dan juring yang panjang busurnya lebih pendek daripada keliling alas."
+          }
+        ],
+        "key": "D",
+        "explanation": "D tidak cukup panjang untuk mengelilingi alas; selimut menyisakan celah. A,B,C sudah memenuhi jumlah bidang dan kecocokan sambungan.",
+        "variation_note": "Membedakan kecocokan ukuran dari kelengkapan jumlah bidang."
+      },
+      "geometry": {
+        "kind": "four-panels",
+        "panels": [
+          {
+            "id": "A",
+            "kind": "cylinder",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    177.6,
+                    175
+                  ],
+                  [
+                    318.4,
+                    175
+                  ],
+                  [
+                    318.4,
+                    226.2
+                  ],
+                  [
+                    177.6,
+                    226.2
+                  ]
+                ]
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  248,
+                  152.6
+                ],
+                "radius": 22.4
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  248,
+                  248.6
+                ],
+                "radius": 22.4
+              }
+            ],
+            "rectangle_count": 1,
+            "triangle_count": 0,
+            "circle_count": 2
+          },
+          {
+            "id": "B",
+            "kind": "pyramid",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    682,
+                    170
+                  ],
+                  [
+                    742,
+                    170
+                  ],
+                  [
+                    742,
+                    230
+                  ],
+                  [
+                    682,
+                    230
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    682,
+                    170
+                  ],
+                  [
+                    742,
+                    170
+                  ],
+                  [
+                    712,
+                    118
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    742,
+                    170
+                  ],
+                  [
+                    742,
+                    230
+                  ],
+                  [
+                    794,
+                    200
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    742,
+                    230
+                  ],
+                  [
+                    682,
+                    230
+                  ],
+                  [
+                    712,
+                    282
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    682,
+                    230
+                  ],
+                  [
+                    682,
+                    170
+                  ],
+                  [
+                    630,
+                    200
+                  ]
+                ]
+              }
+            ],
+            "rectangle_count": 1,
+            "triangle_count": 4,
+            "circle_count": 0
+          },
+          {
+            "id": "C",
+            "kind": "prism",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    160,
+                    410
+                  ],
+                  [
+                    210,
+                    410
+                  ],
+                  [
+                    210,
+                    485
+                  ],
+                  [
+                    160,
+                    485
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    210,
+                    410
+                  ],
+                  [
+                    260,
+                    410
+                  ],
+                  [
+                    260,
+                    485
+                  ],
+                  [
+                    210,
+                    485
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    260,
+                    410
+                  ],
+                  [
+                    310,
+                    410
+                  ],
+                  [
+                    310,
+                    485
+                  ],
+                  [
+                    260,
+                    485
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    210,
+                    410
+                  ],
+                  [
+                    260,
+                    410
+                  ],
+                  [
+                    235,
+                    366.69872981077805
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    210,
+                    485
+                  ],
+                  [
+                    260,
+                    485
+                  ],
+                  [
+                    235,
+                    528.3012701892219
+                  ]
+                ]
+              }
+            ],
+            "rectangle_count": 3,
+            "triangle_count": 2,
+            "circle_count": 0
+          },
+          {
+            "id": "D",
+            "kind": "short-cone",
+            "faces": [
+              {
+                "kind": "sector",
+                "center": [
+                  655,
+                  435
+                ],
+                "radius": 70,
+                "sweep_degrees": 90
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  795,
+                  460
+                ],
+                "radius": 35
+              }
+            ],
+            "rectangle_count": 0,
+            "triangle_count": 0,
+            "circle_count": 1,
+            "arc_relation": "shorter"
+          }
+        ]
+      },
+      "image": {
+        "path": "images/pg-16-4-2-stock-02.png",
+        "sha256": "dd0f98f44558a5eb0a343e5e9e294c1979afa105585b00c1b7173be9ddfbb800",
+        "alt_text": "Empat panel A sampai D: A: tabung, p = keliling alas; B: limas segi empat; C: prisma segitiga; D: lingkaran dan juring, busur < keliling alas. Gambar skematis.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "pg-16-4-2",
+          "template_version": 1,
+          "template_sha256": "510cd64e64708ecb40c0a11f900818306c5a649eb62721245a944eacac8339b2",
+          "source_sha256": "fd3ebfc3d7b0690bdd5c8b0c4cd43622ce9d848b3958284547ebc5225651435c",
+          "base_sha256": "91243ab920f8db36603fca6c74f2bcc0a9f48807949322b2bf7c5650a9ec5d23",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "9e4d0f72c48e777bc3c57593790044ee7bf47ecadf4cb6310546030d6de80518",
+          "png_sha256": "dd0f98f44558a5eb0a343e5e9e294c1979afa105585b00c1b7173be9ddfbb800",
+          "byte_length": 53728,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Empat panel A sampai D: A: tabung, p = keliling alas; B: limas segi empat; C: prisma segitiga; D: lingkaran dan juring, busur < keliling alas. Gambar skematis.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "13926fcce28532933358c06eae733a34ccdc6a76996b973475eee6254c97dea9",
+          "content": {
+            "mode": "stock",
+            "record_id": "pg-16-4-2:stock-02:v1",
+            "record_sha256": "1e5378ab6da0deb0528243f591da0ce4eb3794f2d6ac0478b0e48522e9d24717",
+            "original_version": 1,
+            "original_hash": "e4d8bfa6636c3126",
+            "original_full_sha256": "5ceb7acb92cb2ff6aa5b8274faf7cedfeb8cb79a76cdc44470266fb98d40a9d0",
+            "stock_variant_id": "pg-16-4-2:stock-02",
+            "stock_version": 1,
+            "stock_content_sha256": "4ea57ae9a6e304c6a90c07edc83ddae347e070f8ccbc3a3540b4cf8e282ae720"
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "8b642b20e4432b71b32b529dabf883788dbad5fdc848c59ff72b6703dadd49e0"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "mcma-16-4-6",
+      "scenario": "original",
+      "record": {
+        "record_id": "mcma-16-4-6:s0",
+        "question_id": "mcma-16-4-6",
+        "seed": 0,
+        "variant_ver": null,
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "metadata": {
+          "generation_status": "DEFERRED_CONCEPTUAL",
+          "reason": "Soal konseptual memakai dua stok editorial VERIFIED yang dapat dipilih dan dipakai ulang; tidak memakai generator numerik.",
+          "generator_status": "FINITE_STOCK",
+          "source_number": 6,
+          "source_document": "docs/sources/incoming/2026-10-19-indikator-16-19/source.docx",
+          "source_document_sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+          "source_location": {
+            "path": "docs/sources/incoming/2026-10-19-indikator-16-19/source.docx",
+            "sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+            "paragraph_start": 402,
+            "paragraph_end": 410,
+            "body_block_start": 292,
+            "body_block_end_exclusive": 301
+          },
+          "source_text": "Soal 6 (Bentuk Soal: PG MCMA)\nLevel Kognitif: (C4 Menganalisis)\nKunci: Pernyataan 1, Pernyataan 2, dan Pernyataan 4\n\nPerhatikan gambar jaring-jaring limas segitiga di bawah ini!\n\n\n![Source image rId11](media/image9.png)\n\n\nPilihlah semua pernyataan yang BENAR berdasarkan gambar di atas!\n[ ] Pernyataan 1: Jaring-jaring tersebut terdiri dari 4 buah bangun datar.\n[ ] Pernyataan 2: Bangun ruang yang terbentuk memiliki 6 buah rusuk.\n[ ] Pernyataan 3: Jaring-jaring tersebut memiliki 4 buah titik sudut.\n[ ] Pernyataan 4: Bangun ruang tersebut memiliki 5 titik sudut.\nPembahasan:\n\nPernyataan 1: Benar. Terdiri dari 1 alas segitiga dan 3 sisi tegak segitiga (total 4).\n\nPernyataan 2: Benar. Limas segitiga memiliki 3 rusuk alas dan 3 rusuk tegak (total 6).\n\nPernyataan 3: Benar. Limas segitiga hanya memiliki 4 titik sudut\n\nPernyataan 4: Salah. Limas segitiga memiliki 4 titik sudut (3 di alas + 1 di puncak).\n\n",
+          "source_projection": {
+            "format": "MCMA",
+            "stem": "Sebuah limas segitiga dibuka menjadi jaring-jaring. Pilihlah semua pernyataan yang benar mengenai jaring-jaring dan bangun ruang tersebut!",
+            "options": [
+              "Jaring-jaring bangun tersebut terdiri dari 4 buah segitiga.",
+              "Bangun ruang yang terbentuk memiliki 6 buah rusuk.",
+              "Bangun ruang tersebut memiliki 4 buah titik sudut.",
+              "Bangun ruang tersebut memiliki 5 titik sudut."
+            ],
+            "key": [
+              "A",
+              "B",
+              "C"
+            ],
+            "explanation": "Limas segitiga memiliki empat bidang segitiga, enam rusuk, dan empat titik sudut. Pernyataan A,B,C benar; D salah karena titik sudut bukan lima.",
+            "additional_notes": "",
+            "category_labels": null
+          },
+          "original_explanation": "Limas segitiga memiliki empat bidang segitiga, enam rusuk, dan empat titik sudut. Pernyataan A,B,C benar; D salah karena titik sudut bukan lima.",
+          "source_additional_notes": "",
+          "source_media": [],
+          "approval_status": "NOT_CURRICULUM_APPROVED",
+          "self_adjustment_enabled": false,
+          "source_review": {
+            "date": "2026-10-21",
+            "original_version": 1,
+            "replacement_version": 2,
+            "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: KEY_AND_MEDIA: kunci A,B,D memilih klaim lima titik sudut yang salah. Gambar image9.png menunjukkan limas utuh, bukan net. Opsi C menyebut titik sudut net, sementara pembahasan menghitung titik sudut limas; perlu perjelas sebelum menentukan kunci final.",
+            "source_document_unchanged": true,
+            "original_text_preserved": true
+          },
+          "batch": "2026-10-21-indicators16-19-level45-source-only",
+          "raw_source_explanation": "Pembahasan:\nPernyataan 1: Benar. Terdiri dari 1 alas segitiga dan 3 sisi tegak segitiga (total 4).\nPernyataan 2: Benar. Limas segitiga memiliki 3 rusuk alas dan 3 rusuk tegak (total 6).\nPernyataan 3: Benar. Limas segitiga hanya memiliki 4 titik sudut\nPernyataan 4: Salah. Limas segitiga memiliki 4 titik sudut (3 di alas + 1 di puncak).",
+          "raw_source_projection": {
+            "format": "MCMA",
+            "stem": "Perhatikan gambar jaring-jaring limas segitiga di bawah ini!\n![Source image rId11](media/image9.png)\nPilihlah semua pernyataan yang BENAR berdasarkan gambar di atas!",
+            "options": [
+              "Jaring-jaring tersebut terdiri dari 4 buah bangun datar.",
+              "Bangun ruang yang terbentuk memiliki 6 buah rusuk.",
+              "Jaring-jaring tersebut memiliki 4 buah titik sudut.",
+              "Bangun ruang tersebut memiliki 5 titik sudut."
+            ],
+            "key": [
+              "A",
+              "B",
+              "D"
+            ],
+            "explanation": "Pembahasan:\nPernyataan 1: Benar. Terdiri dari 1 alas segitiga dan 3 sisi tegak segitiga (total 4).\nPernyataan 2: Benar. Limas segitiga memiliki 3 rusuk alas dan 3 rusuk tegak (total 6).\nPernyataan 3: Benar. Limas segitiga hanya memiliki 4 titik sudut\nPernyataan 4: Salah. Limas segitiga memiliki 4 titik sudut (3 di alas + 1 di puncak).",
+            "additional_notes": "",
+            "category_labels": null
+          },
+          "raw_source_media": [
+            {
+              "path": "docs/sources/incoming/2026-10-19-indikator-16-19/media/image9.png",
+              "sha256": "264266900d97bd51919c0bfee9e5d6cd0082594c0e6654910a8343b6e8f2d90b"
+            }
+          ]
+        },
+        "config_ver": null,
+        "draws_used": null,
+        "format": "MCMA",
+        "cognitive_level": "C4",
+        "values_used": {},
+        "stem": "Sebuah limas segitiga dibuka menjadi jaring-jaring. Pilihlah semua pernyataan yang benar mengenai jaring-jaring dan bangun ruang tersebut!",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jaring-jaring bangun tersebut terdiri dari 4 buah segitiga."
+          },
+          {
+            "id": "B",
+            "text": "Bangun ruang yang terbentuk memiliki 6 buah rusuk."
+          },
+          {
+            "id": "C",
+            "text": "Bangun ruang tersebut memiliki 4 buah titik sudut."
+          },
+          {
+            "id": "D",
+            "text": "Bangun ruang tersebut memiliki 5 titik sudut."
+          }
+        ],
+        "key": "A,B,C",
+        "original_hash": "8c416bce8a4b0d01",
+        "original_version": 2,
+        "explanation": "Limas segitiga memiliki empat bidang segitiga, enam rusuk, dan empat titik sudut. Pernyataan A,B,C benar; D salah karena titik sudut bukan lima."
+      },
+      "geometry": {
+        "kind": "tetrahedron",
+        "net_faces": [
+          [
+            [
+              240,
+              190
+            ],
+            [
+              150,
+              346
+            ],
+            [
+              330,
+              346
+            ]
+          ],
+          [
+            [
+              240,
+              190
+            ],
+            [
+              150,
+              346
+            ],
+            [
+              60,
+              190
+            ]
+          ],
+          [
+            [
+              150,
+              346
+            ],
+            [
+              330,
+              346
+            ],
+            [
+              240,
+              502
+            ]
+          ],
+          [
+            [
+              330,
+              346
+            ],
+            [
+              240,
+              190
+            ],
+            [
+              420,
+              190
+            ]
+          ]
+        ],
+        "solid_vertices": [
+          [
+            700,
+            180
+          ],
+          [
+            580,
+            390
+          ],
+          [
+            700,
+            450
+          ],
+          [
+            820,
+            390
+          ]
+        ],
+        "solid_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "image": {
+        "path": "images/mcma-16-4-6-original.png",
+        "sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+        "alt_text": "Di kiri terdapat empat bidang segitiga yang tersambung sebagai jaring-jaring. Di kanan bangun terlipat dengan empat titik yang ditandai; garis putus-putus menunjukkan rusuk di belakang.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "mcma-16-4-6",
+          "template_version": 1,
+          "template_sha256": "3fee81ad6d2f10a38d7a6a189d96d63b4feb50ae1f90c25adb9b0858f4cfd02d",
+          "source_sha256": "264266900d97bd51919c0bfee9e5d6cd0082594c0e6654910a8343b6e8f2d90b",
+          "base_sha256": "6af20f4706e2c9d9effe76568648bde513cf3ba9de636fa2b7dd5dbb498c07a0",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "f13c6e265c41c8449e6b5830c862a998bb6ea907b4dab36dc35c281bd8b2b4bf",
+          "png_sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+          "byte_length": 50686,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Di kiri terdapat empat bidang segitiga yang tersambung sebagai jaring-jaring. Di kanan bangun terlipat dengan empat titik yang ditandai; garis putus-putus menunjukkan rusuk di belakang.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "e4bae719a61387400cad531c3888e40438da2ba79f3f60fc3f134dcf318942c0",
+          "content": {
+            "mode": "original",
+            "record_id": "mcma-16-4-6:s0",
+            "record_sha256": "06786f680f62e5e2bfc4e63adc9d262f7ff1c0391e8de4adefe333b43f3c0e43",
+            "original_version": 2,
+            "original_hash": "8c416bce8a4b0d01",
+            "original_full_sha256": "611e6299e63458919605f88fe5e787270592f070a81dd9300eb7651c865a4b6a",
+            "stock_variant_id": null,
+            "stock_version": null,
+            "stock_content_sha256": null
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "d6d14ab8373402cd81d601a949729d8bc00096726992845a9d725307e1851c7f"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "mcma-16-4-6",
+      "scenario": "stock-01",
+      "record": {
+        "record_id": "mcma-16-4-6:stock-01:v1",
+        "question_id": "mcma-16-4-6",
+        "source_kind": "conceptual_stock",
+        "variant_id": "mcma-16-4-6:stock-01",
+        "stock_index": 1,
+        "seed": null,
+        "variant_ver": 1,
+        "config_ver": null,
+        "config_hash": null,
+        "draws_used": null,
+        "values_used": {},
+        "format": "MCMA",
+        "cognitive_level": "C4",
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "original_hash": "8c416bce8a4b0d01",
+        "original_version": 2,
+        "stem": "Sebuah tetrahedron dibuka menjadi jaring-jaring, kemudian dilipat kembali. Pilih semua pernyataan benar tentang bangun yang sudah dilipat!",
+        "options": [
+          {
+            "id": "A",
+            "text": "Memiliki empat sisi berbentuk segitiga."
+          },
+          {
+            "id": "B",
+            "text": "Memiliki enam rusuk."
+          },
+          {
+            "id": "C",
+            "text": "Memiliki empat titik sudut."
+          },
+          {
+            "id": "D",
+            "text": "Memiliki lima titik sudut."
+          }
+        ],
+        "key": "A,B,C",
+        "explanation": "Tetrahedron: F=4,E=6,V=4 dan V-E+F=2. A,B,C benar; D salah. Titik sudut dihitung setelah dilipat, bukan pada gambar datar.",
+        "variation_note": "Memisahkan hitungan titik sudut bangun terlipat dari titik pada net."
+      },
+      "geometry": {
+        "kind": "tetrahedron",
+        "net_faces": [
+          [
+            [
+              240,
+              190
+            ],
+            [
+              150,
+              346
+            ],
+            [
+              330,
+              346
+            ]
+          ],
+          [
+            [
+              240,
+              190
+            ],
+            [
+              150,
+              346
+            ],
+            [
+              60,
+              190
+            ]
+          ],
+          [
+            [
+              150,
+              346
+            ],
+            [
+              330,
+              346
+            ],
+            [
+              240,
+              502
+            ]
+          ],
+          [
+            [
+              330,
+              346
+            ],
+            [
+              240,
+              190
+            ],
+            [
+              420,
+              190
+            ]
+          ]
+        ],
+        "solid_vertices": [
+          [
+            700,
+            180
+          ],
+          [
+            580,
+            390
+          ],
+          [
+            700,
+            450
+          ],
+          [
+            820,
+            390
+          ]
+        ],
+        "solid_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "image": {
+        "path": "images/mcma-16-4-6-stock-01.png",
+        "sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+        "alt_text": "Di kiri terdapat empat bidang segitiga yang tersambung sebagai jaring-jaring. Di kanan bangun terlipat dengan empat titik yang ditandai; garis putus-putus menunjukkan rusuk di belakang.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "mcma-16-4-6",
+          "template_version": 1,
+          "template_sha256": "6a1185c250538501d7af2d19a99be0be962285d9529beb6ae3b644e361a1ac23",
+          "source_sha256": "264266900d97bd51919c0bfee9e5d6cd0082594c0e6654910a8343b6e8f2d90b",
+          "base_sha256": "6af20f4706e2c9d9effe76568648bde513cf3ba9de636fa2b7dd5dbb498c07a0",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "c26b279977fdfa7f0c49d79c724cc5e46e4230ca1997459a0baeefbe6e1e23cf",
+          "png_sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+          "byte_length": 50686,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Di kiri terdapat empat bidang segitiga yang tersambung sebagai jaring-jaring. Di kanan bangun terlipat dengan empat titik yang ditandai; garis putus-putus menunjukkan rusuk di belakang.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "2a5b1c690211501fee86b7cded15f718722a135945b80344ab90c54e48a6f2d5",
+          "content": {
+            "mode": "stock",
+            "record_id": "mcma-16-4-6:stock-01:v1",
+            "record_sha256": "ac1c0fe76582a651b38f5ec935d1013dd761eee698c39ab888527c85c9811ea7",
+            "original_version": 2,
+            "original_hash": "8c416bce8a4b0d01",
+            "original_full_sha256": "611e6299e63458919605f88fe5e787270592f070a81dd9300eb7651c865a4b6a",
+            "stock_variant_id": "mcma-16-4-6:stock-01",
+            "stock_version": 1,
+            "stock_content_sha256": "54cd2dc16f1c0cc8d1c9fc01492debcf9412cae198ad0bd5116dc1cf16496a8d"
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "9b55f80bd3c0121032231d7719be5a2685b3889c20a66800558343e943a6e533"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "mcma-16-4-6",
+      "scenario": "stock-02",
+      "record": {
+        "record_id": "mcma-16-4-6:stock-02:v1",
+        "question_id": "mcma-16-4-6",
+        "source_kind": "conceptual_stock",
+        "variant_id": "mcma-16-4-6:stock-02",
+        "stock_index": 2,
+        "seed": null,
+        "variant_ver": 1,
+        "config_ver": null,
+        "config_hash": null,
+        "draws_used": null,
+        "values_used": {},
+        "format": "MCMA",
+        "cognitive_level": "C4",
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "original_hash": "8c416bce8a4b0d01",
+        "original_version": 2,
+        "stem": "Sebuah limas segitiga memiliki satu alas dan tiga sisi tegak. Pilih semua hasil pemeriksaan yang benar!",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jumlah seluruh bidangnya empat."
+          },
+          {
+            "id": "B",
+            "text": "Tiga rusuk alas dan tiga rusuk tegak menghasilkan enam rusuk."
+          },
+          {
+            "id": "C",
+            "text": "Tiga titik sudut alas ditambah satu puncak menghasilkan empat titik sudut."
+          },
+          {
+            "id": "D",
+            "text": "Jumlah bidang dikurangi jumlah rusuk ditambah jumlah titik sudut adalah satu."
+          }
+        ],
+        "key": "A,B,C",
+        "explanation": "A=1+3=4 bidang; B=3+3=6 rusuk; C=3+1=4 titik. Untuk D,4-6+4=2, bukan1.",
+        "variation_note": "Menyusun hitungan dari alas dan puncak serta menguji konsistensi Euler."
+      },
+      "geometry": {
+        "kind": "tetrahedron",
+        "net_faces": [
+          [
+            [
+              240,
+              190
+            ],
+            [
+              150,
+              346
+            ],
+            [
+              330,
+              346
+            ]
+          ],
+          [
+            [
+              240,
+              190
+            ],
+            [
+              150,
+              346
+            ],
+            [
+              60,
+              190
+            ]
+          ],
+          [
+            [
+              150,
+              346
+            ],
+            [
+              330,
+              346
+            ],
+            [
+              240,
+              502
+            ]
+          ],
+          [
+            [
+              330,
+              346
+            ],
+            [
+              240,
+              190
+            ],
+            [
+              420,
+              190
+            ]
+          ]
+        ],
+        "solid_vertices": [
+          [
+            700,
+            180
+          ],
+          [
+            580,
+            390
+          ],
+          [
+            700,
+            450
+          ],
+          [
+            820,
+            390
+          ]
+        ],
+        "solid_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "image": {
+        "path": "images/mcma-16-4-6-stock-02.png",
+        "sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+        "alt_text": "Di kiri terdapat empat bidang segitiga yang tersambung sebagai jaring-jaring. Di kanan bangun terlipat dengan empat titik yang ditandai; garis putus-putus menunjukkan rusuk di belakang.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "mcma-16-4-6",
+          "template_version": 1,
+          "template_sha256": "96207419090f4a02b95fe9ff64fb7dbe31b135a8ac9bd86aa030ae8886d44753",
+          "source_sha256": "264266900d97bd51919c0bfee9e5d6cd0082594c0e6654910a8343b6e8f2d90b",
+          "base_sha256": "6af20f4706e2c9d9effe76568648bde513cf3ba9de636fa2b7dd5dbb498c07a0",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "d8804747a7d07dbe1cdde05024f6970b5fe9426f4401a60d978c211a27a8422e",
+          "png_sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+          "byte_length": 50686,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Di kiri terdapat empat bidang segitiga yang tersambung sebagai jaring-jaring. Di kanan bangun terlipat dengan empat titik yang ditandai; garis putus-putus menunjukkan rusuk di belakang.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "ca651b4cc4558ac108f6d431f61b6b16e16dfc74704796dfdddd985ff066f631",
+          "content": {
+            "mode": "stock",
+            "record_id": "mcma-16-4-6:stock-02:v1",
+            "record_sha256": "ff306f11e25b3397339cade7071ae4e9da966891691d1da960a0931453092d9a",
+            "original_version": 2,
+            "original_hash": "8c416bce8a4b0d01",
+            "original_full_sha256": "611e6299e63458919605f88fe5e787270592f070a81dd9300eb7651c865a4b6a",
+            "stock_variant_id": "mcma-16-4-6:stock-02",
+            "stock_version": 1,
+            "stock_content_sha256": "8e3c572fd579700ce00f383cdedb7960ca230166a13c9e0b0a8e7dd2c4018b17"
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "1a19f54bf6d3bb59e311908221ddc5b3ef601db2e796898d00b8e0f9ad852e25"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "mcma-16-4-7",
+      "scenario": "original",
+      "record": {
+        "record_id": "mcma-16-4-7:s0",
+        "question_id": "mcma-16-4-7",
+        "seed": 0,
+        "variant_ver": null,
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "metadata": {
+          "generation_status": "DEFERRED_CONCEPTUAL",
+          "reason": "Soal konseptual memakai dua stok editorial VERIFIED yang dapat dipilih dan dipakai ulang; tidak memakai generator numerik.",
+          "generator_status": "FINITE_STOCK",
+          "source_number": 7,
+          "source_document": "docs/sources/incoming/2026-10-19-indikator-16-19/source.docx",
+          "source_document_sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+          "source_location": {
+            "path": "docs/sources/incoming/2026-10-19-indikator-16-19/source.docx",
+            "sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+            "paragraph_start": 411,
+            "paragraph_end": 418,
+            "body_block_start": 301,
+            "body_block_end_exclusive": 309
+          },
+          "source_text": "Soal 7 (Bentuk Soal: PG MCMA)\nLevel Kognitif: (C5 Mengevaluasi)\nKunci: Pernyataan 1, Pernyataan 3, dan Pernyataan 4\nPerhatikan gambar jaring-jaring tabung di bawah ini!\n\n\n![Source image rId12](media/image12.png)\n\n\nManakah pernyataan berikut yang sesuai untuk mengevaluasi karakteristik jaring-jaring tabung tersebut? (Pilih 3 jawaban benar)\n[ ] Pernyataan 1: Panjang persegi panjang pada jaring-jaring sama dengan keliling lingkaran alas.\n[ ] Pernyataan 2: Jaring-jaring tabung hanya terdiri dari 2 bangun datar.\n[ ] Pernyataan 3: Lebar persegi panjang pada jaring-jaring mewakili tinggi tabung.\n[ ] Pernyataan 4: Luas jaring-jaring dihitung dengan menjumlahkan 2 luas lingkaran dan 1 luas persegi panjang.\nPembahasan:\n\nPernyataan 1: Benar. Selimut tabung jika dibuka berbentuk persegi panjang dengan panjang = keliling alas.\n\nPernyataan 2: Salah. Jaring-jaring tabung terdiri dari 3 bangun datar (2 lingkaran dan 1 persegi panjang).\n\nPernyataan 3: Benar. Lebar persegi panjang tersebut sama dengan tinggi tabung.\n\nPernyataan 4: Benar. Luas permukaan total adalah jumlah dari seluruh komponen penyusun jaring-jaring.\n\n",
+          "source_projection": {
+            "format": "MCMA",
+            "stem": "Sebuah tabung tertutup dibuka menjadi jaring-jaring yang terdiri dari dua lingkaran dan satu persegi panjang. Manakah pernyataan yang benar? Pilih tiga jawaban.",
+            "options": [
+              "Panjang persegi panjang pada jaring-jaring sama dengan keliling lingkaran alas.",
+              "Jaring-jaring tabung hanya terdiri dari 2 bangun datar.",
+              "Lebar persegi panjang pada jaring-jaring mewakili tinggi tabung.",
+              "Luas jaring-jaring dihitung dengan menjumlahkan 2 luas lingkaran dan 1 luas persegi panjang."
+            ],
+            "key": [
+              "A",
+              "C",
+              "D"
+            ],
+            "explanation": "Pembahasan:\nPernyataan 1: Benar. Selimut tabung jika dibuka berbentuk persegi panjang dengan panjang = keliling alas.\nPernyataan 2: Salah. Jaring-jaring tabung terdiri dari 3 bangun datar (2 lingkaran dan 1 persegi panjang).\nPernyataan 3: Benar. Lebar persegi panjang tersebut sama dengan tinggi tabung.\nPernyataan 4: Benar. Luas permukaan total adalah jumlah dari seluruh komponen penyusun jaring-jaring.",
+            "additional_notes": "",
+            "category_labels": null
+          },
+          "original_explanation": "Pembahasan:\nPernyataan 1: Benar. Selimut tabung jika dibuka berbentuk persegi panjang dengan panjang = keliling alas.\nPernyataan 2: Salah. Jaring-jaring tabung terdiri dari 3 bangun datar (2 lingkaran dan 1 persegi panjang).\nPernyataan 3: Benar. Lebar persegi panjang tersebut sama dengan tinggi tabung.\nPernyataan 4: Benar. Luas permukaan total adalah jumlah dari seluruh komponen penyusun jaring-jaring.",
+          "source_additional_notes": "",
+          "source_media": [],
+          "approval_status": "NOT_CURRICULUM_APPROVED",
+          "self_adjustment_enabled": false,
+          "source_review": {
+            "date": "2026-10-21",
+            "original_version": 1,
+            "replacement_version": 2,
+            "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: MEDIA_MISMATCH: image12.png tabung utuh, bukan jaring-jaring yang diminta.",
+            "source_document_unchanged": true,
+            "original_text_preserved": true
+          },
+          "batch": "2026-10-21-indicators16-19-level45-source-only",
+          "raw_source_explanation": "Pembahasan:\nPernyataan 1: Benar. Selimut tabung jika dibuka berbentuk persegi panjang dengan panjang = keliling alas.\nPernyataan 2: Salah. Jaring-jaring tabung terdiri dari 3 bangun datar (2 lingkaran dan 1 persegi panjang).\nPernyataan 3: Benar. Lebar persegi panjang tersebut sama dengan tinggi tabung.\nPernyataan 4: Benar. Luas permukaan total adalah jumlah dari seluruh komponen penyusun jaring-jaring.",
+          "raw_source_projection": {
+            "format": "MCMA",
+            "stem": "Perhatikan gambar jaring-jaring tabung di bawah ini!\n![Source image rId12](media/image12.png)\nManakah pernyataan berikut yang sesuai untuk mengevaluasi karakteristik jaring-jaring tabung tersebut? (Pilih 3 jawaban benar)",
+            "options": [
+              "Panjang persegi panjang pada jaring-jaring sama dengan keliling lingkaran alas.",
+              "Jaring-jaring tabung hanya terdiri dari 2 bangun datar.",
+              "Lebar persegi panjang pada jaring-jaring mewakili tinggi tabung.",
+              "Luas jaring-jaring dihitung dengan menjumlahkan 2 luas lingkaran dan 1 luas persegi panjang."
+            ],
+            "key": [
+              "A",
+              "C",
+              "D"
+            ],
+            "explanation": "Pembahasan:\nPernyataan 1: Benar. Selimut tabung jika dibuka berbentuk persegi panjang dengan panjang = keliling alas.\nPernyataan 2: Salah. Jaring-jaring tabung terdiri dari 3 bangun datar (2 lingkaran dan 1 persegi panjang).\nPernyataan 3: Benar. Lebar persegi panjang tersebut sama dengan tinggi tabung.\nPernyataan 4: Benar. Luas permukaan total adalah jumlah dari seluruh komponen penyusun jaring-jaring.",
+            "additional_notes": "",
+            "category_labels": null
+          },
+          "raw_source_media": [
+            {
+              "path": "docs/sources/incoming/2026-10-19-indikator-16-19/media/image12.png",
+              "sha256": "1fcb51a929b90335aca9086b8e7e26306c0a0ba96012dc81293e493735ee1182"
+            }
+          ]
+        },
+        "config_ver": null,
+        "draws_used": null,
+        "format": "MCMA",
+        "cognitive_level": "C5",
+        "values_used": {},
+        "stem": "Sebuah tabung tertutup dibuka menjadi jaring-jaring yang terdiri dari dua lingkaran dan satu persegi panjang. Manakah pernyataan yang benar? Pilih tiga jawaban.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Panjang persegi panjang pada jaring-jaring sama dengan keliling lingkaran alas."
+          },
+          {
+            "id": "B",
+            "text": "Jaring-jaring tabung hanya terdiri dari 2 bangun datar."
+          },
+          {
+            "id": "C",
+            "text": "Lebar persegi panjang pada jaring-jaring mewakili tinggi tabung."
+          },
+          {
+            "id": "D",
+            "text": "Luas jaring-jaring dihitung dengan menjumlahkan 2 luas lingkaran dan 1 luas persegi panjang."
+          }
+        ],
+        "key": "A,C,D",
+        "original_hash": "99e5617dc99a0a3f",
+        "original_version": 2,
+        "explanation": "Pembahasan:\nPernyataan 1: Benar. Selimut tabung jika dibuka berbentuk persegi panjang dengan panjang = keliling alas.\nPernyataan 2: Salah. Jaring-jaring tabung terdiri dari 3 bangun datar (2 lingkaran dan 1 persegi panjang).\nPernyataan 3: Benar. Lebar persegi panjang tersebut sama dengan tinggi tabung.\nPernyataan 4: Benar. Luas permukaan total adalah jumlah dari seluruh komponen penyusun jaring-jaring."
+      },
+      "geometry": {
+        "kind": "cylinder-net",
+        "panels": [
+          {
+            "id": "net",
+            "circle_count": 2,
+            "rectangle_count": 1,
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    230,
+                    260
+                  ],
+                  [
+                    730,
+                    260
+                  ],
+                  [
+                    730,
+                    400
+                  ],
+                  [
+                    230,
+                    400
+                  ]
+                ]
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  480,
+                  180
+                ],
+                "radius": 80
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  480,
+                  480
+                ],
+                "radius": 80
+              }
+            ],
+            "label_symbols": {
+              "r": "radius",
+              "h": "height",
+              "p": "wrap_length"
+            }
+          }
+        ]
+      },
+      "image": {
+        "path": "images/mcma-16-4-7-original.png",
+        "sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+        "alt_text": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "mcma-16-4-7",
+          "template_version": 1,
+          "template_sha256": "00feb662861eece10074dd2f958af7ca63b1bf2cfa50095dd4df00516d96496d",
+          "source_sha256": "1fcb51a929b90335aca9086b8e7e26306c0a0ba96012dc81293e493735ee1182",
+          "base_sha256": "14d4723e4f354242b54ed108b1a3f049c4a4120b8d1474bf7fc8fffe12320ffc",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "9cb7b481f6a519ba3a4ab223ea796e0637054a280011c7c783ad14a0f9de3488",
+          "png_sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+          "byte_length": 37462,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "fd2654d6516f00c502f214aeaf8b5f9ab870e172efe94ff4b2949ce8f0a1cf96",
+          "content": {
+            "mode": "original",
+            "record_id": "mcma-16-4-7:s0",
+            "record_sha256": "bab468897f5e025bf5ddef29ff61db9b6ee31df2d65f2e14804803393cfb0829",
+            "original_version": 2,
+            "original_hash": "99e5617dc99a0a3f",
+            "original_full_sha256": "e947a9d186114d1c74f6ee4f2cddc8e177e22e06d2b25c88086f36f8b468bca4",
+            "stock_variant_id": null,
+            "stock_version": null,
+            "stock_content_sha256": null
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "74120e6c91a57a96406572b34687949192a10833b24f0d511d7db4542ae1c651"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "mcma-16-4-7",
+      "scenario": "stock-01",
+      "record": {
+        "record_id": "mcma-16-4-7:stock-01:v1",
+        "question_id": "mcma-16-4-7",
+        "source_kind": "conceptual_stock",
+        "variant_id": "mcma-16-4-7:stock-01",
+        "stock_index": 1,
+        "seed": null,
+        "variant_ver": 1,
+        "config_ver": null,
+        "config_hash": null,
+        "draws_used": null,
+        "values_used": {},
+        "format": "MCMA",
+        "cognitive_level": "C5",
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "original_hash": "99e5617dc99a0a3f",
+        "original_version": 2,
+        "stem": "Tabung tanpa tutup dengan jari-jari r dan tinggi h dibuka menjadi jaring-jaring. Pilih semua pernyataan benar!",
+        "options": [
+          {
+            "id": "A",
+            "text": "Terdapat satu lingkaran dan satu persegi panjang."
+          },
+          {
+            "id": "B",
+            "text": "Lebar selimut mewakili tinggi h."
+          },
+          {
+            "id": "C",
+            "text": "Jaring-jaring harus memiliki dua lingkaran."
+          },
+          {
+            "id": "D",
+            "text": "Panjang selimut sama dengan 2*pi*r."
+          }
+        ],
+        "key": "A,B,D",
+        "explanation": "Satu tutup dihilangkan, sehingga alas tinggal satu lingkaran. Selimut tetap berukuran2*pi*r kali h. A,B,D benar; C salah.",
+        "variation_note": "Mengubah kelengkapan tutup, tetap menilai struktur net dan sambungan."
+      },
+      "geometry": {
+        "kind": "cylinder-net",
+        "panels": [
+          {
+            "id": "net",
+            "circle_count": 1,
+            "rectangle_count": 1,
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    230,
+                    260
+                  ],
+                  [
+                    730,
+                    260
+                  ],
+                  [
+                    730,
+                    400
+                  ],
+                  [
+                    230,
+                    400
+                  ]
+                ]
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  480,
+                  480
+                ],
+                "radius": 80
+              }
+            ],
+            "label_symbols": {
+              "r": "radius",
+              "h": "height",
+              "p": "wrap_length"
+            }
+          }
+        ]
+      },
+      "image": {
+        "path": "images/mcma-16-4-7-stock-01.png",
+        "sha256": "f8a3497661b0c1b4c183030ed00d86c43c4f682aab77ec555122e050c3a00cf4",
+        "alt_text": "Jaring-jaring dengan satu lingkaran dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "mcma-16-4-7",
+          "template_version": 1,
+          "template_sha256": "b81d66e46519d0dfa6a053d140d876aee4494a31b6209a67b7ea868de978c38e",
+          "source_sha256": "1fcb51a929b90335aca9086b8e7e26306c0a0ba96012dc81293e493735ee1182",
+          "base_sha256": "d04073391f2909aaedbdc31c9d686fd4895054b0aaf877aec876fd8a671ad674",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "bcd86b4d6218400d53649f2c2a8b4b6de2b777ee7a0044023b9b7ba5a4dbee27",
+          "png_sha256": "f8a3497661b0c1b4c183030ed00d86c43c4f682aab77ec555122e050c3a00cf4",
+          "byte_length": 27049,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Jaring-jaring dengan satu lingkaran dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "e9f09f7d68868b881a8fb7fdfb8484e7bf7e649ce55d01d23d0d86ab74ab4865",
+          "content": {
+            "mode": "stock",
+            "record_id": "mcma-16-4-7:stock-01:v1",
+            "record_sha256": "8288304c702e7aa168d92c59aefeb12f449eda90fcee4ec4e123d3b64ec61bc4",
+            "original_version": 2,
+            "original_hash": "99e5617dc99a0a3f",
+            "original_full_sha256": "e947a9d186114d1c74f6ee4f2cddc8e177e22e06d2b25c88086f36f8b468bca4",
+            "stock_variant_id": "mcma-16-4-7:stock-01",
+            "stock_version": 1,
+            "stock_content_sha256": "90cb18883a69a08f2700234f331b16b4f92fea367a06bc7e12ffc1ea54d45dbb"
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "fbb2b0654c75aa3fbc073ff7fa9d0a380f48c98605c4158a6ca7f314c55ce813"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "mcma-16-4-7",
+      "scenario": "stock-02",
+      "record": {
+        "record_id": "mcma-16-4-7:stock-02:v1",
+        "question_id": "mcma-16-4-7",
+        "source_kind": "conceptual_stock",
+        "variant_id": "mcma-16-4-7:stock-02",
+        "stock_index": 2,
+        "seed": null,
+        "variant_ver": 1,
+        "config_ver": null,
+        "config_hash": null,
+        "draws_used": null,
+        "values_used": {},
+        "format": "MCMA",
+        "cognitive_level": "C5",
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 4,
+          "package_id": "drill-1"
+        },
+        "original_hash": "99e5617dc99a0a3f",
+        "original_version": 2,
+        "stem": "Tabung tertutup dipotong sepanjang satu garis tegak dan kedua tepi lingkarannya. Pilih semua pernyataan benar tentang bidang yang dilebarkan!",
+        "options": [
+          {
+            "id": "A",
+            "text": "Kedua lingkaran alas dan tutup kongruen."
+          },
+          {
+            "id": "B",
+            "text": "Selimut dapat dilebarkan menjadi persegi panjang."
+          },
+          {
+            "id": "C",
+            "text": "Luas seluruh bidang adalah pi*r*r+2*pi*r*h."
+          },
+          {
+            "id": "D",
+            "text": "Luas kedua lingkaran bersama-sama adalah 2*pi*r*r."
+          }
+        ],
+        "key": "A,B,D",
+        "explanation": "A,B,D benar. Rumus C hanya memasukkan satu lingkaran, padahal tabung tertutup memerlukan dua; luas total2*pi*r*r+2*pi*r*h.",
+        "variation_note": "Memeriksa komponen rumus luas, bukan hanya jumlah bidang."
+      },
+      "geometry": {
+        "kind": "cylinder-net",
+        "panels": [
+          {
+            "id": "net",
+            "circle_count": 2,
+            "rectangle_count": 1,
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    230,
+                    260
+                  ],
+                  [
+                    730,
+                    260
+                  ],
+                  [
+                    730,
+                    400
+                  ],
+                  [
+                    230,
+                    400
+                  ]
+                ]
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  480,
+                  180
+                ],
+                "radius": 80
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  480,
+                  480
+                ],
+                "radius": 80
+              }
+            ],
+            "label_symbols": {
+              "r": "radius",
+              "h": "height",
+              "p": "wrap_length"
+            }
+          }
+        ]
+      },
+      "image": {
+        "path": "images/mcma-16-4-7-stock-02.png",
+        "sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+        "alt_text": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "mcma-16-4-7",
+          "template_version": 1,
+          "template_sha256": "f280b6897e56714cc1e77d7e6a2d9717407b89d92a9123b74be9334c1a97bbbe",
+          "source_sha256": "1fcb51a929b90335aca9086b8e7e26306c0a0ba96012dc81293e493735ee1182",
+          "base_sha256": "14d4723e4f354242b54ed108b1a3f049c4a4120b8d1474bf7fc8fffe12320ffc",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "2008a352169caa6de813b4fc6cff867ca563a8fee97053c8a2449d60316cdf53",
+          "png_sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+          "byte_length": 37462,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "45604eabdf42c6ec80011119f39599dd41b83bdd34bd2c4e5465536c482c08f3",
+          "content": {
+            "mode": "stock",
+            "record_id": "mcma-16-4-7:stock-02:v1",
+            "record_sha256": "73e3e2011d2c4e022525d8463c425d24872e48a5a019bc600cc499a2476d1321",
+            "original_version": 2,
+            "original_hash": "99e5617dc99a0a3f",
+            "original_full_sha256": "e947a9d186114d1c74f6ee4f2cddc8e177e22e06d2b25c88086f36f8b468bca4",
+            "stock_variant_id": "mcma-16-4-7:stock-02",
+            "stock_version": 1,
+            "stock_content_sha256": "f4bee1a10cc2c5e9d91aca9846743e0290f3c82421f63eb6d779c0eed7cd9a02"
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "394009550201604fb37c31442f4abf34b86c390b5e91feb91c1fa49079c1b105"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "pg-16-5-1",
+      "scenario": "original",
+      "record": {
+        "record_id": "pg-16-5-1:s0",
+        "question_id": "pg-16-5-1",
+        "seed": 0,
+        "variant_ver": null,
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 5,
+          "package_id": "drill-1"
+        },
+        "metadata": {
+          "generation_status": "DEFERRED_CONCEPTUAL",
+          "reason": "Soal konseptual memakai dua stok editorial VERIFIED yang dapat dipilih dan dipakai ulang; tidak memakai generator numerik.",
+          "generator_status": "FINITE_STOCK",
+          "source_number": 1,
+          "source_document": "docs/sources/incoming/2026-10-19-indikator-16-19/source.docx",
+          "source_document_sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+          "source_location": {
+            "path": "docs/sources/incoming/2026-10-19-indikator-16-19/source.docx",
+            "sha256": "8182d606d4a27e6ab3c80834a36648796d395ee8f66a5ef7b90a3c88587cd232",
+            "paragraph_start": 472,
+            "paragraph_end": 476,
+            "body_block_start": 334,
+            "body_block_end_exclusive": 339
+          },
+          "source_text": "Soal 1 (Bentuk Soal: PG)\n Level Kognitif: (C5 Mengevaluasi)\n Kunci Jawaban: C. Jaring-jaring C\n Perhatikan gambar empat jaring-jaring bangun ruang di bawah ini!\n\n\n![Source image rId13](media/image2.jpg)\n\n\nBerdasarkan evaluasi Anda mengenai komponen pembentuk bangun ruang, manakah jaring-jaring yang TIDAK MUNGKIN dapat dilipat menjadi bangun ruang yang sempurna dan tertutup?\n A. Jaring-jaring A\n B. Jaring-jaring B\n C. Jaring-jaring C\n D. Jaring-jaring D\n Pembahasan:\n\nJaring-jaring C adalah jaring-jaring tabung. Namun, agar dapat menutup sempurna, panjang persegi panjang (selimut) harus sama dengan keliling lingkaran alasnya ($2πr$). Pada gambar C, panjang persegi panjang tidak sama dengan keliling \n\n",
+          "source_projection": {
+            "format": "PG",
+            "stem": "Empat rancangan jaring-jaring berikut memiliki sambungan yang sesuai. A: tabung berjari-jari 7 cm dengan panjang selimut 44 cm. B: prisma segitiga dengan dua alas kongruen dan tiga persegi panjang sesuai sisi alas. C: tabung berjari-jari 7 cm dengan panjang selimut 20 cm. D: kerucut berjari-jari alas 7 cm dengan panjang busur juring 44 cm. Gunakan pi=22/7. Rancangan manakah yang tidak dapat menutup bangun dengan sempurna?",
+            "options": [
+              "Jaring-jaring A",
+              "Jaring-jaring B",
+              "Jaring-jaring C",
+              "Jaring-jaring D"
+            ],
+            "key": [
+              "C"
+            ],
+            "explanation": "Tabung r7 memerlukan panjang selimut2*(22/7)*7=44cm. Rancangan C hanya20cm sehingga tidak menutup. A sesuai44cm; B sesuai komponen prisma; D busur44cm sesuai keliling alas.",
+            "additional_notes": "",
+            "category_labels": null
+          },
+          "original_explanation": "Tabung r7 memerlukan panjang selimut2*(22/7)*7=44cm. Rancangan C hanya20cm sehingga tidak menutup. A sesuai44cm; B sesuai komponen prisma; D busur44cm sesuai keliling alas.",
+          "source_additional_notes": "",
+          "source_media": [],
+          "approval_status": "NOT_CURRICULUM_APPROVED",
+          "self_adjustment_enabled": false,
+          "source_review": {
+            "date": "2026-10-21",
+            "original_version": 1,
+            "replacement_version": 2,
+            "reason": "Revisi lokal engineering untuk menuntaskan sisa soal atas instruksi pengguna: INSUFFICIENT_METRIC_DATA: gambar C tampak tidak proporsional tetapi tidak memiliki ukuran; tidak cukup membuktikan panjang selimut tidak sama dengan keliling alas.",
+            "source_document_unchanged": true,
+            "original_text_preserved": true
+          },
+          "batch": "2026-10-21-indicators16-19-level45-source-only",
+          "raw_source_explanation": "Pembahasan:\nJaring-jaring C adalah jaring-jaring tabung. Namun, agar dapat menutup sempurna, panjang persegi panjang (selimut) harus sama dengan keliling lingkaran alasnya ($2πr$). Pada gambar C, panjang persegi panjang tidak sama dengan keliling",
+          "raw_source_projection": {
+            "format": "PG",
+            "stem": "Perhatikan gambar empat jaring-jaring bangun ruang di bawah ini!\n![Source image rId13](media/image2.jpg)\nBerdasarkan evaluasi Anda mengenai komponen pembentuk bangun ruang, manakah jaring-jaring yang TIDAK MUNGKIN dapat dilipat menjadi bangun ruang yang sempurna dan tertutup?",
+            "options": [
+              "Jaring-jaring A",
+              "Jaring-jaring B",
+              "Jaring-jaring C",
+              "Jaring-jaring D"
+            ],
+            "key": [
+              "C"
+            ],
+            "explanation": "Pembahasan:\nJaring-jaring C adalah jaring-jaring tabung. Namun, agar dapat menutup sempurna, panjang persegi panjang (selimut) harus sama dengan keliling lingkaran alasnya ($2πr$). Pada gambar C, panjang persegi panjang tidak sama dengan keliling",
+            "additional_notes": "",
+            "category_labels": null
+          },
+          "raw_source_media": [
+            {
+              "path": "docs/sources/incoming/2026-10-19-indikator-16-19/media/image2.jpg",
+              "sha256": "7e9dfd4733e31036823cebd01a109cb05e0ec8f2cb2e65c42c4703d872174076"
+            }
+          ]
+        },
+        "config_ver": null,
+        "draws_used": null,
+        "format": "PG",
+        "cognitive_level": "C5",
+        "values_used": {},
+        "stem": "Empat rancangan jaring-jaring berikut memiliki sambungan yang sesuai. A: tabung berjari-jari 7 cm dengan panjang selimut 44 cm. B: prisma segitiga dengan dua alas kongruen dan tiga persegi panjang sesuai sisi alas. C: tabung berjari-jari 7 cm dengan panjang selimut 20 cm. D: kerucut berjari-jari alas 7 cm dengan panjang busur juring 44 cm. Gunakan pi=22/7. Rancangan manakah yang tidak dapat menutup bangun dengan sempurna?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jaring-jaring A"
+          },
+          {
+            "id": "B",
+            "text": "Jaring-jaring B"
+          },
+          {
+            "id": "C",
+            "text": "Jaring-jaring C"
+          },
+          {
+            "id": "D",
+            "text": "Jaring-jaring D"
+          }
+        ],
+        "key": "C",
+        "original_hash": "b96132e16389dc9f",
+        "original_version": 2,
+        "explanation": "Tabung r7 memerlukan panjang selimut2*(22/7)*7=44cm. Rancangan C hanya20cm sehingga tidak menutup. A sesuai44cm; B sesuai komponen prisma; D busur44cm sesuai keliling alas."
+      },
+      "geometry": {
+        "kind": "four-panels",
+        "panels": [
+          {
+            "id": "A",
+            "kind": "cylinder",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    177.6,
+                    175
+                  ],
+                  [
+                    318.4,
+                    175
+                  ],
+                  [
+                    318.4,
+                    226.2
+                  ],
+                  [
+                    177.6,
+                    226.2
+                  ]
+                ]
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  248,
+                  152.6
+                ],
+                "radius": 22.4
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  248,
+                  248.6
+                ],
+                "radius": 22.4
+              }
+            ],
+            "rectangle_count": 1,
+            "triangle_count": 0,
+            "circle_count": 2
+          },
+          {
+            "id": "B",
+            "kind": "prism",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    625,
+                    160
+                  ],
+                  [
+                    675,
+                    160
+                  ],
+                  [
+                    675,
+                    235
+                  ],
+                  [
+                    625,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    675,
+                    160
+                  ],
+                  [
+                    725,
+                    160
+                  ],
+                  [
+                    725,
+                    235
+                  ],
+                  [
+                    675,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    725,
+                    160
+                  ],
+                  [
+                    775,
+                    160
+                  ],
+                  [
+                    775,
+                    235
+                  ],
+                  [
+                    725,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    675,
+                    160
+                  ],
+                  [
+                    725,
+                    160
+                  ],
+                  [
+                    700,
+                    116.69872981077808
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    675,
+                    235
+                  ],
+                  [
+                    725,
+                    235
+                  ],
+                  [
+                    700,
+                    278.3012701892219
+                  ]
+                ]
+              }
+            ],
+            "rectangle_count": 3,
+            "triangle_count": 2,
+            "circle_count": 0
+          },
+          {
+            "id": "C",
+            "kind": "short-cylinder",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    216.0,
+                    425
+                  ],
+                  [
+                    280.0,
+                    425
+                  ],
+                  [
+                    280.0,
+                    476.2
+                  ],
+                  [
+                    216.0,
+                    476.2
+                  ]
+                ]
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  248,
+                  402.6
+                ],
+                "radius": 22.4
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  248,
+                  498.6
+                ],
+                "radius": 22.4
+              }
+            ],
+            "rectangle_count": 1,
+            "triangle_count": 0,
+            "circle_count": 2,
+            "wrap_relation": "shorter"
+          },
+          {
+            "id": "D",
+            "kind": "cone",
+            "faces": [
+              {
+                "kind": "sector",
+                "center": [
+                  655,
+                  435
+                ],
+                "radius": 70,
+                "sweep_degrees": 180
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  795,
+                  460
+                ],
+                "radius": 35
+              }
+            ],
+            "rectangle_count": 0,
+            "triangle_count": 0,
+            "circle_count": 1,
+            "arc_relation": "equal"
+          }
+        ]
+      },
+      "image": {
+        "path": "images/pg-16-5-1-original.png",
+        "sha256": "58ccf233f09d91db4eb5609984771bebfed752413b39d4dd6b6286efaeef4f37",
+        "alt_text": "Empat panel A sampai D: A: tabung, r = 7 cm; panjang selimut = 44 cm; B: prisma segitiga; C: tabung, r = 7 cm; panjang selimut = 20 cm; D: kerucut, r = 7 cm; busur juring = 44 cm. Gambar skematis.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "pg-16-5-1",
+          "template_version": 1,
+          "template_sha256": "a98ed50f9625cfed9b8fb06e7ce68f05d832703e91e05626f682baff0e8d6030",
+          "source_sha256": "7e9dfd4733e31036823cebd01a109cb05e0ec8f2cb2e65c42c4703d872174076",
+          "base_sha256": "b58bb121cac2964b2e536cb33570feed3f1f30af0197ff6dd4848a4b8ade9e99",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "93692a4db8c118669efb6888f830c1f48cb303cf2327a55e1bde7e10f218abc2",
+          "png_sha256": "58ccf233f09d91db4eb5609984771bebfed752413b39d4dd6b6286efaeef4f37",
+          "byte_length": 58132,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Empat panel A sampai D: A: tabung, r = 7 cm; panjang selimut = 44 cm; B: prisma segitiga; C: tabung, r = 7 cm; panjang selimut = 20 cm; D: kerucut, r = 7 cm; busur juring = 44 cm. Gambar skematis.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "d0532261c3771580870965cc91ea7c968f4cc15ebc8ca33c6c5e0f09465f1864",
+          "content": {
+            "mode": "original",
+            "record_id": "pg-16-5-1:s0",
+            "record_sha256": "80b5202321686ac2db377ae12b2c314d1164d291c7d5cf0f23c43b9bbdca0357",
+            "original_version": 2,
+            "original_hash": "b96132e16389dc9f",
+            "original_full_sha256": "a3111da75148f3f145e82a0b6844ec82a7c121927ad9e78550868dae9c418f5f",
+            "stock_variant_id": null,
+            "stock_version": null,
+            "stock_content_sha256": null
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "2add12ddee6019ad4ff2259a8e28375da1dd6400048e1798693caecbe4499fb9"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "pg-16-5-1",
+      "scenario": "stock-01",
+      "record": {
+        "record_id": "pg-16-5-1:stock-01:v1",
+        "question_id": "pg-16-5-1",
+        "source_kind": "conceptual_stock",
+        "variant_id": "pg-16-5-1:stock-01",
+        "stock_index": 1,
+        "seed": null,
+        "variant_ver": 1,
+        "config_ver": null,
+        "config_hash": null,
+        "draws_used": null,
+        "values_used": {},
+        "format": "PG",
+        "cognitive_level": "C5",
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 5,
+          "package_id": "drill-1"
+        },
+        "original_hash": "b96132e16389dc9f",
+        "original_version": 2,
+        "stem": "Seluruh bidang penyusun suatu net sudah lengkap. Rancangan manakah tetap gagal menjadi bangun tertutup?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Prisma dengan bidang dan tepi sambungan yang kongruen sesuai pasangannya."
+          },
+          {
+            "id": "B",
+            "text": "Tabung dengan panjang selimut tepat sama keliling alas."
+          },
+          {
+            "id": "C",
+            "text": "Kerucut dengan busur selimut lebih pendek daripada keliling alas."
+          },
+          {
+            "id": "D",
+            "text": "Limas dengan setiap tepi segitiga tegak cocok dengan alas dan sisi tetangganya."
+          }
+        ],
+        "key": "C",
+        "explanation": "C menyisakan celah sepanjang sambungan alas-selimut. A,B,D sudah memenuhi kecocokan tepi yang dinyatakan.",
+        "variation_note": "Kelengkapan bidang tidak menjamin kecocokan panjang sambungan."
+      },
+      "geometry": {
+        "kind": "four-panels",
+        "panels": [
+          {
+            "id": "A",
+            "kind": "prism",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    160,
+                    160
+                  ],
+                  [
+                    210,
+                    160
+                  ],
+                  [
+                    210,
+                    235
+                  ],
+                  [
+                    160,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    210,
+                    160
+                  ],
+                  [
+                    260,
+                    160
+                  ],
+                  [
+                    260,
+                    235
+                  ],
+                  [
+                    210,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    260,
+                    160
+                  ],
+                  [
+                    310,
+                    160
+                  ],
+                  [
+                    310,
+                    235
+                  ],
+                  [
+                    260,
+                    235
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    210,
+                    160
+                  ],
+                  [
+                    260,
+                    160
+                  ],
+                  [
+                    235,
+                    116.69872981077808
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    210,
+                    235
+                  ],
+                  [
+                    260,
+                    235
+                  ],
+                  [
+                    235,
+                    278.3012701892219
+                  ]
+                ]
+              }
+            ],
+            "rectangle_count": 3,
+            "triangle_count": 2,
+            "circle_count": 0
+          },
+          {
+            "id": "B",
+            "kind": "cylinder",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    642.6,
+                    175
+                  ],
+                  [
+                    783.4000000000001,
+                    175
+                  ],
+                  [
+                    783.4000000000001,
+                    226.2
+                  ],
+                  [
+                    642.6,
+                    226.2
+                  ]
+                ]
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  713,
+                  152.6
+                ],
+                "radius": 22.4
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  713,
+                  248.6
+                ],
+                "radius": 22.4
+              }
+            ],
+            "rectangle_count": 1,
+            "triangle_count": 0,
+            "circle_count": 2
+          },
+          {
+            "id": "C",
+            "kind": "short-cone",
+            "faces": [
+              {
+                "kind": "sector",
+                "center": [
+                  190,
+                  435
+                ],
+                "radius": 70,
+                "sweep_degrees": 90
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  330,
+                  460
+                ],
+                "radius": 35
+              }
+            ],
+            "rectangle_count": 0,
+            "triangle_count": 0,
+            "circle_count": 1,
+            "arc_relation": "shorter"
+          },
+          {
+            "id": "D",
+            "kind": "pyramid",
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    682,
+                    420
+                  ],
+                  [
+                    742,
+                    420
+                  ],
+                  [
+                    742,
+                    480
+                  ],
+                  [
+                    682,
+                    480
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    682,
+                    420
+                  ],
+                  [
+                    742,
+                    420
+                  ],
+                  [
+                    712,
+                    368
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    742,
+                    420
+                  ],
+                  [
+                    742,
+                    480
+                  ],
+                  [
+                    794,
+                    450
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    742,
+                    480
+                  ],
+                  [
+                    682,
+                    480
+                  ],
+                  [
+                    712,
+                    532
+                  ]
+                ]
+              },
+              {
+                "kind": "triangle",
+                "vertices": [
+                  [
+                    682,
+                    480
+                  ],
+                  [
+                    682,
+                    420
+                  ],
+                  [
+                    630,
+                    450
+                  ]
+                ]
+              }
+            ],
+            "rectangle_count": 1,
+            "triangle_count": 4,
+            "circle_count": 0
+          }
+        ]
+      },
+      "image": {
+        "path": "images/pg-16-5-1-stock-01.png",
+        "sha256": "4378bf3e9d5139f86c79816bbef1f7942ff441fad19eb7d1d5a5f7c19c39995a",
+        "alt_text": "Empat panel A sampai D: A: prisma segitiga, tepi pasangan sama; B: tabung, p = keliling alas; C: lingkaran dan juring, busur < keliling alas; D: limas segi empat, tepi pasangan sama. Gambar skematis.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "pg-16-5-1",
+          "template_version": 1,
+          "template_sha256": "b937cc36343a83b44e8d743ed2fc2b73ba8931b5dbae854441c30558d90febb6",
+          "source_sha256": "7e9dfd4733e31036823cebd01a109cb05e0ec8f2cb2e65c42c4703d872174076",
+          "base_sha256": "5e04aa1fe344e9c3536d447ce8f7a7b9daafda55c4777157a0175d6f2e0d4a41",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "6ddc3fa024d24dceb2c2f70cbc9c5fee2ddb6beeee98e5897280288295f674ea",
+          "png_sha256": "4378bf3e9d5139f86c79816bbef1f7942ff441fad19eb7d1d5a5f7c19c39995a",
+          "byte_length": 58333,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Empat panel A sampai D: A: prisma segitiga, tepi pasangan sama; B: tabung, p = keliling alas; C: lingkaran dan juring, busur < keliling alas; D: limas segi empat, tepi pasangan sama. Gambar skematis.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "9f9d17a57e94d73978ebe8c73213793959e1c061e3f0a7f6553efe84831f23c7",
+          "content": {
+            "mode": "stock",
+            "record_id": "pg-16-5-1:stock-01:v1",
+            "record_sha256": "4693b163a7c7be457b9e09ff1888915b5dd12e87cce1c7cd37cc6ba469b5ac33",
+            "original_version": 2,
+            "original_hash": "b96132e16389dc9f",
+            "original_full_sha256": "a3111da75148f3f145e82a0b6844ec82a7c121927ad9e78550868dae9c418f5f",
+            "stock_variant_id": "pg-16-5-1:stock-01",
+            "stock_version": 1,
+            "stock_content_sha256": "9b01a19c5ec8e1ff55c6d91c49a208b99f398aaf460709a5fc3a834e934de475"
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "e84d65a32ed5650c2a2751d364fe3f95addd0c81ec318896dd084b00842af738"
+        }
+      },
+      "geometry_check": "PASS"
+    },
+    {
+      "question_id": "pg-16-5-1",
+      "scenario": "stock-02",
+      "record": {
+        "record_id": "pg-16-5-1:stock-02:v1",
+        "question_id": "pg-16-5-1",
+        "source_kind": "conceptual_stock",
+        "variant_id": "pg-16-5-1:stock-02",
+        "stock_index": 2,
+        "seed": null,
+        "variant_ver": 1,
+        "config_ver": null,
+        "config_hash": null,
+        "draws_used": null,
+        "values_used": {},
+        "format": "PG",
+        "cognitive_level": "C5",
+        "classification": {
+          "activity": "DRILL",
+          "indicator": 16,
+          "source_level": 5,
+          "package_id": "drill-1"
+        },
+        "original_hash": "b96132e16389dc9f",
+        "original_version": 2,
+        "stem": "Sebuah tabung tertutup akan dirakit. Dua lingkaran kongruen sudah tersedia. Kondisi selimut manakah yang menjamin sambungan alas dapat menutup tepat tanpa tumpang tindih?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Panjang persegi panjang sama dengan diameter alas."
+          },
+          {
+            "id": "B",
+            "text": "Panjang persegi panjang sama dengan jari-jari alas."
+          },
+          {
+            "id": "C",
+            "text": "Panjang persegi panjang sama dengan keliling alas, lebarnya sama dengan tinggi tabung."
+          },
+          {
+            "id": "D",
+            "text": "Panjang persegi panjang sama dengan setengah keliling alas."
+          }
+        ],
+        "key": "C",
+        "explanation": "Selimut harus mengelilingi seluruh tepi alas satu kali, sehingga panjangnya2*pi*r dan lebarnya h. A,B,D terlalu pendek untuk r>0.",
+        "variation_note": "Mengevaluasi kondisi cukup, bukan memilih gambar berdasarkan proporsi."
+      },
+      "geometry": {
+        "kind": "cylinder-net",
+        "panels": [
+          {
+            "id": "net",
+            "circle_count": 2,
+            "rectangle_count": 1,
+            "faces": [
+              {
+                "kind": "rectangle",
+                "vertices": [
+                  [
+                    230,
+                    260
+                  ],
+                  [
+                    730,
+                    260
+                  ],
+                  [
+                    730,
+                    400
+                  ],
+                  [
+                    230,
+                    400
+                  ]
+                ]
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  480,
+                  180
+                ],
+                "radius": 80
+              },
+              {
+                "kind": "circle",
+                "center": [
+                  480,
+                  480
+                ],
+                "radius": 80
+              }
+            ],
+            "label_symbols": {
+              "r": "radius",
+              "h": "height",
+              "p": "wrap_length"
+            }
+          }
+        ]
+      },
+      "image": {
+        "path": "images/pg-16-5-1-stock-02.png",
+        "sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+        "alt_text": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+        "provenance": {
+          "status": "LOCAL_RENDERED",
+          "question_id": "pg-16-5-1",
+          "template_version": 1,
+          "template_sha256": "a17eb0f7c91e8280cb3aafcfa0545ba536a07873e87a3cbae67e2dd0b3de1aba",
+          "source_sha256": "7e9dfd4733e31036823cebd01a109cb05e0ec8f2cb2e65c42c4703d872174076",
+          "base_sha256": "14d4723e4f354242b54ed108b1a3f049c4a4120b8d1474bf7fc8fffe12320ffc",
+          "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+          "renderer": {
+            "version": "tryout-images-v2",
+            "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+            "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+            "pillow": "12.1.0",
+            "freetype": "2.14.1",
+            "zlib": "1.3.1.zlib-ng",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+            "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+            "python": "3.11.3",
+            "layout_engine": "BASIC",
+            "scale": 2,
+            "resampling": "LANCZOS",
+            "png_compress_level": 9
+          },
+          "definition_sha256": "9d58a6f46c06de64ec54b6b2ef3baddb8655381c011237eebc57169fb5bc7352",
+          "png_sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+          "byte_length": 37462,
+          "bindings": {},
+          "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "alt_text": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+          "width": 960,
+          "height": 640,
+          "render_artifact_id": "9847ce83de4da49a66777a9e026c26cdc23b42af70bbc7f7a6a47f011c44a0cb",
+          "content": {
+            "mode": "stock",
+            "record_id": "pg-16-5-1:stock-02:v1",
+            "record_sha256": "78006ab506a269ba07ba16d8fbda72ee8a822ff5d8ed103a8b2f9c0bf6a4d5c7",
+            "original_version": 2,
+            "original_hash": "b96132e16389dc9f",
+            "original_full_sha256": "a3111da75148f3f145e82a0b6844ec82a7c121927ad9e78550868dae9c418f5f",
+            "stock_variant_id": "pg-16-5-1:stock-02",
+            "stock_version": 1,
+            "stock_content_sha256": "c3e67d8395c9ca80194235fa122d5a28c5a44abce1a23cec37fa6b4885863e35"
+          },
+          "adapter": {
+            "version": "drill-concept-images-v1",
+            "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9"
+          },
+          "artifact_id": "8cfc32fb1863034f45b08ad05ab01f15f5215d43dd057dad34ee724147b2f85f"
+        }
+      },
+      "geometry_check": "PASS"
+    }
+  ]
+}

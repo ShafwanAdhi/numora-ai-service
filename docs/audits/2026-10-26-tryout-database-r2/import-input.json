@@ -1,0 +1,1964 @@
+{
+  "sourceNamespace": "NUMORA_AI_TRYOUT_1",
+  "package": {
+    "familyCode": "NUMORA-AI-TRYOUT-1",
+    "packageVersion": 1,
+    "name": "Tryout 1 - Original lokal (30 soal)",
+    "assessmentType": "TRYOUT",
+    "isDemo": false,
+    "source": {
+      "sourceNamespace": "NUMORA_AI_TRYOUT_1",
+      "sourceName": "Tryout 1 - original lokal + 5 gambar",
+      "sourceReference": "Numora-ai-service/variant_gen/data/tryout-1 + docs/sources/incoming/2026-10-26-tryout-images"
+    }
+  },
+  "questions": [
+    {
+      "externalId": "tryout-1-b1-q01",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-BIL",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Suhu di dalam sebuah lemari pendingin adalah -8°C. Suhu kemudian meningkat sebesar 13°C. Suhu lemari pendingin sekarang adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "-21°C"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "-5°C"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "5°C"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "21°C"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "C"
+      },
+      "explanation": {
+        "text": "Suhu akhir = -8 + 13 = 5°C."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 1,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "8112533e0c139269",
+        "originalVersion": 1,
+        "cognitiveLevel": "C3",
+        "localQuestionId": "tryout-1-b1-q01",
+        "sourceChapter": 1,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b1-q02",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-BIL",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Rina memiliki uang Rp50.000,00. Ia membeli buku seharga Rp18.000,00 dan alat tulis seharga Rp12.000,00. Sisa uang Rina adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Rp20.000,00"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Rp25.000,00"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Rp30.000,00"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Rp32.000,00"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "A"
+      },
+      "explanation": {
+        "text": "Belanja = Rp18.000 + Rp12.000 = Rp30.000. Sisa = Rp50.000 − Rp30.000 = Rp20.000."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 2,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "37dd1d47397e402a",
+        "originalVersion": 1,
+        "cognitiveLevel": "C3",
+        "localQuestionId": "tryout-1-b1-q02",
+        "sourceChapter": 1,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b1-q03",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-BIL",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Perhatikan dua cara perhitungan berikut.\nBudi: -12 + 8 × (-4)\nAndi: (-12 + 8) × (-4)\nPernyataan yang tepat mengenai hasil perhitungan Budi dan Andi adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Hasil Budi dan Andi sama, yaitu 16."
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Hasil Budi adalah 80 dan hasil Andi adalah -16."
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Hasil Budi adalah -16 dan hasil Andi adalah 16."
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Hasil Budi adalah -44 dan hasil Andi adalah 16."
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "D"
+      },
+      "explanation": {
+        "text": "Perkalian dikerjakan dahulu pada bentuk Budi: -12 + 8 × (-4) = -44. Pada bentuk Andi, kurung didahulukan: (-12 + 8) × (-4) = 16."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 3,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "b0a3657cd2324caf",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b1-q03",
+        "sourceChapter": 1,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b1-q04",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-BIL",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Empat siswa menghitung hasil dari 24 ÷ (-6) − (-5).\nAndi: -9; Budi: 1; Citra: -1; Deni: 9.\nSiswa yang memperoleh hasil benar adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Andi"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Budi"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Citra"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Deni"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "B"
+      },
+      "explanation": {
+        "text": "Pembagian menghasilkan -4; -4 − (-5) = 1. Hasil benar diperoleh Budi."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 4,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "016dedc1edacbdf4",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b1-q04",
+        "sourceChapter": 1,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b1-q05",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-BIL",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Sebuah bilangan dikalikan 3, kemudian hasilnya dikurangi 7. Hasil akhirnya adalah 20. Pernyataan yang tepat untuk menentukan bilangan tersebut adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Bilangan tersebut diperoleh dari 20 − 7, sehingga hasilnya 13."
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Bilangan tersebut diperoleh dari 20 + 7, sehingga hasilnya 27."
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Bilangan tersebut diperoleh dari (20 + 7) ÷ 3, sehingga hasilnya 9."
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Bilangan tersebut diperoleh dari (20 − 7) ÷ 3, sehingga hasilnya 4 1/3."
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "C"
+      },
+      "explanation": {
+        "text": "3x − 7 = 20; 3x = 20 + 7 = 27; x = 27 ÷ 3 = 9."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 5,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "897df49227d86f6d",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b1-q05",
+        "sourceChapter": 1,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b1-q06",
+      "type": "MULTIPLE_CHOICE_MULTIPLE_ANSWER",
+      "chapterCode": "CH-BIL",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Perhatikan operasi bilangan berikut. Pilih semua jawaban yang benar!"
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "(-15) + 8 = -7"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "24 ÷ (-6) = 6"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "(-7) × (-5) = 35"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "18 − (-4) = 14"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "A",
+          "C"
+        ]
+      },
+      "explanation": {
+        "text": "Penjumlahan = -7; pembagian = -4, bukan 6; perkalian dua negatif = 35; pengurangan bilangan negatif = 22, bukan 14."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 6,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "4a3488a2011898aa",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b1-q06",
+        "sourceChapter": 1,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b1-q07",
+      "type": "MULTIPLE_CHOICE_MULTIPLE_ANSWER",
+      "chapterCode": "CH-BIL",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Penyelesaian 1: −5 × (8−12)=20. Penyelesaian 2: (−5×8)−12=−52. Pilih semua pernyataan yang benar."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Kedua penyelesaian menghasilkan nilai yang sama."
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Penyelesaian 1 benar karena operasi dalam kurung dikerjakan terlebih dahulu."
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Penyelesaian 2 merupakan operasi yang sama dengan penyelesaian 1."
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Penyelesaian 1 dan 2 merupakan bentuk operasi yang berbeda."
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "B",
+          "D"
+        ]
+      },
+      "explanation": {
+        "text": "\nPenyelesaian 1:\n8 - 12 = -4\n-5 × (-4) = 20\nJadi, penyelesaian 1 benar.\nPenyelesaian 2:\n(-5 × 8) - 12 = -40 - 12 = -52\nKedua bentuk operasi tersebut berbeda karena pada penyelesaian 1 terdapat tanda kurung yang mengubah urutan pengerjaan.\nJadi:\nA → Salah  B → Benar  C → Salah  D → Benar\nJawaban yang benar adalah  B dan D ."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 7,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "4c3e1fd52c18e5cb",
+        "originalVersion": 1,
+        "cognitiveLevel": "C5",
+        "localQuestionId": "tryout-1-b1-q07",
+        "sourceChapter": 1,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b1-q08",
+      "type": "CATEGORY",
+      "chapterCode": "CH-BIL",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Sebuah toko memberikan potongan harga 20% untuk sepatu berharga Rp300.000,00. Setelah diskon, pembeli dikenakan biaya tambahan Rp20.000,00. Tentukan Benar atau Salah untuk setiap pernyataan!"
+      },
+      "options": [
+        {
+          "id": "1",
+          "content": {
+            "text": "Besar diskon sepatu adalah Rp60.000,00."
+          }
+        },
+        {
+          "id": "2",
+          "content": {
+            "text": "Harga sepatu setelah diskon adalah Rp260.000,00."
+          }
+        },
+        {
+          "id": "3",
+          "content": {
+            "text": "Harga sepatu setelah diskon dan biaya tambahan adalah Rp260.000,00."
+          }
+        },
+        {
+          "id": "4",
+          "content": {
+            "text": "Pembeli harus membayar Rp280.000,00."
+          }
+        }
+      ],
+      "answer": {
+        "categoryByStatementId": {
+          "1": "TRUE",
+          "2": "FALSE",
+          "3": "TRUE",
+          "4": "FALSE"
+        }
+      },
+      "explanation": {
+        "text": "Diskon = 20% × Rp300.000 = Rp60.000; harga setelah diskon Rp240.000; total pembayaran Rp260.000."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 8,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "8f520ae37cfe8c77",
+        "originalVersion": 1,
+        "cognitiveLevel": "C5",
+        "localQuestionId": "tryout-1-b1-q08",
+        "sourceChapter": 1,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [],
+        "categories": [
+          {
+            "id": "TRUE",
+            "label": "Benar"
+          },
+          {
+            "id": "FALSE",
+            "label": "Salah"
+          }
+        ]
+      }
+    },
+    {
+      "externalId": "tryout-1-b2-q01",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-ALG",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Area A memerlukan 3(2x+5) buah ubin, sedangkan Area B memerlukan 4(3x−2) buah ubin. Bentuk aljabar paling sederhana untuk total ubin adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "18x+7"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "18x+23"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "15x+7"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "15x+23"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "A"
+      },
+      "explanation": {
+        "text": "Distributif menghasilkan koefisien x sebesar 3 × 2 + 4 × 3 = 18 dan konstanta 3 × 5 − 4 × 2 = 7. Total = 18x+7."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 9,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "a7f737149303df28",
+        "originalVersion": 1,
+        "cognitiveLevel": "C3",
+        "localQuestionId": "tryout-1-b2-q01",
+        "sourceChapter": 2,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b2-q02",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-ALG",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Baris pertama berisi 15 kursi, baris kedua 19 kursi, dan baris ketiga 23 kursi. Banyak kursi mengikuti barisan aritmetika sampai baris ke-10. Banyak kursi pada baris terakhir adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "51 kursi"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "55 kursi"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "59 kursi"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "63 kursi"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "A"
+      },
+      "explanation": {
+        "text": "Suku pertama 15, beda 4. U_10 = 15 + (10−1) × 4 = 51 kursi."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 10,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "14382f669963f1e2",
+        "originalVersion": 1,
+        "cognitiveLevel": "C3",
+        "localQuestionId": "tryout-1-b2-q02",
+        "sourceChapter": 2,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b2-q03",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-ALG",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Rian memiliki kupon Rp200.000,00. Ia membeli tas Rp80.000,00. Sisa kupon dipakai membeli buku seharga Rp15.000,00 per buku. Banyak buku maksimum agar belanja tidak melebihi kupon adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "7 buah"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "8 buah"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "9 buah"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "10 buah"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "B"
+      },
+      "explanation": {
+        "text": "Batas belanja: 15.000x + 80.000 ≤ 200.000; x ≤ 120.000/15.000. Banyak buku integer maksimum adalah 8."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 11,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "943c3b1e74d1b04f",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b2-q03",
+        "sourceChapter": 2,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b2-q04",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-ALG",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Ibu Maya membeli 3 paket spidol dan 2 penggaris seharga Rp43.000,00. Pak Hari membeli 2 paket spidol dan 4 penggaris seharga Rp42.000,00. Harga 1 paket spidol dan 1 penggaris adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Rp14.000,00"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Rp15.000,00"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Rp16.000,00"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Rp17.000,00"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "C"
+      },
+      "explanation": {
+        "text": "Persamaan 3x+2y=43.000 dan 2x+4y=42.000 menghasilkan x=Rp11.000, y=Rp5.000. Jumlahnya Rp16.000, bukan penjumlahan yang salah pada source."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 12,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "c988e0cba2b2e0fc",
+        "originalVersion": 2,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b2-q04",
+        "sourceChapter": 2,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b2-q05",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-ALG",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Tarif sewa sepeda f(x)=10.000+3.000x rupiah, dengan domain x∈{1,2,3,4}. Klaim I: range adalah (13.000, 16.000, 19.000, 22.000). Klaim II: pembayaran Rp28.000,00 berarti pemakaian 6 jam dan masih dalam domain. Pernyataan yang tepat adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Klaim I benar dan Klaim II benar"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Klaim I benar dan Klaim II salah"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Klaim I salah dan Klaim II benar"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Kedua klaim salah"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "B"
+      },
+      "explanation": {
+        "text": "Hitung f(1)..f(4); range klaim benar bila tanpa kesalahan pada f(1). Klaim I: True. Pembayaran setara 6 jam; domain 1..4, sehingga Klaim II: False."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 13,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "30a8f35cdec7ec33",
+        "originalVersion": 1,
+        "cognitiveLevel": "C5",
+        "localQuestionId": "tryout-1-b2-q05",
+        "sourceChapter": 2,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b2-q06",
+      "type": "MULTIPLE_CHOICE_MULTIPLE_ANSWER",
+      "chapterCode": "CH-ALG",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Harga sewa 2 stel Busana A dan 3 stel Busana B adalah Rp210.000,00. Harga 4 stel Busana A dan 1 stel Busana B adalah Rp270.000,00. Pilih semua pernyataan yang benar!"
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Harga 1 stel Busana A adalah Rp60.000,00."
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Harga 1 stel Busana B adalah Rp30.000,00."
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Selisih harga kedua busana adalah Rp30.000,00."
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Total biaya 2 Busana A dan 2 Busana B adalah Rp180.000,00."
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "explanation": {
+        "text": "SPLDV 2A+3B=210.000, 4A+B=270.000 memiliki solusi A=60.000, B=30.000. Selisih 30.000; biaya 2A+2B=180.000. Keempat pernyataan benar."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 14,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "a38c5ad1a247dc39",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b2-q06",
+        "sourceChapter": 2,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b2-q07",
+      "type": "CATEGORY",
+      "chapterCode": "CH-ALG",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Setoran pertama minggu ke-1 sebesar Rp20.000,00. Setoran bertambah Rp5.000,00 setiap minggu hingga minggu ke-5. Tentukan Benar atau Salah untuk setiap pernyataan!"
+      },
+      "options": [
+        {
+          "id": "1",
+          "content": {
+            "text": "Setoran minggu ke-5 adalah Rp40.000,00."
+          }
+        },
+        {
+          "id": "2",
+          "content": {
+            "text": "Total tabungan selama 5 minggu adalah Rp150.000,00."
+          }
+        },
+        {
+          "id": "3",
+          "content": {
+            "text": "Rata-rata setoran per minggu adalah Rp30.000,00."
+          }
+        }
+      ],
+      "answer": {
+        "categoryByStatementId": {
+          "1": "TRUE",
+          "2": "TRUE",
+          "3": "TRUE"
+        }
+      },
+      "explanation": {
+        "text": "U_n=a+(n−1)d=40.000. S_n=n(a+U_n)/2=150.000. Rata-rata S_n/n=30.000. Ketiganya benar."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 15,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "f47d17b1fd0aab30",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b2-q07",
+        "sourceChapter": 2,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [],
+        "categories": [
+          {
+            "id": "TRUE",
+            "label": "Benar"
+          },
+          {
+            "id": "FALSE",
+            "label": "Salah"
+          }
+        ]
+      }
+    },
+    {
+      "externalId": "tryout-1-b2-q08",
+      "type": "CATEGORY",
+      "chapterCode": "CH-ALG",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Diberikan P=4(x+3)−2(x−5) dan Q=2x+22. Tentukan Benar atau Salah untuk setiap pernyataan analisis!"
+      },
+      "options": [
+        {
+          "id": "1",
+          "content": {
+            "text": "P ekuivalen dengan Q untuk semua nilai x."
+          }
+        },
+        {
+          "id": "2",
+          "content": {
+            "text": "Distributif pada P menghasilkan 4x+12−2x−10."
+          }
+        },
+        {
+          "id": "3",
+          "content": {
+            "text": "Jika x=3, maka P=28."
+          }
+        }
+      ],
+      "answer": {
+        "categoryByStatementId": {
+          "1": "TRUE",
+          "2": "FALSE",
+          "3": "TRUE"
+        }
+      },
+      "explanation": {
+        "text": "−2(x−5)=−2x+10, bukan −2x−10. P=(4−2)x+12+10=2x+22=Q. Substitusi x=3 memberi 28."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 16,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "1deb00c317c5b12d",
+        "originalVersion": 1,
+        "cognitiveLevel": "C5",
+        "localQuestionId": "tryout-1-b2-q08",
+        "sourceChapter": 2,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [],
+        "categories": [
+          {
+            "id": "TRUE",
+            "label": "Benar"
+          },
+          {
+            "id": "FALSE",
+            "label": "Salah"
+          }
+        ]
+      }
+    },
+    {
+      "externalId": "tryout-1-b3-q01",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-GP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Titik A(2, -3) dicerminkan terhadap y=x, kemudian ditranslasikan oleh T=(4, -2). Koordinat bayangan akhir adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "(1, 0)"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "(-1, 0)"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "(1, -5)"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "(5, -1)"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "A"
+      },
+      "explanation": {
+        "text": "Refleksi y=x menukar koordinat menjadi (-3, 2). Translasi memberi (-3+4, 2+-2)=(1, 0)."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 17,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "c478b73cb73f8bf4",
+        "originalVersion": 1,
+        "cognitiveLevel": "C3",
+        "localQuestionId": "tryout-1-b3-q01",
+        "sourceChapter": 3,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b3-q02",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-GP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "[[asset:diagram-1]]\n\nTaman merupakan gabungan persegi panjang berukuran 20 m × 14 m dan setengah lingkaran pada sisi lebarnya (14 m). Luas total taman adalah .... (π=22/7)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "357 m²"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "434 m²"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "318,5 m²"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "280 m²"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "A"
+      },
+      "explanation": {
+        "text": "Diameter setengah lingkaran 14, radius 7. Luas persegi panjang 280; setengah lingkaran 77; total 357 m²."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 18,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "fc70801e51373a71",
+        "originalVersion": 1,
+        "cognitiveLevel": "C3",
+        "localQuestionId": "tryout-1-b3-q02",
+        "sourceChapter": 3,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [
+          {
+            "externalId": "tryout-1-b3-q02",
+            "assetId": "diagram-1",
+            "textMarker": "[[asset:diagram-1]]",
+            "placement": "STEM",
+            "itemId": null,
+            "assetOrder": 1,
+            "altText": "Taman persegi panjang 20 m kali 14 m dengan setengah lingkaran pada sisi lebarnya.",
+            "objectKey": null,
+            "sha256": "b7b37ff8a9099a9e3cf6b2fe4f8e282feafe3708d79c6180f0ce3e8af9c2ead9",
+            "contentType": "image/png",
+            "byteLength": 153040,
+            "bucket": "numora-bucket"
+          }
+        ],
+        "imageMappingReview": {
+          "sourceDocxSha256": "6559a1a47cadbee04f87b5d664373233db0c93797c4d62418eda2e34ec846da4",
+          "facts": [
+            "20",
+            "14",
+            "setengah lingkaran"
+          ],
+          "review": "Visual diagram + source paragraph + local effective stem checked; no changed diagram numbers",
+          "date": "2026-10-26"
+        }
+      }
+    },
+    {
+      "externalId": "tryout-1-b3-q03",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-GP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "[[asset:diagram-1]]\n\nDua garis sejajar dipotong transversal. Sudut berseberangan dalam adalah (3x+15)° dan (5x−25)°. Sudut ini sehadap dengan sudut pertama segitiga; sudut kedua 50°. Besar sudut ketiga adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "55°"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "65°"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "75°"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "105°"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "A"
+      },
+      "explanation": {
+        "text": "Sudut berseberangan dalam sama: 3x+15=5x−25, sehingga x=20, sudut=75°. Sudut ketiga=180−75−50=55°."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 19,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "4f3b20419ba070e3",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b3-q03",
+        "sourceChapter": 3,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [
+          {
+            "externalId": "tryout-1-b3-q03",
+            "assetId": "diagram-1",
+            "textMarker": "[[asset:diagram-1]]",
+            "placement": "STEM",
+            "itemId": null,
+            "assetOrder": 1,
+            "altText": "Diagram dua garis sejajar yang dipotong transversal serta segitiga dengan dua sudut diketahui.",
+            "objectKey": null,
+            "sha256": "1a4995f7cc1a2e58aa4e03d4d4a28e82f4615ab36a8ea4df4539c76f1646ca99",
+            "contentType": "image/png",
+            "byteLength": 96338,
+            "bucket": "numora-bucket"
+          }
+        ],
+        "imageMappingReview": {
+          "sourceDocxSha256": "6559a1a47cadbee04f87b5d664373233db0c93797c4d62418eda2e34ec846da4",
+          "facts": [
+            "3x+15",
+            "5x-25",
+            "50"
+          ],
+          "review": "Visual diagram + source paragraph + local effective stem checked; no changed diagram numbers",
+          "date": "2026-10-26"
+        }
+      }
+    },
+    {
+      "externalId": "tryout-1-b3-q04",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-GP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "[[asset:diagram-1]]\n\nLimas segi empat beraturan terbalik memiliki rusuk alas 12 cm dan tinggi 18 cm. Air mencapai 2/3 dari tinggi wadah, diukur dari puncak bawah. Volume air adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "256 cm³"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "384 cm³"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "576 cm³"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "864 cm³"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "A"
+      },
+      "explanation": {
+        "text": "Limas air sebangun dengan skala 2/3. Rusuk air 8 cm, tinggi air 12 cm. Volume total 864; volume air=(2/3)³×864=256 cm³."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 20,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "76fa77db7daa30c3",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b3-q04",
+        "sourceChapter": 3,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [
+          {
+            "externalId": "tryout-1-b3-q04",
+            "assetId": "diagram-1",
+            "textMarker": "[[asset:diagram-1]]",
+            "placement": "STEM",
+            "itemId": null,
+            "assetOrder": 1,
+            "altText": "Limas segi empat terbalik berisi air sampai dua pertiga tinggi total.",
+            "objectKey": null,
+            "sha256": "091d5665202e0b628b24fb33488a4bde9d5aa130ba8ea7b99df5341e3646430c",
+            "contentType": "image/png",
+            "byteLength": 165569,
+            "bucket": "numora-bucket"
+          }
+        ],
+        "imageMappingReview": {
+          "sourceDocxSha256": "6559a1a47cadbee04f87b5d664373233db0c93797c4d62418eda2e34ec846da4",
+          "facts": [
+            "12",
+            "18",
+            "2/3"
+          ],
+          "review": "Visual diagram + source paragraph + local effective stem checked; no changed diagram numbers",
+          "date": "2026-10-26"
+        }
+      }
+    },
+    {
+      "externalId": "tryout-1-b3-q05",
+      "type": "MULTIPLE_CHOICE_MULTIPLE_ANSWER",
+      "chapterCode": "CH-GP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Foto ditempel pada karton berukuran 40 cm × 60 cm (lebar × tinggi). Sisa kiri, kanan dan atas masing-masing 4 cm. Foto dan karton sebangun. Pilih semua pernyataan yang benar!"
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Tinggi foto adalah 48 cm."
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Sisa karton bagian bawah adalah 8 cm."
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Perbandingan luas foto dan karton adalah 16:25."
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Luas sisa karton adalah 960 cm²."
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "explanation": {
+        "text": "Lebar foto 32; tinggi=60×32/40=48. Bawah=60−48−4=8. Rasio luas 16:25. Sisa luas sebenarnya 864, bukan 960."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 21,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "65e93ff7bdfe915d",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b3-q05",
+        "sourceChapter": 3,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b3-q06",
+      "type": "MULTIPLE_CHOICE_MULTIPLE_ANSWER",
+      "chapterCode": "CH-GP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "[[asset:diagram-1]]\n\nRancangan A: tabung radius 7 dm, tinggi 10 dm ditutup kubah setengah bola radius 7 dm. Rancangan B: balok 15 dm × 12 dm × 12 dm. Gunakan π=22/7; 1 dm³=1 liter. Pilih semua pernyataan yang benar! Nilai desimal dibulatkan dua angka di belakang koma."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Total kapasitas A lebih besar daripada B."
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Selisih kapasitas A dan B adalah 98,67 liter."
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Kubah setengah bola A menampung lebih dari 750 liter."
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Volume bagian tabung A lebih kecil daripada kapasitas B."
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "explanation": {
+        "text": "V_tabung=1.540; V_kubah=2πr³/3≈718,67; total A≈2.258,67; balok B=2.160. Tabung<B<total A; selisih dibulatkan=98,67. Kubah<750."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 22,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "d6769944ee97d56c",
+        "originalVersion": 1,
+        "cognitiveLevel": "C5",
+        "localQuestionId": "tryout-1-b3-q06",
+        "sourceChapter": 3,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [
+          {
+            "externalId": "tryout-1-b3-q06",
+            "assetId": "diagram-1",
+            "textMarker": "[[asset:diagram-1]]",
+            "placement": "STEM",
+            "itemId": null,
+            "assetOrder": 1,
+            "altText": "Dua rancangan penampung: tabung berkubah setengah bola dan balok, dengan ukuran dalam desimeter.",
+            "objectKey": null,
+            "sha256": "4af6b6b0f8a2049c204b82e897ed71eb7fba3866dab448871446c09102e75308",
+            "contentType": "image/png",
+            "byteLength": 281934,
+            "bucket": "numora-bucket"
+          }
+        ],
+        "imageMappingReview": {
+          "sourceDocxSha256": "6559a1a47cadbee04f87b5d664373233db0c93797c4d62418eda2e34ec846da4",
+          "facts": [
+            "7",
+            "10",
+            "15",
+            "12"
+          ],
+          "review": "Visual diagram + source paragraph + local effective stem checked; no changed diagram numbers",
+          "date": "2026-10-26"
+        }
+      }
+    },
+    {
+      "externalId": "tryout-1-b3-q07",
+      "type": "CATEGORY",
+      "chapterCode": "CH-GP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Segitiga PQR memiliki P(2, 1), Q(6, 1), R(2, 4). Dilatasi terhadap O(0,0) dengan skala k=-2 menghasilkan P′Q′R′. Tentukan Benar atau Salah setiap pernyataan!"
+      },
+      "options": [
+        {
+          "id": "1",
+          "content": {
+            "text": "Bayangan R adalah R′(-4, -8)."
+          }
+        },
+        {
+          "id": "2",
+          "content": {
+            "text": "Luas bayangan adalah 2 kali luas awal."
+          }
+        },
+        {
+          "id": "3",
+          "content": {
+            "text": "Panjang Q′R′ adalah 10 satuan."
+          }
+        }
+      ],
+      "answer": {
+        "categoryByStatementId": {
+          "1": "TRUE",
+          "2": "FALSE",
+          "3": "TRUE"
+        }
+      },
+      "explanation": {
+        "text": "R′=kR=(-4, -8). Luas awal 6, bayangan 24 (faktor k²), bukan 2. Kaki 4/3 memiliki sisi miring 5×1; bayangannya 10."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 23,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "959a2ea1136045e2",
+        "originalVersion": 1,
+        "cognitiveLevel": "C5",
+        "localQuestionId": "tryout-1-b3-q07",
+        "sourceChapter": 3,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [],
+        "categories": [
+          {
+            "id": "TRUE",
+            "label": "Benar"
+          },
+          {
+            "id": "FALSE",
+            "label": "Salah"
+          }
+        ]
+      }
+    },
+    {
+      "externalId": "tryout-1-b4-q01",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-DP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Perhatikan data nilai: 70, 80, 75, 80, 85. Nilai yang paling sering muncul adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "70"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "75"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "80"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "85"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "C"
+      },
+      "explanation": {
+        "text": "Nilai 80 muncul dua kali, sedangkan 70, 75, 85 masing-masing sekali. Modus tunggal adalah 80."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 24,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "773baead212c678f",
+        "originalVersion": 1,
+        "cognitiveLevel": "C3",
+        "localQuestionId": "tryout-1-b4-q01",
+        "sourceChapter": 4,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b4-q02",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-DP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Sebuah dadu fair bersisi enam dilempar satu kali. Peluang munculnya mata dadu 3 adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "1 dari 2"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "1 dari 6"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "2 dari 6"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "3 dari 6"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "B"
+      },
+      "explanation": {
+        "text": "  Sebuah dadu memiliki 6 kemungkinan hasil, yaitu 1, 2, 3, 4, 5, dan 6. Hanya ada 1 hasil yang berupa angka 3.\nJadi, peluang muncul angka 3 adalah 1 dari 6."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 25,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "4d98173d3eeae548",
+        "originalVersion": 1,
+        "cognitiveLevel": "C3",
+        "localQuestionId": "tryout-1-b4-q02",
+        "sourceChapter": 4,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b4-q03",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-DP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Frekuensi waktu belajar harian: 1 jam=3 siswa; 2 jam=5; 3 jam=8; 4 jam=3; 5 jam=1. Efektif berarti waktu belajar ≥ rata-rata kelompok. Persentase siswa efektif adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "40%"
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "50%"
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "60%"
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "70%"
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "C"
+      },
+      "explanation": {
+        "text": "Jumlah siswa 20, jumlah jam tertimbang 54. Rata-rata exact=54/20 (nilai tampilan≈2,7); klasifikasi memakai pecahan exact. Siswa efektif 12; persentase=12/20×100%=60%."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 26,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "17ebe61afed30e3e",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b4-q03",
+        "sourceChapter": 4,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b4-q04",
+      "type": "SINGLE_CHOICE",
+      "chapterCode": "CH-DP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Ringkasan nilai kelas X: rata-rata 78, jangkauan 12, tertinggi 84, median 78. Kelas Y: rata-rata 78, jangkauan 25, tertinggi 90, median 75. Kesimpulan yang tepat adalah ...."
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Nilai siswa Kelas Y memiliki rentang lebih sempit karena nilai tertingginya lebih tinggi."
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Kelas X memiliki rentang nilai lebih sempit karena selisih nilai maksimum dan minimum lebih kecil."
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Separuh siswa Kelas Y pasti memperoleh nilai di atas 78, sedangkan separuh siswa X di bawah 75."
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Rata-rata kedua kelas sama, sehingga sebaran nilai individual dipastikan identik."
+          }
+        }
+      ],
+      "answer": {
+        "optionId": "B"
+      },
+      "explanation": {
+        "text": "Jangkauan adalah maksimum−minimum. Kelas X memiliki jangkauan 12, Y 25; rentang kelas X lebih sempit. Range saja tidak membuktikan variance lebih kecil."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 27,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "72ac1cd459657498",
+        "originalVersion": 2,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b4-q04",
+        "sourceChapter": 4,
+        "sourcePackage": "tryout-1",
+        "assetManifest": []
+      }
+    },
+    {
+      "externalId": "tryout-1-b4-q05",
+      "type": "MULTIPLE_CHOICE_MULTIPLE_ANSWER",
+      "chapterCode": "CH-DP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "[[asset:diagram-1]]\n\nDua dadu fair bermuka enam dilempar bersama sebanyak 180 kali. Pilih semua pernyataan yang benar berdasarkan peluang dan frekuensi harapan!"
+      },
+      "options": [
+        {
+          "id": "A",
+          "content": {
+            "text": "Peluang jumlah 7 adalah 1/6."
+          }
+        },
+        {
+          "id": "B",
+          "content": {
+            "text": "Peluang kedua dadu kembar adalah 1/12."
+          }
+        },
+        {
+          "id": "C",
+          "content": {
+            "text": "Frekuensi harapan jumlah 10 atau lebih adalah 30 kali."
+          }
+        },
+        {
+          "id": "D",
+          "content": {
+            "text": "Frekuensi harapan jumlah bilangan prima adalah 75 kali."
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "explanation": {
+        "text": "Ada 36 pasangan. Jumlah7:6 pasangan (1/6); kembar:6 pasangan (1/6, bukan1/12). Jumlah≥10: 6 pasangan, harapan 30. Jumlah prima2,3,5,7,11:15 pasangan, harapan 75."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 28,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "c566f2ba613cfb43",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b4-q05",
+        "sourceChapter": 4,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [
+          {
+            "externalId": "tryout-1-b4-q05",
+            "assetId": "diagram-1",
+            "textMarker": "[[asset:diagram-1]]",
+            "placement": "STEM",
+            "itemId": null,
+            "assetOrder": 1,
+            "altText": "Dua dadu bermuka enam untuk percobaan sebanyak 180 kali.",
+            "objectKey": null,
+            "sha256": "dcb00140beac8f2e3084e2f32bf2658b769d5b8f8b319581c3af0ca8294e7568",
+            "contentType": "image/png",
+            "byteLength": 128743,
+            "bucket": "numora-bucket"
+          }
+        ],
+        "imageMappingReview": {
+          "sourceDocxSha256": "6559a1a47cadbee04f87b5d664373233db0c93797c4d62418eda2e34ec846da4",
+          "facts": [
+            "180",
+            "dadu"
+          ],
+          "review": "Visual diagram + source paragraph + local effective stem checked; no changed diagram numbers",
+          "date": "2026-10-26"
+        }
+      }
+    },
+    {
+      "externalId": "tryout-1-b4-q06",
+      "type": "CATEGORY",
+      "chapterCode": "CH-DP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Sekolah memiliki 600 siswa dalam 18 kelas. Strategi1: pertanyaan mengarahkan tentang kantin kepada 30 siswa yang makan di kantin. Strategi2: memilih acak 10 siswa setiap kelas. Strategi3: menganggap jenis makanan favorit sebagai data kuantitatif kontinu. Tentukan Benar atau Salah."
+      },
+      "options": [
+        {
+          "id": "1",
+          "content": {
+            "text": "Strategi1 berpotensi bias karena pertanyaan mengarahkan dan sampel tidak mewakili siswa yang membawa bekal."
+          }
+        },
+        {
+          "id": "2",
+          "content": {
+            "text": "Strategi2 menerapkan sampel acak terstrata sehingga lebih mewakili kelompok kelas."
+          }
+        },
+        {
+          "id": "3",
+          "content": {
+            "text": "Strategi3 tepat karena jenis makanan favorit adalah kuantitatif kontinu."
+          }
+        }
+      ],
+      "answer": {
+        "categoryByStatementId": {
+          "1": "TRUE",
+          "2": "TRUE",
+          "3": "FALSE"
+        }
+      },
+      "explanation": {
+        "text": "\n1.   Evaluasi Pernyataan A:  Pertanyaan pada Strategi  1  bersifat mengarahkan responden untuk setuju ( bias ), serta mengambil sampel hanya dari siswa yang ada di kantin (mengabaikan siswa yang tidak suka ke kantin).  (BENAR)\n2.   Evaluasi Pernyataan B:  Strategi  2  mengambil perwakilan proporsional dari setiap tingkatan kelas secara acak, sehingga seluruh kelompok populasi terwakili dengan baik.  (BENAR)\n3.   Evaluasi Pernyataan C:  \"Jenis makanan favorit\" (seperti bakso, soto, nasi goreng) berbentuk kata/kategori, sehingga tergolong data kualitatif (kategori), bukan data kuantitatif kontinu.  (SALAH)\nKesalahan umum yang diantisipasi: Siswa menganggap semua data berbentuk angka atau pilihan dalam kuesioner otomatis merupakan data kuantitatif kontinu."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 29,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "fe81e8f167959949",
+        "originalVersion": 1,
+        "cognitiveLevel": "C4",
+        "localQuestionId": "tryout-1-b4-q06",
+        "sourceChapter": 4,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [],
+        "categories": [
+          {
+            "id": "TRUE",
+            "label": "Benar"
+          },
+          {
+            "id": "FALSE",
+            "label": "Salah"
+          }
+        ]
+      }
+    },
+    {
+      "externalId": "tryout-1-b4-q07",
+      "type": "CATEGORY",
+      "chapterCode": "CH-DP",
+      "subchapterCode": null,
+      "competencyCode": null,
+      "difficulty": null,
+      "stem": {
+        "text": "Tujuh bilangan bulat positif terurut adalah a, 4, 5, 6, 8, b, 12. Jangkauan 9, median 6, rata-rata 7. Tentukan Benar atau Salah setiap kesimpulan!"
+      },
+      "options": [
+        {
+          "id": "1",
+          "content": {
+            "text": "Nilai a=3 dan b=11."
+          }
+        },
+        {
+          "id": "2",
+          "content": {
+            "text": "Data memiliki modus tunggal, yaitu 6."
+          }
+        },
+        {
+          "id": "3",
+          "content": {
+            "text": "Jika maksimum (12) diganti 19, median naik 1."
+          }
+        }
+      ],
+      "answer": {
+        "categoryByStatementId": {
+          "1": "TRUE",
+          "2": "FALSE",
+          "3": "FALSE"
+        }
+      },
+      "explanation": {
+        "text": "a=12−9=3; jumlah data=7×7 sehingga b=11. Semua nilai berbeda: tidak memiliki modus tunggal. Mengganti maksimum menjadi 19 tidak mengubah data keempat/median 6."
+      },
+      "metadata": {
+        "sourceLevelNumber": null,
+        "sourceOrder": 30,
+        "source": "Numora-ai-service effective local Tryout originals",
+        "originalHash": "50ba12193b50fd3c",
+        "originalVersion": 1,
+        "cognitiveLevel": "C5",
+        "localQuestionId": "tryout-1-b4-q07",
+        "sourceChapter": 4,
+        "sourcePackage": "tryout-1",
+        "assetManifest": [],
+        "categories": [
+          {
+            "id": "TRUE",
+            "label": "Benar"
+          },
+          {
+            "id": "FALSE",
+            "label": "Salah"
+          }
+        ]
+      }
+    }
+  ],
+  "media": [
+    {
+      "externalId": "tryout-1-b3-q02",
+      "assetId": "diagram-1",
+      "textMarker": "[[asset:diagram-1]]",
+      "placement": "STEM",
+      "itemId": null,
+      "assetOrder": 1,
+      "altText": "Taman persegi panjang 20 m kali 14 m dengan setengah lingkaran pada sisi lebarnya.",
+      "objectKey": null,
+      "sha256": "b7b37ff8a9099a9e3cf6b2fe4f8e282feafe3708d79c6180f0ce3e8af9c2ead9",
+      "contentType": "image/png",
+      "byteLength": 153040,
+      "bucket": "numora-bucket",
+      "contentVersion": 1,
+      "filePath": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-03/soal-02/image-01.png"
+    },
+    {
+      "externalId": "tryout-1-b3-q03",
+      "assetId": "diagram-1",
+      "textMarker": "[[asset:diagram-1]]",
+      "placement": "STEM",
+      "itemId": null,
+      "assetOrder": 1,
+      "altText": "Diagram dua garis sejajar yang dipotong transversal serta segitiga dengan dua sudut diketahui.",
+      "objectKey": null,
+      "sha256": "1a4995f7cc1a2e58aa4e03d4d4a28e82f4615ab36a8ea4df4539c76f1646ca99",
+      "contentType": "image/png",
+      "byteLength": 96338,
+      "bucket": "numora-bucket",
+      "contentVersion": 1,
+      "filePath": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-03/soal-03/image-01.png"
+    },
+    {
+      "externalId": "tryout-1-b3-q04",
+      "assetId": "diagram-1",
+      "textMarker": "[[asset:diagram-1]]",
+      "placement": "STEM",
+      "itemId": null,
+      "assetOrder": 1,
+      "altText": "Limas segi empat terbalik berisi air sampai dua pertiga tinggi total.",
+      "objectKey": null,
+      "sha256": "091d5665202e0b628b24fb33488a4bde9d5aa130ba8ea7b99df5341e3646430c",
+      "contentType": "image/png",
+      "byteLength": 165569,
+      "bucket": "numora-bucket",
+      "contentVersion": 1,
+      "filePath": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-03/soal-04/image-01.png"
+    },
+    {
+      "externalId": "tryout-1-b3-q06",
+      "assetId": "diagram-1",
+      "textMarker": "[[asset:diagram-1]]",
+      "placement": "STEM",
+      "itemId": null,
+      "assetOrder": 1,
+      "altText": "Dua rancangan penampung: tabung berkubah setengah bola dan balok, dengan ukuran dalam desimeter.",
+      "objectKey": null,
+      "sha256": "4af6b6b0f8a2049c204b82e897ed71eb7fba3866dab448871446c09102e75308",
+      "contentType": "image/png",
+      "byteLength": 281934,
+      "bucket": "numora-bucket",
+      "contentVersion": 1,
+      "filePath": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-03/soal-06/image-01.png"
+    },
+    {
+      "externalId": "tryout-1-b4-q05",
+      "assetId": "diagram-1",
+      "textMarker": "[[asset:diagram-1]]",
+      "placement": "STEM",
+      "itemId": null,
+      "assetOrder": 1,
+      "altText": "Dua dadu bermuka enam untuk percobaan sebanyak 180 kali.",
+      "objectKey": null,
+      "sha256": "dcb00140beac8f2e3084e2f32bf2658b769d5b8f8b319581c3af0ca8294e7568",
+      "contentType": "image/png",
+      "byteLength": 128743,
+      "bucket": "numora-bucket",
+      "contentVersion": 1,
+      "filePath": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-04/soal-05/image-01.png"
+    }
+  ],
+  "approval": {
+    "date": "2026-10-26",
+    "userInstruction": "Unggah 5 gambar dan impor 30 soal sebagai DRAFT",
+    "publishApproved": false
+  },
+  "localOriginalSha256": {
+    "variant_gen/data/tryout-1/original_revisions.jsonl": "e2a6207f0ed4e3215fc8afae9e1c3cb7243a554a336a868d2962801080de180d",
+    "variant_gen/data/tryout-1/q0_bank.csv": "67e422d8536048b6d1c0148ab4c4a8d136cde39250716d99b22e4e14f431ea45",
+    "variant_gen/data/tryout-1/question_catalog.json": "afe8b6b14bf55001718d11fb7fbf09da881d24a3bbce951c7425553f027e14c4",
+    "variant_gen/data/tryout-1/question_metadata.json": "7d232e7a3d54f29617add4887610392c058b367edef9bece1f63af4b709beb6c",
+    "variant_gen/data/tryout-1/source.docx": "64f0d359b2507038b80d0b829e4df7a402eed7a6ac3bbea7a2ac06f9036bcb2f"
+  }
+}

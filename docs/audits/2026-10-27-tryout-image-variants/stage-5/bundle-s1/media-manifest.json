@@ -1,0 +1,1169 @@
+{
+  "assets": [
+    {
+      "alt_text": "Taman gabungan persegi panjang 56 m kali 14 m dan setengah lingkaran berdiameter 14 m. Gambar skematis, tidak berskala.",
+      "asset_id": "diagram-1",
+      "asset_identity": "118f17bf7aee066a6a6e47b8984fc41cbed71cb980d4bb7806bf09eaa3b42d59",
+      "asset_order": 1,
+      "byte_length": 133033,
+      "config_hash": "86800608303776b9",
+      "config_version": 1,
+      "height": 240,
+      "image_provenance": {
+        "alt_text": "Taman gabungan persegi panjang 56 m kali 14 m dan setengah lingkaran berdiameter 14 m. Gambar skematis, tidak berskala.",
+        "artifact_id": "221098b34c80f008f137767733d1f699c2efa73173d8de0df0583a303c04dd4d",
+        "base_sha256": "28ca1449d6473df418db50d56809bef2bf3b6ff6298ba00e073c34b32db47701",
+        "bindings": {
+          "p": {
+            "denominator": 1,
+            "numerator": 56
+          },
+          "r": {
+            "denominator": 1,
+            "numerator": 7
+          },
+          "width": {
+            "denominator": 1,
+            "numerator": 14
+          }
+        },
+        "bindings_sha256": "741d8ea9a5d315ee25e0f490315dc610191d3b1b5a98202033482c2630880327",
+        "byte_length": 133033,
+        "definition_sha256": "fb30bc493452708f3943e3447b803b65f59acc67c5790ec91a1e512af16cbca4",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 240,
+        "png_sha256": "92a3d6c175d9a81f5739975648e4b23f05140ba3c2ce14c083f223a2ebc6bb00",
+        "question_id": "tryout-1-b3-q02",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "b7b37ff8a9099a9e3cf6b2fe4f8e282feafe3708d79c6180f0ce3e8af9c2ead9",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "3c543e42cc756a3e9c2885109ed5da557730586370b13d54233381cf88066ed1",
+        "template_version": 1,
+        "width": 489
+      },
+      "item_id": null,
+      "original_hash": "fc70801e51373a71",
+      "original_version": 1,
+      "path": "images/92a3d6c175d9a81f5739975648e4b23f05140ba3c2ce14c083f223a2ebc6bb00.png",
+      "placement": "STEM",
+      "question_id": "tryout-1-b3-q02",
+      "record_content_sha256": "5660b7c3fb163c03f6b8b8cb6c476f106cc2b23530d5a658e2f6b412a2bc272b",
+      "record_id": "tryout-1-b3-q02:s1:v1",
+      "scene": {
+        "alt_text": "Taman gabungan persegi panjang 56 m kali 14 m dan setengah lingkaran berdiameter 14 m. Gambar skematis, tidak berskala.",
+        "bindings": [
+          [
+            "p",
+            56
+          ],
+          [
+            "r",
+            7
+          ],
+          [
+            "width",
+            14
+          ]
+        ],
+        "geometry": null,
+        "labels": [
+          {
+            "box": [
+              164,
+              221,
+              239,
+              240
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 17,
+            "id": "length",
+            "ink_box": [
+              359,
+              448,
+              447,
+              473
+            ],
+            "position": [
+              359,
+              441
+            ],
+            "text": "56 m"
+          },
+          {
+            "box": [
+              4,
+              103,
+              54,
+              132
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 16,
+            "id": "width",
+            "ink_box": [
+              17,
+              223,
+              98,
+              246
+            ],
+            "position": [
+              17,
+              216
+            ],
+            "text": "14 m"
+          },
+          {
+            "box": [
+              351,
+              223,
+              488,
+              240
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 7,
+            "id": "schematic",
+            "ink_box": [
+              720,
+              457,
+              957,
+              469
+            ],
+            "position": [
+              720,
+              455
+            ],
+            "text": "Gambar skematis, tidak berskala."
+          }
+        ],
+        "template_sha256": "3c543e42cc756a3e9c2885109ed5da557730586370b13d54233381cf88066ed1"
+      },
+      "seed": 1,
+      "sha256": "92a3d6c175d9a81f5739975648e4b23f05140ba3c2ce14c083f223a2ebc6bb00",
+      "status": "LOCAL_RENDERED",
+      "text_marker": "[[asset:diagram-1]]",
+      "variant_ver": 1,
+      "width": 489
+    },
+    {
+      "alt_text": "Dua garis sejajar g dan h dipotong transversal t. Sudut berseberangan dalam (4x+17)° dan (8x−51)°. Segitiga ABC memiliki sudut A (4x+17)°, sudut B 70°, dan sudut C ditanyakan. Gambar skematis, tidak berskala.",
+      "asset_id": "diagram-1",
+      "asset_identity": "0fa9a3b29d895ecebdcc68ab42fa5749b047caef82827b215384b0e23fe060e4",
+      "asset_order": 1,
+      "byte_length": 87721,
+      "config_hash": "9f81be48a98ea413",
+      "config_version": 1,
+      "height": 318,
+      "image_provenance": {
+        "alt_text": "Dua garis sejajar g dan h dipotong transversal t. Sudut berseberangan dalam (4x+17)° dan (8x−51)°. Segitiga ABC memiliki sudut A (4x+17)°, sudut B 70°, dan sudut C ditanyakan. Gambar skematis, tidak berskala.",
+        "artifact_id": "22ed04e6d2b9c62f1f34e5e5980404cf90b2ec9c22371764fce15a22506a88db",
+        "base_sha256": "744275f7f81e0c5bc60d0b4754b298cc2d67dbe6112ee6eccc8bb292e0d6d055",
+        "bindings": {
+          "a": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "b": {
+            "denominator": 1,
+            "numerator": 17
+          },
+          "c": {
+            "denominator": 1,
+            "numerator": 8
+          },
+          "offset": {
+            "denominator": 1,
+            "numerator": 51
+          },
+          "other": {
+            "denominator": 1,
+            "numerator": 70
+          }
+        },
+        "bindings_sha256": "f56a3f8e9d00d48eedf0d4f658134acaf40e216cbe82c44fbf6969ee015ae7cf",
+        "byte_length": 87721,
+        "definition_sha256": "9280dadaf754379002c90e0bac03532861b19d54fe4abf7cce1ab8b57b108f63",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 318,
+        "png_sha256": "9c53a78f4cc5a8474c6d328e7f067c1439a7a209c748b93316e5b9e275df316f",
+        "question_id": "tryout-1-b3-q03",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "1a4995f7cc1a2e58aa4e03d4d4a28e82f4615ab36a8ea4df4539c76f1646ca99",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "ac27c7916fe72473f6f6d892b651e8260928a84fa6105350d593140daa3db35e",
+        "template_version": 1,
+        "width": 648
+      },
+      "item_id": null,
+      "original_hash": "4f3b20419ba070e3",
+      "original_version": 1,
+      "path": "images/9c53a78f4cc5a8474c6d328e7f067c1439a7a209c748b93316e5b9e275df316f.png",
+      "placement": "STEM",
+      "question_id": "tryout-1-b3-q03",
+      "record_content_sha256": "dd8d577c3e7408992b2e90124b0115396f8235107d86fea4d0c19a362adadfc8",
+      "record_id": "tryout-1-b3-q03:s1:v1",
+      "scene": {
+        "alt_text": "Dua garis sejajar g dan h dipotong transversal t. Sudut berseberangan dalam (4x+17)° dan (8x−51)°. Segitiga ABC memiliki sudut A (4x+17)°, sudut B 70°, dan sudut C ditanyakan. Gambar skematis, tidak berskala.",
+        "bindings": [
+          [
+            "a",
+            4
+          ],
+          [
+            "b",
+            17
+          ],
+          [
+            "c",
+            8
+          ],
+          [
+            "offset",
+            51
+          ],
+          [
+            "other",
+            70
+          ]
+        ],
+        "geometry": null,
+        "labels": [
+          {
+            "box": [
+              205,
+              130,
+              325,
+              166
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 19,
+            "id": "parallel_first",
+            "ink_box": [
+              442,
+              279,
+              617,
+              313
+            ],
+            "position": [
+              442,
+              272
+            ],
+            "text": "(4x+17)°"
+          },
+          {
+            "box": [
+              18,
+              171,
+              139,
+              205
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 19,
+            "id": "parallel_second",
+            "ink_box": [
+              69,
+              359,
+              244,
+              393
+            ],
+            "position": [
+              69,
+              352
+            ],
+            "text": "(8x−51)°"
+          },
+          {
+            "box": [
+              408,
+              231,
+              544,
+              262
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 19,
+            "id": "triangle_first",
+            "ink_box": [
+              864,
+              476,
+              1039,
+              510
+            ],
+            "position": [
+              864,
+              469
+            ],
+            "text": "(4x+17)°"
+          },
+          {
+            "box": [
+              546,
+              233,
+              600,
+              262
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 19,
+            "id": "triangle_second",
+            "ink_box": [
+              1112,
+              480,
+              1179,
+              509
+            ],
+            "position": [
+              1112,
+              473
+            ],
+            "text": "70°"
+          },
+          {
+            "box": [
+              5,
+              297,
+              325,
+              318
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 10,
+            "id": "schematic",
+            "ink_box": [
+              162,
+              606,
+              497,
+              624
+            ],
+            "position": [
+              162,
+              602
+            ],
+            "text": "Gambar skematis, tidak berskala."
+          }
+        ],
+        "template_sha256": "ac27c7916fe72473f6f6d892b651e8260928a84fa6105350d593140daa3db35e"
+      },
+      "seed": 1,
+      "sha256": "9c53a78f4cc5a8474c6d328e7f067c1439a7a209c748b93316e5b9e275df316f",
+      "status": "LOCAL_RENDERED",
+      "text_marker": "[[asset:diagram-1]]",
+      "variant_ver": 1,
+      "width": 648
+    },
+    {
+      "alt_text": "Limas segi empat beraturan terbalik dengan rusuk alas 9 cm dan tinggi total 27 cm. Air mencapai 1/3 tinggi total diukur dari puncak bawah. Posisi air mengikuti pecahan tersebut. Gambar skematis, tidak berskala.",
+      "asset_id": "diagram-1",
+      "asset_identity": "b64ccdb5a6d93cbf1de0d6aa9d8da4ac696c15a98d099bdda1210e168ae68fe9",
+      "asset_order": 1,
+      "byte_length": 58398,
+      "config_hash": "15bee72d98726032",
+      "config_version": 1,
+      "height": 313,
+      "image_provenance": {
+        "alt_text": "Limas segi empat beraturan terbalik dengan rusuk alas 9 cm dan tinggi total 27 cm. Air mencapai 1/3 tinggi total diukur dari puncak bawah. Posisi air mengikuti pecahan tersebut. Gambar skematis, tidak berskala.",
+        "artifact_id": "2b11e48f74f70a6f5d3bd111eaaa10482bb85bab025d8e3a3952dd6ced7d9fba",
+        "base_sha256": "289ec65c4be3d58c32e81695d84ba4f640275c5765188da9d5f4c0159a181c10",
+        "bindings": {
+          "h": {
+            "denominator": 1,
+            "numerator": 27
+          },
+          "p": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "q": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "ratio": {
+            "denominator": 3,
+            "numerator": 1
+          },
+          "s": {
+            "denominator": 1,
+            "numerator": 9
+          }
+        },
+        "bindings_sha256": "102c592664fb002b52cb6af5cb890f176cafcf2b83dbaa6e6ffe7fccd2a870fe",
+        "byte_length": 58398,
+        "definition_sha256": "ebeba339f6ba75f8131be864a2fdf954546a0dcb9e0b23aad204b02359f37cc9",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 313,
+        "png_sha256": "78b39e0763b6858892ccbf0d20e45528e713263f11ffdd98ad10e678dad89402",
+        "question_id": "tryout-1-b3-q04",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "091d5665202e0b628b24fb33488a4bde9d5aa130ba8ea7b99df5341e3646430c",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "1a207efe63d249e2efc6e3ff1a5912ba85058a937d5b714a0b4544fe8e7752dc",
+        "template_version": 1,
+        "width": 653
+      },
+      "item_id": null,
+      "original_hash": "76fa77db7daa30c3",
+      "original_version": 1,
+      "path": "images/78b39e0763b6858892ccbf0d20e45528e713263f11ffdd98ad10e678dad89402.png",
+      "placement": "STEM",
+      "question_id": "tryout-1-b3-q04",
+      "record_content_sha256": "68852fb1235b1f10e6f69fc9925de969d319536af4f3fab4e6242c2dd8b07deb",
+      "record_id": "tryout-1-b3-q04:s1:v1",
+      "scene": {
+        "alt_text": "Limas segi empat beraturan terbalik dengan rusuk alas 9 cm dan tinggi total 27 cm. Air mencapai 1/3 tinggi total diukur dari puncak bawah. Posisi air mengikuti pecahan tersebut. Gambar skematis, tidak berskala.",
+        "bindings": [
+          [
+            "s",
+            9
+          ],
+          [
+            "h",
+            27
+          ],
+          [
+            "p",
+            1
+          ],
+          [
+            "q",
+            3
+          ],
+          [
+            "ratio",
+            {
+              "denominator": 3,
+              "numerator": 1
+            }
+          ]
+        ],
+        "geometry": {
+          "ratio": {
+            "denominator": 3,
+            "numerator": 1
+          },
+          "surface_center": [
+            {
+              "denominator": 12,
+              "numerator": 3965
+            },
+            {
+              "denominator": 6,
+              "numerator": 1325
+            }
+          ],
+          "water": [
+            [
+              {
+                "denominator": 3,
+                "numerator": 808
+              },
+              {
+                "denominator": 3,
+                "numerator": 689
+              }
+            ],
+            [
+              {
+                "denominator": 3,
+                "numerator": 926
+              },
+              {
+                "denominator": 3,
+                "numerator": 634
+              }
+            ],
+            [
+              {
+                "denominator": 3,
+                "numerator": 1172
+              },
+              {
+                "denominator": 3,
+                "numerator": 634
+              }
+            ],
+            [
+              {
+                "denominator": 1,
+                "numerator": 353
+              },
+              {
+                "denominator": 1,
+                "numerator": 231
+              }
+            ]
+          ]
+        },
+        "labels": [
+          {
+            "box": [
+              171,
+              19,
+              253,
+              55
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 16,
+            "id": "edge_front",
+            "ink_box": [
+              384,
+              62,
+              463,
+              85
+            ],
+            "position": [
+              384,
+              55
+            ],
+            "text": "9 cm"
+          },
+          {
+            "box": [
+              348,
+              0,
+              451,
+              26
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 16,
+            "id": "edge_back",
+            "ink_box": [
+              759,
+              14,
+              838,
+              37
+            ],
+            "position": [
+              759,
+              7
+            ],
+            "text": "9 cm"
+          },
+          {
+            "box": [
+              0,
+              150,
+              121,
+              207
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 16,
+            "id": "total_height",
+            "ink_box": [
+              29.0,
+              328,
+              213.0,
+              386
+            ],
+            "position": [
+              30.0,
+              322
+            ],
+            "text": "Tinggi total\n= 27 cm"
+          },
+          {
+            "box": [
+              493,
+              171,
+              653,
+              230
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 14,
+            "id": "water_height",
+            "ink_box": [
+              1036.0,
+              372,
+              1256.0,
+              429
+            ],
+            "position": [
+              1037.0,
+              367
+            ],
+            "text": "Tinggi air = 1/3\ndari tinggi total"
+          },
+          {
+            "box": [
+              1,
+              289,
+              233,
+              313
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 9,
+            "id": "schematic",
+            "ink_box": [
+              83,
+              594,
+              384,
+              610
+            ],
+            "position": [
+              83,
+              591
+            ],
+            "text": "Gambar skematis, tidak berskala."
+          }
+        ],
+        "template_sha256": "1a207efe63d249e2efc6e3ff1a5912ba85058a937d5b714a0b4544fe8e7752dc"
+      },
+      "seed": 1,
+      "sha256": "78b39e0763b6858892ccbf0d20e45528e713263f11ffdd98ad10e678dad89402",
+      "status": "LOCAL_RENDERED",
+      "text_marker": "[[asset:diagram-1]]",
+      "variant_ver": 1,
+      "width": 653
+    },
+    {
+      "alt_text": "Rancangan A berupa tabung berjari-jari 14 dm, diameter 28 dm, tinggi 15 dm dengan kubah setengah bola berjari-jari 14 dm. Rancangan B berupa balok 14 dm kali 27 dm kali 30 dm. Gambar skematis, tidak berskala.",
+      "asset_id": "diagram-1",
+      "asset_identity": "5d2990f7b1ee85919288b24917fc80dd72ee43a9a159ed03d1a520ab9253b096",
+      "asset_order": 1,
+      "byte_length": 251803,
+      "config_hash": "ac1b1e6799ecfcbf",
+      "config_version": 1,
+      "height": 318,
+      "image_provenance": {
+        "alt_text": "Rancangan A berupa tabung berjari-jari 14 dm, diameter 28 dm, tinggi 15 dm dengan kubah setengah bola berjari-jari 14 dm. Rancangan B berupa balok 14 dm kali 27 dm kali 30 dm. Gambar skematis, tidak berskala.",
+        "artifact_id": "bcb073855854ac5844c553630cc4ae739ea5887e4e7468ee92ae91eb7a126eb9",
+        "base_sha256": "460ef68430a78e9b3c68ed4625a585e2bb73445e9073da67d757f0b676585ef3",
+        "bindings": {
+          "diameter": {
+            "denominator": 1,
+            "numerator": 28
+          },
+          "h": {
+            "denominator": 1,
+            "numerator": 15
+          },
+          "l": {
+            "denominator": 1,
+            "numerator": 27
+          },
+          "p": {
+            "denominator": 1,
+            "numerator": 14
+          },
+          "r": {
+            "denominator": 1,
+            "numerator": 14
+          },
+          "t": {
+            "denominator": 1,
+            "numerator": 30
+          }
+        },
+        "bindings_sha256": "803214b66250680de3bbb26fa05e6cf060b134ed7f3c721e72d4537d3281e0e8",
+        "byte_length": 251803,
+        "definition_sha256": "8de9ddc3c050044ee8ad5aaff213640353f8d6ef98c229df4ce19bcb5a1756a9",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 318,
+        "png_sha256": "2323054a731d4119f44c4b5951a1ab33c344fa628d271b9b1b30acbe4fa71efb",
+        "question_id": "tryout-1-b3-q06",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "4af6b6b0f8a2049c204b82e897ed71eb7fba3866dab448871446c09102e75308",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "f0dc3035d518aeb9ec026f63e49c08925bac4bbd30d5e001500cb736e9da61ba",
+        "template_version": 1,
+        "width": 646
+      },
+      "item_id": null,
+      "original_hash": "d6769944ee97d56c",
+      "original_version": 1,
+      "path": "images/2323054a731d4119f44c4b5951a1ab33c344fa628d271b9b1b30acbe4fa71efb.png",
+      "placement": "STEM",
+      "question_id": "tryout-1-b3-q06",
+      "record_content_sha256": "1172be93456bc5133afad3b12e14263ad700bbb08fb1be9ff9f3b6800e80dd32",
+      "record_id": "tryout-1-b3-q06:s1:v1",
+      "scene": {
+        "alt_text": "Rancangan A berupa tabung berjari-jari 14 dm, diameter 28 dm, tinggi 15 dm dengan kubah setengah bola berjari-jari 14 dm. Rancangan B berupa balok 14 dm kali 27 dm kali 30 dm. Gambar skematis, tidak berskala.",
+        "bindings": [
+          [
+            "r",
+            14
+          ],
+          [
+            "h",
+            15
+          ],
+          [
+            "p",
+            14
+          ],
+          [
+            "l",
+            27
+          ],
+          [
+            "t",
+            30
+          ],
+          [
+            "diameter",
+            28
+          ]
+        ],
+        "geometry": null,
+        "labels": [
+          {
+            "box": [
+              133,
+              81,
+              201,
+              101
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 12,
+            "id": "dome_radius",
+            "ink_box": [
+              273,
+              173,
+              395,
+              191
+            ],
+            "position": [
+              273,
+              168
+            ],
+            "text": "r = 14 dm"
+          },
+          {
+            "box": [
+              134,
+              200,
+              203,
+              221
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 12,
+            "id": "cylinder_radius",
+            "ink_box": [
+              276,
+              412,
+              398,
+              430
+            ],
+            "position": [
+              276,
+              407
+            ],
+            "text": "r = 14 dm"
+          },
+          {
+            "box": [
+              65,
+              258,
+              141,
+              281
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 13,
+            "id": "diameter",
+            "ink_box": [
+              164,
+              529,
+              248,
+              549
+            ],
+            "position": [
+              164,
+              524
+            ],
+            "text": "28 dm"
+          },
+          {
+            "box": [
+              224,
+              148,
+              308,
+              173
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 13,
+            "id": "cylinder_height",
+            "ink_box": [
+              466,
+              311,
+              598,
+              331
+            ],
+            "position": [
+              466,
+              306
+            ],
+            "text": "t = 15 dm"
+          },
+          {
+            "box": [
+              387,
+              246,
+              487,
+              270
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 13,
+            "id": "box_length",
+            "ink_box": [
+              804,
+              503,
+              943,
+              528
+            ],
+            "position": [
+              804,
+              498
+            ],
+            "text": "p = 14 dm"
+          },
+          {
+            "box": [
+              548,
+              212,
+              643,
+              238
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 12,
+            "id": "box_width",
+            "ink_box": [
+              1131,
+              441,
+              1250,
+              459
+            ],
+            "position": [
+              1131,
+              436
+            ],
+            "text": "l = 27 dm"
+          },
+          {
+            "box": [
+              579,
+              104,
+              646,
+              131
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 12,
+            "id": "box_height",
+            "ink_box": [
+              1164,
+              226,
+              1285,
+              244
+            ],
+            "position": [
+              1164,
+              221
+            ],
+            "text": "t = 30 dm"
+          },
+          {
+            "box": [
+              233,
+              0,
+              381,
+              20
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 8,
+            "id": "schematic",
+            "ink_box": [
+              480,
+              13,
+              748,
+              27
+            ],
+            "position": [
+              480,
+              10
+            ],
+            "text": "Gambar skematis, tidak berskala."
+          }
+        ],
+        "template_sha256": "f0dc3035d518aeb9ec026f63e49c08925bac4bbd30d5e001500cb736e9da61ba"
+      },
+      "seed": 1,
+      "sha256": "2323054a731d4119f44c4b5951a1ab33c344fa628d271b9b1b30acbe4fa71efb",
+      "status": "LOCAL_RENDERED",
+      "text_marker": "[[asset:diagram-1]]",
+      "variant_ver": 1,
+      "width": 646
+    },
+    {
+      "alt_text": "Ilustrasi dua dadu untuk percobaan sebanyak 612 kali.",
+      "asset_id": "diagram-1",
+      "asset_identity": "033457d7f279b880b8fa6f01b1642eca8974cba05d5f1e064abb0517c562e47c",
+      "asset_order": 1,
+      "byte_length": 109995,
+      "config_hash": "7eca5ee861146f9b",
+      "config_version": 1,
+      "height": 255,
+      "image_provenance": {
+        "alt_text": "Ilustrasi dua dadu untuk percobaan sebanyak 612 kali.",
+        "artifact_id": "2b0ce4bd982f5672899c6c30b7ded016a88d515ffda689a108ba686827fa3117",
+        "base_sha256": "3ce851bc4e2b5c98ef8b4d975f2200e94bf62639d9ebe4f5d81d72d4a326b487",
+        "bindings": {
+          "times": {
+            "denominator": 1,
+            "numerator": 612
+          }
+        },
+        "bindings_sha256": "e2948b23a402c203f2828606127d8ff63565da1afc9687a6166665ed4a0cfb82",
+        "byte_length": 109995,
+        "definition_sha256": "32eaff364d0352a1d8e63e31d80a40ff8002134de7b007b0bdbe00de2a64ff57",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 255,
+        "png_sha256": "b5c5155319581ce26b1bd3d06d9636d2bd97fa35eb1c2d95416d7326f57251b9",
+        "question_id": "tryout-1-b4-q05",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "dcb00140beac8f2e3084e2f32bf2658b769d5b8f8b319581c3af0ca8294e7568",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "a1f44a1c3cce7ebedb656854c818772bbb95b23e92d41062cae6f115c5d4530f",
+        "template_version": 1,
+        "width": 292
+      },
+      "item_id": null,
+      "original_hash": "c566f2ba613cfb43",
+      "original_version": 1,
+      "path": "images/b5c5155319581ce26b1bd3d06d9636d2bd97fa35eb1c2d95416d7326f57251b9.png",
+      "placement": "STEM",
+      "question_id": "tryout-1-b4-q05",
+      "record_content_sha256": "05c0c8132804cc36db27a9595e5ca2a4fba87de5b5a99470cfa5d83b9e2ffb79",
+      "record_id": "tryout-1-b4-q05:s1:v1",
+      "scene": {
+        "alt_text": "Ilustrasi dua dadu untuk percobaan sebanyak 612 kali.",
+        "bindings": [
+          [
+            "times",
+            612
+          ]
+        ],
+        "geometry": null,
+        "labels": [
+          {
+            "box": [
+              20,
+              29,
+              74,
+              71
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 26,
+            "id": "card_count",
+            "ink_box": [
+              44,
+              80,
+              143,
+              120
+            ],
+            "position": [
+              44,
+              70
+            ],
+            "text": "612"
+          },
+          {
+            "box": [
+              85,
+              26,
+              223,
+              74
+            ],
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "font_size": 13,
+            "id": "trial_caption",
+            "ink_box": [
+              187.0,
+              74,
+              429.0,
+              126
+            ],
+            "position": [
+              187.0,
+              69
+            ],
+            "text": "Banyak Percobaan\n(n) = 612 kali"
+          }
+        ],
+        "template_sha256": "a1f44a1c3cce7ebedb656854c818772bbb95b23e92d41062cae6f115c5d4530f"
+      },
+      "seed": 1,
+      "sha256": "b5c5155319581ce26b1bd3d06d9636d2bd97fa35eb1c2d95416d7326f57251b9",
+      "status": "LOCAL_RENDERED",
+      "text_marker": "[[asset:diagram-1]]",
+      "variant_ver": 1,
+      "width": 292
+    }
+  ],
+  "bundle_id": "083125b756f4107d143ade49f3ccd824f3be1fdb6ab1ed7d9a70eff6c8e92162",
+  "package_id": "tryout-1",
+  "preview_sha256": "adff0109569924c4b63c29078f7dc71c5772ee0b64284d47b49a0498d2768fc3",
+  "questions_sha256": "a92c6f8afb33b36856b8204d997b928df2979d8f698cb67112accb2e80cde2b5",
+  "schema_version": 1,
+  "seed": 1,
+  "status": "LOCAL_RENDERED"
+}

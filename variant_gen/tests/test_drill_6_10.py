@@ -93,7 +93,7 @@ class DrillSource(unittest.TestCase):
         bank = OriginalBank(BANK)
         for qid in HOLD:
             original = bank.get(qid)
-            expected = 'HOLD_SOURCE' if qid == 'mcma-6-3-7' else 'ACTIVE'
+            expected = 'ACTIVE'
             self.assertEqual(original['metadata']['generation_status'], expected, qid)
             if expected == 'HOLD_SOURCE': self.assertTrue(original['metadata']['reason'])
             self.assertEqual(ConfigStore(ROOT / 'configs').versions(qid), [] if expected == 'HOLD_SOURCE' else [1])
@@ -124,7 +124,7 @@ class DrillGenerators(unittest.TestCase):
                 for qid in ['pg-6-1-1', 'mcma-8-1-6', 'kategori-10-1-9']:
                     for command in ['gen','gen','view']:
                         self.assertEqual(cli.main([command,qid,'s11']+args),0)
-                self.assertEqual(cli.main(['gen','mcma-6-3-7','s1']+args),1)
+                self.assertEqual(cli.main(['gen','mcma-6-3-7','s1']+args),0)
             self.assertFalse(path.exists())
 
     def test_oracle_edges(self):
@@ -148,6 +148,10 @@ class DrillGenerators(unittest.TestCase):
         configs = ConfigStore(ROOT / 'configs')
         for original in active:
             qid = original['id']
+            if qid=='mcma-6-3-7':
+                from test_held_final_revisions import check_math as check_final
+                cfg,_=configs.load(qid);check_final(qid,generate(original,cfg,11,[]).cand)
+                continue
             with self.subTest(qid=qid):
                 self.assertTrue(configs.versions(qid), 'ACTIVE question needs a recipe: ' + qid)
                 cfg, _ = configs.load(qid)

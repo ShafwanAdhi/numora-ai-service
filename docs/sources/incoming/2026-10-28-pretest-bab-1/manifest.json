@@ -1,0 +1,40 @@
+{
+  "status": "STAGED_ONLY",
+  "intake_date": "2026-10-28",
+  "source_filename": "pretest_bab1.docx",
+  "source_sha256": "9a73dad251684237fa38d34b4af9e34e83965dff9376675538719496ff2a64d2",
+  "source_size_bytes": 250206,
+  "counts": {
+    "questions": 20,
+    "paragraphs": 446,
+    "tables": 8,
+    "equations": 256,
+    "media_assets": 5,
+    "image_placements": 5,
+    "numbered_paragraphs": 40,
+    "unresolved_numbering": 0
+  },
+  "analysis_status": "NOT_STARTED",
+  "database_imported": false,
+  "files_sha256": {
+    "extracted.json": "1a13755c76ec5321dbda9b131c36f18302fc1ec6ea1588807e4692775e468e10",
+    "extracted.md": "a43543d7156a00f882383d3e1628f863ad3a81b7c1cc292d1aa22c1085dfebc8",
+    "media/image1.png": "0c6501c51ecdaa801fab00506b88831087e186df053d1a815439bbbdfcc234f8",
+    "media/image2.png": "6e7978c268a4731360cbeeccf9710f5b626f1a3969abe321852d15b5af2eb192",
+    "media/image3.png": "99fa1a727e452db0277f12f328016cfa130a393614637d0706d1f56882e862e9",
+    "media/image4.png": "e87df07eeffccb854fb82544cbf8e9ceffdd0f878573b8391e6de7659712d944",
+    "media/image5.png": "8adf9d6912a3207ff849cf6e7b13b088640b2d04867e3ba089c7a2dfd51611ae",
+    "question-index.json": "7e0e2ea611ef3f5d7a81eb4e6e9c9c928161260654965128c21bcb6b8f9ae594",
+    "README.md": "0a79649e274885fa9cb13b8104a99edefb46fb5c46090f173bfac9afc4a332ef",
+    "source-parts/[Content_Types].xml": "4aaf861188615e0540b711f3b4273b2be5bdc602ccdea1490d5ab7be62b830dd",
+    "source-parts/_rels/.rels": "1cc87395d4a229f21c23af406724de12dd9454071925f983e4b648a7b2be8cc5",
+    "source-parts/word/_rels/document.xml.rels": "a34095f6c885be4b8c87fa9477a6bc862c1e8dfd7316fdca266f98c55ce364fc",
+    "source-parts/word/document.xml": "37a081d076a74736e6ebd59965a73709b2346b3827c0fca32a04c20914fa6463",
+    "source-parts/word/fontTable.xml": "826eb12279bc8d6e0e5739bf49ddee0b46e9613f9997650c502626fd8c8ac998",
+    "source-parts/word/numbering.xml": "ca8531775e858bcf6a7364de8d5f13a5505df308950ac57b1b9f979f08ac03a4",
+    "source-parts/word/settings.xml": "26f2853fde05b88d4b0a9da0bb016d56a896901f60c9272dddf33c3f3fa61e4a",
+    "source-parts/word/styles.xml": "a0d6049dd9cadfab5064fa93b5152a1178713afb0503df483ab67960e256697a",
+    "source-parts/word/theme/theme1.xml": "b2295d3198893d2c03f5e584c749a15751b798aefdcd9bee2889f13903d68cb2",
+    "source.docx": "9a73dad251684237fa38d34b4af9e34e83965dff9376675538719496ff2a64d2"
+  }
+}

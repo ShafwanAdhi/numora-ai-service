@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": false,
+  "edits": [
+    {
+      "question_id": "tryout-1-b3-q03",
+      "prompt": "Edit the supplied educational geometry diagram into a reusable template. Erase ONLY the four numerical/expression labels: (3x+15)° near the upper parallel line; (5x−25)° near the lower parallel line; (3x+15)° at triangle vertex A; and 50° at vertex B. Replace erased text with continuous matching graph-paper grid. Preserve all straight and dashed lines, arrowheads on the parallel lines, cyan/red angle arcs, triangle edges, every letter g,h,t,A,B,C, and especially the red question mark below C. Do not add any new numbers, text, or symbols. Preserve exact original composition and full 648 by 318 proportions, no crop or margins. This is erasure of four expression labels only, not a redesigned diagram.",
+      "source": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-03/soal-03/image-01.png",
+      "final_template": "variant_gen/image_templates/tryout-1-b3-q03/v1/base.png"
+    }
+  ],
+  "pyramid": {
+    "method": "native deterministic code geometry, not AI editing",
+    "renderer": "variant_gen/image_variants/geometry.py",
+    "source_original_unchanged": true
+  }
+}

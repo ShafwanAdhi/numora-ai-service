@@ -1,0 +1,1287 @@
+{
+  "date": "2026-10-22",
+  "scope": "Local runtime; no main database writes",
+  "activities": {
+    "DRILL": {
+      "originals": 1150,
+      "generator": 1067,
+      "stock": 83,
+      "held": 0,
+      "unavailable": 0
+    },
+    "TRYOUT": {
+      "originals": 30,
+      "generator": 27,
+      "stock": 3,
+      "held": 0,
+      "unavailable": 0
+    }
+  },
+  "conceptual_variants": 248,
+  "groups": [
+    {
+      "group": "1-5",
+      "originals": 250,
+      "generator": 240,
+      "stock": 10,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "group": "6-10",
+      "originals": 250,
+      "generator": 240,
+      "stock": 10,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "group": "11-15",
+      "originals": 250,
+      "generator": 228,
+      "stock": 22,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "group": "16-19",
+      "originals": 200,
+      "generator": 177,
+      "stock": 23,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "group": "20-23",
+      "originals": 200,
+      "generator": 182,
+      "stock": 18,
+      "held": 0,
+      "unavailable": 0
+    }
+  ],
+  "indicators": [
+    {
+      "indicator": 1,
+      "originals": 50,
+      "generator": 45,
+      "stock": 5,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 2,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 3,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 4,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 5,
+      "originals": 50,
+      "generator": 49,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 6,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 7,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 8,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 9,
+      "originals": 50,
+      "generator": 49,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 10,
+      "originals": 50,
+      "generator": 49,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 11,
+      "originals": 50,
+      "generator": 44,
+      "stock": 6,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 12,
+      "originals": 50,
+      "generator": 48,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 13,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 14,
+      "originals": 50,
+      "generator": 40,
+      "stock": 10,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 15,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 16,
+      "originals": 50,
+      "generator": 33,
+      "stock": 17,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 17,
+      "originals": 50,
+      "generator": 46,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 18,
+      "originals": 50,
+      "generator": 50,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 19,
+      "originals": 50,
+      "generator": 48,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 20,
+      "originals": 50,
+      "generator": 41,
+      "stock": 9,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 21,
+      "originals": 50,
+      "generator": 49,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 22,
+      "originals": 50,
+      "generator": 44,
+      "stock": 6,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 23,
+      "originals": 50,
+      "generator": 48,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    }
+  ],
+  "levels": [
+    {
+      "indicator": 1,
+      "level": 1,
+      "originals": 10,
+      "generator": 7,
+      "stock": 3,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 1,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 1,
+      "level": 3,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 1,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 1,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 2,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 2,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 2,
+      "level": 3,
+      "originals": 10,
+      "generator": 7,
+      "stock": 3,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 2,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 2,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 3,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 3,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 3,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 3,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 3,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 4,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 4,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 4,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 4,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 4,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 5,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 5,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 5,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 5,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 5,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 6,
+      "level": 1,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 6,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 6,
+      "level": 3,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 6,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 6,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 7,
+      "level": 1,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 7,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 7,
+      "level": 3,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 7,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 7,
+      "level": 5,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 8,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 8,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 8,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 8,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 8,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 9,
+      "level": 1,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 9,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 9,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 9,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 9,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 10,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 10,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 10,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 10,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 10,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 11,
+      "level": 1,
+      "originals": 10,
+      "generator": 7,
+      "stock": 3,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 11,
+      "level": 2,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 11,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 11,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 11,
+      "level": 5,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 12,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 12,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 12,
+      "level": 3,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 12,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 12,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 13,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 13,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 13,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 13,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 13,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 14,
+      "level": 1,
+      "originals": 10,
+      "generator": 7,
+      "stock": 3,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 14,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 14,
+      "level": 3,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 14,
+      "level": 4,
+      "originals": 10,
+      "generator": 7,
+      "stock": 3,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 14,
+      "level": 5,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 15,
+      "level": 1,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 15,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 15,
+      "level": 3,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 15,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 15,
+      "level": 5,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 16,
+      "level": 1,
+      "originals": 10,
+      "generator": 6,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 16,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 16,
+      "level": 3,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 16,
+      "level": 4,
+      "originals": 10,
+      "generator": 3,
+      "stock": 7,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 16,
+      "level": 5,
+      "originals": 10,
+      "generator": 6,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 17,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 17,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 17,
+      "level": 3,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 17,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 17,
+      "level": 5,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 18,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 18,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 18,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 18,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 18,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 19,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 19,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 19,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 19,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 19,
+      "level": 5,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 20,
+      "level": 1,
+      "originals": 10,
+      "generator": 6,
+      "stock": 4,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 20,
+      "level": 2,
+      "originals": 10,
+      "generator": 7,
+      "stock": 3,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 20,
+      "level": 3,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 20,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 20,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 21,
+      "level": 1,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 21,
+      "level": 2,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 21,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 21,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 21,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 22,
+      "level": 1,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 22,
+      "level": 2,
+      "originals": 10,
+      "generator": 7,
+      "stock": 3,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 22,
+      "level": 3,
+      "originals": 10,
+      "generator": 9,
+      "stock": 1,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 22,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 22,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 23,
+      "level": 1,
+      "originals": 10,
+      "generator": 8,
+      "stock": 2,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 23,
+      "level": 2,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 23,
+      "level": 3,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 23,
+      "level": 4,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    },
+    {
+      "indicator": 23,
+      "level": 5,
+      "originals": 10,
+      "generator": 10,
+      "stock": 0,
+      "held": 0,
+      "unavailable": 0
+    }
+  ],
+  "pending": []
+}

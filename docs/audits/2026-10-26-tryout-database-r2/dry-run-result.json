@@ -1,0 +1,209 @@
+{
+  "mode": "--dry-run",
+  "status": "DRAFT",
+  "packageId": "2c6f7c34-ba4e-46a1-80f4-0d2829f385a2",
+  "importId": "aeb38756-3910-4d2f-994a-c29310cebedd",
+  "sourceNamespace": "NUMORA_AI_TRYOUT_1",
+  "originals": 30,
+  "images": 5,
+  "published": false,
+  "questionVersions": [
+    {
+      "externalId": "tryout-1-b1-q01",
+      "id": "030c0fc6-8baa-4465-b697-90db10ebc51b",
+      "version": 1,
+      "order": 1
+    },
+    {
+      "externalId": "tryout-1-b1-q02",
+      "id": "3a45a37a-2830-4bf6-9787-6894b086c4a8",
+      "version": 1,
+      "order": 2
+    },
+    {
+      "externalId": "tryout-1-b1-q03",
+      "id": "7dfeadac-00b3-423f-bdfd-50aed7b7c748",
+      "version": 1,
+      "order": 3
+    },
+    {
+      "externalId": "tryout-1-b1-q04",
+      "id": "88b0c6c5-34cf-4143-83b9-2f5cd298df2c",
+      "version": 1,
+      "order": 4
+    },
+    {
+      "externalId": "tryout-1-b1-q05",
+      "id": "6b1c99ca-ab1b-411b-8b75-eb209d79485f",
+      "version": 1,
+      "order": 5
+    },
+    {
+      "externalId": "tryout-1-b1-q06",
+      "id": "32cd0fb3-e47f-45f1-a060-b201f273b77a",
+      "version": 1,
+      "order": 6
+    },
+    {
+      "externalId": "tryout-1-b1-q07",
+      "id": "8e5aa6f3-f46b-4aef-bcce-416b8322c486",
+      "version": 1,
+      "order": 7
+    },
+    {
+      "externalId": "tryout-1-b1-q08",
+      "id": "56171421-beaf-4dfc-a220-81e1faab4425",
+      "version": 1,
+      "order": 8
+    },
+    {
+      "externalId": "tryout-1-b2-q01",
+      "id": "07de4843-ea6a-4126-a7a3-6b5c0e2ed7d1",
+      "version": 1,
+      "order": 9
+    },
+    {
+      "externalId": "tryout-1-b2-q02",
+      "id": "a796cb33-10d2-4988-842d-12d5c3315738",
+      "version": 1,
+      "order": 10
+    },
+    {
+      "externalId": "tryout-1-b2-q03",
+      "id": "60a08812-eecb-4d59-8050-71d3b2bcfb69",
+      "version": 1,
+      "order": 11
+    },
+    {
+      "externalId": "tryout-1-b2-q04",
+      "id": "81990bf0-e19e-4f99-a1cf-13a78d96134f",
+      "version": 1,
+      "order": 12
+    },
+    {
+      "externalId": "tryout-1-b2-q05",
+      "id": "06860517-60ea-4744-b567-00c8ffa14838",
+      "version": 1,
+      "order": 13
+    },
+    {
+      "externalId": "tryout-1-b2-q06",
+      "id": "ce77d505-1ab6-4ab4-87a8-34c7dfb96309",
+      "version": 1,
+      "order": 14
+    },
+    {
+      "externalId": "tryout-1-b2-q07",
+      "id": "14418a1b-6e88-4582-ba3e-9ab7974e0d39",
+      "version": 1,
+      "order": 15
+    },
+    {
+      "externalId": "tryout-1-b2-q08",
+      "id": "445c0505-3593-4e7f-ae37-b27da8a18296",
+      "version": 1,
+      "order": 16
+    },
+    {
+      "externalId": "tryout-1-b3-q01",
+      "id": "ef5b240d-363b-428a-b915-3b631af0f060",
+      "version": 1,
+      "order": 17
+    },
+    {
+      "externalId": "tryout-1-b3-q02",
+      "id": "3eb253e4-2d66-4a20-89fb-ec6828d33130",
+      "version": 1,
+      "order": 18
+    },
+    {
+      "externalId": "tryout-1-b3-q03",
+      "id": "08243429-cbd9-42b0-9b43-6b55a890e4b5",
+      "version": 1,
+      "order": 19
+    },
+    {
+      "externalId": "tryout-1-b3-q04",
+      "id": "04282de4-5720-4f7d-857b-1a2248b62f9e",
+      "version": 1,
+      "order": 20
+    },
+    {
+      "externalId": "tryout-1-b3-q05",
+      "id": "6d08a92c-a15f-4a16-ae1d-a6971dad4e57",
+      "version": 1,
+      "order": 21
+    },
+    {
+      "externalId": "tryout-1-b3-q06",
+      "id": "791ce779-517b-4362-a101-38dcec9c6329",
+      "version": 1,
+      "order": 22
+    },
+    {
+      "externalId": "tryout-1-b3-q07",
+      "id": "4021b634-9046-4beb-880d-2e2e29d0c9c4",
+      "version": 1,
+      "order": 23
+    },
+    {
+      "externalId": "tryout-1-b4-q01",
+      "id": "3c9f504f-da9b-4a82-bbf9-2afda93ace55",
+      "version": 1,
+      "order": 24
+    },
+    {
+      "externalId": "tryout-1-b4-q02",
+      "id": "ee14c912-51a5-4c30-97ad-57b84229b815",
+      "version": 1,
+      "order": 25
+    },
+    {
+      "externalId": "tryout-1-b4-q03",
+      "id": "36af3dab-0381-4b7b-ae5c-a7599b327b72",
+      "version": 1,
+      "order": 26
+    },
+    {
+      "externalId": "tryout-1-b4-q04",
+      "id": "16405910-196a-4001-90bd-812b2552352f",
+      "version": 1,
+      "order": 27
+    },
+    {
+      "externalId": "tryout-1-b4-q05",
+      "id": "c086e1eb-e281-41f9-82da-f4c9861db66c",
+      "version": 1,
+      "order": 28
+    },
+    {
+      "externalId": "tryout-1-b4-q06",
+      "id": "db1cfc9c-06cd-4974-b7bc-ab0dc072c5fa",
+      "version": 1,
+      "order": 29
+    },
+    {
+      "externalId": "tryout-1-b4-q07",
+      "id": "702cf232-44eb-407a-99e9-d1baaccc0671",
+      "version": 1,
+      "order": 30
+    }
+  ],
+  "existingRowsUnchanged": true,
+  "databaseCounts": {
+    "questions": 1450,
+    "question_variants": 1450,
+    "question_versions": 1450,
+    "assessment_packages": 128,
+    "package_items": 1450,
+    "assessment_attempts": 6,
+    "attempt_items": 160,
+    "attempt_answers": 151,
+    "xp_ledger": 5,
+    "content_import_identities": 1450,
+    "content_import_versions": 1450,
+    "content_imports": 24,
+    "content_media_uploads": 55
+  },
+  "verifiedR2Downloads": 5
+}

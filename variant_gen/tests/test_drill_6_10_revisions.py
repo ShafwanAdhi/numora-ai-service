@@ -48,8 +48,8 @@ class CurriculumRevision(unittest.TestCase):
         for qid in REVISED:
             with self.subTest(question=qid):
                 original = bank.get(qid)
-                self.assertEqual(original['version'], 2)
-                held = qid == 'mcma-6-3-7'
+                self.assertEqual(original['version'], 3 if qid == 'mcma-6-3-7' else 2)
+                held = False
                 self.assertEqual(original['metadata']['generator_status'], 'NOT_IMPLEMENTED' if held else 'IMPLEMENTED')
                 self.assertEqual(configs.versions(qid), [] if held else [1])
                 self.assertEqual(original['metadata']['generation_status'], 'HOLD_SOURCE' if held else 'ACTIVE')
@@ -60,7 +60,7 @@ class CurriculumRevision(unittest.TestCase):
             self.assertEqual(','.join(o['id'] for o in bank.get(qid)['options'] if o['correct']), key)
         self.assertEqual(bank.get('pg-9-3-2')['cognitive_level'], 'C3')
         self.assertEqual(bank.get('pg-9-3-2')['metadata']['source_number'], 2)
-        self.assertEqual(bank.get('mcma-6-3-7')['metadata']['generation_status'], 'HOLD_SOURCE')
+        self.assertEqual(bank.get('mcma-6-3-7')['metadata']['generation_status'], 'ACTIVE')
 
 
 if __name__ == '__main__': unittest.main()

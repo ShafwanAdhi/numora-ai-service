@@ -1,27 +1,26 @@
-# Progres seluruh indikator 1-23
+# Progres original dan generator indikator 1–23
 
-Snapshot repo lokal 21 Oktober 2026, setelah penyelesaian 13 generator indikator 20.
+Snapshot lokal 22 Oktober 2026 setelah audit revisi final dan penyelesaian 16 generator HOLD.
 
-**1.150 original Drill**, masing-masing 50 per indikator pada level 1-5: **1.051 generator, 83 konseptual dan 16 HOLD; 0 unavailable**. Sebanyak **1.134/1.150 (98,6%)** sudah terlayani secara lokal.
+**1.150 original Drill: 1.067 generator, 83 original konseptual dengan stok, 0 HOLD, 0 unavailable.**
+Setiap indikator lengkap 5 level × 10 soal; seluruh 1.150 original terlayani secara lokal.
 
 | Kelompok | Original | Generator | Konseptual | HOLD |
 |---|---:|---:|---:|---:|
-| 1-5 | 250 | 238 | 10 | 2 |
-| 6-10 | 250 | 239 | 10 | 1 |
+| 1-5 | 250 | 240 | 10 | 0 |
+| 6-10 | 250 | 240 | 10 | 0 |
 | 11-15 | 250 | 228 | 22 | 0 |
 | 16-19 | 200 | 177 | 23 | 0 |
-| 20-23 | 200 | 169 | 18 | 13 |
-
-## Per indikator
+| 20-23 | 200 | 182 | 18 | 0 |
 
 | Indikator | Original | Generator | Konseptual | HOLD |
 |---|---:|---:|---:|---:|
-| 1 | 50 | 44 | 5 | 1 |
+| 1 | 50 | 45 | 5 | 0 |
 | 2 | 50 | 46 | 4 | 0 |
 | 3 | 50 | 50 | 0 | 0 |
 | 4 | 50 | 50 | 0 | 0 |
-| 5 | 50 | 48 | 1 | 1 |
-| 6 | 50 | 45 | 4 | 1 |
+| 5 | 50 | 49 | 1 | 0 |
+| 6 | 50 | 46 | 4 | 0 |
 | 7 | 50 | 46 | 4 | 0 |
 | 8 | 50 | 50 | 0 | 0 |
 | 9 | 50 | 49 | 1 | 0 |
@@ -36,24 +35,21 @@ Snapshot repo lokal 21 Oktober 2026, setelah penyelesaian 13 generator indikator
 | 18 | 50 | 50 | 0 | 0 |
 | 19 | 50 | 48 | 2 | 0 |
 | 20 | 50 | 41 | 9 | 0 |
-| 21 | 50 | 45 | 1 | 4 |
-| 22 | 50 | 41 | 6 | 3 |
-| 23 | 50 | 42 | 2 | 6 |
+| 21 | 50 | 49 | 1 | 0 |
+| 22 | 50 | 44 | 6 | 0 |
+| 23 | 50 | 48 | 2 | 0 |
 
-Konseptual menghitung original yang dilayani stok manual, bukan jumlah varian stok.
+Tryout: **30 original, 27 generator, 3 konseptual, 0 HOLD**.
+Total: **1.180 original, 1.094 generator, 86 original konseptual / 248 stok varian editorial**.
 
-## Perubahan terakhir dan sisa pekerjaan
+16 generator baru: indikator 1 (+1), 5 (+1), 6 (+1), 21 (+4), 22 (+3), 23 (+6).
+Tiga konflik kunci/opsi diperbaiki lokal dengan persetujuan pengguna. Asumsi independensi, pengambilan seragam dan pembulatan diperjelas; sumber DOCX tetap utuh.
+15 generator mempunyai 30 kasus berbeda dari original; pg-23-5-3 mempunyai 8 kasus (3–10 lemparan). Domain sengaja dibatasi, dapat diatur melalui konfigurasi setelah audit ulang.
+Pemeriksaan mencakup reproduksi original, seluruh domain, seed deterministik dan endpoint stateless.
 
-- Indikator 20: 13 generator baru selesai; level 4-5 lengkap 20 generator. Total indikator 20: 41 generator dan 9 konseptual, tanpa HOLD.
-- Indikator 1-5: 28 koreksi disetujui sudah aktif; level 4-5 lengkap 100 generator.
-- Tiga HOLD lama pada level 1-3: masing-masing satu pada indikator 1, 5 dan 6.
-- Tiga belas HOLD level 4-5: indikator 21 sebanyak 4, indikator 22 sebanyak 3 dan indikator 23 sebanyak 6. Masalah: konflik kunci/pembahasan, pembulatan dan asumsi peluang.
-- Indikator 3, 4, 8, 13 dan 18 memiliki 50 generator penuh. Indikator lain tanpa HOLD sudah terlayani melalui kombinasi generator dan stok.
+Cakupan ini inventaris runtime lokal dan audit 16 revisi, bukan audit akademik ulang seluruh 1.180 soal. ACTIVE menyatakan siap generator lokal; tidak menyatakan persetujuan publikasi kurikulum atau kalibrasi IRT.
+Pada audit 16 revisi tersebut, database, repository Numora, stok konseptual dan penyimpanan varian runtime tidak diubah. Tidak commit/push.
 
-## Batas interpretasi
+Pembaruan database 22 Oktober 2026: bank Drill lama diganti dengan **1.150 original READY dalam 115 paket PUBLISHED**, struktur 23 indikator × 5 level × 10 soal. Tryout dipertahankan; riwayat Drill/PvP terkait bank lama direset setelah backup. [Laporan penggantian database](audits/2026-10-22-drill-database-replacement.md).
 
-Ini inventaris berdasarkan loader dan katalog aktual, bukan audit akademik ulang. Jumlah original menyatakan posisi runtime setelah revisi, bukan bukti seluruh isi identik dengan DOCX terbaru. Ketersediaan lokal bukan persetujuan publikasi atau kesetaraan kesulitan/IRT. Penyesuaian otomatis tetap nonaktif.
-
-Tryout: 30 original, 27 generator dan 3 konseptual. Total workspace: **1.180 original, 1.078 generator, 86 konseptual dan 16 HOLD**. Tersedia 248 varian manual untuk 86 original konseptual. Snapshot sebelum penyelesaian indikator 20 tetap menjadi arsip historis.
-
-[JSON lengkap dan rincian per level](audits/2026-10-21-all-indicators-progress-after-indicator20/progress.json) - [CSV per indikator](audits/2026-10-21-all-indicators-progress-after-indicator20/indicators.csv) - [16 HOLD beserta alasan](audits/2026-10-21-all-indicators-progress-after-indicator20/pending.csv).
+[Audit 16 soal dan koreksi](audits/2026-10-22-held-final-revisions/README.md) · [Inventaris JSON](audits/2026-10-22-held-final-revisions/progress.json)

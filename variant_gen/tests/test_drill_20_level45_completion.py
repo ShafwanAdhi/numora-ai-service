@@ -41,8 +41,25 @@ class Indicator20Completion(unittest.TestCase):
         baseline=json.loads((REPORT/'prior-assets-baseline.json').read_text(encoding='utf-8'))
         for name,digest in baseline['files'].items():
             if name!=METADATA.relative_to(REPO).as_posix():
-                self.assertEqual(hashlib.sha256((REPO/name).read_bytes()).hexdigest(),digest,name)
+                path=REPO/name;content=path.read_bytes()
+                if path.name=='original_revisions.jsonl':
+                    content=b''.join(line for line in content.splitlines(keepends=True)
+                                     if 'Revisi final kurikulum22 Oktober2026' not in line.decode('utf8'))
+                elif path.name=='question_metadata.json' and path.with_name('original_revisions.jsonl').exists():
+                    metadata=json.loads(content);changed=False
+                    for line in path.with_name('original_revisions.jsonl').read_text(encoding='utf8').splitlines():
+                        revision=json.loads(line)
+                        if revision['reason'].startswith('Revisi final kurikulum22 Oktober2026'):
+                            metadata[revision['question_id']]=revision['original_metadata'];changed=True
+                    if changed:content=(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n').encode('utf8')
+                normalized=content.replace(b'\r\n',b'\n')
+                self.assertIn(digest,{hashlib.sha256(content).hexdigest(),
+                                      hashlib.sha256(normalized).hexdigest(),
+                                      hashlib.sha256(normalized.replace(b'\n',b'\r\n')).hexdigest()},name)
         current=json.loads(METADATA.read_text(encoding='utf-8'))
+        for line in METADATA.with_name('original_revisions.jsonl').read_text(encoding='utf8').splitlines():
+            revision=json.loads(line)
+            current[revision['question_id']]=revision['original_metadata']
         for qid,old in baseline['source_metadata'].items():
             new=dict(current[qid])
             if qid in IDS:

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "question_id": "tryout-1-b3-q06",
+  "template_version": 1,
+  "renderer": "labels-v1",
+  "canvas": [
+    646,
+    318
+  ],
+  "source_sha256": "4af6b6b0f8a2049c204b82e897ed71eb7fba3866dab448871446c09102e75308",
+  "base_sha256": "460ef68430a78e9b3c68ed4625a585e2bb73445e9073da67d757f0b676585ef3",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "bindings": [
+    {
+      "name": "r"
+    },
+    {
+      "name": "h"
+    },
+    {
+      "name": "p"
+    },
+    {
+      "name": "l"
+    },
+    {
+      "name": "t"
+    },
+    {
+      "name": "diameter",
+      "expr": "2*r"
+    }
+  ],
+  "constraints": [],
+  "labels": [
+    {
+      "id": "dome_radius",
+      "text": "r = {r} dm",
+      "box": [
+        133,
+        81,
+        201,
+        101
+      ],
+      "font_size": 12,
+      "min_font_size": 9
+    },
+    {
+      "id": "cylinder_radius",
+      "text": "r = {r} dm",
+      "box": [
+        134,
+        200,
+        203,
+        221
+      ],
+      "font_size": 12,
+      "min_font_size": 9
+    },
+    {
+      "id": "diameter",
+      "text": "{diameter} dm",
+      "box": [
+        65,
+        258,
+        141,
+        281
+      ],
+      "font_size": 13,
+      "min_font_size": 10
+    },
+    {
+      "id": "cylinder_height",
+      "text": "t = {h} dm",
+      "box": [
+        224,
+        148,
+        308,
+        173
+      ],
+      "font_size": 13,
+      "min_font_size": 10
+    },
+    {
+      "id": "box_length",
+      "text": "p = {p} dm",
+      "box": [
+        387,
+        246,
+        487,
+        270
+      ],
+      "font_size": 13,
+      "min_font_size": 10
+    },
+    {
+      "id": "box_width",
+      "text": "l = {l} dm",
+      "box": [
+        548,
+        212,
+        643,
+        238
+      ],
+      "font_size": 12,
+      "min_font_size": 9
+    },
+    {
+      "id": "box_height",
+      "text": "t = {t} dm",
+      "box": [
+        579,
+        104,
+        646,
+        131
+      ],
+      "font_size": 12,
+      "min_font_size": 9
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        233,
+        0,
+        381,
+        20
+      ],
+      "font_size": 8,
+      "min_font_size": 6
+    }
+  ],
+  "alt_text": "Rancangan A berupa tabung berjari-jari {r} dm, diameter {diameter} dm, tinggi {h} dm dengan kubah setengah bola berjari-jari {r} dm. Rancangan B berupa balok {p} dm kali {l} dm kali {t} dm. Gambar skematis, tidak berskala.",
+  "authoring": {
+    "mode": "built-in imagegen edit; reviewed label-only patches composited onto original",
+    "cleanup_sha256": "bbb650194bcf215b2754847e5f8f1352bf125ef0148d2dba9b8d09a1d6890619",
+    "erasure_regions": [
+      [
+        136,
+        84,
+        195,
+        100
+      ],
+      [
+        139,
+        202,
+        199,
+        218
+      ],
+      [
+        73,
+        261,
+        150,
+        280
+      ],
+      [
+        225,
+        151,
+        289,
+        172
+      ],
+      [
+        396,
+        248,
+        470,
+        267
+      ],
+      [
+        552,
+        214,
+        622,
+        234
+      ],
+      [
+        583,
+        108,
+        646,
+        129
+      ]
+    ],
+    "source_preserved": true
+  }
+}

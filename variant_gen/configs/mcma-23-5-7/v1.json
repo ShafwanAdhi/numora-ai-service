@@ -1,0 +1,92 @@
+{
+  "question_id": "mcma-23-5-7",
+  "config_version": 1,
+  "original_hash": "17c18d87dfce9ae8",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'80' if k == 0 else (80*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'46' if k == 0 else (46*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'34' if k == 0 else (34*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "80*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (80*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' kali percobaan)')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah koin seimbang dilempar sebanyak {v0} kali. Sisi gambar muncul {v1} kali dan sisi angka muncul {v2} kali.\nPilih semua pernyataan yang benar.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Frekuensi relatif gambar adalah 0,575.",
+      "correct": true
+    },
+    {
+      "id": "B",
+      "text": "Frekuensi relatif angka adalah 0,425.",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "Jumlah frekuensi relatif kedua sisi adalah 1.{v4}{v5}{v6}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Peluang teoretis sisi gambar adalah 0,575.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Frekuensi relatif angka lebih besar daripada gambar.",
+      "correct": false
+    }
+  ],
+  "explanation": "Frekuensi gambar=46/80=0,575; angka=34/80=0,425; jumlah=1. Peluang teoretis koin seimbang=0,5, bukan frekuensi empiris. A,B,C benar. Jumlah lemparan={v3}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

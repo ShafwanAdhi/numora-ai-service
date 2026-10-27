@@ -1,0 +1,23 @@
+{
+  "developmentTargetVerified": true,
+  "baselineSha256": "93dd57a161ea4307008ea0ec84ac58e7cd46db033b824dadc4a448d5137d3ffc",
+  "sourceQuestions": 30,
+  "sourceImages": 5,
+  "priorMatchingImageHashes": 5,
+  "persistedUploadFlagEnabled": false,
+  "existingRows": {
+    "questions": 1450,
+    "question_variants": 1450,
+    "question_versions": 1450,
+    "assessment_packages": 128,
+    "package_items": 1450,
+    "assessment_attempts": 6,
+    "attempt_items": 160,
+    "attempt_answers": 151,
+    "xp_ledger": 5,
+    "content_import_identities": 1450,
+    "content_import_versions": 1450,
+    "content_imports": 24,
+    "content_media_uploads": 55
+  }
+}

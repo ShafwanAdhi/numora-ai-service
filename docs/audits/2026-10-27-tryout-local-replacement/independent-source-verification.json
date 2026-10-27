@@ -1,0 +1,27 @@
+{
+  "questionsMatched": 30,
+  "imagesMatched": 5,
+  "status": "DRAFT",
+  "revision": 2,
+  "packageId": "f757ccab-8f74-4846-954c-ffcd7753ffc5",
+  "types": {
+    "SINGLE_CHOICE": 18,
+    "MULTIPLE_CHOICE_MULTIPLE_ANSWER": 6,
+    "CATEGORY": 6
+  },
+  "kinds": {
+    "VARIANT": 27,
+    "ORIGINAL": 3
+  },
+  "compared": [
+    "order",
+    "family identity",
+    "stem excluding asset marker",
+    "all options",
+    "answer key",
+    "explanation",
+    "image SHA256",
+    "original parent lineage"
+  ],
+  "readOnlyVerification": true
+}

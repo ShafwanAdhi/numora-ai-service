@@ -19,9 +19,9 @@ FOLDERS = (ROOT/'data/drill-1-indicators-1-2', ROOT/'data/drill-1-indicators-3-5
 class SourceRevisions(unittest.TestCase):
     def test_archives_ledgers_and_unmodified_originals(self):
         configs = ConfigStore(ROOT/'configs')
-        for folder, count, expected in zip(FOLDERS, (17,24),
-            ({'ACTIVE':50,'DEFERRED_CONCEPTUAL':9,'HOLD_SOURCE':1},
-             {'ACTIVE':88,'DEFERRED_CONCEPTUAL':1,'HOLD_SOURCE':1})):
+        for folder, count, expected in zip(FOLDERS, (18,25),
+            ({'ACTIVE':51,'DEFERRED_CONCEPTUAL':9},
+             {'ACTIVE':89,'DEFERRED_CONCEPTUAL':1})):
             with self.subTest(bank=folder.name):
                 self.assertEqual(hashlib.sha256((folder/'source-revision-2026-10-07.docx').read_bytes()).hexdigest(), SHA)
                 ledger = [json.loads(t) for t in (folder/'original_revisions.jsonl').read_text(encoding='utf-8').splitlines()]
@@ -32,15 +32,14 @@ class SourceRevisions(unittest.TestCase):
                 revised = {r['question_id'] for r in ledger}
                 for entry in ledger:
                     q = entry['question_id']; original = bank.get(q)
-                    self.assertEqual(original['version'], 2)
-                    self.assertEqual(entry['source_document_sha256'], SHA)
+                    self.assertEqual(original['version'], 3 if q=='pg-1-2-1' else 2)
                     self.assertEqual(entry['original_metadata']['generation_status'], 'HOLD_SOURCE')
-                    self.assertEqual(original['hash'], _parse_row(entry['replacement_row'], 0)['hash'])
-                    held = q == 'pg-1-2-1'
-                    self.assertEqual(original['metadata']['generator_status'], 'NOT_IMPLEMENTED' if held else 'IMPLEMENTED')
-                    self.assertEqual(configs.versions(q), [] if held else [1])
-                    if held:
-                        with self.assertRaises(ConfigError): generate(original, {}, 11, [])
+                    latest=next(r for r in reversed(ledger) if r['question_id']==q)
+                    self.assertEqual(original['hash'], _parse_row(latest['replacement_row'], 0)['hash'])
+                    self.assertEqual(original['metadata']['generator_status'], 'IMPLEMENTED')
+                    self.assertEqual(configs.versions(q), [1])
+                    if entry['replacement_version']==2 and q!='pg-5-3-3':
+                        self.assertEqual(entry['source_document_sha256'], SHA)
                 baseline = OriginalBank(folder/'q0_bank.csv')
                 # Read the unchanged CSV directly; revised rows exist only in the ledger.
                 import csv
@@ -59,10 +58,10 @@ class SourceRevisions(unittest.TestCase):
         for q, key in keys.items():
             self.assertEqual(','.join(o['id'] for o in originals[q]['options'] if o['correct']), key, q)
         for q in ('pg-1-2-1','pg-5-3-3'):
-            self.assertEqual(originals[q]['metadata']['generation_status'], 'HOLD_SOURCE')
-            self.assertEqual(originals[q]['metadata']['source_review_status'], 'REVISED_CURRICULUM_PENDING_REVIEW')
-        self.assertEqual(originals['pg-5-3-3']['version'], 1)
-        self.assertIn('0,58%', originals['pg-1-2-1']['metadata']['original_explanation'])
+            self.assertEqual(originals[q]['metadata']['generation_status'], 'ACTIVE')
+            self.assertEqual(originals[q]['metadata']['source_review_status'], 'AUDITED_CURRICULUM_REVISION')
+        self.assertEqual(originals['pg-5-3-3']['version'], 2)
+        self.assertNotIn('0,58%', originals['pg-1-2-1']['metadata']['original_explanation'])
         self.assertEqual(originals['mcma-3-2-8']['metadata']['cognitive_label_provenance'], 'INHERITED_PREVIOUS_SOURCE')
         self.assertEqual(originals['mcma-1-2-6']['cognitive_level'], 'C4')
         self.assertIn('sisi', originals['pg-3-2-2']['stem'])

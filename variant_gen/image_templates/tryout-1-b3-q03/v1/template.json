@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "question_id": "tryout-1-b3-q03",
+  "template_version": 1,
+  "renderer": "labels-v1",
+  "canvas": [
+    648,
+    318
+  ],
+  "source_sha256": "1a4995f7cc1a2e58aa4e03d4d4a28e82f4615ab36a8ea4df4539c76f1646ca99",
+  "base_sha256": "744275f7f81e0c5bc60d0b4754b298cc2d67dbe6112ee6eccc8bb292e0d6d055",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "bindings": [
+    {
+      "name": "a"
+    },
+    {
+      "name": "b"
+    },
+    {
+      "name": "c"
+    },
+    {
+      "name": "offset"
+    },
+    {
+      "name": "other"
+    }
+  ],
+  "constraints": [],
+  "labels": [
+    {
+      "id": "parallel_first",
+      "text": "({a}x+{b})°",
+      "box": [
+        205,
+        130,
+        325,
+        166
+      ],
+      "font_size": 19,
+      "min_font_size": 13
+    },
+    {
+      "id": "parallel_second",
+      "text": "({c}x−{offset})°",
+      "box": [
+        18,
+        171,
+        139,
+        205
+      ],
+      "font_size": 19,
+      "min_font_size": 13
+    },
+    {
+      "id": "triangle_first",
+      "text": "({a}x+{b})°",
+      "box": [
+        408,
+        231,
+        544,
+        262
+      ],
+      "font_size": 19,
+      "min_font_size": 13
+    },
+    {
+      "id": "triangle_second",
+      "text": "{other}°",
+      "box": [
+        546,
+        233,
+        600,
+        262
+      ],
+      "font_size": 19,
+      "min_font_size": 13
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        5,
+        297,
+        325,
+        318
+      ],
+      "font_size": 10,
+      "min_font_size": 8
+    }
+  ],
+  "alt_text": "Dua garis sejajar g dan h dipotong transversal t. Sudut berseberangan dalam ({a}x+{b})° dan ({c}x−{offset})°. Segitiga ABC memiliki sudut A ({a}x+{b})°, sudut B {other}°, dan sudut C ditanyakan. Gambar skematis, tidak berskala.",
+  "authoring": {
+    "mode": "built-in imagegen cleanup patches composited onto original",
+    "cleanup_sha256": "b74ea2b36f5ecf803cda3750e03471eacfbbe1931f08e64fdb31ba59f657bba1",
+    "erasure_regions": [
+      [
+        214,
+        131,
+        324,
+        163
+      ],
+      [
+        30,
+        175,
+        139,
+        210
+      ],
+      [
+        407,
+        231,
+        520,
+        265
+      ],
+      [
+        555,
+        233,
+        602,
+        265
+      ]
+    ],
+    "source_preserved": true
+  }
+}

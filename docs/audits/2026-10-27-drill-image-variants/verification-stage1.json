@@ -1,0 +1,24 @@
+{
+  "archive_files_verified": 27,
+  "counts": {
+    "accepted_numeric_combinations": 150,
+    "conceptual_families": 4,
+    "conceptual_stocks": 8,
+    "diagrams": 9,
+    "formula_symbols": 5,
+    "media": 14,
+    "numeric_families": 5,
+    "placements": 14,
+    "planned_conceptual_scenarios": 12
+  },
+  "csv_json_consistent": true,
+  "database_or_r2_accessed": false,
+  "generator_rules_changed": false,
+  "inventory_reconstructed": true,
+  "protected_changes": [],
+  "protected_files_verified": 1265,
+  "renderer_implemented": false,
+  "source_sha256": "9e837e8631aafccd8cfa2f152f311ef430f7d4b4f9235e43790ec9b191a5bb6c",
+  "stage": 1,
+  "status": "PASS"
+}

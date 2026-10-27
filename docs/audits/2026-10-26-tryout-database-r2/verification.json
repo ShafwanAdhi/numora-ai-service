@@ -1,0 +1,39 @@
+{
+  "packageId": "f757ccab-8f74-4846-954c-ffcd7753ffc5",
+  "status": "DRAFT",
+  "local_original_matches": 30,
+  "verified_image_downloads": 5,
+  "live_r2_bytes_sha256_match": true,
+  "existing_database_rows_unchanged": true,
+  "original_local_bank_unchanged": true,
+  "idempotent_retry_checked": true,
+  "published": false,
+  "tests": {
+    "operator": 3,
+    "existing_media_storage_validation": 16,
+    "failures": 0
+  },
+  "api_build": "PASS using installed Nest CLI directly",
+  "lint": "PASS for new operator scripts",
+  "review_findings_closed": true,
+  "limits": [
+    "No student browser login/E2E or VPS deployment performed",
+    "Future plan tasks 2-5 are proposals, not implemented",
+    "Package not published; release/close timestamps remain null"
+  ],
+  "code_sha256": {
+    "..\\Numora\\apps\\api\\scripts\\import-local-tryout.cjs": "dd7161d9633d4bc77187d4d6d7b9face6b54b6cc1e50f3fb97a58b362b915033",
+    "..\\Numora\\apps\\api\\scripts\\import-local-tryout.test.cjs": "ff1360fb61642385bbb338c7df05ab6a1ca10073c3cac3079166815fc91b09c0",
+    "tools\\prepare_tryout_database_import.py": "cd1433454f9039343770312158b0bc29d75eb910a35f73749064252bab5181f1"
+  },
+  "artifact_sha256": {
+    "apply-result.json": "b2ff5548bd6934d7c04e1bdb59c3ddf05e81d2a6501b38c96d348792faeb1e93",
+    "dry-run-result.json": "c9d3ce1d4f319c5a29fc67330db6986f7dfc57ff7cb9ed2d344b8b52809dad19",
+    "import-input.json": "62907ccb7409bc4a3db32894914e993b5eacb5c92ce6dab9d1dde5369cf1d3f2",
+    "independent-source-verification.json": "1a0e3459a284415924f112b64be6e9d5e33bf8a5181bf555acc11657ca09df70",
+    "media-receipts.json": "eccb6cee6c8aa6c278830a6f2b2860a50e323cbe148b48855a921c0934e7f7a4",
+    "preflight.json": "93678cc016bf6bf75fceb9476593d1cc0566a0b0f7ca512be3fe0af13a59bab7",
+    "summary.json": "a03dfbcc4e71a724eb8d3faadec62de143f781afa5af6e247a4eaa82354f0aab",
+    "verify-result.json": "01ecf1b93c3ae4dcde858ea96854e13d32d7528f5f2369a46590df7d8c94ac5c"
+  }
+}

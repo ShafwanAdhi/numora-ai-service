@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-27",
+  "packageId": "f757ccab-8f74-4846-954c-ffcd7753ffc5",
+  "name": "Tryout 1 - Varian lokal seed 1 (30 soal)",
+  "status": "DRAFT",
+  "contentRevision": 2,
+  "questions": 30,
+  "generatedVariants": 27,
+  "originalOnly": 3,
+  "verifiedImages": 5,
+  "adminQuestionsReadable": 30,
+  "adminDraftValidationPassed": true,
+  "adminMediaValidationPassed": true,
+  "operatorTestsPassed": 6,
+  "dryRunRolledBack": true,
+  "applyCommitted": true,
+  "verifyPassed": true,
+  "idempotentApplyPassed": true,
+  "independentSourceVerification": {
+    "questionsMatched": 30,
+    "imagesMatched": 5,
+    "status": "DRAFT",
+    "revision": 2,
+    "packageId": "f757ccab-8f74-4846-954c-ffcd7753ffc5",
+    "types": {
+      "SINGLE_CHOICE": 18,
+      "MULTIPLE_CHOICE_MULTIPLE_ANSWER": 6,
+      "CATEGORY": 6
+    },
+    "kinds": {
+      "VARIANT": 27,
+      "ORIGINAL": 3
+    },
+    "compared": [
+      "order",
+      "family identity",
+      "stem excluding asset marker",
+      "all options",
+      "answer key",
+      "explanation",
+      "image SHA256",
+      "original parent lineage"
+    ],
+    "readOnlyVerification": true
+  },
+  "priorOriginalsAttemptsResultsXpAndOtherPackagesUnchanged": true,
+  "localSourceConfigArchiveHashesUnchanged": true,
+  "rowCountDeltas": {
+    "questions": 0,
+    "question_variants": 27,
+    "question_versions": 27,
+    "assessment_packages": 0,
+    "package_items": 0,
+    "assessment_attempts": 0,
+    "attempt_items": 0,
+    "attempt_answers": 0,
+    "xp_ledger": 0,
+    "content_import_identities": 0,
+    "content_import_versions": 27,
+    "content_imports": 1,
+    "content_media_uploads": 10
+  },
+  "published": false,
+  "review": {
+    "importantFixed": [
+      "Asset IDs/receipts use existing family external identity",
+      "27 variants have accurate import provenance for Admin review"
+    ],
+    "precommitPreservationCheckAdded": true
+  },
+  "operatorSha256": "ba19e2c4acef3b4b57d44d8b66525c9646e78d567861767b4b233061bafafe71"
+}

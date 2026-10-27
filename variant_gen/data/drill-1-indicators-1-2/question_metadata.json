@@ -148,25 +148,50 @@
     ]
   },
   "pg-1-2-1": {
-    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
+    "source_document_sha256": "488d4c6aef8ccd464a260fd62ee8835829aba61be0d521e9c1b496716df3dc0e",
     "source_number": 1,
     "source_body_index": 405,
     "source_cognitive_label": "C3 (Menerapkan)",
-    "declared_key": "D. Kelompok 3",
-    "source_text": "Soal 1 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C3 (Menerapkan)\nKunci Jawaban: D. Kelompok 3\nDalam kegiatan bazar kewirausahaan di SMP Merdeka, empat kelompok siswa mencatat persentase keuntungan atau kerugian dari modal awal usaha mereka sebagai berikut:\nPak Dimas (Pembina): -(3)/(5) dari modal\nKelompok 1: -0,55 dari modal\nKelompok 2: - 58% dari modal\nKelompok 3: -0,62 dari modal\nDi antara keempat catatan tersebut, siapakah yang mencatatkan tingkat kerugian paling besar (nilai terkecil) dari modal awalnya?\nA. Kelompok 1\nB. Pak Dimas\nC. Kelompok 2\nD. Kelompok 3\nPembahasan:\nKonversikan seluruh nilai perubahan modal ke dalam bentuk desimal untuk membandingkan:\nPak Dimas: -(3)/(5)=-0,60\nKelompok 1: -0,55\nKelompok 2: - 58% = 0,58%\nKelompok 3: -0,62\nUntuk menentukan kerugian paling besar, kita mencari nilai yang paling negatif (paling kecil/paling jauh di sebelah kiri pada garis bilangan):\n-0,62<-0,60<-0,58<-0,55\n(Kelompok 3) → (Pak Dimas) → (Kelompok 2) → (Kelompok 1)\nNilai paling kecil adalah -0,62 (Kelompok 3).\nKoreksi pilihan pada Opsi D: Kerugian paling besar dialami oleh Kelompok 3 (-0,62).\nJawaban yang tepat adalah D. Kelompok 3.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap kerugian paling besar dicapai oleh angka yang terlihat paling kecil (misalnya -0,55), karena lupa bahwa pada bilangan negatif, nilai dengan angka absolut lebih besar (seperti -0,62) justru nilainya lebih kecil (makin rugi).",
-    "original_explanation": "Pembahasan:\nKonversikan seluruh nilai perubahan modal ke dalam bentuk desimal untuk membandingkan:\nPak Dimas: -(3)/(5)=-0,60\nKelompok 1: -0,55\nKelompok 2: - 58% = 0,58%\nKelompok 3: -0,62\nUntuk menentukan kerugian paling besar, kita mencari nilai yang paling negatif (paling kecil/paling jauh di sebelah kiri pada garis bilangan):\n-0,62<-0,60<-0,58<-0,55\n(Kelompok 3) → (Pak Dimas) → (Kelompok 2) → (Kelompok 1)\nNilai paling kecil adalah -0,62 (Kelompok 3).\nKoreksi pilihan pada Opsi D: Kerugian paling besar dialami oleh Kelompok 3 (-0,62).\nJawaban yang tepat adalah D. Kelompok 3.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap kerugian paling besar dicapai oleh angka yang terlihat paling kecil (misalnya -0,55), karena lupa bahwa pada bilangan negatif, nilai dengan angka absolut lebih besar (seperti -0,62) justru nilainya lebih kecil (makin rugi).",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Kunci D dan urutan kerugian telah diperbaiki, tetapi pembahasan masih menulis −58% = 0,58%. Konversi yang benar −0,58; sumber disimpan tanpa koreksi diam-diam.",
+    "declared_key": "Kunci Jawaban: D. Kelompok 3",
+    "source_text": "Level Kognitif: C3 (Menerapkan)\nKunci Jawaban: D. Kelompok 3\nDalam kegiatan bazar kewirausahaan di SMP Merdeka, empat kelompok siswa mencatat persentase keuntungan atau kerugian dari modal awal usaha mereka sebagai berikut:\nPak Dimas (Pembina): -(3)/(5) dari modal\nKelompok 1: -0,55 dari modal\nKelompok 2: - 58% dari modal\nKelompok 3: -0,62 dari modal\nDi antara keempat catatan tersebut, siapakah yang mencatatkan tingkat kerugian paling besar (nilai terkecil) dari modal awalnya?\nA. Kelompok 1\nB. Pak Dimas\nC. Kelompok 2\nD. Kelompok 3\nPembahasan:\nKonversikan seluruh nilai perubahan modal ke dalam bentuk desimal untuk membandingkan:\nPak Dimas: -(3)/(5)=-0,60\nKelompok 1: -0,55\nKelompok 2: - 58% = - 0,58\nKelompok 3: -0,62\nUntuk menentukan kerugian paling besar, kita mencari nilai yang paling negatif (paling kecil/paling jauh di sebelah kiri pada garis bilangan):\n-0,62<-0,60<-0,58<-0,55\n(Kelompok 3) → (Pak Dimas) → (Kelompok 2) → (Kelompok 1)\nNilai paling kecil adalah -0,62 (Kelompok 3).\nKoreksi pilihan pada Opsi D: Kerugian paling besar dialami oleh Kelompok 3 (-0,62).\nJawaban yang tepat adalah D. Kelompok 3.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap kerugian paling besar dicapai oleh angka yang terlihat paling kecil (misalnya -0,55), karena lupa bahwa pada bilangan negatif, nilai dengan angka absolut lebih besar (seperti -0,62) justru nilainya lebih kecil (makin rugi).",
+    "original_explanation": "Pembahasan:\nKonversikan seluruh nilai perubahan modal ke dalam bentuk desimal untuk membandingkan:\nPak Dimas: -(3)/(5)=-0,60\nKelompok 1: -0,55\nKelompok 2: - 58% = - 0,58\nKelompok 3: -0,62\nUntuk menentukan kerugian paling besar, kita mencari nilai yang paling negatif (paling kecil/paling jauh di sebelah kiri pada garis bilangan):\n-0,62<-0,60<-0,58<-0,55\n(Kelompok 3) → (Pak Dimas) → (Kelompok 2) → (Kelompok 1)\nNilai paling kecil adalah -0,62 (Kelompok 3).\nKoreksi pilihan pada Opsi D: Kerugian paling besar dialami oleh Kelompok 3 (-0,62).\nJawaban yang tepat adalah D. Kelompok 3.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap kerugian paling besar dicapai oleh angka yang terlihat paling kecil (misalnya -0,55), karena lupa bahwa pada bilangan negatif, nilai dengan angka absolut lebih besar (seperti -0,62) justru nilainya lebih kecil (makin rugi).",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
-    "source_document": "source-revision-2026-10-07.docx",
-    "source_review_status": "REVISED_CURRICULUM_PENDING_REVIEW",
-    "generator_status": "NOT_IMPLEMENTED",
+    "source_document": "docs/sources/incoming/2026-10-22-held-revisions/indikator1-5_held-only.docx",
+    "source_review_status": "AUDITED_CURRICULUM_REVISION",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Kerugian paling besar adalah Kelompok3 (-0,62), bukan PakDimas (-3/5=-0,60).",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Audit revisi final dan generator selesai; tanpa perubahan database.",
+    "local_corrections": [],
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "source_projection": {
+      "format": "PG",
+      "stem": "Dalam kegiatan bazar kewirausahaan di SMP Merdeka, empat kelompok siswa mencatat persentase keuntungan atau kerugian dari modal awal usaha mereka sebagai berikut:\nPak Dimas (Pembina): -(3)/(5) dari modal\nKelompok 1: -0,55 dari modal\nKelompok 2: - 58% dari modal\nKelompok 3: -0,62 dari modal\nDi antara keempat catatan tersebut, siapakah yang mencatatkan tingkat kerugian paling besar (nilai terkecil) dari modal awalnya?",
+      "options": [
+        "Kelompok 1",
+        "Pak Dimas",
+        "Kelompok 2",
+        "Kelompok 3"
+      ],
+      "key": [
+        "D"
+      ],
+      "explanation": "Pembahasan:\nKonversikan seluruh nilai perubahan modal ke dalam bentuk desimal untuk membandingkan:\nPak Dimas: -(3)/(5)=-0,60\nKelompok 1: -0,55\nKelompok 2: - 58% = - 0,58\nKelompok 3: -0,62\nUntuk menentukan kerugian paling besar, kita mencari nilai yang paling negatif (paling kecil/paling jauh di sebelah kiri pada garis bilangan):\n-0,62<-0,60<-0,58<-0,55\n(Kelompok 3) → (Pak Dimas) → (Kelompok 2) → (Kelompok 1)\nNilai paling kecil adalah -0,62 (Kelompok 3).\nKoreksi pilihan pada Opsi D: Kerugian paling besar dialami oleh Kelompok 3 (-0,62).\nJawaban yang tepat adalah D. Kelompok 3.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru menganggap kerugian paling besar dicapai oleh angka yang terlihat paling kecil (misalnya -0,55), karena lupa bahwa pada bilangan negatif, nilai dengan angka absolut lebih besar (seperti -0,62) justru nilainya lebih kecil (makin rugi)."
+    },
+    "source_original_document_sha256": "905ee1829f16e1a5e7ecd05a618a5b4d48e972b9b6abf482b25134aef6003f74",
+    "source_review": {
+      "date": "2026-10-22",
+      "issues": [],
+      "original_unchanged": false,
+      "local_corrections": [],
+      "audit": "docs/audits/2026-10-22-held-final-revisions/README.md"
+    }
   },
   "pg-1-2-2": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",

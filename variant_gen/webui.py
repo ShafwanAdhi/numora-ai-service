@@ -10,6 +10,8 @@ import database
 
 from bank import OriginalBank, load_workspace_bank
 from tryout import generate_package
+from tryout_media import IMAGE_IDS
+import image_workbench
 import re
 from cli import KNOWN_ERRORS, preview
 from config_store import ConfigError, ConfigStore, validate_config
@@ -77,6 +79,12 @@ class Handler(BaseHTTPRequestHandler):
             bank, configs = self.server.bank, self.server.configs
             if url.path == "/":
                 self.reply(200, (HERE / "webui.html").read_text(encoding="utf-8"), "text/html")
+            elif url.path in ('/image-variants', '/image-variants/'):
+                self.reply(200, (HERE / 'image_variants.html').read_text(encoding='utf-8'), 'text/html')
+            elif url.path == '/image-variants.js':
+                self.reply(200, (HERE / 'image_variants.js').read_text(encoding='utf-8'), 'application/javascript')
+            elif url.path == '/api/image-variants':
+                self.reply(200, image_workbench.catalog(bank, self.server.stock))
             elif url.path.startswith('/api/database/'):
                 query = parse_qs(url.query, keep_blank_values=True, max_num_fields=10)
                 if any(len(values) != 1 for values in query.values()):
@@ -167,7 +175,7 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(data, dict):
                 raise ValueError("Body harus berupa objek JSON.")
             json.dumps(data, allow_nan=False)
-            if urlsplit(self.path).path not in ('/api/tryout/generate-package', '/api/generate', '/api/config', '/api/lint'):
+            if urlsplit(self.path).path not in ('/api/image-variants/generate', '/api/tryout/generate-package', '/api/generate', '/api/config', '/api/lint'):
                 self.reply(404, {"error": "Aksi tidak ditemukan."})
                 return
             if urlsplit(self.path).path == '/api/tryout/generate-package':
@@ -177,6 +185,9 @@ class Handler(BaseHTTPRequestHandler):
                 seed=positive_integer(data.get('seed'))
                 result=generate_package(self.server.bank,self.server.configs,package_id,seed)
                 self.reply(200,result)
+                return
+            if urlsplit(self.path).path == '/api/image-variants/generate':
+                self.reply(200, image_workbench.generate(data, self.server.bank, self.server.configs, self.server.stock))
                 return
             qid = data.get("question_id")
             if not isinstance(qid, str):

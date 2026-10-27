@@ -93,7 +93,7 @@ class WebUI(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual(unavailable['original']['seed'], 0)
         self.assertIsNone(unavailable['variant'])
-        self.assertIsNone(unavailable['config'])
+        self.assertIsNotNone(unavailable['config'])
         self.assertFalse(self.store.exists())
 
     def test_generate_returns_repeatable_content_without_history(self):
@@ -112,8 +112,9 @@ class WebUI(unittest.TestCase):
                 self.assertIsNone(data['variant'])
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
-            for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config={}))[0],400)
+            self.assertEqual(self.request('POST','/api/generate',dict(question_id='mcma-6-3-7',seed=11))[0],200)
+            for route in ['lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config=None))[0],400)
             self.assertFalse(self.store.exists())
 
     def test_config_save_versions_validates_and_rejects_stale_editor(self):
@@ -190,8 +191,9 @@ class WebUI(unittest.TestCase):
                 self.assertIsNone(data['variant'])
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
-            for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config={}))[0],400)
+            self.assertEqual(self.request('POST','/api/generate',dict(question_id='mcma-6-3-7',seed=11))[0],200)
+            for route in ['lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config=None))[0],400)
             self.assertFalse(self.store.exists())
 
     def test_revised_originals_generate_without_database_or_storage(self):
@@ -231,8 +233,9 @@ class WebUI(unittest.TestCase):
                 self.assertIsNone(data['variant'])
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
-            for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config={}))[0],400)
+            self.assertEqual(self.request('POST','/api/generate',dict(question_id='mcma-6-3-7',seed=11))[0],200)
+            for route in ['lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config=None))[0],400)
             self.assertFalse(self.store.exists())
 
     def test_revised_6_10_generators_config_and_stateless_http(self):
@@ -288,8 +291,9 @@ class WebUI(unittest.TestCase):
                 self.assertIsNone(data['variant'])
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
-            for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config={}))[0],400)
+            self.assertEqual(self.request('POST','/api/generate',dict(question_id='mcma-6-3-7',seed=11))[0],200)
+            for route in ['lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='mcma-6-3-7',seed=11,config=None))[0],400)
             self.assertFalse(self.store.exists())
 
 
@@ -309,8 +313,9 @@ class WebUI(unittest.TestCase):
                 self.assertIsNone(data['variant'])
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
-            for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-1-2-1',seed=11,config={}))[0],400)
+            self.assertEqual(self.request('POST','/api/generate',dict(question_id='pg-1-2-1',seed=11))[0],200)
+            for route in ['lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-1-2-1',seed=11,config=None))[0],400)
             self.assertFalse(self.store.exists())
 
     def test_drill_3_5_local_responses(self):
@@ -329,8 +334,9 @@ class WebUI(unittest.TestCase):
                 self.assertIsNone(data['variant'])
                 self.assertNotIn('history',data)
                 self.assertEqual(self.request('POST','/api/regen',payload)[0],404)
-            for route in ['generate','lint','config']:
-                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-5-3-3',seed=11,config={}))[0],400)
+            self.assertEqual(self.request('POST','/api/generate',dict(question_id='pg-5-3-3',seed=11))[0],200)
+            for route in ['lint','config']:
+                self.assertEqual(self.request('POST','/api/'+route,dict(question_id='pg-5-3-3',seed=11,config=None))[0],400)
             self.assertFalse(self.store.exists())
 
     def test_tryout_end_to_end_never_queries_database(self):

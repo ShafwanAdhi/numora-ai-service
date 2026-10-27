@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "question_id": "tryout-1-b4-q05",
+  "template_version": 1,
+  "renderer": "labels-v1",
+  "canvas": [
+    292,
+    255
+  ],
+  "source_sha256": "dcb00140beac8f2e3084e2f32bf2658b769d5b8f8b319581c3af0ca8294e7568",
+  "base_sha256": "3ce851bc4e2b5c98ef8b4d975f2200e94bf62639d9ebe4f5d81d72d4a326b487",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "bindings": [
+    {
+      "name": "times"
+    }
+  ],
+  "constraints": [],
+  "labels": [
+    {
+      "id": "card_count",
+      "text": "{times}",
+      "box": [
+        20,
+        29,
+        74,
+        71
+      ],
+      "font_size": 26,
+      "min_font_size": 17
+    },
+    {
+      "id": "trial_caption",
+      "text": "Banyak Percobaan\n(n) = {times} kali",
+      "box": [
+        85,
+        26,
+        223,
+        74
+      ],
+      "font_size": 13,
+      "min_font_size": 10
+    }
+  ],
+  "alt_text": "Ilustrasi dua dadu untuk percobaan sebanyak {times} kali.",
+  "authoring": {
+    "mode": "built-in imagegen edit, reviewed label-only patches composited onto original; outside erasure regions untouched",
+    "cleanup_sha256": "2e8a03e11f9a9c2a9749bcc75633f5870c4f279672eb8e1c8fc68a8f3e4f7808",
+    "erasure_regions": [
+      [
+        20,
+        32,
+        72,
+        66
+      ],
+      [
+        85,
+        27,
+        215,
+        67
+      ]
+    ],
+    "source_preserved": true
+  }
+}

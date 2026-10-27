@@ -78,7 +78,7 @@ class Drill12(unittest.TestCase):
                 for qid in ['pg-1-1-1', 'mcma-2-1-6', 'kategori-2-1-9']:
                     for command in ['gen','gen','view']:
                         self.assertEqual(cli.main([command,qid,'s11']+args),0)
-                self.assertEqual(cli.main(['gen','pg-1-2-1','s1']+args),1)
+                self.assertEqual(cli.main(['gen','pg-1-2-1','s1']+args),0)
             self.assertFalse(path.exists())
 
     def test_oracle_edges_and_simplest_radical(self):
@@ -124,9 +124,9 @@ class Drill12(unittest.TestCase):
             self.assertTrue(o['metadata']['original_explanation'])
             self.assertEqual(o['classification']['package_id'], 'drill-1')
         for q in ['pg-1-1-5','pg-1-2-1','pg-1-2-3','pg-1-3-1','pg-1-3-5','pg-2-1-1','pg-2-1-2','mcma-2-2-6','pg-2-2-4']:
-            expected = 'HOLD_SOURCE' if q == 'pg-1-2-1' else 'ACTIVE'
+            expected = 'ACTIVE'
             self.assertEqual(bank.get(q)['metadata']['generation_status'], expected, q)
-            self.assertEqual(bank.get(q)['version'], 2)
+            self.assertEqual(bank.get(q)['version'], 3 if q=='pg-1-2-1' else 2)
 
     def check_indicator(self, indicator):
         self.assertTrue(BANK.exists(), 'phase1 source bank missing')
@@ -136,6 +136,10 @@ class Drill12(unittest.TestCase):
                   and bank.get(q)['metadata']['generation_status']=='ACTIVE']
         self.assertTrue(active)
         for o in active:
+            if o['id']=='pg-1-2-1':
+                from test_held_final_revisions import check_math as check_final
+                cfg,_=configs.load(o['id']);check_final(o['id'],generate(o,cfg,11,[]).cand)
+                continue
             with self.subTest(qid=o['id']):
                 cfg,_ = configs.load(o['id'])
                 self.assertEqual(validate_config(cfg,o), [])

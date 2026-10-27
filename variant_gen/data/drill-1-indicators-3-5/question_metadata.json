@@ -1352,25 +1352,50 @@
     ]
   },
   "pg-5-3-3": {
-    "source_document_sha256": "c2f41c6800e990d6cbc96a07cb83d3abe1bd25e0ebe874f2be5f666beda2a3b1",
+    "source_document_sha256": "488d4c6aef8ccd464a260fd62ee8835829aba61be0d521e9c1b496716df3dc0e",
     "source_number": 3,
     "source_body_index": 8032,
     "source_cognitive_label": "C4 (Menganalisis)",
-    "declared_key": "B. 24 liter/menit",
-    "source_text": "Soal 3 (Bentuk Soal: Pilihan Ganda)\nLevel Kognitif: C4 (Menganalisis)\nKunci Jawaban: B. 24 liter/menit\nDua buah selang pengisi air digunakan untuk menguras dan mengisi kembali dua akuarium sekolah yang berukuran berbeda:\nSelang P: Mengisi akuarium berkapasitas 300 liter sampai penuh dalam waktu 15 menit.\nSelang Q: Mengisi akuarium berkapasitas 480 liter sampai penuh dalam waktu 20 menit.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang Q dan Selang P. Selisih debit air kedua selang tersebut adalah ....\nA. 2 liter/menit\nB. 4 liter/menit\nC. 6 liter/menit\nD. 8 liter/menit\nPembahasan:\nHitung debit Selang P (Q_P):\nQ_P=(300 liter)/(15 menit)=20 liter/menit\nHitung debit Selang Q (Q_Q):\nQ_Q=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit (Q_Q-Q_P):\nSelisih=24-20=4 liter/menit\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengurangkan volume (480-300=180) dan waktu (20-15=5) terlebih dahulu, lalu membagi 180÷5=36 liter/menit.",
-    "original_explanation": "Pembahasan:\nHitung debit Selang P (Q_P):\nQ_P=(300 liter)/(15 menit)=20 liter/menit\nHitung debit Selang Q (Q_Q):\nQ_Q=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit (Q_Q-Q_P):\nSelisih=24-20=4 liter/menit\nKesalahan Umum yang Diantisipasi:\nSiswa salah mengurangkan volume (480-300=180) dan waktu (20-15=5) terlebih dahulu, lalu membagi 180÷5=36 liter/menit.",
-    "generation_status": "HOLD_SOURCE",
-    "reason": "Revisi belum mengubah konflik header: B. 24 liter/menit, sedangkan opsi B dan pembahasan selisih debit adalah 4 liter/menit. 24 merupakan debit Q, bukan selisih.",
+    "declared_key": "",
+    "source_text": "Level Kognitif: C4 (Menganalisis)\nSoal\nDua buah selang pengisi air digunakan untuk menguras dan mengisi kembali dua akuarium sekolah yang berukuran berbeda:\nSelang P: Mengisi akuarium berkapasitas 300 liter sampai penuh dalam waktu 15 menit.\nSelang Q: Mengisi akuarium berkapasitas 480 liter sampai penuh dalam waktu 20 menit.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang Q dan Selang P. Selisih debit air kedua selang tersebut adalah ....\nA. 2 liter/menit\nB. 4 liter/menit\nC. 6 liter/menit\nD. 8 liter/menit\nPembahasan:\nHitung debit air Selang P (QP):\nQP=(Volume P)/(Waktu P)=(300 liter)/(15 menit)=20 liter/menit\nHitung debit air Selang Q (QQ):\nQQ=(VolumeQ)/(WaktuuQ)=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit antara Selang Q dan Selang P (QQ-QP) :\nSelisih Debit=24 liter/menit-20 liter/menit=liter/menit\nAnalisis Opsi Jawaban:\nOpsi A (2 liter/menit): Salah, muncul jika siswa keliru menghitung nilai QP atau QQ.\nOpsi B (4 liter/menit - BENAR): Hasil pengurangan selisih debit yang tepat dan akurat (24-20=4).\nOpsi C (6 liter/menit): Salah, muncul jika siswa keliru menghitung QP=18 liter/menit (24-18=6).\nOpsi D (8 liter/menit): Salah, muncul jika siswa keliru dalam mengoperasikan pembagian volume terhadap waktu.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengurangkan volume (480-300=180 liter) dan waktu (20-15=5 menit) terlebih dahulu lalu membaginya ((180)/(5)=36 liter/menit), alih-alih menghitung debit masing-masing selang secara terpisah terlebih dahulu.",
+    "original_explanation": "Pembahasan:\nHitung debit air Selang P (QP):\nQP=(Volume P)/(Waktu P)=(300 liter)/(15 menit)=20 liter/menit\nHitung debit air Selang Q (QQ):\nQQ=(VolumeQ)/(WaktuuQ)=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit antara Selang Q dan Selang P (QQ-QP) :\nSelisih Debit=24 liter/menit-20 liter/menit=liter/menit\nAnalisis Opsi Jawaban:\nOpsi A (2 liter/menit): Salah, muncul jika siswa keliru menghitung nilai QP atau QQ.\nOpsi B (4 liter/menit - BENAR): Hasil pengurangan selisih debit yang tepat dan akurat (24-20=4).\nOpsi C (6 liter/menit): Salah, muncul jika siswa keliru menghitung QP=18 liter/menit (24-18=6).\nOpsi D (8 liter/menit): Salah, muncul jika siswa keliru dalam mengoperasikan pembagian volume terhadap waktu.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengurangkan volume (480-300=180 liter) dan waktu (20-15=5 menit) terlebih dahulu lalu membaginya ((180)/(5)=36 liter/menit), alih-alih menghitung debit masing-masing selang secara terpisah terlebih dahulu.",
+    "generation_status": "ACTIVE",
+    "reason": "",
     "notes": [
       "Notasi Word dinormalisasi: akar, pangkat, pecahan/angka campuran; raw DOCX dan source_text dipertahankan."
     ],
-    "source_document": "source-revision-2026-10-07.docx",
-    "source_review_status": "REVISED_CURRICULUM_PENDING_REVIEW",
-    "generator_status": "NOT_IMPLEMENTED",
+    "source_document": "docs/sources/incoming/2026-10-22-held-revisions/indikator1-5_held-only.docx",
+    "source_review_status": "AUDITED_CURRICULUM_REVISION",
+    "generator_status": "IMPLEMENTED",
     "previous_source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",
     "previous_generation_status": "HOLD_SOURCE",
     "previous_reason": "Selisih debit4liter/menit pada opsi B; caption header B menyebut24liter/menit yaitu debitQ, bukan selisih.",
-    "audit": "Impor original lokal saja; tanpa generator, database, commit, atau push."
+    "audit": "Audit revisi final dan generator selesai; tanpa perubahan database.",
+    "local_corrections": [],
+    "approval_status": "NOT_CURRICULUM_APPROVED",
+    "self_adjustment_enabled": false,
+    "source_projection": {
+      "format": "PG",
+      "stem": "Dua buah selang pengisi air digunakan untuk menguras dan mengisi kembali dua akuarium sekolah yang berukuran berbeda:\nSelang P: Mengisi akuarium berkapasitas 300 liter sampai penuh dalam waktu 15 menit.\nSelang Q: Mengisi akuarium berkapasitas 480 liter sampai penuh dalam waktu 20 menit.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang Q dan Selang P. Selisih debit air kedua selang tersebut adalah ....",
+      "options": [
+        "2 liter/menit",
+        "4 liter/menit",
+        "6 liter/menit",
+        "8 liter/menit"
+      ],
+      "key": [
+        "B"
+      ],
+      "explanation": "Pembahasan:\nHitung debit air Selang P (QP):\nQP=(Volume P)/(Waktu P)=(300 liter)/(15 menit)=20 liter/menit\nHitung debit air Selang Q (QQ):\nQQ=(VolumeQ)/(WaktuuQ)=(480 liter)/(20 menit)=24 liter/menit\nMenganalisis selisih debit antara Selang Q dan Selang P (QQ-QP) :\nSelisih Debit=24 liter/menit-20 liter/menit=liter/menit\nAnalisis Opsi Jawaban:\nOpsi A (2 liter/menit): Salah, muncul jika siswa keliru menghitung nilai QP atau QQ.\nOpsi B (4 liter/menit - BENAR): Hasil pengurangan selisih debit yang tepat dan akurat (24-20=4).\nOpsi C (6 liter/menit): Salah, muncul jika siswa keliru menghitung QP=18 liter/menit (24-18=6).\nOpsi D (8 liter/menit): Salah, muncul jika siswa keliru dalam mengoperasikan pembagian volume terhadap waktu.\nKesalahan Umum yang Diantisipasi:\nSiswa sering keliru mengurangkan volume (480-300=180 liter) dan waktu (20-15=5 menit) terlebih dahulu lalu membaginya ((180)/(5)=36 liter/menit), alih-alih menghitung debit masing-masing selang secara terpisah terlebih dahulu."
+    },
+    "source_original_document_sha256": "905ee1829f16e1a5e7ecd05a618a5b4d48e972b9b6abf482b25134aef6003f74",
+    "source_review": {
+      "date": "2026-10-22",
+      "issues": [],
+      "original_unchanged": false,
+      "local_corrections": [],
+      "audit": "docs/audits/2026-10-22-held-final-revisions/README.md"
+    }
   },
   "pg-5-3-4": {
     "source_document_sha256": "f12c25edf8b1e6a4a10daa19cbbe7459624450f619921186d0c75818e6b499c6",

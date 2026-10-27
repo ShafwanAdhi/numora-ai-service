@@ -7,6 +7,7 @@ import sys
 import tempfile
 import threading
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -16,6 +17,13 @@ import webui
 
 
 class Stateless(unittest.TestCase):
+    def test_existing_package_command_does_not_render_images(self):
+        with patch('tryout_media.generate_media_bundle',side_effect=AssertionError('media is opt-in')):
+            output=io.StringIO()
+            with contextlib.redirect_stdout(output):
+                self.assertEqual(cli.main(['package-gen','tryout-1','s1']),0)
+            self.assertEqual(len(json.loads(output.getvalue())['items']),30)
+
     def test_original_hash_ignores_windows_line_endings(self):
         from bank import load_workspace_bank, original_hash
         original = load_workspace_bank(ROOT / 'data/q0_bank.csv').get('pg-1-1-1')

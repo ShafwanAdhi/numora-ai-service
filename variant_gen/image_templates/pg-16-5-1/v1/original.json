@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "question_id": "pg-16-5-1",
+  "template_version": 1,
+  "scenario": "original",
+  "renderer": "labels-v1",
+  "canvas": [
+    960,
+    640
+  ],
+  "labels": [
+    {
+      "id": "title",
+      "text": "Empat rancangan jaring-jaring",
+      "box": [
+        20,
+        15,
+        940,
+        65
+      ],
+      "font_size": 25,
+      "min_font_size": 14
+    },
+    {
+      "id": "panel_A",
+      "text": "A",
+      "box": [
+        35,
+        80,
+        80,
+        115
+      ],
+      "font_size": 24,
+      "min_font_size": 14
+    },
+    {
+      "id": "caption_A",
+      "text": "r = 7 cm; panjang selimut = 44 cm",
+      "box": [
+        45,
+        285,
+        455,
+        325
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    },
+    {
+      "id": "panel_B",
+      "text": "B",
+      "box": [
+        500,
+        80,
+        545,
+        115
+      ],
+      "font_size": 24,
+      "min_font_size": 14
+    },
+    {
+      "id": "panel_C",
+      "text": "C",
+      "box": [
+        35,
+        330,
+        80,
+        365
+      ],
+      "font_size": 24,
+      "min_font_size": 14
+    },
+    {
+      "id": "caption_C",
+      "text": "r = 7 cm; panjang selimut = 20 cm",
+      "box": [
+        45,
+        535,
+        455,
+        575
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    },
+    {
+      "id": "panel_D",
+      "text": "D",
+      "box": [
+        500,
+        330,
+        545,
+        365
+      ],
+      "font_size": 24,
+      "min_font_size": 14
+    },
+    {
+      "id": "caption_D",
+      "text": "r = 7 cm; busur juring = 44 cm",
+      "box": [
+        510,
+        535,
+        920,
+        575
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        20,
+        590,
+        940,
+        630
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    }
+  ],
+  "alt_text": "Empat panel A sampai D: A: tabung, r = 7 cm; panjang selimut = 44 cm; B: prisma segitiga; C: tabung, r = 7 cm; panjang selimut = 20 cm; D: kerucut, r = 7 cm; busur juring = 44 cm. Gambar skematis.",
+  "geometry": {
+    "kind": "four-panels",
+    "panels": [
+      {
+        "id": "A",
+        "kind": "cylinder",
+        "faces": [
+          {
+            "kind": "rectangle",
+            "vertices": [
+              [
+                177.6,
+                175
+              ],
+              [
+                318.4,
+                175
+              ],
+              [
+                318.4,
+                226.2
+              ],
+              [
+                177.6,
+                226.2
+              ]
+            ]
+          },
+          {
+            "kind": "circle",
+            "center": [
+              248,
+              152.6
+            ],
+            "radius": 22.4
+          },
+          {
+            "kind": "circle",
+            "center": [
+              248,
+              248.6
+            ],
+            "radius": 22.4
+          }
+        ],
+        "rectangle_count": 1,
+        "triangle_count": 0,
+        "circle_count": 2
+      },
+      {
+        "id": "B",
+        "kind": "prism",
+        "faces": [
+          {
+            "kind": "rectangle",
+            "vertices": [
+              [
+                625,
+                160
+              ],
+              [
+                675,
+                160
+              ],
+              [
+                675,
+                235
+              ],
+              [
+                625,
+                235
+              ]
+            ]
+          },
+          {
+            "kind": "rectangle",
+            "vertices": [
+              [
+                675,
+                160
+              ],
+              [
+                725,
+                160
+              ],
+              [
+                725,
+                235
+              ],
+              [
+                675,
+                235
+              ]
+            ]
+          },
+          {
+            "kind": "rectangle",
+            "vertices": [
+              [
+                725,
+                160
+              ],
+              [
+                775,
+                160
+              ],
+              [
+                775,
+                235
+              ],
+              [
+                725,
+                235
+              ]
+            ]
+          },
+          {
+            "kind": "triangle",
+            "vertices": [
+              [
+                675,
+                160
+              ],
+              [
+                725,
+                160
+              ],
+              [
+                700,
+                116.69872981077808
+              ]
+            ]
+          },
+          {
+            "kind": "triangle",
+            "vertices": [
+              [
+                675,
+                235
+              ],
+              [
+                725,
+                235
+              ],
+              [
+                700,
+                278.3012701892219
+              ]
+            ]
+          }
+        ],
+        "rectangle_count": 3,
+        "triangle_count": 2,
+        "circle_count": 0
+      },
+      {
+        "id": "C",
+        "kind": "short-cylinder",
+        "faces": [
+          {
+            "kind": "rectangle",
+            "vertices": [
+              [
+                216.0,
+                425
+              ],
+              [
+                280.0,
+                425
+              ],
+              [
+                280.0,
+                476.2
+              ],
+              [
+                216.0,
+                476.2
+              ]
+            ]
+          },
+          {
+            "kind": "circle",
+            "center": [
+              248,
+              402.6
+            ],
+            "radius": 22.4
+          },
+          {
+            "kind": "circle",
+            "center": [
+              248,
+              498.6
+            ],
+            "radius": 22.4
+          }
+        ],
+        "rectangle_count": 1,
+        "triangle_count": 0,
+        "circle_count": 2,
+        "wrap_relation": "shorter"
+      },
+      {
+        "id": "D",
+        "kind": "cone",
+        "faces": [
+          {
+            "kind": "sector",
+            "center": [
+              655,
+              435
+            ],
+            "radius": 70,
+            "sweep_degrees": 180
+          },
+          {
+            "kind": "circle",
+            "center": [
+              795,
+              460
+            ],
+            "radius": 35
+          }
+        ],
+        "rectangle_count": 0,
+        "triangle_count": 0,
+        "circle_count": 1,
+        "arc_relation": "equal"
+      }
+    ]
+  },
+  "base_sha256": "b58bb121cac2964b2e536cb33570feed3f1f30af0197ff6dd4848a4b8ade9e99",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "source_inventory_sha256": "ec8ab8a76f07cc0b043845e6d7f1276d455e8b688a5627d00748b0b404793215",
+  "source_sha256": "7e9dfd4733e31036823cebd01a109cb05e0ec8f2cb2e65c42c4703d872174076",
+  "compatibility": {
+    "original_version": 2,
+    "original_hash": "b96132e16389dc9f",
+    "original_full_sha256": "a3111da75148f3f145e82a0b6844ec82a7c121927ad9e78550868dae9c418f5f",
+    "stock_variant_id": null,
+    "stock_version": null,
+    "stock_content_sha256": null
+  }
+}

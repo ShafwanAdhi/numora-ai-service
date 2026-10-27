@@ -1,0 +1,74 @@
+{
+  "mode": "--verify",
+  "images": 9,
+  "verifiedDownloads": [
+    {
+      "externalId": "pg-16-4-1",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "4fcf42b0127bbc9dbd2274accd96b0fa6dd7a5298bac4fd328b0f9fd2ed918af",
+      "contentVersion": 2
+    },
+    {
+      "externalId": "pg-16-4-2",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "4a1dd7406845d4174bf64a17f53bb3130bb9911c61e3ae0257ca36f177501001",
+      "contentVersion": 1
+    },
+    {
+      "externalId": "pg-16-4-3",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "cbc221a83bb910d1c05cf1679bb0bcfe9dddcdeeb88c3c966afd3112c5f3bf0a",
+      "contentVersion": 2
+    },
+    {
+      "externalId": "pg-16-4-4",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "ac9441ae678c3f2bf8cd625c6617f0edbdf8baf79047812301fc9afd97247cb3",
+      "contentVersion": 2
+    },
+    {
+      "externalId": "mcma-16-4-6",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+      "contentVersion": 2
+    },
+    {
+      "externalId": "mcma-16-4-7",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+      "contentVersion": 2
+    },
+    {
+      "externalId": "pg-16-5-1",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "58ccf233f09d91db4eb5609984771bebfed752413b39d4dd6b6286efaeef4f37",
+      "contentVersion": 2
+    },
+    {
+      "externalId": "pg-16-5-3",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "31554b9dca1618dac5fc3e19b5d0e44d38e78b8c9c49b0be1930ada9377981c8",
+      "contentVersion": 1
+    },
+    {
+      "externalId": "pg-16-5-5",
+      "status": "VERIFIED",
+      "httpStatus": 200,
+      "sha256": "b5e03e6c14461245979eac53055f95350a3be9f14b671c3df522921fa80fbd57",
+      "contentVersion": 1
+    }
+  ],
+  "scope": "ORIGINAL_ONLY",
+  "questionVersionsOrPackagesChanged": false,
+  "attachedToQuestions": false,
+  "published": false,
+  "bundleId": "c948bf0bfd6f8b71514aaff0fefac3b1dfed7438a90b4e42c65c1e2e0e89ddc3"
+}

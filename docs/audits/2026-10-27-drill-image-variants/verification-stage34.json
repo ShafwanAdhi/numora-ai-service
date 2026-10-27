@@ -1,0 +1,128 @@
+{
+  "stages": [
+    3,
+    4
+  ],
+  "status": "PASS",
+  "stage5_started": false,
+  "conceptual": {
+    "originals": 4,
+    "stocks": 8,
+    "scenario_occurrences": 12,
+    "unique_pngs": 8
+  },
+  "catalog": {
+    "tryout": 5,
+    "drill": 9,
+    "total": 14
+  },
+  "tests": {
+    "numeric": 15,
+    "conceptual": 7,
+    "image_modes_http": 7,
+    "legacy_image_workbench": 3,
+    "image_bundle": 44,
+    "tryout": 14,
+    "stateless": 4,
+    "total": 94
+  },
+  "independent_review": {
+    "status": "PASS",
+    "findings": []
+  },
+  "browser": {
+    "desktop": [
+      1600,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "png_download_sha_matches": true,
+    "mode_controls": true,
+    "stale_response_rejected": true,
+    "loading_controls_disabled": true,
+    "catalog_error_retry": true,
+    "generate_error_state": true,
+    "source_text_safe": true,
+    "horizontal_overflow": false
+  },
+  "generator_or_academic_content_changed": false,
+  "database_or_r2_accessed": false,
+  "allowed_existing_runtime_changes": [
+    "variant_gen/webui.py",
+    "variant_gen/image_variants.html"
+  ],
+  "protected_baseline_file_count": 1265,
+  "protected_after_check": "Only the two explicitly allowed workbench files may differ; all other pre-existing hashes must match.",
+  "owned_files_sha256": {
+    "docs/audits/2026-10-27-drill-image-variants/README.md": "02ce64d17d5f9dabc043dab4f7968367ac07bb4d69451539172d0ecc2109e325",
+    "docs/audits/2026-10-27-drill-image-variants/STAGES_3_4.md": "243c00d235797d4ed881a36962a64a38d4a30c6887eacf7081a375af53b376b5",
+    "docs/audits/2026-10-27-drill-image-variants/progress.md": "01513e074be1eb8c78fce2159141224ba866cf309b40db650a365ebf668114a4",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/browser/desktop.png": "adfc414aa92d738722dc78ffe231c71ec599b6b9b94a1b56538aff77eebf1693",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/browser/mobile.png": "8a435a8f3289ac174f0c6fb16399d6571c3081dbc411b9c1a5c6aae596b4d129",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/mcma-16-4-6-original.png": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/mcma-16-4-6-stock-01.png": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/mcma-16-4-6-stock-02.png": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/mcma-16-4-7-original.png": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/mcma-16-4-7-stock-01.png": "f8a3497661b0c1b4c183030ed00d86c43c4f682aab77ec555122e050c3a00cf4",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/mcma-16-4-7-stock-02.png": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/pg-16-4-2-original.png": "4a1dd7406845d4174bf64a17f53bb3130bb9911c61e3ae0257ca36f177501001",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/pg-16-4-2-stock-01.png": "5abf4054a22e11e7f34c23259b4400472f96e139e6fe2cab5da69f06c22fc57e",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/pg-16-4-2-stock-02.png": "dd0f98f44558a5eb0a343e5e9e294c1979afa105585b00c1b7173be9ddfbb800",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/pg-16-5-1-original.png": "58ccf233f09d91db4eb5609984771bebfed752413b39d4dd6b6286efaeef4f37",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/pg-16-5-1-stock-01.png": "4378bf3e9d5139f86c79816bbef1f7942ff441fad19eb7d1d5a5f7c19c39995a",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/images/pg-16-5-1-stock-02.png": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/preview.html": "af13f352891706ae28e1711c2eb97125f5ad4eec9d05f328ef34d1869fbdc2cf",
+    "docs/audits/2026-10-27-drill-image-variants/stage-34/conceptual/review.json": "efee0fd2700a9ce297785f46494d8d22d92553ba4f688c7fc925c6e89ad4bda7",
+    "docs/superpowers/plans/2026-10-27-drill-image-variants.md": "7c502ead15e706dbb05f7eabb86589e99387eb4126196b4154bf0f9c1fda7e02",
+    "tools/check_image_workbench_browser.js": "b4a3a23c224fda76237bd76632d4f8dbd854083cd0737676639ddd90d9d0ff25",
+    "tools/prepare_drill_concept_images.py": "2aecbb37cc465595ce10e9d5dbc6544f40f97148ec91f2bcaef6a1f6344c445b",
+    "variant_gen/drill_concept_images/__init__.py": "e7d7748ece68e2b653b51714fd07195a2b9e76e5f74f5344ce0d3dd9598050bd",
+    "variant_gen/drill_concept_images/registry.py": "ba873f9e2abe75c973e8571c302e9588994d927cde843a0dd7aea1f4d6b77030",
+    "variant_gen/drill_concept_images/scenarios.py": "f735011e2fcd5fc0deca3b5467214c8e5a1accd05fb114bc5bf5958c2d23f481",
+    "variant_gen/image_templates/mcma-16-4-6/v1/original.json": "20f827f3d5fb15c6c98332965cf95cd47b9d8e2e795c1f32c768cae3a1efd9ea",
+    "variant_gen/image_templates/mcma-16-4-6/v1/original.png": "6af20f4706e2c9d9effe76568648bde513cf3ba9de636fa2b7dd5dbb498c07a0",
+    "variant_gen/image_templates/mcma-16-4-6/v1/stock-01.json": "d09870f737884c1c9753f66d40278948c9aa47b38fb9a01aadb32c74b83bece9",
+    "variant_gen/image_templates/mcma-16-4-6/v1/stock-01.png": "6af20f4706e2c9d9effe76568648bde513cf3ba9de636fa2b7dd5dbb498c07a0",
+    "variant_gen/image_templates/mcma-16-4-6/v1/stock-02.json": "c47cfdeefe759c80387ff8658a19186489d4099c5c76d2eea4eb836afb7b7fb4",
+    "variant_gen/image_templates/mcma-16-4-6/v1/stock-02.png": "6af20f4706e2c9d9effe76568648bde513cf3ba9de636fa2b7dd5dbb498c07a0",
+    "variant_gen/image_templates/mcma-16-4-7/v1/original.json": "bb2f2e2ec51700d973735660e9425c605d4291235ed4deb445f2fd6126eae610",
+    "variant_gen/image_templates/mcma-16-4-7/v1/original.png": "14d4723e4f354242b54ed108b1a3f049c4a4120b8d1474bf7fc8fffe12320ffc",
+    "variant_gen/image_templates/mcma-16-4-7/v1/stock-01.json": "2a84948a5fb1d5ff21bd146d02afeac43ec5ec21d37976fc6e95bdd6fc29410f",
+    "variant_gen/image_templates/mcma-16-4-7/v1/stock-01.png": "d04073391f2909aaedbdc31c9d686fd4895054b0aaf877aec876fd8a671ad674",
+    "variant_gen/image_templates/mcma-16-4-7/v1/stock-02.json": "cd09094cd761d453a52e153021e97af4c3807c348454dc6d6544e0f709e56df5",
+    "variant_gen/image_templates/mcma-16-4-7/v1/stock-02.png": "14d4723e4f354242b54ed108b1a3f049c4a4120b8d1474bf7fc8fffe12320ffc",
+    "variant_gen/image_templates/pg-16-4-2/v1/original.json": "1ad6f21ff92738dc863d4a3d704db0ff67cb8c44f69ab743077b20be8bdcff3b",
+    "variant_gen/image_templates/pg-16-4-2/v1/original.png": "a5b77a5fefd60ce0f0612204d88d50fcdb9addfe491bb2676e31ad45d3001447",
+    "variant_gen/image_templates/pg-16-4-2/v1/stock-01.json": "2e55c1d4289bd510288ed82eec376a072f907af0d9326ca6318a7b65f540c771",
+    "variant_gen/image_templates/pg-16-4-2/v1/stock-01.png": "c399af69a54bf357e8cc73c9500bd59769f382080c12ade4f87ffddf66d7cecb",
+    "variant_gen/image_templates/pg-16-4-2/v1/stock-02.json": "4df424c9079c0928bd11aa1025ed69c61755c88ab5749b9bd3614e0136717849",
+    "variant_gen/image_templates/pg-16-4-2/v1/stock-02.png": "91243ab920f8db36603fca6c74f2bcc0a9f48807949322b2bf7c5650a9ec5d23",
+    "variant_gen/image_templates/pg-16-5-1/v1/original.json": "fd711b75cbb5f92ead8992db572b155ccfd0fcf930e3f5fdefe3e5f78e4a2d01",
+    "variant_gen/image_templates/pg-16-5-1/v1/original.png": "b58bb121cac2964b2e536cb33570feed3f1f30af0197ff6dd4848a4b8ade9e99",
+    "variant_gen/image_templates/pg-16-5-1/v1/stock-01.json": "453f0ae7ea488a9309aa0f630a19c68a70cf9c6ce9405be6c879011c8d7e0e94",
+    "variant_gen/image_templates/pg-16-5-1/v1/stock-01.png": "5e04aa1fe344e9c3536d447ce8f7a7b9daafda55c4777157a0175d6f2e0d4a41",
+    "variant_gen/image_templates/pg-16-5-1/v1/stock-02.json": "c0b64f13ed8af385c38ecdf4b21de13f6ec8f91377eef071c265eb7f26c3ee93",
+    "variant_gen/image_templates/pg-16-5-1/v1/stock-02.png": "14d4723e4f354242b54ed108b1a3f049c4a4120b8d1474bf7fc8fffe12320ffc",
+    "variant_gen/image_variants.html": "88642483d219a0f7195f1333810bc66f93b54296283183bafde0902de33042c5",
+    "variant_gen/image_variants.js": "a6b770a4daf35bfb685158a4119eb7626b868219db911bf0ae673b61fbdc942d",
+    "variant_gen/image_workbench.py": "6def19d8e2cf722fddbd8409016a4812943b65cac174152f4cf13232dd11160b",
+    "variant_gen/tests/test_drill_concept_images.py": "c9bb19e10d6bec348f94ee140697f61a85ba671290dafa37383b6c1081ee04f1",
+    "variant_gen/tests/test_image_workbench.py": "f1799389087217fe4c4a6c46e8c8ff58713470f74c56ae3b61d67a7aa2654e89",
+    "variant_gen/tests/test_image_workbench_modes.py": "bebb9ba727fc58e7b1ae5e0b9530f2f3a01dc81f2074844e99a306e672e72d32",
+    "variant_gen/webui.py": "2ba75190dd7a5ef98889b551d1a5c2f400cf1e31e659102d10c1e38965fc04ac"
+  },
+  "post_copy": {
+    "status": "PASS",
+    "protected_files_unchanged": 1263,
+    "intended_runtime_changes": [
+      "variant_gen/image_variants.html",
+      "variant_gen/webui.py"
+    ],
+    "numeric_adapter_template_files_unchanged": 17,
+    "live_mode_responses_png_verified": 32,
+    "tryout_seed1_bundle_id": "083125b756f4107d143ade49f3ccd824f3be1fdb6ab1ed7d9a70eff6c8e92162"
+  }
+}

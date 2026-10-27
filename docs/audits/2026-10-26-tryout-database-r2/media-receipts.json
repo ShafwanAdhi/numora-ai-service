@@ -1,0 +1,62 @@
+{
+  "tryout-1-b3-q02": {
+    "uploadId": "1d3e8d55-60b2-477d-ad09-6180c1ba8a6e",
+    "status": "VERIFIED",
+    "externalId": "tryout-1-b3-q02",
+    "assetId": "diagram-1",
+    "bucket": "numora-bucket",
+    "objectKey": "question-media/tryout-1-b3-q02/v1/diagram-1-b7b37ff8a9099a9e3cf6b2fe4f8e282feafe3708d79c6180f0ce3e8af9c2ead9.png",
+    "contentType": "image/png",
+    "byteLength": 153040,
+    "sha256": "b7b37ff8a9099a9e3cf6b2fe4f8e282feafe3708d79c6180f0ce3e8af9c2ead9",
+    "verifiedAt": "2026-10-26T15:59:37.037Z"
+  },
+  "tryout-1-b3-q03": {
+    "uploadId": "5e754743-9e22-41b1-a60a-8904bc98e4b4",
+    "status": "VERIFIED",
+    "externalId": "tryout-1-b3-q03",
+    "assetId": "diagram-1",
+    "bucket": "numora-bucket",
+    "objectKey": "question-media/tryout-1-b3-q03/v1/diagram-1-1a4995f7cc1a2e58aa4e03d4d4a28e82f4615ab36a8ea4df4539c76f1646ca99.png",
+    "contentType": "image/png",
+    "byteLength": 96338,
+    "sha256": "1a4995f7cc1a2e58aa4e03d4d4a28e82f4615ab36a8ea4df4539c76f1646ca99",
+    "verifiedAt": "2026-10-26T15:59:39.969Z"
+  },
+  "tryout-1-b3-q04": {
+    "uploadId": "cfd66277-cabf-4533-a944-806f45c4b9ce",
+    "status": "VERIFIED",
+    "externalId": "tryout-1-b3-q04",
+    "assetId": "diagram-1",
+    "bucket": "numora-bucket",
+    "objectKey": "question-media/tryout-1-b3-q04/v1/diagram-1-091d5665202e0b628b24fb33488a4bde9d5aa130ba8ea7b99df5341e3646430c.png",
+    "contentType": "image/png",
+    "byteLength": 165569,
+    "sha256": "091d5665202e0b628b24fb33488a4bde9d5aa130ba8ea7b99df5341e3646430c",
+    "verifiedAt": "2026-10-26T15:59:42.666Z"
+  },
+  "tryout-1-b3-q06": {
+    "uploadId": "e62fbbee-333f-424b-8da8-88671c37a40f",
+    "status": "VERIFIED",
+    "externalId": "tryout-1-b3-q06",
+    "assetId": "diagram-1",
+    "bucket": "numora-bucket",
+    "objectKey": "question-media/tryout-1-b3-q06/v1/diagram-1-4af6b6b0f8a2049c204b82e897ed71eb7fba3866dab448871446c09102e75308.png",
+    "contentType": "image/png",
+    "byteLength": 281934,
+    "sha256": "4af6b6b0f8a2049c204b82e897ed71eb7fba3866dab448871446c09102e75308",
+    "verifiedAt": "2026-10-26T15:59:46.099Z"
+  },
+  "tryout-1-b4-q05": {
+    "uploadId": "98166566-e13b-4c93-8fc6-b15f6447ca53",
+    "status": "VERIFIED",
+    "externalId": "tryout-1-b4-q05",
+    "assetId": "diagram-1",
+    "bucket": "numora-bucket",
+    "objectKey": "question-media/tryout-1-b4-q05/v1/diagram-1-dcb00140beac8f2e3084e2f32bf2658b769d5b8f8b319581c3af0ca8294e7568.png",
+    "contentType": "image/png",
+    "byteLength": 128743,
+    "sha256": "dcb00140beac8f2e3084e2f32bf2658b769d5b8f8b319581c3af0ca8294e7568",
+    "verifiedAt": "2026-10-26T15:59:49.079Z"
+  }
+}

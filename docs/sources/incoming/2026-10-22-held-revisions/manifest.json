@@ -1,0 +1,112 @@
+{
+  "status": "HOLD",
+  "purpose": "Source revisions only; active bank unchanged",
+  "unresolved_conflicts": [
+    "kategori-21-4-9",
+    "kategori-21-4-10",
+    "pg-22-4-3"
+  ],
+  "files": [
+    {
+      "source": "indikator1-5_final.docx",
+      "source_sha256": "905ee1829f16e1a5e7ecd05a618a5b4d48e972b9b6abf482b25134aef6003f74",
+      "extracted": "indikator1-5_held-only.docx",
+      "questions": [
+        {
+          "id": "pg-1-2-1",
+          "status": "HOLD",
+          "xml_sha256": "2aa3f374c5174c0cca7e9343fcf5c934d1affcf361345ddd04d4f219aef4934d"
+        },
+        {
+          "id": "pg-5-3-3",
+          "status": "HOLD",
+          "xml_sha256": "d11342b82d53b8ece017bdb54065c0e0cb82b85e26fe273b72239749da2caf0a"
+        }
+      ]
+    },
+    {
+      "source": "indikator6-10_final.docx",
+      "source_sha256": "a954cc66bd2546b80df5da0e9b682d00ecee3cc1ef504b5dd7707a3afcedb6f6",
+      "extracted": "indikator6-10_held-only.docx",
+      "questions": [
+        {
+          "id": "mcma-6-3-7",
+          "status": "HOLD",
+          "xml_sha256": "0f9156212a65059c9d8dc96c368d156dee8a0a34856402f15451b39e11cd866c"
+        }
+      ]
+    },
+    {
+      "source": "indikator20-23_final.docx",
+      "source_sha256": "dcfda2910426031fffdaa79ad6aed87a7aae199f611a0d01ef48807adfd90e63",
+      "extracted": "indikator20-23_held-only.docx",
+      "questions": [
+        {
+          "id": "kategori-21-4-9",
+          "status": "HOLD",
+          "xml_sha256": "c920f82e98b2ca6aa67dcbd962b9203249730a542e746e51710fd3d8f6a05b0b"
+        },
+        {
+          "id": "kategori-21-4-10",
+          "status": "HOLD",
+          "xml_sha256": "4c13ca3ecc07136c638950e9b23537d46ee5eab3724ea41fc5505bb3d0e43616"
+        },
+        {
+          "id": "mcma-21-5-6",
+          "status": "HOLD",
+          "xml_sha256": "b54ec4735007d0484cb5c2dcdd4d643b58c69a7fcd5072b0a19e7f36bbcd5a2e"
+        },
+        {
+          "id": "mcma-21-5-7",
+          "status": "HOLD",
+          "xml_sha256": "def55a343a0edbb522c9d52c7c4f52e37e4bf73c0b52bea726dd2d6e0dabe133"
+        },
+        {
+          "id": "pg-22-4-3",
+          "status": "HOLD",
+          "xml_sha256": "4080f83dd110051849129b6ee8316b94a66cbd92719343c4a77146eaa5498b9f"
+        },
+        {
+          "id": "mcma-22-4-7",
+          "status": "HOLD",
+          "xml_sha256": "fc99c698524e594758540cdcb5ec55150dfb0b814bf636738e3e24a72dba7ec4"
+        },
+        {
+          "id": "kategori-22-4-9",
+          "status": "HOLD",
+          "xml_sha256": "8f94b93420063ce7374cbbb57436ad385e44f86a62fafddedd837d6090770e18"
+        },
+        {
+          "id": "pg-23-4-5",
+          "status": "HOLD",
+          "xml_sha256": "10512dd3fbc2d3a792972b0d3496334ff789b7abdedaaa6fb61a121f89083c7c"
+        },
+        {
+          "id": "mcma-23-4-7",
+          "status": "HOLD",
+          "xml_sha256": "91cd61ddaf08df42fea1f4e536e51f5c655b4d668d225632e52102f18ea2f1d2"
+        },
+        {
+          "id": "pg-23-5-3",
+          "status": "HOLD",
+          "xml_sha256": "886c68a995ecedd80ea1c2ad0d8e7e9c0e8bccd792971304b772c506516f5e6c"
+        },
+        {
+          "id": "pg-23-5-4",
+          "status": "HOLD",
+          "xml_sha256": "b4ed2017e6d5ee7eb33658b3c901f621f168f26d0e17883eac4a78604c30d26b"
+        },
+        {
+          "id": "mcma-23-5-7",
+          "status": "HOLD",
+          "xml_sha256": "cbb7ffe03b2995bae60ee011cfefe928dbf4b967884b32cedfe66392a7110fc8"
+        },
+        {
+          "id": "mcma-23-5-8",
+          "status": "HOLD",
+          "xml_sha256": "2427c30f3b0958c0f88befe26a8276bffc0f1b236afbf575b012893307bcb275"
+        }
+      ]
+    }
+  ]
+}

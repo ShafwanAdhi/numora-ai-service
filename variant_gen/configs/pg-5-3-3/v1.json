@@ -1,0 +1,99 @@
+{
+  "question_id": "pg-5-3-3",
+  "config_version": 1,
+  "original_hash": "e925336dc1de2e29",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'300' if k == 0 else (300*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'480' if k == 0 else (480*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'2' if k == 0 else (2*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'4' if k == 0 else (4*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'6' if k == 0 else (6*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'8' if k == 0 else (8*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "20*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "24*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "4*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dua buah selang pengisi air digunakan untuk menguras dan mengisi kembali dua akuarium sekolah yang berukuran berbeda:\nSelang P: Mengisi akuarium berkapasitas {v0} liter sampai penuh dalam waktu 15 menit.\nSelang Q: Mengisi akuarium berkapasitas {v1} liter sampai penuh dalam waktu 20 menit.\nSeorang siswa menganalisis selisih laju aliran air (debit) antara Selang Q dan Selang P. Selisih debit air kedua selang tersebut adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "{v2} liter/menit",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "{v3} liter/menit",
+      "correct": true
+    },
+    {
+      "id": "C",
+      "text": "{v4} liter/menit",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "{v5} liter/menit",
+      "correct": false
+    }
+  ],
+  "explanation": "Debit P={v6} liter/menit; Q={v7} liter/menit. Selisih={v8} liter/menit. Hanya B benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

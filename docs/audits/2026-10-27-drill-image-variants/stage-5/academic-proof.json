@@ -1,0 +1,2189 @@
+{
+  "approval_scope": "ENGINEERING_LOCAL_REVIEW_NOT_CURRICULUM_OR_IRT_APPROVAL",
+  "bundle_id": "c948bf0bfd6f8b71514aaff0fefac3b1dfed7438a90b4e42c65c1e2e0e89ddc3",
+  "cases": 167,
+  "conceptual_checks": 12,
+  "coverage": "full_domain",
+  "families": 9,
+  "numeric_geometry": {
+    "pg-16-4-1": {
+      "kind": "cylinder-net",
+      "status": "PASS"
+    },
+    "pg-16-4-3": {
+      "kind": "cone-net",
+      "status": "PASS"
+    },
+    "pg-16-4-4": {
+      "kind": "square-pyramid-net",
+      "status": "PASS"
+    },
+    "pg-16-5-3": {
+      "kind": "source-illustration",
+      "status": "PASS"
+    },
+    "pg-16-5-5": {
+      "kind": "source-illustration",
+      "status": "PASS"
+    }
+  },
+  "numeric_math_checks": 155,
+  "proofs": [
+    {
+      "case_id": "pg-16-4-1:original",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "748"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k1",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "2992"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k2",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "6732"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k3",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "11968"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k4",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "18700"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k5",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "26928"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k6",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "36652"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k7",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "47872"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k8",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "60588"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k9",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "74800"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k10",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "90508"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k11",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "107712"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k12",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "126412"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k13",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "146608"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k14",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "168300"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k15",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "191488"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k16",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "216172"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k17",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "242352"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k18",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "270028"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k19",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "299200"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k20",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "329868"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k21",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "362032"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k22",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "395692"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k23",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "430848"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k24",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "467500"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k25",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "505648"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k26",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "545292"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k27",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "586432"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k28",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "629068"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k29",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "673200"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-1:k30",
+      "independent_check": {
+        "correct_options": [
+          "D"
+        ],
+        "independent_answer": "718828"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-2:original",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "C"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-2:stock-01",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "C"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-2:stock-02",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "D"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:original",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "88"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k1",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "176"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k2",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "264"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k3",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "352"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k4",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "440"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k5",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "528"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k6",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "616"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k7",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "704"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k8",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "792"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k9",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "880"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k10",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "968"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k11",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1056"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k12",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1144"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k13",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1232"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k14",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1320"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k15",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1408"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k16",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1496"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k17",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1584"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k18",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1672"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k19",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1760"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k20",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1848"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k21",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "1936"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k22",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2024"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k23",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2112"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k24",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2200"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k25",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2288"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k26",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2376"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k27",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2464"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k28",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2552"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k29",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2640"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-3:k30",
+      "independent_check": {
+        "correct_options": [
+          "B"
+        ],
+        "independent_answer": "2728"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:original",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "384"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k1",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "1536"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k2",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "3456"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k3",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "6144"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k4",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "9600"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k5",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "13824"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k6",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "18816"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k7",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "24576"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k8",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "31104"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k9",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "38400"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k10",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "46464"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k11",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "55296"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k12",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "64896"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k13",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "75264"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k14",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "86400"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k15",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "98304"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k16",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "110976"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k17",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "124416"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k18",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "138624"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k19",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "153600"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k20",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "169344"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k21",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "185856"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k22",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "203136"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k23",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "221184"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k24",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "240000"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k25",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "259584"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k26",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "279936"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k27",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "301056"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k28",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "322944"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k29",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "345600"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-4-4:k30",
+      "independent_check": {
+        "correct_options": [
+          "C"
+        ],
+        "independent_answer": "369024"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "mcma-16-4-6:original",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "A,B,C"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "mcma-16-4-6:stock-01",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "A,B,C"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "mcma-16-4-6:stock-02",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "A,B,C"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "mcma-16-4-7:original",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "A,C,D"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "mcma-16-4-7:stock-01",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "A,B,D"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "mcma-16-4-7:stock-02",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "A,B,D"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-1:original",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "C"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-1:stock-01",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "C"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-1:stock-02",
+      "independent_check": {
+        "content_scenario_pin": "PASS",
+        "geometry": "PASS",
+        "key": "C"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:original",
+      "independent_check": {
+        "arc_over_pi": "10",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "5"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k1",
+      "independent_check": {
+        "arc_over_pi": "20",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "10"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k2",
+      "independent_check": {
+        "arc_over_pi": "30",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "15"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k3",
+      "independent_check": {
+        "arc_over_pi": "40",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "20"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k4",
+      "independent_check": {
+        "arc_over_pi": "50",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "25"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k5",
+      "independent_check": {
+        "arc_over_pi": "60",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "30"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k6",
+      "independent_check": {
+        "arc_over_pi": "70",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "35"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k7",
+      "independent_check": {
+        "arc_over_pi": "80",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "40"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k8",
+      "independent_check": {
+        "arc_over_pi": "90",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "45"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k9",
+      "independent_check": {
+        "arc_over_pi": "100",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "50"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k10",
+      "independent_check": {
+        "arc_over_pi": "110",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "55"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k11",
+      "independent_check": {
+        "arc_over_pi": "120",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "60"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k12",
+      "independent_check": {
+        "arc_over_pi": "130",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "65"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k13",
+      "independent_check": {
+        "arc_over_pi": "140",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "70"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k14",
+      "independent_check": {
+        "arc_over_pi": "150",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "75"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k15",
+      "independent_check": {
+        "arc_over_pi": "160",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "80"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k16",
+      "independent_check": {
+        "arc_over_pi": "170",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "85"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k17",
+      "independent_check": {
+        "arc_over_pi": "180",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "90"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k18",
+      "independent_check": {
+        "arc_over_pi": "190",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "95"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k19",
+      "independent_check": {
+        "arc_over_pi": "200",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "100"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k20",
+      "independent_check": {
+        "arc_over_pi": "210",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "105"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k21",
+      "independent_check": {
+        "arc_over_pi": "220",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "110"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k22",
+      "independent_check": {
+        "arc_over_pi": "230",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "115"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k23",
+      "independent_check": {
+        "arc_over_pi": "240",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "120"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k24",
+      "independent_check": {
+        "arc_over_pi": "250",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "125"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k25",
+      "independent_check": {
+        "arc_over_pi": "260",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "130"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k26",
+      "independent_check": {
+        "arc_over_pi": "270",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "135"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k27",
+      "independent_check": {
+        "arc_over_pi": "280",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "140"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k28",
+      "independent_check": {
+        "arc_over_pi": "290",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "145"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k29",
+      "independent_check": {
+        "arc_over_pi": "300",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "150"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-3:k30",
+      "independent_check": {
+        "arc_over_pi": "310",
+        "correct_options": [
+          "A"
+        ],
+        "independent_radius": "155"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:original",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 100
+        },
+        "correct_options": [
+          "D"
+        ],
+        "one_triangle_area": "65",
+        "statement_truths": [
+          true,
+          true,
+          false,
+          true
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 360
+        },
+        "true_pyramid_height": 12
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k1",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 400
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "260",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 1440
+        },
+        "true_pyramid_height": 24
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k2",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 900
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "585",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 3240
+        },
+        "true_pyramid_height": 36
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k3",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 1600
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "1040",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 5760
+        },
+        "true_pyramid_height": 48
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k4",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 2500
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "1625",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 9000
+        },
+        "true_pyramid_height": 60
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k5",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 3600
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "2340",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 12960
+        },
+        "true_pyramid_height": 72
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k6",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 4900
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "3185",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 17640
+        },
+        "true_pyramid_height": 84
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k7",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 6400
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "4160",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 23040
+        },
+        "true_pyramid_height": 96
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k8",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 8100
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "5265",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 29160
+        },
+        "true_pyramid_height": 108
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k9",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 10000
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "6500",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 36000
+        },
+        "true_pyramid_height": 120
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k10",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 12100
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "7865",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 43560
+        },
+        "true_pyramid_height": 132
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k11",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 14400
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "9360",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 51840
+        },
+        "true_pyramid_height": 144
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k12",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 16900
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "10985",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 60840
+        },
+        "true_pyramid_height": 156
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k13",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 19600
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "12740",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 70560
+        },
+        "true_pyramid_height": 168
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k14",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 22500
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "14625",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 81000
+        },
+        "true_pyramid_height": 180
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k15",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 25600
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "16640",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 92160
+        },
+        "true_pyramid_height": 192
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k16",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 28900
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "18785",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 104040
+        },
+        "true_pyramid_height": 204
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k17",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 32400
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "21060",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 116640
+        },
+        "true_pyramid_height": 216
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k18",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 36100
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "23465",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 129960
+        },
+        "true_pyramid_height": 228
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k19",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 40000
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "26000",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 144000
+        },
+        "true_pyramid_height": 240
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k20",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 44100
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "28665",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 158760
+        },
+        "true_pyramid_height": 252
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k21",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 48400
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "31460",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 174240
+        },
+        "true_pyramid_height": 264
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k22",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 52900
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "34385",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 190440
+        },
+        "true_pyramid_height": 276
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k23",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 57600
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "37440",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 207360
+        },
+        "true_pyramid_height": 288
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k24",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 62500
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "40625",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 225000
+        },
+        "true_pyramid_height": 300
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k25",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 67600
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "43940",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 243360
+        },
+        "true_pyramid_height": 312
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k26",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 72900
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "47385",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 262440
+        },
+        "true_pyramid_height": 324
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k27",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 78400
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "50960",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 282240
+        },
+        "true_pyramid_height": 336
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k28",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 84100
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "54665",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 302760
+        },
+        "true_pyramid_height": 348
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k29",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 90000
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "58500",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 324000
+        },
+        "true_pyramid_height": 360
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "pg-16-5-5:k30",
+      "independent_check": {
+        "base_area": {
+          "denominator": 1,
+          "numerator": 96100
+        },
+        "correct_options": [
+          "C"
+        ],
+        "one_triangle_area": "62465",
+        "statement_truths": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "surface_area": {
+          "denominator": 1,
+          "numerator": 345960
+        },
+        "true_pyramid_height": 372
+      },
+      "status": "PASS"
+    }
+  ],
+  "status": "LOCAL_RENDERED",
+  "unique_images": 163
+}

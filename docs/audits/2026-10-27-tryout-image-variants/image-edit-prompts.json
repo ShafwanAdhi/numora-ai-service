@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "purpose": "One-time cleanup only; runtime values are rendered deterministically by code",
+  "transparent_background": false,
+  "edits": [
+    {
+      "question_id": "tryout-1-b4-q05",
+      "source": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-04/soal-05/image-01.png",
+      "prompt": "Edit target: the supplied original educational dice illustration. Make a clean reusable image template. Remove ALL text in the TOP AREA ONLY: the number 180 on the yellow card, and the full wording 'Banyak Percobaan (n) = 180 kali'. Leave the yellow card blank. Fill the removed top-right wording with continuous matching graph-paper background. Preserve the exact composition, two dice, every die pip, card outline, hand, cup, arrows, grid and colors. Do not add any text or numbers. Keep the whole original image framing and original 292 by 255 proportions; do not crop or add margins. This is label erasure only, not a redesigned illustration.",
+      "final_template": "variant_gen/image_templates/tryout-1-b4-q05/v1/base.png"
+    },
+    {
+      "question_id": "tryout-1-b3-q02",
+      "source": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-03/soal-02/image-01.png",
+      "prompt": "Edit target: supplied original math garden diagram. Make a clean reusable template by removing ONLY the two dimension labels '14 m' on the left and '20 m' along the bottom. Restore their plain background naturally. Keep both dimension arrow lines and arrowheads intact, same geometry and positions. Preserve the entire garden, trees, benches, path, rectangular region, semicircular region, diameter dotted line, small TAMAN DESA sign, grid, and original colors exactly. Do not change any illustration features and do not add text or numbers. Keep original complete framing and 489 by 240 proportions; no crop or margins.",
+      "final_template": "variant_gen/image_templates/tryout-1-b3-q02/v1/base.png"
+    },
+    {
+      "question_id": "tryout-1-b3-q06",
+      "source": "docs/sources/incoming/2026-10-26-tryout-images/images/bab-03/soal-06/image-01.png",
+      "prompt": "Edit target: supplied original math diagram with RANCANGAN A and RANCANGAN B. Remove ONLY these seven measurement text labels while preserving all other pixels/structure as closely as possible: both 'r = 7 dm' texts inside cylinder/dome, the '14 dm' below cylinder, 't = 10 dm' beside cylinder, and the three cuboid dimensions 't = 12 dm', 'l = 12 dm', 'p = 15 dm'. Restore matching grid/background or vessel shading under each erased label. Preserve every dimension arrow, vessel edge, dashed radius/hidden-edge line, translucent shading, dome shape and cuboid shape. Preserve ALL titles/captions: RANCANGAN A, RANCANGAN B, Kombinasi Tabung & Setengah Bola, Prisma Segi Empat (Balok). No replacement measurement labels, no new numbers/text. Keep full original 646 by 318 proportions and composition, no cropping or margins.",
+      "final_template": "variant_gen/image_templates/tryout-1-b3-q06/v1/base.png"
+    }
+  ]
+}

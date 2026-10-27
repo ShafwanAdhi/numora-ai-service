@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "question_id": "mcma-16-4-7",
+  "template_version": 1,
+  "scenario": "stock-02",
+  "renderer": "labels-v1",
+  "canvas": [
+    960,
+    640
+  ],
+  "labels": [
+    {
+      "id": "title",
+      "text": "Jaring-jaring tabung",
+      "box": [
+        20,
+        15,
+        940,
+        65
+      ],
+      "font_size": 25,
+      "min_font_size": 14
+    },
+    {
+      "id": "radius",
+      "text": "r",
+      "box": [
+        565,
+        445,
+        650,
+        485
+      ],
+      "font_size": 22,
+      "min_font_size": 14
+    },
+    {
+      "id": "height",
+      "text": "h",
+      "box": [
+        765,
+        305,
+        850,
+        345
+      ],
+      "font_size": 22,
+      "min_font_size": 14
+    },
+    {
+      "id": "length",
+      "text": "p",
+      "box": [
+        400,
+        305,
+        560,
+        345
+      ],
+      "font_size": 22,
+      "min_font_size": 14
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        20,
+        590,
+        940,
+        630
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    }
+  ],
+  "alt_text": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+  "geometry": {
+    "kind": "cylinder-net",
+    "panels": [
+      {
+        "id": "net",
+        "circle_count": 2,
+        "rectangle_count": 1,
+        "faces": [
+          {
+            "kind": "rectangle",
+            "vertices": [
+              [
+                230,
+                260
+              ],
+              [
+                730,
+                260
+              ],
+              [
+                730,
+                400
+              ],
+              [
+                230,
+                400
+              ]
+            ]
+          },
+          {
+            "kind": "circle",
+            "center": [
+              480,
+              180
+            ],
+            "radius": 80
+          },
+          {
+            "kind": "circle",
+            "center": [
+              480,
+              480
+            ],
+            "radius": 80
+          }
+        ],
+        "label_symbols": {
+          "r": "radius",
+          "h": "height",
+          "p": "wrap_length"
+        }
+      }
+    ]
+  },
+  "base_sha256": "14d4723e4f354242b54ed108b1a3f049c4a4120b8d1474bf7fc8fffe12320ffc",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "source_inventory_sha256": "ec8ab8a76f07cc0b043845e6d7f1276d455e8b688a5627d00748b0b404793215",
+  "source_sha256": "1fcb51a929b90335aca9086b8e7e26306c0a0ba96012dc81293e493735ee1182",
+  "compatibility": {
+    "original_version": 2,
+    "original_hash": "99e5617dc99a0a3f",
+    "original_full_sha256": "e947a9d186114d1c74f6ee4f2cddc8e177e22e06d2b25c88086f36f8b468bca4",
+    "stock_variant_id": "mcma-16-4-7:stock-02",
+    "stock_version": 1,
+    "stock_content_sha256": "f4bee1a10cc2c5e9d91aca9846743e0290f3c82421f63eb6d779c0eed7cd9a02"
+  }
+}

@@ -1,0 +1,5029 @@
+[
+  {
+    "source_chapter": 2,
+    "source_question_number": 1,
+    "source_heading": "SOAL 1 (Bentuk Soal: PG)",
+    "paragraph_start_index": 76,
+    "body_block_start_index": 9,
+    "body_block_end_exclusive": 20,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 76,
+        "text": "SOAL 1 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 77,
+        "text": "Indikator 7.2 | Level Kognitif: C3 (Mudah)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 78,
+        "text": "KUNCI JAWABAN : C",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 79,
+        "text": "Penyelesaian dari persamaan $3\\left(2x−5\\right)=4x+7$ adalah…",
+        "math_ids": [
+          "math-0001"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 80,
+        "text": "\n![Source image rId6](media/image7.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId6",
+            "file": "media/image7.png"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 81,
+        "text": "A. $x=6$",
+        "math_ids": [
+          "math-0002"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "1",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "$x=6$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 82,
+        "text": "B. $x=1$",
+        "math_ids": [
+          "math-0003"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "1",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "$x=1$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 83,
+        "text": "C. $x=11$",
+        "math_ids": [
+          "math-0004"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "1",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "$x=11$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 84,
+        "text": "D. $x=16$",
+        "math_ids": [
+          "math-0005"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "1",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "$x=16$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 85,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 86,
+        "text": "$6x−15=4x+7⇒6x−4x=7+15⇒2x=22⇒x=11$.",
+        "math_ids": [
+          "math-0006"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 1 (Bentuk Soal: PG)\n\nIndikator 7.2 | Level Kognitif: C3 (Mudah)\n\nKUNCI JAWABAN : C\n\nPenyelesaian dari persamaan $3\\left(2x−5\\right)=4x+7$ adalah…\n\n\n![Source image rId6](media/image7.png)\n\n\nA. $x=6$\n\nB. $x=1$\n\nC. $x=11$\n\nD. $x=16$\n\nPembahasan :\n\n$6x−15=4x+7⇒6x−4x=7+15⇒2x=22⇒x=11$.",
+    "source_indicator_lines": [
+      "Indikator 7.2 | Level Kognitif: C3 (Mudah)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 2,
+    "source_heading": "SOAL 2 (Bentuk Soal: PG)",
+    "paragraph_start_index": 87,
+    "body_block_start_index": 20,
+    "body_block_end_exclusive": 30,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 87,
+        "text": "SOAL 2 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 88,
+        "text": "Indikator 8.2 | Level Kognitif: C3 (Mudah)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 89,
+        "text": "KUNCI JAWABAN : A",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 90,
+        "text": "Himpunan penyelesaian dari pertidaksamaan $−3x+5>17$ adalah…",
+        "math_ids": [
+          "math-0007"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 91,
+        "text": "A. $x<−4$",
+        "math_ids": [
+          "math-0008"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "8",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "$x<−4$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 92,
+        "text": "B. $x>−4$",
+        "math_ids": [
+          "math-0009"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "8",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "$x>−4$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 93,
+        "text": "C. $x<4$",
+        "math_ids": [
+          "math-0010"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "8",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "$x<4$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 94,
+        "text": "D. $x>4$",
+        "math_ids": [
+          "math-0011"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "8",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "$x>4$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 95,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 96,
+        "text": "$−3x+5>17⇒−3x>12$. Karena kedua ruas dibagi bilangan negatif ($−3$), tanda pertidaksamaan dibalik: $x<−4$.",
+        "math_ids": [
+          "math-0012",
+          "math-0013",
+          "math-0014"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 2 (Bentuk Soal: PG)\n\nIndikator 8.2 | Level Kognitif: C3 (Mudah)\n\nKUNCI JAWABAN : A\n\nHimpunan penyelesaian dari pertidaksamaan $−3x+5>17$ adalah…\n\nA. $x<−4$\n\nB. $x>−4$\n\nC. $x<4$\n\nD. $x>4$\n\nPembahasan :\n\n$−3x+5>17⇒−3x>12$. Karena kedua ruas dibagi bilangan negatif ($−3$), tanda pertidaksamaan dibalik: $x<−4$.",
+    "source_indicator_lines": [
+      "Indikator 8.2 | Level Kognitif: C3 (Mudah)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 3,
+    "source_heading": "SOAL 3 (Bentuk Soal: PG)",
+    "paragraph_start_index": 97,
+    "body_block_start_index": 30,
+    "body_block_end_exclusive": 41,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 97,
+        "text": "SOAL 3 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 98,
+        "text": "Indikator 7.3 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 99,
+        "text": "KUNCI JAWABAN : D",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 100,
+        "text": "Umur seorang ayah tiga kali umur anaknya. Lima tahun yang akan datang, jumlah umur mereka adalah $62$ tahun. Umur ayah sekarang adalah… tahun.",
+        "math_ids": [
+          "math-0015"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 101,
+        "text": "\n![Source image rId7](media/image10.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId7",
+            "file": "media/image10.png"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 102,
+        "text": "A. $13$",
+        "math_ids": [
+          "math-0016"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "9",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "$13$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 103,
+        "text": "B. $44$",
+        "math_ids": [
+          "math-0017"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "9",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "$44$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 104,
+        "text": "C. $52$",
+        "math_ids": [
+          "math-0018"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "9",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "$52$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 105,
+        "text": "D. $39$",
+        "math_ids": [
+          "math-0019"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "9",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "$39$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 106,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 107,
+        "text": "Misalkan umur anak $=a$, maka umur ayah $=3a$. Lima tahun lagi: $\\left(3a+5\\right)+\\left(a+5\\right)=62⇒4a+10=62⇒a=13$. Umur ayah sekarang $=3×13=39$ tahun.",
+        "math_ids": [
+          "math-0020",
+          "math-0021",
+          "math-0022",
+          "math-0023"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 3 (Bentuk Soal: PG)\n\nIndikator 7.3 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : D\n\nUmur seorang ayah tiga kali umur anaknya. Lima tahun yang akan datang, jumlah umur mereka adalah $62$ tahun. Umur ayah sekarang adalah… tahun.\n\n\n![Source image rId7](media/image10.png)\n\n\nA. $13$\n\nB. $44$\n\nC. $52$\n\nD. $39$\n\nPembahasan :\n\nMisalkan umur anak $=a$, maka umur ayah $=3a$. Lima tahun lagi: $\\left(3a+5\\right)+\\left(a+5\\right)=62⇒4a+10=62⇒a=13$. Umur ayah sekarang $=3×13=39$ tahun.",
+    "source_indicator_lines": [
+      "Indikator 7.3 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 4,
+    "source_heading": "SOAL 4 (Bentuk Soal: PG MCMA)",
+    "paragraph_start_index": 108,
+    "body_block_start_index": 41,
+    "body_block_end_exclusive": 57,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 108,
+        "text": "SOAL 4 (Bentuk Soal: PG MCMA)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 109,
+        "text": "Indikator 9.3 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 110,
+        "text": "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 111,
+        "text": "Diketahui sistem persamaan linear dua variabel:",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 112,
+        "text": "$2x+3y=12$",
+        "math_ids": [
+          "math-0024"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 113,
+        "text": "$4x+6y=24$",
+        "math_ids": [
+          "math-0025"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 114,
+        "text": "Pilihlah semua pernyataan yang benar!",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 115,
+        "text": "[ ] Pernyataan 1: Sistem tersebut memiliki tak hingga banyak penyelesaian.",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 116,
+        "text": "[ ] Pernyataan 2: Grafik kedua persamaan saling berimpit.",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 117,
+        "text": "[ ] Pernyataan 3: Sistem tersebut hanya memiliki satu penyelesaian, yaitu $\\left(3,2\\right)$.",
+        "math_ids": [
+          "math-0026"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 118,
+        "text": "[ ] Pernyataan 4: Pasangan $\\left(3,2\\right)$ merupakan salah satu penyelesaian sistem tersebut.",
+        "math_ids": [
+          "math-0027"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 119,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 120,
+        "text": "Persamaan kedua adalah $2$ kali persamaan pertama sehingga keduanya ekuivalen dan memiliki tak hingga banyak penyelesaian (Pernyataan 1 Benar).",
+        "math_ids": [
+          "math-0028"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 121,
+        "text": "Karena ekuivalen, kedua garis berimpit (Pernyataan 2 Benar).",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 122,
+        "text": "Pernyataan tersebut salah karena $\\left(3,2\\right)$ bukan satu-satunya penyelesaian; misalnya $\\left(6,0\\right)$ juga memenuhi (Pernyataan 3 Salah).",
+        "math_ids": [
+          "math-0029",
+          "math-0030"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 123,
+        "text": "$2\\left(3\\right)+3\\left(2\\right)=12$ dan $4\\left(3\\right)+6\\left(2\\right)=24$ sehingga $\\left(3,2\\right)$ memenuhi keduanya (Pernyataan 4 Benar).",
+        "math_ids": [
+          "math-0031",
+          "math-0032",
+          "math-0033"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 4 (Bentuk Soal: PG MCMA)\n\nIndikator 9.3 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4\n\nDiketahui sistem persamaan linear dua variabel:\n\n$2x+3y=12$\n\n$4x+6y=24$\n\nPilihlah semua pernyataan yang benar!\n\n[ ] Pernyataan 1: Sistem tersebut memiliki tak hingga banyak penyelesaian.\n\n[ ] Pernyataan 2: Grafik kedua persamaan saling berimpit.\n\n[ ] Pernyataan 3: Sistem tersebut hanya memiliki satu penyelesaian, yaitu $\\left(3,2\\right)$.\n\n[ ] Pernyataan 4: Pasangan $\\left(3,2\\right)$ merupakan salah satu penyelesaian sistem tersebut.\n\nPembahasan :\n\nPersamaan kedua adalah $2$ kali persamaan pertama sehingga keduanya ekuivalen dan memiliki tak hingga banyak penyelesaian (Pernyataan 1 Benar).\n\nKarena ekuivalen, kedua garis berimpit (Pernyataan 2 Benar).\n\nPernyataan tersebut salah karena $\\left(3,2\\right)$ bukan satu-satunya penyelesaian; misalnya $\\left(6,0\\right)$ juga memenuhi (Pernyataan 3 Salah).\n\n$2\\left(3\\right)+3\\left(2\\right)=12$ dan $4\\left(3\\right)+6\\left(2\\right)=24$ sehingga $\\left(3,2\\right)$ memenuhi keduanya (Pernyataan 4 Benar).",
+    "source_indicator_lines": [
+      "Indikator 9.3 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 5,
+    "source_heading": "SOAL 5 (Bentuk Soal: PG Kategori)",
+    "paragraph_start_index": 124,
+    "body_block_start_index": 57,
+    "body_block_end_exclusive": 70,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 124,
+        "text": "SOAL 5 (Bentuk Soal: PG Kategori)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 125,
+        "text": "Indikator 8.5 | Level Kognitif: C5 (Sulit)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 126,
+        "text": "KUNCI JAWABAN : A. Benar, B. Benar, C. Salah",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 127,
+        "text": "Seorang siswa menyelesaikan pertidaksamaan $2−3x≥14$ dengan langkah berikut:",
+        "math_ids": [
+          "math-0034"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 128,
+        "text": "Langkah 1: $−3x≥12$",
+        "math_ids": [
+          "math-0035"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 129,
+        "text": "Langkah 2: $x≥−4$",
+        "math_ids": [
+          "math-0036"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 130,
+        "text": "Tentukan Benar atau Salah untuk setiap pernyataan evaluasi berikut!",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "table",
+        "id": "table-003",
+        "rows": [
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 131,
+                  "text": "Pernyataan",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 132,
+                  "text": "Benar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 133,
+                  "text": "Salah",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 134,
+                  "text": "A. Penyelesaian yang benar dari pertidaksamaan tersebut adalah $x≤−4$.",
+                  "math_ids": [
+                    "math-0037"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 135,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 136,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 137,
+                  "text": "B. Kesalahan siswa terjadi pada Langkah 2 karena tanda pertidaksamaan tidak dibalik saat kedua ruas dibagi $−3$.",
+                  "math_ids": [
+                    "math-0038"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 138,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 139,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 140,
+                  "text": "C. Nilai $x=0$ memenuhi pertidaksamaan semula.",
+                  "math_ids": [
+                    "math-0039"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 141,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 142,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 143,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 144,
+        "text": "Pernyataan A benar, $−3x≥12⇒x≤−4$ (tanda dibalik).",
+        "math_ids": [
+          "math-0040"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 145,
+        "text": "Pernyataan B benar, Langkah 1 sudah benar, sedangkan Langkah 2 lupa membalik tanda.",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 146,
+        "text": "Pernyataan C salah, substitusi $x=0$ menghasilkan $2−0=2≥14$ yang tidak benar.",
+        "math_ids": [
+          "math-0041",
+          "math-0042"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 147,
+        "text": "SUB BAB 2 : BENTUK ALJABAR",
+        "math_ids": [],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 5 (Bentuk Soal: PG Kategori)\n\nIndikator 8.5 | Level Kognitif: C5 (Sulit)\n\nKUNCI JAWABAN : A. Benar, B. Benar, C. Salah\n\nSeorang siswa menyelesaikan pertidaksamaan $2−3x≥14$ dengan langkah berikut:\n\nLangkah 1: $−3x≥12$\n\nLangkah 2: $x≥−4$\n\nTentukan Benar atau Salah untuk setiap pernyataan evaluasi berikut!\n\n<!-- table-003 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>A. Penyelesaian yang benar dari pertidaksamaan tersebut adalah $x≤−4$.</td><td>[ ]</td><td>[ ]</td></tr>\n<tr><td>B. Kesalahan siswa terjadi pada Langkah 2 karena tanda pertidaksamaan tidak dibalik saat kedua ruas dibagi $−3$.</td><td>[ ]</td><td>[ ]</td></tr>\n<tr><td>C. Nilai $x=0$ memenuhi pertidaksamaan semula.</td><td>[ ]</td><td>[ ]</td></tr>\n</table>\n\nPembahasan :\n\nPernyataan A benar, $−3x≥12⇒x≤−4$ (tanda dibalik).\n\nPernyataan B benar, Langkah 1 sudah benar, sedangkan Langkah 2 lupa membalik tanda.\n\nPernyataan C salah, substitusi $x=0$ menghasilkan $2−0=2≥14$ yang tidak benar.\n\nSUB BAB 2 : BENTUK ALJABAR",
+    "source_indicator_lines": [
+      "Indikator 8.5 | Level Kognitif: C5 (Sulit)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 6,
+    "source_heading": "SOAL 6 (Bentuk Soal: PG)",
+    "paragraph_start_index": 148,
+    "body_block_start_index": 70,
+    "body_block_end_exclusive": 80,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 148,
+        "text": "SOAL 6 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 149,
+        "text": "Indikator 10.2 | Level Kognitif: C3 (Mudah)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 150,
+        "text": "KUNCI JAWABAN : B",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 151,
+        "text": "Bentuk paling sederhana dari $4a+7b−2a+3b−5+8$ adalah…",
+        "math_ids": [
+          "math-0043"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 152,
+        "text": "A. $6a+10b+3$",
+        "math_ids": [
+          "math-0044"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "7",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "$6a+10b+3$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 153,
+        "text": "B. $2a+10b+3$",
+        "math_ids": [
+          "math-0045"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "7",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "$2a+10b+3$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 154,
+        "text": "C. $2a+4b+3$",
+        "math_ids": [
+          "math-0046"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "7",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "$2a+4b+3$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 155,
+        "text": "D. $2a+10b−13$",
+        "math_ids": [
+          "math-0047"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "7",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "$2a+10b−13$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 156,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 157,
+        "text": "Kelompokkan suku sejenis: $\\left(4a−2a\\right)+\\left(7b+3b\\right)+\\left(−5+8\\right)=2a+10b+3$.",
+        "math_ids": [
+          "math-0048"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 6 (Bentuk Soal: PG)\n\nIndikator 10.2 | Level Kognitif: C3 (Mudah)\n\nKUNCI JAWABAN : B\n\nBentuk paling sederhana dari $4a+7b−2a+3b−5+8$ adalah…\n\nA. $6a+10b+3$\n\nB. $2a+10b+3$\n\nC. $2a+4b+3$\n\nD. $2a+10b−13$\n\nPembahasan :\n\nKelompokkan suku sejenis: $\\left(4a−2a\\right)+\\left(7b+3b\\right)+\\left(−5+8\\right)=2a+10b+3$.",
+    "source_indicator_lines": [
+      "Indikator 10.2 | Level Kognitif: C3 (Mudah)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 7,
+    "source_heading": "SOAL 7 (Bentuk Soal: PG MCMA)",
+    "paragraph_start_index": 158,
+    "body_block_start_index": 80,
+    "body_block_end_exclusive": 93,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 158,
+        "text": "SOAL 7 (Bentuk Soal: PG MCMA)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 159,
+        "text": "Indikator 10.4 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 160,
+        "text": "KUNCI JAWABAN : Pernyataan 1, Pernyataan 3",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 161,
+        "text": "Pilihlah semua pernyataan tentang penjabaran dan pemfaktoran bentuk aljabar yang benar!",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 162,
+        "text": "[ ] Pernyataan 1: $\\left(x+3\\right)\\left(x−2\\right)={x}^{2}+x−6$",
+        "math_ids": [
+          "math-0049"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 163,
+        "text": "[ ] Pernyataan 2: ${x}^{2}−9={\\left(x−3\\right)}^{2}$",
+        "math_ids": [
+          "math-0050"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 164,
+        "text": "[ ] Pernyataan 3: $2{x}^{2}+6x=2x\\left(x+3\\right)$",
+        "math_ids": [
+          "math-0051"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 165,
+        "text": "[ ] Pernyataan 4: ${\\left(x−4\\right)}^{2}={x}^{2}−16$",
+        "math_ids": [
+          "math-0052"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 166,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 167,
+        "text": "$\\left(x+3\\right)\\left(x−2\\right)={x}^{2}−2x+3x−6={x}^{2}+x−6$ (Pernyataan 1 Benar).",
+        "math_ids": [
+          "math-0053"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 168,
+        "text": "${x}^{2}−9=\\left(x−3\\right)\\left(x+3\\right)$, sedangkan ${\\left(x−3\\right)}^{2}={x}^{2}−6x+9$ (Pernyataan 2 Salah).",
+        "math_ids": [
+          "math-0054",
+          "math-0055"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 169,
+        "text": "Faktor persekutuan $2x$ dikeluarkan: $2x\\left(x+3\\right)=2{x}^{2}+6x$ (Pernyataan 3 Benar).",
+        "math_ids": [
+          "math-0056",
+          "math-0057"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 170,
+        "text": "${\\left(x−4\\right)}^{2}={x}^{2}−8x+16$, bukan ${x}^{2}−16$ (Pernyataan 4 Salah).",
+        "math_ids": [
+          "math-0058",
+          "math-0059"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 7 (Bentuk Soal: PG MCMA)\n\nIndikator 10.4 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 3\n\nPilihlah semua pernyataan tentang penjabaran dan pemfaktoran bentuk aljabar yang benar!\n\n[ ] Pernyataan 1: $\\left(x+3\\right)\\left(x−2\\right)={x}^{2}+x−6$\n\n[ ] Pernyataan 2: ${x}^{2}−9={\\left(x−3\\right)}^{2}$\n\n[ ] Pernyataan 3: $2{x}^{2}+6x=2x\\left(x+3\\right)$\n\n[ ] Pernyataan 4: ${\\left(x−4\\right)}^{2}={x}^{2}−16$\n\nPembahasan :\n\n$\\left(x+3\\right)\\left(x−2\\right)={x}^{2}−2x+3x−6={x}^{2}+x−6$ (Pernyataan 1 Benar).\n\n${x}^{2}−9=\\left(x−3\\right)\\left(x+3\\right)$, sedangkan ${\\left(x−3\\right)}^{2}={x}^{2}−6x+9$ (Pernyataan 2 Salah).\n\nFaktor persekutuan $2x$ dikeluarkan: $2x\\left(x+3\\right)=2{x}^{2}+6x$ (Pernyataan 3 Benar).\n\n${\\left(x−4\\right)}^{2}={x}^{2}−8x+16$, bukan ${x}^{2}−16$ (Pernyataan 4 Salah).",
+    "source_indicator_lines": [
+      "Indikator 10.4 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 8,
+    "source_heading": "SOAL 8 (Bentuk Soal: PG)",
+    "paragraph_start_index": 171,
+    "body_block_start_index": 93,
+    "body_block_end_exclusive": 103,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 171,
+        "text": "SOAL 8 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 172,
+        "text": "Indikator 10.3 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 173,
+        "text": "KUNCI JAWABAN : C",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 174,
+        "text": "Bentuk sederhana dari $3\\left(2x−4\\right)−2\\left(x−5\\right)$ adalah…",
+        "math_ids": [
+          "math-0060"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 175,
+        "text": "A. $4x−22$",
+        "math_ids": [
+          "math-0061"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "5",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "$4x−22$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 176,
+        "text": "B. $8x−2$",
+        "math_ids": [
+          "math-0062"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "5",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "$8x−2$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 177,
+        "text": "C. $4x−2$",
+        "math_ids": [
+          "math-0063"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "5",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "$4x−2$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 178,
+        "text": "D. $8x−22$",
+        "math_ids": [
+          "math-0064"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "5",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "$8x−22$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 179,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 180,
+        "text": "Gunakan sifat distributif: $3\\left(2x−4\\right)−2\\left(x−5\\right)=6x−12−2x+10=4x−2$. (Perhatikan bahwa $−2×\\left(−5\\right)=+10$.)",
+        "math_ids": [
+          "math-0065",
+          "math-0066"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 8 (Bentuk Soal: PG)\n\nIndikator 10.3 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : C\n\nBentuk sederhana dari $3\\left(2x−4\\right)−2\\left(x−5\\right)$ adalah…\n\nA. $4x−22$\n\nB. $8x−2$\n\nC. $4x−2$\n\nD. $8x−22$\n\nPembahasan :\n\nGunakan sifat distributif: $3\\left(2x−4\\right)−2\\left(x−5\\right)=6x−12−2x+10=4x−2$. (Perhatikan bahwa $−2×\\left(−5\\right)=+10$.)",
+    "source_indicator_lines": [
+      "Indikator 10.3 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 9,
+    "source_heading": "SOAL 9 (Bentuk Soal: PG MCMA)",
+    "paragraph_start_index": 181,
+    "body_block_start_index": 103,
+    "body_block_end_exclusive": 117,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 181,
+        "text": "SOAL 9 (Bentuk Soal: PG MCMA)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 182,
+        "text": "Indikator 10.4 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 183,
+        "text": "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 184,
+        "text": "Sebuah persegi panjang memiliki panjang $\\left(3x+2\\right)$ cm dan lebar $\\left(x+4\\right)$ cm. Pilihlah semua pernyataan yang benar!",
+        "math_ids": [
+          "math-0067",
+          "math-0068"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 185,
+        "text": "\n![Source image rId8](media/image2.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId8",
+            "file": "media/image2.png"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 186,
+        "text": "[ ] Pernyataan 1: Keliling persegi panjang tersebut adalah $\\left(8x+12\\right)$ cm.",
+        "math_ids": [
+          "math-0069"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 187,
+        "text": "[ ] Pernyataan 2: Luas persegi panjang tersebut adalah $\\left(3{x}^{2}+14x+8\\right)$ cm${​}^{2}$.",
+        "math_ids": [
+          "math-0070",
+          "math-0071"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 188,
+        "text": "[ ] Pernyataan 3: Untuk $x=2$, luas persegi panjang tersebut adalah $56$ cm${​}^{2}$.",
+        "math_ids": [
+          "math-0072",
+          "math-0073",
+          "math-0074"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 189,
+        "text": "[ ] Pernyataan 4: Konstanta pada bentuk aljabar luas persegi panjang tersebut adalah $6$.",
+        "math_ids": [
+          "math-0075"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 190,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 191,
+        "text": "Keliling $=2\\left[\\left(3x+2\\right)+\\left(x+4\\right)\\right]=2\\left(4x+6\\right)=8x+12$ (Pernyataan 1 Benar).",
+        "math_ids": [
+          "math-0076"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 192,
+        "text": "Luas $=\\left(3x+2\\right)\\left(x+4\\right)=3{x}^{2}+12x+2x+8=3{x}^{2}+14x+8$ (Pernyataan 2 Benar).",
+        "math_ids": [
+          "math-0077"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 193,
+        "text": "Untuk $x=2$: panjang $=8$ dan lebar $=6$ sehingga luas $=48$ cm${​}^{2}$, bukan $56$ (Pernyataan 3 Salah).",
+        "math_ids": [
+          "math-0078",
+          "math-0079",
+          "math-0080",
+          "math-0081",
+          "math-0082",
+          "math-0083"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 194,
+        "text": "Konstanta pada $3{x}^{2}+14x+8$ adalah $8$, bukan $6$ (Pernyataan 4 Salah).",
+        "math_ids": [
+          "math-0084",
+          "math-0085",
+          "math-0086"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 9 (Bentuk Soal: PG MCMA)\n\nIndikator 10.4 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 2\n\nSebuah persegi panjang memiliki panjang $\\left(3x+2\\right)$ cm dan lebar $\\left(x+4\\right)$ cm. Pilihlah semua pernyataan yang benar!\n\n\n![Source image rId8](media/image2.png)\n\n\n[ ] Pernyataan 1: Keliling persegi panjang tersebut adalah $\\left(8x+12\\right)$ cm.\n\n[ ] Pernyataan 2: Luas persegi panjang tersebut adalah $\\left(3{x}^{2}+14x+8\\right)$ cm${​}^{2}$.\n\n[ ] Pernyataan 3: Untuk $x=2$, luas persegi panjang tersebut adalah $56$ cm${​}^{2}$.\n\n[ ] Pernyataan 4: Konstanta pada bentuk aljabar luas persegi panjang tersebut adalah $6$.\n\nPembahasan :\n\nKeliling $=2\\left[\\left(3x+2\\right)+\\left(x+4\\right)\\right]=2\\left(4x+6\\right)=8x+12$ (Pernyataan 1 Benar).\n\nLuas $=\\left(3x+2\\right)\\left(x+4\\right)=3{x}^{2}+12x+2x+8=3{x}^{2}+14x+8$ (Pernyataan 2 Benar).\n\nUntuk $x=2$: panjang $=8$ dan lebar $=6$ sehingga luas $=48$ cm${​}^{2}$, bukan $56$ (Pernyataan 3 Salah).\n\nKonstanta pada $3{x}^{2}+14x+8$ adalah $8$, bukan $6$ (Pernyataan 4 Salah).",
+    "source_indicator_lines": [
+      "Indikator 10.4 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 10,
+    "source_heading": "SOAL 10 (Bentuk Soal: PG Kategori)",
+    "paragraph_start_index": 195,
+    "body_block_start_index": 117,
+    "body_block_end_exclusive": 127,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 195,
+        "text": "SOAL 10 (Bentuk Soal: PG Kategori)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 196,
+        "text": "Indikator 10.5 | Level Kognitif: C5 (Sulit)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 197,
+        "text": "KUNCI JAWABAN : A. Salah, B. Benar, C. Benar",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 198,
+        "text": "Tentukan Benar atau Salah untuk setiap pernyataan tentang kesetaraan (ekuivalensi) bentuk aljabar berikut!",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "table",
+        "id": "table-004",
+        "rows": [
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 199,
+                  "text": "Pernyataan",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 200,
+                  "text": "Benar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 201,
+                  "text": "Salah",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 202,
+                  "text": "A. ${\\left(x+2\\right)}^{2}$ ekuivalen dengan ${x}^{2}+4$.",
+                  "math_ids": [
+                    "math-0087",
+                    "math-0088"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 203,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 204,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 205,
+                  "text": "B. $2\\left(x+3\\right)+x$ ekuivalen dengan $3x+6$.",
+                  "math_ids": [
+                    "math-0089",
+                    "math-0090"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 206,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 207,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 208,
+                  "text": "C. ${x}^{2}−4x+4$ ekuivalen dengan ${\\left(x−2\\right)}^{2}$.",
+                  "math_ids": [
+                    "math-0091",
+                    "math-0092"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 209,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 210,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 211,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 212,
+        "text": "Pernyataan A salah, ${\\left(x+2\\right)}^{2}={x}^{2}+4x+4$. Uji $x=1$: $9≠5$.",
+        "math_ids": [
+          "math-0093",
+          "math-0094",
+          "math-0095"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 213,
+        "text": "Pernyataan B benar, $2x+6+x=3x+6$.",
+        "math_ids": [
+          "math-0096"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 214,
+        "text": "Pernyataan C benar, ${\\left(x−2\\right)}^{2}={x}^{2}−4x+4$.",
+        "math_ids": [
+          "math-0097"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 215,
+        "text": "SUB BAB 3 : FUNGSI",
+        "math_ids": [],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 10 (Bentuk Soal: PG Kategori)\n\nIndikator 10.5 | Level Kognitif: C5 (Sulit)\n\nKUNCI JAWABAN : A. Salah, B. Benar, C. Benar\n\nTentukan Benar atau Salah untuk setiap pernyataan tentang kesetaraan (ekuivalensi) bentuk aljabar berikut!\n\n<!-- table-004 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>A. ${\\left(x+2\\right)}^{2}$ ekuivalen dengan ${x}^{2}+4$.</td><td>[ ]</td><td>[ ]</td></tr>\n<tr><td>B. $2\\left(x+3\\right)+x$ ekuivalen dengan $3x+6$.</td><td>[ ]</td><td>[ ]</td></tr>\n<tr><td>C. ${x}^{2}−4x+4$ ekuivalen dengan ${\\left(x−2\\right)}^{2}$.</td><td>[ ]</td><td>[ ]</td></tr>\n</table>\n\nPembahasan :\n\nPernyataan A salah, ${\\left(x+2\\right)}^{2}={x}^{2}+4x+4$. Uji $x=1$: $9≠5$.\n\nPernyataan B benar, $2x+6+x=3x+6$.\n\nPernyataan C benar, ${\\left(x−2\\right)}^{2}={x}^{2}−4x+4$.\n\nSUB BAB 3 : FUNGSI",
+    "source_indicator_lines": [
+      "Indikator 10.5 | Level Kognitif: C5 (Sulit)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 11,
+    "source_heading": "SOAL 11 (Bentuk Soal: PG)",
+    "paragraph_start_index": 216,
+    "body_block_start_index": 127,
+    "body_block_end_exclusive": 137,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 216,
+        "text": "SOAL 11 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 217,
+        "text": "Indikator 11.4 | Level Kognitif: C3 (Mudah)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 218,
+        "text": "KUNCI JAWABAN : A",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 219,
+        "text": "Diketahui fungsi $f\\left(x\\right)=2{x}^{2}−3x+1$. Nilai dari $f\\left(−2\\right)$ adalah…",
+        "math_ids": [
+          "math-0098",
+          "math-0099"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 220,
+        "text": "A. $15$",
+        "math_ids": [
+          "math-0100"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "3",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "$15$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 221,
+        "text": "B. $3$",
+        "math_ids": [
+          "math-0101"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "3",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "$3$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 222,
+        "text": "C. $−1$",
+        "math_ids": [
+          "math-0102"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "3",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "$−1$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 223,
+        "text": "D. $7$",
+        "math_ids": [
+          "math-0103"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "3",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "$7$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 224,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 225,
+        "text": "$f\\left(−2\\right)=2{\\left(−2\\right)}^{2}−3\\left(−2\\right)+1=2\\left(4\\right)+6+1=8+6+1=15$.",
+        "math_ids": [
+          "math-0104"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 11 (Bentuk Soal: PG)\n\nIndikator 11.4 | Level Kognitif: C3 (Mudah)\n\nKUNCI JAWABAN : A\n\nDiketahui fungsi $f\\left(x\\right)=2{x}^{2}−3x+1$. Nilai dari $f\\left(−2\\right)$ adalah…\n\nA. $15$\n\nB. $3$\n\nC. $−1$\n\nD. $7$\n\nPembahasan :\n\n$f\\left(−2\\right)=2{\\left(−2\\right)}^{2}−3\\left(−2\\right)+1=2\\left(4\\right)+6+1=8+6+1=15$.",
+    "source_indicator_lines": [
+      "Indikator 11.4 | Level Kognitif: C3 (Mudah)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 12,
+    "source_heading": "SOAL 12 (Bentuk Soal: PG)",
+    "paragraph_start_index": 226,
+    "body_block_start_index": 137,
+    "body_block_end_exclusive": 148,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 226,
+        "text": "SOAL 12 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 227,
+        "text": "Indikator 11.2 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 228,
+        "text": "KUNCI JAWABAN : D",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 229,
+        "text": "Fungsi $f$ didefinisikan dengan rumus $f\\left(x\\right)={x}^{2}−2x$ dengan daerah asal ${−1,0,1,2,3}$. Daerah hasil (range) fungsi tersebut adalah…",
+        "math_ids": [
+          "math-0105",
+          "math-0106",
+          "math-0107"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 230,
+        "text": "\n![Source image rId9](media/image9.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId9",
+            "file": "media/image9.png"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 231,
+        "text": "A. ${−1,0,1,2,3}$",
+        "math_ids": [
+          "math-0108"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "10",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "${−1,0,1,2,3}$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 232,
+        "text": "B. ${0,3}$",
+        "math_ids": [
+          "math-0109"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "10",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "${0,3}$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 233,
+        "text": "C. ${−1,0,3,8}$",
+        "math_ids": [
+          "math-0110"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "10",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "${−1,0,3,8}$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 234,
+        "text": "D. ${−1,0,3}$",
+        "math_ids": [
+          "math-0111"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "10",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "${−1,0,3}$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 235,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 236,
+        "text": "$f\\left(−1\\right)=1+2=3$; $f\\left(0\\right)=0$; $f\\left(1\\right)=1−2=−1$; $f\\left(2\\right)=4−4=0$; $f\\left(3\\right)=9−6=3$. Anggota himpunan hasil yang sama ditulis satu kali sehingga range $={−1,0,3}$.",
+        "math_ids": [
+          "math-0112",
+          "math-0113",
+          "math-0114",
+          "math-0115",
+          "math-0116",
+          "math-0117"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 12 (Bentuk Soal: PG)\n\nIndikator 11.2 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : D\n\nFungsi $f$ didefinisikan dengan rumus $f\\left(x\\right)={x}^{2}−2x$ dengan daerah asal ${−1,0,1,2,3}$. Daerah hasil (range) fungsi tersebut adalah…\n\n\n![Source image rId9](media/image9.png)\n\n\nA. ${−1,0,1,2,3}$\n\nB. ${0,3}$\n\nC. ${−1,0,3,8}$\n\nD. ${−1,0,3}$\n\nPembahasan :\n\n$f\\left(−1\\right)=1+2=3$; $f\\left(0\\right)=0$; $f\\left(1\\right)=1−2=−1$; $f\\left(2\\right)=4−4=0$; $f\\left(3\\right)=9−6=3$. Anggota himpunan hasil yang sama ditulis satu kali sehingga range $={−1,0,3}$.",
+    "source_indicator_lines": [
+      "Indikator 11.2 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 13,
+    "source_heading": "SOAL 13 (Bentuk Soal: PG MCMA)",
+    "paragraph_start_index": 237,
+    "body_block_start_index": 148,
+    "body_block_end_exclusive": 162,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 237,
+        "text": "SOAL 13 (Bentuk Soal: PG MCMA)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 238,
+        "text": "Indikator 11.1 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 239,
+        "text": "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 240,
+        "text": "Diberikan relasi $P={\\left(1,a\\right),\\left(2,b\\right),\\left(2,c\\right),\\left(3,a\\right)}$ dari himpunan ${1,2,3}$ ke himpunan ${a,b,c}$. Pilihlah semua pernyataan yang benar!",
+        "math_ids": [
+          "math-0118",
+          "math-0119",
+          "math-0120"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 241,
+        "text": "\n![Source image rId10](media/image3.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId10",
+            "file": "media/image3.png"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 242,
+        "text": "[ ] Pernyataan 1: $P$ bukan fungsi karena anggota $2$ dipasangkan dengan $b$ dan $c$.",
+        "math_ids": [
+          "math-0121",
+          "math-0122",
+          "math-0123",
+          "math-0124"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 243,
+        "text": "[ ] Pernyataan 2: Domain relasi $P$ adalah ${1,2,3}$.",
+        "math_ids": [
+          "math-0125",
+          "math-0126"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 244,
+        "text": "[ ] Pernyataan 3: Range relasi $P$ adalah ${1,2,3}$.",
+        "math_ids": [
+          "math-0127",
+          "math-0128"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 245,
+        "text": "[ ] Pernyataan 4: Jika pasangan $\\left(2,c\\right)$ dihapus, maka $P$ menjadi fungsi.",
+        "math_ids": [
+          "math-0129",
+          "math-0130"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 246,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 247,
+        "text": "Fungsi mensyaratkan setiap anggota domain berpasangan tepat satu kali; anggota $2$ berpasangan dengan dua anggota (Pernyataan 1 Benar).",
+        "math_ids": [
+          "math-0131"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 248,
+        "text": "Domain adalah semua elemen pertama: ${1,2,3}$ (Pernyataan 2 Benar).",
+        "math_ids": [
+          "math-0132"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 249,
+        "text": "Range adalah semua elemen kedua: ${a,b,c}$, bukan ${1,2,3}$ (Pernyataan 3 Salah).",
+        "math_ids": [
+          "math-0133",
+          "math-0134"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 250,
+        "text": "Setelah $\\left(2,c\\right)$ dihapus, tiap anggota domain tepat satu pasangan: ${\\left(1,a\\right),\\left(2,b\\right),\\left(3,a\\right)}$ (Pernyataan 4 Benar).",
+        "math_ids": [
+          "math-0135",
+          "math-0136"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 13 (Bentuk Soal: PG MCMA)\n\nIndikator 11.1 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 2, Pernyataan 4\n\nDiberikan relasi $P={\\left(1,a\\right),\\left(2,b\\right),\\left(2,c\\right),\\left(3,a\\right)}$ dari himpunan ${1,2,3}$ ke himpunan ${a,b,c}$. Pilihlah semua pernyataan yang benar!\n\n\n![Source image rId10](media/image3.png)\n\n\n[ ] Pernyataan 1: $P$ bukan fungsi karena anggota $2$ dipasangkan dengan $b$ dan $c$.\n\n[ ] Pernyataan 2: Domain relasi $P$ adalah ${1,2,3}$.\n\n[ ] Pernyataan 3: Range relasi $P$ adalah ${1,2,3}$.\n\n[ ] Pernyataan 4: Jika pasangan $\\left(2,c\\right)$ dihapus, maka $P$ menjadi fungsi.\n\nPembahasan :\n\nFungsi mensyaratkan setiap anggota domain berpasangan tepat satu kali; anggota $2$ berpasangan dengan dua anggota (Pernyataan 1 Benar).\n\nDomain adalah semua elemen pertama: ${1,2,3}$ (Pernyataan 2 Benar).\n\nRange adalah semua elemen kedua: ${a,b,c}$, bukan ${1,2,3}$ (Pernyataan 3 Salah).\n\nSetelah $\\left(2,c\\right)$ dihapus, tiap anggota domain tepat satu pasangan: ${\\left(1,a\\right),\\left(2,b\\right),\\left(3,a\\right)}$ (Pernyataan 4 Benar).",
+    "source_indicator_lines": [
+      "Indikator 11.1 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 14,
+    "source_heading": "SOAL 14 (Bentuk Soal: PG)",
+    "paragraph_start_index": 251,
+    "body_block_start_index": 162,
+    "body_block_end_exclusive": 173,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 251,
+        "text": "SOAL 14 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 252,
+        "text": "Indikator 11.5 | Level Kognitif: C5 (Sulit)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 253,
+        "text": "KUNCI JAWABAN : B",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 254,
+        "text": "Dua perusahaan taksi menetapkan tarif: Taksi A Rp8.000,00 ditambah Rp3.500,00 per km, sedangkan Taksi B Rp5.000,00 ditambah Rp4.000,00 per km. Jika jarak tempuh $x$ km, maka Taksi A lebih murah daripada Taksi B jika jarak tempuhnya…",
+        "math_ids": [
+          "math-0137"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 255,
+        "text": "\n![Source image rId11](media/image5.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId11",
+            "file": "media/image5.png"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 256,
+        "text": "A. kurang dari $6$ km",
+        "math_ids": [
+          "math-0138"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "6",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "kurang dari $6$ km"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 257,
+        "text": "B. lebih dari $6$ km",
+        "math_ids": [
+          "math-0139"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "6",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "lebih dari $6$ km"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 258,
+        "text": "C. lebih dari $3$ km",
+        "math_ids": [
+          "math-0140"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "6",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "lebih dari $3$ km"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 259,
+        "text": "D. lebih dari $12$ km",
+        "math_ids": [
+          "math-0141"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "6",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "lebih dari $12$ km"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 260,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 261,
+        "text": "Model fungsi biaya: $A\\left(x\\right)=8.000+3.500x$ dan $B\\left(x\\right)=5.000+4.000x$. Taksi A lebih murah jika $A\\left(x\\right)<B\\left(x\\right)$: $8.000+3.500x<5.000+4.000x⇒3.000<500x⇒x>6$. Pada $x=6$ kedua tarif sama ($29.000$).",
+        "math_ids": [
+          "math-0142",
+          "math-0143",
+          "math-0144",
+          "math-0145",
+          "math-0146",
+          "math-0147"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 14 (Bentuk Soal: PG)\n\nIndikator 11.5 | Level Kognitif: C5 (Sulit)\n\nKUNCI JAWABAN : B\n\nDua perusahaan taksi menetapkan tarif: Taksi A Rp8.000,00 ditambah Rp3.500,00 per km, sedangkan Taksi B Rp5.000,00 ditambah Rp4.000,00 per km. Jika jarak tempuh $x$ km, maka Taksi A lebih murah daripada Taksi B jika jarak tempuhnya…\n\n\n![Source image rId11](media/image5.png)\n\n\nA. kurang dari $6$ km\n\nB. lebih dari $6$ km\n\nC. lebih dari $3$ km\n\nD. lebih dari $12$ km\n\nPembahasan :\n\nModel fungsi biaya: $A\\left(x\\right)=8.000+3.500x$ dan $B\\left(x\\right)=5.000+4.000x$. Taksi A lebih murah jika $A\\left(x\\right)<B\\left(x\\right)$: $8.000+3.500x<5.000+4.000x⇒3.000<500x⇒x>6$. Pada $x=6$ kedua tarif sama ($29.000$).",
+    "source_indicator_lines": [
+      "Indikator 11.5 | Level Kognitif: C5 (Sulit)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 15,
+    "source_heading": "SOAL 15 (Bentuk Soal: PG Kategori)",
+    "paragraph_start_index": 262,
+    "body_block_start_index": 173,
+    "body_block_end_exclusive": 184,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 262,
+        "text": "SOAL 15 (Bentuk Soal: PG Kategori)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 263,
+        "text": "Indikator 11.5 | Level Kognitif: C5 (Sulit)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 264,
+        "text": "KUNCI JAWABAN : A. Salah, B. Benar, C. Benar",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 265,
+        "text": "Sebuah tangki berisi $60$ liter air kemudian dikuras dengan debit tetap $4$ liter/menit sehingga volume air dinyatakan dengan fungsi $V\\left(t\\right)=60−4t$ ($t$ dalam menit). Tentukan Benar atau Salah untuk setiap pernyataan evaluasi model berikut!",
+        "math_ids": [
+          "math-0148",
+          "math-0149",
+          "math-0150",
+          "math-0151"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 266,
+        "text": "\n![Source image rId12](media/image6.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId12",
+            "file": "media/image6.png"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "id": "table-005",
+        "rows": [
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 267,
+                  "text": "Pernyataan",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 268,
+                  "text": "Benar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 269,
+                  "text": "Salah",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 270,
+                  "text": "A. Domain yang masuk akal untuk fungsi $V\\left(t\\right)$ adalah semua bilangan real $t$.",
+                  "math_ids": [
+                    "math-0152",
+                    "math-0153"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 271,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 272,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 273,
+                  "text": "B. Grafik $V\\left(t\\right)$ merupakan garis lurus yang turun dari kiri ke kanan.",
+                  "math_ids": [
+                    "math-0154"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 274,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 275,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 276,
+                  "text": "C. Tangki menjadi kosong pada menit ke-$15$.",
+                  "math_ids": [
+                    "math-0155"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 277,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 278,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 279,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 280,
+        "text": "Pernyataan A salah, waktu tidak boleh negatif dan volume tidak boleh negatif sehingga domain yang masuk akal adalah $0≤t≤15$.",
+        "math_ids": [
+          "math-0156"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 281,
+        "text": "Pernyataan B benar, gradien $−4<0$ sehingga grafik turun.",
+        "math_ids": [
+          "math-0157"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 282,
+        "text": "Pernyataan C benar, $V\\left(t\\right)=0⇒60−4t=0⇒t=15$.",
+        "math_ids": [
+          "math-0158"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 283,
+        "text": "SUB BAB 4 : BARISAN DAN DERET",
+        "math_ids": [],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 15 (Bentuk Soal: PG Kategori)\n\nIndikator 11.5 | Level Kognitif: C5 (Sulit)\n\nKUNCI JAWABAN : A. Salah, B. Benar, C. Benar\n\nSebuah tangki berisi $60$ liter air kemudian dikuras dengan debit tetap $4$ liter/menit sehingga volume air dinyatakan dengan fungsi $V\\left(t\\right)=60−4t$ ($t$ dalam menit). Tentukan Benar atau Salah untuk setiap pernyataan evaluasi model berikut!\n\n\n![Source image rId12](media/image6.png)\n\n\n<!-- table-005 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>A. Domain yang masuk akal untuk fungsi $V\\left(t\\right)$ adalah semua bilangan real $t$.</td><td>[ ]</td><td>[ ]</td></tr>\n<tr><td>B. Grafik $V\\left(t\\right)$ merupakan garis lurus yang turun dari kiri ke kanan.</td><td>[ ]</td><td>[ ]</td></tr>\n<tr><td>C. Tangki menjadi kosong pada menit ke-$15$.</td><td>[ ]</td><td>[ ]</td></tr>\n</table>\n\nPembahasan :\n\nPernyataan A salah, waktu tidak boleh negatif dan volume tidak boleh negatif sehingga domain yang masuk akal adalah $0≤t≤15$.\n\nPernyataan B benar, gradien $−4<0$ sehingga grafik turun.\n\nPernyataan C benar, $V\\left(t\\right)=0⇒60−4t=0⇒t=15$.\n\nSUB BAB 4 : BARISAN DAN DERET",
+    "source_indicator_lines": [
+      "Indikator 11.5 | Level Kognitif: C5 (Sulit)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 16,
+    "source_heading": "SOAL 16 (Bentuk Soal: PG)",
+    "paragraph_start_index": 284,
+    "body_block_start_index": 184,
+    "body_block_end_exclusive": 195,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 284,
+        "text": "SOAL 16 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 285,
+        "text": "Indikator 12.3 | Level Kognitif: C3 (Mudah)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 286,
+        "text": "KUNCI JAWABAN : A",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 287,
+        "text": "Diketahui barisan aritmetika $5,9,13,17,…$ Suku ke-$15$ barisan tersebut adalah…",
+        "math_ids": [
+          "math-0159",
+          "math-0160"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 288,
+        "text": "\n![Source image rId13](media/image1.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId13",
+            "file": "media/image1.png"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 289,
+        "text": "A. $61$",
+        "math_ids": [
+          "math-0161"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "2",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "$61$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 290,
+        "text": "B. $65$",
+        "math_ids": [
+          "math-0162"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "2",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "$65$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 291,
+        "text": "C. $60$",
+        "math_ids": [
+          "math-0163"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "2",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "$60$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 292,
+        "text": "D. $57$",
+        "math_ids": [
+          "math-0164"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "2",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "$57$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 293,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 294,
+        "text": "$a=5$ dan $b=4$. ${U}_{n}=a+\\left(n−1\\right)b$ sehingga ${U}_{15}=5+14×4=5+56=61$.",
+        "math_ids": [
+          "math-0165",
+          "math-0166",
+          "math-0167",
+          "math-0168"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 16 (Bentuk Soal: PG)\n\nIndikator 12.3 | Level Kognitif: C3 (Mudah)\n\nKUNCI JAWABAN : A\n\nDiketahui barisan aritmetika $5,9,13,17,…$ Suku ke-$15$ barisan tersebut adalah…\n\n\n![Source image rId13](media/image1.png)\n\n\nA. $61$\n\nB. $65$\n\nC. $60$\n\nD. $57$\n\nPembahasan :\n\n$a=5$ dan $b=4$. ${U}_{n}=a+\\left(n−1\\right)b$ sehingga ${U}_{15}=5+14×4=5+56=61$.",
+    "source_indicator_lines": [
+      "Indikator 12.3 | Level Kognitif: C3 (Mudah)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 17,
+    "source_heading": "SOAL 17 (Bentuk Soal: PG MCMA)",
+    "paragraph_start_index": 295,
+    "body_block_start_index": 195,
+    "body_block_end_exclusive": 208,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 295,
+        "text": "SOAL 17 (Bentuk Soal: PG MCMA)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 296,
+        "text": "Indikator 12.4 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 297,
+        "text": "KUNCI JAWABAN : Pernyataan 1, Pernyataan 4",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 298,
+        "text": "Diketahui barisan $81,27,9,3,…$ Pilihlah semua pernyataan yang benar!",
+        "math_ids": [
+          "math-0169"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 299,
+        "text": "[ ] Pernyataan 1: Barisan tersebut memiliki rasio $\\frac{1}{3}$.",
+        "math_ids": [
+          "math-0170"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 300,
+        "text": "[ ] Pernyataan 2: Suku ke-$5$ barisan tersebut adalah $\\frac{1}{3}$.",
+        "math_ids": [
+          "math-0171",
+          "math-0172"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 301,
+        "text": "[ ] Pernyataan 3: Karena rasionya positif, nilai suku-suku barisan tersebut semakin besar.",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 302,
+        "text": "[ ] Pernyataan 4: Rumus suku ke-$n$ barisan tersebut adalah ${U}_{n}={3}^{5−n}$.",
+        "math_ids": [
+          "math-0173",
+          "math-0174"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 303,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 304,
+        "text": "$r=\\frac{27}{81}=\\frac{1}{3}$ (Pernyataan 1 Benar).",
+        "math_ids": [
+          "math-0175"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 305,
+        "text": "${U}_{5}=81×{\\left(\\frac{1}{3}\\right)}^{4}=1$, bukan $\\frac{1}{3}$ (Pernyataan 2 Salah).",
+        "math_ids": [
+          "math-0176",
+          "math-0177"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 306,
+        "text": "Rasio $0<r<1$ membuat suku-suku semakin kecil (barisan turun), sehingga pernyataan salah (Pernyataan 3 Salah).",
+        "math_ids": [
+          "math-0178"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 307,
+        "text": "${U}_{n}=81×{\\left(\\frac{1}{3}\\right)}^{n−1}={3}^{4}×{3}^{−\\left(n−1\\right)}={3}^{5−n}$ (Pernyataan 4 Benar).",
+        "math_ids": [
+          "math-0179"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 17 (Bentuk Soal: PG MCMA)\n\nIndikator 12.4 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 4\n\nDiketahui barisan $81,27,9,3,…$ Pilihlah semua pernyataan yang benar!\n\n[ ] Pernyataan 1: Barisan tersebut memiliki rasio $\\frac{1}{3}$.\n\n[ ] Pernyataan 2: Suku ke-$5$ barisan tersebut adalah $\\frac{1}{3}$.\n\n[ ] Pernyataan 3: Karena rasionya positif, nilai suku-suku barisan tersebut semakin besar.\n\n[ ] Pernyataan 4: Rumus suku ke-$n$ barisan tersebut adalah ${U}_{n}={3}^{5−n}$.\n\nPembahasan :\n\n$r=\\frac{27}{81}=\\frac{1}{3}$ (Pernyataan 1 Benar).\n\n${U}_{5}=81×{\\left(\\frac{1}{3}\\right)}^{4}=1$, bukan $\\frac{1}{3}$ (Pernyataan 2 Salah).\n\nRasio $0<r<1$ membuat suku-suku semakin kecil (barisan turun), sehingga pernyataan salah (Pernyataan 3 Salah).\n\n${U}_{n}=81×{\\left(\\frac{1}{3}\\right)}^{n−1}={3}^{4}×{3}^{−\\left(n−1\\right)}={3}^{5−n}$ (Pernyataan 4 Benar).",
+    "source_indicator_lines": [
+      "Indikator 12.4 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 18,
+    "source_heading": "SOAL 18 (Bentuk Soal: PG)",
+    "paragraph_start_index": 308,
+    "body_block_start_index": 208,
+    "body_block_end_exclusive": 218,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 308,
+        "text": "SOAL 18 (Bentuk Soal: PG)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 309,
+        "text": "Indikator 13.3 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 310,
+        "text": "KUNCI JAWABAN : C",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 311,
+        "text": "Jumlah deret aritmetika $3+7+11+…+51$ adalah…",
+        "math_ids": [
+          "math-0180"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 312,
+        "text": "A. $702$",
+        "math_ids": [
+          "math-0181"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "4",
+          "level": 0,
+          "label": "A.",
+          "format": "upperLetter",
+          "value": 1
+        },
+        "text_without_numbering": "$702$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 313,
+        "text": "B. $324$",
+        "math_ids": [
+          "math-0182"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "4",
+          "level": 0,
+          "label": "B.",
+          "format": "upperLetter",
+          "value": 2
+        },
+        "text_without_numbering": "$324$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 314,
+        "text": "C. $351$",
+        "math_ids": [
+          "math-0183"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "4",
+          "level": 0,
+          "label": "C.",
+          "format": "upperLetter",
+          "value": 3
+        },
+        "text_without_numbering": "$351$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 315,
+        "text": "D. $378$",
+        "math_ids": [
+          "math-0184"
+        ],
+        "image_references": [],
+        "word_numbering": {
+          "num_id": "4",
+          "level": 0,
+          "label": "D.",
+          "format": "upperLetter",
+          "value": 4
+        },
+        "text_without_numbering": "$378$"
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 316,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 317,
+        "text": "$a=3$, $b=4$. Cari banyak suku: ${U}_{n}=51⇒3+\\left(n−1\\right)4=51⇒n=13$. Jumlahnya ${S}_{13}=\\frac{13}{2}\\left(3+51\\right)=\\frac{13}{2}×54=351$.",
+        "math_ids": [
+          "math-0185",
+          "math-0186",
+          "math-0187",
+          "math-0188"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 18 (Bentuk Soal: PG)\n\nIndikator 13.3 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : C\n\nJumlah deret aritmetika $3+7+11+…+51$ adalah…\n\nA. $702$\n\nB. $324$\n\nC. $351$\n\nD. $378$\n\nPembahasan :\n\n$a=3$, $b=4$. Cari banyak suku: ${U}_{n}=51⇒3+\\left(n−1\\right)4=51⇒n=13$. Jumlahnya ${S}_{13}=\\frac{13}{2}\\left(3+51\\right)=\\frac{13}{2}×54=351$.",
+    "source_indicator_lines": [
+      "Indikator 13.3 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 19,
+    "source_heading": "SOAL 19 (Bentuk Soal: PG MCMA)",
+    "paragraph_start_index": 318,
+    "body_block_start_index": 218,
+    "body_block_end_exclusive": 232,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 318,
+        "text": "SOAL 19 (Bentuk Soal: PG MCMA)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 319,
+        "text": "Indikator 13.4 | Level Kognitif: C4 (Sedang)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 320,
+        "text": "KUNCI JAWABAN : Pernyataan 1, Pernyataan 2",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 321,
+        "text": "Sari menabung Rp20.000,00 pada bulan pertama, dan setiap bulan berikutnya tabungannya bertambah Rp5.000,00 dari bulan sebelumnya. Pilihlah semua pernyataan yang benar!",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 322,
+        "text": "\n![Source image rId14](media/image8.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId14",
+            "file": "media/image8.png"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 323,
+        "text": "[ ] Pernyataan 1: Besar tabungan Sari pada bulan ke-$10$ adalah Rp65.000,00.",
+        "math_ids": [
+          "math-0189"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 324,
+        "text": "[ ] Pernyataan 2: Total tabungan Sari selama $10$ bulan adalah Rp425.000,00.",
+        "math_ids": [
+          "math-0190"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 325,
+        "text": "[ ] Pernyataan 3: Total tabungan Sari selama $12$ bulan adalah Rp540.000,00.",
+        "math_ids": [
+          "math-0191"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 326,
+        "text": "[ ] Pernyataan 4: Nilai ${U}_{10}$ dan ${S}_{10}$ pada masalah ini sama besar.",
+        "math_ids": [
+          "math-0192",
+          "math-0193"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 327,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 328,
+        "text": "${U}_{10}=20.000+9×5.000=65.000$ (Pernyataan 1 Benar).",
+        "math_ids": [
+          "math-0194"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 329,
+        "text": "${S}_{10}=\\frac{10}{2}\\left(20.000+65.000\\right)=425.000$ (Pernyataan 2 Benar).",
+        "math_ids": [
+          "math-0195"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 330,
+        "text": "${U}_{12}=20.000+11×5.000=75.000$ sehingga ${S}_{12}=\\frac{12}{2}\\left(20.000+75.000\\right)=570.000$, bukan $540.000$ (Pernyataan 3 Salah).",
+        "math_ids": [
+          "math-0196",
+          "math-0197",
+          "math-0198"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 331,
+        "text": "${U}_{10}$ adalah suku ke-$10$ (tabungan bulan ke-$10$, Rp65.000,00), sedangkan ${S}_{10}$ adalah jumlah $10$ suku pertama (Rp425.000,00) (Pernyataan 4 Salah).",
+        "math_ids": [
+          "math-0199",
+          "math-0200",
+          "math-0201",
+          "math-0202",
+          "math-0203"
+        ],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 19 (Bentuk Soal: PG MCMA)\n\nIndikator 13.4 | Level Kognitif: C4 (Sedang)\n\nKUNCI JAWABAN : Pernyataan 1, Pernyataan 2\n\nSari menabung Rp20.000,00 pada bulan pertama, dan setiap bulan berikutnya tabungannya bertambah Rp5.000,00 dari bulan sebelumnya. Pilihlah semua pernyataan yang benar!\n\n\n![Source image rId14](media/image8.png)\n\n\n[ ] Pernyataan 1: Besar tabungan Sari pada bulan ke-$10$ adalah Rp65.000,00.\n\n[ ] Pernyataan 2: Total tabungan Sari selama $10$ bulan adalah Rp425.000,00.\n\n[ ] Pernyataan 3: Total tabungan Sari selama $12$ bulan adalah Rp540.000,00.\n\n[ ] Pernyataan 4: Nilai ${U}_{10}$ dan ${S}_{10}$ pada masalah ini sama besar.\n\nPembahasan :\n\n${U}_{10}=20.000+9×5.000=65.000$ (Pernyataan 1 Benar).\n\n${S}_{10}=\\frac{10}{2}\\left(20.000+65.000\\right)=425.000$ (Pernyataan 2 Benar).\n\n${U}_{12}=20.000+11×5.000=75.000$ sehingga ${S}_{12}=\\frac{12}{2}\\left(20.000+75.000\\right)=570.000$, bukan $540.000$ (Pernyataan 3 Salah).\n\n${U}_{10}$ adalah suku ke-$10$ (tabungan bulan ke-$10$, Rp65.000,00), sedangkan ${S}_{10}$ adalah jumlah $10$ suku pertama (Rp425.000,00) (Pernyataan 4 Salah).",
+    "source_indicator_lines": [
+      "Indikator 13.4 | Level Kognitif: C4 (Sedang)"
+    ]
+  },
+  {
+    "source_chapter": 2,
+    "source_question_number": 20,
+    "source_heading": "SOAL 20 (Bentuk Soal: PG Kategori)",
+    "paragraph_start_index": 332,
+    "body_block_start_index": 232,
+    "body_block_end_exclusive": 248,
+    "runtime_question_id": null,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "paragraph_index": 332,
+        "text": "SOAL 20 (Bentuk Soal: PG Kategori)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 333,
+        "text": "Indikator 13.5 | Level Kognitif: C5 (Sulit)",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 334,
+        "text": "KUNCI JAWABAN : A. Benar, B. Salah, C. Benar",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 335,
+        "text": "Sebuah gedung pertunjukan memiliki $10$ baris kursi. Baris pertama berisi $12$ kursi dan setiap baris berikutnya berisi $3$ kursi lebih banyak daripada baris di depannya. Panitia berencana mengundang $250$ tamu. Tentukan Benar atau Salah untuk setiap pernyataan evaluasi berikut!",
+        "math_ids": [
+          "math-0204",
+          "math-0205",
+          "math-0206",
+          "math-0207"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 336,
+        "text": "\n![Source image rId15](media/image4.png)\n",
+        "math_ids": [],
+        "image_references": [
+          {
+            "relationship_id": "rId15",
+            "file": "media/image4.png"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "id": "table-006",
+        "rows": [
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 337,
+                  "text": "Pernyataan",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 338,
+                  "text": "Benar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 339,
+                  "text": "Salah",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 340,
+                  "text": "A. Baris ke-$10$ berisi $39$ kursi.",
+                  "math_ids": [
+                    "math-0208",
+                    "math-0209"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 341,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 342,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 343,
+                  "text": "B. Jumlah seluruh kursi di gedung tersebut adalah $250$ kursi.",
+                  "math_ids": [
+                    "math-0210"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 344,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 345,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 346,
+                  "text": "C. Gedung tersebut cukup untuk menampung $250$ tamu undangan.",
+                  "math_ids": [
+                    "math-0211"
+                  ],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 347,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 348,
+                  "text": "[ ]",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 349,
+        "text": "Pembahasan :",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 350,
+        "text": "Pernyataan A benar, ${U}_{10}=12+9×3=39$.",
+        "math_ids": [
+          "math-0212"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 351,
+        "text": "Pernyataan B salah, ${S}_{10}=\\frac{10}{2}\\left(12+39\\right)=255$ kursi, bukan $250$.",
+        "math_ids": [
+          "math-0213",
+          "math-0214"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 352,
+        "text": "Pernyataan C benar, kapasitas $255≥250$ sehingga cukup (tersisa $5$ kursi).",
+        "math_ids": [
+          "math-0215",
+          "math-0216"
+        ],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 353,
+        "text": "LAMPIRAN : REKAP KUNCI JAWABAN DAN PETA SOAL",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 354,
+        "text": "Bab 2 : Aljabar",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "table",
+        "id": "table-007",
+        "rows": [
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 355,
+                  "text": "No",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 356,
+                  "text": "Sub Bab",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 357,
+                  "text": "Indikator",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 358,
+                  "text": "Level",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 359,
+                  "text": "Bentuk Soal",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 360,
+                  "text": "Kunci Jawaban",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 361,
+                  "text": "1",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 362,
+                  "text": "Persamaan dan Pertidaksamaan Linier",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 363,
+                  "text": "7.2",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 364,
+                  "text": "C3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 365,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 366,
+                  "text": "C",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 367,
+                  "text": "2",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 368,
+                  "text": "Persamaan dan Pertidaksamaan Linier",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 369,
+                  "text": "8.2",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 370,
+                  "text": "C3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 371,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 372,
+                  "text": "A",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 373,
+                  "text": "3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 374,
+                  "text": "Persamaan dan Pertidaksamaan Linier",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 375,
+                  "text": "7.3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 376,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 377,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 378,
+                  "text": "D",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 379,
+                  "text": "4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 380,
+                  "text": "Persamaan dan Pertidaksamaan Linier",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 381,
+                  "text": "9.3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 382,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 383,
+                  "text": "PG MCMA",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 384,
+                  "text": "Pernyataan 1, Pernyataan 2, Pernyataan 4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 385,
+                  "text": "5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 386,
+                  "text": "Persamaan dan Pertidaksamaan Linier",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 387,
+                  "text": "8.5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 388,
+                  "text": "C5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 389,
+                  "text": "PG Kategori",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 390,
+                  "text": "A. Benar, B. Benar, C. Salah",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 391,
+                  "text": "6",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 392,
+                  "text": "Bentuk Aljabar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 393,
+                  "text": "10.2",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 394,
+                  "text": "C3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 395,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 396,
+                  "text": "B",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 397,
+                  "text": "7",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 398,
+                  "text": "Bentuk Aljabar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 399,
+                  "text": "10.4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 400,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 401,
+                  "text": "PG MCMA",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 402,
+                  "text": "Pernyataan 1, Pernyataan 3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 403,
+                  "text": "8",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 404,
+                  "text": "Bentuk Aljabar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 405,
+                  "text": "10.3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 406,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 407,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 408,
+                  "text": "C",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 409,
+                  "text": "9",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 410,
+                  "text": "Bentuk Aljabar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 411,
+                  "text": "10.4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 412,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 413,
+                  "text": "PG MCMA",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 414,
+                  "text": "Pernyataan 1, Pernyataan 2",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 415,
+                  "text": "10",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 416,
+                  "text": "Bentuk Aljabar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 417,
+                  "text": "10.5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 418,
+                  "text": "C5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 419,
+                  "text": "PG Kategori",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 420,
+                  "text": "A. Salah, B. Benar, C. Benar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 421,
+                  "text": "11",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 422,
+                  "text": "Fungsi",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 423,
+                  "text": "11.4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 424,
+                  "text": "C3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 425,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 426,
+                  "text": "A",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 427,
+                  "text": "12",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 428,
+                  "text": "Fungsi",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 429,
+                  "text": "11.2",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 430,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 431,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 432,
+                  "text": "D",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 433,
+                  "text": "13",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 434,
+                  "text": "Fungsi",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 435,
+                  "text": "11.1",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 436,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 437,
+                  "text": "PG MCMA",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 438,
+                  "text": "Pernyataan 1, Pernyataan 2, Pernyataan 4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 439,
+                  "text": "14",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 440,
+                  "text": "Fungsi",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 441,
+                  "text": "11.5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 442,
+                  "text": "C5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 443,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 444,
+                  "text": "B",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 445,
+                  "text": "15",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 446,
+                  "text": "Fungsi",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 447,
+                  "text": "11.5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 448,
+                  "text": "C5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 449,
+                  "text": "PG Kategori",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 450,
+                  "text": "A. Salah, B. Benar, C. Benar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 451,
+                  "text": "16",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 452,
+                  "text": "Barisan dan Deret",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 453,
+                  "text": "12.3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 454,
+                  "text": "C3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 455,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 456,
+                  "text": "A",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 457,
+                  "text": "17",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 458,
+                  "text": "Barisan dan Deret",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 459,
+                  "text": "12.4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 460,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 461,
+                  "text": "PG MCMA",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 462,
+                  "text": "Pernyataan 1, Pernyataan 4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 463,
+                  "text": "18",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 464,
+                  "text": "Barisan dan Deret",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 465,
+                  "text": "13.3",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 466,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 467,
+                  "text": "PG",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 468,
+                  "text": "C",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 469,
+                  "text": "19",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 470,
+                  "text": "Barisan dan Deret",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 471,
+                  "text": "13.4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 472,
+                  "text": "C4",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 473,
+                  "text": "PG MCMA",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 474,
+                  "text": "Pernyataan 1, Pernyataan 2",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 475,
+                  "text": "20",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 476,
+                  "text": "Barisan dan Deret",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 477,
+                  "text": "13.5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 478,
+                  "text": "C5",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 479,
+                  "text": "PG Kategori",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            },
+            {
+              "col_span": 1,
+              "vertical_merge": null,
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "paragraph_index": 480,
+                  "text": "A. Benar, B. Salah, C. Benar",
+                  "math_ids": [],
+                  "image_references": []
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 481,
+        "text": "",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 482,
+        "text": "",
+        "math_ids": [],
+        "image_references": []
+      },
+      {
+        "type": "paragraph",
+        "paragraph_index": 483,
+        "text": "",
+        "math_ids": [],
+        "image_references": []
+      }
+    ],
+    "extracted_content": "SOAL 20 (Bentuk Soal: PG Kategori)\n\nIndikator 13.5 | Level Kognitif: C5 (Sulit)\n\nKUNCI JAWABAN : A. Benar, B. Salah, C. Benar\n\nSebuah gedung pertunjukan memiliki $10$ baris kursi. Baris pertama berisi $12$ kursi dan setiap baris berikutnya berisi $3$ kursi lebih banyak daripada baris di depannya. Panitia berencana mengundang $250$ tamu. Tentukan Benar atau Salah untuk setiap pernyataan evaluasi berikut!\n\n\n![Source image rId15](media/image4.png)\n\n\n<!-- table-006 -->\n<table>\n<tr><td>Pernyataan</td><td>Benar</td><td>Salah</td></tr>\n<tr><td>A. Baris ke-$10$ berisi $39$ kursi.</td><td>[ ]</td><td>[ ]</td></tr>\n<tr><td>B. Jumlah seluruh kursi di gedung tersebut adalah $250$ kursi.</td><td>[ ]</td><td>[ ]</td></tr>\n<tr><td>C. Gedung tersebut cukup untuk menampung $250$ tamu undangan.</td><td>[ ]</td><td>[ ]</td></tr>\n</table>\n\nPembahasan :\n\nPernyataan A benar, ${U}_{10}=12+9×3=39$.\n\nPernyataan B salah, ${S}_{10}=\\frac{10}{2}\\left(12+39\\right)=255$ kursi, bukan $250$.\n\nPernyataan C benar, kapasitas $255≥250$ sehingga cukup (tersisa $5$ kursi).\n\nLAMPIRAN : REKAP KUNCI JAWABAN DAN PETA SOAL\n\nBab 2 : Aljabar\n\n<!-- table-007 -->\n<table>\n<tr><td>No</td><td>Sub Bab</td><td>Indikator</td><td>Level</td><td>Bentuk Soal</td><td>Kunci Jawaban</td></tr>\n<tr><td>1</td><td>Persamaan dan Pertidaksamaan Linier</td><td>7.2</td><td>C3</td><td>PG</td><td>C</td></tr>\n<tr><td>2</td><td>Persamaan dan Pertidaksamaan Linier</td><td>8.2</td><td>C3</td><td>PG</td><td>A</td></tr>\n<tr><td>3</td><td>Persamaan dan Pertidaksamaan Linier</td><td>7.3</td><td>C4</td><td>PG</td><td>D</td></tr>\n<tr><td>4</td><td>Persamaan dan Pertidaksamaan Linier</td><td>9.3</td><td>C4</td><td>PG MCMA</td><td>Pernyataan 1, Pernyataan 2, Pernyataan 4</td></tr>\n<tr><td>5</td><td>Persamaan dan Pertidaksamaan Linier</td><td>8.5</td><td>C5</td><td>PG Kategori</td><td>A. Benar, B. Benar, C. Salah</td></tr>\n<tr><td>6</td><td>Bentuk Aljabar</td><td>10.2</td><td>C3</td><td>PG</td><td>B</td></tr>\n<tr><td>7</td><td>Bentuk Aljabar</td><td>10.4</td><td>C4</td><td>PG MCMA</td><td>Pernyataan 1, Pernyataan 3</td></tr>\n<tr><td>8</td><td>Bentuk Aljabar</td><td>10.3</td><td>C4</td><td>PG</td><td>C</td></tr>\n<tr><td>9</td><td>Bentuk Aljabar</td><td>10.4</td><td>C4</td><td>PG MCMA</td><td>Pernyataan 1, Pernyataan 2</td></tr>\n<tr><td>10</td><td>Bentuk Aljabar</td><td>10.5</td><td>C5</td><td>PG Kategori</td><td>A. Salah, B. Benar, C. Benar</td></tr>\n<tr><td>11</td><td>Fungsi</td><td>11.4</td><td>C3</td><td>PG</td><td>A</td></tr>\n<tr><td>12</td><td>Fungsi</td><td>11.2</td><td>C4</td><td>PG</td><td>D</td></tr>\n<tr><td>13</td><td>Fungsi</td><td>11.1</td><td>C4</td><td>PG MCMA</td><td>Pernyataan 1, Pernyataan 2, Pernyataan 4</td></tr>\n<tr><td>14</td><td>Fungsi</td><td>11.5</td><td>C5</td><td>PG</td><td>B</td></tr>\n<tr><td>15</td><td>Fungsi</td><td>11.5</td><td>C5</td><td>PG Kategori</td><td>A. Salah, B. Benar, C. Benar</td></tr>\n<tr><td>16</td><td>Barisan dan Deret</td><td>12.3</td><td>C3</td><td>PG</td><td>A</td></tr>\n<tr><td>17</td><td>Barisan dan Deret</td><td>12.4</td><td>C4</td><td>PG MCMA</td><td>Pernyataan 1, Pernyataan 4</td></tr>\n<tr><td>18</td><td>Barisan dan Deret</td><td>13.3</td><td>C4</td><td>PG</td><td>C</td></tr>\n<tr><td>19</td><td>Barisan dan Deret</td><td>13.4</td><td>C4</td><td>PG MCMA</td><td>Pernyataan 1, Pernyataan 2</td></tr>\n<tr><td>20</td><td>Barisan dan Deret</td><td>13.5</td><td>C5</td><td>PG Kategori</td><td>A. Benar, B. Salah, C. Benar</td></tr>\n</table>\n\n\n\n\n\n",
+    "source_indicator_lines": [
+      "Indikator 13.5 | Level Kognitif: C5 (Sulit)"
+    ]
+  }
+]

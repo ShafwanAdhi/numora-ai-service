@@ -1,0 +1,17 @@
+{
+  "package_id": "f757ccab-8f74-4846-954c-ffcd7753ffc5",
+  "source_namespace": "NUMORA_AI_TRYOUT_1",
+  "status": "DRAFT",
+  "originals": 30,
+  "images": 5,
+  "image_bytes": 825624,
+  "images_read_from_r2_with_hash_verified": 5,
+  "existing_database_rows_unchanged": true,
+  "published": false,
+  "source_local_files_unchanged": true,
+  "cloud_upload_gate_persistently_enabled": false,
+  "tryout_database_original_families_before": 300,
+  "tryout_database_original_families_after": 330,
+  "tryout_database_packages_before": 13,
+  "tryout_database_packages_after": 14
+}

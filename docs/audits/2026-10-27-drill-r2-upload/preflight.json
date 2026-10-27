@@ -1,0 +1,737 @@
+{
+  "bundleId": "c948bf0bfd6f8b71514aaff0fefac3b1dfed7438a90b4e42c65c1e2e0e89ddc3",
+  "assets": [
+    {
+      "externalId": "pg-16-4-1",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 2,
+      "contentType": "image/png",
+      "byteLength": 44966,
+      "sha256": "4fcf42b0127bbc9dbd2274accd96b0fa6dd7a5298bac4fd328b0f9fd2ed918af",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/4fcf42b0127bbc9dbd2274accd96b0fa6dd7a5298bac4fd328b0f9fd2ed918af.png",
+      "sourceOriginalHash": "90495de8de744208",
+      "sourceOriginalVersion": 2,
+      "altText": "Jaring-jaring tabung: dua lingkaran berjari-jari 7 cm dan persegi panjang dengan tinggi 10 cm. Gambar skematis.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "ee920cd1ceb40b7a3df91d516ffca53c1c48a858a82c89852d0f986e8d9b1bf4",
+          "version": "drill-numeric-images-v1"
+        },
+        "alt_text": "Jaring-jaring tabung: dua lingkaran berjari-jari 7 cm dan persegi panjang dengan tinggi 10 cm. Gambar skematis.",
+        "artifact_id": "ce69852cd6562fe02a10ce7af95e65a1c7072803a4fe8e737ef0ffd0ef4cfc24",
+        "base_sha256": "9e92c76619ee842020882c17564363370adfdcdfcb8832e1e24d90ae81ec2555",
+        "bindings": {
+          "height": {
+            "denominator": 1,
+            "numerator": 10
+          },
+          "radius": {
+            "denominator": 1,
+            "numerator": 7
+          },
+          "wrap": {
+            "denominator": 1,
+            "numerator": 44
+          }
+        },
+        "bindings_sha256": "35abe6b004bb1b4ed17752b36e8bff8ee69625f35e132dc138f17df75a152ea0",
+        "byte_length": 44966,
+        "content": {
+          "accepted_raw_values_sha256": null,
+          "config_file_sha256": "0f67b077f6999fa47df0c7e3ff3479b46afdfb6ed94e170942d832c85b109a3c",
+          "config_hash": "4881a53d8bdde7a4",
+          "config_version": 1,
+          "mode": "original",
+          "original_full_sha256": "aaff33fa790e73368d0a2a2ed4b3f743529a22722f3dbb12af91afb5dbdccf40",
+          "original_hash": "90495de8de744208",
+          "original_version": 2,
+          "record_id": "pg-16-4-1:s0",
+          "record_sha256": "b8933ff0b9342c12650ba9dc305b2407b3163ab2b00a9be877e87b5d79aa7ce8"
+        },
+        "definition_sha256": "1308d500f603769a9eae05412a0d00ac0e791219df6063fd03f69c197789ab67",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "4fcf42b0127bbc9dbd2274accd96b0fa6dd7a5298bac4fd328b0f9fd2ed918af",
+        "question_id": "pg-16-4-1",
+        "render_artifact_id": "aad57cd7f5cfd2670a8e8359baea8c4ae746c65dd2693dbd76ccda456ad9fa33",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "891f3e34a1003843d2cfe07a61923fc0dd8cac99784d505b4e458604a138b545",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "b1aee5ce7577f4d90c49a82adb51dfd0f8a776896a75a70c0c7dc0f9eb1edec5",
+        "template_version": 1,
+        "width": 960
+      }
+    },
+    {
+      "externalId": "pg-16-4-2",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 1,
+      "contentType": "image/png",
+      "byteLength": 114363,
+      "sha256": "4a1dd7406845d4174bf64a17f53bb3130bb9911c61e3ae0257ca36f177501001",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/4a1dd7406845d4174bf64a17f53bb3130bb9911c61e3ae0257ca36f177501001.png",
+      "sourceOriginalHash": "e4d8bfa6636c3126",
+      "sourceOriginalVersion": 1,
+      "altText": "Panel A: persegi dengan empat segitiga. B: tiga persegi panjang dan dua segitiga. C: persegi dengan lima segitiga. D: lingkaran dan juring.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9",
+          "version": "drill-concept-images-v1"
+        },
+        "alt_text": "Panel A: persegi dengan empat segitiga. B: tiga persegi panjang dan dua segitiga. C: persegi dengan lima segitiga. D: lingkaran dan juring.",
+        "artifact_id": "d20359e711229335db004089dc7bc6aa1a7b3f2947d373945f43a5707d037815",
+        "base_sha256": "a5b77a5fefd60ce0f0612204d88d50fcdb9addfe491bb2676e31ad45d3001447",
+        "bindings": {},
+        "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "byte_length": 114363,
+        "content": {
+          "mode": "original",
+          "original_full_sha256": "5ceb7acb92cb2ff6aa5b8274faf7cedfeb8cb79a76cdc44470266fb98d40a9d0",
+          "original_hash": "e4d8bfa6636c3126",
+          "original_version": 1,
+          "record_id": "pg-16-4-2:s0",
+          "record_sha256": "af2e63a79fdd29685a61b72cc97587df0af3a6a434e3dd2aef1982193e01cc52",
+          "stock_content_sha256": null,
+          "stock_variant_id": null,
+          "stock_version": null
+        },
+        "definition_sha256": "49b639f912598b2b769e6685b1fdba99768c52020ceac02b1771d00bc22d8ed6",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "4a1dd7406845d4174bf64a17f53bb3130bb9911c61e3ae0257ca36f177501001",
+        "question_id": "pg-16-4-2",
+        "render_artifact_id": "cd2ad8cecfde73f144982794e07fe72cd6da871f8e47e20ce9651abfe861fbbe",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "fd3ebfc3d7b0690bdd5c8b0c4cd43622ce9d848b3958284547ebc5225651435c",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "9bc7d449b32296983f73f82516cfd88fc86c864b758d83fa58cd59e067b2712e",
+        "template_version": 1,
+        "width": 960
+      }
+    },
+    {
+      "externalId": "pg-16-4-3",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 2,
+      "contentType": "image/png",
+      "byteLength": 63955,
+      "sha256": "cbc221a83bb910d1c05cf1679bb0bcfe9dddcdeeb88c3c966afd3112c5f3bf0a",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/cbc221a83bb910d1c05cf1679bb0bcfe9dddcdeeb88c3c966afd3112c5f3bf0a.png",
+      "sourceOriginalHash": "13ec263f6911a64f",
+      "sourceOriginalVersion": 2,
+      "altText": "Jaring-jaring kerucut terdiri dari juring dengan jari-jari s = 20 cm dan lingkaran dengan r = 14 cm. Gambar skematis.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "ee920cd1ceb40b7a3df91d516ffca53c1c48a858a82c89852d0f986e8d9b1bf4",
+          "version": "drill-numeric-images-v1"
+        },
+        "alt_text": "Jaring-jaring kerucut terdiri dari juring dengan jari-jari s = 20 cm dan lingkaran dengan r = 14 cm. Gambar skematis.",
+        "artifact_id": "f96970269ac7a823a704673f44e3c5de1b065fac8f396d6b5749f31f4108bbfc",
+        "base_sha256": "76e7865f31f03bfb81d6b44395a164a3ae1b5c80cf112bbc1ed8606c93d89c27",
+        "bindings": {
+          "angle": {
+            "denominator": 1,
+            "numerator": 252
+          },
+          "radius": {
+            "denominator": 1,
+            "numerator": 14
+          },
+          "slant": {
+            "denominator": 1,
+            "numerator": 20
+          }
+        },
+        "bindings_sha256": "1a17d1be0d44c08115ff30e0a99504ff09075387363123a17d3fbea8ce9192ef",
+        "byte_length": 63955,
+        "content": {
+          "accepted_raw_values_sha256": null,
+          "config_file_sha256": "9d90b2258342008f521ea34a0bb0787bd3776e190394ed1d65d2a000fabe4551",
+          "config_hash": "cd93e208e5c3ae10",
+          "config_version": 1,
+          "mode": "original",
+          "original_full_sha256": "3ced4ad74af6e5eb3e564317fc64598dedd6961dd49cf10fbd01cfd4cd4d7126",
+          "original_hash": "13ec263f6911a64f",
+          "original_version": 2,
+          "record_id": "pg-16-4-3:s0",
+          "record_sha256": "8b2f9a54e423f625863cd1fcb96f1f84332b3d46f7375bf2397f5cec7ccd10f6"
+        },
+        "definition_sha256": "be8af6757f33bf1e29635e2bcafe82be25be3861f3935e6de801d4f04125871c",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "cbc221a83bb910d1c05cf1679bb0bcfe9dddcdeeb88c3c966afd3112c5f3bf0a",
+        "question_id": "pg-16-4-3",
+        "render_artifact_id": "a022affef751b747f7bd6a65adf28fc7db6ed3c76afd79b547f2757958d71206",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "31d70e7f6f05c1b9f36a3547dcc606181d680b04420a21500a1adb134f991c46",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "70e453f2e267bc8e97124e1f21688f0cf54166c1b8dd10aedc96318341c953e3",
+        "template_version": 1,
+        "width": 960
+      }
+    },
+    {
+      "externalId": "pg-16-4-4",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 2,
+      "contentType": "image/png",
+      "byteLength": 35670,
+      "sha256": "ac9441ae678c3f2bf8cd625c6617f0edbdf8baf79047812301fc9afd97247cb3",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/ac9441ae678c3f2bf8cd625c6617f0edbdf8baf79047812301fc9afd97247cb3.png",
+      "sourceOriginalHash": "c2678c68eb814d7a",
+      "sourceOriginalVersion": 2,
+      "altText": "Jaring-jaring limas segi empat: alas persegi bersisi 12 cm dan empat segitiga dengan tinggi masing-masing 10 cm. Gambar skematis.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "ee920cd1ceb40b7a3df91d516ffca53c1c48a858a82c89852d0f986e8d9b1bf4",
+          "version": "drill-numeric-images-v1"
+        },
+        "alt_text": "Jaring-jaring limas segi empat: alas persegi bersisi 12 cm dan empat segitiga dengan tinggi masing-masing 10 cm. Gambar skematis.",
+        "artifact_id": "803f62550f70a01dfc5e1c1d7416d5e56b3b0674b0269ce2d8dc49f037cdaedc",
+        "base_sha256": "90a61a2663d812b1538f0060abcf078f82f003fafed828512b858524e6e05e1e",
+        "bindings": {
+          "face_height": {
+            "denominator": 1,
+            "numerator": 10
+          },
+          "side": {
+            "denominator": 1,
+            "numerator": 12
+          }
+        },
+        "bindings_sha256": "c3d022e51a053db1d38d796056d521a7e29c30a9fea7c9d5219688cc771d2dcc",
+        "byte_length": 35670,
+        "content": {
+          "accepted_raw_values_sha256": null,
+          "config_file_sha256": "4803dce5fde8ce1a65a96cd37471f85a2fd03aeaf0a56bf1cfe9156d054a7449",
+          "config_hash": "a56573209f3b8671",
+          "config_version": 1,
+          "mode": "original",
+          "original_full_sha256": "93effe7fc9712de0343c5500c89ddeb7609f5ce68b7e65833ad0d7338fcfd2f4",
+          "original_hash": "c2678c68eb814d7a",
+          "original_version": 2,
+          "record_id": "pg-16-4-4:s0",
+          "record_sha256": "513f640ef56359ab894d46c48fb27fa5b9c058816fffc0ed372f4ce18205e3ab"
+        },
+        "definition_sha256": "11a16a13034476d23cbd52de7e95761bb38a596be7f3c805eaf8339d4cd7edc4",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "ac9441ae678c3f2bf8cd625c6617f0edbdf8baf79047812301fc9afd97247cb3",
+        "question_id": "pg-16-4-4",
+        "render_artifact_id": "9d04565b78100290245ebaa49761385b02613a9ce3ba7a7b490bfe2c6cf086db",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "83a1d53476201c7afcfb086777d1541e341dd323a9442aafc31c880c2a9f78c7",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "d3542bcb2991a276fc4c41258d949cae5b5628ca606f94b988f497a0ccfed315",
+        "template_version": 1,
+        "width": 960
+      }
+    },
+    {
+      "externalId": "mcma-16-4-6",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 2,
+      "contentType": "image/png",
+      "byteLength": 50686,
+      "sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5.png",
+      "sourceOriginalHash": "8c416bce8a4b0d01",
+      "sourceOriginalVersion": 2,
+      "altText": "Di kiri terdapat empat bidang segitiga yang tersambung sebagai jaring-jaring. Di kanan bangun terlipat dengan empat titik yang ditandai; garis putus-putus menunjukkan rusuk di belakang.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9",
+          "version": "drill-concept-images-v1"
+        },
+        "alt_text": "Di kiri terdapat empat bidang segitiga yang tersambung sebagai jaring-jaring. Di kanan bangun terlipat dengan empat titik yang ditandai; garis putus-putus menunjukkan rusuk di belakang.",
+        "artifact_id": "d6d14ab8373402cd81d601a949729d8bc00096726992845a9d725307e1851c7f",
+        "base_sha256": "6af20f4706e2c9d9effe76568648bde513cf3ba9de636fa2b7dd5dbb498c07a0",
+        "bindings": {},
+        "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "byte_length": 50686,
+        "content": {
+          "mode": "original",
+          "original_full_sha256": "611e6299e63458919605f88fe5e787270592f070a81dd9300eb7651c865a4b6a",
+          "original_hash": "8c416bce8a4b0d01",
+          "original_version": 2,
+          "record_id": "mcma-16-4-6:s0",
+          "record_sha256": "06786f680f62e5e2bfc4e63adc9d262f7ff1c0391e8de4adefe333b43f3c0e43",
+          "stock_content_sha256": null,
+          "stock_variant_id": null,
+          "stock_version": null
+        },
+        "definition_sha256": "f13c6e265c41c8449e6b5830c862a998bb6ea907b4dab36dc35c281bd8b2b4bf",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "7a42fbbb6523aa571ae1322910f9619b700f61fccc3deb88663bbaefee1666b5",
+        "question_id": "mcma-16-4-6",
+        "render_artifact_id": "e4bae719a61387400cad531c3888e40438da2ba79f3f60fc3f134dcf318942c0",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "264266900d97bd51919c0bfee9e5d6cd0082594c0e6654910a8343b6e8f2d90b",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "3fee81ad6d2f10a38d7a6a189d96d63b4feb50ae1f90c25adb9b0858f4cfd02d",
+        "template_version": 1,
+        "width": 960
+      }
+    },
+    {
+      "externalId": "mcma-16-4-7",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 2,
+      "contentType": "image/png",
+      "byteLength": 37462,
+      "sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49.png",
+      "sourceOriginalHash": "99e5617dc99a0a3f",
+      "sourceOriginalVersion": 2,
+      "altText": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9",
+          "version": "drill-concept-images-v1"
+        },
+        "alt_text": "Jaring-jaring dengan dua lingkaran kongruen dan satu persegi panjang. r menandai radius lingkaran, p panjang persegi panjang, h lebarnya.",
+        "artifact_id": "74120e6c91a57a96406572b34687949192a10833b24f0d511d7db4542ae1c651",
+        "base_sha256": "14d4723e4f354242b54ed108b1a3f049c4a4120b8d1474bf7fc8fffe12320ffc",
+        "bindings": {},
+        "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "byte_length": 37462,
+        "content": {
+          "mode": "original",
+          "original_full_sha256": "e947a9d186114d1c74f6ee4f2cddc8e177e22e06d2b25c88086f36f8b468bca4",
+          "original_hash": "99e5617dc99a0a3f",
+          "original_version": 2,
+          "record_id": "mcma-16-4-7:s0",
+          "record_sha256": "bab468897f5e025bf5ddef29ff61db9b6ee31df2d65f2e14804803393cfb0829",
+          "stock_content_sha256": null,
+          "stock_variant_id": null,
+          "stock_version": null
+        },
+        "definition_sha256": "9cb7b481f6a519ba3a4ab223ea796e0637054a280011c7c783ad14a0f9de3488",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "0c427786593415baa8ba5d510c42db9a4670b4779aa7f850bae39f017c38fe49",
+        "question_id": "mcma-16-4-7",
+        "render_artifact_id": "fd2654d6516f00c502f214aeaf8b5f9ab870e172efe94ff4b2949ce8f0a1cf96",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "1fcb51a929b90335aca9086b8e7e26306c0a0ba96012dc81293e493735ee1182",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "00feb662861eece10074dd2f958af7ca63b1bf2cfa50095dd4df00516d96496d",
+        "template_version": 1,
+        "width": 960
+      }
+    },
+    {
+      "externalId": "pg-16-5-1",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 2,
+      "contentType": "image/png",
+      "byteLength": 58132,
+      "sha256": "58ccf233f09d91db4eb5609984771bebfed752413b39d4dd6b6286efaeef4f37",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/58ccf233f09d91db4eb5609984771bebfed752413b39d4dd6b6286efaeef4f37.png",
+      "sourceOriginalHash": "b96132e16389dc9f",
+      "sourceOriginalVersion": 2,
+      "altText": "Empat panel A sampai D: A: tabung, r = 7 cm; panjang selimut = 44 cm; B: prisma segitiga; C: tabung, r = 7 cm; panjang selimut = 20 cm; D: kerucut, r = 7 cm; busur juring = 44 cm. Gambar skematis.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "c173048c4a8ab0d6ab8d47b94a22abc4c9fbbd19b835b591d39d03ef371809c9",
+          "version": "drill-concept-images-v1"
+        },
+        "alt_text": "Empat panel A sampai D: A: tabung, r = 7 cm; panjang selimut = 44 cm; B: prisma segitiga; C: tabung, r = 7 cm; panjang selimut = 20 cm; D: kerucut, r = 7 cm; busur juring = 44 cm. Gambar skematis.",
+        "artifact_id": "2add12ddee6019ad4ff2259a8e28375da1dd6400048e1798693caecbe4499fb9",
+        "base_sha256": "b58bb121cac2964b2e536cb33570feed3f1f30af0197ff6dd4848a4b8ade9e99",
+        "bindings": {},
+        "bindings_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "byte_length": 58132,
+        "content": {
+          "mode": "original",
+          "original_full_sha256": "a3111da75148f3f145e82a0b6844ec82a7c121927ad9e78550868dae9c418f5f",
+          "original_hash": "b96132e16389dc9f",
+          "original_version": 2,
+          "record_id": "pg-16-5-1:s0",
+          "record_sha256": "80b5202321686ac2db377ae12b2c314d1164d291c7d5cf0f23c43b9bbdca0357",
+          "stock_content_sha256": null,
+          "stock_variant_id": null,
+          "stock_version": null
+        },
+        "definition_sha256": "93692a4db8c118669efb6888f830c1f48cb303cf2327a55e1bde7e10f218abc2",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "58ccf233f09d91db4eb5609984771bebfed752413b39d4dd6b6286efaeef4f37",
+        "question_id": "pg-16-5-1",
+        "render_artifact_id": "d0532261c3771580870965cc91ea7c968f4cc15ebc8ca33c6c5e0f09465f1864",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "7e9dfd4733e31036823cebd01a109cb05e0ec8f2cb2e65c42c4703d872174076",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "a98ed50f9625cfed9b8fb06e7ce68f05d832703e91e05626f682baff0e8d6030",
+        "template_version": 1,
+        "width": 960
+      }
+    },
+    {
+      "externalId": "pg-16-5-3",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 1,
+      "contentType": "image/png",
+      "byteLength": 156101,
+      "sha256": "31554b9dca1618dac5fc3e19b5d0e44d38e78b8c9c49b0be1930ada9377981c8",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/31554b9dca1618dac5fc3e19b5d0e44d38e78b8c9c49b0be1930ada9377981c8.png",
+      "sourceOriginalHash": "2c1385d7f9ecbfa5",
+      "sourceOriginalVersion": 1,
+      "altText": "Jaring-jaring kerucut berupa juring dengan dua sisi s = 12 cm dan sudut pusat 150 derajat, serta sebuah lingkaran tanpa ukuran. Gambar skematis.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "ee920cd1ceb40b7a3df91d516ffca53c1c48a858a82c89852d0f986e8d9b1bf4",
+          "version": "drill-numeric-images-v1"
+        },
+        "alt_text": "Jaring-jaring kerucut berupa juring dengan dua sisi s = 12 cm dan sudut pusat 150 derajat, serta sebuah lingkaran tanpa ukuran. Gambar skematis.",
+        "artifact_id": "6f6bc4370c0de4ce6653addd53aafe9e9411949bd93c849269e66122df490777",
+        "base_sha256": "8686d6deacda54ecfd5113b8f2e74e595e3c71dd74e79d901cf9bfcad6098ee6",
+        "bindings": {
+          "angle": {
+            "denominator": 1,
+            "numerator": 150
+          },
+          "slant": {
+            "denominator": 1,
+            "numerator": 12
+          }
+        },
+        "bindings_sha256": "1ae999e30b745044ec1f6d087f21e3a2dc1dc30972a11cd009eab071c94c4e62",
+        "byte_length": 156101,
+        "content": {
+          "accepted_raw_values_sha256": null,
+          "config_file_sha256": "7275a4d88af349e834aa289d71b6c5353d7fc8c1aa69ef46acbf923023e564a8",
+          "config_hash": "f7c93fe3c3b204eb",
+          "config_version": 1,
+          "mode": "original",
+          "original_full_sha256": "611cbe7de725a61bf8ca57b0a7d569656b79d24bdf3f39ca037b828ecb9a644c",
+          "original_hash": "2c1385d7f9ecbfa5",
+          "original_version": 1,
+          "record_id": "pg-16-5-3:s0",
+          "record_sha256": "21f0f8bb33cfa11bccde6f3f5dbf919f307a885bb2bef866c2561e83a92eab6e"
+        },
+        "definition_sha256": "e708825f0d4ba8789ecbf1a90b36a12c37f03c90fae08687e44de4ea32111721",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "31554b9dca1618dac5fc3e19b5d0e44d38e78b8c9c49b0be1930ada9377981c8",
+        "question_id": "pg-16-5-3",
+        "render_artifact_id": "fd2084953580b9f20dc3a2446ba703e560b85261accfead6a679de52022a5d35",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "c21c4f775b5e26176c5898d38b98249db261a2024e4474e9721f5ade22864dd7",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "4a8de439f29f8e91bab5a96caa223581c3b1cdcb0aec27b62c869f05ea3cd1b4",
+        "template_version": 1,
+        "width": 960
+      }
+    },
+    {
+      "externalId": "pg-16-5-5",
+      "assetId": "drill-original-c948bf0bfd6f8b71-diagram-1",
+      "contentVersion": 1,
+      "contentType": "image/png",
+      "byteLength": 83701,
+      "sha256": "b5e03e6c14461245979eac53055f95350a3be9f14b671c3df522921fa80fbd57",
+      "filePath": "docs/audits/2026-10-27-drill-image-variants/stage-5/review-full/images/b5e03e6c14461245979eac53055f95350a3be9f14b671c3df522921fa80fbd57.png",
+      "sourceOriginalHash": "ab2a92aedb0e6035",
+      "sourceOriginalVersion": 1,
+      "altText": "Jaring-jaring limas segi empat: sisi alas persegi 10 cm, tinggi segitiga sisi tegak 13 cm. Gambar skematis.",
+      "imageProvenance": {
+        "adapter": {
+          "code_sha256": "ee920cd1ceb40b7a3df91d516ffca53c1c48a858a82c89852d0f986e8d9b1bf4",
+          "version": "drill-numeric-images-v1"
+        },
+        "alt_text": "Jaring-jaring limas segi empat: sisi alas persegi 10 cm, tinggi segitiga sisi tegak 13 cm. Gambar skematis.",
+        "artifact_id": "15690a9e8356da54313301a8aa8a1180b157e0a51db4e12f6b20304546fb9931",
+        "base_sha256": "c772756dae59fa50cdff7f0a3c8e7b7cec176d19445f3994d8e130a3ce736a11",
+        "bindings": {
+          "face_height": {
+            "denominator": 1,
+            "numerator": 13
+          },
+          "side": {
+            "denominator": 1,
+            "numerator": 10
+          }
+        },
+        "bindings_sha256": "3e8e4402ba9848236f343745dd08d36658815d38a78232394b369fdcb9ece01c",
+        "byte_length": 83701,
+        "content": {
+          "accepted_raw_values_sha256": null,
+          "config_file_sha256": "af280b7a1256bcf8b3ebb0bae3d75b8bf3ea218aa3f678441f4fa096033e0d15",
+          "config_hash": "0e8f56e143caff86",
+          "config_version": 1,
+          "mode": "original",
+          "original_full_sha256": "c34b14994b395d0fd34b46bc186a31d1ea22a122ef94e023971bc238e52efeb4",
+          "original_hash": "ab2a92aedb0e6035",
+          "original_version": 1,
+          "record_id": "pg-16-5-5:s0",
+          "record_sha256": "01a1892821532f4de09ce039e13aab2c7900350e7d4a2a1176fa56bb4ee00d21"
+        },
+        "definition_sha256": "2eef0cc419639e122671158180254220f1888d09ed194a5e8bb5f9f453aa60d0",
+        "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "height": 640,
+        "png_sha256": "b5e03e6c14461245979eac53055f95350a3be9f14b671c3df522921fa80fbd57",
+        "question_id": "pg-16-5-5",
+        "render_artifact_id": "313be4a1ef22300ec0251d860d53019378707ad2d7a9fb242752947f0d876746",
+        "renderer": {
+          "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+          "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+          "freetype": "2.14.1",
+          "layout_engine": "BASIC",
+          "pillow": "12.1.0",
+          "pillow_core_sha256": "495f7b8cf1ec6c8894e7ff174be06622351f2c2edc8fa0b8ed03cd39c932a578",
+          "pillow_font_core_sha256": "02048ba09982e437fb56c35104c33b4ecca9b2166dc05486a9bbee41bd4c7831",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "png_compress_level": 9,
+          "python": "3.11.3",
+          "resampling": "LANCZOS",
+          "scale": 2,
+          "version": "tryout-images-v2",
+          "zlib": "1.3.1.zlib-ng"
+        },
+        "source_sha256": "4d090da7cbc3f4a792fddfe31b076b34b8f533310109fcf17c87ac2cf335d204",
+        "status": "LOCAL_RENDERED",
+        "template_sha256": "9a3c0d7ebf7e5d7d0cf2a8af1aa508475d5fe4b995c333c52b21e3089692f28c",
+        "template_version": 1,
+        "width": 960
+      }
+    }
+  ],
+  "business": {
+    "versions": [
+      {
+        "external_id": "mcma-16-4-6",
+        "id": "658f253c-94d8-52a3-81f4-328e7558501f",
+        "version_number": 2,
+        "content_status": "READY",
+        "hash": "783f149699cf0da074b2a71bbab9ff2c",
+        "original_hash": "8c416bce8a4b0d01"
+      },
+      {
+        "external_id": "mcma-16-4-7",
+        "id": "bf8d5b2a-e54d-5682-8235-bcd1e9232409",
+        "version_number": 2,
+        "content_status": "READY",
+        "hash": "e30562568bc12aaddaec8833514bf3d8",
+        "original_hash": "99e5617dc99a0a3f"
+      },
+      {
+        "external_id": "pg-16-4-1",
+        "id": "01634159-efab-5934-9909-f32dd1e06812",
+        "version_number": 2,
+        "content_status": "READY",
+        "hash": "5bbc74948db03fd4bb74aca824e97a89",
+        "original_hash": "90495de8de744208"
+      },
+      {
+        "external_id": "pg-16-4-2",
+        "id": "bdc534b9-ca4e-5adf-82d4-6daa75a55cfe",
+        "version_number": 1,
+        "content_status": "READY",
+        "hash": "1317deffd61fc8d5a14a4c9e834f0db6",
+        "original_hash": "e4d8bfa6636c3126"
+      },
+      {
+        "external_id": "pg-16-4-3",
+        "id": "ae14cda2-d53b-57c7-b145-604d53d6460c",
+        "version_number": 2,
+        "content_status": "READY",
+        "hash": "957c609e0888a02b23c2d6ba72ccaa9b",
+        "original_hash": "13ec263f6911a64f"
+      },
+      {
+        "external_id": "pg-16-4-4",
+        "id": "ece39325-88e4-5ec8-8b98-25363848625f",
+        "version_number": 2,
+        "content_status": "READY",
+        "hash": "f03439ae69469448c55d71261f274386",
+        "original_hash": "c2678c68eb814d7a"
+      },
+      {
+        "external_id": "pg-16-5-1",
+        "id": "fdd0785a-ab1d-58b4-b735-c28d97ef6da0",
+        "version_number": 2,
+        "content_status": "READY",
+        "hash": "080aa28abcdfd2008dc7a05c652eb043",
+        "original_hash": "b96132e16389dc9f"
+      },
+      {
+        "external_id": "pg-16-5-3",
+        "id": "85cd6a1a-549c-593d-8ea3-ff918835da85",
+        "version_number": 1,
+        "content_status": "READY",
+        "hash": "ddab07615f0b3f007a9ce5eb093f6c8c",
+        "original_hash": "2c1385d7f9ecbfa5"
+      },
+      {
+        "external_id": "pg-16-5-5",
+        "id": "da0d7486-c768-5363-8238-839cf839b90c",
+        "version_number": 1,
+        "content_status": "READY",
+        "hash": "39d39d59a1ebe004a87152886829772d",
+        "original_hash": "ab2a92aedb0e6035"
+      }
+    ],
+    "packageItems": [
+      {
+        "id": "0b9ad49d-8b73-5a62-b864-4a8fb7045dbc",
+        "hash": "9589db646aa69aac5230511fb7229be0"
+      },
+      {
+        "id": "111ab2f2-b602-5c84-9d5e-37515150081b",
+        "hash": "0b43072525a8ff5d98ca9b8075b0b984"
+      },
+      {
+        "id": "41599047-8dd1-51b8-a44a-00fdc1901556",
+        "hash": "065aa134da55b70924fdc81f5c08ec19"
+      },
+      {
+        "id": "5b9e04eb-388a-5308-ba3d-f4fe370932ad",
+        "hash": "471699fccd91c0572492f1b7628bcb77"
+      },
+      {
+        "id": "668b3831-05fe-5ac0-a1aa-8b5fef9ad022",
+        "hash": "8f4d484415800943d671338f58b4469f"
+      },
+      {
+        "id": "6c8aa1eb-1a54-5912-a2ac-430a771a6cd8",
+        "hash": "5afc537db15a4b47246fdd7fa650e441"
+      },
+      {
+        "id": "8b061af9-3df5-5528-8c33-1e112b6fe221",
+        "hash": "90773e9b1ca5233a6c38da0dabd16a40"
+      },
+      {
+        "id": "d1a859e2-2650-5882-befe-84cb17b643ad",
+        "hash": "4475855ec6377a78b91b624c968939c8"
+      },
+      {
+        "id": "ed23b4f6-7fde-5cec-95bd-d96c60edbd49",
+        "hash": "1168e37d642b771ddf43927dffa6a090"
+      }
+    ]
+  },
+  "scope": "UPLOAD_ORIGINAL_PNG_ONLY",
+  "actorRole": "CONTENT_DATA_MODERATION"
+}

@@ -72,12 +72,11 @@ class RevisedGenerators(unittest.TestCase):
                 bad = copy.deepcopy(candidates[0]);bad['explanation']='Hasil = 999999.'
                 with self.assertRaises(AssertionError):check_math(original,bad)
 
-    def test_two_source_conflicts_remain_blocked(self):
-        from config_store import ConfigError
+    def test_two_source_conflicts_resolved_by_final_revisions(self):
         for q in ('pg-1-2-1','pg-5-3-3'):
-            self.assertEqual(self.originals[q]['metadata']['generation_status'],'HOLD_SOURCE')
-            self.assertEqual(self.configs.versions(q),[])
-            with self.assertRaises(ConfigError):generate(self.originals[q],{},11,[])
+            self.assertEqual(self.originals[q]['metadata']['generation_status'],'ACTIVE')
+            cfg,_=self.configs.load(q)
+            self.assertEqual(validate_config(cfg,self.originals[q]),[])
 
     def test_temperature_latex_unit_is_literal(self):
         from expr import placeholders,render

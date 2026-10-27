@@ -38,6 +38,10 @@ class Indicator5(unittest.TestCase):
             with self.subTest(question=q):
                 o = bank.get(q)
                 self.assertTrue(o['metadata']['original_explanation'])
+                if q=='pg-5-3-3':
+                    from test_held_final_revisions import check_math as check_final
+                    cfg,_=configs.load(q);check_final(q,generate(o,cfg,11,[]).cand)
+                    continue
                 if q in HELD:
                     self.assertEqual(o['metadata']['generation_status'], 'HOLD_SOURCE' if q=='pg-5-3-3' else 'DEFERRED_CONCEPTUAL')
                     self.assertTrue(o['metadata']['reason'])

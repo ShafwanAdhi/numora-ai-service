@@ -1,0 +1,50 @@
+# Preserve exact bytes of SHA-256-pinned source archives, review artifacts,
+# image templates and their reviewed generator configs on Windows and Linux.
+docs/audits/2026-10-22-drill-database-replacement.md -text -whitespace
+docs/audits/2026-10-22-held-final-revisions/** -text -whitespace
+docs/audits/2026-10-26-tryout-database-r2/** -text -whitespace
+docs/audits/2026-10-27-drill-image-variants/** -text -whitespace
+docs/audits/2026-10-27-drill-r2-upload/** -text -whitespace
+docs/audits/2026-10-27-image-workbench/** -text -whitespace
+docs/audits/2026-10-27-tryout-image-compatibility/** -text -whitespace
+docs/audits/2026-10-27-tryout-image-variants/** -text -whitespace
+docs/audits/2026-10-27-tryout-local-replacement/** -text -whitespace
+docs/audits/2026-10-28-pretest/** -text -whitespace
+docs/sources/incoming/2026-10-22-held-revisions/** -text -whitespace
+docs/sources/incoming/2026-10-26-tryout-images/** -text -whitespace
+docs/sources/incoming/2026-10-27-indikator-16-19-final-images/** -text -whitespace
+docs/sources/incoming/2026-10-28-pretest-bab-1/** -text -whitespace
+docs/sources/incoming/2026-10-28-pretest-bab-2/** -text -whitespace
+docs/sources/incoming/2026-10-28-pretest-bab-3/** -text -whitespace
+docs/sources/incoming/2026-10-28-pretest-bab-4/** -text -whitespace
+tools/** -text whitespace=cr-at-eol
+variant_gen/*media*.py -text whitespace=cr-at-eol
+variant_gen/configs/kategori-21-4-10/** -text whitespace=cr-at-eol
+variant_gen/configs/kategori-21-4-9/** -text whitespace=cr-at-eol
+variant_gen/configs/kategori-22-4-9/** -text whitespace=cr-at-eol
+variant_gen/configs/mcma-21-5-6/** -text whitespace=cr-at-eol
+variant_gen/configs/mcma-21-5-7/** -text whitespace=cr-at-eol
+variant_gen/configs/mcma-22-4-7/** -text whitespace=cr-at-eol
+variant_gen/configs/mcma-23-4-7/** -text whitespace=cr-at-eol
+variant_gen/configs/mcma-23-5-7/** -text whitespace=cr-at-eol
+variant_gen/configs/mcma-23-5-8/** -text whitespace=cr-at-eol
+variant_gen/configs/mcma-6-3-7/** -text whitespace=cr-at-eol
+variant_gen/configs/pg-1-2-1/** -text whitespace=cr-at-eol
+variant_gen/configs/pg-16-4-1/v1.json -text whitespace=cr-at-eol
+variant_gen/configs/pg-16-4-3/v1.json -text whitespace=cr-at-eol
+variant_gen/configs/pg-16-4-4/v1.json -text whitespace=cr-at-eol
+variant_gen/configs/pg-16-5-3/v1.json -text whitespace=cr-at-eol
+variant_gen/configs/pg-16-5-5/v1.json -text whitespace=cr-at-eol
+variant_gen/configs/pg-22-4-3/** -text whitespace=cr-at-eol
+variant_gen/configs/pg-23-4-5/** -text whitespace=cr-at-eol
+variant_gen/configs/pg-23-5-3/** -text whitespace=cr-at-eol
+variant_gen/configs/pg-23-5-4/** -text whitespace=cr-at-eol
+variant_gen/configs/pg-5-3-3/** -text whitespace=cr-at-eol
+variant_gen/drill_concept_images/** -text whitespace=cr-at-eol
+variant_gen/drill_images/** -text whitespace=cr-at-eol
+variant_gen/image_templates/** -text whitespace=cr-at-eol
+variant_gen/image_variants/** -text whitespace=cr-at-eol
+variant_gen/image_workbench.py -text whitespace=cr-at-eol
+
+# Bundled upstream license is hash-pinned verbatim, including its original spaces.
+variant_gen/image_templates/fonts/LICENSE.txt -text -whitespace

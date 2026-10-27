@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "question_id": "pg-16-5-5",
+  "template_version": 1,
+  "renderer": "labels-v1",
+  "canvas": [
+    960,
+    640
+  ],
+  "compatibility": {
+    "original_version": 1,
+    "original_hash": "ab2a92aedb0e6035",
+    "original_full_sha256": "c34b14994b395d0fd34b46bc186a31d1ea22a122ef94e023971bc238e52efeb4",
+    "config_version": 1,
+    "config_hash": "0e8f56e143caff86",
+    "config_snapshot_sha256": "990963bf96ad9d669d5f68f796d5405015626f9ad822ba81652f8ac581d43837",
+    "config_file_sha256": "af280b7a1256bcf8b3ebb0bae3d75b8bf3ea218aa3f678441f4fa096033e0d15"
+  },
+  "source_inventory_sha256": "ec8ab8a76f07cc0b043845e6d7f1276d455e8b688a5627d00748b0b404793215",
+  "source_sha256": "4d090da7cbc3f4a792fddfe31b076b34b8f533310109fcf17c87ac2cf335d204",
+  "base_sha256": "c772756dae59fa50cdff7f0a3c8e7b7cec176d19445f3994d8e130a3ce736a11",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "dimensions": [
+    {
+      "alias": "side",
+      "variable": "v2",
+      "original": 10
+    },
+    {
+      "alias": "face_height",
+      "variable": "v4",
+      "original": 13
+    }
+  ],
+  "original_bindings": {
+    "side": 10,
+    "face_height": 13
+  },
+  "bindings": [
+    {
+      "name": "side"
+    },
+    {
+      "name": "face_height"
+    }
+  ],
+  "constraints": [
+    "side*13==face_height*10"
+  ],
+  "labels": [
+    {
+      "id": "title",
+      "text": "Jaring-jaring limas segi empat",
+      "box": [
+        20,
+        20,
+        940,
+        70
+      ],
+      "font_size": 25,
+      "min_font_size": 14
+    },
+    {
+      "id": "side",
+      "text": "sisi alas persegi = {side} cm",
+      "box": [
+        550,
+        165,
+        950,
+        210
+      ],
+      "font_size": 20,
+      "min_font_size": 14
+    },
+    {
+      "id": "face_height",
+      "text": "tinggi segitiga\n{face_height} cm",
+      "box": [
+        570,
+        280,
+        945,
+        350
+      ],
+      "font_size": 22,
+      "min_font_size": 14
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        20,
+        590,
+        940,
+        630
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    }
+  ],
+  "alt_text": "Jaring-jaring limas segi empat: sisi alas persegi {side} cm, tinggi segitiga sisi tegak {face_height} cm. Gambar skematis.",
+  "geometry_evidence": {
+    "kind": "source-illustration",
+    "face_altitude_target": [
+      390,
+      305
+    ],
+    "base_side_target": [
+      254,
+      253
+    ],
+    "scale_relation": "uniform similarity",
+    "source": "image14.jpg",
+    "source_sha256": "4d090da7cbc3f4a792fddfe31b076b34b8f533310109fcf17c87ac2cf335d204",
+    "edited_input_sha256": "8cf76c0695bde31c9e2767eb08d93a11996fa9a14bbb7408d64137098bcefcbe",
+    "masks": [
+      [
+        [
+          246,
+          43
+        ],
+        [
+          385,
+          43
+        ],
+        [
+          385,
+          64
+        ],
+        [
+          246,
+          64
+        ]
+      ],
+      [
+        [
+          288,
+          204
+        ],
+        [
+          472,
+          204
+        ],
+        [
+          472,
+          229
+        ],
+        [
+          288,
+          229
+        ]
+      ]
+    ],
+    "offset": [
+      80,
+      150
+    ],
+    "outside_mask_preserved": true
+  },
+  "prepared_asset_sha256": {
+    "cleaned-source.png": "e633de08faecaa45d3352162fdc38200e07bd602ca7b78a754bd4f6925f14d03"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "reason": "Final read-only mathematical presentation review found literal set braces after P=, S=, A=; escaped TeX braces only. No source, key, option, image byte, taxonomy or audit finding changed. No question/package import has run.",
+  "initialInputSha256": "d6d47bd027b9a0aab41b5b6970eb524a98873e58f9febbc0ce17b70187a9b513",
+  "finalInputSha256": "d4fd42179be68dea67429e52aa615f7f6fa3ccdd39fc7b106cac2b87e59d1b11",
+  "transformationVerified": "recursive display_math(old)==new",
+  "mediaUnchanged": true,
+  "auditUnchanged": true
+}

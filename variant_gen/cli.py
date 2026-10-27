@@ -7,6 +7,7 @@
   python cli.py hash  pg-18-3-1             print the original's hash (for writing a new config)
 """
 import argparse
+from copy import deepcopy
 import json
 import re
 import sys
@@ -76,12 +77,19 @@ def load_config(configs, orig):
     return cfg, h
 
 
-def preview(bank, configs, qid, seed):
+def preview(bank, configs, qid, seed, *, on_generated=None):
     orig = bank.get(qid)
     if seed == 0:
         return original_record(orig)
     cfg, h = load_config(configs, orig)
-    return make_record(orig, cfg, h, seed, 1, generate(orig, cfg, seed, []))
+    result = generate(orig, cfg, seed, [])
+    record = make_record(orig, cfg, h, seed, 1, result)
+    if on_generated is not None:
+        before = deepcopy((orig, cfg, result, record))
+        on_generated(orig, cfg, result, record)
+        if before != (orig, cfg, result, record):
+            raise StoreError('Generation observer must not mutate content or accepted values.')
+    return record
 
 
 def cmd_gen(a, bank, configs):
@@ -136,6 +144,21 @@ def cmd_package_gen(a, bank, configs):
     return 0
 
 
+def cmd_package_media(a, bank, configs):
+    try:
+        from tryout_media import generate_media_bundle, write_media_bundle
+        (seed,) = parse_seeds(a.seed)
+        bundle = generate_media_bundle(bank, configs, a.package_id, seed)
+        output = write_media_bundle(bundle, Path(a.output))
+    except ImportError as error:
+        raise StoreError('Install optional image dependencies: pip install -r requirements-image.txt') from error
+    print(json.dumps({'status': 'LOCAL_RENDERED', 'package_id': a.package_id,
+                      'seed': seed, 'bundle_id': bundle.media_manifest['bundle_id'],
+                      'questions': len(bundle.questions['items']), 'images': len(bundle.images),
+                      'output': str(output)}, ensure_ascii=False, indent=2))
+    return 0
+
+
 def cmd_stock(a, bank, configs):
     original = bank.get(a.question_id)
     items = load_stock(a.stock or Path(a.bank).with_name('conceptual_stock.json'), bank).get(a.question_id, [])
@@ -170,6 +193,8 @@ def main(argv=None):
     p.add_argument("--mapping", required=True); p.set_defaults(fn=cmd_export)
     p=sub.add_parser('package-gen',parents=[common]);p.add_argument('package_id');p.add_argument('seed')
     p.set_defaults(fn=cmd_package_gen)
+    p=sub.add_parser('package-media',parents=[common]);p.add_argument('package_id');p.add_argument('seed')
+    p.add_argument('--output',required=True,type=Path);p.set_defaults(fn=cmd_package_media)
     p = sub.add_parser('stock', parents=[common]); p.add_argument('question_id')
     p.add_argument('--variant', type=int); p.add_argument('--stock', type=Path)
     p.set_defaults(fn=cmd_stock)

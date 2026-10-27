@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "question_id": "pg-16-4-1",
+  "template_version": 1,
+  "renderer": "labels-v1",
+  "canvas": [
+    960,
+    640
+  ],
+  "compatibility": {
+    "original_version": 2,
+    "original_hash": "90495de8de744208",
+    "original_full_sha256": "aaff33fa790e73368d0a2a2ed4b3f743529a22722f3dbb12af91afb5dbdccf40",
+    "config_version": 1,
+    "config_hash": "4881a53d8bdde7a4",
+    "config_snapshot_sha256": "0c2e8b4f68a9ffb3a09e944ce9331eb90593a341cd22da48409ef60c608f808b",
+    "config_file_sha256": "0f67b077f6999fa47df0c7e3ff3479b46afdfb6ed94e170942d832c85b109a3c"
+  },
+  "source_inventory_sha256": "ec8ab8a76f07cc0b043845e6d7f1276d455e8b688a5627d00748b0b404793215",
+  "source_sha256": "891f3e34a1003843d2cfe07a61923fc0dd8cac99784d505b4e458604a138b545",
+  "base_sha256": "9e92c76619ee842020882c17564363370adfdcdfcb8832e1e24d90ae81ec2555",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "dimensions": [
+    {
+      "alias": "radius",
+      "variable": "v0",
+      "original": 7
+    },
+    {
+      "alias": "height",
+      "variable": "v1",
+      "original": 10
+    }
+  ],
+  "original_bindings": {
+    "radius": 7,
+    "height": 10
+  },
+  "bindings": [
+    {
+      "name": "radius"
+    },
+    {
+      "name": "height"
+    },
+    {
+      "name": "wrap",
+      "expr": "44*radius/7"
+    }
+  ],
+  "constraints": [
+    "radius*10==height*7",
+    "wrap==44*radius/7"
+  ],
+  "labels": [
+    {
+      "id": "title",
+      "text": "Jaring-jaring tabung",
+      "box": [
+        20,
+        20,
+        940,
+        70
+      ],
+      "font_size": 25,
+      "min_font_size": 14
+    },
+    {
+      "id": "radius",
+      "text": "r = {radius} cm",
+      "box": [
+        550,
+        165,
+        800,
+        205
+      ],
+      "font_size": 22,
+      "min_font_size": 14
+    },
+    {
+      "id": "height",
+      "text": "tinggi = {height} cm",
+      "box": [
+        745,
+        290,
+        950,
+        350
+      ],
+      "font_size": 20,
+      "min_font_size": 14
+    },
+    {
+      "id": "wrap_symbol",
+      "text": "panjang = 2πr",
+      "box": [
+        310,
+        300,
+        650,
+        340
+      ],
+      "font_size": 22,
+      "min_font_size": 14
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        20,
+        590,
+        940,
+        630
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    }
+  ],
+  "alt_text": "Jaring-jaring tabung: dua lingkaran berjari-jari {radius} cm dan persegi panjang dengan tinggi {height} cm. Gambar skematis.",
+  "geometry_evidence": {
+    "kind": "cylinder-net",
+    "rectangle": [
+      260,
+      270,
+      700,
+      370
+    ],
+    "circles": [
+      [
+        480,
+        200,
+        70
+      ],
+      [
+        480,
+        440,
+        70
+      ]
+    ],
+    "reference_radius": 7,
+    "reference_height": 10,
+    "units_per_cm": 10,
+    "pi_for_question": [
+      22,
+      7
+    ]
+  },
+  "prepared_asset_sha256": {}
+}

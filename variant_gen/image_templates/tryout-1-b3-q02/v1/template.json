@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "question_id": "tryout-1-b3-q02",
+  "template_version": 1,
+  "renderer": "labels-v1",
+  "canvas": [
+    489,
+    240
+  ],
+  "source_sha256": "b7b37ff8a9099a9e3cf6b2fe4f8e282feafe3708d79c6180f0ce3e8af9c2ead9",
+  "base_sha256": "28ca1449d6473df418db50d56809bef2bf3b6ff6298ba00e073c34b32db47701",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "bindings": [
+    {
+      "name": "p"
+    },
+    {
+      "name": "r"
+    },
+    {
+      "name": "width",
+      "expr": "2*r"
+    }
+  ],
+  "constraints": [
+    "p>width"
+  ],
+  "labels": [
+    {
+      "id": "length",
+      "text": "{p} m",
+      "box": [
+        164,
+        221,
+        239,
+        240
+      ],
+      "font_size": 17,
+      "min_font_size": 12
+    },
+    {
+      "id": "width",
+      "text": "{width} m",
+      "box": [
+        4,
+        103,
+        54,
+        132
+      ],
+      "font_size": 16,
+      "min_font_size": 12
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        351,
+        223,
+        488,
+        240
+      ],
+      "font_size": 7,
+      "min_font_size": 6
+    }
+  ],
+  "alt_text": "Taman gabungan persegi panjang {p} m kali {width} m dan setengah lingkaran berdiameter {width} m. Gambar skematis, tidak berskala.",
+  "authoring": {
+    "mode": "built-in imagegen edit; reviewed label-only patches composited onto original",
+    "cleanup_sha256": "7a76579b95eaa19e26b1233ded26eb31cb69282e6c2acefd06ab5c0419e49b75",
+    "erasure_regions": [
+      [
+        11,
+        108,
+        52,
+        127
+      ],
+      [
+        175,
+        222,
+        231,
+        240
+      ]
+    ],
+    "source_preserved": true
+  }
+}

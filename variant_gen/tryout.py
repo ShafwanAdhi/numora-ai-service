@@ -65,7 +65,7 @@ def validate_manifest(manifest, bank=None):
     return manifest
 
 
-def generate_package(bank, configs, package_id, seed):
+def generate_package(bank, configs, package_id, seed, *, on_generated=None):
     from cli import preview
     if not isinstance(package_id, str) or type(seed) is not int or not 1 <= seed <= 1_000_000_000:
         raise ValueError('Package ID and positive integer seed required.')
@@ -80,7 +80,8 @@ def generate_package(bank, configs, package_id, seed):
                 items.append(dict(question_id=qid, status='ORIGINAL_ONLY', record=original_record(orig),
                                   reason=orig['metadata']['reason']))
             else:
-                items.append(dict(question_id=qid, status='VARIANT', record=preview(bank, configs, qid, seed)))
+                kwargs = {'on_generated': on_generated} if on_generated is not None else {}
+                items.append(dict(question_id=qid, status='VARIANT', record=preview(bank, configs, qid, seed, **kwargs)))
     return validate_manifest(dict(schema_version=1, status='LOCAL_PREVIEW', package_id=package_id,
                                   seed=seed, items=items), bank)
 

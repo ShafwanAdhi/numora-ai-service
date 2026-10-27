@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "question_id": "pg-16-4-2",
+  "template_version": 1,
+  "scenario": "original",
+  "renderer": "labels-v1",
+  "canvas": [
+    960,
+    640
+  ],
+  "labels": [
+    {
+      "id": "title",
+      "text": "Empat jaring-jaring bangun ruang",
+      "box": [
+        20,
+        15,
+        940,
+        65
+      ],
+      "font_size": 25,
+      "min_font_size": 14
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        20,
+        590,
+        940,
+        630
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    }
+  ],
+  "alt_text": "Panel A: persegi dengan empat segitiga. B: tiga persegi panjang dan dua segitiga. C: persegi dengan lima segitiga. D: lingkaran dan juring.",
+  "geometry": {
+    "kind": "preserved-source",
+    "source_file": "media/image3.png",
+    "panels": [
+      {
+        "id": "A"
+      },
+      {
+        "id": "B"
+      },
+      {
+        "id": "C"
+      },
+      {
+        "id": "D"
+      }
+    ]
+  },
+  "base_sha256": "a5b77a5fefd60ce0f0612204d88d50fcdb9addfe491bb2676e31ad45d3001447",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "source_inventory_sha256": "ec8ab8a76f07cc0b043845e6d7f1276d455e8b688a5627d00748b0b404793215",
+  "source_sha256": "fd3ebfc3d7b0690bdd5c8b0c4cd43622ce9d848b3958284547ebc5225651435c",
+  "compatibility": {
+    "original_version": 1,
+    "original_hash": "e4d8bfa6636c3126",
+    "original_full_sha256": "5ceb7acb92cb2ff6aa5b8274faf7cedfeb8cb79a76cdc44470266fb98d40a9d0",
+    "stock_variant_id": null,
+    "stock_version": null,
+    "stock_content_sha256": null
+  }
+}

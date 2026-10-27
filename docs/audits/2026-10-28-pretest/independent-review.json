@@ -1,0 +1,17 @@
+{
+  "reviewer": "independent subagent review_pretest_audit",
+  "date": "2026-10-28",
+  "scope": "All80 academic source questions; conversion; contextual Pretest validation/readback; development operator atomicity/idempotency/guardrails",
+  "assessment": "NO_BLOCKER_FOR_DRAFT_ONLY_IMPORT",
+  "substantiveIssues": [
+    "pretest-b3-q05: source1,2 vs independently solved1,2,3",
+    "pretest-b4-q08: range alone cannot imply concentration; no justified option"
+  ],
+  "clarification": "pretest-b3-q08 malformed source vector is recoverable from source explanation; keep CLARITY and do not silently correct",
+  "fixedReviewFindings": [
+    "Pass PRETEST validator on package readback",
+    "Allow nullablelevel metadata for PRETEST without relaxing required READY taxonomy",
+    "Escape source literal set braces and percent signs; preserve mathematical spaces"
+  ],
+  "followUpBeforePublication": "Current HOLD_FOR_ACADEMIC_REVIEW metadata is not a separate enforced publication rule. Both held source questions require approved corrected content versions before any future publication. No publish or approval is performed by this task."
+}

@@ -1,0 +1,117 @@
+{
+  "question_id": "pg-1-2-1",
+  "config_version": 1,
+  "original_hash": "b88a4d15dd709dc9",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'(3)/(5)' if k == 0 else (60+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('%')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "'0,55' if k == 0 else (55+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'58' if k == 0 else (58+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'0,62' if k == 0 else (62+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "60+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v6": {
+      "gen": "derived",
+      "expr": "55+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v7": {
+      "gen": "derived",
+      "expr": "58+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v8": {
+      "gen": "derived",
+      "expr": "62+k",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v9": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v10": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (62+k)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v11": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else ('% kerugian)')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Dalam kegiatan bazar kewirausahaan di SMP Merdeka, empat kelompok siswa mencatat persentase keuntungan atau kerugian dari modal awal usaha mereka sebagai berikut:\nPak Dimas (Pembina): -{v0}{v1} dari modal\nKelompok 1: -{v2}{v1} dari modal\nKelompok 2: - {v3}% dari modal\nKelompok 3: -{v4}{v1} dari modal\nDi antara keempat catatan tersebut, siapakah yang mencatatkan tingkat kerugian paling besar (nilai terkecil) dari modal awalnya?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Kelompok 1",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Pak Dimas",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Kelompok 2",
+      "correct": false
+    },
+    {
+      "id": "D",
+      "text": "Kelompok 3{v9}{v10}{v11}",
+      "correct": true
+    }
+  ],
+  "explanation": "Kerugian dalam persen: Pak Dimas{v5}, Kelompok1{v6}, Kelompok2{v7}, Kelompok3{v8}. Nilai bertanda negatif terkecil adalah milik Kelompok3; D benar.",
+  "shuffle": false,
+  "max_draws": 1000
+}

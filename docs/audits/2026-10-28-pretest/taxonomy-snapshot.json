@@ -1,0 +1,432 @@
+{
+  "chapters": [
+    {
+      "id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "CH-ALG",
+      "name": "Aljabar",
+      "status": "READY"
+    },
+    {
+      "id": "2ac8681d-429a-4c09-8485-5f4111aa67a9",
+      "code": "CH-BIL",
+      "name": "Bilangan",
+      "status": "READY"
+    },
+    {
+      "id": "9cabf743-688c-4c25-b30c-8307479543b8",
+      "code": "CH-DP",
+      "name": "Data & Peluang",
+      "status": "READY"
+    },
+    {
+      "id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "CH-GP",
+      "name": "Geometri dan Pengukuran",
+      "status": "READY"
+    }
+  ],
+  "subchapters": [
+    {
+      "id": "1e00bf63-c933-4fe8-a568-a0b35caf35cc",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-BA",
+      "name": "Bentuk Aljabar",
+      "status": "DRAFT"
+    },
+    {
+      "id": "05b5711d-9c91-49bc-90c2-435b548d3db7",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-BD",
+      "name": "Barisan dan Deret",
+      "status": "DRAFT"
+    },
+    {
+      "id": "61258791-a8c5-488b-ba61-96159016a66a",
+      "chapter_id": "2ac8681d-429a-4c09-8485-5f4111aa67a9",
+      "code": "SC-BR",
+      "name": "Bilangan Real",
+      "status": "DRAFT"
+    },
+    {
+      "id": "8a5b905e-be64-4651-963e-5d4876f65efa",
+      "chapter_id": "9cabf743-688c-4c25-b30c-8307479543b8",
+      "code": "SC-DATA",
+      "name": "Data",
+      "status": "DRAFT"
+    },
+    {
+      "id": "751d2cbc-0e1a-5351-ae77-c6518a6c74ab",
+      "chapter_id": "2ac8681d-429a-4c09-8485-5f4111aa67a9",
+      "code": "SC-DRILL-IND-001",
+      "name": "Indikator 1 — Perbandingan dan sifat-sifat bilangan",
+      "status": "READY"
+    },
+    {
+      "id": "212d0d03-2ba6-5f26-af36-92d45a4c296b",
+      "chapter_id": "2ac8681d-429a-4c09-8485-5f4111aa67a9",
+      "code": "SC-DRILL-IND-002",
+      "name": "Indikator 2 — Operasi aritmetika pada bilangan",
+      "status": "READY"
+    },
+    {
+      "id": "fe7f86db-6130-5301-8d34-cb640dd93362",
+      "chapter_id": "2ac8681d-429a-4c09-8485-5f4111aa67a9",
+      "code": "SC-DRILL-IND-003",
+      "name": "Indikator 3 — Estimasi/ perkiraan hasil perhitungan",
+      "status": "READY"
+    },
+    {
+      "id": "8c6d4141-6901-514a-a168-ce3d90a87846",
+      "chapter_id": "2ac8681d-429a-4c09-8485-5f4111aa67a9",
+      "code": "SC-DRILL-IND-004",
+      "name": "Indikator 4 — Faktorisasi prima bilangan asli",
+      "status": "READY"
+    },
+    {
+      "id": "12a3108e-879f-5555-8b49-f9ab1271e530",
+      "chapter_id": "2ac8681d-429a-4c09-8485-5f4111aa67a9",
+      "code": "SC-DRILL-IND-005",
+      "name": "Indikator 5 — Rasio (skala, proporsi, dan laju perubahan)",
+      "status": "READY"
+    },
+    {
+      "id": "aea26e12-85d1-530f-a901-8938469b4175",
+      "chapter_id": "2ac8681d-429a-4c09-8485-5f4111aa67a9",
+      "code": "SC-DRILL-IND-006",
+      "name": "Indikator 6 — Perbandingan senilai dan berbalik nilai.",
+      "status": "READY"
+    },
+    {
+      "id": "64ce37a3-9b09-5e58-b918-aad29561ec3d",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-DRILL-IND-007",
+      "name": "Indikator 7 — Persamaan linear satu variabel",
+      "status": "READY"
+    },
+    {
+      "id": "d7ad7ae5-e960-5309-9ebd-587c420ba175",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-DRILL-IND-008",
+      "name": "Indikator 8 — Pertidaksamaan linear satu variabel",
+      "status": "READY"
+    },
+    {
+      "id": "ce3cd136-df32-5830-841a-c1ac74083421",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-DRILL-IND-009",
+      "name": "Indikator 9 — Sistem persamaan linear dua variabel",
+      "status": "READY"
+    },
+    {
+      "id": "fdd35ed0-3eaa-526d-a86f-39197eeb5fbe",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-DRILL-IND-010",
+      "name": "Indikator 10 — Bentuk aljabar dan sifat-sifat operasinya (komutatif, asosiatif, dan distributif)",
+      "status": "READY"
+    },
+    {
+      "id": "14ec74d1-42ac-5ae7-b388-89af5e0d2ca4",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-DRILL-IND-011",
+      "name": "Indikator 11 — Relasi dan fungsi (domain, kodomain, range), serta penyajiannya.",
+      "status": "READY"
+    },
+    {
+      "id": "8f3c0d25-1f54-5c19-8499-5c2175b7c469",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-DRILL-IND-012",
+      "name": "Indikator 12 — Barisan berhingga bilangan",
+      "status": "READY"
+    },
+    {
+      "id": "50d25140-4bb8-5c4f-891a-5fa13d6b3ad0",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-DRILL-IND-013",
+      "name": "Indikator 13 — Deret berhingga bilangan.",
+      "status": "READY"
+    },
+    {
+      "id": "d3164591-6012-5c99-a480-838377cb0ac3",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-DRILL-IND-014",
+      "name": "Indikator 14 — Hubungan antar- sudut yang terbentuk oleh dua garis yang berpotongan, dan oleh dua garis sejajar yang dipotong suatu garis transversal (termasuk penentuan besar sudut dalam segitiga)",
+      "status": "READY"
+    },
+    {
+      "id": "d295f020-1719-5a87-bf6c-17e347b460f9",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-DRILL-IND-015",
+      "name": "Indikator 15 — Teorema Pythagoras. Kekongruenan dan kesebangunan bangun datar",
+      "status": "READY"
+    },
+    {
+      "id": "19a41d57-c00e-5051-bf68-a1862e92d0e5",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-DRILL-IND-016",
+      "name": "Indikator 16 — Jaring-jaring bangun ruang (prisma, tabung, limas dan kerucut)",
+      "status": "READY"
+    },
+    {
+      "id": "faa3d114-6738-5423-8910-abd68f3bd439",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-DRILL-IND-017",
+      "name": "Indikator 17 — Transformasi tunggal (refleksi, translasi, rotasi, dan dilatasi) terhadap titik, garis, dan bangun datar pada bidang.",
+      "status": "READY"
+    },
+    {
+      "id": "8c2468ef-2686-51f8-993e-b28323e6122e",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-DRILL-IND-018",
+      "name": "Indikator 18 — Keliling dan luas bangun datar (daerah segi banyak dan daerah lingkaran, serta daerah gabungannya)",
+      "status": "READY"
+    },
+    {
+      "id": "6114c90a-c775-5e1f-a59c-b05a3cd83f0a",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-DRILL-IND-019",
+      "name": "Indikator 19 — Volume bangun ruang (prisma, limas, dan bola)",
+      "status": "READY"
+    },
+    {
+      "id": "2b73f479-ab71-54da-878d-466d280796a2",
+      "chapter_id": "9cabf743-688c-4c25-b30c-8307479543b8",
+      "code": "SC-DRILL-IND-020",
+      "name": "Indikator 20 — Perumusan pertanyaan untuk mendapatkan data, serta penyajian, dan peginterpretasian data",
+      "status": "READY"
+    },
+    {
+      "id": "e63e9ff0-16f8-5e89-85a3-20d8da7178df",
+      "chapter_id": "9cabf743-688c-4c25-b30c-8307479543b8",
+      "code": "SC-DRILL-IND-021",
+      "name": "Indikator 21 — Penentuan dan penaksiran rerata (mean), median, modus, dan jangkauan (range) dari data",
+      "status": "READY"
+    },
+    {
+      "id": "89acae69-9fcc-56b4-99ed-323421c118e0",
+      "chapter_id": "9cabf743-688c-4c25-b30c-8307479543b8",
+      "code": "SC-DRILL-IND-022",
+      "name": "Indikator 22 — Perbandingan ukuran pemusatan dan ukuran penyebaran beberapa kelompok data",
+      "status": "READY"
+    },
+    {
+      "id": "1f3e83ee-3b9a-5d2e-8ed0-88aa6a1f3f1d",
+      "chapter_id": "9cabf743-688c-4c25-b30c-8307479543b8",
+      "code": "SC-DRILL-IND-023",
+      "name": "Indikator 23 — Peluang dan frekuensi relatif dari kejadian tunggal.",
+      "status": "READY"
+    },
+    {
+      "id": "15eadcb2-87ae-48c2-ba3c-74a02ee2b666",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-FUNGSI",
+      "name": "Fungsi",
+      "status": "DRAFT"
+    },
+    {
+      "id": "e31135f3-0d29-49b2-8efd-d2b501156145",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-OG",
+      "name": "Objek Geometri",
+      "status": "DRAFT"
+    },
+    {
+      "id": "1ec859dc-100a-458a-9076-e82c2103d179",
+      "chapter_id": "9cabf743-688c-4c25-b30c-8307479543b8",
+      "code": "SC-PELUANG",
+      "name": "Peluang",
+      "status": "DRAFT"
+    },
+    {
+      "id": "1a0e624c-2611-4e2e-86d3-1ae87506e930",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-PENG",
+      "name": "Pengukuran",
+      "status": "DRAFT"
+    },
+    {
+      "id": "d49b4cef-0fe4-403d-ae54-db9ad2fef63b",
+      "chapter_id": "48eb826f-7691-4a6e-abaf-96ab86933b92",
+      "code": "SC-PPL",
+      "name": "Persamaan dan Pertidaksamaan Linier",
+      "status": "DRAFT"
+    },
+    {
+      "id": "57fbc6c2-98eb-4eea-91ab-3c6e5fd41faf",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-TG",
+      "name": "Transformasi Geometri",
+      "status": "DRAFT"
+    },
+    {
+      "id": "8d30ddaf-0054-4978-97e6-6aae35d60bca",
+      "chapter_id": "40091c8c-2010-4ee9-b8ef-c3063da12fdd",
+      "code": "SC-VOLUME-OWNER-CH3",
+      "name": "Volume Bangun Ruang",
+      "status": "DRAFT"
+    }
+  ],
+  "competencies": [
+    {
+      "id": "c49e37ae-944a-4249-ae56-4426b9d10585",
+      "subchapter_id": "751d2cbc-0e1a-5351-ae77-c6518a6c74ab",
+      "code": "IND-001",
+      "description": "Perbandingan dan sifat-sifat bilangan",
+      "status": "READY"
+    },
+    {
+      "id": "cf2fa75f-0a2c-46a9-a256-a6ac1afbfa7c",
+      "subchapter_id": "212d0d03-2ba6-5f26-af36-92d45a4c296b",
+      "code": "IND-002",
+      "description": "Operasi aritmetika pada bilangan",
+      "status": "READY"
+    },
+    {
+      "id": "49653fb0-a42a-4b97-99d5-4bba12df7d48",
+      "subchapter_id": "fe7f86db-6130-5301-8d34-cb640dd93362",
+      "code": "IND-003",
+      "description": "Estimasi/ perkiraan hasil perhitungan",
+      "status": "READY"
+    },
+    {
+      "id": "45ae40e8-6ae8-4956-a64c-021d09517357",
+      "subchapter_id": "8c6d4141-6901-514a-a168-ce3d90a87846",
+      "code": "IND-004",
+      "description": "Faktorisasi prima bilangan asli",
+      "status": "READY"
+    },
+    {
+      "id": "0e5d796b-49c0-4c30-93b7-9709ec5762d5",
+      "subchapter_id": "12a3108e-879f-5555-8b49-f9ab1271e530",
+      "code": "IND-005",
+      "description": "Rasio (skala, proporsi, dan laju perubahan)",
+      "status": "READY"
+    },
+    {
+      "id": "d08f022a-2034-457f-97ee-f0b288a1e0e5",
+      "subchapter_id": "aea26e12-85d1-530f-a901-8938469b4175",
+      "code": "IND-006",
+      "description": "Perbandingan senilai dan berbalik nilai.",
+      "status": "READY"
+    },
+    {
+      "id": "552bd2d8-32b7-44af-b76e-330cfeb3b57c",
+      "subchapter_id": "64ce37a3-9b09-5e58-b918-aad29561ec3d",
+      "code": "IND-007",
+      "description": "Persamaan linear satu variabel",
+      "status": "READY"
+    },
+    {
+      "id": "e3ddb0ea-6810-427f-adec-7dce4365b31a",
+      "subchapter_id": "d7ad7ae5-e960-5309-9ebd-587c420ba175",
+      "code": "IND-008",
+      "description": "Pertidaksamaan linear satu variabel",
+      "status": "READY"
+    },
+    {
+      "id": "b929e6d5-88dd-4a7a-bb66-20f05efa3ee5",
+      "subchapter_id": "ce3cd136-df32-5830-841a-c1ac74083421",
+      "code": "IND-009",
+      "description": "Sistem persamaan linear dua variabel",
+      "status": "READY"
+    },
+    {
+      "id": "5f0851f3-e528-4401-9060-014de98883e1",
+      "subchapter_id": "fdd35ed0-3eaa-526d-a86f-39197eeb5fbe",
+      "code": "IND-010",
+      "description": "Bentuk aljabar dan sifat-sifat operasinya (komutatif, asosiatif, dan distributif)",
+      "status": "READY"
+    },
+    {
+      "id": "e569fd39-d7dd-4432-a582-981e717669b8",
+      "subchapter_id": "14ec74d1-42ac-5ae7-b388-89af5e0d2ca4",
+      "code": "IND-011",
+      "description": "Relasi dan fungsi (domain, kodomain, range), serta penyajiannya.",
+      "status": "READY"
+    },
+    {
+      "id": "ae00f9d6-769f-4319-a3a5-48cfcab4022a",
+      "subchapter_id": "8f3c0d25-1f54-5c19-8499-5c2175b7c469",
+      "code": "IND-012",
+      "description": "Barisan berhingga bilangan",
+      "status": "READY"
+    },
+    {
+      "id": "d836ac28-d561-4d4f-a661-8103e9e5103f",
+      "subchapter_id": "50d25140-4bb8-5c4f-891a-5fa13d6b3ad0",
+      "code": "IND-013",
+      "description": "Deret berhingga bilangan.",
+      "status": "READY"
+    },
+    {
+      "id": "368df381-375d-4507-b9fe-d5b7da3fa94e",
+      "subchapter_id": "d3164591-6012-5c99-a480-838377cb0ac3",
+      "code": "IND-014",
+      "description": "Hubungan antar- sudut yang terbentuk oleh dua garis yang berpotongan, dan oleh dua garis sejajar yang dipotong suatu garis transversal (termasuk penentuan besar sudut dalam segitiga)",
+      "status": "READY"
+    },
+    {
+      "id": "aac05d68-9887-4751-a86d-2601933b8962",
+      "subchapter_id": "d295f020-1719-5a87-bf6c-17e347b460f9",
+      "code": "IND-015",
+      "description": "Teorema Pythagoras. Kekongruenan dan kesebangunan bangun datar",
+      "status": "READY"
+    },
+    {
+      "id": "411b0b88-eac5-4fab-b681-ddeb2aef2436",
+      "subchapter_id": "19a41d57-c00e-5051-bf68-a1862e92d0e5",
+      "code": "IND-016",
+      "description": "Jaring-jaring bangun ruang (prisma, tabung, limas dan kerucut)",
+      "status": "READY"
+    },
+    {
+      "id": "843b2ac6-900e-434e-98a2-286009b7d269",
+      "subchapter_id": "faa3d114-6738-5423-8910-abd68f3bd439",
+      "code": "IND-017",
+      "description": "Transformasi tunggal (refleksi, translasi, rotasi, dan dilatasi) terhadap titik, garis, dan bangun datar pada bidang.",
+      "status": "READY"
+    },
+    {
+      "id": "388cc650-7b2a-4cf9-8b46-35a4e47c6208",
+      "subchapter_id": "8c2468ef-2686-51f8-993e-b28323e6122e",
+      "code": "IND-018",
+      "description": "Keliling dan luas bangun datar (daerah segi banyak dan daerah lingkaran, serta daerah gabungannya)",
+      "status": "READY"
+    },
+    {
+      "id": "541bba3e-a452-48a0-9533-6f058c0004de",
+      "subchapter_id": "6114c90a-c775-5e1f-a59c-b05a3cd83f0a",
+      "code": "IND-019",
+      "description": "Volume bangun ruang (prisma, limas, dan bola)",
+      "status": "READY"
+    },
+    {
+      "id": "fdecdf44-8167-4cac-9632-dc7ab2b2e504",
+      "subchapter_id": "2b73f479-ab71-54da-878d-466d280796a2",
+      "code": "IND-020",
+      "description": "Perumusan pertanyaan untuk mendapatkan data, serta penyajian, dan peginterpretasian data",
+      "status": "READY"
+    },
+    {
+      "id": "9225785b-9ffb-4e99-8948-a01e33960335",
+      "subchapter_id": "e63e9ff0-16f8-5e89-85a3-20d8da7178df",
+      "code": "IND-021",
+      "description": "Penentuan dan penaksiran rerata (mean), median, modus, dan jangkauan (range) dari data",
+      "status": "READY"
+    },
+    {
+      "id": "d53e21ef-2cdc-4596-8888-b75016f8f4a2",
+      "subchapter_id": "89acae69-9fcc-56b4-99ed-323421c118e0",
+      "code": "IND-022",
+      "description": "Perbandingan ukuran pemusatan dan ukuran penyebaran beberapa kelompok data",
+      "status": "READY"
+    },
+    {
+      "id": "111d34e1-7129-4245-a60f-76fd16f4e15c",
+      "subchapter_id": "1f3e83ee-3b9a-5d2e-8ed0-88aa6a1f3f1d",
+      "code": "IND-023",
+      "description": "Peluang dan frekuensi relatif dari kejadian tunggal.",
+      "status": "READY"
+    }
+  ],
+  "pretests": []
+}

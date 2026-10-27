@@ -60,19 +60,27 @@ class Intake(unittest.TestCase):
         self.assertNotIn('Rancangan pertanyaan yang paling layak',bank.get('pg-20-5-1')['options'][-1]['text'])
         self.assertTrue(bank.get('mcma-23-4-8')['options'][2]['text'].endswith('siswa B.'))
         for q in ('kategori-21-4-9','kategori-21-4-10','mcma-21-5-6','mcma-21-5-7','pg-22-4-3','mcma-22-4-7','kategori-22-4-9'):
-            m=bank.get(q)['metadata'];self.assertEqual(m['generation_status'],'HOLD_SOURCE');self.assertTrue(m['reason'])
-        o=bank.get('pg-22-4-3');self.assertTrue(o['options'][0]['correct']);self.assertFalse(o['options'][3]['correct'])
+            m=bank.get(q)['metadata'];self.assertEqual(m['generation_status'],'ACTIVE')
+        o=bank.get('pg-22-4-3');self.assertFalse(o['options'][0]['correct']);self.assertTrue(o['options'][3]['correct'])
         audit=json.loads((DATA/'audit.json').read_text(encoding='utf8'))
         self.assertEqual(len(audit['entries']),80)
         for e in audit['entries']:
             o=bank.get(e['question_id']);p=e['source_projection']
+            if o['metadata'].get('source_review_status')=='AUDITED_CURRICULUM_REVISION':
+                revisions=[json.loads(t) for t in (DATA/'original_revisions.jsonl').read_text(encoding='utf8').splitlines()]
+                historical=next(r for r in revisions if r['question_id']==e['question_id'])['original_row']
+                self.assertEqual(historical['stem'],p['stem'])
+                self.assertEqual(json.loads(historical['options_json']),p['options'])
+                self.assertEqual(historical['key'].split(','),p['key'])
+                self.assertTrue(e['independent_reasoning'])
+                continue
             self.assertEqual(o['stem'],p['stem']);self.assertEqual([x['text'] for x in o['options']],p['options'])
             self.assertEqual([x['id'] for x in o['options'] if x['correct']],p['key'])
             self.assertTrue(e['independent_reasoning'])
             self.assertEqual(o['metadata']['generation_status'],'HOLD_SOURCE' if e['issues'] else 'ACTIVE')
         self.assertEqual(audit['counts'],dict(originals=80,active=67,hold=13,generators_added=0,stocks_added=0))
         for q in ('pg-23-4-5','mcma-23-4-7','pg-23-5-3','pg-23-5-4','mcma-23-5-7','mcma-23-5-8'):
-            self.assertEqual(bank.get(q)['metadata']['generation_status'],'HOLD_SOURCE')
+            self.assertEqual(bank.get(q)['metadata']['generation_status'],'ACTIVE')
 
     def test_repeatable_import_refuses_changed_outputs(self):
         import import_drill_20_23_level45 as importer
@@ -82,6 +90,8 @@ class Intake(unittest.TestCase):
         for path,text in files.items():
             if path.name=='question_metadata.json':
                 current=json.loads(path.read_text(encoding='utf8'))
+                for revision in (json.loads(t) for t in (DATA/'original_revisions.jsonl').read_text(encoding='utf8').splitlines()):
+                    current[revision['question_id']]=revision['original_metadata']
                 for item in current.values():
                     item['generator_status']='NOT_IMPLEMENTED'
                     item.pop('generator_family_kind',None)

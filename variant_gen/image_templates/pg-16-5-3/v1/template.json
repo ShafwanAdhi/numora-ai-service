@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "question_id": "pg-16-5-3",
+  "template_version": 1,
+  "renderer": "labels-v1",
+  "canvas": [
+    960,
+    640
+  ],
+  "compatibility": {
+    "original_version": 1,
+    "original_hash": "2c1385d7f9ecbfa5",
+    "original_full_sha256": "611cbe7de725a61bf8ca57b0a7d569656b79d24bdf3f39ca037b828ecb9a644c",
+    "config_version": 1,
+    "config_hash": "f7c93fe3c3b204eb",
+    "config_snapshot_sha256": "26ea772066dc474e885a412776e1230d66706b031219b368ff5c2d5a1a012d48",
+    "config_file_sha256": "7275a4d88af349e834aa289d71b6c5353d7fc8c1aa69ef46acbf923023e564a8"
+  },
+  "source_inventory_sha256": "ec8ab8a76f07cc0b043845e6d7f1276d455e8b688a5627d00748b0b404793215",
+  "source_sha256": "c21c4f775b5e26176c5898d38b98249db261a2024e4474e9721f5ade22864dd7",
+  "base_sha256": "8686d6deacda54ecfd5113b8f2e74e595e3c71dd74e79d901cf9bfcad6098ee6",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "dimensions": [
+    {
+      "alias": "slant",
+      "variable": "v0",
+      "original": 12
+    }
+  ],
+  "original_bindings": {
+    "slant": 12
+  },
+  "bindings": [
+    {
+      "name": "slant"
+    },
+    {
+      "name": "angle",
+      "expr": "150"
+    }
+  ],
+  "constraints": [
+    "angle==150"
+  ],
+  "labels": [
+    {
+      "id": "title",
+      "text": "Jaring-jaring kerucut",
+      "box": [
+        20,
+        20,
+        940,
+        70
+      ],
+      "font_size": 25,
+      "min_font_size": 14
+    },
+    {
+      "id": "slant_left",
+      "text": "s = {slant} cm",
+      "box": [
+        245,
+        85,
+        410,
+        120
+      ],
+      "font_size": 20,
+      "min_font_size": 14
+    },
+    {
+      "id": "slant_right",
+      "text": "s = {slant} cm",
+      "box": [
+        535,
+        110,
+        745,
+        150
+      ],
+      "font_size": 20,
+      "min_font_size": 14
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        20,
+        590,
+        940,
+        630
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    }
+  ],
+  "alt_text": "Jaring-jaring kerucut berupa juring dengan dua sisi s = {slant} cm dan sudut pusat {angle} derajat, serta sebuah lingkaran tanpa ukuran. Gambar skematis.",
+  "geometry_evidence": {
+    "kind": "source-illustration",
+    "fixed_angle_degrees": 150,
+    "scale_relation": "uniform similarity; labels only",
+    "source": "image6.png",
+    "source_sha256": "c21c4f775b5e26176c5898d38b98249db261a2024e4474e9721f5ade22864dd7",
+    "edited_input_sha256": "8ceedba9f13e0cde198feecdbfebb2d879a0b91564d1b04280741120ccfba5c6",
+    "masks": [
+      [
+        [
+          43,
+          95
+        ],
+        [
+          150,
+          34
+        ],
+        [
+          166,
+          62
+        ],
+        [
+          60,
+          121
+        ]
+      ],
+      [
+        [
+          345,
+          58
+        ],
+        [
+          459,
+          119
+        ],
+        [
+          447,
+          141
+        ],
+        [
+          335,
+          80
+        ]
+      ],
+      [
+        [
+          348,
+          24
+        ],
+        [
+          365,
+          24
+        ],
+        [
+          365,
+          39
+        ],
+        [
+          348,
+          39
+        ]
+      ],
+      [
+        [
+          453,
+          157
+        ],
+        [
+          463,
+          157
+        ],
+        [
+          463,
+          174
+        ],
+        [
+          453,
+          174
+        ]
+      ]
+    ],
+    "offset": [
+      200,
+      75
+    ],
+    "outside_mask_preserved": true
+  },
+  "prepared_asset_sha256": {
+    "cleaned-source.png": "4d607bec69ac7a8d87edc25dacc95d990ef3e69529a8498b23d143b0f8459d44"
+  }
+}

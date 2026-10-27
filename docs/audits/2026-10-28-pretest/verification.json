@@ -1,0 +1,21 @@
+{
+  "pythonConversionTests": 3,
+  "operatorGuardTests": 4,
+  "backendUnitTests": 18,
+  "optionalDatabaseIntegrationTestsSkippedWithoutTestUrl": 19,
+  "typecheck": "PASS",
+  "apiBuild": "PASS",
+  "changedFileLint": "PASS",
+  "changedFileFormat": "PASS",
+  "mathExpressionsRenderedWithoutError": 970,
+  "protectedRuntimeFilesUnchanged": 1207,
+  "protectedSourceFilesUnchanged": 91,
+  "independentReview": "NO_BLOCKER_FOR_DRAFT_ONLY_IMPORT",
+  "sourceAcademicCorrectionsApplied": false,
+  "databaseCommittedReadback": "PASS",
+  "databaseIdempotentReplay": "PASS",
+  "databaseApplyVerifyCountsEqual": true,
+  "verifiedR2DownloadsAfterCommit": 35,
+  "sourceAndRuntimeHashesFinal": "PASS",
+  "taxonomySnapshotSha256": "e5d69b7268b20eb02c28db6a3e9bb7abd36e670acb2ccccb5b24c35bc171002b"
+}

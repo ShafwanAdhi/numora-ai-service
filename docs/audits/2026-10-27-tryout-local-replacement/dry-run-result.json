@@ -1,0 +1,212 @@
+{
+  "mode": "--dry-run",
+  "packageId": "f757ccab-8f74-4846-954c-ffcd7753ffc5",
+  "bundleId": "083125b756f4107d143ade49f3ccd824f3be1fdb6ab1ed7d9a70eff6c8e92162",
+  "status": "DRAFT",
+  "revision": 2,
+  "name": "Tryout 1 - Varian lokal seed 1 (30 soal)",
+  "questions": 30,
+  "variants": 27,
+  "originalOnly": 3,
+  "images": 5,
+  "verifiedR2Downloads": 5,
+  "published": false,
+  "questionVersions": [
+    {
+      "localQuestionId": "tryout-1-b1-q01",
+      "id": "eae28676-0a2a-4c89-ae49-e04ce46e31a8",
+      "kind": "VARIANT",
+      "parentId": "5ca89785-f2a0-4aee-9ef8-2690aa716bde"
+    },
+    {
+      "localQuestionId": "tryout-1-b1-q02",
+      "id": "f4956285-0217-4992-92d5-311ae141df9e",
+      "kind": "VARIANT",
+      "parentId": "dbee2cf7-ad5b-4c73-afaa-3ce5c9ab63b4"
+    },
+    {
+      "localQuestionId": "tryout-1-b1-q03",
+      "id": "999a504b-086a-447b-b90f-32917adfe2f0",
+      "kind": "VARIANT",
+      "parentId": "256e3b18-e315-454a-aa4b-3297f4e2fb2a"
+    },
+    {
+      "localQuestionId": "tryout-1-b1-q04",
+      "id": "10dd4196-cfd5-47fa-909a-53a8d5c25897",
+      "kind": "VARIANT",
+      "parentId": "3dbcf4ef-14f6-4e80-9991-1c938d4d1f8d"
+    },
+    {
+      "localQuestionId": "tryout-1-b1-q05",
+      "id": "c0bb715d-bb32-4283-8ed3-d0da6664957c",
+      "kind": "VARIANT",
+      "parentId": "dc442932-83de-4977-b2b3-9f6f68beed44"
+    },
+    {
+      "localQuestionId": "tryout-1-b1-q06",
+      "id": "9829f928-3cdd-4372-a90c-67e73cde22c9",
+      "kind": "VARIANT",
+      "parentId": "5c703ebd-d46a-42c8-8c81-c3a849672118"
+    },
+    {
+      "localQuestionId": "tryout-1-b1-q07",
+      "id": "1c6a72da-adc2-45b3-94a5-a4cb6dca3b7a",
+      "kind": "ORIGINAL",
+      "parentId": "1c6a72da-adc2-45b3-94a5-a4cb6dca3b7a"
+    },
+    {
+      "localQuestionId": "tryout-1-b1-q08",
+      "id": "ba11be70-b5ab-4c90-8008-44b9b9a96e78",
+      "kind": "VARIANT",
+      "parentId": "d148ca9f-5176-4e82-9eaa-e1850c0d327c"
+    },
+    {
+      "localQuestionId": "tryout-1-b2-q01",
+      "id": "1f37d11d-a13b-418a-99ea-d8b1d71f0e28",
+      "kind": "VARIANT",
+      "parentId": "185f3a74-1d8d-4dd5-b196-7c7bf65dcd93"
+    },
+    {
+      "localQuestionId": "tryout-1-b2-q02",
+      "id": "903a3c7d-e34d-451f-88ff-1f3a9dfd73be",
+      "kind": "VARIANT",
+      "parentId": "8fed9530-93bc-4ad2-a5f8-11fa751b6989"
+    },
+    {
+      "localQuestionId": "tryout-1-b2-q03",
+      "id": "9a86078b-9816-47b6-9e5a-d762c98c0475",
+      "kind": "VARIANT",
+      "parentId": "519676fa-b94c-4075-8697-fa6dc9d0a706"
+    },
+    {
+      "localQuestionId": "tryout-1-b2-q04",
+      "id": "d725f157-81fa-4c63-81a0-613d987b49d6",
+      "kind": "VARIANT",
+      "parentId": "c08c9472-e990-4a44-a946-fd7e87c07fd3"
+    },
+    {
+      "localQuestionId": "tryout-1-b2-q05",
+      "id": "ed59bc24-bf62-4540-940c-ea4d04e9e04e",
+      "kind": "VARIANT",
+      "parentId": "184a658e-3ee6-4925-9958-70848e47ae43"
+    },
+    {
+      "localQuestionId": "tryout-1-b2-q06",
+      "id": "d5a07275-e1d0-4734-acc1-24376b17428c",
+      "kind": "VARIANT",
+      "parentId": "1c4514eb-9ff5-4aa5-bf91-027e97ed5ec8"
+    },
+    {
+      "localQuestionId": "tryout-1-b2-q07",
+      "id": "b6945fba-6234-4f79-b520-ab7e9d51bbb2",
+      "kind": "VARIANT",
+      "parentId": "7eee2430-c649-4cbc-8347-3c5d0d2b503f"
+    },
+    {
+      "localQuestionId": "tryout-1-b2-q08",
+      "id": "e70a93d1-7f83-45c1-a249-17932ae03e4b",
+      "kind": "VARIANT",
+      "parentId": "27b7e33a-c205-41da-90a1-c07e549e9bfd"
+    },
+    {
+      "localQuestionId": "tryout-1-b3-q01",
+      "id": "33d6539e-6ff1-427d-8962-3b34fff474fc",
+      "kind": "VARIANT",
+      "parentId": "3906a248-62bc-403b-9111-6c28d5259147"
+    },
+    {
+      "localQuestionId": "tryout-1-b3-q02",
+      "id": "20e2e16a-ffaa-448e-bbde-6596cca4e4c1",
+      "kind": "VARIANT",
+      "parentId": "0906af04-fb35-41a2-b249-eac244a682ff"
+    },
+    {
+      "localQuestionId": "tryout-1-b3-q03",
+      "id": "b81ad12a-9b74-4b0b-8b63-a2d0cf756975",
+      "kind": "VARIANT",
+      "parentId": "b710671b-daf0-49e6-af8a-c5ee56e28385"
+    },
+    {
+      "localQuestionId": "tryout-1-b3-q04",
+      "id": "2bac96f3-ffb8-4caa-bae0-02967bd775b1",
+      "kind": "VARIANT",
+      "parentId": "dfc8e3aa-f927-4103-9161-039567af1cdd"
+    },
+    {
+      "localQuestionId": "tryout-1-b3-q05",
+      "id": "620c740f-20e6-43d1-840b-ab5bd9e0c95f",
+      "kind": "VARIANT",
+      "parentId": "536e3e63-1aff-4bce-9fbf-f862edd6e0b7"
+    },
+    {
+      "localQuestionId": "tryout-1-b3-q06",
+      "id": "91090ccd-d92e-4eaf-b269-1988bfea0f2b",
+      "kind": "VARIANT",
+      "parentId": "b8efd4cb-dfaa-43b2-a6ad-bf8a758921ee"
+    },
+    {
+      "localQuestionId": "tryout-1-b3-q07",
+      "id": "e2095dc9-667f-48ee-9c1b-1cdb1faedd5b",
+      "kind": "VARIANT",
+      "parentId": "258eeb56-569d-44f8-be32-e5885c406a7f"
+    },
+    {
+      "localQuestionId": "tryout-1-b4-q01",
+      "id": "5de149af-7fce-4e78-80f3-2a3efe2a449d",
+      "kind": "VARIANT",
+      "parentId": "87b29906-563c-441d-b75e-4b9a930c28a3"
+    },
+    {
+      "localQuestionId": "tryout-1-b4-q02",
+      "id": "6628b94a-2080-43c9-9557-e832fb8e5866",
+      "kind": "ORIGINAL",
+      "parentId": "6628b94a-2080-43c9-9557-e832fb8e5866"
+    },
+    {
+      "localQuestionId": "tryout-1-b4-q03",
+      "id": "0a1e7626-9e68-4bd3-9369-3d301efce002",
+      "kind": "VARIANT",
+      "parentId": "9635ee87-e775-4b86-8c0a-bb91c3d895f3"
+    },
+    {
+      "localQuestionId": "tryout-1-b4-q04",
+      "id": "e90a66d7-60be-4272-98be-ca1acfa1c685",
+      "kind": "VARIANT",
+      "parentId": "d5cd0f63-4b10-4299-8a5d-4587fae2c777"
+    },
+    {
+      "localQuestionId": "tryout-1-b4-q05",
+      "id": "10d1b772-2f70-4991-a0a8-3c34128e6293",
+      "kind": "VARIANT",
+      "parentId": "2cf6d351-08fb-479b-a21a-18e34eb38bb0"
+    },
+    {
+      "localQuestionId": "tryout-1-b4-q06",
+      "id": "0fec97b3-3e2a-4ffa-b709-99304e8b61a2",
+      "kind": "ORIGINAL",
+      "parentId": "0fec97b3-3e2a-4ffa-b709-99304e8b61a2"
+    },
+    {
+      "localQuestionId": "tryout-1-b4-q07",
+      "id": "ffdf6a3b-a2fc-4fc7-a37f-eac2ce29e556",
+      "kind": "VARIANT",
+      "parentId": "7c1bf204-86fb-490e-add4-90a129121939"
+    }
+  ],
+  "databaseCounts": {
+    "questions": 1480,
+    "question_variants": 1480,
+    "question_versions": 1480,
+    "assessment_packages": 129,
+    "package_items": 1480,
+    "assessment_attempts": 6,
+    "attempt_items": 160,
+    "attempt_answers": 151,
+    "xp_ledger": 5,
+    "content_import_identities": 1480,
+    "content_import_versions": 1480,
+    "content_imports": 25,
+    "content_media_uploads": 65
+  },
+  "priorOriginalsAndHistoryUnchanged": true
+}

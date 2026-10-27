@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Numora &middot; Image variants</title><link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7f8;color:#182b34;font:15px/1.6 system-ui,sans-serif}main{max-width:1280px;margin:auto;padding:28px}a{color:#126a66}header{border-bottom:1px solid #d2dde1;padding-bottom:20px}h1{font-size:25px;margin:14px 0 4px}h2{font-size:18px;margin:0 0 16px}p{margin:0 0 16px}.muted{color:#536771;font-size:13px}form{display:flex;align-items:end;gap:12px;padding:24px 0;flex-wrap:wrap}label{font-size:13px;font-weight:600;display:block}.choose{flex:1;min-width:220px}input,select,button,.download{font:inherit;border:1px solid #acbbc2;border-radius:5px;padding:9px 12px;background:white;color:inherit}select{display:block;width:100%}input{display:block;width:130px}button{cursor:pointer;background:#126a66;color:white;border-color:#126a66;font-weight:600}button:disabled{opacity:.5;cursor:wait}:focus-visible{outline:3px solid #168e91;outline-offset:3px}#status{min-height:28px;overflow-wrap:anywhere}.error{color:#a32121}.workspace{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:32px;border-top:1px solid #d2dde1;padding-top:24px}.canvas{background:white;min-height:350px;display:flex;align-items:center;justify-content:center;padding:24px}img{max-width:100%;height:auto}.download{display:inline-block;margin-top:16px;text-decoration:none;font-weight:600;color:#126a66}pre,.text{white-space:pre-wrap;overflow-wrap:anywhere}pre{font:13px/1.6 ui-monospace,monospace}details{margin-top:18px}summary{cursor:pointer;font-weight:600}ol{padding-left:24px}li{padding:5px 0}[hidden]{display:none!important}@media(max-width:760px){main{padding:20px}form{display:grid;grid-template-columns:1fr}form label{width:100%}input{width:100%}.workspace{grid-template-columns:1fr;gap:24px}.canvas{min-height:250px;padding:12px}button{width:100%}}
+</style>
+<main><header><a href="/">&larr; Workbench soal</a><h1>Image variants</h1><p class="muted">Tryout dan Drill &middot; Gambar mengikuti generator atau isi stok soal.</p></header>
+<form id="form">
+<label>Aktivitas<select id="activity"><option value="TRYOUT">Tryout</option><option value="DRILL">Drill</option></select></label>
+<label class="choose">Soal<select id="question" required disabled><option>Memuat soal...</option></select></label>
+<label>Mode<select id="mode" required disabled><option value="generator">Generator</option></select></label>
+<label id="seed-control">Seed<input id="seed" type="number" min="1" max="1000000000" value="1" required step="1"></label>
+<label id="stock-control" hidden>Stok<select id="stock" disabled></select></label>
+<button id="generate" disabled>Buat varian</button></form>
+<p id="status" role="status" aria-live="polite">Memuat pilihan soal...</p>
+<button id="retry" type="button" hidden>Muat ulang pilihan</button>
+<div id="empty" class="canvas muted">Pilih aktivitas, soal, dan mode untuk melihat gambar.</div>
+<section id="result" class="workspace" hidden aria-label="Hasil varian"><div><h2>Gambar varian</h2><div class="canvas"><img id="image" alt=""></div><a id="download" class="download" download>Unduh PNG</a><p id="dimensions" class="muted"></p><details><summary>Detail hasil</summary><pre id="metadata"></pre></details></div><article><h2>Soal dengan nilai yang sama</h2><p id="stem" class="text"></p><ol id="options" type="A"></ol><details><summary>Kunci & pembahasan</summary><pre id="answer"></pre></details><details id="values-details"><summary>Nilai generator</summary><pre id="values"></pre></details></article></section>
+<p class="muted" style="margin-top:32px">Hasil dibuat lokal. Seed mengulang varian generator; stok dipilih melalui identitasnya.</p></main>
+<script src="/image-variants.js" defer></script></html>

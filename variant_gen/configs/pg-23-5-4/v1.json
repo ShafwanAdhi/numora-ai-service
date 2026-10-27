@@ -1,0 +1,86 @@
+{
+  "question_id": "pg-23-5-4",
+  "config_version": 1,
+  "original_hash": "3e825683ab1df823",
+  "original_values": {
+    "k": 0
+  },
+  "variables": {
+    "k": {
+      "gen": "range",
+      "range": [
+        0,
+        30
+      ],
+      "fmt": "raw"
+    },
+    "v0": {
+      "gen": "derived",
+      "expr": "'300' if k == 0 else (300*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v1": {
+      "gen": "derived",
+      "expr": "'162' if k == 0 else (162*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v2": {
+      "gen": "derived",
+      "expr": "300*(k+1)",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v3": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' (hasil: ')",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v4": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (300*(k+1))",
+      "fmt": "id",
+      "decimals": 6
+    },
+    "v5": {
+      "gen": "derived",
+      "expr": "'' if k == 0 else (' kali percobaan)')",
+      "fmt": "id",
+      "decimals": 6
+    }
+  },
+  "constraints": [],
+  "stem": "Sebuah dadu seimbang dilempar sebanyak {v0} kali. Angka genap muncul {v1} kali. Seorang siswa menyatakan bahwa hasil tersebut membuktikan peluang teoretis munculnya angka genap adalah 0,54. Penilaian yang paling tepat adalah ....",
+  "options": [
+    {
+      "id": "A",
+      "text": "Benar, karena frekuensi relatif selalu menjadi peluang teoretis.",
+      "correct": false
+    },
+    {
+      "id": "B",
+      "text": "Benar, karena angka genap muncul lebih dari setengah percobaan.",
+      "correct": false
+    },
+    {
+      "id": "C",
+      "text": "Salah, karena peluang teoretis munculnya angka genap pada dadu seimbang adalah 0,5.{v3}{v4}{v5}",
+      "correct": true
+    },
+    {
+      "id": "D",
+      "text": "Salah, karena peluang munculnya angka genap adalah 1/6.",
+      "correct": false
+    },
+    {
+      "id": "E",
+      "text": "Tidak dapat menghitung frekuensi relatif dari data tersebut.",
+      "correct": false
+    }
+  ],
+  "explanation": "Frekuensi relatif=162/300=0,54. Pada dadu seimbang, ada3angka genap dari6sisi; peluang teoretis=1/2=0,5. C benar. Jumlah lemparan={v2}.",
+  "shuffle": false,
+  "max_draws": 1000
+}

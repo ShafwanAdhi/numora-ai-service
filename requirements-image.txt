@@ -1,0 +1,2 @@
+# Optional local image renderer; core generation does not import Pillow.
+Pillow==12.1.0

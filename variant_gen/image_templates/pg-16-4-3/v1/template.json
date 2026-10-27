@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "question_id": "pg-16-4-3",
+  "template_version": 1,
+  "renderer": "labels-v1",
+  "canvas": [
+    960,
+    640
+  ],
+  "compatibility": {
+    "original_version": 2,
+    "original_hash": "13ec263f6911a64f",
+    "original_full_sha256": "3ced4ad74af6e5eb3e564317fc64598dedd6961dd49cf10fbd01cfd4cd4d7126",
+    "config_version": 1,
+    "config_hash": "cd93e208e5c3ae10",
+    "config_snapshot_sha256": "697ab368cec10d9ad1b7c30e05641d4c960a5f89c8eb8b65ef73c889f7ce2769",
+    "config_file_sha256": "9d90b2258342008f521ea34a0bb0787bd3776e190394ed1d65d2a000fabe4551"
+  },
+  "source_inventory_sha256": "ec8ab8a76f07cc0b043845e6d7f1276d455e8b688a5627d00748b0b404793215",
+  "source_sha256": "31d70e7f6f05c1b9f36a3547dcc606181d680b04420a21500a1adb134f991c46",
+  "base_sha256": "76e7865f31f03bfb81d6b44395a164a3ae1b5c80cf112bbc1ed8606c93d89c27",
+  "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+  "dimensions": [
+    {
+      "alias": "radius",
+      "variable": "v0",
+      "original": 14
+    },
+    {
+      "alias": "slant",
+      "variable": "v1",
+      "original": 20
+    }
+  ],
+  "original_bindings": {
+    "radius": 14,
+    "slant": 20
+  },
+  "bindings": [
+    {
+      "name": "radius"
+    },
+    {
+      "name": "slant"
+    },
+    {
+      "name": "angle",
+      "expr": "360*radius/slant"
+    }
+  ],
+  "constraints": [
+    "slant>radius",
+    "angle==252"
+  ],
+  "labels": [
+    {
+      "id": "title",
+      "text": "Jaring-jaring kerucut",
+      "box": [
+        20,
+        20,
+        940,
+        70
+      ],
+      "font_size": 25,
+      "min_font_size": 14
+    },
+    {
+      "id": "slant",
+      "text": "s = {slant} cm",
+      "box": [
+        285,
+        100,
+        485,
+        140
+      ],
+      "font_size": 22,
+      "min_font_size": 14
+    },
+    {
+      "id": "radius",
+      "text": "r = {radius} cm",
+      "box": [
+        700,
+        345,
+        910,
+        390
+      ],
+      "font_size": 22,
+      "min_font_size": 14
+    },
+    {
+      "id": "schematic",
+      "text": "Gambar skematis, tidak berskala.",
+      "box": [
+        20,
+        590,
+        940,
+        630
+      ],
+      "font_size": 16,
+      "min_font_size": 14
+    }
+  ],
+  "alt_text": "Jaring-jaring kerucut terdiri dari juring dengan jari-jari s = {slant} cm dan lingkaran dengan r = {radius} cm. Gambar skematis.",
+  "geometry_evidence": {
+    "kind": "cone-net",
+    "sector_center": [
+      350,
+      280
+    ],
+    "sector_radius": 200,
+    "sector_start_degrees": -36,
+    "sector_sweep_degrees": 252,
+    "base_circle": [
+      760,
+      410,
+      140
+    ],
+    "reference_radius": 14,
+    "reference_slant": 20,
+    "units_per_cm": 10
+  },
+  "prepared_asset_sha256": {}
+}
