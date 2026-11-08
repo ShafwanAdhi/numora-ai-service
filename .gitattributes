@@ -1,5 +1,10 @@
 # Preserve exact bytes of SHA-256-pinned source archives, review artifacts,
 # image templates and their reviewed generator configs on Windows and Linux.
+
+# Shared IRT contracts and handoff must retain byte parity across operating systems.
+contracts/irt-calibration-v1/** text eol=lf
+docs/IRT_CALIBRATION_CONTRACT_V1.md text eol=lf
+docs/AI_IRT_V2_CONTEXT.md text eol=lf
 docs/audits/2026-10-22-drill-database-replacement.md -text -whitespace
 docs/audits/2026-10-22-held-final-revisions/** -text -whitespace
 docs/audits/2026-10-26-tryout-database-r2/** -text -whitespace
