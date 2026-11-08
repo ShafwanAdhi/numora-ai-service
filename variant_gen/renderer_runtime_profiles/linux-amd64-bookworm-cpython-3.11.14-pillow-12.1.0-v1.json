@@ -1,0 +1,13 @@
+{
+  "profileId": "linux-amd64-bookworm-cpython-3.11.14-pillow-12.1.0-v1",
+  "containerBase": "python:3.11.14-slim-bookworm@sha256:83f339c1be6340ae1096010fdccf6552ac932d8f410d45d206014916bdf37e48",
+  "renderer": {
+    "code_sha256": "9f449c56eb93f58a96bdc5c004ed7d77c2352e4d747eb1822db4be189b665710",
+    "formatter_sha256": "ac7f28c74124f5c191416c452233d16ff76c65836c6ba3f7f85a50e5ebc0d99f",
+    "freetype": "2.14.1", "layout_engine": "BASIC", "pillow": "12.1.0",
+    "pillow_core_sha256": "b07b43eaa28791ea021e74998ca53500fdaa5d324065fe07d66750b38b814886",
+    "pillow_font_core_sha256": "8cf8b7befc75ffdbc3e6cd66236f0251dc28430c8145024a388d729fa15d785b",
+    "png_compress_level": 9, "python": "3.11.14", "resampling": "LANCZOS", "scale": 2,
+    "version": "tryout-images-v2", "zlib": "1.2.13"
+  }
+}

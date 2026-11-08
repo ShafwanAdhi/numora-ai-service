@@ -1,5 +1,7 @@
 # Numora AI Service
 
+**Generator v2 — 9 November 2026:** [handoff stok/media dan mapping canonical](docs/GENERATOR_SERVICE_V2_HANDOFF.md). V2 melayani 1.094 generator numerik dan 86 keluarga konseptual/248 stok, termasuk 14 keluarga bergambar; kontrak v1 tetap tersedia. Fitur v2 nonaktif secara default. Bukti lokal tidak menggantikan approval Curriculum, rubrik SEALED, atau registrasi produksi.
+
 **Kontrak kalibrasi/hasil peserta — 8 November 2026:** [handoff `irt-calibration-v1`](docs/IRT_CALIBRATION_CONTRACT_V1.md) menyediakan input frozen, output parameter item/hasil Tryout, identitas dan status, dengan schema/contoh identik Numora serta validator JavaScript/Python. Import opt-in `numora_service.irt_contracts` hanya melakukan validasi; tidak mendaftarkan endpoint atau worker IRT. Scientific producer, policy approved, adapter/adopter dan finalizer masih diperlukan. Generator HTTP v1/compute v3 tetap digunakan tanpa perubahan.
 
 **Konteks terbaru — keputusan pemilik, 8 November 2026:** [arsitektur varian/IRT v2](docs/AI_IRT_V2_CONTEXT.md) menjadi acuan target yang diselaraskan dengan repo Numora: A/B Drill sejak awal, tiga konteks IRT, Tryout multi-arm dan adjustment hanya DRIFT. Dokumen memisahkan keputusan, OPEN dan gap implementasi. Kontrak service saat ini tetap [generator HTTP v1/compute v3](docs/handoffs/NUMORA_GENERATOR_INTEGRATION_V1.md); scientific engine IRT dan adjuster otomatis belum tersedia.

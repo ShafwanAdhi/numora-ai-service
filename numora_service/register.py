@@ -18,6 +18,9 @@ from .task import validate_mapping
 
 
 def register(repository, bank, configs, manifest, apply=False, seal=False):
+    if isinstance(manifest, dict) and manifest.get('serviceContract') == 'generator-service-v2':
+        from .v2_register import register as register_v2
+        return register_v2(repository, bank, configs, manifest, apply, seal)
     validate("registration", manifest)
     if seal and not apply:
         raise ServiceError("SEAL_REQUIRES_APPLY", 422)

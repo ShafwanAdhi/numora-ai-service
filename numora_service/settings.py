@@ -12,13 +12,15 @@ class Settings:
     lease_seconds: int = 60
     heartbeat_seconds: float = 15
     execution_seconds: float = 30
+    v2_enabled: bool = False
 
     @classmethod
     def from_env(cls):
         return cls(enabled=os.environ.get("NUMORA_GENERATOR_ENABLED", "false").lower() == "true",
                    token=os.environ.get("NUMORA_GENERATOR_TOKEN", ""),
                    database_url=os.environ.get("COMPUTE_DATABASE_URL", ""),
-                   principal_id=os.environ.get("COMPUTE_SERVICE_PRINCIPAL_ID", ""))
+                   principal_id=os.environ.get("COMPUTE_SERVICE_PRINCIPAL_ID", ""),
+                   v2_enabled=os.environ.get('NUMORA_GENERATOR_V2_ENABLED', 'false').lower() == 'true')
 
     def valid(self):
         try:

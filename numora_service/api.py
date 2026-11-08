@@ -29,6 +29,9 @@ def create_app(settings=None, repository=None, runner=None):
     bank, configs = workspace()
     repository = repository or Repository(settings, bank)
     executor = Executor(repository, settings, runner) if runner else Executor(repository, settings)
+    from .v2_repository import RepositoryV2
+    v2_repository = RepositoryV2(settings, bank)
+    v2_executor = Executor(v2_repository, settings, runner) if runner else Executor(v2_repository, settings)
     app = FastAPI(title="Numora Generator", version="1.0.0", docs_url=None, redoc_url=None, openapi_url=None)
 
     @app.exception_handler(ServiceError)
@@ -82,6 +85,11 @@ def create_app(settings=None, repository=None, runner=None):
         if not hmac.compare_digest(header.encode(), ("Bearer " + settings.token).encode()):
             raise ServiceError("UNAUTHORIZED", 401)
 
+    def authorize_v2(request: Request):
+        authorize(request)
+        if not settings.v2_enabled:
+            raise ServiceError('GENERATOR_V2_DISABLED', 503)
+
     @app.get("/health/live")
     def live():
         return {"serviceContract": SERVICE_CONTRACT, "status": "alive"}
@@ -114,5 +122,32 @@ def create_app(settings=None, repository=None, runner=None):
         from starlette.concurrency import run_in_threadpool
         response = await run_in_threadpool(executor.execute, notification)
         return JSONResponse(response, status_code=202 if response["status"] == "RUNNING" else 200)
+
+    @app.get('/api/v2/generators', dependencies=[Depends(authorize_v2)])
+    def generators_v2():
+        from .v2_generate import stocks, stock_manifest, media_profile
+        stock = stocks(bank)
+        rows = []
+        for item in catalog(bank, configs):
+            mode = {'generator': 'NUMERIC', 'stock': 'CONCEPTUAL_STOCK'}.get(item['mode'])
+            if mode == 'CONCEPTUAL_STOCK':
+                item = {k:v for k,v in item.items() if k not in ('configVersion','configHash','config')}
+            rows.append({**item, 'mode': mode or item['mode'],
+                         'stockManifest': stock_manifest(stock[item['questionExternalId']]) if mode=='CONCEPTUAL_STOCK' else None,
+                         'mediaProfile': media_profile(item['questionExternalId'])})
+        return {'serviceContract':'generator-service-v2','items':rows}
+
+    @app.post('/api/v2/compute/execute', dependencies=[Depends(authorize_v2)])
+    async def execute_v2(request: Request):
+        if request.headers.get('content-type','').split(';')[0].strip() != 'application/json':
+            raise ServiceError('JSON_REQUIRED',415)
+        try:
+            notification=json.loads(await request.body(),object_pairs_hook=unique_object,
+                                    parse_constant=lambda _: (_ for _ in ()).throw(ValueError()))
+        except (ValueError,UnicodeError):raise ServiceError('INVALID_JSON',422) from None
+        validate_notification(notification)
+        from starlette.concurrency import run_in_threadpool
+        response=await run_in_threadpool(v2_executor.execute,notification)
+        return JSONResponse(response,status_code=202 if response['status']=='RUNNING' else 200)
 
     return app

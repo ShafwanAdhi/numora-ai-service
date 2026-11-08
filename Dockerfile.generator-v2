@@ -1,0 +1,18 @@
+FROM python:3.11.14-slim-bookworm@sha256:83f339c1be6340ae1096010fdccf6552ac932d8f410d45d206014916bdf37e48
+WORKDIR /app
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PYTHONPATH=/app \
+    NUMORA_GENERATOR_ENABLED=false NUMORA_GENERATOR_V2_ENABLED=false \
+    NUMORA_RENDERER_PROFILE=linux-amd64-bookworm-cpython-3.11.14-pillow-12.1.0-v1
+COPY requirements-service.lock requirements-renderer-linux.lock ./
+RUN python -m pip install --no-cache-dir --no-deps -r requirements-service.lock \
+    && python -m pip install --no-cache-dir --only-binary=:all: --require-hashes -r requirements-renderer-linux.lock
+COPY numora_service ./numora_service
+COPY variant_gen ./variant_gen
+COPY contracts ./contracts
+COPY docs/sources/incoming/2026-10-27-indikator-16-19-final-images ./docs/sources/incoming/2026-10-27-indikator-16-19-final-images
+COPY docs/sources/incoming/2026-10-26-tryout-images ./docs/sources/incoming/2026-10-26-tryout-images
+COPY tests/service/test_v2.py ./tests/service/test_v2.py
+RUN python -B tests/service/test_v2.py V2Tests.test_all_1094_numeric_and_all_verified_stocks V2Tests.test_media_tampering_and_replay
+USER 65532:65532
+EXPOSE 8770
+CMD ["python","-B","-m","numora_service","--host","0.0.0.0","--port","8770"]

@@ -2,6 +2,7 @@
 from contextlib import contextmanager
 
 import psycopg
+import logging
 from psycopg.conninfo import conninfo_to_dict
 from psycopg.rows import dict_row
 from psycopg.types.json import Jsonb
@@ -14,6 +15,8 @@ from .task import validate_task
 
 
 class Repository:
+    service_contract = SERVICE_CONTRACT
+    validate_result = staticmethod(validate_payload)
     def __init__(self, settings, bank):
         self.settings, self.bank = settings, bank
 
@@ -27,7 +30,9 @@ class Repository:
                                  options="-c statement_timeout=5000 -c lock_timeout=5000",
                                  row_factory=dict_row, **tls) as db:
                 yield db
-        except psycopg.Error:
+        except psycopg.Error as exc:
+            # SQLSTATE is safe operational evidence; never log SQL, values or connection details.
+            logging.getLogger('numora.generator').warning('compute_database_failure sqlstate=%s', exc.sqlstate or 'connection')
             raise ServiceError("COMPUTE_DATABASE_ERROR", 503) from None
 
     @staticmethod
@@ -69,6 +74,9 @@ class Repository:
             raise ServiceError("INPUT_DIGEST_MISMATCH")
         if row["request_type"] != "GENERATE_VARIANTS":
             raise ServiceError("UNSUPPORTED_REQUEST", 422)
+        wave = self.one(db, "SELECT constraints FROM public.irt_input_wave_items_v3 WHERE id=%s", (row['wave_item_id'],))
+        if wave['constraints'].get('serviceContract') != self.service_contract:
+            raise ServiceError('SERVICE_CONTRACT_PIN_MISMATCH')
         dispatch = self.one(db, """SELECT * FROM public.irt_input_dispatches_v3 WHERE request_id=%s
                                   ORDER BY generation DESC LIMIT 1""", (notification["requestId"],))
         if dispatch["generation"] != notification["dispatchGeneration"]:
@@ -90,15 +98,18 @@ class Repository:
                 raise ServiceError("CONFIG_APPROVAL_MISMATCH")
         task = dict(request=request, wave=wave, config=config, source=source, approval=approval, rubric=rubric, context=context)
         try:
-            work = validate_task(task, self.bank)
+            work = self.task_work(db, task)
         except (KeyError, TypeError, ValueError, AttributeError):
             raise ServiceError("INVALID_COMPUTE_INPUT", 422) from None
         return task, work
 
+    def task_work(self, db, task):
+        return validate_task(task, self.bank)
+
     def response(self, db, notification, execution):
         artifacts = db.execute("""SELECT id,digest,payload FROM irt_compute.compute_outputs
             WHERE execution_id=%s AND kind='GENERATE_VARIANTS' ORDER BY sequence_number""", (execution["id"],)).fetchall()
-        return {"serviceContract": SERVICE_CONTRACT, "requestId": notification["requestId"],
+        return {"serviceContract": self.service_contract, "requestId": notification["requestId"],
                 "dispatchGeneration": notification["dispatchGeneration"], "executionId": str(execution["id"]),
                 "status": execution["status"], "failureCode": execution.get("failure_code"),
                 "artifactId": str(artifacts[0]["id"]) if artifacts else None,
@@ -151,7 +162,7 @@ class Repository:
             self.finish(db, execution, code)
 
     def persist(self, notification, claim, result):
-        validate_payload(result["payload"])
+        self.validate_result(result["payload"])
         execution = claim["execution"]
         with self.connection() as db:
             self.check_role(db)
@@ -166,6 +177,17 @@ class Repository:
             current_task = {**task, "request": {k: v for k, v in task["request"].items() if k != "status"}}
             if request["status"] != "RUNNING" or current_task != pinned_task:
                 raise ServiceError("COMPUTE_INPUT_CHANGED")
+            run, candidate = self.insert_candidate(db, task, claim, result)
+            self.one(db, """INSERT INTO irt_compute.compute_outputs
+                (execution_id,kind,sequence_number,input_digest,digest,payload,scientific_decision)
+                VALUES(%s,'GENERATE_VARIANTS',1,%s,'',%s,'CONTENT_VALID') RETURNING id""",
+                (execution["id"], request["input_digest"], Jsonb({"candidateIds": [str(candidate["id"])]})))
+            db.execute("UPDATE irt_compute.generation_runs SET status='SUCCEEDED',finished_at=clock_timestamp() WHERE id=%s", (run["id"],))
+            finished = self.finish(db, execution)
+            return self.response(db, notification, finished)
+
+    def insert_candidate(self, db, task, claim, result):
+            execution = claim['execution']
             run = self.one(db, """INSERT INTO irt_compute.generation_runs
                 (config_id,original_question_version_id,wave_item_id,execution_id,generator_version,random_seed,parameter_values,status)
                 VALUES(%s,%s,%s,%s,%s,%s,%s,'RUNNING') RETURNING id""",
@@ -175,10 +197,4 @@ class Repository:
                 (generation_run_id,parent_original_question_version_id,payload,random_seed,parameter_values,validation_status)
                 VALUES(%s,%s,%s,%s,%s,'CONTENT_VALID') RETURNING id,payload_digest""",
                 (run["id"], task["source"]["id"], Jsonb(result["payload"]), str(claim["work"]["seed"]), Jsonb(result["provenance"])))
-            self.one(db, """INSERT INTO irt_compute.compute_outputs
-                (execution_id,kind,sequence_number,input_digest,digest,payload,scientific_decision)
-                VALUES(%s,'GENERATE_VARIANTS',1,%s,'',%s,'CONTENT_VALID') RETURNING id""",
-                (execution["id"], request["input_digest"], Jsonb({"candidateIds": [str(candidate["id"])]})))
-            db.execute("UPDATE irt_compute.generation_runs SET status='SUCCEEDED',finished_at=clock_timestamp() WHERE id=%s", (run["id"],))
-            finished = self.finish(db, execution)
-            return self.response(db, notification, finished)
+            return run, candidate
