@@ -1,6 +1,10 @@
 # Dokumentasi Numora AI Service
 
-**Progres terkini:** Drill 1.150 original = 1.051 generator + 83 konseptual + 16 HOLD; 0 unavailable. Cakupan lokal 98,6%. [Rincian seluruh indikator dan sisa pekerjaan](PROGRESS.md). Angka pada snapshot sebelumnya bersifat historis.
+**Acuan terbaru — pemilik, 8 November 2026:** baca [konteks varian/IRT v2](AI_IRT_V2_CONTEXT.md) untuk sumber DOCX, delapan keputusan yang disetujui, perbandingan kedua repo dan OPEN. Ini menggantikan kebijakan pilot/A/B/Tryout lama yang bertentangan sebagai target; bukan laporan aktivasi fitur.
+
+Untuk kemampuan yang sudah tersedia, baca [arsitektur saat ini](ARCHITECTURE.md) dan [handoff generator HTTP v1/compute v3](handoffs/NUMORA_GENERATOR_INTEGRATION_V1.md). Generator lokal/stateless dan kandidat service/durable adalah jalur berbeda. Belum ada scientific engine IRT atau adjuster otomatis.
+
+**Progres terkini:** Drill 1.150 original = 1.067 generator + 83 original konseptual berstok; 0 HOLD/unavailable. Tryout 30 = 27 generator + 3 berstok. [Inventaris lokal](PROGRESS.md) tidak menyatakan approval Curriculum atau PASS IRT. Snapshot bertanggal lama di bawah adalah sejarah.
 
 ## Indikator 20 level 4-5 selesai, 21 Oktober 2026
 

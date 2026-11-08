@@ -1,5 +1,7 @@
 # Handoff integrasi generator Numora v1
 
+**ENGINEERING DECISION — pemilik, 8 November 2026:** [konteks bersama varian/IRT v2](../AI_IRT_V2_CONTEXT.md) menjadi target kebijakan terbaru. Handoff ini tetap mendeskripsikan HTTP v1/compute v3 yang sudah tersedia, bukan scientific engine IRT, multi-arm assignment atau otomatisasi adjustment. Day-one A/B yang baru disetujui tidak mengubah Simpan DRAFT menjadi publikasi: setiap output masih perlu review manusia/Curriculum pada tahap awal. SEALED teknis dan CONTENT_VALID generator tidak memberikan PASS psikometrik atau approval reusable config.
+
 7 Oktober 2026 — **ENGINEERING IMPLEMENTATION: service Python.**
 
 Repo: `D:\Dev\numora-ai-service`. Commit source service, kontrak, fixture dan tes:

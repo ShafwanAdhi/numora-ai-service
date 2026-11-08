@@ -1,5 +1,7 @@
 # Rancangan penyesuaian otomatis tiap generator
 
+**ENGINEERING DECISION — pemilik, 8 November 2026:** [rancangan v2 dan delapan keputusan rekonsiliasi](../../AI_IRT_V2_CONTEXT.md) menggantikan bagian yang bertentangan dalam spesifikasi ini: pilot original terpisah dihapus, A/B Drill reguler memberi progres/reward sejak awal, hanya satu varian aktif per level, Tryout multi-arm tanpa ranking nilai, dan tiga model IRT diestimasi terpisah. Sesi berjalan dipin ke versi lama; retry baru memakai versi aktif dalam arm yang sama. PASS freeze item; hanya DRIFT material memicu adjustment. Review manusia berlaku pada setiap output tahap awal. Angka inventaris/temuan bertanggal 6–7 Oktober di bawah adalah snapshot historis, bukan keadaan bank terbaru; lihat [PROGRESS](../../PROGRESS.md). Batas kontrol dan prinsip histori tetap relevan, tetapi adjuster otomatis/scientific engine belum diimplementasikan dan threshold produksi tetap OPEN.
+
 Tanggal rancangan: 6 Oktober 2026. Diperbarui: **7 Oktober 2026**, berdasarkan bank, konfigurasi, dan pemeriksaan terbaru di repo lokal. **Penyesuaian otomatis masih usulan**, belum diterapkan atau diaktifkan untuk penggunaan nyata.
 
 ## Tujuan dan keputusan pengguna

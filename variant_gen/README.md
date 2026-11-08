@@ -1,6 +1,8 @@
 # Generator dan stok varian Numora
 
-Workspace default:820 original,746 config,70 original dengan215 stok konseptual manual VERIFIED: Drill67/206 dan Tryout3/9. Stok maksimum empat per original, saat ini2–4. Tiga soal Tryout tersedia melalui stok per soal; generate paket tetap memakai original. Komputasi IRT belum diimplementasikan.
+**Acuan pemilik, 8 November 2026:** baca [konteks varian/IRT v2](../docs/AI_IRT_V2_CONTEXT.md) untuk target A/B, versi paket, eligibility, tiga model IRT dan adjustment. Perintah lokal dalam dokumen ini tidak mengaktifkan distribusi atau membuktikan kesetaraan. Engine/CLI/workbench numerik tetap stateless; [service integrasi HTTP v1](../docs/handoffs/NUMORA_GENERATOR_INTEGRATION_V1.md) memiliki kandidat/artifact durable.
+
+Workspace lokal memuat 1.180 original: Drill 1.150 (1.067 generator + 83 original berstok), Tryout 30 (27 generator + 3 berstok), 0 HOLD. [Inventaris terkini](../docs/PROGRESS.md) bukan klaim approval Curriculum atau dukungan semua item pada endpoint produksi. Stok finite dapat dibaca ulang; tidak ada ledger pemakaian stok pada workbench. Komputasi IRT belum diimplementasikan.
 
 Panduan aktif:
 

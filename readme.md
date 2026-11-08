@@ -1,6 +1,8 @@
 # Numora AI Service
 
-**Progres terkini:** Drill 1.150 original = 1.051 generator + 83 konseptual + 16 HOLD; 0 unavailable. Cakupan lokal 98,6%. [Rincian seluruh indikator dan sisa pekerjaan](docs/PROGRESS.md). Angka pada snapshot sebelumnya bersifat historis.
+**Konteks terbaru — keputusan pemilik, 8 November 2026:** [arsitektur varian/IRT v2](docs/AI_IRT_V2_CONTEXT.md) menjadi acuan target yang diselaraskan dengan repo Numora: A/B Drill sejak awal, tiga konteks IRT, Tryout multi-arm dan adjustment hanya DRIFT. Dokumen memisahkan keputusan, OPEN dan gap implementasi. Kontrak service saat ini tetap [generator HTTP v1/compute v3](docs/handoffs/NUMORA_GENERATOR_INTEGRATION_V1.md); scientific engine IRT dan adjuster otomatis belum tersedia.
+
+**Progres terkini:** Drill 1.150 original = 1.067 generator + 83 original konseptual berstok, 0 HOLD/unavailable. Tryout 30 = 27 generator + 3 berstok. [Rincian inventaris lokal](docs/PROGRESS.md). Ini bukan klaim approval Curriculum, PASS IRT atau dukungan seluruh item pada endpoint produksi. Pembaruan bertanggal lama di bawah dipertahankan sebagai snapshot historis.
 
 ## Indikator 20 level 4-5 selesai, 21 Oktober 2026
 
