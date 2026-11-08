@@ -1,5 +1,7 @@
 # Arsitektur dan integrasi
 
+**Klarifikasi beta, 8 November 2026:** [dua belas kebijakan operasional](AI_IRT_V2_CONTEXT.md#klarifikasi-dua-belas-kebijakan-operasional) menerima paparan keluarga dari fitur lain seperti Pretest/PvP untuk evidence beta Drill, dengan provenance dan tanpa menghitung retry sebagai evidence baru. Komposisi paket: Drill 3 common anchor + 7 focal; Tryout 5 + 25. Metode mapping nilai IRT memakai paket acuan dan hasil terbit serentak per batch maksimal 72 jam dengan mode per arm; validasi statistik dan detail mapping tetap diperlukan. Nomor 7 tentang arm tanpa pengganti/re-enrollment masih menunggu keputusan. Aturan lama yang bertentangan tidak menjadi target aktif.
+
 **ENGINEERING DECISION — pemilik, 8 November 2026:** [konteks varian/IRT v2](AI_IRT_V2_CONTEXT.md) merupakan acuan target bersama Numora: A/B Drill reguler tanpa pilot original terpisah, tiga model IRT, Tryout multi-arm tanpa ranking nilai, review manusia awal dan adjustment hanya DRIFT. Status implementasi di bawah tidak otomatis berubah oleh persetujuan desain.
 
 ## Kepemilikan
