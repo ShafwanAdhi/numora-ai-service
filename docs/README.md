@@ -1,5 +1,7 @@
 # Dokumentasi Numora AI Service
 
+**Kontrak kalibrasi/hasil peserta — 8 November 2026:** [handoff `irt-calibration-v1`](IRT_CALIBRATION_CONTRACT_V1.md) menyediakan input frozen, output parameter item/hasil Tryout, identitas dan status, dengan schema/contoh identik Numora serta validator JavaScript/Python. Import opt-in `numora_service.irt_contracts` hanya melakukan validasi; tidak mendaftarkan endpoint atau worker IRT. Scientific producer, policy approved, adapter/adopter dan finalizer masih diperlukan. Generator HTTP v1/compute v3 tetap digunakan tanpa perubahan.
+
 **Acuan terbaru — pemilik, 8 November 2026:** baca [konteks varian/IRT v2](AI_IRT_V2_CONTEXT.md) untuk sumber DOCX, delapan keputusan yang disetujui, perbandingan kedua repo dan OPEN. Ini menggantikan kebijakan pilot/A/B/Tryout lama yang bertentangan sebagai target; bukan laporan aktivasi fitur.
 
 Untuk kemampuan yang sudah tersedia, baca [arsitektur saat ini](ARCHITECTURE.md) dan [handoff generator HTTP v1/compute v3](handoffs/NUMORA_GENERATOR_INTEGRATION_V1.md). Generator lokal/stateless dan kandidat service/durable adalah jalur berbeda. Belum ada scientific engine IRT atau adjuster otomatis.

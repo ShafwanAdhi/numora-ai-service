@@ -1,5 +1,7 @@
 # Handoff integrasi generator Numora v1
 
+**Kalibrasi IRT terpisah — 8 November 2026:** bentuk input/output kalibrasi dan hasil peserta kini tersedia pada [handoff kontrak v1](../IRT_CALIBRATION_CONTRACT_V1.md). Jangan menambahkan payload kalibrasi/responden ke endpoint atau artifact generator ini. HTTP generator-service-v1, compute notification v3, source ORIGINAL, config/approval dan retry generator di bawah tetap berlaku.
+
 **ENGINEERING DECISION — pemilik, 8 November 2026:** [konteks bersama varian/IRT v2](../AI_IRT_V2_CONTEXT.md) menjadi target kebijakan terbaru. Handoff ini tetap mendeskripsikan HTTP v1/compute v3 yang sudah tersedia, bukan scientific engine IRT, multi-arm assignment atau otomatisasi adjustment. Day-one A/B yang baru disetujui tidak mengubah Simpan DRAFT menjadi publikasi: setiap output masih perlu review manusia/Curriculum pada tahap awal. SEALED teknis dan CONTENT_VALID generator tidak memberikan PASS psikometrik atau approval reusable config.
 
 7 Oktober 2026 — **ENGINEERING IMPLEMENTATION: service Python.**
