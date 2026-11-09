@@ -46,7 +46,7 @@ def build(db,admin,context,batch):
         package=one("INSERT INTO assessment_packages(family_code,package_version,name,assessment_type,scoring_policy_version_id,distribution_arm_id) VALUES(%s,1,'SYNTHETIC','TRYOUT',%s,%s) RETURNING id",(uuid4().hex,scoring,arm))
         for index,qid in enumerate(questions):
             db.execute('INSERT INTO package_items(package_id,question_version_id,display_order,max_points) VALUES(%s,%s,%s,1)',(package,qid,index+1))
-        db.execute("UPDATE assessment_packages SET status='PUBLISHED',frozen_at=now(),release_at=now()-interval '1 hour',curriculum_approval=jsonb_build_object('reference','SYNTHETIC ONLY','approvedAt',now(),'manifestDigest',irt_compute.payload_digest(jsonb_build_object('packageId',id,'items',(SELECT jsonb_agg(to_jsonb(i) ORDER BY display_order,i.id) FROM package_items i WHERE package_id=%s)))) WHERE id=%s",(package,package))
+        db.execute("UPDATE assessment_packages SET status='PUBLISHED',frozen_at=now()-interval '2 hours',release_at=now()-interval '1 hour',curriculum_approval=jsonb_build_object('reference','SYNTHETIC ONLY','approvedAt',now(),'manifestDigest',irt_compute.payload_digest(jsonb_build_object('packageId',id,'items',(SELECT jsonb_agg(to_jsonb(i) ORDER BY display_order,i.id) FROM package_items i WHERE package_id=%s)))) WHERE id=%s",(package,package))
         revision=one("INSERT INTO assessment_arm_revisions(arm_id,package_id,revision,anchor_question_version_ids,manifest_digest) VALUES(%s,%s,1,%s,'') RETURNING id",(arm,package,anchors))
         db.execute('UPDATE assessment_arms SET current_revision_id=%s WHERE id=%s',(revision,arm))
         db.execute('INSERT INTO tryout_batch_packages(batch_id,package_id,arm_id) VALUES(%s,%s,%s)',(batch,package,arm))
@@ -81,4 +81,5 @@ def build(db,admin,context,batch):
             'assignedArmId':str(arm),'deliveredArmId':str(arm),'deliveryMode':'ASSIGNED','attemptIndex':1,'firstValidAttempt':True,
             'submittedAt':iso(now-timedelta(minutes=1)),'gradedAt':iso(now)})
         value['packages'].append({'packageId':str(package),'packageVersion':1,'armId':str(arm),'armKind':'ORIGINAL' if index==0 else 'VARIANT','questionVersionIds':list(map(str,questions))})
+    db.execute("UPDATE tryout_batches SET status='CLOSED' WHERE id=%s",(batch,))
     return value
