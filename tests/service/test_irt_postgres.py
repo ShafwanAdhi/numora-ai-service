@@ -43,17 +43,17 @@ class IrtPostgresTests(unittest.TestCase):
         cls.settings=Settings(enabled=True,token='TEST_ONLY_'+'t'*32,database_url=cls.urls['compute'],principal_id=str(cls.principal))
         cls.repo=Repository(cls.settings)
 
-    def fixture(self):
+    def fixture(self,value=None):
         root=Path(__file__).resolve().parents[2]
-        value=json.loads((root/'contracts/irt-calibration-v1/examples/tryout-input.json').read_text())
+        value=deepcopy(value) if value is not None else json.loads((root/'contracts/irt-calibration-v1/examples/tryout-input.json').read_text())
         value.update(requestId=str(uuid4()),snapshotId=str(uuid4()),calibrationId=str(uuid4()),comparisons=[])
         value['context'].update(contextId=str(self.context),batchId=str(self.batch),scaleId='T:'+str(self.batch))
         for person in value['respondents']:person['batchId']=str(self.batch)
         value['policies']['comparison']=None
         profile=policy()
         definitions={'model':('IRT_MODEL',profile['engine']),'quality':('QUALITY_GATE',profile['quality']),
-            'eligibility':('IRT_ELIGIBILITY',{'version':profile['version'],'purpose':'RESEARCH_ONLY'}),
-            'scoring':('IRT_SCORING',{'categoryPoints':'PROPORTIONAL_TO_MAXIMUM','purpose':'RESEARCH_ONLY'}),
+            'eligibility':('IRT_ELIGIBILITY',profile['eligibility']),
+            'scoring':('IRT_SCORING',profile['scoring']),
             'scoreMapping':('SCORE_MAPPING',profile['mapping'])}
         resources={}
         with psycopg.connect(URL,row_factory=dict_row) as db:
@@ -64,7 +64,7 @@ class IrtPostgresTests(unittest.TestCase):
                 resources[key]={'ref':ref,'kind':kind,'definition':definition};value['policies'][key]=ref
         body=deepcopy(value);body.pop('inputDigest')
         with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
-            row=db.execute("INSERT INTO irt_calibration_requests_v1(id,snapshot_id,context_id,body,resources,runtime_profile,input_digest) VALUES(%s,%s,%s,%s,%s,%s,'') RETURNING input_digest",(value['requestId'],value['snapshotId'],self.context,Jsonb(body),Jsonb(resources),Jsonb({'purpose':'RESEARCH_ONLY','image':'sha256:'+'a'*64}))).fetchone()
+            row=db.execute("INSERT INTO irt_calibration_requests_v1(id,snapshot_id,context_id,body,resources,runtime_profile,input_digest) VALUES(%s,%s,%s,%s,%s,%s,'') RETURNING input_digest",(value['requestId'],value['snapshotId'],self.context,Jsonb(body),Jsonb(resources),Jsonb({'purpose':'RESEARCH_ONLY','image':os.environ.get('IRT_RESEARCH_TEST_IMAGE','sha256:'+'a'*64)}))).fetchone()
             db.execute('INSERT INTO irt_calibration_dispatches_v1(request_id,generation,actor_user_id) VALUES(%s,1,%s)',(value['requestId'],self.actor))
         return {'contractVersion':3,'requestId':value['requestId'],'inputDigest':row['input_digest'],'dispatchGeneration':1},resources
 
@@ -150,6 +150,24 @@ finally {await sql.end();}"""
         with psycopg.connect(self.urls['main']) as db:
             db.execute('INSERT INTO irt_calibration_cancellations_v1(request_id,actor_user_id) VALUES(%s,%s)',(notification['requestId'],self.actor))
         with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):self.repo.heartbeat(job,notification)
+
+    @unittest.skipUnless(os.environ.get('IRT_RESEARCH_TEST_IMAGE'),'Requires pinned R image; run full scientific harness')
+    def test_09_synthetic_http_r_artifact(self):
+        from research.irt.synthetic import generate
+        with psycopg.connect(URL) as db:
+            db.execute("UPDATE irt_compute.calibration_jobs_v1 SET status='EXPIRED',failure_code='LEASE_EXPIRED',finished_at=now() WHERE status IN ('RUNNING','ACCEPTED')")
+        value,_=generate(1000)
+        n,_=self.fixture(value)
+        client=TestClient(create_app(self.settings,self.repo),raise_server_exceptions=False)
+        response=client.post('/api/v1/irt/compute/execute',headers={'Authorization':'Bearer '+self.settings.token},json=n)
+        self.assertEqual(response.status_code,202,response.text)
+        self.assertTrue(execute_once(self.repo))
+        status=self.repo.get(n)
+        self.assertEqual(status['status'],'SUCCEEDED')
+        with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
+            artifact=db.execute('SELECT payload,diagnostics FROM irt_compute.calibration_artifacts_v1 WHERE id=%s',(status['artifactId'],)).fetchone()
+        self.assertTrue(artifact['diagnostics']['converged'],artifact['diagnostics'])
+        self.assertEqual(len(artifact['payload']['outcome']['respondents']),2000)
 
 
 if __name__=='__main__':unittest.main()

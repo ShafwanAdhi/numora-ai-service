@@ -23,8 +23,8 @@ class Repository(GeneratorRepository):
         if value['ecosystem']!='TRYOUT' or value['comparisons']:raise ValueError('UNSUPPORTED_CONTRACT')
         profile=policy()
         expected={'model':('IRT_MODEL',profile['engine']),'quality':('QUALITY_GATE',profile['quality']),
-            'eligibility':('IRT_ELIGIBILITY',{'version':profile['version'],'purpose':'RESEARCH_ONLY'}),
-            'scoring':('IRT_SCORING',{'categoryPoints':'PROPORTIONAL_TO_MAXIMUM','purpose':'RESEARCH_ONLY'}),
+            'eligibility':('IRT_ELIGIBILITY',profile['eligibility']),
+            'scoring':('IRT_SCORING',profile['scoring']),
             'scoreMapping':('SCORE_MAPPING',profile['mapping'])}
         if set(source['resources'])!=set(expected):raise ValueError('POLICY_UNAVAILABLE')
         for key,(kind,definition) in expected.items():

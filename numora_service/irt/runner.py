@@ -19,7 +19,8 @@ def run(work, heartbeat=lambda:None, image=None, timeout=900):
         # stdout/stderr remain private; R data/errors are never echoed into service logs.
         with (folder/'runner.log').open('wb') as log:
             command=['docker','run','--rm','--name',name,'--network','none','--read-only',
-                '--cap-drop','ALL','--security-opt','no-new-privileges','--cpus','2','--memory','2g',
+                '--cap-drop','ALL','--security-opt','no-new-privileges',
+                '--cpu-period','100000','--cpu-quota','200000','--memory','2g',
                 '--pids-limit','128','--tmpfs','/tmp:rw,nosuid,size=256m',
                 '--mount','type=bind,source='+str(folder)+',target=/work',image,
                 '/work/input.json','/work/output.json']
