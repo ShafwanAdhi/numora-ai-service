@@ -113,7 +113,7 @@ finally {await sql.end();}"""
         with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):self.repo.accept(n)
 
     def test_04_compute_cannot_write_canonical_or_frozen_input(self):
-        for query in ["DELETE FROM users", "DELETE FROM irt_calibration_requests_v1"]:
+        for query in ["DELETE FROM users", "DELETE FROM irt_calibration_requests_v1", "SELECT auth_user_id,email FROM users", "SELECT student_id FROM assessment_attempts"]:
             with psycopg.connect(self.urls['compute']) as db:
                 with self.assertRaises(psycopg.errors.InsufficientPrivilege):db.execute(query)
 
