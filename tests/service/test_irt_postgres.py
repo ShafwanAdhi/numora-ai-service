@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 from copy import deepcopy
 import json
 import os
+import subprocess
 from pathlib import Path
 import unittest
 from urllib.parse import urlparse,urlunparse
@@ -79,6 +80,14 @@ class IrtPostgresTests(unittest.TestCase):
             result=db.execute('SELECT payload FROM irt_compute.calibration_artifacts_v1 WHERE id=%s',(done.json()['artifactId'],)).fetchone()['payload']
         self.assertEqual(result['outcome']['measurementState'],'INSUFFICIENT')
         self.assertEqual(len(result['outcome']['respondents']),2)
+        main=Path(os.environ['NUMORA_REPO_PATH'])
+        script="""import postgres from './packages/database/node_modules/postgres/src/index.js';
+import {verifyCalibrationResearchArtifact} from './packages/irt-orchestration/src/calibration-research.mjs';
+const sql=postgres(process.env.IRT_VERIFY_URL,{max:1,onnotice:()=>{}});
+try {const r=await verifyCalibrationResearchArtifact(sql,process.env.IRT_VERIFY_ID); if(!r.verified||r.publication)throw Error('Verification failed');}
+finally {await sql.end();}"""
+        subprocess.run(['node','--input-type=module','-e',script],cwd=main,
+            env={**os.environ,'IRT_VERIFY_URL':self.urls['main'],'IRT_VERIFY_ID':n['requestId']},check=True,timeout=20)
 
     def test_02_concurrent_accept_has_one_durable_job(self):
         n,_=self.fixture()
