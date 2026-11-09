@@ -1,0 +1,11 @@
+{
+  "version": "tryout-irt-research-v1",
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "engine": {"name": "mirt", "version": "1.48", "dimensions": 1, "method": "EM", "quadrature": 61, "maxIterations": 1000, "tolerance": 0.0001, "seed": 20261109, "threads": 1},
+  "quality": {"minimumArmCount": 500, "minimumItemCount": 500, "minimumCategoryCount": 20, "maximumDiscriminationSE": 0.30, "maximumDifficultySE": 0.40, "fitAlpha": 0.01, "maximumAdjustedQ3": 0.20, "anchorDifficultyTolerance": 0.30, "anchorLogSlopeTolerance": 0.20},
+  "respondent": {"method": "EAP", "priorMean": 0, "priorVariance": 1, "minimumValidItems": 24, "maximumPosteriorSD": 0.80},
+  "mapping": {"method": "FROZEN_REFERENCE_EXPECTED_POINTS", "rounding": "HALF_UP", "decimalPlaces": 2},
+  "runtime": {"concurrency": 1, "timeoutSeconds": 900, "heartbeatSeconds": 15, "leaseSeconds": 60, "maximumExecutions": 3, "maximumRespondents": 5000, "maximumArms": 3},
+  "capabilities": {"ecosystems": ["TRYOUT"], "comparisons": false, "publication": false}
+}
