@@ -35,5 +35,18 @@ class IrtProducerTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):
             run(self.value,self.dispatch,lambda _:None,profile)
 
+    def test_valid_zero_and_omitted_answers_are_not_unscorable(self):
+        for response in self.value['responses']:
+            response.update(responseState='OMITTED',scoreCategory=0,awardedPoints='0.00')
+        result,_=run(self.value,self.dispatch,lambda _:self.fail('Insufficient categories'))
+        self.assertTrue(all(p['status']=='INSUFFICIENT' for p in result['outcome']['respondents']))
+
+    def test_no_presented_observations_is_unscorable_with_null_score(self):
+        for response in self.value['responses']:
+            response.update(responseState='NOT_PRESENTED',scoreCategory=None,awardedPoints=None,
+                includedInCalibration=False,eligibilityReasons=['NOT_PRESENTED'])
+        result,_=run(self.value,self.dispatch,lambda _:self.fail('No data'))
+        self.assertTrue(all(p['status']=='UNSCORABLE' and p['score'] is None for p in result['outcome']['respondents']))
+
 
 if __name__=='__main__':unittest.main()

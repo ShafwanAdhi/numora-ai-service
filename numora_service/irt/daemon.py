@@ -17,9 +17,14 @@ def execute_once(repository,runner=run_r):
     job,source,notification=claim
     dispatch={'executionId':str(job['execution_id']),'dispatchGeneration':job['generation']}
     started=time.monotonic()
+    last_heartbeat=None
     def heartbeat():
-        if time.monotonic()-started>=900:raise ValueError('TIMEOUT')
-        repository.heartbeat(job,notification)
+        nonlocal last_heartbeat
+        now=time.monotonic()
+        if now-started>=900:raise ValueError('TIMEOUT')
+        if last_heartbeat is None or now-last_heartbeat>=15:
+            repository.heartbeat(job,notification)
+            last_heartbeat=time.monotonic()
     try:
         result,diagnostics=run(source['payload'],dispatch,lambda work:runner(work,
             heartbeat=heartbeat,image=source['runtime_profile']['image']),heartbeat=heartbeat)

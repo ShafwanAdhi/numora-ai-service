@@ -18,15 +18,21 @@ def run(work, heartbeat=lambda:None, image=None, timeout=900):
         (folder/'input.json').write_text(json.dumps(work,allow_nan=False),encoding='utf-8')
         # stdout/stderr remain private; R data/errors are never echoed into service logs.
         with (folder/'runner.log').open('wb') as log:
-            command=['docker','run','--rm','--name',name,'--network','none','--read-only',
+            command=['docker','create','--name',name,'--network','none','--read-only',
                 '--cap-drop','ALL','--security-opt','no-new-privileges',
                 '--cpu-period','100000','--cpu-quota','200000','--memory','2g',
                 '--pids-limit','128','--tmpfs','/tmp:rw,nosuid,size=256m',
                 '--mount','type=bind,source='+str(folder)+',target=/work',image,
                 '/work/input.json','/work/output.json']
-            process=subprocess.Popen(command,stdout=log,stderr=log)
             started=time.monotonic();next_heartbeat=started
+            process=None;created=False
             try:
+                # Create before start so cancellation cannot race container creation.
+                try:
+                    subprocess.run(command,stdout=log,stderr=log,timeout=30,check=True)
+                    created=True
+                except (subprocess.SubprocessError,OSError):raise ValueError('DEPENDENCY_UNAVAILABLE') from None
+                process=subprocess.Popen(['docker','start','--attach',name],stdout=log,stderr=log)
                 while process.poll() is None:
                     now=time.monotonic()
                     if now-started>=timeout: raise ValueError('TIMEOUT')
@@ -38,6 +44,9 @@ def run(work, heartbeat=lambda:None, image=None, timeout=900):
                 result=json.loads((folder/'output.json').read_text(encoding='utf-8'))
                 return result
             finally:
-                if process.poll() is None:
-                    subprocess.run(['docker','rm','-f',name],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=20)
-                    process.wait(timeout=20)
+                try:
+                    if created:subprocess.run(['docker','rm','-f',name],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=20,check=True)
+                finally:
+                    if process is not None and process.poll() is None:
+                        try:process.wait(timeout=20)
+                        except subprocess.TimeoutExpired:process.kill();process.wait(timeout=5)
