@@ -1,0 +1,12 @@
+{
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "producerImage": "sha256:071d5aeba5894563bfae9b262f866270a3459f8bf57409a8c724f2544fa957f7",
+  "rImage": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+  "profile": "research/irt-runtime-linux-v1.json",
+  "profileSha256": "552a427c1bd2923a41e2e06e3039ede2ec391903d1167caaaee0559975e66512",
+  "sourceSha256": {
+    "Dockerfile.irt-producer": "209fda791c48cd45fa23a34040a6df16906e6d693c7718bc50738d3bf12404c7",
+    "research/irt-python-linux.lock": "523b529216beaa5ba8319980298192cd2e4f5594aee84e743f70ea911412fe10"
+  }
+}
