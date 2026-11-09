@@ -173,7 +173,9 @@ finally {await sql.end();}"""
         from research.irt.synthetic import generate
         with psycopg.connect(URL) as db:
             db.execute("UPDATE irt_compute.calibration_jobs_v1 SET status='EXPIRED',failure_code='LEASE_EXPIRED',finished_at=now() WHERE status IN ('RUNNING','ACCEPTED')")
-        value,_=generate(1000)
+        # Fixed positive regression selected from the audited no-DIF benchmark.
+        # This proves a healthy path, not a population-wide gate acceptance rate.
+        value,_=generate(1000,20261119)
         n,_=self.fixture(value)
         client=TestClient(create_app(self.settings,self.repo),raise_server_exceptions=False)
         started=time.monotonic()
@@ -186,7 +188,35 @@ finally {await sql.end();}"""
         with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
             artifact=db.execute('SELECT payload,diagnostics FROM irt_compute.calibration_artifacts_v1 WHERE id=%s',(status['artifactId'],)).fetchone()
         self.assertTrue(artifact['diagnostics']['converged'],artifact['diagnostics'])
-        self.assertEqual(len(artifact['payload']['outcome']['respondents']),2000)
+        outcome=artifact['payload']['outcome']
+        self.assertEqual(outcome['measurementState'],'CALIBRATED')
+        rows=outcome['respondents']
+        self.assertEqual(len(rows),2000)
+        expected={p['attemptId']:p for p in value['respondents']}
+        self.assertEqual({r['attemptId'] for r in rows},set(expected))
+        from numora_service.irt.math import convert,eap,reference_score
+        params={qid:(e['a'],convert(e['a'],e['intercepts'],e['covariance'])[0])
+                for qid,e in artifact['diagnostics']['estimates'].items()}
+        reference=[i for i in value['items'] if i['questionVersionId'] in value['referenceQuestionVersionIds']]
+        for index,row in enumerate(rows):
+            person=expected[row['attemptId']]
+            for key in ['respondentId','packageId','packageVersion','batchId']:
+                # fixture() binds batch to the isolated database's test context.
+                self.assertEqual(row[key],str(self.batch) if key=='batchId' else person[key])
+            self.assertEqual(row['status'],'SCORED')
+            self.assertGreater(row['standardError'],0)
+            self.assertLessEqual(row['standardError'],.8)
+            self.assertTrue(0<=row['score']<=100)
+            self.assertEqual(len(row['usedQuestionVersionIds']),30)
+            self.assertEqual(row['reasonCodes'],[])
+            if index in [0,500,999,1000,1500,1999]:
+                obs=[(r['questionVersionId'],r['scoreCategory']) for r in value['responses'] if r['attemptId']==row['attemptId']]
+                theta,sd=eap(obs,params,points=1201)
+                self.assertAlmostEqual(row['theta'],theta,delta=1e-4)
+                self.assertAlmostEqual(row['standardError'],sd,delta=1e-4)
+                self.assertAlmostEqual(row['score'],reference_score(theta,reference,params),delta=.011)
+        # A repeated notification resolves to the very same immutable artifact.
+        self.assertEqual(self.repo.accept(n)['artifactId'],status['artifactId'])
 
     def test_10_main_snapshot_uses_canonical_grades_and_delivery_pins(self):
         from tests.service.irt_canonical_fixture import build
