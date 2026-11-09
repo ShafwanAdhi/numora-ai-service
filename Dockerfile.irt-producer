@@ -1,0 +1,20 @@
+FROM docker:28.5.2-cli@sha256:cd58b396e427d1ee8cddcc3f3b7e8d8c2ba45755c5dd5b821b6e615e1ccf4586 AS dockercli
+FROM python:3.11.3-slim-bullseye@sha256:7b866f12347fbfccbb73284d9c04bbd67b5f9cca8b46786e9fa2bd07af53f09a
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_DISABLE_PIP_VERSION_CHECK=1
+COPY research/irt-python-linux.lock /opt/irt-python-linux.lock
+RUN python -m pip install --no-cache-dir --only-binary=:all: --require-hashes -r /opt/irt-python-linux.lock
+COPY --from=dockercli /usr/local/bin/docker /usr/local/bin/docker
+WORKDIR /app
+COPY numora_service/ numora_service/
+COPY contracts/ contracts/
+COPY research/irt/ research/irt/
+COPY research/irt-runtime-windows-v4.json research/irt-runtime-windows-v4.json
+COPY research/irt-python-research.lock research/irt-python-research.lock
+COPY research/irt-system-packages.lock.txt research/irt-system-packages.lock.txt
+COPY Dockerfile.irt-research Dockerfile.irt-research
+COPY tests/service/ tests/service/
+COPY tools/run_irt_research.py tools/run_irt_research.py
+RUN mkdir -p /irt-work && chown 10001:10001 /irt-work
+ENV NUMORA_IRT_RUNTIME_PROFILE=linux-v1
+USER 10001:10001
+CMD ["python", "-m", "uvicorn", "numora_service.irt.api:create_app", "--factory", "--host", "0.0.0.0", "--port", "8080"]
