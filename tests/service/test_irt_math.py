@@ -21,6 +21,19 @@ class IrtMathTests(unittest.TestCase):
         self.assertAlmostEqual(se[0]**2, .0375)
         self.assertTrue(all(x > 0 for x in se))
 
+    def test_delta_covariance_matches_independent_finite_difference(self):
+        x=[1.4,-.6,.9,-.3]
+        lower=[[.12,0,0,0],[.04,.2,0,0],[-.02,.03,.18,0],[.01,-.04,.05,.22]]
+        covariance=[[sum(lower[j][k]*lower[i][k] for k in range(4)) for i in range(4)] for j in range(4)]
+        def thresholds(v):return [-(v[j+1]-(v[j] if j else 0))/v[0] for j in range(3)]
+        h=1e-6;columns=[]
+        for j in range(4):
+            plus=x.copy();minus=x.copy();plus[j]+=h;minus[j]-=h
+            columns.append([(a-b)/(2*h) for a,b in zip(thresholds(plus),thresholds(minus))])
+        expected=[math.sqrt(sum(columns[j][i]*covariance[j][k]*columns[k][i] for j in range(4) for k in range(4))) for i in range(3)]
+        _,actual=convert(x[0],x[1:],covariance)
+        for a,b in zip(actual,expected):self.assertAlmostEqual(a,b,places=9)
+
     def test_extreme_patterns_have_finite_posteriors_and_scores(self):
         parameters = {str(i): (1.2, [0]) for i in range(30)}
         items = [{'questionVersionId':str(i), 'maxPoints':'2', 'maximumScoreCategory':1} for i in range(30)]
