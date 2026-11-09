@@ -7,6 +7,8 @@ from fastapi import FastAPI,Request,Depends
 from fastapi.responses import JSONResponse
 from ..api import unique_object
 from ..settings import Settings
+from ..errors import ServiceError
+from ..contracts import validate_notification
 from .repository import Repository
 
 
@@ -26,10 +28,10 @@ def create_app(settings=None,repository=None):
             raise ValueError('UNAUTHORIZED')
     @app.exception_handler(Exception)
     async def error(request,exc):
-        code=str(exc) if isinstance(exc,ValueError) else 'INTERNAL_ERROR'
+        code=str(exc) if isinstance(exc,(ValueError,ServiceError)) else 'INTERNAL_ERROR'
         allowed={'UNAUTHORIZED':401,'IRT_RESEARCH_DISABLED':503,'IRT_RESEARCH_NOT_CONFIGURED':503,
             'INVALID_JSON':422,'BODY_TOO_LARGE':413,'INPUT_DIGEST_MISMATCH':409,'STALE_DISPATCH':409,
-            'POLICY_UNAVAILABLE':409,'UNSUPPORTED_CONTRACT':422}
+            'POLICY_UNAVAILABLE':409,'UNSUPPORTED_CONTRACT':422,'INVALID_NOTIFICATION':422}
         status=allowed.get(code,500)
         if code not in allowed:code='INTERNAL_ERROR'
         return JSONResponse({'type':'urn:numora:irt:'+code.lower(),'title':code,'code':code,'status':status},status_code=status,media_type='application/problem+json',headers={'Cache-Control':'no-store'})
@@ -49,10 +51,13 @@ def create_app(settings=None,repository=None):
             value=json.loads(b''.join(chunks),object_pairs_hook=unique_object,
                 parse_constant=lambda _:(_ for _ in ()).throw(ValueError()))
         except (ValueError,UnicodeError):raise ValueError('INVALID_JSON') from None
+        validate_notification(value)
         from starlette.concurrency import run_in_threadpool
         result=await run_in_threadpool(repository.accept,value)
         return JSONResponse(result,status_code=202 if result['status'] in ['ACCEPTED','RUNNING'] else 200,headers={'Cache-Control':'no-store'})
     @app.get('/api/v1/irt/compute/requests/{request_id}',dependencies=[Depends(authorize)])
     def status(request_id:str,inputDigest:str,dispatchGeneration:int):
-        return JSONResponse(repository.get({'contractVersion':3,'requestId':request_id,'inputDigest':inputDigest,'dispatchGeneration':dispatchGeneration}),headers={'Cache-Control':'no-store'})
+        notification={'contractVersion':3,'requestId':request_id,'inputDigest':inputDigest,'dispatchGeneration':dispatchGeneration}
+        validate_notification(notification)
+        return JSONResponse(repository.get(notification),headers={'Cache-Control':'no-store'})
     return app

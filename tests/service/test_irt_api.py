@@ -39,5 +39,10 @@ class IrtApiTests(unittest.TestCase):
         self.assertEqual(result.status_code,500)
         self.assertNotIn('secret',result.text)
 
+    def test_notification_unknown_fields_rejected_before_database(self):
+        result=self.client.post('/api/v1/irt/compute/execute',headers=self.auth,json={**self.message,'responses':[]})
+        self.assertEqual(result.status_code,422)
+        self.repo.accept.assert_not_called()
+
 
 if __name__=='__main__':unittest.main()
