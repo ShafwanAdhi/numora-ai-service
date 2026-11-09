@@ -14,3 +14,7 @@ class RuntimeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):validate(changed)
         with patch('numora_service.irt.runtime.version',return_value='0.0.0'):
             with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):validate(profile())
+
+    def test_profile_selection_is_explicit_and_allowlisted(self):
+        with patch.dict('os.environ',{'NUMORA_IRT_RUNTIME_PROFILE':'../../unexpected'}):
+            with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):profile()

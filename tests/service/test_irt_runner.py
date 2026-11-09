@@ -29,7 +29,7 @@ class RunnerTests(unittest.TestCase):
             self.assertTrue(host['ReadonlyRootfs'])
             self.assertEqual(host['Memory'],2*1024**3)
             self.assertEqual(host['CpuQuota']/host['CpuPeriod'],2)
-            self.assertEqual(value['Config']['User'],'65534:65534')
+            self.assertEqual(value['Config']['User'],f'{os.getuid()}:{os.getgid()}' if hasattr(os,'getuid') else '65534:65534')
             self.assertFalse(any('DATABASE' in x for x in value['Config']['Env']))
             raise ValueError('STALE_EXECUTION')
         with patch('numora_service.irt.runner.uuid4',return_value=identifier):

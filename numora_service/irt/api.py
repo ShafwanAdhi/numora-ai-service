@@ -5,7 +5,7 @@ import json
 import os
 from fastapi import FastAPI,Request,Depends
 from fastapi.responses import JSONResponse
-from ..api import unique_object
+from ..json_boundary import unique_object
 from ..settings import Settings
 from ..errors import ServiceError
 from ..contracts import validate_notification

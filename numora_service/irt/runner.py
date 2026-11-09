@@ -1,7 +1,7 @@
 """Bounded no-network R container. Only sanitized numerical work enters R."""
 import json
 import os
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 import subprocess
 import sys
 import tempfile
@@ -14,8 +14,15 @@ def run(work, heartbeat=lambda:None, image=None, timeout=900):
     if not image.startswith('sha256:') or len(image)!=71:
         raise ValueError('POLICY_UNAVAILABLE')
     name='numora-irt-'+uuid4().hex
-    with tempfile.TemporaryDirectory(prefix='numora-irt-') as directory:
+    shared=os.environ.get('NUMORA_IRT_WORK_ROOT')
+    docker_root=os.environ.get('NUMORA_IRT_DOCKER_WORK_ROOT',shared)
+    if shared and not Path(shared).is_absolute() or docker_root and not shared:
+        raise ValueError('POLICY_UNAVAILABLE')
+    if docker_root and not (Path(docker_root).is_absolute() or PureWindowsPath(docker_root).is_absolute()):
+        raise ValueError('POLICY_UNAVAILABLE')
+    with tempfile.TemporaryDirectory(prefix='numora-irt-',dir=shared) as directory:
         folder=Path(directory)
+        mount_folder=(docker_root.rstrip('/\\')+'/'+folder.name) if shared else str(folder)
         (folder/'input.json').write_text(json.dumps(work,allow_nan=False),encoding='utf-8')
         # stdout/stderr remain private; R data/errors are never echoed into service logs.
         with (folder/'runner.log').open('wb') as log:
@@ -23,7 +30,11 @@ def run(work, heartbeat=lambda:None, image=None, timeout=900):
                 '--cap-drop','ALL','--security-opt','no-new-privileges',
                 '--cpu-period','100000','--cpu-quota','200000','--memory','2g',
                 '--pids-limit','128','--tmpfs','/tmp:rw,nosuid,size=256m',
-                '--mount','type=bind,source='+str(folder)+',target=/work',image,
+                '--mount','type=bind,source='+mount_folder+',target=/work']
+            # Linux tempfile directories are 0700. R runs as the producer UID,
+            # preserving private files without making them world-readable.
+            if hasattr(os,'getuid'):command+=['--user',f'{os.getuid()}:{os.getgid()}']
+            command += [image,
                 '/work/input.json','/work/output.json']
             started=time.monotonic();next_heartbeat=started
             process=None;created=False
