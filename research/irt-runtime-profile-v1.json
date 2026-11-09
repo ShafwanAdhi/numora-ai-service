@@ -1,0 +1,52 @@
+{
+  "version": "irt-research-linux-amd64-v1",
+  "purpose": "RESEARCH_ONLY",
+  "image": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+  "os": "linux",
+  "architecture": "amd64",
+  "sourceSha256": {
+    "Dockerfile.irt-research": "f1363de45d043fc9fce0ac8b907fac81ca1602d76a34580e90b0dc72e8d6c0db",
+    "research/irt/compute.R": "aeb96a0b96595afdb868a8fc2867805be0d26c6a1b0eca6fd5291ed2376d3215",
+    "research/irt/policy-v1.json": "6379b4245c724e04a9de436f049ef87da2c1688790e908f4f36d6d54e243a29d",
+    "research/irt/install-locked.R": "e60a39975d8d829f944c831b6db3f1f123abcb0ce1b1fddcfc4c0cef1173ba14",
+    "research/irt/r-sources.lock.tsv": "f4301038c520be9c15efd176bf6a2b8f1975645d5ff64eecaf0867e44da1daa3",
+    "research/irt-python-research.lock": "74622df33d3bb444310f651e774170547123b1c1d20a96c186aecb6617cd236f",
+    "research/irt-system-packages.lock.txt": "63b42ef752e4d6e9f4bf810e2457b78107dd0c869d4493913c209a46f156558b",
+    "numora_service/irt/math.py": "b8f480d579c5e05e9c729c1b04344a60494a439993248234b2910bcee3b10290",
+    "numora_service/irt/producer.py": "8b93adde2398c84a6ad0e0cfa3989c768ab022233cc4f5532a5009445d16b21a",
+    "numora_service/irt/runner.py": "2d5927cc29c7b6f1d823ed1a981581fbae81a1daf3815326a21e32884b64d36a",
+    "numora_service/irt_contracts.py": "f72fdf1dfe198045bc0296b7e9ef7c0d8d469d9528e62f96b8e77d3acc2d9867"
+  },
+  "productionApproved": false,
+  "sourceHashRecipe": "SHA256_UTF8_LF",
+  "producerRuntime": {
+    "python": "3.11.3",
+    "system": "Windows",
+    "machine": "AMD64",
+    "dependencies": {
+      "annotated-doc": "0.0.4",
+      "annotated-types": "0.7.0",
+      "anyio": "4.12.0",
+      "attrs": "25.4.0",
+      "click": "8.3.1",
+      "colorama": "0.4.6",
+      "fastapi": "0.127.0",
+      "h11": "0.16.0",
+      "idna": "3.11",
+      "jsonschema": "4.26.0",
+      "jsonschema-specifications": "2025.9.1",
+      "psycopg": "3.3.2",
+      "psycopg-binary": "3.3.2",
+      "pydantic": "2.12.5",
+      "pydantic-core": "2.41.5",
+      "python-dotenv": "1.2.2",
+      "referencing": "0.37.0",
+      "rpds-py": "0.30.0",
+      "starlette": "0.50.0",
+      "typing-extensions": "4.15.0",
+      "typing-inspection": "0.4.2",
+      "tzdata": "2025.3",
+      "uvicorn": "0.40.0"
+    }
+  }
+}

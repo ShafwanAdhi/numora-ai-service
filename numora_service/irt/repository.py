@@ -6,6 +6,7 @@ from ..repository import Repository as GeneratorRepository
 from ..contracts import validate_notification
 from ..irt_contracts import validate_input,validate_result
 from .producer import policy
+from .runtime import validate as validate_runtime
 
 
 class Repository(GeneratorRepository):
@@ -34,7 +35,7 @@ class Repository(GeneratorRepository):
             resource=source['resources'][key]
             if resource['ref']!=value['policies'][key] or resource['kind']!=kind or resource['definition']!=definition:
                 raise ValueError('POLICY_UNAVAILABLE')
-        if source['runtime_profile'].get('purpose')!='RESEARCH_ONLY':raise ValueError('POLICY_UNAVAILABLE')
+        validate_runtime(source['runtime_profile'])
         return source
 
     @staticmethod

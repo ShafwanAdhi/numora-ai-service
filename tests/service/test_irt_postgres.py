@@ -21,6 +21,7 @@ from numora_service.irt.api import create_app
 from numora_service.irt.repository import Repository
 from numora_service.irt.daemon import execute_once
 from numora_service.irt.producer import policy
+from numora_service.irt.runtime import profile as runtime_profile
 
 URL=os.environ.get('IRT_RESEARCH_LOCAL_URL')
 
@@ -46,6 +47,11 @@ class IrtPostgresTests(unittest.TestCase):
         cls.settings=Settings(enabled=True,token='TEST_ONLY_'+'t'*32,database_url=cls.urls['compute'],principal_id=str(cls.principal))
         cls.repo=Repository(cls.settings)
 
+    def tearDown(self):
+        # Test-owned disposable cluster only: isolate daemon state between cases.
+        with psycopg.connect(URL) as db:
+            db.execute("UPDATE irt_compute.calibration_jobs_v1 SET status='EXPIRED',failure_code='LEASE_EXPIRED',finished_at=clock_timestamp() WHERE status IN ('RUNNING','ACCEPTED')")
+
     def fixture(self,value=None):
         root=Path(__file__).resolve().parents[2]
         value=deepcopy(value) if value is not None else json.loads((root/'contracts/irt-calibration-v1/examples/tryout-input.json').read_text())
@@ -67,7 +73,7 @@ class IrtPostgresTests(unittest.TestCase):
                 resources[key]={'ref':ref,'kind':kind,'definition':definition};value['policies'][key]=ref
         body=deepcopy(value);body.pop('inputDigest')
         with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
-            row=db.execute("INSERT INTO irt_calibration_requests_v1(id,snapshot_id,context_id,body,resources,runtime_profile,input_digest) VALUES(%s,%s,%s,%s,%s,%s,'') RETURNING input_digest",(value['requestId'],value['snapshotId'],self.context,Jsonb(body),Jsonb(resources),Jsonb({'purpose':'RESEARCH_ONLY','image':os.environ.get('IRT_RESEARCH_TEST_IMAGE','sha256:'+'a'*64)}))).fetchone()
+            row=db.execute("INSERT INTO irt_calibration_requests_v1(id,snapshot_id,context_id,body,resources,runtime_profile,input_digest) VALUES(%s,%s,%s,%s,%s,%s,'') RETURNING input_digest",(value['requestId'],value['snapshotId'],self.context,Jsonb(body),Jsonb(resources),Jsonb(runtime_profile()))).fetchone()
             db.execute('INSERT INTO irt_calibration_dispatches_v1(request_id,generation,actor_user_id) VALUES(%s,1,%s)',(value['requestId'],self.actor))
         return {'contractVersion':3,'requestId':value['requestId'],'inputDigest':row['input_digest'],'dispatchGeneration':1},resources
 
@@ -236,7 +242,8 @@ try {
         n,_=self.fixture();self.repo.accept(n)
         job,source,notification=self.repo.claim_next()
         with psycopg.connect(URL) as db:
-            db.execute("UPDATE irt_compute.calibration_jobs_v1 SET lease_expires_at=clock_timestamp()-interval '1 second' WHERE id=%s",(job['id'],))
+            db.execute("UPDATE irt_compute.calibration_jobs_v1 SET lease_expires_at=clock_timestamp()+interval '1 second' WHERE id=%s",(job['id'],))
+        time.sleep(1.1)
         with self.assertRaisesRegex(ValueError,'STALE_EXECUTION'):self.repo.heartbeat(job,notification)
         self.assertIsNone(Repository(self.settings).claim_next())
         self.assertEqual(self.repo.get(n)['status'],'EXPIRED')
