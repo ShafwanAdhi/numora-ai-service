@@ -6,6 +6,7 @@ import time
 import threading
 from .producer import run
 from .runner import run as run_r
+from .failures import EngineExecutionError
 from .repository import Repository
 from ..settings import Settings
 
@@ -46,6 +47,7 @@ def execute_once(repository,runner=run_r):
             result={k:deepcopy(source['payload'][k]) for k in ['contractVersion','requestId','snapshotId','inputDigest','calibrationId','context']}
             result.update(**dispatch,completedAt=datetime.now(timezone.utc).isoformat(timespec='milliseconds').replace('+00:00','Z'),executionStatus='FAILED',failure={'code':code,'retryable':code in ['TIMEOUT','DEPENDENCY_UNAVAILABLE']},outcome=None)
             diagnostics={'failureCode':code}
+            if isinstance(error,EngineExecutionError):diagnostics.update(error.diagnostics)
         repository.persist(job,source,notification,result,diagnostics)
     finally:
         stop.set();monitor.join(timeout=20)

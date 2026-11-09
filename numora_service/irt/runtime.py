@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[2]
 
 
 def profile():
-    return json.loads((ROOT/'research/irt-runtime-profile-v1.json').read_text(encoding='utf-8'))
+    return json.loads((ROOT/'research/irt-runtime-profile-v2.json').read_text(encoding='utf-8'))
 
 
 def validate(value):

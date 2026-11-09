@@ -8,6 +8,8 @@ from pathlib import Path
 
 from ..irt_contracts import validate_input, validate_result
 from .math import convert, eap, probabilities, reference_score, posterior_grid
+from .gates import anchor_gate
+from .failures import EngineExecutionError
 
 POLICY_PATH = Path(__file__).resolve().parents[2] / 'research/irt/policy-v1.json'
 
@@ -82,7 +84,7 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
                 'anchors':value['anchorQuestionVersionIds']}
         scientific = runner(work)
         if scientific.get('engineError'):
-            raise ValueError('INTERNAL_ERROR')
+            raise EngineExecutionError(scientific)
     scientific['selection'] = {'eligiblePerArm':{arm:len(ids) for arm,ids in arm_people.items()},
         'fittedPerArm':{arm:len(ids) if good and arm in fitted_arms else 0 for arm,ids in arm_people.items()},
         'eligiblePerItem':dict(counts),'fittedPerItem':dict(fit_counts),'anchorCategoriesPerArm':anchor_counts}
@@ -127,7 +129,11 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
                            'difficultyB':steps[0] if item['modelFamily']=='2PL' else None,
                            'difficultyStandardError':errors[0] if item['modelFamily']=='2PL' else None,
                            'steps':[] if item['modelFamily']=='2PL' else [dict(step=k+1,value=d,standardError=errors[k]) for k,d in enumerate(steps)]}
-            except (ValueError,KeyError,TypeError,OverflowError):
+            except (ValueError,KeyError,TypeError,OverflowError) as error:
+                detail=str(error) if isinstance(error,ValueError) else 'MALFORMED_ESTIMATE'
+                if detail not in ['INVALID_COVARIANCE','INVALID_PARAMETERS','PARAMETERIZATION_MISMATCH']:
+                    detail='MALFORMED_ESTIMATE'
+                scientific.setdefault('parameterFailures',{})[qid]=detail
                 reasons.append('MODEL_CONVERGENCE_FAILED')
         if out is None and not reasons: reasons.append('INSUFFICIENT_SAMPLE')
         calibrated = out is not None
@@ -137,10 +143,8 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
     anchors_calibrated = all(q in parameters for q in value['anchorQuestionVersionIds'])
     anchor_evidence = scientific.get('anchors',{})
     linking_required=len(fitted_arms)>1
-    anchor_ok = not linking_required or len(anchor_evidence)==5 and all(a.get('evaluated') and
-         a.get('holmP') is not None and a['holmP']>=quality['fitAlpha'] and
-         a.get('maximumLogSlopeDifference',math.inf)<=quality['anchorLogSlopeTolerance'] and
-         a.get('maximumStepDifference',math.inf)<=quality['anchorDifficultyTolerance'] for a in anchor_evidence.values())
+    scientific['anchorGate']=anchor_gate(anchor_evidence,value['anchorQuestionVersionIds'],quality,linking_required)
+    anchor_ok = scientific['anchorGate']['passed']
     package_results = []
     for package in value['packages']:
         sample_ok = package['armId'] in eligible_arms
