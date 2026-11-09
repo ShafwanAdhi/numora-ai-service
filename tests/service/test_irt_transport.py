@@ -1,4 +1,5 @@
 import json
+import hashlib
 import os
 from pathlib import Path
 import unittest
@@ -14,6 +15,9 @@ class TransportTests(unittest.TestCase):
             Draft202012Validator.check_schema(json.loads((folder/(name+'.schema.json')).read_text()))
         schema=json.loads((folder/'response.schema.json').read_text())
         Draft202012Validator(schema).validate(json.loads((folder/'examples/accepted.json').read_text()))
+        vector=json.loads((folder/'digest-vector.json').read_text())
+        self.assertEqual(json.loads(vector['postgresJsonbText']),vector['value'])
+        self.assertEqual(hashlib.sha256(vector['postgresJsonbText'].encode()).hexdigest(),vector['sha256'])
 
     def test_repository_byte_parity(self):
         main=Path(os.environ.get('NUMORA_REPO_PATH',str(ROOT.parent/'Numora')))

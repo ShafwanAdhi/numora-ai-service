@@ -113,6 +113,14 @@ finally {await sql.end();}"""
         with psycopg.connect(self.urls['main']) as db:
             with self.assertRaises(psycopg.Error):db.execute('UPDATE irt_calibration_requests_v1 SET body=body WHERE id=%s',(n['requestId'],))
 
+    def test_05b_postgres_digest_matches_frozen_cross_language_vector(self):
+        root=Path(__file__).resolve().parents[2]
+        vector=json.loads((root/'contracts/irt-calibration-service-v1/digest-vector.json').read_text())
+        with psycopg.connect(URL) as db:
+            text,digest=db.execute('SELECT %s::jsonb::text,irt_compute.payload_digest(%s::jsonb)',(Jsonb(vector['value']),Jsonb(vector['value']))).fetchone()
+        self.assertEqual(text,vector['postgresJsonbText'])
+        self.assertEqual(digest,vector['sha256'])
+
     def test_06_outbox_is_atomic_and_cancellation_fences_execution(self):
         n,_=self.fixture()
         with psycopg.connect(URL,row_factory=dict_row) as db:
