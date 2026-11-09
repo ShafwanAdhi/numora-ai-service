@@ -1,0 +1,11 @@
+{
+  "version": "tryout-anchor-linking-research-v2",
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "baselinePolicy": "tryout-irt-research-v1",
+  "engine": {"name": "mirt", "version": "1.48", "dimensions": 1, "method": "EM", "quadrature": 61, "maxIterations": 1000, "tolerance": 0.0001, "seed": 20261109, "threads": 1},
+  "quality": {"minimumArmCount": 500, "minimumItemCount": 500, "minimumCategoryCount": 20, "maximumDiscriminationSE": 0.30, "maximumDifficultySE": 0.40, "fitAlpha": 0.01, "maximumAdjustedQ3": 0.20, "anchorDifficultyTolerance": 0.30, "anchorLogSlopeTolerance": 0.20},
+  "anchor": {"count": 5, "intervalLevel": 0.99, "draws": 10000, "drawSeed": 2026111001, "method": "DELTA_GAUSSIAN_MAX_T_WITH_BONFERRONI_ACROSS_RELEASE_MODELS", "independenceAcrossReleaseModelsAssumed": false},
+  "runtime": {"concurrency": 1, "timeoutSeconds": 900, "maximumRespondents": 5000, "maximumArms": 3},
+  "capabilities": {"ecosystems": ["TRYOUT"], "comparisons": false, "publication": false, "canonicalScoring": false}
+}
