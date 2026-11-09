@@ -66,7 +66,10 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
     fit_candidates=[r for r in included if people[r['attemptId']]['deliveredArmId'] in fitted_arms]
     fit_candidate_counts=Counter(r['questionVersionId'] for r in fit_candidates)
     fit_categories=defaultdict(Counter)
-    for r in fit_candidates:fit_categories[r['questionVersionId']][r['scoreCategory']]+=1
+    fit_groups=defaultdict(set)
+    for r in fit_candidates:
+        fit_categories[r['questionVersionId']][r['scoreCategory']]+=1
+        fit_groups[r['questionVersionId']].add(people[r['attemptId']]['deliveredArmId'])
     active = [qid for qid,item in items.items() if item['contentState']=='CONTENT_VALID'
               and fit_candidate_counts[qid]>=quality['minimumItemCount'] and all(fit_categories[qid][k]>=quality['minimumCategoryCount']
               for k in range(item['maximumScoreCategory']+1))]
@@ -118,8 +121,9 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
                 checks.append(check('ITEM_PRECISION',precision,max([ase]+errors)))
                 if not precision: reasons.append('LOW_PRECISION')
                 evidence = [d for d in scientific['fit'].values() if d['questionVersionId']==qid]
-                fit_ok = None if not evidence or any(d['sx2AdjustedP'] is None for d in evidence) else all(d['sx2AdjustedP']>=quality['fitAlpha'] for d in evidence)
-                dependence_ok = None if not evidence or any(d['adjustedQ3'] is None for d in evidence) else all(d['adjustedQ3']<=quality['maximumAdjustedQ3'] for d in evidence)
+                complete = len(evidence)==len(fit_groups[qid]) and {d.get('group') for d in evidence}==fit_groups[qid]
+                fit_ok = None if not complete or any(d['sx2AdjustedP'] is None for d in evidence) else all(d['sx2AdjustedP']>=quality['fitAlpha'] for d in evidence)
+                dependence_ok = None if not complete or any(d['adjustedQ3'] is None for d in evidence) else all(d['adjustedQ3']<=quality['maximumAdjustedQ3'] for d in evidence)
                 checks += [check('SX2_HOLM',fit_ok),check('LOCAL_DEPENDENCE_Q3',dependence_ok)]
                 if not fit_ok: reasons.append('MODEL_FIT_FAILED')
                 if not dependence_ok: reasons.append('LOCAL_DEPENDENCE')

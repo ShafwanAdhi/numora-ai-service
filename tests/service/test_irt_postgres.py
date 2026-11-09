@@ -335,7 +335,7 @@ try {
         from research.irt.synthetic import generate
         from tests.service.irt_scientific_fixture import scientific_fixture
         value,_=generate(500)
-        for scenario in ['NONCONVERGENCE','COVARIANCE','MISSING_FIT','DEPENDENCE','LINKING']:
+        for scenario in ['NONCONVERGENCE','COVARIANCE','MISSING_FIT','MISSING_GROUP','DEPENDENCE','LINKING']:
             with self.subTest(scenario=scenario):
                 n,_=self.fixture(value)
                 client=TestClient(create_app(self.settings,self.repo),raise_server_exceptions=False)
@@ -349,6 +349,9 @@ try {
                             size=len(estimate['covariance']);estimate['covariance']=[[0.]*size for _ in range(size)]
                     elif scenario in ['MISSING_FIT','DEPENDENCE']:
                         for fit in output['fit'].values():fit['adjustedQ3']=None if scenario=='MISSING_FIT' else .8
+                    elif scenario=='MISSING_GROUP':
+                        anchor=work['anchors'][0]
+                        del output['fit'][work['groupOrder'][1]+':'+anchor]
                     else:output['anchors'][work['anchors'][0]]['maximumStepDifference']=1.3
                     return output
                 self.assertTrue(execute_once(self.repo,runner))
