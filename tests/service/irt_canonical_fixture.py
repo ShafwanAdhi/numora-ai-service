@@ -55,8 +55,10 @@ def build(db,admin,context,batch):
     db.execute("UPDATE assessment_arm_sets SET status='OPEN' WHERE id=%s",(arm_set,))
     now=datetime.now(timezone.utc).replace(microsecond=0)
     iso=lambda dt:dt.isoformat().replace('+00:00','Z')
-    value['window']={'startsAt':iso(now-timedelta(hours=1)),'collectionCutoffAt':iso(now+timedelta(hours=1)),
-        'gradingCutoffAt':iso(now+timedelta(hours=2)),'resultDueAt':iso(now+timedelta(days=3))}
+    value['window']={'startsAt':iso(now-timedelta(hours=1)),'collectionCutoffAt':iso(now),
+        'gradingCutoffAt':iso(now),'resultDueAt':iso(now+timedelta(days=3))}
+    db.execute('UPDATE tryout_batches SET starts_at=%s,closes_at=%s,cutoff_at=%s,result_due_at=%s WHERE id=%s',
+        (now-timedelta(hours=1),now,now,now+timedelta(days=3),batch))
     value['items']=new_items;value['anchorQuestionVersionIds']=list(map(str,anchors))
     value['referenceQuestionVersionIds']=list(map(str,originals));value['referencePackage']={'packageId':str(packages[0]),'packageVersion':1}
     value['respondents']=[];value['responses']=[];value['packages']=[]
