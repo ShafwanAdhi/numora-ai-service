@@ -177,5 +177,30 @@ finally {await sql.end();}"""
         self.assertTrue(artifact['diagnostics']['converged'],artifact['diagnostics'])
         self.assertEqual(len(artifact['payload']['outcome']['respondents']),2000)
 
+    def test_10_main_snapshot_uses_canonical_grades_and_delivery_pins(self):
+        from tests.service.irt_canonical_fixture import build
+        with psycopg.connect(URL,row_factory=dict_row) as db:
+            value=build(db,self.actor,self.context,self.batch)
+        _,resources=self.fixture(value)
+        value.update(requestId=str(uuid4()),snapshotId=str(uuid4()),calibrationId=str(uuid4()))
+        for key,resource in resources.items():value['policies'][key]=resource['ref']
+        main=Path(os.environ['NUMORA_REPO_PATH'])
+        script="""import postgres from './packages/database/node_modules/postgres/src/index.js';
+import {readFileSync} from 'node:fs';
+import {freezeCalibrationResearch} from './packages/irt-orchestration/src/calibration-research.mjs';
+const input=JSON.parse(readFileSync(0,'utf8'));const sql=postgres(process.env.IRT_VERIFY_URL,{max:1,onnotice:()=>{}});
+try {
+ const options={secret:'SYNTHETIC_PRIVATE_KEY_ONLY_1234567890',keyVersion:'test-v1'};
+ const a=await freezeCalibrationResearch(sql,input.value,input.resources,input.runtime,options);
+ const b=await freezeCalibrationResearch(sql,input.value,input.resources,input.runtime,options);
+ if(a.inputDigest!==b.inputDigest)throw Error('Replay changed snapshot');
+ const [row]=await sql`SELECT body FROM irt_calibration_requests_v1 WHERE id=${a.requestId}`;
+ if(row.body.responses.some(r=>r.scoreCategory!==1||r.awardedPoints!=='1.00'))throw Error('Noncanonical grade');
+ if(row.body.respondents[0].respondentId===input.value.respondents[0].respondentId)throw Error('Pseudonym not generated');
+} finally {await sql.end();}"""
+        subprocess.run(['node','--input-type=module','-e',script],cwd=main,input=json.dumps({'value':value,'resources':resources,
+            'runtime':{'purpose':'RESEARCH_ONLY','image':'sha256:'+'a'*64}}),text=True,
+            env={**os.environ,'NUMORA_IRT_RESEARCH_ENABLED':'true','IRT_VERIFY_URL':self.urls['main']},check=True,timeout=30)
+
 
 if __name__=='__main__':unittest.main()
