@@ -21,6 +21,19 @@ def check(code, passed, statistic=None):
             'statistic':statistic,'standardError':None}
 
 
+def anchor_support(people,items,responses,anchors,quality):
+    counts=defaultdict(Counter)
+    for response in responses:
+        if response['questionVersionId'] in anchors:
+            counts[(people[response['attemptId']]['deliveredArmId'],response['questionVersionId'])][response['scoreCategory']]+=1
+    supported={arm for arm in {p['deliveredArmId'] for p in people.values()} if all(
+        sum(counts[(arm,qid)].values())>=quality['minimumItemCount'] and
+        all(counts[(arm,qid)][category]>=quality['minimumCategoryCount'] for category in range(items[qid]['maximumScoreCategory']+1))
+        for qid in anchors)}
+    evidence={arm:{qid:dict(counts[(arm,qid)]) for qid in anchors} for arm in {p['deliveredArmId'] for p in people.values()}}
+    return supported,evidence
+
+
 def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
     heartbeat()
     validate_input(value)
@@ -46,7 +59,9 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
     for aid in attempts:
         arm_people[people[aid]['deliveredArmId']].add(aid)
     eligible_arms = {arm for arm,ids in arm_people.items() if len(ids)>=quality['minimumArmCount']}
-    fit_candidates=[r for r in included if people[r['attemptId']]['deliveredArmId'] in eligible_arms]
+    anchor_arms,anchor_counts=anchor_support(people,items,included,value['anchorQuestionVersionIds'],quality)
+    fitted_arms=eligible_arms & anchor_arms
+    fit_candidates=[r for r in included if people[r['attemptId']]['deliveredArmId'] in fitted_arms]
     fit_candidate_counts=Counter(r['questionVersionId'] for r in fit_candidates)
     fit_categories=defaultdict(Counter)
     for r in fit_candidates:fit_categories[r['questionVersionId']][r['scoreCategory']]+=1
@@ -54,12 +69,12 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
               and fit_candidate_counts[qid]>=quality['minimumItemCount'] and all(fit_categories[qid][k]>=quality['minimumCategoryCount']
               for k in range(item['maximumScoreCategory']+1))]
     original = next(p for p in value['packages'] if p['armKind']=='ORIGINAL')
-    good = original['armId'] in eligible_arms and set(value['anchorQuestionVersionIds'])<=set(active)
+    good = original['armId'] in fitted_arms and set(value['anchorQuestionVersionIds'])<=set(active)
     scientific = {'converged':False,'estimates':{},'fit':{},'anchors':{}}
     fit_counts = Counter()
     if good:
-        groups = [original['armId']] + sorted(eligible_arms-{original['armId']})
-        aids = sorted(aid for aid in attempts if people[aid]['deliveredArmId'] in eligible_arms)
+        groups = [original['armId']] + sorted(fitted_arms-{original['armId']})
+        aids = sorted(aid for aid in attempts if people[aid]['deliveredArmId'] in fitted_arms)
         fit_counts.update(qid for aid in aids for qid in attempts[aid] if qid in active)
         work = {'policy':profile,'items':[items[qid] for qid in active],
                 'matrix':[[attempts[aid].get(qid) for qid in active] for aid in aids],
@@ -69,8 +84,8 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
         if scientific.get('engineError'):
             raise ValueError('INTERNAL_ERROR')
     scientific['selection'] = {'eligiblePerArm':{arm:len(ids) for arm,ids in arm_people.items()},
-        'fittedPerArm':{arm:len(ids) if good and arm in eligible_arms else 0 for arm,ids in arm_people.items()},
-        'eligiblePerItem':dict(counts),'fittedPerItem':dict(fit_counts)}
+        'fittedPerArm':{arm:len(ids) if good and arm in fitted_arms else 0 for arm,ids in arm_people.items()},
+        'eligiblePerItem':dict(counts),'fittedPerItem':dict(fit_counts),'anchorCategoriesPerArm':anchor_counts}
     estimates = scientific.get('estimates',{})
     parameters, results = {}, []
     for qid,item in items.items():
@@ -121,7 +136,7 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
             'parameters':out,'quality':{'gate':'PASSED' if calibrated else 'FAILED','checks':checks},'reasonCodes':list(dict.fromkeys(reasons))})
     anchors_calibrated = all(q in parameters for q in value['anchorQuestionVersionIds'])
     anchor_evidence = scientific.get('anchors',{})
-    linking_required=len(eligible_arms)>1
+    linking_required=len(fitted_arms)>1
     anchor_ok = not linking_required or len(anchor_evidence)==5 and all(a.get('evaluated') and
          a.get('holmP') is not None and a['holmP']>=quality['fitAlpha'] and
          a.get('maximumLogSlopeDifference',math.inf)<=quality['anchorLogSlopeTolerance'] and
@@ -130,11 +145,13 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
     for package in value['packages']:
         sample_ok = package['armId'] in eligible_arms
         coverage = sum(q in parameters for q in package['questionVersionIds'])
-        passed = sample_ok and anchors_calibrated and anchor_ok and coverage>=profile['respondent']['minimumValidItems']
-        state = 'CALIBRATED' if passed else 'NOT_COMPARABLE' if sample_ok and anchors_calibrated and not anchor_ok else 'INSUFFICIENT'
+        anchor_sample_ok=package['armId'] in anchor_arms
+        passed = sample_ok and anchor_sample_ok and anchors_calibrated and anchor_ok and coverage>=profile['respondent']['minimumValidItems']
+        state = 'CALIBRATED' if passed else 'NOT_COMPARABLE' if sample_ok and anchor_sample_ok and anchors_calibrated and not anchor_ok else 'INSUFFICIENT'
         package_results.append({k:package[k] for k in ['packageId','packageVersion']}
             | {'measurementState':state,'quality':{'gate':'PASSED' if passed else 'FAILED','checks':[
                 check('MINIMUM_ARM_COUNT',sample_ok,len(arm_people[package['armId']])),
+                check('ANCHOR_RESPONSE_COVERAGE',anchor_sample_ok),
                 check('ANCHOR_CALIBRATION',anchors_calibrated),check('ANCHOR_SENSITIVITY' if linking_required else 'REFERENCE_SCALE_NO_LINK_REQUIRED',anchor_ok),check('VALID_ITEM_COVERAGE',coverage>=profile['respondent']['minimumValidItems'],coverage)]},
                'reasonCodes':[] if passed else ['ANCHOR_UNSTABLE'] if state=='NOT_COMPARABLE' else ['INSUFFICIENT_SAMPLE']})
     states = {(p['packageId'],p['packageVersion']):p['measurementState'] for p in package_results}

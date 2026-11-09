@@ -49,4 +49,36 @@ class IrtProducerTests(unittest.TestCase):
         self.assertTrue(all(p['status']=='UNSCORABLE' and p['score'] is None for p in result['outcome']['respondents']))
 
 
+class AnchorSupportTests(unittest.TestCase):
+    def fixture(self):
+        from numora_service.irt.producer import policy
+        people={f'{arm}:{i}':{'deliveredArmId':arm} for arm in ['A','B'] for i in range(500)}
+        items={f'q{j}':{'maximumScoreCategory':2} for j in range(5)}
+        responses=[{'attemptId':aid,'questionVersionId':qid,'scoreCategory':int(aid.split(':')[1])%3} for aid in people for qid in items]
+        return people,items,responses,policy()['quality']
+
+    def test_other_arms_cannot_fill_missing_anchor_responses(self):
+        from numora_service.irt.producer import anchor_support
+        people,items,responses,quality=self.fixture()
+        responses=[r for r in responses if r['attemptId'].startswith('A:') or int(r['attemptId'].split(':')[1])<100]
+        supported,evidence=anchor_support(people,items,responses,list(items),quality)
+        self.assertEqual(supported,{'A'})
+        self.assertEqual(sum(evidence['B']['q0'].values()),100)
+        self.assertEqual(len(people),1000)
+
+    def test_pooled_category_counts_cannot_hide_empty_category_in_one_arm(self):
+        from numora_service.irt.producer import anchor_support
+        people,items,responses,quality=self.fixture()
+        for r in responses:
+            if r['attemptId'].startswith('B:'):r['scoreCategory']=0
+        supported,_=anchor_support(people,items,responses,list(items),quality)
+        self.assertEqual(supported,{'A'})
+
+    def test_every_anchor_in_each_supported_arm_has_coverage(self):
+        from numora_service.irt.producer import anchor_support
+        people,items,responses,quality=self.fixture()
+        supported,_=anchor_support(people,items,responses,list(items),quality)
+        self.assertEqual(supported,{'A','B'})
+
+
 if __name__=='__main__':unittest.main()
