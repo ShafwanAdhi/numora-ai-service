@@ -28,7 +28,7 @@ def summarize(folder):
             for value,target,se in zip(values,true_steps,errors):
                 (difficulty if len(values)==1 else steps).append(value-target)
                 covered.append(abs(value-target)<=1.96*se)
-        for person in report['result']['outcome']['respondents']:
+        for person in (report.get('result') or {}).get('outcome',{}).get('respondents',[]):
             gates['participant:'+person['status']]+=1
         if diagnostics.get('converged') and converted:
             # Recovery evidence is separate from adopted/scored participant results.
@@ -43,8 +43,11 @@ def summarize(folder):
                 if not obs:continue
                 estimate,sd=eap(obs,converted,prepared=grid)
                 error=estimate-truth['theta'][aid];theta.append(error);theta_covered.append(abs(error)<=1.96*sd)
-        for item in report['result']['outcome']['items']:
+        for item in (report.get('result') or {}).get('outcome',{}).get('items',[]):
             gates.update(item['reasonCodes'])
+        for anchor in diagnostics.get('anchors',{}).values():
+            gates['anchor:'+('PASSED' if anchor.get('evaluated') and anchor.get('holmP',0)>=.01 and
+                anchor.get('maximumLogSlopeDifference',float('inf'))<=.2 and anchor.get('maximumStepDifference',float('inf'))<=.3 else 'HELD')]+=1
     def rmse(values):return math.sqrt(sum(x*x for x in values)/len(values)) if values else None
     result={'replications':len(elapsed),'difficultyBias':sum(difficulty)/len(difficulty) if difficulty else None,
         'difficultyRMSE':rmse(difficulty),'logDiscriminationRMSE':rmse(log_a),'stepRMSE':rmse(steps),'thetaRMSE':rmse(theta),
@@ -69,7 +72,7 @@ def main():
             if previous['image']!=image:raise SystemExit('Image changed; choose a new output directory')
             continue
         subprocess.run([sys.executable,str(ROOT/'tools/run_irt_research.py'),'--image',image,
-            '--seed',str(20261109+index),'--output',str(file)],check=True)
+            '--seed',str(20261109+index),'--output',str(file),'--recovery-only'],check=True)
         print(f'Replication {index+1}/{args.replications} complete',flush=True)
     result=summarize(args.output)
     (args.output/'summary.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
