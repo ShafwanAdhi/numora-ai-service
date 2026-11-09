@@ -39,6 +39,13 @@ class RunnerTests(unittest.TestCase):
 
 
 class CleanupFailureTests(unittest.TestCase):
+    def test_invalid_volume_and_relative_paths_are_rejected(self):
+        for values in [{'NUMORA_IRT_WORK_VOLUME':'../escape'},
+                       {'NUMORA_IRT_WORK_ROOT':'relative'},
+                       {'NUMORA_IRT_DOCKER_WORK_ROOT':'relative'}]:
+            with patch.dict(os.environ,values),self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):
+                run({},image='sha256:'+'a'*64)
+
     def test_cleanup_timeout_preserves_primary_timeout(self):
         from unittest.mock import Mock
         process=Mock();process.poll.return_value=None

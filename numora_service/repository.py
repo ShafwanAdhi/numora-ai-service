@@ -83,7 +83,6 @@ class Repository:
         return row, dispatch
 
     def load_task(self, db, request):
-        from .task import validate_task
         wave = self.one(db, "SELECT * FROM public.irt_input_wave_items_v3 WHERE id=%s", (request["wave_item_id"],))
         config = self.one(db, "SELECT *,irt_compute.payload_digest(parameters) AS actual_digest FROM irt_compute.generator_configs WHERE id=%s", (wave["generator_config_id"],))
         if config["digest"] != config["actual_digest"]:
@@ -104,6 +103,7 @@ class Repository:
         return task, work
 
     def task_work(self, db, task):
+        from .task import validate_task
         return validate_task(task, self.bank)
 
     def response(self, db, notification, execution):
