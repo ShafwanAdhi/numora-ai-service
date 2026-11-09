@@ -5,6 +5,11 @@
 contracts/irt-calibration-v1/** text eol=lf
 docs/IRT_CALIBRATION_CONTRACT_V1.md text eol=lf
 docs/AI_IRT_V2_CONTEXT.md text eol=lf
+research/irt-runtime-*.json text eol=lf
+research/irt-linux-image-*.json text eol=lf
+research/irt-python-linux.lock text eol=lf
+research/irt/*.json text eol=lf
+research/irt/README.md text eol=lf
 docs/audits/2026-10-22-drill-database-replacement.md -text -whitespace
 docs/audits/2026-10-22-held-final-revisions/** -text -whitespace
 docs/audits/2026-10-26-tryout-database-r2/** -text -whitespace
