@@ -148,7 +148,7 @@ try{await migrateIntegratedDatabase(sql,process.argv[2]);}finally{await sql.end(
             if error.code!=401:raise
         _,capability=http('/api/v1/irt/capabilities')
         assert capability['models']==['2PL','GPCM'] and not capability['publication']
-        command('docker','run','-d','--name',worker,*common,*shared,'--memory','512m',profile['producerImage'],
+        command('docker','run','-d','--name',worker,*common,*shared,'--memory','1g',profile['producerImage'],
             'python','-m','numora_service.irt.daemon');containers.append(worker)
         monitor=threading.Thread(target=sample,daemon=True);monitor.start()
         cases=[('INSUFFICIENT',2,2,20261119),('HEALTHY',1000,2,20261119)]
