@@ -26,5 +26,136 @@
     "notes": [
       "Menggunakan bagian revisi eksplisit dalam DOCX. Syarat k≠1, k≠0 pada stem dan |k|≠1 pada pernyataan dipertahankan; konsistensi cakupan k=-1 dicatat untuk review Curriculum."
     ]
+  },
+  "pg-16-1-1": {
+    "generation_status": "ACTIVE",
+    "original_explanation": "Jaring-jaring bangun ruang yang memiliki komponen:\n2 buah lingkaran kongruen, dan\n1 buah persegi panjang\nadalah jaring-jaring tabung.\nAlasannya:\n2 lingkaran kongruen tersebut merupakan alas dan tutup tabung.\nPersegi panjang tersebut merupakan selimut tabung. Jika tabung dibuka, selimutnya berbentuk persegi panjang yang panjangnya sama dengan keliling lingkaran alas dan lebarnya sama dengan tinggi tabung.\nCiri-ciri ini tidak dimiliki oleh:\nKerucut, karena hanya memiliki 1 lingkaran dan 1 selimut berbentuk juring lingkaran.\nLimas segi empat, karena tersusun dari bangun segi empat dan segitiga.\nPrisma segitiga, karena tersusun dari segitiga dan persegi panjang, tanpa lingkaran.",
+    "original_explanation_provenance": {
+      "source_document": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+      "source_document_sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+      "source_question_id": "pg-16-1-1",
+      "source_explanation_verbatim": "Jaring-jaring bangun ruang yang memiliki komponen:\n2 buah lingkaran kongruen, dan\n1 buah persegi panjang\nadalah jaring-jaring tabung.\nAlasannya:\n2 lingkaran kongruen tersebut merupakan alas dan tutup tabung.\nPersegi panjang tersebut merupakan selimut tabung. Jika tabung dibuka, selimutnya berbentuk persegi panjang yang panjangnya sama dengan keliling lingkaran alas dan lebarnya sama dengan tinggi tabung.\nCiri-ciri ini tidak dimiliki oleh:\nKerucut, karena hanya memiliki 1 lingkaran dan 1 selimut berbentuk juring lingkaran.\nLimas segi empat, karena tersusun dari bangun segi empat dan segitiga.\nPrisma segitiga, karena tersusun dari segitiga dan persegi panjang, tanpa lingkaran.",
+      "corrections": [],
+      "owner_authorization": "2026-11-09: perbaiki, tidak perlu menunggu keputusanku",
+      "curriculum_approval": "NOT_ADDED",
+      "original_hash": "6ab224000a25cdc8",
+      "original_version": 1
+    }
+  },
+  "pg-16-1-2": {
+    "generation_status": "ACTIVE",
+    "original_explanation": "Jaring-jaring limas segi empat terdiri dari:\n1 buah persegi sebagai alas, dan\n4 buah segitiga sebagai sisi tegak.\nKarena bangun tersebut memiliki 1 persegi dan 4 segitiga sama kaki, maka bangun ruang yang dimaksud adalah limas segi empat.",
+    "original_explanation_provenance": {
+      "source_document": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+      "source_document_sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+      "source_question_id": "pg-16-1-2",
+      "source_explanation_verbatim": "Jaring-jaring limas segi empat terdiri dari:\n1 buah persegi sebagai alas, dan\n4 buah segitiga sebagai sisi tegak.\nKarena bangun tersebut memiliki 1 persegi dan 4 segitiga sama kaki, maka bangun ruang yang dimaksud adalah limas segi empat.",
+      "corrections": [],
+      "owner_authorization": "2026-11-09: perbaiki, tidak perlu menunggu keputusanku",
+      "curriculum_approval": "NOT_ADDED",
+      "original_hash": "d8ae06a2381f3a67",
+      "original_version": 1
+    }
+  },
+  "pg-16-3-2": {
+    "generation_status": "ACTIVE",
+    "original_explanation": "Tabung tanpa tutup hanya memiliki 1 sisi alas (lingkaran) dan 1 sisi selimut (persegi panjang). Jika tabung utuh, komponennya adalah 2 lingkaran dan 1 persegi panjang.",
+    "original_explanation_provenance": {
+      "source_document": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+      "source_document_sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+      "source_question_id": "pg-16-3-2",
+      "source_explanation_verbatim": "Tabung tanpa tutup hanya memiliki 1 sisi alas (lingkaran) dan 1 sisi selimut (persegi panjang). Jika tabung utuh, komponennya adalah 2 lingkaran dan 1 persegi panjang.",
+      "corrections": [],
+      "owner_authorization": "2026-11-09: perbaiki, tidak perlu menunggu keputusanku",
+      "curriculum_approval": "NOT_ADDED",
+      "original_hash": "6252d480a4f1df3e",
+      "original_version": 1
+    }
+  },
+  "pg-17-3-2": {
+    "generation_status": "ACTIVE",
+    "original_explanation": "Refleksi sumbu X: B(x,y)→B'(x,-y)\nRefleksi sumbu Y: B'(x,-y)→B''(-x,-y)\nHasil akhir (-x,-y) sama dengan rotasi 180^(∘) terhadap titik pusat (0,0).",
+    "original_explanation_provenance": {
+      "source_document": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+      "source_document_sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+      "source_question_id": "pg-17-3-2",
+      "source_explanation_verbatim": "Refleksi sumbu X: B(x,y)→B'(x,-y)\nRefleksi sumbu Y: B'(x,-y)→B''(-,x-y)\nHasil akhir (-,x-y) sama dengan rotasi 180^(∘) terhadap titik pusat (0,0).",
+      "corrections": [
+        {
+          "kind": "COORDINATE_TYPO",
+          "before": "(-,x-y)",
+          "after": "(-x,-y)"
+        }
+      ],
+      "owner_authorization": "2026-11-09: perbaiki, tidak perlu menunggu keputusanku",
+      "curriculum_approval": "NOT_ADDED",
+      "original_hash": "e54bd61921168ab6",
+      "original_version": 1
+    }
+  },
+  "mcma-16-1-6": {
+    "generation_status": "ACTIVE",
+    "original_explanation": "Jaring-jaring prisma segitiga tersusun dari:\n2 buah segitiga kongruen sebagai alas dan tutup.\n3 buah persegi panjang sebagai sisi-sisi tegak/selimut prisma.\nMaka:\nPernyataan 1: Benar.\nPernyataan 2: Benar.\nPernyataan 3: Salah, karena persegi panjangnya ada 3, bukan 4.\nPernyataan 4: Benar, karena 2 segitiga dan 3 persegi panjang berjumlah 5 bangun datar penyusun.",
+    "original_explanation_provenance": {
+      "source_document": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+      "source_document_sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+      "source_question_id": "mcma-16-1-6",
+      "source_explanation_verbatim": "Jaring-jaring prisma segitiga tersusun dari:\n2 buah segitiga kongruen sebagai alas dan tutup.\n3 buah persegi panjang sebagai sisi-sisi tegak/selimut prisma.\nMaka:\nPernyataan 1: Benar.\nPernyataan 2: Benar.\nPernyataan 3: Salah, karena persegi panjangnya ada 3, bukan 4.",
+      "corrections": [
+        {
+          "kind": "MISSING_STATEMENT_EXPLANATION",
+          "added": "Pernyataan 4: Benar, karena 2 segitiga dan 3 persegi panjang berjumlah 5 bangun datar penyusun."
+        }
+      ],
+      "owner_authorization": "2026-11-09: perbaiki, tidak perlu menunggu keputusanku",
+      "curriculum_approval": "NOT_ADDED",
+      "original_hash": "0405232cce724b89",
+      "original_version": 1
+    }
+  },
+  "kategori-16-1-9": {
+    "generation_status": "ACTIVE",
+    "original_explanation": "Bangun ruang yang memiliki jaring-jaring terdiri dari 1 buah persegi dan 4 buah segitiga sama kaki adalah limas segi empat.\nMari kita periksa setiap pernyataan:\nPernyataan A: Bangun ruang tersebut adalah limas segi empat.\n Ini sesuai dengan ciri jaring-jaring yang diberikan (1 persegi sebagai alas dan 4 segitiga sebagai sisi tegak).\n Jawaban: Benar\nPernyataan B: Bangun ruang tersebut memiliki 5 buah titik sudut.\n Limas segi empat memiliki 4 titik sudut pada alas (persegi) dan 1 titik puncak di atas. Total titik sudutnya adalah 4 + 1 = 5.\n Jawaban: Benar\nPernyataan C: Bangun ruang tersebut memiliki 6 buah sisi.\n Limas segi empat memiliki 1 sisi alas (persegi) dan 4 sisi tegak (segitiga). Total sisinya adalah 1 + 4 = 5 sisi, bukan 6.\n Jawaban: Salah",
+    "original_explanation_provenance": {
+      "source_document": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+      "source_document_sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+      "source_question_id": "kategori-16-1-9",
+      "source_explanation_verbatim": "Bangun ruang yang memiliki jaring-jaring terdiri dari 1 buah persegi dan 4 buah segitiga sama kaki adalah limas segi empat.\nMari kita periksa setiap pernyataan:\nPernyataan A: Bangun ruang tersebut adalah limas segi empat.\n Ini sesuai dengan ciri jaring-jaring yang diberikan (1 persegi sebagai alas dan 4 segitiga sebagai sisi tegak).\n Jawaban: Benar\nPernyataan B: Bangun ruang tersebut memiliki 5 buah titik sudut.\n Limas segi empat memiliki 4 titik sudut pada alas (persegi) dan 1 titik puncak di atas. Total titik sudutnya adalah 4 + 1 = 5.\n Jawaban: Benar\nPernyataan C: Bangun ruang tersebut memiliki 6 buah sisi.\n Limas segi empat memiliki 1 sisi alas (persegi) dan 4 sisi tegak (segitiga). Total sisinya adalah 1 + 4 = 5 sisi, bukan 6.\n Jawaban: Salah",
+      "corrections": [],
+      "owner_authorization": "2026-11-09: perbaiki, tidak perlu menunggu keputusanku",
+      "curriculum_approval": "NOT_ADDED",
+      "original_hash": "59f1c9c6873c4838",
+      "original_version": 1
+    }
+  },
+  "kategori-16-2-9": {
+    "generation_status": "ACTIVE",
+    "original_explanation": "Bangun ruang yang dimaksud adalah limas segi empat.\nPernyataan A: Benar. Sesuai ciri jaring-jaringnya.\nPernyataan B: Salah. Limas segi empat memiliki 5 titik sudut (4 di alas + 1 puncak).\nPernyataan C: Benar. Limas segi empat memiliki 5 sisi (1 alas + 4 sisi tegak).",
+    "original_explanation_provenance": {
+      "source_document": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+      "source_document_sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+      "source_question_id": "kategori-16-2-9",
+      "source_explanation_verbatim": "Bangun ruang yang dimaksud adalah limas segi empat.\nPernyataan A: Benar. Sesuai ciri jaring-jaringnya.\nPernyataan B: Salah. Limas segi empat memiliki 5 titik sudut (4 di alas + 1 puncak).\nPernyataan C: Benar. Limas segi empat memiliki 5 sisi (1 alas + 4 sisi tegak).",
+      "corrections": [],
+      "owner_authorization": "2026-11-09: perbaiki, tidak perlu menunggu keputusanku",
+      "curriculum_approval": "NOT_ADDED",
+      "original_hash": "80ab3859a5bc0ba2",
+      "original_version": 1
+    }
+  },
+  "kategori-17-3-10": {
+    "generation_status": "ACTIVE",
+    "original_explanation": "Pernyataan A: Benar. Translasi dan rotasi mempertahankan bentuk dan ukuran (kongruen).\nPernyataan B: Salah. Dilatasi dengan faktor skala k mengubah luas menjadi k^(2) kali lipat. Jika skala 3, luas menjadi 3^(2)=9 kali lipat.\nPernyataan C: Benar. Refleksi y=x : A(x,y)→A'(y,x).",
+    "original_explanation_provenance": {
+      "source_document": "variant_gen/data/drill-1-indicators-16-19/source-revision-2026-10-07.docx",
+      "source_document_sha256": "b18b5681976b79f780489f25b15a1ce6d48441101193f6ca6211987b0dd33a83",
+      "source_question_id": "kategori-17-3-10",
+      "source_explanation_verbatim": "Pernyataan A: Benar. Translasi dan rotasi mempertahankan bentuk dan ukuran (kongruen).\nPernyataan B: Salah. Dilatasi dengan faktor skala k mengubah luas menjadi k^(2) kali lipat. Jika skala 3, luas menjadi 3^(2)=9 kali lipat.\nPernyataan C: Benar. Refleksi y=x : A(x,y)→A'(y,x).",
+      "corrections": [],
+      "owner_authorization": "2026-11-09: perbaiki, tidak perlu menunggu keputusanku",
+      "curriculum_approval": "NOT_ADDED",
+      "original_hash": "7b4657602b32a576",
+      "original_version": 1
+    }
   }
 }
