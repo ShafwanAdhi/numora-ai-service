@@ -7,6 +7,7 @@ from pathlib import Path
 import unittest
 from urllib.parse import urlparse,urlunparse
 from uuid import uuid4
+from unittest.mock import patch
 import psycopg
 from psycopg.rows import dict_row
 from psycopg.types.json import Jsonb
@@ -102,6 +103,44 @@ class IrtPostgresTests(unittest.TestCase):
         n,_=self.fixture()
         with psycopg.connect(self.urls['main']) as db:
             with self.assertRaises(psycopg.Error):db.execute('UPDATE irt_calibration_requests_v1 SET body=body WHERE id=%s',(n['requestId'],))
+
+    def test_06_outbox_is_atomic_and_cancellation_fences_execution(self):
+        n,_=self.fixture()
+        with psycopg.connect(URL,row_factory=dict_row) as db:
+            event=db.execute("SELECT o.payload FROM analytics_outbox o JOIN outbox_deliveries d ON d.outbox_id=o.id WHERE o.entity_id=%s AND d.consumer='irt_research'",(n['requestId'],)).fetchone()
+            self.assertEqual(event['payload'],n)
+        self.repo.accept(n)
+        with psycopg.connect(self.urls['main']) as db:
+            db.execute('INSERT INTO irt_calibration_cancellations_v1(request_id,actor_user_id) VALUES(%s,%s)',(n['requestId'],self.actor))
+        with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):self.repo.get(n)
+
+    def test_07_technical_failure_is_retryable_but_never_a_scientific_score(self):
+        # Drain earlier accepted jobs so this case owns the next claim.
+        while execute_once(self.repo):pass
+        n,_=self.fixture();self.repo.accept(n)
+        with patch('numora_service.irt.daemon.run',side_effect=ValueError('TIMEOUT')):
+            self.assertTrue(execute_once(self.repo))
+        self.assertEqual(self.repo.get(n)['status'],'FAILED')
+        with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
+            row=db.execute('INSERT INTO irt_calibration_dispatches_v1(request_id,generation,actor_user_id) VALUES(%s,2,%s) RETURNING generation',(n['requestId'],self.actor)).fetchone()
+        new={**n,'dispatchGeneration':row['generation']}
+        with self.assertRaisesRegex(ValueError,'STALE_DISPATCH'):self.repo.accept(n)
+        self.repo.accept(new);self.assertTrue(execute_once(self.repo))
+        self.assertEqual(self.repo.get(new)['status'],'SUCCEEDED')
+        with psycopg.connect(self.urls['main']) as db:
+            with self.assertRaises(psycopg.Error):db.execute('INSERT INTO irt_calibration_dispatches_v1(request_id,generation,actor_user_id) VALUES(%s,3,%s)',(n['requestId'],self.actor))
+
+    def test_08_only_one_daemon_can_hold_live_work(self):
+        n,_=self.fixture();other,_=self.fixture()
+        self.repo.accept(n);self.repo.accept(other)
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            claims=list(pool.map(lambda _:self.repo.claim_next(),range(2)))
+        self.assertEqual(sum(c is not None for c in claims),1)
+        job,source,notification=next(c for c in claims if c)
+        self.repo.heartbeat(job,notification)
+        with psycopg.connect(self.urls['main']) as db:
+            db.execute('INSERT INTO irt_calibration_cancellations_v1(request_id,actor_user_id) VALUES(%s,%s)',(notification['requestId'],self.actor))
+        with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):self.repo.heartbeat(job,notification)
 
 
 if __name__=='__main__':unittest.main()
