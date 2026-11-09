@@ -1,0 +1,9 @@
+FROM rocker/r-ver:4.5.2@sha256:fd4ccdd3a4a6f7ef805e2daeee2a0fe3bf126bc231f36351223baecf5a595a4c
+ENV OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 MAKEFLAGS=-j1
+RUN apt-get update -qq && apt-get install -y --no-install-recommends cmake=3.28.3-1build7 libuv1-dev=1.48.0-1.1build1 && rm -rf /var/lib/apt/lists/*
+WORKDIR /opt/irt
+COPY research/irt/r-sources.lock.tsv research/irt/install-locked.R ./
+RUN Rscript --vanilla install-locked.R
+COPY research/irt/ ./
+USER 65534:65534
+ENTRYPOINT ["Rscript", "--vanilla", "/opt/irt/compute.R"]
