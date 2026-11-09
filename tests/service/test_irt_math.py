@@ -17,7 +17,8 @@ class IrtMathTests(unittest.TestCase):
         self.assertGreater(p[0], p[1])
         steps, se = convert(2, [-2, 0], [[.04, .01, 0], [.01, .09, .02], [0, .02, .16]])
         self.assertEqual(steps, [1, -1])
-        self.assertAlmostEqual(se[0]**2, .0275)
+        # db/da = -0.5, db/dd1 = -0.5: include both cross-covariance terms.
+        self.assertAlmostEqual(se[0]**2, .0375)
         self.assertTrue(all(x > 0 for x in se))
 
     def test_extreme_patterns_have_finite_posteriors_and_scores(self):
