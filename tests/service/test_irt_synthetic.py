@@ -20,5 +20,12 @@ class SyntheticTests(unittest.TestCase):
         for response in value['responses']:
             self.assertIn(response['questionVersionId'],packages[people[response['attemptId']]['packageId']])
 
+    def test_three_arm_design_has_five_common_versions_and_independent_focal_columns(self):
+        value,truth=generate(3,arms=3)
+        validate_input(value)
+        self.assertEqual(len(value['items']),80)
+        self.assertEqual(len(value['respondents']),9)
+        self.assertEqual(len(truth['theta']),9)
+
 
 if __name__=='__main__':unittest.main()

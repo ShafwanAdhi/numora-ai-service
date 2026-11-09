@@ -2,6 +2,7 @@
 from copy import deepcopy
 from decimal import Decimal
 import json
+import hashlib
 import math
 from pathlib import Path
 import random
@@ -10,10 +11,22 @@ from uuid import UUID, uuid5
 NAMESPACE=UUID('58d45273-1a7f-456f-9ea4-d330e4222603')
 
 
-def generate(n=1000, seed=20261109, model='MIXED'):
+def generate(n=1000, seed=20261109, model='MIXED', arms=2):
+    if arms not in (2,3):raise ValueError('Synthetic design supports two or three arms')
     root=Path(__file__).resolve().parents[2]
     value=json.loads((root/'contracts/irt-calibration-v1/examples/tryout-input.json').read_text())
     value['comparisons']=[];value['policies']['comparison']=None
+    if arms==3:
+        package=deepcopy(value['packages'][1]);package['packageId']=str(uuid5(NAMESPACE,'package:third'))
+        package['armId']=str(uuid5(NAMESPACE,'arm:third'))
+        replacements={}
+        for item in list(value['items']):
+            if item['questionVersionId'] in package['questionVersionIds'][5:]:
+                copy=deepcopy(item);qid=str(uuid5(NAMESPACE,'third:'+item['questionVersionId']))
+                replacements[item['questionVersionId']]=qid;copy['questionVersionId']=qid
+                copy['contentDigest']=hashlib.sha256(qid.encode()).hexdigest();value['items'].append(copy)
+        package['questionVersionIds']=[replacements.get(q,q) for q in package['questionVersionIds']]
+        value['packages'].append(package)
     rng=random.Random(seed)
     parameters={}
     for j,item in enumerate(value['items']):

@@ -16,9 +16,13 @@ def execute_once(repository,runner=run_r):
     if claim is None:return False
     job,source,notification=claim
     dispatch={'executionId':str(job['execution_id']),'dispatchGeneration':job['generation']}
+    started=time.monotonic()
+    def heartbeat():
+        if time.monotonic()-started>=900:raise ValueError('TIMEOUT')
+        repository.heartbeat(job,notification)
     try:
         result,diagnostics=run(source['payload'],dispatch,lambda work:runner(work,
-            heartbeat=lambda:repository.heartbeat(job,notification),image=source['runtime_profile']['image']))
+            heartbeat=heartbeat,image=source['runtime_profile']['image']),heartbeat=heartbeat)
     except Exception as error:
         code=str(error) if isinstance(error,ValueError) else 'INTERNAL_ERROR'
         if code not in ['TIMEOUT','DEPENDENCY_UNAVAILABLE','INVALID_INPUT','INPUT_DIGEST_MISMATCH','POLICY_UNAVAILABLE','UNSUPPORTED_CONTRACT']:

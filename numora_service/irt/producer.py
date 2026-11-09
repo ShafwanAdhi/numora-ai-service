@@ -21,7 +21,8 @@ def check(code, passed, statistic=None):
             'statistic':statistic,'standardError':None}
 
 
-def run(value, dispatch, runner, profile=None):
+def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
+    heartbeat()
     validate_input(value)
     profile = profile or policy()
     if profile != policy():
@@ -139,7 +140,8 @@ def run(value, dispatch, runner, profile=None):
     by_attempt = defaultdict(list)
     for response in value['responses']:
         by_attempt[response['attemptId']].append(response)
-    for person in value['respondents']:
+    for index,person in enumerate(value['respondents']):
+        if index%25==0:heartbeat()
         responses = by_attempt[person['attemptId']]
         observations = [(r['questionVersionId'],r['scoreCategory']) for r in responses
                         if r['questionVersionId'] in parameters and r['responseState'] in ('RESPONDED','OMITTED')]
