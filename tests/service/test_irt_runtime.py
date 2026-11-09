@@ -7,6 +7,7 @@ from numora_service.irt.runtime import profile,validate
 class RuntimeTests(unittest.TestCase):
     def test_exact_tested_environment_is_accepted(self):
         validate(profile())
+        validate({**profile(),'pseudonymKeyVersion':'research-hmac-v1'})
 
     def test_changed_profile_or_dependency_is_rejected(self):
         changed=deepcopy(profile());changed['image']='sha256:'+'a'*64

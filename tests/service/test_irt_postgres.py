@@ -202,6 +202,9 @@ import {freezeCalibrationResearch} from './packages/irt-orchestration/src/calibr
 const input=JSON.parse(readFileSync(0,'utf8'));const sql=postgres(process.env.IRT_VERIFY_URL,{max:1,onnotice:()=>{}});
 try {
  const options={secret:'SYNTHETIC_PRIVATE_KEY_ONLY_1234567890',keyVersion:'test-v1'};
+ const wrong=structuredClone(input.value);wrong.items[0].maxPoints='99.00';
+ let refused=false;try {await freezeCalibrationResearch(sql,wrong,input.resources,input.runtime,options);} catch(e) {refused=e.message==='IRT_CANONICAL_GRADE_MISMATCH';}
+ if(!refused)throw Error('Forged maximum points accepted');
  const a=await freezeCalibrationResearch(sql,input.value,input.resources,input.runtime,options);
  const b=await freezeCalibrationResearch(sql,input.value,input.resources,input.runtime,options);
  if(a.inputDigest!==b.inputDigest)throw Error('Replay changed snapshot');

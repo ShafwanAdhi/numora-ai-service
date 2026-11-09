@@ -14,7 +14,10 @@ def profile():
 
 def validate(value):
     expected=profile()
-    if value!=expected:raise ValueError('POLICY_UNAVAILABLE')
+    candidate=dict(value)
+    key=candidate.pop('pseudonymKeyVersion',None)
+    if key is not None and (not isinstance(key,str) or not key):raise ValueError('POLICY_UNAVAILABLE')
+    if candidate!=expected:raise ValueError('POLICY_UNAVAILABLE')
     runtime=expected['producerRuntime']
     if (platform.python_version(),platform.system(),platform.machine())!=(runtime['python'],runtime['system'],runtime['machine']):
         raise ValueError('POLICY_UNAVAILABLE')
