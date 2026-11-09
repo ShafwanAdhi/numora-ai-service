@@ -17,19 +17,26 @@ def probabilities(theta, a, steps):
     return [p / total for p in values]
 
 
-def eap(observations, parameters, points=1201):
+def posterior_grid(parameters,points=1201):
+    grid=[-8+16*i/(points-1) for i in range(points)]
+    tables={qid:[[math.log(max(p,1e-300)) for p in probabilities(t,a,steps)] for t in grid]
+            for qid,(a,steps) in parameters.items()}
+    return grid,tables
+
+
+def eap(observations, parameters, points=1201,prepared=None):
     # Independent trapezoid integration, common N(0,1), not group-specific priors.
     if not observations:
         raise ValueError('NO_OBSERVATIONS')
-    grid = [-8 + 16 * i / (points - 1) for i in range(points)]
+    grid,tables=prepared if prepared is not None else posterior_grid(parameters,points)
+    points=len(grid)
     logs = []
     for i, theta in enumerate(grid):
         value = -theta * theta / 2
         if i in (0, points - 1):
             value += math.log(0.5)
         for qid, category in observations:
-            a, steps = parameters[qid]
-            value += math.log(max(probabilities(theta, a, steps)[category], 1e-300))
+            value += tables[qid][i][category]
         logs.append(value)
     peak = max(logs)
     weights = [math.exp(x - peak) for x in logs]

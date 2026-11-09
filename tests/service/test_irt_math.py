@@ -1,6 +1,6 @@
 import math
 import unittest
-from numora_service.irt.math import probabilities, eap, reference_score, convert
+from numora_service.irt.math import probabilities, eap, reference_score, convert, posterior_grid
 
 
 class IrtMathTests(unittest.TestCase):
@@ -31,6 +31,11 @@ class IrtMathTests(unittest.TestCase):
             self.assertGreater(score, 0)
             self.assertLess(score, 100)
         with self.assertRaises(ValueError): eap([], parameters)
+
+    def test_reused_grid_preserves_posterior(self):
+        parameters={'a':(1.3,[.4]),'b':(.9,[.8,-.6])}
+        observations=[('a',1),('b',2)]
+        self.assertEqual(eap(observations,parameters,points=241),eap(observations,parameters,prepared=posterior_grid(parameters,241)))
 
 
 if __name__ == '__main__': unittest.main()

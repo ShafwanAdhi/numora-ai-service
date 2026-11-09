@@ -7,7 +7,7 @@ import math
 from pathlib import Path
 
 from ..irt_contracts import validate_input, validate_result
-from .math import convert, eap, probabilities, reference_score
+from .math import convert, eap, probabilities, reference_score, posterior_grid
 
 POLICY_PATH = Path(__file__).resolve().parents[2] / 'research/irt/policy-v1.json'
 
@@ -136,6 +136,7 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
                'reasonCodes':[] if passed else ['ANCHOR_UNSTABLE'] if state=='NOT_COMPARABLE' else ['INSUFFICIENT_SAMPLE']})
     states = {(p['packageId'],p['packageVersion']):p['measurementState'] for p in package_results}
     respondents = []
+    posterior=posterior_grid(parameters,241)
     reference = [items[qid] for qid in value['referenceQuestionVersionIds']]
     by_attempt = defaultdict(list)
     for response in value['responses']:
@@ -153,7 +154,7 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
         row = {k:person[k] for k in ['respondentId','attemptId','packageId','packageVersion','batchId']}
         row.update(status=status,theta=None,standardError=None,score=None,scoreMapping=None,referencePackage=None,usedQuestionVersionIds=[],reasonCodes=[reason])
         if package_state=='CALIBRATED' and value['policies']['scoreMapping'] and reference and all(i['questionVersionId'] in parameters for i in reference) and len(observations)>=profile['respondent']['minimumValidItems']:
-            theta,se = eap(observations,parameters,points=241)
+            theta,se = eap(observations,parameters,prepared=posterior)
             if se<=profile['respondent']['maximumPosteriorSD']:
                 row.update(status='SCORED',theta=theta,standardError=se,score=reference_score(theta,reference,parameters),
                     scoreMapping=value['policies']['scoreMapping'],referencePackage=value['referencePackage'],
