@@ -4,6 +4,9 @@ from copy import deepcopy
 import json
 import os
 import subprocess
+import socket
+import threading
+import time
 from pathlib import Path
 import unittest
 from urllib.parse import urlparse,urlunparse
@@ -167,7 +170,9 @@ finally {await sql.end();}"""
         value,_=generate(1000)
         n,_=self.fixture(value)
         client=TestClient(create_app(self.settings,self.repo),raise_server_exceptions=False)
+        started=time.monotonic()
         response=client.post('/api/v1/irt/compute/execute',headers={'Authorization':'Bearer '+self.settings.token},json=n)
+        self.assertLess(time.monotonic()-started,10,'ACK must not validate the entire scientific matrix')
         self.assertEqual(response.status_code,202,response.text)
         self.assertTrue(execute_once(self.repo))
         status=self.repo.get(n)
@@ -202,5 +207,57 @@ try {
             'runtime':{'purpose':'RESEARCH_ONLY','image':'sha256:'+'a'*64}}),text=True,
             env={**os.environ,'NUMORA_IRT_RESEARCH_ENABLED':'true','IRT_VERIFY_URL':self.urls['main']},check=True,timeout=30)
 
+    def test_11_main_outbox_worker_crosses_real_http_boundary(self):
+        import uvicorn
+        n,_=self.fixture()
+        listener=socket.socket();listener.bind(('127.0.0.1',0));port=listener.getsockname()[1]
+        server=uvicorn.Server(uvicorn.Config(create_app(self.settings,self.repo),log_level='critical',access_log=False,lifespan='off'))
+        thread=threading.Thread(target=server.run,kwargs={'sockets':[listener]},daemon=True)
+        thread.start()
+        try:
+            deadline=time.monotonic()+10
+            while not server.started and time.monotonic()<deadline:time.sleep(.02)
+            self.assertTrue(server.started)
+            env={**os.environ,'NUMORA_IRT_RESEARCH_ENABLED':'true','IRT_RESEARCH_MAIN_DATABASE_URL':self.urls['main'],
+                'NUMORA_IRT_RESEARCH_URL':f'http://127.0.0.1:{port}','NUMORA_IRT_RESEARCH_TOKEN':self.settings.token}
+            main=Path(os.environ['NUMORA_REPO_PATH'])
+            subprocess.run(['node','scripts/irt-research-worker.mjs','--once'],cwd=main,env=env,check=True,timeout=90)
+            self.assertEqual(self.repo.get(n)['status'],'ACCEPTED')
+            with psycopg.connect(URL) as db:
+                self.assertTrue(db.execute("SELECT d.delivered_at IS NOT NULL FROM outbox_deliveries d JOIN analytics_outbox o ON o.id=d.outbox_id WHERE o.entity_id=%s AND d.consumer='irt_research'",(n['requestId'],)).fetchone()[0])
+        finally:
+            server.should_exit=True;thread.join(timeout=10);listener.close()
+
 
 if __name__=='__main__':unittest.main()
+
+    def test_12_expired_execution_cannot_seal_and_new_daemon_does_not_replay(self):
+        while execute_once(self.repo):pass
+        n,_=self.fixture();self.repo.accept(n)
+        job,source,notification=self.repo.claim_next()
+        with psycopg.connect(URL) as db:
+            db.execute("UPDATE irt_compute.calibration_jobs_v1 SET lease_expires_at=clock_timestamp()-interval '1 second' WHERE id=%s",(job['id'],))
+        with self.assertRaisesRegex(ValueError,'STALE_EXECUTION'):self.repo.heartbeat(job,notification)
+        self.assertIsNone(Repository(self.settings).claim_next())
+        self.assertEqual(self.repo.get(n)['status'],'EXPIRED')
+        with psycopg.connect(self.urls['main']) as db:
+            db.execute('INSERT INTO irt_calibration_dispatches_v1(request_id,generation,actor_user_id) VALUES(%s,2,%s)',(n['requestId'],self.actor))
+        newer={**n,'dispatchGeneration':2};self.repo.accept(newer)
+        self.assertTrue(execute_once(self.repo))
+        with self.assertRaisesRegex(ValueError,'STALE_DISPATCH'):self.repo.heartbeat(job,notification)
+
+    def test_13_retry_cap_and_revocation_before_sealing(self):
+        n,resources=self.fixture();self.repo.accept(n)
+        for generation in (1,2,3):
+            with patch('numora_service.irt.daemon.run',side_effect=ValueError('TIMEOUT')):execute_once(self.repo)
+            if generation<3:
+                with psycopg.connect(self.urls['main']) as db:
+                    db.execute('INSERT INTO irt_calibration_dispatches_v1(request_id,generation,actor_user_id) VALUES(%s,%s,%s)',(n['requestId'],generation+1,self.actor))
+                self.repo.accept({**n,'dispatchGeneration':generation+1})
+        with psycopg.connect(self.urls['main']) as db:
+            with self.assertRaises(psycopg.Error):db.execute('INSERT INTO irt_calibration_dispatches_v1(request_id,generation,actor_user_id) VALUES(%s,4,%s)',(n['requestId'],self.actor))
+        n,resources=self.fixture();self.repo.accept(n)
+        job,source,notification=self.repo.claim_next()
+        with psycopg.connect(URL) as db:db.execute('UPDATE configuration_approvals SET revoked_at=now() WHERE id=%s',(resources['model']['ref']['approvalId'],))
+        with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):self.repo.persist(job,source,notification,{}, {})
+        with psycopg.connect(URL) as db:self.assertEqual(db.execute('SELECT count(*) FROM irt_compute.calibration_artifacts_v1 WHERE job_id=%s',(job['id'],)).fetchone()[0],0)

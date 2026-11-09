@@ -12,15 +12,18 @@ class Repository(GeneratorRepository):
     def __init__(self,settings):
         super().__init__(settings,None)
 
-    def source(self,db,notification):
+    def source(self,db,notification,full=True):
         validate_notification(notification)
         self.check_role(db)
-        source=self.one(db,'SELECT * FROM public.irt_calibration_inputs_v1 WHERE id=%s',(notification['requestId'],))
+        columns='id,snapshot_id,context_id,resources,runtime_profile,input_digest,current_generation,cancelled,approvals_valid'
+        projection='payload' if full else "jsonb_build_object('contractVersion',body->'contractVersion','ecosystem',body->'ecosystem','comparisons',body->'comparisons','policies',body->'policies') AS payload"
+        source=self.one(db,'SELECT '+columns+','+projection+' FROM public.irt_calibration_inputs_v1 WHERE id=%s',(notification['requestId'],))
         if source['input_digest']!=notification['inputDigest']:raise ValueError('INPUT_DIGEST_MISMATCH')
         if source['current_generation']!=notification['dispatchGeneration']:raise ValueError('STALE_DISPATCH')
         if source['cancelled'] or not source['approvals_valid']:raise ValueError('POLICY_UNAVAILABLE')
-        value=source['payload'];validate_input(value)
-        if value['ecosystem']!='TRYOUT' or value['comparisons']:raise ValueError('UNSUPPORTED_CONTRACT')
+        value=source['payload']
+        if full:validate_input(value)
+        if value['contractVersion']!='irt-calibration-v1' or value['ecosystem']!='TRYOUT' or value['comparisons']:raise ValueError('UNSUPPORTED_CONTRACT')
         profile=policy()
         expected={'model':('IRT_MODEL',profile['engine']),'quality':('QUALITY_GATE',profile['quality']),
             'eligibility':('IRT_ELIGIBILITY',profile['eligibility']),
@@ -44,7 +47,7 @@ class Repository(GeneratorRepository):
 
     def accept(self,notification):
         with self.connection() as db:
-            source=self.source(db,notification)
+            source=self.source(db,notification,full=False)
             db.execute('INSERT INTO irt_compute.calibration_jobs_v1(request_id,generation) VALUES(%s,%s) ON CONFLICT(request_id,generation) DO NOTHING',(notification['requestId'],notification['dispatchGeneration']))
             job=self.one(db,'SELECT * FROM irt_compute.calibration_jobs_v1 WHERE request_id=%s AND generation=%s',(notification['requestId'],notification['dispatchGeneration']))
             artifact=db.execute('SELECT id,digest FROM irt_compute.calibration_artifacts_v1 WHERE job_id=%s',(job['id'],)).fetchone()
@@ -52,7 +55,7 @@ class Repository(GeneratorRepository):
 
     def get(self,notification):
         with self.connection() as db:
-            source=self.source(db,notification)
+            source=self.source(db,notification,full=False)
             job=self.one(db,'SELECT * FROM irt_compute.calibration_jobs_v1 WHERE request_id=%s AND generation=%s',(notification['requestId'],notification['dispatchGeneration']))
             artifact=db.execute('SELECT id,digest FROM irt_compute.calibration_artifacts_v1 WHERE job_id=%s',(job['id'],)).fetchone()
             return self.status(job,source,artifact)
@@ -74,11 +77,18 @@ class Repository(GeneratorRepository):
 
     def heartbeat(self,job,notification):
         with self.connection() as db:
-            self.source(db,notification)
+            self.check_role(db)
+            # Frozen body/resources are immutable and validated at claim/persist.
+            # Refresh only revocable authorization; never re-download all responses.
+            source=self.one(db,'SELECT input_digest,current_generation,cancelled,approvals_valid FROM public.irt_calibration_inputs_v1 WHERE id=%s',(notification['requestId'],))
+            if source['input_digest']!=notification['inputDigest']:raise ValueError('INPUT_DIGEST_MISMATCH')
+            if source['current_generation']!=notification['dispatchGeneration']:raise ValueError('STALE_DISPATCH')
+            if source['cancelled'] or not source['approvals_valid']:raise ValueError('POLICY_UNAVAILABLE')
             row=db.execute("UPDATE irt_compute.calibration_jobs_v1 SET heartbeat_at=clock_timestamp(),lease_expires_at=clock_timestamp()+interval '60 seconds' WHERE id=%s AND execution_id=%s AND fencing_token=%s AND status='RUNNING' AND lease_expires_at>clock_timestamp() RETURNING id",(job['id'],job['execution_id'],job['fencing_token'])).fetchone()
             if not row:raise ValueError('STALE_EXECUTION')
 
     def persist(self,job,source,notification,result,diagnostics):
+        self.heartbeat(job,notification)
         validate_result(result,source['payload'],{'executionId':str(job['execution_id']),'dispatchGeneration':job['generation']})
         with self.connection() as db:
             current=self.source(db,notification)
