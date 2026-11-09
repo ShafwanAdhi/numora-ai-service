@@ -50,5 +50,12 @@ class IrtMathTests(unittest.TestCase):
         observations=[('a',1),('b',2)]
         self.assertEqual(eap(observations,parameters,points=241),eap(observations,parameters,prepared=posterior_grid(parameters,241)))
 
+    def test_singular_indefinite_nonfinite_and_asymmetric_covariance_rejected(self):
+        for covariance in [[[0,0],[0,0]],[[1,1],[1,1]],[[1,2],[2,1]],
+                           [[1,0],[.1,1]],[[1,0],[0,float('nan')]],[[1],[0,1]]]:
+            with self.subTest(covariance=covariance):
+                with self.assertRaisesRegex(ValueError,'INVALID_COVARIANCE'):
+                    convert(1.,[0.],covariance)
+
 
 if __name__ == '__main__': unittest.main()

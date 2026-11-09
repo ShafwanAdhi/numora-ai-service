@@ -64,8 +64,24 @@ def convert(a, intercepts, covariance):
 
     covariance order is [a,d1,...,dm]; d0=0 is fixed. No ordered-step assumption.
     """
-    if a <= 0 or len(covariance) != len(intercepts) + 1:
+    if not math.isfinite(a) or a <= 0 or not intercepts or any(not math.isfinite(d) for d in intercepts):
         raise ValueError('INVALID_PARAMETERS')
+    size=len(intercepts)+1
+    if len(covariance)!=size or any(len(row)!=size for row in covariance):
+        raise ValueError('INVALID_COVARIANCE')
+    # A singular/indefinite covariance cannot supply valid uncertainty, even
+    # when a particular delta-method projection happens to be nonnegative.
+    lower=[[0.]*size for _ in range(size)]
+    for j in range(size):
+        for k in range(size):
+            if not math.isfinite(covariance[j][k]) or not math.isclose(covariance[j][k],covariance[k][j],rel_tol=1e-8,abs_tol=1e-12):
+                raise ValueError('INVALID_COVARIANCE')
+        for k in range(j+1):
+            residual=covariance[j][k]-sum(lower[j][m]*lower[k][m] for m in range(k))
+            if k==j:
+                if residual<=0:raise ValueError('INVALID_COVARIANCE')
+                lower[j][k]=math.sqrt(residual)
+            else:lower[j][k]=residual/lower[k][k]
     previous = 0.0
     values, errors = [], []
     for i, value in enumerate(intercepts):
