@@ -229,7 +229,7 @@ try {
             server.should_exit=True;thread.join(timeout=10);listener.close()
 
 
-if __name__=='__main__':unittest.main()
+
 
     def test_12_expired_execution_cannot_seal_and_new_daemon_does_not_replay(self):
         while execute_once(self.repo):pass
@@ -261,3 +261,6 @@ if __name__=='__main__':unittest.main()
         with psycopg.connect(URL) as db:db.execute('UPDATE configuration_approvals SET revoked_at=now() WHERE id=%s',(resources['model']['ref']['approvalId'],))
         with self.assertRaisesRegex(ValueError,'POLICY_UNAVAILABLE'):self.repo.persist(job,source,notification,{}, {})
         with psycopg.connect(URL) as db:self.assertEqual(db.execute('SELECT count(*) FROM irt_compute.calibration_artifacts_v1 WHERE job_id=%s',(job['id'],)).fetchone()[0],0)
+
+
+if __name__=='__main__':unittest.main()
