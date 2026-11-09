@@ -1,0 +1,417 @@
+{
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "policyChanged": false,
+  "policy": {
+    "version": "tryout-irt-research-v1",
+    "purpose": "RESEARCH_ONLY",
+    "productionApproved": false,
+    "eligibility": {
+      "purpose": "RESEARCH_ONLY",
+      "ecosystem": "TRYOUT",
+      "firstValidAttemptOnly": true,
+      "deliveryModes": [
+        "ASSIGNED"
+      ],
+      "exposureStates": [
+        "FRESH"
+      ],
+      "responseStates": [
+        "RESPONDED",
+        "OMITTED"
+      ]
+    },
+    "scoring": {
+      "purpose": "RESEARCH_ONLY",
+      "categoryPoints": "PROPORTIONAL_TO_MAXIMUM",
+      "oneQuestionOneUnit": true
+    },
+    "engine": {
+      "name": "mirt",
+      "version": "1.48",
+      "dimensions": 1,
+      "method": "EM",
+      "quadrature": 61,
+      "maxIterations": 1000,
+      "tolerance": 0.0001,
+      "seed": 20261109,
+      "threads": 1
+    },
+    "quality": {
+      "minimumArmCount": 500,
+      "minimumItemCount": 500,
+      "minimumCategoryCount": 20,
+      "maximumDiscriminationSE": 0.3,
+      "maximumDifficultySE": 0.4,
+      "fitAlpha": 0.01,
+      "maximumAdjustedQ3": 0.2,
+      "anchorDifficultyTolerance": 0.3,
+      "anchorLogSlopeTolerance": 0.2
+    },
+    "respondent": {
+      "method": "EAP",
+      "priorMean": 0,
+      "priorVariance": 1,
+      "minimumValidItems": 24,
+      "maximumPosteriorSD": 0.8
+    },
+    "mapping": {
+      "method": "FROZEN_REFERENCE_EXPECTED_POINTS",
+      "rounding": "HALF_UP",
+      "decimalPlaces": 2
+    },
+    "runtime": {
+      "concurrency": 1,
+      "timeoutSeconds": 900,
+      "heartbeatSeconds": 15,
+      "leaseSeconds": 60,
+      "maximumExecutions": 3,
+      "maximumRespondents": 5000,
+      "maximumArms": 3
+    },
+    "capabilities": {
+      "ecosystems": [
+        "TRYOUT"
+      ],
+      "comparisons": false,
+      "publication": false
+    }
+  },
+  "limitations": [
+    "One paired seed per sample size; not a detection-rate estimate.",
+    "No released-effect confidence intervals; absence of significance is not equivalence.",
+    "No policy or threshold selected from this experiment."
+  ],
+  "cases": [
+    {
+      "pin": {
+        "image": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+        "sourceSha256": {
+          "tools\\evaluate_irt_anchor_sensitivity.py": "51fb51fffd914071a229e0b23ebe5e0333b3159aff28c2c6d47459184378e7e8",
+          "research\\irt\\synthetic.py": "739f432ad1c9145ccce32ab4fa6ba4a0a7baff74a63b394a898fb5208bdcc8a4",
+          "research\\irt\\policy-v1.json": "6379b4245c724e04a9de436f049ef87da2c1688790e908f4f36d6d54e243a29d",
+          "numora_service\\irt\\gates.py": "904a375d93c616b4adeb5d7a4acc820ed0e76b106918964f083327c67f30d0d4",
+          "numora_service\\irt\\producer.py": "181e1271314080354ad02b8d009995447d4f890064beb8a9b8b8c576508f4797",
+          "numora_service\\irt\\math.py": "bbff0ad90b2a167e7d22156b8b659c5cee09239b1dd094b9bdfba06ae2db1076"
+        },
+        "inputSha256": "52d3d8d161b9adcd9832e8ea8708faae11eb50887c098e2eeacf89f39ab19b9b",
+        "perArm": 500,
+        "seed": 20261119,
+        "injectedDifficultyShift": 0.0
+      },
+      "measurementState": "NOT_COMPARABLE",
+      "participantStatuses": {
+        "NOT_COMPARABLE": 1000
+      },
+      "converged": true,
+      "anchorGate": {
+        "passed": false,
+        "scope": "ALL_FITTED_ARMS",
+        "identityValid": true,
+        "checks": {
+          "10000000-0000-4000-8000-000000000064": {
+            "passed": false,
+            "reasons": [
+              "HOLM_SIGNIFICANT",
+              "LOG_SLOPE_DIFFERENCE",
+              "STEP_DIFFERENCE"
+            ]
+          },
+          "10000000-0000-4000-8000-000000000065": {
+            "passed": true,
+            "reasons": []
+          },
+          "10000000-0000-4000-8000-000000000066": {
+            "passed": true,
+            "reasons": []
+          },
+          "10000000-0000-4000-8000-000000000067": {
+            "passed": false,
+            "reasons": [
+              "LOG_SLOPE_DIFFERENCE"
+            ]
+          },
+          "10000000-0000-4000-8000-000000000068": {
+            "passed": true,
+            "reasons": []
+          }
+        }
+      },
+      "anchors": {
+        "10000000-0000-4000-8000-000000000064": {
+          "evaluated": true,
+          "p": 0.0004818574903231454,
+          "maximumLogSlopeDifference": 0.36352942777904296,
+          "maximumStepDifference": 0.4466137770351801,
+          "holmP": 0.002409287451615727
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "evaluated": true,
+          "p": 0.14128024701902286,
+          "maximumLogSlopeDifference": 0.04647178502124924,
+          "maximumStepDifference": 0.25660101627419146,
+          "holmP": 0.30599889491184085
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "evaluated": true,
+          "p": 0.09751799619936996,
+          "maximumLogSlopeDifference": 0.007084148559344386,
+          "maximumStepDifference": 0.28451717287717093,
+          "holmP": 0.30599889491184085
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "evaluated": true,
+          "p": 0.07649972372796021,
+          "maximumLogSlopeDifference": 0.42079693660983697,
+          "maximumStepDifference": 0.10425645662223348,
+          "holmP": 0.30599889491184085
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "evaluated": true,
+          "p": 0.7570067514365344,
+          "maximumLogSlopeDifference": 0.10952881196450272,
+          "maximumStepDifference": 0.11449716195591841,
+          "holmP": 0.7570067514365344
+        }
+      }
+    },
+    {
+      "pin": {
+        "image": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+        "sourceSha256": {
+          "tools\\evaluate_irt_anchor_sensitivity.py": "51fb51fffd914071a229e0b23ebe5e0333b3159aff28c2c6d47459184378e7e8",
+          "research\\irt\\synthetic.py": "739f432ad1c9145ccce32ab4fa6ba4a0a7baff74a63b394a898fb5208bdcc8a4",
+          "research\\irt\\policy-v1.json": "6379b4245c724e04a9de436f049ef87da2c1688790e908f4f36d6d54e243a29d",
+          "numora_service\\irt\\gates.py": "904a375d93c616b4adeb5d7a4acc820ed0e76b106918964f083327c67f30d0d4",
+          "numora_service\\irt\\producer.py": "181e1271314080354ad02b8d009995447d4f890064beb8a9b8b8c576508f4797",
+          "numora_service\\irt\\math.py": "bbff0ad90b2a167e7d22156b8b659c5cee09239b1dd094b9bdfba06ae2db1076"
+        },
+        "inputSha256": "8e8b542cecffb3c19e3e86e70643414d73935793e9f63c44c2e1d47b65752f78",
+        "perArm": 500,
+        "seed": 20261119,
+        "injectedDifficultyShift": 1.3
+      },
+      "measurementState": "PARTIAL",
+      "participantStatuses": {
+        "SCORED": 500,
+        "INSUFFICIENT": 500
+      },
+      "converged": true,
+      "anchorGate": {
+        "passed": true,
+        "scope": "REFERENCE_ONLY",
+        "checks": {}
+      },
+      "anchors": {
+        "10000000-0000-4000-8000-000000000064": {
+          "evaluated": false,
+          "reason": "REFERENCE_ONLY_NO_LINK_REQUIRED"
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "evaluated": false,
+          "reason": "REFERENCE_ONLY_NO_LINK_REQUIRED"
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "evaluated": false,
+          "reason": "REFERENCE_ONLY_NO_LINK_REQUIRED"
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "evaluated": false,
+          "reason": "REFERENCE_ONLY_NO_LINK_REQUIRED"
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "evaluated": false,
+          "reason": "REFERENCE_ONLY_NO_LINK_REQUIRED"
+        }
+      }
+    },
+    {
+      "pin": {
+        "image": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+        "sourceSha256": {
+          "tools\\evaluate_irt_anchor_sensitivity.py": "51fb51fffd914071a229e0b23ebe5e0333b3159aff28c2c6d47459184378e7e8",
+          "research\\irt\\synthetic.py": "739f432ad1c9145ccce32ab4fa6ba4a0a7baff74a63b394a898fb5208bdcc8a4",
+          "research\\irt\\policy-v1.json": "6379b4245c724e04a9de436f049ef87da2c1688790e908f4f36d6d54e243a29d",
+          "numora_service\\irt\\gates.py": "904a375d93c616b4adeb5d7a4acc820ed0e76b106918964f083327c67f30d0d4",
+          "numora_service\\irt\\producer.py": "181e1271314080354ad02b8d009995447d4f890064beb8a9b8b8c576508f4797",
+          "numora_service\\irt\\math.py": "bbff0ad90b2a167e7d22156b8b659c5cee09239b1dd094b9bdfba06ae2db1076"
+        },
+        "inputSha256": "68b16409e1efc2182ccc721272960e5e758642ae41833f933732ca6e5941a37a",
+        "perArm": 2000,
+        "seed": 20261119,
+        "injectedDifficultyShift": 0.0
+      },
+      "measurementState": "CALIBRATED",
+      "participantStatuses": {
+        "SCORED": 4000
+      },
+      "converged": true,
+      "anchorGate": {
+        "passed": true,
+        "scope": "ALL_FITTED_ARMS",
+        "identityValid": true,
+        "checks": {
+          "10000000-0000-4000-8000-000000000064": {
+            "passed": true,
+            "reasons": []
+          },
+          "10000000-0000-4000-8000-000000000065": {
+            "passed": true,
+            "reasons": []
+          },
+          "10000000-0000-4000-8000-000000000066": {
+            "passed": true,
+            "reasons": []
+          },
+          "10000000-0000-4000-8000-000000000067": {
+            "passed": true,
+            "reasons": []
+          },
+          "10000000-0000-4000-8000-000000000068": {
+            "passed": true,
+            "reasons": []
+          }
+        }
+      },
+      "anchors": {
+        "10000000-0000-4000-8000-000000000064": {
+          "evaluated": true,
+          "p": 0.6854614957072184,
+          "maximumLogSlopeDifference": 0.019932709843952283,
+          "maximumStepDifference": 0.135010449423491,
+          "holmP": 1
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "evaluated": true,
+          "p": 0.1769504551334129,
+          "maximumLogSlopeDifference": 0.12655907270670053,
+          "maximumStepDifference": 0.10235353247727333,
+          "holmP": 0.8847522756670645
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "evaluated": true,
+          "p": 0.9619228746336197,
+          "maximumLogSlopeDifference": 0.0031998172533767547,
+          "maximumStepDifference": 0.02027426398763621,
+          "holmP": 1
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "evaluated": true,
+          "p": 0.5139846431106139,
+          "maximumLogSlopeDifference": 0.08321618163162388,
+          "maximumStepDifference": 0.1343215275139915,
+          "holmP": 1
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "evaluated": true,
+          "p": 0.8073196758732505,
+          "maximumLogSlopeDifference": 0.03886478633229885,
+          "maximumStepDifference": 0.02468127507018658,
+          "holmP": 1
+        }
+      }
+    },
+    {
+      "pin": {
+        "image": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+        "sourceSha256": {
+          "tools\\evaluate_irt_anchor_sensitivity.py": "51fb51fffd914071a229e0b23ebe5e0333b3159aff28c2c6d47459184378e7e8",
+          "research\\irt\\synthetic.py": "739f432ad1c9145ccce32ab4fa6ba4a0a7baff74a63b394a898fb5208bdcc8a4",
+          "research\\irt\\policy-v1.json": "6379b4245c724e04a9de436f049ef87da2c1688790e908f4f36d6d54e243a29d",
+          "numora_service\\irt\\gates.py": "904a375d93c616b4adeb5d7a4acc820ed0e76b106918964f083327c67f30d0d4",
+          "numora_service\\irt\\producer.py": "181e1271314080354ad02b8d009995447d4f890064beb8a9b8b8c576508f4797",
+          "numora_service\\irt\\math.py": "bbff0ad90b2a167e7d22156b8b659c5cee09239b1dd094b9bdfba06ae2db1076"
+        },
+        "inputSha256": "ea6114972c9784e9cbf275d17ec171a208d8b88e26d7f9b04ffc055484761e7a",
+        "perArm": 2000,
+        "seed": 20261119,
+        "injectedDifficultyShift": 1.3
+      },
+      "measurementState": "INSUFFICIENT",
+      "participantStatuses": {
+        "INSUFFICIENT": 4000
+      },
+      "converged": true,
+      "anchorGate": {
+        "passed": false,
+        "scope": "ALL_FITTED_ARMS",
+        "identityValid": true,
+        "checks": {
+          "10000000-0000-4000-8000-000000000064": {
+            "passed": false,
+            "reasons": [
+              "HOLM_SIGNIFICANT",
+              "STEP_DIFFERENCE"
+            ]
+          },
+          "10000000-0000-4000-8000-000000000065": {
+            "passed": false,
+            "reasons": [
+              "HOLM_SIGNIFICANT",
+              "STEP_DIFFERENCE"
+            ]
+          },
+          "10000000-0000-4000-8000-000000000066": {
+            "passed": false,
+            "reasons": [
+              "HOLM_SIGNIFICANT",
+              "STEP_DIFFERENCE"
+            ]
+          },
+          "10000000-0000-4000-8000-000000000067": {
+            "passed": false,
+            "reasons": [
+              "HOLM_SIGNIFICANT",
+              "LOG_SLOPE_DIFFERENCE",
+              "STEP_DIFFERENCE"
+            ]
+          },
+          "10000000-0000-4000-8000-000000000068": {
+            "passed": false,
+            "reasons": [
+              "HOLM_SIGNIFICANT",
+              "STEP_DIFFERENCE"
+            ]
+          }
+        }
+      },
+      "anchors": {
+        "10000000-0000-4000-8000-000000000064": {
+          "evaluated": true,
+          "p": 0,
+          "maximumLogSlopeDifference": 0.017841397550698506,
+          "maximumStepDifference": 1.4752433279755126,
+          "holmP": 0
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "evaluated": true,
+          "p": 0,
+          "maximumLogSlopeDifference": 0.020301778346595727,
+          "maximumStepDifference": 0.6912717461585087,
+          "holmP": 0
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "evaluated": true,
+          "p": 0,
+          "maximumLogSlopeDifference": 0.1604842628634225,
+          "maximumStepDifference": 0.8292866987858404,
+          "holmP": 0
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "evaluated": true,
+          "p": 0,
+          "maximumLogSlopeDifference": 0.21646043257949296,
+          "maximumStepDifference": 0.9398971089037113,
+          "holmP": 0
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "evaluated": true,
+          "p": 0,
+          "maximumLogSlopeDifference": 0.17901255168666852,
+          "maximumStepDifference": 0.7782002779685234,
+          "holmP": 0
+        }
+      }
+    }
+  ]
+}
