@@ -273,4 +273,17 @@ try {
         with psycopg.connect(URL) as db:self.assertEqual(db.execute('SELECT count(*) FROM irt_compute.calibration_artifacts_v1 WHERE job_id=%s',(job['id'],)).fetchone()[0],0)
 
 
+    def test_14_tampered_and_immutable_artifacts_are_rejected(self):
+        n,_=self.fixture();self.repo.accept(n)
+        job,source,notification=self.repo.claim_next()
+        from numora_service.irt.producer import run
+        result,diagnostics=run(source['payload'],{'executionId':str(job['execution_id']),'dispatchGeneration':job['generation']},lambda _:self.fail('Insufficient data'))
+        altered=deepcopy(result);altered['inputDigest']='f'*64
+        with psycopg.connect(self.urls['compute']) as db:
+            with self.assertRaises(psycopg.Error):db.execute("INSERT INTO irt_compute.calibration_artifacts_v1(job_id,payload,diagnostics,digest) VALUES(%s,%s,%s,'')",(job['id'],Jsonb(altered),Jsonb(diagnostics)))
+        status=self.repo.persist(job,source,notification,result,diagnostics)
+        with psycopg.connect(URL) as db:
+            with self.assertRaises(psycopg.errors.CheckViolation):db.execute('UPDATE irt_compute.calibration_artifacts_v1 SET payload=payload WHERE id=%s',(status['artifactId'],))
+
+
 if __name__=='__main__':unittest.main()
