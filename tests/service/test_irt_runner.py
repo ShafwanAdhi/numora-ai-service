@@ -36,3 +36,19 @@ class RunnerTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'STALE_EXECUTION'):
                 run({},heartbeat=revoked,image=os.environ['IRT_RESEARCH_TEST_IMAGE'])
         self.removed(identifier)
+
+
+class CleanupFailureTests(unittest.TestCase):
+    def test_cleanup_timeout_preserves_primary_timeout(self):
+        from unittest.mock import Mock
+        process=Mock();process.poll.return_value=None
+        with patch('numora_service.irt.runner.subprocess.run',side_effect=[subprocess.CompletedProcess([],0),subprocess.TimeoutExpired('docker rm',20)]), patch('numora_service.irt.runner.subprocess.Popen',return_value=process), patch('numora_service.irt.runner.time.monotonic',side_effect=[0,2]):
+            with self.assertRaisesRegex(ValueError,'TIMEOUT'):run({},image='sha256:'+'a'*64,timeout=1)
+        process.wait.assert_called_once()
+
+    def test_cleanup_timeout_preserves_revocation(self):
+        from unittest.mock import Mock
+        process=Mock();process.poll.return_value=None
+        def revoked():raise ValueError('STALE_EXECUTION')
+        with patch('numora_service.irt.runner.subprocess.run',side_effect=[subprocess.CompletedProcess([],0),subprocess.TimeoutExpired('docker rm',20)]), patch('numora_service.irt.runner.subprocess.Popen',return_value=process), patch('numora_service.irt.runner.time.monotonic',side_effect=[0,0]):
+            with self.assertRaisesRegex(ValueError,'STALE_EXECUTION'):run({},heartbeat=revoked,image='sha256:'+'a'*64)

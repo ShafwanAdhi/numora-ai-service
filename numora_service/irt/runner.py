@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+import sys
 import tempfile
 import time
 from uuid import uuid4
@@ -44,9 +45,19 @@ def run(work, heartbeat=lambda:None, image=None, timeout=900):
                 result=json.loads((folder/'output.json').read_text(encoding='utf-8'))
                 return result
             finally:
+                primary_failure=sys.exc_info()[0] is not None
+                cleanup_failed=False
                 try:
                     if created:subprocess.run(['docker','rm','-f',name],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=20,check=True)
+                except (subprocess.SubprocessError,OSError):
+                    cleanup_failed=True
                 finally:
                     if process is not None and process.poll() is None:
                         try:process.wait(timeout=20)
-                        except subprocess.TimeoutExpired:process.kill();process.wait(timeout=5)
+                        except subprocess.TimeoutExpired:
+                            try:
+                                process.kill();process.wait(timeout=5)
+                            except (subprocess.SubprocessError,OSError):cleanup_failed=True
+                # Preserve TIMEOUT/stale authorization so cleanup failure cannot
+                # silently turn a retryable failure into INTERNAL_ERROR.
+                if cleanup_failed and not primary_failure:raise ValueError('DEPENDENCY_UNAVAILABLE')
