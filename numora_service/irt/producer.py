@@ -45,8 +45,12 @@ def run(value, dispatch, runner, profile=None):
     for aid in attempts:
         arm_people[people[aid]['deliveredArmId']].add(aid)
     eligible_arms = {arm for arm,ids in arm_people.items() if len(ids)>=quality['minimumArmCount']}
+    fit_candidates=[r for r in included if people[r['attemptId']]['deliveredArmId'] in eligible_arms]
+    fit_candidate_counts=Counter(r['questionVersionId'] for r in fit_candidates)
+    fit_categories=defaultdict(Counter)
+    for r in fit_candidates:fit_categories[r['questionVersionId']][r['scoreCategory']]+=1
     active = [qid for qid,item in items.items() if item['contentState']=='CONTENT_VALID'
-              and counts[qid]>=quality['minimumItemCount'] and all(categories[qid][k]>=quality['minimumCategoryCount']
+              and fit_candidate_counts[qid]>=quality['minimumItemCount'] and all(fit_categories[qid][k]>=quality['minimumCategoryCount']
               for k in range(item['maximumScoreCategory']+1))]
     original = next(p for p in value['packages'] if p['armKind']=='ORIGINAL')
     good = original['armId'] in eligible_arms and set(value['anchorQuestionVersionIds'])<=set(active)
@@ -68,7 +72,7 @@ def run(value, dispatch, runner, profile=None):
     parameters, results = {}, []
     for qid,item in items.items():
         checks = [check('CONTENT_VALID',item['contentState']=='CONTENT_VALID'),
-                  check('MINIMUM_ITEM_COUNT',counts[qid]>=quality['minimumItemCount'],counts[qid]),
+                  check('MINIMUM_ITEM_COUNT',fit_candidate_counts[qid]>=quality['minimumItemCount'],fit_candidate_counts[qid]),
                   check('CATEGORY_COVERAGE',qid in active)]
         reasons = []
         if item['contentState']!='CONTENT_VALID': reasons.append('CONTENT_INVALID')
@@ -84,9 +88,11 @@ def run(value, dispatch, runner, profile=None):
                 steps, errors = convert(a,estimate['intercepts'],covariance)
                 ase = math.sqrt(covariance[0][0])
                 grid = estimate['probabilityGrid']
+                if len(grid)!=17 or len(steps)!=item['maximumScoreCategory']:
+                    raise ValueError('PARAMETERIZATION_MISMATCH')
                 for i,theta in enumerate([-4+0.5*j for j in range(17)]):
                     predicted = probabilities(theta,a,steps)
-                    if max(abs(x-y) for x,y in zip(predicted,grid[i]))>1e-8:
+                    if len(grid[i])!=len(predicted) or any(not math.isfinite(x) for x in grid[i]) or max(abs(x-y) for x,y in zip(predicted,grid[i]))>1e-8:
                         raise ValueError('PARAMETERIZATION_MISMATCH')
                 precision = ase<=quality['maximumDiscriminationSE'] and max(errors)<=quality['maximumDifficultySE']
                 checks.append(check('ITEM_PRECISION',precision,max([ase]+errors)))
@@ -113,6 +119,7 @@ def run(value, dispatch, runner, profile=None):
     anchors_calibrated = all(q in parameters for q in value['anchorQuestionVersionIds'])
     anchor_evidence = scientific.get('anchors',{})
     anchor_ok = len(anchor_evidence)==5 and all(a.get('evaluated') and
+         a.get('holmP') is not None and a['holmP']>=quality['fitAlpha'] and
          a.get('maximumLogSlopeDifference',math.inf)<=quality['anchorLogSlopeTolerance'] and
          a.get('maximumStepDifference',math.inf)<=quality['anchorDifficultyTolerance'] for a in anchor_evidence.values())
     package_results = []
