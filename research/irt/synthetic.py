@@ -11,11 +11,26 @@ from uuid import UUID, uuid5
 NAMESPACE=UUID('58d45273-1a7f-456f-9ea4-d330e4222603')
 
 
-def generate(n=1000, seed=20261109, model='MIXED', arms=2):
+def generate(n=1000, seed=20261109, model='MIXED', arms=2, include_mcma=False):
     if arms not in (2,3):raise ValueError('Synthetic design supports two or three arms')
     root=Path(__file__).resolve().parents[2]
     value=json.loads((root/'contracts/irt-calibration-v1/examples/tryout-input.json').read_text())
     value['comparisons']=[];value['policies']['comparison']=None
+    if include_mcma:
+        if model!='MIXED':raise ValueError('MCMA fixture requires MIXED model')
+        family=value['items'][5]['familyId']
+        replacements={item['questionVersionId']:str(uuid5(NAMESPACE,'mcma:'+item['questionVersionId']))
+                      for item in value['items'] if item['familyId']==family}
+        for item in value['items']:
+            if item['familyId']==family:
+                item['originalQuestionVersionId']=replacements[item['originalQuestionVersionId']]
+                item['questionVersionId']=replacements[item['questionVersionId']]
+                item['rubricVersionId']=str(uuid5(NAMESPACE,'mcma:'+item['rubricVersionId']))
+                item['contentDigest']=hashlib.sha256(item['questionVersionId'].encode()).hexdigest()
+                item.update(questionType='MULTIPLE_CHOICE_MULTIPLE_ANSWER',modelFamily='GPCM',maximumScoreCategory=4,maxPoints='3.00')
+        for package in value['packages']:
+            package['questionVersionIds']=[replacements.get(q,q) for q in package['questionVersionIds']]
+        value['referenceQuestionVersionIds']=[replacements.get(q,q) for q in value['referenceQuestionVersionIds']]
     if arms==3:
         package=deepcopy(value['packages'][1]);package['packageId']=str(uuid5(NAMESPACE,'package:third'))
         package['armId']=str(uuid5(NAMESPACE,'arm:third'))

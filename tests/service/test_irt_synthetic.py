@@ -4,6 +4,12 @@ from numora_service.irt_contracts import validate_input
 
 
 class SyntheticTests(unittest.TestCase):
+    def test_explicit_delivery_fixture_covers_mcma_without_changing_default_design(self):
+        value,_=generate(2,arms=3,include_mcma=True)
+        validate_input(value)
+        self.assertEqual({i['questionType'] for i in value['items']},{'SINGLE_CHOICE','MULTIPLE_CHOICE_MULTIPLE_ANSWER','CATEGORY'})
+        self.assertFalse(any(i['questionType']=='MULTIPLE_CHOICE_MULTIPLE_ANSWER' for i in generate(2)[0]['items']))
+
     def test_designs_are_valid_and_reproducible(self):
         for model in ['2PL','GPCM','MIXED']:
             value,truth=generate(4,model=model)

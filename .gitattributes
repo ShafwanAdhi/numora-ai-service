@@ -10,6 +10,7 @@ docs/AI_IRT_V2_CONTEXT.md text eol=lf
 docs/TRYOUT_IRT_DELIVERY_CONTEXT.md text eol=lf
 docs/sources/admin-delivery-2026-11-10/README.md text eol=lf
 docs/sources/admin-delivery-2026-11-10/ADMIN_*.md -text
+tests/fixtures/irt-delivery-v1/** text eol=lf
 research/irt-runtime-*.json text eol=lf
 research/irt-linux-image-*.json text eol=lf
 research/irt-python-linux.lock text eol=lf
