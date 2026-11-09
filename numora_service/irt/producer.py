@@ -66,6 +66,8 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
                 'groups':[people[aid]['deliveredArmId'] for aid in aids], 'groupOrder':groups,
                 'anchors':value['anchorQuestionVersionIds']}
         scientific = runner(work)
+        if scientific.get('engineError'):
+            raise ValueError('INTERNAL_ERROR')
     scientific['selection'] = {'eligiblePerArm':{arm:len(ids) for arm,ids in arm_people.items()},
         'fittedPerArm':{arm:len(ids) if good and arm in eligible_arms else 0 for arm,ids in arm_people.items()},
         'eligiblePerItem':dict(counts),'fittedPerItem':dict(fit_counts)}
