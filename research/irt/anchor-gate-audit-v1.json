@@ -1,0 +1,941 @@
+{
+  "purpose": "RESEARCH_ONLY",
+  "policyVersion": "tryout-irt-research-v1",
+  "policySha256": "6379b4245c724e04a9de436f049ef87da2c1688790e908f4f36d6d54e243a29d",
+  "image": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+  "design": "MIXED_2PL_GPCM_2_ARMS_1000_PER_ARM_NO_INJECTED_DIF",
+  "replications": 30,
+  "heldReplications": 20,
+  "holdRate": 0.6666666666666666,
+  "holdRateWilson95": [
+    0.4878005164454384,
+    0.8076950191632386
+  ],
+  "anchorHoldReasons": {
+    "STEP_DIFFERENCE": 17,
+    "LOG_SLOPE_DIFFERENCE": 18
+  },
+  "experimentModes": {
+    "CONTRACT_PRODUCER": 4,
+    "NUMERICAL_RECOVERY_ONLY": 26
+  },
+  "observedParticipantStatuses": {
+    "NOT_COMPARABLE": 6000,
+    "INSUFFICIENT": 2000
+  },
+  "policyChanged": false,
+  "productionApproved": false,
+  "interpretation": "High baseline hold rate requires review. Nonsignificance does not prove equivalence. No threshold tuning or approval follows from this audit.",
+  "remainingScientificWork": [
+    "Measure sample-size sensitivity and uncertainty of released-anchor effects.",
+    "Measure false holds and DIF detection together before proposing a versioned replacement policy.",
+    "Per-arm containment needs a trusted-reference/refitting design; do not score a potentially contaminated joint fit."
+  ],
+  "replicationEvidence": [
+    {
+      "file": "replication-01.json",
+      "sha256": "025f94a8dab5d1572686ab44dafec1bb9583df8f71e0bc3e01c2a40289a27028",
+      "seed": 20261109,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-02.json",
+      "sha256": "9f03e6b645cf70615baf2c06837d7dffddaa58ae72704375b3c34570218a2041",
+      "seed": 20261110,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-03.json",
+      "sha256": "f71b3d4d6fb4c9b9499abfbfe23c55f0ff6b2dfed6bd4b390dfea99eca4981c7",
+      "seed": 20261111,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE",
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-04.json",
+      "sha256": "3861f2375dcad90908b2fbdf2948978193727a7969bfcde69e87430feaccaa93",
+      "seed": 20261112,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-05.json",
+      "sha256": "8ec9ad1475b5b59e2565c42e81b6eae1aa228ac73ce0a6afaf7cfbb004da5d8f",
+      "seed": 20261113,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE",
+            "STEP_DIFFERENCE"
+          ]
+        }
+      }
+    },
+    {
+      "file": "replication-06.json",
+      "sha256": "98a5d8b5adab512e3119425273af9bd22d07f1f5a2c4a7438bc4a7735c82689c",
+      "seed": 20261114,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-07.json",
+      "sha256": "d7f768971c9c567adac3df209f31c5aeb75c6b20905717272f8c97230ed7d44b",
+      "seed": 20261115,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        }
+      }
+    },
+    {
+      "file": "replication-08.json",
+      "sha256": "1eae26c9035d82512b6f4011a448aa9c996dafde5f98d2c670bdaf7d8906240e",
+      "seed": 20261116,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-09.json",
+      "sha256": "204b908f66263dcd543509dd6e9500eec62ba759fc55dea03a115b6373be7322",
+      "seed": 20261117,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-10.json",
+      "sha256": "2a75a6241bfbfc3b8c365c9b7f6b76f71be744de9fcaa4af8e1a7cd336c431b8",
+      "seed": 20261118,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-11.json",
+      "sha256": "af8e6209608b9a17e1db61ff30c83bc780d7897716da734d050c23a06f7fe4fa",
+      "seed": 20261119,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-12.json",
+      "sha256": "ac5af760cc2806711370ba68870e89c34acdb32815b24009a8a516e2a4c2d628",
+      "seed": 20261120,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-13.json",
+      "sha256": "122cc337f4eb5589296fc3b199ad6d396cb4a3a359d25b290170ada4debb91e1",
+      "seed": 20261121,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-14.json",
+      "sha256": "32b018b3bac96aeac605750b952d0d50992ae8ea6899d0fde152ecf0dab3760e",
+      "seed": 20261122,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-15.json",
+      "sha256": "814e25bf8fcd127efedc0681ae623cb4c5b94fcdd50046a31aee262f841b9402",
+      "seed": 20261123,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-16.json",
+      "sha256": "c9c1c70b98981ff62e0fc921273d4298b330f3d93fa85e17a85f02d2da48f00d",
+      "seed": 20261124,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE",
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-17.json",
+      "sha256": "bd84dc295dc8ab280b10e4a300f4c3b1d0b152224268d14a3515ed5f917c8e95",
+      "seed": 20261125,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        }
+      }
+    },
+    {
+      "file": "replication-18.json",
+      "sha256": "f63755bb69be56cc4eba74f4a57e83fba171e17793e0826e7598d64b6d95bd5a",
+      "seed": 20261126,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-19.json",
+      "sha256": "a175adc2927c14579f164ebee7d831c96ce8749a20604224c522f4ada3453269",
+      "seed": 20261127,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-20.json",
+      "sha256": "a4d86cee8d1ec4096aca3f2c0b9cb83a7341138b49e7cfbd2ecb59e2aaf6c59a",
+      "seed": 20261128,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        }
+      }
+    },
+    {
+      "file": "replication-21.json",
+      "sha256": "bb1922c8780caaa60a318b23897f59ea9bc6a3f2b2a439f9f6f587b74485aa6a",
+      "seed": 20261129,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        }
+      }
+    },
+    {
+      "file": "replication-22.json",
+      "sha256": "488f7147d7a5bc3b1a3db1104025ee00928f27c6d44496f32a8d2d7c2f5c8e3a",
+      "seed": 20261130,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-23.json",
+      "sha256": "e70b9079a46e8090694974a671185deadb20fb981fd541b19e1dcd5f82f2cf93",
+      "seed": 20261131,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-24.json",
+      "sha256": "848354f2f88bd230a85aba2404677f3f9dbaca4a067f5d089190cfb42afa92a9",
+      "seed": 20261132,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-25.json",
+      "sha256": "a4726edfcefaa811808dddbddbedddf515a728b2a880a557a6edf64240c1c2b9",
+      "seed": 20261133,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-26.json",
+      "sha256": "e1b880c9f7df0b44d2bd4383499dce7afc3ed1d99c2f6bb936413d49d2fb0134",
+      "seed": 20261134,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-27.json",
+      "sha256": "b6c99b114b8cbe6e50ec68cf07136614959a6b08b248216cd3ef41789c9bc0c8",
+      "seed": 20261135,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE",
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": false,
+          "reasons": [
+            "LOG_SLOPE_DIFFERENCE",
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-28.json",
+      "sha256": "be95f02754fde87bbdff9c7ddb45ac796b32eedcc601d2e0d9f5833171f81549",
+      "seed": 20261136,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-29.json",
+      "sha256": "7ee2bdfbc680da78505d42dfda01585023da742550c8de35f5c02cdb76c89034",
+      "seed": 20261137,
+      "held": true,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": false,
+          "reasons": [
+            "STEP_DIFFERENCE"
+          ]
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    },
+    {
+      "file": "replication-30.json",
+      "sha256": "edfd7847378e3436cee26dc7bd2001842f296453a46c28e95b10a9dff0f1c99c",
+      "seed": 20261138,
+      "held": false,
+      "checks": {
+        "10000000-0000-4000-8000-000000000064": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000067": {
+          "passed": true,
+          "reasons": []
+        },
+        "10000000-0000-4000-8000-000000000068": {
+          "passed": true,
+          "reasons": []
+        }
+      }
+    }
+  ]
+}
