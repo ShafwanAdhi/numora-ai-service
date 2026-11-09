@@ -3,6 +3,8 @@
 
 # Shared IRT contracts and handoff must retain byte parity across operating systems.
 contracts/irt-calibration-v1/** text eol=lf
+contracts/irt-calibration-service-v1/** text eol=lf
+docs/IRT_AI_HANDOFF.md text eol=lf
 docs/IRT_CALIBRATION_CONTRACT_V1.md text eol=lf
 docs/AI_IRT_V2_CONTEXT.md text eol=lf
 research/irt-runtime-*.json text eol=lf
