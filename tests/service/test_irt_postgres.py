@@ -315,5 +315,57 @@ try {
         with psycopg.connect(URL) as db:
             with self.assertRaises(psycopg.errors.CheckViolation):db.execute('UPDATE irt_compute.calibration_artifacts_v1 SET payload=payload WHERE id=%s',(status['artifactId'],))
 
+    def test_15_engine_failure_artifact_preserves_safe_diagnostics(self):
+        from numora_service.irt.failures import EngineExecutionError
+        n,_=self.fixture();self.repo.accept(n)
+        error=EngineExecutionError({'engineError':'private participant text',
+            'engineStage':'COVARIANCE','scientificFailure':'MODEL_CONVERGENCE_FAILED'})
+        with patch('numora_service.irt.daemon.run',side_effect=error):
+            self.assertTrue(execute_once(self.repo))
+        status=self.repo.get(n)
+        self.assertEqual(status['status'],'FAILED')
+        with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
+            artifact=db.execute('SELECT payload,diagnostics FROM irt_compute.calibration_artifacts_v1 WHERE id=%s',(status['artifactId'],)).fetchone()
+        self.assertEqual(artifact['payload']['failure'],{'code':'INTERNAL_ERROR','retryable':False})
+        self.assertIsNone(artifact['payload']['outcome'])
+        self.assertEqual(artifact['diagnostics']['engineStage'],'COVARIANCE')
+        self.assertNotIn('private participant',json.dumps(artifact))
+
+    def test_16_scientific_faults_survive_transport_and_artifact_validation(self):
+        from research.irt.synthetic import generate
+        from tests.service.irt_scientific_fixture import scientific_fixture
+        value,_=generate(500)
+        for scenario in ['NONCONVERGENCE','COVARIANCE','MISSING_FIT','DEPENDENCE','LINKING']:
+            with self.subTest(scenario=scenario):
+                n,_=self.fixture(value)
+                client=TestClient(create_app(self.settings,self.repo),raise_server_exceptions=False)
+                auth={'Authorization':'Bearer '+self.settings.token}
+                self.assertEqual(client.post('/api/v1/irt/compute/execute',headers=auth,json=n).status_code,202)
+                def runner(work,**kwargs):
+                    output=scientific_fixture(work)
+                    if scenario=='NONCONVERGENCE':output['converged']=False
+                    elif scenario=='COVARIANCE':
+                        for estimate in output['estimates'].values():
+                            size=len(estimate['covariance']);estimate['covariance']=[[0.]*size for _ in range(size)]
+                    elif scenario in ['MISSING_FIT','DEPENDENCE']:
+                        for fit in output['fit'].values():fit['adjustedQ3']=None if scenario=='MISSING_FIT' else .8
+                    else:output['anchors'][work['anchors'][0]]['maximumStepDifference']=1.3
+                    return output
+                self.assertTrue(execute_once(self.repo,runner))
+                status=self.repo.get(n)
+                self.assertEqual(status['status'],'SUCCEEDED')
+                with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
+                    artifact=db.execute('SELECT payload,diagnostics FROM irt_compute.calibration_artifacts_v1 WHERE id=%s',(status['artifactId'],)).fetchone()
+                outcome=artifact['payload']['outcome']
+                self.assertEqual(outcome['measurementState'],'NOT_COMPARABLE' if scenario=='LINKING' else 'INSUFFICIENT')
+                self.assertEqual(len(outcome['respondents']),1000)
+                self.assertTrue(all(r['score'] is None and r['theta'] is None for r in outcome['respondents']))
+                self.assertEqual(outcome['comparisons'],[])
+                if scenario=='LINKING':
+                    self.assertFalse(artifact['diagnostics']['anchorGate']['passed'])
+                if scenario=='COVARIANCE':
+                    self.assertEqual(set(artifact['diagnostics']['parameterFailures'].values()),{'INVALID_COVARIANCE'})
+                self.assertEqual(self.repo.accept(n)['artifactId'],status['artifactId'])
+
 
 if __name__=='__main__':unittest.main()
