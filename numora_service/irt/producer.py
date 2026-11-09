@@ -28,7 +28,7 @@ def run(value, dispatch, runner, profile=None):
         raise ValueError('POLICY_UNAVAILABLE')
     if value['ecosystem'] != 'TRYOUT' or value['comparisons']:
         raise ValueError('UNSUPPORTED_CONTRACT')
-    if len(value['respondents']) > profile['runtime']['maximumRespondents'] or len(value['packages']) > 3:
+    if len(value['respondents']) > profile['runtime']['maximumRespondents'] or len(value['packages']) > profile['runtime']['maximumArms']:
         raise ValueError('INVALID_INPUT')
     quality = profile['quality']
     people = {p['attemptId']:p for p in value['respondents']}
@@ -51,14 +51,19 @@ def run(value, dispatch, runner, profile=None):
     original = next(p for p in value['packages'] if p['armKind']=='ORIGINAL')
     good = original['armId'] in eligible_arms and set(value['anchorQuestionVersionIds'])<=set(active)
     scientific = {'converged':False,'estimates':{},'fit':{},'anchors':{}}
+    fit_counts = Counter()
     if good:
         groups = [original['armId']] + sorted(eligible_arms-{original['armId']})
         aids = sorted(aid for aid in attempts if people[aid]['deliveredArmId'] in eligible_arms)
+        fit_counts.update(qid for aid in aids for qid in attempts[aid] if qid in active)
         work = {'policy':profile,'items':[items[qid] for qid in active],
                 'matrix':[[attempts[aid].get(qid) for qid in active] for aid in aids],
                 'groups':[people[aid]['deliveredArmId'] for aid in aids], 'groupOrder':groups,
                 'anchors':value['anchorQuestionVersionIds']}
         scientific = runner(work)
+    scientific['selection'] = {'eligiblePerArm':{arm:len(ids) for arm,ids in arm_people.items()},
+        'fittedPerArm':{arm:len(ids) if good and arm in eligible_arms else 0 for arm,ids in arm_people.items()},
+        'eligiblePerItem':dict(counts),'fittedPerItem':dict(fit_counts)}
     estimates = scientific.get('estimates',{})
     parameters, results = {}, []
     for qid,item in items.items():
@@ -87,8 +92,8 @@ def run(value, dispatch, runner, profile=None):
                 checks.append(check('ITEM_PRECISION',precision,max([ase]+errors)))
                 if not precision: reasons.append('LOW_PRECISION')
                 evidence = [d for d in scientific['fit'].values() if d['questionVersionId']==qid]
-                fit_ok = bool(evidence) and all(d['sx2AdjustedP'] is not None and d['sx2AdjustedP']>=quality['fitAlpha'] for d in evidence)
-                dependence_ok = bool(evidence) and all(d['adjustedQ3'] is not None and d['adjustedQ3']<=quality['maximumAdjustedQ3'] for d in evidence)
+                fit_ok = None if not evidence or any(d['sx2AdjustedP'] is None for d in evidence) else all(d['sx2AdjustedP']>=quality['fitAlpha'] for d in evidence)
+                dependence_ok = None if not evidence or any(d['adjustedQ3'] is None for d in evidence) else all(d['adjustedQ3']<=quality['maximumAdjustedQ3'] for d in evidence)
                 checks += [check('SX2_HOLM',fit_ok),check('LOCAL_DEPENDENCE_Q3',dependence_ok)]
                 if not fit_ok: reasons.append('MODEL_FIT_FAILED')
                 if not dependence_ok: reasons.append('LOCAL_DEPENDENCE')
@@ -114,12 +119,12 @@ def run(value, dispatch, runner, profile=None):
     for package in value['packages']:
         sample_ok = package['armId'] in eligible_arms
         coverage = sum(q in parameters for q in package['questionVersionIds'])
-        passed = sample_ok and anchors_calibrated and anchor_ok and coverage>=24
+        passed = sample_ok and anchors_calibrated and anchor_ok and coverage>=profile['respondent']['minimumValidItems']
         state = 'CALIBRATED' if passed else 'NOT_COMPARABLE' if sample_ok and anchors_calibrated and not anchor_ok else 'INSUFFICIENT'
         package_results.append({k:package[k] for k in ['packageId','packageVersion']}
             | {'measurementState':state,'quality':{'gate':'PASSED' if passed else 'FAILED','checks':[
                 check('MINIMUM_ARM_COUNT',sample_ok,len(arm_people[package['armId']])),
-                check('ANCHOR_CALIBRATION',anchors_calibrated),check('ANCHOR_SENSITIVITY',anchor_ok),check('VALID_ITEM_COVERAGE',coverage>=24,coverage)]},
+                check('ANCHOR_CALIBRATION',anchors_calibrated),check('ANCHOR_SENSITIVITY',anchor_ok),check('VALID_ITEM_COVERAGE',coverage>=profile['respondent']['minimumValidItems'],coverage)]},
                'reasonCodes':[] if passed else ['ANCHOR_UNSTABLE'] if state=='NOT_COMPARABLE' else ['INSUFFICIENT_SAMPLE']})
     states = {(p['packageId'],p['packageVersion']):p['measurementState'] for p in package_results}
     respondents = []
@@ -138,7 +143,7 @@ def run(value, dispatch, runner, profile=None):
         reason = 'NO_VALID_ITEMS' if status=='UNSCORABLE' else 'LINKING_FAILED' if status=='NOT_COMPARABLE' else 'INSUFFICIENT_SAMPLE'
         row = {k:person[k] for k in ['respondentId','attemptId','packageId','packageVersion','batchId']}
         row.update(status=status,theta=None,standardError=None,score=None,scoreMapping=None,referencePackage=None,usedQuestionVersionIds=[],reasonCodes=[reason])
-        if package_state=='CALIBRATED' and value['policies']['scoreMapping'] and reference and all(i['questionVersionId'] in parameters for i in reference) and len(observations)>=24:
+        if package_state=='CALIBRATED' and value['policies']['scoreMapping'] and reference and all(i['questionVersionId'] in parameters for i in reference) and len(observations)>=profile['respondent']['minimumValidItems']:
             theta,se = eap(observations,parameters,points=241)
             if se<=profile['respondent']['maximumPosteriorSD']:
                 row.update(status='SCORED',theta=theta,standardError=se,score=reference_score(theta,reference,parameters),

@@ -60,9 +60,12 @@ class Repository(GeneratorRepository):
     def claim_next(self):
         with self.connection() as db:
             self.check_role(db)
+            # Serialize claim decisions across daemon processes; concurrency=1 is durable.
+            if not db.execute('SELECT pg_try_advisory_xact_lock(20261109,1) AS locked').fetchone()['locked']:
+                return None
             # Expired work never silently reruns the same generation.
             db.execute("UPDATE irt_compute.calibration_jobs_v1 SET status='EXPIRED',failure_code='LEASE_EXPIRED',finished_at=clock_timestamp() WHERE status='RUNNING' AND lease_expires_at<=clock_timestamp()")
-            row=db.execute("SELECT j.*,s.input_digest FROM irt_compute.calibration_jobs_v1 j JOIN public.irt_calibration_inputs_v1 s ON s.id=j.request_id WHERE j.status='ACCEPTED' AND NOT s.cancelled AND s.approvals_valid AND j.generation=s.current_generation ORDER BY j.created_at,j.id FOR UPDATE OF j SKIP LOCKED LIMIT 1").fetchone()
+            row=db.execute("SELECT j.*,s.input_digest FROM irt_compute.calibration_jobs_v1 j JOIN public.irt_calibration_inputs_v1 s ON s.id=j.request_id WHERE j.status='ACCEPTED' AND NOT EXISTS(SELECT 1 FROM irt_compute.calibration_jobs_v1 WHERE status='RUNNING') AND NOT s.cancelled AND s.approvals_valid AND j.generation=s.current_generation ORDER BY j.created_at,j.id FOR UPDATE OF j SKIP LOCKED LIMIT 1").fetchone()
             if not row:return None
             notification={'contractVersion':3,'requestId':str(row['request_id']),'inputDigest':row['input_digest'],'dispatchGeneration':row['generation']}
             source=self.source(db,notification)
