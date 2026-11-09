@@ -121,7 +121,8 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
             'parameters':out,'quality':{'gate':'PASSED' if calibrated else 'FAILED','checks':checks},'reasonCodes':list(dict.fromkeys(reasons))})
     anchors_calibrated = all(q in parameters for q in value['anchorQuestionVersionIds'])
     anchor_evidence = scientific.get('anchors',{})
-    anchor_ok = len(anchor_evidence)==5 and all(a.get('evaluated') and
+    linking_required=len(eligible_arms)>1
+    anchor_ok = not linking_required or len(anchor_evidence)==5 and all(a.get('evaluated') and
          a.get('holmP') is not None and a['holmP']>=quality['fitAlpha'] and
          a.get('maximumLogSlopeDifference',math.inf)<=quality['anchorLogSlopeTolerance'] and
          a.get('maximumStepDifference',math.inf)<=quality['anchorDifficultyTolerance'] for a in anchor_evidence.values())
@@ -134,7 +135,7 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
         package_results.append({k:package[k] for k in ['packageId','packageVersion']}
             | {'measurementState':state,'quality':{'gate':'PASSED' if passed else 'FAILED','checks':[
                 check('MINIMUM_ARM_COUNT',sample_ok,len(arm_people[package['armId']])),
-                check('ANCHOR_CALIBRATION',anchors_calibrated),check('ANCHOR_SENSITIVITY',anchor_ok),check('VALID_ITEM_COVERAGE',coverage>=profile['respondent']['minimumValidItems'],coverage)]},
+                check('ANCHOR_CALIBRATION',anchors_calibrated),check('ANCHOR_SENSITIVITY' if linking_required else 'REFERENCE_SCALE_NO_LINK_REQUIRED',anchor_ok),check('VALID_ITEM_COVERAGE',coverage>=profile['respondent']['minimumValidItems'],coverage)]},
                'reasonCodes':[] if passed else ['ANCHOR_UNSTABLE'] if state=='NOT_COMPARABLE' else ['INSUFFICIENT_SAMPLE']})
     states = {(p['packageId'],p['packageVersion']):p['measurementState'] for p in package_results}
     respondents = []

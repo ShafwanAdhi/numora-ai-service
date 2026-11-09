@@ -12,6 +12,9 @@ groupLabels <- paste0('G',seq_along(groupIds))
 groups <- factor(groupLabels[match(unlist(input$groups),groupIds)],levels=groupLabels)
 types <- vapply(input$items,function(x) if(x$modelFamily=='2PL') '2PL' else 'gpcm','')
 fit <- function(invariance, se=TRUE) {
+  if(length(groupIds)==1) return(mirt(dat,1,itemtype=types,method='EM',
+    quadpts=policy$engine$quadrature,TOL=policy$engine$tolerance,
+    SE=se,SE.type='Oakes',verbose=FALSE,technical=list(NCYCLES=policy$engine$maxIterations)))
   multipleGroup(dat,1,group=groups,itemtype=types,
     invariance=c(invariance,'free_means','free_var'), method='EM',
     quadpts=policy$engine$quadrature, TOL=policy$engine$tolerance,
@@ -35,7 +38,7 @@ result <- tryCatch({
   for (g in seq_along(levels(groups))) {
     stage <- paste0('GROUP_',g)
     group <- levels(groups)[g]
-    gm <- extract.group(model,g)
+    gm <- if(length(groupIds)==1) model else extract.group(model,g)
     active <- which(colSums(!is.na(dat[groups==group,,drop=FALSE]))>0)
     # Rebuild a fixed-parameter model over administered columns only. This avoids
     # interpreting structural NA columns as omitted answers in S-X2 and Q3.
@@ -90,6 +93,10 @@ result <- tryCatch({
   stage <- 'ANCHOR_RELEASE'
   anchorChecks <- list()
   for(anchor in anchors) {
+    if(length(groupIds)==1) {
+      anchorChecks[[anchor]] <- list(evaluated=FALSE,reason='REFERENCE_ONLY_NO_LINK_REQUIRED')
+      next
+    }
     released <- tryCatch(fit(setdiff(colnames(dat),anchor),FALSE),error=function(e) NULL)
     if(is.null(released) || !isTRUE(extract.mirt(released,'converged'))) {
       anchorChecks[[anchor]] <- list(evaluated=FALSE)
