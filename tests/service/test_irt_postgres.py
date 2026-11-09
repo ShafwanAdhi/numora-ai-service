@@ -182,7 +182,7 @@ finally {await sql.end();}"""
         self.assertEqual(response.status_code,202,response.text)
         self.assertTrue(execute_once(self.repo))
         status=self.repo.get(n)
-        self.assertEqual(status['status'],'SUCCEEDED')
+        self.assertEqual(status['status'],'SUCCEEDED',status)
         with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
             artifact=db.execute('SELECT payload,diagnostics FROM irt_compute.calibration_artifacts_v1 WHERE id=%s',(status['artifactId'],)).fetchone()
         self.assertTrue(artifact['diagnostics']['converged'],artifact['diagnostics'])
