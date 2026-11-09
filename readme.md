@@ -1,10 +1,18 @@
 # Numora AI Service
 
+**Delivery dan IRT — 10 November 2026:**
+[acuan bersama dan strategi 24 jam](docs/TRYOUT_IRT_DELIVERY_CONTEXT.md)
+memuat sumber Admin terbaru. Mesin dan transport riset Tryout multi-arm sudah
+tersedia; [handoff runtime](docs/IRT_AI_HANDOFF.md) memuat pin dan bukti sintetis.
+Target berikutnya adalah boundary penggunaan nyata serta integrasi/adopsi/rilis
+di main, dengan IRT diutamakan dan fallback per arm diizinkan. Self-adjustment
+ditunda. Implementasi riset tidak menjadi approval atau aktivasi produksi.
+
 **Generator v2 — 9 November 2026:** [handoff stok/media dan mapping canonical](docs/GENERATOR_SERVICE_V2_HANDOFF.md). V2 melayani 1.094 generator numerik dan 86 keluarga konseptual/248 stok, termasuk 14 keluarga bergambar; kontrak v1 tetap tersedia. Fitur v2 nonaktif secara default. Bukti lokal tidak menggantikan approval Curriculum, rubrik SEALED, atau registrasi produksi.
 
-**Kontrak kalibrasi/hasil peserta — 8 November 2026:** [handoff `irt-calibration-v1`](docs/IRT_CALIBRATION_CONTRACT_V1.md) menyediakan input frozen, output parameter item/hasil Tryout, identitas dan status, dengan schema/contoh identik Numora serta validator JavaScript/Python. Import opt-in `numora_service.irt_contracts` hanya melakukan validasi; tidak mendaftarkan endpoint atau worker IRT. Scientific producer, policy approved, adapter/adopter dan finalizer masih diperlukan. Generator HTTP v1/compute v3 tetap digunakan tanpa perubahan.
+**Kontrak kalibrasi/hasil peserta — diperbarui 10 November 2026:** [handoff `irt-calibration-v1`](docs/IRT_CALIBRATION_CONTRACT_V1.md) menyediakan input frozen, output parameter item/hasil Tryout, identitas dan status, dengan schema/contoh identik Numora serta validator JavaScript/Python. Import opt-in `numora_service.irt_contracts` hanya melakukan validasi; endpoint/daemon riset berada pada `numora_service.irt`. Producer, transport dan adapter riset tersedia; policy approved untuk produksi, adopter canonical dan finalizer masih menjadi gap. Kontrak generator existing tetap digunakan.
 
-**Konteks terbaru — keputusan pemilik, 8 November 2026:** [arsitektur varian/IRT v2](docs/AI_IRT_V2_CONTEXT.md) menjadi acuan target yang diselaraskan dengan repo Numora: A/B Drill sejak awal, tiga konteks IRT, Tryout multi-arm dan adjustment hanya DRIFT. Dokumen memisahkan keputusan, OPEN dan gap implementasi. Kontrak service saat ini tetap [generator HTTP v1/compute v3](docs/handoffs/NUMORA_GENERATOR_INTEGRATION_V1.md); scientific engine IRT dan adjuster otomatis belum tersedia.
+**Konteks v2 — keputusan pemilik, 8 November 2026:** [arsitektur varian/IRT v2](docs/AI_IRT_V2_CONTEXT.md) menjadi acuan target yang diselaraskan dengan repo Numora: A/B Drill sejak awal, tiga konteks IRT, Tryout multi-arm dan adjustment hanya DRIFT. Dokumen memisahkan keputusan, OPEN dan gap implementasi. Mesin riset saat ini melayani Tryout; comparison PASS/DRIFT, IRT Drill dan adjuster otomatis belum tersedia. Prioritas terbaru mengikuti konteks delivery 10 November di atas.
 
 **Progres terkini:** Drill 1.150 original = 1.067 generator + 83 original konseptual berstok, 0 HOLD/unavailable. Tryout 30 = 27 generator + 3 berstok. [Rincian inventaris lokal](docs/PROGRESS.md). Ini bukan klaim approval Curriculum, PASS IRT atau dukungan seluruh item pada endpoint produksi. Pembaruan bertanggal lama di bawah dipertahankan sebagai snapshot historis.
 
@@ -56,9 +64,9 @@ Seluruh 80 original level 4-5 kini terlayani: **65 generator + 15 konseptual den
 
 [Laporan dan bukti validasi](docs/audits/2026-10-21-drill-16-19-level45-completion/README.md).
 
-Service terpisah untuk membuat dan meninjau varian soal Numora. Implementasi saat ini: generator deterministik berbasis config JSON, stok konseptual manual, CLI, workbench lokal, dan browser database read-only. Generasi tidak memanggil model AI/LLM. Komputasi IRT belum diimplementasikan di repo ini.
+Service terpisah untuk membuat dan meninjau varian soal Numora. Implementasi mencakup generator deterministik berbasis config JSON, stok konseptual manual, CLI, workbench lokal, browser database read-only dan mesin/transport riset IRT Tryout opt-in. Generasi tidak memanggil model AI/LLM. Penggunaan IRT produksi memerlukan approval dan integrasi main yang dijelaskan pada handoff terbaru.
 
-Numora menjalankan aplikasi utama pada VPS utama; repo ini ditujukan untuk VPS AI terpisah. Workbench merupakan alat operator di localhost, belum API produksi untuk aplikasi Numora.
+Numora menjalankan aplikasi utama pada VPS utama; repo ini ditujukan untuk VPS AI terpisah. Workbench merupakan alat operator di localhost. API generator dan IRT memiliki kontrak terpisah; ketersediaan kode bukan bukti deployment atau approval produksi.
 
 ## Pembaruan 20 Oktober 2026: level 4-5 indikator 1-5
 
