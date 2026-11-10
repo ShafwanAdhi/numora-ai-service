@@ -1,6 +1,6 @@
 name: numora-irt-research
 x-producer: &producer
-  image: ${IRT_PRODUCER_IMAGE:?Set immutable image ID from linux-v2 profile}
+  image: ${IRT_PRODUCER_IMAGE:?Set immutable image ID from linux-v3 profile}
   pull_policy: never
   profiles: [research]
   restart: unless-stopped
@@ -12,10 +12,10 @@ x-producer: &producer
   env_file: ${IRT_PRIVATE_ENV_FILE:?Absolute private environment file outside Git}
   environment: &runtime
     NUMORA_IRT_RESEARCH_ENABLED: ${NUMORA_IRT_RESEARCH_ENABLED:-false}
-    NUMORA_IRT_RUNTIME_PROFILE: linux-v2
+    NUMORA_IRT_RUNTIME_PROFILE: linux-v3
     NUMORA_IRT_PRODUCER_IMAGE: ${IRT_PRODUCER_IMAGE}
     NUMORA_IRT_WORKER_HEARTBEAT: /irt-health/worker.json
-  tmpfs: [/tmp:rw,nosuid,size=64m]
+  tmpfs: ["/tmp:rw,nosuid,size=64m"]
   logging:
     driver: json-file
     options: {max-size: 10m, max-file: "3"}
@@ -27,7 +27,7 @@ services:
     pids_limit: 64
     command: [python, -m, uvicorn, "numora_service.irt.api:create_app", --factory, --host, 127.0.0.1, --port, "18080", --no-access-log]
     volumes:
-      - ${IRT_RUNTIME_PROFILE_FILE:?Absolute linux-v2 profile}:/app/research/irt-runtime-linux-v2.json:ro
+      - ${IRT_RUNTIME_PROFILE_FILE:?Absolute linux-v3 profile}:/app/research/irt-runtime-linux-v3.json:ro
       - health:/irt-health:ro
     healthcheck:
       test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:18080/health/live',timeout=3)"]
@@ -47,7 +47,7 @@ services:
       NUMORA_IRT_WORK_ROOT: /irt-work
       NUMORA_IRT_WORK_VOLUME: numora-irt-research-work
     volumes:
-      - ${IRT_RUNTIME_PROFILE_FILE}:/app/research/irt-runtime-linux-v2.json:ro
+      - ${IRT_RUNTIME_PROFILE_FILE}:/app/research/irt-runtime-linux-v3.json:ro
       - /var/run/docker.sock:/var/run/docker.sock
       - work:/irt-work
       - health:/irt-health

@@ -1,0 +1,63 @@
+name: numora-irt-production
+x-producer: &producer
+  image: ${IRT_PRODUCER_IMAGE:?Set immutable image ID from linux-production-v1 profile}
+  pull_policy: never
+  profiles: [production]
+  restart: unless-stopped
+  read_only: true
+  init: true
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  network_mode: host
+  env_file: ${IRT_PRIVATE_ENV_FILE:?Absolute private environment file outside Git}
+  environment: &runtime
+    NUMORA_IRT_MODE: PRODUCTION
+    NUMORA_IRT_PRODUCTION_ENABLED: ${NUMORA_IRT_PRODUCTION_ENABLED:-false}
+    NUMORA_IRT_RESEARCH_ENABLED: "false"
+    NUMORA_IRT_RUNTIME_PROFILE: linux-production-v1
+    NUMORA_IRT_PRODUCER_IMAGE: ${IRT_PRODUCER_IMAGE}
+    NUMORA_IRT_WORKER_HEARTBEAT: /irt-health/worker.json
+  tmpfs: ["/tmp:rw,nosuid,size=64m"]
+  logging:
+    driver: json-file
+    options: {max-size: 10m, max-file: "3"}
+services:
+  api:
+    <<: *producer
+    cpus: 0.25
+    mem_limit: 256m
+    pids_limit: 64
+    command: [python, -m, uvicorn, "numora_service.irt.api:create_app", --factory, --host, 127.0.0.1, --port, "18081", --no-access-log]
+    volumes:
+      - ${IRT_RUNTIME_PROFILE_FILE:?Absolute linux-production-v1 profile}:/app/research/irt-runtime-linux-production-v1.json:ro
+      - health:/irt-health:ro
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:18081/health/live',timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+  worker:
+    <<: *producer
+    cpus: 0.5
+    mem_limit: 1g
+    pids_limit: 128
+    stop_grace_period: 90s
+    command: [python, -m, numora_service.irt.daemon]
+    group_add: ["${IRT_DOCKER_GID:?Host Docker socket group ID}"]
+    environment:
+      <<: *runtime
+      NUMORA_IRT_WORK_ROOT: /irt-work
+      NUMORA_IRT_WORK_VOLUME: numora-irt-production-work
+    volumes:
+      - ${IRT_RUNTIME_PROFILE_FILE}:/app/research/irt-runtime-linux-production-v1.json:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - work:/irt-work
+      - health:/irt-health
+    healthcheck:
+      test: [CMD, python, -c, "import json,time; from pathlib import Path; h=json.loads(Path('/irt-health/worker.json').read_text()); assert h['status']=='ready' and 0<=time.time()-h['at']<45"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+volumes:
+  work: {name: numora-irt-production-work}
+  health: {}
