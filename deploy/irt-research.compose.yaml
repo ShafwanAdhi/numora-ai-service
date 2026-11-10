@@ -1,0 +1,80 @@
+name: numora-irt-research
+x-producer: &producer
+  image: ${IRT_PRODUCER_IMAGE:?Set immutable image ID from linux-v2 profile}
+  pull_policy: never
+  profiles: [research]
+  restart: unless-stopped
+  read_only: true
+  init: true
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  network_mode: host
+  env_file: ${IRT_PRIVATE_ENV_FILE:?Absolute private environment file outside Git}
+  environment: &runtime
+    NUMORA_IRT_RESEARCH_ENABLED: ${NUMORA_IRT_RESEARCH_ENABLED:-false}
+    NUMORA_IRT_RUNTIME_PROFILE: linux-v2
+    NUMORA_IRT_PRODUCER_IMAGE: ${IRT_PRODUCER_IMAGE}
+    NUMORA_IRT_WORKER_HEARTBEAT: /irt-health/worker.json
+  tmpfs: [/tmp:rw,nosuid,size=64m]
+  logging:
+    driver: json-file
+    options: {max-size: 10m, max-file: "3"}
+services:
+  api:
+    <<: *producer
+    cpus: 0.25
+    mem_limit: 256m
+    pids_limit: 64
+    command: [python, -m, uvicorn, "numora_service.irt.api:create_app", --factory, --host, 127.0.0.1, --port, "18080", --no-access-log]
+    volumes:
+      - ${IRT_RUNTIME_PROFILE_FILE:?Absolute linux-v2 profile}:/app/research/irt-runtime-linux-v2.json:ro
+      - health:/irt-health:ro
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:18080/health/live',timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+  worker:
+    <<: *producer
+    cpus: 0.5
+    mem_limit: 1g
+    pids_limit: 128
+    stop_grace_period: 90s
+    command: [python, -m, numora_service.irt.daemon]
+    group_add: ["${IRT_DOCKER_GID:?Host Docker socket group ID}"]
+    environment:
+      <<: *runtime
+      NUMORA_IRT_WORK_ROOT: /irt-work
+      NUMORA_IRT_WORK_VOLUME: numora-irt-research-work
+    volumes:
+      - ${IRT_RUNTIME_PROFILE_FILE}:/app/research/irt-runtime-linux-v2.json:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - work:/irt-work
+      - health:/irt-health
+    healthcheck:
+      test: [CMD, python, -c, "import json,time; from pathlib import Path; h=json.loads(Path('/irt-health/worker.json').read_text()); assert h['status']=='ready' and 0<=time.time()-h['at']<45"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+  postgres:
+    image: postgres@sha256:f9a7b9ebf6f56201f949db745e47bc423c0f0f8294bafe991cc10bf74b029657
+    profiles: [research]
+    restart: unless-stopped
+    cpus: 0.5
+    mem_limit: 512m
+    pids_limit: 128
+    ports: ["127.0.0.1:55432:5432"]
+    env_file: ${IRT_POSTGRES_ENV_FILE:?Private disposable PostgreSQL environment file}
+    volumes: ["database:/var/lib/postgresql/data"]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: json-file
+      options: {max-size: 10m, max-file: "3"}
+volumes:
+  work: {name: numora-irt-research-work}
+  health: {}
+  database: {}

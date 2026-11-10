@@ -1,0 +1,92 @@
+{
+  "version": "irt-operations-acceptance-v1",
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "runtimeCheckpoint": "65ef225",
+  "manifest": "research/irt-linux-image-v3.json",
+  "linuxSmall": {
+    "status": "LOCAL_LINUX_VERIFIED",
+    "linuxRunnerFaults": "PASSED",
+    "ownedResourcesRemoved": true,
+    "containers": {
+      "api": {
+        "memoryLimitBytes": 268435456,
+        "cpuQuota": 2.0,
+        "oomKilled": false,
+        "readOnlyRoot": true
+      },
+      "producer": {
+        "memoryLimitBytes": 1073741824,
+        "cpuQuota": 2.0,
+        "oomKilled": false,
+        "readOnlyRoot": true
+      }
+    },
+    "cases": [
+      {
+        "label": "INSUFFICIENT",
+        "respondents": 4,
+        "arms": 2,
+        "ackSeconds": 0.0779999999795109,
+        "elapsedSeconds": 2.6719999999913853,
+        "executionStatus": "SUCCEEDED",
+        "measurementState": "INSUFFICIENT",
+        "participantStatuses": {
+          "INSUFFICIENT": 4
+        },
+        "canonicalSnapshot": true,
+        "mainVerified": true,
+        "selection": {
+          "fittedPerArm": {
+            "706f56d4-3743-405d-93ef-2e37d3470dff": 0,
+            "f174cec5-8748-4a1e-bf3b-0cfca1c4a16f": 0
+          },
+          "eligiblePerArm": {
+            "706f56d4-3743-405d-93ef-2e37d3470dff": 2,
+            "f174cec5-8748-4a1e-bf3b-0cfca1c4a16f": 2
+          }
+        },
+        "failure": null,
+        "artifactDigest": "264b4f8c5f6dbcbb834cd7b426893ef75cacb3fab5d4b6164959a2615149e40b",
+        "sameArtifactOnReplay": true
+      }
+    ]
+  },
+  "rawLinuxReportSha256": "2949f2b41b662b53d40db86a20f60160d0c7a220cad3ef0a55b520c993ba1d0d",
+  "unitTests": {
+    "status": "PASS",
+    "tests": 84,
+    "skipped": 21
+  },
+  "vps": {
+    "status": "BLOCKED_CAPACITY",
+    "measuredAt": "2026-11-10T12:48:19.079953+00:00",
+    "cpu": 2,
+    "totalMiB": 3915,
+    "availableMiB": 1615,
+    "swapUsedMiB": 1722,
+    "requiredCpu": 3.25,
+    "requiredMiB": 4352,
+    "R": "NOT_RUN",
+    "deployment": "NOT_RUN"
+  },
+  "compose": {
+    "schema": "PASS",
+    "runtimePerformance": "NOT_RUN",
+    "apiCpu": 0.25,
+    "workerCpu": 0.5
+  },
+  "shutdown": {
+    "stopWithoutClaim": "UNIT_PASS",
+    "interruptedExecutionNotSealed": "UNIT_PASS",
+    "RTimeoutAndCleanup": "LINUX_PASS",
+    "activeDaemonSignal": "NOT_RUN"
+  },
+  "blockers": [
+    "VPS_CAPACITY",
+    "PRODUCTION_POLICY_APPROVAL",
+    "SCIENTIFIC_ACCEPTANCE",
+    "PRIVATE_CONFIGURATION",
+    "OPERATOR_AND_ALERT_OWNER"
+  ]
+}
