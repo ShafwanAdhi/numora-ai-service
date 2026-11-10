@@ -2,6 +2,9 @@ from copy import deepcopy
 import json
 from pathlib import Path
 import unittest
+import subprocess
+import sys
+import tempfile
 from unittest.mock import patch
 from tools.verify_irt_linux import memory_mib,verify_sources
 
@@ -14,7 +17,7 @@ class LinuxHarnessTests(unittest.TestCase):
 
     def test_changed_image_or_profile_cannot_reuse_capacity_evidence(self):
         root=Path(__file__).resolve().parents[2]
-        manifest=json.loads((root/'research/irt-linux-image-v1.json').read_text())
+        manifest=json.loads((root/'research/irt-linux-image-v2.json').read_text())
         profile=json.loads((root/manifest['profile']).read_text())
         with patch('tools.verify_irt_linux.command',return_value=profile['producerImage']):
             verify_sources(manifest,profile)
@@ -24,3 +27,11 @@ class LinuxHarnessTests(unittest.TestCase):
         with patch('tools.verify_irt_linux.command',return_value='sha256:'+'0'*64):
             with self.assertRaisesRegex(ValueError,'Producer image'):
                 verify_sources(manifest,profile)
+
+    def test_release_check_requires_canonical_delivery_before_docker(self):
+        root=Path(__file__).resolve().parents[2]
+        with tempfile.TemporaryDirectory() as folder:
+            result=subprocess.run([sys.executable,str(root/'tools/verify_irt_linux.py'),'--main-repo',folder,
+                '--output',folder,'--main-release-check'],capture_output=True,text=True,timeout=30)
+        self.assertEqual(result.returncode,2)
+        self.assertIn('--main-release-check requires --delivery',result.stderr)

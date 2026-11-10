@@ -91,8 +91,10 @@ def canonical_fixture(main_repo, fixture, url, value, profile):
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--main-repo',type=Path,required=True)
     parser.add_argument('--delivery',action='store_true',help='Use canonical Priority 1 recipes and Main freeze adapter')
+    parser.add_argument('--main-release-check',action='store_true',help='Run Main disposable adoption/publication assertions after artifact verification')
     parser.add_argument('--output',type=Path,required=True);parser.add_argument('--capacity',action='store_true')
     args=parser.parse_args();args.main_repo=args.main_repo.resolve();args.output.mkdir(parents=True,exist_ok=True)
+    if args.main_release_check and not args.delivery:parser.error('--main-release-check requires --delivery')
     manifest=json.loads((ROOT/'research/irt-linux-image-v2.json').read_text())
     profile=json.loads((ROOT/manifest['profile']).read_text());verify_sources(manifest,profile)
     suffix=uuid4().hex[:12];pg='numora-irt-linux-pg-'+suffix
@@ -244,6 +246,15 @@ try{await verifyCalibrationResearchArtifact(db,process.argv[1]);}finally{await d
                 verified=subprocess.run(['node','--input-type=module','-e',script,notification['requestId']],cwd=args.main_repo,
                     capture_output=True,text=True,timeout=60,env={**os.environ,'IRT_VERIFY_URL':cls.urls['main']})
                 if verified.returncode:raise RuntimeError('Main artifact verification failed: '+verified.stderr[-1500:])
+                if args.main_release_check:
+                    released=subprocess.run(['node','scripts/test-irt-release-cases.mjs',notification['requestId']],cwd=args.main_repo,
+                        capture_output=True,text=True,timeout=180,
+                        env={**os.environ,'IRT_VERIFY_URL':cls.urls['main'],'IRT_FIXTURE_URL':url})
+                    if released.returncode:raise RuntimeError('Main release verification failed: '+released.stderr[-1500:])
+                    release_check=json.loads(released.stdout)
+                    release_check['checkerSha256']=hashlib.sha256((args.main_repo/'scripts/test-irt-release-cases.mjs').read_bytes()).hexdigest()
+                    report.setdefault('releaseChecks',[]).append(release_check)
+                    report['canonicalPublication']=True
             _,replay=http('/api/v1/irt/compute/execute',notification)
             assert replay['artifactId']==done['artifactId']
             from collections import Counter
