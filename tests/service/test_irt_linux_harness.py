@@ -17,7 +17,7 @@ class LinuxHarnessTests(unittest.TestCase):
 
     def test_changed_image_or_profile_cannot_reuse_capacity_evidence(self):
         root=Path(__file__).resolve().parents[2]
-        manifest=json.loads((root/'research/irt-linux-image-v2.json').read_text())
+        manifest=json.loads((root/'research/irt-linux-image-v3.json').read_text())
         profile=json.loads((root/manifest['profile']).read_text())
         with patch('tools.verify_irt_linux.command',return_value=profile['producerImage']):
             verify_sources(manifest,profile)

@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 class HandoffPinTests(unittest.TestCase):
     def test_manifest_matches_checkout_and_git_blob(self):
-        manifest = json.loads((ROOT / 'research/irt-linux-image-v2.json').read_text())
+        manifest = json.loads((ROOT / 'research/irt-linux-image-v3.json').read_text())
         raw = (ROOT / manifest['profile']).read_bytes()
         blob = subprocess.run(['git', 'show', 'HEAD:' + manifest['profile']], cwd=ROOT,
                               capture_output=True, check=True).stdout

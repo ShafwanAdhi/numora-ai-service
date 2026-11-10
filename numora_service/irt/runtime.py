@@ -10,8 +10,9 @@ ROOT=Path(__file__).resolve().parents[2]
 
 
 def profile():
-    names={'windows-v4':'irt-runtime-windows-v4.json','linux-v1':'irt-runtime-linux-v1.json'}
-    selected=os.environ.get('NUMORA_IRT_RUNTIME_PROFILE','windows-v4')
+    names={'windows-v4':'irt-runtime-windows-v4.json','windows-v5':'irt-runtime-windows-v5.json','linux-v1':'irt-runtime-linux-v1.json',
+           'linux-v2':'irt-runtime-linux-v2.json'}
+    selected=os.environ.get('NUMORA_IRT_RUNTIME_PROFILE','windows-v5')
     if selected not in names:raise ValueError('POLICY_UNAVAILABLE')
     return json.loads((ROOT/'research'/names[selected]).read_text(encoding='utf-8'))
 

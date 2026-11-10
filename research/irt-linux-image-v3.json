@@ -1,0 +1,18 @@
+{
+  "version": "irt-linux-image-manifest-v3",
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "producerImage": "sha256:2df35c95696055a584cbc07525dc5db97d1a10129de3b356a6aa2bbbb75ff679",
+  "rImage": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+  "profile": "research/irt-runtime-linux-v2.json",
+  "profileSha256": "e1067f94f81d47dacf526cd1cee55ea4765914938e5fff65104e50176830f82e",
+  "profileHashRecipe": "SHA256_EXACT_UTF8_LF_BYTES",
+  "runtimeSelection": "linux-v2",
+  "supersedes": "research/irt-linux-image-v2.json",
+  "revisionReason": "Operational readiness, shutdown and isolated deployment; scientific model and policy unchanged.",
+  "sourceSha256": {
+    "Dockerfile.irt-producer": "ee7be6cb8ae1758ea8c0e4142f76550bcf15fdcb5edd788e8c6232afc61bc60c",
+    "research/irt-python-linux.lock": "523b529216beaa5ba8319980298192cd2e4f5594aee84e743f70ea911412fe10",
+    "tools/verify_irt_linux.py": "985b8fa9afe105208b7dba070e7fa447e229a53ef5305db4b8cc617d787fcaa4"
+  }
+}

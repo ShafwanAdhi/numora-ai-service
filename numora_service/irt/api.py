@@ -37,8 +37,19 @@ def create_app(settings=None,repository=None):
         return JSONResponse({'type':'urn:numora:irt:'+code.lower(),'title':code,'code':code,'status':status},status_code=status,media_type='application/problem+json',headers={'Cache-Control':'no-store'})
     @app.get('/health/live')
     def live():return {'serviceContract':'irt-calibration-service-v1','status':'alive'}
+    @app.get('/health/ready',dependencies=[Depends(authorize)])
+    def ready():
+        from .operations import readiness
+        code=readiness(repository)
+        return JSONResponse({'serviceContract':'irt-calibration-service-v1','status':'ready' if code is None else 'blocked',
+                             'code':code},status_code=200 if code is None else 503,headers={'Cache-Control':'no-store'})
     @app.get('/api/v1/irt/capabilities',dependencies=[Depends(authorize)])
     def capability():return {'serviceContract':'irt-calibration-service-v1','purpose':'RESEARCH_ONLY','ecosystems':['TRYOUT'],'models':['2PL','GPCM'],'comparisons':False,'publication':False}
+    @app.get('/api/v1/irt/operations',dependencies=[Depends(authorize)])
+    def operations():
+        from .operations import metrics
+        try:return JSONResponse(metrics(repository),headers={'Cache-Control':'no-store'})
+        except Exception:return JSONResponse({'code':'DATABASE_NOT_READY'},status_code=503,headers={'Cache-Control':'no-store'})
     @app.post('/api/v1/irt/compute/execute',dependencies=[Depends(authorize)])
     async def accept(request:Request):
         if request.headers.get('content-type','').split(';')[0].strip()!='application/json':raise ValueError('INVALID_JSON')

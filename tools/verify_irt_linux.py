@@ -95,10 +95,11 @@ def main():
     parser.add_argument('--main-release-check',action='store_true',help='Run Main disposable adoption/publication assertions after artifact verification')
     parser.add_argument('--delivery-case',choices=['INSUFFICIENT','DELIVERY_TWO_ARM','DELIVERY_PARTIAL'],help='Resume one explicitly named canonical case without rerunning completed R cases')
     parser.add_argument('--output',type=Path,required=True);parser.add_argument('--capacity',action='store_true')
+    parser.add_argument('--image-manifest',type=Path,default=ROOT/'research/irt-linux-image-v3.json')
     args=parser.parse_args();args.main_repo=args.main_repo.resolve();args.output.mkdir(parents=True,exist_ok=True)
     if args.main_release_check and not args.delivery:parser.error('--main-release-check requires --delivery')
     if args.delivery_case and not args.delivery:parser.error('--delivery-case requires --delivery')
-    manifest=json.loads((ROOT/'research/irt-linux-image-v2.json').read_text())
+    manifest=json.loads(args.image_manifest.read_text())
     profile=json.loads((ROOT/manifest['profile']).read_text());verify_sources(manifest,profile)
     suffix=uuid4().hex[:12];pg='numora-irt-linux-pg-'+suffix
     api='numora-irt-linux-api-'+suffix;worker='numora-irt-linux-worker-'+suffix
@@ -159,14 +160,16 @@ try{await migrateIntegratedDatabase(sql,process.argv[2]);}finally{await sql.end(
         command('docker','volume','create',volume);volume_created=True
         command('docker','run','--rm','--network','none','--user','0:0','--mount',f'type=volume,source={volume},target=/irt-work',
             profile['producerImage'],'python','-c',"import os;os.chown('/irt-work',10001,10001);os.chmod('/irt-work',0o700)")
-        mount=f'type=bind,source={(ROOT/manifest["profile"]).resolve()},target=/app/research/irt-runtime-linux-v1.json,readonly'
+        mount=f'type=bind,source={(ROOT/manifest["profile"]).resolve()},target=/app/{manifest["profile"]},readonly'
         common=['--network','container:'+pg,'--read-only','--cap-drop','ALL','--security-opt','no-new-privileges',
             '--cpu-period','100000','--cpu-quota','200000','--tmpfs','/tmp:rw,nosuid,size=128m','--mount',mount,
             '-e','NUMORA_IRT_PRODUCER_IMAGE='+profile['producerImage'],'-e','NUMORA_IRT_RESEARCH_ENABLED=true',
+            '-e','NUMORA_IRT_RUNTIME_PROFILE='+manifest.get('runtimeSelection','linux-v1'),
             '-e','NUMORA_IRT_RESEARCH_TOKEN='+token,'-e','COMPUTE_DATABASE_URL='+compute_url,
             '-e','COMPUTE_SERVICE_PRINCIPAL_ID='+str(cls.principal)]
         shared=['--group-add','0','--mount','type=bind,source=/var/run/docker.sock,target=/var/run/docker.sock',
             '--mount',f'type=volume,source={volume},target=/irt-work','-e','NUMORA_IRT_WORK_ROOT=/irt-work',
+            '-e','NUMORA_IRT_WORKER_HEARTBEAT=/irt-work/worker.json',
             '-e','NUMORA_IRT_WORK_VOLUME='+volume,'-e','DOCKER_CONFIG=/tmp/docker-config']
         runner=command('docker','run','--rm',*common,*shared,'--memory','512m',
             '-e','IRT_RESEARCH_TEST_IMAGE='+profile['image'],profile['producerImage'],

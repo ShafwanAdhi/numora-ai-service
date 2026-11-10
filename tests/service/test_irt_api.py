@@ -1,4 +1,4 @@
-from unittest.mock import Mock
+from unittest.mock import Mock,patch
 import unittest
 from uuid import uuid4
 from fastapi.testclient import TestClient
@@ -43,6 +43,19 @@ class IrtApiTests(unittest.TestCase):
         result=self.client.post('/api/v1/irt/compute/execute',headers=self.auth,json={**self.message,'responses':[]})
         self.assertEqual(result.status_code,422)
         self.repo.accept.assert_not_called()
+
+    def test_readiness_and_operations_are_private_and_sanitized(self):
+        self.assertEqual(self.client.get('/health/live').status_code,200)
+        for path in ('/health/ready','/api/v1/irt/operations'):
+            self.assertEqual(self.client.get(path).status_code,401)
+        with patch('numora_service.irt.operations.readiness',return_value='WORKER_NOT_READY'):
+            response=self.client.get('/health/ready',headers=self.auth)
+            self.assertEqual(response.status_code,503)
+            self.assertEqual(response.json()['code'],'WORKER_NOT_READY')
+        with patch('numora_service.irt.operations.metrics',side_effect=RuntimeError('password=secret')):
+            response=self.client.get('/api/v1/irt/operations',headers=self.auth)
+            self.assertEqual(response.status_code,503)
+            self.assertNotIn('secret',response.text)
 
 
 if __name__=='__main__':unittest.main()

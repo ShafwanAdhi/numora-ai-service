@@ -4,6 +4,7 @@ from datetime import datetime,timezone
 import logging
 import time
 import threading
+import signal
 from .producer import run
 from .runner import run as run_r
 from .failures import EngineExecutionError
@@ -12,8 +13,12 @@ from ..settings import Settings
 
 LOG=logging.getLogger('numora.irt')
 
+class WorkerStopped(BaseException):
+    """Exit through runner cleanup without sealing an interrupted execution."""
 
-def execute_once(repository,runner=run_r):
+
+def execute_once(repository,runner=run_r,shutdown=None):
+    if shutdown is not None and shutdown.is_set():return False
     claim=repository.claim_next()
     if claim is None:return False
     job,source,notification=claim
@@ -22,10 +27,12 @@ def execute_once(repository,runner=run_r):
     stop=threading.Event()
     heartbeat_error=[]
     def heartbeat():
+        if shutdown is not None and shutdown.is_set():raise WorkerStopped()
         if time.monotonic()-started>=900:raise ValueError('TIMEOUT')
         if heartbeat_error:raise heartbeat_error[0]
     def pulse():
         while not stop.wait(15):
+            if shutdown is not None and shutdown.is_set():return
             try:
                 heartbeat()
                 repository.heartbeat(job,notification)
@@ -60,12 +67,18 @@ def main():
     if os.environ.get('NUMORA_IRT_RESEARCH_ENABLED')!='true':raise SystemExit('IRT_RESEARCH_DISABLED')
     from .api import settings_from_env
     repository=Repository(settings_from_env())
-    while True:
+    shutdown=threading.Event()
+    for sig in (signal.SIGTERM,signal.SIGINT):signal.signal(sig,lambda *_:shutdown.set())
+    from .operations import worker_health
+    with worker_health(repository,shutdown):
+      while not shutdown.is_set():
         try:
-            if not execute_once(repository):time.sleep(1)
+            if not execute_once(repository,shutdown=shutdown):shutdown.wait(1)
+        except WorkerStopped:
+            break
         except Exception:
             LOG.warning('IRT_JOB_INTERRUPTED')
-            time.sleep(1)
+            shutdown.wait(1)
 
 
 if __name__=='__main__':main()
