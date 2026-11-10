@@ -25,3 +25,8 @@ release endpoints, monitoring and rollback. Read the actual `cases` and
 `releaseChecks` in the report: transport success does not imply scientific
 calibration/linking success. Never rewrite a sealed artifact to force a result.
 Default invocation without `--main-release-check` retains compute-only behavior.
+
+To resume only a missing scenario, add `--delivery-case DELIVERY_PARTIAL`
+(or `DELIVERY_TWO_ARM` / `INSUFFICIENT`). The report records that selection;
+one selected case is not evidence that other cases passed. Source/image pins
+are verified before every invocation. This does not change runtime concurrency.

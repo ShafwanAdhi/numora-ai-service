@@ -92,9 +92,11 @@ def main():
     parser=argparse.ArgumentParser();parser.add_argument('--main-repo',type=Path,required=True)
     parser.add_argument('--delivery',action='store_true',help='Use canonical Priority 1 recipes and Main freeze adapter')
     parser.add_argument('--main-release-check',action='store_true',help='Run Main disposable adoption/publication assertions after artifact verification')
+    parser.add_argument('--delivery-case',choices=['INSUFFICIENT','DELIVERY_TWO_ARM','DELIVERY_PARTIAL'],help='Resume one explicitly named canonical case without rerunning completed R cases')
     parser.add_argument('--output',type=Path,required=True);parser.add_argument('--capacity',action='store_true')
     args=parser.parse_args();args.main_repo=args.main_repo.resolve();args.output.mkdir(parents=True,exist_ok=True)
     if args.main_release_check and not args.delivery:parser.error('--main-release-check requires --delivery')
+    if args.delivery_case and not args.delivery:parser.error('--delivery-case requires --delivery')
     manifest=json.loads((ROOT/'research/irt-linux-image-v2.json').read_text())
     profile=json.loads((ROOT/manifest['profile']).read_text());verify_sources(manifest,profile)
     suffix=uuid4().hex[:12];pg='numora-irt-linux-pg-'+suffix
@@ -193,6 +195,9 @@ try{await migrateIntegratedDatabase(sql,process.argv[2]);}finally{await sql.end(
             recipe_files=recipe_module.build(ROOT)
             cases=[('INSUFFICIENT',2,2,20261119),('DELIVERY_TWO_ARM',1000,2,20261119),('DELIVERY_PARTIAL',1000,3,20261120)]
             report['fixtureRecipeSha256']=hashlib.sha256((args.main_repo/'packages/testing/fixtures/irt-delivery-v1/recipe.json').read_bytes()).hexdigest()
+            if args.delivery_case:
+                cases=[case for case in cases if case[0]==args.delivery_case]
+                report['selectedDeliveryCase']=args.delivery_case
         for label,per_arm,arms,seed in cases:
             print('Starting '+label+' '+str(2100 if label=='DELIVERY_PARTIAL' else per_arm*arms)+' respondents',flush=True)
             if args.delivery:

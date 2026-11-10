@@ -35,3 +35,11 @@ class LinuxHarnessTests(unittest.TestCase):
                 '--output',folder,'--main-release-check'],capture_output=True,text=True,timeout=30)
         self.assertEqual(result.returncode,2)
         self.assertIn('--main-release-check requires --delivery',result.stderr)
+
+    def test_named_delivery_resume_requires_delivery_before_docker(self):
+        root=Path(__file__).resolve().parents[2]
+        with tempfile.TemporaryDirectory() as folder:
+            result=subprocess.run([sys.executable,str(root/'tools/verify_irt_linux.py'),'--main-repo',folder,
+                '--output',folder,'--delivery-case','DELIVERY_PARTIAL'],capture_output=True,text=True,timeout=30)
+        self.assertEqual(result.returncode,2)
+        self.assertIn('--delivery-case requires --delivery',result.stderr)
