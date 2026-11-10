@@ -9,7 +9,9 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def check(main):
-    pairs=[('docs/IRT_AI_HANDOFF.md','docs/IRT_AI_HANDOFF.md'),
+    pairs=[('docs/IRT_RUNTIME_HANDOFF_V2.md','docs/IRT_RUNTIME_HANDOFF_V2.md'),
+        ('docs/IRT_DELIVERY_HANDOFF_V1.md','docs/IRT_DELIVERY_HANDOFF_V1.md'),
+        ('docs/IRT_AI_HANDOFF.md','docs/IRT_AI_HANDOFF.md'),
         ('research/irt/README.md','docs/IRT_RESEARCH_RUNTIME.md'),
         ('research/irt/acceptance-report-v1.json','docs/IRT_RESEARCH_ACCEPTANCE_V1.json'),
         ('research/irt/outcome-acceptance-v1.json','docs/IRT_OUTCOME_ACCEPTANCE_V1.json'),

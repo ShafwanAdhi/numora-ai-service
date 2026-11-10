@@ -65,3 +65,5 @@ variant_gen/image_workbench.py -text whitespace=cr-at-eol
 
 # Bundled upstream license is hash-pinned verbatim, including its original spaces.
 variant_gen/image_templates/fonts/LICENSE.txt -text -whitespace
+
+docs/IRT_RUNTIME_HANDOFF_V2.md text eol=lf
