@@ -23,6 +23,8 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 import psycopg
 from psycopg.rows import dict_row
+from psycopg.types.json import Jsonb
+import importlib.util
 from research.irt.synthetic import generate
 
 PG='postgres@sha256:f9a7b9ebf6f56201f949db745e47bc423c0f0f8294bafe991cc10bf74b029657'
@@ -58,10 +60,39 @@ def verify_sources(manifest,profile):
     if actual!=profile['producerImage']:raise ValueError('Producer image mismatch')
 
 
+def canonical_fixture(main_repo, fixture, url, value, profile):
+    """Use Main's canonical seeder and freeze adapter; never insert request bodies here."""
+    spec = importlib.util.spec_from_file_location('delivery_seed', main_repo/'scripts/irt_delivery_seed.py')
+    module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+    with psycopg.connect(url, row_factory=dict_row) as db:
+        package = db.execute("INSERT INTO assessment_packages(family_code,package_version,name,assessment_type) VALUES(%s,1,'SYNTHETIC','TRYOUT') RETURNING id", (uuid4().hex,)).fetchone()['id']
+        batch = db.execute("INSERT INTO tryout_batches(package_id,starts_at,closes_at,cutoff_at,result_due_at) VALUES(%s,now(),now()+interval '1 day',now()+interval '1 day',now()+interval '4 days') RETURNING id", (package,)).fetchone()['id']
+        context = db.execute("INSERT INTO measurement_contexts(ecosystem,dimension,tryout_batch_id,scale_code) VALUES('TRYOUT','RESEARCH',%s,%s) RETURNING id", (batch,uuid4().hex)).fetchone()['id']
+        value = module.build(db, fixture.actor, context, batch, len(value['packages']), source=value)
+        value.update(requestId=str(uuid4()),snapshotId=str(uuid4()),calibrationId=str(uuid4()))
+        policy = json.loads((ROOT/'research/irt/policy-v1.json').read_text())
+        resources = {}
+        for key,kind,source in [('model','IRT_MODEL','engine'),('quality','QUALITY_GATE','quality'),('eligibility','IRT_ELIGIBILITY','eligibility'),('scoring','IRT_SCORING','scoring'),('scoreMapping','SCORE_MAPPING','mapping')]:
+            definition = policy[source]
+            target = db.execute("INSERT INTO irt_compute.technical_policy_versions(code,version,kind,definition,digest,status) VALUES(%s,1,%s,%s,irt_compute.payload_digest(%s),'SEALED') RETURNING id,digest",(uuid4().hex,kind,Jsonb(definition),Jsonb(definition))).fetchone()
+            approval = db.execute('INSERT INTO configuration_approvals(technical_policy_version_id,approved_digest,scope,approved_by_user_id,approved_at) VALUES(%s,%s,%s,%s,now()) RETURNING id',(target['id'],target['digest'],Jsonb({'ecosystem':'TRYOUT','contextId':str(context),'purpose':'RESEARCH_ONLY'}),fixture.actor)).fetchone()['id']
+            ref = {'id':str(target['id']),'version':1,'digest':target['digest'],'approvalId':str(approval)}
+            resources[key] = {'kind':kind,'ref':ref,'definition':definition};value['policies'][key]=ref
+    result = subprocess.run(['node','scripts/freeze-irt-delivery-local.mjs'],cwd=main_repo,
+        input=json.dumps({'value':value,'resources':resources,'runtime':profile,'actor':str(fixture.actor)}),
+        capture_output=True,text=True,timeout=180,
+        env={**os.environ,'IRT_RESEARCH_LOCAL_URL':url,'NUMORA_IRT_RESEARCH_ENABLED':'true'})
+    if result.returncode:
+        raise RuntimeError('Canonical freeze failed: '+result.stderr[-1500:])
+    frozen = json.loads(result.stdout)
+    return frozen['notification'], frozen['input']
+
+
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--main-repo',type=Path,required=True)
+    parser.add_argument('--delivery',action='store_true',help='Use canonical Priority 1 recipes and Main freeze adapter')
     parser.add_argument('--output',type=Path,required=True);parser.add_argument('--capacity',action='store_true')
-    args=parser.parse_args();args.output.mkdir(parents=True,exist_ok=True)
+    args=parser.parse_args();args.main_repo=args.main_repo.resolve();args.output.mkdir(parents=True,exist_ok=True)
     manifest=json.loads((ROOT/'research/irt-linux-image-v2.json').read_text())
     profile=json.loads((ROOT/manifest['profile']).read_text());verify_sources(manifest,profile)
     suffix=uuid4().hex[:12];pg='numora-irt-linux-pg-'+suffix
@@ -99,7 +130,7 @@ def main():
     monitor=None
     try:
         command('docker','run','-d','--name',pg,'-e','POSTGRES_USER=fixture','-e','POSTGRES_DB='+database,
-            '-e','POSTGRES_HOST_AUTH_METHOD=trust','-p',f'127.0.0.1:{db_port}:5432','-p',f'127.0.0.1:{http_port}:8080',PG)
+            '-e','POSTGRES_HOST_AUTH_METHOD=trust','-p',f'127.0.0.1:{db_port}:5432','-p',f'127.0.0.1:{http_port}:8080',PG,'-c','max_locks_per_transaction=1024')
         containers.append(pg)
         deadline=time.monotonic()+45
         while True:
@@ -153,9 +184,26 @@ try{await migrateIntegratedDatabase(sql,process.argv[2]);}finally{await sql.end(
         monitor=threading.Thread(target=sample,daemon=True);monitor.start()
         cases=[('INSUFFICIENT',2,2,20261119),('HEALTHY',1000,2,20261119)]
         if args.capacity:cases.extend([('CAPACITY',1666,3,20261119),('OVER_LIMIT',1667,3,20261119)])
+        if args.delivery:
+            if args.capacity:raise ValueError('Choose delivery or capacity, not both')
+            spec=importlib.util.spec_from_file_location('delivery_recipe',args.main_repo/'scripts/build-irt-delivery-fixtures.py')
+            recipe_module=importlib.util.module_from_spec(spec);spec.loader.exec_module(recipe_module)
+            recipe_files=recipe_module.build(ROOT)
+            cases=[('INSUFFICIENT',2,2,20261119),('DELIVERY_TWO_ARM',1000,2,20261119),('DELIVERY_PARTIAL',1000,3,20261120)]
+            report['fixtureRecipeSha256']=hashlib.sha256((args.main_repo/'packages/testing/fixtures/irt-delivery-v1/recipe.json').read_bytes()).hexdigest()
         for label,per_arm,arms,seed in cases:
-            print('Starting '+label+' '+str(per_arm*arms)+' respondents',flush=True)
-            value,_=generate(per_arm,seed,arms=arms);notification,_=fixture.fixture(value)
+            print('Starting '+label+' '+str(2100 if label=='DELIVERY_PARTIAL' else per_arm*arms)+' respondents',flush=True)
+            if args.delivery:
+                if label=='INSUFFICIENT':
+                    value=json.loads(recipe_module.build(ROOT,small=True)['two-arm.input.json'])
+                else:
+                    value=json.loads(recipe_files['two-arm.input.json' if arms==2 else 'three-arm-partial.input.json'])
+                notification,value=canonical_fixture(args.main_repo,fixture,url,value,profile)
+                with psycopg.connect(url,row_factory=dict_row) as db:
+                    canonical_before={table:db.execute('SELECT count(*) AS count FROM '+table).fetchone()['count'] for table in ['assessment_attempts','xp_ledger','tryout_attempt_results']}
+            else:
+                value,_=generate(per_arm,seed,arms=arms);notification,_=fixture.fixture(value)
+                canonical_before={'assessment_attempts':0,'xp_ledger':0,'tryout_attempt_results':0}
             started=time.monotonic();status,ack=http('/api/v1/irt/compute/execute',notification)
             ack_seconds=time.monotonic()-started
             assert status==202 and ack_seconds<10
@@ -174,23 +222,37 @@ try{await migrateIntegratedDatabase(sql,process.argv[2]);}finally{await sql.end(
             with psycopg.connect(url,row_factory=dict_row) as db:
                 row=db.execute('SELECT payload,diagnostics FROM irt_compute.calibration_artifacts_v1 WHERE id=%s',(done['artifactId'],)).fetchone()
                 # Research computation must not create canonical participant results or XP.
-                assert db.execute('SELECT count(*) FROM assessment_attempts').fetchone()['count']==0
-                assert db.execute('SELECT count(*) FROM xp_ledger').fetchone()['count']==0
+                for table,count in canonical_before.items():
+                    assert db.execute('SELECT count(*) AS count FROM '+table).fetchone()['count']==count
             payload=row['payload'];outcome=payload['outcome']
+            if done['status']!='SUCCEEDED' and label!='OVER_LIMIT':
+                report['failedCase']={'label':label,'transportStatus':done['status'],'failure':payload['failure'],
+                    'safeDiagnostics':{k:v for k,v in row['diagnostics'].items() if k in ['failureCode','engineStage','scientificFailure']}}
+                (args.output/'progress.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
             if label=='OVER_LIMIT':
                 assert payload['executionStatus']=='FAILED' and payload['failure']['code']=='INVALID_INPUT'
             else:
-                assert done['status']=='SUCCEEDED' and len(outcome['respondents'])==per_arm*arms
+                assert done['status']=='SUCCEEDED' and len(outcome['respondents'])==len(value['respondents'])
                 assert {r['attemptId'] for r in outcome['respondents']}=={p['attemptId'] for p in value['respondents']}
                 if label=='HEALTHY':assert all(r['status']=='SCORED' for r in outcome['respondents'])
                 if label=='INSUFFICIENT':assert all(r['score'] is None for r in outcome['respondents'])
+            if args.delivery:
+                script="""import postgres from './packages/database/node_modules/postgres/src/index.js';
+import {verifyCalibrationResearchArtifact} from './packages/irt-orchestration/src/calibration-research.mjs';
+const db=postgres(process.env.IRT_VERIFY_URL,{max:1,onnotice:()=>{}});
+try{await verifyCalibrationResearchArtifact(db,process.argv[1]);}finally{await db.end();}"""
+                verified=subprocess.run(['node','--input-type=module','-e',script,notification['requestId']],cwd=args.main_repo,
+                    capture_output=True,text=True,timeout=60,env={**os.environ,'IRT_VERIFY_URL':cls.urls['main']})
+                if verified.returncode:raise RuntimeError('Main artifact verification failed: '+verified.stderr[-1500:])
             _,replay=http('/api/v1/irt/compute/execute',notification)
             assert replay['artifactId']==done['artifactId']
             from collections import Counter
-            case={'label':label,'respondents':per_arm*arms,'arms':arms,'ackSeconds':ack_seconds,
+            case={'label':label,'respondents':len(value['respondents']),'arms':arms,'ackSeconds':ack_seconds,
                 'elapsedSeconds':time.monotonic()-started,'executionStatus':payload['executionStatus'],
                 'measurementState':outcome['measurementState'] if outcome else None,
                 'participantStatuses':dict(Counter(p['status'] for p in outcome['respondents'])) if outcome else {},
+                'canonicalSnapshot':args.delivery,'mainVerified':args.delivery,
+                'selection':{k:v for k,v in row['diagnostics'].get('selection',{}).items() if k in ['eligiblePerArm','fittedPerArm']},
                 'failure':payload['failure'],'artifactDigest':done['artifactDigest'],'sameArtifactOnReplay':True}
             report['cases'].append(case)
             print(json.dumps(case),flush=True)
@@ -202,6 +264,10 @@ try{await migrateIntegratedDatabase(sql,process.argv[2]);}finally{await sql.end(
                 'memoryLimitBytes':state['HostConfig']['Memory'],'cpuQuota':state['HostConfig']['CpuQuota']/state['HostConfig']['CpuPeriod'],
                 'oomKilled':False,'readOnlyRoot':state['HostConfig']['ReadonlyRootfs']}
         report['status']='LOCAL_LINUX_VERIFIED'
+    except Exception as error:
+        report['status']='FAILED'
+        report['failureType']=type(error).__name__
+        raise
     finally:
         stop.set()
         if monitor:monitor.join(timeout=20)
