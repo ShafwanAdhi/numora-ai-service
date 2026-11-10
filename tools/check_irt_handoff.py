@@ -24,7 +24,7 @@ def check(main):
         for file in files(local):
             if (local/file).read_bytes()!=(remote/file).read_bytes():raise ValueError('Contract mismatch: '+name+'/'+str(file))
             count+=1
-    manifest=json.loads((ROOT/'research/irt-linux-image-v1.json').read_text())
+    manifest=json.loads((ROOT/'research/irt-linux-image-v2.json').read_text())
     profile=json.loads((ROOT/manifest['profile']).read_text())
     if hashlib.sha256((ROOT/manifest['profile']).read_bytes()).hexdigest()!=manifest['profileSha256']:
         raise ValueError('Linux profile digest mismatch')

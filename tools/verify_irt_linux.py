@@ -62,7 +62,7 @@ def main():
     parser=argparse.ArgumentParser();parser.add_argument('--main-repo',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True);parser.add_argument('--capacity',action='store_true')
     args=parser.parse_args();args.output.mkdir(parents=True,exist_ok=True)
-    manifest=json.loads((ROOT/'research/irt-linux-image-v1.json').read_text())
+    manifest=json.loads((ROOT/'research/irt-linux-image-v2.json').read_text())
     profile=json.loads((ROOT/manifest['profile']).read_text());verify_sources(manifest,profile)
     suffix=uuid4().hex[:12];pg='numora-irt-linux-pg-'+suffix
     api='numora-irt-linux-api-'+suffix;worker='numora-irt-linux-worker-'+suffix
