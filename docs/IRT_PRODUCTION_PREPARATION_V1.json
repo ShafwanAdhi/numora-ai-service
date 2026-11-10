@@ -1,0 +1,61 @@
+{
+  "version": "irt-production-preparation-v1",
+  "productionApproved": false,
+  "scientificPolicy": "research/irt/policy-production-candidate-v1.json",
+  "runtimeManifest": "research/irt-linux-image-v4.json",
+  "productionProfile": "research/irt-runtime-linux-production-v1.json",
+  "runtimeCheckpoint": "bddaf8a",
+  "productionDeployment": "NOT_RUN",
+  "productionJob": "NOT_RUN",
+  "checks": {
+    "researchLinuxPipeline": "LOCAL_LINUX_VERIFIED",
+    "linuxRunnerFaults": "PASSED",
+    "ownedResourcesRemoved": true,
+    "researchAndProductionProfilePins": "PASS",
+    "modeOperationsRuntimeUnit": {
+      "tests": 8,
+      "status": "PASS"
+    },
+    "producerRegression": {
+      "tests": 9,
+      "status": "PASS"
+    },
+    "composeSemanticValidation": "PASS"
+  },
+  "linuxSmall": [
+    {
+      "label": "INSUFFICIENT",
+      "respondents": 4,
+      "arms": 2,
+      "ackSeconds": 0.0470000000204891,
+      "elapsedSeconds": 2.719000000040978,
+      "executionStatus": "SUCCEEDED",
+      "measurementState": "INSUFFICIENT",
+      "participantStatuses": {
+        "INSUFFICIENT": 4
+      },
+      "canonicalSnapshot": true,
+      "mainVerified": true,
+      "selection": {
+        "fittedPerArm": {
+          "1abcf2bd-dc94-494f-8356-a9153a276d17": 0,
+          "4a82daa9-533e-4250-b1b5-2caa3fad07d0": 0
+        },
+        "eligiblePerArm": {
+          "1abcf2bd-dc94-494f-8356-a9153a276d17": 2,
+          "4a82daa9-533e-4250-b1b5-2caa3fad07d0": 2
+        }
+      },
+      "failure": null,
+      "artifactDigest": "95df69e4f9c48b656c37046f08b33a4f9ab79d075782494e3feb0ceb12e1a0fd",
+      "sameArtifactOnReplay": true
+    }
+  ],
+  "limitations": [
+    "Research-mode Linux smoke is not production scientific acceptance.",
+    "Exact production Compose resource performance NOT_RUN.",
+    "Active daemon signal acceptance NOT_RUN.",
+    "Full-size two-/three-arm candidate acceptance NOT_RUN.",
+    "Operator approval, private production credentials and scientific acceptance required."
+  ]
+}
