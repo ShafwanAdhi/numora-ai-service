@@ -6,7 +6,7 @@ import subprocess
 import sys
 import tempfile
 from unittest.mock import patch
-from tools.verify_irt_linux import memory_mib,verify_sources
+from tools.verify_irt_linux import command,memory_mib,verify_sources
 
 
 class LinuxHarnessTests(unittest.TestCase):
@@ -43,3 +43,11 @@ class LinuxHarnessTests(unittest.TestCase):
                 '--output',folder,'--delivery-case','DELIVERY_PARTIAL'],capture_output=True,text=True,timeout=30)
         self.assertEqual(result.returncode,2)
         self.assertIn('--delivery-case requires --delivery',result.stderr)
+
+    def test_command_failure_preserves_cause_on_clean_checkout(self):
+        with tempfile.TemporaryDirectory() as folder:
+            with patch('tools.verify_irt_linux.ROOT',Path(folder)), patch('tools.verify_irt_linux.subprocess.run',
+                    return_value=subprocess.CompletedProcess(['docker'],1,'','unavailable')):
+                with self.assertRaisesRegex(RuntimeError,'Local command failed: docker ps'):
+                    command('docker','ps')
+            self.assertEqual((Path(folder)/'.scratch/irt-linux-command-failure.log').read_text(),'\nunavailable')

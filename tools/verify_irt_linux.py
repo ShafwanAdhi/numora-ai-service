@@ -33,6 +33,7 @@ PG='postgres@sha256:f9a7b9ebf6f56201f949db745e47bc423c0f0f8294bafe991cc10bf74b02
 def command(*args,timeout=180):
     result=subprocess.run(list(args),capture_output=True,text=True,timeout=timeout)
     if result.returncode:
+        (ROOT/'.scratch').mkdir(parents=True,exist_ok=True)
         (ROOT/'.scratch/irt-linux-command-failure.log').write_text(result.stdout+'\n'+result.stderr,encoding='utf-8')
         raise RuntimeError('Local command failed: '+args[0]+' '+(args[1] if len(args)>1 else ''))
     return result.stdout.strip()
