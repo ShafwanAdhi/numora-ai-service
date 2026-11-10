@@ -371,4 +371,27 @@ try {
                 self.assertEqual(self.repo.accept(n)['artifactId'],status['artifactId'])
 
 
+    def test_17_no_observations_is_unscorable_through_http_and_artifact(self):
+        value=json.loads((Path(__file__).resolve().parents[2]/'contracts/irt-calibration-v1/examples/tryout-input.json').read_text())
+        for response in value['responses']:
+            response.update(responseState='NOT_PRESENTED',scoreCategory=None,awardedPoints=None,
+                includedInCalibration=False,eligibilityReasons=['NOT_PRESENTED'])
+        n,_=self.fixture(value)
+        client=TestClient(create_app(self.settings,self.repo),raise_server_exceptions=False)
+        auth={'Authorization':'Bearer '+self.settings.token}
+        self.assertEqual(client.post('/api/v1/irt/compute/execute',headers=auth,json=n).status_code,202)
+        self.assertTrue(execute_once(self.repo,lambda *a,**kw:self.fail('No observations must not invoke R')))
+        done=client.get('/api/v1/irt/compute/requests/'+n['requestId'],headers=auth,
+            params={'inputDigest':n['inputDigest'],'dispatchGeneration':1})
+        self.assertEqual(done.status_code,200)
+        self.assertEqual(done.json()['status'],'SUCCEEDED')
+        with psycopg.connect(self.urls['main'],row_factory=dict_row) as db:
+            artifact=db.execute('SELECT payload FROM irt_compute.calibration_artifacts_v1 WHERE id=%s',
+                (done.json()['artifactId'],)).fetchone()['payload']
+        self.assertEqual(len(artifact['outcome']['respondents']),len(value['respondents']))
+        self.assertTrue(all(p['status']=='UNSCORABLE' and p['score'] is None and p['theta'] is None
+            for p in artifact['outcome']['respondents']))
+        self.assertEqual(self.repo.accept(n)['artifactId'],done.json()['artifactId'])
+
+
 if __name__=='__main__':unittest.main()
