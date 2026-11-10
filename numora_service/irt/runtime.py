@@ -5,20 +5,23 @@ import json
 from pathlib import Path
 import platform
 import os
+from .mode import purpose
 
 ROOT=Path(__file__).resolve().parents[2]
 
 
 def profile():
     names={'windows-v4':'irt-runtime-windows-v4.json','windows-v5':'irt-runtime-windows-v5.json','linux-v1':'irt-runtime-linux-v1.json',
-           'linux-v2':'irt-runtime-linux-v2.json'}
-    selected=os.environ.get('NUMORA_IRT_RUNTIME_PROFILE','windows-v5')
+           'linux-v2':'irt-runtime-linux-v2.json','windows-v6':'irt-runtime-windows-v6.json',
+           'linux-v3':'irt-runtime-linux-v3.json','linux-production-v1':'irt-runtime-linux-production-v1.json'}
+    selected=os.environ.get('NUMORA_IRT_RUNTIME_PROFILE','windows-v6')
     if selected not in names:raise ValueError('POLICY_UNAVAILABLE')
     return json.loads((ROOT/'research'/names[selected]).read_text(encoding='utf-8'))
 
 
 def validate(value):
     expected=profile()
+    if expected.get('purpose')!=purpose():raise ValueError('POLICY_UNAVAILABLE')
     candidate=dict(value)
     key=candidate.pop('pseudonymKeyVersion',None)
     if key is not None and (not isinstance(key,str) or not key):raise ValueError('POLICY_UNAVAILABLE')

@@ -7,11 +7,15 @@ import subprocess
 import threading
 import time
 from .runtime import profile, validate
+from .mode import purpose
 
 
 def database_ready(repository):
     with repository.connection() as db:
         repository.check_role(db)
+        if purpose()=='PRODUCTION':
+            row=db.execute("SELECT public.irt_compute_deployment_ready_v1(%s::uuid) AS valid",(repository.settings.principal_id,)).fetchone()
+            if not row['valid']:raise ValueError('PRODUCTION_AUTHORIZATION_NOT_READY')
         for relation in ('public.irt_calibration_inputs_v1','irt_compute.calibration_jobs_v1','irt_compute.calibration_artifacts_v1'):
             db.execute('SELECT 1 FROM '+relation+' LIMIT 0')
 

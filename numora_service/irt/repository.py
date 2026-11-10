@@ -7,6 +7,7 @@ from ..contracts import validate_notification
 from ..irt_contracts import validate_input,validate_result
 from .producer import policy
 from .runtime import validate as validate_runtime
+from .mode import purpose
 
 
 class Repository(GeneratorRepository):
@@ -22,6 +23,10 @@ class Repository(GeneratorRepository):
         if source['input_digest']!=notification['inputDigest']:raise ValueError('INPUT_DIGEST_MISMATCH')
         if source['current_generation']!=notification['dispatchGeneration']:raise ValueError('STALE_DISPATCH')
         if source['cancelled'] or not source['approvals_valid']:raise ValueError('POLICY_UNAVAILABLE')
+        if source['runtime_profile'].get('purpose')!=purpose():raise ValueError('POLICY_UNAVAILABLE')
+        if purpose()=='PRODUCTION':
+            authorization=self.one(db,'SELECT public.irt_compute_principal_authorized_v1(%s,%s::uuid) AS valid',(source['context_id'],self.settings.principal_id))
+            if not authorization['valid']:raise ValueError('POLICY_UNAVAILABLE')
         value=source['payload']
         if full:validate_input(value)
         if value['contractVersion']!='irt-calibration-v1' or value['ecosystem']!='TRYOUT' or value['comparisons']:raise ValueError('UNSUPPORTED_CONTRACT')
@@ -69,7 +74,7 @@ class Repository(GeneratorRepository):
                 return None
             # Expired work never silently reruns the same generation.
             db.execute("UPDATE irt_compute.calibration_jobs_v1 SET status='EXPIRED',failure_code='LEASE_EXPIRED',finished_at=clock_timestamp() WHERE status='RUNNING' AND lease_expires_at<=clock_timestamp()")
-            row=db.execute("SELECT j.*,s.input_digest FROM irt_compute.calibration_jobs_v1 j JOIN public.irt_calibration_inputs_v1 s ON s.id=j.request_id WHERE j.status='ACCEPTED' AND NOT EXISTS(SELECT 1 FROM irt_compute.calibration_jobs_v1 WHERE status='RUNNING') AND NOT s.cancelled AND s.approvals_valid AND j.generation=s.current_generation ORDER BY j.created_at,j.id FOR UPDATE OF j SKIP LOCKED LIMIT 1").fetchone()
+            row=db.execute("SELECT j.*,s.input_digest FROM irt_compute.calibration_jobs_v1 j JOIN public.irt_calibration_inputs_v1 s ON s.id=j.request_id WHERE j.status='ACCEPTED' AND s.runtime_profile->>'purpose'=%s AND NOT EXISTS(SELECT 1 FROM irt_compute.calibration_jobs_v1 WHERE status='RUNNING') AND NOT s.cancelled AND s.approvals_valid AND j.generation=s.current_generation ORDER BY j.created_at,j.id FOR UPDATE OF j SKIP LOCKED LIMIT 1",(purpose(),)).fetchone()
             if not row:return None
             notification={'contractVersion':3,'requestId':str(row['request_id']),'inputDigest':row['input_digest'],'dispatchGeneration':row['generation']}
             source=self.source(db,notification)

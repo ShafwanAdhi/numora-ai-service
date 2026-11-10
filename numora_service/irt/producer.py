@@ -10,12 +10,14 @@ from ..irt_contracts import validate_input, validate_result
 from .math import convert, eap, probabilities, reference_score, posterior_grid
 from .gates import anchor_gate
 from .failures import EngineExecutionError
+from .mode import purpose
 
 POLICY_PATH = Path(__file__).resolve().parents[2] / 'research/irt/policy-v1.json'
 
 
 def policy():
-    return json.loads(POLICY_PATH.read_text(encoding='utf-8'))
+    path=POLICY_PATH.with_name('policy-production-candidate-v1.json') if purpose()=='PRODUCTION' else POLICY_PATH
+    return json.loads(path.read_text(encoding='utf-8'))
 
 
 def check(code, passed, statistic=None):

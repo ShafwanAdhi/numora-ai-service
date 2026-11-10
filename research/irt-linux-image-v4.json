@@ -1,0 +1,19 @@
+{
+  "version": "irt-linux-image-manifest-v4",
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "producerImage": "sha256:88a37a5442ec5dc55332af830053666f50fc3cef2393c505698ce39cd008969a",
+  "rImage": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036",
+  "profile": "research/irt-runtime-linux-v3.json",
+  "profileSha256": "07f345313c5c9f49db28d1bc895d8c867eb652671e2accbd1f60b912a4fa394b",
+  "runtimeSelection": "linux-v3",
+  "productionProfile": "research/irt-runtime-linux-production-v1.json",
+  "productionProfileSha256": "4f3e2e39b44a8f8682ca837c2e83ea5e43ba7de9e9b0095193c3421dc8ec932f",
+  "supersedes": "research/irt-linux-image-v3.json",
+  "revisionReason": "Explicit production authorization boundary; scientific method and thresholds unchanged.",
+  "sourceSha256": {
+    "Dockerfile.irt-producer": "80a0eecefebfb7515dbcb9969889e13cc626c5ff0fb1898d1c952981350f5bc2",
+    "research/irt-python-linux.lock": "523b529216beaa5ba8319980298192cd2e4f5594aee84e743f70ea911412fe10",
+    "tools/verify_irt_linux.py": "93fd5cb1bcce1482e7fa55ce70a3fac124c28f80fa555ce57fc71bce635a08fd"
+  }
+}

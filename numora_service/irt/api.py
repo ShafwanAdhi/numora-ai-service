@@ -10,11 +10,11 @@ from ..settings import Settings
 from ..errors import ServiceError
 from ..contracts import validate_notification
 from .repository import Repository
+from .mode import enabled, purpose, token
 
 
 def settings_from_env():
-    return replace(Settings.from_env(),enabled=os.environ.get('NUMORA_IRT_RESEARCH_ENABLED')=='true',
-                   token=os.environ.get('NUMORA_IRT_RESEARCH_TOKEN',''))
+    return replace(Settings.from_env(),enabled=enabled(), token=token())
 
 
 def create_app(settings=None,repository=None):
@@ -31,7 +31,7 @@ def create_app(settings=None,repository=None):
         code=str(exc) if isinstance(exc,(ValueError,ServiceError)) else 'INTERNAL_ERROR'
         allowed={'UNAUTHORIZED':401,'IRT_RESEARCH_DISABLED':503,'IRT_RESEARCH_NOT_CONFIGURED':503,
             'INVALID_JSON':422,'BODY_TOO_LARGE':413,'INPUT_DIGEST_MISMATCH':409,'STALE_DISPATCH':409,
-            'POLICY_UNAVAILABLE':409,'UNSUPPORTED_CONTRACT':422,'INVALID_NOTIFICATION':422}
+            'IRT_MODE_INVALID':503,'POLICY_UNAVAILABLE':409,'UNSUPPORTED_CONTRACT':422,'INVALID_NOTIFICATION':422}
         status=allowed.get(code,500)
         if code not in allowed:code='INTERNAL_ERROR'
         return JSONResponse({'type':'urn:numora:irt:'+code.lower(),'title':code,'code':code,'status':status},status_code=status,media_type='application/problem+json',headers={'Cache-Control':'no-store'})
@@ -44,7 +44,7 @@ def create_app(settings=None,repository=None):
         return JSONResponse({'serviceContract':'irt-calibration-service-v1','status':'ready' if code is None else 'blocked',
                              'code':code},status_code=200 if code is None else 503,headers={'Cache-Control':'no-store'})
     @app.get('/api/v1/irt/capabilities',dependencies=[Depends(authorize)])
-    def capability():return {'serviceContract':'irt-calibration-service-v1','purpose':'RESEARCH_ONLY','ecosystems':['TRYOUT'],'models':['2PL','GPCM'],'comparisons':False,'publication':False}
+    def capability():return {'serviceContract':'irt-calibration-service-v1','purpose':purpose(),'ecosystems':['TRYOUT'],'models':['2PL','GPCM'],'comparisons':False,'publication':False}
     @app.get('/api/v1/irt/operations',dependencies=[Depends(authorize)])
     def operations():
         from .operations import metrics

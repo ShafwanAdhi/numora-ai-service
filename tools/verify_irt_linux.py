@@ -95,7 +95,7 @@ def main():
     parser.add_argument('--main-release-check',action='store_true',help='Run Main disposable adoption/publication assertions after artifact verification')
     parser.add_argument('--delivery-case',choices=['INSUFFICIENT','DELIVERY_TWO_ARM','DELIVERY_PARTIAL'],help='Resume one explicitly named canonical case without rerunning completed R cases')
     parser.add_argument('--output',type=Path,required=True);parser.add_argument('--capacity',action='store_true')
-    parser.add_argument('--image-manifest',type=Path,default=ROOT/'research/irt-linux-image-v3.json')
+    parser.add_argument('--image-manifest',type=Path,default=ROOT/'research/irt-linux-image-v4.json')
     args=parser.parse_args();args.main_repo=args.main_repo.resolve();args.output.mkdir(parents=True,exist_ok=True)
     if args.main_release_check and not args.delivery:parser.error('--main-release-check requires --delivery')
     if args.delivery_case and not args.delivery:parser.error('--delivery-case requires --delivery')

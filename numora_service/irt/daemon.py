@@ -9,7 +9,7 @@ from .producer import run
 from .runner import run as run_r
 from .failures import EngineExecutionError
 from .repository import Repository
-from ..settings import Settings
+from .mode import enabled
 
 LOG=logging.getLogger('numora.irt')
 
@@ -64,7 +64,7 @@ def execute_once(repository,runner=run_r,shutdown=None):
 
 def main():
     import os
-    if os.environ.get('NUMORA_IRT_RESEARCH_ENABLED')!='true':raise SystemExit('IRT_RESEARCH_DISABLED')
+    if not enabled():raise SystemExit('IRT_DISABLED')
     from .api import settings_from_env
     repository=Repository(settings_from_env())
     shutdown=threading.Event()
