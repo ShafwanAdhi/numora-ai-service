@@ -59,16 +59,19 @@
     "skipped": 21
   },
   "vps": {
-    "status": "BLOCKED_CAPACITY",
-    "measuredAt": "2026-11-10T12:48:19.079953+00:00",
-    "cpu": 2,
-    "totalMiB": 3915,
-    "availableMiB": 1615,
-    "swapUsedMiB": 1722,
+    "status": "READY",
+    "measuredAt": "2026-11-10T15:12:00Z",
+    "cpu": 8,
+    "totalMiB": 7936,
+    "availableMiB": 6539,
+    "swapUsedMiB": 0,
     "requiredCpu": 3.25,
     "requiredMiB": 4352,
     "R": "NOT_RUN",
-    "deployment": "NOT_RUN"
+    "deployment": "ISOLATED_STACK_STARTED",
+    "api": "127.0.0.1:18080",
+    "postgres": "127.0.0.1:55432",
+    "mainServicesUnchanged": true
   },
   "compose": {
     "schema": "PASS",
@@ -83,9 +86,14 @@
     "activeDaemonSignal": "NOT_RUN"
   },
   "blockers": [
-    "VPS_CAPACITY",
     "PRODUCTION_POLICY_APPROVAL",
     "SCIENTIFIC_ACCEPTANCE",
+    "PRIVATE_CONFIGURATION",
+    "OPERATOR_AND_ALERT_OWNER",
+    "FULL_SIZE_CANDIDATE_ACCEPTANCE",
+    "COMPOSE_EXACT_LIMITS_ACCEPTANCE",
+    "ACTIVE_DAEMON_SIGNAL_ACCEPTANCE",
+    "PRODUCTION_POLICY_APPROVAL",
     "PRIVATE_CONFIGURATION",
     "OPERATOR_AND_ALERT_OWNER"
   ]
