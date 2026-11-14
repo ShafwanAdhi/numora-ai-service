@@ -113,6 +113,7 @@ export function validateInput(input) {
   unique(input.respondents, 'attemptId');
   unique(input.responses, 'attemptItemId');
   unique(input.comparisons, 'comparisonId');
+  if (drill) assert(input.comparisons.length === 0, 'IRT_INPUT_INVALID');
   assert(input.anchorQuestionVersionIds.length === (drill ? 3 : 5), 'IRT_ANCHOR_INVALID');
   assert(
     input.packages.filter((p) => p.armKind === 'ORIGINAL').length === 1 &&
@@ -342,9 +343,7 @@ export function validateResult(output, input, expectedDispatch) {
     new Map(input.comparisons.map((c) => [c.comparisonId, c])),
     'comparisonId',
   );
-  const people = new Map(
-    (input.ecosystem === 'TRYOUT' ? input.respondents : []).map((r) => [r.attemptId, r]),
-  );
+  const people = new Map(input.respondents.map((r) => [r.attemptId, r]));
   exactCoverage(o.respondents, people, 'attemptId');
   unique(o.respondents, 'respondentId');
   const counts = new Map(input.items.map((i) => [i.questionVersionId, 0]));
@@ -417,7 +416,31 @@ export function validateResult(output, input, expectedDispatch) {
       ),
       'IRT_IDENTITY_MISMATCH',
     );
-    if (row.status === 'SCORED') {
+    if (row.status === 'SCORED' && input.ecosystem === 'DRILL') {
+      assert(
+        Number.isFinite(row.theta) &&
+          Number.isFinite(row.standardError) &&
+          row.score === null &&
+          row.scoreMapping === null &&
+          row.referencePackage === null &&
+          row.usedQuestionVersionIds.length > 0 &&
+          row.reasonCodes.length === 0 &&
+          packageResults.get(pk(row)).measurementState === 'CALIBRATED',
+        'IRT_RESULT_STATE_INVALID',
+      );
+      const delivered = packs.get(pk(row)).questionVersionIds;
+      assert(
+        row.usedQuestionVersionIds.every(
+          (id) =>
+            delivered.includes(id) &&
+            results.get(id).measurementState === 'CALIBRATED' &&
+            ['RESPONDED', 'OMITTED'].includes(
+              responseByItem.get(`${row.attemptId}:${id}`)?.responseState,
+            ),
+        ),
+        'IRT_INVALID_REFERENCE',
+      );
+    } else if (row.status === 'SCORED') {
       assert(
         input.policies.scoreMapping !== null &&
           same(row.scoreMapping, input.policies.scoreMapping) &&
@@ -425,8 +448,8 @@ export function validateResult(output, input, expectedDispatch) {
         'IRT_POLICY_MISMATCH',
       );
       assert(
-        row.theta !== null &&
-          row.standardError !== null &&
+          Number.isFinite(row.theta) &&
+          Number.isFinite(row.standardError) &&
           row.score !== null &&
           row.usedQuestionVersionIds.length > 0 &&
           row.reasonCodes.length === 0 &&
