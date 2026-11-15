@@ -1,0 +1,77 @@
+{
+  "version": "tryout-irt-drill-research-candidate-v1",
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "eligibility": {
+    "purpose": "RESEARCH_ONLY",
+    "ecosystem": "DRILL",
+    "firstValidAttemptOnly": true,
+    "deliveryModes": [
+      "ASSIGNED"
+    ],
+    "exposureStates": [
+      "FRESH"
+    ],
+    "responseStates": [
+      "RESPONDED",
+      "OMITTED"
+    ],
+    "scope": "LEVEL"
+  },
+  "scoring": {
+    "purpose": "RESEARCH_ONLY",
+    "categoryPoints": "PROPORTIONAL_TO_MAXIMUM",
+    "oneQuestionOneUnit": true
+  },
+  "engine": {
+    "name": "mirt",
+    "version": "1.48",
+    "dimensions": 1,
+    "method": "EM",
+    "quadrature": 61,
+    "maxIterations": 1000,
+    "tolerance": 0.0001,
+    "seed": 20261109,
+    "threads": 1
+  },
+  "quality": {
+    "minimumArmCount": 500,
+    "minimumItemCount": 500,
+    "minimumCategoryCount": 20,
+    "maximumDiscriminationSE": 0.3,
+    "maximumDifficultySE": 0.4,
+    "fitAlpha": 0.01,
+    "maximumAdjustedQ3": 0.2,
+    "anchorDifficultyTolerance": 0.3,
+    "anchorLogSlopeTolerance": 0.2
+  },
+  "respondent": {
+    "method": "EAP",
+    "priorMean": 0,
+    "priorVariance": 1,
+    "minimumValidItems": 8,
+    "maximumPosteriorSD": 0.8
+  },
+  "mapping": null,
+  "runtime": {
+    "concurrency": 1,
+    "timeoutSeconds": 900,
+    "heartbeatSeconds": 15,
+    "leaseSeconds": 60,
+    "maximumExecutions": 3,
+    "maximumRespondents": 5000,
+    "maximumArms": 3
+  },
+  "capabilities": {
+    "ecosystems": [
+      "DRILL"
+    ],
+    "comparisons": false,
+    "publication": false
+  },
+  "scope": {
+    "ecosystem": "DRILL",
+    "dimension": "LEVEL"
+  },
+  "candidateThresholds": true
+}
