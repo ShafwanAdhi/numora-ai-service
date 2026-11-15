@@ -14,6 +14,6 @@ def main():
  # Frozen research replay must hash identically; runtime completion time is not evidence.
  result["completedAt"] = value["window"]["gradingCutoffAt"]
  result["drillResearchCandidate"]=True;result["productionApproved"]=False
- a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps({"artifact":result,"diagnostics":diagnostics},indent=2,allow_nan=False)+"\n")
+ a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps({"artifact":result,"diagnostics":diagnostics},indent=2,sort_keys=True,allow_nan=False)+"\n")
  print(json.dumps({"status":"PASS","measurementState":result["outcome"]["measurementState"],"respondents":len(result["outcome"]["respondents"]),"digest":hashlib.sha256(a.output.read_bytes()).hexdigest()}))
 if __name__=="__main__":main()
