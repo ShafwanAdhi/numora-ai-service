@@ -25,20 +25,37 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "exposureState"],
+          "path": [
+            "responses",
+            0,
+            "exposureState"
+          ],
           "value": "KNOWN_PRIOR",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "priorExposureSources"],
-          "value": ["PRETEST"],
+          "path": [
+            "responses",
+            0,
+            "priorExposureSources"
+          ],
+          "value": [
+            "PRETEST"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["FIRST_VALID_ATTEMPT", "BETA_PRIOR_EXPOSURE_ALLOWED"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "FIRST_VALID_ATTEMPT",
+            "BETA_PRIOR_EXPOSURE_ALLOWED"
+          ],
           "op": "set"
         }
       ],
@@ -52,20 +69,37 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "exposureState"],
+          "path": [
+            "responses",
+            0,
+            "exposureState"
+          ],
           "value": "KNOWN_PRIOR",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "priorExposureSources"],
-          "value": ["PVP"],
+          "path": [
+            "responses",
+            0,
+            "priorExposureSources"
+          ],
+          "value": [
+            "PVP"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["FIRST_VALID_ATTEMPT", "BETA_PRIOR_EXPOSURE_ALLOWED"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "FIRST_VALID_ATTEMPT",
+            "BETA_PRIOR_EXPOSURE_ALLOWED"
+          ],
           "op": "set"
         }
       ],
@@ -79,20 +113,37 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "exposureState"],
+          "path": [
+            "responses",
+            0,
+            "exposureState"
+          ],
           "value": "KNOWN_PRIOR",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "priorExposureSources"],
-          "value": ["TRYOUT"],
+          "path": [
+            "responses",
+            0,
+            "priorExposureSources"
+          ],
+          "value": [
+            "TRYOUT"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["FIRST_VALID_ATTEMPT", "BETA_PRIOR_EXPOSURE_ALLOWED"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "FIRST_VALID_ATTEMPT",
+            "BETA_PRIOR_EXPOSURE_ALLOWED"
+          ],
           "op": "set"
         }
       ],
@@ -106,26 +157,46 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "exposureState"],
+          "path": [
+            "responses",
+            0,
+            "exposureState"
+          ],
           "value": "KNOWN_PRIOR",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "priorExposureSources"],
-          "value": ["PRETEST"],
+          "path": [
+            "responses",
+            0,
+            "priorExposureSources"
+          ],
+          "value": [
+            "PRETEST"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "includedInCalibration"],
+          "path": [
+            "responses",
+            0,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["PRIOR_EXPOSURE"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "PRIOR_EXPOSURE"
+          ],
           "op": "set"
         }
       ],
@@ -139,134 +210,242 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "firstValidAttempt"],
+          "path": [
+            "respondents",
+            0,
+            "firstValidAttempt"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["respondents", 0, "attemptIndex"],
+          "path": [
+            "respondents",
+            0,
+            "attemptIndex"
+          ],
           "value": 2,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "includedInCalibration"],
+          "path": [
+            "responses",
+            0,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 1, "includedInCalibration"],
+          "path": [
+            "responses",
+            1,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 1, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            1,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 2, "includedInCalibration"],
+          "path": [
+            "responses",
+            2,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 2, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            2,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 3, "includedInCalibration"],
+          "path": [
+            "responses",
+            3,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 3, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            3,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 4, "includedInCalibration"],
+          "path": [
+            "responses",
+            4,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 4, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            4,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 5, "includedInCalibration"],
+          "path": [
+            "responses",
+            5,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 5, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            5,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 6, "includedInCalibration"],
+          "path": [
+            "responses",
+            6,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 6, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            6,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 7, "includedInCalibration"],
+          "path": [
+            "responses",
+            7,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 7, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            7,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 8, "includedInCalibration"],
+          "path": [
+            "responses",
+            8,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 8, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            8,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 9, "includedInCalibration"],
+          "path": [
+            "responses",
+            9,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 9, "eligibilityReasons"],
-          "value": ["RETRY"],
+          "path": [
+            "responses",
+            9,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "RETRY"
+          ],
           "op": "set"
         }
       ],
@@ -280,134 +459,242 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "assignedArmId"],
+          "path": [
+            "respondents",
+            0,
+            "assignedArmId"
+          ],
           "value": "10000000-0000-4000-8000-000000000015",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["respondents", 0, "deliveryMode"],
+          "path": [
+            "respondents",
+            0,
+            "deliveryMode"
+          ],
           "value": "ORIGINAL_FALLBACK",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "includedInCalibration"],
+          "path": [
+            "responses",
+            0,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 1, "includedInCalibration"],
+          "path": [
+            "responses",
+            1,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 1, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            1,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 2, "includedInCalibration"],
+          "path": [
+            "responses",
+            2,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 2, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            2,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 3, "includedInCalibration"],
+          "path": [
+            "responses",
+            3,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 3, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            3,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 4, "includedInCalibration"],
+          "path": [
+            "responses",
+            4,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 4, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            4,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 5, "includedInCalibration"],
+          "path": [
+            "responses",
+            5,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 5, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            5,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 6, "includedInCalibration"],
+          "path": [
+            "responses",
+            6,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 6, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            6,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 7, "includedInCalibration"],
+          "path": [
+            "responses",
+            7,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 7, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            7,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 8, "includedInCalibration"],
+          "path": [
+            "responses",
+            8,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 8, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            8,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 9, "includedInCalibration"],
+          "path": [
+            "responses",
+            9,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 9, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            9,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         }
       ],
@@ -421,20 +708,34 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "exposureState"],
+          "path": [
+            "responses",
+            0,
+            "exposureState"
+          ],
           "value": "UNKNOWN",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "includedInCalibration"],
+          "path": [
+            "responses",
+            0,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["UNKNOWN_EXPOSURE"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "UNKNOWN_EXPOSURE"
+          ],
           "op": "set"
         }
       ],
@@ -448,19 +749,31 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "responseState"],
+          "path": [
+            "responses",
+            0,
+            "responseState"
+          ],
           "value": "OMITTED",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "scoreCategory"],
+          "path": [
+            "responses",
+            0,
+            "scoreCategory"
+          ],
           "value": 0,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "awardedPoints"],
+          "path": [
+            "responses",
+            0,
+            "awardedPoints"
+          ],
           "value": "0.00",
           "op": "set"
         }
@@ -475,32 +788,54 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "responseState"],
+          "path": [
+            "responses",
+            0,
+            "responseState"
+          ],
           "value": "INVALID",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "scoreCategory"],
+          "path": [
+            "responses",
+            0,
+            "scoreCategory"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "awardedPoints"],
+          "path": [
+            "responses",
+            0,
+            "awardedPoints"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "includedInCalibration"],
+          "path": [
+            "responses",
+            0,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["TECHNICAL_INVALID"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "TECHNICAL_INVALID"
+          ],
           "op": "set"
         }
       ],
@@ -514,13 +849,17 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents"],
+          "path": [
+            "respondents"
+          ],
           "value": [],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses"],
+          "path": [
+            "responses"
+          ],
           "value": [],
           "op": "set"
         }
@@ -535,19 +874,26 @@
       "patches": [
         {
           "target": "input",
-          "path": ["policies", "scoreMapping"],
+          "path": [
+            "policies",
+            "scoreMapping"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["referencePackage"],
+          "path": [
+            "referencePackage"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["referenceQuestionVersionIds"],
+          "path": [
+            "referenceQuestionVersionIds"
+          ],
           "value": [],
           "op": "set"
         }
@@ -562,7 +908,9 @@
       "patches": [
         {
           "target": "input",
-          "path": ["contractVersion"],
+          "path": [
+            "contractVersion"
+          ],
           "value": "v999",
           "op": "set"
         }
@@ -577,7 +925,9 @@
       "patches": [
         {
           "target": "input",
-          "path": ["email"],
+          "path": [
+            "email"
+          ],
           "value": "student@example.invalid",
           "op": "set"
         }
@@ -592,7 +942,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "respondentId"],
+          "path": [
+            "respondents",
+            0,
+            "respondentId"
+          ],
           "value": "00000000-0000-0000-0000-000000000000",
           "op": "set"
         }
@@ -607,7 +961,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "scoreCategory"],
+          "path": [
+            "responses",
+            0,
+            "scoreCategory"
+          ],
           "value": true,
           "op": "set"
         }
@@ -622,7 +980,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "attemptIndex"],
+          "path": [
+            "respondents",
+            0,
+            "attemptIndex"
+          ],
           "value": 9007199254740992,
           "op": "set"
         }
@@ -637,7 +999,10 @@
       "patches": [
         {
           "target": "input",
-          "path": ["context", "scope"],
+          "path": [
+            "context",
+            "scope"
+          ],
           "value": "TRYOUT_BATCH",
           "op": "set"
         }
@@ -652,7 +1017,10 @@
       "patches": [
         {
           "target": "input",
-          "path": ["context", "scaleId"],
+          "path": [
+            "context",
+            "scaleId"
+          ],
           "value": "L:unrelated",
           "op": "set"
         }
@@ -667,7 +1035,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "batchId"],
+          "path": [
+            "respondents",
+            0,
+            "batchId"
+          ],
           "value": "10000000-0000-4000-8000-000000000005",
           "op": "set"
         }
@@ -682,7 +1054,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "packageVersion"],
+          "path": [
+            "respondents",
+            0,
+            "packageVersion"
+          ],
           "value": 9,
           "op": "set"
         }
@@ -697,7 +1073,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "assignedArmId"],
+          "path": [
+            "respondents",
+            0,
+            "assignedArmId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -712,7 +1092,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "assignedArmId"],
+          "path": [
+            "respondents",
+            0,
+            "assignedArmId"
+          ],
           "value": "10000000-0000-4000-8000-000000000015",
           "op": "set"
         }
@@ -727,7 +1111,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "submittedAt"],
+          "path": [
+            "respondents",
+            0,
+            "submittedAt"
+          ],
           "value": "2026-11-08T00:30:00Z",
           "op": "set"
         }
@@ -742,7 +1130,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "gradedAt"],
+          "path": [
+            "respondents",
+            0,
+            "gradedAt"
+          ],
           "value": "2026-11-08T02:00:00Z",
           "op": "set"
         }
@@ -757,7 +1149,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "awardedPoints"],
+          "path": [
+            "responses",
+            0,
+            "awardedPoints"
+          ],
           "value": "4.00",
           "op": "set"
         }
@@ -772,7 +1168,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "scoreCategory"],
+          "path": [
+            "responses",
+            0,
+            "scoreCategory"
+          ],
           "value": 5,
           "op": "set"
         }
@@ -787,7 +1187,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "awardedPoints"],
+          "path": [
+            "responses",
+            0,
+            "awardedPoints"
+          ],
           "value": "0.00",
           "op": "set"
         }
@@ -802,7 +1206,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "responseState"],
+          "path": [
+            "responses",
+            0,
+            "responseState"
+          ],
           "value": "OMITTED",
           "op": "set"
         }
@@ -817,7 +1225,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "responseState"],
+          "path": [
+            "responses",
+            0,
+            "responseState"
+          ],
           "value": "INVALID",
           "op": "set"
         }
@@ -832,7 +1244,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "attemptId"],
+          "path": [
+            "responses",
+            0,
+            "attemptId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -847,7 +1263,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "respondentId"],
+          "path": [
+            "responses",
+            0,
+            "respondentId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -862,7 +1282,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "rubricVersionId"],
+          "path": [
+            "responses",
+            0,
+            "rubricVersionId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -877,7 +1301,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "firstValidAttempt"],
+          "path": [
+            "respondents",
+            0,
+            "firstValidAttempt"
+          ],
           "value": false,
           "op": "set"
         }
@@ -892,8 +1320,15 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["FIRST_VALID_ATTEMPT", "RETRY"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "FIRST_VALID_ATTEMPT",
+            "RETRY"
+          ],
           "op": "set"
         }
       ],
@@ -907,7 +1342,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "exposureState"],
+          "path": [
+            "responses",
+            0,
+            "exposureState"
+          ],
           "value": "UNKNOWN",
           "op": "set"
         }
@@ -922,8 +1361,14 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "priorExposureSources"],
-          "value": ["PVP"],
+          "path": [
+            "responses",
+            0,
+            "priorExposureSources"
+          ],
+          "value": [
+            "PVP"
+          ],
           "op": "set"
         }
       ],
@@ -937,7 +1382,10 @@
       "patches": [
         {
           "target": "input",
-          "path": ["items", 1],
+          "path": [
+            "items",
+            1
+          ],
           "value": {
             "questionVersionId": "10000000-0000-4000-8000-000000000064",
             "familyId": "10000000-0000-4000-8000-0000000003e8",
@@ -963,7 +1411,10 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 1],
+          "path": [
+            "respondents",
+            1
+          ],
           "value": {
             "respondentId": "10000000-0000-4000-8000-00000000001e",
             "attemptId": "10000000-0000-4000-8000-000000000028",
@@ -991,7 +1442,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 1, "attemptItemId"],
+          "path": [
+            "responses",
+            1,
+            "attemptItemId"
+          ],
           "value": "10000000-0000-4000-8000-000000002710",
           "op": "set"
         }
@@ -1006,7 +1461,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["items", 10, "familyId"],
+          "path": [
+            "items",
+            10,
+            "familyId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -1021,7 +1480,11 @@
       "patches": [
         {
           "target": "input",
-          "path": ["items", 1, "modelFamily"],
+          "path": [
+            "items",
+            1,
+            "modelFamily"
+          ],
           "value": "GPCM",
           "op": "set"
         }
@@ -1030,13 +1493,16 @@
     },
     {
       "name": "comparison needs approval",
-      "input": "examples/drill-input.json",
+      "input": "examples/tryout-input.json",
       "result": null,
       "kind": "input",
       "patches": [
         {
           "target": "input",
-          "path": ["policies", "comparison"],
+          "path": [
+            "policies",
+            "comparison"
+          ],
           "value": null,
           "op": "set"
         }
@@ -1051,7 +1517,9 @@
       "patches": [
         {
           "target": "input",
-          "path": ["referencePackage"],
+          "path": [
+            "referencePackage"
+          ],
           "value": {
             "packageId": "10000000-0000-4000-8000-00000000000a",
             "packageVersion": 1
@@ -1069,8 +1537,13 @@
       "patches": [
         {
           "target": "input",
-          "path": ["anchorQuestionVersionIds"],
-          "value": ["10000000-0000-4000-8000-000000000064", "10000000-0000-4000-8000-000000000065"],
+          "path": [
+            "anchorQuestionVersionIds"
+          ],
+          "value": [
+            "10000000-0000-4000-8000-000000000064",
+            "10000000-0000-4000-8000-000000000065"
+          ],
           "op": "set"
         }
       ],
@@ -1084,7 +1557,10 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0],
+          "path": [
+            "responses",
+            0
+          ],
           "value": null,
           "op": "remove"
         }
@@ -1099,7 +1575,9 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses"],
+          "path": [
+            "responses"
+          ],
           "value": {
             "respondentId": "10000000-0000-4000-8000-00000000001e",
             "attemptId": "10000000-0000-4000-8000-000000000028",
@@ -1112,7 +1590,9 @@
             "exposureState": "FRESH",
             "priorExposureSources": [],
             "includedInCalibration": true,
-            "eligibilityReasons": ["FIRST_VALID_ATTEMPT"]
+            "eligibilityReasons": [
+              "FIRST_VALID_ATTEMPT"
+            ]
           },
           "op": "append"
         }
@@ -1127,7 +1607,10 @@
       "patches": [
         {
           "target": "input",
-          "path": ["window", "resultDueAt"],
+          "path": [
+            "window",
+            "resultDueAt"
+          ],
           "value": "2026-11-11T00:00:00Z",
           "op": "set"
         }
@@ -1142,20 +1625,37 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "exposureState"],
+          "path": [
+            "responses",
+            0,
+            "exposureState"
+          ],
           "value": "KNOWN_PRIOR",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "priorExposureSources"],
-          "value": ["PVP"],
+          "path": [
+            "responses",
+            0,
+            "priorExposureSources"
+          ],
+          "value": [
+            "PVP"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["FIRST_VALID_ATTEMPT", "BETA_PRIOR_EXPOSURE_ALLOWED"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "FIRST_VALID_ATTEMPT",
+            "BETA_PRIOR_EXPOSURE_ALLOWED"
+          ],
           "op": "set"
         }
       ],
@@ -1169,20 +1669,37 @@
       "patches": [
         {
           "target": "input",
-          "path": ["responses", 0, "exposureState"],
+          "path": [
+            "responses",
+            0,
+            "exposureState"
+          ],
           "value": "KNOWN_PRIOR",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "priorExposureSources"],
-          "value": ["DRILL"],
+          "path": [
+            "responses",
+            0,
+            "priorExposureSources"
+          ],
+          "value": [
+            "DRILL"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["FIRST_VALID_ATTEMPT", "BETA_PRIOR_EXPOSURE_ALLOWED"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "FIRST_VALID_ATTEMPT",
+            "BETA_PRIOR_EXPOSURE_ALLOWED"
+          ],
           "op": "set"
         }
       ],
@@ -1196,139 +1713,251 @@
       "patches": [
         {
           "target": "input",
-          "path": ["respondents", 0, "assignedArmId"],
+          "path": [
+            "respondents",
+            0,
+            "assignedArmId"
+          ],
           "value": "10000000-0000-4000-8000-000000000015",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["respondents", 0, "deliveryMode"],
+          "path": [
+            "respondents",
+            0,
+            "deliveryMode"
+          ],
           "value": "ORIGINAL_FALLBACK",
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "includedInCalibration"],
+          "path": [
+            "responses",
+            0,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            0,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 1, "includedInCalibration"],
+          "path": [
+            "responses",
+            1,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 1, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            1,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 2, "includedInCalibration"],
+          "path": [
+            "responses",
+            2,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 2, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            2,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 3, "includedInCalibration"],
+          "path": [
+            "responses",
+            3,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 3, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            3,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 4, "includedInCalibration"],
+          "path": [
+            "responses",
+            4,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 4, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            4,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 5, "includedInCalibration"],
+          "path": [
+            "responses",
+            5,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 5, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            5,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 6, "includedInCalibration"],
+          "path": [
+            "responses",
+            6,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 6, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            6,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 7, "includedInCalibration"],
+          "path": [
+            "responses",
+            7,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 7, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            7,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 8, "includedInCalibration"],
+          "path": [
+            "responses",
+            8,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 8, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            8,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 9, "includedInCalibration"],
+          "path": [
+            "responses",
+            9,
+            "includedInCalibration"
+          ],
           "value": false,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 9, "eligibilityReasons"],
-          "value": ["ARM_CROSSOVER"],
+          "path": [
+            "responses",
+            9,
+            "eligibilityReasons"
+          ],
+          "value": [
+            "ARM_CROSSOVER"
+          ],
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["responses", 0, "includedInCalibration"],
+          "path": [
+            "responses",
+            0,
+            "includedInCalibration"
+          ],
           "value": true,
           "op": "set"
         }
@@ -1351,7 +1980,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "usedQuestionVersionIds", 0],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "usedQuestionVersionIds",
+            0
+          ],
           "value": "10000000-0000-4000-8000-00000000012c",
           "op": "set"
         }
@@ -1406,7 +2041,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["snapshotId"],
+          "path": [
+            "snapshotId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -1421,7 +2058,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["inputDigest"],
+          "path": [
+            "inputDigest"
+          ],
           "value": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
           "op": "set"
         }
@@ -1436,7 +2075,10 @@
       "patches": [
         {
           "target": "result",
-          "path": ["context", "revision"],
+          "path": [
+            "context",
+            "revision"
+          ],
           "value": 2,
           "op": "set"
         }
@@ -1451,7 +2093,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["rank"],
+          "path": [
+            "rank"
+          ],
           "value": 1,
           "op": "set"
         }
@@ -1466,7 +2110,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["executionId"],
+          "path": [
+            "executionId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -1481,7 +2127,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["dispatchGeneration"],
+          "path": [
+            "dispatchGeneration"
+          ],
           "value": 2,
           "op": "set"
         }
@@ -1496,7 +2144,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["completedAt"],
+          "path": [
+            "completedAt"
+          ],
           "value": "2026-11-07T23:59:00Z",
           "op": "set"
         }
@@ -1511,7 +2161,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome"],
+          "path": [
+            "outcome"
+          ],
           "value": null,
           "op": "set"
         }
@@ -1526,7 +2178,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["failure"],
+          "path": [
+            "failure"
+          ],
           "value": {
             "code": "TIMEOUT",
             "retryable": true
@@ -1544,7 +2198,10 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "measurementState"],
+          "path": [
+            "outcome",
+            "measurementState"
+          ],
           "value": "INSUFFICIENT",
           "op": "set"
         }
@@ -1559,7 +2216,10 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents"],
+          "path": [
+            "outcome",
+            "respondents"
+          ],
           "value": [],
           "op": "set"
         }
@@ -1574,7 +2234,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "respondentId"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "respondentId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -1589,7 +2254,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "attemptId"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "attemptId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -1604,7 +2274,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "packageVersion"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "packageVersion"
+          ],
           "value": 99,
           "op": "set"
         }
@@ -1619,7 +2294,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "batchId"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "batchId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -1634,7 +2314,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "scoreMapping", "digest"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "scoreMapping",
+            "digest"
+          ],
           "value": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
           "op": "set"
         }
@@ -1649,7 +2335,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "referencePackage", "packageVersion"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "referencePackage",
+            "packageVersion"
+          ],
           "value": 99,
           "op": "set"
         }
@@ -1664,7 +2356,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "standardError"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "standardError"
+          ],
           "value": -1,
           "op": "set"
         }
@@ -1679,7 +2376,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "score"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "score"
+          ],
           "value": 101,
           "op": "set"
         }
@@ -1694,7 +2396,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "theta"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "theta"
+          ],
           "value": null,
           "op": "set"
         }
@@ -1709,7 +2416,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "usedQuestionVersionIds"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "usedQuestionVersionIds"
+          ],
           "value": [],
           "op": "set"
         }
@@ -1724,8 +2436,15 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "usedQuestionVersionIds"],
-          "value": ["10000000-0000-4000-8000-0000000003e7"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "usedQuestionVersionIds"
+          ],
+          "value": [
+            "10000000-0000-4000-8000-0000000003e7"
+          ],
           "op": "set"
         }
       ],
@@ -1739,7 +2458,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 0, "eligibleRespondentCount"],
+          "path": [
+            "outcome",
+            "items",
+            0,
+            "eligibleRespondentCount"
+          ],
           "value": 999,
           "op": "set"
         }
@@ -1754,7 +2478,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 0, "rubricVersionId"],
+          "path": [
+            "outcome",
+            "items",
+            0,
+            "rubricVersionId"
+          ],
           "value": "10000000-0000-4000-8000-0000000003e7",
           "op": "set"
         }
@@ -1769,7 +2498,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 1, "parameters", "discriminationA"],
+          "path": [
+            "outcome",
+            "items",
+            1,
+            "parameters",
+            "discriminationA"
+          ],
           "value": -1,
           "op": "set"
         }
@@ -1784,7 +2519,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 1, "parameters", "difficultyStandardError"],
+          "path": [
+            "outcome",
+            "items",
+            1,
+            "parameters",
+            "difficultyStandardError"
+          ],
           "value": -1,
           "op": "set"
         }
@@ -1799,7 +2540,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 1, "parameters", "steps"],
+          "path": [
+            "outcome",
+            "items",
+            1,
+            "parameters",
+            "steps"
+          ],
           "value": [
             {
               "step": 1,
@@ -1820,7 +2567,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 0, "parameters", "steps"],
+          "path": [
+            "outcome",
+            "items",
+            0,
+            "parameters",
+            "steps"
+          ],
           "value": [],
           "op": "set"
         }
@@ -1835,7 +2588,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 0, "parameters", "difficultyB"],
+          "path": [
+            "outcome",
+            "items",
+            0,
+            "parameters",
+            "difficultyB"
+          ],
           "value": 0,
           "op": "set"
         }
@@ -1850,7 +2609,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 0, "quality", "gate"],
+          "path": [
+            "outcome",
+            "items",
+            0,
+            "quality",
+            "gate"
+          ],
           "value": "FAILED",
           "op": "set"
         }
@@ -1865,7 +2630,13 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "packages", 0, "quality", "checks"],
+          "path": [
+            "outcome",
+            "packages",
+            0,
+            "quality",
+            "checks"
+          ],
           "value": [],
           "op": "set"
         }
@@ -1880,7 +2651,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "comparisons", 0, "metrics"],
+          "path": [
+            "outcome",
+            "comparisons",
+            0,
+            "metrics"
+          ],
           "value": [],
           "op": "set"
         }
@@ -1895,7 +2671,15 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "comparisons", 0, "metrics", 0, "interval", "lower"],
+          "path": [
+            "outcome",
+            "comparisons",
+            0,
+            "metrics",
+            0,
+            "interval",
+            "lower"
+          ],
           "value": 1,
           "op": "set"
         }
@@ -1910,7 +2694,9 @@
       "patches": [
         {
           "target": "dispatch",
-          "path": ["dispatchGeneration"],
+          "path": [
+            "dispatchGeneration"
+          ],
           "value": 2,
           "op": "set"
         }
@@ -1925,7 +2711,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "items", 0, "parameters"],
+          "path": [
+            "outcome",
+            "items",
+            0,
+            "parameters"
+          ],
           "value": {
             "discriminationA": 1.1,
             "discriminationStandardError": 0.1,
@@ -1967,7 +2758,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome"],
+          "path": [
+            "outcome"
+          ],
           "value": {
             "measurementState": "CALIBRATED",
             "items": [
@@ -4585,7 +5378,10 @@
       "patches": [
         {
           "target": "result",
-          "path": ["failure", "code"],
+          "path": [
+            "failure",
+            "code"
+          ],
           "value": "INVALID_INPUT",
           "op": "set"
         }
@@ -4600,13 +5396,19 @@
       "patches": [
         {
           "target": "result",
-          "path": ["failure", "code"],
+          "path": [
+            "failure",
+            "code"
+          ],
           "value": "POLICY_UNAVAILABLE",
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["failure", "retryable"],
+          "path": [
+            "failure",
+            "retryable"
+          ],
           "value": false,
           "op": "set"
         }
@@ -4645,14 +5447,26 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "status"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "status"
+          ],
           "value": "UNSCORABLE",
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "reasonCodes"],
-          "value": ["NO_VALID_ITEMS"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "reasonCodes"
+          ],
+          "value": [
+            "NO_VALID_ITEMS"
+          ],
           "op": "set"
         }
       ],
@@ -4666,13 +5480,17 @@
       "patches": [
         {
           "target": "dispatch",
-          "path": ["dispatchGeneration"],
+          "path": [
+            "dispatchGeneration"
+          ],
           "value": 1.0,
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["dispatchGeneration"],
+          "path": [
+            "dispatchGeneration"
+          ],
           "value": 1.0,
           "op": "set"
         }
@@ -4687,7 +5505,9 @@
       "patches": [
         {
           "target": "dispatch",
-          "path": ["dispatchGeneration"],
+          "path": [
+            "dispatchGeneration"
+          ],
           "value": 1.5,
           "op": "set"
         }
@@ -4702,7 +5522,9 @@
       "patches": [
         {
           "target": "dispatch",
-          "path": ["dispatchGeneration"],
+          "path": [
+            "dispatchGeneration"
+          ],
           "value": true,
           "op": "set"
         }
@@ -4717,7 +5539,9 @@
       "patches": [
         {
           "target": "dispatch",
-          "path": ["dispatchGeneration"],
+          "path": [
+            "dispatchGeneration"
+          ],
           "value": 9007199254740992,
           "op": "set"
         }
@@ -4732,7 +5556,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["completedAt"],
+          "path": [
+            "completedAt"
+          ],
           "value": "2026-11-08T00:00:60Z",
           "op": "set"
         }
@@ -4747,7 +5573,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["completedAt"],
+          "path": [
+            "completedAt"
+          ],
           "value": "2026-11-08T00:00:00.123456Z",
           "op": "set"
         }
@@ -4762,7 +5590,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["completedAt"],
+          "path": [
+            "completedAt"
+          ],
           "value": "2026-11-08T07:00:00+07:00",
           "op": "set"
         }
@@ -4777,7 +5607,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["completedAt"],
+          "path": [
+            "completedAt"
+          ],
           "value": "0000-11-08T00:00:00Z",
           "op": "set"
         }
@@ -4792,7 +5624,9 @@
       "patches": [
         {
           "target": "result",
-          "path": ["executionId"],
+          "path": [
+            "executionId"
+          ],
           "value": "aaaaaaaa-AAAA-4aaa-8aaa-aaaaaaaaaaaa",
           "op": "set"
         }
@@ -4807,14 +5641,26 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "comparisons", 0, "decision"],
+          "path": [
+            "outcome",
+            "comparisons",
+            0,
+            "decision"
+          ],
           "value": "DRIFT",
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "comparisons", 0, "reasonCodes"],
-          "value": ["MATERIAL_DRIFT"],
+          "path": [
+            "outcome",
+            "comparisons",
+            0,
+            "reasonCodes"
+          ],
+          "value": [
+            "MATERIAL_DRIFT"
+          ],
           "op": "set"
         }
       ],
@@ -4828,7 +5674,12 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "comparisons", 0, "decision"],
+          "path": [
+            "outcome",
+            "comparisons",
+            0,
+            "decision"
+          ],
           "value": "DRIFT",
           "op": "set"
         }
@@ -4843,50 +5694,92 @@
       "patches": [
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "theta"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "theta"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "standardError"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "standardError"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "score"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "score"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "scoreMapping"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "scoreMapping"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "referencePackage"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "referencePackage"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "status"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "status"
+          ],
           "value": "INSUFFICIENT",
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "usedQuestionVersionIds"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "usedQuestionVersionIds"
+          ],
           "value": [],
           "op": "set"
         },
         {
           "target": "result",
-          "path": ["outcome", "respondents", 0, "reasonCodes"],
-          "value": ["RESPONDENT_PRECISION_INSUFFICIENT"],
+          "path": [
+            "outcome",
+            "respondents",
+            0,
+            "reasonCodes"
+          ],
+          "value": [
+            "RESPONDENT_PRECISION_INSUFFICIENT"
+          ],
           "op": "set"
         }
       ],
@@ -4900,19 +5793,26 @@
       "patches": [
         {
           "target": "input",
-          "path": ["policies", "scoreMapping"],
+          "path": [
+            "policies",
+            "scoreMapping"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["referencePackage"],
+          "path": [
+            "referencePackage"
+          ],
           "value": null,
           "op": "set"
         },
         {
           "target": "input",
-          "path": ["referenceQuestionVersionIds"],
+          "path": [
+            "referenceQuestionVersionIds"
+          ],
           "value": [],
           "op": "set"
         }
