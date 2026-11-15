@@ -13,11 +13,15 @@ from .failures import EngineExecutionError
 from .mode import purpose
 
 POLICY_PATH = Path(__file__).resolve().parents[2] / 'research/irt/policy-v1.json'
+DRILL_POLICY_PATH = POLICY_PATH.with_name('policy-drill-v1.json')
 
 
 def policy():
     path=POLICY_PATH.with_name('policy-production-candidate-v1.json') if purpose()=='PRODUCTION' else POLICY_PATH
     return json.loads(path.read_text(encoding='utf-8'))
+
+def drill_policy():
+    return json.loads(DRILL_POLICY_PATH.read_text(encoding='utf-8'))
 
 
 def check(code, passed, statistic=None):
@@ -41,10 +45,10 @@ def anchor_support(people,items,responses,anchors,quality):
 def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
     heartbeat()
     validate_input(value)
-    profile = profile or policy()
-    if profile != policy():
+    profile = profile or (drill_policy() if value['ecosystem'] == 'DRILL' else policy())
+    if profile != (drill_policy() if value['ecosystem'] == 'DRILL' else policy()):
         raise ValueError('POLICY_UNAVAILABLE')
-    if value['ecosystem'] != 'TRYOUT' or value['comparisons']:
+    if value['ecosystem'] not in ('TRYOUT', 'DRILL') or value['comparisons']:
         raise ValueError('UNSUPPORTED_CONTRACT')
     if len(value['respondents']) > profile['runtime']['maximumRespondents'] or len(value['packages']) > profile['runtime']['maximumArms']:
         raise ValueError('INVALID_INPUT')
@@ -183,7 +187,17 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
         reason = 'NO_VALID_ITEMS' if status=='UNSCORABLE' else 'LINKING_FAILED' if status=='NOT_COMPARABLE' else 'INSUFFICIENT_SAMPLE'
         row = {k:person[k] for k in ['respondentId','attemptId','packageId','packageVersion','batchId']}
         row.update(status=status,theta=None,standardError=None,score=None,scoreMapping=None,referencePackage=None,usedQuestionVersionIds=[],reasonCodes=[reason])
-        if package_state=='CALIBRATED' and value['policies']['scoreMapping'] and reference and all(i['questionVersionId'] in parameters for i in reference) and len(observations)>=profile['respondent']['minimumValidItems']:
+        if value['ecosystem'] == 'DRILL':
+            min_items = min(profile['respondent']['minimumValidItems'], len(packages[(person['packageId'], person['packageVersion'])]['questionVersionIds']))
+        else:
+            min_items = profile['respondent']['minimumValidItems']
+        if package_state=='CALIBRATED' and value['ecosystem'] == 'DRILL' and len(observations)>=min_items:
+            theta, se = eap(observations,parameters,prepared=posterior)
+            if se<=profile['respondent']['maximumPosteriorSD']:
+                row.update(status='SCORED',theta=theta,standardError=se,reasonCodes=[],usedQuestionVersionIds=[q for q,_ in observations])
+            else:
+                row['reasonCodes']=['RESPONDENT_PRECISION_INSUFFICIENT']
+        elif package_state=='CALIBRATED' and value['policies']['scoreMapping'] and reference and all(i['questionVersionId'] in parameters for i in reference) and len(observations)>=min_items:
             theta,se = eap(observations,parameters,prepared=posterior)
             if se<=profile['respondent']['maximumPosteriorSD']:
                 row.update(status='SCORED',theta=theta,standardError=se,score=reference_score(theta,reference,parameters),

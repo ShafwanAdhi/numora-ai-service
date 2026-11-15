@@ -29,11 +29,14 @@ class IrtProducerTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'UNSUPPORTED_CONTRACT'):
             run(self.value,self.dispatch,lambda _:None)
 
-    def test_drill_is_explicitly_unsupported_without_a_scientific_outcome(self):
+    def test_drill_insufficient_is_scientific_success_without_score(self):
         root=Path(__file__).resolve().parents[2]/'contracts/irt-calibration-v1'
         value=json.loads((root/'examples/drill-input.json').read_text())
-        with self.assertRaisesRegex(ValueError,'UNSUPPORTED_CONTRACT'):
-            run(value,self.dispatch,lambda _:self.fail('Drill must never invoke this engine'))
+        value['comparisons']=[]
+        result,_=run(value,self.dispatch,lambda _:self.fail('Insufficient Drill must not fit'))
+        self.assertEqual(result['executionStatus'],'SUCCEEDED')
+        self.assertEqual(result['outcome']['measurementState'],'INSUFFICIENT')
+        self.assertTrue(all(p['score'] is None for p in result['outcome']['respondents']))
 
     def test_unreviewed_profile_cannot_silently_lower_thresholds(self):
         from numora_service.irt.producer import policy
