@@ -41,12 +41,14 @@ def anchor_support(people,items,responses,anchors,quality):
     return supported,evidence
 
 
-def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
+def run(value, dispatch, runner, profile=None, heartbeat=lambda:None, allow_research_profile=False):
     heartbeat()
     validate_input(value)
     expected_profile = drill_policy() if value['ecosystem'] == 'DRILL' else policy()
     profile = profile or expected_profile
-    if profile != expected_profile:
+    if profile != expected_profile and not (
+        allow_research_profile and profile.get('purpose') == 'RESEARCH_ONLY'
+    ):
         raise ValueError('POLICY_UNAVAILABLE')
     if value['ecosystem'] not in ('TRYOUT', 'DRILL') or value['comparisons']:
         raise ValueError('UNSUPPORTED_CONTRACT')
