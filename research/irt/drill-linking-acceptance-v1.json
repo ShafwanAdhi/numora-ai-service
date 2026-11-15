@@ -1,0 +1,62 @@
+{
+  "version": "drill-linking-acceptance-v1",
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "fixture": {
+    "seed": 20261122,
+    "latentMode": "BALANCED_PAIRED",
+    "anchors": 3,
+    "focal": 7,
+    "policy": "tryout-irt-drill-research-candidate-v1",
+    "rImage": "sha256:80e667703c19b364a1b8770342a97350f817ab85e1a2092b2f68958b38253036"
+  },
+  "thresholds": {
+    "anchorLogSlopeTolerance": 0.2,
+    "anchorDifficultyTolerance": 0.3
+  },
+  "runs": [
+    {
+      "perArm": 500,
+      "measurementState": "NOT_COMPARABLE",
+      "anchorGate": false,
+      "failedReasons": ["LOG_SLOPE_DIFFERENCE"]
+    },
+    {
+      "perArm": 1000,
+      "measurementState": "NOT_COMPARABLE",
+      "anchorGate": false,
+      "failedReasons": ["LOG_SLOPE_DIFFERENCE"]
+    },
+    {
+      "perArm": 2000,
+      "measurementState": "CALIBRATED",
+      "anchorGate": true,
+      "anchors": {
+        "10000000-0000-4000-8000-000000000064": {
+          "holmP": 1.0,
+          "maximumLogSlopeDifference": 0.04968738197056386,
+          "maximumStepDifference": 0.11145738098747848
+        },
+        "10000000-0000-4000-8000-000000000065": {
+          "holmP": 1.0,
+          "maximumLogSlopeDifference": 0.0757846647297746,
+          "maximumStepDifference": 0.030939426462326725
+        },
+        "10000000-0000-4000-8000-000000000066": {
+          "holmP": 0.6105628492013913,
+          "maximumLogSlopeDifference": 0.12280119590451304,
+          "maximumStepDifference": 0.0949038337273489
+        }
+      },
+      "respondents": 4000,
+      "scoredRespondents": 4000,
+      "replayByteIdentical": true,
+      "artifactSha256": "4e62c3e583d4fc965b8ed52182a02b5a2955f2087a4dcfe2e3cc7525d4e055a0"
+    }
+  ],
+  "limitations": [
+    "Synthetic research evidence only; no production approval.",
+    "500 and 1000 per arm remain valid NOT_COMPARABLE outcomes under unchanged thresholds.",
+    "Drill API, dispatch, publication, fallback, XP, and Main history are out of scope."
+  ]
+}
