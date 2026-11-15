@@ -37,3 +37,14 @@ class AnchorGateTests(unittest.TestCase):
         result=anchor_gate({},self.ids,self.quality,False)
         self.assertTrue(result['passed'])
         self.assertEqual(result['scope'],'REFERENCE_ONLY')
+
+    def test_drill_three_anchor_identity_is_valid(self):
+        ids=['a','b','c']
+        evidence={q:{'evaluated':True,'holmP':1.,'maximumLogSlopeDifference':.1,
+                     'maximumStepDifference':.2} for q in ids}
+        result=anchor_gate(evidence,ids,self.quality)
+        self.assertTrue(result['passed'])
+        self.assertTrue(result['identityValid'])
+
+    def test_empty_anchor_identity_fails_closed(self):
+        self.assertFalse(anchor_gate({},[],self.quality)['passed'])

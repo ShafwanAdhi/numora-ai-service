@@ -22,6 +22,6 @@ def anchor_gate(anchors, expected, quality, linking_required=True):
             elif (value<limit if key=='holmP' else value>limit):
                 reasons.append(reason)
         checks[qid]={'passed':not reasons,'reasons':reasons}
-    identity_ok=len(expected)==5 and set(anchors)==set(expected)
+    identity_ok=bool(expected) and set(anchors)==set(expected)
     return {'passed':identity_ok and all(c['passed'] for c in checks.values()),
             'scope':'ALL_FITTED_ARMS','identityValid':identity_ok,'checks':checks}
