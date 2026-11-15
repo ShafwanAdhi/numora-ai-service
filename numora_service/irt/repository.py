@@ -5,7 +5,7 @@ from psycopg.types.json import Jsonb
 from ..repository import Repository as GeneratorRepository
 from ..contracts import validate_notification
 from ..irt_contracts import validate_input,validate_result
-from .producer import policy
+from .producer import drill_policy, policy
 from .runtime import validate as validate_runtime
 
 
@@ -24,8 +24,8 @@ class Repository(GeneratorRepository):
         if source['cancelled'] or not source['approvals_valid']:raise ValueError('POLICY_UNAVAILABLE')
         value=source['payload']
         if full:validate_input(value)
-        if value['contractVersion']!='irt-calibration-v1' or value['ecosystem']!='TRYOUT' or value['comparisons']:raise ValueError('UNSUPPORTED_CONTRACT')
-        profile=policy()
+        if value['contractVersion']!='irt-calibration-v1' or value['ecosystem'] not in ('TRYOUT','DRILL') or value['comparisons']:raise ValueError('UNSUPPORTED_CONTRACT')
+        profile=drill_policy() if value['ecosystem']=='DRILL' else policy()
         expected={'model':('IRT_MODEL',profile['engine']),'quality':('QUALITY_GATE',profile['quality']),
             'eligibility':('IRT_ELIGIBILITY',profile['eligibility']),
             'scoring':('IRT_SCORING',profile['scoring']),
