@@ -27,6 +27,12 @@ def profiles(base):
         p['quality'].update(anchorLogSlopeTolerance=slope, anchorDifficultyTolerance=step, minimumCategoryCount=category, maximumDiscriminationSE=discrimination, maximumDifficultySE=difficulty)
         yield p
 
+def anchor_profiles(base):
+    for slope, step, category in product([0.10, 0.20, 0.30], [0.20, 0.30, 0.50], [10, 20, 30]):
+        p = deepcopy(base)
+        p['quality'].update(anchorLogSlopeTolerance=slope, anchorDifficultyTolerance=step, minimumCategoryCount=category)
+        yield p
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--image', required=True)
@@ -35,10 +41,12 @@ def main():
     parser.add_argument('--arms', type=int, nargs='+', choices=[2], default=[2])
     parser.add_argument('--seeds', type=int, nargs='+', default=[20261115, 20261116, 20261117])
     parser.add_argument('--sensitivity', action='store_true')
+    parser.add_argument('--anchor-sensitivity', action='store_true')
     args = parser.parse_args()
     image = subprocess.check_output(['docker', 'image', 'inspect', args.image, '--format', '{{.Id}}'], text=True).strip()
     base = policy(); args.output.mkdir(parents=True, exist_ok=True)
-    selected = list(profiles(base)) if args.sensitivity else [base]; rows = []
+    selected = list(profiles(base)) if args.sensitivity else list(anchor_profiles(base)) if args.anchor_sensitivity else [base]; rows = []
+    cache_dir = args.output / 'r-cache'; cache_dir.mkdir(parents=True, exist_ok=True)
     for arms in args.arms:
         for n in args.per_arm:
             for seed in args.seeds:
@@ -47,7 +55,17 @@ def main():
                     value, _ = generate(n, seed, 'MIXED', arms)
                     profile['runtime']['maximumRespondents'] = max(profile['runtime']['maximumRespondents'], n * arms)
                     try:
-                        result, diagnostics = run(value, {'executionId': '55555555-5555-4555-8555-555555555555', 'dispatchGeneration': 1}, lambda work: run_r(work, image=image), profile=profile, allow_research_profile=True)
+                        cache_key = digest({'input': value, 'image': image, 'engine': profile['engine']})
+                        cache_file = cache_dir / f'{cache_key}.json'
+                        if cache_file.exists():
+                            cached = json.loads(cache_file.read_text(encoding='utf-8'))
+                            runner = lambda work: cached
+                        else:
+                            def runner(work):
+                                scientific = run_r(work, image=image)
+                                cache_file.write_text(json.dumps(scientific, sort_keys=True), encoding='utf-8')
+                                return scientific
+                        result, diagnostics = run(value, {'executionId': '55555555-5555-4555-8555-555555555555', 'dispatchGeneration': 1}, runner, profile=profile, allow_research_profile=True)
                         outcome = result['outcome']
                         row = {'arms': arms, 'participantsPerArm': n, 'seed': seed, 'policyDigest': digest(profile), 'inputDigest': digest(value), 'image': image, 'measurementState': outcome['measurementState'], 'calibratedArmCount': sum(p['measurementState'] == 'CALIBRATED' for p in outcome['packages']), 'totalArmCount': len(outcome['packages']), 'scoredRespondentCount': sum(r['status'] == 'SCORED' for r in outcome['respondents']), 'anchorReasons': dict(Counter(reason for c in diagnostics.get('anchorGate', {}).get('checks', {}).values() for reason in c.get('reasons', []))), 'itemFailureReasons': dict(Counter(reason for i in outcome['items'] for reason in i.get('reasonCodes', []))), 'converged': diagnostics.get('converged'), 'durationSeconds': round(time.monotonic() - started, 3)}
                     except Exception as exc:
