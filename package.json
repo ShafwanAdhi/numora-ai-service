@@ -1,0 +1,29 @@
+{
+  "name": "numora-ai-service",
+  "version": "1.0.0",
+  "description": "**Delivery dan IRT — 10 November 2026:**\r [acuan bersama dan strategi 24 jam](docs/TRYOUT_IRT_DELIVERY_CONTEXT.md)\r memuat sumber Admin terbaru. Mesin dan transport riset Tryout multi-arm sudah\r tersedia; [handoff runtime](docs/IRT_AI_HANDOFF.md) memuat pin dan bukti sintetis.\r Target berikutnya adalah boundary penggunaan nyata serta integrasi/adopsi/rilis\r di main, dengan IRT diutamakan dan fallback per arm diizinkan. Self-adjustment\r ditunda. Implementasi riset tidak menjadi approval atau aktivasi produksi.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShafwanAdhi/numora-ai-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ShafwanAdhi/numora-ai-service/issues"
+  },
+  "homepage": "https://github.com/ShafwanAdhi/numora-ai-service#readme",
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}
