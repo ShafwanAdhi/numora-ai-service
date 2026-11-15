@@ -45,9 +45,13 @@ def main():
                 for profile in selected:
                     started = time.monotonic()
                     value, _ = generate(n, seed, 'MIXED', arms)
-                    result, diagnostics = run(value, {'executionId': '55555555-5555-4555-8555-555555555555', 'dispatchGeneration': 1}, lambda work: run_r(work, image=image), profile=profile, allow_research_profile=True)
-                    outcome = result['outcome']
-                    row = {'arms': arms, 'participantsPerArm': n, 'seed': seed, 'policyDigest': digest(profile), 'inputDigest': digest(value), 'image': image, 'measurementState': outcome['measurementState'], 'calibratedArmCount': sum(p['measurementState'] == 'CALIBRATED' for p in outcome['packages']), 'totalArmCount': len(outcome['packages']), 'scoredRespondentCount': sum(r['status'] == 'SCORED' for r in outcome['respondents']), 'anchorReasons': dict(Counter(reason for c in diagnostics.get('anchorGate', {}).get('checks', {}).values() for reason in c.get('reasons', []))), 'itemFailureReasons': dict(Counter(reason for i in outcome['items'] for reason in i.get('reasonCodes', []))), 'converged': diagnostics.get('converged'), 'durationSeconds': round(time.monotonic() - started, 3)}
+                    profile['runtime']['maximumRespondents'] = max(profile['runtime']['maximumRespondents'], n * arms)
+                    try:
+                        result, diagnostics = run(value, {'executionId': '55555555-5555-4555-8555-555555555555', 'dispatchGeneration': 1}, lambda work: run_r(work, image=image), profile=profile, allow_research_profile=True)
+                        outcome = result['outcome']
+                        row = {'arms': arms, 'participantsPerArm': n, 'seed': seed, 'policyDigest': digest(profile), 'inputDigest': digest(value), 'image': image, 'measurementState': outcome['measurementState'], 'calibratedArmCount': sum(p['measurementState'] == 'CALIBRATED' for p in outcome['packages']), 'totalArmCount': len(outcome['packages']), 'scoredRespondentCount': sum(r['status'] == 'SCORED' for r in outcome['respondents']), 'anchorReasons': dict(Counter(reason for c in diagnostics.get('anchorGate', {}).get('checks', {}).values() for reason in c.get('reasons', []))), 'itemFailureReasons': dict(Counter(reason for i in outcome['items'] for reason in i.get('reasonCodes', []))), 'converged': diagnostics.get('converged'), 'durationSeconds': round(time.monotonic() - started, 3)}
+                    except Exception as exc:
+                        row = {'arms': arms, 'participantsPerArm': n, 'seed': seed, 'policyDigest': digest(profile), 'inputDigest': digest(value), 'image': image, 'measurementState': 'BLOCKED', 'error': type(exc).__name__ + ': ' + str(exc), 'durationSeconds': round(time.monotonic() - started, 3)}
                     rows.append(row); print(json.dumps(row), flush=True)
     (args.output / 'summary.json').write_text(json.dumps({'purpose': 'RESEARCH_ONLY', 'productionApproved': False, 'image': image, 'rows': rows, 'note': 'Synthetic sensitivity study. No production threshold or bank approval follows.'}, indent=2) + '\n', encoding='utf-8')
 

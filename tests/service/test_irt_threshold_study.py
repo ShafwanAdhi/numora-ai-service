@@ -6,4 +6,7 @@ class ThresholdStudyTests(unittest.TestCase):
         baseline = policy(); candidates = list(profiles(baseline))
         self.assertEqual(len(candidates), 243); self.assertEqual(policy(), baseline)
         self.assertTrue(all(p['purpose'] == 'RESEARCH_ONLY' and not p['productionApproved'] for p in candidates))
+
+    def test_candidate_grid_is_full_research_only_grid(self):
+        self.assertEqual(len(list(profiles(policy()))), 243)
 if __name__ == '__main__': unittest.main()
