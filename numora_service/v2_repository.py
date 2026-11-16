@@ -37,7 +37,7 @@ class RepositoryV2(Repository):
         original=self.bank.get(p['questionExternalId'])
         if (original['classification']['activity']!=c['ecosystem'] or
             (c['ecosystem']=='DRILL' and (s['level_id'] is None or str(s['level_id'])!=str(c['level_id']))) or
-            (c['ecosystem']=='TRYOUT' and c['tryout_batch_id'] is None)):
+            (c['ecosystem']=='TRYOUT' and c.get('tryout_batch_id') is None and c.get('generation_package_id') is None)):
             raise ServiceError('SOURCE_CONTEXT_SCOPE_MISMATCH')
         canonical=source_content(normalized_source(s))
         if (p['serviceContract']!=self.service_contract or constraints.get('serviceContract')!=self.service_contract or
