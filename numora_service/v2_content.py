@@ -14,6 +14,10 @@ def strip_legacy_image(text):
 def local_record(record):
     record=deepcopy(record)
     record['stem']=strip_legacy_image(record['stem'])
+    # Source asset markers are pinned separately in v2 media metadata; they must
+    # not enter plain canonical comparison or be rejected by v1 text guards.
+    record['stem']=re.sub(r'\[\[asset:[^\]]+\]\]\s*', '', record['stem'])
+    record['explanation']=re.sub(r'\[\[asset:[^\]]+\]\]\s*', '', record.get('explanation',''))
     return record
 
 
