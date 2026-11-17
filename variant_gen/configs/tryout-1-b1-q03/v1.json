@@ -1,7 +1,7 @@
 {
   "question_id": "tryout-1-b1-q03",
   "config_version": 1,
-  "original_hash": "837abd1870dd7d43",
+  "original_hash": "b0a3657cd2324caf",
   "original_values": {
     "a": -12,
     "b": 8,
@@ -53,7 +53,7 @@
       "expr": "a+c"
     }
   },
-  "stem": "Perhatikan dua cara perhitungan berikut.\nBudi: {a} + {b} Ã— ({c})\nAndi: ({a} + {b}) Ã— ({c})\nPernyataan yang tepat mengenai hasil perhitungan Budi dan Andi adalah ....",
+  "stem": "Perhatikan dua cara perhitungan berikut.\nBudi: {a} + {b} × ({c})\nAndi: ({a} + {b}) × ({c})\nPernyataan yang tepat mengenai hasil perhitungan Budi dan Andi adalah ....",
   "options": [
     {
       "id": "A",
@@ -76,7 +76,7 @@
       "correct": true
     }
   ],
-  "explanation": "Perkalian dikerjakan dahulu pada bentuk Budi: {a} + {b} Ã— ({c}) = {first}. Pada bentuk Andi, kurung didahulukan: ({a} + {b}) Ã— ({c}) = {second}.",
+  "explanation": "Perkalian dikerjakan dahulu pada bentuk Budi: {a} + {b} × ({c}) = {first}. Pada bentuk Andi, kurung didahulukan: ({a} + {b}) × ({c}) = {second}.",
   "constraints": [
     "a+b<0",
     "first != wrong2"
