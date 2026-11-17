@@ -1,9 +1,9 @@
 id,format,cognitive_level,stem,options_json,key,version
-tryout-1-b1-q01,PG,C3,"Suhu di dalam sebuah lemari pendingin adalah -8Â°C. Setelah dinyalakan, suhu meningkat sebesar 13Â°C. Suhu lemari pendingin sekarang adalah ....","[""-21Â°C"",""-5Â°C"",""5Â°C"",""21Â°C""]",C,1
+tryout-1-b1-q01,PG,C3,"Suhu di dalam sebuah lemari pendingin adalah -8°C. Setelah dinyalakan, suhu meningkat sebesar 13°C. Suhu lemari pendingin sekarang adalah ....","[""-21°C"",""-5°C"",""5°C"",""21°C""]",C,1
 tryout-1-b1-q02,PG,C3,"Rina memiliki uang Rp50.000,00. Ia membeli buku seharga Rp18.000,00 dan alat tulis seharga Rp12.000,00. Sisa uang Rina adalah ....","[""Rp20.000,00"",""Rp25.000,00"",""Rp30.000,00"",""Rp32.000,00""]",A,1
 tryout-1-b1-q03,PG,C4,"Perhatikan dua cara perhitungan berikut.
-Budi: -12 + 8 Ã— (-4)
-Andi: (-12 + 8) Ã— (-4)
+Budi: -12 + 8 × (-4)
+Andi: (-12 + 8) × (-4)
 Pernyataan yang tepat mengenai hasil perhitungan Budi dan Andi adalah ....","[""Hasil Budi dan Andi sama, yaitu 16."",""Hasil Budi adalah 80 dan hasil Andi adalah -16."",""Hasil Budi adalah -16 dan hasil Andi adalah 16."",""Hasil Budi adalah -44 dan hasil Andi adalah 16.""]",D,1
 tryout-1-b1-q04,PG,C4,"Empat siswa menghitung hasil dari:
 $24 \div  (-6) - (-5)$
@@ -14,7 +14,7 @@ Citra: -1
 Deni: 9
 Siswa yang memperoleh hasil benar adalah ....","[""Andi"",""Budi"",""Citra"",""Deni""]",B,1
 tryout-1-b1-q05,PG,C4,"Sebuah bilangan dikalikan 3, kemudian hasilnya dikurangi 7. Hasil akhirnya adalah 20.
-Pernyataan yang tepat untuk menentukan bilangan tersebut adalah ....","[""Bilangan tersebut diperoleh dari 20 - 7, sehingga hasilnya 13."",""Bilangan tersebut diperoleh dari 20 + 7, sehingga hasilnya 27."",""Bilangan tersebut diperoleh dari (20 + 7) Ã· 3, sehingga hasilnya 9."",""Bilangan tersebut diperoleh dari (20 - 7) Ã· 3, sehingga hasilnya 4 1/3.""]",C,1
+Pernyataan yang tepat untuk menentukan bilangan tersebut adalah ....","[""Bilangan tersebut diperoleh dari 20 - 7, sehingga hasilnya 13."",""Bilangan tersebut diperoleh dari 20 + 7, sehingga hasilnya 27."",""Bilangan tersebut diperoleh dari (20 + 7) ÷ 3, sehingga hasilnya 9."",""Bilangan tersebut diperoleh dari (20 - 7) ÷ 3, sehingga hasilnya 4 1/3.""]",C,1
 tryout-1-b1-q06,MCMA,C4,Perhatikan operasi bilangan berikut. Pilih semua jawaban yang benar!,"[""$(-15) + 8 = -7$"",""$24 \\div  (-6) = 6$"",""$(-7) \\times  (-5) = 35$"",""$18 - (-4) = 14$""]","A,C",1
 tryout-1-b1-q07,MCMA,C5,"Perhatikan dua cara penyelesaian berikut.
 Penyelesaian 1:
@@ -34,8 +34,8 @@ tryout-1-b2-q03,PG,C4,"Rian mendapat kupon belanja perlengkapan sekolah sebesar 
 tryout-1-b2-q04,PG,C4,"Ibu Maya membeli 3 paket spidol dan 2 penggaris seharga Rp43.000,00. Pak Hari membeli 2 paket spidol dan 4 penggaris seharga Rp42.000,00. Harga 1 paket spidol dan 1 penggaris adalah ....","[""Rp14.000,00"", ""Rp15.000,00"", ""Rp16.000,00"", ""Rp17.000,00""]",B,1
 tryout-1-b2-q05,PG,C5,"Tarif sewa sepeda listrik di taman kota dirumuskan dengan $f(x)=10.000+3.000x$, dengan $x$ menyatakan lama pemakaian dalam jam. Pengelola menetapkan batas waktu pemakaian harian dengan domain fungsi $x\in \{1,2,3,4\}$.
 Perhatikan dua klaim berikut:
-â€¢ Klaim I: Daerah hasil (range) dari fungsi tersebut adalah $\{13.000,16.000,19.000,22.000\}$.
-â€¢ Klaim II: Jika seorang penyewa membayar Rp28.000,00, maka penyewa tersebut telah menggunakan sepeda selama 6 jam dan masih berada dalam rentang domain harian.
+• Klaim I: Daerah hasil (range) dari fungsi tersebut adalah $\{13.000,16.000,19.000,22.000\}$.
+• Klaim II: Jika seorang penyewa membayar Rp28.000,00, maka penyewa tersebut telah menggunakan sepeda selama 6 jam dan masih berada dalam rentang domain harian.
 Pernyataan berikut yang paling tepat adalah...","[""Klaim I benar dan Klaim II benar"",""Klaim I benar dan Klaim II salah"",""Klaim I salah dan Klaim II benar"",""Kedua klaim salah""]",B,1
 tryout-1-b2-q06,MCMA,C4,"Sebuah sanggar tari menyewa dua jenis busana tradisional untuk pementasan. Harga sewa 2 stel Busana A dan 3 stel Busana B adalah Rp210.000,00. Sedangkan harga sewa 4 stel Busana A dan 1 stel Busana B adalah Rp270.000,00. Manakah pernyataan berikut yang benar? (Jawaban boleh lebih dari satu)","[""Harga sewa 1 stel Busana A adalah Rp60.000,00"",""Harga sewa 1 stel Busana B adalah Rp30.000,00"",""Selisih harga sewa 1 stel Busana A dan 1 stel Busana B adalah Rp30.000,00"",""Total biaya untuk menyewa 2 stel Busana A dan 2 stel Busana B adalah Rp180.000,00""]","A,B,C,D",1
 tryout-1-b2-q07,KATEGORI,C4,"Sebuah tabungan siswa diawali dengan setoran pertama sebesar Rp20.000,00 pada minggu ke-1. Pada minggu-minggu berikutnya, besarnya setoran bertambah secara tetap sebesar Rp5.000,00 tiap minggunya, hingga minggu ke-5. Tentukan status BENAR atau SALAH untuk setiap pernyataan berikut!","[""Setoran tabungan pada minggu ke-5 adalah Rp40.000,00."",""Jumlah total seluruh tabungan siswa selama 5 minggu pertama adalah Rp150.000,00."",""Rata-rata tabungan per minggu selama 5 minggu tersebut adalah Rp30.000,00.""]","1,2,3",1
