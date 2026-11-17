@@ -40,30 +40,30 @@
       "expr": "-a+b"
     }
   },
-  "stem": "Suhu di dalam sebuah lemari pendingin adalah {a}캜. Suhu kemudian meningkat sebesar {b}캜. Suhu lemari pendingin sekarang adalah ....",
+  "stem": "Suhu di dalam sebuah lemari pendingin adalah {a}째C. Suhu kemudian meningkat sebesar {b}째C. Suhu lemari pendingin sekarang adalah ....",
   "options": [
     {
       "id": "A",
-      "text": "{o0}캜",
+      "text": "{o0}째C",
       "correct": false
     },
     {
       "id": "B",
-      "text": "{o1}캜",
+      "text": "{o1}째C",
       "correct": false
     },
     {
       "id": "C",
-      "text": "{ans}캜",
+      "text": "{ans}째C",
       "correct": true
     },
     {
       "id": "D",
-      "text": "{o3}캜",
+      "text": "{o3}째C",
       "correct": false
     }
   ],
-  "explanation": "Suhu akhir = {a} + {b} = {ans}캜.",
+  "explanation": "Suhu akhir = {a} + {b} = {ans}째C.",
   "constraints": [
     "a+b != 0"
   ],
