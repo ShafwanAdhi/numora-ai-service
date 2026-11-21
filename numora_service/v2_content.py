@@ -14,6 +14,16 @@ def strip_legacy_image(text):
 def local_record(record):
     record=deepcopy(record)
     record['stem']=strip_legacy_image(record['stem'])
+    # Source asset markers are pinned separately in v2 media metadata; they must
+    # not enter plain canonical comparison or be rejected by v1 text guards.
+    record['stem']=re.sub(r'\[\[asset:[^\]]+\]\]\s*', '', record['stem'])
+    record['explanation']=re.sub(r'\[\[asset:[^\]]+\]\]\s*', '', record.get('explanation',''))
+    if record.get('format') == 'KATEGORI':
+        # Main canonical category statements use A/B/C IDs; local bank uses 1/2/3.
+        mapping = {str(i + 1): chr(65 + i) for i in range(len(record.get('options', [])))}
+        for option in record.get('options', []):
+            option['id'] = mapping.get(option['id'], option['id'])
+        record['key'] = ','.join(mapping.get(x, x) for x in record.get('key', '').split(',') if x)
     return record
 
 

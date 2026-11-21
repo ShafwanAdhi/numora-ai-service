@@ -1,0 +1,18 @@
+{
+  "version": "anchor-linking-study-v2",
+  "purpose": "RESEARCH_ONLY",
+  "productionApproved": false,
+  "phases": {"screening": {"replications": 10, "seedBase": 31000000}, "confirmation": {"replications": 100, "seedBase": 41000000}},
+  "scenarios": [
+    {"id": "equal-1000", "counts": [1000,1000], "stepShifts": [], "logSlopeShift": 0},
+    {"id": "equal-2000", "counts": [2000,2000], "stepShifts": [], "logSlopeShift": 0},
+    {"id": "equal-three-arms", "counts": [1500,1500,1500], "stepShifts": [], "logSlopeShift": 0},
+    {"id": "unequal-counts", "counts": [500,2000], "stepShifts": [], "logSlopeShift": 0},
+    {"id": "one-anchor-step", "counts": [1000,1000], "stepShifts": [0.60], "logSlopeShift": 0},
+    {"id": "opposing-anchor-steps", "counts": [1000,1000], "stepShifts": [0.60,-0.60], "logSlopeShift": 0},
+    {"id": "one-anchor-slope", "counts": [1000,1000], "stepShifts": [], "logSlopeShift": 0.40}
+  ],
+  "bootstrap": {"replications": 200, "seedBase": 51000000, "parentSeedBase": 61000000, "models": ["2PL","GPCM"], "stepShifts": [0,0.60], "perArm": 1000},
+  "acceptance": {"wilsonLevel": 0.95, "maximumErrorUpperBound": 0.05, "minimumCorrectLowerBound": 0.80, "powerScenarios": ["equal-2000","one-anchor-step","opposing-anchor-steps","one-anchor-slope"], "allFailuresRemainInDenominator": true},
+  "fixedDesignNote": "Original latent N(0,1); variant g has mean .25*g and SD 1+.1*g. Twenty-five focal items are structurally absent in other packages. No seed/policy selection on confirmation outcomes."
+}
