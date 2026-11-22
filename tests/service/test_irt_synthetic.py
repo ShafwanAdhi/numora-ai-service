@@ -33,5 +33,12 @@ class SyntheticTests(unittest.TestCase):
         self.assertEqual(len(value['respondents']),9)
         self.assertEqual(len(truth['theta']),9)
 
+    def test_balanced_paired_latent_mode_reuses_theta_across_arms(self):
+        value,truth=generate(8,seed=20261122,latent_mode='BALANCED_PAIRED')
+        self.assertEqual(truth['theta'][value['respondents'][0]['attemptId']],
+                         truth['theta'][value['respondents'][8]['attemptId']])
+        self.assertEqual(truth['design'],'MIXED')
+        self.assertEqual(truth['seed'],20261122)
+
 
 if __name__=='__main__':unittest.main()

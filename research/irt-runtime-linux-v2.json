@@ -5,25 +5,25 @@
   "os": "linux",
   "architecture": "amd64",
   "sourceSha256": {
-    "Dockerfile.irt-producer": "ee7be6cb8ae1758ea8c0e4142f76550bcf15fdcb5edd788e8c6232afc61bc60c",
+    "Dockerfile.irt-producer": "80a0eecefebfb7515dbcb9969889e13cc626c5ff0fb1898d1c952981350f5bc2",
     "Dockerfile.irt-research": "f1363de45d043fc9fce0ac8b907fac81ca1602d76a34580e90b0dc72e8d6c0db",
     "contracts/irt-calibration-service-v1/notification.schema.json": "9f603937640d1e7e49c30088cb764bcca91537c95cd4f9193192313a49984044",
     "contracts/irt-calibration-service-v1/response.schema.json": "98d0d212849f2df683edd406e2f89d565ea6aec153992e40ac8019e863a6d13e",
     "contracts/irt-calibration-v1/common.schema.json": "3588e42889406afb34a9b5fc309ed9291d68f325c655a59e2abc5826d0f8f894",
     "contracts/irt-calibration-v1/input.schema.json": "483467117552dc3f375e52162633bcff228e819c616da467267738c458e6786f",
-    "contracts/irt-calibration-v1/result.schema.json": "5a4d611ca1f42e679bc5c81b02a67f5300d0e45b766b7aac184ae881f5d532df",
-    "contracts/irt-calibration-v1/validate.py": "8ce42d1170bae31a966c861e813286c5413366759d5ab9c9945236226ad38306",
+    "contracts/irt-calibration-v1/result.schema.json": "91b675193ee98a3b40244ff7e17662c7cad1a5da3ec9309eb9245df8bcad73b8",
+    "contracts/irt-calibration-v1/validate.py": "45aaea90f110005f0c4a9c10533889d18623101ad9667f3efdb637a3cd895977",
     "numora_service/contracts.py": "8849d3a02272e32498d21778b01660d0fab733170c9c20a76f6983e489a170db",
-    "numora_service/irt/api.py": "6fbb0ccef203ce42ad41183652818952f31dd9e65a430e1632588ea12d2ecbe7",
-    "numora_service/irt/daemon.py": "9cea71fc1bd4b849243d465ce3b6bed73d0116d0ad1c522ea532262fe8292af4",
+    "numora_service/irt/api.py": "14c739f27d6065e624629410073e4962b4be5132f7644f21d0c38f526ddbda72",
+    "numora_service/irt/daemon.py": "bd4edc215fc2e4fed2bf45beeb81c95053a62092a954f36fc9040a60ba8e8911",
     "numora_service/irt/failures.py": "d06d374ed8843ed476c59acadc28aa6a68708de56d4a9f5ed17f8306f7d95719",
-    "numora_service/irt/gates.py": "904a375d93c616b4adeb5d7a4acc820ed0e76b106918964f083327c67f30d0d4",
+    "numora_service/irt/gates.py": "eb4b63226453cbd76ad9e60f54fe4ff3504f23264392b6250020c7702045b162",
     "numora_service/irt/math.py": "bbff0ad90b2a167e7d22156b8b659c5cee09239b1dd094b9bdfba06ae2db1076",
-    "numora_service/irt/operations.py": "e97d24b7d5838d998723898a5cbd2c7552dc5f731e4b4cad26f8b20ab3b6b7ff",
-    "numora_service/irt/producer.py": "52877c7a324579076e395c95f29a762ff114fd7f276376bb9e1f963a6dddee31",
-    "numora_service/irt/repository.py": "f84caa94c1455aa707217eb963082ccd913674c6fa439f44bceb4c6d5547744e",
+    "numora_service/irt/operations.py": "91413b25b6dbe74abf8922873355171648b6a9542abc6d9eae1144076ac70ad2",
+    "numora_service/irt/producer.py": "33aee1a1457b5f433dbef5a2e7fe91a1d5bd671d20d989e594f2ea1211cdb1db",
+    "numora_service/irt/repository.py": "7d91ef4872907a9dd134a8e078fac5d33376082deb2dc8f8351cc3b09a9ff6f7",
     "numora_service/irt/runner.py": "e97c44cbc1eaa5ec0e1622a827b5bcf405e93eb085400ba97905ef801257cfec",
-    "numora_service/irt/runtime.py": "2705aab03d6e4395fedc2ef75589aed7a9a4766a99c88fad1aefab959af173ed",
+    "numora_service/irt/runtime.py": "8c1d74f46a1093d41aa1a63ff3fc73db6c9eb2a9d9e630af73ee5253d1135b06",
     "numora_service/irt_contracts.py": "f72fdf1dfe198045bc0296b7e9ef7c0d8d469d9528e62f96b8e77d3acc2d9867",
     "numora_service/json_boundary.py": "ca40c046b7cde3817a57cb73ffc6458e8a719f84bd1559a0a935fd0ab9f53913",
     "numora_service/repository.py": "b9977ef750ae7647409c44aacb75fd3f2fed0ea245db3e5451640ab748ba3829",
@@ -68,5 +68,5 @@
       "uvicorn": "0.40.0"
     }
   },
-  "producerImage": "sha256:2df35c95696055a584cbc07525dc5db97d1a10129de3b356a6aa2bbbb75ff679"
+  "producerImage": "sha256:accb67354871ca80ba09643a8b999f644c5b430cb0b6db362cb1b979804b842a"
 }

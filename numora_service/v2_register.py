@@ -25,7 +25,7 @@ def register(repository,bank,configs,manifest,apply=False,seal=False):
             context=repository.one(db,'SELECT * FROM public.irt_input_contexts_v3 WHERE id=%s',(uuid(item['contextId']),))
             if (original['classification']['activity']!=context['ecosystem'] or
                 (context['ecosystem']=='DRILL' and (source['level_id'] is None or str(source['level_id'])!=str(context['level_id']))) or
-                (context['ecosystem']=='TRYOUT' and context['tryout_batch_id'] is None and context.get('generation_package_id') is None)):
+                (context['ecosystem']=='TRYOUT' and context.get('tryout_batch_id') is None and context.get('generation_package_id') is None)):
                 raise ServiceError('SOURCE_CONTEXT_SCOPE_MISMATCH')
             canonical=source_content(normalized_source(source))
             if (source['kind']!='ORIGINAL' or str(source['family_id'])!=item['familyId'] or

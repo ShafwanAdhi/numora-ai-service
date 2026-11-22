@@ -10,14 +10,17 @@ from ..irt_contracts import validate_input, validate_result
 from .math import convert, eap, probabilities, reference_score, posterior_grid
 from .gates import anchor_gate
 from .failures import EngineExecutionError
-from .mode import purpose
 
 POLICY_PATH = Path(__file__).resolve().parents[2] / 'research/irt/policy-v1.json'
+DRILL_POLICY_PATH = Path(__file__).resolve().parents[2] / 'research/irt/policy-drill-v1.json'
 
 
 def policy():
-    path=POLICY_PATH.with_name('policy-production-candidate-v1.json') if purpose()=='PRODUCTION' else POLICY_PATH
-    return json.loads(path.read_text(encoding='utf-8'))
+    return json.loads(POLICY_PATH.read_text(encoding='utf-8'))
+
+
+def drill_policy():
+    return json.loads(DRILL_POLICY_PATH.read_text(encoding='utf-8'))
 
 
 def check(code, passed, statistic=None):
@@ -38,13 +41,16 @@ def anchor_support(people,items,responses,anchors,quality):
     return supported,evidence
 
 
-def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
+def run(value, dispatch, runner, profile=None, heartbeat=lambda:None, allow_research_profile=False):
     heartbeat()
     validate_input(value)
-    profile = profile or policy()
-    if profile != policy():
+    expected_profile = drill_policy() if value['ecosystem'] == 'DRILL' else policy()
+    profile = profile or expected_profile
+    if profile != expected_profile and not (
+        allow_research_profile and profile.get('purpose') == 'RESEARCH_ONLY'
+    ):
         raise ValueError('POLICY_UNAVAILABLE')
-    if value['ecosystem'] != 'TRYOUT' or value['comparisons']:
+    if value['ecosystem'] not in ('TRYOUT', 'DRILL') or value['comparisons']:
         raise ValueError('UNSUPPORTED_CONTRACT')
     if len(value['respondents']) > profile['runtime']['maximumRespondents'] or len(value['packages']) > profile['runtime']['maximumArms']:
         raise ValueError('INVALID_INPUT')
@@ -183,11 +189,15 @@ def run(value, dispatch, runner, profile=None, heartbeat=lambda:None):
         reason = 'NO_VALID_ITEMS' if status=='UNSCORABLE' else 'LINKING_FAILED' if status=='NOT_COMPARABLE' else 'INSUFFICIENT_SAMPLE'
         row = {k:person[k] for k in ['respondentId','attemptId','packageId','packageVersion','batchId']}
         row.update(status=status,theta=None,standardError=None,score=None,scoreMapping=None,referencePackage=None,usedQuestionVersionIds=[],reasonCodes=[reason])
-        if package_state=='CALIBRATED' and value['policies']['scoreMapping'] and reference and all(i['questionVersionId'] in parameters for i in reference) and len(observations)>=profile['respondent']['minimumValidItems']:
+        drill_scored = value['ecosystem'] == 'DRILL' and package_state == 'CALIBRATED' and len(observations) >= profile['respondent']['minimumValidItems']
+        tryout_scored = value['ecosystem'] == 'TRYOUT' and package_state == 'CALIBRATED' and value['policies']['scoreMapping'] and reference and all(i['questionVersionId'] in parameters for i in reference) and len(observations)>=profile['respondent']['minimumValidItems']
+        if drill_scored or tryout_scored:
             theta,se = eap(observations,parameters,prepared=posterior)
             if se<=profile['respondent']['maximumPosteriorSD']:
-                row.update(status='SCORED',theta=theta,standardError=se,score=reference_score(theta,reference,parameters),
-                    scoreMapping=value['policies']['scoreMapping'],referencePackage=value['referencePackage'],
+                row.update(status='SCORED',theta=theta,standardError=se,
+                    score=None if value['ecosystem'] == 'DRILL' else reference_score(theta,reference,parameters),
+                    scoreMapping=None if value['ecosystem'] == 'DRILL' else value['policies']['scoreMapping'],
+                    referencePackage=None if value['ecosystem'] == 'DRILL' else value['referencePackage'],
                     usedQuestionVersionIds=[q for q,_ in observations],reasonCodes=[])
             else: row['reasonCodes']=['RESPONDENT_PRECISION_INSUFFICIENT']
         respondents.append(row)

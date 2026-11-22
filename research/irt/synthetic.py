@@ -11,8 +11,9 @@ from uuid import UUID, uuid5
 NAMESPACE=UUID('58d45273-1a7f-456f-9ea4-d330e4222603')
 
 
-def generate(n=1000, seed=20261109, model='MIXED', arms=2, include_mcma=False):
+def generate(n=1000, seed=20261109, model='MIXED', arms=2, include_mcma=False, latent_mode='SHIFTED'):
     if arms not in (2,3):raise ValueError('Synthetic design supports two or three arms')
+    if latent_mode not in ('SHIFTED','BALANCED_PAIRED'):raise ValueError('Unsupported latent mode')
     root=Path(__file__).resolve().parents[2]
     value=json.loads((root/'contracts/irt-calibration-v1/examples/tryout-input.json').read_text())
     value['comparisons']=[];value['policies']['comparison']=None
@@ -56,6 +57,7 @@ def generate(n=1000, seed=20261109, model='MIXED', arms=2, include_mcma=False):
     items={i['questionVersionId']:i for i in value['items']}
     person_template=value['respondents'][0];response_template=value['responses'][0]
     value['respondents']=[];value['responses']=[];truth={}
+    paired_theta=[rng.gauss(0,1) for _ in range(n)] if latent_mode=='BALANCED_PAIRED' else None
     for arm,package in enumerate(value['packages']):
         for index in range(n):
             label=f'{seed}:{arm}:{index}'
@@ -63,7 +65,7 @@ def generate(n=1000, seed=20261109, model='MIXED', arms=2, include_mcma=False):
             person.update(respondentId=str(uuid5(NAMESPACE,'person:'+label)),attemptId=str(uuid5(NAMESPACE,'attempt:'+label)),
                 packageId=package['packageId'],packageVersion=package['packageVersion'],
                 assignedArmId=package['armId'],deliveredArmId=package['armId'])
-            theta=rng.gauss(arm*.25,1+arm*.1)
+            theta=paired_theta[index] if paired_theta is not None else rng.gauss(arm*.25,1+arm*.1)
             truth[person['attemptId']]=theta
             value['respondents'].append(person)
             for qid in package['questionVersionIds']:
