@@ -125,6 +125,7 @@ def create_app(settings=None, repository=None, runner=None):
 
     @app.get('/api/v2/generators', dependencies=[Depends(authorize_v2)])
     def generators_v2():
+        from .drill_variant import runtime_pin
         from .v2_generate import stocks, stock_manifest, media_profile
         stock = stocks(bank)
         rows = []
@@ -135,7 +136,11 @@ def create_app(settings=None, repository=None, runner=None):
             rows.append({**item, 'mode': mode or item['mode'],
                          'stockManifest': stock_manifest(stock[item['questionExternalId']]) if mode=='CONCEPTUAL_STOCK' else None,
                          'mediaProfile': media_profile(item['questionExternalId'])})
-        return {'serviceContract':'generator-service-v2','items':rows}
+        response = {'serviceContract':'generator-service-v2','items':rows}
+        pin = runtime_pin()
+        if pin:
+            response['drillVariantRuntime'] = pin
+        return response
 
     @app.post('/api/v2/compute/execute', dependencies=[Depends(authorize_v2)])
     async def execute_v2(request: Request):

@@ -51,7 +51,8 @@ class V2Tests(unittest.TestCase):
 
     def test_contracts_are_identical_in_both_repos(self):
         root=Path(__file__).resolve().parents[2]
-        main=root.parent/'Numora/packages/contracts/generator-service-v2'
+        import os
+        main=Path(os.environ.get('NUMORA_REPO_PATH', root.parent/'Numora'))/'packages/contracts/generator-service-v2'
         for file in (root/'contracts/generator-service-v2').rglob('*.json'):
             relative=file.relative_to(root/'contracts/generator-service-v2')
             self.assertEqual(file.read_bytes(),(main/relative).read_bytes(),str(relative))

@@ -14,7 +14,13 @@ LOG = logging.getLogger("numora.generator")
 def generate_result(work):
     if work.get('serviceContract') == 'generator-service-v2':
         from .v2_generate import generate_result as generate_v2
-        return generate_v2(work)
+        result = generate_v2(work)
+        if 'drillProvenance' in work:
+            if result != generate_v2(work):
+                raise ServiceError("DRILL_VARIANT_REPLAY_MISMATCH")
+            result['provenance'].update(work['drillProvenance'],
+                                        deterministicReplayDigest=result['payload']['contentFingerprint'])
+        return result
     orig, cfg, seed = (work[k] for k in ("original", "config", "seed"))
     result = generate(orig, cfg, seed, [])
     record = make_record(orig, cfg, config_hash(cfg), seed, 1, result)

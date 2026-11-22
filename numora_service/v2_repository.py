@@ -3,6 +3,7 @@ from psycopg.types.json import Jsonb
 from .bridge import original_record, config_hash, validate_config, ConfigStore, ENGINE_ROOT
 from .content import fingerprint, record_content, source_content, uuid
 from .errors import ServiceError
+from .drill_variant import validate_manifest
 from .repository import Repository
 from .v2_content import normalized_source, source_fingerprint, validate_payload, local_record
 from .v2_generate import media_profile, stock_manifest, stocks
@@ -12,9 +13,17 @@ class RepositoryV2(Repository):
     service_contract = 'generator-service-v2'
     validate_result = staticmethod(validate_payload)
 
+    def drill_source(self, db, package_id):
+        source = db.execute("SELECT * FROM public.generator_drill_sources_v2 WHERE id=%s", (uuid(package_id),)).fetchone()
+        roster = db.execute("""SELECT * FROM public.generator_drill_source_items_v2
+            WHERE package_id=%s ORDER BY display_order""", (uuid(package_id),)).fetchall()
+        return source, roster
+
     def task_work(self, db, task):
         r,w,g,s,a,rubric,c = (task[k] for k in ['request','wave','config','source','approval','rubric','context'])
         p, constraints = g['parameters'], w['constraints']
+        manifest = constraints.get('drillVariantManifest')
+        optional = {'drillVariantManifest'} if 'drillVariantManifest' in constraints else set()
         required={'serviceContract','questionExternalId','mode','parentQuestionVersionId','familyId','rubricVersionId','contextId','mediaProfile','originalVersion','originalHash','sourceFingerprint'}
         required |= {'configVersion','configHash','config'} if p.get('mode')=='NUMERIC' else {'stockSetId','stockSetDigest'}
         if set(p)!=required:
@@ -37,7 +46,7 @@ class RepositoryV2(Repository):
         original=self.bank.get(p['questionExternalId'])
         if (original['classification']['activity']!=c['ecosystem'] or
             (c['ecosystem']=='DRILL' and (s['level_id'] is None or str(s['level_id'])!=str(c['level_id']))) or
-            (c['ecosystem']=='TRYOUT' and c['tryout_batch_id'] is None)):
+            (c['ecosystem']=='TRYOUT' and c['tryout_batch_id'] is None and c.get('generation_package_id') is None)):
             raise ServiceError('SOURCE_CONTEXT_SCOPE_MISMATCH')
         canonical=source_content(normalized_source(s))
         if (p['serviceContract']!=self.service_contract or constraints.get('serviceContract')!=self.service_contract or
@@ -51,13 +60,15 @@ class RepositoryV2(Repository):
             raise ServiceError('RENDERER_TEMPLATE_PIN_MISMATCH')
         work={'serviceContract':self.service_contract,'original':original,'source':s,
               'mediaProfile':p['mediaProfile'],'mode':p['mode']}
+        if optional:
+            work['drillProvenance'] = validate_manifest(self, db, task, manifest)
         if p['mode']=='NUMERIC':
             # JSONB object order is not an execution order. Reconcile the exact
             # pinned local version, then retain its reviewed variable ordering.
             cfg, local_hash=ConfigStore(ENGINE_ROOT/'configs').load(original['id'],p['configVersion'])
             if cfg!=p['config'] or local_hash!=p['configHash']:
                 raise ServiceError('NUMERIC_CONFIG_HASH_MISMATCH')
-            if set(constraints)!={'serviceContract','seed'} or type(constraints['seed']) is not int or not 1<=constraints['seed']<=1_000_000_000:
+            if set(constraints)!={'serviceContract','seed'} | optional or type(constraints['seed']) is not int or not 1<=constraints['seed']<=1_000_000_000:
                 raise ServiceError('INVALID_NUMERIC_CONSTRAINTS')
             if config_hash(cfg)!=p['configHash']:
                 raise ServiceError('NUMERIC_CONFIG_HASH_MISMATCH')
@@ -65,7 +76,7 @@ class RepositoryV2(Repository):
                 raise ServiceError('CONFIG_PIN_MISMATCH')
             work.update(config=cfg,seed=constraints['seed'])
         elif p['mode']=='CONCEPTUAL_STOCK':
-            if set(constraints)!={'serviceContract','stockReservationId'}:
+            if set(constraints)!={'serviceContract','stockReservationId'} | optional:
                 raise ServiceError('INVALID_STOCK_CONSTRAINTS')
             reservation=self.one(db,'SELECT * FROM public.irt_input_stock_reservations_v2 WHERE id=%s',(uuid(constraints['stockReservationId']),))
             inventory=self.one(db,'SELECT * FROM public.irt_input_stock_sets_v2 WHERE id=%s',(reservation['stock_set_id'],))
