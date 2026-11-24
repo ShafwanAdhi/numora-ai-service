@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from bank import OriginalBank, BankError
 from config_store import ConfigStore, validate_config
-from engine import generate, key_of
+from engine import assemble, build_values, generate, key_of
 from expr import render
 from lint import reproduce_original
 from store import StoreError
@@ -79,6 +79,33 @@ class TryoutTests(unittest.TestCase):
                     self.assertEqual(result.cand, generate(orig, cfg, seed, candidates).cand)
                     self.assertEqual(sum(o['correct'] for o in result.cand['options']), sum(o['correct'] for o in orig['options']))
                     candidates.append(result.cand)
+
+    def test_curriculum_variant_rendering(self):
+        def candidate(qid, **overrides):
+            original = self.bank.get(qid)
+            cfg, _ = self.configs.load(qid)
+            self.assertEqual(validate_config(cfg, original), [])
+            source = {**cfg["original_values"], **overrides}
+            return assemble(cfg, build_values(cfg, lambda name, _: source[name]))
+
+        for error, hours, key in ((0, 4, "A"), (0, 5, "B"), (1, 4, "C"), (1, 5, "D")):
+            with self.subTest(range_error=error, hours=hours):
+                item = candidate("tryout-1-b2-q05", base=19000, rate=4000, range_error=error, hours=hours)
+                first = "19.000" if error else "23.000"
+                self.assertIn("range adalah {" + first + ", 27.000, 31.000, 35.000}.", item["stem"])
+                self.assertEqual(key_of(item), key)
+
+        item = candidate("tryout-1-b4-q03", f1=5, f2=10, f3=3, f4=5, f5=7)
+        self.assertEqual([line for line in item["stem"].splitlines() if line.startswith("•")],
+                         [f"• {hour} jam = {count} siswa" for hour, count in enumerate((5, 10, 3, 5, 7), 1)])
+        self.assertEqual(key_of(item), "C")
+
+        for c, term in ((3, "x+24"), (2, "2x+20")):
+            with self.subTest(coefficient=4-c):
+                item = candidate("tryout-1-b2-q08", a=4, b=3, c=c, d=4, x=3)
+                self.assertIn(f"Q={term}.", item["stem"])
+                self.assertIn(f"={term}=Q.", item["explanation"])
+                self.assertEqual(key_of(item), "1,3")
 
     def test_package_returns_preview_without_persistence(self):
         from tryout import generate_package,export_package
