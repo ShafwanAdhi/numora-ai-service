@@ -63,6 +63,12 @@ class TryoutStock(unittest.TestCase):
             self.assertIn(f'{favorable}/{space}',item['explanation'])
             self.assertIn('sama',item['stem'].lower())
 
+    def test_revised_spinner_wording_and_pin(self):
+        item = self.stock["tryout-1-b4-q02"][0]
+        self.assertEqual(item["stock_version"], 2)
+        self.assertIn("Sebuah pemutar seimbang diputar satu kali.", item["stem"])
+        self.assertEqual(item["key"], "A")
+
     def test_survey_claims_do_not_assume_equal_allocation_is_proportional(self):
         q=IDS[2];self.assertIn(q,self.stock)
         items=self.stock[q]

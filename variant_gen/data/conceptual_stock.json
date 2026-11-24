@@ -6445,10 +6445,10 @@
       "variant_id": "tryout-1-b4-q02:stock-01",
       "question_id": "tryout-1-b4-q02",
       "stock_index": 1,
-      "stock_version": 1,
+      "stock_version": 2,
       "original_hash": "ce9632d094af6559",
       "original_version": 1,
-      "stem": "Sebuah pemutar memiliki empat sektor A, B, C, dan D yang sama luas. Pemutar fair diputar satu kali. Peluang penunjuk berhenti pada sektor C adalah ....",
+      "stem": "Sebuah pemutar memiliki empat sektor A, B, C, dan D yang sama luas. Sebuah pemutar seimbang diputar satu kali. Peluang penunjuk berhenti pada sektor C adalah ....",
       "options": [
         {
           "id": "A",
